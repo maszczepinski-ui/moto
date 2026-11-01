@@ -10,7 +10,7 @@ export function getAllModels(): CarModel[] {
   if (cache) return cache;
   const fileNames = fs.readdirSync(modelsDirectory);
   const models = fileNames
-    .filter((fileName) => fileName.endsWith('.json'))
+    .filter((fileName) => fileName.endsWith('.json') && !fileName.startsWith('.'))
     .map((fileName) => {
       const fullPath = path.join(modelsDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, 'utf8');
