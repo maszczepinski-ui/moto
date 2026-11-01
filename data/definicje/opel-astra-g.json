@@ -1,0 +1,117 @@
+{
+  "slug": "opel-astra-g",
+  "marka": "Opel",
+  "model": "Astra",
+  "generacja": "G",
+  "lataProdukcji": "1998–2004 (Astra Classic II do 2009)",
+  "opisModelu": "Druga Astra – w pełni ocynkowane nadwozie, sedan, hatchback, kombi, coupe i kabriolet. Po premierze Astry H produkowano ją dalej jako Astrę Classic II. W Polsce bardzo popularna, także jako auto pierwszego właściciela kupione w salonie.",
+  "wymiary": {
+    "dlugoscMm": 4110,
+    "szerokoscMm": 1709,
+    "wysokoscMm": 1420,
+    "rozstawOsiMm": 2606
+  },
+  "silniki": [
+    {
+      "nazwa": "1.2 16V",
+      "pojemnoscCm3": 1199,
+      "mocKm": 65,
+      "paliwo": "Benzyna",
+      "lata": "1998–2004"
+    },
+    {
+      "nazwa": "1.4 16V",
+      "pojemnoscCm3": 1389,
+      "mocKm": 90,
+      "paliwo": "Benzyna",
+      "lata": "1998–2004"
+    },
+    {
+      "nazwa": "1.6",
+      "pojemnoscCm3": 1598,
+      "mocKm": 75,
+      "paliwo": "Benzyna",
+      "lata": "1998–2000"
+    },
+    {
+      "nazwa": "1.6",
+      "pojemnoscCm3": 1598,
+      "mocKm": 85,
+      "paliwo": "Benzyna",
+      "lata": "2000–2004"
+    },
+    {
+      "nazwa": "1.6 16V",
+      "pojemnoscCm3": 1598,
+      "mocKm": 100,
+      "paliwo": "Benzyna",
+      "lata": "1998–2004"
+    },
+    {
+      "nazwa": "1.8 16V",
+      "pojemnoscCm3": 1796,
+      "mocKm": 125,
+      "paliwo": "Benzyna",
+      "lata": "2000–2004"
+    },
+    {
+      "nazwa": "2.0 16V",
+      "pojemnoscCm3": 1998,
+      "mocKm": 136,
+      "paliwo": "Benzyna",
+      "lata": "1998–2000"
+    },
+    {
+      "nazwa": "2.2 16V",
+      "pojemnoscCm3": 2198,
+      "mocKm": 147,
+      "paliwo": "Benzyna",
+      "lata": "2000–2004"
+    },
+    {
+      "nazwa": "1.7 DTI",
+      "pojemnoscCm3": 1686,
+      "mocKm": 75,
+      "paliwo": "Diesel",
+      "lata": "1999–2004"
+    },
+    {
+      "nazwa": "1.7 CDTI",
+      "pojemnoscCm3": 1686,
+      "mocKm": 80,
+      "paliwo": "Diesel",
+      "lata": "2003–2004"
+    },
+    {
+      "nazwa": "2.0 DI 16V",
+      "pojemnoscCm3": 1995,
+      "mocKm": 82,
+      "paliwo": "Diesel",
+      "lata": "1998–2000"
+    },
+    {
+      "nazwa": "2.0 DTI 16V",
+      "pojemnoscCm3": 1995,
+      "mocKm": 100,
+      "paliwo": "Diesel",
+      "lata": "1999–2004"
+    }
+  ],
+  "zrodla": [
+    "Wymiary i wersje silnikowe: ultimatespecs.com"
+  ],
+  "cepik": {
+    "marka": "OPEL",
+    "rodzina": "ASTRA",
+    "rokOdWykres": 1999,
+    "rokDoWykres": 2003,
+    "jakLiczone": "Ople Astra ze wszystkich nadwozi z roczników 1999–2003. W tych latach w Gliwicach składano jeszcze starszą Astrę Classic (F); pominęliśmy wpisy z nazwą „Astra F” i „Classic”, ale część z nich mogła zostać zapisana po prostu jako „Astra”, więc to liczba przybliżona.",
+    "reguly": [
+      {
+        "rokOd": 1999,
+        "rokDo": 2003
+      }
+    ],
+    "wykluczNazwy": "(-F\\b|\\bF\\b|CLASSIC)"
+  }
+}

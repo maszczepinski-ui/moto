@@ -1,0 +1,44 @@
+{
+  "slug": "bmw-seria-3-e36",
+  "marka": "BMW",
+  "model": "Seria 3",
+  "generacja": "E36",
+  "lataProdukcji": "1990–2000",
+  "opisModelu": "Trzecia generacja BMW serii 3, produkowana od końca 1990 roku. Napęd na tylne koła, szeroka gama silników od 1.6 do sześciocylindrowych 2.8 i wersji M3. Oferowana jako sedan, coupe, kombi (Touring), kabriolet i krótszy hatchback (Compact). Dziś to jedno z najpopularniejszych starszych BMW w Polsce: część egzemplarzy jeździ na co dzień, część trafiła do projektów driftowych i kolekcji.",
+  "wymiary": {
+    "dlugoscMm": 4433,
+    "szerokoscMm": 1698,
+    "wysokoscMm": 1393,
+    "rozstawOsiMm": 2700,
+    "bagaznik": "435 l (sedan)"
+  },
+  "silniki": [
+    { "nazwa": "316i", "pojemnoscCm3": 1596, "mocKm": 102, "paliwo": "Benzyna", "lata": "1990–2000" },
+    { "nazwa": "318i", "pojemnoscCm3": 1796, "mocKm": 115, "paliwo": "Benzyna", "lata": "1990–2000" },
+    { "nazwa": "318is", "pojemnoscCm3": 1796, "mocKm": 140, "paliwo": "Benzyna", "lata": "1992–1999" },
+    { "nazwa": "318tds", "pojemnoscCm3": 1665, "mocKm": 90, "paliwo": "Diesel", "lata": "1995–2000" },
+    { "nazwa": "320i", "pojemnoscCm3": 1991, "mocKm": 150, "paliwo": "Benzyna", "lata": "1991–2000" },
+    { "nazwa": "323i", "pojemnoscCm3": 2494, "mocKm": 170, "paliwo": "Benzyna", "lata": "1995–2000" },
+    { "nazwa": "325i", "pojemnoscCm3": 2494, "mocKm": 192, "paliwo": "Benzyna", "lata": "1990–1995" },
+    { "nazwa": "325td", "pojemnoscCm3": 2497, "mocKm": 115, "paliwo": "Diesel", "lata": "1991–2000" },
+    { "nazwa": "325tds", "pojemnoscCm3": 2497, "mocKm": 143, "paliwo": "Diesel", "lata": "1993–2000" },
+    { "nazwa": "328i", "pojemnoscCm3": 2793, "mocKm": 193, "paliwo": "Benzyna", "lata": "1995–2000" }
+  ],
+  "zrodla": ["Wymiary i wersje silnikowe: auto-data.net"],
+  "cepik": {
+    "marka": "BMW",
+    "rodzina": "Seria 3",
+    "rokOdWykres": 1992,
+    "rokDoWykres": 2000,
+    "jakLiczone": "Samochody osobowe BMW serii 3 (w CEPiK zapisane np. jako 316I, 318, 320, 325 TDS) tylko z tych roczników i nadwozi, które na pewno są generacją E36: sedany i coupe z lat 1992–1997, kombi z lat 1995–1998, kabriolety z lat 1994–1999 i hatchbacki (Compact) z lat 1994–2000. Pominęliśmy roczniki, w których E36 mieszało się z poprzednim E30 lub następnym E46 (np. sedany z 1998 r.), więc to liczba minimalna – prawdziwa jest nieco wyższa.",
+    "reguly": [
+      { "rokOd": 1992, "rokDo": 1992, "nadwozia": ["KARETA (SEDAN)"] },
+      { "rokOd": 1993, "rokDo": 1993, "nadwozia": ["KARETA (SEDAN)", "COUPE", "---", "INNY"] },
+      { "rokOd": 1994, "rokDo": 1994, "nadwozia": ["KARETA (SEDAN)", "COUPE", "HATCHBACK", "KABRIOLET", "---", "INNY"] },
+      { "rokOd": 1995, "rokDo": 1997, "nadwozia": ["KARETA (SEDAN)", "COUPE", "HATCHBACK", "KABRIOLET", "KOMBI", "---", "INNY"] },
+      { "rokOd": 1998, "rokDo": 1998, "nadwozia": ["HATCHBACK", "KABRIOLET", "KOMBI", "COUPE"] },
+      { "rokOd": 1999, "rokDo": 1999, "nadwozia": ["HATCHBACK", "KABRIOLET"] },
+      { "rokOd": 2000, "rokDo": 2000, "nadwozia": ["HATCHBACK"] }
+    ]
+  }
+}

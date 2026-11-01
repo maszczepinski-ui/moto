@@ -1,0 +1,49 @@
+# Ustawienia serwera dla wersji strony na zwykłym hostingu (np. cyber_Folks).
+# Ten plik automat kopiuje do głównego folderu strony (public_html) – nie trzeba go zmieniać.
+
+Options -Indexes
+DirectoryIndex index.html
+
+# zawsze https://
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# adres bez ukośnika na końcu → z ukośnikiem (np. /marki → /marki/), tak jak w mapie strony
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+RewriteRule ^(.*)$ /$1/ [L,R=301]
+
+# własna strona „nie znaleziono”
+ErrorDocument 404 /404.html
+
+# obrazki do udostępniania (Facebook, X) nie mają rozszerzenia – mówimy przeglądarce, że to PNG
+<FilesMatch "^(opengraph-image|twitter-image)$">
+  ForceType image/png
+</FilesMatch>
+<FilesMatch "^ads\.txt$">
+  ForceType text/plain
+</FilesMatch>
+<FilesMatch "^sitemap\.xml$|\.xml$">
+  ForceType application/xml
+</FilesMatch>
+
+# szybsze ładowanie: kompresja i długie zapamiętywanie plików, które nigdy się nie zmieniają
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript text/plain application/xml image/svg+xml application/json
+</IfModule>
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+# panel admina nie jest dla wyszukiwarek
+<IfModule mod_headers.c>
+  SetEnvIf Request_URI "^/admin" ADMIN
+  Header set X-Robots-Tag "noindex, nofollow" env=ADMIN
+</IfModule>

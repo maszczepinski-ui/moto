@@ -1,0 +1,71 @@
+// Mapy strony dla Google: indeks (/sitemap.xml) + mapy tematyczne (/sitemaps/*.xml), max 5000 adresów w pliku
+import { getAllModels } from '@/lib/models';
+import { listaWojewodztw, rankingi, marki } from '@/lib/dane';
+import { site } from '@/config/site';
+import { wszystkiePary } from '@/lib/porownania';
+import { KODY } from '@/lib/kody-bledow';
+
+const LIMIT = 5000;
+interface Adres {
+  loc: string;
+  lastmod?: string;
+  changefreq?: string;
+  priority?: number;
+}
+
+function grupy(): Record<string, Adres[]> {
+  const modele = getAllModels().sort((a, b) => b.cepik.liczbaWPolsce - a.cepik.liczbaWPolsce);
+  const karty = (lista: typeof modele, priorytet: number) =>
+    lista.map((m) => ({ loc: m.adres, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: priorytet }));
+  const out: Record<string, Adres[]> = {
+    strony: [
+      { loc: '/', changefreq: 'weekly', priority: 1 },
+      { loc: '/marki/', changefreq: 'monthly', priority: 0.9 },
+      { loc: '/wojewodztwa/', changefreq: 'monthly', priority: 0.7 },
+      { loc: '/rankingi/', changefreq: 'monthly', priority: 0.7 },
+      { loc: '/rynek/', changefreq: 'monthly', priority: 0.7 },
+      { loc: '/porownaj/', changefreq: 'monthly', priority: 0.6 },
+      { loc: '/metodologia/', changefreq: 'monthly', priority: 0.4 },
+      { loc: '/linki/', changefreq: 'weekly', priority: 0.4 },
+      { loc: '/prywatnosc/', changefreq: 'yearly', priority: 0.2 },
+      ...listaWojewodztw.map((w) => ({ loc: `/wojewodztwa/${w.slug}/`, changefreq: 'monthly', priority: 0.6 })),
+      ...rankingi.map((r) => ({ loc: `/rankingi/${r.id}/`, changefreq: 'monthly', priority: 0.6 }))
+    ],
+    marki: marki.map((m) => ({ loc: `/marki/${m.slug}/`, changefreq: 'monthly', priority: 0.8 })),
+    generacje: karty(modele.filter((m) => !m.wszystkieGeneracje), 0.8),
+    'kody-bledow': [{ loc: '/kody-bledow/', changefreq: 'monthly', priority: 0.6 }, ...KODY.map((k) => ({ loc: `/kody-bledow/${k.kod.toLowerCase()}/`, changefreq: 'yearly', priority: 0.5 }))]
+  };
+  const pary = wszystkiePary().map((p) => ({ loc: `/porownaj/${p.id}/`, changefreq: 'monthly', priority: 0.5 }));
+  for (let i = 0; i * LIMIT < pary.length; i++) out[`porownania-${i + 1}`] = pary.slice(i * LIMIT, (i + 1) * LIMIT);
+  const rodzinne = karty(modele.filter((m) => m.wszystkieGeneracje), 0.7);
+  for (let i = 0; i * LIMIT < rodzinne.length || i === 0; i++) out[`modele-${i + 1}`] = rodzinne.slice(i * LIMIT, (i + 1) * LIMIT);
+  return out;
+}
+
+export function plikiMap(): string[] {
+  return Object.keys(grupy()).map((k) => `${k}.xml`);
+}
+
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+export function mapaXml(plik: string): string | null {
+  const lista = grupy()[plik.replace(/\.xml$/, '')];
+  if (!lista) return null;
+  const wpisy = lista
+    .map(
+      (a) =>
+        `<url><loc>${esc(site.url + a.loc)}</loc>${a.lastmod ? `<lastmod>${a.lastmod}</lastmod>` : ''}${a.changefreq ? `<changefreq>${a.changefreq}</changefreq>` : ''}${
+          a.priority !== undefined ? `<priority>${a.priority.toFixed(1)}</priority>` : ''
+        }</url>`
+    )
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${wpisy}\n</urlset>\n`;
+}
+
+export function indeksXml(): string {
+  const dzis = new Date().toISOString().slice(0, 10);
+  const wpisy = plikiMap()
+    .map((p) => `<sitemap><loc>${site.url}/sitemaps/${p}</loc><lastmod>${dzis}</lastmod></sitemap>`)
+    .join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${wpisy}\n</sitemapindex>\n`;
+}
