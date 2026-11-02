@@ -10,6 +10,7 @@ import { WOJEWODZTWA } from '@/lib/wojewodztwa';
 import { fmt, formatDate } from '@/lib/format';
 import { site } from '@/config/site';
 import KodStrony from '@/components/KodStrony';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -149,7 +150,7 @@ export default async function WojewodztwoPage({ params }: Props) {
         Dane: CEPiK, stan na {formatDate(tlo.stanNa)}. Województwo to miejsce rejestracji auta. Liczone są zarejestrowane samochody osobowe, także te, które latami stoją
         nieużywane. Pokazujemy modele, które mają w Polsce co najmniej 2000 egzemplarzy.
       </p>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
       <KodStrony sciezka={`/wojewodztwa/${w.slug}/`} />
     </div>
   );

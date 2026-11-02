@@ -4,6 +4,8 @@ import { listaWojewodztw, rankingi, marki } from '@/lib/dane';
 import { site } from '@/config/site';
 import { wszystkiePary } from '@/lib/porownania';
 import { KODY } from '@/lib/kody-bledow';
+import { opublikowane } from '@/lib/wpisy';
+import { rankingiZProduktami } from '@/lib/produkty';
 
 const LIMIT = 5000;
 interface Adres {
@@ -33,6 +35,17 @@ function grupy(): Record<string, Adres[]> {
     ],
     marki: marki.map((m) => ({ loc: `/marki/${m.slug}/`, changefreq: 'monthly', priority: 0.8 })),
     generacje: karty(modele.filter((m) => !m.wszystkieGeneracje), 0.8),
+    tresci: [
+      ...(opublikowane().length ? [{ loc: '/filmy/', changefreq: 'weekly', priority: 0.8 }] : []),
+      ...opublikowane().map((w) => ({ loc: `/filmy/${w.slug}/`, lastmod: w.opublikowano, changefreq: 'monthly', priority: 0.7 })),
+      ...(rankingiZProduktami().length ? [{ loc: '/polecane/', changefreq: 'weekly', priority: 0.7 }] : []),
+      ...rankingiZProduktami().map((r) => ({ loc: `/polecane/${r.id}/`, changefreq: 'weekly', priority: 0.6 }))
+    ],
+    zakup: [
+      { loc: '/asystent-zakupu/', changefreq: 'monthly', priority: 0.8 },
+      { loc: '/sprawdz-vin/', changefreq: 'monthly', priority: 0.7 },
+      ...modele.map((m) => ({ loc: `${m.adres}zakup/`, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: 0.6 }))
+    ],
     'kody-bledow': [{ loc: '/kody-bledow/', changefreq: 'monthly', priority: 0.6 }, ...KODY.map((k) => ({ loc: `/kody-bledow/${k.kod.toLowerCase()}/`, changefreq: 'yearly', priority: 0.5 }))]
   };
   const pary = wszystkiePary().map((p) => ({ loc: `/porownaj/${p.id}/`, changefreq: 'monthly', priority: 0.5 }));
@@ -43,7 +56,9 @@ function grupy(): Record<string, Adres[]> {
 }
 
 export function plikiMap(): string[] {
-  return Object.keys(grupy()).map((k) => `${k}.xml`);
+  return Object.entries(grupy())
+    .filter(([, v]) => v.length > 0)
+    .map(([k]) => `${k}.xml`);
 }
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

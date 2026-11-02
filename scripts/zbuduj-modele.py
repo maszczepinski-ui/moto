@@ -22,6 +22,28 @@ WYJSCIE = os.path.join(ROOT, 'data', 'models')
 STAN_PACZKI = '2019-11-08'  # najnowsze rejestracje w paczkach CEPiK (paczki opublikowane 17.04.2022)
 STAN_NA = STAN_PACZKI      # nadpisywane datą z nowe.tsv, jeśli plik istnieje
 META_NOWE = {}
+MIESIACE_SUMA = {}
+PELNE_MIESIACE = set()
+
+
+def pelne_miesiace():
+    """Miesiące, dla których mamy komplet danych z podziałem na miesiące (cały miesiąc pobrany i nie czeka na uzupełnienie)."""
+    if not META_NOWE.get('od') or not META_NOWE.get('do'):
+        return set()
+    from datetime import date as _d, timedelta as _t
+    od, do_ = META_NOWE['od'], META_NOWE['do']
+    brak = META_NOWE.get('miesiaceBrak') or None
+    wynik = set()
+    y, m = int(od[:4]), int(od[5:7])
+    while f'{y:04d}-{m:02d}' <= do_[:7]:
+        pierwszy = f'{y:04d}-{m:02d}-01'
+        nast = _d(y + (m == 12), m % 12 + 1, 1)
+        ostatni = (nast - _t(days=1)).isoformat()
+        ok = pierwszy >= od and ostatni <= do_ and not (brak and not (ostatni < brak['od'] or pierwszy > brak['do']))
+        if ok:
+            wynik.add(f'{y:04d}-{m:02d}')
+        y, m = nast.year, nast.month
+    return wynik
 DATA_AKTUALIZACJI = __import__('datetime').date.today().isoformat()
 MIN_AUT_RODZINA = 200  # automatyczna karta powstaje dla modeli z co najmniej tyloma autami
 ZRODLO_CEPIK = 'Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)'
@@ -328,7 +350,8 @@ def wczytaj():
                 if p[0] == 'G':
                     D = {('KARETA (SEDAN)' if k == 'KARETA SEDAN' else k): v for k, v in parse_map(p[7]).items()}
                     w = {'marka_cepik': p[1], 'base': p[2], 'rok': p[3], 'n': int(p[4]), 'a': int(p[4]), 'nowe': int(p[4]),
-                         'W': parse_map(p[6]), 'D': D, 'P': parse_map(p[8]), 'J': parse_map(p[9]), 'O': parse_map(p[10]), 'Y': parse_map(p[11])}
+                         'W': parse_map(p[6]), 'D': D, 'P': parse_map(p[8]), 'J': parse_map(p[9]), 'O': parse_map(p[10]), 'Y': parse_map(p[11]),
+                         'K': parse_map(p[12]) if len(p) > 12 else {}}
                     wiersze.append(w)
                     for t_, v in w['W'].items():
                         if t_ in tot:
@@ -338,6 +361,10 @@ def wczytaj():
                 elif p[0] == 'M':
                     META_NOWE = json.loads(p[1])
         STAN_NA = META_NOWE.get('ostatniDzien') or META_NOWE.get('do') or STAN_NA
+        # suma nowych rejestracji w pełnych miesiącach (do kafelków na stronie głównej)
+        for w in wiersze:
+            for m_, v in w.get('K', {}).items():
+                MIESIACE_SUMA[m_] = MIESIACE_SUMA.get(m_, 0) + v
     return wiersze, surowe_wiersze, tot
 
 
@@ -393,10 +420,11 @@ def zbuduj_zgadywanie(wiersze):
 
 
 def zsumuj(wiersze):
-    s = {'n': 0, 'a': 0, 'nowe': 0, 'W': {}, 'D': {}, 'P': {}, 'J': {}, 'O': {}, 'Y': {}, 'lata': {}}
+    s = {'n': 0, 'a': 0, 'nowe': 0, 'W': {}, 'D': {}, 'P': {}, 'J': {}, 'O': {}, 'Y': {}, 'K': {}, 'lata': {}}
     for w in wiersze:
         s['n'] += w['n']; s['a'] += w['a']; s['nowe'] += w.get('nowe', 0)
         dodaj(s['Y'], w.get('Y', {}))
+        dodaj(s['K'], w.get('K', {}))
         rok_ = int(w['rok']) if w['rok'].isdigit() else 0
         # paliwo „elektryczne” i „hybryda” przy starych rocznikach to zwykle błędne wpisy – nie liczymy ich
         if rok_ >= 2010:
@@ -478,7 +506,8 @@ def model_json(slug_, marka, model, generacja, lata_txt, s, opis, jak, extra=Non
             'noweOdPaczki': s['nowe'],
             'hybrydy': s.get('hyb', 0),
             'elektryczne': s.get('ev', 0),
-            'pierwszeRejestracje': [{'rok': int(k), 'liczba': v} for k, v in sorted(s['Y'].items()) if k.isdigit()]
+            'pierwszeRejestracje': [{'rok': int(k), 'liczba': v} for k, v in sorted(s['Y'].items()) if k.isdigit()],
+            'rejestracjeMiesiecznie': [{'miesiac': m_, 'liczba': s['K'].get(m_, 0)} for m_ in sorted(PELNE_MIESIACE)]
         },
         'youtubeId': '',
         'zrodla': [ZRODLO_CEPIK],
@@ -496,7 +525,7 @@ def model_json(slug_, marka, model, generacja, lata_txt, s, opis, jak, extra=Non
 def skaluj(w, f, nadwozia):
     """Zostawia tylko wybrane nadwozia; pozostałe zestawienia skaluje proporcjonalnie."""
     out = {'base': w['base'], 'rok': w['rok'], 'n': round(w['n'] * f), 'a': round(w['a'] * f), 'nowe': round(w.get('nowe', 0) * f),
-           'Y': {a: round(v * f) for a, v in w.get('Y', {}).items()}}
+           'Y': {a: round(v * f) for a, v in w.get('Y', {}).items()}, 'K': {a: round(v * f) for a, v in w.get('K', {}).items()}}
     for k in 'WPJO':
         out[k] = {a: round(v * f) for a, v in w[k].items()}
     out['D'] = {a: v for a, v in w['D'].items() if a in nadwozia}
@@ -511,6 +540,8 @@ def zapisz(sciezka, dane, wciecie=None):
 # ================================================================ główny program
 def main():
     wiersze, surowe_wiersze, tot = wczytaj()
+    global PELNE_MIESIACE
+    PELNE_MIESIACE = pelne_miesiace()
     zgadywanie = zbuduj_zgadywanie(wiersze)
 
     rodziny = defaultdict(list)
@@ -696,6 +727,7 @@ def main():
     tlo = {k: v['osobReg'] for k, v in tot.items() if k in WOJ}
     razem = sum(tlo.values())
     zapisz(os.path.join(ROOT, 'data', 'cepik', 'tlo.json'), {'stanNa': STAN_NA, 'razem': razem, 'wojewodztwa': tlo,
+        'miesiace': [{'miesiac': m_, 'liczba': MIESIACE_SUMA.get(m_, 0)} for m_ in sorted(PELNE_MIESIACE)],
         'noweZakres': {'od': META_NOWE.get('od', '2019-11-09'), 'do': META_NOWE.get('ostatniDzien') or META_NOWE.get('do'), 'kompletne': bool(META_NOWE.get('kompletne', True))} if META_NOWE else None}, 1)
 
     # ---------------------------------------------------- strony województw

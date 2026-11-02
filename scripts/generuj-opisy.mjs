@@ -117,7 +117,7 @@ async function main() {
   fs.mkdirSync(OPISY, { recursive: true });
   let karty = fs
     .readdirSync(MODELE)
-    .filter((f) => f.endsWith('.json'))
+    .filter((f) => f.endsWith('.json') && !f.startsWith('.'))
     .map((f) => JSON.parse(fs.readFileSync(path.join(MODELE, f), 'utf8')))
     .sort((a, b) => b.cepik.liczbaWPolsce - a.cepik.liczbaWPolsce);
   if (TYLKO.length) karty = karty.filter((m) => TYLKO.includes(m.slug));

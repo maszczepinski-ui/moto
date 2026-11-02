@@ -1,0 +1,54 @@
+# Publikacja strony na zwykłym hostingu (np. cyber_Folks) przez FTP.
+#
+# Po każdej zmianie na GitHubie (zapis w panelu admina, aktualizacja danych) automat:
+#  1. buduje stronę jako same pliki HTML (npm run build:statyczna → folder „out”),
+#  2. wysyła na serwer tylko pliki, które się zmieniły.
+#
+# Działa dopiero po wpisaniu danych FTP w GitHubie: repozytorium → Settings → Secrets and variables → Actions →
+# New repository secret:  FTP_SERWER, FTP_LOGIN, FTP_HASLO, FTP_FOLDER  (instrukcja w README, „Publikacja na cyber_Folks”).
+# Jeśli tych danych nie ma (np. strona stoi na Vercel), automat nic nie robi.
+name: Publikacja na serwer (FTP)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: publikacja-ftp
+  cancel-in-progress: false
+
+jobs:
+  publikuj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Sprawdź, czy są dane FTP
+        id: ftp
+        env:
+          SERWER: ${{ secrets.FTP_SERWER }}
+        run: |
+          if [ -z "$SERWER" ]; then echo "Brak danych FTP – pomijam publikację."; echo "jest=nie" >> "$GITHUB_OUTPUT"; else echo "jest=tak" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.ftp.outputs.jest == 'tak'
+      - uses: actions/setup-node@v4
+        if: steps.ftp.outputs.jest == 'tak'
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Zbuduj stronę
+        if: steps.ftp.outputs.jest == 'tak'
+        run: |
+          npm ci
+          npm run build:statyczna
+      - name: Wyślij na serwer
+        if: steps.ftp.outputs.jest == 'tak'
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERWER }}
+          username: ${{ secrets.FTP_LOGIN }}
+          password: ${{ secrets.FTP_HASLO }}
+          server-dir: ${{ secrets.FTP_FOLDER }}
+          local-dir: ./out/
+          protocol: ${{ vars.FTP_PROTOKOL || 'ftps' }}
+          timeout: 120000

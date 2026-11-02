@@ -6,6 +6,8 @@ import { wszystkieSzkice } from '@/lib/opisy';
 import { KODY } from '@/lib/kody-bledow';
 import AdminPanel from '@/components/AdminPanel';
 import { site } from '@/config/site';
+import { opublikowane } from '@/lib/wpisy';
+import { rankingiZProduktami } from '@/lib/produkty';
 
 export const metadata: Metadata = {
   title: 'Panel admina',
@@ -24,6 +26,12 @@ export default function AdminPage() {
     { sciezka: '/wojewodztwa/', nazwa: 'Województwa – lista' },
     { sciezka: '/rankingi/', nazwa: 'Rankingi – lista' },
     { sciezka: '/rynek/', nazwa: 'Rynek nowych aut' },
+    { sciezka: '/asystent-zakupu/', nazwa: 'Asystent zakupu' },
+    { sciezka: '/sprawdz-vin/', nazwa: 'Sprawdź VIN' },
+    { sciezka: '/filmy/', nazwa: 'Filmy – lista' },
+    { sciezka: '/polecane/', nazwa: 'Polecane produkty – lista' },
+    ...opublikowane().map((w) => ({ sciezka: `/filmy/${w.slug}/`, nazwa: `Film: ${w.tytul}` })),
+    ...rankingiZProduktami().map((r) => ({ sciezka: `/polecane/${r.id}/`, nazwa: `Ranking: ${r.tytul}` })),
     { sciezka: '/linki/', nazwa: 'Linki' },
     { sciezka: '/metodologia/', nazwa: 'Skąd dane' },
     { sciezka: '/prywatnosc/', nazwa: 'Polityka prywatności' },
@@ -33,7 +41,8 @@ export default function AdminPage() {
     ...marki.map((m) => ({ sciezka: `/marki/${m.slug}/`, nazwa: `Marka ${m.nazwa}` })),
     ...listaWojewodztw.map((w) => ({ sciezka: `/wojewodztwa/${w.slug}/`, nazwa: `Województwo ${w.nazwa.toLowerCase()}` })),
     ...rankingi.map((r) => ({ sciezka: `/rankingi/${r.id}/`, nazwa: `Ranking: ${r.tytul}` })),
-    ...modele.map((m) => ({ sciezka: m.adres, nazwa: m.nazwa }))
+    ...modele.map((m) => ({ sciezka: m.adres, nazwa: m.nazwa })),
+    ...modele.map((m) => ({ sciezka: `${m.adres}zakup/`, nazwa: `${m.nazwa} – asystent zakupu` }))
   ];
   const szkice = wszystkieSzkice()
     .filter((s) => poSlugu.has(s.slug))

@@ -10,23 +10,28 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import Aktualizacje from '@/components/admin/Aktualizacje';
+import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
+import ProduktyRankingi from '@/components/admin/ProduktyRankingi';
+import { site } from '@/config/site';
 import {
-  KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database
+  KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard
 } from 'lucide-react';
 
 type Linki = { vin: string; oc: string; ac: string; nnw: string };
 type FilmT = { slug: string; youtube: string; tytul: string; data: string; opis?: string };
-type ModulId = 'vin' | 'ubezpieczenia' | 'czesci' | 'adsense';
+type ModulId = 'vin' | 'ubezpieczenia' | 'czesci' | 'adsense' | 'ogledziny' | 'finansowanie';
 type Regula = { modul: ModulId; typ: 'slug' | 'marka' | 'rocznikOd' | 'minAut'; wartosc: string };
 type KodStrony = { sciezka: string; head: string; body: string };
 type Dane = {
   linki: Linki;
   filmy: FilmT[];
   moduly: {
-    vin: { wlaczony: boolean; partner: string; url: string };
+    vin: { wlaczony: boolean; partner: string; url: string; kod: string; rabat: string };
     ubezpieczenia: { wlaczony: boolean; siec: string; oc: string; ac: string; nnw: string };
     czesci: { wlaczony: boolean; allegro: string; ceneo: string; frazy: string };
     adsense: { wlaczony: boolean; klient: string; slotGora: string; slotSpec: string; slotDol: string };
+    ogledziny: { wlaczony: boolean; partner: string; url: string };
+    finansowanie: { wlaczony: boolean; partner: string; url: string };
   };
   kolejnosc: ModulId[];
   reguly: Regula[];
@@ -48,7 +53,7 @@ const kodInput = `${input} font-mono text-xs min-h-[120px]`;
 const karta = 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 space-y-4';
 const etykieta = 'block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1';
 
-const NAZWY_MODULOW: Record<ModulId, string> = { vin: 'Raport VIN', ubezpieczenia: 'Ubezpieczenia OC/AC/NNW', czesci: 'Części i eksploatacja', adsense: 'Reklamy AdSense' };
+const NAZWY_MODULOW: Record<ModulId, string> = { vin: 'Raport VIN', ubezpieczenia: 'Ubezpieczenia OC/AC/NNW', czesci: 'Części i eksploatacja', adsense: 'Reklamy AdSense', ogledziny: 'Oględziny przed zakupem', finansowanie: 'Kredyt / leasing' };
 const NAZWY_REGUL: Record<Regula['typ'], string> = {
   slug: 'na tych kartach (slugi, po przecinku)',
   marka: 'dla tych marek (po przecinku)',
@@ -74,18 +79,28 @@ function zBase64(b64: string) {
   return new TextDecoder().decode(Uint8Array.from(bin, (c) => c.charCodeAt(0)));
 }
 
+// Token domyślnie pamiętamy tylko do zamknięcia karty przeglądarki (sessionStorage).
+// „Zapamiętaj na tym komputerze” zapisuje go na stałe (localStorage) – wygodniej, ale tylko na własnym komputerze.
 const pamiec = {
   get: (k: string) => {
     try {
-      return localStorage.getItem(k) || '';
+      return localStorage.getItem(k) || sessionStorage.getItem(k) || '';
     } catch {
       return '';
     }
   },
-  set: (k: string, v: string) => {
+  trwaly: (k: string) => {
     try {
-      if (v) localStorage.setItem(k, v);
-      else localStorage.removeItem(k);
+      return !!localStorage.getItem(k);
+    } catch {
+      return false;
+    }
+  },
+  set: (k: string, v: string, trwale = true) => {
+    try {
+      localStorage.removeItem(k);
+      sessionStorage.removeItem(k);
+      if (v) (trwale ? localStorage : sessionStorage).setItem(k, v);
     } catch {
       /* brak pamięci przeglądarki – trzeba będzie wkleić token ponownie */
     }
@@ -100,10 +115,12 @@ function uzupelnij(d: Partial<Dane>): Dane {
     linki: { vin: l.vin ?? '', oc: l.oc ?? '', ac: l.ac ?? '', nnw: l.nnw ?? '' },
     filmy: d.filmy || [],
     moduly: {
-      vin: { wlaczony: true, partner: '', url: l.vin ?? '', ...m.vin },
+      vin: { wlaczony: true, partner: '', url: l.vin ?? '', kod: '', rabat: '', ...m.vin },
       ubezpieczenia: { wlaczony: true, siec: '', oc: l.oc ?? '', ac: l.ac ?? '', nnw: l.nnw ?? '', ...m.ubezpieczenia },
       czesci: { wlaczony: false, allegro: '', ceneo: '', frazy: 'filtr oleju, klocki hamulcowe, olej silnikowy, wycieraczki, akumulator', ...m.czesci },
-      adsense: { wlaczony: false, klient: '', slotGora: '', slotSpec: '', slotDol: '', ...m.adsense }
+      adsense: { wlaczony: false, klient: '', slotGora: '', slotSpec: '', slotDol: '', ...m.adsense },
+      ogledziny: { wlaczony: true, partner: '', url: '', ...m.ogledziny },
+      finansowanie: { wlaczony: true, partner: '', url: '', ...m.finansowanie }
     },
     kolejnosc: d.kolejnosc?.length ? d.kolejnosc : ['vin', 'ubezpieczenia', 'czesci'],
     reguly: d.reguly || [],
@@ -137,7 +154,7 @@ function Przelacznik({ wlaczony, onChange, label }: { wlaczony: boolean; onChang
   );
 }
 
-type Zakladka = 'linki' | 'filmy' | 'kody' | 'seo' | 'opisy' | 'aktualizacje';
+type Zakladka = 'linki' | 'filmy' | 'artykuly' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje';
 
 export default function AdminPanel({
   modele,
@@ -155,6 +172,7 @@ export default function AdminPanel({
   branch: string;
 }) {
   const [token, setToken] = useState('');
+  const [zapamietaj, setZapamietaj] = useState(false);
   const [repo, setRepo] = useState(repoDomyslne);
   const [dane, setDane] = useState<Dane | null>(null);
   const [sha, setSha] = useState('');
@@ -183,11 +201,12 @@ export default function AdminPanel({
 
   useEffect(() => {
     setToken(pamiec.get(K_TOKEN));
+    setZapamietaj(pamiec.trwaly(K_TOKEN));
     setRepo(pamiec.get(K_REPO) || repoDomyslne);
   }, [repoDomyslne]);
 
   /** Dowolne zapytanie do API GitHuba dla tego repozytorium (np. uruchomienie aktualizacji danych) */
-  async function api(sciezka: string, metoda: 'GET' | 'POST' | 'PUT' = 'GET', body?: object) {
+  async function api(sciezka: string, metoda: 'GET' | 'POST' | 'PUT' | 'DELETE' = 'GET', body?: object) {
     let r: Response;
     try {
       r = await fetch(`https://api.github.com/repos/${repo.trim()}${sciezka}`, {
@@ -235,7 +254,7 @@ export default function AdminPanel({
     setPraca(true);
     setStatus({ typ: 'info', tekst: 'Wczytuję dane z GitHuba…' });
     try {
-      pamiec.set(K_TOKEN, token.trim());
+      pamiec.set(K_TOKEN, token.trim(), zapamietaj);
       pamiec.set(K_REPO, repo.trim());
       const j = await gh('GET');
       setDane(uzupelnij(JSON.parse(zBase64(j.content)) as Partial<Dane>));
@@ -256,7 +275,9 @@ export default function AdminPanel({
       ['AC', d.moduly.ubezpieczenia.ac],
       ['NNW', d.moduly.ubezpieczenia.nnw],
       ['Allegro', d.moduly.czesci.allegro],
-      ['Ceneo', d.moduly.czesci.ceneo]
+      ['Ceneo', d.moduly.czesci.ceneo],
+      ['Oględziny', d.moduly.ogledziny.url],
+      ['Kredyt / leasing', d.moduly.finansowanie.url]
     ];
     const zly = linki.find(([, v]) => v && !/^https:\/\//.test(v.trim()));
     if (zly) return `Link „${zly[0]}” musi zaczynać się od https://`;
@@ -341,7 +362,9 @@ export default function AdminPanel({
 
   const zakladki: [Zakladka, string, React.ReactNode][] = [
     ['linki', 'Linki i moduły', <Link2 key="i" className="w-4 h-4" />],
-    ['filmy', 'Filmy', <Film key="i" className="w-4 h-4" />],
+    ['filmy', 'Filmy na kartach', <Film key="i" className="w-4 h-4" />],
+    ['artykuly', 'Artykuły z filmów', <Clapperboard key="i" className="w-4 h-4" />],
+    ['produkty', 'Produkty i rankingi', <Package key="i" className="w-4 h-4" />],
     ['kody', 'Kody', <Code2 key="i" className="w-4 h-4" />],
     ['seo', 'SEO i reklamy', <Megaphone key="i" className="w-4 h-4" />],
     ['opisy', `Opisy (${szkice.length})`, <FileText key="i" className="w-4 h-4" />],
@@ -382,6 +405,13 @@ export default function AdminPanel({
           </label>
           <input id="a-token" type="password" autoComplete="off" value={token} onChange={(e) => setToken(e.target.value)} className={input} placeholder="github_pat_…" />
         </div>
+        <label className="flex items-start gap-2 text-sm text-slate-700 dark:text-slate-300">
+          <input type="checkbox" checked={zapamietaj} onChange={(e) => setZapamietaj(e.target.checked)} className="mt-0.5" />
+          <span>
+            Zapamiętaj token na tym komputerze
+            <span className="block text-xs text-slate-500">Zaznacz tylko na własnym komputerze. Bez zaznaczenia token zniknie po zamknięciu karty przeglądarki.</span>
+          </span>
+        </label>
         <Pole id="a-repo" label="Repozytorium (login/nazwa)" value={repo} onChange={setRepo} />
         <div className="flex flex-wrap gap-2">
           <button
@@ -441,6 +471,23 @@ export default function AdminPanel({
                     <Pole id="vin-u" label="Link partnerski" value={dane.moduly.vin.url} onChange={(v) => ustawModul('vin', 'url', v)} placeholder="https://…" />
                   </div>
                 </div>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <Pole id="vin-k" label="Kod rabatowy (opcjonalnie)" value={dane.moduly.vin.kod} onChange={(v) => ustawModul('vin', 'kod', v.toUpperCase())} placeholder="np. MOTOFORMAT" />
+                  <Pole id="vin-r" label="Rabat (opcjonalnie)" value={dane.moduly.vin.rabat} onChange={(v) => ustawModul('vin', 'rabat', v)} placeholder="np. -15%" />
+                </div>
+                {dane.moduly.vin.partner === 'carvertical' && (
+                  <div className="text-xs text-slate-600 dark:text-slate-400 bg-slate-50 dark:bg-slate-800 rounded-lg p-3 space-y-1">
+                    <p>
+                      <strong>carVertical:</strong> zapisz się w programie partnerskim (carvertical.com → Affiliate program), a potem skopiuj swój link z panelu partnera i wklej powyżej.
+                      Na stronie pojawi się boks „Kompleksowe sprawdzenie auta” z listą tego, co zawiera raport.
+                    </p>
+                    <p>
+                      Jeśli carVertical podał Ci link, do którego da się dopisać numer VIN, wstaw w tym miejscu <code>{'{vin}'}</code>. Jeśli nie – nic nie szkodzi: strona sama skopiuje
+                      wpisany VIN do schowka, a klient wklei go u carVertical. Kod rabatowy (jeśli dostaniesz własny) wpisz w polu obok – kod ma pierwszeństwo przed kliknięciem przy
+                      naliczaniu prowizji.
+                    </p>
+                  </div>
+                )}
               </section>
 
               <section className={karta}>
@@ -472,6 +519,27 @@ export default function AdminPanel({
                 <Pole id="cz-a" label="Allegro – link z {fraza}" value={dane.moduly.czesci.allegro} onChange={(v) => ustawModul('czesci', 'allegro', v)} placeholder="https://…{fraza}…" />
                 <Pole id="cz-c" label="Ceneo – link z {fraza}" value={dane.moduly.czesci.ceneo} onChange={(v) => ustawModul('czesci', 'ceneo', v)} placeholder="https://…{fraza}…" />
                 <Pole id="cz-f" label="Frazy (po przecinku) – do każdej dopisze się marka i model" value={dane.moduly.czesci.frazy} onChange={(v) => ustawModul('czesci', 'frazy', v)} />
+              </section>
+
+              <section className={karta}>
+                <h3 className="text-sm font-bold text-slate-900 dark:text-white">Asystent zakupu (strony „Kupujesz …? Sprawdź, zanim zapłacisz”)</h3>
+                <p className="text-xs text-slate-500">
+                  Te dwa linki pokazują się tylko w asystencie zakupu – przy krokach „oględziny” i „ile to będzie kosztować”. Raport VIN, OC i części biorą się z pól powyżej.
+                </p>
+                <Przelacznik label="Oględziny auta przed zakupem (mechanik / firma sprawdzająca auta)" wlaczony={dane.moduly.ogledziny.wlaczony} onChange={(v) => ustawModul('ogledziny', 'wlaczony', v)} />
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <Pole id="og-p" label="Nazwa partnera (widoczna na stronie)" value={dane.moduly.ogledziny.partner} onChange={(v) => ustawModul('ogledziny', 'partner', v)} placeholder="np. Sprawdzimy auto za Ciebie" />
+                  <div className="sm:col-span-2">
+                    <Pole id="og-u" label="Link (partnerski albo do Twojego formularza)" value={dane.moduly.ogledziny.url} onChange={(v) => ustawModul('ogledziny', 'url', v)} placeholder="https://…" />
+                  </div>
+                </div>
+                <Przelacznik label="Kredyt / leasing na auto" wlaczony={dane.moduly.finansowanie.wlaczony} onChange={(v) => ustawModul('finansowanie', 'wlaczony', v)} />
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <Pole id="fi-p" label="Nazwa partnera" value={dane.moduly.finansowanie.partner} onChange={(v) => ustawModul('finansowanie', 'partner', v)} placeholder="np. porównywarka kredytów" />
+                  <div className="sm:col-span-2">
+                    <Pole id="fi-u" label="Link partnerski" value={dane.moduly.finansowanie.url} onChange={(v) => ustawModul('finansowanie', 'url', v)} placeholder="https://…" />
+                  </div>
+                </div>
               </section>
 
               <p className="text-xs text-slate-500 px-1">
@@ -723,7 +791,7 @@ export default function AdminPanel({
                 <Pole id="s-ga4" label="Identyfikator Google Analytics 4 (opcjonalnie)" value={dane.seo.ga4} onChange={(v) => zmien((d) => ({ ...d, seo: { ...d.seo, ga4: v } }))} placeholder="G-XXXXXXXXXX" />
                 <p className="text-xs text-slate-500">
                   Po wpisaniu GA4 kliknięcia w linki partnerskie trafiają do Analytics jako zdarzenie <code>klik_partner</code>. GA4 działa w trybie zgód Google (Consent Mode v2) – bez zgody
-                  użytkownika nie zapisuje ciasteczek. Mapa strony do zgłoszenia w Search Console: <code>https://moto-format.pl/sitemap.xml</code>
+                  użytkownika nie zapisuje ciasteczek. Mapa strony do zgłoszenia w Search Console: <code>{site.url}/sitemap.xml</code>
                 </p>
               </section>
 
@@ -743,7 +811,7 @@ export default function AdminPanel({
                 </div>
                 <div>
                   <label htmlFor="s-ads" className={etykieta}>
-                    Treść pliku ads.txt (moto-format.pl/ads.txt)
+                    Treść pliku ads.txt ({site.url.replace("https://", "")}/ads.txt)
                   </label>
                   <textarea
                     id="s-ads"
@@ -760,6 +828,8 @@ export default function AdminPanel({
 
           {/* ===================== AKTUALIZACJE ===================== */}
           {zakladka === 'aktualizacje' && <Aktualizacje api={api} branch={branch} stanDanych={stanDanych} />}
+          {zakladka === 'artykuly' && <ArtykulyFilmow api={api} branch={branch} modele={modele} />}
+          {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
 
           {/* ===================== OPISY ===================== */}
           {zakladka === 'opisy' && (
@@ -818,7 +888,8 @@ export default function AdminPanel({
             </section>
           )}
 
-          <div className="sticky bottom-4 flex justify-end">
+          {/* przycisk zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje) mają własne przyciski */}
+          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'produkty', 'aktualizacje'].includes(zakladka) ? 'hidden' : ''}`}>
             <button
               type="button"
               onClick={zapisz}

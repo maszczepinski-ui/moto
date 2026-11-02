@@ -1,0 +1,62 @@
+# Nowe filmy z kanału → szkice artykułów (data/wpisy). Szkice NIE są widoczne na stronie, dopóki nie zatwierdzisz ich w panelu admina.
+# Uruchamia się codziennie rano i przyciskiem w panelu (zakładka „Artykuły z filmów”).
+# Potrzebne ustawienia w GitHubie (Settings → Secrets and variables → Actions):
+#   sekrety:  YT_API_KEY (klucz YouTube Data API), ANTHROPIC_API_KEY (klucz do modelu językowego Claude – bez niego powstają szkice bez treści)
+#   zmienna:  YT_CHANNEL_ID (numer kanału, zaczyna się od UC…)
+name: Nowe filmy → szkice artykułów
+
+on:
+  workflow_dispatch:
+    inputs:
+      film:
+        description: 'Numer filmu (11 znaków) – tylko ten film, np. po wgraniu transkrypcji'
+        required: false
+        default: ''
+  schedule:
+    - cron: '23 5 * * *'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: nowe-filmy
+  cancel-in-progress: false
+
+jobs:
+  szkice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Sprawdź, czy jest klucz YouTube
+        id: klucz
+        env:
+          K: ${{ secrets.YT_API_KEY }}
+        run: if [ -z "$K" ]; then echo "Brak YT_API_KEY – pomijam."; echo "jest=nie" >> "$GITHUB_OUTPUT"; else echo "jest=tak" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.klucz.outputs.jest == 'tak'
+      - uses: actions/setup-node@v4
+        if: steps.klucz.outputs.jest == 'tak'
+        with:
+          node-version: '22'
+      - name: Sprawdź nowe filmy i napisz szkice
+        if: steps.klucz.outputs.jest == 'tak'
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YT_CHANNEL_ID: ${{ vars.YT_CHANNEL_ID }}
+          MODEL: ${{ vars.MODEL_AI }}
+        run: node scripts/nowe-filmy.mjs ${{ github.event.inputs.film && format('--film {0}', github.event.inputs.film) || '' }}
+      - name: Zapisz szkice
+        if: steps.klucz.outputs.jest == 'tak'
+        run: |
+          git config user.name "Szkice artykułów"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/wpisy
+          if git diff --cached --quiet; then
+            echo "Brak nowych szkiców."
+          else
+            git commit -m "Szkice artykułów z filmów"
+            git pull --rebase
+            git push
+          fi

@@ -47,3 +47,23 @@ ErrorDocument 404 /404.html
   SetEnvIf Request_URI "^/admin" ADMIN
   Header set X-Robots-Tag "noindex, nofollow" env=ADMIN
 </IfModule>
+
+# nagłówki bezpieczeństwa (to samo co na Vercel – next.config.mjs)
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Strict-Transport-Security "max-age=63072000"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+  Header always set Content-Security-Policy "frame-ancestors 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+  # panel admina: połączenia tylko z tą stroną i z GitHubem
+  <If "%{REQUEST_URI} =~ m#^/admin#">
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self' https://api.github.com; frame-src 'none'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'; form-action 'self'"
+    Header always set Cache-Control "no-store"
+  </If>
+</IfModule>
+
+# ukryte pliki (np. .git, .env) nigdy nie są wysyłane
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>

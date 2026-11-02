@@ -56,7 +56,7 @@ export interface Marka {
 export const wojewodztwa = wojewodztwaJson as Record<string, DaneWojewodztwa>;
 export const listaWojewodztw = Object.values(wojewodztwa).sort((a, b) => a.nazwa.localeCompare(b.nazwa, 'pl'));
 export const rankingi = (rankingiJson as { stanNa: string; rankingi: Ranking[] }).rankingi;
-export const tlo = tloJson as { stanNa: string; razem: number; wojewodztwa: Record<string, number>; noweZakres?: { od: string; do: string; kompletne: boolean } | null };
+export const tlo = tloJson as { stanNa: string; razem: number; wojewodztwa: Record<string, number>; noweZakres?: { od: string; do: string; kompletne: boolean } | null; miesiace?: { miesiac: string; liczba: number }[] };
 
 /** Uwaga do pokazania, gdy dane z API CEPiK (rejestracje od XI 2019) są jeszcze uzupełniane przez automat. */
 export function uwagaUzupelnianie(): string | null {

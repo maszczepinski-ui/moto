@@ -1,0 +1,88 @@
+# Aktualizacja danych z CEPiK – uruchamiana przyciskiem w panelu admina (/admin → „Aktualizacje”)
+# albo automatycznie 3. dnia każdego miesiąca.
+#
+# Jak to działa:
+#  1. Cztery serwery GitHuba naraz pobierają z API CEPiK brakujące dni (każdy co czwarty dzień) – tak jest kilka razy szybciej.
+#  2. Wyniki są scalane z data/cepik/nowe.tsv, karty modeli są przeliczane, zmiany zapisywane – Vercel sam publikuje stronę.
+#  3. Jeśli zostały jeszcze dni do pobrania (np. przy pierwszym, dużym uzupełnianiu danych), automat sam uruchamia się ponownie.
+name: Aktualizacja danych CEPiK
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 3 * *'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: aktualizacja-danych
+  cancel-in-progress: false
+
+jobs:
+  pobierz:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      matrix:
+        czesc: [0, 1, 2, 3]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pobierz rejestracje z API CEPiK (część ${{ matrix.czesc }})
+        run: node scripts/aktualizuj-cepik.mjs --czesc ${{ matrix.czesc }}/4 --wynik czesc.tsv --limit-minut 290
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: czesc-${{ matrix.czesc }}
+          path: czesc.tsv
+          if-no-files-found: ignore
+          retention-days: 3
+
+  zapisz:
+    needs: pobierz
+    if: always()
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: czesc-*
+          path: czesci
+      - name: Dołóż pobrane dane
+        id: scal
+        run: node scripts/aktualizuj-cepik.mjs --scal czesci/*/czesc.tsv
+      - name: Przelicz karty modeli
+        run: python3 scripts/zbuduj-modele.py
+      - name: Zapisz zmiany
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "Aktualizacja danych"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "Brak nowych danych."
+          else
+            git commit -m "Dane CEPiK: $(python3 -c "import json;s=json.load(open('data/cepik/nowe-stan.json'));print(s['pierwszyDzien'],'…',s['ostatniDzien'])")"
+            git pull --rebase
+            git push
+            # zmiany zapisane przez automat nie uruchamiają innych automatów same – publikację na FTP trzeba włączyć ręcznie
+            gh workflow run publikuj-ftp.yml --ref ${{ github.ref_name }} || true
+          fi
+      - name: Uruchom ponownie, jeśli zostały dni do pobrania
+        if: steps.scal.outputs.dalej == 'tak'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run aktualizuj-dane.yml --ref ${{ github.ref_name }}

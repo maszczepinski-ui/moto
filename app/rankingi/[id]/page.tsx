@@ -6,6 +6,7 @@ import { rankingi, tlo } from '@/lib/dane';
 import { formatDate } from '@/lib/format';
 import { site } from '@/config/site';
 import KodStrony from '@/components/KodStrony';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -89,7 +90,7 @@ export default async function RankingPage({ params }: Props) {
         </Link>
         .
       </p>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
       <KodStrony sciezka={`/rankingi/${r.id}/`} />
     </div>
   );

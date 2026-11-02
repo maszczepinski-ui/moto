@@ -1,4 +1,5 @@
 import { site } from '@/config/site';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 export interface Okruszek {
   nazwa: string;
@@ -31,7 +32,7 @@ export default function Okruszki({ sciezka }: { sciezka: Okruszek[] }) {
           </li>
         ))}
       </ol>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
     </nav>
   );
 }

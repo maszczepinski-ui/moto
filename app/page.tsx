@@ -6,9 +6,14 @@ import { rankingi, listaWojewodztw } from '@/lib/dane';
 import Link from 'next/link';
 import { site } from '@/config/site';
 import KodStrony from '@/components/KodStrony';
+import { opublikowane } from '@/lib/wpisy';
+import { rankingiNaTeraz, NAZWY_SEZONOW } from '@/lib/produkty';
+import { formatDate } from '@/lib/format';
 
 export default function HomePage() {
   const models = getModelSummaries();
+  const filmy = opublikowane().slice(0, 3);
+  const sezon = rankingiNaTeraz().teraz.slice(0, 2);
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 space-y-16">
@@ -23,6 +28,18 @@ export default function HomePage() {
         <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
           Karty popularnych modeli aut: liczba zarejestrowanych egzemplarzy, mapa województw, roczniki, silniki i wymiary – w jednym miejscu.
         </p>
+      </section>
+
+      <section className="bg-rust-600 text-white rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row md:items-center gap-4 justify-between">
+        <div className="space-y-1">
+          <h2 className="text-2xl font-extrabold">Kupujesz używane auto?</h2>
+          <p className="text-rust-50">
+            Wklej link do ogłoszenia albo wpisz model: typowe usterki, lista do odhaczenia na oględzinach, historia VIN, koszty i formalności po zakupie.
+          </p>
+        </div>
+        <Link href="/asystent-zakupu/" className="inline-flex items-center justify-center gap-2 bg-white text-rust-700 font-bold px-5 py-3 rounded-xl hover:bg-rust-50 flex-shrink-0">
+          Otwórz asystenta zakupu <ArrowRight className="w-4 h-4" aria-hidden="true" />
+        </Link>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -88,6 +105,50 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {filmy.length > 0 && (
+        <section className="space-y-4">
+          <div className="flex items-end justify-between gap-3">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Najnowsze filmy z artykułami</h2>
+            <Link href="/filmy/" className="text-sm font-semibold text-steel-700 dark:text-steel-300 hover:underline flex-shrink-0">
+              Wszystkie →
+            </Link>
+          </div>
+          <ul className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {filmy.map((w) => (
+              <li key={w.slug}>
+                <Link href={`/filmy/${w.slug}/`} className="block bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 hover:border-rust-400 h-full">
+                  <span className="text-xs text-slate-500">{formatDate(w.opublikowano)}</span>
+                  <span className="block font-bold text-slate-900 dark:text-white mt-1">{w.tytul}</span>
+                  <span className="block text-sm text-slate-600 dark:text-slate-400 mt-1 line-clamp-2">{w.lead}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+
+      {sezon.length > 0 && (
+        <section className="space-y-4">
+          <div className="flex items-end justify-between gap-3">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Polecane na sezon</h2>
+            <Link href="/polecane/" className="text-sm font-semibold text-steel-700 dark:text-steel-300 hover:underline flex-shrink-0">
+              Wszystkie rankingi →
+            </Link>
+          </div>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {sezon.map((r) => (
+              <li key={r.id}>
+                <Link href={`/polecane/${r.id}/`} className="block bg-emerald-600 hover:bg-emerald-700 text-white rounded-2xl p-5 h-full">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-emerald-100">{NAZWY_SEZONOW[r.sezon]}</span>
+                  <span className="block text-lg font-extrabold mt-1">{r.tytul}</span>
+                  <span className="block text-sm text-emerald-50 mt-1">{r.opis}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <section className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-10 shadow-sm text-center space-y-4">
         <YouTubeIcon className="w-12 h-12 text-red-600 mx-auto" />

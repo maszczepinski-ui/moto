@@ -9,7 +9,7 @@ export const site = {
 
   // Adres strony (bez ukośnika na końcu).
   // Dopóki domena nie jest podpięta, możesz tu wpisać adres od Vercel, np. https://moto-format.vercel.app
-  url: 'https://moto-format.pl',
+  url: 'https://moto-raport.pl',
 
   // Twój kanał YouTube
   youtubeChannelUrl: 'https://www.youtube.com/@motoformat',
@@ -17,7 +17,7 @@ export const site = {
 
   // Repozytorium na GitHubie, do którego panel admina (/admin) zapisuje zmiany.
   // Wpisz swoje: 'login-na-githubie/nazwa-repozytorium'
-  githubRepo: 'TWOJ-LOGIN/moto-format',
+  githubRepo: 'maszczepinski-ui/moto',
   githubBranch: 'main',
 
   // Dane wydawcy (stopka i polityka prywatności)

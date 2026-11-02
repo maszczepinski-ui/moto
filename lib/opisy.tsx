@@ -20,7 +20,7 @@ export function wszystkieSzkice(): OpisModelu[] {
   if (!fs.existsSync(KATALOG)) return [];
   return fs
     .readdirSync(KATALOG)
-            .filter((f) => f.endsWith('.json') && !f.startsWith('.'))
+    .filter((f) => f.endsWith('.json') && !f.startsWith('.'))
     .map((f) => JSON.parse(fs.readFileSync(path.join(KATALOG, f), 'utf8')) as OpisModelu);
 }
 

@@ -1,0 +1,28 @@
+# Codzienna przebudowa strony – żeby sezonowe rankingi („Teraz na sezon”) zmieniały się same w odpowiednim dniu.
+# Vercel: w projekcie Settings → Git → Deploy Hooks utwórz hook (np. „codziennie”), skopiuj adres i dodaj go w GitHubie
+#         jako sekret VERCEL_DEPLOY_HOOK. Bez tego sekretu automat nic nie robi.
+# Hosting FTP (cyber_Folks): jeśli są dane FTP, automat uruchamia publikację na serwer.
+name: Codzienna przebudowa strony
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 2 * * *'
+
+permissions:
+  actions: write
+
+jobs:
+  przebuduj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Vercel
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: if [ -n "$HOOK" ]; then curl -fsS -X POST "$HOOK" && echo "Zlecono przebudowę na Vercel."; else echo "Brak VERCEL_DEPLOY_HOOK – pomijam."; fi
+      - name: FTP
+        env:
+          FTP: ${{ secrets.FTP_SERWER }}
+          GH_TOKEN: ${{ github.token }}
+        run: if [ -n "$FTP" ]; then gh workflow run publikuj-ftp.yml --repo ${{ github.repository }} --ref ${{ github.ref_name }}; else echo "Brak FTP – pomijam."; fi

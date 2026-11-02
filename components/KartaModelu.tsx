@@ -15,15 +15,17 @@ import EngineTable from '@/components/EngineTable';
 import YouTubeLazyEmbed from '@/components/YouTubeLazyEmbed';
 import InspectionChecklist from '@/components/InspectionChecklist';
 import Okruszki from '@/components/Okruszki';
-import Monetyzacja, { ustawieniaReklamy } from '@/components/Monetyzacja';
+import Monetyzacja, { ustawieniaReklamy, SkrotNarzedzi, DolnyPasek, pasekKarty } from '@/components/Monetyzacja';
 import AdSlot from '@/components/AdSlot';
 import KodStrony from '@/components/KodStrony';
 import { paryDlaKarty } from '@/lib/porownania';
+import { wpisyDlaKarty } from '@/lib/wpisy';
 import { uwagaUzupelnianie } from '@/lib/dane';
 import { kodyDlaKarty } from '@/lib/kody-bledow';
 import KalkulatorTCO, { RodzajNapedu } from '@/components/KalkulatorTCO';
 import RaportySpalania from '@/components/RaportySpalania';
 import { Calendar, Film, FlaskConical, MapPin, Gauge, Ruler, Info, Wrench, Users, HelpCircle, ArrowLeft, ArrowRight, Swords, Cog, Layers } from 'lucide-react';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 const PALIWO_SCHEMA: Record<string, string> = {
   Benzyna: 'Gasoline',
@@ -105,10 +107,10 @@ function tenSamSilnik(m: CarModel): (RefKarty & { opis: string })[] {
   return wynik.slice(0, 8);
 }
 
-const PREMIUM = new Set(['Audi', 'BMW', 'Mercedes-Benz', 'Lexus', 'Volvo', 'Porsche', 'Jaguar', 'Land Rover', 'Infiniti', 'Tesla', 'Maserati', 'Alfa Romeo']);
+export const PREMIUM = new Set(['Audi', 'BMW', 'Mercedes-Benz', 'Lexus', 'Volvo', 'Porsche', 'Jaguar', 'Land Rover', 'Infiniti', 'Tesla', 'Maserati', 'Alfa Romeo']);
 
 /** Najczęstszy napęd i pojemność – punkt startowy kalkulatora kosztów */
-function profilNapedu(m: CarModel): { naped: RodzajNapedu; pojemnosc: number } {
+export function profilNapedu(m: CarModel): { naped: RodzajNapedu; pojemnosc: number } {
   const p = m.cepik.paliwa.find((x) => x.nazwa !== 'Inne / brak danych')?.nazwa || 'Benzyna';
   const naped: RodzajNapedu = p.startsWith('Elektr') ? 'elektryczny' : p.startsWith('Hybryda') ? 'hybryda' : p.includes('LPG') ? 'lpg' : p.startsWith('Diesel') ? 'diesel' : 'benzyna';
   const poj = Number((m.cepik.pojemnosci.find((x) => /\d/.test(x.nazwa))?.nazwa || '1,6').replace(',', '.').replace(/[^\d.]/g, '')) || 1.6;
@@ -140,9 +142,15 @@ export default function KartaModelu({ m }: { m: CarModel }) {
     .map((x) => ({ slug: x.slug, nazwa: nazwaKarty(x), adres: x.adres, opis: `${fmt(x.cepik.liczbaWPolsce)} szt.` }));
   const generacje = m.wszystkieGeneracje ? m.generacjeLista || [] : rodzic ? [{ slug: rodzic.slug, nazwa: `${rodzic.model} – wszystkie generacje`, adres: rodzic.adres }, ...(rodzic.generacjeLista || []).filter((g) => g.slug !== m.slug)] : [];
 
-  const filmy = filmyDlaModelu(m.slug);
+  const filmy: (ReturnType<typeof filmyDlaModelu>[number] & { artykul?: string })[] = filmyDlaModelu(m.slug);
   if (filmy.length === 0 && youtubeId(m.youtubeId)) {
     filmy.push({ slug: m.slug, youtube: m.youtubeId, id: youtubeId(m.youtubeId), tytul: `${name} – film na kanale ${site.youtubeChannelName}`, data: m.dataAktualizacji });
+  }
+  // artykuły do filmów, w których pojawia się ten model (albo jego generacje / karta zbiorcza)
+  for (const w of wpisyDlaKarty([m.slug, ...(m.rodzic ? [m.rodzic] : []), ...(m.generacjeLista || []).map((g) => g.slug)])) {
+    const f = filmy.find((x) => x.id === w.youtubeId);
+    if (f) f.artykul = `/filmy/${w.slug}/`;
+    else filmy.push({ slug: m.slug, youtube: w.youtubeId, id: w.youtubeId, tytul: w.tytul, data: w.opublikowano, opis: w.lead, artykul: `/filmy/${w.slug}/` });
   }
   const reklamaGora = ustawieniaReklamy('slotGora', k);
   const reklamaSpec = ustawieniaReklamy('slotSpec', k);
@@ -289,6 +297,9 @@ export default function KartaModelu({ m }: { m: CarModel }) {
         </header>
       </div>
 
+      {/* Szybkie narzędzia: asystent zakupu, VIN, OC/AC, części */}
+      <SkrotNarzedzi k={k} adresZakupu={`${m.adres}zakup/`} />
+
       {reklamaGora && <AdSlot {...reklamaGora} className="hidden md:block" wysokosc={250} />}
 
       {/* Dane techniczne */}
@@ -368,6 +379,9 @@ export default function KartaModelu({ m }: { m: CarModel }) {
           <InspectionChecklist modelSlug={m.slug} items={m.listaKontrolna} />
         </section>
       )}
+
+      {/* Narzędzia partnerskie: VIN, OC/AC, części (kolejność i widoczność z panelu admina) */}
+      <Monetyzacja k={k} silniki={[...new Set((m.silniki || []).map((x) => x.nazwa))]} />
 
       {/* Profil kierowcy i koszty */}
       {(profil.length > 0 || opisAI) && (
@@ -456,13 +470,16 @@ export default function KartaModelu({ m }: { m: CarModel }) {
                 {' '}
                 • {site.youtubeChannelName} • {formatDate(f.data)}
               </span>
+              {f.artykul && (
+                <a href={f.artykul} className="ml-2 font-semibold text-steel-700 dark:text-steel-300 hover:underline">
+                  Przeczytaj artykuł →
+                </a>
+              )}
             </p>
           </div>
         ))}
       </section>
 
-      {/* Boksy partnerskie (kolejność i widoczność z panelu admina) */}
-      <Monetyzacja k={k} />
 
       {/* FAQ */}
       <section className="space-y-4">
@@ -536,7 +553,8 @@ export default function KartaModelu({ m }: { m: CarModel }) {
         </div>
       </footer>
       <KodStrony sciezka={m.adres} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
+      <DolnyPasek elementy={pasekKarty(k, `${m.adres}zakup/`)} />
     </article>
   );
 }

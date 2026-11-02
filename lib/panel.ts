@@ -13,7 +13,7 @@ export interface Film {
   opis?: string;
 }
 
-export type ModulId = 'vin' | 'ubezpieczenia' | 'czesci' | 'adsense';
+export type ModulId = 'vin' | 'ubezpieczenia' | 'czesci' | 'adsense' | 'ogledziny' | 'finansowanie';
 
 export interface Regula {
   /** którego modułu dotyczy wykluczenie */
@@ -36,10 +36,15 @@ export interface PanelDane {
   linki: { vin: string; oc: string; ac: string; nnw: string };
   filmy: Film[];
   moduly?: {
-    vin?: { wlaczony: boolean; partner: string; url: string };
+    /** kod / rabat – opcjonalnie, pokazywane przy polu VIN (np. kod rabatowy carVertical) */
+    vin?: { wlaczony: boolean; partner: string; url: string; kod?: string; rabat?: string };
     ubezpieczenia?: { wlaczony: boolean; siec: string; oc: string; ac: string; nnw: string };
     czesci?: { wlaczony: boolean; allegro: string; ceneo: string; frazy: string };
     adsense?: { wlaczony: boolean; klient: string; slotGora: string; slotSpec: string; slotDol: string };
+    /** asystent zakupu: oględziny auta przed zakupem */
+    ogledziny?: { wlaczony: boolean; partner: string; url: string };
+    /** asystent zakupu: kredyt / leasing */
+    finansowanie?: { wlaczony: boolean; partner: string; url: string };
   };
   /** kolejność boksów na karcie modelu */
   kolejnosc?: ModulId[];
@@ -109,6 +114,8 @@ export function pokazModul(modul: ModulId, k: KontekstKarty): boolean {
   if (modul === 'ubezpieczenia' && !(wl(m.ubezpieczenia) && (['oc', 'ac', 'nnw'] as const).some((r) => linkUbezpieczenia(r, k)))) return false;
   if (modul === 'czesci' && !(m.czesci?.wlaczony && (m.czesci.allegro || m.czesci.ceneo))) return false;
   if (modul === 'adsense' && !(m.adsense?.wlaczony && m.adsense.klient)) return false;
+  if (modul === 'ogledziny' && !(wl(m.ogledziny) && linkOgledziny(k))) return false;
+  if (modul === 'finansowanie' && !(wl(m.finansowanie) && linkFinansowanie(k))) return false;
   for (const r of panelDane.reguly || []) {
     if (r.modul !== modul) continue;
     const lista = r.wartosc.split(',').map((x) => x.trim().toLowerCase()).filter(Boolean);
@@ -118,6 +125,14 @@ export function pokazModul(modul: ModulId, k: KontekstKarty): boolean {
     if (r.typ === 'minAut' && k.liczba !== undefined && k.liczba < Number(r.wartosc)) return false;
   }
   return true;
+}
+
+export function linkOgledziny(k: KontekstKarty): string {
+  return wypelnij(panelDane.moduly?.ogledziny?.url || '', k);
+}
+
+export function linkFinansowanie(k: KontekstKarty): string {
+  return wypelnij(panelDane.moduly?.finansowanie?.url || '', k);
 }
 
 export function linkVin(k: KontekstKarty): string {

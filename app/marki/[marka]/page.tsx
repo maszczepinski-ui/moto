@@ -7,6 +7,7 @@ import { site } from '@/config/site';
 import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
 import MiniMapa from '@/components/MiniMapa';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 interface Props {
   params: Promise<{ marka: string }>;
@@ -147,7 +148,7 @@ export default async function MarkaPage({ params }: Props) {
 
       <p className="text-xs text-slate-500">Dane: CEPiK, stan na {formatDate(tlo.stanNa)}. Liczymy modele, które mają w atlasie własną kartę (co najmniej 200 aut).</p>
       <KodStrony sciezka={`/marki/${m.slug}/`} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
     </div>
   );
 }

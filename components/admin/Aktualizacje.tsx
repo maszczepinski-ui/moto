@@ -45,7 +45,7 @@ export default function Aktualizacje({ api, branch, stanDanych }: { api: Api; br
   const [przebiegi, setPrzebiegi] = useState<Przebieg[] | null>(null);
   const [kom, setKom] = useState<{ ok: boolean; tekst: string } | null>(null);
   const [praca, setPraca] = useState(false);
-  const [zakres, setZakres] = useState<{ ostatniDzien: string; pierwszyDzien?: string } | null>(null);
+  const [zakres, setZakres] = useState<{ ostatniDzien: string; pierwszyDzien?: string; miesiaceBrak?: { od: string; do: string } | null } | null>(null);
   const [rynek, setRynek] = useState<{ dane: Rynek; sha: string } | null>(null);
   const [nowy, setNowy] = useState({ tytul: '', razem: '', zmiana: '', marki: '', modele: '', chinskie: '', udzial: '', zrodlo: 'IBRM Samar', url: '' });
 
@@ -160,6 +160,11 @@ export default function Aktualizacje({ api, branch, stanDanych }: { api: Api; br
               <div className="h-2 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden">
                 <div className="h-full bg-emerald-600" style={{ width: `${proc}%` }} />
               </div>
+              {zakres.miesiaceBrak && (
+                <p className="text-xs text-slate-500">
+                  Automat uzupełnia też podział na miesiące dla okresu {pl(zakres.miesiaceBrak.od)} – {pl(zakres.miesiaceBrak.do)} (potrzebny do trendów i raportów miesięcznych).
+                </p>
+              )}
               {pierwszy > POCZ && (
                 <p className="text-xs text-slate-500">
                   Brakuje jeszcze okresu {pl(POCZ)} – {pl(pierwszy)}. Automat uzupełnia go sam, kawałkami po ok. 5 godzin, i po każdym kawałku uruchamia się ponownie – nic nie musisz klikać.

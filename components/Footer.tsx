@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import { site } from '@/config/site';
+import { opublikowane } from '@/lib/wpisy';
+import { rankingiZProduktami } from '@/lib/produkty';
 
 export default function Footer() {
   return (
@@ -25,6 +27,22 @@ export default function Footer() {
             <Link href="/rankingi/" className="hover:text-steel-600 dark:hover:text-steel-300 transition-colors">
               Rankingi
             </Link>
+            <Link href="/asystent-zakupu/" className="hover:text-steel-600 dark:hover:text-steel-300 transition-colors">
+              Asystent zakupu
+            </Link>
+            <Link href="/sprawdz-vin/" className="hover:text-steel-600 dark:hover:text-steel-300 transition-colors">
+              Sprawdź VIN
+            </Link>
+            {opublikowane().length > 0 && (
+              <Link href="/filmy/" className="hover:text-steel-600 dark:hover:text-steel-300 transition-colors">
+                Filmy
+              </Link>
+            )}
+            {rankingiZProduktami().length > 0 && (
+              <Link href="/polecane/" className="hover:text-steel-600 dark:hover:text-steel-300 transition-colors">
+                Polecane produkty
+              </Link>
+            )}
             <Link href="/rynek/" className="hover:text-steel-600 dark:hover:text-steel-300 transition-colors">
               Rynek nowych aut
             </Link>

@@ -72,7 +72,7 @@ function wczytaj(plik = NOWE) {
   if (fs.existsSync(plik)) {
     for (const l of fs.readFileSync(plik, 'utf8').split('\n')) {
       const p = l.split('\t');
-      if (p[0] === 'G') G.set(`${p[1]}\t${p[2]}\t${p[3]}`, { n: Number(p[4]), w: parseMap(p[6]), d: parseMap(p[7]), p: parseMap(p[8]), j: parseMap(p[9]), o: parseMap(p[10]), y: parseMap(p[11] || 'Y:') });
+      if (p[0] === 'G') G.set(`${p[1]}\t${p[2]}\t${p[3]}`, { n: Number(p[4]), w: parseMap(p[6]), d: parseMap(p[7]), p: parseMap(p[8]), j: parseMap(p[9]), o: parseMap(p[10]), y: parseMap(p[11] || 'Y:'), k: parseMap(p[12] || 'K:') });
       else if (p[0] === 'R') R.set(`${p[1]}\t${p[2]}\t${p[3]}`, Number(p[4]));
       else if (p[0] === 'M') M = JSON.parse(p[1]);
       else if (p[0] === 'Z') Z = JSON.parse(p[1]);
@@ -83,7 +83,7 @@ function wczytaj(plik = NOWE) {
 
 function zapisz(G, R, M, plik = NOWE, Z = null, progR = 3) {
   const linie = [];
-  for (const [k, o] of G) linie.push(['G', k, o.n, 0, 'W:' + serMap(o.w), 'D:' + serMap(o.d), 'P:' + serMap(o.p), 'J:' + serMap(o.j), 'O:' + serMap(o.o), 'Y:' + serMap(o.y)].join('\t'));
+  for (const [k, o] of G) linie.push(['G', k, o.n, 0, 'W:' + serMap(o.w), 'D:' + serMap(o.d), 'P:' + serMap(o.p), 'J:' + serMap(o.j), 'O:' + serMap(o.o), 'Y:' + serMap(o.y), 'K:' + serMap(o.k || {})].join('\t'));
   for (const [k, n] of R) if (n >= progR) linie.push(`R\t${k}\t${n}`);
   linie.push('M\t' + JSON.stringify(M));
   if (Z) linie.push('Z\t' + JSON.stringify(Z));
@@ -97,9 +97,17 @@ function dodaj(G, R, L, LR) {
     const o = G.get(k);
     if (!o) { G.set(k, x); continue; }
     o.n += x.n;
-    for (const f of ['w', 'd', 'p', 'j', 'o', 'y']) for (const [a, v] of Object.entries(x[f])) inc(o[f], a, v);
+    if (!o.k) o.k = {};
+    for (const f of ['w', 'd', 'p', 'j', 'o', 'y', 'k']) for (const [a, v] of Object.entries(x[f] || {})) inc(o[f], a, v);
   }
   for (const [k, v] of LR) R.set(k, (R.get(k) || 0) + v);
+}
+
+/** wynik „tylko miesiące” (dzień, który już jest w danych, ale bez podziału na miesiące): zostaje sam licznik miesięcy */
+function tylkoMiesiace(L) {
+  const out = new Map();
+  for (const [k, x] of L) out.set(k, { n: 0, w: {}, d: {}, p: {}, j: {}, o: {}, y: {}, k: x.k });
+  return { L: out, LR: new Map() };
 }
 
 function wczytajStan(M) {
@@ -107,7 +115,9 @@ function wczytajStan(M) {
   const ostatni = s.ostatniDzien || M.ostatniDzien || M.do || plus(POCZATEK, -1);
   // pierwszy dzień ciągłego, pełnego zakresu; starsze pliki stanu nie miały tego pola = zakres pełny od początku
   const pierwszy = s.pierwszyDzien || M.od || POCZATEK;
-  return { ostatniDzien: ostatni, pierwszyDzien: pierwszy, zrobione: new Set(s.zrobione || []) };
+  // okres pobrany zanim zbieraliśmy podział na miesiące – do uzupełnienia samymi miesiącami
+  const brak = s.miesiaceBrak === undefined ? M.miesiaceBrak || null : s.miesiaceBrak;
+  return { ostatniDzien: ostatni, pierwszyDzien: pierwszy, miesiaceBrak: brak, zrobione: new Set(s.zrobione || []) };
 }
 
 /** wylicza ciągły zakres pełnych dni, zapisuje stan i metadane */
@@ -119,13 +129,25 @@ function zapiszStan(stan, M, G, R) {
   while (pier > POCZATEK && pelny(plus(pier, -1))) pier = plus(pier, -1);
   stan.ostatniDzien = ost;
   stan.pierwszyDzien = pier;
+  // miesiące: zawężamy brakujący okres z obu stron
+  let b = stan.miesiaceBrak;
+  const pelnyK = (d) => WOJ.every((w) => stan.zrobione.has(`K:${w}:${d}`));
+  if (b) {
+    let { od, do: dd } = b;
+    while (od <= dd && pelnyK(od)) od = plus(od, 1);
+    while (dd >= od && pelnyK(dd)) dd = plus(dd, -1);
+    b = od <= dd ? { od, do: dd } : null;
+  }
+  stan.miesiaceBrak = b;
   for (const z of [...stan.zrobione]) {
-    const d = z.split(':')[1];
+    const cz = z.split(':');
+    if (cz[0] === 'K') { if (!b || cz[2] < b.od || cz[2] > b.do) stan.zrobione.delete(z); continue; }
+    const d = cz[1];
     if (d <= ost && d >= pier) stan.zrobione.delete(z);
   }
-  Object.assign(M, { od: pier, do: ost, ostatniDzien: ost, kompletne: pier <= POCZATEK, aktualizacja: dzien(new Date()) });
+  Object.assign(M, { od: pier, do: ost, ostatniDzien: ost, kompletne: pier <= POCZATEK, miesiaceBrak: b, aktualizacja: dzien(new Date()) });
   zapisz(G, R, M);
-  fs.writeFileSync(STAN, JSON.stringify({ ostatniDzien: ost, pierwszyDzien: pier, zrobione: [...stan.zrobione].sort() }, null, 1) + '\n');
+  fs.writeFileSync(STAN, JSON.stringify({ ostatniDzien: ost, pierwszyDzien: pier, miesiaceBrak: b, zrobione: [...stan.zrobione].sort() }, null, 1) + '\n');
 }
 
 /** lista dni do pobrania: najpierw nowe (rosnąco), potem brakujące starsze (od najnowszych wstecz) */
@@ -137,6 +159,14 @@ function dniDoPobrania(stan) {
   if (!flaga('bez-wstecz')) for (let d = plus(stan.pierwszyDzien, -1); d >= POCZATEK; d = plus(d, -1)) dni.push(d);
   // bezpiecznik: nigdy nie pobieraj dni, które już są w danych
   return dni.filter((d) => d < stan.pierwszyDzien || d > stan.ostatniDzien);
+}
+
+/** wszystkie zadania: pełne dni (woj:dzień) i uzupełnianie miesięcy (K:woj:dzień) */
+function zadaniaDoPobrania(stan, dni) {
+  const pelne = dni.flatMap((d) => WOJ.map((w) => `${w}:${d}`));
+  const kDni = [];
+  if (stan.miesiaceBrak && !flaga('bez-wstecz')) for (let d = stan.miesiaceBrak.od; d <= stan.miesiaceBrak.do; d = plus(d, 1)) kDni.push(d);
+  return { pelne, kDni, k: kDni.flatMap((d) => WOJ.map((w) => `K:${w}:${d}`)) };
 }
 
 // ---------------------------------------------------------------- pobieranie
@@ -174,11 +204,11 @@ async function pobierzDzien(woj, d) {
       const b = baseModel(raw);
       const k = `${klucz(marka)}\t${klucz(b)}\t${a['rok-produkcji'] || '?'}`;
       let o = L.get(k);
-      if (!o) L.set(k, (o = { n: 0, w: {}, d: {}, p: {}, j: {}, o: {}, y: {} }));
+      if (!o) L.set(k, (o = { n: 0, w: {}, d: {}, p: {}, j: {}, o: {}, y: {}, k: {} }));
       o.n++; n++;
       inc(o.w, woj); inc(o.d, a['podrodzaj-pojazdu'] || '?'); inc(o.p, paliwo(a));
       inc(o.j, Math.round((parseFloat(a['pojemnosc-skokowa-silnika']) || 0) / 100) * 100);
-      inc(o.o, POCH[a['pochodzenie-pojazdu']] || 'X'); inc(o.y, d.slice(0, 4));
+      inc(o.o, POCH[a['pochodzenie-pojazdu']] || 'X'); inc(o.y, d.slice(0, 4)); inc(o.k, d.slice(0, 7));
       const rk = `${klucz(marka)}\t${klucz(b)}\t${klucz(raw)}`;
       LR.set(rk, (LR.get(rk) || 0) + 1);
     }
@@ -196,10 +226,12 @@ async function pobierz(zadania, poZadaniu) {
     while (kolejka.length && !przerwano) {
       if (Date.now() > koniecCzasu) { przerwano = true; return; }
       const z = kolejka.shift();
-      const [w, d] = z.split(':');
+      const cz = z.split(':');
+      const [w, d] = cz[0] === 'K' ? cz.slice(1) : cz;
       let wynik;
       try {
         wynik = await pobierzDzien(w, d);
+        if (cz[0] === 'K') wynik = { ...tylkoMiesiace(wynik.L), n: 0 };
       } catch (e) {
         console.log(`Przerywam: ${e.message}`);
         przerwano = true;
@@ -230,7 +262,13 @@ async function main() {
     for (const plik of process.argv.slice(iScal + 1).filter((p) => !p.startsWith('--'))) {
       if (!fs.existsSync(plik)) continue;
       const c = wczytaj(plik);
-      const nowe = c.Z.filter((z) => !stan.zrobione.has(z) && (z.split(':')[1] < stan.pierwszyDzien || z.split(':')[1] > stan.ostatniDzien));
+      const b = stan.miesiaceBrak;
+      const nowe = c.Z.filter((z) => {
+        if (stan.zrobione.has(z)) return false;
+        const cz = z.split(':');
+        if (cz[0] === 'K') return !!b && cz[2] >= b.od && cz[2] <= b.do;
+        return cz[1] < stan.pierwszyDzien || cz[1] > stan.ostatniDzien;
+      });
       if (nowe.length !== c.Z.length) { console.log(`Pomijam ${plik} – zawiera dni, które już są w danych.`); continue; }
       dodaj(G, R, c.G, c.R);
       for (const z of c.Z) stan.zrobione.add(z);
@@ -238,7 +276,7 @@ async function main() {
     }
     M.rekordy = (M.rekordy || 0) + rek;
     zapiszStan(stan, M, G, R);
-    const zostalo = dniDoPobrania(stan).length;
+    const zostalo = dniDoPobrania(stan).length + zadaniaDoPobrania(stan, []).kDni.length;
     console.log(`Scalono ${ile} zapytań (${rek} aut). Dane: ${stan.pierwszyDzien} … ${stan.ostatniDzien}. Do pobrania zostało dni: ${zostalo}.`);
     wyjscieGitHub('dalej', ile > 0 && zostalo > 0 && !flaga('bez-wstecz') ? 'tak' : 'nie');
     return;
@@ -247,7 +285,8 @@ async function main() {
   const { G, R, M } = wczytaj();
   const stan = wczytajStan(M);
   let dni = dniDoPobrania(stan);
-  if (!dni.length) {
+  let { kDni } = zadaniaDoPobrania(stan, []);
+  if (!dni.length && !kDni.length) {
     console.log(`Dane są aktualne i kompletne (${stan.pierwszyDzien} … ${stan.ostatniDzien}). Nic do pobrania.`);
     wyjscieGitHub('dalej', 'nie');
     if (arg('wynik')) zapisz(new Map(), new Map(), { rekordy: 0 }, arg('wynik'), [], 1);
@@ -259,8 +298,10 @@ async function main() {
   if (czesc) {
     const [i, n] = czesc.split('/').map(Number);
     dni = dni.filter((_, k) => k % n === i);
-    const zadania = dni.flatMap((d) => WOJ.map((w) => `${w}:${d}`)).filter((z) => !stan.zrobione.has(z));
-    console.log(`Część ${i + 1}/${n}: ${dni.length} dni, ${zadania.length} zapytań.`);
+    kDni = kDni.filter((_, k) => k % n === i);
+    // najpierw uzupełnianie miesięcy (krótkie), potem pełne dni
+    const zadania = [...kDni.flatMap((d) => WOJ.map((w) => `K:${w}:${d}`)), ...dni.flatMap((d) => WOJ.map((w) => `${w}:${d}`))].filter((z) => !stan.zrobione.has(z));
+    console.log(`Część ${i + 1}/${n}: ${dni.length} dni + ${kDni.length} dni do uzupełnienia miesięcy, ${zadania.length} zapytań.`);
     const CG = new Map(), CR = new Map(), Z = [];
     let rekordy = 0;
     const plik = arg('wynik', 'czesc.tsv');
@@ -277,8 +318,8 @@ async function main() {
   }
 
   // tryb zwykły (na komputerze): pobiera i od razu dokłada do nowe.tsv
-  const zadania = dni.flatMap((d) => WOJ.map((w) => `${w}:${d}`)).filter((z) => !stan.zrobione.has(z));
-  console.log(`Pobieram ${dni.length} dni, ${zadania.length} zapytań dzień×województwo.`);
+  const zadania = [...kDni.flatMap((d) => WOJ.map((w) => `K:${w}:${d}`)), ...dni.flatMap((d) => WOJ.map((w) => `${w}:${d}`))].filter((z) => !stan.zrobione.has(z));
+  console.log(`Pobieram ${dni.length} dni + ${kDni.length} dni do uzupełnienia miesięcy, ${zadania.length} zapytań.`);
   let rekordy = 0, odZapisu = 0;
   const { przerwano } = await pobierz(zadania, (z, { L, LR, n }) => {
     dodaj(G, R, L, LR);

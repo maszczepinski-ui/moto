@@ -9,6 +9,7 @@ import { nazwaWojewodztwa } from '@/lib/wojewodztwa';
 import { site } from '@/config/site';
 import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 interface Props {
   params: Promise<{ para: string }>;
@@ -181,7 +182,7 @@ export default async function PorownaniePage({ params }: Props) {
       </section>
       <p className="text-xs text-slate-500">Dane: CEPiK, stan na {formatDate(a.cepik.stanNa)}. Liczby generacji są minimalne (pomijamy roczniki, w których generacje się mieszały).</p>
       <KodStrony sciezka={adres} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
     </div>
   );
 }

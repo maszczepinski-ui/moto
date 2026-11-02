@@ -39,6 +39,8 @@ export async function GET(req: Request) {
 
 export async function POST(req: Request) {
   if (!magazynDostepny()) return json({ blad: 'Raporty spalania nie są jeszcze włączone' }, 503);
+  // raport to kilka krótkich pól – większe zapytania odrzucamy od razu
+  if (Number(req.headers.get('content-length') || 0) > 2000) return json({ blad: 'Za dużo danych' }, 413);
   let d: Record<string, unknown>;
   try {
     d = await req.json();

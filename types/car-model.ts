@@ -99,6 +99,8 @@ export interface CarModel {
     elektryczne?: number;
     /** Pierwsze rejestracje w Polsce według roku (od listopada 2019) */
     pierwszeRejestracje?: { rok: number; liczba: number }[];
+    /** Pierwsze rejestracje w Polsce w pełnych miesiącach, np. { miesiac: '2026-03', liczba: 412 } */
+    rejestracjeMiesiecznie?: { miesiac: string; liczba: number }[];
     /** miejsce w rankingu popularności (karty zbiorcze) */
     miejsce?: number;
     miejsceWMarce?: number;

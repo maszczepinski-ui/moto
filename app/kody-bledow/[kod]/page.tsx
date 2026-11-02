@@ -7,6 +7,7 @@ import { panelDane, wypelnij } from '@/lib/panel';
 import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
 import LinkPartnerski from '@/components/LinkPartnerski';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 interface Props {
   params: Promise<{ kod: string }>;
@@ -130,7 +131,7 @@ export default async function KodPage({ params }: Props) {
       )}
       <p className="text-xs text-slate-500">Opis ma charakter poradnikowy. Ostateczną przyczynę ustali diagnosta – ten sam kod mogą wywołać różne usterki.</p>
       <KodStrony sciezka={adres} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
     </article>
   );
 }
