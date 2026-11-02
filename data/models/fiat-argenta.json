@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Argenta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARGENTA).",
-  "liczbaWPolsce": 280,
-  "aktywne": 4,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Argenta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARGENTA).",
+  "liczbaWPolsce": 283,
+  "aktywne": 7,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "06",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "14",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "16",
@@ -96,7 +96,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 51
+    "liczba": 54
    },
    {
     "rok": 1983,
@@ -166,7 +166,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 34
+    "liczba": 37
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -184,7 +184,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 165
+    "liczba": 168
    },
    {
     "nazwa": "2,4 l",
@@ -222,7 +222,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 6
+    "liczba": 9
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -236,7 +236,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 53
+    "liczba": 56
    },
    {
     "nazwa": "Hatchback",
@@ -247,16 +247,170 @@
     "liczba": 221
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 3
    }
   ],
-  "miejsce": 1017,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1110,
   "miejsceWMarce": 54,
   "modeliWMarce": 58,
   "sredniRocznik": 1984.0
@@ -265,7 +419,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "argenta",

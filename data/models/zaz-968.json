@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe ZAZ 968 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZAPOROZEC 968, 968, ZAZ-968M, ZAPOROZEC, 968 A).",
-  "liczbaWPolsce": 21614,
-  "aktywne": 8,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe ZAZ 968 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZAPOROZEC 968, 968, ZAZ-968M, ZAPOROZEC, 968 A).",
+  "liczbaWPolsce": 21616,
+  "aktywne": 10,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 517
+    "liczba": 518
    },
    {
     "teryt": "10",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 2961
+    "liczba": 2962
    },
    {
     "teryt": "26",
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 2395
+    "liczba": 2396
    },
    {
     "rok": 1976,
@@ -132,7 +132,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 60
+    "liczba": 61
    },
    {
     "rok": 1986,
@@ -166,7 +166,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1667
+    "liczba": 1669
    },
    {
     "nazwa": "?+LPG",
@@ -180,7 +180,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 19767
+    "liczba": 19769
    },
    {
     "nazwa": "1,1 l",
@@ -206,33 +206,183 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 359
+    "liczba": 360
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1888
+    "liczba": 1889
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2821
+    "liczba": 2823
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 18793
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 4,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 138,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 178,
   "miejsceWMarce": 1,
   "modeliWMarce": 8,
   "sredniRocznik": 1978.7
@@ -241,7 +391,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "zaz",
  "modelSlug": "968",

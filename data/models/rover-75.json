@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 75 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 75, 75 2.0 CDT, 75 2.0 KAT, 75 2,0 CDT, 75 2.0 CDTI).",
-  "liczbaWPolsce": 4794,
-  "aktywne": 1075,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 75 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 56 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 75, 75 2.0 CDT, 75 2.0 KAT, 75 2,0 CDT, 75 2.0 CDTI).",
+  "liczbaWPolsce": 4838,
+  "aktywne": 1119,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 421
+    "liczba": 424
    },
    {
     "teryt": "04",
-    "liczba": 246
+    "liczba": 247
    },
    {
     "teryt": "06",
-    "liczba": 400
+    "liczba": 401
    },
    {
     "teryt": "08",
-    "liczba": 151
+    "liczba": 152
    },
    {
     "teryt": "10",
-    "liczba": 319
+    "liczba": 320
    },
    {
     "teryt": "12",
-    "liczba": 295
+    "liczba": 300
    },
    {
     "teryt": "14",
-    "liczba": 693
+    "liczba": 699
    },
    {
     "teryt": "16",
@@ -50,80 +50,80 @@
    },
    {
     "teryt": "18",
-    "liczba": 290
+    "liczba": 294
    },
    {
     "teryt": "20",
-    "liczba": 125
+    "liczba": 127
    },
    {
     "teryt": "22",
-    "liczba": 262
+    "liczba": 264
    },
    {
     "teryt": "24",
-    "liczba": 395
+    "liczba": 399
    },
    {
     "teryt": "26",
-    "liczba": 159
+    "liczba": 160
    },
    {
     "teryt": "28",
-    "liczba": 186
+    "liczba": 191
    },
    {
     "teryt": "30",
-    "liczba": 480
+    "liczba": 483
    },
    {
     "teryt": "32",
-    "liczba": 227
+    "liczba": 232
    }
   ],
   "bezWojewodztwa": 27,
   "roczniki": [
    {
     "rok": 1999,
-    "liczba": 1041
+    "liczba": 1048
    },
    {
     "rok": 2000,
-    "liczba": 1533
+    "liczba": 1541
    },
    {
     "rok": 2001,
-    "liczba": 660
+    "liczba": 665
    },
    {
     "rok": 2002,
-    "liczba": 519
+    "liczba": 526
    },
    {
     "rok": 2003,
-    "liczba": 412
+    "liczba": 418
    },
    {
     "rok": 2004,
-    "liczba": 350
+    "liczba": 355
    },
    {
     "rok": 2005,
-    "liczba": 158
+    "liczba": 163
    },
    {
     "rok": 2006,
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 2796
+    "liczba": 2821
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1173
+    "liczba": 1192
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -137,15 +137,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3665
+    "liczba": 3698
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 828
+    "liczba": 833
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 284
+    "liczba": 290
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,11 +155,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2524
+    "liczba": 2534
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2225
+    "liczba": 2259
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,11 +169,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 4002
+    "liczba": 4033
    },
    {
     "nazwa": "Kombi",
-    "liczba": 535
+    "liczba": 546
    },
    {
     "nazwa": "Hatchback",
@@ -181,19 +181,173 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 114
+    "liczba": 116
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 56,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 11
+   },
+   {
+    "rok": 2024,
+    "liczba": 18
+   },
+   {
+    "rok": 2025,
+    "liczba": 15
+   },
    {
     "rok": 2026,
     "liczba": 12
    }
   ],
-  "miejsce": 339,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 412,
   "miejsceWMarce": 2,
   "modeliWMarce": 9,
   "sredniRocznik": 2000.9
@@ -202,21 +356,21 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "rover",
  "modelSlug": "75",
  "adres": "/marki/rover/75/",
  "konkurenci": [
   {
+   "slug": "bmw-seria-3",
+   "nazwa": "BMW Seria 3",
+   "adres": "/marki/bmw/seria-3/"
+  },
+  {
    "slug": "alfa-romeo-156",
    "nazwa": "Alfa Romeo 156",
    "adres": "/marki/alfa-romeo/156/"
-  },
-  {
-   "slug": "bmw-seria-3-e46",
-   "nazwa": "BMW Seria 3 E46",
-   "adres": "/marki/bmw/seria-3/e46/"
   },
   {
    "slug": "volkswagen-bora",
@@ -229,9 +383,9 @@
    "adres": "/marki/peugeot/406/"
   },
   {
-   "slug": "mercedes-benz-klasa-c",
-   "nazwa": "Mercedes-Benz Klasa C",
-   "adres": "/marki/mercedes-benz/klasa-c/"
+   "slug": "saab-93",
+   "nazwa": "Saab 93",
+   "adres": "/marki/saab/93/"
   }
  ]
 }

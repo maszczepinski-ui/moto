@@ -11,120 +11,120 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Aygo X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 567 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOYOTA AYGO X, AYGO X).",
-  "liczbaWPolsce": 3567,
-  "aktywne": 3567,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Aygo X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 214 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOYOTA AYGO X, AYGO X).",
+  "liczbaWPolsce": 14214,
+  "aktywne": 14214,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 278
+    "liczba": 1069
    },
    {
     "teryt": "04",
-    "liczba": 173
+    "liczba": 577
    },
    {
     "teryt": "06",
-    "liczba": 113
+    "liczba": 355
    },
    {
     "teryt": "08",
-    "liczba": 95
+    "liczba": 341
    },
    {
     "teryt": "10",
-    "liczba": 162
+    "liczba": 664
    },
    {
     "teryt": "12",
-    "liczba": 396
+    "liczba": 1630
    },
    {
     "teryt": "14",
-    "liczba": 562
+    "liczba": 2305
    },
    {
     "teryt": "16",
-    "liczba": 64
+    "liczba": 288
    },
    {
     "teryt": "18",
-    "liczba": 115
+    "liczba": 521
    },
    {
     "teryt": "20",
-    "liczba": 54
+    "liczba": 225
    },
    {
     "teryt": "22",
-    "liczba": 271
+    "liczba": 1052
    },
    {
     "teryt": "24",
-    "liczba": 662
+    "liczba": 2813
    },
    {
     "teryt": "26",
-    "liczba": 60
+    "liczba": 217
    },
    {
     "teryt": "28",
-    "liczba": 87
+    "liczba": 362
    },
    {
     "teryt": "30",
-    "liczba": 324
+    "liczba": 1279
    },
    {
     "teryt": "32",
-    "liczba": 151
+    "liczba": 516
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 47
+    "liczba": 177
    },
    {
     "rok": 2023,
-    "liczba": 40
+    "liczba": 1517
    },
    {
     "rok": 2024,
-    "liczba": 48
+    "liczba": 4396
    },
    {
     "rok": 2025,
-    "liczba": 1265
+    "liczba": 5956
    },
    {
     "rok": 2026,
-    "liczba": 2164
+    "liczba": 2165
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 2454
+    "nazwa": "Benzyna",
+    "liczba": 11419
    },
    {
-    "nazwa": "Benzyna",
-    "liczba": 1105
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 2711
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 84
    }
   ],
   "pojemnosci": [
    {
-    "nazwa": "1,5 l",
-    "liczba": 2534
+    "nazwa": "1,0 l",
+    "liczba": 11414
    },
    {
-    "nazwa": "1,0 l",
-    "liczba": 1032
+    "nazwa": "1,5 l",
+    "liczba": 2799
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,64 +134,213 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 3366
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 129
+    "liczba": 12740
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 44
+    "liczba": 1118
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 282
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 28
+    "liczba": 74
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3563
+    "liczba": 14208
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 6
    }
   ],
-  "noweOdPaczki": 3567,
-  "hybrydy": 2454,
+  "noweOdPaczki": 14214,
+  "hybrydy": 2711,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 862
+   },
+   {
+    "rok": 2024,
+    "liczba": 4434
+   },
+   {
+    "rok": 2025,
+    "liczba": 4969
+   },
+   {
     "rok": 2026,
-    "liczba": 3567
+    "liczba": 3949
    }
   ],
-  "miejsce": 397,
-  "miejsceWMarce": 17,
-  "modeliWMarce": 36,
-  "sredniRocznik": 2025.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 315
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 311
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 274
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 421
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 318
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 251
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 262
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 350
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 407
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 430
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 438
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 494
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 478
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 441
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 259
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 374
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 480
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 365
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 367
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 407
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 412
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 434
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 434
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 423
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 573
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 382
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 236,
+  "miejsceWMarce": 14,
+  "modeliWMarce": 39,
+  "sredniRocznik": 2024.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "aygo-x",
  "adres": "/marki/toyota/aygo-x/",
  "konkurenci": [
   {
-   "slug": "dacia-bigster",
-   "nazwa": "Dacia Bigster",
-   "adres": "/marki/dacia/bigster/"
-  },
-  {
-   "slug": "suzuki-s-cross",
-   "nazwa": "Suzuki S-Cross",
-   "adres": "/marki/suzuki/s-cross/"
+   "slug": "skoda-scala",
+   "nazwa": "Skoda Scala",
+   "adres": "/marki/skoda/scala/"
   },
   {
    "slug": "skoda-kamiq",
@@ -199,14 +348,19 @@
    "adres": "/marki/skoda/kamiq/"
   },
   {
-   "slug": "mg-hs",
-   "nazwa": "MG HS",
-   "adres": "/marki/mg/hs/"
+   "slug": "peugeot-408",
+   "nazwa": "Peugeot 408",
+   "adres": "/marki/peugeot/408/"
   },
   {
-   "slug": "mg-zs",
-   "nazwa": "MG ZS",
-   "adres": "/marki/mg/zs/"
+   "slug": "seat-arona",
+   "nazwa": "Seat Arona",
+   "adres": "/marki/seat/arona/"
+  },
+  {
+   "slug": "dacia-jogger",
+   "nazwa": "Dacia Jogger",
+   "adres": "/marki/dacia/jogger/"
   }
  ]
 }

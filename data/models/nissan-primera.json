@@ -13,73 +13,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Primera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 49 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRIMERA, PRIMERA 1.6 KAT, PRIMERA 2.0 KAT, PRIMERA 2.0 TD, PRIMERA 1.6).",
-  "liczbaWPolsce": 35204,
-  "aktywne": 5207,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Primera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 255 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRIMERA, PRIMERA 1.6 KAT, PRIMERA 2.0 KAT, PRIMERA 2.0 TD, PRIMERA 1.6).",
+  "liczbaWPolsce": 35410,
+  "aktywne": 5413,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2671
+    "liczba": 2700
    },
    {
     "teryt": "04",
-    "liczba": 1958
+    "liczba": 1966
    },
    {
     "teryt": "06",
-    "liczba": 2860
+    "liczba": 2863
    },
    {
     "teryt": "08",
-    "liczba": 1603
+    "liczba": 1626
    },
    {
     "teryt": "10",
-    "liczba": 2973
+    "liczba": 2991
    },
    {
     "teryt": "12",
-    "liczba": 1463
+    "liczba": 1468
    },
    {
     "teryt": "14",
-    "liczba": 6626
+    "liczba": 6647
    },
    {
     "teryt": "16",
-    "liczba": 555
+    "liczba": 557
    },
    {
     "teryt": "18",
-    "liczba": 1399
+    "liczba": 1405
    },
    {
     "teryt": "20",
-    "liczba": 862
+    "liczba": 869
    },
    {
     "teryt": "22",
-    "liczba": 1758
+    "liczba": 1767
    },
    {
     "teryt": "24",
-    "liczba": 2463
+    "liczba": 2479
    },
    {
     "teryt": "26",
-    "liczba": 908
+    "liczba": 910
    },
    {
     "teryt": "28",
-    "liczba": 1481
+    "liczba": 1486
    },
    {
     "teryt": "30",
-    "liczba": 2877
+    "liczba": 2903
    },
    {
     "teryt": "32",
-    "liczba": 2645
+    "liczba": 2671
    }
   ],
   "bezWojewodztwa": 102,
@@ -94,7 +94,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 1895
+    "liczba": 1897
    },
    {
     "rok": 1993,
@@ -106,7 +106,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 2032
+    "liczba": 2033
    },
    {
     "rok": 1996,
@@ -114,61 +114,61 @@
    },
    {
     "rok": 1997,
-    "liczba": 3090
+    "liczba": 3095
    },
    {
     "rok": 1998,
-    "liczba": 2464
+    "liczba": 2465
    },
    {
     "rok": 1999,
-    "liczba": 2383
+    "liczba": 2388
    },
    {
     "rok": 2000,
-    "liczba": 2413
+    "liczba": 2422
    },
    {
     "rok": 2001,
-    "liczba": 2139
+    "liczba": 2147
    },
    {
     "rok": 2002,
-    "liczba": 2967
+    "liczba": 2998
    },
    {
     "rok": 2003,
-    "liczba": 2981
+    "liczba": 3011
    },
    {
     "rok": 2004,
-    "liczba": 2059
+    "liczba": 2089
    },
    {
     "rok": 2005,
-    "liczba": 1447
+    "liczba": 1493
    },
    {
     "rok": 2006,
-    "liczba": 713
+    "liczba": 739
    },
    {
     "rok": 2007,
-    "liczba": 244
+    "liczba": 256
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 12229
+    "liczba": 12403
    },
    {
     "nazwa": "Diesel",
-    "liczba": 10687
+    "liczba": 10708
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 10207
+    "liczba": 10218
    },
    {
     "nazwa": "?+LPG",
@@ -182,23 +182,23 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 13933
+    "liczba": 13971
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 9614
+    "liczba": 9627
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 6881
+    "liczba": 7017
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 3181
+    "liczba": 3193
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 1517
+    "liczba": 1524
    },
    {
     "nazwa": "Inne / brak danych",
@@ -208,11 +208,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 19580
+    "liczba": 19617
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 13600
+    "liczba": 13769
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -226,40 +226,194 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 12845
+    "liczba": 12895
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 10568
+    "liczba": 10638
    },
    {
     "nazwa": "Kombi",
-    "liczba": 8159
+    "liczba": 8243
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3632
+    "liczba": 3634
    }
   ],
-  "noweOdPaczki": 49,
+  "noweOdPaczki": 255,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 26
+   },
+   {
+    "rok": 2024,
+    "liczba": 93
+   },
+   {
+    "rok": 2025,
+    "liczba": 86
+   },
+   {
     "rok": 2026,
-    "liczba": 49
+    "liczba": 50
    }
   ],
-  "miejsce": 94,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 113,
   "miejsceWMarce": 3,
-  "modeliWMarce": 41,
+  "modeliWMarce": 46,
   "sredniRocznik": 1998.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "primera",
@@ -276,11 +430,6 @@
    "adres": "/marki/seat/toledo/"
   },
   {
-   "slug": "bmw-seria-3",
-   "nazwa": "BMW Seria 3",
-   "adres": "/marki/bmw/seria-3/"
-  },
-  {
    "slug": "audi-a4-b5",
    "nazwa": "Audi A4 B5",
    "adres": "/marki/audi/a4/b5/"
@@ -289,6 +438,11 @@
    "slug": "peugeot-406",
    "nazwa": "Peugeot 406",
    "adres": "/marki/peugeot/406/"
+  },
+  {
+   "slug": "audi-b5",
+   "nazwa": "Audi B5",
+   "adres": "/marki/audi/b5/"
   }
  ]
 }

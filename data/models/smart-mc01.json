@@ -13,122 +13,122 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart MC01 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 53 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MC 01, MC01, MC01 CABRIO).",
-  "liczbaWPolsce": 1566,
-  "aktywne": 569,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart MC01 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 300 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MC 01, MC01, MC01 CABRIO).",
+  "liczbaWPolsce": 1813,
+  "aktywne": 816,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 145
+    "liczba": 174
    },
    {
     "teryt": "04",
-    "liczba": 79
+    "liczba": 84
    },
    {
     "teryt": "06",
-    "liczba": 73
+    "liczba": 84
    },
    {
     "teryt": "08",
-    "liczba": 54
+    "liczba": 67
    },
    {
     "teryt": "10",
-    "liczba": 73
+    "liczba": 79
    },
    {
     "teryt": "12",
-    "liczba": 122
+    "liczba": 147
    },
    {
     "teryt": "14",
-    "liczba": 212
+    "liczba": 229
    },
    {
     "teryt": "16",
-    "liczba": 46
+    "liczba": 53
    },
    {
     "teryt": "18",
-    "liczba": 81
+    "liczba": 116
    },
    {
     "teryt": "20",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "22",
-    "liczba": 115
+    "liczba": 128
    },
    {
     "teryt": "24",
-    "liczba": 189
+    "liczba": 201
    },
    {
     "teryt": "26",
-    "liczba": 40
+    "liczba": 47
    },
    {
     "teryt": "28",
-    "liczba": 42
+    "liczba": 54
    },
    {
     "teryt": "30",
-    "liczba": 187
+    "liczba": 231
    },
    {
     "teryt": "32",
-    "liczba": 79
+    "liczba": 87
    }
   ],
   "bezWojewodztwa": 9,
   "roczniki": [
    {
     "rok": 1998,
-    "liczba": 96
+    "liczba": 99
    },
    {
     "rok": 1999,
-    "liczba": 324
+    "liczba": 348
    },
    {
     "rok": 2000,
-    "liczba": 310
+    "liczba": 348
    },
    {
     "rok": 2001,
-    "liczba": 296
+    "liczba": 357
    },
    {
     "rok": 2002,
-    "liczba": 203
+    "liczba": 249
    },
    {
     "rok": 2003,
-    "liczba": 175
+    "liczba": 224
    },
    {
     "rok": 2004,
-    "liczba": 66
+    "liczba": 80
    },
    {
     "rok": 2005,
-    "liczba": 25
+    "liczba": 33
    },
    {
     "rok": 2006,
-    "liczba": 17
+    "liczba": 21
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1154
+    "liczba": 1339
    },
    {
     "nazwa": "Diesel",
-    "liczba": 401
+    "liczba": 463
    },
    {
     "nazwa": "Inne / brak danych",
@@ -138,15 +138,15 @@
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 974
+    "liczba": 1114
    },
    {
     "nazwa": "0,8 l",
-    "liczba": 428
+    "liczba": 492
    },
    {
     "nazwa": "0,7 l",
-    "liczba": 161
+    "liczba": 204
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,11 +156,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 904
+    "liczba": 1109
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 648
+    "liczba": 690
    },
    {
     "nazwa": "Inne / brak danych",
@@ -170,40 +170,194 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1151
+    "liczba": 1296
    },
    {
     "nazwa": "Coupe",
-    "liczba": 227
+    "liczba": 286
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 113
+    "liczba": 148
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 75
+    "liczba": 83
    }
   ],
-  "noweOdPaczki": 53,
+  "noweOdPaczki": 300,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 32
+   },
+   {
+    "rok": 2024,
+    "liczba": 132
+   },
+   {
+    "rok": 2025,
+    "liczba": 82
+   },
+   {
     "rok": 2026,
-    "liczba": 53
+    "liczba": 54
    }
   ],
-  "miejsce": 571,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 601,
   "miejsceWMarce": 3,
-  "modeliWMarce": 6,
-  "sredniRocznik": 2000.8
+  "modeliWMarce": 8,
+  "sredniRocznik": 2000.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "smart",
  "modelSlug": "mc01",

@@ -13,37 +13,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda Stream – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREAM).",
-  "liczbaWPolsce": 670,
-  "aktywne": 315,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda Stream – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREAM).",
+  "liczbaWPolsce": 699,
+  "aktywne": 344,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 51
+    "liczba": 54
    },
    {
     "teryt": "04",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "teryt": "06",
-    "liczba": 53
+    "liczba": 55
    },
    {
     "teryt": "08",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "10",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "12",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "14",
-    "liczba": 82
+    "liczba": 86
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 52
+    "liczba": 54
    },
    {
     "teryt": "20",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 28
+    "liczba": 32
    },
    {
     "teryt": "24",
@@ -67,7 +67,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "28",
@@ -75,48 +75,48 @@
    },
    {
     "teryt": "30",
-    "liczba": 77
+    "liczba": 80
    },
    {
     "teryt": "32",
-    "liczba": 36
+    "liczba": 39
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2001,
-    "liczba": 318
+    "liczba": 328
    },
    {
     "rok": 2002,
-    "liczba": 150
+    "liczba": 153
    },
    {
     "rok": 2003,
-    "liczba": 53
+    "liczba": 59
    },
    {
     "rok": 2004,
-    "liczba": 97
+    "liczba": 104
    },
    {
     "rok": 2005,
-    "liczba": 22
+    "liczba": 24
    },
    {
     "rok": 2006,
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna + LPG",
-    "liczba": 337
+    "nazwa": "Benzyna",
+    "liczba": 357
    },
    {
-    "nazwa": "Benzyna",
-    "liczba": 332
+    "nazwa": "Benzyna + LPG",
+    "liczba": 341
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,11 +126,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 346
+    "liczba": 368
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 321
+    "liczba": 328
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,11 +140,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 507
+    "liczba": 531
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 156
+    "liczba": 161
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,44 +154,198 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 309
+    "liczba": 317
    },
    {
     "nazwa": "Kombi",
-    "liczba": 262
+    "liczba": 276
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 44
+    "liczba": 49
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 14
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 34,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 16
+   },
+   {
+    "rok": 2025,
+    "liczba": 10
+   },
+   {
     "rok": 2026,
-    "liczba": 5
+    "liczba": 6
    }
   ],
-  "miejsce": 759,
-  "miejsceWMarce": 13,
-  "modeliWMarce": 19,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 834,
+  "miejsceWMarce": 15,
+  "modeliWMarce": 20,
   "sredniRocznik": 2002.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "honda",
  "modelSlug": "stream",
@@ -203,6 +357,16 @@
    "adres": "/marki/mazda/premacy/"
   },
   {
+   "slug": "fiat-multipla",
+   "nazwa": "Fiat Multipla",
+   "adres": "/marki/fiat/multipla/"
+  },
+  {
+   "slug": "citroen-xsara-picasso",
+   "nazwa": "Citroen Xsara Picasso",
+   "adres": "/marki/citroen/xsara-picasso/"
+  },
+  {
    "slug": "volkswagen-sharan",
    "nazwa": "Volkswagen Sharan",
    "adres": "/marki/volkswagen/sharan/"
@@ -211,16 +375,6 @@
    "slug": "renault-scenic",
    "nazwa": "Renault Scenic",
    "adres": "/marki/renault/scenic/"
-  },
-  {
-   "slug": "citroen-xsara-picasso",
-   "nazwa": "Citroen Xsara Picasso",
-   "adres": "/marki/citroen/xsara-picasso/"
-  },
-  {
-   "slug": "opel-zafira",
-   "nazwa": "Opel Zafira",
-   "adres": "/marki/opel/zafira/"
   }
  ]
 }

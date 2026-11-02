@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Kyron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KYRON).",
-  "liczbaWPolsce": 589,
-  "aktywne": 220,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Kyron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KYRON).",
+  "liczbaWPolsce": 628,
+  "aktywne": 259,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 30
+    "liczba": 33
    },
    {
     "teryt": "04",
@@ -28,23 +28,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 51
+    "liczba": 55
    },
    {
     "teryt": "08",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "teryt": "10",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "12",
-    "liczba": 59
+    "liczba": 65
    },
    {
     "teryt": "14",
-    "liczba": 71
+    "liczba": 74
    },
    {
     "teryt": "16",
@@ -52,96 +52,96 @@
    },
    {
     "teryt": "18",
-    "liczba": 36
+    "liczba": 41
    },
    {
     "teryt": "20",
-    "liczba": 19
-   },
-   {
-    "teryt": "22",
-    "liczba": 50
-   },
-   {
-    "teryt": "24",
-    "liczba": 55
-   },
-   {
-    "teryt": "26",
     "liczba": 20
    },
    {
+    "teryt": "22",
+    "liczba": 52
+   },
+   {
+    "teryt": "24",
+    "liczba": 57
+   },
+   {
+    "teryt": "26",
+    "liczba": 22
+   },
+   {
     "teryt": "28",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "30",
-    "liczba": 49
+    "liczba": 53
    },
    {
     "teryt": "32",
-    "liczba": 30
+    "liczba": 32
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 42
+    "liczba": 47
    },
    {
     "rok": 2006,
-    "liczba": 271
+    "liczba": 280
    },
    {
     "rok": 2007,
-    "liczba": 146
+    "liczba": 160
    },
    {
     "rok": 2008,
-    "liczba": 76
+    "liczba": 81
    },
    {
     "rok": 2009,
-    "liczba": 30
+    "liczba": 32
    },
    {
     "rok": 2010,
-    "liczba": 6
+    "liczba": 9
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 588
+    "liczba": 626
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 557
+    "liczba": 589
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 29
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 279
+    "liczba": 309
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 248
+    "liczba": 257
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -155,48 +155,202 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 349
+    "liczba": 373
    },
    {
     "nazwa": "Van",
-    "liczba": 75
+    "liczba": 77
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 75
+    "liczba": 77
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 51
+    "liczba": 58
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 15
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 44,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 22
+   },
+   {
+    "rok": 2025,
+    "liczba": 13
+   },
    {
     "rok": 2026,
     "liczba": 5
    }
   ],
-  "miejsce": 797,
-  "miejsceWMarce": 4,
-  "modeliWMarce": 7,
-  "sredniRocznik": 2006.6
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 864,
+  "miejsceWMarce": 6,
+  "modeliWMarce": 10,
+  "sredniRocznik": 2006.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ssangyong-kgm",
  "modelSlug": "kyron",
@@ -223,9 +377,9 @@
    "adres": "/marki/toyota/avensis/"
   },
   {
-   "slug": "opel-antara",
-   "nazwa": "Opel Antara",
-   "adres": "/marki/opel/antara/"
+   "slug": "volvo-v40",
+   "nazwa": "Volvo V40",
+   "adres": "/marki/volvo/v40/"
   }
  ]
 }

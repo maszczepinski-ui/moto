@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 1.3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1.3, 1,3, 1.3 LIM, 1.3 TOURIST, 1.3 L).",
-  "liczbaWPolsce": 8807,
-  "aktywne": 72,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 1.3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1.3, 1,3, 1.3 LIM, 1.3 TOURIST, 1.3 L).",
+  "liczbaWPolsce": 8817,
+  "aktywne": 82,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 138
+    "liczba": 139
    },
    {
     "teryt": "10",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 917
+    "liczba": 918
    },
    {
     "teryt": "14",
-    "liczba": 2104
+    "liczba": 2105
    },
    {
     "teryt": "16",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 310
+    "liczba": 311
    },
    {
     "teryt": "24",
-    "liczba": 543
+    "liczba": 547
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 442
+    "liczba": 444
    },
    {
     "teryt": "32",
@@ -104,19 +104,19 @@
    },
    {
     "rok": 1988,
-    "liczba": 46
+    "liczba": 47
    },
    {
     "rok": 1989,
-    "liczba": 94
+    "liczba": 97
    },
    {
     "rok": 1990,
-    "liczba": 6420
+    "liczba": 6424
    },
    {
     "rok": 1991,
-    "liczba": 1908
+    "liczba": 1910
    },
    {
     "rok": 1992,
@@ -146,7 +146,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2634
+    "liczba": 2644
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -164,7 +164,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 8674
+    "liczba": 8684
    },
    {
     "nazwa": "Inne / brak danych",
@@ -174,7 +174,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 6943
+    "liczba": 6948
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -182,7 +182,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 110
+    "liczba": 112
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -190,13 +190,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 322
+    "liczba": 325
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3115
+    "liczba": 3125
    },
    {
     "nazwa": "Hatchback",
@@ -211,16 +211,170 @@
     "liczba": 5397
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 3
    }
   ],
-  "miejsce": 257,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 307,
   "miejsceWMarce": 2,
   "modeliWMarce": 11,
   "sredniRocznik": 1990.0
@@ -229,7 +383,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "wartburg",
  "modelSlug": "1-3",

@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Trabant 1.1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1.1, 1.1 LIMUZYNA, 1.1 KOMBI, 1,1, 1.1 POLO).",
-  "liczbaWPolsce": 4231,
-  "aktywne": 158,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Trabant 1.1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1.1, 1.1 LIMUZYNA, 1.1 KOMBI, 1,1, 1.1 POLO).",
+  "liczbaWPolsce": 4241,
+  "aktywne": 168,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 230
+    "liczba": 232
    },
    {
     "teryt": "14",
-    "liczba": 1099
+    "liczba": 1101
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 214
+    "liczba": 215
    },
    {
     "teryt": "20",
@@ -63,11 +63,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 243
+    "liczba": 245
    },
    {
     "teryt": "26",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "teryt": "28",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 471
+    "liczba": 473
    },
    {
     "teryt": "32",
@@ -86,17 +86,17 @@
   "roczniki": [
    {
     "rok": 1990,
-    "liczba": 1117
+    "liczba": 1126
    },
    {
     "rok": 1991,
-    "liczba": 3040
+    "liczba": 3041
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1856
+    "liczba": 1866
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -114,7 +114,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3123
+    "liczba": 3133
    },
    {
     "nazwa": "1,1 l",
@@ -128,7 +128,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3557
+    "liczba": 3561
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -136,7 +136,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 48
+    "liczba": 54
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,11 +146,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1267
+    "liczba": 1273
    },
    {
     "nazwa": "Kombi",
-    "liczba": 706
+    "liczba": 710
    },
    {
     "nazwa": "Hatchback",
@@ -161,16 +161,166 @@
     "liczba": 2097
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 5
+   },
+   {
+    "rok": 2025,
+    "liczba": 5
+   },
    {
     "rok": 2026,
     "liczba": 3
    }
   ],
-  "miejsce": 359,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 433,
   "miejsceWMarce": 3,
   "modeliWMarce": 8,
   "sredniRocznik": 1990.6
@@ -179,7 +329,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "trabant",
  "modelSlug": "1-1",

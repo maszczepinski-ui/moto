@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mcc Smart – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SMART).",
-  "liczbaWPolsce": 507,
-  "aktywne": 176,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mcc Smart – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SMART, SMART MC01).",
+  "liczbaWPolsce": 533,
+  "aktywne": 202,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 33
    },
    {
     "teryt": "04",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "08",
@@ -35,23 +35,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "12",
-    "liczba": 28
+    "liczba": 38
    },
    {
     "teryt": "14",
-    "liczba": 73
+    "liczba": 74
    },
    {
     "teryt": "16",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "18",
-    "liczba": 36
+    "liczba": 40
    },
    {
     "teryt": "20",
@@ -63,11 +63,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "teryt": "26",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "28",
@@ -75,38 +75,38 @@
    },
    {
     "teryt": "30",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "32",
-    "liczba": 37
+    "liczba": 38
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 1998,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1999,
-    "liczba": 88
+    "liczba": 92
    },
    {
     "rok": 2000,
-    "liczba": 148
+    "liczba": 151
    },
    {
     "rok": 2001,
-    "liczba": 118
+    "liczba": 128
    },
    {
     "rok": 2002,
-    "liczba": 87
+    "liczba": 94
    },
    {
     "rok": 2003,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 2004,
@@ -132,11 +132,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 365
+    "liczba": 388
    },
    {
     "nazwa": "Diesel",
-    "liczba": 137
+    "liczba": 140
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,15 +146,15 @@
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 338
+    "liczba": 360
    },
    {
     "nazwa": "0,8 l",
-    "liczba": 135
+    "liczba": 138
    },
    {
     "nazwa": "0,7 l",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "1,5 l",
@@ -168,11 +168,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 267
+    "liczba": 287
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 236
+    "liczba": 242
    },
    {
     "nazwa": "Inne / brak danych",
@@ -182,15 +182,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 345
+    "liczba": 355
    },
    {
     "nazwa": "Coupe",
-    "liczba": 93
+    "liczba": 105
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "nazwa": "Sedan",
@@ -202,19 +202,173 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 25
+    "liczba": 26
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 13
+   },
+   {
+    "rok": 2025,
+    "liczba": 9
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 840,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 901,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
   "sredniRocznik": 2000.7
@@ -223,7 +377,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mcc",
  "modelSlug": "smart",

@@ -11,170 +11,316 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Elroq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 989 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ELROQ 60, ELROQ 50, ELROQ 85, ELROQ RS, ELROQ 85X).",
-  "liczbaWPolsce": 989,
-  "aktywne": 989,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Elroq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 422 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ELROQ 60, ELROQ 50, ELROQ 85, ELROQ RS, ELROQ 85X).",
+  "liczbaWPolsce": 2422,
+  "aktywne": 2422,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 71
+    "liczba": 155
    },
    {
     "teryt": "04",
-    "liczba": 30
+    "liczba": 81
    },
    {
     "teryt": "06",
-    "liczba": 16
+    "liczba": 41
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 41
    },
    {
     "teryt": "10",
-    "liczba": 66
+    "liczba": 165
    },
    {
     "teryt": "12",
-    "liczba": 53
+    "liczba": 231
    },
    {
     "teryt": "14",
-    "liczba": 326
+    "liczba": 600
    },
    {
     "teryt": "16",
-    "liczba": 18
+    "liczba": 41
    },
    {
     "teryt": "18",
-    "liczba": 18
+    "liczba": 52
    },
    {
     "teryt": "20",
-    "liczba": 15
+    "liczba": 29
    },
    {
     "teryt": "22",
-    "liczba": 186
+    "liczba": 463
    },
    {
     "teryt": "24",
-    "liczba": 61
+    "liczba": 193
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 27
    },
    {
     "teryt": "28",
-    "liczba": 26
+    "liczba": 60
    },
    {
     "teryt": "30",
-    "liczba": 67
+    "liczba": 197
    },
    {
     "teryt": "32",
-    "liczba": 19
+    "liczba": 46
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 16
+    "liczba": 1385
    },
    {
     "rok": 2026,
-    "liczba": 973
+    "liczba": 1037
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 989
+    "liczba": 2422
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 989
+    "liczba": 2422
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 967
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 9
+    "liczba": 2381
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 7
+    "liczba": 17
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 6
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 17
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 7
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 989
+    "liczba": 2422
    }
   ],
-  "noweOdPaczki": 989,
+  "noweOdPaczki": 2422,
   "hybrydy": 0,
-  "elektryczne": 989,
+  "elektryczne": 2422,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 1324
+   },
+   {
     "rok": 2026,
-    "liczba": 989
+    "liczba": 1098
    }
   ],
-  "miejsce": 673,
-  "miejsceWMarce": 19,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 139
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 127
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 177
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 175
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 168
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 214
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 536,
+  "miejsceWMarce": 17,
   "modeliWMarce": 27,
-  "sredniRocznik": 2026.0
+  "sredniRocznik": 2025.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "elroq",
  "adres": "/marki/skoda/elroq/",
  "konkurenci": [
   {
-   "slug": "tesla-model-y",
-   "nazwa": "Tesla Model Y",
-   "adres": "/marki/tesla/model-y/"
+   "slug": "bmw-ix2",
+   "nazwa": "BMW IX2",
+   "adres": "/marki/bmw/ix2/"
   },
   {
-   "slug": "tesla-model-3",
-   "nazwa": "Tesla Model 3",
-   "adres": "/marki/tesla/model-3/"
+   "slug": "citroen-e-c3",
+   "nazwa": "Citroen E-C3",
+   "adres": "/marki/citroen/e-c3/"
   },
   {
-   "slug": "mg-zs",
-   "nazwa": "MG ZS",
-   "adres": "/marki/mg/zs/"
+   "slug": "leapmotor-t03",
+   "nazwa": "Leapmotor T03",
+   "adres": "/marki/leapmotor/t03/"
   },
   {
-   "slug": "omoda-5",
-   "nazwa": "Omoda 5",
-   "adres": "/marki/omoda/5/"
+   "slug": "byd-dolphin",
+   "nazwa": "BYD Dolphin",
+   "adres": "/marki/byd/dolphin/"
   },
   {
-   "slug": "dacia-bigster",
-   "nazwa": "Dacia Bigster",
-   "adres": "/marki/dacia/bigster/"
+   "slug": "leapmotor-b10",
+   "nazwa": "Leapmotor B10",
+   "adres": "/marki/leapmotor/b10/"
   }
  ]
 }

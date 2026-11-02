@@ -14,128 +14,128 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW Seria 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 247 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 430I XDRIVE, 420D XDRIVE, 420D, 428I XDRIVE, 428I).",
-  "liczbaWPolsce": 3718,
-  "aktywne": 3390,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW Seria 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 603 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 430I XDRIVE, 420D XDRIVE, 420D, 428I, 420I).",
+  "liczbaWPolsce": 9074,
+  "aktywne": 8746,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 312
+    "liczba": 777
    },
    {
     "teryt": "04",
-    "liczba": 139
+    "liczba": 344
    },
    {
     "teryt": "06",
-    "liczba": 130
+    "liczba": 371
    },
    {
     "teryt": "08",
-    "liczba": 51
+    "liczba": 155
    },
    {
     "teryt": "10",
-    "liczba": 161
+    "liczba": 430
    },
    {
     "teryt": "12",
-    "liczba": 414
+    "liczba": 1008
    },
    {
     "teryt": "14",
-    "liczba": 852
+    "liczba": 1900
    },
    {
     "teryt": "16",
-    "liczba": 51
+    "liczba": 149
    },
    {
     "teryt": "18",
-    "liczba": 171
+    "liczba": 471
    },
    {
     "teryt": "20",
-    "liczba": 55
+    "liczba": 207
    },
    {
     "teryt": "22",
-    "liczba": 170
+    "liczba": 405
    },
    {
     "teryt": "24",
-    "liczba": 408
+    "liczba": 950
    },
    {
     "teryt": "26",
-    "liczba": 88
+    "liczba": 254
    },
    {
     "teryt": "28",
-    "liczba": 49
+    "liczba": 136
    },
    {
     "teryt": "30",
-    "liczba": 525
+    "liczba": 1218
    },
    {
     "teryt": "32",
-    "liczba": 122
+    "liczba": 279
    }
   ],
   "bezWojewodztwa": 20,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 100
+    "liczba": 182
    },
    {
     "rok": 2014,
-    "liczba": 461
+    "liczba": 1072
    },
    {
     "rok": 2015,
-    "liczba": 565
+    "liczba": 1233
    },
    {
     "rok": 2016,
-    "liczba": 493
+    "liczba": 1038
    },
    {
     "rok": 2017,
-    "liczba": 416
+    "liczba": 911
    },
    {
     "rok": 2018,
-    "liczba": 349
+    "liczba": 825
    },
    {
     "rok": 2019,
-    "liczba": 165
+    "liczba": 403
    },
    {
     "rok": 2020,
-    "liczba": 36
+    "liczba": 117
    },
    {
     "rok": 2021,
-    "liczba": 64
+    "liczba": 174
    },
    {
     "rok": 2022,
-    "liczba": 76
+    "liczba": 257
    },
    {
     "rok": 2023,
-    "liczba": 73
+    "liczba": 645
    },
    {
     "rok": 2024,
-    "liczba": 102
+    "liczba": 917
    },
    {
     "rok": 2025,
-    "liczba": 317
+    "liczba": 798
    },
    {
     "rok": 2026,
@@ -145,51 +145,51 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2380
+    "liczba": 5819
    },
    {
     "nazwa": "Diesel",
-    "liczba": 965
+    "liczba": 2253
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 349
+    "liczba": 963
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 39
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3329
+    "liczba": 7659
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 368
+    "liczba": 1376
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 39
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1924
-   },
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1054
+    "liczba": 4475
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 527
+    "liczba": 2206
+   },
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 1998
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 189
+    "liczba": 371
    },
    {
     "nazwa": "Inne / brak danych",
@@ -199,48 +199,202 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1853
+    "liczba": 4155
    },
    {
     "nazwa": "Coupe",
-    "liczba": 1206
+    "liczba": 3226
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 415
+    "liczba": 955
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 156
+    "liczba": 521
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 44
+    "liczba": 122
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 44
+    "liczba": 95
    }
   ],
-  "noweOdPaczki": 2247,
-  "hybrydy": 364,
+  "noweOdPaczki": 7603,
+  "hybrydy": 986,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 505
+   },
+   {
+    "rok": 2024,
+    "liczba": 2288
+   },
+   {
+    "rok": 2025,
+    "liczba": 2435
+   },
+   {
     "rok": 2026,
-    "liczba": 2247
+    "liczba": 2375
    }
   ],
-  "miejsce": 388,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 144
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 127
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 220
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 168
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 223
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 197
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 238
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 192
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 198
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 213
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 169
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 181
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 147
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 215
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 233
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 220
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 184
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 185
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 231
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 198
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 231
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 224
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 157
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 210
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 128
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 302,
   "miejsceWMarce": 8,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2018.5
+  "modeliWMarce": 39,
+  "sredniRocznik": 2018.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "seria-4",
@@ -257,9 +411,9 @@
    "adres": "/marki/alfa-romeo/giulia/"
   },
   {
-   "slug": "ford-edge",
-   "nazwa": "Ford Edge",
-   "adres": "/marki/ford/edge/"
+   "slug": "jaguar-xe",
+   "nazwa": "Jaguar XE",
+   "adres": "/marki/jaguar/xe/"
   },
   {
    "slug": "volvo-xc60",
@@ -267,9 +421,9 @@
    "adres": "/marki/volvo/xc60/"
   },
   {
-   "slug": "mercedes-benz-klasa-cla",
-   "nazwa": "Mercedes-Benz Klasa CLA",
-   "adres": "/marki/mercedes-benz/klasa-cla/"
+   "slug": "skoda-superb",
+   "nazwa": "Skoda Superb",
+   "adres": "/marki/skoda/superb/"
   }
  ]
 }

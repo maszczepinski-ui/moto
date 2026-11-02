@@ -11,98 +11,102 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW IX1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 949 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX1 EDRIVE20, IX1 XDRIVE30).",
-  "liczbaWPolsce": 949,
-  "aktywne": 949,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW IX1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 370 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX1 EDRIVE20, IX1 XDRIVE30).",
+  "liczbaWPolsce": 2370,
+  "aktywne": 2370,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 45
+    "liczba": 134
    },
    {
     "teryt": "04",
-    "liczba": 31
+    "liczba": 83
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 41
    },
    {
     "teryt": "08",
-    "liczba": 24
+    "liczba": 43
    },
    {
     "teryt": "10",
-    "liczba": 44
+    "liczba": 114
    },
    {
     "teryt": "12",
-    "liczba": 149
+    "liczba": 326
    },
    {
     "teryt": "14",
-    "liczba": 174
+    "liczba": 578
    },
    {
     "teryt": "16",
-    "liczba": 23
+    "liczba": 36
    },
    {
     "teryt": "18",
-    "liczba": 8
+    "liczba": 24
    },
    {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 34
    },
    {
     "teryt": "22",
-    "liczba": 53
+    "liczba": 115
    },
    {
     "teryt": "24",
-    "liczba": 172
+    "liczba": 416
    },
    {
     "teryt": "26",
-    "liczba": 14
+    "liczba": 40
    },
    {
     "teryt": "28",
-    "liczba": 13
+    "liczba": 25
    },
    {
     "teryt": "30",
-    "liczba": 140
+    "liczba": 267
    },
    {
     "teryt": "32",
-    "liczba": 38
+    "liczba": 94
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2022,
+    "liczba": 7
+   },
+   {
     "rok": 2023,
-    "liczba": 22
+    "liczba": 265
    },
    {
     "rok": 2024,
-    "liczba": 18
+    "liczba": 309
    },
    {
     "rok": 2025,
-    "liczba": 23
+    "liczba": 892
    },
    {
     "rok": 2026,
-    "liczba": 885
+    "liczba": 897
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 948
+    "liczba": 2369
    },
    {
     "nazwa": "Inne / brak danych",
@@ -112,85 +116,239 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 949
+    "liczba": 2370
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 880
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 47
+    "liczba": 2107
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 14
+    "liczba": 155
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 86
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 8
+    "liczba": 22
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 944
+    "liczba": 2360
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 949,
+  "noweOdPaczki": 2370,
   "hybrydy": 0,
-  "elektryczne": 948,
+  "elektryczne": 2369,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 132
+   },
+   {
+    "rok": 2024,
+    "liczba": 348
+   },
+   {
+    "rok": 2025,
+    "liczba": 912
+   },
+   {
     "rok": 2026,
-    "liczba": 949
+    "liczba": 978
    }
   ],
-  "miejsce": 684,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 186
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 538,
   "miejsceWMarce": 17,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2025.9
+  "modeliWMarce": 39,
+  "sredniRocznik": 2025.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "ix1",
  "adres": "/marki/bmw/ix1/",
  "konkurenci": [
   {
-   "slug": "tesla-model-y",
-   "nazwa": "Tesla Model Y",
-   "adres": "/marki/tesla/model-y/"
+   "slug": "toyota-bz4x",
+   "nazwa": "Toyota bZ4X",
+   "adres": "/marki/toyota/bz4x/"
   },
   {
-   "slug": "tesla-model-3",
-   "nazwa": "Tesla Model 3",
-   "adres": "/marki/tesla/model-3/"
+   "slug": "audi-q4",
+   "nazwa": "Audi Q4",
+   "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "volkswagen-taigo",
-   "nazwa": "Volkswagen Taigo",
-   "adres": "/marki/volkswagen/taigo/"
+   "slug": "volkswagen-id-4",
+   "nazwa": "Volkswagen ID.4",
+   "adres": "/marki/volkswagen/id-4/"
   },
   {
-   "slug": "kia-k4",
-   "nazwa": "Kia K4",
-   "adres": "/marki/kia/k4/"
+   "slug": "skoda-enyaq",
+   "nazwa": "Skoda Enyaq",
+   "adres": "/marki/skoda/enyaq/"
   },
   {
-   "slug": "cupra-terramar",
-   "nazwa": "Cupra Terramar",
-   "adres": "/marki/cupra/terramar/"
+   "slug": "volkswagen-id-3",
+   "nazwa": "Volkswagen ID.3",
+   "adres": "/marki/volkswagen/id-3/"
   }
  ]
 }

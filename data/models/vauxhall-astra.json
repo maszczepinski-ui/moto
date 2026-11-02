@@ -3,74 +3,75 @@
  "marka": "Vauxhall",
  "model": "Astra",
  "generacja": "",
- "lataProdukcji": "1995–2015",
+ "lataProdukcji": "1995–2017",
  "nadwozia": [
   "hatchback",
-  "kombi"
+  "kombi",
+  "kabriolet"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Vauxhall Astra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASTRA).",
-  "liczbaWPolsce": 307,
-  "aktywne": 186,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Vauxhall Astra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 102 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASTRA, ASTRA ACTIVE, ASTRA GTC).",
+  "liczbaWPolsce": 395,
+  "aktywne": 274,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 15
-   },
-   {
-    "teryt": "04",
-    "liczba": 17
-   },
-   {
-    "teryt": "06",
-    "liczba": 30
-   },
-   {
-    "teryt": "08",
-    "liczba": 4
-   },
-   {
-    "teryt": "10",
     "liczba": 19
    },
    {
-    "teryt": "12",
+    "teryt": "04",
+    "liczba": 27
+   },
+   {
+    "teryt": "06",
     "liczba": 36
    },
    {
+    "teryt": "08",
+    "liczba": 5
+   },
+   {
+    "teryt": "10",
+    "liczba": 23
+   },
+   {
+    "teryt": "12",
+    "liczba": 48
+   },
+   {
     "teryt": "14",
-    "liczba": 28
+    "liczba": 33
    },
    {
     "teryt": "16",
-    "liczba": 6
-   },
-   {
-    "teryt": "18",
-    "liczba": 37
-   },
-   {
-    "teryt": "20",
     "liczba": 7
    },
    {
+    "teryt": "18",
+    "liczba": 51
+   },
+   {
+    "teryt": "20",
+    "liczba": 10
+   },
+   {
     "teryt": "22",
-    "liczba": 22
+    "liczba": 26
    },
    {
     "teryt": "24",
-    "liczba": 24
+    "liczba": 37
    },
    {
     "teryt": "26",
-    "liczba": 18
+    "liczba": 22
    },
    {
     "teryt": "28",
-    "liczba": 8
+    "liczba": 11
    },
    {
     "teryt": "30",
@@ -78,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 7
+    "liczba": 11
    }
   ],
   "bezWojewodztwa": 14,
@@ -209,7 +210,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1997,
@@ -241,7 +242,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 19
+    "liczba": 21
    },
    {
     "rok": 2005,
@@ -249,65 +250,73 @@
    },
    {
     "rok": 2006,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 2007,
-    "liczba": 19
-   },
-   {
-    "rok": 2008,
     "liczba": 24
    },
    {
+    "rok": 2008,
+    "liczba": 26
+   },
+   {
     "rok": 2009,
-    "liczba": 13
+    "liczba": 17
    },
    {
     "rok": 2010,
-    "liczba": 19
+    "liczba": 27
    },
    {
     "rok": 2011,
-    "liczba": 9
+    "liczba": 19
    },
    {
     "rok": 2012,
-    "liczba": 11
+    "liczba": 23
    },
    {
     "rok": 2013,
-    "liczba": 9
+    "liczba": 22
    },
    {
     "rok": 2014,
-    "liczba": 6
+    "liczba": 16
    },
    {
     "rok": 2015,
-    "liczba": 8
+    "liczba": 14
    },
    {
     "rok": 2016,
-    "liczba": 1
+    "liczba": 9
    },
    {
     "rok": 2017,
+    "liczba": 4
+   },
+   {
+    "rok": 2018,
+    "liczba": 2
+   },
+   {
+    "rok": 2019,
     "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 155
+    "liczba": 199
    },
    {
     "nazwa": "Diesel",
-    "liczba": 115
+    "liczba": 158
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "nazwa": "Inne / brak danych",
@@ -317,27 +326,27 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 99
+    "liczba": 126
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 75
+    "liczba": 92
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 42
+    "liczba": 65
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 40
+    "liczba": 44
+   },
+   {
+    "nazwa": "2,0 l",
+    "liczba": 32
    },
    {
     "nazwa": "1,9 l",
     "liczba": 18
-   },
-   {
-    "nazwa": "2,0 l",
-    "liczba": 15
    },
    {
     "nazwa": "1,2 l",
@@ -355,11 +364,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 253
+    "liczba": 338
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 38
+    "liczba": 41
    },
    {
     "nazwa": "Inne / brak danych",
@@ -369,73 +378,231 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 221
+    "liczba": 281
    },
    {
     "nazwa": "Kombi",
-    "liczba": 52
+    "liczba": 69
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 9
+    "liczba": 12
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 8
    },
    {
     "nazwa": "Coupe",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 18
    }
   ],
-  "noweOdPaczki": 14,
+  "noweOdPaczki": 102,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 7
+   },
+   {
+    "rok": 2024,
+    "liczba": 46
+   },
+   {
+    "rok": 2025,
+    "liczba": 34
+   },
+   {
     "rok": 2026,
-    "liczba": 14
+    "liczba": 15
    }
   ],
-  "miejsce": 984,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 997,
   "miejsceWMarce": 3,
   "modeliWMarce": 4,
-  "sredniRocznik": 2005.3
+  "sredniRocznik": 2006.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "vauxhall",
  "modelSlug": "astra",
  "adres": "/marki/vauxhall/astra/",
  "konkurenci": [
   {
-   "slug": "renault-megane",
-   "nazwa": "Renault Megane",
-   "adres": "/marki/renault/megane/"
-  },
-  {
    "slug": "mercedes-benz-klasa-a",
    "nazwa": "Mercedes-Benz Klasa A",
    "adres": "/marki/mercedes-benz/klasa-a/"
   },
   {
-   "slug": "toyota-corolla",
-   "nazwa": "Toyota Corolla",
-   "adres": "/marki/toyota/corolla/"
+   "slug": "ford-focus-ii",
+   "nazwa": "Ford Focus II",
+   "adres": "/marki/ford/focus/ii/"
   },
   {
-   "slug": "ford-focus",
-   "nazwa": "Ford Focus",
-   "adres": "/marki/ford/focus/"
+   "slug": "audi-a3",
+   "nazwa": "Audi A3",
+   "adres": "/marki/audi/a3/"
   },
   {
-   "slug": "fiat-bravo",
-   "nazwa": "Fiat Bravo",
-   "adres": "/marki/fiat/bravo/"
+   "slug": "renault-megane",
+   "nazwa": "Renault Megane",
+   "adres": "/marki/renault/megane/"
+  },
+  {
+   "slug": "volkswagen-golf-plus",
+   "nazwa": "Volkswagen Golf Plus",
+   "adres": "/marki/volkswagen/golf-plus/"
   }
  ]
 }

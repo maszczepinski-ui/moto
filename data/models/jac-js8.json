@@ -11,41 +11,41 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe JAC JS8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 397 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JS8 PRO).",
-  "liczbaWPolsce": 397,
-  "aktywne": 397,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe JAC JS8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 536 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JS8 PRO).",
+  "liczbaWPolsce": 536,
+  "aktywne": 536,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "04",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "06",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "10",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "12",
-    "liczba": 26
+    "liczba": 35
    },
    {
     "teryt": "14",
-    "liczba": 59
+    "liczba": 77
    },
    {
     "teryt": "16",
-    "liczba": 24
+    "liczba": 33
    },
    {
     "teryt": "18",
@@ -53,38 +53,42 @@
    },
    {
     "teryt": "20",
-    "liczba": 18
+    "liczba": 31
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 33
    },
    {
     "teryt": "24",
-    "liczba": 34
+    "liczba": 42
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 15
    },
    {
     "teryt": "30",
-    "liczba": 87
+    "liczba": 129
    },
    {
     "teryt": "32",
-    "liczba": 39
+    "liczba": 58
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2024,
+    "liczba": 2
+   },
+   {
     "rok": 2025,
-    "liczba": 347
+    "liczba": 484
    },
    {
     "rok": 2026,
@@ -94,7 +98,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 396
+    "liczba": 535
    },
    {
     "nazwa": "Inne / brak danych",
@@ -104,39 +108,189 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 397
+    "liczba": 536
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 383
+    "liczba": 509
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 9
+    "liczba": 20
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 5
+    "liczba": 6
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 397
+    "liczba": 536
    }
   ],
-  "noweOdPaczki": 397,
+  "noweOdPaczki": 536,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 110
+   },
+   {
     "rok": 2026,
-    "liczba": 397
+    "liczba": 426
    }
   ],
-  "miejsce": 913,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 899,
   "miejsceWMarce": 1,
   "modeliWMarce": 3,
   "sredniRocznik": 2025.1
@@ -145,7 +299,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jac",
  "modelSlug": "js8",
@@ -157,24 +311,24 @@
    "adres": "/marki/baic/x55/"
   },
   {
-   "slug": "lexus-lbx",
-   "nazwa": "Lexus LBX",
-   "adres": "/marki/lexus/lbx/"
-  },
-  {
    "slug": "baic-beijing-3",
    "nazwa": "BAIC Beijing 3",
    "adres": "/marki/baic/beijing-3/"
   },
   {
-   "slug": "kia-k4",
-   "nazwa": "Kia K4",
-   "adres": "/marki/kia/k4/"
+   "slug": "lexus-lbx",
+   "nazwa": "Lexus LBX",
+   "adres": "/marki/lexus/lbx/"
   },
   {
    "slug": "volkswagen-t-roc",
    "nazwa": "Volkswagen T-Roc",
    "adres": "/marki/volkswagen/t-roc/"
+  },
+  {
+   "slug": "ssangyong-torres",
+   "nazwa": "SsangYong (KGM) Torres",
+   "adres": "/marki/ssangyong-kgm/torres/"
   }
  ]
 }

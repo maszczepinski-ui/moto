@@ -11,206 +11,368 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Zoe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 459 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZOE).",
-  "liczbaWPolsce": 459,
-  "aktywne": 459,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Zoe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 310 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZOE).",
+  "liczbaWPolsce": 1310,
+  "aktywne": 1310,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 22
+    "liczba": 71
    },
    {
     "teryt": "04",
-    "liczba": 16
+    "liczba": 45
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 64
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 27
    },
    {
     "teryt": "10",
-    "liczba": 25
+    "liczba": 54
    },
    {
     "teryt": "12",
-    "liczba": 83
+    "liczba": 211
    },
    {
     "teryt": "14",
-    "liczba": 40
+    "liczba": 156
    },
    {
     "teryt": "16",
-    "liczba": 3
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 40
+    "liczba": 128
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 15
    },
    {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 49
    },
    {
     "teryt": "24",
-    "liczba": 43
+    "liczba": 139
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 36
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 17
    },
    {
     "teryt": "30",
-    "liczba": 113
+    "liczba": 265
    },
    {
     "teryt": "32",
-    "liczba": 6
+    "liczba": 22
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 30
+    "liczba": 91
    },
    {
     "rok": 2014,
-    "liczba": 24
+    "liczba": 67
    },
    {
     "rok": 2015,
-    "liczba": 35
+    "liczba": 86
    },
    {
     "rok": 2016,
-    "liczba": 40
+    "liczba": 97
    },
    {
     "rok": 2017,
-    "liczba": 36
+    "liczba": 111
    },
    {
     "rok": 2018,
-    "liczba": 50
+    "liczba": 125
    },
    {
     "rok": 2019,
-    "liczba": 44
+    "liczba": 126
    },
    {
     "rok": 2020,
-    "liczba": 89
+    "liczba": 259
    },
    {
     "rok": 2021,
-    "liczba": 71
+    "liczba": 196
    },
    {
     "rok": 2022,
-    "liczba": 31
+    "liczba": 91
    },
    {
     "rok": 2023,
-    "liczba": 7
+    "liczba": 54
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 459
+    "liczba": 1310
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 459
+    "liczba": 1310
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 405
+    "liczba": 911
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 54
+    "liczba": 370
+   },
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 27
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 455
+    "liczba": 1297
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 13
    }
   ],
-  "noweOdPaczki": 459,
+  "noweOdPaczki": 1310,
   "hybrydy": 0,
-  "elektryczne": 459,
+  "elektryczne": 1310,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 127
+   },
+   {
+    "rok": 2024,
+    "liczba": 361
+   },
+   {
+    "rok": 2025,
+    "liczba": 357
+   },
+   {
     "rok": 2026,
-    "liczba": 459
+    "liczba": 465
    }
   ],
-  "miejsce": 873,
-  "miejsceWMarce": 40,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 681,
+  "miejsceWMarce": 31,
   "modeliWMarce": 48,
-  "sredniRocznik": 2018.3
+  "sredniRocznik": 2018.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "zoe",
  "adres": "/marki/renault/zoe/",
  "konkurenci": [
   {
-   "slug": "ford-ecosport",
-   "nazwa": "Ford Ecosport",
-   "adres": "/marki/ford/ecosport/"
+   "slug": "tesla-model-s",
+   "nazwa": "Tesla Model S",
+   "adres": "/marki/tesla/model-s/"
   },
   {
-   "slug": "kia-stinger",
-   "nazwa": "Kia Stinger",
-   "adres": "/marki/kia/stinger/"
+   "slug": "nissan-leaf",
+   "nazwa": "Nissan Leaf",
+   "adres": "/marki/nissan/leaf/"
   },
   {
-   "slug": "dacia-sandero",
-   "nazwa": "Dacia Sandero",
-   "adres": "/marki/dacia/sandero/"
+   "slug": "dacia-spring",
+   "nazwa": "Dacia Spring",
+   "adres": "/marki/dacia/spring/"
   },
   {
-   "slug": "kia-proceed",
-   "nazwa": "Kia ProCeed",
-   "adres": "/marki/kia/proceed/"
+   "slug": "citroen-e-c3",
+   "nazwa": "Citroen E-C3",
+   "adres": "/marki/citroen/e-c3/"
   },
   {
-   "slug": "seat-arona",
-   "nazwa": "Seat Arona",
-   "adres": "/marki/seat/arona/"
+   "slug": "audi-s3",
+   "nazwa": "Audi S3",
+   "adres": "/marki/audi/s3/"
   }
  ]
 }

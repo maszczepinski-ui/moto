@@ -7,16 +7,15 @@
  "nadwozia": [
   "kombi",
   "van",
-  "hatchback",
-  "sedan"
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Inca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: INCA).",
-  "liczbaWPolsce": 296,
-  "aktywne": 46,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Inca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: INCA).",
+  "liczbaWPolsce": 306,
+  "aktywne": 56,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -24,19 +23,19 @@
    },
    {
     "teryt": "04",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "08",
-    "liczba": 28
+    "liczba": 31
    },
    {
     "teryt": "10",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "12",
@@ -76,18 +75,18 @@
    },
    {
     "teryt": "30",
-    "liczba": 34
+    "liczba": 36
    },
    {
     "teryt": "32",
-    "liczba": 25
+    "liczba": 26
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 1996,
-    "liczba": 76
+    "liczba": 78
    },
    {
     "rok": 1997,
@@ -95,37 +94,37 @@
    },
    {
     "rok": 1998,
-    "liczba": 53
+    "liczba": 54
    },
    {
     "rok": 1999,
-    "liczba": 41
+    "liczba": 43
    },
    {
     "rok": 2000,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 2001,
-    "liczba": 22
+    "liczba": 24
    },
    {
     "rok": 2002,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 2003,
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 198
+    "liczba": 202
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 71
+    "liczba": 77
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -139,15 +138,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 203
+    "liczba": 207
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 81
+    "liczba": 86
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "nazwa": "Inne / brak danych",
@@ -157,11 +156,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 157
+    "liczba": 166
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 133
+    "liczba": 134
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -175,19 +174,19 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 107
+    "liczba": 109
    },
    {
     "nazwa": "Van",
-    "liczba": 73
+    "liczba": 75
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 41
+    "liczba": 46
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "nazwa": "Furgon",
@@ -202,27 +201,208 @@
     "liczba": 29
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 11,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 5
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 995,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1082,
   "miejsceWMarce": 17,
-  "modeliWMarce": 18,
-  "sredniRocznik": 1998.2
+  "modeliWMarce": 19,
+  "sredniRocznik": 1998.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "inca",
- "adres": "/marki/seat/inca/"
+ "adres": "/marki/seat/inca/",
+ "konkurenci": [
+  {
+   "slug": "fiat-marea",
+   "nazwa": "Fiat Marea",
+   "adres": "/marki/fiat/marea/"
+  },
+  {
+   "slug": "volkswagen-passat-b5",
+   "nazwa": "Volkswagen Passat B5",
+   "adres": "/marki/volkswagen/passat/b5/"
+  },
+  {
+   "slug": "ford-focus-i",
+   "nazwa": "Ford Focus I",
+   "adres": "/marki/ford/focus/i/"
+  },
+  {
+   "slug": "land-rover-freelander",
+   "nazwa": "Land Rover Freelander",
+   "adres": "/marki/land-rover/freelander/"
+  },
+  {
+   "slug": "volkswagen-golf",
+   "nazwa": "Volkswagen Golf",
+   "adres": "/marki/volkswagen/golf/"
+  }
+ ]
 }

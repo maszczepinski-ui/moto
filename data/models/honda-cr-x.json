@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda CR-X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 28 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CRX, CRX 1.6, CRX 1.6 KAT, CRX 1,6, CRX 1,6 KAT).",
-  "liczbaWPolsce": 2651,
-  "aktywne": 316,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda CR-X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 71 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CRX, CRX 1.6, CRX 1.6 KAT, CRX 1,6, CRX 1,6 KAT).",
+  "liczbaWPolsce": 2694,
+  "aktywne": 359,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 228
+    "liczba": 233
    },
    {
     "teryt": "04",
@@ -32,19 +32,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 78
+    "liczba": 81
    },
    {
     "teryt": "10",
-    "liczba": 155
+    "liczba": 157
    },
    {
     "teryt": "12",
-    "liczba": 274
+    "liczba": 276
    },
    {
     "teryt": "14",
-    "liczba": 372
+    "liczba": 380
    },
    {
     "teryt": "16",
@@ -52,23 +52,23 @@
    },
    {
     "teryt": "18",
-    "liczba": 99
+    "liczba": 100
    },
    {
     "teryt": "20",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "22",
-    "liczba": 163
+    "liczba": 166
    },
    {
     "teryt": "24",
-    "liczba": 375
+    "liczba": 382
    },
    {
     "teryt": "26",
-    "liczba": 83
+    "liczba": 85
    },
    {
     "teryt": "28",
@@ -76,18 +76,18 @@
    },
    {
     "teryt": "30",
-    "liczba": 253
+    "liczba": 260
    },
    {
     "teryt": "32",
-    "liczba": 140
+    "liczba": 142
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 1984,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 1985,
@@ -95,7 +95,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 1987,
@@ -103,53 +103,53 @@
    },
    {
     "rok": 1988,
-    "liczba": 101
+    "liczba": 102
    },
    {
     "rok": 1989,
-    "liczba": 214
+    "liczba": 218
    },
    {
     "rok": 1990,
-    "liczba": 333
+    "liczba": 337
    },
    {
     "rok": 1991,
-    "liczba": 558
+    "liczba": 565
    },
    {
     "rok": 1992,
-    "liczba": 331
+    "liczba": 335
    },
    {
     "rok": 1993,
-    "liczba": 166
+    "liczba": 167
    },
    {
     "rok": 1994,
-    "liczba": 191
+    "liczba": 192
    },
    {
     "rok": 1995,
-    "liczba": 161
+    "liczba": 164
    },
    {
     "rok": 1996,
-    "liczba": 180
+    "liczba": 183
    },
    {
     "rok": 1997,
-    "liczba": 224
+    "liczba": 234
    },
    {
     "rok": 1998,
-    "liczba": 53
+    "liczba": 56
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2061
+    "liczba": 2104
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -163,25 +163,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2503
+    "liczba": 2543
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 110
+    "liczba": 112
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 38
+    "liczba": 39
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1908
+    "liczba": 1919
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 631
+    "liczba": 663
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -195,15 +195,15 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1057
+    "liczba": 1077
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 720
+    "liczba": 730
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 247
+    "liczba": 259
    },
    {
     "nazwa": "Sedan",
@@ -211,38 +211,187 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 461
+    "liczba": 462
    }
   ],
-  "noweOdPaczki": 28,
+  "noweOdPaczki": 71,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 7
+   },
+   {
+    "rok": 2024,
+    "liczba": 15
+   },
+   {
+    "rok": 2025,
+    "liczba": 21
+   },
    {
     "rok": 2026,
     "liczba": 28
    }
   ],
-  "miejsce": 437,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 510,
   "miejsceWMarce": 9,
-  "modeliWMarce": 19,
-  "sredniRocznik": 1992.0
+  "modeliWMarce": 20,
+  "sredniRocznik": 1992.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "honda",
  "modelSlug": "cr-x",
  "adres": "/marki/honda/cr-x/",
  "konkurenci": [
-  {
-   "slug": "volkswagen-scirocco",
-   "nazwa": "Volkswagen Scirocco",
-   "adres": "/marki/volkswagen/scirocco/"
-  },
   {
    "slug": "mazda-mx-3",
    "nazwa": "Mazda MX-3",
@@ -254,14 +403,19 @@
    "adres": "/marki/ford/escort/"
   },
   {
+   "slug": "opel-calibra",
+   "nazwa": "Opel Calibra",
+   "adres": "/marki/opel/calibra/"
+  },
+  {
    "slug": "fso-polonez",
    "nazwa": "FSO Polonez",
    "adres": "/marki/fso/polonez/"
   },
   {
-   "slug": "opel-calibra",
-   "nazwa": "Opel Calibra",
-   "adres": "/marki/opel/calibra/"
+   "slug": "daihatsu-feroza",
+   "nazwa": "Daihatsu Feroza",
+   "adres": "/marki/daihatsu/feroza/"
   }
  ]
 }

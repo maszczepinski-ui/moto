@@ -11,96 +11,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Bayon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 851 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BAYON).",
-  "liczbaWPolsce": 851,
-  "aktywne": 851,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Bayon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 250 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BAYON).",
+  "liczbaWPolsce": 4250,
+  "aktywne": 4250,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 61
+    "liczba": 377
    },
    {
     "teryt": "04",
-    "liczba": 52
+    "liczba": 245
    },
    {
     "teryt": "06",
-    "liczba": 38
+    "liczba": 170
    },
    {
     "teryt": "08",
-    "liczba": 12
+    "liczba": 80
    },
    {
     "teryt": "10",
-    "liczba": 52
+    "liczba": 224
    },
    {
     "teryt": "12",
-    "liczba": 78
+    "liczba": 306
    },
    {
     "teryt": "14",
-    "liczba": 131
+    "liczba": 734
    },
    {
     "teryt": "16",
-    "liczba": 19
+    "liczba": 89
    },
    {
     "teryt": "18",
-    "liczba": 33
+    "liczba": 158
    },
    {
     "teryt": "20",
-    "liczba": 14
+    "liczba": 79
    },
    {
     "teryt": "22",
-    "liczba": 75
+    "liczba": 388
    },
    {
     "teryt": "24",
-    "liczba": 152
+    "liczba": 661
    },
    {
     "teryt": "26",
-    "liczba": 19
+    "liczba": 102
    },
    {
     "teryt": "28",
-    "liczba": 33
+    "liczba": 159
    },
    {
     "teryt": "30",
-    "liczba": 55
+    "liczba": 297
    },
    {
     "teryt": "32",
-    "liczba": 27
+    "liczba": 181
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 14
+    "liczba": 82
    },
    {
     "rok": 2022,
-    "liczba": 31
+    "liczba": 99
    },
    {
     "rok": 2023,
-    "liczba": 25
+    "liczba": 866
    },
    {
     "rok": 2024,
-    "liczba": 19
+    "liczba": 1638
    },
    {
     "rok": 2025,
-    "liczba": 135
+    "liczba": 937
    },
    {
     "rok": 2026,
@@ -110,83 +110,242 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 818
+    "liczba": 4105
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 26
+    "liczba": 85
    },
    {
-    "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "nazwa": "Benzyna + LPG",
+    "liczba": 60
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 790
+    "liczba": 3606
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 61
+    "liczba": 644
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 714
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 73
+    "liczba": 3397
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 57
+    "liczba": 611
    },
    {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 7
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 226
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 16
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 830
+    "liczba": 4177
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 18
+    "liczba": 61
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 12
    }
   ],
-  "noweOdPaczki": 851,
-  "hybrydy": 26,
+  "noweOdPaczki": 4250,
+  "hybrydy": 85,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 567
+   },
+   {
+    "rok": 2024,
+    "liczba": 1484
+   },
+   {
+    "rok": 2025,
+    "liczba": 1339
+   },
+   {
     "rok": 2026,
-    "liczba": 851
+    "liczba": 860
    }
   ],
-  "miejsce": 705,
-  "miejsceWMarce": 23,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2025.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 194
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 123
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 164
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 171
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 155
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 145
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 114
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 432,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 34,
+  "sredniRocznik": 2024.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "bayon",
  "adres": "/marki/hyundai/bayon/",
  "konkurenci": [
+  {
+   "slug": "dacia-jogger",
+   "nazwa": "Dacia Jogger",
+   "adres": "/marki/dacia/jogger/"
+  },
   {
    "slug": "volkswagen-taigo",
    "nazwa": "Volkswagen Taigo",
@@ -203,14 +362,9 @@
    "adres": "/marki/renault/austral/"
   },
   {
-   "slug": "dacia-jogger",
-   "nazwa": "Dacia Jogger",
-   "adres": "/marki/dacia/jogger/"
-  },
-  {
-   "slug": "skoda-scala",
-   "nazwa": "Skoda Scala",
-   "adres": "/marki/skoda/scala/"
+   "slug": "renault-rafale",
+   "nazwa": "Renault Rafale",
+   "adres": "/marki/renault/rafale/"
   }
  ]
 }

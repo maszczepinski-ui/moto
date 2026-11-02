@@ -11,80 +11,80 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 922 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL 5 DM, SEAL 5 DM, BYD SEAL 5 DM-I).",
-  "liczbaWPolsce": 922,
-  "aktywne": 922,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 317 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL 5 DM, SEAL 5 DM, BYD SEAL 5 DM-I).",
+  "liczbaWPolsce": 1317,
+  "aktywne": 1317,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 97
+    "liczba": 131
    },
    {
     "teryt": "04",
-    "liczba": 37
+    "liczba": 59
    },
    {
     "teryt": "06",
-    "liczba": 28
+    "liczba": 36
    },
    {
     "teryt": "08",
-    "liczba": 4
+    "liczba": 18
    },
    {
     "teryt": "10",
-    "liczba": 25
+    "liczba": 42
    },
    {
     "teryt": "12",
-    "liczba": 56
+    "liczba": 86
    },
    {
     "teryt": "14",
-    "liczba": 366
+    "liczba": 469
    },
    {
     "teryt": "16",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "18",
-    "liczba": 16
+    "liczba": 32
    },
    {
     "teryt": "20",
-    "liczba": 7
+    "liczba": 11
    },
    {
     "teryt": "22",
-    "liczba": 37
+    "liczba": 89
    },
    {
     "teryt": "24",
-    "liczba": 71
+    "liczba": 114
    },
    {
     "teryt": "26",
-    "liczba": 67
+    "liczba": 69
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "30",
-    "liczba": 50
+    "liczba": 88
    },
    {
     "teryt": "32",
-    "liczba": 28
+    "liczba": 37
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 871
+    "liczba": 1266
    },
    {
     "rok": 2026,
@@ -94,31 +94,35 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 913
+    "liczba": 1285
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 8
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 922
+    "liczba": 1317
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 892
+    "liczba": 1184
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 22
+    "liczba": 117
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 7
+    "liczba": 15
    },
    {
     "nazwa": "Inne / brak danych",
@@ -128,32 +132,178 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 921
+    "liczba": 1316
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 922,
-  "hybrydy": 913,
+  "noweOdPaczki": 1317,
+  "hybrydy": 1285,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 375
+   },
+   {
     "rok": 2026,
-    "liczba": 922
+    "liczba": 942
    }
   ],
-  "miejsce": 692,
-  "miejsceWMarce": 3,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 176
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 678,
+  "miejsceWMarce": 4,
   "modeliWMarce": 8,
-  "sredniRocznik": 2025.1
+  "sredniRocznik": 2025.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "seal-5",
@@ -165,24 +315,24 @@
    "adres": "/marki/toyota/yaris-cross/"
   },
   {
-   "slug": "omoda-9",
-   "nazwa": "Omoda 9",
-   "adres": "/marki/omoda/9/"
-  },
-  {
    "slug": "mg-hs",
    "nazwa": "MG HS",
    "adres": "/marki/mg/hs/"
   },
   {
-   "slug": "chery-tiggo-4",
-   "nazwa": "Chery Tiggo 4",
-   "adres": "/marki/chery/tiggo-4/"
+   "slug": "omoda-9",
+   "nazwa": "Omoda 9",
+   "adres": "/marki/omoda/9/"
   },
   {
-   "slug": "mg-zs",
-   "nazwa": "MG ZS",
-   "adres": "/marki/mg/zs/"
+   "slug": "baic-x55",
+   "nazwa": "BAIC X55",
+   "adres": "/marki/baic/x55/"
+  },
+  {
+   "slug": "baic-beijing-3",
+   "nazwa": "BAIC Beijing 3",
+   "adres": "/marki/baic/beijing-3/"
   }
  ]
 }

@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Marea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAREA, MAREA WEEKEND, MAREA 1.6 KAT, MAREA 1.6KAT, MAREA WEEKEND 1.9 JTD).",
-  "liczbaWPolsce": 6383,
-  "aktywne": 353,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Marea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAREA, MAREA WEEKEND, MAREA 1.6 KAT, MAREA 1.6KAT, MAREA WEEKEND 1.9 JTD).",
+  "liczbaWPolsce": 6388,
+  "aktywne": 358,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 703
+    "liczba": 704
    },
    {
     "teryt": "04",
-    "liczba": 343
+    "liczba": 344
    },
    {
     "teryt": "06",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 777
+    "liczba": 778
    },
    {
     "teryt": "16",
@@ -75,22 +75,22 @@
    },
    {
     "teryt": "30",
-    "liczba": 627
+    "liczba": 628
    },
    {
     "teryt": "32",
-    "liczba": 377
+    "liczba": 378
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 1996,
-    "liczba": 485
+    "liczba": 486
    },
    {
     "rok": 1997,
-    "liczba": 2415
+    "liczba": 2416
    },
    {
     "rok": 1998,
@@ -98,7 +98,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 916
+    "liczba": 917
    },
    {
     "rok": 2000,
@@ -106,7 +106,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 421
+    "liczba": 423
    },
    {
     "rok": 2002,
@@ -116,11 +116,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 2314
+    "liczba": 2316
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2297
+    "liczba": 2300
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -134,11 +134,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 3047
+    "liczba": 3050
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 2029
+    "liczba": 2031
    },
    {
     "nazwa": "1,7 l",
@@ -160,11 +160,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3872
+    "liczba": 3873
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2093
+    "liczba": 2097
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -178,11 +178,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 3738
+    "liczba": 3742
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1716
+    "liczba": 1717
    },
    {
     "nazwa": "Hatchback",
@@ -193,17 +193,167 @@
     "liczba": 584
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
+   {
     "rok": 2026,
-    "liczba": 2
+    "liczba": 3
    }
   ],
-  "miejsce": 301,
-  "miejsceWMarce": 18,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 359,
+  "miejsceWMarce": 19,
   "modeliWMarce": 58,
   "sredniRocznik": 1998.2
  },
@@ -211,17 +361,12 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "marea",
  "adres": "/marki/fiat/marea/",
  "konkurenci": [
-  {
-   "slug": "volkswagen-passat",
-   "nazwa": "Volkswagen Passat",
-   "adres": "/marki/volkswagen/passat/"
-  },
   {
    "slug": "ford-focus-i",
    "nazwa": "Ford Focus I",
@@ -233,14 +378,19 @@
    "adres": "/marki/opel/vectra/"
   },
   {
-   "slug": "volkswagen-golf",
-   "nazwa": "Volkswagen Golf",
-   "adres": "/marki/volkswagen/golf/"
+   "slug": "volkswagen-passat-b5",
+   "nazwa": "Volkswagen Passat B5",
+   "adres": "/marki/volkswagen/passat/b5/"
   },
   {
    "slug": "seat-toledo",
    "nazwa": "Seat Toledo",
    "adres": "/marki/seat/toledo/"
+  },
+  {
+   "slug": "volkswagen-golf",
+   "nazwa": "Volkswagen Golf",
+   "adres": "/marki/volkswagen/golf/"
   }
  ]
 }

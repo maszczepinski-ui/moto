@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar XJ8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XJ8).",
-  "liczbaWPolsce": 289,
-  "aktywne": 85,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar XJ8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 35 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XJ8, XJ 8, XJ8 EXECUTIVE 4.2).",
+  "liczbaWPolsce": 316,
+  "aktywne": 112,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "04",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "08",
@@ -33,23 +33,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "12",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "14",
-    "liczba": 74
+    "liczba": 80
    },
    {
     "teryt": "16",
-    "liczba": 2
+    "liczba": 4
    },
    {
     "teryt": "18",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "20",
@@ -57,23 +57,23 @@
    },
    {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "24",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "26",
-    "liczba": 6
-   },
-   {
-    "teryt": "28",
     "liczba": 7
    },
    {
+    "teryt": "28",
+    "liczba": 9
+   },
+   {
     "teryt": "30",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "32",
@@ -96,19 +96,19 @@
    },
    {
     "rok": 1997,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1998,
-    "liczba": 43
+    "liczba": 47
    },
    {
     "rok": 1999,
-    "liczba": 22
+    "liczba": 24
    },
    {
     "rok": 2000,
-    "liczba": 21
+    "liczba": 25
    },
    {
     "rok": 2001,
@@ -120,27 +120,27 @@
    },
    {
     "rok": 2003,
-    "liczba": 39
+    "liczba": 44
    },
    {
     "rok": 2004,
-    "liczba": 71
+    "liczba": 74
    },
    {
     "rok": 2005,
-    "liczba": 19
+    "liczba": 22
    },
    {
     "rok": 2006,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2007,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2008,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2009,
@@ -162,11 +162,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 245
+    "liczba": 269
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 40
+    "liczba": 43
    },
    {
     "nazwa": "Inne / brak danych",
@@ -176,19 +176,19 @@
   "pojemnosci": [
    {
     "nazwa": "4,2 l",
-    "liczba": 138
+    "liczba": 153
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 70
+    "liczba": 74
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 59
+    "liczba": 66
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
@@ -198,11 +198,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 166
+    "liczba": 176
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 117
+    "liczba": 134
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -216,34 +216,215 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 276
+    "liczba": 301
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 15
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 35,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 3
+   },
+   {
+    "rok": 2024,
+    "liczba": 11
+   },
+   {
+    "rok": 2025,
+    "liczba": 13
+   },
    {
     "rok": 2026,
     "liczba": 8
    }
   ],
-  "miejsce": 1006,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1075,
   "miejsceWMarce": 10,
-  "modeliWMarce": 11,
+  "modeliWMarce": 15,
   "sredniRocznik": 2002.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "xj8",
- "adres": "/marki/jaguar/xj8/"
+ "adres": "/marki/jaguar/xj8/",
+ "konkurenci": [
+  {
+   "slug": "bmw-seria-7",
+   "nazwa": "BMW Seria 7",
+   "adres": "/marki/bmw/seria-7/"
+  },
+  {
+   "slug": "chrysler-300m",
+   "nazwa": "Chrysler 300M",
+   "adres": "/marki/chrysler/300m/"
+  },
+  {
+   "slug": "audi-a8",
+   "nazwa": "Audi A8",
+   "adres": "/marki/audi/a8/"
+  },
+  {
+   "slug": "lexus-ls",
+   "nazwa": "Lexus LS",
+   "adres": "/marki/lexus/ls/"
+  },
+  {
+   "slug": "honda-legend",
+   "nazwa": "Honda Legend",
+   "adres": "/marki/honda/legend/"
+  }
+ ]
 }

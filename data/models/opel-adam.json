@@ -11,204 +11,348 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Adam – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 772 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ADAM).",
-  "liczbaWPolsce": 2360,
-  "aktywne": 1616,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Adam – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 562 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ADAM).",
+  "liczbaWPolsce": 4150,
+  "aktywne": 3406,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 176
+    "liczba": 298
    },
    {
     "teryt": "04",
-    "liczba": 92
+    "liczba": 164
    },
    {
     "teryt": "06",
-    "liczba": 56
+    "liczba": 90
    },
    {
     "teryt": "08",
-    "liczba": 58
+    "liczba": 108
    },
    {
     "teryt": "10",
-    "liczba": 118
+    "liczba": 216
    },
    {
     "teryt": "12",
-    "liczba": 268
+    "liczba": 492
    },
    {
     "teryt": "14",
-    "liczba": 301
+    "liczba": 475
    },
    {
     "teryt": "16",
-    "liczba": 62
+    "liczba": 121
    },
    {
     "teryt": "18",
-    "liczba": 102
+    "liczba": 191
    },
    {
     "teryt": "20",
-    "liczba": 26
+    "liczba": 51
    },
    {
     "teryt": "22",
-    "liczba": 126
+    "liczba": 206
    },
    {
     "teryt": "24",
-    "liczba": 564
+    "liczba": 965
    },
    {
     "teryt": "26",
-    "liczba": 35
+    "liczba": 76
    },
    {
     "teryt": "28",
-    "liczba": 53
+    "liczba": 84
    },
    {
     "teryt": "30",
-    "liczba": 234
+    "liczba": 481
    },
    {
     "teryt": "32",
-    "liczba": 76
+    "liczba": 119
    }
   ],
   "bezWojewodztwa": 13,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 8
+    "liczba": 19
    },
    {
     "rok": 2013,
-    "liczba": 669
+    "liczba": 1141
    },
    {
     "rok": 2014,
-    "liczba": 536
+    "liczba": 900
    },
    {
     "rok": 2015,
-    "liczba": 382
+    "liczba": 714
    },
    {
     "rok": 2016,
-    "liczba": 311
+    "liczba": 540
    },
    {
     "rok": 2017,
-    "liczba": 191
+    "liczba": 370
    },
    {
     "rok": 2018,
-    "liczba": 142
+    "liczba": 266
    },
    {
     "rok": 2019,
-    "liczba": 56
+    "liczba": 131
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2295
+    "liczba": 4019
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 59
+    "liczba": 122
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 9
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1732
+    "liczba": 2893
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 533
+    "liczba": 1021
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 88
+    "liczba": 225
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 11
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1048
+    "liczba": 2266
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 1118
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 750
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 548
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 16
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2303
+    "liczba": 4067
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 57
+    "liczba": 83
    }
   ],
-  "noweOdPaczki": 772,
+  "noweOdPaczki": 2562,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 138
+   },
+   {
+    "rok": 2024,
+    "liczba": 752
+   },
+   {
+    "rok": 2025,
+    "liczba": 858
+   },
+   {
     "rok": 2026,
-    "liczba": 772
+    "liczba": 814
    }
   ],
-  "miejsce": 463,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 67
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 64
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 65
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 98
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 440,
   "miejsceWMarce": 22,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2014.7
+  "modeliWMarce": 33,
+  "sredniRocznik": 2014.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "adam",
  "adres": "/marki/opel/adam/",
  "konkurenci": [
-  {
-   "slug": "hyundai-i20",
-   "nazwa": "Hyundai i20",
-   "adres": "/marki/hyundai/i20/"
-  },
-  {
-   "slug": "peugeot-208",
-   "nazwa": "Peugeot 208",
-   "adres": "/marki/peugeot/208/"
-  },
   {
    "slug": "audi-a1",
    "nazwa": "Audi A1",
@@ -220,9 +364,19 @@
    "adres": "/marki/kia/rio/"
   },
   {
-   "slug": "dacia-sandero",
-   "nazwa": "Dacia Sandero",
-   "adres": "/marki/dacia/sandero/"
+   "slug": "hyundai-i30",
+   "nazwa": "Hyundai i30",
+   "adres": "/marki/hyundai/i30/"
+  },
+  {
+   "slug": "peugeot-208",
+   "nazwa": "Peugeot 208",
+   "adres": "/marki/peugeot/208/"
+  },
+  {
+   "slug": "hyundai-i20",
+   "nazwa": "Hyundai i20",
+   "adres": "/marki/hyundai/i20/"
   }
  ]
 }

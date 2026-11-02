@@ -11,80 +11,80 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Leapmotor B10 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 744 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B10).",
-  "liczbaWPolsce": 744,
-  "aktywne": 744,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Leapmotor B10 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 163 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B10).",
+  "liczbaWPolsce": 1163,
+  "aktywne": 1163,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 52
+    "liczba": 66
    },
    {
     "teryt": "04",
-    "liczba": 41
+    "liczba": 48
    },
    {
     "teryt": "06",
-    "liczba": 24
+    "liczba": 32
    },
    {
     "teryt": "08",
-    "liczba": 15
+    "liczba": 28
    },
    {
     "teryt": "10",
-    "liczba": 37
+    "liczba": 82
    },
    {
     "teryt": "12",
-    "liczba": 58
+    "liczba": 97
    },
    {
     "teryt": "14",
-    "liczba": 114
+    "liczba": 193
    },
    {
     "teryt": "16",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "18",
-    "liczba": 49
+    "liczba": 62
    },
    {
     "teryt": "20",
-    "liczba": 23
+    "liczba": 42
    },
    {
     "teryt": "22",
-    "liczba": 45
+    "liczba": 57
    },
    {
     "teryt": "24",
-    "liczba": 109
+    "liczba": 176
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 12
    },
    {
     "teryt": "28",
-    "liczba": 20
+    "liczba": 30
    },
    {
     "teryt": "30",
-    "liczba": 93
+    "liczba": 166
    },
    {
     "teryt": "32",
-    "liczba": 45
+    "liczba": 60
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 143
+    "liczba": 561
    },
    {
     "rok": 2026,
@@ -94,7 +94,7 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 609
+    "liczba": 1027
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -102,7 +102,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "pojemnosci": [
@@ -112,21 +112,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 514
+    "liczba": 933
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 700
+    "liczba": 1080
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 35
+    "liczba": 61
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 6
+    "liczba": 19
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,61 +136,211 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 742
+    "liczba": 1160
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
-  "noweOdPaczki": 744,
+  "noweOdPaczki": 1163,
   "hybrydy": 130,
-  "elektryczne": 609,
+  "elektryczne": 1027,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 330
+   },
+   {
     "rok": 2026,
-    "liczba": 744
+    "liczba": 832
    }
   ],
-  "miejsce": 737,
-  "miejsceWMarce": 1,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 188
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 710,
+  "miejsceWMarce": 2,
   "modeliWMarce": 3,
-  "sredniRocznik": 2025.8
+  "sredniRocznik": 2025.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "leapmotor",
  "modelSlug": "b10",
  "adres": "/marki/leapmotor/b10/",
  "konkurenci": [
   {
-   "slug": "mg-zs",
-   "nazwa": "MG ZS",
-   "adres": "/marki/mg/zs/"
+   "slug": "byd-dolphin",
+   "nazwa": "BYD Dolphin",
+   "adres": "/marki/byd/dolphin/"
   },
   {
-   "slug": "mg-hs",
-   "nazwa": "MG HS",
-   "adres": "/marki/mg/hs/"
+   "slug": "skoda-elroq",
+   "nazwa": "Skoda Elroq",
+   "adres": "/marki/skoda/elroq/"
   },
   {
-   "slug": "omoda-5",
-   "nazwa": "Omoda 5",
-   "adres": "/marki/omoda/5/"
+   "slug": "bmw-ix2",
+   "nazwa": "BMW IX2",
+   "adres": "/marki/bmw/ix2/"
   },
   {
-   "slug": "mg-3",
-   "nazwa": "MG 3",
-   "adres": "/marki/mg/3/"
+   "slug": "citroen-e-c3",
+   "nazwa": "Citroen E-C3",
+   "adres": "/marki/citroen/e-c3/"
   },
   {
-   "slug": "chery-tiggo-7",
-   "nazwa": "Chery Tiggo 7",
-   "adres": "/marki/chery/tiggo-7/"
+   "slug": "dacia-spring",
+   "nazwa": "Dacia Spring",
+   "adres": "/marki/dacia/spring/"
   }
  ]
 }

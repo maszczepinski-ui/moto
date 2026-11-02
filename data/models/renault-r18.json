@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault R18 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 18 1.6, R 18 2.1D, R 18, R 18 1.6 KOMBI, R 18 1.4).",
-  "liczbaWPolsce": 1631,
-  "aktywne": 1,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault R18 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 18 1.6, R 18 2.1D, R 18, R 18 1.6 KOMBI, R 18 1.4).",
+  "liczbaWPolsce": 1632,
+  "aktywne": 2,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 253
+    "liczba": 254
    },
    {
     "teryt": "32",
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1980,
-    "liczba": 213
+    "liczba": 214
    },
    {
     "rok": 1981,
@@ -158,7 +158,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 180
+    "liczba": 181
    },
    {
     "nazwa": "?+LPG",
@@ -176,7 +176,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 833
+    "liczba": 834
    },
    {
     "nazwa": "2,1 l",
@@ -214,7 +214,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -228,7 +228,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 141
+    "liczba": 142
    },
    {
     "nazwa": "Hatchback",
@@ -243,12 +243,159 @@
     "liczba": 1435
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 555,
-  "miejsceWMarce": 27,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2025,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 626,
+  "miejsceWMarce": 30,
   "modeliWMarce": 48,
   "sredniRocznik": 1982.1
  },
@@ -256,7 +403,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "r18",

@@ -12,96 +12,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 199 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 4).",
-  "liczbaWPolsce": 385,
-  "aktywne": 336,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 628 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 4, DS 4 CROSSBACK).",
+  "liczbaWPolsce": 814,
+  "aktywne": 765,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 21
+    "liczba": 42
    },
    {
     "teryt": "04",
-    "liczba": 17
+    "liczba": 33
    },
    {
     "teryt": "06",
-    "liczba": 20
-   },
-   {
-    "teryt": "08",
-    "liczba": 7
-   },
-   {
-    "teryt": "10",
-    "liczba": 24
-   },
-   {
-    "teryt": "12",
-    "liczba": 26
-   },
-   {
-    "teryt": "14",
-    "liczba": 95
-   },
-   {
-    "teryt": "16",
-    "liczba": 6
-   },
-   {
-    "teryt": "18",
-    "liczba": 19
-   },
-   {
-    "teryt": "20",
-    "liczba": 11
-   },
-   {
-    "teryt": "22",
-    "liczba": 11
-   },
-   {
-    "teryt": "24",
-    "liczba": 39
-   },
-   {
-    "teryt": "26",
-    "liczba": 16
-   },
-   {
-    "teryt": "28",
-    "liczba": 13
-   },
-   {
-    "teryt": "30",
     "liczba": 47
    },
    {
+    "teryt": "08",
+    "liczba": 18
+   },
+   {
+    "teryt": "10",
+    "liczba": 47
+   },
+   {
+    "teryt": "12",
+    "liczba": 76
+   },
+   {
+    "teryt": "14",
+    "liczba": 151
+   },
+   {
+    "teryt": "16",
+    "liczba": 13
+   },
+   {
+    "teryt": "18",
+    "liczba": 65
+   },
+   {
+    "teryt": "20",
+    "liczba": 20
+   },
+   {
+    "teryt": "22",
+    "liczba": 25
+   },
+   {
+    "teryt": "24",
+    "liczba": 74
+   },
+   {
+    "teryt": "26",
+    "liczba": 41
+   },
+   {
+    "teryt": "28",
+    "liczba": 20
+   },
+   {
+    "teryt": "30",
+    "liczba": 122
+   },
+   {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 17
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
+    "rok": 2013,
+    "liczba": 2
+   },
+   {
     "rok": 2014,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2015,
-    "liczba": 28
+    "liczba": 84
    },
    {
     "rok": 2016,
-    "liczba": 170
+    "liczba": 312
    },
    {
     "rok": 2017,
-    "liczba": 62
+    "liczba": 133
    },
    {
     "rok": 2018,
-    "liczba": 17
+    "liczba": 52
    },
    {
     "rok": 2019,
@@ -113,77 +117,81 @@
    },
    {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 9
    },
    {
     "rok": 2022,
-    "liczba": 61
+    "liczba": 126
    },
    {
     "rok": 2023,
-    "liczba": 24
+    "liczba": 53
    },
    {
     "rok": 2024,
-    "liczba": 7
+    "liczba": 27
    },
    {
     "rok": 2025,
-    "liczba": 2
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna",
-    "liczba": 205
+    "nazwa": "Diesel",
+    "liczba": 392
    },
    {
-    "nazwa": "Diesel",
-    "liczba": 134
+    "nazwa": "Benzyna",
+    "liczba": 344
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 46
+    "liczba": 73
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 5
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 219
+    "liczba": 444
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 106
+    "liczba": 204
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 31
+    "liczba": 82
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 26
+    "liczba": 79
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 5
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 199
-   },
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 116
+    "liczba": 496
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 56
+    "liczba": 177
+   },
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 126
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "nazwa": "Inne / brak danych",
@@ -193,55 +201,203 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 305
+    "liczba": 644
    },
    {
     "nazwa": "Kombi",
-    "liczba": 73
+    "liczba": 150
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 10
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 199,
-  "hybrydy": 46,
-  "elektryczne": 0,
+  "noweOdPaczki": 628,
+  "hybrydy": 76,
+  "elektryczne": 2,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 32
+   },
+   {
+    "rok": 2024,
+    "liczba": 157
+   },
+   {
+    "rok": 2025,
+    "liczba": 233
+   },
+   {
     "rok": 2026,
-    "liczba": 199
+    "liczba": 206
    }
   ],
-  "miejsce": 920,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 796,
   "miejsceWMarce": 3,
-  "modeliWMarce": 3,
-  "sredniRocznik": 2017.8
+  "modeliWMarce": 7,
+  "sredniRocznik": 2017.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ds",
  "modelSlug": "4",
  "adres": "/marki/ds/4/",
  "konkurenci": [
   {
-   "slug": "kia-proceed",
-   "nazwa": "Kia ProCeed",
-   "adres": "/marki/kia/proceed/"
-  },
-  {
-   "slug": "dacia-duster",
-   "nazwa": "Dacia Duster",
-   "adres": "/marki/dacia/duster/"
-  },
-  {
-   "slug": "renault-captur",
-   "nazwa": "Renault Captur",
-   "adres": "/marki/renault/captur/"
+   "slug": "peugeot-308",
+   "nazwa": "Peugeot 308",
+   "adres": "/marki/peugeot/308/"
   },
   {
    "slug": "peugeot-208",
@@ -252,6 +408,16 @@
    "slug": "hyundai-i30",
    "nazwa": "Hyundai i30",
    "adres": "/marki/hyundai/i30/"
+  },
+  {
+   "slug": "hyundai-ioniq",
+   "nazwa": "Hyundai Ioniq",
+   "adres": "/marki/hyundai/ioniq/"
+  },
+  {
+   "slug": "dacia-duster",
+   "nazwa": "Dacia Duster",
+   "adres": "/marki/dacia/duster/"
   }
  ]
 }

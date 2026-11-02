@@ -11,112 +11,112 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Arona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 489 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARONA).",
-  "liczbaWPolsce": 3977,
-  "aktywne": 3977,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Arona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 726 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARONA).",
+  "liczbaWPolsce": 8214,
+  "aktywne": 8214,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 298
+    "liczba": 562
    },
    {
     "teryt": "04",
-    "liczba": 203
+    "liczba": 415
    },
    {
     "teryt": "06",
-    "liczba": 58
+    "liczba": 137
    },
    {
     "teryt": "08",
-    "liczba": 106
+    "liczba": 207
    },
    {
     "teryt": "10",
-    "liczba": 171
+    "liczba": 419
    },
    {
     "teryt": "12",
-    "liczba": 452
+    "liczba": 911
    },
    {
     "teryt": "14",
-    "liczba": 508
+    "liczba": 1156
    },
    {
     "teryt": "16",
-    "liczba": 182
+    "liczba": 361
    },
    {
     "teryt": "18",
-    "liczba": 171
+    "liczba": 338
    },
    {
     "teryt": "20",
-    "liczba": 116
+    "liczba": 242
    },
    {
     "teryt": "22",
-    "liczba": 333
+    "liczba": 764
    },
    {
     "teryt": "24",
-    "liczba": 506
+    "liczba": 977
    },
    {
     "teryt": "26",
-    "liczba": 128
+    "liczba": 275
    },
    {
     "teryt": "28",
-    "liczba": 49
+    "liczba": 92
    },
    {
     "teryt": "30",
-    "liczba": 497
+    "liczba": 1012
    },
    {
     "teryt": "32",
-    "liczba": 199
+    "liczba": 346
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 77
+    "liczba": 114
    },
    {
     "rok": 2018,
-    "liczba": 1534
+    "liczba": 1905
    },
    {
     "rok": 2019,
-    "liczba": 1022
+    "liczba": 1383
    },
    {
     "rok": 2020,
-    "liczba": 89
+    "liczba": 299
    },
    {
     "rok": 2021,
-    "liczba": 61
+    "liczba": 211
    },
    {
     "rok": 2022,
-    "liczba": 59
+    "liczba": 149
    },
    {
     "rok": 2023,
-    "liczba": 43
+    "liczba": 784
    },
    {
     "rok": 2024,
-    "liczba": 41
+    "liczba": 1447
    },
    {
     "rok": 2025,
-    "liczba": 231
+    "liczba": 1101
    },
    {
     "rok": 2026,
@@ -126,29 +126,29 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3870
+    "liczba": 7751
    },
    {
     "nazwa": "Diesel",
-    "liczba": 92
+    "liczba": 400
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 15
+    "liczba": 63
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3356
+    "liczba": 6978
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 526
+    "liczba": 832
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 93
+    "liczba": 402
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,64 +158,226 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 3225
+    "liczba": 5614
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 566
+    "liczba": 1485
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 168
+    "liczba": 1060
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 3
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3926
+    "liczba": 8047
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 87
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 51
+    "liczba": 80
    }
   ],
-  "noweOdPaczki": 1489,
-  "hybrydy": 0,
+  "noweOdPaczki": 5726,
+  "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 472
+   },
+   {
+    "rok": 2024,
+    "liczba": 1948
+   },
+   {
+    "rok": 2025,
+    "liczba": 1746
+   },
+   {
     "rok": 2026,
-    "liczba": 1489
+    "liczba": 1560
    }
   ],
-  "miejsce": 369,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 171
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 196
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 159
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 191
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 159
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 140
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 158
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 165
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 198
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 225
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 171
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 149
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 146
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 160
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 112
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 94
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 112
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 71
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 318,
   "miejsceWMarce": 8,
-  "modeliWMarce": 18,
-  "sredniRocznik": 2020.3
+  "modeliWMarce": 19,
+  "sredniRocznik": 2021.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "arona",
  "adres": "/marki/seat/arona/",
  "konkurenci": [
   {
-   "slug": "ford-ecosport",
-   "nazwa": "Ford Ecosport",
-   "adres": "/marki/ford/ecosport/"
-  },
-  {
    "slug": "renault-captur",
    "nazwa": "Renault Captur",
    "adres": "/marki/renault/captur/"
+  },
+  {
+   "slug": "toyota-aygo-x",
+   "nazwa": "Toyota Aygo X",
+   "adres": "/marki/toyota/aygo-x/"
   },
   {
    "slug": "dacia-sandero",
@@ -228,9 +390,9 @@
    "adres": "/marki/skoda/scala/"
   },
   {
-   "slug": "suzuki-celerio",
-   "nazwa": "Suzuki Celerio",
-   "adres": "/marki/suzuki/celerio/"
+   "slug": "ford-ecosport",
+   "nazwa": "Ford Ecosport",
+   "adres": "/marki/ford/ecosport/"
   }
  ]
 }

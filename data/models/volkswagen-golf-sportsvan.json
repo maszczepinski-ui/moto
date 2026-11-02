@@ -11,144 +11,148 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Golf Sportsvan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 818 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GOLF SPORTSVAN).",
-  "liczbaWPolsce": 12450,
-  "aktywne": 7620,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Golf Sportsvan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 857 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GOLF SPORTSVAN).",
+  "liczbaWPolsce": 14489,
+  "aktywne": 9659,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 684
+    "liczba": 854
    },
    {
     "teryt": "04",
-    "liczba": 235
+    "liczba": 343
    },
    {
     "teryt": "06",
-    "liczba": 194
+    "liczba": 271
    },
    {
     "teryt": "08",
-    "liczba": 174
+    "liczba": 259
    },
    {
     "teryt": "10",
-    "liczba": 468
+    "liczba": 556
    },
    {
     "teryt": "12",
-    "liczba": 1154
+    "liczba": 1293
    },
    {
     "teryt": "14",
-    "liczba": 1471
+    "liczba": 1612
    },
    {
     "teryt": "16",
-    "liczba": 296
+    "liczba": 431
    },
    {
     "teryt": "18",
-    "liczba": 1487
+    "liczba": 1555
    },
    {
     "teryt": "20",
-    "liczba": 140
+    "liczba": 167
    },
    {
     "teryt": "22",
-    "liczba": 1623
+    "liczba": 1807
    },
    {
     "teryt": "24",
-    "liczba": 1996
+    "liczba": 2238
    },
    {
     "teryt": "26",
-    "liczba": 352
+    "liczba": 389
    },
    {
     "teryt": "28",
-    "liczba": 156
+    "liczba": 226
    },
    {
     "teryt": "30",
-    "liczba": 1623
+    "liczba": 1993
    },
    {
     "teryt": "32",
-    "liczba": 389
+    "liczba": 487
    }
   ],
   "bezWojewodztwa": 8,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 993
+    "liczba": 1441
    },
    {
     "rok": 2015,
-    "liczba": 2182
+    "liczba": 2773
    },
    {
     "rok": 2016,
-    "liczba": 2497
+    "liczba": 2887
    },
    {
     "rok": 2017,
-    "liczba": 3519
+    "liczba": 3806
    },
    {
     "rok": 2018,
-    "liczba": 2404
+    "liczba": 2557
    },
    {
     "rok": 2019,
-    "liczba": 652
+    "liczba": 768
+   },
+   {
+    "rok": 2020,
+    "liczba": 70
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 11385
+    "liczba": 12527
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1060
+    "liczba": 1951
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 11
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 6378
+    "liczba": 6989
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 2518
+    "liczba": 2693
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 1936
+    "liczba": 2245
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 745
+    "liczba": 1367
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 550
+    "liczba": 600
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 317
+    "liczba": 588
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 7
    }
   ],
   "pochodzenie": [
@@ -158,46 +162,204 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 994
+    "liczba": 2508
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 404
+    "liczba": 926
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 25
+    "liczba": 28
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 12252
+    "liczba": 14021
+   },
+   {
+    "nazwa": "Hatchback",
+    "liczba": 284
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 198
+    "liczba": 184
    }
   ],
-  "noweOdPaczki": 818,
+  "noweOdPaczki": 2857,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 163
+   },
+   {
+    "rok": 2024,
+    "liczba": 837
+   },
+   {
+    "rok": 2025,
+    "liczba": 999
+   },
+   {
     "rok": 2026,
-    "liczba": 818
+    "liczba": 858
    }
   ],
-  "miejsce": 210,
-  "miejsceWMarce": 17,
-  "modeliWMarce": 57,
-  "sredniRocznik": 2016.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 87
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 65
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 71
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 94
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 87
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 232,
+  "miejsceWMarce": 14,
+  "modeliWMarce": 59,
+  "sredniRocznik": 2016.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "golf-sportsvan",
@@ -209,24 +371,24 @@
    "adres": "/marki/dacia/duster/"
   },
   {
-   "slug": "renault-kadjar",
-   "nazwa": "Renault Kadjar",
-   "adres": "/marki/renault/kadjar/"
-  },
-  {
-   "slug": "peugeot-2008",
-   "nazwa": "Peugeot 2008",
-   "adres": "/marki/peugeot/2008/"
-  },
-  {
    "slug": "dacia-lodgy",
    "nazwa": "Dacia Lodgy",
    "adres": "/marki/dacia/lodgy/"
   },
   {
+   "slug": "renault-kadjar",
+   "nazwa": "Renault Kadjar",
+   "adres": "/marki/renault/kadjar/"
+  },
+  {
    "slug": "dacia-dokker",
    "nazwa": "Dacia Dokker",
    "adres": "/marki/dacia/dokker/"
+  },
+  {
+   "slug": "peugeot-2008",
+   "nazwa": "Peugeot 2008",
+   "adres": "/marki/peugeot/2008/"
   }
  ]
 }

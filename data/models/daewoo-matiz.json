@@ -11,17 +11,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Matiz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MATIZ, MATIZ 0.8 KAT, MATIZ 0.8, MATIZ 0,8 KAT, MATIZ 0.8KAT).",
-  "liczbaWPolsce": 48473,
-  "aktywne": 7313,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Matiz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 82 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MATIZ, MATIZ 0.8 KAT, MATIZ 0.8, MATIZ 0,8 KAT, MATIZ 0.8KAT).",
+  "liczbaWPolsce": 48538,
+  "aktywne": 7378,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 3717
+    "liczba": 3722
    },
    {
     "teryt": "04",
-    "liczba": 2819
+    "liczba": 2823
    },
    {
     "teryt": "06",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 1343
+    "liczba": 1346
    },
    {
     "teryt": "10",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 3621
+    "liczba": 3626
    },
    {
     "teryt": "14",
-    "liczba": 6819
+    "liczba": 6828
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 2714
+    "liczba": 2724
    },
    {
     "teryt": "20",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 2431
+    "liczba": 2433
    },
    {
     "teryt": "24",
@@ -65,19 +65,19 @@
    },
    {
     "teryt": "26",
-    "liczba": 1406
+    "liczba": 1407
    },
    {
     "teryt": "28",
-    "liczba": 1486
+    "liczba": 1491
    },
    {
     "teryt": "30",
-    "liczba": 4528
+    "liczba": 4545
    },
    {
     "teryt": "32",
-    "liczba": 2335
+    "liczba": 2339
    }
   ],
   "bezWojewodztwa": 65,
@@ -88,61 +88,61 @@
    },
    {
     "rok": 1999,
-    "liczba": 20829
+    "liczba": 20832
    },
    {
     "rok": 2000,
-    "liczba": 13336
+    "liczba": 13342
    },
    {
     "rok": 2001,
-    "liczba": 5551
+    "liczba": 5556
    },
    {
     "rok": 2002,
-    "liczba": 4227
+    "liczba": 4235
    },
    {
     "rok": 2003,
-    "liczba": 2223
+    "liczba": 2234
    },
    {
     "rok": 2004,
-    "liczba": 966
+    "liczba": 979
    },
    {
     "rok": 2005,
-    "liczba": 261
+    "liczba": 266
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 43222
+    "liczba": 43284
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3476
+    "liczba": 3478
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1775
+    "liczba": 1776
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "0,8 l",
-    "liczba": 48026
+    "liczba": 48069
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 447
+    "liczba": 469
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 30612
+    "liczba": 30616
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -150,7 +150,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 961
+    "liczba": 1022
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,7 +160,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 41703
+    "liczba": 41768
    },
    {
     "nazwa": "Sedan",
@@ -171,16 +171,170 @@
     "liczba": 5482
    }
   ],
-  "noweOdPaczki": 17,
+  "noweOdPaczki": 82,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 7
+   },
+   {
+    "rok": 2024,
+    "liczba": 30
+   },
+   {
+    "rok": 2025,
+    "liczba": 27
+   },
+   {
     "rok": 2026,
-    "liczba": 17
+    "liczba": 18
    }
   ],
-  "miejsce": 72,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 89,
   "miejsceWMarce": 3,
   "modeliWMarce": 15,
   "sredniRocznik": 2000.1
@@ -189,7 +343,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "matiz",

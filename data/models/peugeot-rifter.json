@@ -5,114 +5,115 @@
  "generacja": "",
  "lataProdukcji": "2018–2026",
  "nadwozia": [
-  "van"
+  "van",
+  "kombi"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Rifter – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 364 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RIFTER).",
-  "liczbaWPolsce": 1378,
-  "aktywne": 1378,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Rifter – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 025 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RIFTER, RIFTER TRIPOD).",
+  "liczbaWPolsce": 2039,
+  "aktywne": 2039,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 106
-   },
-   {
-    "teryt": "04",
-    "liczba": 54
-   },
-   {
-    "teryt": "06",
-    "liczba": 22
-   },
-   {
-    "teryt": "08",
-    "liczba": 22
-   },
-   {
-    "teryt": "10",
-    "liczba": 50
-   },
-   {
-    "teryt": "12",
     "liczba": 136
    },
    {
+    "teryt": "04",
+    "liczba": 86
+   },
+   {
+    "teryt": "06",
+    "liczba": 44
+   },
+   {
+    "teryt": "08",
+    "liczba": 30
+   },
+   {
+    "teryt": "10",
+    "liczba": 81
+   },
+   {
+    "teryt": "12",
+    "liczba": 205
+   },
+   {
     "teryt": "14",
-    "liczba": 398
+    "liczba": 519
    },
    {
     "teryt": "16",
-    "liczba": 17
+    "liczba": 29
    },
    {
     "teryt": "18",
-    "liczba": 50
+    "liczba": 80
    },
    {
     "teryt": "20",
-    "liczba": 16
+    "liczba": 39
    },
    {
     "teryt": "22",
-    "liczba": 95
+    "liczba": 129
    },
    {
     "teryt": "24",
-    "liczba": 131
+    "liczba": 171
    },
    {
     "teryt": "26",
-    "liczba": 36
+    "liczba": 62
    },
    {
     "teryt": "28",
-    "liczba": 33
+    "liczba": 52
    },
    {
     "teryt": "30",
-    "liczba": 166
+    "liczba": 312
    },
    {
     "teryt": "32",
-    "liczba": 46
+    "liczba": 64
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 347
+    "liczba": 397
    },
    {
     "rok": 2019,
-    "liczba": 654
+    "liczba": 835
    },
    {
     "rok": 2020,
-    "liczba": 48
+    "liczba": 175
    },
    {
     "rok": 2021,
-    "liczba": 29
+    "liczba": 91
    },
    {
     "rok": 2022,
-    "liczba": 13
+    "liczba": 32
    },
    {
     "rok": 2023,
-    "liczba": 11
+    "liczba": 28
    },
    {
     "rok": 2024,
-    "liczba": 7
+    "liczba": 192
    },
    {
     "rok": 2025,
-    "liczba": 8
+    "liczba": 28
    },
    {
     "rok": 2026,
@@ -122,43 +123,47 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1186
+    "liczba": 1771
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 191
+    "liczba": 264
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 4
+   }
+  ],
+  "pojemnosci": [
+   {
+    "nazwa": "1,5 l",
+    "liczba": 1773
+   },
+   {
+    "nazwa": "1,2 l",
+    "liczba": 265
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "pojemnosci": [
-   {
-    "nazwa": "1,5 l",
-    "liczba": 1186
-   },
-   {
-    "nazwa": "1,2 l",
-    "liczba": 192
-   }
-  ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1136
+    "liczba": 1296
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 178
+    "liczba": 454
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 49
+    "liczba": 267
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 14
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,50 +173,208 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1340
+    "liczba": 1855
+   },
+   {
+    "nazwa": "Kombi",
+    "liczba": 93
    },
    {
     "nazwa": "Van",
-    "liczba": 17
+    "liczba": 68
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 23
    }
   ],
-  "noweOdPaczki": 364,
+  "noweOdPaczki": 1025,
   "hybrydy": 0,
-  "elektryczne": 0,
+  "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 36
+   },
+   {
+    "rok": 2024,
+    "liczba": 289
+   },
+   {
+    "rok": 2025,
+    "liczba": 326
+   },
+   {
     "rok": 2026,
-    "liczba": 364
+    "liczba": 374
    }
   ],
-  "miejsce": 597,
-  "miejsceWMarce": 30,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 571,
+  "miejsceWMarce": 27,
   "modeliWMarce": 44,
-  "sredniRocznik": 2019.7
+  "sredniRocznik": 2020.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "rifter",
  "adres": "/marki/peugeot/rifter/",
  "konkurenci": [
   {
-   "slug": "opel-grandland",
-   "nazwa": "Opel Grandland",
-   "adres": "/marki/opel/grandland/"
-  },
-  {
    "slug": "ford-tourneo",
    "nazwa": "Ford Tourneo",
    "adres": "/marki/ford/tourneo/"
+  },
+  {
+   "slug": "opel-grandland",
+   "nazwa": "Opel Grandland",
+   "adres": "/marki/opel/grandland/"
   },
   {
    "slug": "opel-mokka",
@@ -219,14 +382,14 @@
    "adres": "/marki/opel/mokka/"
   },
   {
-   "slug": "jeep-renegade",
-   "nazwa": "Jeep Renegade",
-   "adres": "/marki/jeep/renegade/"
+   "slug": "toyota-proace",
+   "nazwa": "Toyota Proace",
+   "adres": "/marki/toyota/proace/"
   },
   {
-   "slug": "hyundai-kona",
-   "nazwa": "Hyundai Kona",
-   "adres": "/marki/hyundai/kona/"
+   "slug": "opel-crossland",
+   "nazwa": "Opel Crossland",
+   "adres": "/marki/opel/crossland/"
   }
  ]
 }

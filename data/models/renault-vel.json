@@ -14,21 +14,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Vel – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VEL SATIS, VEL SATIS 2.2 DCI, VEL SATIS 2,2 DCI, VEL SATIS 3.0 DCI).",
-  "liczbaWPolsce": 1780,
-  "aktywne": 464,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Vel – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 65 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VEL SATIS, VEL SATIS 2.2 DCI, VEL SATIS 2,2 DCI, VEL SATIS 3.0 DCI).",
+  "liczbaWPolsce": 1838,
+  "aktywne": 522,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 178
+    "liczba": 182
    },
    {
     "teryt": "04",
-    "liczba": 77
+    "liczba": 79
    },
    {
     "teryt": "06",
-    "liczba": 133
+    "liczba": 135
    },
    {
     "teryt": "08",
@@ -36,27 +36,27 @@
    },
    {
     "teryt": "10",
-    "liczba": 131
+    "liczba": 138
    },
    {
     "teryt": "12",
-    "liczba": 100
+    "liczba": 106
    },
    {
     "teryt": "14",
-    "liczba": 265
+    "liczba": 274
    },
    {
     "teryt": "16",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "18",
-    "liczba": 94
+    "liczba": 97
    },
    {
     "teryt": "20",
-    "liczba": 52
+    "liczba": 55
    },
    {
     "teryt": "22",
@@ -64,76 +64,76 @@
    },
    {
     "teryt": "24",
-    "liczba": 189
+    "liczba": 195
    },
    {
     "teryt": "26",
-    "liczba": 38
+    "liczba": 40
    },
    {
     "teryt": "28",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "30",
-    "liczba": 173
+    "liczba": 182
    },
    {
     "teryt": "32",
-    "liczba": 72
+    "liczba": 75
    }
   ],
   "bezWojewodztwa": 22,
   "roczniki": [
    {
     "rok": 2001,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2002,
-    "liczba": 638
+    "liczba": 648
    },
    {
     "rok": 2003,
-    "liczba": 385
+    "liczba": 389
    },
    {
     "rok": 2004,
-    "liczba": 196
+    "liczba": 201
    },
    {
     "rok": 2005,
-    "liczba": 209
+    "liczba": 220
    },
    {
     "rok": 2006,
-    "liczba": 117
+    "liczba": 131
    },
    {
     "rok": 2007,
-    "liczba": 100
+    "liczba": 103
    },
    {
     "rok": 2008,
-    "liczba": 51
+    "liczba": 57
    },
    {
     "rok": 2009,
-    "liczba": 37
+    "liczba": 41
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1102
+    "liczba": 1122
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 401
+    "liczba": 408
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 270
+    "liczba": 301
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,19 +143,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 572
+    "liczba": 606
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 519
+    "liczba": 527
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 447
+    "liczba": 450
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 237
+    "liczba": 250
    },
    {
     "nazwa": "Inne / brak danych",
@@ -165,11 +165,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 894
+    "liczba": 906
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 844
+    "liczba": 890
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -183,15 +183,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1497
+    "liczba": 1539
    },
    {
     "nazwa": "Kombi",
-    "liczba": 77
+    "liczba": 83
    },
    {
     "nazwa": "Sedan",
-    "liczba": 77
+    "liczba": 79
    },
    {
     "nazwa": "Van",
@@ -199,24 +199,178 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 24
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 41
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 65,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 9
+   },
+   {
+    "rok": 2024,
+    "liczba": 33
+   },
+   {
+    "rok": 2025,
+    "liczba": 15
+   },
+   {
     "rok": 2026,
-    "liczba": 7
+    "liczba": 8
    }
   ],
-  "miejsce": 527,
-  "miejsceWMarce": 24,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 600,
+  "miejsceWMarce": 28,
   "modeliWMarce": 48,
   "sredniRocznik": 2003.7
  },
@@ -224,26 +378,16 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "vel",
  "adres": "/marki/renault/vel/",
  "konkurenci": [
   {
-   "slug": "mercedes-benz-klasa-e",
-   "nazwa": "Mercedes-Benz Klasa E",
-   "adres": "/marki/mercedes-benz/klasa-e/"
-  },
-  {
-   "slug": "audi-a6",
-   "nazwa": "Audi A6",
-   "adres": "/marki/audi/a6/"
-  },
-  {
-   "slug": "volvo-s80",
-   "nazwa": "Volvo S80",
-   "adres": "/marki/volvo/s80/"
+   "slug": "bmw-seria-5",
+   "nazwa": "BMW Seria 5",
+   "adres": "/marki/bmw/seria-5/"
   },
   {
    "slug": "peugeot-307",
@@ -251,9 +395,19 @@
    "adres": "/marki/peugeot/307/"
   },
   {
-   "slug": "volvo-v70",
-   "nazwa": "Volvo V70",
-   "adres": "/marki/volvo/v70/"
+   "slug": "volvo-s80",
+   "nazwa": "Volvo S80",
+   "adres": "/marki/volvo/s80/"
+  },
+  {
+   "slug": "opel-signum",
+   "nazwa": "Opel Signum",
+   "adres": "/marki/opel/signum/"
+  },
+  {
+   "slug": "alfa-romeo-147",
+   "nazwa": "Alfa Romeo 147",
+   "adres": "/marki/alfa-romeo/147/"
   }
  ]
 }

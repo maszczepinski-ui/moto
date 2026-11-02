@@ -14,37 +14,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche 944 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 944, 944 TURBO).",
-  "liczbaWPolsce": 461,
-  "aktywne": 110,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche 944 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 127 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 944, 944 TURBO, 944 S2, 944 S, 944 2.5).",
+  "liczbaWPolsce": 557,
+  "aktywne": 206,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 36
-   },
-   {
-    "teryt": "04",
-    "liczba": 12
-   },
-   {
-    "teryt": "06",
-    "liczba": 21
-   },
-   {
-    "teryt": "08",
-    "liczba": 5
-   },
-   {
-    "teryt": "10",
-    "liczba": 27
-   },
-   {
-    "teryt": "12",
     "liczba": 43
    },
    {
+    "teryt": "04",
+    "liczba": 13
+   },
+   {
+    "teryt": "06",
+    "liczba": 26
+   },
+   {
+    "teryt": "08",
+    "liczba": 6
+   },
+   {
+    "teryt": "10",
+    "liczba": 28
+   },
+   {
+    "teryt": "12",
+    "liczba": 54
+   },
+   {
     "teryt": "14",
-    "liczba": 120
+    "liczba": 136
    },
    {
     "teryt": "16",
@@ -52,102 +52,78 @@
    },
    {
     "teryt": "18",
-    "liczba": 23
-   },
-   {
-    "teryt": "20",
-    "liczba": 7
-   },
-   {
-    "teryt": "22",
     "liczba": 30
    },
    {
+    "teryt": "20",
+    "liczba": 12
+   },
+   {
+    "teryt": "22",
+    "liczba": 41
+   },
+   {
     "teryt": "24",
-    "liczba": 46
+    "liczba": 54
    },
    {
     "teryt": "26",
-    "liczba": 11
+    "liczba": 15
    },
    {
     "teryt": "28",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "30",
-    "liczba": 45
+    "liczba": 57
    },
    {
     "teryt": "32",
-    "liczba": 17
+    "liczba": 23
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
-    "rok": 1976,
-    "liczba": 1
-   },
-   {
-    "rok": 1977,
-    "liczba": 0
-   },
-   {
-    "rok": 1978,
-    "liczba": 1
-   },
-   {
-    "rok": 1979,
-    "liczba": 0
-   },
-   {
-    "rok": 1980,
-    "liczba": 0
-   },
-   {
-    "rok": 1981,
-    "liczba": 0
-   },
-   {
     "rok": 1982,
-    "liczba": 22
+    "liczba": 26
    },
    {
     "rok": 1983,
-    "liczba": 50
+    "liczba": 60
    },
    {
     "rok": 1984,
-    "liczba": 44
+    "liczba": 54
    },
    {
     "rok": 1985,
-    "liczba": 57
+    "liczba": 77
    },
    {
     "rok": 1986,
-    "liczba": 61
+    "liczba": 75
    },
    {
     "rok": 1987,
-    "liczba": 43
+    "liczba": 61
    },
    {
     "rok": 1988,
-    "liczba": 42
+    "liczba": 44
    },
    {
     "rok": 1989,
-    "liczba": 46
+    "liczba": 55
    },
    {
     "rok": 1990,
-    "liczba": 35
+    "liczba": 41
    },
    {
     "rok": 1991,
-    "liczba": 13
+    "liczba": 16
    },
    {
     "rok": 1992,
@@ -172,16 +148,12 @@
    {
     "rok": 1997,
     "liczba": 7
-   },
-   {
-    "rok": 1998,
-    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 334
+    "liczba": 430
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -195,19 +167,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 186
+    "liczba": 236
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 171
+    "liczba": 197
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 55
+    "liczba": 71
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "nazwa": "2,0 l",
@@ -215,21 +187,21 @@
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 264
+    "liczba": 283
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 157
+    "liczba": 233
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -237,50 +209,204 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 231
+    "liczba": 318
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 47
+    "liczba": 50
    },
    {
     "nazwa": "Sedan",
-    "liczba": 39
+    "liczba": 41
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 20
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 124
    }
   ],
-  "noweOdPaczki": 31,
+  "noweOdPaczki": 127,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 45
+   },
+   {
+    "rok": 2025,
+    "liczba": 46
+   },
+   {
     "rok": 2026,
-    "liczba": 31
+    "liczba": 32
    }
   ],
-  "miejsce": 870,
-  "miejsceWMarce": 7,
-  "modeliWMarce": 9,
-  "sredniRocznik": 1986.9
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 889,
+  "miejsceWMarce": 9,
+  "modeliWMarce": 11,
+  "sredniRocznik": 1986.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "porsche",
  "modelSlug": "944",
@@ -302,14 +428,14 @@
    "adres": "/marki/ford/probe/"
   },
   {
-   "slug": "opel-calibra",
-   "nazwa": "Opel Calibra",
-   "adres": "/marki/opel/calibra/"
-  },
-  {
    "slug": "nysa-522",
    "nazwa": "Nysa 522",
    "adres": "/marki/nysa/522/"
+  },
+  {
+   "slug": "opel-calibra",
+   "nazwa": "Opel Calibra",
+   "adres": "/marki/opel/calibra/"
   }
  ]
 }

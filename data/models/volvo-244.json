@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 244 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 244, 244 2.1, 244 DL, 244 2.4D, 244 D).",
-  "liczbaWPolsce": 1191,
-  "aktywne": 18,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 244 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 244, 244 2.1, 244 DL, 244 2.4D, 244 D).",
+  "liczbaWPolsce": 1202,
+  "aktywne": 29,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "04",
@@ -37,15 +37,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 82
+    "liczba": 87
    },
    {
     "teryt": "14",
-    "liczba": 321
+    "liczba": 322
    },
    {
     "teryt": "16",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "18",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "24",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 91
+    "liczba": 93
    },
    {
     "teryt": "32",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 61
+    "liczba": 62
    },
    {
     "rok": 1976,
@@ -96,7 +96,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 126
+    "liczba": 129
    },
    {
     "rok": 1978,
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 118
+    "liczba": 120
    },
    {
     "rok": 1982,
@@ -120,7 +120,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 65
+    "liczba": 66
    },
    {
     "rok": 1984,
@@ -136,11 +136,11 @@
    },
    {
     "rok": 1987,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1988,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1989,
@@ -148,7 +148,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 1991,
@@ -182,7 +182,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 182
+    "liczba": 193
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -200,7 +200,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 610
+    "liczba": 616
    },
    {
     "nazwa": "2,4 l",
@@ -212,7 +212,7 @@
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 110
+    "liczba": 114
    },
    {
     "nazwa": "1,8 l",
@@ -224,13 +224,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 58
+    "liczba": 59
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 872
+    "liczba": 873
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -238,7 +238,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 47
+    "liczba": 57
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -252,7 +252,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 336
+    "liczba": 345
    },
    {
     "nazwa": "Hatchback",
@@ -260,20 +260,170 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 835
+    "liczba": 837
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 15,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 7
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 632,
-  "miejsceWMarce": 22,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 701,
+  "miejsceWMarce": 23,
   "modeliWMarce": 33,
   "sredniRocznik": 1980.2
  },
@@ -281,7 +431,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "244",
@@ -308,9 +458,9 @@
    "adres": "/marki/fiat/131/"
   },
   {
-   "slug": "fiat-132",
-   "nazwa": "Fiat 132",
-   "adres": "/marki/fiat/132/"
+   "slug": "polski-fiat-125p",
+   "nazwa": "Polski Fiat 125p",
+   "adres": "/marki/polski-fiat/125p/"
   }
  ]
 }

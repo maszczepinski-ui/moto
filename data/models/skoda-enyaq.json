@@ -12,194 +12,348 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Enyaq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 302 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ENYAQ 85, ENYAQ RS, ENYAQ 85X, ENYAQ 80, ENYAQ 60).",
-  "liczbaWPolsce": 302,
-  "aktywne": 302,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Enyaq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 009 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ENYAQ 85, ENYAQ 80, ENYAQ RS, ENYAQ 85X, ENYAQ 60).",
+  "liczbaWPolsce": 1009,
+  "aktywne": 1009,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 23
+    "liczba": 59
    },
    {
     "teryt": "04",
-    "liczba": 7
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 5
-   },
-   {
-    "teryt": "08",
-    "liczba": 4
-   },
-   {
-    "teryt": "10",
-    "liczba": 8
-   },
-   {
-    "teryt": "12",
-    "liczba": 27
-   },
-   {
-    "teryt": "14",
-    "liczba": 119
-   },
-   {
-    "teryt": "16",
-    "liczba": 5
-   },
-   {
-    "teryt": "18",
-    "liczba": 17
-   },
-   {
-    "teryt": "20",
-    "liczba": 4
-   },
-   {
-    "teryt": "22",
     "liczba": 18
    },
    {
+    "teryt": "08",
+    "liczba": 14
+   },
+   {
+    "teryt": "10",
+    "liczba": 31
+   },
+   {
+    "teryt": "12",
+    "liczba": 117
+   },
+   {
+    "teryt": "14",
+    "liczba": 392
+   },
+   {
+    "teryt": "16",
+    "liczba": 13
+   },
+   {
+    "teryt": "18",
+    "liczba": 29
+   },
+   {
+    "teryt": "20",
+    "liczba": 12
+   },
+   {
+    "teryt": "22",
+    "liczba": 92
+   },
+   {
     "teryt": "24",
-    "liczba": 22
+    "liczba": 69
    },
    {
     "teryt": "26",
-    "liczba": 2
+    "liczba": 7
    },
    {
     "teryt": "28",
-    "liczba": 3
+    "liczba": 9
    },
    {
     "teryt": "30",
-    "liczba": 34
+    "liczba": 109
    },
    {
     "teryt": "32",
-    "liczba": 4
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 20
+    "liczba": 42
    },
    {
     "rok": 2022,
-    "liczba": 13
+    "liczba": 68
    },
    {
     "rok": 2023,
-    "liczba": 12
+    "liczba": 305
    },
    {
     "rok": 2024,
-    "liczba": 4
+    "liczba": 88
    },
    {
     "rok": 2025,
-    "liczba": 9
+    "liczba": 256
    },
    {
     "rok": 2026,
-    "liczba": 244
+    "liczba": 250
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 302
+    "liczba": 1009
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 302
+    "liczba": 1009
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 248
+    "liczba": 849
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 46
+    "liczba": 94
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 6
+    "liczba": 59
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 2
+    "liczba": 7
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 205
+    "liczba": 706
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 93
+    "liczba": 292
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 11
    }
   ],
-  "noweOdPaczki": 302,
+  "noweOdPaczki": 1009,
   "hybrydy": 0,
-  "elektryczne": 302,
+  "elektryczne": 1009,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 194
+   },
+   {
+    "rok": 2024,
+    "liczba": 223
+   },
+   {
+    "rok": 2025,
+    "liczba": 273
+   },
+   {
     "rok": 2026,
-    "liczba": 302
+    "liczba": 319
    }
   ],
-  "miejsce": 988,
-  "miejsceWMarce": 26,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 755,
+  "miejsceWMarce": 20,
   "modeliWMarce": 27,
-  "sredniRocznik": 2025.3
+  "sredniRocznik": 2024.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "enyaq",
  "adres": "/marki/skoda/enyaq/",
  "konkurenci": [
   {
-   "slug": "tesla-model-y",
-   "nazwa": "Tesla Model Y",
-   "adres": "/marki/tesla/model-y/"
+   "slug": "volvo-ex30",
+   "nazwa": "Volvo EX30",
+   "adres": "/marki/volvo/ex30/"
   },
   {
-   "slug": "tesla-model-3",
-   "nazwa": "Tesla Model 3",
-   "adres": "/marki/tesla/model-3/"
+   "slug": "audi-q4",
+   "nazwa": "Audi Q4",
+   "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "cupra-formentor",
-   "nazwa": "Cupra Formentor",
-   "adres": "/marki/cupra/formentor/"
+   "slug": "volkswagen-id-4",
+   "nazwa": "Volkswagen ID.4",
+   "adres": "/marki/volkswagen/id-4/"
   },
   {
-   "slug": "baic-x55",
-   "nazwa": "BAIC X55",
-   "adres": "/marki/baic/x55/"
+   "slug": "volkswagen-id-3",
+   "nazwa": "Volkswagen ID.3",
+   "adres": "/marki/volkswagen/id-3/"
   },
   {
-   "slug": "lexus-lbx",
-   "nazwa": "Lexus LBX",
-   "adres": "/marki/lexus/lbx/"
+   "slug": "mercedes-benz-eqa",
+   "nazwa": "Mercedes-Benz EQA",
+   "adres": "/marki/mercedes-benz/eqa/"
   }
  ]
 }

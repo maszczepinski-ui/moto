@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 104 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 104 1.0, 104, 104 1.1, 104 1.2, 104 1.4).",
-  "liczbaWPolsce": 933,
-  "aktywne": 1,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 104 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 104 1.0, 104, 104 1.1, 104 1.2, 104 1.4).",
+  "liczbaWPolsce": 936,
+  "aktywne": 4,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "06",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 122
+    "liczba": 124
    },
    {
     "teryt": "32",
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 85
+    "liczba": 86
    },
    {
     "rok": 1978,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 98
+    "liczba": 99
    },
    {
     "rok": 1980,
@@ -133,7 +133,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 1985,
@@ -183,7 +183,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 170
+    "liczba": 173
    },
    {
     "nazwa": "?+LPG",
@@ -197,11 +197,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 495
+    "liczba": 496
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 164
+    "liczba": 166
    },
    {
     "nazwa": "0,9 l",
@@ -223,7 +223,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 665
+    "liczba": 666
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -231,7 +231,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -249,19 +249,170 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 42
+    "liczba": 45
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 807
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 3,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 688,
-  "miejsceWMarce": 33,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 2
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 770,
+  "miejsceWMarce": 35,
   "modeliWMarce": 44,
   "sredniRocznik": 1980.1
  },
@@ -269,7 +420,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "104",

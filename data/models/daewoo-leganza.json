@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Leganza – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEGANZA, LEGANZA 2.0, LEGANZA 2.0 KAT, LEGANZA 2.0KAT, LEGANZA 2,0 KAT).",
-  "liczbaWPolsce": 1902,
-  "aktywne": 201,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Leganza – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEGANZA, LEGANZA 2.0, LEGANZA 2.0 KAT, LEGANZA 2.0KAT, LEGANZA 2,0 KAT).",
+  "liczbaWPolsce": 1903,
+  "aktywne": 202,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 225
+    "liczba": 226
    },
    {
     "teryt": "12",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 263
+    "liczba": 264
    },
    {
     "rok": 2000,
@@ -119,7 +119,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 479
+    "liczba": 480
    },
    {
     "nazwa": "Inne / brak danych",
@@ -129,7 +129,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1817
+    "liczba": 1818
    },
    {
     "nazwa": "2,2 l",
@@ -147,7 +147,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 245
+    "liczba": 246
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -161,7 +161,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1599
+    "liczba": 1600
    },
    {
     "nazwa": "Hatchback",
@@ -172,11 +172,158 @@
     "liczba": 201
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 514,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 591,
   "miejsceWMarce": 7,
   "modeliWMarce": 15,
   "sredniRocznik": 1998.4
@@ -185,17 +332,12 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "leganza",
  "adres": "/marki/daewoo/leganza/",
  "konkurenci": [
-  {
-   "slug": "bmw-seria-3",
-   "nazwa": "BMW Seria 3",
-   "adres": "/marki/bmw/seria-3/"
-  },
   {
    "slug": "opel-vectra",
    "nazwa": "Opel Vectra",
@@ -215,6 +357,11 @@
    "slug": "peugeot-406",
    "nazwa": "Peugeot 406",
    "adres": "/marki/peugeot/406/"
+  },
+  {
+   "slug": "mazda-xedos",
+   "nazwa": "Mazda Xedos",
+   "adres": "/marki/mazda/xedos/"
   }
  ]
 }

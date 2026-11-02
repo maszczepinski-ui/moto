@@ -12,17 +12,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 127 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 127, 127 NUOVA, 127 (1), 127 P, 127 (2)).",
-  "liczbaWPolsce": 5122,
-  "aktywne": 15,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 127 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 127, 127 NUOVA, 127 (1), 127 P, 127 (2)).",
+  "liczbaWPolsce": 5135,
+  "aktywne": 28,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 442
+    "liczba": 443
    },
    {
     "teryt": "04",
-    "liczba": 347
+    "liczba": 348
    },
    {
     "teryt": "06",
@@ -38,19 +38,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 495
+    "liczba": 499
    },
    {
     "teryt": "14",
-    "liczba": 635
+    "liczba": 636
    },
    {
     "teryt": "16",
-    "liczba": 170
+    "liczba": 171
    },
    {
     "teryt": "18",
-    "liczba": 270
+    "liczba": 271
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 610
+    "liczba": 611
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 493
+    "liczba": 495
    },
    {
     "teryt": "32",
-    "liczba": 280
+    "liczba": 281
    }
   ],
   "bezWojewodztwa": 36,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 1375
+    "liczba": 1378
    },
    {
     "rok": 1975,
@@ -105,23 +105,23 @@
    },
    {
     "rok": 1976,
-    "liczba": 150
+    "liczba": 151
    },
    {
     "rok": 1977,
-    "liczba": 180
+    "liczba": 182
    },
    {
     "rok": 1978,
-    "liczba": 126
+    "liczba": 127
    },
    {
     "rok": 1979,
-    "liczba": 171
+    "liczba": 173
    },
    {
     "rok": 1980,
-    "liczba": 574
+    "liczba": 575
    },
    {
     "rok": 1981,
@@ -129,7 +129,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 309
+    "liczba": 311
    },
    {
     "rok": 1983,
@@ -145,7 +145,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 1987,
@@ -187,7 +187,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 785
+    "liczba": 798
    },
    {
     "nazwa": "?+LPG",
@@ -201,11 +201,11 @@
   "pojemnosci": [
    {
     "nazwa": "0,9 l",
-    "liczba": 3824
+    "liczba": 3835
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 794
+    "liczba": 796
    },
    {
     "nazwa": "1,1 l",
@@ -223,7 +223,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3815
+    "liczba": 3817
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -231,7 +231,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 89
+    "liczba": 99
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -239,7 +239,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 268
+    "liczba": 269
    }
   ],
   "nadwozia": [
@@ -249,24 +249,178 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 249
+    "liczba": 261
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4408
+    "liczba": 4409
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 16,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 5
+   },
+   {
+    "rok": 2025,
+    "liczba": 7
+   },
    {
     "rok": 2026,
     "liczba": 3
    }
   ],
-  "miejsce": 327,
-  "miejsceWMarce": 20,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 398,
+  "miejsceWMarce": 22,
   "modeliWMarce": 58,
   "sredniRocznik": 1977.2
  },
@@ -274,7 +428,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "127",

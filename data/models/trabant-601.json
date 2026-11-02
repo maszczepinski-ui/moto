@@ -11,17 +11,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Trabant 601 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 601, 601S, 601 KOMBI, 601 S, 601 /HYCOMAT/).",
-  "liczbaWPolsce": 81776,
-  "aktywne": 318,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Trabant 601 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 601, 601S, 601 KOMBI, 601 S, 601 /HYCOMAT/).",
+  "liczbaWPolsce": 81798,
+  "aktywne": 340,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5694
+    "liczba": 5696
    },
    {
     "teryt": "04",
-    "liczba": 4518
+    "liczba": 4522
    },
    {
     "teryt": "06",
@@ -29,19 +29,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 3836
+    "liczba": 3839
    },
    {
     "teryt": "10",
-    "liczba": 6141
+    "liczba": 6142
    },
    {
     "teryt": "12",
-    "liczba": 4627
+    "liczba": 4628
    },
    {
     "teryt": "14",
-    "liczba": 12643
+    "liczba": 12645
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 2967
+    "liczba": 2968
    },
    {
     "teryt": "20",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 9339
+    "liczba": 9341
    },
    {
     "teryt": "26",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 10283
+    "liczba": 10287
    },
    {
     "teryt": "32",
-    "liczba": 4702
+    "liczba": 4704
    }
   ],
   "bezWojewodztwa": 806,
@@ -100,7 +100,7 @@
    },
    {
     "rok": 1967,
-    "liczba": 1231
+    "liczba": 1232
    },
    {
     "rok": 1968,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1969,
-    "liczba": 1417
+    "liczba": 1418
    },
    {
     "rok": 1970,
@@ -116,7 +116,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 6853
+    "liczba": 6855
    },
    {
     "rok": 1972,
@@ -128,7 +128,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 2186
+    "liczba": 2187
    },
    {
     "rok": 1975,
@@ -136,7 +136,7 @@
    },
    {
     "rok": 1976,
-    "liczba": 4033
+    "liczba": 4034
    },
    {
     "rok": 1977,
@@ -148,7 +148,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 1521
+    "liczba": 1522
    },
    {
     "rok": 1980,
@@ -172,23 +172,23 @@
    },
    {
     "rok": 1985,
-    "liczba": 3314
+    "liczba": 3316
    },
    {
     "rok": 1986,
-    "liczba": 3276
+    "liczba": 3278
    },
    {
     "rok": 1987,
-    "liczba": 3182
+    "liczba": 3186
    },
    {
     "rok": 1988,
-    "liczba": 3826
+    "liczba": 3830
    },
    {
     "rok": 1989,
-    "liczba": 2602
+    "liczba": 2605
    },
    {
     "rok": 1990,
@@ -198,7 +198,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 11411
+    "liczba": 11420
    },
    {
     "nazwa": "?+LPG",
@@ -206,23 +206,23 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 68924
+    "liczba": 68937
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 79408
+    "liczba": 79429
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2368
+    "liczba": 2369
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 56430
+    "liczba": 56432
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -234,33 +234,187 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 873
+    "liczba": 889
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4035
+    "liczba": 4039
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 9160
+    "liczba": 9171
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 72616
+    "liczba": 72627
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 26,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 3
+   },
+   {
+    "rok": 2024,
+    "liczba": 9
+   },
+   {
+    "rok": 2025,
+    "liczba": 10
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 39,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 55,
   "miejsceWMarce": 1,
   "modeliWMarce": 8,
   "sredniRocznik": 1977.6
@@ -269,7 +423,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "trabant",
  "modelSlug": "601",

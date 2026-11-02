@@ -12,45 +12,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Brera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRERA, ALFA BRERA).",
-  "liczbaWPolsce": 455,
-  "aktywne": 235,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Brera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 93 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRERA, ALFA BRERA).",
+  "liczbaWPolsce": 525,
+  "aktywne": 305,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 32
+    "liczba": 39
    },
    {
     "teryt": "04",
-    "liczba": 16
+    "liczba": 20
    },
    {
     "teryt": "06",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "08",
-    "liczba": 9
+    "liczba": 12
    },
    {
     "teryt": "10",
-    "liczba": 17
+    "liczba": 20
    },
    {
     "teryt": "12",
-    "liczba": 73
+    "liczba": 81
    },
    {
     "teryt": "14",
-    "liczba": 76
+    "liczba": 87
    },
    {
     "teryt": "16",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "teryt": "18",
-    "liczba": 25
+    "liczba": 30
    },
    {
     "teryt": "20",
@@ -58,23 +58,23 @@
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 32
    },
    {
     "teryt": "24",
-    "liczba": 63
+    "liczba": 70
    },
    {
     "teryt": "26",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "28",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "30",
-    "liczba": 42
+    "liczba": 51
    },
    {
     "teryt": "32",
@@ -84,82 +84,38 @@
   "bezWojewodztwa": 3,
   "roczniki": [
    {
-    "rok": 1995,
-    "liczba": 1
-   },
-   {
-    "rok": 1996,
-    "liczba": 0
-   },
-   {
-    "rok": 1997,
-    "liczba": 0
-   },
-   {
-    "rok": 1998,
-    "liczba": 0
-   },
-   {
-    "rok": 1999,
-    "liczba": 0
-   },
-   {
-    "rok": 2000,
-    "liczba": 0
-   },
-   {
-    "rok": 2001,
-    "liczba": 0
-   },
-   {
-    "rok": 2002,
-    "liczba": 0
-   },
-   {
-    "rok": 2003,
-    "liczba": 0
-   },
-   {
-    "rok": 2004,
-    "liczba": 0
-   },
-   {
     "rok": 2005,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2006,
-    "liczba": 170
+    "liczba": 196
    },
    {
     "rok": 2007,
-    "liczba": 91
+    "liczba": 102
    },
    {
     "rok": 2008,
-    "liczba": 53
+    "liczba": 61
    },
    {
     "rok": 2009,
-    "liczba": 78
+    "liczba": 88
    },
    {
     "rok": 2010,
-    "liczba": 38
-   },
-   {
-    "rok": 2011,
-    "liczba": 1
+    "liczba": 52
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 227
+    "liczba": 261
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 222
+    "liczba": 258
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,37 +125,37 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 201
-   },
-   {
-    "nazwa": "3,2 l",
-    "liczba": 86
+    "liczba": 228
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 74
+    "liczba": 96
+   },
+   {
+    "nazwa": "3,2 l",
+    "liczba": 94
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 66
+    "liczba": 70
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 27
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 212
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 246
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 201
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 236
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -207,33 +163,187 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 406
+    "liczba": 468
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 39
+    "liczba": 46
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 11
    }
   ],
-  "noweOdPaczki": 23,
+  "noweOdPaczki": 93,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 11
+   },
+   {
+    "rok": 2024,
+    "liczba": 33
+   },
+   {
+    "rok": 2025,
+    "liczba": 25
+   },
+   {
     "rok": 2026,
-    "liczba": 23
+    "liczba": 24
    }
   ],
-  "miejsce": 877,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 907,
   "miejsceWMarce": 18,
   "modeliWMarce": 20,
   "sredniRocznik": 2007.3
@@ -242,36 +352,36 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "brera",
  "adres": "/marki/alfa-romeo/brera/",
  "konkurenci": [
   {
-   "slug": "volvo-s60",
-   "nazwa": "Volvo S60",
-   "adres": "/marki/volvo/s60/"
-  },
-  {
-   "slug": "mazda-6",
-   "nazwa": "Mazda 6",
-   "adres": "/marki/mazda/6/"
-  },
-  {
    "slug": "audi-a6",
    "nazwa": "Audi A6",
    "adres": "/marki/audi/a6/"
   },
   {
+   "slug": "mercedes-benz-klasa-e",
+   "nazwa": "Mercedes-Benz Klasa E",
+   "adres": "/marki/mercedes-benz/klasa-e/"
+  },
+  {
+   "slug": "volvo-s60",
+   "nazwa": "Volvo S60",
+   "adres": "/marki/volvo/s60/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-c",
+   "nazwa": "Mercedes-Benz Klasa C",
+   "adres": "/marki/mercedes-benz/klasa-c/"
+  },
+  {
    "slug": "lexus-is",
    "nazwa": "Lexus IS",
    "adres": "/marki/lexus/is/"
-  },
-  {
-   "slug": "hyundai-santa-fe",
-   "nazwa": "Hyundai Santa Fe",
-   "adres": "/marki/hyundai/santa-fe/"
   }
  ]
 }

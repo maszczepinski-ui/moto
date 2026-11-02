@@ -13,201 +13,355 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai ix35 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 484 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX35, IX 35, IX35 2.0 CRDI, IX35 1.7 CRDI, IX35 2.0).",
-  "liczbaWPolsce": 25155,
-  "aktywne": 14234,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai ix35 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 166 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX35, IX 35, IX35 2.0 CRDI, IX35 1.7 CRDI, IX35 1.6 GDI).",
+  "liczbaWPolsce": 39837,
+  "aktywne": 28916,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1256
+    "liczba": 2002
    },
    {
     "teryt": "04",
-    "liczba": 1039
+    "liczba": 1800
    },
    {
     "teryt": "06",
-    "liczba": 1442
+    "liczba": 2858
    },
    {
     "teryt": "08",
-    "liczba": 593
+    "liczba": 830
    },
    {
     "teryt": "10",
-    "liczba": 1920
+    "liczba": 3248
    },
    {
     "teryt": "12",
-    "liczba": 2125
+    "liczba": 3159
    },
    {
     "teryt": "14",
-    "liczba": 3824
+    "liczba": 5940
    },
    {
     "teryt": "16",
-    "liczba": 489
+    "liczba": 744
    },
    {
     "teryt": "18",
-    "liczba": 1787
+    "liczba": 3240
    },
    {
     "teryt": "20",
-    "liczba": 800
+    "liczba": 1413
    },
    {
     "teryt": "22",
-    "liczba": 1403
+    "liczba": 2000
    },
    {
     "teryt": "24",
-    "liczba": 2678
+    "liczba": 3499
    },
    {
     "teryt": "26",
-    "liczba": 1087
+    "liczba": 2129
    },
    {
     "teryt": "28",
-    "liczba": 999
+    "liczba": 1869
    },
    {
     "teryt": "30",
-    "liczba": 2663
+    "liczba": 3660
    },
    {
     "teryt": "32",
-    "liczba": 848
+    "liczba": 1244
    }
   ],
   "bezWojewodztwa": 202,
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 3313
+    "liczba": 5279
    },
    {
     "rok": 2011,
-    "liczba": 4758
+    "liczba": 6846
    },
    {
     "rok": 2012,
-    "liczba": 5002
+    "liczba": 7538
    },
    {
     "rok": 2013,
-    "liczba": 4383
+    "liczba": 7041
    },
    {
     "rok": 2014,
-    "liczba": 4415
+    "liczba": 7597
    },
    {
     "rok": 2015,
-    "liczba": 2534
+    "liczba": 4727
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 13934
+    "liczba": 20816
    },
    {
     "nazwa": "Diesel",
-    "liczba": 9647
+    "liczba": 16191
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1523
+    "liczba": 2770
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 51
+    "liczba": 60
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 11099
+    "liczba": 16443
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 9630
+    "liczba": 15171
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 4347
+    "liczba": 8138
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 79
+    "liczba": 85
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 10737
-   },
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 8708
+    "liczba": 21291
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5464
+    "liczba": 9562
+   },
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 8720
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 246
+    "liczba": 264
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 20262
+    "liczba": 32411
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1765
+    "liczba": 2990
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1458
+    "liczba": 2336
    },
    {
     "nazwa": "Van",
-    "liczba": 792
+    "liczba": 1014
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 565
+    "liczba": 716
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 313
+    "liczba": 370
    }
   ],
-  "noweOdPaczki": 4484,
-  "hybrydy": 2,
-  "elektryczne": 0,
+  "noweOdPaczki": 19166,
+  "hybrydy": 5,
+  "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1427
+   },
+   {
+    "rok": 2024,
+    "liczba": 6532
+   },
+   {
+    "rok": 2025,
+    "liczba": 6450
+   },
+   {
     "rok": 2026,
-    "liczba": 4484
+    "liczba": 4757
    }
   ],
-  "miejsce": 127,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 354
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 442
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 547
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 578
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 579
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 561
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 549
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 597
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 541
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 577
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 616
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 510
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 435
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 473
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 518
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 633
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 583
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 579
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 578
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 623
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 515
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 545
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 578
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 398
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 427
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 273
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 104,
   "miejsceWMarce": 4,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2012.4
+  "modeliWMarce": 34,
+  "sredniRocznik": 2012.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "ix35",
@@ -224,14 +378,14 @@
    "adres": "/marki/toyota/auris/"
   },
   {
-   "slug": "kia-sportage",
-   "nazwa": "Kia Sportage",
-   "adres": "/marki/kia/sportage/"
+   "slug": "nissan-x-trail",
+   "nazwa": "Nissan X-Trail",
+   "adres": "/marki/nissan/x-trail/"
   },
   {
-   "slug": "nissan-qashqai",
-   "nazwa": "Nissan Qashqai",
-   "adres": "/marki/nissan/qashqai/"
+   "slug": "nissan-qashqai2",
+   "nazwa": "Nissan QASHQAI2",
+   "adres": "/marki/nissan/qashqai2/"
   },
   {
    "slug": "alfa-romeo-giulietta",

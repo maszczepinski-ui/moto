@@ -3,7 +3,7 @@
  "marka": "Omoda",
  "model": "5",
  "generacja": "",
- "lataProdukcji": "2025–2026",
+ "lataProdukcji": "2024–2026",
  "nadwozia": [
   "hatchback"
  ],
@@ -11,80 +11,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Omoda 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 385 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OMODA5, OMODA5 EV, OMODA 5 EV).",
-  "liczbaWPolsce": 5385,
-  "aktywne": 5385,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Omoda 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 256 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OMODA5, OMODA 5 EV, OMODA5 EV).",
+  "liczbaWPolsce": 12256,
+  "aktywne": 12256,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 437
+    "liczba": 980
    },
    {
     "teryt": "04",
-    "liczba": 315
+    "liczba": 707
    },
    {
     "teryt": "06",
-    "liczba": 153
+    "liczba": 367
    },
    {
     "teryt": "08",
-    "liczba": 144
+    "liczba": 376
    },
    {
     "teryt": "10",
-    "liczba": 358
+    "liczba": 991
    },
    {
     "teryt": "12",
-    "liczba": 424
+    "liczba": 893
    },
    {
     "teryt": "14",
-    "liczba": 752
+    "liczba": 1604
    },
    {
     "teryt": "16",
-    "liczba": 122
+    "liczba": 357
    },
    {
     "teryt": "18",
-    "liczba": 196
+    "liczba": 433
    },
    {
     "teryt": "20",
-    "liczba": 88
+    "liczba": 200
    },
    {
     "teryt": "22",
-    "liczba": 424
+    "liczba": 826
    },
    {
     "teryt": "24",
-    "liczba": 825
+    "liczba": 2157
    },
    {
     "teryt": "26",
-    "liczba": 145
+    "liczba": 318
    },
    {
     "teryt": "28",
-    "liczba": 245
+    "liczba": 386
    },
    {
     "teryt": "30",
-    "liczba": 511
+    "liczba": 1131
    },
    {
     "teryt": "32",
-    "liczba": 246
+    "liczba": 530
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2023,
+    "liczba": 41
+   },
+   {
+    "rok": 2024,
+    "liczba": 3971
+   },
+   {
     "rok": 2025,
-    "liczba": 4039
+    "liczba": 6903
    },
    {
     "rok": 2026,
@@ -93,75 +101,229 @@
   ],
   "paliwa": [
    {
-    "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 3776
+    "nazwa": "Benzyna",
+    "liczba": 7539
    },
    {
-    "nazwa": "Benzyna",
-    "liczba": 1260
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 4016
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 348
+    "liczba": 681
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 20
+   }
+  ],
+  "pojemnosci": [
+   {
+    "nazwa": "1,6 l",
+    "liczba": 7433
+   },
+   {
+    "nazwa": "1,5 l",
+    "liczba": 4142
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 681
+   }
+  ],
+  "pochodzenie": [
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 10982
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 1209
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 65
+   }
+  ],
+  "nadwozia": [
+   {
+    "nazwa": "Hatchback",
+    "liczba": 12255
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "pojemnosci": [
-   {
-    "nazwa": "1,5 l",
-    "liczba": 3900
-   },
-   {
-    "nazwa": "1,6 l",
-    "liczba": 1137
-   },
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 348
-   }
-  ],
-  "pochodzenie": [
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 4711
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 641
-   },
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 33
-   }
-  ],
-  "nadwozia": [
-   {
-    "nazwa": "Hatchback",
-    "liczba": 5385
-   }
-  ],
-  "noweOdPaczki": 5385,
-  "hybrydy": 3776,
-  "elektryczne": 347,
+  "noweOdPaczki": 12256,
+  "hybrydy": 4016,
+  "elektryczne": 680,
   "pierwszeRejestracje": [
    {
+    "rok": 2024,
+    "liczba": 1093
+   },
+   {
+    "rok": 2025,
+    "liczba": 5513
+   },
+   {
     "rok": 2026,
-    "liczba": 5385
+    "liczba": 5650
    }
   ],
-  "miejsce": 319,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 196
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 253
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 196
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 306
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 278
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 382
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 532
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 560
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 699
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 494
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 580
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 385
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 516
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 344
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 392
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 265
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 255,
   "miejsceWMarce": 1,
   "modeliWMarce": 3,
-  "sredniRocznik": 2025.2
+  "sredniRocznik": 2024.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "omoda",
  "modelSlug": "5",
@@ -178,9 +340,9 @@
    "adres": "/marki/mg/hs/"
   },
   {
-   "slug": "chery-tiggo-7",
-   "nazwa": "Chery Tiggo 7",
-   "adres": "/marki/chery/tiggo-7/"
+   "slug": "jaecoo-5",
+   "nazwa": "Jaecoo 5",
+   "adres": "/marki/jaecoo/5/"
   },
   {
    "slug": "mg-zs",
@@ -188,9 +350,9 @@
    "adres": "/marki/mg/zs/"
   },
   {
-   "slug": "chery-tiggo-4",
-   "nazwa": "Chery Tiggo 4",
-   "adres": "/marki/chery/tiggo-4/"
+   "slug": "kia-xceed",
+   "nazwa": "Kia XCeed",
+   "adres": "/marki/kia/xceed/"
   }
  ]
 }

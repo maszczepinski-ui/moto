@@ -3,7 +3,7 @@
  "marka": "BMW",
  "model": "i3",
  "generacja": "",
- "lataProdukcji": "2013–2026",
+ "lataProdukcji": "2013–2022",
  "nadwozia": [
   "sedan",
   "hatchback"
@@ -12,116 +12,116 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW i3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 221 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I3, I3S, I3 50 XDRIVE, I3 REX).",
-  "liczbaWPolsce": 627,
-  "aktywne": 597,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW i3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 018 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I3, I3S, I3 REX, I3 50 XDRIVE).",
+  "liczbaWPolsce": 1424,
+  "aktywne": 1394,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 66
    },
    {
     "teryt": "04",
-    "liczba": 10
+    "liczba": 25
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 56
    },
    {
     "teryt": "08",
-    "liczba": 8
+    "liczba": 20
    },
    {
     "teryt": "10",
-    "liczba": 22
+    "liczba": 68
    },
    {
     "teryt": "12",
-    "liczba": 55
+    "liczba": 162
    },
    {
     "teryt": "14",
-    "liczba": 290
+    "liczba": 514
    },
    {
     "teryt": "16",
-    "liczba": 2
+    "liczba": 10
    },
    {
     "teryt": "18",
-    "liczba": 23
+    "liczba": 63
    },
    {
     "teryt": "20",
-    "liczba": 23
+    "liczba": 50
    },
    {
     "teryt": "22",
-    "liczba": 23
+    "liczba": 56
    },
    {
     "teryt": "24",
-    "liczba": 39
+    "liczba": 114
    },
    {
     "teryt": "26",
-    "liczba": 14
+    "liczba": 37
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 14
    },
    {
     "teryt": "30",
-    "liczba": 38
+    "liczba": 117
    },
    {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 39
    }
   ],
   "bezWojewodztwa": 13,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 9
+    "liczba": 22
    },
    {
     "rok": 2014,
-    "liczba": 62
+    "liczba": 128
    },
    {
     "rok": 2015,
-    "liczba": 62
+    "liczba": 149
    },
    {
     "rok": 2016,
-    "liczba": 59
+    "liczba": 156
    },
    {
     "rok": 2017,
-    "liczba": 73
+    "liczba": 166
    },
    {
     "rok": 2018,
-    "liczba": 236
+    "liczba": 322
    },
    {
     "rok": 2019,
-    "liczba": 37
+    "liczba": 148
    },
    {
     "rok": 2020,
-    "liczba": 16
+    "liczba": 90
    },
    {
     "rok": 2021,
-    "liczba": 23
+    "liczba": 114
    },
    {
     "rok": 2022,
-    "liczba": 10
+    "liczba": 86
    },
    {
     "rok": 2023,
@@ -129,7 +129,7 @@
    },
    {
     "rok": 2024,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2025,
@@ -143,43 +143,39 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 550
+    "liczba": 1261
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 66
-   },
-   {
-    "nazwa": "Benzyna",
-    "liczba": 8
+    "liczba": 151
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 12
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 102
+    "liczba": 209
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 525
+    "liczba": 1215
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 283
+    "liczba": 789
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 357
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 254
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 66
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -193,40 +189,198 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 410
+    "liczba": 701
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 193
+    "liczba": 642
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 9
+    "liczba": 39
+   },
+   {
+    "nazwa": "Kombi",
+    "liczba": 18
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 15
+    "liczba": 24
    }
   ],
-  "noweOdPaczki": 221,
-  "hybrydy": 64,
-  "elektryczne": 526,
+  "noweOdPaczki": 1018,
+  "hybrydy": 149,
+  "elektryczne": 1236,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 112
+   },
+   {
+    "rok": 2024,
+    "liczba": 392
+   },
+   {
+    "rok": 2025,
+    "liczba": 282
+   },
+   {
     "rok": 2026,
-    "liczba": 221
+    "liczba": 232
    }
   ],
-  "miejsce": 780,
-  "miejsceWMarce": 24,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2017.3
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 661,
+  "miejsceWMarce": 23,
+  "modeliWMarce": 39,
+  "sredniRocznik": 2017.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "i3",
@@ -238,24 +392,24 @@
    "adres": "/marki/tesla/model-3/"
   },
   {
+   "slug": "kia-ev6",
+   "nazwa": "Kia EV6",
+   "adres": "/marki/kia/ev6/"
+  },
+  {
+   "slug": "dacia-spring",
+   "nazwa": "Dacia Spring",
+   "adres": "/marki/dacia/spring/"
+  },
+  {
    "slug": "tesla-model-y",
    "nazwa": "Tesla Model Y",
    "adres": "/marki/tesla/model-y/"
   },
   {
-   "slug": "suzuki-celerio",
-   "nazwa": "Suzuki Celerio",
-   "adres": "/marki/suzuki/celerio/"
-  },
-  {
-   "slug": "skoda-citigo",
-   "nazwa": "Skoda Citigo",
-   "adres": "/marki/skoda/citigo/"
-  },
-  {
-   "slug": "volkswagen-up",
-   "nazwa": "Volkswagen Up!",
-   "adres": "/marki/volkswagen/up/"
+   "slug": "volkswagen-id-3",
+   "nazwa": "Volkswagen ID.3",
+   "adres": "/marki/volkswagen/id-3/"
   }
  ]
 }

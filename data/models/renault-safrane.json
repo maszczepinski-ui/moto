@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Safrane – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SAFRANE, SAFRANE 2.2 KAT, SAFRANE 3.0 KAT, SAFRANE 2.0 KAT, SAFRANE 2.2).",
-  "liczbaWPolsce": 3210,
-  "aktywne": 106,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Safrane – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SAFRANE, SAFRANE 2.2 KAT, SAFRANE 3.0 KAT, SAFRANE 2.0 KAT, SAFRANE 2.2).",
+  "liczbaWPolsce": 3220,
+  "aktywne": 116,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 343
+    "liczba": 345
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 411
+    "liczba": 413
    },
    {
     "teryt": "08",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 397
+    "liczba": 399
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 136
+    "liczba": 137
    },
    {
     "teryt": "20",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 121
+    "liczba": 122
    },
    {
     "teryt": "24",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 300
+    "liczba": 301
    },
    {
     "teryt": "32",
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 288
+    "liczba": 289
    },
    {
     "rok": 1997,
@@ -109,29 +109,29 @@
    },
    {
     "rok": 1998,
-    "liczba": 191
+    "liczba": 193
    },
    {
     "rok": 1999,
-    "liczba": 166
+    "liczba": 171
    },
    {
     "rok": 2000,
-    "liczba": 105
+    "liczba": 107
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1249
+    "liczba": 1250
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 898
+    "liczba": 906
    },
    {
     "nazwa": "Diesel",
-    "liczba": 596
+    "liczba": 597
    },
    {
     "nazwa": "?+LPG",
@@ -145,7 +145,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,2 l",
-    "liczba": 1217
+    "liczba": 1218
    },
    {
     "nazwa": "3,0 l",
@@ -157,7 +157,7 @@
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 292
+    "liczba": 295
    },
    {
     "nazwa": "2,1 l",
@@ -165,7 +165,7 @@
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 245
+    "liczba": 247
    },
    {
     "nazwa": "2,5 l",
@@ -173,7 +173,7 @@
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 59
+    "liczba": 63
    },
    {
     "nazwa": "Inne / brak danych",
@@ -183,11 +183,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2053
+    "liczba": 2055
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 983
+    "liczba": 991
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -205,28 +205,182 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1846
+    "liczba": 1854
    },
    {
     "nazwa": "Sedan",
-    "liczba": 693
+    "liczba": 694
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 671
+    "liczba": 672
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 3
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 413,
-  "miejsceWMarce": 21,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 477,
+  "miejsceWMarce": 24,
   "modeliWMarce": 48,
   "sredniRocznik": 1995.0
  },
@@ -234,7 +388,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "safrane",

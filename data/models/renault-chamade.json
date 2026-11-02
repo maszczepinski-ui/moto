@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Chamade – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CHAMADE, CHAMADE 19, CHAMADE 1.9D, CHAMADE 1.7 KAT, CHAMADE 1.4 KAT).",
-  "liczbaWPolsce": 1027,
-  "aktywne": 6,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Chamade – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CHAMADE, CHAMADE 19, CHAMADE 1.9D, CHAMADE 1.7 KAT, CHAMADE 1.4 KAT).",
+  "liczbaWPolsce": 1028,
+  "aktywne": 7,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 137
+    "liczba": 138
    },
    {
     "teryt": "32",
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 73
+    "liczba": 74
    },
    {
     "rok": 1994,
@@ -123,7 +123,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 348
+    "liczba": 349
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -145,7 +145,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 448
+    "liczba": 449
    },
    {
     "nazwa": "1,4 l",
@@ -171,7 +171,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 247
+    "liczba": 248
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,7 +189,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 579
+    "liczba": 580
    },
    {
     "nazwa": "Hatchback",
@@ -200,12 +200,159 @@
     "liczba": 321
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 667,
-  "miejsceWMarce": 31,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 746,
+  "miejsceWMarce": 33,
   "modeliWMarce": 48,
   "sredniRocznik": 1992.5
  },
@@ -213,7 +360,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "chamade",

@@ -11,80 +11,80 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Omoda 9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 180 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OMODA 9, OMODA 9 PHEV).",
-  "liczbaWPolsce": 3180,
-  "aktywne": 3180,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Omoda 9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 361 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OMODA 9, OMODA 9 PHEV).",
+  "liczbaWPolsce": 5361,
+  "aktywne": 5361,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 259
+    "liczba": 436
    },
    {
     "teryt": "04",
-    "liczba": 145
+    "liczba": 273
    },
    {
     "teryt": "06",
-    "liczba": 92
+    "liczba": 179
    },
    {
     "teryt": "08",
-    "liczba": 99
+    "liczba": 202
    },
    {
     "teryt": "10",
-    "liczba": 194
+    "liczba": 344
    },
    {
     "teryt": "12",
-    "liczba": 260
+    "liczba": 405
    },
    {
     "teryt": "14",
-    "liczba": 593
+    "liczba": 943
    },
    {
     "teryt": "16",
-    "liczba": 63
+    "liczba": 124
    },
    {
     "teryt": "18",
-    "liczba": 114
+    "liczba": 187
    },
    {
     "teryt": "20",
-    "liczba": 39
+    "liczba": 73
    },
    {
     "teryt": "22",
-    "liczba": 305
+    "liczba": 525
    },
    {
     "teryt": "24",
-    "liczba": 437
+    "liczba": 739
    },
    {
     "teryt": "26",
-    "liczba": 54
+    "liczba": 86
    },
    {
     "teryt": "28",
-    "liczba": 94
+    "liczba": 147
    },
    {
     "teryt": "30",
-    "liczba": 286
+    "liczba": 483
    },
    {
     "teryt": "32",
-    "liczba": 146
+    "liczba": 215
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 2458
+    "liczba": 4639
    },
    {
     "rok": 2026,
@@ -94,31 +94,31 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 3173
+    "liczba": 5317
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 44
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 3180
+    "liczba": 5361
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2595
+    "liczba": 4663
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 563
+    "liczba": 660
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 20
+    "liczba": 36
    },
    {
     "nazwa": "Inne / brak danych",
@@ -128,28 +128,174 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3180
+    "liczba": 5361
    }
   ],
-  "noweOdPaczki": 3180,
-  "hybrydy": 3173,
+  "noweOdPaczki": 5361,
+  "hybrydy": 5317,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 1979
+   },
+   {
     "rok": 2026,
-    "liczba": 3180
+    "liczba": 3382
    }
   ],
-  "miejsce": 414,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 224
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 212
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 358
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 380
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 306
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 371
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 202
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 383,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
-  "sredniRocznik": 2025.2
+  "sredniRocznik": 2025.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "omoda",
  "modelSlug": "9",
@@ -166,14 +312,14 @@
    "adres": "/marki/byd/seal-u/"
   },
   {
-   "slug": "chery-tiggo-9",
-   "nazwa": "Chery Tiggo 9",
-   "adres": "/marki/chery/tiggo-9/"
-  },
-  {
    "slug": "chery-tiggo-8",
    "nazwa": "Chery Tiggo 8",
    "adres": "/marki/chery/tiggo-8/"
+  },
+  {
+   "slug": "chery-tiggo-9",
+   "nazwa": "Chery Tiggo 9",
+   "adres": "/marki/chery/tiggo-9/"
   },
   {
    "slug": "jaecoo-8",

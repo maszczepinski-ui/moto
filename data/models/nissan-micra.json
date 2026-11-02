@@ -12,88 +12,84 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Micra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 437 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MICRA, MICRA 1.0 KAT, MICRA 1.0, MICRA 1.2 KAT, MICRA 1.2).",
-  "liczbaWPolsce": 60038,
-  "aktywne": 19742,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Micra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 576 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MICRA, MICRA 1.0 KAT, MICRA 1.0, MICRA 1.2 KAT, MICRA 1.2).",
+  "liczbaWPolsce": 65177,
+  "aktywne": 24881,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 4265
+    "liczba": 4677
    },
    {
     "teryt": "04",
-    "liczba": 2939
+    "liczba": 3211
    },
    {
     "teryt": "06",
-    "liczba": 2786
+    "liczba": 3017
    },
    {
     "teryt": "08",
-    "liczba": 2421
+    "liczba": 2711
    },
    {
     "teryt": "10",
-    "liczba": 3951
+    "liczba": 4229
    },
    {
     "teryt": "12",
-    "liczba": 4076
+    "liczba": 4458
    },
    {
     "teryt": "14",
-    "liczba": 10327
+    "liczba": 10888
    },
    {
     "teryt": "16",
-    "liczba": 1194
+    "liczba": 1295
    },
    {
     "teryt": "18",
-    "liczba": 2936
+    "liczba": 3244
    },
    {
     "teryt": "20",
-    "liczba": 1002
+    "liczba": 1124
    },
    {
     "teryt": "22",
-    "liczba": 3195
+    "liczba": 3432
    },
    {
     "teryt": "24",
-    "liczba": 6896
+    "liczba": 7434
    },
    {
     "teryt": "26",
-    "liczba": 1126
+    "liczba": 1257
    },
    {
     "teryt": "28",
-    "liczba": 1853
+    "liczba": 2000
    },
    {
     "teryt": "30",
-    "liczba": 7726
+    "liczba": 8599
    },
    {
     "teryt": "32",
-    "liczba": 3053
+    "liczba": 3309
    }
   ],
   "bezWojewodztwa": 292,
   "roczniki": [
-   {
-    "rok": 1984,
-    "liczba": 121
-   },
    {
     "rok": 1985,
     "liczba": 157
    },
    {
     "rok": 1986,
-    "liczba": 192
+    "liczba": 193
    },
    {
     "rok": 1987,
@@ -113,224 +109,386 @@
    },
    {
     "rok": 1991,
-    "liczba": 1190
+    "liczba": 1195
    },
    {
     "rok": 1992,
-    "liczba": 1023
+    "liczba": 1024
    },
    {
     "rok": 1993,
-    "liczba": 1561
+    "liczba": 1563
    },
    {
     "rok": 1994,
-    "liczba": 1466
-   },
-   {
-    "rok": 1995,
-    "liczba": 1757
-   },
-   {
-    "rok": 1996,
-    "liczba": 2455
-   },
-   {
-    "rok": 1997,
-    "liczba": 2034
-   },
-   {
-    "rok": 1998,
-    "liczba": 1978
-   },
-   {
-    "rok": 1999,
-    "liczba": 1555
-   },
-   {
-    "rok": 2000,
-    "liczba": 1397
-   },
-   {
-    "rok": 2001,
-    "liczba": 1177
-   },
-   {
-    "rok": 2002,
-    "liczba": 957
-   },
-   {
-    "rok": 2003,
-    "liczba": 4885
-   },
-   {
-    "rok": 2004,
-    "liczba": 4506
-   },
-   {
-    "rok": 2005,
-    "liczba": 4964
-   },
-   {
-    "rok": 2006,
-    "liczba": 3040
-   },
-   {
-    "rok": 2007,
-    "liczba": 1906
-   },
-   {
-    "rok": 2008,
-    "liczba": 2261
-   },
-   {
-    "rok": 2009,
-    "liczba": 2293
-   },
-   {
-    "rok": 2010,
-    "liczba": 1939
-   },
-   {
-    "rok": 2011,
-    "liczba": 2576
-   },
-   {
-    "rok": 2012,
-    "liczba": 1567
-   },
-   {
-    "rok": 2013,
-    "liczba": 1330
-   },
-   {
-    "rok": 2014,
-    "liczba": 1313
-   },
-   {
-    "rok": 2015,
     "liczba": 1470
    },
    {
+    "rok": 1995,
+    "liczba": 1759
+   },
+   {
+    "rok": 1996,
+    "liczba": 2460
+   },
+   {
+    "rok": 1997,
+    "liczba": 2041
+   },
+   {
+    "rok": 1998,
+    "liczba": 1992
+   },
+   {
+    "rok": 1999,
+    "liczba": 1576
+   },
+   {
+    "rok": 2000,
+    "liczba": 1415
+   },
+   {
+    "rok": 2001,
+    "liczba": 1210
+   },
+   {
+    "rok": 2002,
+    "liczba": 998
+   },
+   {
+    "rok": 2003,
+    "liczba": 5059
+   },
+   {
+    "rok": 2004,
+    "liczba": 4746
+   },
+   {
+    "rok": 2005,
+    "liczba": 5236
+   },
+   {
+    "rok": 2006,
+    "liczba": 3309
+   },
+   {
+    "rok": 2007,
+    "liczba": 2079
+   },
+   {
+    "rok": 2008,
+    "liczba": 2493
+   },
+   {
+    "rok": 2009,
+    "liczba": 2630
+   },
+   {
+    "rok": 2010,
+    "liczba": 2293
+   },
+   {
+    "rok": 2011,
+    "liczba": 3076
+   },
+   {
+    "rok": 2012,
+    "liczba": 1836
+   },
+   {
+    "rok": 2013,
+    "liczba": 1570
+   },
+   {
+    "rok": 2014,
+    "liczba": 1605
+   },
+   {
+    "rok": 2015,
+    "liczba": 1710
+   },
+   {
     "rok": 2016,
-    "liczba": 980
+    "liczba": 1191
    },
    {
     "rok": 2017,
-    "liczba": 1735
+    "liczba": 2122
    },
    {
     "rok": 2018,
-    "liczba": 699
+    "liczba": 997
    },
    {
     "rok": 2019,
-    "liczba": 276
+    "liczba": 500
+   },
+   {
+    "rok": 2020,
+    "liczba": 148
+   },
+   {
+    "rok": 2021,
+    "liczba": 131
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 51523
+    "liczba": 56361
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3765
+    "liczba": 3882
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2770
+    "liczba": 2952
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1980
+    "liczba": 1982
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 34658
+    "liczba": 38311
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 16309
+    "liczba": 17050
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 2764
+    "liczba": 2945
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 2169
+    "liczba": 2311
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 2097
+    "liczba": 2118
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 1580
+    "liczba": 1937
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 461
+    "liczba": 505
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 23826
+    "liczba": 27710
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 23571
+    "liczba": 24818
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 12120
+    "liczba": 12124
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 521
+    "liczba": 525
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 44618
+    "liczba": 47809
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 10734
+    "liczba": 12582
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1084
+    "liczba": 1088
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3602
+    "liczba": 3698
    }
   ],
-  "noweOdPaczki": 1437,
+  "noweOdPaczki": 6576,
   "hybrydy": 0,
   "elektryczne": 47,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 549
+   },
+   {
+    "rok": 2024,
+    "liczba": 2425
+   },
+   {
+    "rok": 2025,
+    "liczba": 2071
+   },
+   {
     "rok": 2026,
-    "liczba": 1437
+    "liczba": 1531
    }
   ],
-  "miejsce": 61,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 204
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 206
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 230
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 213
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 191
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 198
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 201
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 183
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 215
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 237
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 181
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 166
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 179
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 155
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 183
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 191
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 195
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 204
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 159
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 181
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 171
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 144
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 94
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 67,
   "miejsceWMarce": 2,
-  "modeliWMarce": 41,
-  "sredniRocznik": 2003.9
+  "modeliWMarce": 46,
+  "sredniRocznik": 2004.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "micra",
@@ -340,6 +498,11 @@
    "slug": "opel-corsa",
    "nazwa": "Opel Corsa",
    "adres": "/marki/opel/corsa/"
+  },
+  {
+   "slug": "renault-twingo",
+   "nazwa": "Renault Twingo",
+   "adres": "/marki/renault/twingo/"
   },
   {
    "slug": "opel-agila",
@@ -352,14 +515,9 @@
    "adres": "/marki/fiat/punto/"
   },
   {
-   "slug": "renault-twingo",
-   "nazwa": "Renault Twingo",
-   "adres": "/marki/renault/twingo/"
-  },
-  {
-   "slug": "daihatsu-sirion",
-   "nazwa": "Daihatsu Sirion",
-   "adres": "/marki/daihatsu/sirion/"
+   "slug": "hyundai-getz",
+   "nazwa": "Hyundai Getz",
+   "adres": "/marki/hyundai/getz/"
   }
  ]
 }

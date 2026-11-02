@@ -13,110 +13,110 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Tiida – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 57 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIIDA).",
-  "liczbaWPolsce": 2628,
-  "aktywne": 802,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Tiida – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 250 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIIDA).",
+  "liczbaWPolsce": 2821,
+  "aktywne": 995,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 188
+    "liczba": 213
    },
    {
     "teryt": "04",
-    "liczba": 127
+    "liczba": 136
    },
    {
     "teryt": "06",
-    "liczba": 196
+    "liczba": 204
    },
    {
     "teryt": "08",
-    "liczba": 92
+    "liczba": 108
    },
    {
     "teryt": "10",
-    "liczba": 142
+    "liczba": 150
    },
    {
     "teryt": "12",
-    "liczba": 143
+    "liczba": 151
    },
    {
     "teryt": "14",
-    "liczba": 547
+    "liczba": 570
    },
    {
     "teryt": "16",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "18",
-    "liczba": 114
+    "liczba": 123
    },
    {
     "teryt": "20",
-    "liczba": 103
+    "liczba": 112
    },
    {
     "teryt": "22",
-    "liczba": 160
+    "liczba": 171
    },
    {
     "teryt": "24",
-    "liczba": 251
+    "liczba": 262
    },
    {
     "teryt": "26",
-    "liczba": 61
+    "liczba": 66
    },
    {
     "teryt": "28",
-    "liczba": 127
+    "liczba": 135
    },
    {
     "teryt": "30",
-    "liczba": 158
+    "liczba": 180
    },
    {
     "teryt": "32",
-    "liczba": 185
+    "liczba": 205
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2007,
-    "liczba": 1072
+    "liczba": 1099
    },
    {
     "rok": 2008,
-    "liczba": 897
+    "liczba": 980
    },
    {
     "rok": 2009,
-    "liczba": 216
+    "liczba": 265
    },
    {
     "rok": 2010,
-    "liczba": 301
+    "liczba": 327
    },
    {
     "rok": 2011,
-    "liczba": 78
+    "liczba": 85
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2085
+    "liczba": 2256
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 322
+    "liczba": 337
    },
    {
     "nazwa": "Diesel",
-    "liczba": 220
+    "liczba": 227
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,15 +126,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2097
+    "liczba": 2245
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 310
+    "liczba": 347
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 220
+    "liczba": 228
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,11 +148,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 866
+    "liczba": 911
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 539
+    "liczba": 687
    },
    {
     "nazwa": "Inne / brak danych",
@@ -162,69 +162,223 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1712
+    "liczba": 1857
    },
    {
     "nazwa": "Sedan",
-    "liczba": 545
+    "liczba": 563
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 340
+    "liczba": 368
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 31
+    "liczba": 33
    }
   ],
-  "noweOdPaczki": 57,
+  "noweOdPaczki": 250,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 18
+   },
+   {
+    "rok": 2024,
+    "liczba": 111
+   },
+   {
+    "rok": 2025,
+    "liczba": 63
+   },
+   {
     "rok": 2026,
-    "liczba": 57
+    "liczba": 58
    }
   ],
-  "miejsce": 439,
-  "miejsceWMarce": 12,
-  "modeliWMarce": 41,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 503,
+  "miejsceWMarce": 14,
+  "modeliWMarce": 46,
   "sredniRocznik": 2008.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "tiida",
  "adres": "/marki/nissan/tiida/",
  "konkurenci": [
   {
-   "slug": "suzuki-vitara",
-   "nazwa": "Suzuki Vitara",
-   "adres": "/marki/suzuki/vitara/"
+   "slug": "ford-fusion",
+   "nazwa": "Ford Fusion",
+   "adres": "/marki/ford/fusion/"
   },
   {
-   "slug": "opel-meriva",
-   "nazwa": "Opel Meriva",
-   "adres": "/marki/opel/meriva/"
-  },
-  {
-   "slug": "toyota-corolla",
-   "nazwa": "Toyota Corolla",
-   "adres": "/marki/toyota/corolla/"
-  },
-  {
-   "slug": "seat-leon",
-   "nazwa": "Seat Leon",
-   "adres": "/marki/seat/leon/"
+   "slug": "volkswagen-golf-plus",
+   "nazwa": "Volkswagen Golf Plus",
+   "adres": "/marki/volkswagen/golf-plus/"
   },
   {
    "slug": "chevrolet-lacetti",
    "nazwa": "Chevrolet Lacetti",
    "adres": "/marki/chevrolet/lacetti/"
+  },
+  {
+   "slug": "renault-megane",
+   "nazwa": "Renault Megane",
+   "adres": "/marki/renault/megane/"
+  },
+  {
+   "slug": "mitsubishi-space-star",
+   "nazwa": "Mitsubishi Space Star",
+   "adres": "/marki/mitsubishi/space-star/"
   }
  ]
 }

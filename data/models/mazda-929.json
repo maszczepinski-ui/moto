@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 929 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 929, 929 3.0 KAT, 929 2.2).",
-  "liczbaWPolsce": 810,
-  "aktywne": 13,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 929 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 929, 929 3.0 KAT, 929 2.2).",
+  "liczbaWPolsce": 824,
+  "aktywne": 27,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "teryt": "04",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "06",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 51
+    "liczba": 53
    },
    {
     "teryt": "14",
-    "liczba": 118
+    "liczba": 120
    },
    {
     "teryt": "16",
@@ -55,15 +55,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "22",
-    "liczba": 39
+    "liczba": 42
    },
    {
     "teryt": "24",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "teryt": "26",
@@ -71,7 +71,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 31
+    "liczba": 33
    },
    {
     "teryt": "30",
@@ -110,27 +110,27 @@
    },
    {
     "rok": 1982,
-    "liczba": 132
+    "liczba": 133
    },
    {
     "rok": 1983,
-    "liczba": 83
+    "liczba": 85
    },
    {
     "rok": 1984,
-    "liczba": 75
+    "liczba": 77
    },
    {
     "rok": 1985,
-    "liczba": 75
+    "liczba": 79
    },
    {
     "rok": 1986,
-    "liczba": 36
+    "liczba": 37
    },
    {
     "rok": 1987,
-    "liczba": 47
+    "liczba": 48
    },
    {
     "rok": 1988,
@@ -138,11 +138,11 @@
    },
    {
     "rok": 1989,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 1990,
-    "liczba": 15
+    "liczba": 17
    },
    {
     "rok": 1991,
@@ -176,7 +176,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 182
+    "liczba": 196
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -194,7 +194,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 396
+    "liczba": 406
    },
    {
     "nazwa": "1,8 l",
@@ -202,15 +202,15 @@
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 107
+    "liczba": 109
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 91
+    "liczba": 92
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "1,6 l",
@@ -224,7 +224,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 588
+    "liczba": 590
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -232,7 +232,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 53
+    "liczba": 65
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -246,40 +246,190 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 206
+    "liczba": 211
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "nazwa": "Coupe",
-    "liczba": 25
+    "liczba": 32
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 549
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 19,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 8
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 5
    }
   ],
-  "miejsce": 718,
-  "miejsceWMarce": 22,
-  "modeliWMarce": 29,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 793,
+  "miejsceWMarce": 26,
+  "modeliWMarce": 32,
   "sredniRocznik": 1986.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "929",

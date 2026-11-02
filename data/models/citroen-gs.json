@@ -5,15 +5,16 @@
  "generacja": "",
  "lataProdukcji": "1971–1992",
  "nadwozia": [
-  "sedan"
+  "sedan",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen GS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GS 1.3, GS 1.2, GS, GS 1.1, GS 1.0).",
-  "liczbaWPolsce": 981,
-  "aktywne": 4,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen GS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GS 1.3, GS 1.2, GS, GS 1.1, GS 1.0).",
+  "liczbaWPolsce": 987,
+  "aktywne": 10,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "teryt": "12",
@@ -57,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 42
+    "liczba": 44
    },
    {
     "teryt": "24",
-    "liczba": 38
+    "liczba": 40
    },
    {
     "teryt": "26",
@@ -112,7 +113,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 53
+    "liczba": 55
    },
    {
     "rok": 1975,
@@ -120,7 +121,7 @@
    },
    {
     "rok": 1976,
-    "liczba": 57
+    "liczba": 59
    },
    {
     "rok": 1977,
@@ -128,7 +129,7 @@
    },
    {
     "rok": 1978,
-    "liczba": 57
+    "liczba": 58
    },
    {
     "rok": 1979,
@@ -194,11 +195,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 176
+    "liczba": 181
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 805
+    "liczba": 806
    }
   ],
   "pojemnosci": [
@@ -208,11 +209,11 @@
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 294
+    "liczba": 297
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 246
+    "liczba": 248
    },
    {
     "nazwa": "1,1 l",
@@ -220,7 +221,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 40
    }
   ],
   "pochodzenie": [
@@ -234,7 +235,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 38
+    "liczba": 43
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -242,42 +243,196 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 40
+    "liczba": 41
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 909
+    "liczba": 910
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 4
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 676,
-  "miejsceWMarce": 29,
-  "modeliWMarce": 39,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 760,
+  "miejsceWMarce": 30,
+  "modeliWMarce": 40,
   "sredniRocznik": 1979.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "gs",

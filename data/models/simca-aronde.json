@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Simca Aronde – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARONDE).",
-  "liczbaWPolsce": 301,
-  "aktywne": 1,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Simca Aronde – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARONDE).",
+  "liczbaWPolsce": 303,
+  "aktywne": 3,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "04",
@@ -65,7 +65,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "30",
@@ -120,7 +120,7 @@
    },
    {
     "rok": 1960,
-    "liczba": 29
+    "liczba": 30
    },
    {
     "rok": 1961,
@@ -128,7 +128,7 @@
    },
    {
     "rok": 1962,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 1963,
@@ -238,7 +238,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 31
+    "liczba": 33
    },
    {
     "nazwa": "Inne / brak danych",
@@ -248,7 +248,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 280
+    "liczba": 282
    },
    {
     "nazwa": "Inne / brak danych",
@@ -258,7 +258,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 184
+    "liczba": 185
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -274,33 +274,184 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 275
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 2,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 989,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1088,
   "miejsceWMarce": 2,
   "modeliWMarce": 5,
-  "sredniRocznik": 1959.8
+  "sredniRocznik": 1959.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "simca",
  "modelSlug": "aronde",

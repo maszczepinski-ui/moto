@@ -3,7 +3,7 @@
  "marka": "Volkswagen",
  "model": "ID.4",
  "generacja": "",
- "lataProdukcji": "2020–2026",
+ "lataProdukcji": "2021–2026",
  "nadwozia": [
   "kombi"
  ],
@@ -11,110 +11,110 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 453 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.4 PURE 125KW, ID.4 PRO 210KW, ID.4 PURE 140 KW, ID.4 PRO 150KW, ID.4 PRO 150 KW).",
-  "liczbaWPolsce": 453,
-  "aktywne": 453,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 507 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.4 PURE 125KW, ID.4 PRO 210KW, ID.4 PRO 150 KW, ID.4 PRO 4MOTION 210KW, ID.4 PURE 140 KW).",
+  "liczbaWPolsce": 1507,
+  "aktywne": 1507,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 23
+    "liczba": 76
    },
    {
     "teryt": "04",
-    "liczba": 17
+    "liczba": 54
    },
    {
     "teryt": "06",
-    "liczba": 9
+    "liczba": 19
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 18
    },
    {
     "teryt": "10",
-    "liczba": 20
+    "liczba": 57
    },
    {
     "teryt": "12",
-    "liczba": 46
+    "liczba": 126
    },
    {
     "teryt": "14",
-    "liczba": 130
+    "liczba": 546
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 21
    },
    {
     "teryt": "18",
-    "liczba": 15
+    "liczba": 46
    },
    {
     "teryt": "20",
-    "liczba": 10
+    "liczba": 24
    },
    {
     "teryt": "22",
-    "liczba": 31
+    "liczba": 100
    },
    {
     "teryt": "24",
-    "liczba": 48
+    "liczba": 129
    },
    {
     "teryt": "26",
-    "liczba": 4
+    "liczba": 10
    },
    {
     "teryt": "28",
-    "liczba": 7
+    "liczba": 21
    },
    {
     "teryt": "30",
-    "liczba": 70
+    "liczba": 217
    },
    {
     "teryt": "32",
-    "liczba": 13
+    "liczba": 43
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2021,
-    "liczba": 21
+    "liczba": 67
    },
    {
     "rok": 2022,
-    "liczba": 25
+    "liczba": 69
    },
    {
     "rok": 2023,
-    "liczba": 28
+    "liczba": 285
    },
    {
     "rok": 2024,
-    "liczba": 7
+    "liczba": 195
    },
    {
     "rok": 2025,
-    "liczba": 28
+    "liczba": 544
    },
    {
     "rok": 2026,
-    "liczba": 336
+    "liczba": 338
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 452
+    "liczba": 1506
    },
    {
     "nazwa": "Inne / brak danych",
@@ -124,93 +124,247 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 453
+    "liczba": 1507
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 359
+    "liczba": 1279
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 86
+    "liczba": 165
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 7
+    "liczba": 58
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 5
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 439
+    "liczba": 1446
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 7
+    "liczba": 28
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 5
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 8
    }
   ],
-  "noweOdPaczki": 453,
+  "noweOdPaczki": 1507,
   "hybrydy": 0,
-  "elektryczne": 452,
+  "elektryczne": 1506,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 243
+   },
+   {
+    "rok": 2024,
+    "liczba": 222
+   },
+   {
+    "rok": 2025,
+    "liczba": 493
+   },
+   {
     "rok": 2026,
-    "liczba": 453
+    "liczba": 549
    }
   ],
-  "miejsce": 881,
-  "miejsceWMarce": 44,
-  "modeliWMarce": 57,
-  "sredniRocznik": 2025.2
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 181
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 643,
+  "miejsceWMarce": 35,
+  "modeliWMarce": 59,
+  "sredniRocznik": 2024.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "id-4",
  "adres": "/marki/volkswagen/id-4/",
  "konkurenci": [
   {
-   "slug": "tesla-model-y",
-   "nazwa": "Tesla Model Y",
-   "adres": "/marki/tesla/model-y/"
+   "slug": "audi-q4",
+   "nazwa": "Audi Q4",
+   "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "tesla-model-3",
-   "nazwa": "Tesla Model 3",
-   "adres": "/marki/tesla/model-3/"
+   "slug": "volvo-ex30",
+   "nazwa": "Volvo EX30",
+   "adres": "/marki/volvo/ex30/"
   },
   {
-   "slug": "cupra-formentor",
-   "nazwa": "Cupra Formentor",
-   "adres": "/marki/cupra/formentor/"
+   "slug": "mercedes-benz-eqa",
+   "nazwa": "Mercedes-Benz EQA",
+   "adres": "/marki/mercedes-benz/eqa/"
   },
   {
-   "slug": "baic-x55",
-   "nazwa": "BAIC X55",
-   "adres": "/marki/baic/x55/"
+   "slug": "skoda-enyaq",
+   "nazwa": "Skoda Enyaq",
+   "adres": "/marki/skoda/enyaq/"
   },
   {
-   "slug": "lexus-lbx",
-   "nazwa": "Lexus LBX",
-   "adres": "/marki/lexus/lbx/"
+   "slug": "bmw-ix1",
+   "nazwa": "BMW IX1",
+   "adres": "/marki/bmw/ix1/"
   }
  ]
 }

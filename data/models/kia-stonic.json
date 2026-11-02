@@ -5,118 +5,119 @@
  "generacja": "",
  "lataProdukcji": "2017–2026",
  "nadwozia": [
-  "kombi"
+  "kombi",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Stonic – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 096 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STONIC, STONIC GPL).",
-  "liczbaWPolsce": 7241,
-  "aktywne": 7235,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Stonic – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 337 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STONIC, STONIC GPL).",
+  "liczbaWPolsce": 15482,
+  "aktywne": 15476,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 424
+    "liczba": 881
    },
    {
     "teryt": "04",
-    "liczba": 263
+    "liczba": 633
    },
    {
     "teryt": "06",
-    "liczba": 323
+    "liczba": 604
    },
    {
     "teryt": "08",
-    "liczba": 112
+    "liczba": 230
    },
    {
     "teryt": "10",
-    "liczba": 506
+    "liczba": 1271
    },
    {
     "teryt": "12",
-    "liczba": 773
+    "liczba": 1689
    },
    {
     "teryt": "14",
-    "liczba": 1339
+    "liczba": 2727
    },
    {
     "teryt": "16",
-    "liczba": 123
+    "liczba": 250
    },
    {
     "teryt": "18",
-    "liczba": 305
+    "liczba": 659
    },
    {
     "teryt": "20",
-    "liczba": 201
+    "liczba": 418
    },
    {
     "teryt": "22",
-    "liczba": 522
+    "liczba": 1035
    },
    {
     "teryt": "24",
-    "liczba": 1101
+    "liczba": 2433
    },
    {
     "teryt": "26",
-    "liczba": 191
+    "liczba": 396
    },
    {
     "teryt": "28",
-    "liczba": 183
+    "liczba": 402
    },
    {
     "teryt": "30",
-    "liczba": 663
+    "liczba": 1424
    },
    {
     "teryt": "32",
-    "liczba": 206
+    "liczba": 424
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 598
+    "liczba": 787
    },
    {
     "rok": 2018,
-    "liczba": 2283
+    "liczba": 2792
    },
    {
     "rok": 2019,
-    "liczba": 1421
+    "liczba": 1796
    },
    {
     "rok": 2020,
-    "liczba": 98
+    "liczba": 312
    },
    {
     "rok": 2021,
-    "liczba": 72
+    "liczba": 239
    },
    {
     "rok": 2022,
-    "liczba": 72
+    "liczba": 229
    },
    {
     "rok": 2023,
-    "liczba": 47
+    "liczba": 1592
    },
    {
     "rok": 2024,
-    "liczba": 48
+    "liczba": 3370
    },
    {
     "rok": 2025,
-    "liczba": 849
+    "liczba": 2612
    },
    {
     "rok": 2026,
@@ -126,37 +127,41 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6878
+    "liczba": 14506
    },
    {
     "nazwa": "Diesel",
-    "liczba": 215
+    "liczba": 405
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 348
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 74
+    "liczba": 220
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 74
+    "liczba": 3
    }
   ],
   "pojemnosci": [
    {
-    "nazwa": "1,4 l",
-    "liczba": 3678
-   },
-   {
     "nazwa": "1,0 l",
-    "liczba": 2863
+    "liczba": 6505
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 484
+    "liczba": 4477
+   },
+   {
+    "nazwa": "1,4 l",
+    "liczba": 4097
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 215
+    "liczba": 402
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,54 +171,208 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6300
+    "liczba": 11992
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 690
+    "liczba": 1843
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 225
+    "liczba": 1608
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26
+    "liczba": 39
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 7096
+    "liczba": 14853
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 116
+    "liczba": 510
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29
+    "liczba": 119
    }
   ],
-  "noweOdPaczki": 3096,
-  "hybrydy": 74,
+  "noweOdPaczki": 11337,
+  "hybrydy": 220,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 721
+   },
+   {
+    "rok": 2024,
+    "liczba": 3693
+   },
+   {
+    "rok": 2025,
+    "liczba": 3657
+   },
+   {
     "rok": 2026,
-    "liczba": 3096
+    "liczba": 3266
    }
   ],
-  "miejsce": 287,
-  "miejsceWMarce": 8,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2020.8
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 192
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 373
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 246
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 219
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 234
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 329
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 314
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 401
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 282
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 266
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 327
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 310
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 300
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 379
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 282
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 198
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 312
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 320
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 289
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 315
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 439
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 241
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 272
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 170
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 218,
+  "miejsceWMarce": 6,
+  "modeliWMarce": 32,
+  "sredniRocznik": 2022.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "stonic",
@@ -225,9 +384,14 @@
    "adres": "/marki/volkswagen/t-cross/"
   },
   {
-   "slug": "peugeot-2008",
-   "nazwa": "Peugeot 2008",
-   "adres": "/marki/peugeot/2008/"
+   "slug": "dacia-jogger",
+   "nazwa": "Dacia Jogger",
+   "adres": "/marki/dacia/jogger/"
+  },
+  {
+   "slug": "volkswagen-taigo",
+   "nazwa": "Volkswagen Taigo",
+   "adres": "/marki/volkswagen/taigo/"
   },
   {
    "slug": "renault-austral",
@@ -235,14 +399,9 @@
    "adres": "/marki/renault/austral/"
   },
   {
-   "slug": "volkswagen-t-roc",
-   "nazwa": "Volkswagen T-Roc",
-   "adres": "/marki/volkswagen/t-roc/"
-  },
-  {
-   "slug": "audi-q2",
-   "nazwa": "Audi Q2",
-   "adres": "/marki/audi/q2/"
+   "slug": "renault-rafale",
+   "nazwa": "Renault Rafale",
+   "adres": "/marki/renault/rafale/"
   }
  ]
 }

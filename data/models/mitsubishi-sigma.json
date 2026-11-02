@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Sigma – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIGMA, SIGMA 3.0 KAT, SIGMA 3000 V6).",
-  "liczbaWPolsce": 539,
-  "aktywne": 21,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Sigma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIGMA, SIGMA 3.0 KAT, SIGMA 3000 V6).",
+  "liczbaWPolsce": 545,
+  "aktywne": 27,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "06",
@@ -31,15 +31,15 @@
    },
    {
     "teryt": "08",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "10",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "teryt": "12",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "14",
@@ -47,7 +47,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "18",
@@ -90,19 +90,19 @@
    },
    {
     "rok": 1992,
-    "liczba": 115
+    "liczba": 116
    },
    {
     "rok": 1993,
-    "liczba": 172
+    "liczba": 173
    },
    {
     "rok": 1994,
-    "liczba": 106
+    "liczba": 109
    },
    {
     "rok": 1995,
-    "liczba": 50
+    "liczba": 51
    },
    {
     "rok": 1996,
@@ -116,11 +116,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 242
+    "liczba": 244
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 177
+    "liczba": 181
    },
    {
     "nazwa": "?+LPG",
@@ -134,7 +134,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 533
+    "liczba": 539
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,11 +144,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 329
+    "liczba": 332
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 172
+    "liczba": 175
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -166,11 +166,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 243
+    "liczba": 248
    },
    {
     "nazwa": "Kombi",
-    "liczba": 162
+    "liczba": 163
    },
    {
     "nazwa": "Hatchback",
@@ -181,20 +181,175 @@
     "liczba": 115
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 817,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 2
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 894,
   "miejsceWMarce": 14,
-  "modeliWMarce": 18,
+  "modeliWMarce": 19,
   "sredniRocznik": 1993.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "sigma",

@@ -11,214 +11,376 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Scala – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 245 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCALA).",
-  "liczbaWPolsce": 6810,
-  "aktywne": 6810,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Scala – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 402 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCALA).",
+  "liczbaWPolsce": 19967,
+  "aktywne": 19967,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 490
+    "liczba": 1508
    },
    {
     "teryt": "04",
-    "liczba": 282
+    "liczba": 803
    },
    {
     "teryt": "06",
-    "liczba": 145
+    "liczba": 467
    },
    {
     "teryt": "08",
-    "liczba": 76
+    "liczba": 222
    },
    {
     "teryt": "10",
-    "liczba": 240
+    "liczba": 750
    },
    {
     "teryt": "12",
-    "liczba": 418
+    "liczba": 1161
    },
    {
     "teryt": "14",
-    "liczba": 2978
+    "liczba": 7851
    },
    {
     "teryt": "16",
-    "liczba": 87
+    "liczba": 306
    },
    {
     "teryt": "18",
-    "liczba": 119
+    "liczba": 476
    },
    {
     "teryt": "20",
-    "liczba": 29
+    "liczba": 102
    },
    {
     "teryt": "22",
-    "liczba": 404
+    "liczba": 1513
    },
    {
     "teryt": "24",
-    "liczba": 570
+    "liczba": 2013
    },
    {
     "teryt": "26",
-    "liczba": 54
+    "liczba": 198
    },
    {
     "teryt": "28",
-    "liczba": 83
+    "liczba": 241
    },
    {
     "teryt": "30",
-    "liczba": 734
+    "liczba": 1996
    },
    {
     "teryt": "32",
-    "liczba": 101
+    "liczba": 360
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 1045
+    "liczba": 1164
    },
    {
     "rok": 2020,
-    "liczba": 42
+    "liczba": 160
    },
    {
     "rok": 2021,
-    "liczba": 21
+    "liczba": 109
    },
    {
     "rok": 2022,
-    "liczba": 17
+    "liczba": 50
    },
    {
     "rok": 2023,
-    "liczba": 13
+    "liczba": 2029
    },
    {
     "rok": 2024,
-    "liczba": 13
+    "liczba": 5781
    },
    {
     "rok": 2025,
-    "liczba": 520
+    "liczba": 5523
    },
    {
     "rok": 2026,
-    "liczba": 4575
+    "liczba": 4586
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6588
+    "liczba": 19350
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 342
    },
    {
     "nazwa": "Diesel",
-    "liczba": 162
+    "liczba": 266
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 60
+    "liczba": 9
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 4697
+    "liczba": 13631
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1950
+    "liczba": 6069
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 163
+    "liczba": 267
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6588
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 138
+    "liczba": 18190
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 60
+    "liczba": 1230
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 432
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 113
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6797
+    "liczba": 19911
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 56
    }
   ],
-  "noweOdPaczki": 5245,
-  "hybrydy": 3,
+  "noweOdPaczki": 18402,
+  "hybrydy": 7,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1368
+   },
+   {
+    "rok": 2024,
+    "liczba": 5679
+   },
+   {
+    "rok": 2025,
+    "liczba": 5935
+   },
+   {
     "rok": 2026,
-    "liczba": 5245
+    "liczba": 5420
    }
   ],
-  "miejsce": 291,
-  "miejsceWMarce": 14,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 397
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 364
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 488
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 421
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 478
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 360
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 440
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 400
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 360
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 599
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 545
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 533
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 691
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 465
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 415
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 476
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 608
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 445
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 513
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 321
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 520
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 642
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 507
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 472
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 551
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 175
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 188,
+  "miejsceWMarce": 12,
   "modeliWMarce": 27,
-  "sredniRocznik": 2024.7
+  "sredniRocznik": 2024.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "scala",
  "adres": "/marki/skoda/scala/",
  "konkurenci": [
   {
-   "slug": "peugeot-408",
-   "nazwa": "Peugeot 408",
-   "adres": "/marki/peugeot/408/"
-  },
-  {
    "slug": "toyota-aygo-x",
    "nazwa": "Toyota Aygo X",
    "adres": "/marki/toyota/aygo-x/"
   },
   {
-   "slug": "volkswagen-t-cross",
-   "nazwa": "Volkswagen T-Cross",
-   "adres": "/marki/volkswagen/t-cross/"
-  },
-  {
-   "slug": "dacia-bigster",
-   "nazwa": "Dacia Bigster",
-   "adres": "/marki/dacia/bigster/"
+   "slug": "peugeot-408",
+   "nazwa": "Peugeot 408",
+   "adres": "/marki/peugeot/408/"
   },
   {
    "slug": "suzuki-s-cross",
    "nazwa": "Suzuki S-Cross",
    "adres": "/marki/suzuki/s-cross/"
+  },
+  {
+   "slug": "seat-arona",
+   "nazwa": "Seat Arona",
+   "adres": "/marki/seat/arona/"
+  },
+  {
+   "slug": "volkswagen-t-cross",
+   "nazwa": "Volkswagen T-Cross",
+   "adres": "/marki/volkswagen/t-cross/"
   }
  ]
 }

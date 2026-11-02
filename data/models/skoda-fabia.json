@@ -13,285 +13,439 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Fabia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 997 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FABIA, FABIA COMBI, FABIA SEDAN, FABIA 1.4 KAT, FABIA 6Y).",
-  "liczbaWPolsce": 233563,
-  "aktywne": 91536,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Fabia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 39 675 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FABIA, FABIA COMBI, FABIA SEDAN, FABIA 1.4 KAT, FABIA 6Y).",
+  "liczbaWPolsce": 264241,
+  "aktywne": 122214,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 17750
+    "liczba": 20433
    },
    {
     "teryt": "04",
-    "liczba": 9961
+    "liczba": 11489
    },
    {
     "teryt": "06",
-    "liczba": 10251
+    "liczba": 11193
    },
    {
     "teryt": "08",
-    "liczba": 4248
+    "liczba": 5362
    },
    {
     "teryt": "10",
-    "liczba": 17936
+    "liczba": 19502
    },
    {
     "teryt": "12",
-    "liczba": 22282
+    "liczba": 24497
    },
    {
     "teryt": "14",
-    "liczba": 43061
+    "liczba": 49517
    },
    {
     "teryt": "16",
-    "liczba": 6932
+    "liczba": 7736
    },
    {
     "teryt": "18",
-    "liczba": 10220
+    "liczba": 11125
    },
    {
     "teryt": "20",
-    "liczba": 6057
+    "liczba": 6515
    },
    {
     "teryt": "22",
-    "liczba": 13831
+    "liczba": 16166
    },
    {
     "teryt": "24",
-    "liczba": 27472
+    "liczba": 31434
    },
    {
     "teryt": "26",
-    "liczba": 5372
+    "liczba": 5880
    },
    {
     "teryt": "28",
-    "liczba": 6555
+    "liczba": 7397
    },
    {
     "teryt": "30",
-    "liczba": 23550
+    "liczba": 26663
    },
    {
     "teryt": "32",
-    "liczba": 7418
+    "liczba": 8665
    }
   ],
   "bezWojewodztwa": 667,
   "roczniki": [
    {
     "rok": 2000,
-    "liczba": 8193
+    "liczba": 8253
    },
    {
     "rok": 2001,
-    "liczba": 16923
+    "liczba": 17089
    },
    {
     "rok": 2002,
-    "liczba": 17125
+    "liczba": 17308
    },
    {
     "rok": 2003,
-    "liczba": 20437
+    "liczba": 20754
    },
    {
     "rok": 2004,
-    "liczba": 16606
+    "liczba": 17025
    },
    {
     "rok": 2005,
-    "liczba": 11243
+    "liczba": 11723
    },
    {
     "rok": 2006,
-    "liczba": 12360
+    "liczba": 13019
    },
    {
     "rok": 2007,
-    "liczba": 14157
+    "liczba": 15138
    },
    {
     "rok": 2008,
-    "liczba": 12531
+    "liczba": 13938
    },
    {
     "rok": 2009,
-    "liczba": 9624
+    "liczba": 11869
    },
    {
     "rok": 2010,
-    "liczba": 6534
+    "liczba": 7687
    },
    {
     "rok": 2011,
-    "liczba": 8116
+    "liczba": 9123
    },
    {
     "rok": 2012,
-    "liczba": 7530
+    "liczba": 8339
    },
    {
     "rok": 2013,
-    "liczba": 7935
+    "liczba": 8497
    },
    {
     "rok": 2014,
-    "liczba": 6792
+    "liczba": 7265
    },
    {
     "rok": 2015,
-    "liczba": 8340
+    "liczba": 8879
    },
    {
     "rok": 2016,
-    "liczba": 7888
+    "liczba": 8367
    },
    {
     "rok": 2017,
-    "liczba": 11638
+    "liczba": 12099
    },
    {
     "rok": 2018,
-    "liczba": 10287
+    "liczba": 10702
    },
    {
     "rok": 2019,
-    "liczba": 6743
+    "liczba": 7114
    },
    {
     "rok": 2020,
-    "liczba": 60
+    "liczba": 244
    },
    {
     "rok": 2021,
-    "liczba": 68
+    "liczba": 196
    },
    {
     "rok": 2022,
-    "liczba": 72
+    "liczba": 181
    },
    {
     "rok": 2023,
-    "liczba": 60
+    "liczba": 2860
    },
    {
     "rok": 2024,
-    "liczba": 44
+    "liczba": 7196
    },
    {
     "rok": 2025,
-    "liczba": 568
+    "liczba": 7672
    },
    {
     "rok": 2026,
-    "liczba": 4590
+    "liczba": 4600
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 158287
+    "liczba": 184005
    },
    {
     "nazwa": "Diesel",
-    "liczba": 41935
+    "liczba": 43834
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 32354
+    "liczba": 35411
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 987
+    "liczba": 991
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 91681
+    "liczba": 95401
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 76833
+    "liczba": 83628
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 35078
+    "liczba": 52824
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 17256
+    "liczba": 17673
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 11126
+    "liczba": 12000
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1589
+    "liczba": 2715
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 112477
+    "liczba": 127944
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 80587
+    "liczba": 85311
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 38517
+    "liczba": 48905
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1982
+    "liczba": 2081
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 142240
+    "liczba": 168100
    },
    {
     "nazwa": "Kombi",
-    "liczba": 67002
+    "liczba": 71691
    },
    {
     "nazwa": "Sedan",
-    "liczba": 18905
+    "liczba": 18970
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5416
+    "liczba": 5480
    }
   ],
-  "noweOdPaczki": 8997,
-  "hybrydy": 3,
+  "noweOdPaczki": 39675,
+  "hybrydy": 7,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 3627
+   },
+   {
+    "rok": 2024,
+    "liczba": 13263
+   },
+   {
+    "rok": 2025,
+    "liczba": 13198
+   },
+   {
     "rok": 2026,
-    "liczba": 8997
+    "liczba": 9587
    }
   ],
-  "miejsce": 11,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1007
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 994
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1092
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1165
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1110
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 980
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1072
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1251
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1062
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1179
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1209
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1136
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1013
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 953
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1011
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1103
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1049
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1021
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1171
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1199
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 888
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1123
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1274
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1071
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1335
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 590
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 12,
   "miejsceWMarce": 2,
   "modeliWMarce": 27,
-  "sredniRocznik": 2008.6
+  "sredniRocznik": 2009.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "fabia",
@@ -306,29 +460,29 @@
  ],
  "konkurenci": [
   {
-   "slug": "mazda-2",
-   "nazwa": "Mazda 2",
-   "adres": "/marki/mazda/2/"
-  },
-  {
    "slug": "toyota-yaris",
    "nazwa": "Toyota Yaris",
    "adres": "/marki/toyota/yaris/"
   },
   {
-   "slug": "citroen-c3",
-   "nazwa": "Citroen C3",
-   "adres": "/marki/citroen/c3/"
+   "slug": "mazda-2",
+   "nazwa": "Mazda 2",
+   "adres": "/marki/mazda/2/"
+  },
+  {
+   "slug": "lancia-ypsilon",
+   "nazwa": "Lancia Ypsilon",
+   "adres": "/marki/lancia/ypsilon/"
+  },
+  {
+   "slug": "suzuki-swift",
+   "nazwa": "Suzuki Swift",
+   "adres": "/marki/suzuki/swift/"
   },
   {
    "slug": "chevrolet-aveo",
    "nazwa": "Chevrolet Aveo",
    "adres": "/marki/chevrolet/aveo/"
-  },
-  {
-   "slug": "honda-jazz",
-   "nazwa": "Honda Jazz",
-   "adres": "/marki/honda/jazz/"
   }
  ]
 }

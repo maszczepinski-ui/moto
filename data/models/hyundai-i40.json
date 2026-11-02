@@ -12,126 +12,126 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai i40 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 031 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I40, I40 1.7 CRDI, I40 2.0 GDI).",
-  "liczbaWPolsce": 9377,
-  "aktywne": 7252,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai i40 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 925 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I40, I40 1.7 CRDI, I40 2.0 GDI, I40 1.6).",
+  "liczbaWPolsce": 16271,
+  "aktywne": 14146,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 663
+    "liczba": 1289
    },
    {
     "teryt": "04",
-    "liczba": 447
+    "liczba": 737
    },
    {
     "teryt": "06",
-    "liczba": 468
+    "liczba": 922
    },
    {
     "teryt": "08",
-    "liczba": 219
+    "liczba": 427
    },
    {
     "teryt": "10",
-    "liczba": 706
+    "liczba": 1280
    },
    {
     "teryt": "12",
-    "liczba": 824
+    "liczba": 1242
    },
    {
     "teryt": "14",
-    "liczba": 1534
+    "liczba": 2546
    },
    {
     "teryt": "16",
-    "liczba": 185
+    "liczba": 319
    },
    {
     "teryt": "18",
-    "liczba": 457
+    "liczba": 869
    },
    {
     "teryt": "20",
-    "liczba": 205
+    "liczba": 431
    },
    {
     "teryt": "22",
-    "liczba": 532
+    "liczba": 892
    },
    {
     "teryt": "24",
-    "liczba": 1049
+    "liczba": 1630
    },
    {
     "teryt": "26",
-    "liczba": 305
+    "liczba": 596
    },
    {
     "teryt": "28",
-    "liczba": 300
+    "liczba": 683
    },
    {
     "teryt": "30",
-    "liczba": 938
+    "liczba": 1501
    },
    {
     "teryt": "32",
-    "liczba": 448
+    "liczba": 810
    }
   ],
   "bezWojewodztwa": 97,
   "roczniki": [
    {
     "rok": 2011,
-    "liczba": 1067
+    "liczba": 1676
    },
    {
     "rok": 2012,
-    "liczba": 2596
+    "liczba": 4289
    },
    {
     "rok": 2013,
-    "liczba": 1524
+    "liczba": 2904
    },
    {
     "rok": 2014,
-    "liczba": 1058
+    "liczba": 2068
    },
    {
     "rok": 2015,
-    "liczba": 1052
+    "liczba": 1942
    },
    {
     "rok": 2016,
-    "liczba": 746
+    "liczba": 1441
    },
    {
     "rok": 2017,
-    "liczba": 592
+    "liczba": 982
    },
    {
     "rok": 2018,
-    "liczba": 297
+    "liczba": 468
    },
    {
     "rok": 2019,
-    "liczba": 87
+    "liczba": 142
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 7022
+    "liczba": 11841
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2218
+    "liczba": 4166
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 114
+    "liczba": 241
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,76 +141,230 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 6870
+    "liczba": 11653
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1430
+    "liczba": 3021
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1040
+    "liczba": 1558
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 39
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5056
+    "liczba": 9627
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 4369
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 2162
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2048
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 111
+    "liczba": 113
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 6921
+    "liczba": 13117
    },
    {
     "nazwa": "Sedan",
-    "liczba": 2169
+    "liczba": 2741
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 142
+    "liczba": 200
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 145
+    "liczba": 213
    }
   ],
-  "noweOdPaczki": 2031,
+  "noweOdPaczki": 8925,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 659
+   },
+   {
+    "rok": 2024,
+    "liczba": 3040
+   },
+   {
+    "rok": 2025,
+    "liczba": 3070
+   },
+   {
     "rok": 2026,
-    "liczba": 2031
+    "liczba": 2156
    }
   ],
-  "miejsce": 247,
-  "miejsceWMarce": 10,
-  "modeliWMarce": 31,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 164
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 196
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 275
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 255
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 294
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 226
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 231
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 302
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 251
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 249
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 311
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 235
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 215
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 234
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 255
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 279
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 275
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 243
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 264
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 269
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 246
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 269
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 285
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 235
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 216
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 209,
+  "miejsceWMarce": 8,
+  "modeliWMarce": 34,
   "sredniRocznik": 2013.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "i40",
@@ -222,9 +376,14 @@
    "adres": "/marki/ford/grand-c-max/"
   },
   {
-   "slug": "peugeot-508",
-   "nazwa": "Peugeot 508",
-   "adres": "/marki/peugeot/508/"
+   "slug": "skoda-octavia",
+   "nazwa": "Skoda Octavia",
+   "adres": "/marki/skoda/octavia/"
+  },
+  {
+   "slug": "volkswagen-caddy",
+   "nazwa": "Volkswagen Caddy",
+   "adres": "/marki/volkswagen/caddy/"
   },
   {
    "slug": "opel-insignia",
@@ -232,14 +391,9 @@
    "adres": "/marki/opel/insignia/"
   },
   {
-   "slug": "volkswagen-tiguan",
-   "nazwa": "Volkswagen Tiguan",
-   "adres": "/marki/volkswagen/tiguan/"
-  },
-  {
-   "slug": "skoda-yeti",
-   "nazwa": "Skoda Yeti",
-   "adres": "/marki/skoda/yeti/"
+   "slug": "peugeot-508",
+   "nazwa": "Peugeot 508",
+   "adres": "/marki/peugeot/508/"
   }
  ]
 }

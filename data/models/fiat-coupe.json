@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Coupe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUPE, COUPE 2.0 KAT, COUPE 16V, COUPE 2.0 16V, COUPE 2.0).",
-  "liczbaWPolsce": 1071,
-  "aktywne": 132,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Coupe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 37 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUPE, COUPE 2.0 KAT, COUPE 16V, COUPE 2.0 16V, COUPE 2.0).",
+  "liczbaWPolsce": 1093,
+  "aktywne": 154,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,31 +27,31 @@
    },
    {
     "teryt": "06",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "teryt": "08",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "10",
-    "liczba": 65
+    "liczba": 66
    },
    {
     "teryt": "12",
-    "liczba": 90
+    "liczba": 92
    },
    {
     "teryt": "14",
-    "liczba": 148
+    "liczba": 150
    },
    {
     "teryt": "16",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "18",
-    "liczba": 83
+    "liczba": 85
    },
    {
     "teryt": "20",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 47
+    "liczba": 50
    },
    {
     "teryt": "24",
-    "liczba": 176
+    "liczba": 179
    },
    {
     "teryt": "26",
@@ -75,48 +75,48 @@
    },
    {
     "teryt": "30",
-    "liczba": 84
+    "liczba": 86
    },
    {
     "teryt": "32",
-    "liczba": 34
+    "liczba": 37
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 1994,
-    "liczba": 206
+    "liczba": 208
    },
    {
     "rok": 1995,
-    "liczba": 305
+    "liczba": 307
    },
    {
     "rok": 1996,
-    "liczba": 161
+    "liczba": 162
    },
    {
     "rok": 1997,
-    "liczba": 132
+    "liczba": 135
    },
    {
     "rok": 1998,
-    "liczba": 106
+    "liczba": 111
    },
    {
     "rok": 1999,
-    "liczba": 89
+    "liczba": 95
    },
    {
     "rok": 2000,
-    "liczba": 53
+    "liczba": 55
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 747
+    "liczba": 769
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -130,25 +130,25 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 830
+    "liczba": 844
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 232
+    "liczba": 239
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 723
+    "liczba": 727
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 330
+    "liczba": 348
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -162,7 +162,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 917
+    "liczba": 939
    },
    {
     "nazwa": "Sedan",
@@ -177,16 +177,170 @@
     "liczba": 69
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 37,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 9
+   },
+   {
+    "rok": 2025,
+    "liczba": 12
+   },
    {
     "rok": 2026,
     "liczba": 15
    }
   ],
-  "miejsce": 659,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 730,
   "miejsceWMarce": 39,
   "modeliWMarce": 58,
   "sredniRocznik": 1996.1
@@ -195,7 +349,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "coupe",
@@ -217,14 +371,14 @@
    "adres": "/marki/opel/calibra/"
   },
   {
+   "slug": "volkswagen-scirocco",
+   "nazwa": "Volkswagen Scirocco",
+   "adres": "/marki/volkswagen/scirocco/"
+  },
+  {
    "slug": "mazda-mx-3",
    "nazwa": "Mazda MX-3",
    "adres": "/marki/mazda/mx-3/"
-  },
-  {
-   "slug": "volkswagen-corrado",
-   "nazwa": "Volkswagen Corrado",
-   "adres": "/marki/volkswagen/corrado/"
   }
  ]
 }

@@ -13,112 +13,112 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Stelvio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 939 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STELVIO, STELVIO QUADRIFOGLIO, STELVIO TI, STELVIO SPORT).",
-  "liczbaWPolsce": 1746,
-  "aktywne": 1740,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Stelvio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 921 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STELVIO, STELVIO QUADRIFOGLIO, STELVIO SPORT, STELVIO TI, STELVIO 2.0 Q4).",
+  "liczbaWPolsce": 4728,
+  "aktywne": 4722,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 97
+    "liczba": 299
    },
    {
     "teryt": "04",
-    "liczba": 31
+    "liczba": 89
    },
    {
     "teryt": "06",
-    "liczba": 74
+    "liczba": 220
    },
    {
     "teryt": "08",
-    "liczba": 34
+    "liczba": 81
    },
    {
     "teryt": "10",
-    "liczba": 97
+    "liczba": 251
    },
    {
     "teryt": "12",
-    "liczba": 188
+    "liczba": 607
    },
    {
     "teryt": "14",
-    "liczba": 525
+    "liczba": 1208
    },
    {
     "teryt": "16",
-    "liczba": 19
+    "liczba": 67
    },
    {
     "teryt": "18",
-    "liczba": 93
+    "liczba": 265
    },
    {
     "teryt": "20",
-    "liczba": 28
+    "liczba": 105
    },
    {
     "teryt": "22",
-    "liczba": 99
+    "liczba": 289
    },
    {
     "teryt": "24",
-    "liczba": 175
+    "liczba": 501
    },
    {
     "teryt": "26",
-    "liczba": 34
+    "liczba": 94
    },
    {
     "teryt": "28",
-    "liczba": 20
+    "liczba": 85
    },
    {
     "teryt": "30",
-    "liczba": 170
+    "liczba": 404
    },
    {
     "teryt": "32",
-    "liczba": 59
+    "liczba": 160
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 302
+    "liczba": 584
    },
    {
     "rok": 2018,
-    "liczba": 538
+    "liczba": 971
    },
    {
     "rok": 2019,
-    "liczba": 298
+    "liczba": 583
    },
    {
     "rok": 2020,
-    "liczba": 82
+    "liczba": 276
    },
    {
     "rok": 2021,
-    "liczba": 86
+    "liczba": 269
    },
    {
     "rok": 2022,
-    "liczba": 65
+    "liczba": 231
    },
    {
     "rok": 2023,
-    "liczba": 34
+    "liczba": 336
    },
    {
     "rok": 2024,
-    "liczba": 24
+    "liczba": 588
    },
    {
     "rok": 2025,
-    "liczba": 233
+    "liczba": 806
    },
    {
     "rok": 2026,
@@ -128,104 +128,279 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1603
+    "liczba": 4311
    },
    {
     "nazwa": "Diesel",
-    "liczba": 134
+    "liczba": 344
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 69
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 4
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1547
+    "liczba": 4175
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 133
+    "liczba": 342
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 55
+    "liczba": 197
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 14
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 997
+    "liczba": 2039
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 654
+    "liczba": 1773
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 85
+    "liczba": 868
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 43
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 5
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1358
+    "liczba": 3413
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 245
+    "liczba": 790
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 74
+    "liczba": 330
+   },
+   {
+    "nazwa": "Terenowy",
+    "liczba": 48
+   },
+   {
+    "nazwa": "Van",
+    "liczba": 48
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 69
+    "liczba": 99
    }
   ],
-  "noweOdPaczki": 939,
-  "hybrydy": 0,
+  "noweOdPaczki": 3921,
+  "hybrydy": 3,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 221
+   },
+   {
+    "rok": 2024,
+    "liczba": 1152
+   },
+   {
+    "rok": 2025,
+    "liczba": 1560
+   },
+   {
     "rok": 2026,
-    "liczba": 939
+    "liczba": 988
    }
   ],
-  "miejsce": 534,
-  "miejsceWMarce": 9,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 111
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 77
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 97
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 127
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 139
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 117
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 209
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 418,
+  "miejsceWMarce": 6,
   "modeliWMarce": 20,
-  "sredniRocznik": 2019.6
+  "sredniRocznik": 2020.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "stelvio",
  "adres": "/marki/alfa-romeo/stelvio/",
  "konkurenci": [
   {
-   "slug": "mazda-cx-3",
-   "nazwa": "Mazda CX-3",
-   "adres": "/marki/mazda/cx-3/"
+   "slug": "volvo-xc40",
+   "nazwa": "Volvo XC40",
+   "adres": "/marki/volvo/xc40/"
   },
   {
-   "slug": "mazda-cx-5",
-   "nazwa": "Mazda CX-5",
-   "adres": "/marki/mazda/cx-5/"
+   "slug": "mazda-cx-30",
+   "nazwa": "Mazda CX-30",
+   "adres": "/marki/mazda/cx-30/"
+  },
+  {
+   "slug": "porsche-macan",
+   "nazwa": "Porsche Macan",
+   "adres": "/marki/porsche/macan/"
   },
   {
    "slug": "mercedes-benz-klasa-gla",
@@ -233,14 +408,9 @@
    "adres": "/marki/mercedes-benz/klasa-gla/"
   },
   {
-   "slug": "mercedes-benz-klasa-glc",
-   "nazwa": "Mercedes-Benz Klasa GLC",
-   "adres": "/marki/mercedes-benz/klasa-glc/"
-  },
-  {
-   "slug": "volvo-xc40",
-   "nazwa": "Volvo XC40",
-   "adres": "/marki/volvo/xc40/"
+   "slug": "volvo-xc60",
+   "nazwa": "Volvo XC60",
+   "adres": "/marki/volvo/xc60/"
   }
  ]
 }

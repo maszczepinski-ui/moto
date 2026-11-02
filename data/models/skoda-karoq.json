@@ -11,201 +11,355 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Karoq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 104 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KAROQ).",
-  "liczbaWPolsce": 10448,
-  "aktywne": 10447,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Karoq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 065 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KAROQ).",
+  "liczbaWPolsce": 25409,
+  "aktywne": 25408,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 857
+    "liczba": 2076
    },
    {
     "teryt": "04",
-    "liczba": 387
+    "liczba": 1097
    },
    {
     "teryt": "06",
-    "liczba": 251
+    "liczba": 641
    },
    {
     "teryt": "08",
-    "liczba": 279
+    "liczba": 741
    },
    {
     "teryt": "10",
-    "liczba": 749
+    "liczba": 1524
    },
    {
     "teryt": "12",
-    "liczba": 963
+    "liczba": 2128
    },
    {
     "teryt": "14",
-    "liczba": 2282
+    "liczba": 5356
    },
    {
     "teryt": "16",
-    "liczba": 237
+    "liczba": 611
    },
    {
     "teryt": "18",
-    "liczba": 343
+    "liczba": 865
    },
    {
     "teryt": "20",
-    "liczba": 90
+    "liczba": 247
    },
    {
     "teryt": "22",
-    "liczba": 892
+    "liczba": 2297
    },
    {
     "teryt": "24",
-    "liczba": 1098
+    "liczba": 2978
    },
    {
     "teryt": "26",
-    "liczba": 192
+    "liczba": 392
    },
    {
     "teryt": "28",
-    "liczba": 292
+    "liczba": 718
    },
    {
     "teryt": "30",
-    "liczba": 1211
+    "liczba": 2876
    },
    {
     "teryt": "32",
-    "liczba": 324
+    "liczba": 861
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 300
+    "liczba": 354
    },
    {
     "rok": 2018,
-    "liczba": 2617
+    "liczba": 2926
    },
    {
     "rok": 2019,
-    "liczba": 2272
+    "liczba": 2695
    },
    {
     "rok": 2020,
-    "liczba": 88
+    "liczba": 462
    },
    {
     "rok": 2021,
-    "liczba": 106
+    "liczba": 362
    },
    {
     "rok": 2022,
-    "liczba": 94
+    "liczba": 275
    },
    {
     "rok": 2023,
-    "liczba": 79
+    "liczba": 2115
    },
    {
     "rok": 2024,
-    "liczba": 30
+    "liczba": 5671
    },
    {
     "rok": 2025,
-    "liczba": 436
+    "liczba": 6110
    },
    {
     "rok": 2026,
-    "liczba": 4008
+    "liczba": 4018
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 7848
+    "liczba": 20709
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2596
+    "liczba": 4678
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 22
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 6839
+    "liczba": 18254
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 2062
+    "liczba": 5149
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1049
+    "liczba": 1378
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 497
+    "liczba": 621
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 7
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 9626
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 612
+    "liczba": 21278
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 171
+    "liczba": 2177
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1857
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 97
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 10389
+    "liczba": 25156
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 59
+    "liczba": 253
    }
   ],
-  "noweOdPaczki": 5104,
-  "hybrydy": 3,
+  "noweOdPaczki": 20065,
+  "hybrydy": 5,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1563
+   },
+   {
+    "rok": 2024,
+    "liczba": 6372
+   },
+   {
+    "rok": 2025,
+    "liczba": 6777
+   },
+   {
     "rok": 2026,
-    "liczba": 5104
+    "liczba": 5353
    }
   ],
-  "miejsce": 237,
-  "miejsceWMarce": 13,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 485
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 432
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 604
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 615
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 515
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 435
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 357
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 423
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 405
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 531
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 547
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 607
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 901
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 399
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 382
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 506
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 511
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 529
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1008
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 453
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 407
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 560
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 666
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 645
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 711
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 249
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 156,
+  "miejsceWMarce": 10,
   "modeliWMarce": 27,
-  "sredniRocznik": 2021.8
+  "sredniRocznik": 2023.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "karoq",
@@ -222,19 +376,19 @@
    "adres": "/marki/seat/ateca/"
   },
   {
-   "slug": "kia-niro",
-   "nazwa": "Kia Niro",
-   "adres": "/marki/kia/niro/"
+   "slug": "cupra-formentor",
+   "nazwa": "Cupra Formentor",
+   "adres": "/marki/cupra/formentor/"
   },
   {
-   "slug": "mini-countryman",
-   "nazwa": "Mini Countryman",
-   "adres": "/marki/mini/countryman/"
+   "slug": "cupra-ateca",
+   "nazwa": "Cupra Ateca",
+   "adres": "/marki/cupra/ateca/"
   },
   {
-   "slug": "dacia-duster",
-   "nazwa": "Dacia Duster",
-   "adres": "/marki/dacia/duster/"
+   "slug": "cupra-leon",
+   "nazwa": "Cupra Leon",
+   "adres": "/marki/cupra/leon/"
   }
  ]
 }

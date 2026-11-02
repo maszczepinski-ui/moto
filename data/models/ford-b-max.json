@@ -6,142 +6,147 @@
  "lataProdukcji": "2012–2017",
  "nadwozia": [
   "van",
-  "hatchback"
+  "hatchback",
+  "kombi"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford B-Max – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 734 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B-MAX).",
-  "liczbaWPolsce": 4558,
-  "aktywne": 2083,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford B-Max – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 148 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B-MAX).",
+  "liczbaWPolsce": 6972,
+  "aktywne": 4497,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 299
+    "liczba": 510
    },
    {
     "teryt": "04",
-    "liczba": 163
+    "liczba": 286
    },
    {
     "teryt": "06",
-    "liczba": 99
+    "liczba": 223
    },
    {
     "teryt": "08",
-    "liczba": 130
+    "liczba": 218
    },
    {
     "teryt": "10",
-    "liczba": 173
+    "liczba": 322
    },
    {
     "teryt": "12",
-    "liczba": 496
+    "liczba": 669
    },
    {
     "teryt": "14",
-    "liczba": 483
+    "liczba": 702
    },
    {
     "teryt": "16",
-    "liczba": 159
+    "liczba": 225
    },
    {
     "teryt": "18",
-    "liczba": 132
+    "liczba": 273
    },
    {
     "teryt": "20",
-    "liczba": 44
+    "liczba": 126
    },
    {
     "teryt": "22",
-    "liczba": 347
+    "liczba": 558
    },
    {
     "teryt": "24",
-    "liczba": 1119
+    "liczba": 1353
    },
    {
     "teryt": "26",
-    "liczba": 57
+    "liczba": 110
    },
    {
     "teryt": "28",
-    "liczba": 91
+    "liczba": 152
    },
    {
     "teryt": "30",
-    "liczba": 580
+    "liczba": 964
    },
    {
     "teryt": "32",
-    "liczba": 162
+    "liczba": 257
    }
   ],
   "bezWojewodztwa": 24,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 391
+    "liczba": 687
    },
    {
     "rok": 2013,
-    "liczba": 1046
+    "liczba": 1873
    },
    {
     "rok": 2014,
-    "liczba": 795
+    "liczba": 1277
    },
    {
     "rok": 2015,
-    "liczba": 850
+    "liczba": 1174
    },
    {
     "rok": 2016,
-    "liczba": 902
+    "liczba": 1162
    },
    {
     "rok": 2017,
-    "liczba": 495
+    "liczba": 709
+   },
+   {
+    "rok": 2018,
+    "liczba": 15
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3955
+    "liczba": 5769
    },
    {
     "nazwa": "Diesel",
-    "liczba": 534
+    "liczba": 1079
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 66
+    "liczba": 119
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 5
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3311
+    "liczba": 4729
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 564
+    "liczba": 1062
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 469
+    "liczba": 719
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 203
+    "liczba": 451
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,63 +155,217 @@
   ],
   "pochodzenie": [
    {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 3222
+   },
+   {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 2638
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1404
-   },
-   {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 484
+    "liczba": 1079
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 33
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3917
+    "liczba": 5662
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 401
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 128
+    "liczba": 822
    },
    {
     "nazwa": "Kombi",
-    "liczba": 89
+    "liczba": 256
+   },
+   {
+    "nazwa": "Van",
+    "liczba": 198
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 34
    }
   ],
-  "noweOdPaczki": 734,
+  "noweOdPaczki": 3148,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 245
+   },
+   {
+    "rok": 2024,
+    "liczba": 1147
+   },
+   {
+    "rok": 2025,
+    "liczba": 987
+   },
+   {
     "rok": 2026,
-    "liczba": 734
+    "liczba": 769
    }
   ],
-  "miejsce": 348,
-  "miejsceWMarce": 19,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2014.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 112
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 117
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 77
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 64
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 346,
+  "miejsceWMarce": 23,
+  "modeliWMarce": 45,
+  "sredniRocznik": 2014.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "b-max",
@@ -218,24 +377,24 @@
    "adres": "/marki/nissan/pulsar/"
   },
   {
+   "slug": "kia-picanto",
+   "nazwa": "Kia Picanto",
+   "adres": "/marki/kia/picanto/"
+  },
+  {
    "slug": "fiat-500l",
    "nazwa": "Fiat 500L",
    "adres": "/marki/fiat/500l/"
   },
   {
-   "slug": "hyundai-i20",
-   "nazwa": "Hyundai i20",
-   "adres": "/marki/hyundai/i20/"
+   "slug": "fiat-qubo",
+   "nazwa": "Fiat Qubo",
+   "adres": "/marki/fiat/qubo/"
   },
   {
    "slug": "nissan-juke",
    "nazwa": "Nissan Juke",
    "adres": "/marki/nissan/juke/"
-  },
-  {
-   "slug": "dacia-sandero",
-   "nazwa": "Dacia Sandero",
-   "adres": "/marki/dacia/sandero/"
   }
  ]
 }

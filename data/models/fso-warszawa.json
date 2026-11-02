@@ -11,17 +11,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Warszawa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WARSZAWA 223, 223, WARSZAWA 224, WARSZAWA M20, WARSZAWA 204).",
-  "liczbaWPolsce": 32458,
-  "aktywne": 148,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Warszawa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WARSZAWA 223, 223, WARSZAWA 224, WARSZAWA M20, WARSZAWA 204).",
+  "liczbaWPolsce": 32474,
+  "aktywne": 164,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2023
+    "liczba": 2024
    },
    {
     "teryt": "04",
-    "liczba": 1724
+    "liczba": 1726
    },
    {
     "teryt": "06",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 2733
+    "liczba": 2737
    },
    {
     "teryt": "14",
-    "liczba": 5145
+    "liczba": 5147
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 1643
+    "liczba": 1644
    },
    {
     "teryt": "24",
@@ -69,15 +69,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 1011
+    "liczba": 1013
    },
    {
     "teryt": "30",
-    "liczba": 3959
+    "liczba": 3962
    },
    {
     "teryt": "32",
-    "liczba": 1664
+    "liczba": 1665
    }
   ],
   "bezWojewodztwa": 455,
@@ -96,7 +96,7 @@
    },
    {
     "rok": 1958,
-    "liczba": 877
+    "liczba": 878
    },
    {
     "rok": 1959,
@@ -104,11 +104,11 @@
    },
    {
     "rok": 1960,
-    "liczba": 768
+    "liczba": 769
    },
    {
     "rok": 1961,
-    "liczba": 766
+    "liczba": 767
    },
    {
     "rok": 1962,
@@ -116,11 +116,11 @@
    },
    {
     "rok": 1963,
-    "liczba": 711
+    "liczba": 712
    },
    {
     "rok": 1964,
-    "liczba": 1084
+    "liczba": 1086
    },
    {
     "rok": 1965,
@@ -136,7 +136,7 @@
    },
    {
     "rok": 1968,
-    "liczba": 2695
+    "liczba": 2698
    },
    {
     "rok": 1969,
@@ -144,7 +144,7 @@
    },
    {
     "rok": 1970,
-    "liczba": 3302
+    "liczba": 3303
    },
    {
     "rok": 1971,
@@ -152,11 +152,11 @@
    },
    {
     "rok": 1972,
-    "liczba": 3975
+    "liczba": 3978
    },
    {
     "rok": 1973,
-    "liczba": 1311
+    "liczba": 1312
    },
    {
     "rok": 1974,
@@ -188,7 +188,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 69
+    "liczba": 70
    },
    {
     "rok": 1982,
@@ -202,7 +202,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3466
+    "liczba": 3482
    },
    {
     "nazwa": "?+LPG",
@@ -216,17 +216,17 @@
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 30464
+    "liczba": 30478
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1994
+    "liczba": 1996
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 18328
+    "liczba": 18329
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -234,33 +234,187 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1191
+    "liczba": 1198
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2006
+    "liczba": 2014
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2960
+    "liczba": 2969
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29498
+    "liczba": 29505
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 23,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 7
+   },
+   {
+    "rok": 2025,
+    "liczba": 7
+   },
    {
     "rok": 2026,
     "liczba": 7
    }
   ],
-  "miejsce": 104,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 121,
   "miejsceWMarce": 3,
   "modeliWMarce": 13,
   "sredniRocznik": 1967.8
@@ -269,7 +423,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fso",
  "modelSlug": "warszawa",

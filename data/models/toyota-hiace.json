@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Hiace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: HIACE, HIACE 2.4D, HIACE 2.4 D, HIACE 2.4D KOMBI).",
-  "liczbaWPolsce": 674,
-  "aktywne": 37,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Hiace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: HIACE, HIACE 2.4D, HIACE 2.4 D, HIACE 2.4D KOMBI).",
+  "liczbaWPolsce": 686,
+  "aktywne": 49,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -40,11 +40,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 52
+    "liczba": 54
    },
    {
     "teryt": "14",
-    "liczba": 150
+    "liczba": 152
    },
    {
     "teryt": "16",
@@ -60,15 +60,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "24",
-    "liczba": 39
+    "liczba": 41
    },
    {
     "teryt": "26",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "28",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 88
+    "liczba": 90
    },
    {
     "teryt": "32",
-    "liczba": 50
+    "liczba": 51
    }
   ],
   "bezWojewodztwa": 1,
@@ -147,7 +147,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 34
+    "liczba": 35
    },
    {
     "rok": 1995,
@@ -159,7 +159,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 72
+    "liczba": 73
    },
    {
     "rok": 1998,
@@ -179,11 +179,11 @@
    },
    {
     "rok": 2002,
-    "liczba": 24
+    "liczba": 25
    },
    {
     "rok": 2003,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2004,
@@ -191,7 +191,7 @@
    },
    {
     "rok": 2005,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2006,
@@ -203,29 +203,29 @@
    },
    {
     "rok": 2008,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2009,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2010,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2011,
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 483
+    "liczba": 494
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -243,11 +243,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 465
+    "liczba": 466
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 116
+    "liczba": 125
    },
    {
     "nazwa": "2,0 l",
@@ -263,17 +263,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 30
+    "liczba": 32
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 433
+    "liczba": 435
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 150
+    "liczba": 160
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -291,7 +291,7 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 212
+    "liczba": 216
    },
    {
     "nazwa": "Kombi",
@@ -299,7 +299,7 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 57
+    "liczba": 64
    },
    {
     "nazwa": "Sedan",
@@ -315,42 +315,192 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 244
+    "liczba": 245
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 7
+   },
+   {
+    "rok": 2025,
+    "liczba": 5
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 758,
-  "miejsceWMarce": 25,
-  "modeliWMarce": 36,
-  "sredniRocznik": 1995.9
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 838,
+  "miejsceWMarce": 29,
+  "modeliWMarce": 39,
+  "sredniRocznik": 1996.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "hiace",
  "adres": "/marki/toyota/hiace/",
  "konkurenci": [
   {
-   "slug": "volkswagen-transporter",
-   "nazwa": "Volkswagen Transporter",
-   "adres": "/marki/volkswagen/transporter/"
-  },
-  {
    "slug": "mitsubishi-l",
    "nazwa": "Mitsubishi L",
    "adres": "/marki/mitsubishi/l/"
+  },
+  {
+   "slug": "volkswagen-transporter",
+   "nazwa": "Volkswagen Transporter",
+   "adres": "/marki/volkswagen/transporter/"
   },
   {
    "slug": "opel-sintra",

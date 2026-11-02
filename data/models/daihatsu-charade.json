@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Charade – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CHARADE, CHARADE 1.0, CHARADE 1.0D, CHARADE 1.0 KAT, CHARADE 1.0 D).",
-  "liczbaWPolsce": 6718,
-  "aktywne": 58,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Charade – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CHARADE, CHARADE 1.0, CHARADE 1.0D, CHARADE 1.0 KAT, CHARADE 1.0 D).",
+  "liczbaWPolsce": 6733,
+  "aktywne": 73,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 467
+    "liczba": 470
    },
    {
     "teryt": "04",
@@ -42,15 +42,15 @@
    },
    {
     "teryt": "14",
-    "liczba": 1273
+    "liczba": 1275
    },
    {
     "teryt": "16",
-    "liczba": 182
+    "liczba": 183
    },
    {
     "teryt": "18",
-    "liczba": 139
+    "liczba": 140
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 600
+    "liczba": 601
    },
    {
     "teryt": "24",
-    "liczba": 583
+    "liczba": 586
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 578
+    "liczba": 581
    },
    {
     "teryt": "32",
-    "liczba": 365
+    "liczba": 366
    }
   ],
   "bezWojewodztwa": 16,
@@ -121,7 +121,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 337
+    "liczba": 338
    },
    {
     "rok": 1990,
@@ -133,15 +133,15 @@
    },
    {
     "rok": 1992,
-    "liczba": 682
+    "liczba": 683
    },
    {
     "rok": 1993,
-    "liczba": 354
+    "liczba": 355
    },
    {
     "rok": 1994,
-    "liczba": 162
+    "liczba": 163
    },
    {
     "rok": 1995,
@@ -157,17 +157,17 @@
    },
    {
     "rok": 1998,
-    "liczba": 24
+    "liczba": 25
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2109
+    "liczba": 2123
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1944
+    "liczba": 1945
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -185,21 +185,21 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 5835
+    "liczba": 5838
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 590
+    "liczba": 601
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 293
+    "liczba": 294
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5078
+    "liczba": 5079
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -207,7 +207,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 585
+    "liczba": 599
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -221,7 +221,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2143
+    "liczba": 2152
    },
    {
     "nazwa": "Sedan",
@@ -229,38 +229,187 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3813
+    "liczba": 3819
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 17,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 9
+   },
+   {
+    "rok": 2025,
+    "liczba": 5
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 293,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 349,
   "miejsceWMarce": 1,
-  "modeliWMarce": 9,
+  "modeliWMarce": 10,
   "sredniRocznik": 1987.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "daihatsu",
  "modelSlug": "charade",
  "adres": "/marki/daihatsu/charade/",
  "konkurenci": [
-  {
-   "slug": "renault-5",
-   "nazwa": "Renault 5",
-   "adres": "/marki/renault/5/"
-  },
   {
    "slug": "citroen-visa",
    "nazwa": "Citroen Visa",
@@ -280,6 +429,11 @@
    "slug": "citroen-ax",
    "nazwa": "Citroen AX",
    "adres": "/marki/citroen/ax/"
+  },
+  {
+   "slug": "renault-5",
+   "nazwa": "Renault 5",
+   "adres": "/marki/renault/5/"
   }
  ]
 }

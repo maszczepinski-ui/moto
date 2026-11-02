@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Felicia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FELICIA, FELICIA 1.3 KAT, FELICIA 1.3KAT, FELICIA LXI, FELICIA 1.3).",
-  "liczbaWPolsce": 46308,
-  "aktywne": 4038,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Felicia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 24 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FELICIA, FELICIA 1.3 KAT, FELICIA 1.3KAT, FELICIA LXI, FELICIA 1.3).",
+  "liczbaWPolsce": 46323,
+  "aktywne": 4053,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 3676
+    "liczba": 3677
    },
    {
     "teryt": "04",
@@ -27,23 +27,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 2912
+    "liczba": 2914
    },
    {
     "teryt": "08",
-    "liczba": 860
+    "liczba": 861
    },
    {
     "teryt": "10",
-    "liczba": 3860
+    "liczba": 3861
    },
    {
     "teryt": "12",
-    "liczba": 4047
+    "liczba": 4048
    },
    {
     "teryt": "14",
-    "liczba": 7488
+    "liczba": 7490
    },
    {
     "teryt": "16",
@@ -59,15 +59,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 2593
+    "liczba": 2594
    },
    {
     "teryt": "24",
-    "liczba": 4820
+    "liczba": 4824
    },
    {
     "teryt": "26",
-    "liczba": 1296
+    "liczba": 1297
    },
    {
     "teryt": "28",
@@ -79,14 +79,14 @@
    },
    {
     "teryt": "32",
-    "liczba": 1960
+    "liczba": 1961
    }
   ],
   "bezWojewodztwa": 42,
   "roczniki": [
    {
     "rok": 1995,
-    "liczba": 2746
+    "liczba": 2749
    },
    {
     "rok": 1996,
@@ -94,19 +94,19 @@
    },
    {
     "rok": 1997,
-    "liczba": 8655
+    "liczba": 8656
    },
    {
     "rok": 1998,
-    "liczba": 10146
+    "liczba": 10147
    },
    {
     "rok": 1999,
-    "liczba": 11314
+    "liczba": 11322
    },
    {
     "rok": 2000,
-    "liczba": 6755
+    "liczba": 6756
    },
    {
     "rok": 2001,
@@ -116,15 +116,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 30463
+    "liczba": 30476
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 11781
+    "liczba": 11782
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2297
+    "liczba": 2298
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,19 +134,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 37013
+    "liczba": 37020
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 6729
+    "liczba": 6735
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 2385
+    "liczba": 2386
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 181
+    "liczba": 182
    }
   ],
   "pochodzenie": [
@@ -160,7 +160,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1368
+    "liczba": 1382
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -168,37 +168,187 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 116
+    "liczba": 117
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 31470
+    "liczba": 31482
    },
    {
     "nazwa": "Kombi",
-    "liczba": 5323
+    "liczba": 5324
    },
    {
     "nazwa": "Sedan",
-    "liczba": 2835
+    "liczba": 2836
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6680
+    "liczba": 6681
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 24,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 5
+   },
+   {
+    "rok": 2025,
+    "liczba": 10
+   },
    {
     "rok": 2026,
     "liczba": 9
    }
   ],
-  "miejsce": 76,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 92,
   "miejsceWMarce": 5,
   "modeliWMarce": 27,
   "sredniRocznik": 1998.0
@@ -207,7 +357,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "felicia",

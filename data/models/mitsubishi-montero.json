@@ -6,8 +6,8 @@
  "lataProdukcji": "1986–2016",
  "nadwozia": [
   "kombi",
-  "van",
   "suv",
+  "van",
   "hatchback",
   "sedan"
  ],
@@ -15,13 +15,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Montero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MONTERO).",
-  "liczbaWPolsce": 251,
-  "aktywne": 67,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Montero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MONTERO).",
+  "liczbaWPolsce": 259,
+  "aktywne": 75,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "04",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "14",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "16",
@@ -53,7 +53,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "20",
@@ -69,7 +69,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "28",
@@ -116,7 +116,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1993,
@@ -128,11 +128,11 @@
    },
    {
     "rok": 1995,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1996,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1997,
@@ -140,7 +140,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1999,
@@ -152,11 +152,11 @@
    },
    {
     "rok": 2001,
-    "liczba": 37
+    "liczba": 38
    },
    {
     "rok": 2002,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 2003,
@@ -164,7 +164,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2005,
@@ -172,7 +172,7 @@
    },
    {
     "rok": 2006,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2007,
@@ -246,15 +246,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 130
-   },
-   {
-    "nazwa": "Benzyna",
-    "liczba": 55
+    "liczba": 132
    },
    {
     "nazwa": "Diesel",
-    "liczba": 53
+    "liczba": 57
+   },
+   {
+    "nazwa": "Benzyna",
+    "liczba": 57
    },
    {
     "nazwa": "Inne / brak danych",
@@ -264,27 +264,27 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 62
-   },
-   {
-    "nazwa": "3,2 l",
-    "liczba": 27
+    "liczba": 63
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 27
+    "liczba": 29
+   },
+   {
+    "nazwa": "3,2 l",
+    "liczba": 28
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "nazwa": "2,6 l",
@@ -302,11 +302,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 162
+    "liczba": 163
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 74
+    "liczba": 81
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -320,19 +320,19 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 99
+    "liczba": 102
+   },
+   {
+    "nazwa": "Terenowy",
+    "liczba": 30
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "nazwa": "Van",
     "liczba": 28
-   },
-   {
-    "nazwa": "Terenowy",
-    "liczba": 26
    },
    {
     "nazwa": "Hatchback",
@@ -347,25 +347,179 @@
     "liczba": 42
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 6
    }
   ],
-  "miejsce": 1043,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1136,
   "miejsceWMarce": 17,
-  "modeliWMarce": 18,
+  "modeliWMarce": 19,
   "sredniRocznik": 1999.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "montero",

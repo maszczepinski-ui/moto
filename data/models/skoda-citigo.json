@@ -11,173 +11,331 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Citigo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 357 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITIGO).",
-  "liczbaWPolsce": 15732,
-  "aktywne": 9003,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Citigo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 445 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITIGO).",
+  "liczbaWPolsce": 16820,
+  "aktywne": 10091,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1194
+    "liczba": 1279
    },
    {
     "teryt": "04",
-    "liczba": 594
+    "liczba": 647
    },
    {
     "teryt": "06",
-    "liczba": 378
+    "liczba": 403
    },
    {
     "teryt": "08",
-    "liczba": 241
+    "liczba": 281
    },
    {
     "teryt": "10",
-    "liczba": 879
+    "liczba": 937
    },
    {
     "teryt": "12",
-    "liczba": 1367
+    "liczba": 1460
    },
    {
     "teryt": "14",
-    "liczba": 2854
+    "liczba": 2943
    },
    {
     "teryt": "16",
-    "liczba": 526
+    "liczba": 584
    },
    {
     "teryt": "18",
-    "liczba": 416
+    "liczba": 445
    },
    {
     "teryt": "20",
-    "liczba": 245
+    "liczba": 261
    },
    {
     "teryt": "22",
-    "liczba": 1035
+    "liczba": 1100
    },
    {
     "teryt": "24",
-    "liczba": 2962
+    "liczba": 3186
    },
    {
     "teryt": "26",
-    "liczba": 201
+    "liczba": 226
    },
    {
     "teryt": "28",
-    "liczba": 331
+    "liczba": 356
    },
    {
     "teryt": "30",
-    "liczba": 2023
+    "liczba": 2173
    },
    {
     "teryt": "32",
-    "liczba": 464
+    "liczba": 517
    }
   ],
   "bezWojewodztwa": 22,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 1786
+    "liczba": 1935
    },
    {
     "rok": 2013,
-    "liczba": 2634
+    "liczba": 2814
    },
    {
     "rok": 2014,
-    "liczba": 1684
+    "liczba": 1837
    },
    {
     "rok": 2015,
-    "liczba": 1518
+    "liczba": 1644
    },
    {
     "rok": 2016,
-    "liczba": 1826
+    "liczba": 1960
    },
    {
     "rok": 2017,
-    "liczba": 2180
+    "liczba": 2289
    },
    {
     "rok": 2018,
-    "liczba": 2543
+    "liczba": 2649
    },
    {
     "rok": 2019,
-    "liczba": 1187
+    "liczba": 1281
+   },
+   {
+    "rok": 2020,
+    "liczba": 37
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 14060
+    "liczba": 15036
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1652
+    "liczba": 1728
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 56
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 15690
+    "liczba": 16744
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 42
+    "liczba": 76
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 12912
+    "liczba": 12913
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1830
+    "liczba": 2137
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 944
+    "liczba": 1723
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 46
+    "liczba": 47
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 15646
+    "liczba": 16713
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 86
+    "liczba": 107
    }
   ],
-  "noweOdPaczki": 357,
+  "noweOdPaczki": 1445,
   "hybrydy": 0,
-  "elektryczne": 11,
+  "elektryczne": 45,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 98
+   },
+   {
+    "rok": 2024,
+    "liczba": 491
+   },
+   {
+    "rok": 2025,
+    "liczba": 478
+   },
+   {
     "rok": 2026,
-    "liczba": 357
+    "liczba": 378
    }
   ],
-  "miejsce": 180,
-  "miejsceWMarce": 10,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 205,
+  "miejsceWMarce": 14,
   "modeliWMarce": 27,
   "sredniRocznik": 2015.4
  },
@@ -185,7 +343,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "citigo",
@@ -212,9 +370,9 @@
    "adres": "/marki/seat/mii/"
   },
   {
-   "slug": "dacia-sandero",
-   "nazwa": "Dacia Sandero",
-   "adres": "/marki/dacia/sandero/"
+   "slug": "toyota-aygo",
+   "nazwa": "Toyota Aygo",
+   "adres": "/marki/toyota/aygo/"
   }
  ]
 }

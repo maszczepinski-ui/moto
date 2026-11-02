@@ -11,155 +11,348 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 288 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX3 50 XDRIVE, IX3 40, IX3).",
-  "liczbaWPolsce": 288,
-  "aktywne": 288,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 481 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX3 50 XDRIVE, IX3, IX3 40).",
+  "liczbaWPolsce": 481,
+  "aktywne": 481,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 14
-   },
-   {
-    "teryt": "04",
-    "liczba": 15
-   },
-   {
-    "teryt": "06",
-    "liczba": 9
-   },
-   {
-    "teryt": "08",
-    "liczba": 6
-   },
-   {
-    "teryt": "10",
-    "liczba": 14
-   },
-   {
-    "teryt": "12",
-    "liczba": 23
-   },
-   {
-    "teryt": "14",
-    "liczba": 79
-   },
-   {
-    "teryt": "16",
-    "liczba": 4
-   },
-   {
-    "teryt": "18",
-    "liczba": 4
-   },
-   {
-    "teryt": "20",
-    "liczba": 6
-   },
-   {
-    "teryt": "22",
-    "liczba": 22
-   },
-   {
-    "teryt": "24",
-    "liczba": 33
-   },
-   {
-    "teryt": "26",
-    "liczba": 9
-   },
-   {
-    "teryt": "28",
-    "liczba": 6
-   },
-   {
-    "teryt": "30",
     "liczba": 30
    },
    {
-    "teryt": "32",
+    "teryt": "04",
+    "liczba": 21
+   },
+   {
+    "teryt": "06",
     "liczba": 14
+   },
+   {
+    "teryt": "08",
+    "liczba": 10
+   },
+   {
+    "teryt": "10",
+    "liczba": 33
+   },
+   {
+    "teryt": "12",
+    "liczba": 40
+   },
+   {
+    "teryt": "14",
+    "liczba": 144
+   },
+   {
+    "teryt": "16",
+    "liczba": 8
+   },
+   {
+    "teryt": "18",
+    "liczba": 11
+   },
+   {
+    "teryt": "20",
+    "liczba": 11
+   },
+   {
+    "teryt": "22",
+    "liczba": 27
+   },
+   {
+    "teryt": "24",
+    "liczba": 47
+   },
+   {
+    "teryt": "26",
+    "liczba": 12
+   },
+   {
+    "teryt": "28",
+    "liczba": 7
+   },
+   {
+    "teryt": "30",
+    "liczba": 50
+   },
+   {
+    "teryt": "32",
+    "liczba": 16
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 17
    },
    {
     "rok": 2022,
-    "liczba": 1
+    "liczba": 11
    },
    {
     "rok": 2023,
-    "liczba": 7
+    "liczba": 109
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 57
    },
    {
     "rok": 2025,
-    "liczba": 2
+    "liczba": 9
    },
    {
     "rok": 2026,
-    "liczba": 272
+    "liczba": 276
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 288
+    "liczba": 481
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 288
+    "liczba": 481
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 251
+    "liczba": 382
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 23
+    "liczba": 56
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 14
+    "liczba": 43
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 288
+    "liczba": 472
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 7
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
-  "noweOdPaczki": 288,
+  "noweOdPaczki": 481,
   "hybrydy": 0,
-  "elektryczne": 288,
+  "elektryczne": 481,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 41
+   },
+   {
+    "rok": 2024,
+    "liczba": 103
+   },
+   {
+    "rok": 2025,
+    "liczba": 38
+   },
+   {
     "rok": 2026,
-    "liczba": 288
+    "liczba": 299
    }
   ],
-  "miejsce": 1008,
-  "miejsceWMarce": 29,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2025.8
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 941,
+  "miejsceWMarce": 32,
+  "modeliWMarce": 39,
+  "sredniRocznik": 2024.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "ix3",
- "adres": "/marki/bmw/ix3/"
+ "adres": "/marki/bmw/ix3/",
+ "konkurenci": [
+  {
+   "slug": "audi-q4",
+   "nazwa": "Audi Q4",
+   "adres": "/marki/audi/q4/"
+  },
+  {
+   "slug": "mercedes-benz-eqa",
+   "nazwa": "Mercedes-Benz EQA",
+   "adres": "/marki/mercedes-benz/eqa/"
+  },
+  {
+   "slug": "toyota-bz4x",
+   "nazwa": "Toyota bZ4X",
+   "adres": "/marki/toyota/bz4x/"
+  },
+  {
+   "slug": "volkswagen-id-4",
+   "nazwa": "Volkswagen ID.4",
+   "adres": "/marki/volkswagen/id-4/"
+  },
+  {
+   "slug": "audi-q6",
+   "nazwa": "Audi Q6",
+   "adres": "/marki/audi/q6/"
+  }
+ ]
 }

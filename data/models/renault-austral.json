@@ -11,92 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Austral – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 763 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AUSTRAL).",
-  "liczbaWPolsce": 1763,
-  "aktywne": 1763,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Austral – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 407 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AUSTRAL).",
+  "liczbaWPolsce": 7407,
+  "aktywne": 7407,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 105
+    "liczba": 447
    },
    {
     "teryt": "04",
-    "liczba": 64
+    "liczba": 277
    },
    {
     "teryt": "06",
-    "liczba": 60
+    "liczba": 241
    },
    {
     "teryt": "08",
-    "liczba": 18
+    "liczba": 83
    },
    {
     "teryt": "10",
-    "liczba": 52
+    "liczba": 230
    },
    {
     "teryt": "12",
-    "liczba": 81
+    "liczba": 386
    },
    {
     "teryt": "14",
-    "liczba": 715
+    "liczba": 2994
    },
    {
     "teryt": "16",
-    "liczba": 13
+    "liczba": 81
    },
    {
     "teryt": "18",
-    "liczba": 34
+    "liczba": 143
    },
    {
     "teryt": "20",
-    "liczba": 6
-   },
-   {
-    "teryt": "22",
-    "liczba": 133
-   },
-   {
-    "teryt": "24",
-    "liczba": 173
-   },
-   {
-    "teryt": "26",
-    "liczba": 12
-   },
-   {
-    "teryt": "28",
     "liczba": 49
    },
    {
+    "teryt": "22",
+    "liczba": 554
+   },
+   {
+    "teryt": "24",
+    "liczba": 708
+   },
+   {
+    "teryt": "26",
+    "liczba": 72
+   },
+   {
+    "teryt": "28",
+    "liczba": 212
+   },
+   {
     "teryt": "30",
-    "liczba": 191
+    "liczba": 718
    },
    {
     "teryt": "32",
-    "liczba": 57
+    "liczba": 212
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 15
+    "liczba": 29
    },
    {
     "rok": 2023,
-    "liczba": 72
+    "liczba": 1177
    },
    {
     "rok": 2024,
-    "liczba": 52
+    "liczba": 2783
    },
    {
     "rok": 2025,
-    "liczba": 266
+    "liczba": 2055
    },
    {
     "rok": 2026,
@@ -106,88 +106,237 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1163
+    "liczba": 4012
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 599
+    "liczba": 3392
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 3
    }
   ],
   "pojemnosci": [
    {
-    "nazwa": "1,2 l",
-    "liczba": 907
+    "nazwa": "1,3 l",
+    "liczba": 4795
    },
    {
-    "nazwa": "1,3 l",
-    "liczba": 856
+    "nazwa": "1,2 l",
+    "liczba": 2612
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1534
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 154
+    "liczba": 5891
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 38
+    "liczba": 1159
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 279
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 36
+    "liczba": 76
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1737
+    "liczba": 7349
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26
+    "liczba": 58
    }
   ],
-  "noweOdPaczki": 1763,
-  "hybrydy": 1163,
+  "noweOdPaczki": 7407,
+  "hybrydy": 4011,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 741
+   },
+   {
+    "rok": 2024,
+    "liczba": 2372
+   },
+   {
+    "rok": 2025,
+    "liczba": 2489
+   },
+   {
     "rok": 2026,
-    "liczba": 1763
+    "liczba": 1805
    }
   ],
-  "miejsce": 532,
-  "miejsceWMarce": 25,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 314
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 289
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 312
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 243
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 160
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 176
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 228
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 362
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 420
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 168
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 156
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 167
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 212
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 156
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 226
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 279
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 332
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 335,
+  "miejsceWMarce": 16,
   "modeliWMarce": 48,
-  "sredniRocznik": 2025.6
+  "sredniRocznik": 2024.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "austral",
  "adres": "/marki/renault/austral/",
  "konkurenci": [
-  {
-   "slug": "dacia-jogger",
-   "nazwa": "Dacia Jogger",
-   "adres": "/marki/dacia/jogger/"
-  },
   {
    "slug": "volkswagen-t-cross",
    "nazwa": "Volkswagen T-Cross",
@@ -199,9 +348,14 @@
    "adres": "/marki/volkswagen/taigo/"
   },
   {
-   "slug": "baic-x55",
-   "nazwa": "BAIC X55",
-   "adres": "/marki/baic/x55/"
+   "slug": "dacia-jogger",
+   "nazwa": "Dacia Jogger",
+   "adres": "/marki/dacia/jogger/"
+  },
+  {
+   "slug": "lexus-lbx",
+   "nazwa": "Lexus LBX",
+   "adres": "/marki/lexus/lbx/"
   },
   {
    "slug": "skoda-kamiq",

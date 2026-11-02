@@ -3,216 +3,383 @@
  "marka": "Jaguar",
  "model": "E-Pace",
  "generacja": "",
- "lataProdukcji": "2017–2022",
+ "lataProdukcji": "2017–2024",
  "nadwozia": [
   "kombi",
-  "van"
+  "van",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar E-Pace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 176 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: E-PACE).",
-  "liczbaWPolsce": 604,
-  "aktywne": 604,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar E-Pace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 595 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: E-PACE).",
+  "liczbaWPolsce": 1023,
+  "aktywne": 1023,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 63
+    "liczba": 110
    },
    {
     "teryt": "04",
-    "liczba": 13
+    "liczba": 29
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 33
    },
    {
     "teryt": "08",
-    "liczba": 4
+    "liczba": 11
    },
    {
     "teryt": "10",
-    "liczba": 30
-   },
-   {
-    "teryt": "12",
     "liczba": 52
    },
    {
+    "teryt": "12",
+    "liczba": 91
+   },
+   {
     "teryt": "14",
-    "liczba": 190
+    "liczba": 263
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 14
    },
    {
     "teryt": "18",
-    "liczba": 17
+    "liczba": 39
    },
    {
     "teryt": "20",
-    "liczba": 9
-   },
-   {
-    "teryt": "22",
     "liczba": 19
    },
    {
+    "teryt": "22",
+    "liczba": 35
+   },
+   {
     "teryt": "24",
-    "liczba": 85
+    "liczba": 134
    },
    {
     "teryt": "26",
-    "liczba": 17
+    "liczba": 25
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 17
    },
    {
     "teryt": "30",
-    "liczba": 68
+    "liczba": 129
    },
    {
     "teryt": "32",
-    "liczba": 6
+    "liczba": 22
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 24
+    "liczba": 29
    },
    {
     "rok": 2018,
-    "liczba": 206
+    "liczba": 344
    },
    {
     "rok": 2019,
-    "liczba": 257
+    "liczba": 376
    },
    {
     "rok": 2020,
-    "liczba": 34
+    "liczba": 107
    },
    {
     "rok": 2021,
-    "liczba": 26
+    "liczba": 67
    },
    {
     "rok": 2022,
-    "liczba": 10
+    "liczba": 25
    },
    {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 22
    },
    {
     "rok": 2024,
-    "liczba": 4
+    "liczba": 11
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna",
-    "liczba": 306
+    "nazwa": "Diesel",
+    "liczba": 497
    },
    {
-    "nazwa": "Diesel",
-    "liczba": 274
+    "nazwa": "Benzyna",
+    "liczba": 466
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 12
+    "liczba": 32
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 10
+    "liczba": 22
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 6
+   }
+  ],
+  "pojemnosci": [
+   {
+    "nazwa": "2,0 l",
+    "liczba": 1003
+   },
+   {
+    "nazwa": "1,5 l",
+    "liczba": 20
+   }
+  ],
+  "pochodzenie": [
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 463
+   },
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 430
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 128
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "pojemnosci": [
-   {
-    "nazwa": "2,0 l",
-    "liczba": 596
-   },
-   {
-    "nazwa": "1,5 l",
-    "liczba": 8
-   }
-  ],
-  "pochodzenie": [
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 414
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 180
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 10
-   }
-  ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 554
+    "liczba": 868
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 29
+    "liczba": 83
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 9
+    "liczba": 33
+   },
+   {
+    "nazwa": "Terenowy",
+    "liczba": 12
+   },
+   {
+    "nazwa": "Sedan",
+    "liczba": 12
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 15
    }
   ],
-  "noweOdPaczki": 176,
-  "hybrydy": 22,
+  "noweOdPaczki": 595,
+  "hybrydy": 54,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 38
+   },
+   {
+    "rok": 2024,
+    "liczba": 168
+   },
+   {
+    "rok": 2025,
+    "liczba": 204
+   },
+   {
     "rok": 2026,
-    "liczba": 176
+    "liczba": 185
    }
   ],
-  "miejsce": 791,
-  "miejsceWMarce": 6,
-  "modeliWMarce": 11,
-  "sredniRocznik": 2018.8
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 748,
+  "miejsceWMarce": 7,
+  "modeliWMarce": 15,
+  "sredniRocznik": 2019.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "e-pace",
  "adres": "/marki/jaguar/e-pace/",
  "konkurenci": [
   {
-   "slug": "audi-q3",
-   "nazwa": "Audi Q3",
-   "adres": "/marki/audi/q3/"
-  },
-  {
    "slug": "volvo-xc60",
    "nazwa": "Volvo XC60",
    "adres": "/marki/volvo/xc60/"
+  },
+  {
+   "slug": "audi-q5",
+   "nazwa": "Audi Q5",
+   "adres": "/marki/audi/q5/"
   },
   {
    "slug": "volvo-v90",
@@ -225,9 +392,9 @@
    "adres": "/marki/bmw/x1/"
   },
   {
-   "slug": "audi-q5",
-   "nazwa": "Audi Q5",
-   "adres": "/marki/audi/q5/"
+   "slug": "volvo-v60",
+   "nazwa": "Volvo V60",
+   "adres": "/marki/volvo/v60/"
   }
  ]
 }

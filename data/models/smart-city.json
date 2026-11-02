@@ -5,25 +5,25 @@
  "generacja": "",
  "lataProdukcji": "1998–2003",
  "nadwozia": [
-  "hatchback",
   "coupe",
+  "hatchback",
   "kabriolet"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart City – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITY, CITY COUPE).",
-  "liczbaWPolsce": 289,
-  "aktywne": 88,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart City – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITY, CITY COUPE).",
+  "liczbaWPolsce": 303,
+  "aktywne": 102,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "06",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 22
+    "liczba": 26
    },
    {
     "teryt": "14",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 26
+    "liczba": 29
    },
    {
     "teryt": "20",
@@ -75,34 +75,34 @@
    },
    {
     "teryt": "30",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "teryt": "32",
-    "liczba": 13
+    "liczba": 14
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 1998,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 1999,
-    "liczba": 55
+    "liczba": 57
    },
    {
     "rok": 2000,
-    "liczba": 98
+    "liczba": 100
    },
    {
     "rok": 2001,
-    "liczba": 72
+    "liczba": 75
    },
    {
     "rok": 2002,
-    "liczba": 36
+    "liczba": 41
    },
    {
     "rok": 2003,
@@ -132,11 +132,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 235
+    "liczba": 247
    },
    {
     "nazwa": "Diesel",
-    "liczba": 51
+    "liczba": 53
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,11 +146,11 @@
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 221
+    "liczba": 233
    },
    {
     "nazwa": "0,8 l",
-    "liczba": 53
+    "liczba": 55
    },
    {
     "nazwa": "0,7 l",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 155
+    "liczba": 157
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 133
+    "liczba": 145
    },
    {
     "nazwa": "Inne / brak danych",
@@ -177,12 +177,12 @@
   ],
   "nadwozia": [
    {
-    "nazwa": "Hatchback",
-    "liczba": 136
+    "nazwa": "Coupe",
+    "liczba": 144
    },
    {
-    "nazwa": "Coupe",
-    "liczba": 134
+    "nazwa": "Hatchback",
+    "liczba": 140
    },
    {
     "nazwa": "Kabriolet",
@@ -193,27 +193,208 @@
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 18,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 6
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 1005,
-  "miejsceWMarce": 5,
-  "modeliWMarce": 6,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1087,
+  "miejsceWMarce": 6,
+  "modeliWMarce": 8,
   "sredniRocznik": 2000.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "smart",
  "modelSlug": "city",
- "adres": "/marki/smart/city/"
+ "adres": "/marki/smart/city/",
+ "konkurenci": [
+  {
+   "slug": "daewoo-matiz",
+   "nazwa": "Daewoo Matiz",
+   "adres": "/marki/daewoo/matiz/"
+  },
+  {
+   "slug": "daewoo-tico",
+   "nazwa": "Daewoo Tico",
+   "adres": "/marki/daewoo/tico/"
+  },
+  {
+   "slug": "fiat-cinquecento",
+   "nazwa": "Fiat Cinquecento",
+   "adres": "/marki/fiat/cinquecento/"
+  },
+  {
+   "slug": "fiat-seicento",
+   "nazwa": "Fiat Seicento",
+   "adres": "/marki/fiat/seicento/"
+  },
+  {
+   "slug": "daihatsu-cuore",
+   "nazwa": "Daihatsu Cuore",
+   "adres": "/marki/daihatsu/cuore/"
+  }
+ ]
 }

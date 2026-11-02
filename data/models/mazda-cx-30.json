@@ -13,104 +13,104 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-30 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 935 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-30, MAZDA CX-30).",
-  "liczbaWPolsce": 3121,
-  "aktywne": 3121,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-30 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 944 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-30, MAZDA CX-30).",
+  "liczbaWPolsce": 11130,
+  "aktywne": 11130,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 242
+    "liczba": 865
    },
    {
     "teryt": "04",
-    "liczba": 140
+    "liczba": 494
    },
    {
     "teryt": "06",
-    "liczba": 116
+    "liczba": 398
    },
    {
     "teryt": "08",
-    "liczba": 95
+    "liczba": 269
    },
    {
     "teryt": "10",
-    "liczba": 191
+    "liczba": 600
    },
    {
     "teryt": "12",
-    "liczba": 281
+    "liczba": 1028
    },
    {
     "teryt": "14",
-    "liczba": 588
+    "liczba": 2205
    },
    {
     "teryt": "16",
-    "liczba": 59
+    "liczba": 247
    },
    {
     "teryt": "18",
-    "liczba": 162
+    "liczba": 488
    },
    {
     "teryt": "20",
-    "liczba": 79
+    "liczba": 302
    },
    {
     "teryt": "22",
-    "liczba": 171
+    "liczba": 618
    },
    {
     "teryt": "24",
-    "liczba": 491
+    "liczba": 1850
    },
    {
     "teryt": "26",
-    "liczba": 97
+    "liczba": 250
    },
    {
     "teryt": "28",
-    "liczba": 48
+    "liczba": 196
    },
    {
     "teryt": "30",
-    "liczba": 245
+    "liczba": 894
    },
    {
     "teryt": "32",
-    "liczba": 116
+    "liczba": 426
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 195
+    "liczba": 511
    },
    {
     "rok": 2020,
-    "liczba": 264
+    "liczba": 871
    },
    {
     "rok": 2021,
-    "liczba": 288
+    "liczba": 784
    },
    {
     "rok": 2022,
-    "liczba": 141
+    "liczba": 439
    },
    {
     "rok": 2023,
-    "liczba": 120
+    "liczba": 1606
    },
    {
     "rok": 2024,
-    "liczba": 100
+    "liczba": 3215
    },
    {
     "rok": 2025,
-    "liczba": 420
+    "liczba": 2110
    },
    {
     "rok": 2026,
@@ -120,119 +120,269 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1902
+    "liczba": 6936
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1198
+    "liczba": 4081
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 113
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 2655
+    "liczba": 10069
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 444
+    "liczba": 983
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 22
+    "liczba": 78
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1927
+    "liczba": 7060
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 936
+    "liczba": 2361
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 240
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 17
+    "liczba": 1658
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 51
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2858
+    "liczba": 10185
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 128
+    "liczba": 443
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 115
+    "liczba": 425
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 77
    }
   ],
-  "noweOdPaczki": 2935,
-  "hybrydy": 1167,
+  "noweOdPaczki": 10944,
+  "hybrydy": 4050,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 718
+   },
+   {
+    "rok": 2024,
+    "liczba": 3713
+   },
+   {
+    "rok": 2025,
+    "liczba": 3395
+   },
+   {
     "rok": 2026,
-    "liczba": 2935
+    "liczba": 3118
    }
   ],
-  "miejsce": 415,
-  "miejsceWMarce": 12,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2024.0
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 216
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 233
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 253
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 215
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 349
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 294
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 224
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 461
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 651
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 288
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 330
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 197
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 218
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 239
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 236
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 262
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 308
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 272
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 265
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 261
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 255
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 292
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 247
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 340
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 418
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 183
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 266,
+  "miejsceWMarce": 9,
+  "modeliWMarce": 32,
+  "sredniRocznik": 2023.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "cx-30",
  "adres": "/marki/mazda/cx-30/",
  "konkurenci": [
   {
+   "slug": "subaru-crosstrek",
+   "nazwa": "Subaru Crosstrek",
+   "adres": "/marki/subaru/crosstrek/"
+  },
+  {
    "slug": "volvo-xc40",
    "nazwa": "Volvo XC40",
    "adres": "/marki/volvo/xc40/"
   },
   {
-   "slug": "jetour-t2",
-   "nazwa": "Jetour T2",
-   "adres": "/marki/jetour/t2/"
-  },
-  {
-   "slug": "cupra-terramar",
-   "nazwa": "Cupra Terramar",
-   "adres": "/marki/cupra/terramar/"
-  },
-  {
-   "slug": "cupra-formentor",
-   "nazwa": "Cupra Formentor",
-   "adres": "/marki/cupra/formentor/"
+   "slug": "suzuki-swace",
+   "nazwa": "Suzuki Swace",
+   "adres": "/marki/suzuki/swace/"
   },
   {
    "slug": "mercedes-benz-klasa-glc",
    "nazwa": "Mercedes-Benz Klasa GLC",
    "adres": "/marki/mercedes-benz/klasa-glc/"
+  },
+  {
+   "slug": "alfa-romeo-stelvio",
+   "nazwa": "Alfa Romeo Stelvio",
+   "adres": "/marki/alfa-romeo/stelvio/"
   }
  ]
 }

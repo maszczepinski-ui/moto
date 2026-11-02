@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Cinquecento – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CINQUECENTO, POLSKI FIAT 170/700, CINQUECENTO 704, CINQUECENTO 0.7KAT, POLSKI FIAT 170/900).",
-  "liczbaWPolsce": 93429,
-  "aktywne": 2573,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Cinquecento – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 120 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CINQUECENTO, POLSKI FIAT 170/700, CINQUECENTO 704, CINQUECENTO 0.7KAT, POLSKI FIAT 170/900).",
+  "liczbaWPolsce": 93524,
+  "aktywne": 2668,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5598
+    "liczba": 5601
    },
    {
     "teryt": "04",
-    "liczba": 6611
+    "liczba": 6612
    },
    {
     "teryt": "06",
-    "liczba": 4051
+    "liczba": 4053
    },
    {
     "teryt": "08",
@@ -34,23 +34,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 8036
+    "liczba": 8040
    },
    {
     "teryt": "12",
-    "liczba": 9400
+    "liczba": 9424
    },
    {
     "teryt": "14",
-    "liczba": 13350
+    "liczba": 13366
    },
    {
     "teryt": "16",
-    "liczba": 3210
+    "liczba": 3212
    },
    {
     "teryt": "18",
-    "liczba": 2709
+    "liczba": 2714
    },
    {
     "teryt": "20",
@@ -58,23 +58,23 @@
    },
    {
     "teryt": "22",
-    "liczba": 5953
+    "liczba": 5956
    },
    {
     "teryt": "24",
-    "liczba": 14541
+    "liczba": 14555
    },
    {
     "teryt": "26",
-    "liczba": 2486
+    "liczba": 2487
    },
    {
     "teryt": "28",
-    "liczba": 1979
+    "liczba": 1980
    },
    {
     "teryt": "30",
-    "liczba": 9603
+    "liczba": 9622
    },
    {
     "teryt": "32",
@@ -89,37 +89,37 @@
    },
    {
     "rok": 1992,
-    "liczba": 4369
+    "liczba": 4370
    },
    {
     "rok": 1993,
-    "liczba": 14753
+    "liczba": 14765
    },
    {
     "rok": 1994,
-    "liczba": 18250
+    "liczba": 18256
    },
    {
     "rok": 1995,
-    "liczba": 16304
+    "liczba": 16317
    },
    {
     "rok": 1996,
-    "liczba": 16825
+    "liczba": 16852
    },
    {
     "rok": 1997,
-    "liczba": 16520
+    "liczba": 16544
    },
    {
     "rok": 1998,
-    "liczba": 5330
+    "liczba": 5342
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 69415
+    "liczba": 69509
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -131,31 +131,31 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14839
+    "liczba": 14840
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "0,7 l",
-    "liczba": 71206
+    "liczba": 71209
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 19247
+    "liczba": 19293
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 2094
+    "liczba": 2138
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 882
+    "liczba": 884
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 77057
+    "liczba": 77076
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -163,7 +163,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1026
+    "liczba": 1102
    },
    {
     "nazwa": "Inne / brak danych",
@@ -173,27 +173,181 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 62546
+    "liczba": 62634
    },
    {
     "nazwa": "Sedan",
-    "liczba": 4895
+    "liczba": 4897
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 25988
+    "liczba": 25993
    }
   ],
-  "noweOdPaczki": 25,
+  "noweOdPaczki": 120,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 8
+   },
+   {
+    "rok": 2024,
+    "liczba": 42
+   },
+   {
+    "rok": 2025,
+    "liczba": 43
+   },
+   {
     "rok": 2026,
-    "liczba": 25
+    "liczba": 27
    }
   ],
-  "miejsce": 37,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 45,
   "miejsceWMarce": 3,
   "modeliWMarce": 58,
   "sredniRocznik": 1995.0
@@ -202,7 +356,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "cinquecento",

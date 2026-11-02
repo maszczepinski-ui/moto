@@ -7,107 +7,106 @@
  "nadwozia": [
   "hatchback",
   "kombi",
-  "sedan",
-  "coupe"
+  "sedan"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Taycan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 212 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAYCAN 4S, TAYCAN, TAYCAN 4, TAYCAN GTS, TAYCAN TURBO).",
-  "liczbaWPolsce": 212,
-  "aktywne": 212,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Taycan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 751 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAYCAN 4S, TAYCAN, TAYCAN 4, TAYCAN GTS, TAYCAN TURBO).",
+  "liczbaWPolsce": 751,
+  "aktywne": 751,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 18
+    "liczba": 53
    },
    {
     "teryt": "04",
-    "liczba": 9
+    "liczba": 28
    },
    {
     "teryt": "06",
-    "liczba": 2
+    "liczba": 18
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 13
    },
    {
     "teryt": "10",
-    "liczba": 5
+    "liczba": 41
    },
    {
     "teryt": "12",
-    "liczba": 20
+    "liczba": 94
    },
    {
     "teryt": "14",
-    "liczba": 50
+    "liczba": 204
    },
    {
     "teryt": "16",
-    "liczba": 3
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 5
+    "liczba": 18
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 13
    },
    {
     "teryt": "22",
-    "liczba": 19
+    "liczba": 49
    },
    {
     "teryt": "24",
-    "liczba": 17
+    "liczba": 73
    },
    {
     "teryt": "26",
-    "liczba": 1
+    "liczba": 6
    },
    {
     "teryt": "28",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "30",
-    "liczba": 31
+    "liczba": 94
    },
    {
     "teryt": "32",
-    "liczba": 17
+    "liczba": 30
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 16
+    "liczba": 47
    },
    {
     "rok": 2021,
-    "liczba": 23
+    "liczba": 84
    },
    {
     "rok": 2022,
-    "liczba": 25
+    "liczba": 101
    },
    {
     "rok": 2023,
-    "liczba": 31
+    "liczba": 194
    },
    {
     "rok": 2024,
-    "liczba": 46
+    "liczba": 206
    },
    {
     "rok": 2025,
-    "liczba": 41
+    "liczba": 88
    },
    {
     "rok": 2026,
@@ -117,7 +116,7 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 211
+    "liczba": 750
    },
    {
     "nazwa": "Inne / brak danych",
@@ -127,70 +126,255 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 212
+    "liczba": 751
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 141
+    "liczba": 294
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 47
+    "liczba": 269
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 19
+    "liczba": 178
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 5
+    "liczba": 9
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 100
+    "liczba": 333
    },
    {
     "nazwa": "Kombi",
-    "liczba": 79
+    "liczba": 327
    },
    {
     "nazwa": "Sedan",
-    "liczba": 21
+    "liczba": 65
    },
    {
     "nazwa": "Coupe",
-    "liczba": 9
+    "liczba": 20
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 6
    }
   ],
-  "noweOdPaczki": 212,
+  "noweOdPaczki": 751,
   "hybrydy": 0,
-  "elektryczne": 211,
+  "elektryczne": 750,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 121
+   },
+   {
+    "rok": 2024,
+    "liczba": 202
+   },
+   {
+    "rok": 2025,
+    "liczba": 205
+   },
+   {
     "rok": 2026,
-    "liczba": 212
+    "liczba": 223
    }
   ],
-  "miejsce": 1108,
-  "miejsceWMarce": 9,
-  "modeliWMarce": 9,
-  "sredniRocznik": 2023.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 814,
+  "miejsceWMarce": 6,
+  "modeliWMarce": 11,
+  "sredniRocznik": 2023.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "porsche",
  "modelSlug": "taycan",
- "adres": "/marki/porsche/taycan/"
+ "adres": "/marki/porsche/taycan/",
+ "konkurenci": [
+  {
+   "slug": "dacia-spring",
+   "nazwa": "Dacia Spring",
+   "adres": "/marki/dacia/spring/"
+  },
+  {
+   "slug": "citroen-e-c3",
+   "nazwa": "Citroen E-C3",
+   "adres": "/marki/citroen/e-c3/"
+  },
+  {
+   "slug": "leapmotor-t03",
+   "nazwa": "Leapmotor T03",
+   "adres": "/marki/leapmotor/t03/"
+  },
+  {
+   "slug": "bmw-ix2",
+   "nazwa": "BMW IX2",
+   "adres": "/marki/bmw/ix2/"
+  },
+  {
+   "slug": "skoda-elroq",
+   "nazwa": "Skoda Elroq",
+   "adres": "/marki/skoda/elroq/"
+  }
+ ]
 }

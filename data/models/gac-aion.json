@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAC Aion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 241 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AION V, AION UT, AION Y PLUS).",
-  "liczbaWPolsce": 241,
-  "aktywne": 241,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAC Aion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 366 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AION V, AION UT, AION Y PLUS).",
+  "liczbaWPolsce": 366,
+  "aktywne": 366,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 17
-   },
-   {
-    "teryt": "04",
     "liczba": 18
    },
    {
+    "teryt": "04",
+    "liczba": 21
+   },
+   {
     "teryt": "06",
-    "liczba": 9
+    "liczba": 13
    },
    {
     "teryt": "08",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "teryt": "10",
-    "liczba": 12
+    "liczba": 17
    },
    {
     "teryt": "12",
-    "liczba": 23
+    "liczba": 33
    },
    {
     "teryt": "14",
-    "liczba": 80
+    "liczba": 129
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "teryt": "20",
@@ -58,30 +58,34 @@
    },
    {
     "teryt": "22",
-    "liczba": 31
+    "liczba": 52
    },
    {
     "teryt": "24",
-    "liczba": 14
+    "liczba": 24
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 6
+   },
+   {
+    "teryt": "28",
+    "liczba": 2
    },
    {
     "teryt": "30",
-    "liczba": 17
+    "liczba": 32
    },
    {
     "teryt": "32",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 78
+    "liczba": 203
    },
    {
     "rok": 2026,
@@ -91,60 +95,233 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 241
+    "liczba": 366
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 241
+    "liczba": 366
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 229
+    "liczba": 328
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 10
+    "liczba": 20
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 2
+    "liczba": 18
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 193
+    "liczba": 318
    },
    {
     "nazwa": "Hatchback",
     "liczba": 48
    }
   ],
-  "noweOdPaczki": 241,
+  "noweOdPaczki": 366,
   "hybrydy": 0,
-  "elektryczne": 241,
+  "elektryczne": 366,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 86
+   },
+   {
     "rok": 2026,
-    "liczba": 241
+    "liczba": 280
    }
   ],
-  "miejsce": 1060,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1027,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
-  "sredniRocznik": 2025.7
+  "sredniRocznik": 2025.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "gac",
  "modelSlug": "aion",
- "adres": "/marki/gac/aion/"
+ "adres": "/marki/gac/aion/",
+ "konkurenci": [
+  {
+   "slug": "audi-q6",
+   "nazwa": "Audi Q6",
+   "adres": "/marki/audi/q6/"
+  },
+  {
+   "slug": "bmw-ix1",
+   "nazwa": "BMW IX1",
+   "adres": "/marki/bmw/ix1/"
+  },
+  {
+   "slug": "toyota-bz4x",
+   "nazwa": "Toyota bZ4X",
+   "adres": "/marki/toyota/bz4x/"
+  },
+  {
+   "slug": "audi-q4",
+   "nazwa": "Audi Q4",
+   "adres": "/marki/audi/q4/"
+  },
+  {
+   "slug": "mercedes-benz-eqa",
+   "nazwa": "Mercedes-Benz EQA",
+   "adres": "/marki/mercedes-benz/eqa/"
+  }
+ ]
 }

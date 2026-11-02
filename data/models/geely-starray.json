@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Geely Starray – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 416 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STARRAY EM-I, STARRAY).",
-  "liczbaWPolsce": 1416,
-  "aktywne": 1416,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Geely Starray – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 488 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STARRAY EM-I, STARRAY).",
+  "liczbaWPolsce": 1488,
+  "aktywne": 1488,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 150
+    "liczba": 155
    },
    {
     "teryt": "04",
@@ -29,19 +29,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "teryt": "10",
-    "liczba": 95
-   },
-   {
-    "teryt": "12",
     "liczba": 98
    },
    {
+    "teryt": "12",
+    "liczba": 99
+   },
+   {
     "teryt": "14",
-    "liczba": 329
+    "liczba": 367
    },
    {
     "teryt": "16",
@@ -49,42 +49,42 @@
    },
    {
     "teryt": "18",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "20",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "teryt": "22",
-    "liczba": 185
+    "liczba": 194
    },
    {
     "teryt": "24",
-    "liczba": 111
+    "liczba": 115
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "30",
-    "liczba": 125
+    "liczba": 128
    },
    {
     "teryt": "32",
-    "liczba": 47
+    "liczba": 50
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 877
+    "liczba": 949
    },
    {
     "rok": 2026,
@@ -94,7 +94,7 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1405
+    "liczba": 1477
    },
    {
     "nazwa": "Inne / brak danych",
@@ -104,56 +104,202 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1416
+    "liczba": 1488
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1294
+    "liczba": 1324
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 73
+    "liczba": 94
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 35
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
     "liczba": 35
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 14
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1410
+    "liczba": 1482
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 1416,
-  "hybrydy": 1405,
+  "noweOdPaczki": 1488,
+  "hybrydy": 1477,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 67
+   },
+   {
     "rok": 2026,
-    "liczba": 1416
+    "liczba": 1421
    }
   ],
-  "miejsce": 589,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 648,
   "miejsceWMarce": 1,
-  "modeliWMarce": 1,
+  "modeliWMarce": 2,
   "sredniRocznik": 2025.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "geely",
  "modelSlug": "starray",
@@ -165,14 +311,14 @@
    "adres": "/marki/mg/hs/"
   },
   {
-   "slug": "mg-zs",
-   "nazwa": "MG ZS",
-   "adres": "/marki/mg/zs/"
+   "slug": "dacia-bigster",
+   "nazwa": "Dacia Bigster",
+   "adres": "/marki/dacia/bigster/"
   },
   {
-   "slug": "jaecoo-7",
-   "nazwa": "Jaecoo 7",
-   "adres": "/marki/jaecoo/7/"
+   "slug": "chery-tiggo-7",
+   "nazwa": "Chery Tiggo 7",
+   "adres": "/marki/chery/tiggo-7/"
   },
   {
    "slug": "chery-tiggo-4",
@@ -180,9 +326,9 @@
    "adres": "/marki/chery/tiggo-4/"
   },
   {
-   "slug": "chery-tiggo-7",
-   "nazwa": "Chery Tiggo 7",
-   "adres": "/marki/chery/tiggo-7/"
+   "slug": "mg-zs",
+   "nazwa": "MG ZS",
+   "adres": "/marki/mg/zs/"
   }
  ]
 }

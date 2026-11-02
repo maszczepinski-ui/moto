@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Pacifica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 304 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PACIFICA, PACIFICA 3.5 KAT, PACIFICA HYBRID, PACIFICA LIMITED, PACIFICA 3.6).",
-  "liczbaWPolsce": 4030,
-  "aktywne": 2954,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Pacifica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 620 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PACIFICA, PACIFICA LIMITED, PACIFICA TOURING L, PACIFICA 3.5 KAT, PACIFICA 3.6).",
+  "liczbaWPolsce": 10346,
+  "aktywne": 9270,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 189
+    "liczba": 505
    },
    {
     "teryt": "04",
-    "liczba": 145
+    "liczba": 314
    },
    {
     "teryt": "06",
-    "liczba": 291
+    "liczba": 744
    },
    {
     "teryt": "08",
-    "liczba": 82
+    "liczba": 156
    },
    {
     "teryt": "10",
-    "liczba": 286
+    "liczba": 657
    },
    {
     "teryt": "12",
-    "liczba": 261
+    "liczba": 694
    },
    {
     "teryt": "14",
-    "liczba": 1007
+    "liczba": 2882
    },
    {
     "teryt": "16",
-    "liczba": 57
+    "liczba": 164
    },
    {
     "teryt": "18",
-    "liczba": 210
+    "liczba": 502
    },
    {
     "teryt": "20",
-    "liczba": 287
+    "liczba": 754
    },
    {
     "teryt": "22",
-    "liczba": 286
+    "liczba": 684
    },
    {
     "teryt": "24",
-    "liczba": 287
+    "liczba": 777
    },
    {
     "teryt": "26",
-    "liczba": 68
+    "liczba": 171
    },
    {
     "teryt": "28",
-    "liczba": 125
+    "liczba": 277
    },
    {
     "teryt": "30",
-    "liczba": 300
+    "liczba": 756
    },
    {
     "teryt": "32",
-    "liczba": 132
+    "liczba": 292
    }
   ],
   "bezWojewodztwa": 17,
@@ -89,23 +89,23 @@
    },
    {
     "rok": 2004,
-    "liczba": 326
+    "liczba": 328
    },
    {
     "rok": 2005,
-    "liczba": 474
+    "liczba": 476
    },
    {
     "rok": 2006,
-    "liczba": 308
+    "liczba": 312
    },
    {
     "rok": 2007,
-    "liczba": 295
+    "liczba": 297
    },
    {
     "rok": 2008,
-    "liczba": 72
+    "liczba": 74
    },
    {
     "rok": 2009,
@@ -137,162 +137,304 @@
    },
    {
     "rok": 2016,
-    "liczba": 98
+    "liczba": 288
    },
    {
     "rok": 2017,
-    "liczba": 470
+    "liczba": 1603
    },
    {
     "rok": 2018,
-    "liczba": 352
+    "liczba": 1346
    },
    {
     "rok": 2019,
-    "liczba": 203
+    "liczba": 879
    },
    {
     "rok": 2020,
-    "liczba": 216
+    "liczba": 1034
    },
    {
     "rok": 2021,
-    "liczba": 276
+    "liczba": 1180
    },
    {
     "rok": 2022,
-    "liczba": 363
+    "liczba": 1307
    },
    {
     "rok": 2023,
-    "liczba": 258
+    "liczba": 722
    },
    {
     "rok": 2024,
-    "liczba": 92
+    "liczba": 232
    },
    {
     "rok": 2025,
-    "liczba": 137
-   },
-   {
-    "rok": 2026,
-    "liczba": 16
+    "liczba": 178
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2019
+    "liczba": 4945
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1717
+    "liczba": 4404
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 277
+    "liczba": 968
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 29
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 2462
+    "liczba": 8738
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 1055
+    "liczba": 1070
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 365
-   },
-   {
-    "nazwa": "3,8 l",
-    "liczba": 98
+    "liczba": 370
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 50
+    "liczba": 168
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2557
+    "liczba": 6262
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1452
+    "liczba": 4057
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 27
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 1677
-   },
-   {
-    "nazwa": "Kombi",
-    "liczba": 1055
+    "liczba": 4279
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 996
+    "liczba": 3169
+   },
+   {
+    "nazwa": "Kombi",
+    "liczba": 2236
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 114
-   },
-   {
-    "nazwa": "Sedan",
-    "liczba": 41
+    "liczba": 233
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 147
+    "liczba": 429
    }
   ],
-  "noweOdPaczki": 2304,
-  "hybrydy": 277,
+  "noweOdPaczki": 8620,
+  "hybrydy": 968,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 430
+   },
+   {
+    "rok": 2024,
+    "liczba": 2510
+   },
+   {
+    "rok": 2025,
+    "liczba": 3192
+   },
+   {
     "rok": 2026,
-    "liczba": 2304
+    "liczba": 2488
    }
   ],
-  "miejsce": 367,
-  "miejsceWMarce": 3,
-  "modeliWMarce": 18,
-  "sredniRocznik": 2014.6
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 166
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 144
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 182
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 214
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 198
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 209
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 211
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 247
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 207
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 233
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 229
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 193
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 243
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 290
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 231
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 239
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 230
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 232
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 276
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 309
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 268
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 274
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 294
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 212
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 337
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 184
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 276,
+  "miejsceWMarce": 2,
+  "modeliWMarce": 19,
+  "sredniRocznik": 2017.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "pacifica",
  "adres": "/marki/chrysler/pacifica/",
  "konkurenci": [
   {
+   "slug": "dodge-durango",
+   "nazwa": "Dodge Durango",
+   "adres": "/marki/dodge/durango/"
+  },
+  {
    "slug": "lexus-rx",
    "nazwa": "Lexus RX",
    "adres": "/marki/lexus/rx/"
-  },
-  {
-   "slug": "toyota-sienna",
-   "nazwa": "Toyota Sienna",
-   "adres": "/marki/toyota/sienna/"
   },
   {
    "slug": "porsche-cayenne",
@@ -300,14 +442,14 @@
    "adres": "/marki/porsche/cayenne/"
   },
   {
-   "slug": "bmw-m3",
-   "nazwa": "BMW M3",
-   "adres": "/marki/bmw/m3/"
+   "slug": "porsche-panamera",
+   "nazwa": "Porsche Panamera",
+   "adres": "/marki/porsche/panamera/"
   },
   {
-   "slug": "dodge-durango",
-   "nazwa": "Dodge Durango",
-   "adres": "/marki/dodge/durango/"
+   "slug": "mazda-cx-9",
+   "nazwa": "Mazda CX-9",
+   "adres": "/marki/mazda/cx-9/"
   }
  ]
 }

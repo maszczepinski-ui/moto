@@ -11,88 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG HS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 967 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG HS HYBRID, MG HS, HS HYBRID, HS, MG HS PLUG-IN HYBRID).",
-  "liczbaWPolsce": 6967,
-  "aktywne": 6967,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG HS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 612 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG HS, MG HS HYBRID, HS, HS HYBRID, MG HS PLUG-IN HYBRID).",
+  "liczbaWPolsce": 20612,
+  "aktywne": 20612,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 455
+    "liczba": 1297
    },
    {
     "teryt": "04",
-    "liczba": 335
+    "liczba": 1008
    },
    {
     "teryt": "06",
-    "liczba": 222
+    "liczba": 733
    },
    {
     "teryt": "08",
-    "liczba": 227
+    "liczba": 535
    },
    {
     "teryt": "10",
-    "liczba": 263
+    "liczba": 950
    },
    {
     "teryt": "12",
-    "liczba": 433
+    "liczba": 1091
    },
    {
     "teryt": "14",
-    "liczba": 1164
+    "liczba": 3922
    },
    {
     "teryt": "16",
-    "liczba": 138
+    "liczba": 336
    },
    {
     "teryt": "18",
-    "liczba": 284
+    "liczba": 829
    },
    {
     "teryt": "20",
-    "liczba": 282
+    "liczba": 713
    },
    {
     "teryt": "22",
-    "liczba": 648
+    "liczba": 1639
    },
    {
     "teryt": "24",
-    "liczba": 801
+    "liczba": 2327
    },
    {
     "teryt": "26",
-    "liczba": 132
+    "liczba": 432
    },
    {
     "teryt": "28",
-    "liczba": 434
+    "liczba": 1073
    },
    {
     "teryt": "30",
-    "liczba": 731
+    "liczba": 2212
    },
    {
     "teryt": "32",
-    "liczba": 418
+    "liczba": 1515
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2022,
+    "liczba": 100
+   },
+   {
     "rok": 2023,
-    "liczba": 93
+    "liczba": 1377
    },
    {
     "rok": 2024,
-    "liczba": 378
+    "liczba": 6961
    },
    {
     "rok": 2025,
-    "liczba": 2217
+    "liczba": 7903
    },
    {
     "rok": 2026,
@@ -101,90 +105,234 @@
   ],
   "paliwa": [
    {
-    "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 6166
+    "nazwa": "Benzyna",
+    "liczba": 10955
    },
    {
-    "nazwa": "Benzyna",
-    "liczba": 799
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 9601
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 56
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 6967
+    "liczba": 20612
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6390
+    "liczba": 18821
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 465
+    "liczba": 1556
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 100
+    "liczba": 174
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 61
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6958
+    "liczba": 20580
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 32
    }
   ],
-  "noweOdPaczki": 6967,
-  "hybrydy": 6166,
+  "noweOdPaczki": 20612,
+  "hybrydy": 9601,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 26
+   },
+   {
+    "rok": 2024,
+    "liczba": 4462
+   },
+   {
+    "rok": 2025,
+    "liczba": 8920
+   },
+   {
     "rok": 2026,
-    "liczba": 6967
+    "liczba": 7204
    }
   ],
-  "miejsce": 290,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 154
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 240
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 374
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 826
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 376
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 597
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 759
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 672
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 645
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 434
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 673
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 645
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 776
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 420
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 620
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 577
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 815
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1041
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 889
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1385
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 237
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 183,
   "miejsceWMarce": 1,
-  "modeliWMarce": 5,
-  "sredniRocznik": 2025.5
+  "modeliWMarce": 7,
+  "sredniRocznik": 2024.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "hs",
  "adres": "/marki/mg/hs/",
  "konkurenci": [
   {
-   "slug": "chery-tiggo-7",
-   "nazwa": "Chery Tiggo 7",
-   "adres": "/marki/chery/tiggo-7/"
-  },
-  {
    "slug": "jaecoo-7",
    "nazwa": "Jaecoo 7",
    "adres": "/marki/jaecoo/7/"
-  },
-  {
-   "slug": "geely-starray",
-   "nazwa": "Geely Starray",
-   "adres": "/marki/geely/starray/"
   },
   {
    "slug": "chery-tiggo-4",
@@ -192,9 +340,19 @@
    "adres": "/marki/chery/tiggo-4/"
   },
   {
+   "slug": "kia-xceed",
+   "nazwa": "Kia XCeed",
+   "adres": "/marki/kia/xceed/"
+  },
+  {
    "slug": "omoda-5",
    "nazwa": "Omoda 5",
    "adres": "/marki/omoda/5/"
+  },
+  {
+   "slug": "chery-tiggo-7",
+   "nazwa": "Chery Tiggo 7",
+   "adres": "/marki/chery/tiggo-7/"
   }
  ]
 }

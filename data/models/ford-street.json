@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Street – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 24 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREET KA).",
-  "liczbaWPolsce": 215,
-  "aktywne": 120,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Street – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 87 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREET KA).",
+  "liczbaWPolsce": 278,
+  "aktywne": 183,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 16
+    "liczba": 27
    },
    {
     "teryt": "04",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "06",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "teryt": "08",
@@ -34,51 +34,51 @@
    },
    {
     "teryt": "10",
-    "liczba": 17
+    "liczba": 21
    },
    {
     "teryt": "12",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "14",
-    "liczba": 33
+    "liczba": 45
    },
    {
     "teryt": "16",
-    "liczba": 9
+    "liczba": 12
    },
    {
     "teryt": "18",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "22",
-    "liczba": 11
+    "liczba": 17
    },
    {
     "teryt": "24",
-    "liczba": 25
+    "liczba": 31
    },
    {
     "teryt": "26",
-    "liczba": 3
+    "liczba": 6
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 28
+    "liczba": 34
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 11
    }
   ],
   "bezWojewodztwa": 9,
@@ -229,15 +229,15 @@
    },
    {
     "rok": 2003,
-    "liczba": 116
+    "liczba": 146
    },
    {
     "rok": 2004,
-    "liczba": 62
+    "liczba": 87
    },
    {
     "rok": 2005,
-    "liczba": 22
+    "liczba": 30
    },
    {
     "rok": 2006,
@@ -247,11 +247,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 199
+    "liczba": 261
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
@@ -261,7 +261,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 210
+    "liczba": 273
    },
    {
     "nazwa": "Inne / brak danych",
@@ -271,11 +271,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 126
+    "liczba": 166
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 78
+    "liczba": 101
    },
    {
     "nazwa": "Inne / brak danych",
@@ -285,7 +285,7 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 189
+    "liczba": 250
    },
    {
     "nazwa": "Hatchback",
@@ -293,7 +293,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Sedan",
@@ -301,28 +301,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
-  "noweOdPaczki": 24,
+  "noweOdPaczki": 87,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 5
+   },
+   {
+    "rok": 2024,
+    "liczba": 29
+   },
+   {
+    "rok": 2025,
+    "liczba": 29
+   },
    {
     "rok": 2026,
     "liczba": 24
    }
   ],
-  "miejsce": 1098,
-  "miejsceWMarce": 38,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2003.3
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1115,
+  "miejsceWMarce": 39,
+  "modeliWMarce": 45,
+  "sredniRocznik": 2003.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "street",

@@ -11,100 +11,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Formentor – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 481 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FORMENTOR, FORMENTOR E-HYBRID, FORMENTOR VZ E-HYBRID).",
-  "liczbaWPolsce": 7481,
-  "aktywne": 7481,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Formentor – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 475 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FORMENTOR, FORMENTOR E-HYBRID, FORMENTOR VZ E-HYBRID).",
+  "liczbaWPolsce": 27475,
+  "aktywne": 27475,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 546
+    "liczba": 1924
    },
    {
     "teryt": "04",
-    "liczba": 337
+    "liczba": 1357
    },
    {
     "teryt": "06",
-    "liczba": 175
+    "liczba": 640
    },
    {
     "teryt": "08",
-    "liczba": 161
+    "liczba": 589
    },
    {
     "teryt": "10",
-    "liczba": 328
+    "liczba": 1507
    },
    {
     "teryt": "12",
-    "liczba": 814
+    "liczba": 3346
    },
    {
     "teryt": "14",
-    "liczba": 1476
+    "liczba": 4994
    },
    {
     "teryt": "16",
-    "liczba": 159
+    "liczba": 602
    },
    {
     "teryt": "18",
-    "liczba": 292
+    "liczba": 1063
    },
    {
     "teryt": "20",
-    "liczba": 134
+    "liczba": 542
    },
    {
     "teryt": "22",
-    "liczba": 594
+    "liczba": 2609
    },
    {
     "teryt": "24",
-    "liczba": 867
+    "liczba": 3132
    },
    {
     "teryt": "26",
-    "liczba": 185
+    "liczba": 776
    },
    {
     "teryt": "28",
-    "liczba": 223
+    "liczba": 625
    },
    {
     "teryt": "30",
-    "liczba": 900
+    "liczba": 2829
    },
    {
     "teryt": "32",
-    "liczba": 290
+    "liczba": 940
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 18
+    "liczba": 197
    },
    {
     "rok": 2021,
-    "liczba": 148
+    "liczba": 694
    },
    {
     "rok": 2022,
-    "liczba": 454
+    "liczba": 1292
    },
    {
     "rok": 2023,
-    "liczba": 424
+    "liczba": 4951
    },
    {
     "rok": 2024,
-    "liczba": 304
+    "liczba": 7527
    },
    {
     "rok": 2025,
-    "liczba": 925
+    "liczba": 7601
    },
    {
     "rok": 2026,
@@ -114,108 +114,262 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5019
+    "liczba": 20190
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 2075
+    "liczba": 5681
    },
    {
     "nazwa": "Diesel",
-    "liczba": 382
+    "liczba": 1580
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 24
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 4238
+    "liczba": 15958
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 2810
+    "liczba": 10447
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 309
-   },
-   {
-    "nazwa": "2,5 l",
-    "liczba": 123
+    "liczba": 859
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 211
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5563
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1267
+    "liczba": 20187
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 490
+    "liczba": 3988
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 2908
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 158
+    "liczba": 384
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 7370
+    "liczba": 26960
+   },
+   {
+    "nazwa": "Hatchback",
+    "liczba": 373
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 111
+    "liczba": 142
    }
   ],
-  "noweOdPaczki": 7481,
-  "hybrydy": 2075,
+  "noweOdPaczki": 27475,
+  "hybrydy": 5682,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 2174
+   },
+   {
+    "rok": 2024,
+    "liczba": 8677
+   },
+   {
+    "rok": 2025,
+    "liczba": 8653
+   },
+   {
     "rok": 2026,
-    "liczba": 7481
+    "liczba": 7971
    }
   ],
-  "miejsce": 283,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 816
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 850
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 715
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 742
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 703
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 659
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 737
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 877
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 887
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 682
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 674
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 515
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 636
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 643
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 516
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 603
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 699
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 716
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 654
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 782
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 689
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 698
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 890
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 771
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 992
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 490
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 149,
   "miejsceWMarce": 1,
-  "modeliWMarce": 3,
-  "sredniRocznik": 2025.3
+  "modeliWMarce": 6,
+  "sredniRocznik": 2024.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "cupra",
  "modelSlug": "formentor",
  "adres": "/marki/cupra/formentor/",
  "konkurenci": [
   {
-   "slug": "kia-k4",
-   "nazwa": "Kia K4",
-   "adres": "/marki/kia/k4/"
+   "slug": "volkswagen-t-roc",
+   "nazwa": "Volkswagen T-Roc",
+   "adres": "/marki/volkswagen/t-roc/"
   },
   {
-   "slug": "baic-x55",
-   "nazwa": "BAIC X55",
-   "adres": "/marki/baic/x55/"
+   "slug": "skoda-karoq",
+   "nazwa": "Skoda Karoq",
+   "adres": "/marki/skoda/karoq/"
   },
   {
    "slug": "lexus-lbx",
@@ -223,14 +377,14 @@
    "adres": "/marki/lexus/lbx/"
   },
   {
-   "slug": "mercedes-benz-klasa-glb",
-   "nazwa": "Mercedes-Benz Klasa GLB",
-   "adres": "/marki/mercedes-benz/klasa-glb/"
+   "slug": "baic-x55",
+   "nazwa": "BAIC X55",
+   "adres": "/marki/baic/x55/"
   },
   {
-   "slug": "baic-beijing-3",
-   "nazwa": "BAIC Beijing 3",
-   "adres": "/marki/baic/beijing-3/"
+   "slug": "suzuki-swace",
+   "nazwa": "Suzuki Swace",
+   "adres": "/marki/suzuki/swace/"
   }
  ]
 }

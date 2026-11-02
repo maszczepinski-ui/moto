@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jetour Dashing – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 454 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DASHING).",
-  "liczbaWPolsce": 454,
-  "aktywne": 454,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jetour Dashing – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 499 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DASHING).",
+  "liczbaWPolsce": 499,
+  "aktywne": 499,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "08",
@@ -33,23 +33,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "12",
-    "liczba": 79
+    "liczba": 81
    },
    {
     "teryt": "14",
-    "liczba": 116
+    "liczba": 135
    },
    {
     "teryt": "16",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "18",
-    "liczba": 28
+    "liczba": 31
    },
    {
     "teryt": "20",
@@ -57,15 +57,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "24",
-    "liczba": 68
+    "liczba": 73
    },
    {
     "teryt": "26",
-    "liczba": 25
+    "liczba": 30
    },
    {
     "teryt": "28",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 15
+    "liczba": 18
    },
    {
     "teryt": "32",
@@ -83,8 +83,16 @@
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 0
+   },
+   {
     "rok": 2025,
-    "liczba": 430
+    "liczba": 474
    },
    {
     "rok": 2026,
@@ -94,11 +102,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 399
+    "liczba": 439
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 54
+    "liczba": 59
    },
    {
     "nazwa": "Inne / brak danych",
@@ -108,66 +116,212 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 269
+    "liczba": 304
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 185
+    "liczba": 195
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 417
+    "liczba": 443
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 34
+    "liczba": 48
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 454
+    "liczba": 499
    }
   ],
-  "noweOdPaczki": 454,
+  "noweOdPaczki": 499,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 29
+   },
+   {
     "rok": 2026,
-    "liczba": 454
+    "liczba": 470
    }
   ],
-  "miejsce": 879,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 925,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
-  "sredniRocznik": 2025.1
+  "sredniRocznik": 2025.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jetour",
  "modelSlug": "dashing",
  "adres": "/marki/jetour/dashing/",
  "konkurenci": [
   {
-   "slug": "chery-tiggo-8",
-   "nazwa": "Chery Tiggo 8",
-   "adres": "/marki/chery/tiggo-8/"
-  },
-  {
    "slug": "toyota-yaris-cross",
    "nazwa": "Toyota Yaris Cross",
    "adres": "/marki/toyota/yaris-cross/"
+  },
+  {
+   "slug": "chery-tiggo-8",
+   "nazwa": "Chery Tiggo 8",
+   "adres": "/marki/chery/tiggo-8/"
   },
   {
    "slug": "omoda-9",

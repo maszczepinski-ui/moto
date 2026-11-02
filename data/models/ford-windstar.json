@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Windstar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WINDSTAR, WINDSTAR 3.8 KAT, WINDSTAR 3.0 KAT, WINDSTAR 3.8, WINDSTAR 3.0).",
-  "liczbaWPolsce": 1462,
-  "aktywne": 82,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Windstar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WINDSTAR, WINDSTAR 3.8 KAT, WINDSTAR 3.0 KAT, WINDSTAR 3.8, WINDSTAR 3.0).",
+  "liczbaWPolsce": 1468,
+  "aktywne": 88,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -24,7 +24,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 67
+    "liczba": 68
    },
    {
     "teryt": "06",
@@ -36,7 +36,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 105
+    "liczba": 106
    },
    {
     "teryt": "12",
@@ -64,11 +64,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 132
+    "liczba": 134
    },
    {
     "teryt": "26",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "28",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "teryt": "32",
@@ -91,7 +91,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 645
+    "liczba": 646
    },
    {
     "rok": 1996,
@@ -107,11 +107,11 @@
    },
    {
     "rok": 1999,
-    "liczba": 83
+    "liczba": 85
    },
    {
     "rok": 2000,
-    "liczba": 107
+    "liczba": 108
    },
    {
     "rok": 2001,
@@ -123,17 +123,17 @@
    },
    {
     "rok": 2003,
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 808
+    "liczba": 810
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 449
+    "liczba": 452
    },
    {
     "nazwa": "?+LPG",
@@ -141,31 +141,31 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 151
+    "liczba": 152
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,8 l",
-    "liczba": 856
+    "liczba": 857
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 580
+    "liczba": 584
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26
+    "liczba": 27
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 997
+    "liczba": 1000
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 387
+    "liczba": 390
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -187,7 +187,7 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 141
+    "liczba": 144
    },
    {
     "nazwa": "Sedan",
@@ -199,7 +199,7 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 55
+    "liczba": 57
    },
    {
     "nazwa": "Furgon",
@@ -207,28 +207,178 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 269
+    "liczba": 270
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 5
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 584,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 652,
   "miejsceWMarce": 29,
-  "modeliWMarce": 39,
-  "sredniRocznik": 1996.7
+  "modeliWMarce": 45,
+  "sredniRocznik": 1996.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "windstar",
@@ -245,11 +395,6 @@
    "adres": "/marki/pontiac/trans/"
   },
   {
-   "slug": "bmw-seria-7",
-   "nazwa": "BMW Seria 7",
-   "adres": "/marki/bmw/seria-7/"
-  },
-  {
    "slug": "chrysler-jeep",
    "nazwa": "Chrysler Jeep",
    "adres": "/marki/chrysler/jeep/"
@@ -258,6 +403,11 @@
    "slug": "honda-legend",
    "nazwa": "Honda Legend",
    "adres": "/marki/honda/legend/"
+  },
+  {
+   "slug": "nissan-maxima",
+   "nazwa": "Nissan Maxima",
+   "adres": "/marki/nissan/maxima/"
   }
  ]
 }

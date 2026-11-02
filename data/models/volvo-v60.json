@@ -11,233 +11,387 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo V60 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 641 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V60, V60 CROSS COUNTRY, V60 PLUG IN HYBRID, V60 TWIN ENGINE, V60 PLUG-IN HYBRID).",
-  "liczbaWPolsce": 8879,
-  "aktywne": 7648,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo V60 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 690 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V60, V60 CROSS COUNTRY, V60 PLUG-IN HYBRID, V60 TWIN ENGINE, V60 PLUG IN HYBRID).",
+  "liczbaWPolsce": 20928,
+  "aktywne": 19697,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 657
+    "liczba": 1464
    },
    {
     "teryt": "04",
-    "liczba": 326
+    "liczba": 777
    },
    {
     "teryt": "06",
-    "liczba": 540
+    "liczba": 1556
    },
    {
     "teryt": "08",
-    "liczba": 167
+    "liczba": 370
    },
    {
     "teryt": "10",
-    "liczba": 504
+    "liczba": 1213
    },
    {
     "teryt": "12",
-    "liczba": 727
+    "liczba": 1738
    },
    {
     "teryt": "14",
-    "liczba": 2280
+    "liczba": 5322
    },
    {
     "teryt": "16",
-    "liczba": 111
+    "liczba": 249
    },
    {
     "teryt": "18",
-    "liczba": 349
+    "liczba": 844
    },
    {
     "teryt": "20",
-    "liczba": 220
+    "liczba": 560
    },
    {
     "teryt": "22",
-    "liczba": 524
+    "liczba": 1159
    },
    {
     "teryt": "24",
-    "liczba": 901
+    "liczba": 1996
    },
    {
     "teryt": "26",
-    "liczba": 206
+    "liczba": 524
    },
    {
     "teryt": "28",
-    "liczba": 208
+    "liczba": 469
    },
    {
     "teryt": "30",
-    "liczba": 729
+    "liczba": 1786
    },
    {
     "teryt": "32",
-    "liczba": 324
+    "liczba": 795
    }
   ],
   "bezWojewodztwa": 106,
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 189
+    "liczba": 304
    },
    {
     "rok": 2011,
-    "liczba": 1091
+    "liczba": 1781
    },
    {
     "rok": 2012,
-    "liczba": 869
+    "liczba": 1485
    },
    {
     "rok": 2013,
-    "liczba": 767
+    "liczba": 1392
    },
    {
     "rok": 2014,
-    "liczba": 906
+    "liczba": 1677
    },
    {
     "rok": 2015,
-    "liczba": 756
+    "liczba": 1625
    },
    {
     "rok": 2016,
-    "liczba": 582
+    "liczba": 1208
    },
    {
     "rok": 2017,
-    "liczba": 471
+    "liczba": 940
    },
    {
     "rok": 2018,
-    "liczba": 574
+    "liczba": 1438
    },
    {
     "rok": 2019,
-    "liczba": 544
+    "liczba": 1953
    },
    {
     "rok": 2020,
-    "liczba": 259
+    "liczba": 1507
    },
    {
     "rok": 2021,
-    "liczba": 237
+    "liczba": 915
    },
    {
     "rok": 2022,
-    "liczba": 127
+    "liczba": 335
    },
    {
     "rok": 2023,
-    "liczba": 73
+    "liczba": 654
    },
    {
     "rok": 2024,
-    "liczba": 71
+    "liczba": 1432
    },
    {
     "rok": 2025,
-    "liczba": 240
+    "liczba": 1153
    },
    {
     "rok": 2026,
-    "liczba": 845
+    "liczba": 850
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 5891
+    "liczba": 12719
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1594
+    "liczba": 3738
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1040
+    "liczba": 3177
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 307
+    "liczba": 1147
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 47
+    "liczba": 147
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 7169
+    "liczba": 17484
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1036
+    "liczba": 2039
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 511
+    "liczba": 1068
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 163
+    "liczba": 337
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5000
-   },
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2166
+    "liczba": 11369
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1591
+    "liczba": 5182
+   },
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 4219
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 122
+    "liczba": 158
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 8635
+    "liczba": 20462
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 244
+    "liczba": 466
    }
   ],
-  "noweOdPaczki": 3641,
-  "hybrydy": 1345,
+  "noweOdPaczki": 15690,
+  "hybrydy": 4322,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1161
+   },
+   {
+    "rok": 2024,
+    "liczba": 5754
+   },
+   {
+    "rok": 2025,
+    "liczba": 4946
+   },
+   {
     "rok": 2026,
-    "liczba": 3641
+    "liczba": 3829
    }
   ],
-  "miejsce": 256,
-  "miejsceWMarce": 9,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 318
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 415
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 607
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 623
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 559
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 455
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 452
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 442
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 386
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 420
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 521
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 460
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 414
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 369
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 443
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 502
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 472
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 475
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 432
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 425
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 349
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 415
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 423
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 302
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 339
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 188
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 179,
+  "miejsceWMarce": 7,
   "modeliWMarce": 33,
-  "sredniRocznik": 2016.3
+  "sredniRocznik": 2017.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "v60",
@@ -259,14 +413,14 @@
    "adres": "/marki/volkswagen/tiguan/"
   },
   {
-   "slug": "ssangyong-korando",
-   "nazwa": "SsangYong (KGM) Korando",
-   "adres": "/marki/ssangyong-kgm/korando/"
+   "slug": "jaguar-e-pace",
+   "nazwa": "Jaguar E-Pace",
+   "adres": "/marki/jaguar/e-pace/"
   },
   {
-   "slug": "mercedes-benz-klasa-v",
-   "nazwa": "Mercedes-Benz Klasa V",
-   "adres": "/marki/mercedes-benz/klasa-v/"
+   "slug": "mazda-cx-3",
+   "nazwa": "Mazda CX-3",
+   "adres": "/marki/mazda/cx-3/"
   }
  ]
 }

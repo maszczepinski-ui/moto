@@ -13,128 +13,128 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 2008 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 468 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 2008, 2008 1.6 HDI, 2008 GT).",
-  "liczbaWPolsce": 14665,
-  "aktywne": 11799,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 2008 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 268 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 2008, 2008 1.6 HDI, 2008 GT, 2008 1 6 BLU HDI).",
+  "liczbaWPolsce": 29465,
+  "aktywne": 26599,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 996
+    "liczba": 1799
    },
    {
     "teryt": "04",
-    "liczba": 787
+    "liczba": 1525
    },
    {
     "teryt": "06",
-    "liczba": 405
+    "liczba": 962
    },
    {
     "teryt": "08",
-    "liczba": 300
+    "liczba": 651
    },
    {
     "teryt": "10",
-    "liczba": 673
+    "liczba": 1447
    },
    {
     "teryt": "12",
-    "liczba": 1439
+    "liczba": 2642
    },
    {
     "teryt": "14",
-    "liczba": 2290
+    "liczba": 4789
    },
    {
     "teryt": "16",
-    "liczba": 174
+    "liczba": 363
    },
    {
     "teryt": "18",
-    "liczba": 616
+    "liczba": 1483
    },
    {
     "teryt": "20",
-    "liczba": 211
+    "liczba": 485
    },
    {
     "teryt": "22",
-    "liczba": 840
+    "liczba": 1465
    },
    {
     "teryt": "24",
-    "liczba": 1922
+    "liczba": 3422
    },
    {
     "teryt": "26",
-    "liczba": 405
+    "liczba": 882
    },
    {
     "teryt": "28",
-    "liczba": 311
+    "liczba": 638
    },
    {
     "teryt": "30",
-    "liczba": 2685
+    "liczba": 5881
    },
    {
     "teryt": "32",
-    "liczba": 509
+    "liczba": 929
    }
   ],
   "bezWojewodztwa": 102,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 1144
+    "liczba": 1957
    },
    {
     "rok": 2014,
-    "liczba": 1631
+    "liczba": 2890
    },
    {
     "rok": 2015,
-    "liczba": 1636
+    "liczba": 2982
    },
    {
     "rok": 2016,
-    "liczba": 1721
+    "liczba": 3175
    },
    {
     "rok": 2017,
-    "liczba": 2347
+    "liczba": 3713
    },
    {
     "rok": 2018,
-    "liczba": 2008
+    "liczba": 3103
    },
    {
     "rok": 2019,
-    "liczba": 830
+    "liczba": 1605
    },
    {
     "rok": 2020,
-    "liczba": 472
+    "liczba": 1324
    },
    {
     "rok": 2021,
-    "liczba": 514
+    "liczba": 1453
    },
    {
     "rok": 2022,
-    "liczba": 270
+    "liczba": 717
    },
    {
     "rok": 2023,
-    "liczba": 165
+    "liczba": 1457
    },
    {
     "rok": 2024,
-    "liczba": 121
+    "liczba": 1638
    },
    {
     "rok": 2025,
-    "liczba": 488
+    "liczba": 2129
    },
    {
     "rok": 2026,
@@ -144,103 +144,266 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 10547
+    "liczba": 19535
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3489
+    "liczba": 8009
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 446
+    "liczba": 1142
+   },
+   {
+    "nazwa": "Elektryczny",
+    "liczba": 628
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 183
+    "liczba": 151
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 9911
+    "liczba": 19087
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 3706
+    "liczba": 7172
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 776
+    "liczba": 2350
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 272
+    "liczba": 856
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 7221
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 12949
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5490
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 9894
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1757
+    "liczba": 6264
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 91
+    "liczba": 246
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 106
+    "liczba": 112
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 10410
+    "liczba": 16929
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2893
+    "liczba": 9383
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1196
+    "liczba": 2870
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 166
+    "liczba": 283
    }
   ],
-  "noweOdPaczki": 5468,
-  "hybrydy": 446,
-  "elektryczne": 100,
+  "noweOdPaczki": 20268,
+  "hybrydy": 1142,
+  "elektryczne": 628,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1441
+   },
+   {
+    "rok": 2024,
+    "liczba": 5942
+   },
+   {
+    "rok": 2025,
+    "liczba": 7112
+   },
+   {
     "rok": 2026,
-    "liczba": 5468
+    "liczba": 5773
    }
   ],
-  "miejsce": 190,
-  "miejsceWMarce": 15,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 373
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 510
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 617
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 572
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 429
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 372
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 411
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 601
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 463
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 470
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 575
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 493
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 429
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 452
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 513
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 650
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 682
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 663
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 613
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 624
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 579
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 636
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 617
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 532
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 551
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 305
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 143,
+  "miejsceWMarce": 8,
   "modeliWMarce": 44,
-  "sredniRocznik": 2017.6
+  "sredniRocznik": 2018.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "2008",
  "adres": "/marki/peugeot/2008/",
  "konkurenci": [
+  {
+   "slug": "dacia-duster",
+   "nazwa": "Dacia Duster",
+   "adres": "/marki/dacia/duster/"
+  },
   {
    "slug": "renault-kadjar",
    "nazwa": "Renault Kadjar",
@@ -252,19 +415,14 @@
    "adres": "/marki/volkswagen/golf-sportsvan/"
   },
   {
-   "slug": "dacia-duster",
-   "nazwa": "Dacia Duster",
-   "adres": "/marki/dacia/duster/"
-  },
-  {
    "slug": "audi-q2",
    "nazwa": "Audi Q2",
    "adres": "/marki/audi/q2/"
   },
   {
-   "slug": "dacia-lodgy",
-   "nazwa": "Dacia Lodgy",
-   "adres": "/marki/dacia/lodgy/"
+   "slug": "dacia-dokker",
+   "nazwa": "Dacia Dokker",
+   "adres": "/marki/dacia/dokker/"
   }
  ]
 }

@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 24 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 24, 24 02).",
-  "liczbaWPolsce": 715,
-  "aktywne": 8,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 24 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 24, 24 02).",
+  "liczbaWPolsce": 730,
+  "aktywne": 23,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "teryt": "08",
@@ -33,27 +33,31 @@
    },
    {
     "teryt": "10",
-    "liczba": 94
+    "liczba": 95
    },
    {
     "teryt": "12",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "14",
-    "liczba": 18
+    "liczba": 19
+   },
+   {
+    "teryt": "18",
+    "liczba": 3
    },
    {
     "teryt": "20",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "22",
-    "liczba": 1
+    "liczba": 3
    },
    {
     "teryt": "24",
-    "liczba": 5
+    "liczba": 9
    },
    {
     "teryt": "26",
@@ -61,7 +65,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "teryt": "30",
@@ -124,7 +128,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 56
+    "liczba": 57
    },
    {
     "rok": 1975,
@@ -136,35 +140,35 @@
    },
    {
     "rok": 1977,
-    "liczba": 47
+    "liczba": 48
    },
    {
     "rok": 1978,
-    "liczba": 39
+    "liczba": 41
    },
    {
     "rok": 1979,
-    "liczba": 40
+    "liczba": 41
    },
    {
     "rok": 1980,
-    "liczba": 64
+    "liczba": 65
    },
    {
     "rok": 1981,
-    "liczba": 43
+    "liczba": 44
    },
    {
     "rok": 1982,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 1983,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 1984,
-    "liczba": 18
+    "liczba": 22
    },
    {
     "rok": 1985,
@@ -172,7 +176,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 1987,
@@ -202,7 +206,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 535
+    "liczba": 549
    },
    {
     "nazwa": "Diesel",
@@ -210,13 +214,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 160
+    "liczba": 161
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 673
+    "liczba": 688
    },
    {
     "nazwa": "2,2 l",
@@ -234,7 +238,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 568
+    "liczba": 572
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -242,7 +246,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 13
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
@@ -252,32 +256,186 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 31
+    "liczba": 46
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 684
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 16,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 6
+   },
+   {
+    "rok": 2025,
+    "liczba": 7
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 745,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 823,
   "miejsceWMarce": 3,
   "modeliWMarce": 4,
-  "sredniRocznik": 1977.0
+  "sredniRocznik": 1977.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "gaz",
  "modelSlug": "24",
@@ -299,14 +457,14 @@
    "adres": "/marki/ford/taunus/"
   },
   {
-   "slug": "peugeot-504",
-   "nazwa": "Peugeot 504",
-   "adres": "/marki/peugeot/504/"
-  },
-  {
    "slug": "fiat-132",
    "nazwa": "Fiat 132",
    "adres": "/marki/fiat/132/"
+  },
+  {
+   "slug": "peugeot-504",
+   "nazwa": "Peugeot 504",
+   "adres": "/marki/peugeot/504/"
   }
  ]
 }

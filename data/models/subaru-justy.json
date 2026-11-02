@@ -13,73 +13,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Justy – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 81 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JUSTY, JUSTY G3X, JUSTY 1.2, JUSTY 1.0, JUSTY 1.2 4WD).",
-  "liczbaWPolsce": 2147,
-  "aktywne": 745,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Justy – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 446 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JUSTY, JUSTY G3X, JUSTY 1.2, JUSTY 1.0, JUSTY 1.2 4WD).",
+  "liczbaWPolsce": 2512,
+  "aktywne": 1110,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 235
+    "liczba": 280
    },
    {
     "teryt": "04",
-    "liczba": 41
+    "liczba": 50
    },
    {
     "teryt": "06",
-    "liczba": 102
+    "liczba": 123
    },
    {
     "teryt": "08",
-    "liczba": 42
+    "liczba": 48
    },
    {
     "teryt": "10",
-    "liczba": 82
+    "liczba": 101
    },
    {
     "teryt": "12",
-    "liczba": 514
+    "liczba": 584
    },
    {
     "teryt": "14",
-    "liczba": 188
+    "liczba": 211
    },
    {
     "teryt": "16",
-    "liczba": 29
+    "liczba": 37
    },
    {
     "teryt": "18",
-    "liczba": 122
+    "liczba": 158
    },
    {
     "teryt": "20",
-    "liczba": 41
+    "liczba": 45
    },
    {
     "teryt": "22",
-    "liczba": 86
-   },
-   {
-    "teryt": "24",
-    "liczba": 324
-   },
-   {
-    "teryt": "26",
-    "liczba": 32
-   },
-   {
-    "teryt": "28",
     "liczba": 102
    },
    {
+    "teryt": "24",
+    "liczba": 359
+   },
+   {
+    "teryt": "26",
+    "liczba": 45
+   },
+   {
+    "teryt": "28",
+    "liczba": 120
+   },
+   {
     "teryt": "30",
-    "liczba": 127
+    "liczba": 156
    },
    {
     "teryt": "32",
-    "liczba": 67
+    "liczba": 80
    }
   ],
   "bezWojewodztwa": 13,
@@ -94,7 +94,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 1987,
@@ -114,7 +114,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 166
+    "liczba": 167
    },
    {
     "rok": 1992,
@@ -146,61 +146,65 @@
    },
    {
     "rok": 1999,
-    "liczba": 32
+    "liczba": 37
    },
    {
     "rok": 2000,
-    "liczba": 31
+    "liczba": 34
    },
    {
     "rok": 2001,
-    "liczba": 29
+    "liczba": 31
    },
    {
     "rok": 2002,
-    "liczba": 23
+    "liczba": 26
    },
    {
     "rok": 2003,
-    "liczba": 102
+    "liczba": 128
    },
    {
     "rok": 2004,
-    "liczba": 171
+    "liczba": 209
    },
    {
     "rok": 2005,
-    "liczba": 144
+    "liczba": 175
    },
    {
     "rok": 2006,
-    "liczba": 141
+    "liczba": 188
    },
    {
     "rok": 2007,
-    "liczba": 138
+    "liczba": 185
    },
    {
     "rok": 2008,
-    "liczba": 166
+    "liczba": 221
    },
    {
     "rok": 2009,
-    "liczba": 141
+    "liczba": 212
    },
    {
     "rok": 2010,
-    "liczba": 73
+    "liczba": 103
+   },
+   {
+    "rok": 2011,
+    "liczba": 7
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1638
+    "liczba": 1973
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 265
+    "liczba": 295
    },
    {
     "nazwa": "Inne / brak danych",
@@ -210,19 +214,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 912
+    "liczba": 1129
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 609
+    "liczba": 746
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 513
+    "liczba": 514
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 92
+    "liczba": 102
    },
    {
     "nazwa": "Inne / brak danych",
@@ -232,11 +236,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1373
+    "liczba": 1657
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 682
+    "liczba": 763
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -250,77 +254,227 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1473
+    "liczba": 1710
    },
    {
     "nazwa": "Kombi",
-    "liczba": 248
+    "liczba": 351
    },
    {
     "nazwa": "Sedan",
-    "liczba": 89
+    "liczba": 91
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 27
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 22
+    "liczba": 47
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 288
+    "liczba": 313
    }
   ],
-  "noweOdPaczki": 81,
+  "noweOdPaczki": 446,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 63
+   },
+   {
+    "rok": 2024,
+    "liczba": 163
+   },
+   {
+    "rok": 2025,
+    "liczba": 133
+   },
+   {
     "rok": 2026,
-    "liczba": 81
+    "liczba": 87
    }
   ],
-  "miejsce": 487,
-  "miejsceWMarce": 4,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 525,
+  "miejsceWMarce": 6,
   "modeliWMarce": 12,
-  "sredniRocznik": 1999.8
+  "sredniRocznik": 2000.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "justy",
  "adres": "/marki/subaru/justy/",
  "konkurenci": [
   {
-   "slug": "lancia-y",
-   "nazwa": "Lancia Y",
-   "adres": "/marki/lancia/y/"
-  },
-  {
-   "slug": "citroen-saxo",
-   "nazwa": "Citroen Saxo",
-   "adres": "/marki/citroen/saxo/"
-  },
-  {
    "slug": "volkswagen-lupo",
    "nazwa": "Volkswagen Lupo",
    "adres": "/marki/volkswagen/lupo/"
   },
   {
-   "slug": "ford-fiesta",
-   "nazwa": "Ford Fiesta",
-   "adres": "/marki/ford/fiesta/"
+   "slug": "fiat-seicento",
+   "nazwa": "Fiat Seicento",
+   "adres": "/marki/fiat/seicento/"
   },
   {
-   "slug": "seat-arosa",
-   "nazwa": "Seat Arosa",
-   "adres": "/marki/seat/arosa/"
+   "slug": "lancia-y",
+   "nazwa": "Lancia Y",
+   "adres": "/marki/lancia/y/"
+  },
+  {
+   "slug": "opel-corsa-c",
+   "nazwa": "Opel Corsa C",
+   "adres": "/marki/opel/corsa/c/"
+  },
+  {
+   "slug": "suzuki-wagon-r",
+   "nazwa": "Suzuki Wagon R+",
+   "adres": "/marki/suzuki/wagon-r/"
   }
  ]
 }

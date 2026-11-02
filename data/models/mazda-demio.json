@@ -13,37 +13,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Demio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEMIO, DEMIO 1.3 KAT, DEMIO 1.3, DEMIO 1,3 KAT).",
-  "liczbaWPolsce": 1343,
-  "aktywne": 432,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Demio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEMIO, DEMIO 1.3 KAT, DEMIO 1.3, DEMIO 1,3 KAT).",
+  "liczbaWPolsce": 1379,
+  "aktywne": 468,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 123
+    "liczba": 129
    },
    {
     "teryt": "04",
-    "liczba": 73
+    "liczba": 74
    },
    {
     "teryt": "06",
-    "liczba": 88
+    "liczba": 90
    },
    {
     "teryt": "08",
-    "liczba": 58
+    "liczba": 64
    },
    {
     "teryt": "10",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "teryt": "12",
-    "liczba": 108
+    "liczba": 110
    },
    {
     "teryt": "14",
-    "liczba": 151
+    "liczba": 155
    },
    {
     "teryt": "16",
@@ -51,58 +51,58 @@
    },
    {
     "teryt": "18",
-    "liczba": 74
+    "liczba": 75
    },
    {
     "teryt": "20",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "teryt": "22",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "24",
-    "liczba": 96
+    "liczba": 100
    },
    {
     "teryt": "26",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "28",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "30",
-    "liczba": 172
+    "liczba": 175
    },
    {
     "teryt": "32",
-    "liczba": 75
+    "liczba": 76
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 1998,
-    "liczba": 137
+    "liczba": 138
    },
    {
     "rok": 1999,
-    "liczba": 298
+    "liczba": 301
    },
    {
     "rok": 2000,
-    "liczba": 388
+    "liczba": 398
    },
    {
     "rok": 2001,
-    "liczba": 258
+    "liczba": 271
    },
    {
     "rok": 2002,
-    "liczba": 209
+    "liczba": 218
    },
    {
     "rok": 2003,
@@ -136,11 +136,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1188
+    "liczba": 1223
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 149
+    "liczba": 150
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,11 +150,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 958
+    "liczba": 976
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 380
+    "liczba": 398
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1036
+    "liczba": 1062
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 298
+    "liczba": 308
    },
    {
     "nazwa": "Inne / brak danych",
@@ -178,19 +178,19 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 885
+    "liczba": 915
    },
    {
     "nazwa": "Kombi",
-    "liczba": 233
+    "liczba": 236
    },
    {
     "nazwa": "Van",
-    "liczba": 164
+    "liczba": 165
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Sedan",
@@ -198,28 +198,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 25
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 42,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 9
+   },
+   {
+    "rok": 2024,
+    "liczba": 15
+   },
+   {
+    "rok": 2025,
+    "liczba": 12
+   },
    {
     "rok": 2026,
     "liczba": 6
    }
   ],
-  "miejsce": 603,
-  "miejsceWMarce": 18,
-  "modeliWMarce": 29,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 671,
+  "miejsceWMarce": 19,
+  "modeliWMarce": 32,
   "sredniRocznik": 2000.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "demio",
@@ -231,14 +385,14 @@
    "adres": "/marki/hyundai/accent/"
   },
   {
-   "slug": "mitsubishi-colt",
-   "nazwa": "Mitsubishi Colt",
-   "adres": "/marki/mitsubishi/colt/"
+   "slug": "skoda-felicia",
+   "nazwa": "Skoda Felicia",
+   "adres": "/marki/skoda/felicia/"
   },
   {
-   "slug": "ford-fiesta",
-   "nazwa": "Ford Fiesta",
-   "adres": "/marki/ford/fiesta/"
+   "slug": "kia-pride",
+   "nazwa": "Kia Pride",
+   "adres": "/marki/kia/pride/"
   },
   {
    "slug": "volkswagen-polo",
@@ -246,9 +400,9 @@
    "adres": "/marki/volkswagen/polo/"
   },
   {
-   "slug": "skoda-felicia",
-   "nazwa": "Skoda Felicia",
-   "adres": "/marki/skoda/felicia/"
+   "slug": "volkswagen-lupo",
+   "nazwa": "Volkswagen Lupo",
+   "adres": "/marki/volkswagen/lupo/"
   }
  ]
 }

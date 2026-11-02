@@ -3,21 +3,22 @@
  "marka": "Kia",
  "model": "Seltos",
  "generacja": "",
- "lataProdukcji": "2026–2026",
+ "lataProdukcji": "2020–2026",
  "nadwozia": [
-  "kombi"
+  "kombi",
+  "van"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Seltos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 351 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SELTOS).",
-  "liczbaWPolsce": 351,
-  "aktywne": 351,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Seltos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 369 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SELTOS).",
+  "liczbaWPolsce": 369,
+  "aktywne": 369,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 33
    },
    {
     "teryt": "04",
@@ -25,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "08",
@@ -33,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "12",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "teryt": "16",
@@ -49,27 +50,27 @@
    },
    {
     "teryt": "18",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "20",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "22",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "24",
-    "liczba": 44
+    "liczba": 48
    },
    {
     "teryt": "26",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "teryt": "28",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "30",
@@ -83,28 +84,32 @@
   "bezWojewodztwa": 0,
   "roczniki": [
    {
-    "rok": 2020,
-    "liczba": 2
-   },
-   {
-    "rok": 2021,
-    "liczba": 2
-   },
-   {
-    "rok": 2022,
+    "rok": 2019,
     "liczba": 1
    },
    {
+    "rok": 2020,
+    "liczba": 7
+   },
+   {
+    "rok": 2021,
+    "liczba": 5
+   },
+   {
+    "rok": 2022,
+    "liczba": 2
+   },
+   {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 6
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 6
    },
    {
     "rok": 2025,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2026,
@@ -114,7 +119,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 350
+    "liczba": 368
    },
    {
     "nazwa": "Inne / brak danych",
@@ -124,11 +129,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 345
+    "liczba": 349
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 6
+    "liczba": 18
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
   "pochodzenie": [
@@ -138,11 +147,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 11
+    "liczba": 24
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5
+    "liczba": 10
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -152,50 +161,200 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 343
+    "liczba": 348
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 7
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 5
    }
   ],
-  "noweOdPaczki": 351,
+  "noweOdPaczki": 369,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2024,
+    "liczba": 6
+   },
+   {
+    "rok": 2025,
+    "liczba": 11
+   },
+   {
     "rok": 2026,
-    "liczba": 351
+    "liczba": 352
    }
   ],
-  "miejsce": 951,
-  "miejsceWMarce": 23,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2025.9
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1024,
+  "miejsceWMarce": 25,
+  "modeliWMarce": 32,
+  "sredniRocznik": 2025.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "seltos",
  "adres": "/marki/kia/seltos/",
  "konkurenci": [
   {
-   "slug": "cupra-formentor",
-   "nazwa": "Cupra Formentor",
-   "adres": "/marki/cupra/formentor/"
-  },
-  {
    "slug": "cupra-leon",
    "nazwa": "Cupra Leon",
    "adres": "/marki/cupra/leon/"
+  },
+  {
+   "slug": "cupra-formentor",
+   "nazwa": "Cupra Formentor",
+   "adres": "/marki/cupra/formentor/"
   },
   {
    "slug": "baic-x55",
@@ -208,9 +367,9 @@
    "adres": "/marki/baic/beijing-3/"
   },
   {
-   "slug": "lexus-lbx",
-   "nazwa": "Lexus LBX",
-   "adres": "/marki/lexus/lbx/"
+   "slug": "cupra-ateca",
+   "nazwa": "Cupra Ateca",
+   "adres": "/marki/cupra/ateca/"
   }
  ]
 }

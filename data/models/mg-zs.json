@@ -3,7 +3,7 @@
  "marka": "MG",
  "model": "ZS",
  "generacja": "",
- "lataProdukcji": "2025–2026",
+ "lataProdukcji": "2023–2026",
  "nadwozia": [
   "hatchback"
  ],
@@ -11,188 +11,341 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG ZS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 343 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG ZS, ZS, ZS HYBRID, MG ZS EV, ZS EV).",
-  "liczbaWPolsce": 6343,
-  "aktywne": 6343,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG ZS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 372 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG ZS, ZS, MG ZS EV, ZS HYBRID, ZS EV).",
+  "liczbaWPolsce": 13372,
+  "aktywne": 13372,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 371
+    "liczba": 720
    },
    {
     "teryt": "04",
-    "liczba": 395
+    "liczba": 779
    },
    {
     "teryt": "06",
-    "liczba": 184
+    "liczba": 470
    },
    {
     "teryt": "08",
-    "liczba": 165
+    "liczba": 343
    },
    {
     "teryt": "10",
-    "liczba": 237
+    "liczba": 552
    },
    {
     "teryt": "12",
-    "liczba": 379
+    "liczba": 734
    },
    {
     "teryt": "14",
-    "liczba": 1035
+    "liczba": 2417
    },
    {
     "teryt": "16",
-    "liczba": 144
+    "liczba": 279
    },
    {
     "teryt": "18",
-    "liczba": 293
+    "liczba": 601
    },
    {
     "teryt": "20",
-    "liczba": 263
+    "liczba": 452
    },
    {
     "teryt": "22",
-    "liczba": 536
+    "liczba": 1070
    },
    {
     "teryt": "24",
-    "liczba": 808
+    "liczba": 1654
    },
    {
     "teryt": "26",
-    "liczba": 138
+    "liczba": 267
    },
    {
     "teryt": "28",
-    "liczba": 383
-   },
-   {
-    "teryt": "30",
     "liczba": 671
    },
    {
+    "teryt": "30",
+    "liczba": 1509
+   },
+   {
     "teryt": "32",
-    "liczba": 341
+    "liczba": 854
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 34
+    "liczba": 116
    },
    {
     "rok": 2023,
-    "liczba": 46
+    "liczba": 1218
    },
    {
     "rok": 2024,
-    "liczba": 45
+    "liczba": 3294
    },
    {
     "rok": 2025,
-    "liczba": 2241
+    "liczba": 4736
    },
    {
     "rok": 2026,
-    "liczba": 3956
+    "liczba": 3957
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 5611
+    "liczba": 9143
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 687
+    "liczba": 4079
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 45
+    "liczba": 150
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 6274
+    "liczba": 12583
+   },
+   {
+    "nazwa": "1,0 l",
+    "liczba": 715
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 69
+    "liczba": 74
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6002
+    "liczba": 12147
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 197
+    "liczba": 835
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 125
+    "liczba": 327
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 19
+    "liczba": 63
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6327
+    "liczba": 13314
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 16
+    "liczba": 58
    }
   ],
-  "noweOdPaczki": 6343,
-  "hybrydy": 5611,
-  "elektryczne": 35,
+  "noweOdPaczki": 13372,
+  "hybrydy": 9143,
+  "elektryczne": 70,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 25
+   },
+   {
+    "rok": 2024,
+    "liczba": 1758
+   },
+   {
+    "rok": 2025,
+    "liczba": 5070
+   },
+   {
     "rok": 2026,
-    "liczba": 6343
+    "liczba": 6519
    }
   ],
-  "miejsce": 303,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 144
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 207
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 261
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 290
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 200
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 67
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 97
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 185
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 280
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 386
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 489
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 490
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 387
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 382
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 607
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 514
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 349
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 463
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 338
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 385
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 176
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 247,
   "miejsceWMarce": 2,
-  "modeliWMarce": 5,
-  "sredniRocznik": 2025.6
+  "modeliWMarce": 7,
+  "sredniRocznik": 2024.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "zs",
  "adres": "/marki/mg/zs/",
  "konkurenci": [
   {
-   "slug": "chery-tiggo-7",
-   "nazwa": "Chery Tiggo 7",
-   "adres": "/marki/chery/tiggo-7/"
-  },
-  {
    "slug": "jaecoo-7",
    "nazwa": "Jaecoo 7",
    "adres": "/marki/jaecoo/7/"
   },
   {
-   "slug": "geely-starray",
-   "nazwa": "Geely Starray",
-   "adres": "/marki/geely/starray/"
+   "slug": "dacia-bigster",
+   "nazwa": "Dacia Bigster",
+   "adres": "/marki/dacia/bigster/"
   },
   {
    "slug": "chery-tiggo-4",
@@ -203,6 +356,11 @@
    "slug": "omoda-5",
    "nazwa": "Omoda 5",
    "adres": "/marki/omoda/5/"
+  },
+  {
+   "slug": "kia-xceed",
+   "nazwa": "Kia XCeed",
+   "adres": "/marki/kia/xceed/"
   }
  ]
 }

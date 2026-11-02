@@ -13,114 +13,114 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Vaneo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VANEO, VANEO 1.7 CDI, VANEO 1,7 CDI, VANEO 1.9).",
-  "liczbaWPolsce": 1948,
-  "aktywne": 688,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Vaneo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 132 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VANEO, VANEO 1.7 CDI, VANEO 1,7 CDI, VANEO 1.9, VANEO 1.6).",
+  "liczbaWPolsce": 2065,
+  "aktywne": 805,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 162
+    "liczba": 171
    },
    {
     "teryt": "04",
-    "liczba": 102
+    "liczba": 105
    },
    {
     "teryt": "06",
-    "liczba": 93
+    "liczba": 94
    },
    {
     "teryt": "08",
-    "liczba": 96
+    "liczba": 106
    },
    {
     "teryt": "10",
-    "liczba": 130
+    "liczba": 140
    },
    {
     "teryt": "12",
-    "liczba": 124
+    "liczba": 132
    },
    {
     "teryt": "14",
-    "liczba": 228
+    "liczba": 237
    },
    {
     "teryt": "16",
-    "liczba": 33
+    "liczba": 38
    },
    {
     "teryt": "18",
-    "liczba": 113
+    "liczba": 115
    },
    {
     "teryt": "20",
-    "liczba": 63
+    "liczba": 68
    },
    {
     "teryt": "22",
-    "liczba": 126
+    "liczba": 134
    },
    {
     "teryt": "24",
-    "liczba": 198
+    "liczba": 209
    },
    {
     "teryt": "26",
-    "liczba": 41
+    "liczba": 44
    },
    {
     "teryt": "28",
-    "liczba": 62
+    "liczba": 70
    },
    {
     "teryt": "30",
-    "liczba": 217
+    "liczba": 233
    },
    {
     "teryt": "32",
-    "liczba": 118
+    "liczba": 127
    }
   ],
   "bezWojewodztwa": 42,
   "roczniki": [
    {
     "rok": 2001,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 2002,
-    "liczba": 771
+    "liczba": 803
    },
    {
     "rok": 2003,
-    "liczba": 544
+    "liczba": 571
    },
    {
     "rok": 2004,
-    "liczba": 331
+    "liczba": 362
    },
    {
     "rok": 2005,
-    "liczba": 209
+    "liczba": 234
    },
    {
     "rok": 2006,
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1448
+    "liczba": 1505
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 305
+    "liczba": 356
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 165
+    "liczba": 174
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,15 +130,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 1462
+    "liczba": 1516
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 250
+    "liczba": 281
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 231
+    "liczba": 263
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,11 +148,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1017
+    "liczba": 1115
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 849
+    "liczba": 868
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -166,67 +166,216 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 1031
+    "liczba": 1065
    },
    {
     "nazwa": "Kombi",
-    "liczba": 409
-   },
-   {
-    "nazwa": "Hatchback",
-    "liczba": 191
+    "liczba": 431
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 183
+    "liczba": 226
+   },
+   {
+    "nazwa": "Hatchback",
+    "liczba": 202
    },
    {
     "nazwa": "Sedan",
-    "liczba": 48
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 86
+    "liczba": 89
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 132,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 9
+   },
+   {
+    "rok": 2024,
+    "liczba": 57
+   },
+   {
+    "rok": 2025,
+    "liczba": 49
+   },
+   {
     "rok": 2026,
-    "liczba": 15
+    "liczba": 17
    }
   ],
-  "miejsce": 506,
-  "miejsceWMarce": 23,
-  "modeliWMarce": 48,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 566,
+  "miejsceWMarce": 29,
+  "modeliWMarce": 54,
   "sredniRocznik": 2003.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "vaneo",
  "adres": "/marki/mercedes-benz/vaneo/",
  "konkurenci": [
   {
-   "slug": "renault-scenic",
-   "nazwa": "Renault Scenic",
-   "adres": "/marki/renault/scenic/"
-  },
-  {
    "slug": "citroen-xsara-picasso",
    "nazwa": "Citroen Xsara Picasso",
    "adres": "/marki/citroen/xsara-picasso/"
   },
   {
-   "slug": "ford-galaxy",
-   "nazwa": "Ford Galaxy",
-   "adres": "/marki/ford/galaxy/"
+   "slug": "renault-scenic",
+   "nazwa": "Renault Scenic",
+   "adres": "/marki/renault/scenic/"
   },
   {
    "slug": "volkswagen-sharan",
@@ -234,9 +383,14 @@
    "adres": "/marki/volkswagen/sharan/"
   },
   {
-   "slug": "seat-alhambra",
-   "nazwa": "Seat Alhambra",
-   "adres": "/marki/seat/alhambra/"
+   "slug": "fiat-multipla",
+   "nazwa": "Fiat Multipla",
+   "adres": "/marki/fiat/multipla/"
+  },
+  {
+   "slug": "ford-galaxy",
+   "nazwa": "Ford Galaxy",
+   "adres": "/marki/ford/galaxy/"
   }
  ]
 }

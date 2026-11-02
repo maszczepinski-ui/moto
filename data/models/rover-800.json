@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 800 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 820, 820 KAT, 827 KAT, 827, 825).",
-  "liczbaWPolsce": 563,
-  "aktywne": 12,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 800 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 820, 820 KAT, 827 KAT, 827, 825).",
+  "liczbaWPolsce": 566,
+  "aktywne": 15,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "14",
-    "liczba": 99
+    "liczba": 100
    },
    {
     "teryt": "16",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "24",
@@ -86,7 +86,7 @@
   "roczniki": [
    {
     "rok": 1987,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1988,
@@ -106,7 +106,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 1993,
@@ -130,7 +130,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1999,
@@ -140,7 +140,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 175
+    "liczba": 178
    },
    {
     "nazwa": "Diesel",
@@ -166,11 +166,11 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 186
+    "liczba": 188
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 163
+    "liczba": 164
    },
    {
     "nazwa": "Inne / brak danych",
@@ -180,11 +180,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 354
+    "liczba": 355
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 163
+    "liczba": 165
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -202,7 +202,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 324
+    "liczba": 327
    },
    {
     "nazwa": "Hatchback",
@@ -217,16 +217,170 @@
     "liczba": 142
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 4,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 805,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 884,
   "miejsceWMarce": 7,
   "modeliWMarce": 9,
   "sredniRocznik": 1993.9
@@ -235,17 +389,12 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "rover",
  "modelSlug": "800",
  "adres": "/marki/rover/800/",
  "konkurenci": [
-  {
-   "slug": "lancia-thema",
-   "nazwa": "Lancia Thema",
-   "adres": "/marki/lancia/thema/"
-  },
   {
    "slug": "peugeot-605",
    "nazwa": "Peugeot 605",
@@ -255,6 +404,11 @@
    "slug": "opel-omega",
    "nazwa": "Opel Omega",
    "adres": "/marki/opel/omega/"
+  },
+  {
+   "slug": "lancia-thema",
+   "nazwa": "Lancia Thema",
+   "adres": "/marki/lancia/thema/"
   },
   {
    "slug": "mitsubishi-galant",

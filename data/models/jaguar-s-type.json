@@ -11,73 +11,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar S-Type – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 28 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S-TYPE, S-TYPE 3.0, S-TYPE 3.0 KAT, S-TYPE 3.0 V6, S-TYPE 2.7D).",
-  "liczbaWPolsce": 1780,
-  "aktywne": 565,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar S-Type – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 159 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S-TYPE, S-TYPE 3.0, S-TYPE 3.0 KAT, S-TYPE 2.7D, S-TYPE 3.0 V6).",
+  "liczbaWPolsce": 1911,
+  "aktywne": 696,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 150
+    "liczba": 163
    },
    {
     "teryt": "04",
-    "liczba": 80
+    "liczba": 83
    },
    {
     "teryt": "06",
-    "liczba": 94
+    "liczba": 108
    },
    {
     "teryt": "08",
-    "liczba": 47
+    "liczba": 57
    },
    {
     "teryt": "10",
-    "liczba": 112
+    "liczba": 116
    },
    {
     "teryt": "12",
-    "liczba": 112
+    "liczba": 123
    },
    {
     "teryt": "14",
-    "liczba": 370
+    "liczba": 386
    },
    {
     "teryt": "16",
-    "liczba": 40
+    "liczba": 45
    },
    {
     "teryt": "18",
-    "liczba": 72
+    "liczba": 79
    },
    {
     "teryt": "20",
-    "liczba": 47
+    "liczba": 49
    },
    {
     "teryt": "22",
-    "liczba": 98
+    "liczba": 107
    },
    {
     "teryt": "24",
-    "liczba": 153
+    "liczba": 163
    },
    {
     "teryt": "26",
-    "liczba": 44
+    "liczba": 51
    },
    {
     "teryt": "28",
-    "liczba": 74
+    "liczba": 77
    },
    {
     "teryt": "30",
-    "liczba": 195
+    "liczba": 209
    },
    {
     "teryt": "32",
-    "liczba": 69
+    "liczba": 72
    }
   ],
   "bezWojewodztwa": 23,
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1966,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1967,
@@ -224,57 +224,57 @@
    },
    {
     "rok": 1999,
-    "liczba": 264
+    "liczba": 276
    },
    {
     "rok": 2000,
-    "liczba": 331
+    "liczba": 346
    },
    {
     "rok": 2001,
-    "liczba": 210
+    "liczba": 224
    },
    {
     "rok": 2002,
-    "liczba": 199
+    "liczba": 219
    },
    {
     "rok": 2003,
-    "liczba": 149
+    "liczba": 161
    },
    {
     "rok": 2004,
-    "liczba": 179
+    "liczba": 194
    },
    {
     "rok": 2005,
-    "liczba": 164
+    "liczba": 178
    },
    {
     "rok": 2006,
-    "liczba": 114
+    "liczba": 125
    },
    {
     "rok": 2007,
-    "liczba": 95
+    "liczba": 107
    },
    {
     "rok": 2008,
-    "liczba": 8
+    "liczba": 12
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1024
+    "liczba": 1119
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 407
+    "liczba": 411
    },
    {
     "nazwa": "Diesel",
-    "liczba": 343
+    "liczba": 375
    },
    {
     "nazwa": "Inne / brak danych",
@@ -284,37 +284,37 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 976
+    "liczba": 1034
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 348
+    "liczba": 380
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 165
+    "liczba": 175
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 139
+    "liczba": 154
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 130
+    "liczba": 145
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 22
+    "liczba": 23
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 886
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 941
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 840
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 916
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -328,7 +328,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1686
+    "liczba": 1816
    },
    {
     "nazwa": "Hatchback",
@@ -336,42 +336,201 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 53
+    "liczba": 54
    }
   ],
-  "noweOdPaczki": 28,
+  "noweOdPaczki": 159,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 21
+   },
+   {
+    "rok": 2024,
+    "liczba": 60
+   },
+   {
+    "rok": 2025,
+    "liczba": 49
+   },
+   {
     "rok": 2026,
-    "liczba": 28
+    "liczba": 29
    }
   ],
-  "miejsce": 528,
-  "miejsceWMarce": 2,
-  "modeliWMarce": 11,
-  "sredniRocznik": 2001.9
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 589,
+  "miejsceWMarce": 4,
+  "modeliWMarce": 15,
+  "sredniRocznik": 2002.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "s-type",
  "adres": "/marki/jaguar/s-type/",
  "konkurenci": [
   {
+   "slug": "bmw-seria-7",
+   "nazwa": "BMW Seria 7",
+   "adres": "/marki/bmw/seria-7/"
+  },
+  {
    "slug": "chrysler-300m",
    "nazwa": "Chrysler 300M",
    "adres": "/marki/chrysler/300m/"
   },
   {
-   "slug": "bmw-seria-5",
-   "nazwa": "BMW Seria 5",
-   "adres": "/marki/bmw/seria-5/"
+   "slug": "mercedes-benz-320",
+   "nazwa": "Mercedes-Benz 320",
+   "adres": "/marki/mercedes-benz/320/"
   },
   {
    "slug": "honda-accord",
@@ -379,14 +538,9 @@
    "adres": "/marki/honda/accord/"
   },
   {
-   "slug": "bmw-seria-7",
-   "nazwa": "BMW Seria 7",
-   "adres": "/marki/bmw/seria-7/"
-  },
-  {
-   "slug": "honda-legend",
-   "nazwa": "Honda Legend",
-   "adres": "/marki/honda/legend/"
+   "slug": "bmw-seria-3",
+   "nazwa": "BMW Seria 3",
+   "adres": "/marki/bmw/seria-3/"
   }
  ]
 }

@@ -14,293 +14,463 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Megane – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 955 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MEGANE, MEGANE 1.6 KAT, MEGANE 1.4 KAT, MEGANE CLASSIC, MEGANE 1.5 DCI).",
-  "liczbaWPolsce": 158032,
-  "aktywne": 56563,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Megane – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 240 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MEGANE, MEGANE 1.6 KAT, MEGANE 1.4 KAT, MEGANE 1.5 DCI, MEGANE CLASSIC).",
+  "liczbaWPolsce": 176317,
+  "aktywne": 74848,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 13250
+    "liczba": 14501
    },
    {
     "teryt": "04",
-    "liczba": 8243
+    "liczba": 9041
    },
    {
     "teryt": "06",
-    "liczba": 8296
+    "liczba": 9403
    },
    {
     "teryt": "08",
-    "liczba": 5223
+    "liczba": 5691
    },
    {
     "teryt": "10",
-    "liczba": 11069
+    "liczba": 12235
    },
    {
     "teryt": "12",
-    "liczba": 12127
+    "liczba": 14068
    },
    {
     "teryt": "14",
-    "liczba": 24284
+    "liczba": 27037
    },
    {
     "teryt": "16",
-    "liczba": 3033
+    "liczba": 3284
    },
    {
     "teryt": "18",
-    "liczba": 7004
+    "liczba": 8020
    },
    {
     "teryt": "20",
-    "liczba": 2485
+    "liczba": 2814
    },
    {
     "teryt": "22",
-    "liczba": 7807
+    "liczba": 8502
    },
    {
     "teryt": "24",
-    "liczba": 20520
+    "liczba": 22692
    },
    {
     "teryt": "26",
-    "liczba": 4412
+    "liczba": 5105
    },
    {
     "teryt": "28",
-    "liczba": 4345
+    "liczba": 4772
    },
    {
     "teryt": "30",
-    "liczba": 18382
+    "liczba": 21040
    },
    {
     "teryt": "32",
-    "liczba": 6651
+    "liczba": 7211
    }
   ],
   "bezWojewodztwa": 901,
   "roczniki": [
    {
     "rok": 1996,
-    "liczba": 11414
+    "liczba": 11423
    },
    {
     "rok": 1997,
-    "liczba": 7531
+    "liczba": 7546
    },
    {
     "rok": 1998,
-    "liczba": 6136
+    "liczba": 6152
    },
    {
     "rok": 1999,
-    "liczba": 8823
+    "liczba": 8853
    },
    {
     "rok": 2000,
-    "liczba": 7417
+    "liczba": 7455
    },
    {
     "rok": 2001,
-    "liczba": 7010
+    "liczba": 7069
    },
    {
     "rok": 2002,
-    "liczba": 7478
+    "liczba": 7565
    },
    {
     "rok": 2003,
-    "liczba": 11728
+    "liczba": 11889
    },
    {
     "rok": 2004,
-    "liczba": 11731
+    "liczba": 11991
    },
    {
     "rok": 2005,
-    "liczba": 8498
+    "liczba": 8771
    },
    {
     "rok": 2006,
-    "liczba": 7492
+    "liczba": 7824
    },
    {
     "rok": 2007,
-    "liczba": 5782
+    "liczba": 6026
    },
    {
     "rok": 2008,
-    "liczba": 4730
+    "liczba": 5160
    },
    {
     "rok": 2009,
-    "liczba": 8318
+    "liczba": 9934
    },
    {
     "rok": 2010,
-    "liczba": 7061
+    "liczba": 8674
    },
    {
     "rok": 2011,
-    "liczba": 5855
+    "liczba": 7517
    },
    {
     "rok": 2012,
-    "liczba": 4873
+    "liczba": 6211
    },
    {
     "rok": 2013,
-    "liczba": 3145
+    "liczba": 4148
    },
    {
     "rok": 2014,
-    "liczba": 3329
+    "liczba": 4189
    },
    {
     "rok": 2015,
-    "liczba": 2478
+    "liczba": 3197
    },
    {
     "rok": 2016,
-    "liczba": 3126
+    "liczba": 4443
    },
    {
     "rok": 2017,
-    "liczba": 3465
+    "liczba": 4593
    },
    {
     "rok": 2018,
-    "liczba": 3952
+    "liczba": 4831
    },
    {
     "rok": 2019,
-    "liczba": 2091
+    "liczba": 2877
+   },
+   {
+    "rok": 2020,
+    "liczba": 695
+   },
+   {
+    "rok": 2021,
+    "liczba": 599
+   },
+   {
+    "rok": 2022,
+    "liczba": 431
+   },
+   {
+    "rok": 2023,
+    "liczba": 777
+   },
+   {
+    "rok": 2024,
+    "liczba": 1233
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 77188
+    "liczba": 87458
    },
    {
     "nazwa": "Diesel",
-    "liczba": 55784
+    "liczba": 61953
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 23249
+    "liczba": 24528
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1811
+    "liczba": 2378
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 61875
+    "liczba": 67428
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 33098
+    "liczba": 37719
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 26781
+    "liczba": 27927
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 20973
+    "liczba": 21576
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 6817
+    "liczba": 8263
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 4419
+    "liczba": 6391
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 3394
+    "liczba": 5697
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 675
+    "liczba": 1316
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 70515
+    "liczba": 76243
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 58471
+    "liczba": 69380
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 27515
+    "liczba": 29133
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1531
+    "liczba": 1561
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 76514
+    "liczba": 84571
    },
    {
     "nazwa": "Kombi",
-    "liczba": 44644
+    "liczba": 51502
    },
    {
     "nazwa": "Sedan",
-    "liczba": 17586
+    "liczba": 18726
    },
    {
     "nazwa": "Coupe",
-    "liczba": 8593
+    "liczba": 9731
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 3212
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 1712
+    "liczba": 4142
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5771
+    "liczba": 7645
    }
   ],
-  "noweOdPaczki": 4955,
-  "hybrydy": 44,
-  "elektryczne": 113,
+  "noweOdPaczki": 23240,
+  "hybrydy": 132,
+  "elektryczne": 585,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 2231
+   },
+   {
+    "rok": 2024,
+    "liczba": 8705
+   },
+   {
+    "rok": 2025,
+    "liczba": 7045
+   },
+   {
     "rok": 2026,
-    "liczba": 4955
+    "liczba": 5259
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 542
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 649
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 681
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 745
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 802
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 750
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 760
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 700
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 595
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 783
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 800
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 676
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 764
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 574
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 598
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 683
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 647
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 585
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 557
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 659
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 513
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 614
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 613
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 472
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 530
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 304
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
    }
   ],
   "miejsce": 20,
   "miejsceWMarce": 2,
   "modeliWMarce": 48,
-  "sredniRocznik": 2005.2
+  "sredniRocznik": 2006.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "megane",
@@ -315,19 +485,9 @@
  ],
  "konkurenci": [
   {
-   "slug": "toyota-corolla",
-   "nazwa": "Toyota Corolla",
-   "adres": "/marki/toyota/corolla/"
-  },
-  {
    "slug": "fiat-bravo",
    "nazwa": "Fiat Bravo",
    "adres": "/marki/fiat/bravo/"
-  },
-  {
-   "slug": "opel-astra",
-   "nazwa": "Opel Astra",
-   "adres": "/marki/opel/astra/"
   },
   {
    "slug": "mercedes-benz-klasa-a",
@@ -335,9 +495,19 @@
    "adres": "/marki/mercedes-benz/klasa-a/"
   },
   {
-   "slug": "hyundai-matrix",
-   "nazwa": "Hyundai Matrix",
-   "adres": "/marki/hyundai/matrix/"
+   "slug": "opel-astra",
+   "nazwa": "Opel Astra",
+   "adres": "/marki/opel/astra/"
+  },
+  {
+   "slug": "ford-fusion",
+   "nazwa": "Ford Fusion",
+   "adres": "/marki/ford/fusion/"
+  },
+  {
+   "slug": "ford-focus-ii",
+   "nazwa": "Ford Focus II",
+   "adres": "/marki/ford/focus/ii/"
   }
  ]
 }

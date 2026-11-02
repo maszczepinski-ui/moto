@@ -11,104 +11,104 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen T-Cross – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 019 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T-CROSS).",
-  "liczbaWPolsce": 5236,
-  "aktywne": 5236,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen T-Cross – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 859 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T-CROSS).",
+  "liczbaWPolsce": 14076,
+  "aktywne": 14076,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 382
+    "liczba": 1091
    },
    {
     "teryt": "04",
-    "liczba": 242
+    "liczba": 676
    },
    {
     "teryt": "06",
-    "liczba": 114
+    "liczba": 315
    },
    {
     "teryt": "08",
-    "liczba": 155
+    "liczba": 412
    },
    {
     "teryt": "10",
-    "liczba": 351
+    "liczba": 945
    },
    {
     "teryt": "12",
-    "liczba": 400
+    "liczba": 1101
    },
    {
     "teryt": "14",
-    "liczba": 871
+    "liczba": 2404
    },
    {
     "teryt": "16",
-    "liczba": 110
+    "liczba": 306
    },
    {
     "teryt": "18",
-    "liczba": 179
+    "liczba": 493
    },
    {
     "teryt": "20",
-    "liczba": 70
+    "liczba": 179
    },
    {
     "teryt": "22",
-    "liczba": 552
+    "liczba": 1356
    },
    {
     "teryt": "24",
-    "liczba": 605
+    "liczba": 1710
    },
    {
     "teryt": "26",
-    "liczba": 119
+    "liczba": 322
    },
    {
     "teryt": "28",
-    "liczba": 99
+    "liczba": 276
    },
    {
     "teryt": "30",
-    "liczba": 764
+    "liczba": 1878
    },
    {
     "teryt": "32",
-    "liczba": 223
+    "liczba": 612
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 1060
+    "liczba": 1237
    },
    {
     "rok": 2020,
-    "liczba": 68
+    "liczba": 238
    },
    {
     "rok": 2021,
-    "liczba": 75
+    "liczba": 209
    },
    {
     "rok": 2022,
-    "liczba": 61
+    "liczba": 165
    },
    {
     "rok": 2023,
-    "liczba": 36
+    "liczba": 914
    },
    {
     "rok": 2024,
-    "liczba": 19
+    "liczba": 3622
    },
    {
     "rok": 2025,
-    "liczba": 603
+    "liczba": 4376
    },
    {
     "rok": 2026,
@@ -118,93 +118,247 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5205
+    "liczba": 13977
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 31
+    "liczba": 99
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3619
+    "liczba": 8601
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1594
+    "liczba": 5390
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 85
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 4835
+    "liczba": 12397
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 331
+    "liczba": 837
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 60
+    "liczba": 815
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 27
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 5189
+    "liczba": 13894
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 47
+    "liczba": 182
    }
   ],
-  "noweOdPaczki": 4019,
-  "hybrydy": 5,
+  "noweOdPaczki": 12859,
+  "hybrydy": 9,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 669
+   },
+   {
+    "rok": 2024,
+    "liczba": 3198
+   },
+   {
+    "rok": 2025,
+    "liczba": 4689
+   },
+   {
     "rok": 2026,
-    "liczba": 4019
+    "liczba": 4303
    }
   ],
-  "miejsce": 322,
-  "miejsceWMarce": 24,
-  "modeliWMarce": 57,
-  "sredniRocznik": 2024.2
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 214
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 214
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 198
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 367
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 291
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 259
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 200
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 172
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 446
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 725
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 483
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 333
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 456
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 263
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 242
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 362
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 587
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 294
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 336
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 338
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 463
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 532
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 284
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 239,
+  "miejsceWMarce": 17,
+  "modeliWMarce": 59,
+  "sredniRocznik": 2024.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "t-cross",
  "adres": "/marki/volkswagen/t-cross/",
  "konkurenci": [
   {
-   "slug": "renault-austral",
-   "nazwa": "Renault Austral",
-   "adres": "/marki/renault/austral/"
-  },
-  {
    "slug": "dacia-jogger",
    "nazwa": "Dacia Jogger",
    "adres": "/marki/dacia/jogger/"
   },
   {
-   "slug": "skoda-scala",
-   "nazwa": "Skoda Scala",
-   "adres": "/marki/skoda/scala/"
+   "slug": "renault-austral",
+   "nazwa": "Renault Austral",
+   "adres": "/marki/renault/austral/"
+  },
+  {
+   "slug": "renault-rafale",
+   "nazwa": "Renault Rafale",
+   "adres": "/marki/renault/rafale/"
   },
   {
    "slug": "kia-stonic",
@@ -212,9 +366,9 @@
    "adres": "/marki/kia/stonic/"
   },
   {
-   "slug": "baic-x55",
-   "nazwa": "BAIC X55",
-   "adres": "/marki/baic/x55/"
+   "slug": "hyundai-bayon",
+   "nazwa": "Hyundai Bayon",
+   "adres": "/marki/hyundai/bayon/"
   }
  ]
 }

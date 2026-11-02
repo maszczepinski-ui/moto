@@ -12,45 +12,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Vento – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VENTO, VENTO 1.8 KAT, VENTO 1.9 TDI, VENTO 1.9 TD, VENTO 1.9 D).",
-  "liczbaWPolsce": 14155,
-  "aktywne": 690,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Vento – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 52 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VENTO, VENTO 1.8 KAT, VENTO 1.9 TDI, VENTO 1.9 TD, VENTO 1.9 D).",
+  "liczbaWPolsce": 14197,
+  "aktywne": 732,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1156
+    "liczba": 1161
    },
    {
     "teryt": "04",
-    "liczba": 855
+    "liczba": 859
    },
    {
     "teryt": "06",
-    "liczba": 1566
+    "liczba": 1567
    },
    {
     "teryt": "08",
-    "liczba": 487
+    "liczba": 488
    },
    {
     "teryt": "10",
-    "liczba": 802
+    "liczba": 804
    },
    {
     "teryt": "12",
-    "liczba": 844
+    "liczba": 847
    },
    {
     "teryt": "14",
-    "liczba": 1923
+    "liczba": 1925
    },
    {
     "teryt": "16",
-    "liczba": 366
+    "liczba": 368
    },
    {
     "teryt": "18",
-    "liczba": 885
+    "liczba": 886
    },
    {
     "teryt": "20",
@@ -58,72 +58,72 @@
    },
    {
     "teryt": "22",
-    "liczba": 1183
+    "liczba": 1184
    },
    {
     "teryt": "24",
-    "liczba": 644
+    "liczba": 648
    },
    {
     "teryt": "26",
-    "liczba": 510
+    "liczba": 511
    },
    {
     "teryt": "28",
-    "liczba": 795
+    "liczba": 798
    },
    {
     "teryt": "30",
-    "liczba": 831
+    "liczba": 834
    },
    {
     "teryt": "32",
-    "liczba": 802
+    "liczba": 811
    }
   ],
   "bezWojewodztwa": 19,
   "roczniki": [
    {
     "rok": 1992,
-    "liczba": 2499
+    "liczba": 2506
    },
    {
     "rok": 1993,
-    "liczba": 3869
+    "liczba": 3877
    },
    {
     "rok": 1994,
-    "liczba": 3107
+    "liczba": 3116
    },
    {
     "rok": 1995,
-    "liczba": 1998
+    "liczba": 2001
    },
    {
     "rok": 1996,
-    "liczba": 1510
+    "liczba": 1516
    },
    {
     "rok": 1997,
-    "liczba": 1015
+    "liczba": 1022
    },
    {
     "rok": 1998,
-    "liczba": 45
+    "liczba": 47
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 6464
+    "liczba": 6468
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 4133
+    "liczba": 4134
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2855
+    "liczba": 2892
    },
    {
     "nazwa": "Inne / brak danych",
@@ -133,33 +133,33 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 6689
+    "liczba": 6693
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 6288
+    "liczba": 6321
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 632
+    "liczba": 634
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 436
+    "liczba": 438
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 110
+    "liczba": 111
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 8583
+    "liczba": 8586
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5146
+    "liczba": 5185
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -173,36 +173,190 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 11937
+    "liczba": 11977
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 648
+    "liczba": 650
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1570
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 52,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 6
+   },
+   {
+    "rok": 2024,
+    "liczba": 18
+   },
+   {
+    "rok": 2025,
+    "liczba": 17
+   },
+   {
     "rok": 2026,
-    "liczba": 10
+    "liczba": 11
    }
   ],
-  "miejsce": 192,
-  "miejsceWMarce": 13,
-  "modeliWMarce": 57,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 237,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 59,
   "sredniRocznik": 1994.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "vento",
@@ -212,11 +366,6 @@
    "slug": "bmw-seria-3-e36",
    "nazwa": "BMW Seria 3 E36",
    "adres": "/marki/bmw/seria-3/e36/"
-  },
-  {
-   "slug": "mercedes-benz-180",
-   "nazwa": "Mercedes-Benz 180",
-   "adres": "/marki/mercedes-benz/180/"
   },
   {
    "slug": "toyota-carina",
@@ -232,6 +381,11 @@
    "slug": "audi-a4-b5",
    "nazwa": "Audi A4 B5",
    "adres": "/marki/audi/a4/b5/"
+  },
+  {
+   "slug": "mercedes-benz-180",
+   "nazwa": "Mercedes-Benz 180",
+   "adres": "/marki/mercedes-benz/180/"
   }
  ]
 }

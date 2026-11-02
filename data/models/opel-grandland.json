@@ -5,118 +5,120 @@
  "generacja": "",
  "lataProdukcji": "2017–2026",
  "nadwozia": [
-  "van"
+  "van",
+  "kombi",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Grandland – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 368 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANDLAND X, GRANDLAND).",
-  "liczbaWPolsce": 3728,
-  "aktywne": 3724,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Grandland – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 958 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANDLAND X, GRANDLAND).",
+  "liczbaWPolsce": 10318,
+  "aktywne": 10314,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 224
+    "liczba": 559
    },
    {
     "teryt": "04",
-    "liczba": 266
+    "liczba": 790
    },
    {
     "teryt": "06",
-    "liczba": 111
+    "liczba": 286
    },
    {
     "teryt": "08",
-    "liczba": 110
+    "liczba": 436
    },
    {
     "teryt": "10",
-    "liczba": 211
+    "liczba": 535
    },
    {
     "teryt": "12",
-    "liczba": 295
+    "liczba": 970
    },
    {
     "teryt": "14",
-    "liczba": 688
+    "liczba": 1607
    },
    {
     "teryt": "16",
-    "liczba": 80
+    "liczba": 227
    },
    {
     "teryt": "18",
-    "liczba": 165
+    "liczba": 481
    },
    {
     "teryt": "20",
-    "liczba": 66
+    "liczba": 181
    },
    {
     "teryt": "22",
-    "liczba": 250
+    "liczba": 683
    },
    {
     "teryt": "24",
-    "liczba": 411
+    "liczba": 1191
    },
    {
     "teryt": "26",
-    "liczba": 75
+    "liczba": 187
    },
    {
     "teryt": "28",
-    "liczba": 109
+    "liczba": 315
    },
    {
     "teryt": "30",
-    "liczba": 508
+    "liczba": 1397
    },
    {
     "teryt": "32",
-    "liczba": 155
+    "liczba": 469
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 557
+    "liczba": 858
    },
    {
     "rok": 2018,
-    "liczba": 828
+    "liczba": 1986
    },
    {
     "rok": 2019,
-    "liczba": 856
+    "liczba": 1931
    },
    {
     "rok": 2020,
-    "liczba": 263
+    "liczba": 906
    },
    {
     "rok": 2021,
-    "liczba": 135
+    "liczba": 484
    },
    {
     "rok": 2022,
-    "liczba": 152
+    "liczba": 360
    },
    {
     "rok": 2023,
-    "liczba": 89
+    "liczba": 825
    },
    {
     "rok": 2024,
-    "liczba": 60
+    "liczba": 1508
    },
    {
     "rok": 2025,
-    "liczba": 186
+    "liczba": 856
    },
    {
     "rok": 2026,
@@ -126,102 +128,256 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2130
+    "liczba": 5802
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1141
+    "liczba": 3298
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 427
+    "liczba": 1103
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 30
+    "liczba": 115
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 2117
+    "liczba": 5937
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 728
+    "liczba": 1787
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 548
+    "liczba": 1736
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 311
+    "liczba": 758
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 100
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1871
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 4141
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1455
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 3975
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 356
+    "liczba": 2029
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 42
+    "liczba": 166
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 7
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3579
+    "liczba": 9453
    },
    {
     "nazwa": "Kombi",
-    "liczba": 78
+    "liczba": 425
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 55
+    "liczba": 337
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 16
+    "liczba": 103
    }
   ],
-  "noweOdPaczki": 2368,
-  "hybrydy": 427,
-  "elektryczne": 21,
+  "noweOdPaczki": 8958,
+  "hybrydy": 1104,
+  "elektryczne": 96,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 545
+   },
+   {
+    "rok": 2024,
+    "liczba": 3057
+   },
+   {
+    "rok": 2025,
+    "liczba": 2880
+   },
+   {
     "rok": 2026,
-    "liczba": 2368
+    "liczba": 2476
    }
   ],
-  "miejsce": 386,
-  "miejsceWMarce": 21,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2020.2
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 170
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 241
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 215
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 210
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 181
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 291
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 236
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 194
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 252
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 323
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 417
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 334
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 277
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 209
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 275
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 252
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 268
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 270
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 205
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 185
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 224
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 274
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 238
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 203
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 278,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 33,
+  "sredniRocznik": 2020.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "grandland",
@@ -238,19 +394,19 @@
    "adres": "/marki/peugeot/rifter/"
   },
   {
+   "slug": "hyundai-tucson",
+   "nazwa": "Hyundai Tucson",
+   "adres": "/marki/hyundai/tucson/"
+  },
+  {
+   "slug": "toyota-yaris-cross",
+   "nazwa": "Toyota Yaris Cross",
+   "adres": "/marki/toyota/yaris-cross/"
+  },
+  {
    "slug": "jeep-renegade",
    "nazwa": "Jeep Renegade",
    "adres": "/marki/jeep/renegade/"
-  },
-  {
-   "slug": "fiat-500x",
-   "nazwa": "Fiat 500X",
-   "adres": "/marki/fiat/500x/"
-  },
-  {
-   "slug": "fiat-500l",
-   "nazwa": "Fiat 500L",
-   "adres": "/marki/fiat/500l/"
   }
  ]
 }

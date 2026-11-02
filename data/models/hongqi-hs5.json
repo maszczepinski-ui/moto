@@ -5,79 +5,80 @@
  "generacja": "",
  "lataProdukcji": "2023–2026",
  "nadwozia": [
-  "kombi"
+  "kombi",
+  "van"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hongqi HS5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 395 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: HS5, HONGQI HS5).",
-  "liczbaWPolsce": 395,
-  "aktywne": 395,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hongqi HS5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 545 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: HS5, HONGQI HS5).",
+  "liczbaWPolsce": 545,
+  "aktywne": 545,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 15
-   },
-   {
-    "teryt": "04",
-    "liczba": 3
-   },
-   {
-    "teryt": "06",
-    "liczba": 29
-   },
-   {
-    "teryt": "08",
-    "liczba": 2
-   },
-   {
-    "teryt": "10",
-    "liczba": 20
-   },
-   {
-    "teryt": "12",
-    "liczba": 19
-   },
-   {
-    "teryt": "14",
-    "liczba": 104
-   },
-   {
-    "teryt": "16",
-    "liczba": 10
-   },
-   {
-    "teryt": "18",
-    "liczba": 71
-   },
-   {
-    "teryt": "20",
-    "liczba": 9
-   },
-   {
-    "teryt": "22",
     "liczba": 24
    },
    {
-    "teryt": "24",
-    "liczba": 33
-   },
-   {
-    "teryt": "26",
-    "liczba": 20
-   },
-   {
-    "teryt": "28",
+    "teryt": "04",
     "liczba": 4
    },
    {
+    "teryt": "06",
+    "liczba": 33
+   },
+   {
+    "teryt": "08",
+    "liczba": 4
+   },
+   {
+    "teryt": "10",
+    "liczba": 24
+   },
+   {
+    "teryt": "12",
+    "liczba": 23
+   },
+   {
+    "teryt": "14",
+    "liczba": 147
+   },
+   {
+    "teryt": "16",
+    "liczba": 17
+   },
+   {
+    "teryt": "18",
+    "liczba": 80
+   },
+   {
+    "teryt": "20",
+    "liczba": 11
+   },
+   {
+    "teryt": "22",
+    "liczba": 39
+   },
+   {
+    "teryt": "24",
+    "liczba": 52
+   },
+   {
+    "teryt": "26",
+    "liczba": 24
+   },
+   {
+    "teryt": "28",
+    "liczba": 8
+   },
+   {
     "teryt": "30",
-    "liczba": 27
+    "liczba": 48
    },
    {
     "teryt": "32",
-    "liczba": 5
+    "liczba": 7
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,11 +89,11 @@
    },
    {
     "rok": 2024,
-    "liczba": 28
+    "liczba": 39
    },
    {
     "rok": 2025,
-    "liczba": 129
+    "liczba": 268
    },
    {
     "rok": 2026,
@@ -102,66 +103,220 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 391
+    "liczba": 538
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 395
+    "liczba": 545
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 226
+    "liczba": 297
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 149
+    "liczba": 220
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 19
+    "liczba": 20
    },
    {
-    "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 394
+    "liczba": 479
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 65
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 395,
+  "noweOdPaczki": 545,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 143
+   },
+   {
     "rok": 2026,
-    "liczba": 395
+    "liczba": 402
    }
   ],
-  "miejsce": 916,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 895,
   "miejsceWMarce": 1,
-  "modeliWMarce": 1,
-  "sredniRocznik": 2024.3
+  "modeliWMarce": 2,
+  "sredniRocznik": 2024.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "hongqi",
  "modelSlug": "hs5",
@@ -173,6 +328,11 @@
    "adres": "/marki/mazda/cx-30/"
   },
   {
+   "slug": "subaru-crosstrek",
+   "nazwa": "Subaru Crosstrek",
+   "adres": "/marki/subaru/crosstrek/"
+  },
+  {
    "slug": "jetour-t2",
    "nazwa": "Jetour T2",
    "adres": "/marki/jetour/t2/"
@@ -181,11 +341,6 @@
    "slug": "volvo-xc40",
    "nazwa": "Volvo XC40",
    "adres": "/marki/volvo/xc40/"
-  },
-  {
-   "slug": "cupra-terramar",
-   "nazwa": "Cupra Terramar",
-   "adres": "/marki/cupra/terramar/"
   },
   {
    "slug": "cupra-formentor",

@@ -12,92 +12,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai IONIQ5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 223 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IONIQ5, IONIQ5 N).",
-  "liczbaWPolsce": 223,
-  "aktywne": 223,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai IONIQ5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 089 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IONIQ5, IONIQ5 N).",
+  "liczbaWPolsce": 1089,
+  "aktywne": 1089,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 12
+    "liczba": 70
    },
    {
     "teryt": "04",
-    "liczba": 5
+    "liczba": 31
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 25
+   },
+   {
+    "teryt": "08",
+    "liczba": 16
    },
    {
     "teryt": "10",
-    "liczba": 7
+    "liczba": 41
    },
    {
     "teryt": "12",
-    "liczba": 14
+    "liczba": 62
    },
    {
     "teryt": "14",
-    "liczba": 79
+    "liczba": 463
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 19
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 33
    },
    {
     "teryt": "20",
-    "liczba": 6
-   },
-   {
-    "teryt": "22",
-    "liczba": 28
-   },
-   {
-    "teryt": "24",
     "liczba": 15
    },
    {
+    "teryt": "22",
+    "liczba": 96
+   },
+   {
+    "teryt": "24",
+    "liczba": 71
+   },
+   {
     "teryt": "26",
-    "liczba": 6
+    "liczba": 11
    },
    {
     "teryt": "28",
-    "liczba": 2
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 20
+    "liczba": 99
    },
    {
     "teryt": "32",
-    "liczba": 1
+    "liczba": 25
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 6
+    "liczba": 31
    },
    {
     "rok": 2022,
-    "liczba": 18
+    "liczba": 76
    },
    {
     "rok": 2023,
-    "liczba": 12
+    "liczba": 195
    },
    {
     "rok": 2024,
-    "liczba": 20
+    "liczba": 200
    },
    {
     "rok": 2025,
-    "liczba": 150
+    "liczba": 569
    },
    {
     "rok": 2026,
@@ -107,72 +111,257 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 223
-   }
-  ],
-  "pojemnosci": [
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 223
-   }
-  ],
-  "pochodzenie": [
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 158
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 55
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 9
-   },
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 1
-   }
-  ],
-  "nadwozia": [
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 206
-   },
-   {
-    "nazwa": "Hatchback",
-    "liczba": 11
-   },
-   {
-    "nazwa": "Kombi",
-    "liczba": 4
+    "liczba": 1087
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 223,
-  "hybrydy": 0,
-  "elektryczne": 223,
-  "pierwszeRejestracje": [
+  "pojemnosci": [
    {
-    "rok": 2026,
-    "liczba": 223
+    "nazwa": "Inne / brak danych",
+    "liczba": 1089
    }
   ],
-  "miejsce": 1085,
-  "miejsceWMarce": 31,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2024.5
+  "pochodzenie": [
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 826
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 154
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 104
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 5
+   }
+  ],
+  "nadwozia": [
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 1033
+   },
+   {
+    "nazwa": "Hatchback",
+    "liczba": 38
+   },
+   {
+    "nazwa": "Kombi",
+    "liczba": 12
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 6
+   }
+  ],
+  "noweOdPaczki": 1089,
+  "hybrydy": 1,
+  "elektryczne": 1087,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 55
+   },
+   {
+    "rok": 2024,
+    "liczba": 221
+   },
+   {
+    "rok": 2025,
+    "liczba": 547
+   },
+   {
+    "rok": 2026,
+    "liczba": 266
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 734,
+  "miejsceWMarce": 25,
+  "modeliWMarce": 34,
+  "sredniRocznik": 2024.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "ioniq5",
- "adres": "/marki/hyundai/ioniq5/"
+ "adres": "/marki/hyundai/ioniq5/",
+ "konkurenci": [
+  {
+   "slug": "kia-ev3",
+   "nazwa": "Kia EV3",
+   "adres": "/marki/kia/ev3/"
+  },
+  {
+   "slug": "tesla-model-y",
+   "nazwa": "Tesla Model Y",
+   "adres": "/marki/tesla/model-y/"
+  },
+  {
+   "slug": "kia-ev6",
+   "nazwa": "Kia EV6",
+   "adres": "/marki/kia/ev6/"
+  },
+  {
+   "slug": "byd-sealion-7",
+   "nazwa": "BYD Sealion 7",
+   "adres": "/marki/byd/sealion-7/"
+  },
+  {
+   "slug": "bmw-ix1",
+   "nazwa": "BMW IX1",
+   "adres": "/marki/bmw/ix1/"
+  }
+ ]
 }

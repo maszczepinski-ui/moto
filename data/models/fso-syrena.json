@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Syrena – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SYRENA 105, SYRENA 105 L, SYRENA 104, SYRENA, SYRENA 103).",
-  "liczbaWPolsce": 134528,
-  "aktywne": 176,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Syrena – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SYRENA 105, SYRENA 105 L, SYRENA 104, SYRENA, SYRENA 103).",
+  "liczbaWPolsce": 134545,
+  "aktywne": 193,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,15 +21,15 @@
    },
    {
     "teryt": "04",
-    "liczba": 12295
+    "liczba": 12297
    },
    {
     "teryt": "06",
-    "liczba": 10821
+    "liczba": 10822
    },
    {
     "teryt": "08",
-    "liczba": 5463
+    "liczba": 5465
    },
    {
     "teryt": "10",
@@ -37,15 +37,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 11777
+    "liczba": 11778
    },
    {
     "teryt": "14",
-    "liczba": 12927
+    "liczba": 12929
    },
    {
     "teryt": "16",
-    "liczba": 7101
+    "liczba": 7102
    },
    {
     "teryt": "18",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 5255
+    "liczba": 5259
    },
    {
     "teryt": "24",
-    "liczba": 6044
+    "liczba": 6046
    },
    {
     "teryt": "26",
@@ -69,7 +69,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 4240
+    "liczba": 4241
    },
    {
     "teryt": "30",
@@ -77,14 +77,14 @@
    },
    {
     "teryt": "32",
-    "liczba": 9406
+    "liczba": 9407
    }
   ],
   "bezWojewodztwa": 2733,
   "roczniki": [
    {
     "rok": 1959,
-    "liczba": 290
+    "liczba": 291
    },
    {
     "rok": 1960,
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1961,
-    "liczba": 634
+    "liczba": 635
    },
    {
     "rok": 1962,
@@ -100,7 +100,7 @@
    },
    {
     "rok": 1963,
-    "liczba": 1092
+    "liczba": 1093
    },
    {
     "rok": 1964,
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1966,
-    "liczba": 2702
+    "liczba": 2703
    },
    {
     "rok": 1967,
@@ -124,7 +124,7 @@
    },
    {
     "rok": 1969,
-    "liczba": 4392
+    "liczba": 4395
    },
    {
     "rok": 1970,
@@ -136,7 +136,7 @@
    },
    {
     "rok": 1972,
-    "liczba": 7035
+    "liczba": 7036
    },
    {
     "rok": 1973,
@@ -148,15 +148,15 @@
    },
    {
     "rok": 1975,
-    "liczba": 10062
+    "liczba": 10065
    },
    {
     "rok": 1976,
-    "liczba": 9936
+    "liczba": 9939
    },
    {
     "rok": 1977,
-    "liczba": 9298
+    "liczba": 9299
    },
    {
     "rok": 1978,
@@ -164,11 +164,11 @@
    },
    {
     "rok": 1979,
-    "liczba": 11614
+    "liczba": 11615
    },
    {
     "rok": 1980,
-    "liczba": 11165
+    "liczba": 11166
    },
    {
     "rok": 1981,
@@ -186,7 +186,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 15350
+    "liczba": 15362
    },
    {
     "nazwa": "?+LPG",
@@ -194,61 +194,215 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 117711
+    "liczba": 117716
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "0,8 l",
-    "liczba": 121726
+    "liczba": 121739
    },
    {
     "nazwa": "0,7 l",
-    "liczba": 7422
+    "liczba": 7425
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5380
+    "liczba": 5381
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 73691
+    "liczba": 73693
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 49027
+    "liczba": 49028
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3112
+    "liczba": 3115
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8698
+    "liczba": 8709
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 5202
+    "liczba": 5215
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 129326
+    "liczba": 129330
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 20,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 6
+   },
+   {
+    "rok": 2025,
+    "liczba": 8
+   },
+   {
     "rok": 2026,
-    "liczba": 3
+    "liczba": 4
    }
   ],
-  "miejsce": 24,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 28,
   "miejsceWMarce": 2,
   "modeliWMarce": 13,
   "sredniRocznik": 1974.7
@@ -257,7 +411,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fso",
  "modelSlug": "syrena",

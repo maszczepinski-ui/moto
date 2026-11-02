@@ -13,45 +13,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda RX-8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 21 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RX-8).",
-  "liczbaWPolsce": 936,
-  "aktywne": 336,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda RX-8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 99 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RX-8).",
+  "liczbaWPolsce": 1014,
+  "aktywne": 414,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 68
+    "liczba": 80
    },
    {
     "teryt": "04",
-    "liczba": 35
+    "liczba": 38
    },
    {
     "teryt": "06",
-    "liczba": 42
+    "liczba": 44
    },
    {
     "teryt": "08",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "10",
-    "liczba": 50
+    "liczba": 57
    },
    {
     "teryt": "12",
-    "liczba": 109
+    "liczba": 120
    },
    {
     "teryt": "14",
-    "liczba": 171
+    "liczba": 185
    },
    {
     "teryt": "16",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "18",
-    "liczba": 48
+    "liczba": 52
    },
    {
     "teryt": "20",
@@ -59,68 +59,68 @@
    },
    {
     "teryt": "22",
-    "liczba": 42
+    "liczba": 44
    },
    {
     "teryt": "24",
-    "liczba": 107
+    "liczba": 117
    },
    {
     "teryt": "26",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "teryt": "28",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "30",
-    "liczba": 91
+    "liczba": 97
    },
    {
     "teryt": "32",
-    "liczba": 39
+    "liczba": 40
    }
   ],
   "bezWojewodztwa": 10,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 144
+    "liczba": 155
    },
    {
     "rok": 2004,
-    "liczba": 334
+    "liczba": 355
    },
    {
     "rok": 2005,
-    "liczba": 166
+    "liczba": 180
    },
    {
     "rok": 2006,
-    "liczba": 128
+    "liczba": 138
    },
    {
     "rok": 2007,
-    "liczba": 86
+    "liczba": 95
    },
    {
     "rok": 2008,
-    "liczba": 32
+    "liczba": 35
    },
    {
     "rok": 2009,
-    "liczba": 16
+    "liczba": 22
    },
    {
     "rok": 2010,
-    "liczba": 5
+    "liczba": 9
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 903
+    "liczba": 981
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -134,25 +134,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 883
+    "liczba": 955
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 31
+    "liczba": 35
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 495
+    "liczba": 518
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 430
+    "liczba": 485
    },
    {
     "nazwa": "Inne / brak danych",
@@ -162,40 +162,194 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 636
+    "liczba": 681
    },
    {
     "nazwa": "Sedan",
-    "liczba": 201
+    "liczba": 227
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 75
+    "liczba": 81
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 25
    }
   ],
-  "noweOdPaczki": 21,
+  "noweOdPaczki": 99,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 7
+   },
+   {
+    "rok": 2024,
+    "liczba": 35
+   },
+   {
+    "rok": 2025,
+    "liczba": 35
+   },
+   {
     "rok": 2026,
-    "liczba": 21
+    "liczba": 22
    }
   ],
-  "miejsce": 687,
-  "miejsceWMarce": 20,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2004.8
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 754,
+  "miejsceWMarce": 25,
+  "modeliWMarce": 32,
+  "sredniRocznik": 2004.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "rx-8",
@@ -207,14 +361,9 @@
    "adres": "/marki/volkswagen/polo/iv-9n/"
   },
   {
-   "slug": "renault-thalia",
-   "nazwa": "Renault Thalia",
-   "adres": "/marki/renault/thalia/"
-  },
-  {
-   "slug": "fiat-punto",
-   "nazwa": "Fiat Punto",
-   "adres": "/marki/fiat/punto/"
+   "slug": "opel-corsa",
+   "nazwa": "Opel Corsa",
+   "adres": "/marki/opel/corsa/"
   },
   {
    "slug": "daihatsu-terios",
@@ -222,9 +371,14 @@
    "adres": "/marki/daihatsu/terios/"
   },
   {
-   "slug": "daewoo-kalos",
-   "nazwa": "Daewoo Kalos",
-   "adres": "/marki/daewoo/kalos/"
+   "slug": "renault-thalia",
+   "nazwa": "Renault Thalia",
+   "adres": "/marki/renault/thalia/"
+  },
+  {
+   "slug": "seat-ibiza",
+   "nazwa": "Seat Ibiza",
+   "adres": "/marki/seat/ibiza/"
   }
  ]
 }

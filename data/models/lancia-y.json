@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Y, Y 1.2, Y 1.2 KAT, Y 1,2, Y 1.2 LE).",
-  "liczbaWPolsce": 1046,
-  "aktywne": 246,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 60 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Y, Y 1.2, Y 1.2 KAT, Y 1,2, Y 1.2 LE).",
+  "liczbaWPolsce": 1100,
+  "aktywne": 300,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 108
+    "liczba": 115
    },
    {
     "teryt": "04",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "teryt": "06",
-    "liczba": 56
+    "liczba": 57
    },
    {
     "teryt": "08",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "10",
-    "liczba": 82
+    "liczba": 83
    },
    {
     "teryt": "12",
-    "liczba": 108
+    "liczba": 124
    },
    {
     "teryt": "14",
-    "liczba": 149
+    "liczba": 155
    },
    {
     "teryt": "16",
@@ -50,19 +50,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 78
+    "liczba": 90
    },
    {
     "teryt": "20",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "22",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "24",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 98
+    "liczba": 103
    },
    {
     "teryt": "32",
@@ -105,47 +105,47 @@
    },
    {
     "rok": 1996,
-    "liczba": 131
+    "liczba": 134
    },
    {
     "rok": 1997,
-    "liczba": 129
+    "liczba": 132
    },
    {
     "rok": 1998,
-    "liczba": 213
+    "liczba": 214
    },
    {
     "rok": 1999,
-    "liczba": 110
+    "liczba": 114
    },
    {
     "rok": 2000,
-    "liczba": 86
+    "liczba": 93
    },
    {
     "rok": 2001,
-    "liczba": 94
+    "liczba": 100
    },
    {
     "rok": 2002,
-    "liczba": 56
+    "liczba": 69
    },
    {
     "rok": 2003,
-    "liczba": 74
+    "liczba": 82
    },
    {
     "rok": 2004,
-    "liczba": 39
+    "liczba": 43
    },
    {
     "rok": 2005,
-    "liczba": 15
+    "liczba": 18
    },
    {
     "rok": 2006,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2007,
@@ -169,7 +169,7 @@
    },
    {
     "rok": 2012,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2013,
@@ -179,7 +179,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 901
+    "liczba": 951
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -187,7 +187,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 19
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
@@ -197,11 +197,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 775
+    "liczba": 827
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 163
+    "liczba": 165
    },
    {
     "nazwa": "1,4 l",
@@ -215,11 +215,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 519
+    "liczba": 571
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 468
+    "liczba": 470
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -233,7 +233,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 921
+    "liczba": 973
    },
    {
     "nazwa": "Sedan",
@@ -241,42 +241,196 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 57
+    "liczba": 59
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 60,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 8
+   },
+   {
+    "rok": 2024,
+    "liczba": 23
+   },
+   {
+    "rok": 2025,
+    "liczba": 22
+   },
+   {
     "rok": 2026,
-    "liczba": 6
+    "liczba": 7
    }
   ],
-  "miejsce": 664,
-  "miejsceWMarce": 7,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 728,
+  "miejsceWMarce": 8,
   "modeliWMarce": 15,
-  "sredniRocznik": 1999.4
+  "sredniRocznik": 1999.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "y",
  "adres": "/marki/lancia/y/",
  "konkurenci": [
   {
-   "slug": "subaru-justy",
-   "nazwa": "Subaru Justy",
-   "adres": "/marki/subaru/justy/"
-  },
-  {
    "slug": "citroen-saxo",
    "nazwa": "Citroen Saxo",
    "adres": "/marki/citroen/saxo/"
+  },
+  {
+   "slug": "subaru-justy",
+   "nazwa": "Subaru Justy",
+   "adres": "/marki/subaru/justy/"
   },
   {
    "slug": "volkswagen-lupo",
@@ -284,14 +438,14 @@
    "adres": "/marki/volkswagen/lupo/"
   },
   {
+   "slug": "seat-arosa",
+   "nazwa": "Seat Arosa",
+   "adres": "/marki/seat/arosa/"
+  },
+  {
    "slug": "kia-pride",
    "nazwa": "Kia Pride",
    "adres": "/marki/kia/pride/"
-  },
-  {
-   "slug": "ford-fiesta",
-   "nazwa": "Ford Fiesta",
-   "adres": "/marki/ford/fiesta/"
   }
  ]
 }

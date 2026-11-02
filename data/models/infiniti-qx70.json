@@ -7,27 +7,28 @@
  "nadwozia": [
   "van",
   "kombi",
-  "suv"
+  "suv",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti QX70 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 24 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QX70).",
-  "liczbaWPolsce": 300,
-  "aktywne": 232,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti QX70 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 85 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QX70).",
+  "liczbaWPolsce": 361,
+  "aktywne": 293,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 12
+    "liczba": 20
    },
    {
     "teryt": "04",
-    "liczba": 8
+    "liczba": 11
    },
    {
     "teryt": "06",
-    "liczba": 15
+    "liczba": 23
    },
    {
     "teryt": "08",
@@ -35,47 +36,47 @@
    },
    {
     "teryt": "10",
-    "liczba": 20
-   },
-   {
-    "teryt": "12",
     "liczba": 23
    },
    {
+    "teryt": "12",
+    "liczba": 29
+   },
+   {
     "teryt": "14",
-    "liczba": 79
+    "liczba": 89
    },
    {
     "teryt": "16",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "18",
-    "liczba": 17
+    "liczba": 22
    },
    {
     "teryt": "20",
-    "liczba": 9
+    "liczba": 13
    },
    {
     "teryt": "22",
-    "liczba": 10
+    "liczba": 13
    },
    {
     "teryt": "24",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "26",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "28",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "30",
-    "liczba": 41
+    "liczba": 47
    },
    {
     "teryt": "32",
@@ -86,41 +87,41 @@
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 2014,
-    "liczba": 90
+    "liczba": 100
    },
    {
     "rok": 2015,
-    "liczba": 72
+    "liczba": 91
    },
    {
     "rok": 2016,
-    "liczba": 49
+    "liczba": 65
    },
    {
     "rok": 2017,
-    "liczba": 51
+    "liczba": 65
    },
    {
     "rok": 2018,
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 147
+    "liczba": 176
    },
    {
     "nazwa": "Diesel",
-    "liczba": 128
+    "liczba": 144
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 24
+    "liczba": 40
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,15 +131,19 @@
   "pojemnosci": [
    {
     "nazwa": "3,7 l",
-    "liczba": 153
+    "liczba": 194
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 128
+    "liczba": 144
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 19
+    "liczba": 21
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
   "pochodzenie": [
@@ -148,11 +153,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 84
+    "liczba": 133
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 71
+    "liczba": 83
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -166,63 +171,217 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 243
+    "liczba": 273
    },
    {
     "nazwa": "Kombi",
-    "liczba": 28
+    "liczba": 42
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 13
+    "liczba": 19
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 8
+    "liczba": 15
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 12
    }
   ],
-  "noweOdPaczki": 24,
+  "noweOdPaczki": 85,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 5
+   },
+   {
+    "rok": 2024,
+    "liczba": 29
+   },
+   {
+    "rok": 2025,
+    "liczba": 27
+   },
    {
     "rok": 2026,
     "liczba": 24
    }
   ],
-  "miejsce": 992,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1029,
   "miejsceWMarce": 3,
-  "modeliWMarce": 4,
-  "sredniRocznik": 2015.2
+  "modeliWMarce": 6,
+  "sredniRocznik": 2015.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "infiniti",
  "modelSlug": "qx70",
  "adres": "/marki/infiniti/qx70/",
  "konkurenci": [
   {
+   "slug": "jeep-wrangler",
+   "nazwa": "Jeep Wrangler",
+   "adres": "/marki/jeep/wrangler/"
+  },
+  {
    "slug": "chrysler-pacifica",
    "nazwa": "Chrysler Pacifica",
    "adres": "/marki/chrysler/pacifica/"
   },
   {
-   "slug": "lexus-rx",
-   "nazwa": "Lexus RX",
-   "adres": "/marki/lexus/rx/"
-  },
-  {
-   "slug": "porsche-cayenne",
-   "nazwa": "Porsche Cayenne",
-   "adres": "/marki/porsche/cayenne/"
+   "slug": "mazda-cx-9",
+   "nazwa": "Mazda CX-9",
+   "adres": "/marki/mazda/cx-9/"
   },
   {
    "slug": "toyota-sienna",
@@ -230,9 +389,9 @@
    "adres": "/marki/toyota/sienna/"
   },
   {
-   "slug": "volvo-xc90",
-   "nazwa": "Volvo XC90",
-   "adres": "/marki/volvo/xc90/"
+   "slug": "dodge-journey",
+   "nazwa": "Dodge Journey",
+   "adres": "/marki/dodge/journey/"
   }
  ]
 }

@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 33 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 33, 33 1.4 KAT, 33 1.4, 33 1.7 KAT, 33 1.7).",
-  "liczbaWPolsce": 814,
-  "aktywne": 17,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 33 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 33, 33 1.4 KAT, 33 1.4, 33 1.7 KAT, 33 1.7).",
+  "liczbaWPolsce": 822,
+  "aktywne": 25,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "04",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "08",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 113
+    "liczba": 115
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "20",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "teryt": "30",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "32",
-    "liczba": 36
+    "liczba": 37
    }
   ],
   "bezWojewodztwa": 2,
@@ -118,19 +118,19 @@
    },
    {
     "rok": 1990,
-    "liczba": 36
+    "liczba": 37
    },
    {
     "rok": 1991,
-    "liczba": 127
+    "liczba": 131
    },
    {
     "rok": 1992,
-    "liczba": 133
+    "liczba": 134
    },
    {
     "rok": 1993,
-    "liczba": 176
+    "liczba": 177
    },
    {
     "rok": 1994,
@@ -152,7 +152,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 480
+    "liczba": 487
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -164,21 +164,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 109
+    "liczba": 110
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 467
+    "liczba": 470
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 241
+    "liczba": 244
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "nazwa": "1,3 l",
@@ -186,17 +186,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 604
+    "liczba": 607
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 186
+    "liczba": 191
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -210,7 +210,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 501
+    "liczba": 508
    },
    {
     "nazwa": "Sedan",
@@ -218,32 +218,186 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 96
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 3
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 716,
-  "miejsceWMarce": 13,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 794,
+  "miejsceWMarce": 15,
   "modeliWMarce": 20,
-  "sredniRocznik": 1992.3
+  "sredniRocznik": 1992.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "33",
@@ -270,9 +424,9 @@
    "adres": "/marki/renault/19/"
   },
   {
-   "slug": "nissan-100",
-   "nazwa": "Nissan 100",
-   "adres": "/marki/nissan/100/"
+   "slug": "mazda-323",
+   "nazwa": "Mazda 323",
+   "adres": "/marki/mazda/323/"
   }
  ]
 }

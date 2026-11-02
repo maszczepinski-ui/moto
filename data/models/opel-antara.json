@@ -14,134 +14,138 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Antara – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 289 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ANTARA, ANTARA 2.0 CDTI, ANTARA 2,0 CDTI).",
-  "liczbaWPolsce": 4929,
-  "aktywne": 3074,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Antara – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 592 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ANTARA, ANTARA 2.0 CDTI, ANTARA 2,0 CDTI, ANTARA 2.0, ANTARA 2.2 CDTI).",
+  "liczbaWPolsce": 6232,
+  "aktywne": 4377,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 232
+    "liczba": 322
    },
    {
     "teryt": "04",
-    "liczba": 307
+    "liczba": 373
    },
    {
     "teryt": "06",
-    "liczba": 399
+    "liczba": 567
    },
    {
     "teryt": "08",
-    "liczba": 98
+    "liczba": 137
    },
    {
     "teryt": "10",
-    "liczba": 348
+    "liczba": 438
    },
    {
     "teryt": "12",
-    "liczba": 437
+    "liczba": 525
    },
    {
     "teryt": "14",
-    "liczba": 753
+    "liczba": 945
    },
    {
     "teryt": "16",
-    "liczba": 96
+    "liczba": 113
    },
    {
     "teryt": "18",
-    "liczba": 301
+    "liczba": 398
    },
    {
     "teryt": "20",
-    "liczba": 188
+    "liczba": 235
    },
    {
     "teryt": "22",
-    "liczba": 301
+    "liczba": 360
    },
    {
     "teryt": "24",
-    "liczba": 327
+    "liczba": 393
    },
    {
     "teryt": "26",
-    "liczba": 186
+    "liczba": 243
    },
    {
     "teryt": "28",
-    "liczba": 218
+    "liczba": 279
    },
    {
     "teryt": "30",
-    "liczba": 477
+    "liczba": 596
    },
    {
     "teryt": "32",
-    "liczba": 177
+    "liczba": 224
    }
   ],
   "bezWojewodztwa": 84,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 183
+    "liczba": 224
    },
    {
     "rok": 2007,
-    "liczba": 2162
+    "liczba": 2495
    },
    {
     "rok": 2008,
-    "liczba": 880
+    "liczba": 1088
    },
    {
     "rok": 2009,
-    "liczba": 427
+    "liczba": 574
    },
    {
     "rok": 2010,
-    "liczba": 361
+    "liczba": 526
    },
    {
     "rok": 2011,
-    "liczba": 182
+    "liczba": 285
    },
    {
     "rok": 2012,
-    "liczba": 170
+    "liczba": 281
    },
    {
     "rok": 2013,
-    "liczba": 145
+    "liczba": 211
    },
    {
     "rok": 2014,
-    "liczba": 138
+    "liczba": 195
    },
    {
     "rok": 2015,
-    "liczba": 63
+    "liczba": 98
    },
    {
     "rok": 2016,
-    "liczba": 13
+    "liczba": 43
+   },
+   {
+    "rok": 2017,
+    "liczba": 14
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 4425
+    "liczba": 5529
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 317
+    "liczba": 415
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 158
+    "liczba": 259
    },
    {
     "nazwa": "Inne / brak danych",
@@ -151,19 +155,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3777
+    "liczba": 4566
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 657
+    "liczba": 977
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 345
+    "liczba": 518
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 127
+    "liczba": 148
    },
    {
     "nazwa": "Inne / brak danych",
@@ -173,11 +177,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3452
+    "liczba": 4395
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1167
+    "liczba": 1525
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -185,54 +189,208 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 87
+    "liczba": 89
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 3050
+    "liczba": 4015
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 516
+    "liczba": 745
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 441
+    "liczba": 475
    },
    {
     "nazwa": "Van",
-    "liczba": 396
+    "liczba": 416
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 363
+    "liczba": 414
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 163
+    "liczba": 167
    }
   ],
-  "noweOdPaczki": 289,
+  "noweOdPaczki": 1592,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 162
+   },
+   {
+    "rok": 2024,
+    "liczba": 619
+   },
+   {
+    "rok": 2025,
+    "liczba": 494
+   },
+   {
     "rok": 2026,
-    "liczba": 289
+    "liczba": 317
    }
   ],
-  "miejsce": 336,
-  "miejsceWMarce": 19,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2008.4
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 363,
+  "miejsceWMarce": 21,
+  "modeliWMarce": 33,
+  "sredniRocznik": 2008.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "antara",
@@ -244,14 +402,14 @@
    "adres": "/marki/volkswagen/passat/b6/"
   },
   {
-   "slug": "hyundai-santa-fe",
-   "nazwa": "Hyundai Santa Fe",
-   "adres": "/marki/hyundai/santa-fe/"
+   "slug": "volkswagen-touran",
+   "nazwa": "Volkswagen Touran",
+   "adres": "/marki/volkswagen/touran/"
   },
   {
-   "slug": "citroen-c5",
-   "nazwa": "Citroen C5",
-   "adres": "/marki/citroen/c5/"
+   "slug": "volkswagen-multivan",
+   "nazwa": "Volkswagen Multivan",
+   "adres": "/marki/volkswagen/multivan/"
   },
   {
    "slug": "alfa-romeo-159",
@@ -259,9 +417,9 @@
    "adres": "/marki/alfa-romeo/159/"
   },
   {
-   "slug": "volkswagen-touran",
-   "nazwa": "Volkswagen Touran",
-   "adres": "/marki/volkswagen/touran/"
+   "slug": "mazda-6",
+   "nazwa": "Mazda 6",
+   "adres": "/marki/mazda/6/"
   }
  ]
 }

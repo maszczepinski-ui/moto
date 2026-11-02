@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi B5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B5, B5 1.9 TDI, B5 A4, B5 1.6 KAT, B5 A4 1.9 TDI).",
-  "liczbaWPolsce": 1917,
-  "aktywne": 422,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi B5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B5, B5 1.9 TDI, B5 A4, B5 1.6 KAT, B5 A4 1.9 TDI).",
+  "liczbaWPolsce": 1924,
+  "aktywne": 429,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 210
+    "liczba": 211
    },
    {
     "teryt": "16",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 97
+    "liczba": 99
    },
    {
     "teryt": "30",
-    "liczba": 96
+    "liczba": 98
    },
    {
     "teryt": "32",
-    "liczba": 44
+    "liczba": 45
    }
   ],
   "bezWojewodztwa": 4,
@@ -94,7 +94,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 363
+    "liczba": 364
    },
    {
     "rok": 1997,
@@ -102,29 +102,29 @@
    },
    {
     "rok": 1998,
-    "liczba": 235
+    "liczba": 236
    },
    {
     "rok": 1999,
-    "liczba": 274
+    "liczba": 277
    },
    {
     "rok": 2000,
-    "liczba": 190
+    "liczba": 191
    },
    {
     "rok": 2001,
-    "liczba": 49
+    "liczba": 50
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 918
+    "liczba": 920
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 523
+    "liczba": 528
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -138,11 +138,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 841
+    "liczba": 843
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 478
+    "liczba": 483
    },
    {
     "nazwa": "1,6 l",
@@ -164,7 +164,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1010
+    "liczba": 1017
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -178,11 +178,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1148
+    "liczba": 1153
    },
    {
     "nazwa": "Kombi",
-    "liczba": 657
+    "liczba": 659
    },
    {
     "nazwa": "Hatchback",
@@ -193,25 +193,179 @@
     "liczba": 53
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 9,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 2
+   },
+   {
+    "rok": 2025,
+    "liczba": 4
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 511,
-  "miejsceWMarce": 18,
-  "modeliWMarce": 45,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 588,
+  "miejsceWMarce": 21,
+  "modeliWMarce": 51,
   "sredniRocznik": 1997.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "b5",
@@ -238,9 +392,9 @@
    "adres": "/marki/volkswagen/jetta/"
   },
   {
-   "slug": "peugeot-406",
-   "nazwa": "Peugeot 406",
-   "adres": "/marki/peugeot/406/"
+   "slug": "rover-400",
+   "nazwa": "Rover 400",
+   "adres": "/marki/rover/400/"
   }
  ]
 }

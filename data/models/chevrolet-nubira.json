@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Nubira – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NUBIRA).",
-  "liczbaWPolsce": 1576,
-  "aktywne": 786,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Nubira – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 134 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NUBIRA).",
+  "liczbaWPolsce": 1695,
+  "aktywne": 905,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 110
+    "liczba": 125
    },
    {
     "teryt": "04",
-    "liczba": 68
+    "liczba": 75
    },
    {
     "teryt": "06",
-    "liczba": 112
+    "liczba": 114
    },
    {
     "teryt": "08",
-    "liczba": 53
+    "liczba": 57
    },
    {
     "teryt": "10",
-    "liczba": 181
+    "liczba": 190
    },
    {
     "teryt": "12",
-    "liczba": 108
+    "liczba": 114
    },
    {
     "teryt": "14",
-    "liczba": 221
+    "liczba": 236
    },
    {
     "teryt": "16",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "18",
-    "liczba": 70
+    "liczba": 73
    },
    {
     "teryt": "20",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "22",
-    "liczba": 65
+    "liczba": 71
    },
    {
     "teryt": "24",
-    "liczba": 194
+    "liczba": 208
    },
    {
     "teryt": "26",
-    "liczba": 31
+    "liczba": 34
    },
    {
     "teryt": "28",
-    "liczba": 36
+    "liczba": 38
    },
    {
     "teryt": "30",
-    "liczba": 123
+    "liczba": 140
    },
    {
     "teryt": "32",
-    "liczba": 99
+    "liczba": 112
    }
   ],
   "bezWojewodztwa": 43,
@@ -89,77 +89,81 @@
    },
    {
     "rok": 2004,
-    "liczba": 36
+    "liczba": 38
    },
    {
     "rok": 2005,
-    "liczba": 281
+    "liczba": 288
    },
    {
     "rok": 2006,
-    "liczba": 496
+    "liczba": 520
    },
    {
     "rok": 2007,
-    "liczba": 392
+    "liczba": 419
    },
    {
     "rok": 2008,
-    "liczba": 187
+    "liczba": 209
    },
    {
     "rok": 2009,
-    "liczba": 56
+    "liczba": 71
    },
    {
     "rok": 2010,
-    "liczba": 55
+    "liczba": 76
+   },
+   {
+    "rok": 2011,
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 909
+    "liczba": 953
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 436
+    "liczba": 491
    },
    {
     "nazwa": "Diesel",
-    "liczba": 218
+    "liczba": 237
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 14
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 689
+    "liczba": 746
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 650
+    "liczba": 692
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 220
+    "liczba": 239
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 18
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1307
+    "liczba": 1398
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 220
+    "liczba": 248
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,40 +173,194 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1388
+    "liczba": 1499
    },
    {
     "nazwa": "Sedan",
-    "liczba": 118
+    "liczba": 123
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 47
+    "liczba": 48
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 134,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 19
+   },
+   {
+    "rok": 2024,
+    "liczba": 66
+   },
+   {
+    "rok": 2025,
+    "liczba": 34
+   },
    {
     "rok": 2026,
     "liczba": 15
    }
   ],
-  "miejsce": 567,
-  "miejsceWMarce": 9,
-  "modeliWMarce": 20,
-  "sredniRocznik": 2006.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 619,
+  "miejsceWMarce": 12,
+  "modeliWMarce": 22,
+  "sredniRocznik": 2006.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "nubira",
@@ -214,9 +372,14 @@
    "adres": "/marki/toyota/avensis/"
   },
   {
-   "slug": "skoda-octavia",
-   "nazwa": "Skoda Octavia",
-   "adres": "/marki/skoda/octavia/"
+   "slug": "ford-focus",
+   "nazwa": "Ford Focus",
+   "adres": "/marki/ford/focus/"
+  },
+  {
+   "slug": "volvo-v40",
+   "nazwa": "Volvo V40",
+   "adres": "/marki/volvo/v40/"
   },
   {
    "slug": "suzuki-grand-vitara",
@@ -227,11 +390,6 @@
    "slug": "suzuki-jimny",
    "nazwa": "Suzuki Jimny",
    "adres": "/marki/suzuki/jimny/"
-  },
-  {
-   "slug": "citroen-berlingo",
-   "nazwa": "Citroen Berlingo",
-   "adres": "/marki/citroen/berlingo/"
   }
  ]
 }

@@ -11,116 +11,116 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Celerio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CELERIO).",
-  "liczbaWPolsce": 1704,
-  "aktywne": 1109,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Celerio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 274 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CELERIO).",
+  "liczbaWPolsce": 1936,
+  "aktywne": 1341,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 112
+    "liczba": 128
    },
    {
     "teryt": "04",
-    "liczba": 50
+    "liczba": 67
    },
    {
     "teryt": "06",
-    "liczba": 58
+    "liczba": 69
    },
    {
     "teryt": "08",
-    "liczba": 54
+    "liczba": 62
    },
    {
     "teryt": "10",
-    "liczba": 75
+    "liczba": 89
    },
    {
     "teryt": "12",
-    "liczba": 217
+    "liczba": 243
    },
    {
     "teryt": "14",
-    "liczba": 229
+    "liczba": 246
    },
    {
     "teryt": "16",
-    "liczba": 46
+    "liczba": 49
    },
    {
     "teryt": "18",
-    "liczba": 66
+    "liczba": 79
    },
    {
     "teryt": "20",
-    "liczba": 80
+    "liczba": 83
    },
    {
     "teryt": "22",
-    "liczba": 107
+    "liczba": 122
    },
    {
     "teryt": "24",
-    "liczba": 314
+    "liczba": 342
    },
    {
     "teryt": "26",
-    "liczba": 47
+    "liczba": 52
    },
    {
     "teryt": "28",
-    "liczba": 56
+    "liczba": 63
    },
    {
     "teryt": "30",
-    "liczba": 140
+    "liczba": 175
    },
    {
     "teryt": "32",
-    "liczba": 49
+    "liczba": 63
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 87
+    "liczba": 99
    },
    {
     "rok": 2015,
-    "liczba": 561
+    "liczba": 617
    },
    {
     "rok": 2016,
-    "liczba": 235
+    "liczba": 277
    },
    {
     "rok": 2017,
-    "liczba": 459
+    "liczba": 509
    },
    {
     "rok": 2018,
-    "liczba": 221
+    "liczba": 273
    },
    {
     "rok": 2019,
-    "liczba": 82
+    "liczba": 100
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1692
+    "liczba": 1917
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 19
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 1703
+    "liczba": 1935
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,11 +134,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 183
+    "liczba": 346
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 139
+    "liczba": 208
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,32 +148,186 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1697
+    "liczba": 1927
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 9
    }
   ],
-  "noweOdPaczki": 42,
+  "noweOdPaczki": 274,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 11
+   },
+   {
+    "rok": 2024,
+    "liczba": 111
+   },
+   {
+    "rok": 2025,
+    "liczba": 104
+   },
+   {
     "rok": 2026,
-    "liczba": 42
+    "liczba": 48
    }
   ],
-  "miejsce": 540,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 19,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 586,
+  "miejsceWMarce": 15,
+  "modeliWMarce": 20,
   "sredniRocznik": 2016.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "suzuki",
  "modelSlug": "celerio",
@@ -195,9 +349,9 @@
    "adres": "/marki/opel/karl/"
   },
   {
-   "slug": "dacia-sandero",
-   "nazwa": "Dacia Sandero",
-   "adres": "/marki/dacia/sandero/"
+   "slug": "peugeot-108",
+   "nazwa": "Peugeot 108",
+   "adres": "/marki/peugeot/108/"
   },
   {
    "slug": "seat-mii",

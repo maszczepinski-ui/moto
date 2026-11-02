@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 132 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 132, 132 1600 GL, 132 1800 GLS, 132 A, 132 P).",
-  "liczbaWPolsce": 2864,
-  "aktywne": 24,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 132 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 132, 132 1600 GL, 132 1800 GLS, 132 A, 132 P).",
+  "liczbaWPolsce": 2884,
+  "aktywne": 44,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 209
+    "liczba": 211
    },
    {
     "teryt": "08",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 273
+    "liczba": 277
    },
    {
     "teryt": "14",
-    "liczba": 498
+    "liczba": 505
    },
    {
     "teryt": "16",
@@ -49,23 +49,23 @@
    },
    {
     "teryt": "18",
-    "liczba": 155
+    "liczba": 156
    },
    {
     "teryt": "20",
-    "liczba": 78
+    "liczba": 79
    },
    {
     "teryt": "22",
-    "liczba": 129
+    "liczba": 130
    },
    {
     "teryt": "24",
-    "liczba": 232
+    "liczba": 234
    },
    {
     "teryt": "26",
-    "liczba": 65
+    "liczba": 67
    },
    {
     "teryt": "28",
@@ -84,15 +84,15 @@
   "roczniki": [
    {
     "rok": 1972,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1973,
-    "liczba": 80
+    "liczba": 81
    },
    {
     "rok": 1974,
-    "liczba": 349
+    "liczba": 352
    },
    {
     "rok": 1975,
@@ -100,7 +100,7 @@
    },
    {
     "rok": 1976,
-    "liczba": 235
+    "liczba": 236
    },
    {
     "rok": 1977,
@@ -108,15 +108,15 @@
    },
    {
     "rok": 1978,
-    "liczba": 225
+    "liczba": 233
    },
    {
     "rok": 1979,
-    "liczba": 295
+    "liczba": 297
    },
    {
     "rok": 1980,
-    "liczba": 284
+    "liczba": 286
    },
    {
     "rok": 1981,
@@ -124,7 +124,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 156
+    "liczba": 157
    },
    {
     "rok": 1983,
@@ -132,7 +132,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 100
+    "liczba": 101
    },
    {
     "rok": 1985,
@@ -182,7 +182,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 336
+    "liczba": 356
    },
    {
     "nazwa": "Diesel",
@@ -200,15 +200,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1007
+    "liczba": 1018
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 683
+    "liczba": 685
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 676
+    "liczba": 683
    },
    {
     "nazwa": "1,5 l",
@@ -234,7 +234,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1921
+    "liczba": 1925
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -242,7 +242,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 70
+    "liczba": 86
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -256,24 +256,178 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 324
+    "liczba": 344
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2540
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 9
+   },
+   {
+    "rok": 2025,
+    "liczba": 10
+   },
    {
     "rok": 2026,
     "liczba": 7
    }
   ],
-  "miejsce": 430,
-  "miejsceWMarce": 29,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 497,
+  "miejsceWMarce": 30,
   "modeliWMarce": 58,
   "sredniRocznik": 1978.7
  },
@@ -281,7 +435,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "132",
@@ -303,14 +457,14 @@
    "adres": "/marki/polski-fiat/132p/"
   },
   {
-   "slug": "polski-fiat-125p",
-   "nazwa": "Polski Fiat 125p",
-   "adres": "/marki/polski-fiat/125p/"
-  },
-  {
    "slug": "opel-rekord",
    "nazwa": "Opel Rekord",
    "adres": "/marki/opel/rekord/"
+  },
+  {
+   "slug": "polski-fiat-125p",
+   "nazwa": "Polski Fiat 125p",
+   "adres": "/marki/polski-fiat/125p/"
   }
  ]
 }

@@ -14,249 +14,371 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Edge – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 876 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EDGE, EDGE TITANIUM, EDGE SEL, EDGE ST, EDGE 2.0 SEL).",
-  "liczbaWPolsce": 2652,
-  "aktywne": 2566,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Edge – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 614 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EDGE, EDGE TITANIUM, EDGE SEL, EDGE ST, EDGE 2.0 SEL).",
+  "liczbaWPolsce": 7390,
+  "aktywne": 7304,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 178
+    "liczba": 460
    },
    {
     "teryt": "04",
-    "liczba": 115
+    "liczba": 300
    },
    {
     "teryt": "06",
-    "liczba": 162
+    "liczba": 506
    },
    {
     "teryt": "08",
-    "liczba": 55
+    "liczba": 161
    },
    {
     "teryt": "10",
-    "liczba": 138
+    "liczba": 404
    },
    {
     "teryt": "12",
-    "liczba": 261
+    "liczba": 742
    },
    {
     "teryt": "14",
-    "liczba": 451
+    "liczba": 1295
    },
    {
     "teryt": "16",
-    "liczba": 61
+    "liczba": 138
    },
    {
     "teryt": "18",
-    "liczba": 223
+    "liczba": 714
    },
    {
     "teryt": "20",
-    "liczba": 119
+    "liczba": 410
    },
    {
     "teryt": "22",
-    "liczba": 140
+    "liczba": 374
    },
    {
     "teryt": "24",
-    "liczba": 208
+    "liczba": 547
    },
    {
     "teryt": "26",
-    "liczba": 77
+    "liczba": 224
    },
    {
     "teryt": "28",
-    "liczba": 82
+    "liczba": 227
    },
    {
     "teryt": "30",
-    "liczba": 257
+    "liczba": 609
    },
    {
     "teryt": "32",
-    "liczba": 94
+    "liczba": 248
    }
   ],
   "bezWojewodztwa": 31,
   "roczniki": [
    {
-    "rok": 2007,
-    "liczba": 7
-   },
-   {
-    "rok": 2008,
-    "liczba": 10
-   },
-   {
-    "rok": 2009,
-    "liczba": 4
-   },
-   {
-    "rok": 2010,
-    "liczba": 5
-   },
-   {
-    "rok": 2011,
-    "liczba": 5
-   },
-   {
-    "rok": 2012,
-    "liczba": 5
-   },
-   {
-    "rok": 2013,
-    "liczba": 5
-   },
-   {
-    "rok": 2014,
-    "liczba": 5
-   },
-   {
     "rok": 2015,
-    "liczba": 141
+    "liczba": 376
    },
    {
     "rok": 2016,
-    "liczba": 392
+    "liczba": 926
    },
    {
     "rok": 2017,
-    "liczba": 451
+    "liczba": 1165
    },
    {
     "rok": 2018,
-    "liczba": 391
+    "liczba": 1082
    },
    {
     "rok": 2019,
-    "liczba": 381
+    "liczba": 1271
    },
    {
     "rok": 2020,
-    "liczba": 211
+    "liczba": 781
    },
    {
     "rok": 2021,
-    "liczba": 125
+    "liczba": 442
    },
    {
     "rok": 2022,
-    "liczba": 218
+    "liczba": 686
    },
    {
     "rok": 2023,
-    "liczba": 127
+    "liczba": 310
    },
    {
     "rok": 2024,
-    "liczba": 97
+    "liczba": 205
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1450
+    "liczba": 4255
    },
    {
     "nazwa": "Diesel",
-    "liczba": 960
+    "liczba": 2031
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 233
+    "liczba": 1090
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 14
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 2101
+    "liczba": 5748
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 304
+    "liczba": 919
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 214
+    "liczba": 682
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 33
+    "liczba": 41
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1965
+    "liczba": 5198
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 1816
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 341
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 312
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 34
+    "liczba": 35
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1433
+    "liczba": 3583
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 805
+    "liczba": 2538
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 154
+    "liczba": 591
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 85
+    "liczba": 244
    },
    {
     "nazwa": "Van",
-    "liczba": 78
+    "liczba": 205
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 97
+    "liczba": 229
    }
   ],
-  "noweOdPaczki": 1876,
+  "noweOdPaczki": 6614,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 379
+   },
+   {
+    "rok": 2024,
+    "liczba": 1840
+   },
+   {
+    "rok": 2025,
+    "liczba": 2396
+   },
+   {
     "rok": 2026,
-    "liczba": 1876
+    "liczba": 1999
    }
   ],
-  "miejsce": 436,
-  "miejsceWMarce": 25,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2018.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 112
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 146
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 165
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 153
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 181
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 165
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 154
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 185
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 165
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 182
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 189
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 219
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 191
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 187
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 225
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 195
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 202
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 235
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 190
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 219
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 123
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 336,
+  "miejsceWMarce": 20,
+  "modeliWMarce": 45,
+  "sredniRocznik": 2018.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "edge",
@@ -278,14 +400,14 @@
    "adres": "/marki/jaguar/f-pace/"
   },
   {
-   "slug": "audi-q3",
-   "nazwa": "Audi Q3",
-   "adres": "/marki/audi/q3/"
+   "slug": "audi-q5",
+   "nazwa": "Audi Q5",
+   "adres": "/marki/audi/q5/"
   },
   {
-   "slug": "porsche-macan",
-   "nazwa": "Porsche Macan",
-   "adres": "/marki/porsche/macan/"
+   "slug": "mazda-mazda6",
+   "nazwa": "Mazda MAZDA6",
+   "adres": "/marki/mazda/mazda6/"
   }
  ]
 }

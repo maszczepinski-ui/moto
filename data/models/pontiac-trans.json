@@ -14,21 +14,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac Trans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRANS SPORT, TRANS SPORT 2.3 KAT, TRANS SPORT SE, TRANS SPORT 3.1, TRANS SPORT 3.8 KAT).",
-  "liczbaWPolsce": 1764,
-  "aktywne": 47,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac Trans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRANS SPORT, TRANS SPORT 2.3 KAT, TRANS SPORT SE, TRANS SPORT 3.1, TRANS SPORT 3.8 KAT).",
+  "liczbaWPolsce": 1786,
+  "aktywne": 69,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 182
+    "liczba": 188
    },
    {
     "teryt": "04",
-    "liczba": 82
+    "liczba": 85
    },
    {
     "teryt": "06",
-    "liczba": 131
+    "liczba": 133
    },
    {
     "teryt": "08",
@@ -36,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 114
+    "liczba": 116
    },
    {
     "teryt": "12",
-    "liczba": 95
+    "liczba": 96
    },
    {
     "teryt": "14",
-    "liczba": 313
+    "liczba": 315
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "20",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 104
+    "liczba": 106
    },
    {
     "teryt": "24",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 152
+    "liczba": 155
    },
    {
     "teryt": "32",
@@ -86,44 +86,76 @@
   "bezWojewodztwa": 2,
   "roczniki": [
    {
-    "rok": 1987,
-    "liczba": 5
+    "rok": 1979,
+    "liczba": 4
    },
    {
-    "rok": 1988,
-    "liczba": 3
+    "rok": 1980,
+    "liczba": 2
    },
    {
-    "rok": 1989,
+    "rok": 1981,
+    "liczba": 0
+   },
+   {
+    "rok": 1982,
+    "liczba": 0
+   },
+   {
+    "rok": 1983,
+    "liczba": 0
+   },
+   {
+    "rok": 1984,
+    "liczba": 2
+   },
+   {
+    "rok": 1985,
+    "liczba": 0
+   },
+   {
+    "rok": 1986,
     "liczba": 1
    },
    {
+    "rok": 1987,
+    "liczba": 6
+   },
+   {
+    "rok": 1988,
+    "liczba": 4
+   },
+   {
+    "rok": 1989,
+    "liczba": 2
+   },
+   {
     "rok": 1990,
-    "liczba": 109
+    "liczba": 110
    },
    {
     "rok": 1991,
-    "liczba": 158
+    "liczba": 159
    },
    {
     "rok": 1992,
-    "liczba": 170
+    "liczba": 172
    },
    {
     "rok": 1993,
-    "liczba": 399
+    "liczba": 403
    },
    {
     "rok": 1994,
-    "liczba": 378
+    "liczba": 380
    },
    {
     "rok": 1995,
-    "liczba": 298
+    "liczba": 299
    },
    {
     "rok": 1996,
-    "liczba": 178
+    "liczba": 179
    },
    {
     "rok": 1997,
@@ -131,7 +163,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1999,
@@ -141,11 +173,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 800
+    "liczba": 801
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 644
+    "liczba": 665
    },
    {
     "nazwa": "?+LPG",
@@ -163,15 +195,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 708
+    "liczba": 709
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 538
+    "liczba": 543
    },
    {
     "nazwa": "3,1 l",
-    "liczba": 372
+    "liczba": 374
    },
    {
     "nazwa": "3,4 l",
@@ -187,17 +219,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 63
+    "liczba": 77
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1042
+    "liczba": 1045
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 642
+    "liczba": 661
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -215,7 +247,7 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 889
+    "liczba": 896
    },
    {
     "nazwa": "Kombi",
@@ -223,40 +255,198 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 138
+    "liczba": 139
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 78
+    "liczba": 79
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 35
+    "liczba": 36
+   },
+   {
+    "nazwa": "Coupe",
+    "liczba": 19
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 370
+    "liczba": 363
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 11
+   },
+   {
+    "rok": 2025,
+    "liczba": 9
+   },
    {
     "rok": 2026,
     "liczba": 5
    }
   ],
-  "miejsce": 531,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 608,
   "miejsceWMarce": 1,
   "modeliWMarce": 3,
-  "sredniRocznik": 1993.5
+  "sredniRocznik": 1993.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "pontiac",
  "modelSlug": "trans",
@@ -268,14 +458,14 @@
    "adres": "/marki/ford/windstar/"
   },
   {
-   "slug": "dodge-caravan",
-   "nazwa": "Dodge Caravan",
-   "adres": "/marki/dodge/caravan/"
-  },
-  {
    "slug": "ford-taurus",
    "nazwa": "Ford Taurus",
    "adres": "/marki/ford/taurus/"
+  },
+  {
+   "slug": "dodge-caravan",
+   "nazwa": "Dodge Caravan",
+   "adres": "/marki/dodge/caravan/"
   },
   {
    "slug": "mitsubishi-l",
@@ -283,9 +473,9 @@
    "adres": "/marki/mitsubishi/l/"
   },
   {
-   "slug": "nissan-maxima",
-   "nazwa": "Nissan Maxima",
-   "adres": "/marki/nissan/maxima/"
+   "slug": "ford-probe",
+   "nazwa": "Ford Probe",
+   "adres": "/marki/ford/probe/"
   }
  ]
 }

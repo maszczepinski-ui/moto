@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar Sovereign – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SOVEREIGN, SOVEREIGN 4.0 KAT).",
-  "liczbaWPolsce": 384,
-  "aktywne": 75,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar Sovereign – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SOVEREIGN, SOVEREIGN 4.0 KAT, SOVEREIGN 4.0I).",
+  "liczbaWPolsce": 408,
+  "aktywne": 99,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "04",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "06",
-    "liczba": 15
+    "liczba": 18
    },
    {
     "teryt": "08",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "12",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "14",
-    "liczba": 94
+    "liczba": 99
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "20",
@@ -57,27 +57,27 @@
    },
    {
     "teryt": "22",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "24",
-    "liczba": 36
+    "liczba": 38
    },
    {
     "teryt": "26",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "28",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "30",
-    "liczba": 47
+    "liczba": 49
    },
    {
     "teryt": "32",
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 2,
@@ -96,7 +96,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1984,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1987,
@@ -116,31 +116,31 @@
    },
    {
     "rok": 1988,
-    "liczba": 27
+    "liczba": 29
    },
    {
     "rok": 1989,
-    "liczba": 21
+    "liczba": 23
    },
    {
     "rok": 1990,
-    "liczba": 34
+    "liczba": 37
    },
    {
     "rok": 1991,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 1992,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 1993,
-    "liczba": 23
+    "liczba": 25
    },
    {
     "rok": 1994,
-    "liczba": 23
+    "liczba": 26
    },
    {
     "rok": 1995,
@@ -148,23 +148,23 @@
    },
    {
     "rok": 1996,
-    "liczba": 34
+    "liczba": 35
    },
    {
     "rok": 1997,
-    "liczba": 31
+    "liczba": 35
    },
    {
     "rok": 1998,
-    "liczba": 37
+    "liczba": 38
    },
    {
     "rok": 1999,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 2000,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2001,
@@ -178,7 +178,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 265
+    "liczba": 289
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -192,23 +192,23 @@
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 230
+    "liczba": 244
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 58
+    "liczba": 63
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 53
+    "liczba": 55
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "nazwa": "5,3 l",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "2,9 l",
@@ -222,29 +222,25 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 219
+    "liczba": 224
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 147
+    "liczba": 166
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 14
    },
    {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 2
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 4
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 324
+    "liczba": 348
    },
    {
     "nazwa": "Hatchback",
@@ -255,25 +251,179 @@
     "liczba": 53
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 34,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 3
+   },
+   {
+    "rok": 2024,
+    "liczba": 9
+   },
+   {
+    "rok": 2025,
+    "liczba": 11
+   },
+   {
     "rok": 2026,
-    "liczba": 10
+    "liczba": 11
    }
   ],
-  "miejsce": 922,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 989,
   "miejsceWMarce": 9,
-  "modeliWMarce": 11,
-  "sredniRocznik": 1993.3
+  "modeliWMarce": 15,
+  "sredniRocznik": 1993.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "sovereign",
@@ -290,14 +440,14 @@
    "adres": "/marki/ford/taurus/"
   },
   {
-   "slug": "bmw-seria-7",
-   "nazwa": "BMW Seria 7",
-   "adres": "/marki/bmw/seria-7/"
-  },
-  {
    "slug": "pontiac-trans",
    "nazwa": "Pontiac Trans",
    "adres": "/marki/pontiac/trans/"
+  },
+  {
+   "slug": "mercedes-benz-500",
+   "nazwa": "Mercedes-Benz 500",
+   "adres": "/marki/mercedes-benz/500/"
   },
   {
    "slug": "honda-legend",

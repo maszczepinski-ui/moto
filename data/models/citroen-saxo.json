@@ -12,45 +12,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Saxo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SAXO, SAXO 1.1 KAT, SAXO 1.5D, SAXO 1.1I, SAXO 1.1).",
-  "liczbaWPolsce": 8983,
-  "aktywne": 1499,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Saxo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 71 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SAXO, SAXO 1.1 KAT, SAXO 1.5D, SAXO 1.1I, SAXO 1.1).",
+  "liczbaWPolsce": 9041,
+  "aktywne": 1557,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 684
+    "liczba": 694
    },
    {
     "teryt": "04",
-    "liczba": 503
+    "liczba": 505
    },
    {
     "teryt": "06",
-    "liczba": 577
+    "liczba": 578
    },
    {
     "teryt": "08",
-    "liczba": 325
+    "liczba": 333
    },
    {
     "teryt": "10",
-    "liczba": 558
+    "liczba": 561
    },
    {
     "teryt": "12",
-    "liczba": 955
+    "liczba": 957
    },
    {
     "teryt": "14",
-    "liczba": 1056
+    "liczba": 1059
    },
    {
     "teryt": "16",
-    "liczba": 208
+    "liczba": 212
    },
    {
     "teryt": "18",
-    "liczba": 504
+    "liczba": 507
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 375
+    "liczba": 379
    },
    {
     "teryt": "24",
-    "liczba": 951
+    "liczba": 956
    },
    {
     "teryt": "26",
@@ -70,60 +70,60 @@
    },
    {
     "teryt": "28",
-    "liczba": 200
+    "liczba": 201
    },
    {
     "teryt": "30",
-    "liczba": 1192
+    "liczba": 1201
    },
    {
     "teryt": "32",
-    "liczba": 530
+    "liczba": 533
    }
   ],
   "bezWojewodztwa": 27,
   "roczniki": [
    {
     "rok": 1996,
-    "liczba": 977
+    "liczba": 979
    },
    {
     "rok": 1997,
-    "liczba": 1580
+    "liczba": 1585
    },
    {
     "rok": 1998,
-    "liczba": 1161
+    "liczba": 1165
    },
    {
     "rok": 1999,
-    "liczba": 1361
+    "liczba": 1367
    },
    {
     "rok": 2000,
-    "liczba": 1498
+    "liczba": 1502
    },
    {
     "rok": 2001,
-    "liczba": 1141
+    "liczba": 1154
    },
    {
     "rok": 2002,
-    "liczba": 811
+    "liczba": 826
    },
    {
     "rok": 2003,
-    "liczba": 316
+    "liczba": 324
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6433
+    "liczba": 6490
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1565
+    "liczba": 1566
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -137,23 +137,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 5639
+    "liczba": 5683
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1612
+    "liczba": 1613
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 734
+    "liczba": 735
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 668
+    "liczba": 678
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 311
+    "liczba": 313
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,11 +163,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5232
+    "liczba": 5246
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2423
+    "liczba": 2467
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -185,7 +185,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 7840
+    "liczba": 7898
    },
    {
     "nazwa": "Sedan",
@@ -196,25 +196,179 @@
     "liczba": 780
    }
   ],
-  "noweOdPaczki": 13,
+  "noweOdPaczki": 71,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 10
+   },
+   {
+    "rok": 2024,
+    "liczba": 25
+   },
+   {
+    "rok": 2025,
+    "liczba": 21
+   },
+   {
     "rok": 2026,
-    "liczba": 13
+    "liczba": 15
    }
   ],
-  "miejsce": 254,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 304,
   "miejsceWMarce": 11,
-  "modeliWMarce": 39,
+  "modeliWMarce": 40,
   "sredniRocznik": 1999.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "saxo",
@@ -231,19 +385,19 @@
    "adres": "/marki/volkswagen/lupo/"
   },
   {
-   "slug": "ford-fiesta",
-   "nazwa": "Ford Fiesta",
-   "adres": "/marki/ford/fiesta/"
-  },
-  {
    "slug": "seat-arosa",
    "nazwa": "Seat Arosa",
    "adres": "/marki/seat/arosa/"
   },
   {
-   "slug": "subaru-justy",
-   "nazwa": "Subaru Justy",
-   "adres": "/marki/subaru/justy/"
+   "slug": "opel-corsa-b",
+   "nazwa": "Opel Corsa B",
+   "adres": "/marki/opel/corsa/b/"
+  },
+  {
+   "slug": "kia-pride",
+   "nazwa": "Kia Pride",
+   "adres": "/marki/kia/pride/"
   }
  ]
 }

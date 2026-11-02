@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 140 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 140).",
-  "liczbaWPolsce": 321,
-  "aktywne": 23,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 140 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 140).",
+  "liczbaWPolsce": 322,
+  "aktywne": 24,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "24",
@@ -98,7 +98,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 60
+    "liczba": 61
    },
    {
     "rok": 1995,
@@ -128,7 +128,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 103
+    "liczba": 104
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -162,7 +162,7 @@
    },
    {
     "nazwa": "6,0 l",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "3,0 l",
@@ -188,7 +188,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -210,7 +210,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "nazwa": "Hatchback",
@@ -221,39 +221,176 @@
     "liczba": 57
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 977,
-  "miejsceWMarce": 44,
-  "modeliWMarce": 48,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1066,
+  "miejsceWMarce": 51,
+  "modeliWMarce": 54,
   "sredniRocznik": 1993.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "140",
  "adres": "/marki/mercedes-benz/140/",
  "konkurenci": [
   {
-   "slug": "bmw-seria-7",
-   "nazwa": "BMW Seria 7",
-   "adres": "/marki/bmw/seria-7/"
-  },
-  {
    "slug": "peugeot-605",
    "nazwa": "Peugeot 605",
    "adres": "/marki/peugeot/605/"
-  },
-  {
-   "slug": "lancia-thema",
-   "nazwa": "Lancia Thema",
-   "adres": "/marki/lancia/thema/"
   },
   {
    "slug": "opel-omega",
@@ -264,6 +401,16 @@
    "slug": "lincoln-town-country",
    "nazwa": "Lincoln Town & Country",
    "adres": "/marki/lincoln/town-country/"
+  },
+  {
+   "slug": "chrysler-jeep",
+   "nazwa": "Chrysler Jeep",
+   "adres": "/marki/chrysler/jeep/"
+  },
+  {
+   "slug": "lancia-thema",
+   "nazwa": "Lancia Thema",
+   "adres": "/marki/lancia/thema/"
   }
  ]
 }

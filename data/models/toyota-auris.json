@@ -13,176 +13,176 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Auris – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 013 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AURIS, TOYOTA AURIS, AURIS-TMPL, AURIS 2.0 D-4D, AURIS 1.6).",
-  "liczbaWPolsce": 73125,
-  "aktywne": 39695,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Auris – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 283 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AURIS, TOYOTA AURIS, AURIS-TMPL, AURIS HYBRID, AURIS 2.0 D-4D).",
+  "liczbaWPolsce": 84395,
+  "aktywne": 50965,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5545
+    "liczba": 6545
    },
    {
     "teryt": "04",
-    "liczba": 2717
+    "liczba": 3129
    },
    {
     "teryt": "06",
-    "liczba": 3356
+    "liczba": 4177
    },
    {
     "teryt": "08",
-    "liczba": 1198
+    "liczba": 1402
    },
    {
     "teryt": "10",
-    "liczba": 4121
+    "liczba": 4778
    },
    {
     "teryt": "12",
-    "liczba": 5641
+    "liczba": 6529
    },
    {
     "teryt": "14",
-    "liczba": 20018
+    "liczba": 22800
    },
    {
     "teryt": "16",
-    "liczba": 1299
+    "liczba": 1451
    },
    {
     "teryt": "18",
-    "liczba": 3583
+    "liczba": 4234
    },
    {
     "teryt": "20",
-    "liczba": 2204
+    "liczba": 2687
    },
    {
     "teryt": "22",
-    "liczba": 3996
+    "liczba": 4437
    },
    {
     "teryt": "24",
-    "liczba": 7619
+    "liczba": 8337
    },
    {
     "teryt": "26",
-    "liczba": 2015
+    "liczba": 2453
    },
    {
     "teryt": "28",
-    "liczba": 2253
+    "liczba": 2647
    },
    {
     "teryt": "30",
-    "liczba": 5031
+    "liczba": 5857
    },
    {
     "teryt": "32",
-    "liczba": 2238
+    "liczba": 2641
    }
   ],
   "bezWojewodztwa": 291,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 209
+    "liczba": 228
    },
    {
     "rok": 2007,
-    "liczba": 8595
+    "liczba": 9303
    },
    {
     "rok": 2008,
-    "liczba": 8290
+    "liczba": 9058
    },
    {
     "rok": 2009,
-    "liczba": 5048
+    "liczba": 5663
    },
    {
     "rok": 2010,
-    "liczba": 3604
+    "liczba": 4436
    },
    {
     "rok": 2011,
-    "liczba": 3240
+    "liczba": 4114
    },
    {
     "rok": 2012,
-    "liczba": 2726
+    "liczba": 3401
    },
    {
     "rok": 2013,
-    "liczba": 7025
+    "liczba": 8546
    },
    {
     "rok": 2014,
-    "liczba": 6272
+    "liczba": 7652
    },
    {
     "rok": 2015,
-    "liczba": 6512
+    "liczba": 7741
    },
    {
     "rok": 2016,
-    "liczba": 6067
+    "liczba": 7084
    },
    {
     "rok": 2017,
-    "liczba": 5352
+    "liczba": 6151
    },
    {
     "rok": 2018,
-    "liczba": 8063
+    "liczba": 8809
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 45048
+    "liczba": 49378
    },
    {
     "nazwa": "Diesel",
-    "liczba": 17713
+    "liczba": 18760
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 7009
+    "liczba": 10330
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3256
+    "liczba": 5823
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 99
+    "liczba": 104
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 27226
-   },
-   {
-    "nazwa": "1,4 l",
-    "liczba": 16598
-   },
-   {
-    "nazwa": "1,3 l",
-    "liczba": 12695
+    "liczba": 30163
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 11931
+    "liczba": 17580
+   },
+   {
+    "nazwa": "1,4 l",
+    "liczba": 17436
+   },
+   {
+    "nazwa": "1,3 l",
+    "liczba": 13707
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 3995
+    "liczba": 4444
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 680
+    "liczba": 1065
    }
   ],
   "pochodzenie": [
@@ -192,54 +192,208 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 19797
+    "liczba": 23473
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 15538
+    "liczba": 23118
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 370
+    "liczba": 384
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 35415
+    "liczba": 39901
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 27812
+    "liczba": 32479
    },
    {
     "nazwa": "Kombi",
-    "liczba": 9264
+    "liczba": 11351
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 634
+    "liczba": 664
    }
   ],
-  "noweOdPaczki": 3013,
-  "hybrydy": 6822,
+  "noweOdPaczki": 14283,
+  "hybrydy": 10143,
   "elektryczne": 17,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1128
+   },
+   {
+    "rok": 2024,
+    "liczba": 5215
+   },
+   {
+    "rok": 2025,
+    "liczba": 4753
+   },
+   {
     "rok": 2026,
-    "liczba": 3013
+    "liczba": 3187
    }
   ],
-  "miejsce": 49,
-  "miejsceWMarce": 4,
-  "modeliWMarce": 36,
-  "sredniRocznik": 2012.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 277
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 367
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 424
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 450
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 471
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 433
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 400
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 445
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 452
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 422
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 510
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 433
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 408
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 406
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 451
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 440
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 437
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 399
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 381
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 449
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 354
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 412
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 413
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 300
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 311
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 53,
+  "miejsceWMarce": 5,
+  "modeliWMarce": 39,
+  "sredniRocznik": 2012.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "auris",
@@ -251,24 +405,24 @@
    "adres": "/marki/alfa-romeo/giulietta/"
   },
   {
-   "slug": "nissan-qashqai",
-   "nazwa": "Nissan Qashqai",
-   "adres": "/marki/nissan/qashqai/"
-  },
-  {
    "slug": "kia-venga",
    "nazwa": "Kia Venga",
    "adres": "/marki/kia/venga/"
   },
   {
+   "slug": "nissan-qashqai",
+   "nazwa": "Nissan Qashqai",
+   "adres": "/marki/nissan/qashqai/"
+  },
+  {
+   "slug": "hyundai-ix20",
+   "nazwa": "Hyundai ix20",
+   "adres": "/marki/hyundai/ix20/"
+  },
+  {
    "slug": "hyundai-ix35",
    "nazwa": "Hyundai ix35",
    "adres": "/marki/hyundai/ix35/"
-  },
-  {
-   "slug": "mitsubishi-asx",
-   "nazwa": "Mitsubishi ASX",
-   "adres": "/marki/mitsubishi/asx/"
   }
  ]
 }

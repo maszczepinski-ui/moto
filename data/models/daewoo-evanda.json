@@ -11,17 +11,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Evanda – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVANDA).",
-  "liczbaWPolsce": 220,
-  "aktywne": 94,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Evanda – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVANDA).",
+  "liczbaWPolsce": 226,
+  "aktywne": 100,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "04",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "06",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "20",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "32",
@@ -88,31 +88,31 @@
    },
    {
     "rok": 2003,
-    "liczba": 108
+    "liczba": 110
    },
    {
     "rok": 2004,
-    "liczba": 79
+    "liczba": 82
    },
    {
     "rok": 2005,
-    "liczba": 27
+    "liczba": 28
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 147
+    "liczba": 150
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 73
+    "liczba": 76
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 219
+    "liczba": 225
    },
    {
     "nazwa": "Inne / brak danych",
@@ -122,11 +122,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 164
+    "liczba": 166
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 55
+    "liczba": 59
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,7 +136,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 212
+    "liczba": 218
    },
    {
     "nazwa": "Hatchback",
@@ -147,16 +147,166 @@
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2025,
+    "liczba": 4
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 1092,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1179,
   "miejsceWMarce": 13,
   "modeliWMarce": 15,
   "sredniRocznik": 2003.6
@@ -165,7 +315,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "evanda",

@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Lacetti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LACETTI, LACETTI 1.4 KAT).",
-  "liczbaWPolsce": 6609,
-  "aktywne": 1769,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Lacetti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 118 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LACETTI, LACETTI 1.4 KAT).",
+  "liczbaWPolsce": 6710,
+  "aktywne": 1870,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 361
+    "liczba": 369
    },
    {
     "teryt": "04",
-    "liczba": 260
+    "liczba": 267
    },
    {
     "teryt": "06",
@@ -31,100 +31,100 @@
    },
    {
     "teryt": "08",
-    "liczba": 85
+    "liczba": 90
    },
    {
     "teryt": "10",
-    "liczba": 557
+    "liczba": 561
    },
    {
     "teryt": "12",
-    "liczba": 490
+    "liczba": 501
    },
    {
     "teryt": "14",
-    "liczba": 1449
+    "liczba": 1457
    },
    {
     "teryt": "16",
-    "liczba": 139
+    "liczba": 141
    },
    {
     "teryt": "18",
-    "liczba": 448
+    "liczba": 455
    },
    {
     "teryt": "20",
-    "liczba": 255
+    "liczba": 256
    },
    {
     "teryt": "22",
-    "liczba": 308
+    "liczba": 318
    },
    {
     "teryt": "24",
-    "liczba": 950
+    "liczba": 965
    },
    {
     "teryt": "26",
-    "liczba": 140
+    "liczba": 141
    },
    {
     "teryt": "28",
-    "liczba": 178
+    "liczba": 184
    },
    {
     "teryt": "30",
-    "liczba": 345
+    "liczba": 359
    },
    {
     "teryt": "32",
-    "liczba": 298
+    "liczba": 300
    }
   ],
   "bezWojewodztwa": 42,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 907
+    "liczba": 908
    },
    {
     "rok": 2005,
-    "liczba": 937
+    "liczba": 950
    },
    {
     "rok": 2006,
-    "liczba": 1262
+    "liczba": 1284
    },
    {
     "rok": 2007,
-    "liczba": 1429
+    "liczba": 1454
    },
    {
     "rok": 2008,
-    "liczba": 1127
+    "liczba": 1147
    },
    {
     "rok": 2009,
-    "liczba": 663
+    "liczba": 672
    },
    {
     "rok": 2010,
-    "liczba": 107
+    "liczba": 116
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3639
+    "liczba": 3705
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 2377
+    "liczba": 2399
    },
    {
     "nazwa": "Diesel",
-    "liczba": 554
+    "liczba": 567
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,19 +134,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 3610
+    "liczba": 3634
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 2044
+    "liczba": 2093
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 555
+    "liczba": 568
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 378
+    "liczba": 393
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,63 +160,217 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2646
+    "liczba": 2668
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1074
+    "liczba": 1152
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 66
+    "liczba": 67
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3920
+    "liczba": 4007
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1422
+    "liczba": 1427
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1117
+    "liczba": 1125
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 150
+    "liczba": 151
    }
   ],
-  "noweOdPaczki": 17,
+  "noweOdPaczki": 118,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 16
+   },
+   {
+    "rok": 2024,
+    "liczba": 48
+   },
+   {
+    "rok": 2025,
+    "liczba": 36
+   },
+   {
     "rok": 2026,
-    "liczba": 17
+    "liczba": 18
    }
   ],
-  "miejsce": 295,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 350,
   "miejsceWMarce": 5,
-  "modeliWMarce": 20,
+  "modeliWMarce": 22,
   "sredniRocznik": 2006.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "lacetti",
  "adres": "/marki/chevrolet/lacetti/",
  "konkurenci": [
   {
-   "slug": "opel-meriva",
-   "nazwa": "Opel Meriva",
-   "adres": "/marki/opel/meriva/"
+   "slug": "renault-megane",
+   "nazwa": "Renault Megane",
+   "adres": "/marki/renault/megane/"
   },
   {
    "slug": "ford-fusion",
@@ -224,19 +378,19 @@
    "adres": "/marki/ford/fusion/"
   },
   {
-   "slug": "toyota-corolla",
-   "nazwa": "Toyota Corolla",
-   "adres": "/marki/toyota/corolla/"
+   "slug": "fiat-bravo",
+   "nazwa": "Fiat Bravo",
+   "adres": "/marki/fiat/bravo/"
   },
   {
-   "slug": "mitsubishi-space-star",
-   "nazwa": "Mitsubishi Space Star",
-   "adres": "/marki/mitsubishi/space-star/"
+   "slug": "mercedes-benz-klasa-a",
+   "nazwa": "Mercedes-Benz Klasa A",
+   "adres": "/marki/mercedes-benz/klasa-a/"
   },
   {
-   "slug": "renault-megane",
-   "nazwa": "Renault Megane",
-   "adres": "/marki/renault/megane/"
+   "slug": "opel-astra",
+   "nazwa": "Opel Astra",
+   "adres": "/marki/opel/astra/"
   }
  ]
 }

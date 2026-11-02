@@ -12,122 +12,122 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Splash – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 239 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPLASH).",
-  "liczbaWPolsce": 4733,
-  "aktywne": 1937,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Splash – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 168 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPLASH, SPLASH 1.0 KAT).",
+  "liczbaWPolsce": 5662,
+  "aktywne": 2866,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 281
+    "liczba": 377
    },
    {
     "teryt": "04",
-    "liczba": 155
+    "liczba": 197
    },
    {
     "teryt": "06",
-    "liczba": 171
+    "liczba": 220
    },
    {
     "teryt": "08",
-    "liczba": 124
+    "liczba": 156
    },
    {
     "teryt": "10",
-    "liczba": 335
+    "liczba": 391
    },
    {
     "teryt": "12",
-    "liczba": 604
+    "liczba": 708
    },
    {
     "teryt": "14",
-    "liczba": 623
+    "liczba": 713
    },
    {
     "teryt": "16",
-    "liczba": 88
+    "liczba": 108
    },
    {
     "teryt": "18",
-    "liczba": 276
+    "liczba": 347
    },
    {
     "teryt": "20",
-    "liczba": 110
+    "liczba": 139
    },
    {
     "teryt": "22",
-    "liczba": 265
+    "liczba": 302
    },
    {
     "teryt": "24",
-    "liczba": 852
+    "liczba": 954
    },
    {
     "teryt": "26",
-    "liczba": 135
+    "liczba": 161
    },
    {
     "teryt": "28",
-    "liczba": 122
+    "liczba": 158
    },
    {
     "teryt": "30",
-    "liczba": 441
+    "liczba": 544
    },
    {
     "teryt": "32",
-    "liczba": 114
+    "liczba": 150
    }
   ],
   "bezWojewodztwa": 37,
   "roczniki": [
    {
     "rok": 2008,
-    "liczba": 1134
+    "liczba": 1350
    },
    {
     "rok": 2009,
-    "liczba": 1355
+    "liczba": 1707
    },
    {
     "rok": 2010,
-    "liczba": 355
+    "liczba": 446
    },
    {
     "rok": 2011,
-    "liczba": 759
+    "liczba": 826
    },
    {
     "rok": 2012,
-    "liczba": 424
+    "liczba": 517
    },
    {
     "rok": 2013,
-    "liczba": 467
+    "liczba": 525
    },
    {
     "rok": 2014,
-    "liczba": 69
+    "liczba": 106
    },
    {
     "rok": 2015,
-    "liczba": 11
+    "liczba": 26
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4344
+    "liczba": 5213
    },
    {
     "nazwa": "Diesel",
-    "liczba": 206
+    "liczba": 244
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 175
+    "liczba": 197
    },
    {
     "nazwa": "Inne / brak danych",
@@ -137,11 +137,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 2515
+    "liczba": 3031
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 2203
+    "liczba": 2616
    },
    {
     "nazwa": "Inne / brak danych",
@@ -151,7 +151,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1945
+    "liczba": 2659
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -159,7 +159,7 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1071
+    "liczba": 1286
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,45 +169,199 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 3044
+    "liczba": 3602
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1600
+    "liczba": 1958
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 89
+    "liczba": 102
    }
   ],
-  "noweOdPaczki": 239,
+  "noweOdPaczki": 1168,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 108
+   },
+   {
+    "rok": 2024,
+    "liczba": 453
+   },
+   {
+    "rok": 2025,
+    "liczba": 354
+   },
+   {
     "rok": 2026,
-    "liczba": 239
+    "liczba": 253
    }
   ],
-  "miejsce": 342,
-  "miejsceWMarce": 10,
-  "modeliWMarce": 19,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 372,
+  "miejsceWMarce": 9,
+  "modeliWMarce": 20,
   "sredniRocznik": 2009.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "suzuki",
  "modelSlug": "splash",
  "adres": "/marki/suzuki/splash/",
  "konkurenci": [
   {
-   "slug": "kia-picanto",
-   "nazwa": "Kia Picanto",
-   "adres": "/marki/kia/picanto/"
+   "slug": "citroen-c1",
+   "nazwa": "Citroen C1",
+   "adres": "/marki/citroen/c1/"
   },
   {
    "slug": "dacia-logan",
@@ -215,19 +369,19 @@
    "adres": "/marki/dacia/logan/"
   },
   {
-   "slug": "toyota-yaris",
-   "nazwa": "Toyota Yaris",
-   "adres": "/marki/toyota/yaris/"
-  },
-  {
-   "slug": "citroen-c1",
-   "nazwa": "Citroen C1",
-   "adres": "/marki/citroen/c1/"
+   "slug": "fiat-panda",
+   "nazwa": "Fiat Panda",
+   "adres": "/marki/fiat/panda/"
   },
   {
    "slug": "chevrolet-spark",
    "nazwa": "Chevrolet Spark",
    "adres": "/marki/chevrolet/spark/"
+  },
+  {
+   "slug": "toyota-yaris",
+   "nazwa": "Toyota Yaris",
+   "adres": "/marki/toyota/yaris/"
   }
  ]
 }

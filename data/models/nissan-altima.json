@@ -3,7 +3,7 @@
  "marka": "Nissan",
  "model": "Altima",
  "generacja": "",
- "lataProdukcji": "1993–2016",
+ "lataProdukcji": "1993–2018",
  "nadwozia": [
   "sedan",
   "hatchback",
@@ -13,37 +13,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Altima – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALTIMA, ALTIMA 2.5 S, ALTIMA 2.5 KAT).",
-  "liczbaWPolsce": 561,
-  "aktywne": 145,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Altima – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 49 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALTIMA, ALTIMA 2.5 S, ALTIMA 2.5 KAT, ALTIMA 2.5).",
+  "liczbaWPolsce": 600,
+  "aktywne": 184,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 38
+    "liczba": 40
    },
    {
     "teryt": "04",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "06",
-    "liczba": 35
+    "liczba": 38
    },
    {
     "teryt": "08",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "10",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "12",
-    "liczba": 74
+    "liczba": 78
    },
    {
     "teryt": "14",
-    "liczba": 89
+    "liczba": 98
    },
    {
     "teryt": "16",
@@ -51,19 +51,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 72
+    "liczba": 76
    },
    {
     "teryt": "20",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "22",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "24",
-    "liczba": 35
+    "liczba": 40
    },
    {
     "teryt": "26",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "30",
-    "liczba": 16
+    "liczba": 21
    },
    {
     "teryt": "32",
@@ -146,15 +146,15 @@
    },
    {
     "rok": 2008,
-    "liczba": 48
+    "liczba": 49
    },
    {
     "rok": 2009,
-    "liczba": 17
+    "liczba": 19
    },
    {
     "rok": 2010,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2011,
@@ -162,47 +162,63 @@
    },
    {
     "rok": 2012,
-    "liczba": 9
+    "liczba": 12
    },
    {
     "rok": 2013,
-    "liczba": 7
+    "liczba": 11
    },
    {
     "rok": 2014,
-    "liczba": 6
+    "liczba": 15
    },
    {
     "rok": 2015,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2016,
-    "liczba": 8
+    "liczba": 10
    },
    {
     "rok": 2017,
-    "liczba": 5
+    "liczba": 8
+   },
+   {
+    "rok": 2018,
+    "liczba": 7
+   },
+   {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 2
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 313
+    "liczba": 344
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 207
+    "liczba": 213
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 41
+    "liczba": 43
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 405
+    "liczba": 438
    },
    {
     "nazwa": "2,4 l",
@@ -210,11 +226,11 @@
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 27
+    "liczba": 32
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
@@ -224,11 +240,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 291
+    "liczba": 320
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 247
+    "liczba": 257
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -246,54 +262,203 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 473
+    "liczba": 503
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "nazwa": "Coupe",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 45
+    "liczba": 50
    }
   ],
-  "noweOdPaczki": 10,
-  "hybrydy": 2,
+  "noweOdPaczki": 49,
+  "hybrydy": 3,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 17
+   },
+   {
+    "rok": 2025,
+    "liczba": 17
+   },
+   {
     "rok": 2026,
-    "liczba": 10
+    "liczba": 11
    }
   ],
-  "miejsce": 807,
-  "miejsceWMarce": 30,
-  "modeliWMarce": 41,
-  "sredniRocznik": 2004.2
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 873,
+  "miejsceWMarce": 31,
+  "modeliWMarce": 46,
+  "sredniRocznik": 2005.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "altima",
  "adres": "/marki/nissan/altima/",
  "konkurenci": [
   {
-   "slug": "toyota-camry",
-   "nazwa": "Toyota Camry",
-   "adres": "/marki/toyota/camry/"
-  },
-  {
-   "slug": "chrysler-sebring",
-   "nazwa": "Chrysler Sebring",
-   "adres": "/marki/chrysler/sebring/"
+   "slug": "bmw-seria-5",
+   "nazwa": "BMW Seria 5",
+   "adres": "/marki/bmw/seria-5/"
   },
   {
    "slug": "volvo-s80",
@@ -301,14 +466,19 @@
    "adres": "/marki/volvo/s80/"
   },
   {
+   "slug": "chrysler-sebring",
+   "nazwa": "Chrysler Sebring",
+   "adres": "/marki/chrysler/sebring/"
+  },
+  {
    "slug": "mercedes-benz-klasa-e",
    "nazwa": "Mercedes-Benz Klasa E",
    "adres": "/marki/mercedes-benz/klasa-e/"
   },
   {
-   "slug": "jaguar-x-type",
-   "nazwa": "Jaguar X-Type",
-   "adres": "/marki/jaguar/x-type/"
+   "slug": "subaru-impreza",
+   "nazwa": "Subaru Impreza",
+   "adres": "/marki/subaru/impreza/"
   }
  ]
 }

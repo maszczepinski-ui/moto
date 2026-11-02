@@ -11,190 +11,344 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQA – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 569 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQA 250, EQA 300 4MATIC, EQA 350 4MATIC).",
-  "liczbaWPolsce": 569,
-  "aktywne": 569,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQA – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 260 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQA 250, EQA 300 4MATIC, EQA 350 4MATIC).",
+  "liczbaWPolsce": 2260,
+  "aktywne": 2260,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 38
+    "liczba": 238
    },
    {
     "teryt": "04",
-    "liczba": 18
+    "liczba": 82
    },
    {
     "teryt": "06",
-    "liczba": 8
+    "liczba": 39
    },
    {
     "teryt": "08",
-    "liczba": 8
+    "liczba": 28
    },
    {
     "teryt": "10",
-    "liczba": 58
+    "liczba": 135
    },
    {
     "teryt": "12",
-    "liczba": 38
-   },
-   {
-    "teryt": "14",
     "liczba": 169
    },
    {
+    "teryt": "14",
+    "liczba": 696
+   },
+   {
     "teryt": "16",
-    "liczba": 9
+    "liczba": 48
    },
    {
     "teryt": "18",
-    "liczba": 18
+    "liczba": 54
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 44
    },
    {
     "teryt": "22",
-    "liczba": 37
+    "liczba": 154
    },
    {
     "teryt": "24",
-    "liczba": 38
+    "liczba": 165
    },
    {
     "teryt": "26",
-    "liczba": 4
+    "liczba": 17
    },
    {
     "teryt": "28",
-    "liczba": 3
+    "liczba": 14
    },
    {
     "teryt": "30",
-    "liczba": 104
+    "liczba": 309
    },
    {
     "teryt": "32",
-    "liczba": 14
+    "liczba": 68
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 7
+    "liczba": 23
    },
    {
     "rok": 2022,
-    "liczba": 8
+    "liczba": 23
    },
    {
     "rok": 2023,
-    "liczba": 7
+    "liczba": 272
    },
    {
     "rok": 2024,
-    "liczba": 10
+    "liczba": 411
    },
    {
     "rok": 2025,
-    "liczba": 34
+    "liczba": 1025
    },
    {
     "rok": 2026,
-    "liczba": 503
+    "liczba": 506
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 569
+    "liczba": 2260
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 569
+    "liczba": 2260
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 511
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 34
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 17
+    "liczba": 2034
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 7
+    "liczba": 98
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 76
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 52
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 566
+    "liczba": 2249
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 11
    }
   ],
-  "noweOdPaczki": 569,
+  "noweOdPaczki": 2260,
   "hybrydy": 0,
-  "elektryczne": 569,
+  "elektryczne": 2260,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 97
+   },
+   {
+    "rok": 2024,
+    "liczba": 469
+   },
+   {
+    "rok": 2025,
+    "liczba": 1006
+   },
+   {
     "rok": 2026,
-    "liczba": 569
+    "liczba": 688
    }
   ],
-  "miejsce": 804,
-  "miejsceWMarce": 37,
-  "modeliWMarce": 48,
-  "sredniRocznik": 2025.8
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 98
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 179
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 295
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 546,
+  "miejsceWMarce": 27,
+  "modeliWMarce": 54,
+  "sredniRocznik": 2024.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "eqa",
  "adres": "/marki/mercedes-benz/eqa/",
  "konkurenci": [
   {
-   "slug": "tesla-model-y",
-   "nazwa": "Tesla Model Y",
-   "adres": "/marki/tesla/model-y/"
+   "slug": "volvo-ex30",
+   "nazwa": "Volvo EX30",
+   "adres": "/marki/volvo/ex30/"
   },
   {
-   "slug": "tesla-model-3",
-   "nazwa": "Tesla Model 3",
-   "adres": "/marki/tesla/model-3/"
+   "slug": "audi-q6",
+   "nazwa": "Audi Q6",
+   "adres": "/marki/audi/q6/"
   },
   {
-   "slug": "volkswagen-taigo",
-   "nazwa": "Volkswagen Taigo",
-   "adres": "/marki/volkswagen/taigo/"
+   "slug": "audi-q4",
+   "nazwa": "Audi Q4",
+   "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "kia-k4",
-   "nazwa": "Kia K4",
-   "adres": "/marki/kia/k4/"
+   "slug": "volkswagen-id-4",
+   "nazwa": "Volkswagen ID.4",
+   "adres": "/marki/volkswagen/id-4/"
   },
   {
-   "slug": "cupra-terramar",
-   "nazwa": "Cupra Terramar",
-   "adres": "/marki/cupra/terramar/"
+   "slug": "toyota-bz4x",
+   "nazwa": "Toyota bZ4X",
+   "adres": "/marki/toyota/bz4x/"
   }
  ]
 }

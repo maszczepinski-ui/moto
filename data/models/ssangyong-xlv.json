@@ -5,43 +5,44 @@
  "generacja": "",
  "lataProdukcji": "2016–2019",
  "nadwozia": [
-  "kombi"
+  "kombi",
+  "van"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Xlv – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 38 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XLV, SSANGYONG XLV).",
-  "liczbaWPolsce": 345,
-  "aktywne": 312,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Xlv – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 155 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XLV, SSANGYONG XLV).",
+  "liczbaWPolsce": 462,
+  "aktywne": 429,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 30
    },
    {
     "teryt": "04",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 18
    },
    {
     "teryt": "08",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "teryt": "10",
-    "liczba": 27
+    "liczba": 31
    },
    {
     "teryt": "12",
-    "liczba": 36
+    "liczba": 43
    },
    {
     "teryt": "14",
-    "liczba": 65
+    "liczba": 90
    },
    {
     "teryt": "16",
@@ -49,62 +50,62 @@
    },
    {
     "teryt": "18",
-    "liczba": 16
+    "liczba": 31
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 8
    },
    {
     "teryt": "22",
-    "liczba": 11
+    "liczba": 17
    },
    {
     "teryt": "24",
-    "liczba": 70
+    "liczba": 88
    },
    {
     "teryt": "26",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "teryt": "28",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "30",
-    "liczba": 23
+    "liczba": 32
    },
    {
     "teryt": "32",
-    "liczba": 21
+    "liczba": 25
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 88
+    "liczba": 120
    },
    {
     "rok": 2017,
-    "liczba": 121
+    "liczba": 155
    },
    {
     "rok": 2018,
-    "liczba": 104
+    "liczba": 134
    },
    {
     "rok": 2019,
-    "liczba": 21
+    "liczba": 36
    },
    {
     "rok": 2020,
-    "liczba": 0
+    "liczba": 3
    },
    {
     "rok": 2021,
-    "liczba": 0
+    "liczba": 3
    },
    {
     "rok": 2022,
@@ -118,25 +119,25 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 159
+    "liczba": 188
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 143
+    "liczba": 184
    },
    {
     "nazwa": "Diesel",
-    "liczba": 43
+    "liczba": 90
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 344
+    "liczba": 458
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 4
    }
   ],
   "pochodzenie": [
@@ -145,12 +146,12 @@
     "liczba": 255
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 51
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 110
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 38
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 96
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,50 +161,208 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 340
+    "liczba": 438
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 4
+    "liczba": 17
+   },
+   {
+    "nazwa": "Hatchback",
+    "liczba": 5
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
-  "noweOdPaczki": 38,
+  "noweOdPaczki": 155,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 12
+   },
+   {
+    "rok": 2024,
+    "liczba": 47
+   },
+   {
+    "rok": 2025,
+    "liczba": 54
+   },
+   {
     "rok": 2026,
-    "liczba": 38
+    "liczba": 42
    }
   ],
-  "miejsce": 958,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 957,
   "miejsceWMarce": 7,
-  "modeliWMarce": 7,
+  "modeliWMarce": 10,
   "sredniRocznik": 2017.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ssangyong-kgm",
  "modelSlug": "xlv",
  "adres": "/marki/ssangyong-kgm/xlv/",
  "konkurenci": [
   {
-   "slug": "dacia-duster",
-   "nazwa": "Dacia Duster",
-   "adres": "/marki/dacia/duster/"
-  },
-  {
    "slug": "dacia-dokker",
    "nazwa": "Dacia Dokker",
    "adres": "/marki/dacia/dokker/"
+  },
+  {
+   "slug": "dacia-duster",
+   "nazwa": "Dacia Duster",
+   "adres": "/marki/dacia/duster/"
   },
   {
    "slug": "dacia-lodgy",
@@ -211,9 +370,9 @@
    "adres": "/marki/dacia/lodgy/"
   },
   {
-   "slug": "seat-ateca",
-   "nazwa": "Seat Ateca",
-   "adres": "/marki/seat/ateca/"
+   "slug": "renault-talisman",
+   "nazwa": "Renault Talisman",
+   "adres": "/marki/renault/talisman/"
   },
   {
    "slug": "volkswagen-golf-sportsvan",

@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda CR-Z – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CR-Z).",
-  "liczbaWPolsce": 332,
-  "aktywne": 174,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda CR-Z – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 153 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CR-Z, CR-Z 1.5 HYBRID).",
+  "liczbaWPolsce": 451,
+  "aktywne": 293,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 21
-   },
-   {
-    "teryt": "04",
-    "liczba": 13
-   },
-   {
-    "teryt": "06",
-    "liczba": 12
-   },
-   {
-    "teryt": "08",
-    "liczba": 8
-   },
-   {
-    "teryt": "10",
-    "liczba": 16
-   },
-   {
-    "teryt": "12",
     "liczba": 37
    },
    {
+    "teryt": "04",
+    "liczba": 16
+   },
+   {
+    "teryt": "06",
+    "liczba": 19
+   },
+   {
+    "teryt": "08",
+    "liczba": 10
+   },
+   {
+    "teryt": "10",
+    "liczba": 23
+   },
+   {
+    "teryt": "12",
+    "liczba": 50
+   },
+   {
     "teryt": "14",
-    "liczba": 75
+    "liczba": 95
    },
    {
     "teryt": "16",
-    "liczba": 9
-   },
-   {
-    "teryt": "18",
     "liczba": 11
    },
    {
+    "teryt": "18",
+    "liczba": 14
+   },
+   {
     "teryt": "20",
-    "liczba": 6
+    "liczba": 9
    },
    {
     "teryt": "22",
-    "liczba": 15
+    "liczba": 21
    },
    {
     "teryt": "24",
-    "liczba": 51
+    "liczba": 67
    },
    {
     "teryt": "26",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "30",
-    "liczba": 26
+    "liczba": 40
    },
    {
     "teryt": "32",
-    "liczba": 17
+    "liczba": 22
    }
   ],
   "bezWojewodztwa": 3,
@@ -161,19 +161,19 @@
    },
    {
     "rok": 2010,
-    "liczba": 208
+    "liczba": 267
    },
    {
     "rok": 2011,
-    "liczba": 56
+    "liczba": 87
    },
    {
     "rok": 2012,
-    "liczba": 22
+    "liczba": 37
    },
    {
     "rok": 2013,
-    "liczba": 4
+    "liczba": 13
    },
    {
     "rok": 2014,
@@ -181,25 +181,25 @@
    },
    {
     "rok": 2015,
-    "liczba": 4
+    "liczba": 7
    },
    {
     "rok": 2016,
-    "liczba": 2
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 206
+    "liczba": 227
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 111
+    "liczba": 206
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 10
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
@@ -209,7 +209,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 306
+    "liczba": 424
    },
    {
     "nazwa": "2,0 l",
@@ -217,17 +217,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 16
+    "liczba": 17
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 139
+    "liczba": 209
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 138
+    "liczba": 186
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -235,79 +235,229 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 257
+    "liczba": 339
    },
    {
     "nazwa": "Coupe",
-    "liczba": 53
+    "liczba": 89
    },
    {
     "nazwa": "Sedan",
-    "liczba": 5
-   },
-   {
-    "nazwa": "Kombi",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 17
    }
   ],
-  "noweOdPaczki": 34,
-  "hybrydy": 109,
+  "noweOdPaczki": 153,
+  "hybrydy": 204,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 9
+   },
+   {
+    "rok": 2024,
+    "liczba": 51
+   },
+   {
+    "rok": 2025,
+    "liczba": 57
+   },
+   {
     "rok": 2026,
-    "liczba": 34
+    "liczba": 36
    }
   ],
-  "miejsce": 968,
-  "miejsceWMarce": 18,
-  "modeliWMarce": 19,
-  "sredniRocznik": 2010.0
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 963,
+  "miejsceWMarce": 17,
+  "modeliWMarce": 20,
+  "sredniRocznik": 2010.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "honda",
  "modelSlug": "cr-z",
  "adres": "/marki/honda/cr-z/",
  "konkurenci": [
   {
-   "slug": "suzuki-vitara",
-   "nazwa": "Suzuki Vitara",
-   "adres": "/marki/suzuki/vitara/"
-  },
-  {
-   "slug": "mini-one-cooper",
-   "nazwa": "Mini One / Cooper",
-   "adres": "/marki/mini/one-cooper/"
-  },
-  {
    "slug": "suzuki-sx4",
    "nazwa": "Suzuki SX4",
    "adres": "/marki/suzuki/sx4/"
   },
   {
-   "slug": "citroen-c3",
-   "nazwa": "Citroen C3",
-   "adres": "/marki/citroen/c3/"
+   "slug": "skoda-fabia",
+   "nazwa": "Skoda Fabia",
+   "adres": "/marki/skoda/fabia/"
   },
   {
-   "slug": "kia-ceed",
-   "nazwa": "Kia Ceed",
-   "adres": "/marki/kia/ceed/"
+   "slug": "toyota-yaris",
+   "nazwa": "Toyota Yaris",
+   "adres": "/marki/toyota/yaris/"
+  },
+  {
+   "slug": "suzuki-vitara",
+   "nazwa": "Suzuki Vitara",
+   "adres": "/marki/suzuki/vitara/"
+  },
+  {
+   "slug": "mazda-2",
+   "nazwa": "Mazda 2",
+   "adres": "/marki/mazda/2/"
   }
  ]
 }

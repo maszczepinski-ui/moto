@@ -3,7 +3,7 @@
  "marka": "Mitsubishi",
  "model": "Mirage",
  "generacja": "",
- "lataProdukcji": "1983–2017",
+ "lataProdukcji": "1983–2024",
  "nadwozia": [
   "sedan",
   "hatchback",
@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Mirage – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MIRAGE, MIRAGE 1.5).",
-  "liczbaWPolsce": 230,
-  "aktywne": 28,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Mirage – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MIRAGE, MIRAGE 1.5).",
+  "liczbaWPolsce": 245,
+  "aktywne": 43,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "06",
@@ -31,7 +31,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "10",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 33
+    "liczba": 37
    },
    {
     "teryt": "14",
-    "liczba": 52
+    "liczba": 55
    },
    {
     "teryt": "16",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 16
+    "liczba": 19
    },
    {
     "teryt": "26",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "bezWojewodztwa": 4,
@@ -222,7 +222,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2015,
@@ -230,11 +230,11 @@
    },
    {
     "rok": 2016,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2017,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2018,
@@ -242,19 +242,19 @@
    },
    {
     "rok": 2019,
-    "liczba": 0
+    "liczba": 4
    },
    {
     "rok": 2020,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2021,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2022,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2023,
@@ -262,13 +262,13 @@
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 121
+    "liczba": 136
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -289,12 +289,12 @@
     "liczba": 143
    },
    {
-    "nazwa": "1,8 l",
-    "liczba": 24
+    "nazwa": "1,2 l",
+    "liczba": 35
    },
    {
-    "nazwa": "1,2 l",
-    "liczba": 21
+    "nazwa": "1,8 l",
+    "liczba": 24
    },
    {
     "nazwa": "1,6 l",
@@ -310,17 +310,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 156
+    "liczba": 159
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 38
+    "liczba": 50
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -338,11 +338,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 72
+    "liczba": 74
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 53
+    "liczba": 64
    },
    {
     "nazwa": "Coupe",
@@ -350,28 +350,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 96
+    "liczba": 98
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 18,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 3
+   },
+   {
+    "rok": 2024,
+    "liczba": 6
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 3
    }
   ],
-  "miejsce": 1075,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1162,
   "miejsceWMarce": 18,
-  "modeliWMarce": 18,
-  "sredniRocznik": 1994.3
+  "modeliWMarce": 19,
+  "sredniRocznik": 1995.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "mirage",

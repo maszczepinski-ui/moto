@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 311 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 311).",
-  "liczbaWPolsce": 1836,
-  "aktywne": 13,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 311 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 311).",
+  "liczbaWPolsce": 1843,
+  "aktywne": 20,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -45,11 +45,11 @@
    },
    {
     "teryt": "16",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "18",
-    "liczba": 78
+    "liczba": 80
    },
    {
     "teryt": "20",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 225
+    "liczba": 226
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 175
+    "liczba": 178
    },
    {
     "teryt": "32",
@@ -84,7 +84,7 @@
   "roczniki": [
    {
     "rok": 1956,
-    "liczba": 176
+    "liczba": 177
    },
    {
     "rok": 1957,
@@ -100,11 +100,11 @@
    },
    {
     "rok": 1960,
-    "liczba": 276
+    "liczba": 277
    },
    {
     "rok": 1961,
-    "liczba": 392
+    "liczba": 393
    },
    {
     "rok": 1962,
@@ -112,15 +112,15 @@
    },
    {
     "rok": 1963,
-    "liczba": 107
+    "liczba": 109
    },
    {
     "rok": 1964,
-    "liczba": 64
+    "liczba": 65
    },
    {
     "rok": 1965,
-    "liczba": 113
+    "liczba": 114
    },
    {
     "rok": 1966,
@@ -218,21 +218,21 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 178
+    "liczba": 183
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1658
+    "liczba": 1660
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 1190
+    "liczba": 1193
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 566
+    "liczba": 570
    },
    {
     "nazwa": "Inne / brak danych",
@@ -242,7 +242,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1039
+    "liczba": 1040
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -250,7 +250,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 56
+    "liczba": 59
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -258,33 +258,188 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 56
+    "liczba": 59
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 159
+    "liczba": 166
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1677
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 519,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 3
+   },
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 597,
   "miejsceWMarce": 5,
   "modeliWMarce": 11,
-  "sredniRocznik": 1963.1
+  "sredniRocznik": 1963.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "wartburg",
  "modelSlug": "311",

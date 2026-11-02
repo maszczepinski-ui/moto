@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 211 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 211).",
-  "liczbaWPolsce": 292,
-  "aktywne": 136,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 211 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 62 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 211).",
+  "liczbaWPolsce": 335,
+  "aktywne": 179,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 28
+    "liczba": 34
    },
    {
     "teryt": "04",
-    "liczba": 24
+    "liczba": 27
    },
    {
     "teryt": "06",
-    "liczba": 16
+    "liczba": 19
    },
    {
     "teryt": "08",
-    "liczba": 8
+    "liczba": 11
    },
    {
     "teryt": "10",
-    "liczba": 9
+    "liczba": 12
    },
    {
     "teryt": "12",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "14",
-    "liczba": 37
+    "liczba": 42
    },
    {
     "teryt": "16",
@@ -50,19 +50,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "20",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "22",
-    "liczba": 32
+    "liczba": 35
    },
    {
     "teryt": "24",
-    "liczba": 25
+    "liczba": 30
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 19
+    "liczba": 24
    },
    {
     "teryt": "32",
-    "liczba": 27
+    "liczba": 30
    }
   ],
   "bezWojewodztwa": 5,
@@ -93,23 +93,23 @@
    },
    {
     "rok": 2002,
-    "liczba": 62
+    "liczba": 70
    },
    {
     "rok": 2003,
-    "liczba": 75
+    "liczba": 91
    },
    {
     "rok": 2004,
-    "liczba": 75
+    "liczba": 83
    },
    {
     "rok": 2005,
-    "liczba": 52
+    "liczba": 62
    },
    {
     "rok": 2006,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2007,
@@ -123,59 +123,59 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 234
+    "liczba": 254
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 39
+    "liczba": 53
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 19
+    "liczba": 28
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 107
+    "liczba": 117
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 71
+    "liczba": 75
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 51
+    "liczba": 60
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 31
+    "liczba": 36
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 11
+    "liczba": 15
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 9
+    "liczba": 14
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 8
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 166
+    "liczba": 199
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 120
+    "liczba": 130
    },
    {
     "nazwa": "Inne / brak danych",
@@ -185,46 +185,227 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 230
+    "liczba": 261
    },
    {
     "nazwa": "Kombi",
-    "liczba": 43
+    "liczba": 53
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
     "liczba": 7
    },
    {
-    "nazwa": "Hatchback",
-    "liczba": 3
+    "nazwa": "Van",
+    "liczba": 4
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 62,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 5
+   },
+   {
+    "rok": 2024,
+    "liczba": 18
+   },
+   {
+    "rok": 2025,
+    "liczba": 18
+   },
+   {
     "rok": 2026,
-    "liczba": 19
+    "liczba": 21
    }
   ],
-  "miejsce": 1004,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1055,
   "miejsceWMarce": 15,
-  "modeliWMarce": 18,
+  "modeliWMarce": 19,
   "sredniRocznik": 2003.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "211",
- "adres": "/marki/chrysler/211/"
+ "adres": "/marki/chrysler/211/",
+ "konkurenci": [
+  {
+   "slug": "bmw-seria-5",
+   "nazwa": "BMW Seria 5",
+   "adres": "/marki/bmw/seria-5/"
+  },
+  {
+   "slug": "peugeot-607",
+   "nazwa": "Peugeot 607",
+   "adres": "/marki/peugeot/607/"
+  },
+  {
+   "slug": "volvo-s80",
+   "nazwa": "Volvo S80",
+   "adres": "/marki/volvo/s80/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-e",
+   "nazwa": "Mercedes-Benz Klasa E",
+   "adres": "/marki/mercedes-benz/klasa-e/"
+  },
+  {
+   "slug": "jaguar-x-type",
+   "nazwa": "Jaguar X-Type",
+   "adres": "/marki/jaguar/x-type/"
+  }
+ ]
 }

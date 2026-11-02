@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 11 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 11, 11, R 11 1.6D, R 11 1.4, 11 GTD).",
-  "liczbaWPolsce": 4904,
-  "aktywne": 11,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 11 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 11, 11, R 11 1.6D, R 11 1.4, 11 GTD).",
+  "liczbaWPolsce": 4911,
+  "aktywne": 18,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 435
+    "liczba": 437
    },
    {
     "teryt": "04",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 212
+    "liczba": 213
    },
    {
     "teryt": "10",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 311
+    "liczba": 312
    },
    {
     "teryt": "14",
-    "liczba": 487
+    "liczba": 488
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 142
+    "liczba": 143
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 510
+    "liczba": 511
    },
    {
     "teryt": "26",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 1138
+    "liczba": 1140
    },
    {
     "rok": 1985,
@@ -97,15 +97,15 @@
    },
    {
     "rok": 1986,
-    "liczba": 678
+    "liczba": 679
    },
    {
     "rok": 1987,
-    "liczba": 467
+    "liczba": 470
    },
    {
     "rok": 1988,
-    "liczba": 318
+    "liczba": 319
    },
    {
     "rok": 1989,
@@ -151,7 +151,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1134
+    "liczba": 1141
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -169,7 +169,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1874
+    "liczba": 1876
    },
    {
     "nazwa": "1,6 l",
@@ -177,7 +177,7 @@
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 560
+    "liczba": 565
    },
    {
     "nazwa": "1,1 l",
@@ -203,7 +203,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3940
+    "liczba": 3941
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -211,7 +211,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 189
+    "liczba": 195
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -225,7 +225,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1123
+    "liczba": 1130
    },
    {
     "nazwa": "Sedan",
@@ -236,17 +236,171 @@
     "liczba": 3156
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 9,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 2
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 337,
-  "miejsceWMarce": 19,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 408,
+  "miejsceWMarce": 22,
   "modeliWMarce": 48,
   "sredniRocznik": 1986.3
  },
@@ -254,7 +408,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "11",

@@ -12,41 +12,41 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Stratus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STRATUS, STRATUS 2.0 KAT, STRATUS 2.5 KAT, STRATUS 2.0KAT, STRATUS 2.0).",
-  "liczbaWPolsce": 967,
-  "aktywne": 108,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Stratus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 60 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STRATUS, STRATUS 2.0 KAT, STRATUS 2.5 KAT, STRATUS 2.0KAT, STRATUS 2.0).",
+  "liczbaWPolsce": 1008,
+  "aktywne": 149,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 92
+    "liczba": 96
    },
    {
     "teryt": "04",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "06",
-    "liczba": 80
+    "liczba": 81
    },
    {
     "teryt": "08",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "10",
-    "liczba": 56
+    "liczba": 60
    },
    {
     "teryt": "12",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "14",
-    "liczba": 179
+    "liczba": 190
    },
    {
     "teryt": "16",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "18",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 60
+    "liczba": 62
    },
    {
     "teryt": "24",
-    "liczba": 70
+    "liczba": 73
    },
    {
     "teryt": "26",
@@ -70,42 +70,42 @@
    },
    {
     "teryt": "28",
-    "liczba": 42
+    "liczba": 46
    },
    {
     "teryt": "30",
-    "liczba": 79
+    "liczba": 81
    },
    {
     "teryt": "32",
-    "liczba": 59
+    "liczba": 64
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 1995,
-    "liczba": 178
+    "liczba": 179
    },
    {
     "rok": 1996,
-    "liczba": 232
+    "liczba": 237
    },
    {
     "rok": 1997,
-    "liczba": 217
+    "liczba": 226
    },
    {
     "rok": 1998,
-    "liczba": 146
+    "liczba": 152
    },
    {
     "rok": 1999,
-    "liczba": 113
+    "liczba": 126
    },
    {
     "rok": 2000,
-    "liczba": 65
+    "liczba": 72
    },
    {
     "rok": 2001,
@@ -115,11 +115,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 541
+    "liczba": 578
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 373
+    "liczba": 377
    },
    {
     "nazwa": "Inne / brak danych",
@@ -129,11 +129,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 631
+    "liczba": 647
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 330
+    "liczba": 355
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,11 +143,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 560
+    "liczba": 569
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 374
+    "liczba": 405
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -159,17 +159,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 606
+    "liczba": 609
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 224
+    "liczba": 262
    },
    {
     "nazwa": "Hatchback",
@@ -180,25 +180,179 @@
     "liczba": 108
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 60,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 25
+   },
+   {
+    "rok": 2025,
+    "liczba": 12
+   },
    {
     "rok": 2026,
     "liczba": 19
    }
   ],
-  "miejsce": 680,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 756,
   "miejsceWMarce": 9,
-  "modeliWMarce": 18,
+  "modeliWMarce": 19,
   "sredniRocznik": 1997.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "stratus",

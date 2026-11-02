@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz MB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MB 100, MB 100 D, MB 100 2.4D, MB 100 2.4 D, MB 100 D-KB).",
-  "liczbaWPolsce": 1113,
-  "aktywne": 37,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz MB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MB 100, MB 100 D, MB 100 2.4D, MB 100 2.4 D, MB 100 D-KB).",
+  "liczbaWPolsce": 1118,
+  "aktywne": 42,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "teryt": "08",
@@ -47,7 +47,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "teryt": "18",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 116
+    "liczba": 117
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "teryt": "32",
-    "liczba": 86
+    "liczba": 87
    }
   ],
   "bezWojewodztwa": 0,
@@ -106,7 +106,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 178
+    "liczba": 180
    },
    {
     "rok": 1993,
@@ -114,11 +114,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 179
+    "liczba": 181
    },
    {
     "rok": 1995,
-    "liczba": 143
+    "liczba": 144
    },
    {
     "rok": 1996,
@@ -140,7 +140,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 987
+    "liczba": 992
    },
    {
     "nazwa": "Benzyna",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1081
+    "liczba": 1086
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 622
+    "liczba": 623
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 437
+    "liczba": 441
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -186,7 +186,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 316
+    "liczba": 319
    },
    {
     "nazwa": "Van",
@@ -210,28 +210,178 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 287
+    "liczba": 289
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 649,
-  "miejsceWMarce": 31,
-  "modeliWMarce": 48,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 721,
+  "miejsceWMarce": 36,
+  "modeliWMarce": 54,
   "sredniRocznik": 1992.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "mb",
@@ -253,14 +403,14 @@
    "adres": "/marki/volvo/850/"
   },
   {
-   "slug": "nissan-patrol",
-   "nazwa": "Nissan Patrol",
-   "adres": "/marki/nissan/patrol/"
-  },
-  {
    "slug": "nissan-terrano",
    "nazwa": "Nissan Terrano",
    "adres": "/marki/nissan/terrano/"
+  },
+  {
+   "slug": "nissan-patrol",
+   "nazwa": "Nissan Patrol",
+   "adres": "/marki/nissan/patrol/"
   }
  ]
 }

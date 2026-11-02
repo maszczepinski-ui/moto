@@ -11,80 +11,80 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Tayron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 534 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAYRON).",
-  "liczbaWPolsce": 2534,
-  "aktywne": 2534,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Tayron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 846 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAYRON).",
+  "liczbaWPolsce": 4846,
+  "aktywne": 4846,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 192
+    "liczba": 403
    },
    {
     "teryt": "04",
-    "liczba": 91
+    "liczba": 182
    },
    {
     "teryt": "06",
-    "liczba": 56
+    "liczba": 94
    },
    {
     "teryt": "08",
-    "liczba": 54
+    "liczba": 102
    },
    {
     "teryt": "10",
-    "liczba": 69
+    "liczba": 147
    },
    {
     "teryt": "12",
-    "liczba": 99
+    "liczba": 221
    },
    {
     "teryt": "14",
-    "liczba": 1069
+    "liczba": 1933
    },
    {
     "teryt": "16",
-    "liczba": 36
+    "liczba": 69
    },
    {
     "teryt": "18",
-    "liczba": 44
+    "liczba": 89
    },
    {
     "teryt": "20",
-    "liczba": 25
+    "liczba": 42
    },
    {
     "teryt": "22",
-    "liczba": 173
+    "liczba": 359
    },
    {
     "teryt": "24",
-    "liczba": 191
+    "liczba": 353
    },
    {
     "teryt": "26",
-    "liczba": 24
+    "liczba": 47
    },
    {
     "teryt": "28",
-    "liczba": 29
+    "liczba": 58
    },
    {
     "teryt": "30",
-    "liczba": 278
+    "liczba": 554
    },
    {
     "teryt": "32",
-    "liczba": 104
+    "liczba": 193
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 587
+    "liczba": 2896
    },
    {
     "rok": 2026,
@@ -94,83 +94,239 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1290
+    "liczba": 2394
    },
    {
     "nazwa": "Diesel",
-    "liczba": 746
+    "liczba": 1557
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 498
+    "liczba": 895
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1824
+    "liczba": 3522
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 710
+    "liczba": 1324
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2271
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 142
+    "liczba": 4453
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 102
+    "liczba": 211
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 146
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 19
+    "liczba": 36
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2530
+    "liczba": 4842
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 2534,
-  "hybrydy": 498,
+  "noweOdPaczki": 4846,
+  "hybrydy": 895,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 2196
+   },
+   {
     "rok": 2026,
-    "liczba": 2534
+    "liczba": 2650
    }
   ],
-  "miejsce": 446,
-  "miejsceWMarce": 28,
-  "modeliWMarce": 57,
-  "sredniRocznik": 2025.8
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 202
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 188
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 213
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 211
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 247
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 152
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 229
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 235
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 226
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 293
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 411,
+  "miejsceWMarce": 27,
+  "modeliWMarce": 59,
+  "sredniRocznik": 2025.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "tayron",
  "adres": "/marki/volkswagen/tayron/",
  "konkurenci": [
   {
+   "slug": "skoda-kodiaq",
+   "nazwa": "Skoda Kodiaq",
+   "adres": "/marki/skoda/kodiaq/"
+  },
+  {
    "slug": "cupra-terramar",
    "nazwa": "Cupra Terramar",
    "adres": "/marki/cupra/terramar/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-glb",
+   "nazwa": "Mercedes-Benz Klasa GLB",
+   "adres": "/marki/mercedes-benz/klasa-glb/"
   },
   {
    "slug": "cupra-formentor",
@@ -178,19 +334,9 @@
    "adres": "/marki/cupra/formentor/"
   },
   {
-   "slug": "jetour-t2",
-   "nazwa": "Jetour T2",
-   "adres": "/marki/jetour/t2/"
-  },
-  {
    "slug": "cupra-leon",
    "nazwa": "Cupra Leon",
    "adres": "/marki/cupra/leon/"
-  },
-  {
-   "slug": "skoda-kodiaq",
-   "nazwa": "Skoda Kodiaq",
-   "adres": "/marki/skoda/kodiaq/"
   }
  ]
 }

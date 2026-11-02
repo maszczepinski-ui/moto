@@ -13,73 +13,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Carens – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 760 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CARENS, CARENS 2.0 CRDI, CARENS 2,0 CRDI, CARENS 2.0, CARENS 1.8 KAT).",
-  "liczbaWPolsce": 9608,
-  "aktywne": 5059,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Carens – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 898 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CARENS, CARENS 2.0 CRDI, CARENS 2,0 CRDI, CARENS 2.0, CARENS 1.8 KAT).",
+  "liczbaWPolsce": 11746,
+  "aktywne": 7197,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 651
+    "liczba": 803
    },
    {
     "teryt": "04",
-    "liczba": 450
+    "liczba": 534
    },
    {
     "teryt": "06",
-    "liczba": 624
+    "liczba": 785
    },
    {
     "teryt": "08",
-    "liczba": 292
+    "liczba": 356
    },
    {
     "teryt": "10",
-    "liczba": 780
+    "liczba": 936
    },
    {
     "teryt": "12",
-    "liczba": 692
+    "liczba": 859
    },
    {
     "teryt": "14",
-    "liczba": 1407
+    "liczba": 1745
    },
    {
     "teryt": "16",
-    "liczba": 195
+    "liczba": 227
    },
    {
     "teryt": "18",
-    "liczba": 494
+    "liczba": 660
    },
    {
     "teryt": "20",
-    "liczba": 342
+    "liczba": 440
    },
    {
     "teryt": "22",
-    "liczba": 617
+    "liczba": 742
    },
    {
     "teryt": "24",
-    "liczba": 954
+    "liczba": 1099
    },
    {
     "teryt": "26",
-    "liczba": 260
+    "liczba": 337
    },
    {
     "teryt": "28",
-    "liczba": 301
+    "liczba": 364
    },
    {
     "teryt": "30",
-    "liczba": 965
+    "liczba": 1181
    },
    {
     "teryt": "32",
-    "liczba": 498
+    "liczba": 592
    }
   ],
   "bezWojewodztwa": 86,
@@ -90,195 +90,339 @@
    },
    {
     "rok": 2001,
-    "liczba": 89
+    "liczba": 90
    },
    {
     "rok": 2002,
-    "liczba": 275
+    "liczba": 277
    },
    {
     "rok": 2003,
-    "liczba": 768
+    "liczba": 773
    },
    {
     "rok": 2004,
-    "liczba": 617
+    "liczba": 625
    },
    {
     "rok": 2005,
-    "liczba": 567
+    "liczba": 571
    },
    {
     "rok": 2006,
-    "liczba": 787
+    "liczba": 821
    },
    {
     "rok": 2007,
-    "liczba": 1351
+    "liczba": 1442
    },
    {
     "rok": 2008,
-    "liczba": 831
+    "liczba": 905
    },
    {
     "rok": 2009,
-    "liczba": 308
+    "liczba": 367
    },
    {
     "rok": 2010,
-    "liczba": 74
+    "liczba": 86
    },
    {
     "rok": 2011,
-    "liczba": 36
+    "liczba": 53
    },
    {
     "rok": 2012,
-    "liczba": 17
+    "liczba": 25
    },
    {
     "rok": 2013,
-    "liczba": 778
+    "liczba": 1264
    },
    {
     "rok": 2014,
-    "liczba": 753
+    "liczba": 1253
    },
    {
     "rok": 2015,
-    "liczba": 582
+    "liczba": 912
    },
    {
     "rok": 2016,
-    "liczba": 498
+    "liczba": 757
    },
    {
     "rok": 2017,
-    "liczba": 514
+    "liczba": 679
    },
    {
     "rok": 2018,
-    "liczba": 467
+    "liczba": 543
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 4651
+    "liczba": 5965
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 3349
+    "liczba": 4079
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1581
+    "liczba": 1673
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 29
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 5074
+    "liczba": 5403
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 2279
+    "liczba": 2884
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 1361
+    "liczba": 2555
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 867
+    "liczba": 876
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 28
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5110
+    "liczba": 6568
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 2766
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 2312
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2087
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 99
+    "liczba": 100
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 5082
+    "liczba": 6631
    },
    {
     "nazwa": "Van",
-    "liczba": 2027
+    "liczba": 2156
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1559
+    "liczba": 1906
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 714
+    "liczba": 818
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 226
+    "liczba": 235
    }
   ],
-  "noweOdPaczki": 760,
+  "noweOdPaczki": 2898,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 199
+   },
+   {
+    "rok": 2024,
+    "liczba": 915
+   },
+   {
+    "rok": 2025,
+    "liczba": 977
+   },
+   {
     "rok": 2026,
-    "liczba": 760
+    "liczba": 807
    }
   ],
-  "miejsce": 243,
-  "miejsceWMarce": 7,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2009.4
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 77
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 71
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 260,
+  "miejsceWMarce": 9,
+  "modeliWMarce": 32,
+  "sredniRocznik": 2010.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "carens",
  "adres": "/marki/kia/carens/",
  "konkurenci": [
   {
-   "slug": "skoda-octavia",
-   "nazwa": "Skoda Octavia",
-   "adres": "/marki/skoda/octavia/"
-  },
-  {
    "slug": "mercedes-benz-klasa-b",
    "nazwa": "Mercedes-Benz Klasa B",
    "adres": "/marki/mercedes-benz/klasa-b/"
-  },
-  {
-   "slug": "bmw-seria-2",
-   "nazwa": "BMW Seria 2",
-   "adres": "/marki/bmw/seria-2/"
   },
   {
    "slug": "citroen-c5",
@@ -286,9 +430,19 @@
    "adres": "/marki/citroen/c5/"
   },
   {
+   "slug": "skoda-octavia",
+   "nazwa": "Skoda Octavia",
+   "adres": "/marki/skoda/octavia/"
+  },
+  {
    "slug": "volkswagen-touran",
    "nazwa": "Volkswagen Touran",
    "adres": "/marki/volkswagen/touran/"
+  },
+  {
+   "slug": "seat-exeo",
+   "nazwa": "Seat Exeo",
+   "adres": "/marki/seat/exeo/"
   }
  ]
 }

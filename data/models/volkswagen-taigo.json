@@ -11,92 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Taigo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 106 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAIGO).",
-  "liczbaWPolsce": 3106,
-  "aktywne": 3106,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Taigo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 413 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAIGO).",
+  "liczbaWPolsce": 7413,
+  "aktywne": 7413,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 161
+    "liczba": 564
    },
    {
     "teryt": "04",
-    "liczba": 163
+    "liczba": 367
    },
    {
     "teryt": "06",
-    "liczba": 102
+    "liczba": 192
    },
    {
     "teryt": "08",
-    "liczba": 74
+    "liczba": 182
    },
    {
     "teryt": "10",
-    "liczba": 184
+    "liczba": 404
    },
    {
     "teryt": "12",
-    "liczba": 302
+    "liczba": 555
    },
    {
     "teryt": "14",
-    "liczba": 764
+    "liczba": 1797
    },
    {
     "teryt": "16",
-    "liczba": 62
+    "liczba": 153
    },
    {
     "teryt": "18",
-    "liczba": 107
+    "liczba": 219
    },
    {
     "teryt": "20",
-    "liczba": 62
+    "liczba": 125
    },
    {
     "teryt": "22",
-    "liczba": 204
+    "liczba": 562
    },
    {
     "teryt": "24",
-    "liczba": 406
+    "liczba": 988
    },
    {
     "teryt": "26",
-    "liczba": 78
+    "liczba": 144
    },
    {
     "teryt": "28",
-    "liczba": 65
+    "liczba": 128
    },
    {
     "teryt": "30",
-    "liczba": 272
+    "liczba": 774
    },
    {
     "teryt": "32",
-    "liczba": 100
+    "liczba": 259
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 61
+    "liczba": 168
    },
    {
     "rok": 2023,
-    "liczba": 41
+    "liczba": 1017
    },
    {
     "rok": 2024,
-    "liczba": 26
+    "liczba": 1772
    },
    {
     "rok": 2025,
-    "liczba": 284
+    "liczba": 1754
    },
    {
     "rok": 2026,
@@ -106,99 +106,253 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3105
+    "liczba": 7408
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 5
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 2657
+    "liczba": 5249
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 449
+    "liczba": 2164
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2906
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 134
+    "liczba": 6427
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 52
+    "liczba": 709
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 256
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 21
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 3083
+    "liczba": 7356
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 57
    }
   ],
-  "noweOdPaczki": 3106,
-  "hybrydy": 0,
+  "noweOdPaczki": 7413,
+  "hybrydy": 3,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 537
+   },
+   {
+    "rok": 2024,
+    "liczba": 2017
+   },
+   {
+    "rok": 2025,
+    "liczba": 1676
+   },
+   {
     "rok": 2026,
-    "liczba": 3106
+    "liczba": 3183
    }
   ],
-  "miejsce": 417,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 170
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 156
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 168
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 111
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 186
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 140
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 172
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 278
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 156
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 212
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 202
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 288
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 180
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 139
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 160
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 77
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 334,
   "miejsceWMarce": 26,
-  "modeliWMarce": 57,
-  "sredniRocznik": 2025.8
+  "modeliWMarce": 59,
+  "sredniRocznik": 2024.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "taigo",
  "adres": "/marki/volkswagen/taigo/",
  "konkurenci": [
   {
-   "slug": "renault-austral",
-   "nazwa": "Renault Austral",
-   "adres": "/marki/renault/austral/"
-  },
-  {
    "slug": "dacia-jogger",
    "nazwa": "Dacia Jogger",
    "adres": "/marki/dacia/jogger/"
   },
   {
-   "slug": "skoda-scala",
-   "nazwa": "Skoda Scala",
-   "adres": "/marki/skoda/scala/"
+   "slug": "renault-rafale",
+   "nazwa": "Renault Rafale",
+   "adres": "/marki/renault/rafale/"
   },
   {
-   "slug": "peugeot-408",
-   "nazwa": "Peugeot 408",
-   "adres": "/marki/peugeot/408/"
+   "slug": "renault-austral",
+   "nazwa": "Renault Austral",
+   "adres": "/marki/renault/austral/"
   },
   {
-   "slug": "jeep-avenger",
-   "nazwa": "Jeep Avenger",
-   "adres": "/marki/jeep/avenger/"
+   "slug": "hyundai-bayon",
+   "nazwa": "Hyundai Bayon",
+   "adres": "/marki/hyundai/bayon/"
+  },
+  {
+   "slug": "kia-stonic",
+   "nazwa": "Kia Stonic",
+   "adres": "/marki/kia/stonic/"
   }
  ]
 }

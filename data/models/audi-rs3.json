@@ -3,7 +3,7 @@
  "marka": "Audi",
  "model": "RS3",
  "generacja": "",
- "lataProdukcji": "2015–2026",
+ "lataProdukcji": "2017–2026",
  "nadwozia": [
   "hatchback",
   "sedan"
@@ -12,84 +12,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 470 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS 3 SPORTBACK, RS 3 LIMOUSINE, RS3, RS3 SPORTBACK, RS3 QUATTRO).",
-  "liczbaWPolsce": 619,
-  "aktywne": 610,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 713 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS 3 SPORTBACK, RS 3 LIMOUSINE, RS3, RS3 SPORTBACK, RS3 QUATTRO).",
+  "liczbaWPolsce": 1862,
+  "aktywne": 1853,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 96
+    "liczba": 188
    },
    {
     "teryt": "04",
-    "liczba": 24
+    "liczba": 64
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 36
    },
    {
     "teryt": "08",
-    "liczba": 8
+    "liczba": 18
    },
    {
     "teryt": "10",
-    "liczba": 20
+    "liczba": 86
    },
    {
     "teryt": "12",
-    "liczba": 54
+    "liczba": 161
    },
    {
     "teryt": "14",
-    "liczba": 207
+    "liczba": 654
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 15
    },
    {
     "teryt": "18",
-    "liczba": 8
+    "liczba": 34
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 16
    },
    {
     "teryt": "22",
-    "liczba": 51
+    "liczba": 176
    },
    {
     "teryt": "24",
-    "liczba": 62
+    "liczba": 201
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 20
    },
    {
     "teryt": "28",
-    "liczba": 7
+    "liczba": 21
    },
    {
     "teryt": "30",
-    "liczba": 49
+    "liczba": 146
    },
    {
     "teryt": "32",
-    "liczba": 7
+    "liczba": 24
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
+    "rok": 2011,
+    "liczba": 10
+   },
+   {
     "rok": 2012,
-    "liczba": 6
+    "liczba": 14
    },
    {
     "rok": 2013,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2014,
@@ -97,27 +101,27 @@
    },
    {
     "rok": 2015,
-    "liczba": 11
+    "liczba": 14
    },
    {
     "rok": 2016,
-    "liczba": 9
+    "liczba": 15
    },
    {
     "rok": 2017,
-    "liczba": 47
+    "liczba": 56
    },
    {
     "rok": 2018,
-    "liczba": 39
+    "liczba": 53
    },
    {
     "rok": 2019,
-    "liczba": 47
+    "liczba": 62
    },
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 6
    },
    {
     "rok": 2021,
@@ -125,19 +129,19 @@
    },
    {
     "rok": 2022,
-    "liczba": 1
+    "liczba": 11
    },
    {
     "rok": 2023,
-    "liczba": 5
+    "liczba": 257
    },
    {
     "rok": 2024,
-    "liczba": 4
+    "liczba": 410
    },
    {
     "rok": 2025,
-    "liczba": 136
+    "liczba": 643
    },
    {
     "rok": 2026,
@@ -147,31 +151,39 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 619
+    "liczba": 1861
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 619
+    "liczba": 1860
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 547
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 35
+    "liczba": 1519
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 28
+    "liczba": 221
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 108
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 7
+    "liczba": 12
    },
    {
     "nazwa": "Inne / brak danych",
@@ -181,36 +193,190 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 359
+    "liczba": 970
    },
    {
     "nazwa": "Sedan",
-    "liczba": 252
+    "liczba": 873
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 19
    }
   ],
-  "noweOdPaczki": 470,
+  "noweOdPaczki": 1713,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 148
+   },
+   {
+    "rok": 2024,
+    "liczba": 401
+   },
+   {
+    "rok": 2025,
+    "liczba": 674
+   },
+   {
     "rok": 2026,
-    "liczba": 470
+    "liczba": 490
    }
   ],
-  "miejsce": 785,
-  "miejsceWMarce": 32,
-  "modeliWMarce": 45,
-  "sredniRocznik": 2023.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 67
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 593,
+  "miejsceWMarce": 22,
+  "modeliWMarce": 51,
+  "sredniRocznik": 2023.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "rs3",
@@ -227,19 +393,19 @@
    "adres": "/marki/lexus/nx/"
   },
   {
-   "slug": "kia-stinger",
-   "nazwa": "Kia Stinger",
-   "adres": "/marki/kia/stinger/"
+   "slug": "lexus-es",
+   "nazwa": "Lexus ES",
+   "adres": "/marki/lexus/es/"
+  },
+  {
+   "slug": "toyota-c-hr",
+   "nazwa": "Toyota C-HR",
+   "adres": "/marki/toyota/c-hr/"
   },
   {
    "slug": "mazda-mazda3",
    "nazwa": "Mazda MAZDA3",
    "adres": "/marki/mazda/mazda3/"
-  },
-  {
-   "slug": "lexus-es",
-   "nazwa": "Lexus ES",
-   "adres": "/marki/lexus/es/"
   }
  ]
 }

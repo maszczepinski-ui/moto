@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Lybra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LYBRA, LYBRA 1.9 JTD, LYBRA SW, LYBRA 2.4 JTD, LYBRA 1,9 JTD).",
-  "liczbaWPolsce": 2623,
-  "aktywne": 471,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Lybra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LYBRA, LYBRA 1.9 JTD, LYBRA SW, LYBRA 2.4 JTD, LYBRA 1,9 JTD).",
+  "liczbaWPolsce": 2640,
+  "aktywne": 488,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 254
+    "liczba": 258
    },
    {
     "teryt": "04",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 202
+    "liczba": 203
    },
    {
     "teryt": "12",
-    "liczba": 235
+    "liczba": 237
    },
    {
     "teryt": "14",
-    "liczba": 358
+    "liczba": 360
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 166
+    "liczba": 168
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 305
+    "liczba": 306
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 242
+    "liczba": 246
    },
    {
     "teryt": "32",
-    "liczba": 124
+    "liczba": 125
    }
   ],
   "bezWojewodztwa": 10,
@@ -89,27 +89,27 @@
    },
    {
     "rok": 2000,
-    "liczba": 1103
+    "liczba": 1106
    },
    {
     "rok": 2001,
-    "liczba": 510
+    "liczba": 515
    },
    {
     "rok": 2002,
-    "liczba": 303
+    "liczba": 308
    },
    {
     "rok": 2003,
-    "liczba": 217
+    "liczba": 218
    },
    {
     "rok": 2004,
-    "liczba": 126
+    "liczba": 127
    },
    {
     "rok": 2005,
-    "liczba": 54
+    "liczba": 56
    },
    {
     "rok": 2006,
@@ -119,15 +119,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1767
+    "liczba": 1776
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 482
+    "liczba": 489
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 357
+    "liczba": 358
    },
    {
     "nazwa": "Inne / brak danych",
@@ -137,23 +137,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 1163
+    "liczba": 1171
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 612
+    "liczba": 613
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 452
+    "liczba": 456
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 258
+    "liczba": 260
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 130
+    "liczba": 132
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,11 +163,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1344
+    "liczba": 1360
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1235
+    "liczba": 1236
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,31 +181,185 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1662
+    "liczba": 1670
    },
    {
     "nazwa": "Sedan",
-    "liczba": 846
+    "liczba": 853
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 54
+    "liczba": 55
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 20,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 3
+   },
+   {
+    "rok": 2024,
+    "liczba": 7
+   },
+   {
+    "rok": 2025,
+    "liczba": 7
+   },
    {
     "rok": 2026,
     "liczba": 3
    }
   ],
-  "miejsce": 440,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 516,
   "miejsceWMarce": 3,
   "modeliWMarce": 15,
   "sredniRocznik": 2000.9
@@ -214,26 +368,26 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "lybra",
  "adres": "/marki/lancia/lybra/",
  "konkurenci": [
   {
-   "slug": "land-rover-freelander",
-   "nazwa": "Land Rover Freelander",
-   "adres": "/marki/land-rover/freelander/"
-  },
-  {
    "slug": "volkswagen-passat",
    "nazwa": "Volkswagen Passat",
    "adres": "/marki/volkswagen/passat/"
   },
   {
-   "slug": "audi-a4",
-   "nazwa": "Audi A4",
-   "adres": "/marki/audi/a4/"
+   "slug": "land-rover-freelander",
+   "nazwa": "Land Rover Freelander",
+   "adres": "/marki/land-rover/freelander/"
+  },
+  {
+   "slug": "audi-a4-b6",
+   "nazwa": "Audi A4 B6",
+   "adres": "/marki/audi/a4/b6/"
   },
   {
    "slug": "ford-mondeo-mk3",

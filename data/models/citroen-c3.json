@@ -12,302 +12,456 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen C3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 003 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C3, C3 PICASSO, C3 AIRCROSS, C3 1.4 HDI, C3 1.1I).",
-  "liczbaWPolsce": 79399,
-  "aktywne": 41607,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen C3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 30 362 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C3, C3 AIRCROSS, C3 PICASSO, C3 1.4 HDI, C3 1.1I).",
+  "liczbaWPolsce": 101758,
+  "aktywne": 63966,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5090
+    "liczba": 6310
    },
    {
     "teryt": "04",
-    "liczba": 3587
+    "liczba": 4522
    },
    {
     "teryt": "06",
-    "liczba": 3363
+    "liczba": 4353
    },
    {
     "teryt": "08",
-    "liczba": 1986
+    "liczba": 2517
    },
    {
     "teryt": "10",
-    "liczba": 5932
+    "liczba": 7267
    },
    {
     "teryt": "12",
-    "liczba": 7249
+    "liczba": 9146
    },
    {
     "teryt": "14",
-    "liczba": 10177
+    "liczba": 14114
    },
    {
     "teryt": "16",
-    "liczba": 1505
+    "liczba": 1828
    },
    {
     "teryt": "18",
-    "liczba": 5130
+    "liczba": 6383
    },
    {
     "teryt": "20",
-    "liczba": 1408
+    "liczba": 1825
    },
    {
     "teryt": "22",
-    "liczba": 3236
+    "liczba": 4042
    },
    {
     "teryt": "24",
-    "liczba": 9610
+    "liczba": 12057
    },
    {
     "teryt": "26",
-    "liczba": 2321
+    "liczba": 2923
    },
    {
     "teryt": "28",
-    "liczba": 1484
+    "liczba": 1940
    },
    {
     "teryt": "30",
-    "liczba": 14053
+    "liczba": 18622
    },
    {
     "teryt": "32",
-    "liczba": 2751
+    "liczba": 3392
    }
   ],
   "bezWojewodztwa": 517,
   "roczniki": [
    {
     "rok": 2002,
-    "liczba": 3859
+    "liczba": 3944
    },
    {
     "rok": 2003,
-    "liczba": 7340
+    "liczba": 7536
    },
    {
     "rok": 2004,
-    "liczba": 5720
+    "liczba": 5965
    },
    {
     "rok": 2005,
-    "liczba": 5474
+    "liczba": 5728
    },
    {
     "rok": 2006,
-    "liczba": 4877
+    "liczba": 5153
    },
    {
     "rok": 2007,
-    "liczba": 4516
+    "liczba": 4799
    },
    {
     "rok": 2008,
-    "liczba": 3722
+    "liczba": 3962
    },
    {
     "rok": 2009,
-    "liczba": 4426
+    "liczba": 5295
    },
    {
     "rok": 2010,
-    "liczba": 5967
+    "liczba": 7125
    },
    {
     "rok": 2011,
-    "liczba": 4275
+    "liczba": 5211
    },
    {
     "rok": 2012,
-    "liczba": 3754
+    "liczba": 4539
    },
    {
     "rok": 2013,
-    "liczba": 2405
+    "liczba": 3039
    },
    {
     "rok": 2014,
-    "liczba": 2983
+    "liczba": 3645
    },
    {
     "rok": 2015,
-    "liczba": 1622
+    "liczba": 2186
    },
    {
     "rok": 2016,
-    "liczba": 1298
+    "liczba": 1993
    },
    {
     "rok": 2017,
-    "liczba": 3771
+    "liczba": 5204
    },
    {
     "rok": 2018,
-    "liczba": 4222
+    "liczba": 5793
    },
    {
     "rok": 2019,
-    "liczba": 2083
+    "liczba": 3574
    },
    {
     "rok": 2020,
-    "liczba": 364
+    "liczba": 1336
    },
    {
     "rok": 2021,
-    "liczba": 368
+    "liczba": 1277
    },
    {
     "rok": 2022,
-    "liczba": 242
+    "liczba": 821
    },
    {
     "rok": 2023,
-    "liczba": 173
+    "liczba": 1893
    },
    {
     "rok": 2024,
-    "liczba": 109
+    "liczba": 3034
    },
    {
     "rok": 2025,
-    "liczba": 703
+    "liczba": 3576
    },
    {
     "rok": 2026,
-    "liczba": 2655
+    "liczba": 2656
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 51061
+    "liczba": 68442
    },
    {
     "nazwa": "Diesel",
-    "liczba": 24259
+    "liczba": 28583
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3339
+    "liczba": 3589
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 740
+    "liczba": 1144
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 38011
+    "liczba": 41570
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 18633
-   },
-   {
-    "nazwa": "1,1 l",
-    "liczba": 11275
+    "liczba": 32205
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 10331
+    "liczba": 13057
+   },
+   {
+    "nazwa": "1,1 l",
+    "liczba": 12051
+   },
+   {
+    "nazwa": "1,5 l",
+    "liczba": 1766
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1149
+    "liczba": 1109
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 34627
+    "liczba": 45866
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 23173
+    "liczba": 27965
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 20817
+    "liczba": 26938
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 782
+    "liczba": 989
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 66011
+    "liczba": 83195
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 9753
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 884
+    "liczba": 14446
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2751
+    "liczba": 4117
    }
   ],
-  "noweOdPaczki": 8003,
-  "hybrydy": 537,
-  "elektryczne": 0,
+  "noweOdPaczki": 30362,
+  "hybrydy": 936,
+  "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 2412
+   },
+   {
+    "rok": 2024,
+    "liczba": 9645
+   },
+   {
+    "rok": 2025,
+    "liczba": 9863
+   },
+   {
     "rok": 2026,
-    "liczba": 8003
+    "liczba": 8442
    }
   ],
-  "miejsce": 44,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 675
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 753
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1148
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1179
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 834
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 718
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1030
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 703
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 584
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 702
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 718
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 666
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 610
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 658
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 723
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 945
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 842
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 911
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 815
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 968
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 750
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 807
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 806
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 762
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 876
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 439
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 41,
   "miejsceWMarce": 2,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2010.1
+  "modeliWMarce": 40,
+  "sredniRocznik": 2011.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "c3",
  "adres": "/marki/citroen/c3/",
  "konkurenci": [
   {
-   "slug": "skoda-fabia",
-   "nazwa": "Skoda Fabia",
-   "adres": "/marki/skoda/fabia/"
-  },
-  {
    "slug": "toyota-yaris",
    "nazwa": "Toyota Yaris",
    "adres": "/marki/toyota/yaris/"
   },
   {
-   "slug": "mazda-2",
-   "nazwa": "Mazda 2",
-   "adres": "/marki/mazda/2/"
-  },
-  {
-   "slug": "lancia-ypsilon",
-   "nazwa": "Lancia Ypsilon",
-   "adres": "/marki/lancia/ypsilon/"
-  },
-  {
    "slug": "kia-rio",
    "nazwa": "Kia Rio",
    "adres": "/marki/kia/rio/"
+  },
+  {
+   "slug": "skoda-fabia",
+   "nazwa": "Skoda Fabia",
+   "adres": "/marki/skoda/fabia/"
+  },
+  {
+   "slug": "suzuki-baleno",
+   "nazwa": "Suzuki Baleno",
+   "adres": "/marki/suzuki/baleno/"
+  },
+  {
+   "slug": "hyundai-i30",
+   "nazwa": "Hyundai i30",
+   "adres": "/marki/hyundai/i30/"
   }
  ]
 }

@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 301 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 301).",
-  "liczbaWPolsce": 3574,
-  "aktywne": 1470,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 301 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 301).",
+  "liczbaWPolsce": 3594,
+  "aktywne": 1490,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 290
+    "liczba": 293
    },
    {
     "teryt": "04",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "08",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 194
+    "liczba": 195
    },
    {
     "teryt": "12",
-    "liczba": 314
+    "liczba": 316
    },
    {
     "teryt": "14",
-    "liczba": 805
+    "liczba": 808
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 156
+    "liczba": 157
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 158
+    "liczba": 159
    },
    {
     "teryt": "24",
-    "liczba": 528
+    "liczba": 533
    },
    {
     "teryt": "26",
@@ -69,11 +69,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 78
+    "liczba": 79
    },
    {
     "teryt": "30",
-    "liczba": 292
+    "liczba": 294
    },
    {
     "teryt": "32",
@@ -84,23 +84,23 @@
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 164
+    "liczba": 165
    },
    {
     "rok": 2013,
-    "liczba": 1153
+    "liczba": 1157
    },
    {
     "rok": 2014,
-    "liczba": 600
+    "liczba": 603
    },
    {
     "rok": 2015,
-    "liczba": 648
+    "liczba": 650
    },
    {
     "rok": 2016,
-    "liczba": 357
+    "liczba": 360
    },
    {
     "rok": 2017,
@@ -108,21 +108,21 @@
    },
    {
     "rok": 2018,
-    "liczba": 293
+    "liczba": 296
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2232
+    "liczba": 2242
    },
    {
     "nazwa": "Diesel",
-    "liczba": 829
+    "liczba": 837
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 512
+    "liczba": 514
    },
    {
     "nazwa": "Inne / brak danych",
@@ -132,15 +132,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2349
+    "liczba": 2360
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 1194
+    "liczba": 1201
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 31
+    "liczba": 33
    }
   ],
   "pochodzenie": [
@@ -150,46 +150,200 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1169
+    "liczba": 1174
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 25
+    "liczba": 39
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 21
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3527
+    "liczba": 3547
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 47
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 25,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 11
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
+   {
     "rok": 2026,
-    "liczba": 5
+    "liczba": 6
    }
   ],
-  "miejsce": 395,
-  "miejsceWMarce": 22,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 461,
+  "miejsceWMarce": 23,
   "modeliWMarce": 44,
-  "sredniRocznik": 2014.5
+  "sredniRocznik": 2014.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "301",
@@ -201,24 +355,24 @@
    "adres": "/marki/citroen/c-elysee/"
   },
   {
+   "slug": "hyundai-elantra",
+   "nazwa": "Hyundai Elantra",
+   "adres": "/marki/hyundai/elantra/"
+  },
+  {
    "slug": "skoda-rapid",
    "nazwa": "Skoda Rapid",
    "adres": "/marki/skoda/rapid/"
   },
   {
-   "slug": "nissan-juke",
-   "nazwa": "Nissan Juke",
-   "adres": "/marki/nissan/juke/"
+   "slug": "hyundai-i30",
+   "nazwa": "Hyundai i30",
+   "adres": "/marki/hyundai/i30/"
   },
   {
-   "slug": "renault-fluence",
-   "nazwa": "Renault Fluence",
-   "adres": "/marki/renault/fluence/"
-  },
-  {
-   "slug": "hyundai-ix20",
-   "nazwa": "Hyundai ix20",
-   "adres": "/marki/hyundai/ix20/"
+   "slug": "nissan-qashqai",
+   "nazwa": "Nissan Qashqai",
+   "adres": "/marki/nissan/qashqai/"
   }
  ]
 }

@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen ZX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZX, ZX 1.4 KAT, ZX 1.4, ZX 1.9D, ZX 1.6 KAT).",
-  "liczbaWPolsce": 9491,
-  "aktywne": 148,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen ZX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZX, ZX 1.4 KAT, ZX 1.4, ZX 1.9D, ZX 1.6 KAT).",
+  "liczbaWPolsce": 9498,
+  "aktywne": 155,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 764
+    "liczba": 765
    },
    {
     "teryt": "06",
@@ -35,11 +35,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 563
+    "liczba": 564
    },
    {
     "teryt": "12",
-    "liczba": 438
+    "liczba": 440
    },
    {
     "teryt": "14",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 665
+    "liczba": 667
    },
    {
     "teryt": "24",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1103
+    "liczba": 1104
    },
    {
     "teryt": "32",
@@ -90,19 +90,19 @@
    },
    {
     "rok": 1992,
-    "liczba": 1833
+    "liczba": 1834
    },
    {
     "rok": 1993,
-    "liczba": 2097
+    "liczba": 2099
    },
    {
     "rok": 1994,
-    "liczba": 1534
+    "liczba": 1535
    },
    {
     "rok": 1995,
-    "liczba": 1373
+    "liczba": 1375
    },
    {
     "rok": 1996,
@@ -110,13 +110,13 @@
    },
    {
     "rok": 1997,
-    "liczba": 731
+    "liczba": 732
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4608
+    "liczba": 4613
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -124,7 +124,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1770
+    "liczba": 1772
    },
    {
     "nazwa": "?+LPG",
@@ -138,19 +138,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 5824
+    "liczba": 5827
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 2092
+    "liczba": 2094
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 932
+    "liczba": 933
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 302
+    "liczba": 303
    },
    {
     "nazwa": "1,1 l",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5665
+    "liczba": 5666
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3130
+    "liczba": 3136
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -186,7 +186,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6034
+    "liczba": 6040
    },
    {
     "nazwa": "Sedan",
@@ -194,32 +194,186 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 546
+    "liczba": 547
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2082
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 2
+   },
+   {
     "rok": 2026,
-    "liczba": 6
+    "liczba": 7
    }
   ],
-  "miejsce": 245,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 293,
   "miejsceWMarce": 10,
-  "modeliWMarce": 39,
+  "modeliWMarce": 40,
   "sredniRocznik": 1993.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "zx",
@@ -246,9 +400,9 @@
    "adres": "/marki/renault/19/"
   },
   {
-   "slug": "volkswagen-golf-iii",
-   "nazwa": "Volkswagen Golf III",
-   "adres": "/marki/volkswagen/golf/iii/"
+   "slug": "lada-niva",
+   "nazwa": "Łada Niva",
+   "adres": "/marki/lada/niva/"
   }
  ]
 }

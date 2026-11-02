@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Dedra – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEDRA, DEDRA 1.6 KAT, DEDRA 2.0 KAT, DEDRA 1.8 KAT, DEDRA 1.6).",
-  "liczbaWPolsce": 1494,
-  "aktywne": 14,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Dedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEDRA, DEDRA 1.6 KAT, DEDRA 2.0 KAT, DEDRA 1.8 KAT, DEDRA 1.6).",
+  "liczbaWPolsce": 1499,
+  "aktywne": 19,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 105
+    "liczba": 106
    },
    {
     "teryt": "14",
@@ -51,11 +51,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "20",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 117
+    "liczba": 118
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 168
+    "liczba": 169
    },
    {
     "teryt": "32",
@@ -102,7 +102,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 1990,
@@ -126,11 +126,11 @@
    },
    {
     "rok": 1995,
-    "liczba": 184
+    "liczba": 186
    },
    {
     "rok": 1996,
-    "liczba": 131
+    "liczba": 132
    },
    {
     "rok": 1997,
@@ -138,7 +138,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1999,
@@ -148,7 +148,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 500
+    "liczba": 505
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -170,11 +170,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 522
+    "liczba": 526
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 338
+    "liczba": 339
    },
    {
     "nazwa": "1,9 l",
@@ -200,7 +200,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 604
+    "liczba": 609
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -218,26 +218,177 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 828
+    "liczba": 831
    },
    {
     "nazwa": "Kombi",
-    "liczba": 173
+    "liczba": 174
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 422
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 579,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 2
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 645,
   "miejsceWMarce": 5,
   "modeliWMarce": 15,
   "sredniRocznik": 1993.1
@@ -246,7 +397,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "dedra",

@@ -3,203 +3,357 @@
  "marka": "Seat",
  "model": "Tarraco",
  "generacja": "",
- "lataProdukcji": "2019–2023",
+ "lataProdukcji": "2019–2024",
  "nadwozia": [
-  "kombi"
+  "kombi",
+  "van"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Tarraco – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 197 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TARRACO).",
-  "liczbaWPolsce": 536,
-  "aktywne": 536,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Tarraco – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 920 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TARRACO).",
+  "liczbaWPolsce": 1259,
+  "aktywne": 1259,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 50
+    "liczba": 108
    },
    {
     "teryt": "04",
-    "liczba": 28
+    "liczba": 52
    },
    {
     "teryt": "06",
-    "liczba": 8
+    "liczba": 25
    },
    {
     "teryt": "08",
-    "liczba": 20
+    "liczba": 49
    },
    {
     "teryt": "10",
-    "liczba": 20
+    "liczba": 52
    },
    {
     "teryt": "12",
-    "liczba": 57
+    "liczba": 128
    },
    {
     "teryt": "14",
-    "liczba": 69
+    "liczba": 171
    },
    {
     "teryt": "16",
-    "liczba": 26
+    "liczba": 55
    },
    {
     "teryt": "18",
-    "liczba": 18
+    "liczba": 43
    },
    {
     "teryt": "20",
-    "liczba": 19
+    "liczba": 37
    },
    {
     "teryt": "22",
-    "liczba": 50
+    "liczba": 124
    },
    {
     "teryt": "24",
-    "liczba": 66
+    "liczba": 161
    },
    {
     "teryt": "26",
-    "liczba": 14
+    "liczba": 28
    },
    {
     "teryt": "28",
-    "liczba": 4
+    "liczba": 13
    },
    {
     "teryt": "30",
-    "liczba": 58
+    "liczba": 147
    },
    {
     "teryt": "32",
-    "liczba": 29
+    "liczba": 66
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 2019,
-    "liczba": 307
+    "liczba": 488
    },
    {
     "rok": 2020,
-    "liczba": 38
+    "liczba": 168
    },
    {
     "rok": 2021,
-    "liczba": 31
+    "liczba": 138
    },
    {
     "rok": 2022,
-    "liczba": 47
+    "liczba": 81
    },
    {
     "rok": 2023,
-    "liczba": 19
+    "liczba": 188
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 102
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 273
+    "liczba": 692
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 256
+    "liczba": 537
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 7
+    "liczba": 26
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 4
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 413
+    "liczba": 973
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 116
+    "liczba": 260
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 7
+    "liczba": 26
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 339
+    "liczba": 512
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 167
+    "liczba": 501
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 29
+    "liczba": 241
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 5
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 520
+    "liczba": 1195
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 8
+    "liczba": 41
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 23
    }
   ],
-  "noweOdPaczki": 197,
-  "hybrydy": 7,
+  "noweOdPaczki": 920,
+  "hybrydy": 26,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 109
+   },
+   {
+    "rok": 2024,
+    "liczba": 347
+   },
+   {
+    "rok": 2025,
+    "liczba": 254
+   },
+   {
     "rok": 2026,
-    "liczba": 197
+    "liczba": 210
    }
   ],
-  "miejsce": 818,
-  "miejsceWMarce": 15,
-  "modeliWMarce": 18,
-  "sredniRocznik": 2019.7
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 691,
+  "miejsceWMarce": 13,
+  "modeliWMarce": 19,
+  "sredniRocznik": 2020.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "tarraco",
  "adres": "/marki/seat/tarraco/",
  "konkurenci": [
-  {
-   "slug": "audi-q3",
-   "nazwa": "Audi Q3",
-   "adres": "/marki/audi/q3/"
-  },
   {
    "slug": "bmw-x1",
    "nazwa": "BMW X1",
@@ -211,14 +365,19 @@
    "adres": "/marki/skoda/kodiaq/"
   },
   {
-   "slug": "mercedes-benz-klasa-glc",
-   "nazwa": "Mercedes-Benz Klasa GLC",
-   "adres": "/marki/mercedes-benz/klasa-glc/"
+   "slug": "audi-q3",
+   "nazwa": "Audi Q3",
+   "adres": "/marki/audi/q3/"
   },
   {
-   "slug": "mercedes-benz-klasa-gla",
-   "nazwa": "Mercedes-Benz Klasa GLA",
-   "adres": "/marki/mercedes-benz/klasa-gla/"
+   "slug": "volvo-v90",
+   "nazwa": "Volvo V90",
+   "adres": "/marki/volvo/v90/"
+  },
+  {
+   "slug": "ds-7",
+   "nazwa": "DS 7",
+   "adres": "/marki/ds/7/"
   }
  ]
 }

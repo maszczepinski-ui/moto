@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Polonez – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: POLONEZ 1.5, POLONEZ CARO 1.6, POLONEZ 1.6, POLONEZ, POLONEZ CARO 1.5).",
-  "liczbaWPolsce": 528825,
-  "aktywne": 2288,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Polonez – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: POLONEZ 1.5, POLONEZ CARO 1.6, POLONEZ 1.6, POLONEZ, POLONEZ CARO 1.5).",
+  "liczbaWPolsce": 528840,
+  "aktywne": 2303,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,11 +22,11 @@
    },
    {
     "teryt": "04",
-    "liczba": 27800
+    "liczba": 27802
    },
    {
     "teryt": "06",
-    "liczba": 39946
+    "liczba": 39947
    },
    {
     "teryt": "08",
@@ -38,15 +38,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 48387
+    "liczba": 48388
    },
    {
     "teryt": "14",
-    "liczba": 107161
+    "liczba": 107168
    },
    {
     "teryt": "16",
-    "liczba": 13165
+    "liczba": 13166
    },
    {
     "teryt": "18",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 53313
+    "liczba": 53314
    },
    {
     "teryt": "26",
@@ -70,7 +70,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 16730
+    "liczba": 16731
    },
    {
     "teryt": "30",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 16007
+    "liczba": 16008
    }
   ],
   "bezWojewodztwa": 4693,
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 7156
+    "liczba": 7157
    },
    {
     "rok": 1980,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 15670
+    "liczba": 15671
    },
    {
     "rok": 1982,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 10400
+    "liczba": 10403
    },
    {
     "rok": 1986,
@@ -125,19 +125,19 @@
    },
    {
     "rok": 1988,
-    "liczba": 25358
+    "liczba": 25359
    },
    {
     "rok": 1989,
-    "liczba": 34758
+    "liczba": 34759
    },
    {
     "rok": 1990,
-    "liczba": 41606
+    "liczba": 41607
    },
    {
     "rok": 1991,
-    "liczba": 28442
+    "liczba": 28444
    },
    {
     "rok": 1992,
@@ -145,11 +145,11 @@
    },
    {
     "rok": 1993,
-    "liczba": 44255
+    "liczba": 44256
    },
    {
     "rok": 1994,
-    "liczba": 51546
+    "liczba": 51547
    },
    {
     "rok": 1995,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 22054
+    "liczba": 22055
    },
    {
     "rok": 1998,
@@ -169,17 +169,17 @@
    },
    {
     "rok": 1999,
-    "liczba": 4811
+    "liczba": 4812
    },
    {
     "rok": 2000,
-    "liczba": 2759
+    "liczba": 2760
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 106763
+    "liczba": 106778
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -201,11 +201,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 295637
+    "liczba": 295645
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 201326
+    "liczba": 201332
    },
    {
     "nazwa": "1,4 l",
@@ -217,51 +217,205 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13915
+    "liczba": 13916
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 383694
+    "liczba": 383695
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 108121
+    "liczba": 108122
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3656
+    "liczba": 3663
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 33354
+    "liczba": 33360
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 100925
+    "liczba": 100938
    },
    {
     "nazwa": "Sedan",
-    "liczba": 74121
+    "liczba": 74122
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 353779
+    "liczba": 353780
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 19,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 7
+   },
+   {
+    "rok": 2025,
+    "liczba": 7
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 4,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 5,
   "miejsceWMarce": 1,
   "modeliWMarce": 13,
   "sredniRocznik": 1990.3
@@ -270,7 +424,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fso",
  "modelSlug": "polonez",

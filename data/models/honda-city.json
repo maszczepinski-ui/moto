@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda City – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITY).",
-  "liczbaWPolsce": 5159,
-  "aktywne": 1039,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda City – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITY).",
+  "liczbaWPolsce": 5163,
+  "aktywne": 1043,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 94
+    "liczba": 95
    },
    {
     "teryt": "10",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 251
+    "liczba": 252
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 263
+    "liczba": 264
    },
    {
     "teryt": "24",
-    "liczba": 763
+    "liczba": 764
    },
    {
     "teryt": "26",
@@ -88,15 +88,15 @@
    },
    {
     "rok": 2007,
-    "liczba": 1225
+    "liczba": 1226
    },
    {
     "rok": 2008,
-    "liczba": 1000
+    "liczba": 1001
    },
    {
     "rok": 2009,
-    "liczba": 876
+    "liczba": 878
    },
    {
     "rok": 2010,
@@ -106,7 +106,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4738
+    "liczba": 4742
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -120,7 +120,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 5126
+    "liczba": 5130
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,17 +134,21 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2105
+    "liczba": 2106
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 28
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 46
+    "liczba": 21
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 5018
+    "liczba": 5022
    },
    {
     "nazwa": "Hatchback",
@@ -155,25 +159,175 @@
     "liczba": 67
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 324,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 396,
   "miejsceWMarce": 6,
-  "modeliWMarce": 19,
+  "modeliWMarce": 20,
   "sredniRocznik": 2007.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "honda",
  "modelSlug": "city",
@@ -183,11 +337,6 @@
    "slug": "fiat-linea",
    "nazwa": "Fiat Linea",
    "adres": "/marki/fiat/linea/"
-  },
-  {
-   "slug": "fiat-tipo",
-   "nazwa": "Fiat Tipo",
-   "adres": "/marki/fiat/tipo/"
   },
   {
    "slug": "fiat-albea",
@@ -200,9 +349,14 @@
    "adres": "/marki/renault/thalia/"
   },
   {
-   "slug": "skoda-fabia",
-   "nazwa": "Skoda Fabia",
-   "adres": "/marki/skoda/fabia/"
+   "slug": "renault-clio",
+   "nazwa": "Renault Clio",
+   "adres": "/marki/renault/clio/"
+  },
+  {
+   "slug": "ford-ka",
+   "nazwa": "Ford Ka",
+   "adres": "/marki/ford/ka/"
   }
  ]
 }

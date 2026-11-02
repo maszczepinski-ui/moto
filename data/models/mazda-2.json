@@ -12,241 +12,419 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 210 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 2, MAZDA 2, 2 1.4, 2 1.4 KAT, 2 1.3).",
-  "liczbaWPolsce": 17711,
-  "aktywne": 9190,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 544 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 2, MAZDA 2, 2 1.4, 2 1.4 KAT, 2 1.3).",
+  "liczbaWPolsce": 22045,
+  "aktywne": 13524,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1308
+    "liczba": 1708
    },
    {
     "teryt": "04",
-    "liczba": 814
+    "liczba": 1078
    },
    {
     "teryt": "06",
-    "liczba": 916
+    "liczba": 1085
    },
    {
     "teryt": "08",
-    "liczba": 539
+    "liczba": 667
    },
    {
     "teryt": "10",
-    "liczba": 1356
+    "liczba": 1627
    },
    {
     "teryt": "12",
-    "liczba": 1432
+    "liczba": 1806
    },
    {
     "teryt": "14",
-    "liczba": 2357
+    "liczba": 2903
    },
    {
     "teryt": "16",
-    "liczba": 408
+    "liczba": 546
    },
    {
     "teryt": "18",
-    "liczba": 987
+    "liczba": 1197
    },
    {
     "teryt": "20",
-    "liczba": 552
+    "liczba": 675
    },
    {
     "teryt": "22",
-    "liczba": 932
+    "liczba": 1115
    },
    {
     "teryt": "24",
-    "liczba": 2254
+    "liczba": 2752
    },
    {
     "teryt": "26",
-    "liczba": 453
+    "liczba": 570
    },
    {
     "teryt": "28",
-    "liczba": 480
+    "liczba": 592
    },
    {
     "teryt": "30",
-    "liczba": 2128
+    "liczba": 2747
    },
    {
     "teryt": "32",
-    "liczba": 628
+    "liczba": 810
    }
   ],
   "bezWojewodztwa": 167,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 1673
+    "liczba": 1747
    },
    {
     "rok": 2004,
-    "liczba": 1772
+    "liczba": 1876
    },
    {
     "rok": 2005,
-    "liczba": 1397
+    "liczba": 1506
    },
    {
     "rok": 2006,
-    "liczba": 1254
+    "liczba": 1399
    },
    {
     "rok": 2007,
-    "liczba": 1160
+    "liczba": 1425
    },
    {
     "rok": 2008,
-    "liczba": 2776
+    "liczba": 3350
    },
    {
     "rok": 2009,
-    "liczba": 1955
+    "liczba": 2535
    },
    {
     "rok": 2010,
-    "liczba": 1002
+    "liczba": 1300
    },
    {
     "rok": 2011,
-    "liczba": 737
+    "liczba": 1013
    },
    {
     "rok": 2012,
-    "liczba": 490
+    "liczba": 717
    },
    {
     "rok": 2013,
-    "liczba": 271
+    "liczba": 395
    },
    {
     "rok": 2014,
-    "liczba": 323
+    "liczba": 438
    },
    {
     "rok": 2015,
-    "liczba": 741
+    "liczba": 1036
    },
    {
     "rok": 2016,
-    "liczba": 432
+    "liczba": 737
    },
    {
     "rok": 2017,
-    "liczba": 369
+    "liczba": 520
    },
    {
     "rok": 2018,
-    "liczba": 298
+    "liczba": 478
    },
    {
     "rok": 2019,
-    "liczba": 303
+    "liczba": 448
+   },
+   {
+    "rok": 2020,
+    "liczba": 107
+   },
+   {
+    "rok": 2021,
+    "liczba": 80
+   },
+   {
+    "rok": 2022,
+    "liczba": 121
+   },
+   {
+    "rok": 2023,
+    "liczba": 81
+   },
+   {
+    "rok": 2024,
+    "liczba": 94
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 13679
+    "liczba": 17502
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2935
+    "liczba": 3145
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1001
+    "liczba": 1111
+   },
+   {
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 245
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 96
+    "liczba": 42
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 6151
+    "liczba": 8117
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 5771
+    "liczba": 6231
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 3440
+    "liczba": 5143
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 1809
+    "liczba": 1949
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 494
+    "liczba": 558
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 46
+    "liczba": 47
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 11972
+    "liczba": 15190
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3212
+    "liczba": 4288
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2344
+    "liczba": 2383
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 183
+    "liczba": 184
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 16631
+    "liczba": 20788
    },
    {
     "nazwa": "Kombi",
-    "liczba": 568
+    "liczba": 679
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 512
+    "liczba": 578
    }
   ],
-  "noweOdPaczki": 1210,
-  "hybrydy": 58,
+  "noweOdPaczki": 5544,
+  "hybrydy": 245,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 481
+   },
+   {
+    "rok": 2024,
+    "liczba": 2001
+   },
+   {
+    "rok": 2025,
+    "liczba": 1770
+   },
+   {
     "rok": 2026,
-    "liczba": 1210
+    "liczba": 1292
    }
   ],
-  "miejsce": 169,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 149
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 172
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 207
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 179
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 161
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 179
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 140
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 168
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 171
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 151
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 148
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 168
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 166
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 160
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 158
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 153
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 112
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 171,
   "miejsceWMarce": 6,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2008.5
+  "modeliWMarce": 32,
+  "sredniRocznik": 2009.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "2",
@@ -258,24 +436,24 @@
    "adres": "/marki/skoda/fabia/"
   },
   {
-   "slug": "toyota-yaris",
-   "nazwa": "Toyota Yaris",
-   "adres": "/marki/toyota/yaris/"
+   "slug": "mitsubishi-space-star",
+   "nazwa": "Mitsubishi Space Star",
+   "adres": "/marki/mitsubishi/space-star/"
   },
   {
-   "slug": "citroen-c3",
-   "nazwa": "Citroen C3",
-   "adres": "/marki/citroen/c3/"
-  },
-  {
-   "slug": "peugeot-207",
-   "nazwa": "Peugeot 207",
-   "adres": "/marki/peugeot/207/"
+   "slug": "suzuki-swift",
+   "nazwa": "Suzuki Swift",
+   "adres": "/marki/suzuki/swift/"
   },
   {
    "slug": "chevrolet-aveo",
    "nazwa": "Chevrolet Aveo",
    "adres": "/marki/chevrolet/aveo/"
+  },
+  {
+   "slug": "toyota-yaris",
+   "nazwa": "Toyota Yaris",
+   "adres": "/marki/toyota/yaris/"
   }
  ]
 }

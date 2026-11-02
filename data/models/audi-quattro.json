@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Quattro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QUATTRO).",
-  "liczbaWPolsce": 372,
-  "aktywne": 78,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Quattro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QUATTRO, QUATTRO RS6 AVANT).",
+  "liczbaWPolsce": 387,
+  "aktywne": 93,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 42
+    "liczba": 45
    },
    {
     "teryt": "08",
@@ -40,11 +40,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "14",
-    "liczba": 47
+    "liczba": 51
    },
    {
     "teryt": "16",
@@ -52,11 +52,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "22",
@@ -64,7 +64,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 48
+    "liczba": 51
    },
    {
     "teryt": "26",
@@ -72,7 +72,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "30",
@@ -91,7 +91,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1983,
@@ -99,11 +99,11 @@
    },
    {
     "rok": 1984,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1985,
-    "liczba": 16
+    "liczba": 18
    },
    {
     "rok": 1986,
@@ -111,7 +111,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 1988,
@@ -147,7 +147,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 1997,
@@ -171,11 +171,11 @@
    },
    {
     "rok": 2002,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2003,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2004,
@@ -195,11 +195,11 @@
    },
    {
     "rok": 2008,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2009,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2010,
@@ -215,7 +215,7 @@
    },
    {
     "rok": 2013,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2014,
@@ -223,13 +223,25 @@
    },
    {
     "rok": 2015,
-    "liczba": 4
+    "liczba": 6
+   },
+   {
+    "rok": 2016,
+    "liczba": 0
+   },
+   {
+    "rok": 2017,
+    "liczba": 0
+   },
+   {
+    "rok": 2018,
+    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 163
+    "liczba": 178
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -255,27 +267,27 @@
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 59
+    "liczba": 61
    },
    {
     "nazwa": "2,8 l",
     "liczba": 41
    },
    {
+    "nazwa": "4,2 l",
+    "liczba": 38
+   },
+   {
     "nazwa": "1,8 l",
     "liczba": 36
    },
    {
-    "nazwa": "4,2 l",
-    "liczba": 35
-   },
-   {
     "nazwa": "2,0 l",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "nazwa": "2,5 l",
@@ -283,17 +295,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 65
+    "liczba": 70
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 254
+    "liczba": 255
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 98
+    "liczba": 112
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -307,19 +319,19 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 136
+    "liczba": 140
    },
    {
     "nazwa": "Coupe",
-    "liczba": 67
+    "liczba": 69
    },
    {
     "nazwa": "Kombi",
-    "liczba": 62
+    "liczba": 68
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -327,28 +339,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 69
+    "liczba": 71
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 20,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 6
+   },
+   {
+    "rok": 2025,
+    "liczba": 8
+   },
    {
     "rok": 2026,
     "liczba": 5
    }
   ],
-  "miejsce": 932,
-  "miejsceWMarce": 40,
-  "modeliWMarce": 45,
-  "sredniRocznik": 1995.0
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1003,
+  "miejsceWMarce": 45,
+  "modeliWMarce": 51,
+  "sredniRocznik": 1995.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "quattro",
@@ -375,9 +541,9 @@
    "adres": "/marki/peugeot/605/"
   },
   {
-   "slug": "lancia-kappa",
-   "nazwa": "Lancia Kappa",
-   "adres": "/marki/lancia/kappa/"
+   "slug": "bmw-seria-5-e39",
+   "nazwa": "BMW Seria 5 E39",
+   "adres": "/marki/bmw/seria-5/e39/"
   }
  ]
 }

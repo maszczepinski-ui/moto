@@ -11,130 +11,130 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 107 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 280 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 107, 107 1.0 KAT, 107 1.0 I, 107 1,0 KAT, 107 1.0).",
-  "liczbaWPolsce": 9315,
-  "aktywne": 3474,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 107 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 479 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 107, 107 1.0 KAT, 107 1.0 I, 107 1,0 KAT, 107 1.0).",
+  "liczbaWPolsce": 10514,
+  "aktywne": 4673,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 534
+    "liczba": 657
    },
    {
     "teryt": "04",
-    "liczba": 359
+    "liczba": 405
    },
    {
     "teryt": "06",
-    "liczba": 247
+    "liczba": 282
    },
    {
     "teryt": "08",
-    "liczba": 198
+    "liczba": 240
    },
    {
     "teryt": "10",
-    "liczba": 656
+    "liczba": 731
    },
    {
     "teryt": "12",
-    "liczba": 1122
+    "liczba": 1242
    },
    {
     "teryt": "14",
-    "liczba": 1222
+    "liczba": 1333
    },
    {
     "teryt": "16",
-    "liczba": 159
+    "liczba": 187
    },
    {
     "teryt": "18",
-    "liczba": 430
+    "liczba": 505
    },
    {
     "teryt": "20",
-    "liczba": 143
+    "liczba": 168
    },
    {
     "teryt": "22",
-    "liczba": 428
+    "liczba": 484
    },
    {
     "teryt": "24",
-    "liczba": 1770
+    "liczba": 1903
    },
    {
     "teryt": "26",
-    "liczba": 248
+    "liczba": 275
    },
    {
     "teryt": "28",
-    "liczba": 150
+    "liczba": 188
    },
    {
     "teryt": "30",
-    "liczba": 1275
+    "liczba": 1481
    },
    {
     "teryt": "32",
-    "liczba": 322
+    "liczba": 381
    }
   ],
   "bezWojewodztwa": 52,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 378
+    "liczba": 433
    },
    {
     "rok": 2006,
-    "liczba": 2081
+    "liczba": 2265
    },
    {
     "rok": 2007,
-    "liczba": 1959
+    "liczba": 2126
    },
    {
     "rok": 2008,
-    "liczba": 1414
+    "liczba": 1608
    },
    {
     "rok": 2009,
-    "liczba": 1117
+    "liczba": 1333
    },
    {
     "rok": 2010,
-    "liczba": 936
+    "liczba": 1038
    },
    {
     "rok": 2011,
-    "liczba": 573
+    "liczba": 678
    },
    {
     "rok": 2012,
-    "liczba": 316
+    "liczba": 398
    },
    {
     "rok": 2013,
-    "liczba": 210
+    "liczba": 279
    },
    {
     "rok": 2014,
-    "liczba": 62
+    "liczba": 87
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 8695
+    "liczba": 9845
    },
    {
     "nazwa": "Diesel",
-    "liczba": 446
+    "liczba": 475
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 163
+    "liczba": 183
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,25 +144,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 8860
+    "liczba": 10031
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 443
+    "liczba": 470
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3534
+    "liczba": 4481
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3499
+    "liczba": 3751
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -176,32 +176,186 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 9167
+    "liczba": 10361
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 148
+    "liczba": 153
    }
   ],
-  "noweOdPaczki": 280,
+  "noweOdPaczki": 1479,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 155
+   },
+   {
+    "rok": 2024,
+    "liczba": 555
+   },
+   {
+    "rok": 2025,
+    "liczba": 466
+   },
+   {
     "rok": 2026,
-    "liczba": 280
+    "liczba": 303
    }
   ],
-  "miejsce": 248,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 274,
   "miejsceWMarce": 17,
   "modeliWMarce": 44,
-  "sredniRocznik": 2008.0
+  "sredniRocznik": 2008.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "107",
@@ -223,14 +377,14 @@
    "adres": "/marki/nissan/pixo/"
   },
   {
+   "slug": "suzuki-swift",
+   "nazwa": "Suzuki Swift",
+   "adres": "/marki/suzuki/swift/"
+  },
+  {
    "slug": "chevrolet-matiz",
    "nazwa": "Chevrolet Matiz",
    "adres": "/marki/chevrolet/matiz/"
-  },
-  {
-   "slug": "toyota-yaris",
-   "nazwa": "Toyota Yaris",
-   "adres": "/marki/toyota/yaris/"
   }
  ]
 }

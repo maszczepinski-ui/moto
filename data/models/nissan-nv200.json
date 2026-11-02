@@ -12,162 +12,166 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan NV200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 98 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NV200).",
-  "liczbaWPolsce": 594,
-  "aktywne": 333,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan NV200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 383 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NV200).",
+  "liczbaWPolsce": 879,
+  "aktywne": 618,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 57
+    "liczba": 90
    },
    {
     "teryt": "04",
-    "liczba": 33
+    "liczba": 40
    },
    {
     "teryt": "06",
-    "liczba": 29
+    "liczba": 42
    },
    {
     "teryt": "08",
-    "liczba": 20
+    "liczba": 28
    },
    {
     "teryt": "10",
-    "liczba": 21
+    "liczba": 30
    },
    {
     "teryt": "12",
-    "liczba": 50
+    "liczba": 75
    },
    {
     "teryt": "14",
-    "liczba": 119
+    "liczba": 154
    },
    {
     "teryt": "16",
-    "liczba": 16
+    "liczba": 22
    },
    {
     "teryt": "18",
-    "liczba": 33
+    "liczba": 49
    },
    {
     "teryt": "20",
-    "liczba": 9
+    "liczba": 17
    },
    {
     "teryt": "22",
-    "liczba": 33
+    "liczba": 50
    },
    {
     "teryt": "24",
-    "liczba": 61
+    "liczba": 99
    },
    {
     "teryt": "26",
-    "liczba": 12
+    "liczba": 23
    },
    {
     "teryt": "28",
-    "liczba": 18
+    "liczba": 27
    },
    {
     "teryt": "30",
-    "liczba": 52
+    "liczba": 90
    },
    {
     "teryt": "32",
-    "liczba": 26
+    "liczba": 38
    }
   ],
   "bezWojewodztwa": 5,
   "roczniki": [
    {
     "rok": 2009,
-    "liczba": 2
+    "liczba": 4
    },
    {
     "rok": 2010,
-    "liczba": 81
+    "liczba": 120
    },
    {
     "rok": 2011,
-    "liczba": 109
+    "liczba": 160
    },
    {
     "rok": 2012,
-    "liczba": 142
+    "liczba": 199
    },
    {
     "rok": 2013,
-    "liczba": 63
+    "liczba": 99
    },
    {
     "rok": 2014,
-    "liczba": 46
+    "liczba": 76
    },
    {
     "rok": 2015,
-    "liczba": 38
+    "liczba": 65
    },
    {
     "rok": 2016,
-    "liczba": 41
+    "liczba": 63
    },
    {
     "rok": 2017,
-    "liczba": 22
+    "liczba": 36
    },
    {
     "rok": 2018,
-    "liczba": 32
+    "liczba": 38
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 449
+    "liczba": 672
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 116
+    "liczba": 152
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 27
-   },
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 2
-   }
-  ],
-  "pojemnosci": [
-   {
-    "nazwa": "1,5 l",
-    "liczba": 447
-   },
-   {
-    "nazwa": "1,6 l",
-    "liczba": 143
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4
    }
   ],
+  "pojemnosci": [
+   {
+    "nazwa": "1,5 l",
+    "liczba": 669
+   },
+   {
+    "nazwa": "1,6 l",
+    "liczba": 194
+   },
+   {
+    "nazwa": "2,0 l",
+    "liczba": 9
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 7
+   }
+  ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 214
+    "liczba": 412
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 253
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 208
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 166
    },
    {
     "nazwa": "Inne / brak danych",
@@ -177,40 +181,194 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 280
+    "liczba": 426
    },
    {
     "nazwa": "Kombi",
-    "liczba": 232
+    "liczba": 318
    },
    {
     "nazwa": "Van",
-    "liczba": 66
+    "liczba": 116
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 16
+    "liczba": 19
    }
   ],
-  "noweOdPaczki": 98,
+  "noweOdPaczki": 383,
   "hybrydy": 0,
-  "elektryczne": 0,
+  "elektryczne": 2,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 27
+   },
+   {
+    "rok": 2024,
+    "liczba": 113
+   },
+   {
+    "rok": 2025,
+    "liczba": 143
+   },
+   {
     "rok": 2026,
-    "liczba": 98
+    "liczba": 100
    }
   ],
-  "miejsce": 795,
-  "miejsceWMarce": 29,
-  "modeliWMarce": 41,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 781,
+  "miejsceWMarce": 27,
+  "modeliWMarce": 46,
   "sredniRocznik": 2012.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "nv200",
@@ -227,19 +385,19 @@
    "adres": "/marki/alfa-romeo/giulietta/"
   },
   {
-   "slug": "peugeot-3008",
-   "nazwa": "Peugeot 3008",
-   "adres": "/marki/peugeot/3008/"
-  },
-  {
-   "slug": "peugeot-5008",
-   "nazwa": "Peugeot 5008",
-   "adres": "/marki/peugeot/5008/"
+   "slug": "ford-c-max",
+   "nazwa": "Ford C-Max",
+   "adres": "/marki/ford/c-max/"
   },
   {
    "slug": "kia-venga",
    "nazwa": "Kia Venga",
    "adres": "/marki/kia/venga/"
+  },
+  {
+   "slug": "peugeot-3008",
+   "nazwa": "Peugeot 3008",
+   "adres": "/marki/peugeot/3008/"
   }
  ]
 }

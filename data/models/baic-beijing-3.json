@@ -3,7 +3,7 @@
  "marka": "BAIC",
  "model": "Beijing 3",
  "generacja": "",
- "lataProdukcji": "2025–2026",
+ "lataProdukcji": "2024–2026",
  "nadwozia": [
   "kombi"
  ],
@@ -11,80 +11,84 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BAIC Beijing 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 221 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BEIJING 3).",
-  "liczbaWPolsce": 1221,
-  "aktywne": 1221,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BAIC Beijing 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 262 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BEIJING 3).",
+  "liczbaWPolsce": 3262,
+  "aktywne": 3262,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 127
+    "liczba": 283
    },
    {
     "teryt": "04",
-    "liczba": 42
+    "liczba": 111
    },
    {
     "teryt": "06",
-    "liczba": 46
+    "liczba": 124
    },
    {
     "teryt": "08",
-    "liczba": 52
+    "liczba": 148
    },
    {
     "teryt": "10",
-    "liczba": 58
+    "liczba": 195
    },
    {
     "teryt": "12",
-    "liczba": 127
+    "liczba": 318
    },
    {
     "teryt": "14",
-    "liczba": 181
+    "liczba": 476
    },
    {
     "teryt": "16",
-    "liczba": 23
+    "liczba": 90
    },
    {
     "teryt": "18",
-    "liczba": 62
+    "liczba": 146
    },
    {
     "teryt": "20",
-    "liczba": 21
+    "liczba": 74
    },
    {
     "teryt": "22",
-    "liczba": 34
+    "liczba": 125
    },
    {
     "teryt": "24",
-    "liczba": 218
+    "liczba": 528
    },
    {
     "teryt": "26",
-    "liczba": 29
+    "liczba": 145
    },
    {
     "teryt": "28",
-    "liczba": 52
+    "liczba": 96
    },
    {
     "teryt": "30",
-    "liczba": 115
+    "liczba": 309
    },
    {
     "teryt": "32",
-    "liczba": 34
+    "liczba": 94
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2024,
+    "liczba": 781
+   },
+   {
     "rok": 2025,
-    "liczba": 330
+    "liczba": 1588
    },
    {
     "rok": 2026,
@@ -94,7 +98,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1220
+    "liczba": 3018
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 243
    },
    {
     "nazwa": "Inne / brak danych",
@@ -104,48 +112,202 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1221
+    "liczba": 3262
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1215
+    "liczba": 3131
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 112
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 19
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1219
+    "liczba": 3260
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 1221,
-  "hybrydy": 0,
+  "noweOdPaczki": 3262,
+  "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2024,
+    "liczba": 318
+   },
+   {
+    "rok": 2025,
+    "liczba": 1564
+   },
+   {
     "rok": 2026,
-    "liczba": 1221
+    "liczba": 1380
    }
   ],
-  "miejsce": 628,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 105
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 145
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 188
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 186
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 323
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 159
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 476,
   "miejsceWMarce": 2,
-  "modeliWMarce": 2,
-  "sredniRocznik": 2025.7
+  "modeliWMarce": 4,
+  "sredniRocznik": 2025.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "baic",
  "modelSlug": "beijing-3",
@@ -157,14 +319,14 @@
    "adres": "/marki/lexus/lbx/"
   },
   {
-   "slug": "kia-k4",
-   "nazwa": "Kia K4",
-   "adres": "/marki/kia/k4/"
+   "slug": "volkswagen-t-roc",
+   "nazwa": "Volkswagen T-Roc",
+   "adres": "/marki/volkswagen/t-roc/"
   },
   {
-   "slug": "dacia-jogger",
-   "nazwa": "Dacia Jogger",
-   "adres": "/marki/dacia/jogger/"
+   "slug": "ssangyong-torres",
+   "nazwa": "SsangYong (KGM) Torres",
+   "adres": "/marki/ssangyong-kgm/torres/"
   },
   {
    "slug": "cupra-leon",

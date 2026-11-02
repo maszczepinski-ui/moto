@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Łada Samara – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LADA SAMARA 1300, LADA SAMARA, LADA 2108-9 1300, L.SAMARA 21093 1500, ŁADA SAMARA).",
-  "liczbaWPolsce": 25046,
-  "aktywne": 52,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Łada Samara – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LADA SAMARA 1300, LADA SAMARA, LADA 2108-9 1300, L.SAMARA 21093 1500, ŁADA SAMARA).",
+  "liczbaWPolsce": 25053,
+  "aktywne": 59,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 5026
+    "liczba": 5027
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 1596
+    "liczba": 1602
    },
    {
     "teryt": "20",
@@ -137,7 +137,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 6021
+    "liczba": 6022
    },
    {
     "rok": 1991,
@@ -161,13 +161,13 @@
    },
    {
     "rok": 1996,
-    "liczba": 157
+    "liczba": 158
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6731
+    "liczba": 6738
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -189,11 +189,11 @@
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 11486
+    "liczba": 11492
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 422
+    "liczba": 423
    },
    {
     "nazwa": "Inne / brak danych",
@@ -211,7 +211,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 488
+    "liczba": 495
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -225,7 +225,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 4354
+    "liczba": 4361
    },
    {
     "nazwa": "Sedan",
@@ -236,11 +236,166 @@
     "liczba": 16469
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 128,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 4
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 158,
   "miejsceWMarce": 1,
   "modeliWMarce": 6,
   "sredniRocznik": 1989.9
@@ -249,7 +404,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "lada",
  "modelSlug": "samara",

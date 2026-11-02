@@ -11,73 +11,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 195 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA2, MAZDA2 HYBRID).",
-  "liczbaWPolsce": 654,
-  "aktywne": 643,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 750 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA2 HYBRID, MAZDA2).",
+  "liczbaWPolsce": 1209,
+  "aktywne": 1198,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 55
+    "liczba": 89
    },
    {
     "teryt": "04",
-    "liczba": 35
+    "liczba": 58
    },
    {
     "teryt": "06",
-    "liczba": 24
+    "liczba": 41
    },
    {
     "teryt": "08",
-    "liczba": 13
+    "liczba": 24
    },
    {
     "teryt": "10",
-    "liczba": 25
+    "liczba": 44
    },
    {
     "teryt": "12",
-    "liczba": 57
+    "liczba": 94
    },
    {
     "teryt": "14",
-    "liczba": 112
+    "liczba": 267
    },
    {
     "teryt": "16",
-    "liczba": 27
-   },
-   {
-    "teryt": "18",
-    "liczba": 20
-   },
-   {
-    "teryt": "20",
-    "liczba": 10
-   },
-   {
-    "teryt": "22",
     "liczba": 39
    },
    {
+    "teryt": "18",
+    "liczba": 34
+   },
+   {
+    "teryt": "20",
+    "liczba": 18
+   },
+   {
+    "teryt": "22",
+    "liczba": 79
+   },
+   {
     "teryt": "24",
-    "liczba": 129
+    "liczba": 205
    },
    {
     "teryt": "26",
-    "liczba": 21
+    "liczba": 32
    },
    {
     "teryt": "28",
-    "liczba": 10
+    "liczba": 21
    },
    {
     "teryt": "30",
-    "liczba": 61
+    "liczba": 121
    },
    {
     "teryt": "32",
-    "liczba": 16
+    "liczba": 43
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,23 +88,23 @@
    },
    {
     "rok": 2015,
-    "liczba": 7
+    "liczba": 15
    },
    {
     "rok": 2016,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2017,
-    "liczba": 89
+    "liczba": 106
    },
    {
     "rok": 2018,
-    "liczba": 253
+    "liczba": 261
    },
    {
     "rok": 2019,
-    "liczba": 124
+    "liczba": 140
    },
    {
     "rok": 2020,
@@ -112,23 +112,23 @@
    },
    {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2022,
-    "liczba": 9
+    "liczba": 38
    },
    {
     "rok": 2023,
-    "liczba": 8
+    "liczba": 171
    },
    {
     "rok": 2024,
-    "liczba": 14
+    "liczba": 198
    },
    {
     "rok": 2025,
-    "liczba": 43
+    "liczba": 164
    },
    {
     "rok": 2026,
@@ -137,71 +137,229 @@
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna",
-    "liczba": 504
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 642
    },
    {
-    "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 150
+    "nazwa": "Benzyna",
+    "liczba": 566
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 651
+    "liczba": 1200
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 9
+   }
+  ],
+  "pochodzenie": [
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 898
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 161
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 143
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 7
+   }
+  ],
+  "nadwozia": [
+   {
+    "nazwa": "Hatchback",
+    "liczba": 1206
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3
    }
   ],
-  "pochodzenie": [
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 564
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 73
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 13
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 4
-   }
-  ],
-  "nadwozia": [
-   {
-    "nazwa": "Hatchback",
-    "liczba": 652
-   },
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 2
-   }
-  ],
-  "noweOdPaczki": 195,
-  "hybrydy": 150,
+  "noweOdPaczki": 750,
+  "hybrydy": 642,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 78
+   },
+   {
+    "rok": 2024,
+    "liczba": 219
+   },
+   {
+    "rok": 2025,
+    "liczba": 250
+   },
+   {
     "rok": 2026,
-    "liczba": 195
+    "liczba": 203
    }
   ],
-  "miejsce": 762,
-  "miejsceWMarce": 25,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2019.7
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 700,
+  "miejsceWMarce": 21,
+  "modeliWMarce": 32,
+  "sredniRocznik": 2021.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "mazda2",
@@ -213,9 +371,14 @@
    "adres": "/marki/kia/proceed/"
   },
   {
-   "slug": "toyota-c-hr",
-   "nazwa": "Toyota C-HR",
-   "adres": "/marki/toyota/c-hr/"
+   "slug": "kia-xceed",
+   "nazwa": "Kia XCeed",
+   "adres": "/marki/kia/xceed/"
+  },
+  {
+   "slug": "mg-hs",
+   "nazwa": "MG HS",
+   "adres": "/marki/mg/hs/"
   },
   {
    "slug": "renault-arkana",
@@ -223,14 +386,9 @@
    "adres": "/marki/renault/arkana/"
   },
   {
-   "slug": "seat-arona",
-   "nazwa": "Seat Arona",
-   "adres": "/marki/seat/arona/"
-  },
-  {
-   "slug": "mg-hs",
-   "nazwa": "MG HS",
-   "adres": "/marki/mg/hs/"
+   "slug": "mg-zs",
+   "nazwa": "MG ZS",
+   "adres": "/marki/mg/zs/"
   }
  ]
 }

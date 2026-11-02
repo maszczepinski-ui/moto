@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Pacyfica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 239 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PACYFICA, PACYFICA 3.6).",
-  "liczbaWPolsce": 239,
-  "aktywne": 239,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Pacyfica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 248 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PACYFICA, PACYFICA 3.6).",
+  "liczbaWPolsce": 248,
+  "aktywne": 248,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 66
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "24",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "30",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "32",
@@ -84,12 +84,56 @@
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2005,
+    "liczba": 1
+   },
+   {
+    "rok": 2006,
+    "liczba": 0
+   },
+   {
+    "rok": 2007,
+    "liczba": 0
+   },
+   {
+    "rok": 2008,
+    "liczba": 0
+   },
+   {
+    "rok": 2009,
+    "liczba": 0
+   },
+   {
+    "rok": 2010,
+    "liczba": 0
+   },
+   {
+    "rok": 2011,
+    "liczba": 0
+   },
+   {
+    "rok": 2012,
+    "liczba": 0
+   },
+   {
+    "rok": 2013,
+    "liczba": 0
+   },
+   {
+    "rok": 2014,
+    "liczba": 0
+   },
+   {
+    "rok": 2015,
+    "liczba": 0
+   },
+   {
     "rok": 2016,
     "liczba": 9
    },
    {
     "rok": 2017,
-    "liczba": 36
+    "liczba": 37
    },
    {
     "rok": 2018,
@@ -97,11 +141,11 @@
    },
    {
     "rok": 2019,
-    "liczba": 28
+    "liczba": 29
    },
    {
     "rok": 2020,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 2021,
@@ -109,15 +153,15 @@
    },
    {
     "rok": 2022,
-    "liczba": 30
+    "liczba": 33
    },
    {
     "rok": 2023,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 2024,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2025,
@@ -131,15 +175,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 170
+    "liczba": 175
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 47
+    "liczba": 50
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "Inne / brak danych",
@@ -149,35 +193,35 @@
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 234
+    "liczba": 242
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 206
+    "liczba": 212
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 33
+    "liczba": 36
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 87
+    "liczba": 92
    },
    {
     "nazwa": "Van",
-    "liczba": 83
+    "liczba": 86
    },
    {
     "nazwa": "Kombi",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "nazwa": "Hatchback",
@@ -188,25 +232,175 @@
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 239,
-  "hybrydy": 22,
+  "noweOdPaczki": 248,
+  "hybrydy": 23,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 3
+   },
+   {
     "rok": 2026,
-    "liczba": 239
+    "liczba": 244
    }
   ],
-  "miejsce": 1064,
-  "miejsceWMarce": 16,
-  "modeliWMarce": 18,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1155,
+  "miejsceWMarce": 18,
+  "modeliWMarce": 19,
   "sredniRocznik": 2020.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "pacyfica",

@@ -3,11 +3,11 @@
  "marka": "Chevrolet",
  "model": "Blazer",
  "generacja": "",
- "lataProdukcji": "1984–2003",
+ "lataProdukcji": "1984–2021",
  "nadwozia": [
   "kombi",
-  "suv",
   "van",
+  "suv",
   "sedan",
   "hatchback"
  ],
@@ -15,17 +15,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Blazer – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BLAZER, BLAZER 4.3 KAT).",
-  "liczbaWPolsce": 332,
-  "aktywne": 70,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Blazer – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BLAZER, BLAZER 4.3 KAT, BLAZER M1009).",
+  "liczbaWPolsce": 384,
+  "aktywne": 122,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 20
    },
    {
     "teryt": "06",
@@ -33,39 +33,39 @@
    },
    {
     "teryt": "08",
-    "liczba": 3
+    "liczba": 6
    },
    {
     "teryt": "10",
-    "liczba": 17
+    "liczba": 21
    },
    {
     "teryt": "12",
-    "liczba": 22
+    "liczba": 25
    },
    {
     "teryt": "14",
-    "liczba": 76
+    "liczba": 84
    },
    {
     "teryt": "16",
-    "liczba": 9
-   },
-   {
-    "teryt": "18",
     "liczba": 11
    },
    {
+    "teryt": "18",
+    "liczba": 15
+   },
+   {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "22",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "24",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "26",
@@ -73,19 +73,27 @@
    },
    {
     "teryt": "28",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "30",
-    "liczba": 31
+    "liczba": 39
    },
    {
     "teryt": "32",
-    "liczba": 31
+    "liczba": 32
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
+   {
+    "rok": 1977,
+    "liczba": 1
+   },
+   {
+    "rok": 1978,
+    "liczba": 1
+   },
    {
     "rok": 1979,
     "liczba": 3
@@ -104,7 +112,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1984,
@@ -112,7 +120,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 6
+    "liczba": 10
    },
    {
     "rok": 1986,
@@ -120,27 +128,27 @@
    },
    {
     "rok": 1987,
-    "liczba": 4
-   },
-   {
-    "rok": 1988,
-    "liczba": 10
-   },
-   {
-    "rok": 1989,
     "liczba": 6
    },
    {
+    "rok": 1988,
+    "liczba": 11
+   },
+   {
+    "rok": 1989,
+    "liczba": 8
+   },
+   {
     "rok": 1990,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1991,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 1992,
-    "liczba": 28
+    "liczba": 29
    },
    {
     "rok": 1993,
@@ -156,31 +164,31 @@
    },
    {
     "rok": 1996,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 1997,
-    "liczba": 28
+    "liczba": 29
    },
    {
     "rok": 1998,
-    "liczba": 27
+    "liczba": 30
    },
    {
     "rok": 1999,
-    "liczba": 40
+    "liczba": 46
    },
    {
     "rok": 2000,
-    "liczba": 23
+    "liczba": 27
    },
    {
     "rok": 2001,
-    "liczba": 16
+    "liczba": 24
    },
    {
     "rok": 2002,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 2003,
@@ -188,7 +196,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2005,
@@ -248,69 +256,89 @@
    },
    {
     "rok": 2019,
-    "liczba": 0
-   },
-   {
-    "rok": 2020,
     "liczba": 2
    },
    {
+    "rok": 2020,
+    "liczba": 4
+   },
+   {
     "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 3
+   },
+   {
+    "rok": 2024,
     "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 166
+    "liczba": 176
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 131
+    "liczba": 166
    },
    {
     "nazwa": "Diesel",
-    "liczba": 16
+    "liczba": 22
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 19
+    "liczba": 20
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "4,3 l",
-    "liczba": 264
+    "liczba": 288
    },
    {
     "nazwa": "5,7 l",
-    "liczba": 15
-   },
-   {
-    "nazwa": "4,2 l",
-    "liczba": 13
+    "liczba": 20
    },
    {
     "nazwa": "6,2 l",
-    "liczba": 13
+    "liczba": 20
+   },
+   {
+    "nazwa": "4,2 l",
+    "liczba": 16
    },
    {
     "nazwa": "2,8 l",
+    "liczba": 10
+   },
+   {
+    "nazwa": "3,6 l",
     "liczba": 9
    },
    {
+    "nazwa": "2,0 l",
+    "liczba": 5
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 16
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 189
+    "liczba": 201
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 137
+    "liczba": 177
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -324,22 +352,22 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 147
-   },
-   {
-    "nazwa": "Terenowy",
-    "liczba": 31
+    "liczba": 161
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 30
+    "liczba": 53
    },
    {
-    "nazwa": "Sedan",
-    "liczba": 25
+    "nazwa": "Terenowy",
+    "liczba": 43
    },
    {
     "nazwa": "Van",
+    "liczba": 27
+   },
+   {
+    "nazwa": "Sedan",
     "liczba": 25
    },
    {
@@ -348,28 +376,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 52
+    "liczba": 53
    }
   ],
-  "noweOdPaczki": 16,
+  "noweOdPaczki": 68,
   "hybrydy": 0,
-  "elektryczne": 0,
+  "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 6
+   },
+   {
+    "rok": 2024,
+    "liczba": 22
+   },
+   {
+    "rok": 2025,
+    "liczba": 21
+   },
+   {
     "rok": 2026,
-    "liczba": 16
+    "liczba": 19
    }
   ],
-  "miejsce": 967,
-  "miejsceWMarce": 17,
-  "modeliWMarce": 20,
-  "sredniRocznik": 1995.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1007,
+  "miejsceWMarce": 18,
+  "modeliWMarce": 22,
+  "sredniRocznik": 1996.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "blazer",
@@ -391,14 +573,14 @@
    "adres": "/marki/ford/windstar/"
   },
   {
+   "slug": "nissan-patrol",
+   "nazwa": "Nissan Patrol",
+   "adres": "/marki/nissan/patrol/"
+  },
+  {
    "slug": "volvo-850",
    "nazwa": "Volvo 850",
    "adres": "/marki/volvo/850/"
-  },
-  {
-   "slug": "mercedes-benz-klasa-sl",
-   "nazwa": "Mercedes-Benz Klasa SL",
-   "adres": "/marki/mercedes-benz/klasa-sl/"
   }
  ]
 }

@@ -12,134 +12,134 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Note – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 802 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NOTE, NOTE 1.5 DCI, NOTE 1.4, NOTE 1.4 KAT, NOTE 1,5 DCI).",
-  "liczbaWPolsce": 20517,
-  "aktywne": 8143,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Note – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 945 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NOTE, NOTE 1.5 DCI, NOTE 1.4, NOTE 1.4 KAT, NOTE 1,5 DCI).",
+  "liczbaWPolsce": 23660,
+  "aktywne": 11286,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1232
+    "liczba": 1477
    },
    {
     "teryt": "04",
-    "liczba": 1067
+    "liczba": 1233
    },
    {
     "teryt": "06",
-    "liczba": 1176
+    "liczba": 1410
    },
    {
     "teryt": "08",
-    "liczba": 690
+    "liczba": 849
    },
    {
     "teryt": "10",
-    "liczba": 1321
+    "liczba": 1581
    },
    {
     "teryt": "12",
-    "liczba": 1454
+    "liczba": 1631
    },
    {
     "teryt": "14",
-    "liczba": 3835
+    "liczba": 4281
    },
    {
     "teryt": "16",
-    "liczba": 355
+    "liczba": 401
    },
    {
     "teryt": "18",
-    "liczba": 1273
+    "liczba": 1474
    },
    {
     "teryt": "20",
-    "liczba": 500
+    "liczba": 595
    },
    {
     "teryt": "22",
-    "liczba": 1033
+    "liczba": 1165
    },
    {
     "teryt": "24",
-    "liczba": 2482
+    "liczba": 2718
    },
    {
     "teryt": "26",
-    "liczba": 461
+    "liczba": 556
    },
    {
     "teryt": "28",
-    "liczba": 694
+    "liczba": 813
    },
    {
     "teryt": "30",
-    "liczba": 1814
+    "liczba": 2210
    },
    {
     "teryt": "32",
-    "liczba": 967
+    "liczba": 1103
    }
   ],
   "bezWojewodztwa": 163,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 4529
+    "liczba": 4914
    },
    {
     "rok": 2007,
-    "liczba": 2652
+    "liczba": 2883
    },
    {
     "rok": 2008,
-    "liczba": 2235
+    "liczba": 2478
    },
    {
     "rok": 2009,
-    "liczba": 1823
+    "liczba": 2175
    },
    {
     "rok": 2010,
-    "liczba": 1882
+    "liczba": 2191
    },
    {
     "rok": 2011,
-    "liczba": 1132
+    "liczba": 1401
    },
    {
     "rok": 2012,
-    "liczba": 1155
+    "liczba": 1379
    },
    {
     "rok": 2013,
-    "liczba": 1396
+    "liczba": 1695
    },
    {
     "rok": 2014,
-    "liczba": 1605
+    "liczba": 2032
    },
    {
     "rok": 2015,
-    "liczba": 972
+    "liczba": 1172
    },
    {
     "rok": 2016,
-    "liczba": 563
+    "liczba": 740
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 16004
+    "liczba": 18592
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2978
+    "liczba": 3408
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1500
+    "liczba": 1625
    },
    {
     "nazwa": "Inne / brak danych",
@@ -149,19 +149,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 11079
+    "liczba": 12531
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 3667
+    "liczba": 4462
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 2977
+    "liczba": 3407
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 2745
+    "liczba": 3211
    },
    {
     "nazwa": "Inne / brak danych",
@@ -171,15 +171,15 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 8332
+    "liczba": 10678
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 6557
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 6240
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5760
    },
    {
     "nazwa": "Inne / brak danych",
@@ -189,44 +189,198 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 13400
+    "liczba": 15380
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 5902
+    "liczba": 6974
    },
    {
     "nazwa": "Van",
-    "liczba": 551
+    "liczba": 585
    },
    {
     "nazwa": "Kombi",
-    "liczba": 406
+    "liczba": 454
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 258
+    "liczba": 267
    }
   ],
-  "noweOdPaczki": 802,
+  "noweOdPaczki": 3945,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 396
+   },
+   {
+    "rok": 2024,
+    "liczba": 1470
+   },
+   {
+    "rok": 2025,
+    "liczba": 1228
+   },
+   {
     "rok": 2026,
-    "liczba": 802
+    "liczba": 851
    }
   ],
-  "miejsce": 144,
-  "miejsceWMarce": 6,
-  "modeliWMarce": 41,
-  "sredniRocznik": 2009.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 148
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 149
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 110
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 117
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 151
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 111
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 106
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 77
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 166,
+  "miejsceWMarce": 7,
+  "modeliWMarce": 46,
+  "sredniRocznik": 2009.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "note",
@@ -243,19 +397,19 @@
    "adres": "/marki/alfa-romeo/mito/"
   },
   {
-   "slug": "toyota-auris",
-   "nazwa": "Toyota Auris",
-   "adres": "/marki/toyota/auris/"
+   "slug": "fiat-tipo",
+   "nazwa": "Fiat Tipo",
+   "adres": "/marki/fiat/tipo/"
+  },
+  {
+   "slug": "opel-meriva",
+   "nazwa": "Opel Meriva",
+   "adres": "/marki/opel/meriva/"
   },
   {
    "slug": "skoda-fabia",
    "nazwa": "Skoda Fabia",
    "adres": "/marki/skoda/fabia/"
-  },
-  {
-   "slug": "kia-venga",
-   "nazwa": "Kia Venga",
-   "adres": "/marki/kia/venga/"
   }
  ]
 }

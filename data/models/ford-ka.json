@@ -12,280 +12,424 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Ka – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 955 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KA, KA+, KA 1.3 KAT, KA 1.3, KA 1,3 KAT).",
-  "liczbaWPolsce": 22691,
-  "aktywne": 8404,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Ka – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 404 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KA, KA+, KA 1.3 KAT, KA 1.3, KA 1,3 KAT).",
+  "liczbaWPolsce": 26140,
+  "aktywne": 11853,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2064
+    "liczba": 2350
    },
    {
     "teryt": "04",
-    "liczba": 1345
+    "liczba": 1527
    },
    {
     "teryt": "06",
-    "liczba": 663
+    "liczba": 770
    },
    {
     "teryt": "08",
-    "liczba": 885
+    "liczba": 995
    },
    {
     "teryt": "10",
-    "liczba": 1371
+    "liczba": 1572
    },
    {
     "teryt": "12",
-    "liczba": 1816
+    "liczba": 2190
    },
    {
     "teryt": "14",
-    "liczba": 2590
+    "liczba": 2849
    },
    {
     "teryt": "16",
-    "liczba": 664
+    "liczba": 761
    },
    {
     "teryt": "18",
-    "liczba": 815
+    "liczba": 1028
    },
    {
     "teryt": "20",
-    "liczba": 317
+    "liczba": 373
    },
    {
     "teryt": "22",
-    "liczba": 1301
+    "liczba": 1436
    },
    {
     "teryt": "24",
-    "liczba": 3591
+    "liczba": 4240
    },
    {
     "teryt": "26",
-    "liczba": 400
+    "liczba": 477
    },
    {
     "teryt": "28",
-    "liczba": 494
+    "liczba": 559
    },
    {
     "teryt": "30",
-    "liczba": 3097
+    "liczba": 3624
    },
    {
     "teryt": "32",
-    "liczba": 1149
+    "liczba": 1260
    }
   ],
   "bezWojewodztwa": 129,
   "roczniki": [
    {
     "rok": 1996,
-    "liczba": 941
+    "liczba": 942
    },
    {
     "rok": 1997,
-    "liczba": 2998
+    "liczba": 2999
    },
    {
     "rok": 1998,
-    "liczba": 2122
+    "liczba": 2126
    },
    {
     "rok": 1999,
-    "liczba": 1213
+    "liczba": 1214
    },
    {
     "rok": 2000,
-    "liczba": 884
+    "liczba": 891
    },
    {
     "rok": 2001,
-    "liczba": 636
+    "liczba": 640
    },
    {
     "rok": 2002,
-    "liczba": 606
+    "liczba": 618
    },
    {
     "rok": 2003,
-    "liczba": 390
+    "liczba": 407
    },
    {
     "rok": 2004,
-    "liczba": 384
+    "liczba": 402
    },
    {
     "rok": 2005,
-    "liczba": 414
+    "liczba": 430
    },
    {
     "rok": 2006,
-    "liczba": 374
+    "liczba": 406
    },
    {
     "rok": 2007,
-    "liczba": 218
+    "liczba": 240
    },
    {
     "rok": 2008,
-    "liczba": 385
+    "liczba": 500
    },
    {
     "rok": 2009,
-    "liczba": 2109
+    "liczba": 3085
    },
    {
     "rok": 2010,
-    "liczba": 1168
+    "liczba": 1679
    },
    {
     "rok": 2011,
-    "liczba": 720
+    "liczba": 1081
    },
    {
     "rok": 2012,
-    "liczba": 511
+    "liczba": 821
    },
    {
     "rok": 2013,
-    "liczba": 366
+    "liczba": 582
    },
    {
     "rok": 2014,
-    "liczba": 1777
+    "liczba": 1946
    },
    {
     "rok": 2015,
-    "liczba": 1369
+    "liczba": 1504
    },
    {
     "rok": 2016,
-    "liczba": 452
+    "liczba": 548
    },
    {
     "rok": 2017,
-    "liczba": 710
+    "liczba": 867
    },
    {
     "rok": 2018,
-    "liczba": 1071
+    "liczba": 1215
    },
    {
     "rok": 2019,
-    "liczba": 330
+    "liczba": 454
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 21538
+    "liczba": 24809
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 633
+    "liczba": 714
    },
    {
     "nazwa": "Diesel",
-    "liczba": 374
+    "liczba": 470
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 146
+    "liczba": 147
    }
   ],
   "pojemnosci": [
    {
-    "nazwa": "1,3 l",
-    "liczba": 11366
+    "nazwa": "1,2 l",
+    "liczba": 14433
    },
    {
-    "nazwa": "1,2 l",
-    "liczba": 11154
+    "nazwa": "1,3 l",
+    "liczba": 11514
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 171
+    "liczba": 193
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 8746
+    "liczba": 11337
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 8035
+    "liczba": 8887
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5741
+    "liczba": 5743
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 169
+    "liczba": 173
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 15939
+    "liczba": 17624
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5879
+    "liczba": 7620
    },
    {
     "nazwa": "Sedan",
-    "liczba": 327
+    "liczba": 330
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 546
+    "liczba": 566
    }
   ],
-  "noweOdPaczki": 955,
-  "hybrydy": 0,
+  "noweOdPaczki": 4404,
+  "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 357
+   },
+   {
+    "rok": 2024,
+    "liczba": 1529
+   },
+   {
+    "rok": 2025,
+    "liczba": 1474
+   },
+   {
     "rok": 2026,
-    "liczba": 955
+    "liczba": 1044
    }
   ],
-  "miejsce": 136,
-  "miejsceWMarce": 10,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2006.1
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 151
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 139
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 112
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 159
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 128
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 114
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 143
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 128
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 114
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 155,
+  "miejsceWMarce": 12,
+  "modeliWMarce": 45,
+  "sredniRocznik": 2006.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "ka",
  "adres": "/marki/ford/ka/",
  "konkurenci": [
   {
-   "slug": "suzuki-swift",
-   "nazwa": "Suzuki Swift",
-   "adres": "/marki/suzuki/swift/"
-  },
-  {
    "slug": "renault-clio",
    "nazwa": "Renault Clio",
    "adres": "/marki/renault/clio/"
-  },
-  {
-   "slug": "volkswagen-fox",
-   "nazwa": "Volkswagen Fox",
-   "adres": "/marki/volkswagen/fox/"
   },
   {
    "slug": "honda-jazz",
@@ -293,9 +437,19 @@
    "adres": "/marki/honda/jazz/"
   },
   {
-   "slug": "chevrolet-kalos",
-   "nazwa": "Chevrolet Kalos",
-   "adres": "/marki/chevrolet/kalos/"
+   "slug": "volkswagen-fox",
+   "nazwa": "Volkswagen Fox",
+   "adres": "/marki/volkswagen/fox/"
+  },
+  {
+   "slug": "suzuki-swift",
+   "nazwa": "Suzuki Swift",
+   "adres": "/marki/suzuki/swift/"
+  },
+  {
+   "slug": "opel-corsa",
+   "nazwa": "Opel Corsa",
+   "adres": "/marki/opel/corsa/"
   }
  ]
 }

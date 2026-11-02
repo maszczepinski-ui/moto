@@ -12,140 +12,148 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen CC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 111 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CC).",
-  "liczbaWPolsce": 2344,
-  "aktywne": 1499,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen CC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 617 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CC, CC SPORT, CC 2.0 TDI, CC 2.0 TSI).",
+  "liczbaWPolsce": 2850,
+  "aktywne": 2005,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 179
+    "liczba": 212
    },
    {
     "teryt": "04",
-    "liczba": 115
+    "liczba": 147
    },
    {
     "teryt": "06",
-    "liczba": 61
+    "liczba": 79
    },
    {
     "teryt": "08",
-    "liczba": 62
+    "liczba": 75
    },
    {
     "teryt": "10",
-    "liczba": 146
+    "liczba": 175
    },
    {
     "teryt": "12",
-    "liczba": 198
+    "liczba": 236
    },
    {
     "teryt": "14",
-    "liczba": 489
+    "liczba": 564
    },
    {
     "teryt": "16",
-    "liczba": 45
+    "liczba": 60
    },
    {
     "teryt": "18",
-    "liczba": 57
+    "liczba": 87
    },
    {
     "teryt": "20",
-    "liczba": 63
+    "liczba": 73
    },
    {
     "teryt": "22",
-    "liczba": 172
+    "liczba": 214
    },
    {
     "teryt": "24",
-    "liczba": 281
+    "liczba": 318
    },
    {
     "teryt": "26",
-    "liczba": 49
+    "liczba": 74
    },
    {
     "teryt": "28",
-    "liczba": 53
+    "liczba": 67
    },
    {
     "teryt": "30",
-    "liczba": 249
+    "liczba": 316
    },
    {
     "teryt": "32",
-    "liczba": 115
+    "liczba": 143
    }
   ],
   "bezWojewodztwa": 10,
   "roczniki": [
+   {
+    "rok": 2008,
+    "liczba": 6
+   },
    {
     "rok": 2009,
     "liczba": 9
    },
    {
     "rok": 2010,
-    "liczba": 12
+    "liczba": 17
    },
    {
     "rok": 2011,
-    "liczba": 27
+    "liczba": 39
    },
    {
     "rok": 2012,
-    "liczba": 767
+    "liczba": 935
    },
    {
     "rok": 2013,
-    "liczba": 655
+    "liczba": 782
    },
    {
     "rok": 2014,
-    "liczba": 463
+    "liczba": 562
    },
    {
     "rok": 2015,
-    "liczba": 219
+    "liczba": 267
    },
    {
     "rok": 2016,
-    "liczba": 107
+    "liczba": 143
+   },
+   {
+    "rok": 2017,
+    "liczba": 8
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1279
+    "liczba": 1593
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1047
+    "liczba": 1230
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 27
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1767
+    "liczba": 2186
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 302
+    "liczba": 336
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 237
+    "liczba": 264
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 26
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,58 +163,212 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 980
+    "liczba": 1118
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 964
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 753
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 598
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 15
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2172
+    "liczba": 2591
    },
    {
     "nazwa": "Coupe",
-    "liczba": 103
+    "liczba": 161
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 33
+    "liczba": 49
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 36
+    "liczba": 49
    }
   ],
-  "noweOdPaczki": 111,
+  "noweOdPaczki": 617,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 51
+   },
+   {
+    "rok": 2024,
+    "liczba": 232
+   },
+   {
+    "rok": 2025,
+    "liczba": 206
+   },
+   {
     "rok": 2026,
-    "liczba": 111
+    "liczba": 128
    }
   ],
-  "miejsce": 466,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 499,
   "miejsceWMarce": 30,
-  "modeliWMarce": 57,
+  "modeliWMarce": 59,
   "sredniRocznik": 2013.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "cc",
@@ -216,6 +378,11 @@
    "slug": "skoda-superb",
    "nazwa": "Skoda Superb",
    "adres": "/marki/skoda/superb/"
+  },
+  {
+   "slug": "opel-insignia",
+   "nazwa": "Opel Insignia",
+   "adres": "/marki/opel/insignia/"
   },
   {
    "slug": "chevrolet-cruze",
@@ -228,14 +395,9 @@
    "adres": "/marki/kia/optima/"
   },
   {
-   "slug": "opel-insignia",
-   "nazwa": "Opel Insignia",
-   "adres": "/marki/opel/insignia/"
-  },
-  {
-   "slug": "renault-fluence",
-   "nazwa": "Renault Fluence",
-   "adres": "/marki/renault/fluence/"
+   "slug": "toyota-corolla",
+   "nazwa": "Toyota Corolla",
+   "adres": "/marki/toyota/corolla/"
   }
  ]
 }

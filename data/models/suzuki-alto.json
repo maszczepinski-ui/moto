@@ -11,73 +11,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Alto – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 118 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALTO, ALTO 0.8, ALTO 0.8 KAT, ALTO 1.0 KAT, ALTO 800).",
-  "liczbaWPolsce": 4771,
-  "aktywne": 1443,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Alto – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 618 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALTO, ALTO 0.8, ALTO 0.8 KAT, ALTO 1.0 KAT, ALTO 800).",
+  "liczbaWPolsce": 5271,
+  "aktywne": 1943,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 356
+    "liczba": 417
    },
    {
     "teryt": "04",
-    "liczba": 219
+    "liczba": 243
    },
    {
     "teryt": "06",
-    "liczba": 177
+    "liczba": 198
    },
    {
     "teryt": "08",
-    "liczba": 211
+    "liczba": 234
    },
    {
     "teryt": "10",
-    "liczba": 337
+    "liczba": 363
    },
    {
     "teryt": "12",
-    "liczba": 468
+    "liczba": 525
    },
    {
     "teryt": "14",
-    "liczba": 612
+    "liczba": 650
    },
    {
     "teryt": "16",
-    "liczba": 121
+    "liczba": 136
    },
    {
     "teryt": "18",
-    "liczba": 199
+    "liczba": 235
    },
    {
     "teryt": "20",
-    "liczba": 111
+    "liczba": 123
    },
    {
     "teryt": "22",
-    "liczba": 220
+    "liczba": 240
    },
    {
     "teryt": "24",
-    "liczba": 785
+    "liczba": 826
    },
    {
     "teryt": "26",
-    "liczba": 109
+    "liczba": 119
    },
    {
     "teryt": "28",
-    "liczba": 103
+    "liczba": 117
    },
    {
     "teryt": "30",
-    "liczba": 520
+    "liczba": 595
    },
    {
     "teryt": "32",
-    "liczba": 194
+    "liczba": 221
    }
   ],
   "bezWojewodztwa": 29,
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 1984,
@@ -168,19 +168,19 @@
    },
    {
     "rok": 2002,
-    "liczba": 89
+    "liczba": 96
    },
    {
     "rok": 2003,
-    "liczba": 132
+    "liczba": 143
    },
    {
     "rok": 2004,
-    "liczba": 132
+    "liczba": 143
    },
    {
     "rok": 2005,
-    "liczba": 110
+    "liczba": 124
    },
    {
     "rok": 2006,
@@ -192,59 +192,63 @@
    },
    {
     "rok": 2008,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2009,
-    "liczba": 618
+    "liczba": 809
    },
    {
     "rok": 2010,
-    "liczba": 713
+    "liczba": 811
    },
    {
     "rok": 2011,
-    "liczba": 826
+    "liczba": 891
    },
    {
     "rok": 2012,
-    "liczba": 251
+    "liczba": 303
    },
    {
     "rok": 2013,
-    "liczba": 433
+    "liczba": 455
    },
    {
     "rok": 2014,
-    "liczba": 52
+    "liczba": 76
+   },
+   {
+    "rok": 2015,
+    "liczba": 12
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4243
+    "liczba": 4735
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 124
+    "liczba": 131
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 404
+    "liczba": 405
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3226
+    "liczba": 3682
    },
    {
     "nazwa": "0,8 l",
-    "liczba": 1034
+    "liczba": 1035
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 475
+    "liczba": 518
    },
    {
     "nazwa": "Inne / brak danych",
@@ -254,11 +258,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1808
+    "liczba": 2186
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1688
+    "liczba": 1810
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -272,7 +276,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 4097
+    "liczba": 4597
    },
    {
     "nazwa": "Sedan",
@@ -283,39 +287,188 @@
     "liczba": 568
    }
   ],
-  "noweOdPaczki": 118,
+  "noweOdPaczki": 618,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 56
+   },
+   {
+    "rok": 2024,
+    "liczba": 238
+   },
+   {
+    "rok": 2025,
+    "liczba": 200
+   },
+   {
     "rok": 2026,
-    "liczba": 118
+    "liczba": 124
    }
   ],
-  "miejsce": 340,
-  "miejsceWMarce": 9,
-  "modeliWMarce": 19,
-  "sredniRocznik": 2005.0
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 387,
+  "miejsceWMarce": 10,
+  "modeliWMarce": 20,
+  "sredniRocznik": 2005.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "suzuki",
  "modelSlug": "alto",
  "adres": "/marki/suzuki/alto/",
  "konkurenci": [
   {
-   "slug": "fiat-seicento",
-   "nazwa": "Fiat Seicento",
-   "adres": "/marki/fiat/seicento/"
-  },
-  {
-   "slug": "nissan-micra",
-   "nazwa": "Nissan Micra",
-   "adres": "/marki/nissan/micra/"
+   "slug": "peugeot-107",
+   "nazwa": "Peugeot 107",
+   "adres": "/marki/peugeot/107/"
   },
   {
    "slug": "chevrolet-matiz",
@@ -323,14 +476,19 @@
    "adres": "/marki/chevrolet/matiz/"
   },
   {
-   "slug": "opel-agila",
-   "nazwa": "Opel Agila",
-   "adres": "/marki/opel/agila/"
+   "slug": "nissan-micra",
+   "nazwa": "Nissan Micra",
+   "adres": "/marki/nissan/micra/"
   },
   {
-   "slug": "peugeot-107",
-   "nazwa": "Peugeot 107",
-   "adres": "/marki/peugeot/107/"
+   "slug": "renault-twingo",
+   "nazwa": "Renault Twingo",
+   "adres": "/marki/renault/twingo/"
+  },
+  {
+   "slug": "fiat-seicento",
+   "nazwa": "Fiat Seicento",
+   "adres": "/marki/fiat/seicento/"
   }
  ]
 }

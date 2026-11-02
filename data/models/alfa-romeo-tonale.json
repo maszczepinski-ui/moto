@@ -11,92 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Tonale – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 517 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TONALE).",
-  "liczbaWPolsce": 517,
-  "aktywne": 517,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Tonale – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 418 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TONALE).",
+  "liczbaWPolsce": 1418,
+  "aktywne": 1418,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 26
+    "liczba": 84
    },
    {
     "teryt": "04",
-    "liczba": 13
+    "liczba": 25
    },
    {
     "teryt": "06",
-    "liczba": 11
+    "liczba": 26
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 29
    },
    {
     "teryt": "10",
-    "liczba": 9
+    "liczba": 52
    },
    {
     "teryt": "12",
-    "liczba": 40
+    "liczba": 120
    },
    {
     "teryt": "14",
-    "liczba": 243
+    "liczba": 545
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 20
    },
    {
     "teryt": "18",
-    "liczba": 24
+    "liczba": 55
    },
    {
     "teryt": "20",
-    "liczba": 1
+    "liczba": 6
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 94
    },
    {
     "teryt": "24",
-    "liczba": 45
+    "liczba": 175
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 11
    },
    {
     "teryt": "28",
-    "liczba": 16
+    "liczba": 31
    },
    {
     "teryt": "30",
-    "liczba": 33
+    "liczba": 104
    },
    {
     "teryt": "32",
-    "liczba": 13
+    "liczba": 41
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 15
+    "liczba": 39
    },
    {
     "rok": 2023,
-    "liczba": 30
+    "liczba": 359
    },
    {
     "rok": 2024,
-    "liczba": 42
+    "liczba": 407
    },
    {
     "rok": 2025,
-    "liczba": 74
+    "liczba": 257
    },
    {
     "rok": 2026,
@@ -106,82 +106,248 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 251
+    "liczba": 735
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 167
+    "liczba": 486
    },
    {
     "nazwa": "Diesel",
-    "liczba": 99
+    "liczba": 196
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 377
+    "liczba": 1085
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 99
+    "liczba": 196
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 37
+    "liczba": 132
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 404
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 81
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 19
+    "liczba": 1011
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 13
+    "liczba": 236
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 128
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 42
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 503
+    "liczba": 1388
+   },
+   {
+    "nazwa": "Hatchback",
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 14
    }
   ],
-  "noweOdPaczki": 517,
-  "hybrydy": 251,
+  "noweOdPaczki": 1418,
+  "hybrydy": 735,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 99
+   },
+   {
+    "rok": 2024,
+    "liczba": 484
+   },
+   {
+    "rok": 2025,
+    "liczba": 311
+   },
+   {
     "rok": 2026,
-    "liczba": 517
+    "liczba": 524
    }
   ],
-  "miejsce": 834,
-  "miejsceWMarce": 16,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 662,
+  "miejsceWMarce": 13,
   "modeliWMarce": 20,
-  "sredniRocznik": 2025.4
+  "sredniRocznik": 2024.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "tonale",
@@ -193,24 +359,24 @@
    "adres": "/marki/toyota/yaris-cross/"
   },
   {
-   "slug": "byd-seal-u",
-   "nazwa": "BYD Seal U",
-   "adres": "/marki/byd/seal-u/"
-  },
-  {
    "slug": "omoda-9",
    "nazwa": "Omoda 9",
    "adres": "/marki/omoda/9/"
   },
   {
-   "slug": "chery-tiggo-9",
-   "nazwa": "Chery Tiggo 9",
-   "adres": "/marki/chery/tiggo-9/"
+   "slug": "byd-seal-u",
+   "nazwa": "BYD Seal U",
+   "adres": "/marki/byd/seal-u/"
   },
   {
    "slug": "chery-tiggo-8",
    "nazwa": "Chery Tiggo 8",
    "adres": "/marki/chery/tiggo-8/"
+  },
+  {
+   "slug": "chery-tiggo-9",
+   "nazwa": "Chery Tiggo 9",
+   "adres": "/marki/chery/tiggo-9/"
   }
  ]
 }

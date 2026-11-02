@@ -11,219 +11,381 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus NX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 885 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS NX350H, NX300H, NX350H, LEXUS NX450H, NX200T).",
-  "liczbaWPolsce": 8489,
-  "aktywne": 7708,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus NX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 587 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS NX350H, NX350H, LEXUS NX450H, NX300H, NX200T).",
+  "liczbaWPolsce": 22191,
+  "aktywne": 21410,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 639
+    "liczba": 1829
    },
    {
     "teryt": "04",
-    "liczba": 238
+    "liczba": 689
    },
    {
     "teryt": "06",
-    "liczba": 255
+    "liczba": 729
    },
    {
     "teryt": "08",
-    "liczba": 97
+    "liczba": 298
    },
    {
     "teryt": "10",
-    "liczba": 314
+    "liczba": 872
    },
    {
     "teryt": "12",
-    "liczba": 864
+    "liczba": 2279
    },
    {
     "teryt": "14",
-    "liczba": 2801
+    "liczba": 6788
    },
    {
     "teryt": "16",
-    "liczba": 112
+    "liczba": 302
    },
    {
     "teryt": "18",
-    "liczba": 300
+    "liczba": 836
    },
    {
     "teryt": "20",
-    "liczba": 182
+    "liczba": 512
    },
    {
     "teryt": "22",
-    "liczba": 477
+    "liczba": 1233
    },
    {
     "teryt": "24",
-    "liczba": 733
+    "liczba": 1828
    },
    {
     "teryt": "26",
-    "liczba": 230
+    "liczba": 646
    },
    {
     "teryt": "28",
-    "liczba": 260
+    "liczba": 678
    },
    {
     "teryt": "30",
-    "liczba": 710
+    "liczba": 1984
    },
    {
     "teryt": "32",
-    "liczba": 272
+    "liczba": 683
    }
   ],
   "bezWojewodztwa": 5,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 324
+    "liczba": 338
    },
    {
     "rok": 2015,
-    "liczba": 885
+    "liczba": 955
    },
    {
     "rok": 2016,
-    "liczba": 478
+    "liczba": 527
    },
    {
     "rok": 2017,
-    "liczba": 816
+    "liczba": 903
    },
    {
     "rok": 2018,
-    "liczba": 558
+    "liczba": 647
    },
    {
     "rok": 2019,
-    "liczba": 507
+    "liczba": 602
    },
    {
     "rok": 2020,
-    "liczba": 25
+    "liczba": 107
    },
    {
     "rok": 2021,
-    "liczba": 15
+    "liczba": 109
    },
    {
     "rok": 2022,
-    "liczba": 23
+    "liczba": 107
    },
    {
     "rok": 2023,
-    "liczba": 35
+    "liczba": 2173
    },
    {
     "rok": 2024,
-    "liczba": 36
+    "liczba": 7616
    },
    {
     "rok": 2025,
-    "liczba": 2354
+    "liczba": 5659
    },
    {
     "rok": 2026,
-    "liczba": 2271
+    "liczba": 2284
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 5667
+    "liczba": 18591
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2801
+    "liczba": 3514
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 86
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 6869
+    "liczba": 20361
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1603
+    "liczba": 1794
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 36
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 7638
+    "liczba": 19238
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 467
+    "liczba": 1867
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 341
+    "liczba": 956
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 122
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 43
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 8328
+    "liczba": 21711
+   },
+   {
+    "nazwa": "Kombi",
+    "liczba": 253
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 161
+    "liczba": 227
    }
   ],
-  "noweOdPaczki": 4885,
-  "hybrydy": 5614,
-  "elektryczne": 1,
+  "noweOdPaczki": 18587,
+  "hybrydy": 18536,
+  "elektryczne": 2,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1053
+   },
+   {
+    "rok": 2024,
+    "liczba": 5994
+   },
+   {
+    "rok": 2025,
+    "liczba": 6271
+   },
+   {
     "rok": 2026,
-    "liczba": 4885
+    "liczba": 5269
    }
   ],
-  "miejsce": 261,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 259
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 490
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 375
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 214
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 466
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 598
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 625
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 568
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 431
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 502
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 512
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 568
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 645
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1007
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 913
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 635
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 441
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 356
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 302
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 315
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 542
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 405
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 322
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 682
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 384
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 170,
   "miejsceWMarce": 1,
-  "modeliWMarce": 10,
-  "sredniRocznik": 2021.6
+  "modeliWMarce": 12,
+  "sredniRocznik": 2023.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "nx",
  "adres": "/marki/lexus/nx/",
  "konkurenci": [
   {
-   "slug": "hyundai-kona",
-   "nazwa": "Hyundai Kona",
-   "adres": "/marki/hyundai/kona/"
+   "slug": "honda-zr-v",
+   "nazwa": "Honda ZR-V",
+   "adres": "/marki/honda/zr-v/"
   },
   {
-   "slug": "mazda-mazda3",
-   "nazwa": "Mazda MAZDA3",
-   "adres": "/marki/mazda/mazda3/"
+   "slug": "audi-rs3",
+   "nazwa": "Audi RS3",
+   "adres": "/marki/audi/rs3/"
   },
   {
    "slug": "mercedes-benz-amg",
@@ -231,14 +393,14 @@
    "adres": "/marki/mercedes-benz/amg/"
   },
   {
-   "slug": "toyota-c-hr",
-   "nazwa": "Toyota C-HR",
-   "adres": "/marki/toyota/c-hr/"
+   "slug": "mazda-cx-30",
+   "nazwa": "Mazda CX-30",
+   "adres": "/marki/mazda/cx-30/"
   },
   {
-   "slug": "porsche-macan",
-   "nazwa": "Porsche Macan",
-   "adres": "/marki/porsche/macan/"
+   "slug": "toyota-yaris-cross",
+   "nazwa": "Toyota Yaris Cross",
+   "adres": "/marki/toyota/yaris-cross/"
   }
  ]
 }

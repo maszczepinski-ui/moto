@@ -3,7 +3,7 @@
  "marka": "Toyota",
  "model": "Proace",
  "generacja": "",
- "lataProdukcji": "2016–2026",
+ "lataProdukcji": "2017–2026",
  "nadwozia": [
   "van"
  ],
@@ -11,250 +11,396 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Proace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 820 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROACE, PROACE CITY VERSO, PROACE CITY VERSO ELECTRIC, PROACE VERSO, PROACE MAX).",
-  "liczbaWPolsce": 3628,
-  "aktywne": 3619,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Proace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 572 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROACE CITY VERSO, PROACE, PROACE VERSO, PROACE CITY VERSO ELECTRIC, PROACE CITY AMF-BRUNS).",
+  "liczbaWPolsce": 14380,
+  "aktywne": 14371,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 371
+    "liczba": 1612
    },
    {
     "teryt": "04",
-    "liczba": 160
+    "liczba": 660
    },
    {
     "teryt": "06",
-    "liczba": 55
+    "liczba": 330
    },
    {
     "teryt": "08",
-    "liczba": 88
+    "liczba": 404
    },
    {
     "teryt": "10",
-    "liczba": 162
+    "liczba": 626
    },
    {
     "teryt": "12",
-    "liczba": 322
+    "liczba": 1478
    },
    {
     "teryt": "14",
-    "liczba": 1061
+    "liczba": 3988
    },
    {
     "teryt": "16",
-    "liczba": 94
+    "liczba": 238
    },
    {
     "teryt": "18",
-    "liczba": 123
+    "liczba": 467
    },
    {
     "teryt": "20",
-    "liczba": 72
+    "liczba": 242
    },
    {
     "teryt": "22",
-    "liczba": 273
+    "liczba": 958
    },
    {
     "teryt": "24",
-    "liczba": 374
+    "liczba": 1388
    },
    {
     "teryt": "26",
-    "liczba": 58
+    "liczba": 262
    },
    {
     "teryt": "28",
-    "liczba": 90
+    "liczba": 320
    },
    {
     "teryt": "30",
-    "liczba": 243
+    "liczba": 1060
    },
    {
     "teryt": "32",
-    "liczba": 80
+    "liczba": 345
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 47
+    "liczba": 59
    },
    {
     "rok": 2017,
-    "liczba": 135
+    "liczba": 189
    },
    {
     "rok": 2018,
-    "liczba": 350
+    "liczba": 416
    },
    {
     "rok": 2019,
-    "liczba": 293
+    "liczba": 344
    },
    {
     "rok": 2020,
-    "liczba": 21
+    "liczba": 83
    },
    {
     "rok": 2021,
-    "liczba": 23
+    "liczba": 76
    },
    {
     "rok": 2022,
-    "liczba": 32
+    "liczba": 116
    },
    {
     "rok": 2023,
-    "liczba": 19
+    "liczba": 1859
    },
    {
     "rok": 2024,
-    "liczba": 24
+    "liczba": 5589
    },
    {
     "rok": 2025,
-    "liczba": 903
+    "liczba": 3855
    },
    {
     "rok": 2026,
-    "liczba": 1725
+    "liczba": 1729
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 3344
+    "liczba": 13201
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 165
+    "liczba": 868
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 114
+    "liczba": 296
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 15
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1509
+    "liczba": 6769
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1434
-   },
-   {
-    "nazwa": "2,2 l",
-    "liczba": 335
+    "liczba": 6004
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 165
+    "liczba": 865
    },
    {
-    "nazwa": "1,6 l",
-    "liczba": 69
+    "nazwa": "2,2 l",
+    "liczba": 340
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 116
+    "liczba": 402
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 3334
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 180
+    "liczba": 12610
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 69
+    "liczba": 1165
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 477
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 43
+    "liczba": 124
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 4
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3572
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 37
+    "liczba": 14198
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 19
+    "liczba": 182
    }
   ],
-  "noweOdPaczki": 2820,
-  "hybrydy": 1,
-  "elektryczne": 114,
+  "noweOdPaczki": 13572,
+  "hybrydy": 3,
+  "elektryczne": 296,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1002
+   },
+   {
+    "rok": 2024,
+    "liczba": 5014
+   },
+   {
+    "rok": 2025,
+    "liczba": 4552
+   },
+   {
     "rok": 2026,
-    "liczba": 2820
+    "liczba": 3004
    }
   ],
-  "miejsce": 393,
-  "miejsceWMarce": 16,
-  "modeliWMarce": 36,
-  "sredniRocznik": 2023.8
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 215
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 177
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 268
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 534
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 673
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 310
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 462
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 465
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 410
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 300
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 366
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 485
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 564
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 592
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 448
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 462
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 364
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 347
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 321
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 391
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 334
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 278
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 252
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 412
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 184
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 233,
+  "miejsceWMarce": 13,
+  "modeliWMarce": 39,
+  "sredniRocznik": 2023.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "proace",
  "adres": "/marki/toyota/proace/",
  "konkurenci": [
   {
-   "slug": "peugeot-rifter",
-   "nazwa": "Peugeot Rifter",
-   "adres": "/marki/peugeot/rifter/"
-  },
-  {
    "slug": "ford-tourneo",
    "nazwa": "Ford Tourneo",
    "adres": "/marki/ford/tourneo/"
   },
   {
-   "slug": "chery-tiggo-8",
-   "nazwa": "Chery Tiggo 8",
-   "adres": "/marki/chery/tiggo-8/"
+   "slug": "peugeot-rifter",
+   "nazwa": "Peugeot Rifter",
+   "adres": "/marki/peugeot/rifter/"
   },
   {
-   "slug": "omoda-9",
-   "nazwa": "Omoda 9",
-   "adres": "/marki/omoda/9/"
+   "slug": "alfa-romeo-tonale",
+   "nazwa": "Alfa Romeo Tonale",
+   "adres": "/marki/alfa-romeo/tonale/"
   },
   {
-   "slug": "skoda-kodiaq",
-   "nazwa": "Skoda Kodiaq",
-   "adres": "/marki/skoda/kodiaq/"
+   "slug": "ds-ds7",
+   "nazwa": "DS DS7",
+   "adres": "/marki/ds/ds7/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-glb",
+   "nazwa": "Mercedes-Benz Klasa GLB",
+   "adres": "/marki/mercedes-benz/klasa-glb/"
   }
  ]
 }

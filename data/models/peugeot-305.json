@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 305 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 305, 305 1.5, 305 1.3, 305 1.5D, 305 GL).",
-  "liczbaWPolsce": 5142,
-  "aktywne": 5,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 305 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 305, 305 1.5, 305 1.3, 305 1.5D, 305 GL).",
+  "liczbaWPolsce": 5146,
+  "aktywne": 9,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 367
+    "liczba": 368
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 692
+    "liczba": 693
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 411
+    "liczba": 412
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 472
+    "liczba": 473
    },
    {
     "teryt": "32",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1980,
-    "liczba": 556
+    "liczba": 557
    },
    {
     "rok": 1981,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 817
+    "liczba": 818
    },
    {
     "rok": 1983,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 203
+    "liczba": 205
    },
    {
     "rok": 1987,
@@ -163,11 +163,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1242
+    "liczba": 1244
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 673
+    "liczba": 675
    },
    {
     "nazwa": "?+LPG",
@@ -185,15 +185,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 2369
+    "liczba": 2371
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 1519
+    "liczba": 1520
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 587
+    "liczba": 588
    },
    {
     "nazwa": "1,6 l",
@@ -215,7 +215,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3808
+    "liczba": 3809
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -223,7 +223,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 162
+    "liczba": 165
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -237,7 +237,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 758
+    "liczba": 761
    },
    {
     "nazwa": "Hatchback",
@@ -245,24 +245,174 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4133
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 3
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 326,
-  "miejsceWMarce": 19,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 397,
+  "miejsceWMarce": 20,
   "modeliWMarce": 44,
   "sredniRocznik": 1982.9
  },
@@ -270,7 +420,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "305",

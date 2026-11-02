@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Uno – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: UNO, UNO 1.0, UNO 1.0 KAT, UNO 1.4 KAT, UNO 1.1).",
-  "liczbaWPolsce": 75604,
-  "aktywne": 1736,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Uno – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: UNO, UNO 1.0, UNO 1.0 KAT, UNO 1.4 KAT, UNO 1.1).",
+  "liczbaWPolsce": 75614,
+  "aktywne": 1746,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5831
+    "liczba": 5832
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 4380
+    "liczba": 4381
    },
    {
     "teryt": "08",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 6137
+    "liczba": 6138
    },
    {
     "teryt": "14",
-    "liczba": 11794
+    "liczba": 11795
    },
    {
     "teryt": "16",
@@ -50,11 +50,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 2654
+    "liczba": 2655
    },
    {
     "teryt": "20",
-    "liczba": 1656
+    "liczba": 1657
    },
    {
     "teryt": "22",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 8992
+    "liczba": 8994
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 6686
+    "liczba": 6688
    },
    {
     "teryt": "32",
@@ -97,15 +97,15 @@
    },
    {
     "rok": 1986,
-    "liczba": 1339
+    "liczba": 1340
    },
    {
     "rok": 1987,
-    "liczba": 1167
+    "liczba": 1169
    },
    {
     "rok": 1988,
-    "liczba": 1250
+    "liczba": 1251
    },
    {
     "rok": 1989,
@@ -113,23 +113,23 @@
    },
    {
     "rok": 1990,
-    "liczba": 1496
+    "liczba": 1498
    },
    {
     "rok": 1991,
-    "liczba": 2664
+    "liczba": 2665
    },
    {
     "rok": 1992,
-    "liczba": 3909
+    "liczba": 3910
    },
    {
     "rok": 1993,
-    "liczba": 7771
+    "liczba": 7772
    },
    {
     "rok": 1994,
-    "liczba": 7804
+    "liczba": 7805
    },
    {
     "rok": 1995,
@@ -167,7 +167,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 44851
+    "liczba": 44861
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -189,7 +189,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 37458
+    "liczba": 37462
    },
    {
     "nazwa": "1,4 l",
@@ -197,15 +197,15 @@
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 11430
+    "liczba": 11431
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 6359
+    "liczba": 6361
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 3292
+    "liczba": 3295
    },
    {
     "nazwa": "1,5 l",
@@ -231,7 +231,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2855
+    "liczba": 2865
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -245,7 +245,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 46424
+    "liczba": 46433
    },
    {
     "nazwa": "Sedan",
@@ -253,14 +253,169 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24576
+    "liczba": 24577
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 47,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 5
+   },
+   {
+    "rok": 2026,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 59,
   "miejsceWMarce": 5,
   "modeliWMarce": 58,
   "sredniRocznik": 1995.0
@@ -269,7 +424,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "uno",

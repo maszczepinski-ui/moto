@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Crossfire – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSFIRE).",
-  "liczbaWPolsce": 235,
-  "aktywne": 93,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Crossfire – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 65 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSFIRE).",
+  "liczbaWPolsce": 280,
+  "aktywne": 138,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 16
+    "liczba": 25
    },
    {
     "teryt": "04",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 14
    },
    {
     "teryt": "08",
@@ -34,23 +34,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "teryt": "12",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "14",
-    "liczba": 38
+    "liczba": 44
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 12
+    "liczba": 16
    },
    {
     "teryt": "24",
-    "liczba": 27
+    "liczba": 30
    },
    {
     "teryt": "26",
@@ -70,38 +70,38 @@
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "30",
-    "liczba": 22
+    "liczba": 27
    },
    {
     "teryt": "32",
-    "liczba": 14
+    "liczba": 17
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 30
+    "liczba": 35
    },
    {
     "rok": 2004,
-    "liczba": 78
+    "liczba": 94
    },
    {
     "rok": 2005,
-    "liczba": 69
+    "liczba": 83
    },
    {
     "rok": 2006,
-    "liczba": 31
+    "liczba": 39
    },
    {
     "rok": 2007,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2008,
@@ -111,11 +111,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 205
+    "liczba": 243
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 29
+    "liczba": 36
    },
    {
     "nazwa": "Inne / brak danych",
@@ -125,7 +125,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,2 l",
-    "liczba": 233
+    "liczba": 278
    },
    {
     "nazwa": "Inne / brak danych",
@@ -135,11 +135,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 132
+    "liczba": 142
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 98
+    "liczba": 133
    },
    {
     "nazwa": "Inne / brak danych",
@@ -149,18 +149,18 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 161
+    "liczba": 194
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 54
-   },
-   {
-    "nazwa": "Sedan",
-    "liczba": 6
+    "liczba": 64
    },
    {
     "nazwa": "Hatchback",
+    "liczba": 7
+   },
+   {
+    "nazwa": "Sedan",
     "liczba": 6
    },
    {
@@ -169,28 +169,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
-  "noweOdPaczki": 20,
+  "noweOdPaczki": 65,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 25
+   },
+   {
+    "rok": 2025,
+    "liczba": 15
+   },
+   {
     "rok": 2026,
-    "liczba": 20
+    "liczba": 21
    }
   ],
-  "miejsce": 1065,
-  "miejsceWMarce": 17,
-  "modeliWMarce": 18,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1113,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 19,
   "sredniRocznik": 2004.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "crossfire",

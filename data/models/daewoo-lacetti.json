@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Lacetti – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LACETTI).",
-  "liczbaWPolsce": 340,
-  "aktywne": 152,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Lacetti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LACETTI).",
+  "liczbaWPolsce": 348,
+  "aktywne": 160,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,15 +25,15 @@
    },
    {
     "teryt": "06",
-    "liczba": 11
-   },
-   {
-    "teryt": "08",
     "liczba": 12
    },
    {
+    "teryt": "08",
+    "liczba": 14
+   },
+   {
     "teryt": "10",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "teryt": "12",
@@ -65,7 +65,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "28",
@@ -77,7 +77,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 11
    }
   ],
   "bezWojewodztwa": 8,
@@ -88,19 +88,19 @@
    },
    {
     "rok": 2004,
-    "liczba": 227
+    "liczba": 231
    },
    {
     "rok": 2005,
-    "liczba": 88
+    "liczba": 90
    },
    {
     "rok": 2006,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2007,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2008,
@@ -110,11 +110,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 197
+    "liczba": 202
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 141
+    "liczba": 144
    },
    {
     "nazwa": "Inne / brak danych",
@@ -124,25 +124,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 138
+    "liczba": 141
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 112
+    "liczba": 116
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 90
+    "liczba": 91
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 277
+    "liczba": 284
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,7 +152,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 318
+    "liczba": 326
    },
    {
     "nazwa": "Sedan",
@@ -163,20 +163,175 @@
     "liczba": 14
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 963,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 2
+   },
+   {
+    "rok": 2025,
+    "liczba": 4
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1043,
   "miejsceWMarce": 12,
   "modeliWMarce": 15,
-  "sredniRocznik": 2004.3
+  "sredniRocznik": 2004.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "lacetti",
@@ -186,11 +341,6 @@
    "slug": "opel-astra",
    "nazwa": "Opel Astra",
    "adres": "/marki/opel/astra/"
-  },
-  {
-   "slug": "toyota-corolla",
-   "nazwa": "Toyota Corolla",
-   "adres": "/marki/toyota/corolla/"
   },
   {
    "slug": "honda-civic",
@@ -203,9 +353,14 @@
    "adres": "/marki/suzuki/liana/"
   },
   {
-   "slug": "renault-megane",
-   "nazwa": "Renault Megane",
-   "adres": "/marki/renault/megane/"
+   "slug": "renault-megane-ii",
+   "nazwa": "Renault Megane II",
+   "adres": "/marki/renault/megane/ii/"
+  },
+  {
+   "slug": "seat-ibiza",
+   "nazwa": "Seat Ibiza",
+   "adres": "/marki/seat/ibiza/"
   }
  ]
 }

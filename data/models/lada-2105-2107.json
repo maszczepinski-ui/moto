@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Łada 2105 / 2107 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LADA 21072 1300, 2105 LADA, LADA 21072, LADA 21043, 2105LADA).",
-  "liczbaWPolsce": 16163,
-  "aktywne": 30,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Łada 2105 / 2107 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LADA 21072 1300, 2105 LADA, LADA 21072, LADA 21043, 2105LADA).",
+  "liczbaWPolsce": 16165,
+  "aktywne": 32,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 1448
+    "liczba": 1449
    },
    {
     "teryt": "14",
@@ -69,7 +69,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 470
+    "liczba": 471
    },
    {
     "teryt": "30",
@@ -124,7 +124,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 1970
+    "liczba": 1971
    },
    {
     "rok": 1988,
@@ -140,7 +140,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 444
+    "liczba": 445
    },
    {
     "rok": 1992,
@@ -150,7 +150,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2713
+    "liczba": 2715
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -172,7 +172,7 @@
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1882
+    "liczba": 1883
    },
    {
     "nazwa": "1,2 l",
@@ -180,13 +180,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 683
+    "liczba": 684
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 10945
+    "liczba": 10946
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -198,7 +198,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 207
+    "liczba": 208
    },
    {
     "nazwa": "Inne / brak danych",
@@ -208,7 +208,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3826
+    "liczba": 3828
    },
    {
     "nazwa": "Hatchback",
@@ -219,16 +219,166 @@
     "liczba": 12067
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 175,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 210,
   "miejsceWMarce": 3,
   "modeliWMarce": 6,
   "sredniRocznik": 1986.9
@@ -237,7 +387,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "lada",
  "modelSlug": "2105-2107",

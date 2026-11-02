@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 69M – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 69M).",
-  "liczbaWPolsce": 258,
-  "aktywne": 16,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 69M – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 69M).",
+  "liczbaWPolsce": 263,
+  "aktywne": 21,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -32,15 +32,15 @@
    },
    {
     "teryt": "08",
-    "liczba": 2
-   },
-   {
-    "teryt": "10",
     "liczba": 3
    },
    {
+    "teryt": "10",
+    "liczba": 4
+   },
+   {
     "teryt": "12",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "14",
@@ -68,7 +68,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "30",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 0,
@@ -147,15 +147,15 @@
    },
    {
     "rok": 1965,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 1966,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1967,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1968,
@@ -163,7 +163,7 @@
    },
    {
     "rok": 1969,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 1970,
@@ -244,16 +244,20 @@
    {
     "rok": 1989,
     "liczba": 1
+   },
+   {
+    "rok": 1990,
+    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 59
+    "liczba": 62
    },
    {
     "nazwa": "Diesel",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -271,7 +275,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 103
+    "liczba": 105
    },
    {
     "nazwa": "2,3 l",
@@ -279,11 +283,11 @@
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "nazwa": "1,9 l",
@@ -303,7 +307,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 24
    }
   ],
   "pochodzenie": [
@@ -317,11 +321,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 9
    }
   ],
   "nadwozia": [
@@ -331,7 +335,7 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -351,23 +355,174 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 156
+    "liczba": 159
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 1033,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 2
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1133,
   "miejsceWMarce": 4,
   "modeliWMarce": 4,
-  "sredniRocznik": 1967.6
+  "sredniRocznik": 1967.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "gaz",
  "modelSlug": "69m",

@@ -12,110 +12,110 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 296 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL Y).",
-  "liczbaWPolsce": 2296,
-  "aktywne": 2296,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 082 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL Y).",
+  "liczbaWPolsce": 9082,
+  "aktywne": 9082,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 224
+    "liczba": 646
    },
    {
     "teryt": "04",
-    "liczba": 48
+    "liczba": 169
    },
    {
     "teryt": "06",
-    "liczba": 55
+    "liczba": 189
    },
    {
     "teryt": "08",
-    "liczba": 26
+    "liczba": 76
    },
    {
     "teryt": "10",
-    "liczba": 83
+    "liczba": 291
    },
    {
     "teryt": "12",
-    "liczba": 208
+    "liczba": 758
    },
    {
     "teryt": "14",
-    "liczba": 667
+    "liczba": 3316
    },
    {
     "teryt": "16",
-    "liczba": 34
+    "liczba": 102
    },
    {
     "teryt": "18",
-    "liczba": 71
+    "liczba": 228
    },
    {
     "teryt": "20",
-    "liczba": 47
+    "liczba": 161
    },
    {
     "teryt": "22",
-    "liczba": 141
+    "liczba": 534
    },
    {
     "teryt": "24",
-    "liczba": 321
+    "liczba": 1284
    },
    {
     "teryt": "26",
-    "liczba": 39
+    "liczba": 105
    },
    {
     "teryt": "28",
-    "liczba": 14
+    "liczba": 80
    },
    {
     "teryt": "30",
-    "liczba": 280
+    "liczba": 969
    },
    {
     "teryt": "32",
-    "liczba": 38
+    "liczba": 174
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 8
+    "liczba": 19
    },
    {
     "rok": 2021,
-    "liczba": 49
+    "liczba": 105
    },
    {
     "rok": 2022,
-    "liczba": 146
+    "liczba": 342
    },
    {
     "rok": 2023,
-    "liczba": 167
+    "liczba": 1352
    },
    {
     "rok": 2024,
-    "liczba": 100
+    "liczba": 2217
    },
    {
     "rok": 2025,
-    "liczba": 49
+    "liczba": 3153
    },
    {
     "rok": 2026,
-    "liczba": 1775
+    "liczba": 1892
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2295
+    "liczba": 9081
    },
    {
     "nazwa": "Inne / brak danych",
@@ -125,25 +125,25 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2296
+    "liczba": 9082
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1692
+    "liczba": 7542
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 456
+    "liczba": 778
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 98
+    "liczba": 608
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 49
+    "liczba": 153
    },
    {
     "nazwa": "Inne / brak danych",
@@ -153,69 +153,219 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2092
+    "liczba": 8670
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 151
-   },
-   {
-    "nazwa": "Kombi",
-    "liczba": 25
+    "liczba": 304
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 108
    }
   ],
-  "noweOdPaczki": 2296,
+  "noweOdPaczki": 9082,
   "hybrydy": 0,
-  "elektryczne": 2293,
+  "elektryczne": 9079,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 758
+   },
+   {
+    "rok": 2024,
+    "liczba": 2433
+   },
+   {
+    "rok": 2025,
+    "liczba": 3453
+   },
+   {
     "rok": 2026,
-    "liczba": 2296
+    "liczba": 2438
    }
   ],
-  "miejsce": 471,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 287
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 188
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 219
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 397
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 230
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 153
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 262
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 159
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 269
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 380
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 220
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 357
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 556
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 275
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 957
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 142
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 301,
   "miejsceWMarce": 1,
-  "modeliWMarce": 3,
-  "sredniRocznik": 2025.3
+  "modeliWMarce": 4,
+  "sredniRocznik": 2024.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "tesla",
  "modelSlug": "model-y",
  "adres": "/marki/tesla/model-y/",
  "konkurenci": [
   {
-   "slug": "byd-atto-2",
-   "nazwa": "BYD Atto 2",
-   "adres": "/marki/byd/atto-2/"
+   "slug": "kia-ev3",
+   "nazwa": "Kia EV3",
+   "adres": "/marki/kia/ev3/"
   },
   {
-   "slug": "toyota-yaris-cross",
-   "nazwa": "Toyota Yaris Cross",
-   "adres": "/marki/toyota/yaris-cross/"
+   "slug": "hyundai-ioniq5",
+   "nazwa": "Hyundai IONIQ5",
+   "adres": "/marki/hyundai/ioniq5/"
   },
   {
-   "slug": "omoda-9",
-   "nazwa": "Omoda 9",
-   "adres": "/marki/omoda/9/"
+   "slug": "hyundai-inster",
+   "nazwa": "Hyundai Inster",
+   "adres": "/marki/hyundai/inster/"
   },
   {
-   "slug": "byd-seal-u",
-   "nazwa": "BYD Seal U",
-   "adres": "/marki/byd/seal-u/"
+   "slug": "byd-sealion-7",
+   "nazwa": "BYD Sealion 7",
+   "adres": "/marki/byd/sealion-7/"
   },
   {
-   "slug": "chery-tiggo-9",
-   "nazwa": "Chery Tiggo 9",
-   "adres": "/marki/chery/tiggo-9/"
+   "slug": "kia-ev6",
+   "nazwa": "Kia EV6",
+   "adres": "/marki/kia/ev6/"
   }
  ]
 }

@@ -13,130 +13,130 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Idea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 77 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IDEA).",
-  "liczbaWPolsce": 2107,
-  "aktywne": 968,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Idea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 491 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IDEA).",
+  "liczbaWPolsce": 2521,
+  "aktywne": 1382,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 150
+    "liczba": 211
    },
    {
     "teryt": "04",
-    "liczba": 95
+    "liczba": 117
    },
    {
     "teryt": "06",
-    "liczba": 83
+    "liczba": 93
    },
    {
     "teryt": "08",
-    "liczba": 40
-   },
-   {
-    "teryt": "10",
-    "liczba": 166
-   },
-   {
-    "teryt": "12",
-    "liczba": 232
-   },
-   {
-    "teryt": "14",
-    "liczba": 207
-   },
-   {
-    "teryt": "16",
-    "liczba": 57
-   },
-   {
-    "teryt": "18",
-    "liczba": 179
-   },
-   {
-    "teryt": "20",
-    "liczba": 25
-   },
-   {
-    "teryt": "22",
-    "liczba": 74
-   },
-   {
-    "teryt": "24",
-    "liczba": 303
-   },
-   {
-    "teryt": "26",
-    "liczba": 71
-   },
-   {
-    "teryt": "28",
     "liczba": 46
    },
    {
+    "teryt": "10",
+    "liczba": 176
+   },
+   {
+    "teryt": "12",
+    "liczba": 289
+   },
+   {
+    "teryt": "14",
+    "liczba": 237
+   },
+   {
+    "teryt": "16",
+    "liczba": 59
+   },
+   {
+    "teryt": "18",
+    "liczba": 245
+   },
+   {
+    "teryt": "20",
+    "liczba": 29
+   },
+   {
+    "teryt": "22",
+    "liczba": 80
+   },
+   {
+    "teryt": "24",
+    "liczba": 310
+   },
+   {
+    "teryt": "26",
+    "liczba": 76
+   },
+   {
+    "teryt": "28",
+    "liczba": 50
+   },
+   {
     "teryt": "30",
-    "liczba": 312
+    "liczba": 431
    },
    {
     "teryt": "32",
-    "liczba": 49
+    "liczba": 54
    }
   ],
   "bezWojewodztwa": 18,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 122
+    "liczba": 129
    },
    {
     "rok": 2004,
-    "liczba": 835
+    "liczba": 953
    },
    {
     "rok": 2005,
-    "liczba": 587
+    "liczba": 671
    },
    {
     "rok": 2006,
-    "liczba": 326
+    "liczba": 414
    },
    {
     "rok": 2007,
-    "liczba": 87
+    "liczba": 146
    },
    {
     "rok": 2008,
-    "liczba": 58
+    "liczba": 86
    },
    {
     "rok": 2009,
-    "liczba": 12
+    "liczba": 21
    },
    {
     "rok": 2010,
-    "liczba": 10
+    "liczba": 19
    },
    {
     "rok": 2011,
-    "liczba": 3
+    "liczba": 13
    },
    {
     "rok": 2012,
-    "liczba": 6
+    "liczba": 8
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1108
+    "liczba": 1281
    },
    {
     "nazwa": "Diesel",
-    "liczba": 790
+    "liczba": 1018
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 199
+    "liczba": 212
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,29 +146,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1188
+    "liczba": 1345
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 619
+    "liczba": 858
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 286
+    "liczba": 301
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 17
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1510
+    "liczba": 1894
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 485
+    "liczba": 514
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -176,83 +176,237 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 19
+    "liczba": 20
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1211
+    "liczba": 1352
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 434
+    "liczba": 677
    },
    {
     "nazwa": "Van",
-    "liczba": 288
+    "liczba": 304
    },
    {
     "nazwa": "Kombi",
-    "liczba": 104
+    "liczba": 115
    },
    {
     "nazwa": "Sedan",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 45
+    "liczba": 46
    }
   ],
-  "noweOdPaczki": 77,
+  "noweOdPaczki": 491,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 46
+   },
+   {
+    "rok": 2024,
+    "liczba": 161
+   },
+   {
+    "rok": 2025,
+    "liczba": 198
+   },
+   {
     "rok": 2026,
-    "liczba": 77
+    "liczba": 86
    }
   ],
-  "miejsce": 489,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 524,
   "miejsceWMarce": 32,
   "modeliWMarce": 58,
-  "sredniRocznik": 2004.9
+  "sredniRocznik": 2005.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "idea",
  "adres": "/marki/fiat/idea/",
  "konkurenci": [
   {
-   "slug": "volkswagen-polo-iv",
-   "nazwa": "Volkswagen Polo IV (9N)",
-   "adres": "/marki/volkswagen/polo/iv-9n/"
-  },
-  {
-   "slug": "renault-megane",
-   "nazwa": "Renault Megane",
-   "adres": "/marki/renault/megane/"
-  },
-  {
    "slug": "seat-ibiza",
    "nazwa": "Seat Ibiza",
    "adres": "/marki/seat/ibiza/"
   },
   {
-   "slug": "skoda-fabia-i",
-   "nazwa": "Skoda Fabia I",
-   "adres": "/marki/skoda/fabia/i/"
+   "slug": "volkswagen-polo-iv",
+   "nazwa": "Volkswagen Polo IV (9N)",
+   "adres": "/marki/volkswagen/polo/iv-9n/"
   },
   {
-   "slug": "peugeot-206",
-   "nazwa": "Peugeot 206",
-   "adres": "/marki/peugeot/206/"
+   "slug": "opel-corsa",
+   "nazwa": "Opel Corsa",
+   "adres": "/marki/opel/corsa/"
+  },
+  {
+   "slug": "opel-astra",
+   "nazwa": "Opel Astra",
+   "adres": "/marki/opel/astra/"
+  },
+  {
+   "slug": "citroen-c2",
+   "nazwa": "Citroen C2",
+   "adres": "/marki/citroen/c2/"
   }
  ]
 }

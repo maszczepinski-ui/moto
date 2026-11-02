@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 480 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 480, 480 1.7 KAT, 480 1.7).",
-  "liczbaWPolsce": 293,
-  "aktywne": 29,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 480 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 38 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 480, 480 1.7 KAT, 480 1.7, 480 S, 480 ES).",
+  "liczbaWPolsce": 326,
+  "aktywne": 62,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 22
+    "liczba": 26
    },
    {
     "teryt": "04",
@@ -27,11 +27,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "08",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "teryt": "10",
@@ -39,15 +39,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "teryt": "14",
-    "liczba": 56
+    "liczba": 59
    },
    {
     "teryt": "16",
-    "liczba": 3
+    "liczba": 6
    },
    {
     "teryt": "18",
@@ -59,27 +59,27 @@
    },
    {
     "teryt": "22",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "24",
-    "liczba": 28
+    "liczba": 33
    },
    {
     "teryt": "26",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "28",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "30",
-    "liczba": 13
+    "liczba": 19
    },
    {
     "teryt": "32",
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 2,
@@ -90,39 +90,39 @@
    },
    {
     "rok": 1987,
-    "liczba": 14
+    "liczba": 17
    },
    {
     "rok": 1988,
-    "liczba": 28
+    "liczba": 32
    },
    {
     "rok": 1989,
-    "liczba": 34
+    "liczba": 37
    },
    {
     "rok": 1990,
-    "liczba": 36
+    "liczba": 39
    },
    {
     "rok": 1991,
-    "liczba": 35
+    "liczba": 37
    },
    {
     "rok": 1992,
-    "liczba": 29
+    "liczba": 33
    },
    {
     "rok": 1993,
-    "liczba": 31
+    "liczba": 35
    },
    {
     "rok": 1994,
-    "liczba": 23
+    "liczba": 27
    },
    {
     "rok": 1995,
-    "liczba": 29
+    "liczba": 35
    },
    {
     "rok": 1996,
@@ -136,7 +136,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 192
+    "liczba": 225
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -154,11 +154,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 239
+    "liczba": 260
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 44
+    "liczba": 56
    },
    {
     "nazwa": "1,8 l",
@@ -172,11 +172,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 188
+    "liczba": 193
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 83
+    "liczba": 109
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -184,13 +184,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 7
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 131
+    "liczba": 155
    },
    {
     "nazwa": "Sedan",
@@ -198,28 +198,178 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 43
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 59
+    "liczba": 62
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 38,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 14
+   },
+   {
+    "rok": 2025,
+    "liczba": 15
+   },
    {
     "rok": 2026,
     "liczba": 5
    }
   ],
-  "miejsce": 1003,
-  "miejsceWMarce": 32,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1064,
+  "miejsceWMarce": 31,
   "modeliWMarce": 33,
   "sredniRocznik": 1991.6
  },
@@ -227,9 +377,36 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "480",
- "adres": "/marki/volvo/480/"
+ "adres": "/marki/volvo/480/",
+ "konkurenci": [
+  {
+   "slug": "fso-polonez",
+   "nazwa": "FSO Polonez",
+   "adres": "/marki/fso/polonez/"
+  },
+  {
+   "slug": "renault-19",
+   "nazwa": "Renault 19",
+   "adres": "/marki/renault/19/"
+  },
+  {
+   "slug": "nissan-100",
+   "nazwa": "Nissan 100",
+   "adres": "/marki/nissan/100/"
+  },
+  {
+   "slug": "ford-escort",
+   "nazwa": "Ford Escort",
+   "adres": "/marki/ford/escort/"
+  },
+  {
+   "slug": "peugeot-309",
+   "nazwa": "Peugeot 309",
+   "adres": "/marki/peugeot/309/"
+  }
+ ]
 }

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Sephia – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEPHIA, SEPHIA 1.6 KAT, SEPHIA 1.5 KAT, SEPHIA 1.6KAT, SEPHIA 1.5).",
-  "liczbaWPolsce": 1972,
-  "aktywne": 65,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Sephia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEPHIA, SEPHIA 1.6 KAT, SEPHIA 1.5 KAT, SEPHIA 1.6KAT, SEPHIA 1.5).",
+  "liczbaWPolsce": 1974,
+  "aktywne": 67,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 114
+    "liczba": 115
    },
    {
     "teryt": "06",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 250
+    "liczba": 251
    },
    {
     "teryt": "16",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 375
+    "liczba": 377
    },
    {
     "rok": 1995,
@@ -123,7 +123,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1285
+    "liczba": 1287
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -141,7 +141,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1003
+    "liczba": 1005
    },
    {
     "nazwa": "1,5 l",
@@ -163,7 +163,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 676
+    "liczba": 678
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,7 +181,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1371
+    "liczba": 1373
    },
    {
     "nazwa": "Hatchback",
@@ -192,20 +192,171 @@
     "liczba": 308
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 2,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 503,
-  "miejsceWMarce": 17,
-  "modeliWMarce": 29,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 580,
+  "miejsceWMarce": 18,
+  "modeliWMarce": 32,
   "sredniRocznik": 1996.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "sephia",
@@ -227,14 +378,14 @@
    "adres": "/marki/daewoo/lanos/"
   },
   {
-   "slug": "volkswagen-jetta",
-   "nazwa": "Volkswagen Jetta",
-   "adres": "/marki/volkswagen/jetta/"
-  },
-  {
    "slug": "hyundai-lantra",
    "nazwa": "Hyundai Lantra",
    "adres": "/marki/hyundai/lantra/"
+  },
+  {
+   "slug": "volkswagen-jetta",
+   "nazwa": "Volkswagen Jetta",
+   "adres": "/marki/volkswagen/jetta/"
   }
  ]
 }

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 214, 200, 214 KAT, 216, 200 1.4 KAT).",
-  "liczbaWPolsce": 6495,
-  "aktywne": 451,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 214, 200, 214 KAT, 216, 200 1.4 KAT).",
+  "liczbaWPolsce": 6506,
+  "aktywne": 462,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,19 +22,19 @@
    },
    {
     "teryt": "04",
-    "liczba": 334
+    "liczba": 336
    },
    {
     "teryt": "06",
-    "liczba": 499
+    "liczba": 501
    },
    {
     "teryt": "08",
-    "liczba": 270
+    "liczba": 271
    },
    {
     "teryt": "10",
-    "liczba": 432
+    "liczba": 433
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 875
+    "liczba": 877
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 294
+    "liczba": 295
    },
    {
     "teryt": "24",
-    "liczba": 482
+    "liczba": 483
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 961
+    "liczba": 962
    },
    {
     "teryt": "32",
@@ -85,7 +85,7 @@
   "roczniki": [
    {
     "rok": 1990,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 1991,
@@ -101,11 +101,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 379
+    "liczba": 384
    },
    {
     "rok": 1995,
-    "liczba": 427
+    "liczba": 428
    },
    {
     "rok": 1996,
@@ -113,11 +113,11 @@
    },
    {
     "rok": 1997,
-    "liczba": 1528
+    "liczba": 1529
    },
    {
     "rok": 1998,
-    "liczba": 1676
+    "liczba": 1678
    },
    {
     "rok": 1999,
@@ -131,7 +131,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4094
+    "liczba": 4105
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -149,15 +149,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 4436
+    "liczba": 4441
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 939
+    "liczba": 940
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 787
+    "liczba": 791
    },
    {
     "nazwa": "1,8 l",
@@ -173,17 +173,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 22
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4054
+    "liczba": 4056
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2176
+    "liczba": 2185
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -197,35 +197,189 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 5045
+    "liczba": 5051
    },
    {
     "nazwa": "Sedan",
-    "liczba": 563
+    "liczba": 564
    },
    {
     "nazwa": "Coupe",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 111
+    "liczba": 114
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 658
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 15,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 296,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 355,
   "miejsceWMarce": 1,
   "modeliWMarce": 9,
   "sredniRocznik": 1996.9
@@ -234,7 +388,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "rover",
  "modelSlug": "200",

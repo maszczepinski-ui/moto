@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Saab 9000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 9000, 9000 2.0, 9000 2.3 KAT, 9000 2.0 KAT, 9000 CS).",
-  "liczbaWPolsce": 1652,
-  "aktywne": 69,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Saab 9000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 9000, 9000 2.0, 9000 2.3 KAT, 9000 2.0 KAT, 9000 CS).",
+  "liczbaWPolsce": 1674,
+  "aktywne": 91,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 122
+    "liczba": 124
    },
    {
     "teryt": "04",
-    "liczba": 52
+    "liczba": 54
    },
    {
     "teryt": "06",
-    "liczba": 146
+    "liczba": 147
    },
    {
     "teryt": "08",
-    "liczba": 31
+    "liczba": 33
    },
    {
     "teryt": "10",
-    "liczba": 93
+    "liczba": 94
    },
    {
     "teryt": "12",
-    "liczba": 87
+    "liczba": 89
    },
    {
     "teryt": "14",
-    "liczba": 440
+    "liczba": 446
    },
    {
     "teryt": "16",
@@ -54,15 +54,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "22",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "teryt": "24",
-    "liczba": 98
+    "liczba": 99
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "teryt": "30",
-    "liczba": 119
+    "liczba": 121
    },
    {
     "teryt": "32",
@@ -97,11 +97,11 @@
    },
    {
     "rok": 1988,
-    "liczba": 85
+    "liczba": 86
    },
    {
     "rok": 1989,
-    "liczba": 120
+    "liczba": 121
    },
    {
     "rok": 1990,
@@ -109,45 +109,45 @@
    },
    {
     "rok": 1991,
-    "liczba": 150
+    "liczba": 152
    },
    {
     "rok": 1992,
-    "liczba": 190
+    "liczba": 194
    },
    {
     "rok": 1993,
-    "liczba": 170
+    "liczba": 174
    },
    {
     "rok": 1994,
-    "liczba": 131
+    "liczba": 133
    },
    {
     "rok": 1995,
-    "liczba": 181
+    "liczba": 183
    },
    {
     "rok": 1996,
-    "liczba": 182
+    "liczba": 184
    },
    {
     "rok": 1997,
-    "liczba": 167
+    "liczba": 170
    },
    {
     "rok": 1998,
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 827
+    "liczba": 847
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 447
+    "liczba": 448
    },
    {
     "nazwa": "?+LPG",
@@ -155,35 +155,35 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 317
+    "liczba": 318
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 882
+    "liczba": 890
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 729
+    "liczba": 741
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 19
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 936
+    "liczba": 943
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 598
+    "liczba": 613
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -201,27 +201,181 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 731
+    "liczba": 743
    },
    {
     "nazwa": "Sedan",
-    "liczba": 523
+    "liczba": 533
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 398
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 5
+   },
+   {
+    "rok": 2024,
+    "liczba": 9
+   },
+   {
+    "rok": 2025,
+    "liczba": 8
+   },
    {
     "rok": 2026,
     "liczba": 5
    }
   ],
-  "miejsce": 551,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 623,
   "miejsceWMarce": 4,
   "modeliWMarce": 6,
   "sredniRocznik": 1992.5
@@ -230,7 +384,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "saab",
  "modelSlug": "9000",

@@ -12,25 +12,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Taurus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAURUS, TAURUS 3.0, TAURUS 2.5, TAURUS 3.0 KAT).",
-  "liczbaWPolsce": 1398,
-  "aktywne": 37,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Taurus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAURUS, TAURUS 3.0, TAURUS 2.5, TAURUS 3.0 KAT).",
+  "liczbaWPolsce": 1427,
+  "aktywne": 66,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 91
+    "liczba": 93
    },
    {
     "teryt": "04",
-    "liczba": 48
+    "liczba": 51
    },
    {
     "teryt": "06",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "08",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "10",
@@ -38,23 +38,23 @@
    },
    {
     "teryt": "12",
-    "liczba": 114
+    "liczba": 115
    },
    {
     "teryt": "14",
-    "liczba": 383
+    "liczba": 389
    },
    {
     "teryt": "16",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "18",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "teryt": "20",
-    "liczba": 60
+    "liczba": 62
    },
    {
     "teryt": "22",
@@ -62,23 +62,23 @@
    },
    {
     "teryt": "24",
-    "liczba": 119
+    "liczba": 121
    },
    {
     "teryt": "26",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "28",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "teryt": "30",
-    "liczba": 99
+    "liczba": 103
    },
    {
     "teryt": "32",
-    "liczba": 40
+    "liczba": 42
    }
   ],
   "bezWojewodztwa": 8,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 64
+    "liczba": 65
    },
    {
     "rok": 1987,
@@ -125,7 +125,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 269
+    "liczba": 270
    },
    {
     "rok": 1989,
@@ -137,7 +137,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 55
+    "liczba": 56
    },
    {
     "rok": 1992,
@@ -213,7 +213,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2011,
@@ -225,25 +225,33 @@
    },
    {
     "rok": 2013,
-    "liczba": 4
+    "liczba": 10
    },
    {
     "rok": 2014,
-    "liczba": 1
+    "liczba": 10
    },
    {
     "rok": 2015,
-    "liczba": 6
+    "liczba": 11
+   },
+   {
+    "rok": 2016,
+    "liczba": 1
+   },
+   {
+    "rok": 2017,
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 338
+    "liczba": 362
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 238
+    "liczba": 243
    },
    {
     "nazwa": "?+LPG",
@@ -257,7 +265,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 870
+    "liczba": 873
    },
    {
     "nazwa": "2,5 l",
@@ -268,16 +276,16 @@
     "liczba": 71
    },
    {
+    "nazwa": "3,5 l",
+    "liczba": 46
+   },
+   {
     "nazwa": "2,9 l",
     "liczba": 31
    },
    {
     "nazwa": "2,0 l",
     "liczba": 28
-   },
-   {
-    "nazwa": "3,5 l",
-    "liczba": 22
    },
    {
     "nazwa": "1,6 l",
@@ -289,13 +297,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 123
+    "liczba": 125
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1031
+    "liczba": 1040
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -303,21 +311,21 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 127
+    "liczba": 146
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 38
+    "liczba": 39
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 420
+    "liczba": 446
    },
    {
     "nazwa": "Kombi",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "nazwa": "Hatchback",
@@ -325,28 +333,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 826
+    "liczba": 828
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 33,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 7
+   },
+   {
+    "rok": 2024,
+    "liczba": 9
+   },
+   {
+    "rok": 2025,
+    "liczba": 13
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 592,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 660,
   "miejsceWMarce": 30,
-  "modeliWMarce": 39,
-  "sredniRocznik": 1990.7
+  "modeliWMarce": 45,
+  "sredniRocznik": 1991.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "taurus",
@@ -368,14 +530,14 @@
    "adres": "/marki/mercedes-benz/w124/"
   },
   {
+   "slug": "pontiac-trans",
+   "nazwa": "Pontiac Trans",
+   "adres": "/marki/pontiac/trans/"
+  },
+  {
    "slug": "nissan-maxima",
    "nazwa": "Nissan Maxima",
    "adres": "/marki/nissan/maxima/"
-  },
-  {
-   "slug": "audi-80",
-   "nazwa": "Audi 80",
-   "adres": "/marki/audi/80/"
   }
  ]
 }

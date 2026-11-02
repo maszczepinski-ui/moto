@@ -11,49 +11,49 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bestune T77 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 726 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T77).",
-  "liczbaWPolsce": 726,
-  "aktywne": 726,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bestune T77 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 859 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T77).",
+  "liczbaWPolsce": 859,
+  "aktywne": 859,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 34
+    "liczba": 42
    },
    {
     "teryt": "04",
-    "liczba": 34
+    "liczba": 41
    },
    {
     "teryt": "06",
-    "liczba": 31
+    "liczba": 42
    },
    {
     "teryt": "08",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "10",
-    "liczba": 72
+    "liczba": 80
    },
    {
     "teryt": "12",
-    "liczba": 40
+    "liczba": 46
    },
    {
     "teryt": "14",
-    "liczba": 128
+    "liczba": 152
    },
    {
     "teryt": "16",
-    "liczba": 26
+    "liczba": 32
    },
    {
     "teryt": "18",
-    "liczba": 37
+    "liczba": 48
    },
    {
     "teryt": "20",
-    "liczba": 6
+    "liczba": 10
    },
    {
     "teryt": "22",
@@ -61,30 +61,42 @@
    },
    {
     "teryt": "24",
-    "liczba": 145
+    "liczba": 162
    },
    {
     "teryt": "26",
-    "liczba": 42
+    "liczba": 58
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 67
+    "liczba": 79
    },
    {
     "teryt": "32",
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2022,
+    "liczba": 2
+   },
+   {
+    "rok": 2023,
+    "liczba": 0
+   },
+   {
+    "rok": 2024,
+    "liczba": 2
+   },
+   {
     "rok": 2025,
-    "liczba": 722
+    "liczba": 851
    },
    {
     "rok": 2026,
@@ -94,11 +106,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 509
+    "liczba": 580
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 216
+    "liczba": 278
    },
    {
     "nazwa": "Inne / brak danych",
@@ -108,43 +120,193 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 726
+    "liczba": 859
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 710
+    "liczba": 803
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 34
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 14
-   },
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 2
-   }
-  ],
-  "nadwozia": [
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 725
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 726,
+  "nadwozia": [
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 858
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
+   }
+  ],
+  "noweOdPaczki": 859,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 126
+   },
+   {
     "rok": 2026,
-    "liczba": 726
+    "liczba": 733
    }
   ],
-  "miejsce": 741,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 784,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 2025.0
@@ -153,7 +315,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "bestune",
  "modelSlug": "t77",
@@ -170,14 +332,14 @@
    "adres": "/marki/omoda/9/"
   },
   {
-   "slug": "chery-tiggo-8",
-   "nazwa": "Chery Tiggo 8",
-   "adres": "/marki/chery/tiggo-8/"
-  },
-  {
    "slug": "byd-seal-u",
    "nazwa": "BYD Seal U",
    "adres": "/marki/byd/seal-u/"
+  },
+  {
+   "slug": "chery-tiggo-8",
+   "nazwa": "Chery Tiggo 8",
+   "adres": "/marki/chery/tiggo-8/"
   },
   {
    "slug": "chery-tiggo-9",

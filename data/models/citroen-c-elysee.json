@@ -11,73 +11,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen C-Elysee – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C-ELYSEE).",
-  "liczbaWPolsce": 3782,
-  "aktywne": 1913,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen C-Elysee – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 152 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C-ELYSEE).",
+  "liczbaWPolsce": 3901,
+  "aktywne": 2032,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 309
+    "liczba": 317
    },
    {
     "teryt": "04",
-    "liczba": 171
+    "liczba": 174
    },
    {
     "teryt": "06",
-    "liczba": 166
+    "liczba": 171
    },
    {
     "teryt": "08",
-    "liczba": 90
+    "liczba": 94
    },
    {
     "teryt": "10",
-    "liczba": 299
+    "liczba": 305
    },
    {
     "teryt": "12",
-    "liczba": 331
+    "liczba": 346
    },
    {
     "teryt": "14",
-    "liczba": 757
+    "liczba": 770
    },
    {
     "teryt": "16",
-    "liczba": 116
+    "liczba": 117
    },
    {
     "teryt": "18",
-    "liczba": 124
+    "liczba": 134
    },
    {
     "teryt": "20",
-    "liczba": 126
+    "liczba": 130
    },
    {
     "teryt": "22",
-    "liczba": 181
+    "liczba": 186
    },
    {
     "teryt": "24",
-    "liczba": 502
+    "liczba": 522
    },
    {
     "teryt": "26",
-    "liczba": 72
+    "liczba": 75
    },
    {
     "teryt": "28",
-    "liczba": 91
+    "liczba": 92
    },
    {
     "teryt": "30",
-    "liczba": 206
+    "liczba": 219
    },
    {
     "teryt": "32",
-    "liczba": 238
+    "liczba": 246
    }
   ],
   "bezWojewodztwa": 3,
@@ -88,45 +88,45 @@
    },
    {
     "rok": 2013,
-    "liczba": 574
+    "liczba": 576
    },
    {
     "rok": 2014,
-    "liczba": 443
+    "liczba": 445
    },
    {
     "rok": 2015,
-    "liczba": 568
+    "liczba": 572
    },
    {
     "rok": 2016,
-    "liczba": 737
+    "liczba": 773
    },
    {
     "rok": 2017,
-    "liczba": 649
+    "liczba": 693
    },
    {
     "rok": 2018,
-    "liczba": 453
+    "liczba": 478
    },
    {
     "rok": 2019,
-    "liczba": 163
+    "liczba": 168
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2613
+    "liczba": 2686
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 649
+    "liczba": 654
    },
    {
     "nazwa": "Diesel",
-    "liczba": 518
+    "liczba": 559
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,15 +136,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 3078
+    "liczba": 3136
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 614
+    "liczba": 673
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 88
+    "liczba": 90
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,11 +158,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 841
+    "liczba": 872
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 94
+    "liczba": 182
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -176,32 +176,186 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3745
+    "liczba": 3861
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 40
    }
   ],
-  "noweOdPaczki": 33,
+  "noweOdPaczki": 152,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 7
+   },
+   {
+    "rok": 2024,
+    "liczba": 52
+   },
+   {
+    "rok": 2025,
+    "liczba": 58
+   },
+   {
     "rok": 2026,
-    "liczba": 33
+    "liczba": 35
    }
   ],
-  "miejsce": 382,
-  "miejsceWMarce": 15,
-  "modeliWMarce": 39,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 453,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 40,
   "sredniRocznik": 2015.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "c-elysee",
@@ -213,24 +367,24 @@
    "adres": "/marki/peugeot/301/"
   },
   {
+   "slug": "hyundai-elantra",
+   "nazwa": "Hyundai Elantra",
+   "adres": "/marki/hyundai/elantra/"
+  },
+  {
    "slug": "skoda-rapid",
    "nazwa": "Skoda Rapid",
    "adres": "/marki/skoda/rapid/"
   },
   {
-   "slug": "opel-mokka",
-   "nazwa": "Opel Mokka",
-   "adres": "/marki/opel/mokka/"
+   "slug": "nissan-qashqai",
+   "nazwa": "Nissan Qashqai",
+   "adres": "/marki/nissan/qashqai/"
   },
   {
-   "slug": "renault-talisman",
-   "nazwa": "Renault Talisman",
-   "adres": "/marki/renault/talisman/"
-  },
-  {
-   "slug": "dacia-lodgy",
-   "nazwa": "Dacia Lodgy",
-   "adres": "/marki/dacia/lodgy/"
+   "slug": "nissan-juke",
+   "nazwa": "Nissan Juke",
+   "adres": "/marki/nissan/juke/"
   }
  ]
 }

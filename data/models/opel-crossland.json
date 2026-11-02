@@ -3,224 +3,378 @@
  "marka": "Opel",
  "model": "Crossland",
  "generacja": "",
- "lataProdukcji": "2017–2023",
+ "lataProdukcji": "2017–2024",
  "nadwozia": [
-  "van"
+  "van",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Crossland – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 158 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSLAND X, CROSSLAND).",
-  "liczbaWPolsce": 3789,
-  "aktywne": 3787,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Crossland – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 106 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSLAND X, CROSSLAND).",
+  "liczbaWPolsce": 8737,
+  "aktywne": 8735,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 250
+    "liczba": 530
    },
    {
     "teryt": "04",
-    "liczba": 256
+    "liczba": 635
    },
    {
     "teryt": "06",
-    "liczba": 110
+    "liczba": 254
    },
    {
     "teryt": "08",
-    "liczba": 86
+    "liczba": 220
    },
    {
     "teryt": "10",
-    "liczba": 206
+    "liczba": 490
    },
    {
     "teryt": "12",
-    "liczba": 302
+    "liczba": 778
    },
    {
     "teryt": "14",
-    "liczba": 472
+    "liczba": 1003
    },
    {
     "teryt": "16",
-    "liczba": 91
+    "liczba": 241
    },
    {
     "teryt": "18",
-    "liczba": 223
+    "liczba": 579
    },
    {
     "teryt": "20",
-    "liczba": 72
+    "liczba": 176
    },
    {
     "teryt": "22",
-    "liczba": 238
+    "liczba": 517
    },
    {
     "teryt": "24",
-    "liczba": 705
+    "liczba": 1474
    },
    {
     "teryt": "26",
-    "liczba": 79
+    "liczba": 201
    },
    {
     "teryt": "28",
-    "liczba": 126
+    "liczba": 268
    },
    {
     "teryt": "30",
-    "liczba": 466
+    "liczba": 1107
    },
    {
     "teryt": "32",
-    "liczba": 105
+    "liczba": 262
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 752
+    "liczba": 1302
    },
    {
     "rok": 2018,
-    "liczba": 1413
+    "liczba": 2180
    },
    {
     "rok": 2019,
-    "liczba": 983
+    "liczba": 1664
    },
    {
     "rok": 2020,
-    "liczba": 166
+    "liczba": 589
    },
    {
     "rok": 2021,
-    "liczba": 111
+    "liczba": 430
    },
    {
     "rok": 2022,
-    "liczba": 88
+    "liczba": 299
    },
    {
     "rok": 2023,
-    "liczba": 61
+    "liczba": 430
    },
    {
     "rok": 2024,
-    "liczba": 32
+    "liczba": 1659
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3450
+    "liczba": 7820
    },
    {
     "nazwa": "Diesel",
-    "liczba": 219
+    "liczba": 773
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 119
+    "liczba": 140
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 4
+   }
+  ],
+  "pojemnosci": [
+   {
+    "nazwa": "1,2 l",
+    "liczba": 7957
+   },
+   {
+    "nazwa": "1,5 l",
+    "liczba": 486
+   },
+   {
+    "nazwa": "1,6 l",
+    "liczba": 293
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "pojemnosci": [
-   {
-    "nazwa": "1,2 l",
-    "liczba": 3568
-   },
-   {
-    "nazwa": "1,5 l",
-    "liczba": 127
-   },
-   {
-    "nazwa": "1,6 l",
-    "liczba": 94
-   }
-  ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2532
+    "liczba": 4098
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1080
+    "liczba": 3279
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 170
+    "liczba": 1347
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 13
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3618
+    "liczba": 7856
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 95
+    "liczba": 543
    },
    {
     "nazwa": "Kombi",
-    "liczba": 49
+    "liczba": 238
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 100
    }
   ],
-  "noweOdPaczki": 1158,
-  "hybrydy": 0,
+  "noweOdPaczki": 6106,
+  "hybrydy": 2,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 418
+   },
+   {
+    "rok": 2024,
+    "liczba": 2967
+   },
+   {
+    "rok": 2025,
+    "liczba": 1495
+   },
+   {
     "rok": 2026,
-    "liczba": 1158
+    "liczba": 1226
    }
   ],
-  "miejsce": 381,
-  "miejsceWMarce": 20,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2018.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 232
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 310
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 291
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 259
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 505
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 393
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 217
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 220
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 166
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 128
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 157
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 140
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 106
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 127
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 123
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 143
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 308,
+  "miejsceWMarce": 18,
+  "modeliWMarce": 33,
+  "sredniRocznik": 2019.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "crossland",
  "adres": "/marki/opel/crossland/",
  "konkurenci": [
   {
+   "slug": "ford-puma",
+   "nazwa": "Ford Puma",
+   "adres": "/marki/ford/puma/"
+  },
+  {
    "slug": "renault-captur",
    "nazwa": "Renault Captur",
    "adres": "/marki/renault/captur/"
-  },
-  {
-   "slug": "ford-b-max",
-   "nazwa": "Ford B-Max",
-   "adres": "/marki/ford/b-max/"
-  },
-  {
-   "slug": "nissan-pulsar",
-   "nazwa": "Nissan Pulsar",
-   "adres": "/marki/nissan/pulsar/"
   },
   {
    "slug": "hyundai-kona",
@@ -228,9 +382,14 @@
    "adres": "/marki/hyundai/kona/"
   },
   {
-   "slug": "fiat-500l",
-   "nazwa": "Fiat 500L",
-   "adres": "/marki/fiat/500l/"
+   "slug": "kia-stonic",
+   "nazwa": "Kia Stonic",
+   "adres": "/marki/kia/stonic/"
+  },
+  {
+   "slug": "nissan-pulsar",
+   "nazwa": "Nissan Pulsar",
+   "adres": "/marki/nissan/pulsar/"
   }
  ]
 }

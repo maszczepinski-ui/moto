@@ -14,37 +14,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 89 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 89, 89 1.8, 89 1.8 KAT).",
-  "liczbaWPolsce": 916,
-  "aktywne": 68,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 89 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 70 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 89, 89 1.8, 89 1.8 KAT).",
+  "liczbaWPolsce": 966,
+  "aktywne": 118,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 138
+    "liczba": 146
    },
    {
     "teryt": "04",
-    "liczba": 46
+    "liczba": 51
    },
    {
     "teryt": "06",
-    "liczba": 67
+    "liczba": 70
    },
    {
     "teryt": "08",
-    "liczba": 29
+    "liczba": 34
    },
    {
     "teryt": "10",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "teryt": "12",
-    "liczba": 75
+    "liczba": 77
    },
    {
     "teryt": "14",
-    "liczba": 77
+    "liczba": 82
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 31
+    "liczba": 33
    },
    {
     "teryt": "20",
@@ -60,11 +60,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 87
+    "liczba": 90
    },
    {
     "teryt": "24",
-    "liczba": 109
+    "liczba": 113
    },
    {
     "teryt": "26",
@@ -72,15 +72,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 47
+    "liczba": 49
    },
    {
     "teryt": "30",
-    "liczba": 27
+    "liczba": 35
    },
    {
     "teryt": "32",
-    "liczba": 18
+    "liczba": 20
    }
   ],
   "bezWojewodztwa": 4,
@@ -95,15 +95,15 @@
    },
    {
     "rok": 1988,
-    "liczba": 108
+    "liczba": 109
    },
    {
     "rok": 1989,
-    "liczba": 119
+    "liczba": 123
    },
    {
     "rok": 1990,
-    "liczba": 162
+    "liczba": 164
    },
    {
     "rok": 1991,
@@ -111,45 +111,45 @@
    },
    {
     "rok": 1992,
-    "liczba": 41
+    "liczba": 44
    },
    {
     "rok": 1993,
-    "liczba": 26
+    "liczba": 30
    },
    {
     "rok": 1994,
-    "liczba": 38
+    "liczba": 44
    },
    {
     "rok": 1995,
-    "liczba": 49
+    "liczba": 60
    },
    {
     "rok": 1996,
-    "liczba": 42
+    "liczba": 49
    },
    {
     "rok": 1997,
-    "liczba": 28
+    "liczba": 33
    },
    {
     "rok": 1998,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 1999,
-    "liczba": 3
+    "liczba": 8
    },
    {
     "rok": 2000,
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 373
+    "liczba": 422
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -157,7 +157,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "nazwa": "?+LPG",
@@ -171,15 +171,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 408
-   },
-   {
-    "nazwa": "2,3 l",
-    "liczba": 157
+    "liczba": 416
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 153
+    "liczba": 171
+   },
+   {
+    "nazwa": "2,3 l",
+    "liczba": 162
    },
    {
     "nazwa": "1,6 l",
@@ -187,15 +187,15 @@
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 29
-   },
-   {
-    "nazwa": "1,9 l",
-    "liczba": 19
+    "liczba": 40
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 17
+    "liczba": 24
+   },
+   {
+    "nazwa": "1,9 l",
+    "liczba": 20
    },
    {
     "nazwa": "Inne / brak danych",
@@ -205,11 +205,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 539
+    "liczba": 545
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 319
+    "liczba": 363
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -227,15 +227,15 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 493
+    "liczba": 495
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 99
+    "liczba": 137
    },
    {
     "nazwa": "Coupe",
-    "liczba": 86
+    "liczba": 96
    },
    {
     "nazwa": "Hatchback",
@@ -246,25 +246,175 @@
     "liczba": 202
    }
   ],
-  "noweOdPaczki": 20,
+  "noweOdPaczki": 70,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 22
+   },
+   {
+    "rok": 2025,
+    "liczba": 28
+   },
    {
     "rok": 2026,
     "liczba": 20
    }
   ],
-  "miejsce": 693,
-  "miejsceWMarce": 20,
-  "modeliWMarce": 45,
-  "sredniRocznik": 1990.6
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 764,
+  "miejsceWMarce": 27,
+  "modeliWMarce": 51,
+  "sredniRocznik": 1990.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "89",
@@ -286,9 +436,9 @@
    "adres": "/marki/ford/scorpio/"
   },
   {
-   "slug": "mercedes-benz-190-w201",
-   "nazwa": "Mercedes-Benz 190 (W201)",
-   "adres": "/marki/mercedes-benz/190-w201/"
+   "slug": "mitsubishi-galant",
+   "nazwa": "Mitsubishi Galant",
+   "adres": "/marki/mitsubishi/galant/"
   },
   {
    "slug": "bmw-seria-3-e36",

@@ -11,96 +11,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Arkana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 265 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARKANA E-TECH, ARKANA).",
-  "liczbaWPolsce": 1265,
-  "aktywne": 1265,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Arkana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 419 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARKANA, ARKANA E-TECH).",
+  "liczbaWPolsce": 6419,
+  "aktywne": 6419,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 83
+    "liczba": 496
    },
    {
     "teryt": "04",
-    "liczba": 71
+    "liczba": 231
    },
    {
     "teryt": "06",
-    "liczba": 60
+    "liczba": 198
    },
    {
     "teryt": "08",
-    "liczba": 22
+    "liczba": 89
    },
    {
     "teryt": "10",
-    "liczba": 60
+    "liczba": 230
    },
    {
     "teryt": "12",
-    "liczba": 83
+    "liczba": 1093
    },
    {
     "teryt": "14",
-    "liczba": 367
+    "liczba": 1979
    },
    {
     "teryt": "16",
-    "liczba": 11
+    "liczba": 70
    },
    {
     "teryt": "18",
-    "liczba": 38
+    "liczba": 139
    },
    {
     "teryt": "20",
-    "liczba": 20
+    "liczba": 73
    },
    {
     "teryt": "22",
-    "liczba": 71
+    "liczba": 304
    },
    {
     "teryt": "24",
-    "liczba": 95
+    "liczba": 498
    },
    {
     "teryt": "26",
-    "liczba": 13
+    "liczba": 79
    },
    {
     "teryt": "28",
-    "liczba": 30
+    "liczba": 130
    },
    {
     "teryt": "30",
-    "liczba": 213
+    "liczba": 677
    },
    {
     "teryt": "32",
-    "liczba": 28
+    "liczba": 133
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 98
+    "liczba": 292
    },
    {
     "rok": 2022,
-    "liczba": 190
+    "liczba": 621
    },
    {
     "rok": 2023,
-    "liczba": 100
+    "liczba": 1202
    },
    {
     "rok": 2024,
-    "liczba": 48
+    "liczba": 2407
    },
    {
     "rok": 2025,
-    "liczba": 533
+    "liczba": 1601
    },
    {
     "rok": 2026,
@@ -110,92 +110,242 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 989
+    "liczba": 4428
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 272
+    "liczba": 1981
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 10
    }
   ],
   "pojemnosci": [
    {
-    "nazwa": "1,6 l",
-    "liczba": 873
+    "nazwa": "1,3 l",
+    "liczba": 3433
    },
    {
-    "nazwa": "1,3 l",
-    "liczba": 392
+    "nazwa": "1,6 l",
+    "liczba": 2986
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 815
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 367
+    "liczba": 4380
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 79
+    "liczba": 1206
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 811
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 22
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1229
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 18
+    "liczba": 6313
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 106
    }
   ],
-  "noweOdPaczki": 1265,
-  "hybrydy": 990,
+  "noweOdPaczki": 6419,
+  "hybrydy": 4429,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 669
+   },
+   {
+    "rok": 2024,
+    "liczba": 2312
+   },
+   {
+    "rok": 2025,
+    "liczba": 2128
+   },
+   {
     "rok": 2026,
-    "liczba": 1265
+    "liczba": 1310
    }
   ],
-  "miejsce": 615,
-  "miejsceWMarce": 29,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 158
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 326
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 601
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 98
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 222
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 229
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 247
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 145
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 717
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 102
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 356,
+  "miejsceWMarce": 17,
   "modeliWMarce": 48,
-  "sredniRocznik": 2024.3
+  "sredniRocznik": 2023.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "arkana",
  "adres": "/marki/renault/arkana/",
  "konkurenci": [
   {
-   "slug": "mg-hs",
-   "nazwa": "MG HS",
-   "adres": "/marki/mg/hs/"
+   "slug": "suzuki-s-cross",
+   "nazwa": "Suzuki S-Cross",
+   "adres": "/marki/suzuki/s-cross/"
   },
   {
-   "slug": "chery-tiggo-4",
-   "nazwa": "Chery Tiggo 4",
-   "adres": "/marki/chery/tiggo-4/"
+   "slug": "kia-xceed",
+   "nazwa": "Kia XCeed",
+   "adres": "/marki/kia/xceed/"
   },
   {
    "slug": "mg-zs",
@@ -203,14 +353,14 @@
    "adres": "/marki/mg/zs/"
   },
   {
-   "slug": "jaecoo-7",
-   "nazwa": "Jaecoo 7",
-   "adres": "/marki/jaecoo/7/"
+   "slug": "mg-hs",
+   "nazwa": "MG HS",
+   "adres": "/marki/mg/hs/"
   },
   {
-   "slug": "chery-tiggo-7",
-   "nazwa": "Chery Tiggo 7",
-   "adres": "/marki/chery/tiggo-7/"
+   "slug": "dacia-bigster",
+   "nazwa": "Dacia Bigster",
+   "adres": "/marki/dacia/bigster/"
   }
  ]
 }

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Visa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VISA 1.1, VISA, VISA 0.6).",
-  "liczbaWPolsce": 1563,
-  "aktywne": 4,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Visa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VISA, VISA 1.1, VISA 0.6).",
+  "liczbaWPolsce": 1564,
+  "aktywne": 5,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 194
+    "liczba": 195
    },
    {
     "teryt": "16",
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 170
+    "liczba": 171
    },
    {
     "rok": 1987,
@@ -163,7 +163,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 318
+    "liczba": 319
    },
    {
     "nazwa": "Diesel",
@@ -181,7 +181,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 772
+    "liczba": 773
    },
    {
     "nazwa": "0,7 l",
@@ -227,7 +227,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -241,7 +241,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 177
+    "liczba": 178
    },
    {
     "nazwa": "Sedan",
@@ -252,25 +252,171 @@
     "liczba": 1238
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 4,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 3
    }
   ],
-  "miejsce": 572,
-  "miejsceWMarce": 21,
-  "modeliWMarce": 39,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 637,
+  "miejsceWMarce": 22,
+  "modeliWMarce": 40,
   "sredniRocznik": 1984.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "visa",
@@ -287,11 +433,6 @@
    "adres": "/marki/skoda/105-120/"
   },
   {
-   "slug": "renault-5",
-   "nazwa": "Renault 5",
-   "adres": "/marki/renault/5/"
-  },
-  {
    "slug": "nissan-cherry",
    "nazwa": "Nissan Cherry",
    "adres": "/marki/nissan/cherry/"
@@ -300,6 +441,11 @@
    "slug": "renault-9",
    "nazwa": "Renault 9",
    "adres": "/marki/renault/9/"
+  },
+  {
+   "slug": "renault-11",
+   "nazwa": "Renault 11",
+   "adres": "/marki/renault/11/"
   }
  ]
 }

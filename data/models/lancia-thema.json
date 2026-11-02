@@ -5,80 +5,79 @@
  "generacja": "",
  "lataProdukcji": "1986–2013",
  "nadwozia": [
-  "sedan",
-  "kombi"
+  "sedan"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Thema – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THEMA, THEMA 2.0, THEMA 2.0 KAT, THEMA 2.5TD).",
-  "liczbaWPolsce": 1116,
-  "aktywne": 109,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Thema – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 81 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THEMA, THEMA 2.0, THEMA 2.0 KAT, THEMA 2.5TD).",
+  "liczbaWPolsce": 1180,
+  "aktywne": 173,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 101
+    "liczba": 105
    },
    {
     "teryt": "04",
-    "liczba": 51
+    "liczba": 53
    },
    {
     "teryt": "06",
-    "liczba": 87
+    "liczba": 92
    },
    {
     "teryt": "08",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "10",
-    "liczba": 64
+    "liczba": 66
    },
    {
     "teryt": "12",
-    "liczba": 85
+    "liczba": 89
    },
    {
     "teryt": "14",
-    "liczba": 242
+    "liczba": 254
    },
    {
     "teryt": "16",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "teryt": "18",
-    "liczba": 48
+    "liczba": 51
    },
    {
     "teryt": "20",
-    "liczba": 25
+    "liczba": 29
    },
    {
     "teryt": "22",
-    "liczba": 58
+    "liczba": 62
    },
    {
     "teryt": "24",
-    "liczba": 103
+    "liczba": 106
    },
    {
     "teryt": "26",
-    "liczba": 26
+    "liczba": 29
    },
    {
     "teryt": "28",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "teryt": "30",
-    "liczba": 95
+    "liczba": 105
    },
    {
     "teryt": "32",
-    "liczba": 53
+    "liczba": 55
    }
   ],
   "bezWojewodztwa": 4,
@@ -89,7 +88,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1987,
@@ -97,7 +96,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 53
+    "liczba": 56
    },
    {
     "rok": 1989,
@@ -117,7 +116,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 148
+    "liczba": 150
    },
    {
     "rok": 1994,
@@ -189,33 +188,33 @@
    },
    {
     "rok": 2011,
-    "liczba": 48
+    "liczba": 63
    },
    {
     "rok": 2012,
-    "liczba": 58
+    "liczba": 80
    },
    {
     "rok": 2013,
-    "liczba": 38
+    "liczba": 56
    },
    {
     "rok": 2014,
-    "liczba": 5
+    "liczba": 8
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna",
-    "liczba": 301
+    "nazwa": "Diesel",
+    "liczba": 320
    },
    {
-    "nazwa": "Diesel",
-    "liczba": 279
+    "nazwa": "Benzyna",
+    "liczba": 314
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 192
+    "liczba": 202
    },
    {
     "nazwa": "?+LPG",
@@ -229,11 +228,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 588
+    "liczba": 591
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 166
+    "liczba": 208
    },
    {
     "nazwa": "2,5 l",
@@ -244,26 +243,30 @@
     "liczba": 69
    },
    {
+    "nazwa": "3,6 l",
+    "liczba": 65
+   },
+   {
     "nazwa": "2,4 l",
     "liczba": 54
    },
    {
-    "nazwa": "3,6 l",
-    "liczba": 48
+    "nazwa": "2,9 l",
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 34
+    "liczba": 23
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 686
+    "liczba": 703
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 279
+    "liczba": 326
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -281,7 +284,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 608
+    "liczba": 670
    },
    {
     "nazwa": "Kombi",
@@ -293,28 +296,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 440
+    "liczba": 442
    }
   ],
-  "noweOdPaczki": 17,
+  "noweOdPaczki": 81,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 5
+   },
+   {
+    "rok": 2024,
+    "liczba": 29
+   },
+   {
+    "rok": 2025,
+    "liczba": 29
+   },
+   {
     "rok": 2026,
-    "liczba": 17
+    "liczba": 18
    }
   ],
-  "miejsce": 648,
-  "miejsceWMarce": 6,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 706,
+  "miejsceWMarce": 7,
   "modeliWMarce": 15,
-  "sredniRocznik": 1994.3
+  "sredniRocznik": 1995.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "thema",
@@ -331,19 +488,19 @@
    "adres": "/marki/peugeot/605/"
   },
   {
-   "slug": "mitsubishi-galant",
-   "nazwa": "Mitsubishi Galant",
-   "adres": "/marki/mitsubishi/galant/"
+   "slug": "volvo-s70",
+   "nazwa": "Volvo S70",
+   "adres": "/marki/volvo/s70/"
   },
   {
-   "slug": "ford-scorpio",
-   "nazwa": "Ford Scorpio",
-   "adres": "/marki/ford/scorpio/"
+   "slug": "rover-600",
+   "nazwa": "Rover 600",
+   "adres": "/marki/rover/600/"
   },
   {
-   "slug": "volkswagen-vento",
-   "nazwa": "Volkswagen Vento",
-   "adres": "/marki/volkswagen/vento/"
+   "slug": "bmw-seria-5-e39",
+   "nazwa": "BMW Seria 5 E39",
+   "adres": "/marki/bmw/seria-5/e39/"
   }
  ]
 }

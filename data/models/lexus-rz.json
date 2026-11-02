@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus RZ – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 231 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS RZ500E, RZ500E, LEXUS RZ350E, LEXUS RZ550E, RZ550E).",
-  "liczbaWPolsce": 231,
-  "aktywne": 231,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus RZ – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 519 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RZ450E, LEXUS RZ450E, LEXUS RZ500E, RZ300E, RZ500E).",
+  "liczbaWPolsce": 519,
+  "aktywne": 519,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 17
+    "liczba": 52
    },
    {
     "teryt": "04",
-    "liczba": 7
+    "liczba": 22
    },
    {
     "teryt": "06",
-    "liczba": 11
+    "liczba": 17
    },
    {
     "teryt": "08",
@@ -33,66 +33,66 @@
    },
    {
     "teryt": "10",
-    "liczba": 7
+    "liczba": 20
    },
    {
     "teryt": "12",
-    "liczba": 25
+    "liczba": 76
    },
    {
     "teryt": "14",
-    "liczba": 69
+    "liczba": 133
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 8
    },
    {
     "teryt": "18",
-    "liczba": 11
+    "liczba": 19
    },
    {
     "teryt": "20",
-    "liczba": 7
-   },
-   {
-    "teryt": "22",
     "liczba": 11
    },
    {
+    "teryt": "22",
+    "liczba": 23
+   },
+   {
     "teryt": "24",
-    "liczba": 26
+    "liczba": 53
    },
    {
     "teryt": "26",
-    "liczba": 7
+    "liczba": 16
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 19
    },
    {
     "teryt": "30",
-    "liczba": 15
+    "liczba": 33
    },
    {
     "teryt": "32",
-    "liczba": 7
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2023,
-    "liczba": 7
+    "liczba": 111
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 33
    },
    {
     "rok": 2025,
-    "liczba": 76
+    "liczba": 229
    },
    {
     "rok": 2026,
@@ -102,68 +102,245 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 231
+    "liczba": 519
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 231
+    "liczba": 519
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 212
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 14
+    "liczba": 441
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3
+    "liczba": 52
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 19
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 2
+    "liczba": 7
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 225
-   },
-   {
-    "nazwa": "Kombi",
-    "liczba": 3
+    "liczba": 511
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 8
    }
   ],
-  "noweOdPaczki": 231,
+  "noweOdPaczki": 519,
   "hybrydy": 0,
-  "elektryczne": 231,
+  "elektryczne": 519,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 35
+   },
+   {
+    "rok": 2024,
+    "liczba": 81
+   },
+   {
+    "rok": 2025,
+    "liczba": 164
+   },
+   {
     "rok": 2026,
-    "liczba": 231
+    "liczba": 239
    }
   ],
-  "miejsce": 1072,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 910,
   "miejsceWMarce": 10,
-  "modeliWMarce": 10,
-  "sredniRocznik": 2025.6
+  "modeliWMarce": 12,
+  "sredniRocznik": 2024.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "rz",
- "adres": "/marki/lexus/rz/"
+ "adres": "/marki/lexus/rz/",
+ "konkurenci": [
+  {
+   "slug": "tesla-model-y",
+   "nazwa": "Tesla Model Y",
+   "adres": "/marki/tesla/model-y/"
+  },
+  {
+   "slug": "kia-ev3",
+   "nazwa": "Kia EV3",
+   "adres": "/marki/kia/ev3/"
+  },
+  {
+   "slug": "hyundai-inster",
+   "nazwa": "Hyundai Inster",
+   "adres": "/marki/hyundai/inster/"
+  },
+  {
+   "slug": "byd-sealion-7",
+   "nazwa": "BYD Sealion 7",
+   "adres": "/marki/byd/sealion-7/"
+  },
+  {
+   "slug": "hyundai-ioniq5",
+   "nazwa": "Hyundai IONIQ5",
+   "adres": "/marki/hyundai/ioniq5/"
+  }
+ ]
 }

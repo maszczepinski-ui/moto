@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 412 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 412).",
-  "liczbaWPolsce": 1052,
-  "aktywne": 1,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 412 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 412).",
+  "liczbaWPolsce": 1053,
+  "aktywne": 2,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -70,6 +70,10 @@
    {
     "teryt": "30",
     "liczba": 3
+   },
+   {
+    "teryt": "32",
+    "liczba": 1
    }
   ],
   "bezWojewodztwa": 0,
@@ -80,7 +84,7 @@
    },
    {
     "rok": 1969,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1970,
@@ -174,7 +178,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "nazwa": "?+LPG",
@@ -188,7 +192,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 909
+    "liczba": 910
    },
    {
     "nazwa": "1,4 l",
@@ -210,29 +214,175 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26
+    "liczba": 27
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 174
+    "liczba": 175
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 878
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 2,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 661,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 739,
   "miejsceWMarce": 2,
   "modeliWMarce": 5,
   "sredniRocznik": 1972.5
@@ -241,7 +391,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "moskwicz",
  "modelSlug": "412",
@@ -253,14 +403,14 @@
    "adres": "/marki/volkswagen/1302/"
   },
   {
-   "slug": "volkswagen-1500",
-   "nazwa": "Volkswagen 1500",
-   "adres": "/marki/volkswagen/1500/"
-  },
-  {
    "slug": "volkswagen-1303",
    "nazwa": "Volkswagen 1303",
    "adres": "/marki/volkswagen/1303/"
+  },
+  {
+   "slug": "volkswagen-1500",
+   "nazwa": "Volkswagen 1500",
+   "adres": "/marki/volkswagen/1500/"
   },
   {
    "slug": "volkswagen-1600",

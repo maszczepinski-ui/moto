@@ -11,88 +11,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda ZR-V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 480 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZR-V).",
-  "liczbaWPolsce": 480,
-  "aktywne": 480,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda ZR-V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 966 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZR-V).",
+  "liczbaWPolsce": 1966,
+  "aktywne": 1966,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 23
+    "liczba": 153
    },
    {
     "teryt": "04",
-    "liczba": 7
+    "liczba": 30
    },
    {
     "teryt": "06",
-    "liczba": 28
+    "liczba": 93
    },
    {
     "teryt": "08",
-    "liczba": 13
+    "liczba": 60
    },
    {
     "teryt": "10",
-    "liczba": 24
+    "liczba": 130
    },
    {
     "teryt": "12",
-    "liczba": 57
+    "liczba": 190
    },
    {
     "teryt": "14",
-    "liczba": 120
+    "liczba": 490
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 16
    },
    {
     "teryt": "18",
-    "liczba": 32
+    "liczba": 141
    },
    {
     "teryt": "20",
-    "liczba": 17
+    "liczba": 59
    },
    {
     "teryt": "22",
-    "liczba": 25
+    "liczba": 109
    },
    {
     "teryt": "24",
-    "liczba": 63
+    "liczba": 234
    },
    {
     "teryt": "26",
-    "liczba": 6
+    "liczba": 23
    },
    {
     "teryt": "28",
-    "liczba": 10
+    "liczba": 30
    },
    {
     "teryt": "30",
-    "liczba": 36
+    "liczba": 139
    },
    {
     "teryt": "32",
-    "liczba": 15
+    "liczba": 69
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2023,
-    "liczba": 6
+    "liczba": 427
    },
    {
     "rok": 2024,
-    "liczba": 7
+    "liczba": 913
    },
    {
     "rok": 2025,
-    "liczba": 303
+    "liczba": 461
    },
    {
     "rok": 2026,
@@ -102,66 +102,224 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 474
+    "liczba": 1933
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 6
+    "liczba": 32
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 480
+    "liczba": 1966
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 434
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 22
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 13
+    "liczba": 1706
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 11
+    "liczba": 196
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 36
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 28
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 476
+    "liczba": 1959
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 7
    }
   ],
-  "noweOdPaczki": 480,
-  "hybrydy": 474,
+  "noweOdPaczki": 1966,
+  "hybrydy": 1933,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 99
+   },
+   {
+    "rok": 2024,
+    "liczba": 609
+   },
+   {
+    "rok": 2025,
+    "liczba": 744
+   },
+   {
     "rok": 2026,
-    "liczba": 480
+    "liczba": 514
    }
   ],
-  "miejsce": 854,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 19,
-  "sredniRocznik": 2025.3
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 87
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 71
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 582,
+  "miejsceWMarce": 11,
+  "modeliWMarce": 20,
+  "sredniRocznik": 2024.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "honda",
  "modelSlug": "zr-v",
@@ -173,24 +331,24 @@
    "adres": "/marki/toyota/yaris-cross/"
   },
   {
-   "slug": "omoda-9",
-   "nazwa": "Omoda 9",
-   "adres": "/marki/omoda/9/"
+   "slug": "lexus-ux",
+   "nazwa": "Lexus UX",
+   "adres": "/marki/lexus/ux/"
   },
   {
-   "slug": "chery-tiggo-8",
-   "nazwa": "Chery Tiggo 8",
-   "adres": "/marki/chery/tiggo-8/"
+   "slug": "lexus-nx",
+   "nazwa": "Lexus NX",
+   "adres": "/marki/lexus/nx/"
   },
   {
-   "slug": "byd-seal-u",
-   "nazwa": "BYD Seal U",
-   "adres": "/marki/byd/seal-u/"
+   "slug": "mazda-cx-30",
+   "nazwa": "Mazda CX-30",
+   "adres": "/marki/mazda/cx-30/"
   },
   {
-   "slug": "chery-tiggo-9",
-   "nazwa": "Chery Tiggo 9",
-   "adres": "/marki/chery/tiggo-9/"
+   "slug": "subaru-crosstrek",
+   "nazwa": "Subaru Crosstrek",
+   "adres": "/marki/subaru/crosstrek/"
   }
  ]
 }

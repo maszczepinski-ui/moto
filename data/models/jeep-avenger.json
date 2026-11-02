@@ -11,88 +11,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jeep Avenger – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 176 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AVENGER).",
-  "liczbaWPolsce": 1176,
-  "aktywne": 1176,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jeep Avenger – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 948 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AVENGER).",
+  "liczbaWPolsce": 3948,
+  "aktywne": 3948,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 44
+    "liczba": 187
    },
    {
     "teryt": "04",
-    "liczba": 28
+    "liczba": 104
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 72
    },
    {
     "teryt": "08",
-    "liczba": 21
+    "liczba": 76
    },
    {
     "teryt": "10",
-    "liczba": 26
+    "liczba": 105
    },
    {
     "teryt": "12",
-    "liczba": 174
+    "liczba": 528
    },
    {
     "teryt": "14",
-    "liczba": 416
+    "liczba": 955
    },
    {
     "teryt": "16",
-    "liczba": 11
+    "liczba": 63
    },
    {
     "teryt": "18",
-    "liczba": 39
+    "liczba": 133
    },
    {
     "teryt": "20",
-    "liczba": 23
+    "liczba": 72
    },
    {
     "teryt": "22",
-    "liczba": 54
+    "liczba": 285
    },
    {
     "teryt": "24",
-    "liczba": 168
+    "liczba": 720
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 16
    },
    {
     "teryt": "28",
-    "liczba": 32
+    "liczba": 107
    },
    {
     "teryt": "30",
-    "liczba": 75
+    "liczba": 365
    },
    {
     "teryt": "32",
-    "liczba": 47
+    "liczba": 160
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2023,
-    "liczba": 15
+    "liczba": 517
    },
    {
     "rok": 2024,
-    "liczba": 24
+    "liczba": 973
    },
    {
     "rok": 2025,
-    "liczba": 191
+    "liczba": 1511
    },
    {
     "rok": 2026,
@@ -102,43 +102,47 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 698
+    "liczba": 2183
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 437
+    "liczba": 1018
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 41
+    "liczba": 746
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 1135
+    "liczba": 3203
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 41
+    "liczba": 745
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1054
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 54
+    "liczba": 3398
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 52
+    "liczba": 399
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 91
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 15
+    "liczba": 59
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,46 +152,205 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1169
+    "liczba": 3929
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 19
    }
   ],
-  "noweOdPaczki": 1176,
-  "hybrydy": 437,
-  "elektryczne": 41,
+  "noweOdPaczki": 3948,
+  "hybrydy": 1018,
+  "elektryczne": 746,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 212
+   },
+   {
+    "rok": 2024,
+    "liczba": 905
+   },
+   {
+    "rok": 2025,
+    "liczba": 1580
+   },
+   {
     "rok": 2026,
-    "liczba": 1176
+    "liczba": 1251
    }
   ],
-  "miejsce": 635,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 71
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 102
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 106
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 106
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 171
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 248
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 173
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 184
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 117
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 451,
   "miejsceWMarce": 6,
   "modeliWMarce": 9,
-  "sredniRocznik": 2025.8
+  "sredniRocznik": 2024.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jeep",
  "modelSlug": "avenger",
  "adres": "/marki/jeep/avenger/",
  "konkurenci": [
   {
+   "slug": "alfa-romeo-junior",
+   "nazwa": "Alfa Romeo Junior",
+   "adres": "/marki/alfa-romeo/junior/"
+  },
+  {
    "slug": "toyota-yaris-cross",
    "nazwa": "Toyota Yaris Cross",
    "adres": "/marki/toyota/yaris-cross/"
   },
   {
-   "slug": "byd-seal-u",
-   "nazwa": "BYD Seal U",
-   "adres": "/marki/byd/seal-u/"
+   "slug": "volkswagen-t-cross",
+   "nazwa": "Volkswagen T-Cross",
+   "adres": "/marki/volkswagen/t-cross/"
   },
   {
    "slug": "peugeot-408",
@@ -195,14 +358,9 @@
    "adres": "/marki/peugeot/408/"
   },
   {
-   "slug": "skoda-kamiq",
-   "nazwa": "Skoda Kamiq",
-   "adres": "/marki/skoda/kamiq/"
-  },
-  {
-   "slug": "jaecoo-8",
-   "nazwa": "Jaecoo 8",
-   "adres": "/marki/jaecoo/8/"
+   "slug": "skoda-scala",
+   "nazwa": "Skoda Scala",
+   "adres": "/marki/skoda/scala/"
   }
  ]
 }

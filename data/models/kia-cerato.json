@@ -13,37 +13,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Cerato – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CERATO, CERATO 2.0 CRDI, CERATO 1.6 KAT, CERATO 1.5 CRDI, CERATO 1.6).",
-  "liczbaWPolsce": 2248,
-  "aktywne": 886,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Cerato – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 63 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CERATO, CERATO 2.0 CRDI, CERATO 1.6 KAT, CERATO 1.5 CRDI, CERATO 1.6).",
+  "liczbaWPolsce": 2299,
+  "aktywne": 937,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 158
+    "liczba": 162
    },
    {
     "teryt": "04",
-    "liczba": 83
+    "liczba": 84
    },
    {
     "teryt": "06",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "08",
-    "liczba": 99
+    "liczba": 106
    },
    {
     "teryt": "10",
-    "liczba": 253
+    "liczba": 254
    },
    {
     "teryt": "12",
-    "liczba": 130
+    "liczba": 133
    },
    {
     "teryt": "14",
-    "liczba": 307
+    "liczba": 312
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 127
+    "liczba": 130
    },
    {
     "teryt": "20",
@@ -59,64 +59,64 @@
    },
    {
     "teryt": "22",
-    "liczba": 99
+    "liczba": 103
    },
    {
     "teryt": "24",
-    "liczba": 237
+    "liczba": 240
    },
    {
     "teryt": "26",
-    "liczba": 61
+    "liczba": 63
    },
    {
     "teryt": "28",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "30",
-    "liczba": 227
+    "liczba": 237
    },
    {
     "teryt": "32",
-    "liczba": 167
+    "liczba": 173
    }
   ],
   "bezWojewodztwa": 17,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 492
+    "liczba": 503
    },
    {
     "rok": 2005,
-    "liczba": 991
+    "liczba": 1008
    },
    {
     "rok": 2006,
-    "liczba": 608
+    "liczba": 623
    },
    {
     "rok": 2007,
-    "liczba": 88
+    "liczba": 90
    },
    {
     "rok": 2008,
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 958
+    "liczba": 968
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 786
+    "liczba": 824
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 492
+    "liczba": 495
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,15 +126,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1193
+    "liczba": 1226
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 654
+    "liczba": 670
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 392
+    "liczba": 394
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,11 +144,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1416
+    "liczba": 1458
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 562
+    "liczba": 571
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -162,15 +162,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1224
+    "liczba": 1244
    },
    {
     "nazwa": "Sedan",
-    "liczba": 668
+    "liczba": 686
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 271
+    "liczba": 282
    },
    {
     "nazwa": "Kombi",
@@ -178,57 +178,211 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 54
+    "liczba": 56
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 63,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 9
+   },
+   {
+    "rok": 2024,
+    "liczba": 24
+   },
+   {
+    "rok": 2025,
+    "liczba": 18
+   },
    {
     "rok": 2026,
     "liczba": 12
    }
   ],
-  "miejsce": 475,
-  "miejsceWMarce": 15,
-  "modeliWMarce": 29,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 542,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 32,
   "sredniRocznik": 2005.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "cerato",
  "adres": "/marki/kia/cerato/",
  "konkurenci": [
   {
+   "slug": "renault-megane-ii",
+   "nazwa": "Renault Megane II",
+   "adres": "/marki/renault/megane/ii/"
+  },
+  {
+   "slug": "volkswagen-golf-v",
+   "nazwa": "Volkswagen Golf V",
+   "adres": "/marki/volkswagen/golf/v/"
+  },
+  {
    "slug": "mercedes-benz-klasa-a",
    "nazwa": "Mercedes-Benz Klasa A",
    "adres": "/marki/mercedes-benz/klasa-a/"
   },
   {
-   "slug": "renault-megane",
-   "nazwa": "Renault Megane",
-   "adres": "/marki/renault/megane/"
+   "slug": "peugeot-307",
+   "nazwa": "Peugeot 307",
+   "adres": "/marki/peugeot/307/"
   },
   {
-   "slug": "audi-a3",
-   "nazwa": "Audi A3",
-   "adres": "/marki/audi/a3/"
-  },
-  {
-   "slug": "toyota-corolla",
-   "nazwa": "Toyota Corolla",
-   "adres": "/marki/toyota/corolla/"
-  },
-  {
-   "slug": "ford-focus",
-   "nazwa": "Ford Focus",
-   "adres": "/marki/ford/focus/"
+   "slug": "opel-astra",
+   "nazwa": "Opel Astra",
+   "adres": "/marki/opel/astra/"
   }
  ]
 }

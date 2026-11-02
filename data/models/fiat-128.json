@@ -5,15 +5,16 @@
  "generacja": "",
  "lataProdukcji": "1970–1982",
  "nadwozia": [
-  "sedan"
+  "sedan",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 128 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 128, 128 3P, 128 S, 128 SPORT, 128 1300 SPECIAL).",
-  "liczbaWPolsce": 1710,
-  "aktywne": 16,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 128 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 128, 128 3P, 128 S, 128 SPORT, 128 1300 SPECIAL).",
+  "liczbaWPolsce": 1727,
+  "aktywne": 33,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 203
+    "liczba": 206
    },
    {
     "teryt": "14",
-    "liczba": 229
+    "liczba": 231
    },
    {
     "teryt": "16",
@@ -49,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "teryt": "20",
@@ -61,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 180
+    "liczba": 182
    },
    {
     "teryt": "26",
@@ -69,22 +70,22 @@
    },
    {
     "teryt": "28",
-    "liczba": 51
+    "liczba": 53
    },
    {
     "teryt": "30",
-    "liczba": 166
+    "liczba": 172
    },
    {
     "teryt": "32",
-    "liczba": 91
+    "liczba": 92
    }
   ],
   "bezWojewodztwa": 10,
   "roczniki": [
    {
     "rok": 1969,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1970,
@@ -92,7 +93,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 64
+    "liczba": 65
    },
    {
     "rok": 1972,
@@ -100,7 +101,7 @@
    },
    {
     "rok": 1973,
-    "liczba": 114
+    "liczba": 116
    },
    {
     "rok": 1974,
@@ -108,19 +109,19 @@
    },
    {
     "rok": 1975,
-    "liczba": 309
+    "liczba": 311
    },
    {
     "rok": 1976,
-    "liczba": 242
+    "liczba": 247
    },
    {
     "rok": 1977,
-    "liczba": 173
+    "liczba": 175
    },
    {
     "rok": 1978,
-    "liczba": 194
+    "liczba": 196
    },
    {
     "rok": 1979,
@@ -132,7 +133,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 38
+    "liczba": 39
    },
    {
     "rok": 1982,
@@ -140,7 +141,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 1984,
@@ -186,7 +187,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 252
+    "liczba": 269
    },
    {
     "nazwa": "?+LPG",
@@ -200,21 +201,21 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 1301
+    "liczba": 1313
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 331
+    "liczba": 335
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 78
+    "liczba": 79
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1203
+    "liczba": 1205
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -222,41 +223,195 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 38
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 95
+    "liczba": 96
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 155
+    "liczba": 160
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 47
+    "liczba": 52
    },
    {
     "nazwa": "Coupe",
-    "liczba": 24
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1484
+    "liczba": 1485
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 22,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2026,
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
     "liczba": 5
+   },
+   {
+    "rok": 2025,
+    "liczba": 9
+   },
+   {
+    "rok": 2026,
+    "liczba": 6
    }
   ],
-  "miejsce": 538,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 617,
   "miejsceWMarce": 37,
   "modeliWMarce": 58,
   "sredniRocznik": 1975.9
@@ -265,7 +420,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "128",

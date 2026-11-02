@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Lantra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LANTRA, LANTRA 1.5 KAT, LANTRA 1.6 KAT, LANTRA 1.6, LANTRA 1.5).",
-  "liczbaWPolsce": 4356,
-  "aktywne": 102,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Lantra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LANTRA, LANTRA 1.5 KAT, LANTRA 1.6 KAT, LANTRA 1.6, LANTRA 1.5).",
+  "liczbaWPolsce": 4360,
+  "aktywne": 106,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 558
+    "liczba": 559
    },
    {
     "teryt": "04",
-    "liczba": 275
+    "liczba": 276
    },
    {
     "teryt": "06",
@@ -31,7 +31,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 301
+    "liczba": 302
    },
    {
     "teryt": "10",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 520
+    "liczba": 521
    },
    {
     "teryt": "16",
@@ -94,7 +94,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 578
+    "liczba": 579
    },
    {
     "rok": 1994,
@@ -106,11 +106,11 @@
    },
    {
     "rok": 1996,
-    "liczba": 839
+    "liczba": 840
    },
    {
     "rok": 1997,
-    "liczba": 525
+    "liczba": 526
    },
    {
     "rok": 1998,
@@ -118,7 +118,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 224
+    "liczba": 225
    },
    {
     "rok": 2000,
@@ -128,7 +128,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2491
+    "liczba": 2495
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -150,11 +150,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2011
+    "liczba": 2014
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1655
+    "liczba": 1656
    },
    {
     "nazwa": "1,8 l",
@@ -176,11 +176,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2418
+    "liczba": 2419
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1647
+    "liczba": 1650
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -194,7 +194,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2490
+    "liczba": 2493
    },
    {
     "nazwa": "Kombi",
@@ -206,32 +206,186 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 810
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 352,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 424,
   "miejsceWMarce": 15,
-  "modeliWMarce": 31,
+  "modeliWMarce": 34,
   "sredniRocznik": 1994.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "lantra",

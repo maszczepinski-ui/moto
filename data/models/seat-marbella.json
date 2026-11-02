@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Marbella – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MARBELLA, MARBELLA 0.8, MARBELLA 0.9 KAT, MARBELLA 0.9, MARBELLA 0.8 KAT).",
-  "liczbaWPolsce": 1864,
-  "aktywne": 39,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Marbella – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MARBELLA, MARBELLA 0.8, MARBELLA 0.9 KAT, MARBELLA 0.9, MARBELLA 0.8 KAT).",
+  "liczbaWPolsce": 1873,
+  "aktywne": 48,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 236
+    "liczba": 238
    },
    {
     "teryt": "04",
@@ -30,19 +30,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 234
+    "liczba": 235
    },
    {
     "teryt": "10",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "12",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "teryt": "14",
-    "liczba": 106
+    "liczba": 107
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 126
+    "liczba": 127
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 245
+    "liczba": 247
    },
    {
     "teryt": "32",
@@ -85,7 +85,7 @@
   "roczniki": [
    {
     "rok": 1987,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 1988,
@@ -93,11 +93,11 @@
    },
    {
     "rok": 1989,
-    "liczba": 81
+    "liczba": 82
    },
    {
     "rok": 1990,
-    "liczba": 243
+    "liczba": 245
    },
    {
     "rok": 1991,
@@ -105,11 +105,11 @@
    },
    {
     "rok": 1992,
-    "liczba": 308
+    "liczba": 310
    },
    {
     "rok": 1993,
-    "liczba": 207
+    "liczba": 209
    },
    {
     "rok": 1994,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 106
+    "liczba": 107
    },
    {
     "rok": 1996,
@@ -131,7 +131,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1242
+    "liczba": 1251
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -149,11 +149,11 @@
   "pojemnosci": [
    {
     "nazwa": "0,9 l",
-    "liczba": 1047
+    "liczba": 1052
    },
    {
     "nazwa": "0,8 l",
-    "liczba": 799
+    "liczba": 803
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,11 +163,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 921
+    "liczba": 923
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 778
+    "liczba": 784
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -179,13 +179,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1081
+    "liczba": 1090
    },
    {
     "nazwa": "Sedan",
@@ -196,25 +196,175 @@
     "liczba": 603
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2025,
+    "liczba": 7
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 517,
-  "miejsceWMarce": 11,
-  "modeliWMarce": 18,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 592,
+  "miejsceWMarce": 12,
+  "modeliWMarce": 19,
   "sredniRocznik": 1992.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "marbella",

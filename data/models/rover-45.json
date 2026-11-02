@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 45 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 45, 45 2.0 TD, 45 2.0 TDI, 45 1.6 KAT, 45 1.8 KAT).",
-  "liczbaWPolsce": 1746,
-  "aktywne": 386,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 45 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 45, 45 2.0 TD, 45 2.0 TDI, 45 1.6 KAT, 45 1.8 KAT).",
+  "liczbaWPolsce": 1756,
+  "aktywne": 396,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "14",
-    "liczba": 247
+    "liczba": 249
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 109
+    "liczba": 111
    },
    {
     "teryt": "20",
@@ -58,23 +58,23 @@
    },
    {
     "teryt": "22",
-    "liczba": 80
+    "liczba": 81
    },
    {
     "teryt": "24",
-    "liczba": 93
+    "liczba": 94
    },
    {
     "teryt": "26",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "teryt": "28",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "30",
-    "liczba": 231
+    "liczba": 232
    },
    {
     "teryt": "32",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 2000,
-    "liczba": 601
+    "liczba": 602
    },
    {
     "rok": 2001,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 2002,
-    "liczba": 265
+    "liczba": 266
    },
    {
     "rok": 2003,
@@ -109,15 +109,15 @@
    },
    {
     "rok": 2004,
-    "liczba": 142
+    "liczba": 145
    },
    {
     "rok": 2005,
-    "liczba": 110
+    "liczba": 114
    },
    {
     "rok": 2006,
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "paliwa": [
@@ -127,11 +127,11 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 667
+    "liczba": 675
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 284
+    "liczba": 286
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,19 +141,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 822
+    "liczba": 823
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 427
+    "liczba": 433
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 319
+    "liczba": 321
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 176
+    "liczba": 177
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,11 +163,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 892
+    "liczba": 900
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 835
+    "liczba": 837
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,27 +181,181 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 992
+    "liczba": 1000
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 716
+    "liczba": 718
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 38
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 11,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 6
+   },
+   {
+    "rok": 2025,
+    "liczba": 2
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 535,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 612,
   "miejsceWMarce": 6,
   "modeliWMarce": 9,
   "sredniRocznik": 2001.5
@@ -210,12 +364,17 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "rover",
  "modelSlug": "45",
  "adres": "/marki/rover/45/",
  "konkurenci": [
+  {
+   "slug": "bmw-seria-3",
+   "nazwa": "BMW Seria 3",
+   "adres": "/marki/bmw/seria-3/"
+  },
   {
    "slug": "volkswagen-bora",
    "nazwa": "Volkswagen Bora",
@@ -225,11 +384,6 @@
    "slug": "seat-toledo",
    "nazwa": "Seat Toledo",
    "adres": "/marki/seat/toledo/"
-  },
-  {
-   "slug": "bmw-seria-3-e46",
-   "nazwa": "BMW Seria 3 E46",
-   "adres": "/marki/bmw/seria-3/e46/"
   },
   {
    "slug": "alfa-romeo-156",

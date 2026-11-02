@@ -13,21 +13,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MPV – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MPV, MPV 2.5 TD, MPV 2.0 KAT, MPV 2.0 TDI, MPV 2.0 TD).",
-  "liczbaWPolsce": 2197,
-  "aktywne": 520,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MPV – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MPV, MPV 2.5 TD, MPV 2.0 KAT, MPV 2.0 TDI, MPV 2.0 TD).",
+  "liczbaWPolsce": 2212,
+  "aktywne": 535,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 161
+    "liczba": 162
    },
    {
     "teryt": "04",
-    "liczba": 76
+    "liczba": 78
    },
    {
     "teryt": "06",
-    "liczba": 197
+    "liczba": 198
    },
    {
     "teryt": "08",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 147
+    "liczba": 148
    },
    {
     "teryt": "12",
-    "liczba": 202
+    "liczba": 203
    },
    {
     "teryt": "14",
-    "liczba": 356
+    "liczba": 358
    },
    {
     "teryt": "16",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "teryt": "24",
-    "liczba": 150
+    "liczba": 154
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 171
+    "liczba": 172
    },
    {
     "teryt": "32",
-    "liczba": 122
+    "liczba": 123
    }
   ],
   "bezWojewodztwa": 10,
@@ -110,15 +110,15 @@
    },
    {
     "rok": 1995,
-    "liczba": 33
+    "liczba": 34
    },
    {
     "rok": 1996,
-    "liczba": 96
+    "liczba": 97
    },
    {
     "rok": 1997,
-    "liczba": 79
+    "liczba": 80
    },
    {
     "rok": 1998,
@@ -130,45 +130,45 @@
    },
    {
     "rok": 2000,
-    "liczba": 217
+    "liczba": 219
    },
    {
     "rok": 2001,
-    "liczba": 129
+    "liczba": 131
    },
    {
     "rok": 2002,
-    "liczba": 368
+    "liczba": 369
    },
    {
     "rok": 2003,
-    "liczba": 372
+    "liczba": 373
    },
    {
     "rok": 2004,
-    "liczba": 458
+    "liczba": 461
    },
    {
     "rok": 2005,
-    "liczba": 138
+    "liczba": 140
    },
    {
     "rok": 2006,
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1440
+    "liczba": 1446
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 443
+    "liczba": 444
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 280
+    "liczba": 288
    },
    {
     "nazwa": "Inne / brak danych",
@@ -178,7 +178,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1655
+    "liczba": 1665
    },
    {
     "nazwa": "2,5 l",
@@ -186,11 +186,11 @@
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 160
+    "liczba": 163
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 76
+    "liczba": 78
    },
    {
     "nazwa": "Inne / brak danych",
@@ -200,11 +200,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1218
+    "liczba": 1230
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 946
+    "liczba": 949
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -218,15 +218,15 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 1530
+    "liczba": 1534
    },
    {
     "nazwa": "Kombi",
-    "liczba": 335
+    "liczba": 338
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 146
+    "liczba": 152
    },
    {
     "nazwa": "Hatchback",
@@ -234,37 +234,196 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 77
+    "liczba": 78
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 17,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 4
+   },
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 7
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 479,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 29,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 551,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 32,
   "sredniRocznik": 2001.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "mpv",
  "adres": "/marki/mazda/mpv/",
  "konkurenci": [
+  {
+   "slug": "volkswagen-transporter",
+   "nazwa": "Volkswagen Transporter",
+   "adres": "/marki/volkswagen/transporter/"
+  },
   {
    "slug": "fiat-ulysse",
    "nazwa": "Fiat Ulysse",
@@ -284,11 +443,6 @@
    "slug": "ford-galaxy",
    "nazwa": "Ford Galaxy",
    "adres": "/marki/ford/galaxy/"
-  },
-  {
-   "slug": "volkswagen-transporter",
-   "nazwa": "Volkswagen Transporter",
-   "adres": "/marki/volkswagen/transporter/"
   }
  ]
 }

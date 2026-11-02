@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 960 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 960, 960 3.0 KAT).",
-  "liczbaWPolsce": 610,
-  "aktywne": 89,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 960 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 960, 960 3.0 KAT).",
+  "liczbaWPolsce": 643,
+  "aktywne": 122,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "teryt": "04",
@@ -31,11 +31,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 11
    },
    {
     "teryt": "10",
-    "liczba": 53
+    "liczba": 58
    },
    {
     "teryt": "12",
@@ -43,15 +43,15 @@
    },
    {
     "teryt": "14",
-    "liczba": 166
+    "liczba": 172
    },
    {
     "teryt": "16",
-    "liczba": 11
+    "liczba": 14
    },
    {
     "teryt": "18",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "20",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "24",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "30",
-    "liczba": 41
+    "liczba": 49
    },
    {
     "teryt": "32",
-    "liczba": 27
+    "liczba": 28
    }
   ],
   "bezWojewodztwa": 4,
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 80
+    "liczba": 85
    },
    {
     "rok": 1992,
@@ -98,33 +98,33 @@
    },
    {
     "rok": 1993,
-    "liczba": 35
+    "liczba": 39
    },
    {
     "rok": 1994,
-    "liczba": 80
+    "liczba": 82
    },
    {
     "rok": 1995,
-    "liczba": 197
+    "liczba": 206
    },
    {
     "rok": 1996,
-    "liczba": 118
+    "liczba": 128
    },
    {
     "rok": 1997,
-    "liczba": 13
+    "liczba": 15
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 268
+    "liczba": 297
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 263
+    "liczba": 267
    },
    {
     "nazwa": "Diesel",
@@ -142,15 +142,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,9 l",
-    "liczba": 346
+    "liczba": 360
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 188
+    "liczba": 204
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "nazwa": "2,4 l",
@@ -158,7 +158,7 @@
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,11 +168,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 381
+    "liczba": 391
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 207
+    "liczba": 229
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -184,17 +184,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 351
+    "liczba": 367
    },
    {
     "nazwa": "Kombi",
-    "liczba": 156
+    "liczba": 172
    },
    {
     "nazwa": "Hatchback",
@@ -202,28 +202,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 80
+    "liczba": 81
    }
   ],
-  "noweOdPaczki": 11,
+  "noweOdPaczki": 44,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 6
+   },
+   {
+    "rok": 2024,
+    "liczba": 13
+   },
+   {
+    "rok": 2025,
+    "liczba": 14
+   },
    {
     "rok": 2026,
     "liczba": 11
    }
   ],
-  "miejsce": 790,
-  "miejsceWMarce": 25,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 857,
+  "miejsceWMarce": 26,
   "modeliWMarce": 33,
-  "sredniRocznik": 1994.0
+  "sredniRocznik": 1994.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "960",
@@ -235,9 +389,9 @@
    "adres": "/marki/opel/omega/"
   },
   {
-   "slug": "lancia-thema",
-   "nazwa": "Lancia Thema",
-   "adres": "/marki/lancia/thema/"
+   "slug": "ford-taurus",
+   "nazwa": "Ford Taurus",
+   "adres": "/marki/ford/taurus/"
   },
   {
    "slug": "nissan-maxima",
@@ -250,9 +404,9 @@
    "adres": "/marki/peugeot/605/"
   },
   {
-   "slug": "ford-taurus",
-   "nazwa": "Ford Taurus",
-   "adres": "/marki/ford/taurus/"
+   "slug": "lancia-thema",
+   "nazwa": "Lancia Thema",
+   "adres": "/marki/lancia/thema/"
   }
  ]
 }

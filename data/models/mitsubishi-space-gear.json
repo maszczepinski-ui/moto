@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Space Gear – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPACE GEAR).",
-  "liczbaWPolsce": 260,
-  "aktywne": 37,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Space Gear – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPACE GEAR).",
+  "liczbaWPolsce": 265,
+  "aktywne": 42,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "04",
@@ -40,7 +40,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "14",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "24",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 36
+    "liczba": 38
    },
    {
     "teryt": "32",
@@ -139,7 +139,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 36
+    "liczba": 37
    },
    {
     "rok": 1998,
@@ -151,29 +151,37 @@
    },
    {
     "rok": 2000,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 2001,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2002,
+    "liczba": 1
+   },
+   {
+    "rok": 2003,
+    "liczba": 0
+   },
+   {
+    "rok": 2004,
     "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 118
+    "liczba": 120
    },
    {
     "nazwa": "Diesel",
-    "liczba": 73
+    "liczba": 74
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 59
+    "liczba": 61
    },
    {
     "nazwa": "Inne / brak danych",
@@ -183,11 +191,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 121
+    "liczba": 124
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "nazwa": "2,5 l",
@@ -195,7 +203,7 @@
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
@@ -209,7 +217,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 102
+    "liczba": 107
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -223,7 +231,7 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 163
+    "liczba": 168
    },
    {
     "nazwa": "Kombi",
@@ -246,25 +254,175 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 2
+   },
+   {
+    "rok": 2025,
+    "liczba": 3
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 1031,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1129,
   "miejsceWMarce": 16,
-  "modeliWMarce": 18,
-  "sredniRocznik": 1996.5
+  "modeliWMarce": 19,
+  "sredniRocznik": 1996.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "space-gear",

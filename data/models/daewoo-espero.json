@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Espero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ESPERO, ESPERO 1.5KAT, ESPERO 1.5 KAT, ESPERO 1.5 GLX, ESPERO 1.8 KAT).",
-  "liczbaWPolsce": 9302,
-  "aktywne": 116,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Espero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ESPERO, ESPERO 1.5KAT, ESPERO 1.5 KAT, ESPERO 1.5 GLX, ESPERO 1.8 KAT).",
+  "liczbaWPolsce": 9308,
+  "aktywne": 122,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 685
+    "liczba": 686
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 534
+    "liczba": 535
    },
    {
     "teryt": "08",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 2360
+    "liczba": 2363
    },
    {
     "teryt": "16",
@@ -78,22 +78,22 @@
    },
    {
     "teryt": "32",
-    "liczba": 363
+    "liczba": 364
    }
   ],
   "bezWojewodztwa": 10,
   "roczniki": [
    {
     "rok": 1995,
-    "liczba": 443
+    "liczba": 444
    },
    {
     "rok": 1996,
-    "liczba": 3176
+    "liczba": 3179
    },
    {
     "rok": 1997,
-    "liczba": 3516
+    "liczba": 3518
    },
    {
     "rok": 1998,
@@ -111,7 +111,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 3639
+    "liczba": 3645
    },
    {
     "nazwa": "?+LPG",
@@ -129,11 +129,11 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 2466
+    "liczba": 2469
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 852
+    "liczba": 855
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,7 +143,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 6457
+    "liczba": 6459
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -151,7 +151,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 402
+    "liczba": 406
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -165,7 +165,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 6001
+    "liczba": 6007
    },
    {
     "nazwa": "Hatchback",
@@ -176,16 +176,166 @@
     "liczba": 2679
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 3
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 249,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 296,
   "miejsceWMarce": 5,
   "modeliWMarce": 15,
   "sredniRocznik": 1996.9
@@ -194,7 +344,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "espero",

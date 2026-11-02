@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Punto – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 215 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PUNTO, PUNTO 1.2 KAT, PUNTO 1.1 KAT, PUNTO 1.2, PUNTO 1.1KAT).",
-  "liczbaWPolsce": 140065,
-  "aktywne": 38313,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Punto – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 646 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PUNTO, PUNTO 1.2 KAT, PUNTO 1.1 KAT, PUNTO 1.2, PUNTO 1.1KAT).",
+  "liczbaWPolsce": 149496,
+  "aktywne": 47744,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 9657
+    "liczba": 10478
    },
    {
     "teryt": "04",
-    "liczba": 6423
+    "liczba": 6790
    },
    {
     "teryt": "06",
-    "liczba": 4794
+    "liczba": 5098
    },
    {
     "teryt": "08",
-    "liczba": 2764
+    "liczba": 2949
    },
    {
     "teryt": "10",
-    "liczba": 11214
+    "liczba": 11722
    },
    {
     "teryt": "12",
-    "liczba": 13598
+    "liczba": 14716
    },
    {
     "teryt": "14",
-    "liczba": 15197
+    "liczba": 15894
    },
    {
     "teryt": "16",
-    "liczba": 3891
+    "liczba": 4133
    },
    {
     "teryt": "18",
-    "liczba": 8196
+    "liczba": 9074
    },
    {
     "teryt": "20",
-    "liczba": 2898
+    "liczba": 3019
    },
    {
     "teryt": "22",
-    "liczba": 5961
+    "liczba": 6224
    },
    {
     "teryt": "24",
-    "liczba": 26896
+    "liczba": 28728
    },
    {
     "teryt": "26",
-    "liczba": 4017
+    "liczba": 4316
    },
    {
     "teryt": "28",
-    "liczba": 3417
+    "liczba": 3592
    },
    {
     "teryt": "30",
-    "liczba": 16817
+    "liczba": 18239
    },
    {
     "teryt": "32",
-    "liczba": 3810
+    "liczba": 4009
    }
   ],
   "bezWojewodztwa": 515,
@@ -89,109 +89,113 @@
    },
    {
     "rok": 1994,
-    "liczba": 3049
+    "liczba": 3058
    },
    {
     "rok": 1995,
-    "liczba": 7769
+    "liczba": 7775
    },
    {
     "rok": 1996,
-    "liczba": 6292
+    "liczba": 6301
    },
    {
     "rok": 1997,
-    "liczba": 7036
+    "liczba": 7050
    },
    {
     "rok": 1998,
-    "liczba": 5764
+    "liczba": 5778
    },
    {
     "rok": 1999,
-    "liczba": 4942
+    "liczba": 4961
    },
    {
     "rok": 2000,
-    "liczba": 10665
+    "liczba": 10722
    },
    {
     "rok": 2001,
-    "liczba": 7427
+    "liczba": 7493
    },
    {
     "rok": 2002,
-    "liczba": 7314
+    "liczba": 7383
    },
    {
     "rok": 2003,
-    "liczba": 8279
+    "liczba": 8424
    },
    {
     "rok": 2004,
-    "liczba": 5986
+    "liczba": 6138
    },
    {
     "rok": 2005,
-    "liczba": 4342
+    "liczba": 4664
    },
    {
     "rok": 2006,
-    "liczba": 10330
+    "liczba": 11217
    },
    {
     "rok": 2007,
-    "liczba": 8741
+    "liczba": 9666
    },
    {
     "rok": 2008,
-    "liczba": 8004
+    "liczba": 8888
    },
    {
     "rok": 2009,
-    "liczba": 9670
+    "liczba": 11367
    },
    {
     "rok": 2010,
-    "liczba": 6804
+    "liczba": 7919
    },
    {
     "rok": 2011,
-    "liczba": 4485
+    "liczba": 5775
    },
    {
     "rok": 2012,
-    "liczba": 3166
+    "liczba": 3927
    },
    {
     "rok": 2013,
-    "liczba": 2253
+    "liczba": 2673
    },
    {
     "rok": 2014,
-    "liczba": 1667
+    "liczba": 1882
    },
    {
     "rok": 2015,
-    "liczba": 1289
+    "liczba": 1429
    },
    {
     "rok": 2016,
-    "liczba": 727
+    "liczba": 836
+   },
+   {
+    "rok": 2017,
+    "liczba": 328
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 100711
+    "liczba": 108431
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 25132
+    "liczba": 25685
    },
    {
     "nazwa": "Diesel",
-    "liczba": 11774
+    "liczba": 12932
    },
    {
     "nazwa": "Inne / brak danych",
@@ -201,37 +205,33 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 75702
+    "liczba": 80415
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 37036
+    "liczba": 41610
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 21110
+    "liczba": 21134
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 3932
-   },
-   {
-    "nazwa": "1,7 l",
-    "liczba": 1414
+    "liczba": 3981
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 871
+    "liczba": 2356
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 68437
+    "liczba": 70554
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 37328
+    "liczba": 44638
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -239,46 +239,200 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1111
+    "liczba": 1115
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 94779
+    "liczba": 99388
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 36171
+    "liczba": 40947
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1962
+    "liczba": 1969
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7153
+    "liczba": 7192
    }
   ],
-  "noweOdPaczki": 2215,
+  "noweOdPaczki": 11646,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1134
+   },
+   {
+    "rok": 2024,
+    "liczba": 4199
+   },
+   {
+    "rok": 2025,
+    "liczba": 3909
+   },
+   {
     "rok": 2026,
-    "liczba": 2215
+    "liczba": 2404
    }
   ],
-  "miejsce": 22,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 270
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 399
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 387
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 361
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 331
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 345
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 329
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 325
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 350
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 402
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 329
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 290
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 314
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 327
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 362
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 321
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 328
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 329
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 393
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 260
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 320
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 383
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 293
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 279
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 189
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 25,
   "miejsceWMarce": 1,
   "modeliWMarce": 58,
-  "sredniRocznik": 2003.6
+  "sredniRocznik": 2003.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "punto",
@@ -290,9 +444,9 @@
    "adres": "/marki/opel/corsa/"
   },
   {
-   "slug": "nissan-micra",
-   "nazwa": "Nissan Micra",
-   "adres": "/marki/nissan/micra/"
+   "slug": "ford-fiesta",
+   "nazwa": "Ford Fiesta",
+   "adres": "/marki/ford/fiesta/"
   },
   {
    "slug": "volkswagen-polo",
@@ -300,14 +454,14 @@
    "adres": "/marki/volkswagen/polo/"
   },
   {
-   "slug": "ford-fiesta",
-   "nazwa": "Ford Fiesta",
-   "adres": "/marki/ford/fiesta/"
+   "slug": "nissan-micra",
+   "nazwa": "Nissan Micra",
+   "adres": "/marki/nissan/micra/"
   },
   {
-   "slug": "opel-agila",
-   "nazwa": "Opel Agila",
-   "adres": "/marki/opel/agila/"
+   "slug": "mitsubishi-colt",
+   "nazwa": "Mitsubishi Colt",
+   "adres": "/marki/mitsubishi/colt/"
   }
  ]
 }

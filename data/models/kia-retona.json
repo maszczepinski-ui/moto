@@ -14,21 +14,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Retona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RETONA).",
-  "liczbaWPolsce": 284,
-  "aktywne": 76,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Retona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RETONA).",
+  "liczbaWPolsce": 295,
+  "aktywne": 87,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "04",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "06",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "08",
@@ -40,11 +40,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "14",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "16",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "24",
@@ -72,11 +72,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "30",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "32",
@@ -91,25 +91,25 @@
    },
    {
     "rok": 2000,
-    "liczba": 181
+    "liczba": 188
    },
    {
     "rok": 2001,
-    "liczba": 72
+    "liczba": 76
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 246
+    "liczba": 253
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 27
+    "liczba": 30
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "nazwa": "Inne / brak danych",
@@ -119,17 +119,17 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 284
+    "liczba": 295
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 169
+    "liczba": 176
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 112
+    "liczba": 116
    },
    {
     "nazwa": "Inne / brak danych",
@@ -139,23 +139,23 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 107
+    "liczba": 109
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 61
+    "liczba": 64
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 34
+    "liczba": 36
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 26
    },
    {
     "nazwa": "Van",
     "liczba": 23
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 22
    },
    {
     "nazwa": "Furgon",
@@ -166,25 +166,179 @@
     "liczba": 29
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 1013,
-  "miejsceWMarce": 25,
-  "modeliWMarce": 29,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1095,
+  "miejsceWMarce": 28,
+  "modeliWMarce": 32,
   "sredniRocznik": 2000.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "retona",

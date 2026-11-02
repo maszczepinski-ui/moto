@@ -11,92 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-60 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 906 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-60, MAZDA CX-60).",
-  "liczbaWPolsce": 906,
-  "aktywne": 906,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-60 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 202 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-60, MAZDA CX-60).",
+  "liczbaWPolsce": 4202,
+  "aktywne": 4202,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 99
+    "liczba": 399
    },
    {
     "teryt": "04",
-    "liczba": 37
+    "liczba": 187
    },
    {
     "teryt": "06",
-    "liczba": 26
+    "liczba": 111
    },
    {
     "teryt": "08",
-    "liczba": 20
+    "liczba": 104
    },
    {
     "teryt": "10",
-    "liczba": 41
+    "liczba": 197
    },
    {
     "teryt": "12",
-    "liczba": 44
+    "liczba": 287
    },
    {
     "teryt": "14",
-    "liczba": 264
+    "liczba": 1089
    },
    {
     "teryt": "16",
-    "liczba": 37
+    "liczba": 122
    },
    {
     "teryt": "18",
-    "liczba": 18
+    "liczba": 117
    },
    {
     "teryt": "20",
-    "liczba": 11
-   },
-   {
-    "teryt": "22",
-    "liczba": 68
-   },
-   {
-    "teryt": "24",
     "liczba": 80
    },
    {
+    "teryt": "22",
+    "liczba": 251
+   },
+   {
+    "teryt": "24",
+    "liczba": 533
+   },
+   {
     "teryt": "26",
-    "liczba": 20
+    "liczba": 85
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 66
    },
    {
     "teryt": "30",
-    "liczba": 87
+    "liczba": 403
    },
    {
     "teryt": "32",
-    "liczba": 45
+    "liczba": 171
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 35
+    "liczba": 214
    },
    {
     "rok": 2023,
-    "liczba": 41
+    "liczba": 1261
    },
    {
     "rok": 2024,
-    "liczba": 16
+    "liczba": 1208
    },
    {
     "rok": 2025,
-    "liczba": 372
+    "liczba": 1077
    },
    {
     "rok": 2026,
@@ -106,83 +106,260 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 308
+    "liczba": 1505
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 299
+    "liczba": 1460
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 292
+    "liczba": 1176
+   },
+   {
+    "nazwa": "Benzyna",
+    "liczba": 60
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,3 l",
-    "liczba": 609
+    "liczba": 2969
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 297
+    "liczba": 1233
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 781
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 95
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 19
+    "liczba": 3234
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 11
+    "liczba": 727
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 194
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 46
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 895
+    "liczba": 4175
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 27
    }
   ],
-  "noweOdPaczki": 906,
-  "hybrydy": 591,
+  "noweOdPaczki": 4202,
+  "hybrydy": 2636,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 615
+   },
+   {
+    "rok": 2024,
+    "liczba": 1413
+   },
+   {
+    "rok": 2025,
+    "liczba": 1262
+   },
+   {
     "rok": 2026,
-    "liczba": 906
+    "liczba": 912
    }
   ],
-  "miejsce": 697,
-  "miejsceWMarce": 21,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2025.3
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 258
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 111
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 105
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 153
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 105
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 347
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 134
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 161
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 110
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 112
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 106
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 106
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 437,
+  "miejsceWMarce": 12,
+  "modeliWMarce": 32,
+  "sredniRocznik": 2024.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "cx-60",
  "adres": "/marki/mazda/cx-60/",
  "konkurenci": [
+  {
+   "slug": "mercedes-benz-klasa-gls",
+   "nazwa": "Mercedes-Benz Klasa GLS",
+   "adres": "/marki/mercedes-benz/klasa-gls/"
+  },
+  {
+   "slug": "bmw-x7",
+   "nazwa": "BMW X7",
+   "adres": "/marki/bmw/x7/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-gle",
+   "nazwa": "Mercedes-Benz Klasa GLE",
+   "adres": "/marki/mercedes-benz/klasa-gle/"
+  },
   {
    "slug": "mercedes-benz-amg",
    "nazwa": "Mercedes-Benz Amg",
@@ -192,21 +369,6 @@
    "slug": "audi-q8",
    "nazwa": "Audi Q8",
    "adres": "/marki/audi/q8/"
-  },
-  {
-   "slug": "mercedes-benz-klasa-gle",
-   "nazwa": "Mercedes-Benz Klasa GLE",
-   "adres": "/marki/mercedes-benz/klasa-gle/"
-  },
-  {
-   "slug": "volkswagen-tayron",
-   "nazwa": "Volkswagen Tayron",
-   "adres": "/marki/volkswagen/tayron/"
-  },
-  {
-   "slug": "mercedes-benz-klasa-glc",
-   "nazwa": "Mercedes-Benz Klasa GLC",
-   "adres": "/marki/mercedes-benz/klasa-glc/"
   }
  ]
 }

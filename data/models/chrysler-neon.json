@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Neon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEON, NEON 2.0 KAT, NEON 2.0).",
-  "liczbaWPolsce": 912,
-  "aktywne": 90,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Neon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEON, NEON 2.0 KAT, NEON 2.0).",
+  "liczbaWPolsce": 919,
+  "aktywne": 97,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "08",
@@ -34,11 +34,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 77
+    "liczba": 79
    },
    {
     "teryt": "12",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "14",
@@ -54,11 +54,11 @@
    },
    {
     "teryt": "20",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "22",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "24",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 51
+    "liczba": 52
    }
   ],
   "bezWojewodztwa": 4,
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 265
+    "liczba": 266
    },
    {
     "rok": 1996,
@@ -101,15 +101,15 @@
    },
    {
     "rok": 1998,
-    "liczba": 50
+    "liczba": 51
    },
    {
     "rok": 1999,
-    "liczba": 69
+    "liczba": 70
    },
    {
     "rok": 2000,
-    "liczba": 223
+    "liczba": 227
    },
    {
     "rok": 2001,
@@ -139,11 +139,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 601
+    "liczba": 607
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 260
+    "liczba": 261
    },
    {
     "nazwa": "Inne / brak danych",
@@ -153,7 +153,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 851
+    "liczba": 858
    },
    {
     "nazwa": "1,8 l",
@@ -171,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 455
+    "liczba": 460
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 439
+    "liczba": 441
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,36 +189,186 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 794
+    "liczba": 800
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 69
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 5
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 694,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 775,
   "miejsceWMarce": 10,
-  "modeliWMarce": 18,
+  "modeliWMarce": 19,
   "sredniRocznik": 1997.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "neon",
@@ -240,14 +390,14 @@
    "adres": "/marki/kia/clarus/"
   },
   {
-   "slug": "bmw-seria-3",
-   "nazwa": "BMW Seria 3",
-   "adres": "/marki/bmw/seria-3/"
-  },
-  {
    "slug": "nissan-primera",
    "nazwa": "Nissan Primera",
    "adres": "/marki/nissan/primera/"
+  },
+  {
+   "slug": "mazda-xedos",
+   "nazwa": "Mazda Xedos",
+   "adres": "/marki/mazda/xedos/"
   }
  ]
 }

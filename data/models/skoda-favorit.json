@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Favorit – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FAVORIT, FAVORIT 135L 1.3, FAVORIT 1.3, FAVORIT 135L, FAVORIT 136L 1.3).",
-  "liczbaWPolsce": 40075,
-  "aktywne": 255,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Favorit – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FAVORIT, FAVORIT 135L 1.3, FAVORIT 1.3, FAVORIT 135L, FAVORIT 136L 1.3).",
+  "liczbaWPolsce": 40084,
+  "aktywne": 264,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,11 +26,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 1568
+    "liczba": 1569
    },
    {
     "teryt": "08",
-    "liczba": 1070
+    "liczba": 1071
    },
    {
     "teryt": "10",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 5282
+    "liczba": 5285
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 776
+    "liczba": 777
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 4801
+    "liczba": 4803
    },
    {
     "teryt": "26",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 2025
+    "liczba": 2026
    }
   ],
   "bezWojewodztwa": 99,
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 983
+    "liczba": 984
    },
    {
     "rok": 1990,
@@ -101,15 +101,15 @@
    },
    {
     "rok": 1992,
-    "liczba": 8277
+    "liczba": 8279
    },
    {
     "rok": 1993,
-    "liczba": 1543
+    "liczba": 1544
    },
    {
     "rok": 1994,
-    "liczba": 1518
+    "liczba": 1523
    },
    {
     "rok": 1995,
@@ -127,7 +127,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 17697
+    "liczba": 17706
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -145,7 +145,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 39674
+    "liczba": 39683
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,7 +155,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 32765
+    "liczba": 32767
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -163,7 +163,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 680
+    "liczba": 686
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -171,13 +171,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 902
+    "liczba": 903
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 17447
+    "liczba": 17456
    },
    {
     "nazwa": "Sedan",
@@ -188,16 +188,170 @@
     "liczba": 18427
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 5
+   },
+   {
+    "rok": 2025,
+    "liczba": 3
+   },
    {
     "rok": 2026,
     "liczba": 3
    }
   ],
-  "miejsce": 87,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 103,
   "miejsceWMarce": 6,
   "modeliWMarce": 27,
   "sredniRocznik": 1991.3
@@ -206,7 +360,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "favorit",
@@ -228,14 +382,14 @@
    "adres": "/marki/toyota/starlet/"
   },
   {
+   "slug": "renault-5",
+   "nazwa": "Renault 5",
+   "adres": "/marki/renault/5/"
+  },
+  {
    "slug": "citroen-ax11",
    "nazwa": "Citroen AX11",
    "adres": "/marki/citroen/ax11/"
-  },
-  {
-   "slug": "peugeot-205",
-   "nazwa": "Peugeot 205",
-   "adres": "/marki/peugeot/205/"
   }
  ]
 }

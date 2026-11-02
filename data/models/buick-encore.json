@@ -7,145 +7,144 @@
  "nadwozia": [
   "van",
   "hatchback",
-  "kombi",
-  "suv"
+  "kombi"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Buick Encore – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 97 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ENCORE, ENCORE GX).",
-  "liczbaWPolsce": 279,
-  "aktywne": 254,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Buick Encore – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 729 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ENCORE, ENCORE GX, ENCORE 4X4).",
+  "liczbaWPolsce": 911,
+  "aktywne": 886,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 7
+    "liczba": 29
    },
    {
     "teryt": "04",
-    "liczba": 9
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 12
+    "liczba": 40
    },
    {
     "teryt": "08",
-    "liczba": 5
-   },
-   {
-    "teryt": "10",
-    "liczba": 18
-   },
-   {
-    "teryt": "12",
-    "liczba": 19
-   },
-   {
-    "teryt": "14",
-    "liczba": 39
-   },
-   {
-    "teryt": "16",
-    "liczba": 5
-   },
-   {
-    "teryt": "18",
-    "liczba": 49
-   },
-   {
-    "teryt": "20",
-    "liczba": 48
-   },
-   {
-    "teryt": "22",
-    "liczba": 8
-   },
-   {
-    "teryt": "24",
-    "liczba": 10
-   },
-   {
-    "teryt": "26",
-    "liczba": 7
-   },
-   {
-    "teryt": "28",
-    "liczba": 7
-   },
-   {
-    "teryt": "30",
     "liczba": 15
    },
    {
+    "teryt": "10",
+    "liczba": 43
+   },
+   {
+    "teryt": "12",
+    "liczba": 89
+   },
+   {
+    "teryt": "14",
+    "liczba": 157
+   },
+   {
+    "teryt": "16",
+    "liczba": 9
+   },
+   {
+    "teryt": "18",
+    "liczba": 178
+   },
+   {
+    "teryt": "20",
+    "liczba": 155
+   },
+   {
+    "teryt": "22",
+    "liczba": 21
+   },
+   {
+    "teryt": "24",
+    "liczba": 30
+   },
+   {
+    "teryt": "26",
+    "liczba": 13
+   },
+   {
+    "teryt": "28",
+    "liczba": 17
+   },
+   {
+    "teryt": "30",
+    "liczba": 50
+   },
+   {
     "teryt": "32",
-    "liczba": 8
+    "liczba": 29
    }
   ],
   "bezWojewodztwa": 13,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2014,
-    "liczba": 19
+    "liczba": 25
    },
    {
     "rok": 2015,
-    "liczba": 22
+    "liczba": 37
    },
    {
     "rok": 2016,
-    "liczba": 41
+    "liczba": 76
    },
    {
     "rok": 2017,
-    "liczba": 73
+    "liczba": 168
    },
    {
     "rok": 2018,
-    "liczba": 39
+    "liczba": 175
    },
    {
     "rok": 2019,
-    "liczba": 29
+    "liczba": 215
    },
    {
     "rok": 2020,
-    "liczba": 13
+    "liczba": 79
    },
    {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 43
    },
    {
     "rok": 2022,
-    "liczba": 4
+    "liczba": 44
    },
    {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 9
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2025,
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 238
+    "liczba": 748
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 36
+    "liczba": 158
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,29 +154,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 264
+    "liczba": 849
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 8
+    "liczba": 40
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 3
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 239
+    "liczba": 709
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 27
+    "liczba": 189
    },
    {
     "nazwa": "Inne / brak danych",
@@ -187,54 +186,235 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 103
+    "liczba": 366
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 74
+    "liczba": 241
    },
    {
     "nazwa": "Kombi",
-    "liczba": 62
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 12
+    "liczba": 212
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 11
+    "liczba": 27
+   },
+   {
+    "nazwa": "Van",
+    "liczba": 26
    },
    {
     "nazwa": "Sedan",
-    "liczba": 3
+    "liczba": 11
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 28
    }
   ],
-  "noweOdPaczki": 97,
+  "noweOdPaczki": 729,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 93
+   },
+   {
+    "rok": 2024,
+    "liczba": 322
+   },
+   {
+    "rok": 2025,
+    "liczba": 211
+   },
+   {
     "rok": 2026,
-    "liczba": 97
+    "liczba": 103
    }
   ],
-  "miejsce": 1019,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 776,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
-  "sredniRocznik": 2017.1
+  "sredniRocznik": 2018.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "buick",
  "modelSlug": "encore",
- "adres": "/marki/buick/encore/"
+ "adres": "/marki/buick/encore/",
+ "konkurenci": [
+  {
+   "slug": "opel-mokka",
+   "nazwa": "Opel Mokka",
+   "adres": "/marki/opel/mokka/"
+  },
+  {
+   "slug": "honda-hr-v",
+   "nazwa": "Honda HR-V",
+   "adres": "/marki/honda/hr-v/"
+  },
+  {
+   "slug": "nissan-juke",
+   "nazwa": "Nissan Juke",
+   "adres": "/marki/nissan/juke/"
+  },
+  {
+   "slug": "fiat-500x",
+   "nazwa": "Fiat 500X",
+   "adres": "/marki/fiat/500x/"
+  },
+  {
+   "slug": "ford-puma",
+   "nazwa": "Ford Puma",
+   "adres": "/marki/ford/puma/"
+  }
+ ]
 }

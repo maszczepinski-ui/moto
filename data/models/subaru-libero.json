@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Libero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LIBERO).",
-  "liczbaWPolsce": 212,
-  "aktywne": 31,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Libero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LIBERO).",
+  "liczbaWPolsce": 218,
+  "aktywne": 37,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 33
+    "liczba": 36
    },
    {
     "teryt": "04",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 32
+    "liczba": 35
    },
    {
     "teryt": "16",
@@ -107,7 +107,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1989,
@@ -119,7 +119,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 1992,
@@ -131,7 +131,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 33
+    "liczba": 34
    },
    {
     "rok": 1995,
@@ -139,7 +139,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 21
+    "liczba": 23
    },
    {
     "rok": 1997,
@@ -147,13 +147,13 @@
    },
    {
     "rok": 1998,
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 152
+    "liczba": 158
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -171,7 +171,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 185
+    "liczba": 191
    },
    {
     "nazwa": "1,0 l",
@@ -185,11 +185,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 136
+    "liczba": 137
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 70
+    "liczba": 75
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -203,11 +203,11 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 68
+    "liczba": 71
    },
    {
     "nazwa": "Kombi",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "nazwa": "Hatchback",
@@ -219,7 +219,7 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "nazwa": "Furgon",
@@ -230,16 +230,170 @@
     "liczba": 38
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 1106,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1195,
   "miejsceWMarce": 12,
   "modeliWMarce": 12,
   "sredniRocznik": 1992.6
@@ -248,7 +402,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "libero",

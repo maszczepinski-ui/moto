@@ -11,120 +11,120 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Tivoli – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 360 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIVOLI, SSANGYONG TIVOLI, TIVOLI GRAND, TIVOLI 1.6 CRDI).",
-  "liczbaWPolsce": 925,
-  "aktywne": 805,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Tivoli – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 021 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIVOLI, TIVOLI GRAND, SSANGYONG TIVOLI, SSANGYONG TIVOLI GRAND, TIVOLI 1.6 CRDI).",
+  "liczbaWPolsce": 2586,
+  "aktywne": 2466,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 43
+    "liczba": 136
    },
    {
     "teryt": "04",
-    "liczba": 22
+    "liczba": 69
    },
    {
     "teryt": "06",
-    "liczba": 39
+    "liczba": 99
    },
    {
     "teryt": "08",
-    "liczba": 15
+    "liczba": 71
    },
    {
     "teryt": "10",
-    "liczba": 61
+    "liczba": 138
    },
    {
     "teryt": "12",
-    "liczba": 90
+    "liczba": 200
    },
    {
     "teryt": "14",
-    "liczba": 218
+    "liczba": 548
    },
    {
     "teryt": "16",
-    "liczba": 10
+    "liczba": 57
    },
    {
     "teryt": "18",
-    "liczba": 75
+    "liczba": 227
    },
    {
     "teryt": "20",
-    "liczba": 14
+    "liczba": 50
    },
    {
     "teryt": "22",
-    "liczba": 31
+    "liczba": 134
    },
    {
     "teryt": "24",
-    "liczba": 141
+    "liczba": 371
    },
    {
     "teryt": "26",
-    "liczba": 38
+    "liczba": 98
    },
    {
     "teryt": "28",
-    "liczba": 19
+    "liczba": 63
    },
    {
     "teryt": "30",
-    "liczba": 68
+    "liczba": 217
    },
    {
     "teryt": "32",
-    "liczba": 38
+    "liczba": 105
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 2015,
-    "liczba": 129
+    "liczba": 217
    },
    {
     "rok": 2016,
-    "liczba": 167
+    "liczba": 255
    },
    {
     "rok": 2017,
-    "liczba": 171
+    "liczba": 225
    },
    {
     "rok": 2018,
-    "liczba": 137
+    "liczba": 165
    },
    {
     "rok": 2019,
-    "liczba": 43
+    "liczba": 85
    },
    {
     "rok": 2020,
-    "liczba": 5
+    "liczba": 25
    },
    {
     "rok": 2021,
-    "liczba": 6
+    "liczba": 23
    },
    {
     "rok": 2022,
-    "liczba": 14
+    "liczba": 88
    },
    {
     "rok": 2023,
-    "liczba": 5
+    "liczba": 592
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 346
    },
    {
     "rok": 2025,
-    "liczba": 123
+    "liczba": 441
    },
    {
     "rok": 2026,
@@ -134,86 +134,244 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 605
+    "liczba": 1726
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 230
+    "liczba": 660
    },
    {
     "nazwa": "Diesel",
-    "liczba": 89
+    "liczba": 198
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pojemnosci": [
    {
-    "nazwa": "1,6 l",
-    "liczba": 660
+    "nazwa": "1,5 l",
+    "liczba": 1623
    },
    {
-    "nazwa": "1,5 l",
-    "liczba": 262
+    "nazwa": "1,6 l",
+    "liczba": 952
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 11
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 657
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 146
+    "liczba": 1750
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 117
+    "liczba": 456
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 369
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 11
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 888
+    "liczba": 2451
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 20
+    "liczba": 76
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 40
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 19
    }
   ],
-  "noweOdPaczki": 360,
+  "noweOdPaczki": 2021,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 227
+   },
+   {
+    "rok": 2024,
+    "liczba": 774
+   },
+   {
+    "rok": 2025,
+    "liczba": 650
+   },
+   {
     "rok": 2026,
-    "liczba": 360
+    "liczba": 370
    }
   ],
-  "miejsce": 691,
-  "miejsceWMarce": 3,
-  "modeliWMarce": 7,
-  "sredniRocznik": 2019.1
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 67
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 64
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 521,
+  "miejsceWMarce": 2,
+  "modeliWMarce": 10,
+  "sredniRocznik": 2021.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ssangyong-kgm",
  "modelSlug": "tivoli",
@@ -225,9 +383,9 @@
    "adres": "/marki/seat/ateca/"
   },
   {
-   "slug": "mercedes-benz-klasa-gla",
-   "nazwa": "Mercedes-Benz Klasa GLA",
-   "adres": "/marki/mercedes-benz/klasa-gla/"
+   "slug": "volkswagen-t-roc",
+   "nazwa": "Volkswagen T-Roc",
+   "adres": "/marki/volkswagen/t-roc/"
   },
   {
    "slug": "audi-q2",
@@ -235,9 +393,9 @@
    "adres": "/marki/audi/q2/"
   },
   {
-   "slug": "dacia-duster",
-   "nazwa": "Dacia Duster",
-   "adres": "/marki/dacia/duster/"
+   "slug": "skoda-karoq",
+   "nazwa": "Skoda Karoq",
+   "adres": "/marki/skoda/karoq/"
   },
   {
    "slug": "kia-niro",

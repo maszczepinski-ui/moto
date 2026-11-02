@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Orion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ORION, ORION 1.6, ORION 1.4 KAT, ORION 1.8D, ORION 1.6D).",
-  "liczbaWPolsce": 11581,
-  "aktywne": 20,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Orion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ORION, ORION 1.6, ORION 1.4 KAT, ORION 1.8D, ORION 1.6D).",
+  "liczbaWPolsce": 11586,
+  "aktywne": 25,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 736
+    "liczba": 737
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 1119
+    "liczba": 1120
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 806
+    "liczba": 807
    },
    {
     "teryt": "24",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 326
+    "liczba": 327
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1065
+    "liczba": 1066
    },
    {
     "teryt": "32",
@@ -109,23 +109,23 @@
    },
    {
     "rok": 1989,
-    "liczba": 477
+    "liczba": 478
    },
    {
     "rok": 1990,
-    "liczba": 545
+    "liczba": 546
    },
    {
     "rok": 1991,
-    "liczba": 2721
+    "liczba": 2722
    },
    {
     "rok": 1992,
-    "liczba": 1609
+    "liczba": 1610
    },
    {
     "rok": 1993,
-    "liczba": 1012
+    "liczba": 1013
    },
    {
     "rok": 1994,
@@ -147,7 +147,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3396
+    "liczba": 3401
    },
    {
     "nazwa": "Diesel",
@@ -169,11 +169,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 4434
+    "liczba": 4436
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 3296
+    "liczba": 3299
    },
    {
     "nazwa": "1,8 l",
@@ -195,11 +195,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 7899
+    "liczba": 7900
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2320
+    "liczba": 2323
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -211,13 +211,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 196
+    "liczba": 197
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 5950
+    "liczba": 5955
    },
    {
     "nazwa": "Hatchback",
@@ -228,25 +228,175 @@
     "liczba": 4974
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2026,
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
     "liczba": 1
+   },
+   {
+    "rok": 2026,
+    "liczba": 2
    }
   ],
-  "miejsce": 221,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 39,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 262,
+  "miejsceWMarce": 15,
+  "modeliWMarce": 45,
   "sredniRocznik": 1990.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "orion",

@@ -13,132 +13,132 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Mokka – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 944 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MOKKA, MOKKA X, MOKKA 1.4 T, MOKKA 1.6 CDTI, MOKKA 1.7 CDTI).",
-  "liczbaWPolsce": 27942,
-  "aktywne": 20289,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Mokka – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 35 193 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MOKKA, MOKKA X, MOKKA 1.4 T, MOKKA 1.7 CDTI, MOKKA 1.4 T 4X4).",
+  "liczbaWPolsce": 53191,
+  "aktywne": 45538,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1572
+    "liczba": 2847
    },
    {
     "teryt": "04",
-    "liczba": 1673
+    "liczba": 3344
    },
    {
     "teryt": "06",
-    "liczba": 1193
+    "liczba": 2531
    },
    {
     "teryt": "08",
-    "liczba": 587
+    "liczba": 1135
    },
    {
     "teryt": "10",
-    "liczba": 1746
+    "liczba": 3514
    },
    {
     "teryt": "12",
-    "liczba": 3134
+    "liczba": 6048
    },
    {
     "teryt": "14",
-    "liczba": 3547
+    "liczba": 7118
    },
    {
     "teryt": "16",
-    "liczba": 669
+    "liczba": 1167
    },
    {
     "teryt": "18",
-    "liczba": 2116
+    "liczba": 4465
    },
    {
     "teryt": "20",
-    "liczba": 707
+    "liczba": 1553
    },
    {
     "teryt": "22",
-    "liczba": 1481
+    "liczba": 2559
    },
    {
     "teryt": "24",
-    "liczba": 3793
+    "liczba": 6221
    },
    {
     "teryt": "26",
-    "liczba": 877
+    "liczba": 1878
    },
    {
     "teryt": "28",
-    "liczba": 913
+    "liczba": 1748
    },
    {
     "teryt": "30",
-    "liczba": 2929
+    "liczba": 5331
    },
    {
     "teryt": "32",
-    "liczba": 890
+    "liczba": 1617
    }
   ],
   "bezWojewodztwa": 115,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 629
+    "liczba": 1189
    },
    {
     "rok": 2013,
-    "liczba": 2386
+    "liczba": 4925
    },
    {
     "rok": 2014,
-    "liczba": 4428
+    "liczba": 8351
    },
    {
     "rok": 2015,
-    "liczba": 4844
+    "liczba": 8653
    },
    {
     "rok": 2016,
-    "liczba": 4780
+    "liczba": 7855
    },
    {
     "rok": 2017,
-    "liczba": 4844
+    "liczba": 8121
    },
    {
     "rok": 2018,
-    "liczba": 2847
+    "liczba": 4285
    },
    {
     "rok": 2019,
-    "liczba": 771
+    "liczba": 1433
    },
    {
     "rok": 2020,
-    "liczba": 1
+    "liczba": 5
    },
    {
     "rok": 2021,
-    "liczba": 185
+    "liczba": 546
    },
    {
     "rok": 2022,
-    "liczba": 156
+    "liczba": 475
    },
    {
     "rok": 2023,
-    "liczba": 119
+    "liczba": 1396
    },
    {
     "rok": 2024,
-    "liczba": 53
+    "liczba": 2108
    },
    {
     "rok": 2025,
-    "liczba": 471
+    "liczba": 2419
    },
    {
     "rok": 2026,
@@ -148,102 +148,256 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 22057
+    "liczba": 39821
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3433
+    "liczba": 8206
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 2036
+    "liczba": 4148
    },
    {
-    "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 310
+    "nazwa": "Elektryczny",
+    "liczba": 541
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 106
+    "liczba": 475
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 15275
+    "liczba": 27510
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 8864
-   },
-   {
-    "nazwa": "1,7 l",
-    "liczba": 1909
+    "liczba": 13726
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 1739
+    "liczba": 7166
+   },
+   {
+    "nazwa": "1,7 l",
+    "liczba": 4090
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 155
+    "liczba": 699
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 14607
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 24484
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 9789
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 18176
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3393
+    "liczba": 10256
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 153
+    "liczba": 275
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 23721
+    "liczba": 43296
    },
    {
     "nazwa": "Kombi",
-    "liczba": 2441
+    "liczba": 5397
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1290
+    "liczba": 3570
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 490
+    "liczba": 928
    }
   ],
-  "noweOdPaczki": 9944,
-  "hybrydy": 310,
-  "elektryczne": 81,
+  "noweOdPaczki": 35193,
+  "hybrydy": 446,
+  "elektryczne": 541,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 2051
+   },
+   {
+    "rok": 2024,
+    "liczba": 10558
+   },
+   {
+    "rok": 2025,
+    "liczba": 12164
+   },
+   {
     "rok": 2026,
-    "liczba": 9944
+    "liczba": 10420
    }
   ],
-  "miejsce": 114,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 636
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 721
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 954
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 859
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 981
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 894
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 952
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 849
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 856
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 900
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1083
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 811
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 698
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 757
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 891
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1095
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1105
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1096
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1054
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1036
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 993
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1103
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1212
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 987
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 835
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 476
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 77,
   "miejsceWMarce": 9,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2016.2
+  "modeliWMarce": 33,
+  "sredniRocznik": 2016.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "mokka",
@@ -260,19 +414,19 @@
    "adres": "/marki/nissan/juke/"
   },
   {
+   "slug": "honda-hr-v",
+   "nazwa": "Honda HR-V",
+   "adres": "/marki/honda/hr-v/"
+  },
+  {
+   "slug": "nissan-qashqai",
+   "nazwa": "Nissan Qashqai",
+   "adres": "/marki/nissan/qashqai/"
+  },
+  {
    "slug": "jeep-renegade",
    "nazwa": "Jeep Renegade",
    "adres": "/marki/jeep/renegade/"
-  },
-  {
-   "slug": "fiat-500l",
-   "nazwa": "Fiat 500L",
-   "adres": "/marki/fiat/500l/"
-  },
-  {
-   "slug": "hyundai-ix20",
-   "nazwa": "Hyundai ix20",
-   "adres": "/marki/hyundai/ix20/"
   }
  ]
 }

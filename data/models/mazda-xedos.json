@@ -12,41 +12,41 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Xedos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XEDOS, XEDOS 6, XEDOS 9, XEDOS 6 2.0 KAT, XEDOS 2.0 KAT).",
-  "liczbaWPolsce": 2020,
-  "aktywne": 173,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Xedos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XEDOS, XEDOS 6, XEDOS 9, XEDOS 6 2.0 KAT, XEDOS 2.0 KAT).",
+  "liczbaWPolsce": 2047,
+  "aktywne": 200,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 211
+    "liczba": 212
    },
    {
     "teryt": "04",
-    "liczba": 106
+    "liczba": 108
    },
    {
     "teryt": "06",
-    "liczba": 154
+    "liczba": 157
    },
    {
     "teryt": "08",
-    "liczba": 93
+    "liczba": 94
    },
    {
     "teryt": "10",
-    "liczba": 173
+    "liczba": 176
    },
    {
     "teryt": "12",
-    "liczba": 111
+    "liczba": 115
    },
    {
     "teryt": "14",
-    "liczba": 257
+    "liczba": 259
    },
    {
     "teryt": "16",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "18",
@@ -58,15 +58,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 136
+    "liczba": 138
    },
    {
     "teryt": "24",
-    "liczba": 165
+    "liczba": 166
    },
    {
     "teryt": "26",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "28",
@@ -74,30 +74,30 @@
    },
    {
     "teryt": "30",
-    "liczba": 152
+    "liczba": 157
    },
    {
     "teryt": "32",
-    "liczba": 92
+    "liczba": 93
    }
   ],
   "bezWojewodztwa": 11,
   "roczniki": [
    {
     "rok": 1992,
-    "liczba": 206
+    "liczba": 208
    },
    {
     "rok": 1993,
-    "liczba": 310
+    "liczba": 314
    },
    {
     "rok": 1994,
-    "liczba": 351
+    "liczba": 352
    },
    {
     "rok": 1995,
-    "liczba": 294
+    "liczba": 295
    },
    {
     "rok": 1996,
@@ -109,37 +109,37 @@
    },
    {
     "rok": 1998,
-    "liczba": 127
+    "liczba": 132
    },
    {
     "rok": 1999,
-    "liczba": 104
+    "liczba": 107
    },
    {
     "rok": 2000,
-    "liczba": 46
-   },
-   {
-    "rok": 2001,
     "liczba": 48
    },
    {
+    "rok": 2001,
+    "liczba": 53
+   },
+   {
     "rok": 2002,
-    "liczba": 25
+    "liczba": 28
    },
    {
     "rok": 2003,
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1199
+    "liczba": 1224
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 670
+    "liczba": 672
    },
    {
     "nazwa": "?+LPG",
@@ -153,7 +153,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1268
+    "liczba": 1280
    },
    {
     "nazwa": "1,6 l",
@@ -161,11 +161,11 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 301
+    "liczba": 314
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 57
+    "liczba": 59
    },
    {
     "nazwa": "Inne / brak danych",
@@ -175,11 +175,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1239
+    "liczba": 1246
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 736
+    "liczba": 755
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -187,42 +187,196 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 22
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1712
+    "liczba": 1738
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 132
+    "liczba": 133
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 176
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 33,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 3
+   },
+   {
+    "rok": 2024,
+    "liczba": 14
+   },
+   {
+    "rok": 2025,
+    "liczba": 9
+   },
+   {
     "rok": 2026,
-    "liczba": 6
+    "liczba": 7
    }
   ],
-  "miejsce": 497,
-  "miejsceWMarce": 16,
-  "modeliWMarce": 29,
-  "sredniRocznik": 1995.3
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 568,
+  "miejsceWMarce": 18,
+  "modeliWMarce": 32,
+  "sredniRocznik": 1995.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "xedos",

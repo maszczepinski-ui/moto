@@ -11,92 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 408 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 473 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 408).",
-  "liczbaWPolsce": 2473,
-  "aktywne": 2473,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 408 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 751 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 408).",
+  "liczbaWPolsce": 6751,
+  "aktywne": 6751,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 130
+    "liczba": 398
    },
    {
     "teryt": "04",
-    "liczba": 54
+    "liczba": 139
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 55
    },
    {
     "teryt": "08",
-    "liczba": 52
+    "liczba": 108
    },
    {
     "teryt": "10",
-    "liczba": 67
+    "liczba": 166
    },
    {
     "teryt": "12",
-    "liczba": 103
+    "liczba": 330
    },
    {
     "teryt": "14",
-    "liczba": 1244
+    "liczba": 3582
    },
    {
     "teryt": "16",
-    "liczba": 21
+    "liczba": 41
    },
    {
     "teryt": "18",
-    "liczba": 34
+    "liczba": 112
    },
    {
     "teryt": "20",
-    "liczba": 15
+    "liczba": 67
    },
    {
     "teryt": "22",
-    "liczba": 103
+    "liczba": 271
    },
    {
     "teryt": "24",
-    "liczba": 222
+    "liczba": 612
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 35
    },
    {
     "teryt": "28",
-    "liczba": 32
+    "liczba": 109
    },
    {
     "teryt": "30",
-    "liczba": 306
+    "liczba": 543
    },
    {
     "teryt": "32",
-    "liczba": 60
+    "liczba": 183
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 10
+    "liczba": 16
    },
    {
     "rok": 2023,
-    "liczba": 41
+    "liczba": 625
    },
    {
     "rok": 2024,
-    "liczba": 29
+    "liczba": 1921
    },
    {
     "rok": 2025,
-    "liczba": 298
+    "liczba": 2092
    },
    {
     "rok": 2026,
@@ -106,78 +106,236 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1317
+    "liczba": 4235
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1152
+    "liczba": 2507
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 9
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 2296
+    "liczba": 6183
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 173
+    "liczba": 562
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2168
+    "liczba": 5575
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 154
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 90
+    "liczba": 888
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 61
+    "liczba": 157
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 129
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2469
+    "liczba": 6745
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 6
    }
   ],
-  "noweOdPaczki": 2473,
-  "hybrydy": 1152,
-  "elektryczne": 4,
+  "noweOdPaczki": 6751,
+  "hybrydy": 2507,
+  "elektryczne": 6,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 243
+   },
+   {
+    "rok": 2024,
+    "liczba": 1924
+   },
+   {
+    "rok": 2025,
+    "liczba": 2065
+   },
+   {
     "rok": 2026,
-    "liczba": 2473
+    "liczba": 2519
    }
   ],
-  "miejsce": 452,
-  "miejsceWMarce": 25,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 191
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 262
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 290
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 172
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 319
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 105
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 87
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 245
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 195
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 127
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 168
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 190
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 254
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 243
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 145
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 180
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 348,
+  "miejsceWMarce": 19,
   "modeliWMarce": 44,
-  "sredniRocznik": 2025.8
+  "sredniRocznik": 2024.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "408",
@@ -199,9 +357,9 @@
    "adres": "/marki/toyota/aygo-x/"
   },
   {
-   "slug": "dacia-bigster",
-   "nazwa": "Dacia Bigster",
-   "adres": "/marki/dacia/bigster/"
+   "slug": "mg-zs",
+   "nazwa": "MG ZS",
+   "adres": "/marki/mg/zs/"
   },
   {
    "slug": "suzuki-s-cross",

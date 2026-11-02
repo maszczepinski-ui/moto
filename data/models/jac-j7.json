@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe JAC J7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 277 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: J7 PLUS).",
-  "liczbaWPolsce": 277,
-  "aktywne": 277,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe JAC J7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 341 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: J7 PLUS).",
+  "liczbaWPolsce": 341,
+  "aktywne": 341,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 6
+    "liczba": 9
    },
    {
     "teryt": "04",
-    "liczba": 16
+    "liczba": 20
    },
    {
     "teryt": "06",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "08",
@@ -33,19 +33,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "12",
-    "liczba": 13
+    "liczba": 18
    },
    {
     "teryt": "14",
-    "liczba": 23
+    "liczba": 32
    },
    {
     "teryt": "16",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "18",
@@ -53,38 +53,42 @@
    },
    {
     "teryt": "20",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "22",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "teryt": "24",
-    "liczba": 28
+    "liczba": 32
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "28",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "30",
-    "liczba": 85
+    "liczba": 105
    },
    {
     "teryt": "32",
-    "liczba": 22
+    "liczba": 30
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2024,
+    "liczba": 1
+   },
+   {
     "rok": 2025,
-    "liczba": 195
+    "liczba": 258
    },
    {
     "rok": 2026,
@@ -94,7 +98,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 276
+    "liczba": 340
    },
    {
     "nazwa": "Inne / brak danych",
@@ -104,50 +108,223 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 277
+    "liczba": 341
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 268
+    "liczba": 319
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 6
+    "liczba": 17
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 3
+    "liczba": 5
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 277
+    "liczba": 341
    }
   ],
-  "noweOdPaczki": 277,
+  "noweOdPaczki": 341,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 58
+   },
+   {
     "rok": 2026,
-    "liczba": 277
+    "liczba": 283
    }
   ],
-  "miejsce": 1023,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1051,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
-  "sredniRocznik": 2025.3
+  "sredniRocznik": 2025.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jac",
  "modelSlug": "j7",
- "adres": "/marki/jac/j7/"
+ "adres": "/marki/jac/j7/",
+ "konkurenci": [
+  {
+   "slug": "byd-seal-5",
+   "nazwa": "BYD Seal 5",
+   "adres": "/marki/byd/seal-5/"
+  },
+  {
+   "slug": "toyota-yaris-cross",
+   "nazwa": "Toyota Yaris Cross",
+   "adres": "/marki/toyota/yaris-cross/"
+  },
+  {
+   "slug": "mg-hs",
+   "nazwa": "MG HS",
+   "adres": "/marki/mg/hs/"
+  },
+  {
+   "slug": "byd-seal-u",
+   "nazwa": "BYD Seal U",
+   "adres": "/marki/byd/seal-u/"
+  },
+  {
+   "slug": "omoda-9",
+   "nazwa": "Omoda 9",
+   "adres": "/marki/omoda/9/"
+  }
+ ]
 }

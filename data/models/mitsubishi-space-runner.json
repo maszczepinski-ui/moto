@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Space Runner – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPACE RUNNER, SPACE RUNNER 1.8 KAT, SPACE RUNNER 1.8KAT, SPACE RUNNER 1.8).",
-  "liczbaWPolsce": 846,
-  "aktywne": 80,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Space Runner – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPACE RUNNER, SPACE RUNNER 1.8 KAT, SPACE RUNNER 1.8KAT, SPACE RUNNER 1.8).",
+  "liczbaWPolsce": 855,
+  "aktywne": 89,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 71
+    "liczba": 74
    },
    {
     "teryt": "08",
@@ -36,7 +36,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 59
+    "liczba": 61
    },
    {
     "teryt": "12",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 116
+    "liczba": 118
    },
    {
     "teryt": "16",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "teryt": "32",
@@ -115,19 +115,19 @@
    },
    {
     "rok": 1998,
-    "liczba": 54
+    "liczba": 56
    },
    {
     "rok": 1999,
-    "liczba": 89
+    "liczba": 92
    },
    {
     "rok": 2000,
-    "liczba": 74
+    "liczba": 77
    },
    {
     "rok": 2001,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 2002,
@@ -137,11 +137,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 446
+    "liczba": 454
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 302
+    "liczba": 303
    },
    {
     "nazwa": "Diesel",
@@ -159,15 +159,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 594
+    "liczba": 597
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 166
+    "liczba": 171
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 70
+    "liczba": 71
    },
    {
     "nazwa": "1,7 l",
@@ -181,11 +181,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 426
+    "liczba": 432
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 402
+    "liczba": 405
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -203,11 +203,11 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 222
+    "liczba": 226
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 158
+    "liczba": 159
    },
    {
     "nazwa": "Sedan",
@@ -215,32 +215,182 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 90
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 5
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 708,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 786,
   "miejsceWMarce": 13,
-  "modeliWMarce": 18,
+  "modeliWMarce": 19,
   "sredniRocznik": 1995.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "space-runner",

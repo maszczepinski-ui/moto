@@ -12,124 +12,124 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Qubo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 222 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QUBO, QUBO L).",
-  "liczbaWPolsce": 1906,
-  "aktywne": 1033,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Qubo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 580 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QUBO, QUBO L).",
+  "liczbaWPolsce": 2264,
+  "aktywne": 1391,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 123
+    "liczba": 153
    },
    {
     "teryt": "04",
-    "liczba": 77
+    "liczba": 89
    },
    {
     "teryt": "06",
-    "liczba": 61
+    "liczba": 73
    },
    {
     "teryt": "08",
-    "liczba": 40
+    "liczba": 48
    },
    {
     "teryt": "10",
-    "liczba": 95
+    "liczba": 116
    },
    {
     "teryt": "12",
-    "liczba": 222
+    "liczba": 277
    },
    {
     "teryt": "14",
-    "liczba": 252
+    "liczba": 279
    },
    {
     "teryt": "16",
-    "liczba": 47
+    "liczba": 49
    },
    {
     "teryt": "18",
-    "liczba": 109
+    "liczba": 144
    },
    {
     "teryt": "20",
-    "liczba": 43
+    "liczba": 51
    },
    {
     "teryt": "22",
-    "liczba": 106
+    "liczba": 123
    },
    {
     "teryt": "24",
-    "liczba": 381
+    "liczba": 419
    },
    {
     "teryt": "26",
-    "liczba": 72
+    "liczba": 88
    },
    {
     "teryt": "28",
-    "liczba": 40
+    "liczba": 44
    },
    {
     "teryt": "30",
-    "liczba": 195
+    "liczba": 257
    },
    {
     "teryt": "32",
-    "liczba": 35
+    "liczba": 46
    }
   ],
   "bezWojewodztwa": 8,
   "roczniki": [
    {
     "rok": 2008,
-    "liczba": 21
+    "liczba": 28
    },
    {
     "rok": 2009,
-    "liczba": 235
+    "liczba": 266
    },
    {
     "rok": 2010,
-    "liczba": 127
+    "liczba": 158
    },
    {
     "rok": 2011,
-    "liczba": 192
+    "liczba": 281
    },
    {
     "rok": 2012,
-    "liczba": 179
+    "liczba": 237
    },
    {
     "rok": 2013,
-    "liczba": 147
+    "liczba": 190
    },
    {
     "rok": 2014,
-    "liczba": 172
+    "liczba": 191
    },
    {
     "rok": 2015,
-    "liczba": 182
+    "liczba": 208
    },
    {
     "rok": 2016,
-    "liczba": 199
+    "liczba": 219
    },
    {
     "rok": 2017,
-    "liczba": 88
+    "liczba": 98
    },
    {
     "rok": 2018,
-    "liczba": 154
+    "liczba": 168
    },
    {
     "rok": 2019,
-    "liczba": 48
+    "liczba": 58
    },
    {
     "rok": 2020,
@@ -163,25 +163,25 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 898
+    "liczba": 1071
    },
    {
     "nazwa": "Diesel",
-    "liczba": 714
+    "liczba": 863
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 294
+    "liczba": 330
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1189
+    "liczba": 1396
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 611
+    "liczba": 762
    },
    {
     "nazwa": "1,5 l",
@@ -199,11 +199,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 481
+    "liczba": 578
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 287
+    "liczba": 548
    },
    {
     "nazwa": "Inne / brak danych",
@@ -213,59 +213,203 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1723
+    "liczba": 2003
    },
    {
     "nazwa": "Kombi",
-    "liczba": 72
+    "liczba": 110
    },
    {
     "nazwa": "Van",
-    "liczba": 54
+    "liczba": 72
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 36
+    "liczba": 53
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 26
    }
   ],
-  "noweOdPaczki": 222,
+  "noweOdPaczki": 580,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 20
+   },
+   {
+    "rok": 2024,
+    "liczba": 149
+   },
+   {
+    "rok": 2025,
+    "liczba": 178
+   },
+   {
     "rok": 2026,
-    "liczba": 222
+    "liczba": 233
    }
   ],
-  "miejsce": 513,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 545,
   "miejsceWMarce": 34,
   "modeliWMarce": 58,
-  "sredniRocznik": 2014.0
+  "sredniRocznik": 2013.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "qubo",
  "adres": "/marki/fiat/qubo/",
  "konkurenci": [
-  {
-   "slug": "nissan-qashqai",
-   "nazwa": "Nissan Qashqai",
-   "adres": "/marki/nissan/qashqai/"
-  },
-  {
-   "slug": "nissan-juke",
-   "nazwa": "Nissan Juke",
-   "adres": "/marki/nissan/juke/"
-  },
   {
    "slug": "nissan-pulsar",
    "nazwa": "Nissan Pulsar",
@@ -277,9 +421,19 @@
    "adres": "/marki/hyundai/ix20/"
   },
   {
+   "slug": "nissan-qashqai",
+   "nazwa": "Nissan Qashqai",
+   "adres": "/marki/nissan/qashqai/"
+  },
+  {
    "slug": "kia-venga",
    "nazwa": "Kia Venga",
    "adres": "/marki/kia/venga/"
+  },
+  {
+   "slug": "nissan-juke",
+   "nazwa": "Nissan Juke",
+   "adres": "/marki/nissan/juke/"
   }
  ]
 }

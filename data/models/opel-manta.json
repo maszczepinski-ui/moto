@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Manta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MANTA, MANTA 2.0, MANTA 1.9, MANTA 1.6, MANTA 1.2).",
-  "liczbaWPolsce": 1486,
-  "aktywne": 16,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Manta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MANTA, MANTA 2.0, MANTA 1.9, MANTA 1.6, MANTA 1.2).",
+  "liczbaWPolsce": 1497,
+  "aktywne": 27,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 103
+    "liczba": 105
    },
    {
     "teryt": "14",
-    "liczba": 232
+    "liczba": 234
    },
    {
     "teryt": "16",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 95
+    "liczba": 97
    },
    {
     "teryt": "24",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "30",
-    "liczba": 142
+    "liczba": 146
    },
    {
     "teryt": "32",
@@ -98,7 +98,7 @@
    },
    {
     "rok": 1973,
-    "liczba": 48
+    "liczba": 50
    },
    {
     "rok": 1974,
@@ -106,23 +106,23 @@
    },
    {
     "rok": 1975,
-    "liczba": 62
+    "liczba": 63
    },
    {
     "rok": 1976,
-    "liczba": 100
+    "liczba": 101
    },
    {
     "rok": 1977,
-    "liczba": 143
+    "liczba": 144
    },
    {
     "rok": 1978,
-    "liczba": 189
+    "liczba": 190
    },
    {
     "rok": 1979,
-    "liczba": 218
+    "liczba": 219
    },
    {
     "rok": 1980,
@@ -134,11 +134,11 @@
    },
    {
     "rok": 1982,
-    "liczba": 79
+    "liczba": 80
    },
    {
     "rok": 1983,
-    "liczba": 54
+    "liczba": 55
    },
    {
     "rok": 1984,
@@ -154,7 +154,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 10
+    "liczba": 12
    },
    {
     "rok": 1988,
@@ -200,7 +200,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 350
+    "liczba": 361
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -218,7 +218,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 519
+    "liczba": 524
    },
    {
     "nazwa": "1,6 l",
@@ -226,11 +226,11 @@
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 300
+    "liczba": 305
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 100
+    "liczba": 101
    },
    {
     "nazwa": "1,3 l",
@@ -252,7 +252,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1140
+    "liczba": 1141
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -260,7 +260,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 62
+    "liczba": 72
    },
    {
     "nazwa": "Inne / brak danych",
@@ -270,40 +270,194 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 250
+    "liczba": 251
    },
    {
     "nazwa": "Coupe",
-    "liczba": 95
+    "liczba": 102
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1052
+    "liczba": 1054
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 580,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 646,
   "miejsceWMarce": 26,
-  "modeliWMarce": 31,
+  "modeliWMarce": 33,
   "sredniRocznik": 1979.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "manta",

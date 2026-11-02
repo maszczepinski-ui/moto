@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Lanos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LANOS, LANOS 1.5 KAT, LANOS 1.5, LANOS 1.5KAT, LANOS 1.6 KAT).",
-  "liczbaWPolsce": 52975,
-  "aktywne": 5330,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Lanos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LANOS, LANOS 1.5 KAT, LANOS 1.5, LANOS 1.5KAT, LANOS 1.6 KAT).",
+  "liczbaWPolsce": 52989,
+  "aktywne": 5344,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,27 +22,27 @@
    },
    {
     "teryt": "04",
-    "liczba": 2574
+    "liczba": 2576
    },
    {
     "teryt": "06",
-    "liczba": 3033
+    "liczba": 3034
    },
    {
     "teryt": "08",
-    "liczba": 1198
+    "liczba": 1199
    },
    {
     "teryt": "10",
-    "liczba": 5174
+    "liczba": 5175
    },
    {
     "teryt": "12",
-    "liczba": 4038
+    "liczba": 4039
    },
    {
     "teryt": "14",
-    "liczba": 10309
+    "liczba": 10312
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 2210
+    "liczba": 2211
    },
    {
     "teryt": "24",
-    "liczba": 6421
+    "liczba": 6423
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 3602
+    "liczba": 3603
    },
    {
     "teryt": "32",
-    "liczba": 1910
+    "liczba": 1911
    }
   ],
   "bezWojewodztwa": 60,
@@ -89,23 +89,23 @@
    },
    {
     "rok": 1998,
-    "liczba": 16747
+    "liczba": 16748
    },
    {
     "rok": 1999,
-    "liczba": 16801
+    "liczba": 16803
    },
    {
     "rok": 2000,
-    "liczba": 10095
+    "liczba": 10099
    },
    {
     "rok": 2001,
-    "liczba": 3270
+    "liczba": 3271
    },
    {
     "rok": 2002,
-    "liczba": 1146
+    "liczba": 1147
    },
    {
     "rok": 2003,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 283
+    "liczba": 284
    }
   ],
   "paliwa": [
@@ -123,7 +123,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 24440
+    "liczba": 24454
    },
    {
     "nazwa": "Inne / brak danych",
@@ -133,25 +133,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 37861
+    "liczba": 37867
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 8996
+    "liczba": 8997
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 6015
+    "liczba": 6021
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 103
+    "liczba": 104
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 35900
+    "liczba": 35904
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -159,7 +159,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 776
+    "liczba": 786
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -173,27 +173,181 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 25646
+    "liczba": 25651
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 19336
+    "liczba": 19345
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 7993
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 18,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 8
+   },
+   {
+    "rok": 2025,
+    "liczba": 4
+   },
    {
     "rok": 2026,
     "liczba": 4
    }
   ],
-  "miejsce": 64,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 78,
   "miejsceWMarce": 1,
   "modeliWMarce": 15,
   "sredniRocznik": 1999.0
@@ -202,7 +356,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "lanos",

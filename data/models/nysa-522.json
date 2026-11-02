@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nysa 522 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 522, 522 TOWOS).",
-  "liczbaWPolsce": 1123,
-  "aktywne": 14,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nysa 522 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 522, 522 TOWOS).",
+  "liczbaWPolsce": 1125,
+  "aktywne": 16,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 117
+    "liczba": 118
    },
    {
     "teryt": "14",
@@ -77,7 +77,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 36
+    "liczba": 37
    }
   ],
   "bezWojewodztwa": 18,
@@ -116,7 +116,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 38
+    "liczba": 39
    },
    {
     "rok": 1982,
@@ -156,7 +156,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 85
+    "liczba": 86
    },
    {
     "rok": 1992,
@@ -174,7 +174,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 109
+    "liczba": 111
    },
    {
     "nazwa": "?+LPG",
@@ -192,7 +192,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 1080
+    "liczba": 1082
    },
    {
     "nazwa": "Inne / brak danych",
@@ -202,7 +202,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 823
+    "liczba": 824
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -214,7 +214,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 113
+    "liczba": 114
    }
   ],
   "nadwozia": [
@@ -228,7 +228,7 @@
    },
    {
     "nazwa": "Furgon",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "nazwa": "Van",
@@ -243,16 +243,166 @@
     "liczba": 928
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 4,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 1
+   },
    {
     "rok": 2026,
     "liczba": 2
    }
   ],
-  "miejsce": 645,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 718,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
   "sredniRocznik": 1985.6
@@ -261,7 +411,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "nysa",
  "modelSlug": "522",

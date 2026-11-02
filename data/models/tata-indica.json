@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tata Indica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: INDICA).",
-  "liczbaWPolsce": 531,
-  "aktywne": 104,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tata Indica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: INDICA).",
+  "liczbaWPolsce": 538,
+  "aktywne": 111,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 54
+    "liczba": 56
    },
    {
     "teryt": "04",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "14",
-    "liczba": 69
+    "liczba": 70
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "20",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "24",
@@ -96,21 +96,25 @@
    },
    {
     "rok": 2008,
-    "liczba": 280
+    "liczba": 281
    },
    {
     "rok": 2009,
-    "liczba": 36
+    "liczba": 39
    },
    {
     "rok": 2010,
-    "liczba": 165
+    "liczba": 166
+   },
+   {
+    "rok": 2011,
+    "liczba": 2
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 430
+    "liczba": 435
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -118,13 +122,17 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 48
+    "liczba": 50
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 531
+    "liczba": 536
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
   "pochodzenie": [
@@ -138,7 +146,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 6
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,23 +156,177 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 527
+    "liczba": 532
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 6
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
+   {
+    "rok": 2024,
+    "liczba": 2
+   },
+   {
+    "rok": 2025,
+    "liczba": 4
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 821,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 897,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
   "sredniRocznik": 2008.7
@@ -173,31 +335,31 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "tata",
  "modelSlug": "indica",
  "adres": "/marki/tata/indica/",
  "konkurenci": [
   {
-   "slug": "skoda-fabia",
-   "nazwa": "Skoda Fabia",
-   "adres": "/marki/skoda/fabia/"
-  },
-  {
    "slug": "mazda-2",
    "nazwa": "Mazda 2",
    "adres": "/marki/mazda/2/"
   },
   {
-   "slug": "toyota-yaris",
-   "nazwa": "Toyota Yaris",
-   "adres": "/marki/toyota/yaris/"
+   "slug": "skoda-fabia",
+   "nazwa": "Skoda Fabia",
+   "adres": "/marki/skoda/fabia/"
   },
   {
-   "slug": "chevrolet-aveo",
-   "nazwa": "Chevrolet Aveo",
-   "adres": "/marki/chevrolet/aveo/"
+   "slug": "mitsubishi-space-star",
+   "nazwa": "Mitsubishi Space Star",
+   "adres": "/marki/mitsubishi/space-star/"
+  },
+  {
+   "slug": "suzuki-swift",
+   "nazwa": "Suzuki Swift",
+   "adres": "/marki/suzuki/swift/"
   },
   {
    "slug": "peugeot-207",

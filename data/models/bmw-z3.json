@@ -12,166 +12,170 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW Z3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 187 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Z3, Z3 1.9 KAT, Z3 ROADSTER, Z3 1.9).",
-  "liczbaWPolsce": 1330,
-  "aktywne": 515,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW Z3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 789 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Z3, Z3 ROADSTER, Z3 1.9 KAT, Z3 1.9, Z3 ROADSTER 1.9).",
+  "liczbaWPolsce": 1932,
+  "aktywne": 1117,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 116
+    "liczba": 162
    },
    {
     "teryt": "04",
-    "liczba": 71
+    "liczba": 100
    },
    {
     "teryt": "06",
-    "liczba": 46
+    "liczba": 72
    },
    {
     "teryt": "08",
-    "liczba": 28
+    "liczba": 39
    },
    {
     "teryt": "10",
-    "liczba": 71
+    "liczba": 113
    },
    {
     "teryt": "12",
-    "liczba": 149
+    "liczba": 206
    },
    {
     "teryt": "14",
-    "liczba": 219
+    "liczba": 312
    },
    {
     "teryt": "16",
-    "liczba": 32
+    "liczba": 48
    },
    {
     "teryt": "18",
-    "liczba": 45
+    "liczba": 65
    },
    {
     "teryt": "20",
-    "liczba": 29
+    "liczba": 41
    },
    {
     "teryt": "22",
-    "liczba": 83
+    "liczba": 119
    },
    {
     "teryt": "24",
-    "liczba": 185
+    "liczba": 239
    },
    {
     "teryt": "26",
-    "liczba": 31
+    "liczba": 59
    },
    {
     "teryt": "28",
-    "liczba": 33
+    "liczba": 50
    },
    {
     "teryt": "30",
-    "liczba": 142
+    "liczba": 240
    },
    {
     "teryt": "32",
-    "liczba": 42
+    "liczba": 59
    }
   ],
   "bezWojewodztwa": 8,
   "roczniki": [
    {
     "rok": 1995,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1996,
-    "liczba": 267
+    "liczba": 366
    },
    {
     "rok": 1997,
-    "liczba": 302
+    "liczba": 427
    },
    {
     "rok": 1998,
-    "liczba": 239
+    "liczba": 339
    },
    {
     "rok": 1999,
-    "liczba": 210
+    "liczba": 320
    },
    {
     "rok": 2000,
-    "liczba": 154
+    "liczba": 219
    },
    {
     "rok": 2001,
-    "liczba": 90
+    "liczba": 149
    },
    {
     "rok": 2002,
-    "liczba": 34
+    "liczba": 75
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1260
+    "liczba": 1857
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 56
+    "liczba": 60
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 556
+    "liczba": 781
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 362
+    "liczba": 514
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 222
+    "liczba": 305
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 87
+    "liczba": 119
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 45
+    "liczba": 91
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 21
+    "liczba": 44
+   },
+   {
+    "nazwa": "2,5 l",
+    "liczba": 35
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 20
+    "liczba": 34
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 9
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 684
+    "liczba": 1118
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 630
+    "liczba": 798
    },
    {
     "nazwa": "Inne / brak danych",
@@ -181,44 +185,198 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 1056
+    "liczba": 1597
    },
    {
     "nazwa": "Coupe",
-    "liczba": 183
+    "liczba": 230
    },
    {
     "nazwa": "Sedan",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 17
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 47
+    "liczba": 53
    }
   ],
-  "noweOdPaczki": 187,
+  "noweOdPaczki": 789,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 70
+   },
+   {
+    "rok": 2024,
+    "liczba": 281
+   },
+   {
+    "rok": 2025,
+    "liczba": 244
+   },
+   {
     "rok": 2026,
-    "liczba": 187
+    "liczba": 194
    }
   ],
-  "miejsce": 605,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 31,
-  "sredniRocznik": 1998.1
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 587,
+  "miejsceWMarce": 21,
+  "modeliWMarce": 39,
+  "sredniRocznik": 1998.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "z3",
@@ -235,19 +393,19 @@
    "adres": "/marki/daewoo/leganza/"
   },
   {
-   "slug": "kia-clarus",
-   "nazwa": "Kia Clarus",
-   "adres": "/marki/kia/clarus/"
-  },
-  {
-   "slug": "opel-vectra",
-   "nazwa": "Opel Vectra",
-   "adres": "/marki/opel/vectra/"
+   "slug": "chrysler-stratus",
+   "nazwa": "Chrysler Stratus",
+   "adres": "/marki/chrysler/stratus/"
   },
   {
    "slug": "ford-cougar",
    "nazwa": "Ford Cougar",
    "adres": "/marki/ford/cougar/"
+  },
+  {
+   "slug": "kia-clarus",
+   "nazwa": "Kia Clarus",
+   "adres": "/marki/kia/clarus/"
   }
  ]
 }

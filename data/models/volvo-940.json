@@ -13,126 +13,126 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 940 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 940, 940 GL, 940 2.4 TD, 940 2.3 KAT, 940 2.3).",
-  "liczbaWPolsce": 1681,
-  "aktywne": 176,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 940 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 67 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 940, 940 GL, 940 2.4 TD, 940 2.3 KAT, 940 2.3).",
+  "liczbaWPolsce": 1733,
+  "aktywne": 228,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 126
+    "liczba": 132
    },
    {
     "teryt": "04",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "teryt": "06",
-    "liczba": 150
+    "liczba": 154
    },
    {
     "teryt": "08",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "10",
-    "liczba": 119
+    "liczba": 122
    },
    {
     "teryt": "12",
-    "liczba": 91
+    "liczba": 97
    },
    {
     "teryt": "14",
-    "liczba": 492
+    "liczba": 503
    },
    {
     "teryt": "16",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "18",
-    "liczba": 65
+    "liczba": 66
    },
    {
     "teryt": "20",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "22",
-    "liczba": 105
+    "liczba": 110
    },
    {
     "teryt": "24",
-    "liczba": 107
+    "liczba": 109
    },
    {
     "teryt": "26",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "28",
-    "liczba": 50
+    "liczba": 52
    },
    {
     "teryt": "30",
-    "liczba": 84
+    "liczba": 88
    },
    {
     "teryt": "32",
-    "liczba": 100
+    "liczba": 102
    }
   ],
   "bezWojewodztwa": 5,
   "roczniki": [
    {
     "rok": 1990,
-    "liczba": 65
+    "liczba": 66
    },
    {
     "rok": 1991,
-    "liczba": 383
+    "liczba": 393
    },
    {
     "rok": 1992,
-    "liczba": 294
+    "liczba": 302
    },
    {
     "rok": 1993,
-    "liczba": 231
+    "liczba": 238
    },
    {
     "rok": 1994,
-    "liczba": 246
+    "liczba": 251
    },
    {
     "rok": 1995,
-    "liczba": 191
+    "liczba": 196
    },
    {
     "rok": 1996,
-    "liczba": 125
+    "liczba": 129
    },
    {
     "rok": 1997,
-    "liczba": 102
+    "liczba": 111
    },
    {
     "rok": 1998,
-    "liczba": 21
+    "liczba": 24
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 670
+    "liczba": 675
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 499
+    "liczba": 505
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 362
+    "liczba": 403
    },
    {
     "nazwa": "?+LPG",
@@ -146,15 +146,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 762
+    "liczba": 803
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 716
+    "liczba": 721
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 181
+    "liczba": 187
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 981
+    "liczba": 992
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 613
+    "liczba": 654
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -186,11 +186,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 693
+    "liczba": 725
    },
    {
     "nazwa": "Sedan",
-    "liczba": 674
+    "liczba": 692
    },
    {
     "nazwa": "Hatchback",
@@ -198,20 +198,174 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 242
+    "liczba": 244
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 67,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 6
+   },
+   {
+    "rok": 2024,
+    "liczba": 23
+   },
+   {
+    "rok": 2025,
+    "liczba": 21
+   },
+   {
     "rok": 2026,
-    "liczba": 15
+    "liczba": 17
    }
   ],
-  "miejsce": 547,
-  "miejsceWMarce": 18,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 615,
+  "miejsceWMarce": 22,
   "modeliWMarce": 33,
   "sredniRocznik": 1993.2
  },
@@ -219,7 +373,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "940",
@@ -231,14 +385,14 @@
    "adres": "/marki/mercedes-benz/mb/"
   },
   {
-   "slug": "citroen-xm",
-   "nazwa": "Citroen XM",
-   "adres": "/marki/citroen/xm/"
-  },
-  {
    "slug": "peugeot-605",
    "nazwa": "Peugeot 605",
    "adres": "/marki/peugeot/605/"
+  },
+  {
+   "slug": "citroen-xm",
+   "nazwa": "Citroen XM",
+   "adres": "/marki/citroen/xm/"
   },
   {
    "slug": "isuzu-trooper",

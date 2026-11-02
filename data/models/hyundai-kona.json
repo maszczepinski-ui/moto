@@ -12,112 +12,112 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Kona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 329 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KONA, KONA N).",
-  "liczbaWPolsce": 7029,
-  "aktywne": 7024,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Kona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 730 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KONA, KONA N, KONA EV).",
+  "liczbaWPolsce": 19430,
+  "aktywne": 19425,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 470
+    "liczba": 1499
    },
    {
     "teryt": "04",
-    "liczba": 382
+    "liczba": 1025
    },
    {
     "teryt": "06",
-    "liczba": 327
+    "liczba": 784
    },
    {
     "teryt": "08",
-    "liczba": 188
+    "liczba": 507
    },
    {
     "teryt": "10",
-    "liczba": 345
+    "liczba": 1054
    },
    {
     "teryt": "12",
-    "liczba": 678
+    "liczba": 1778
    },
    {
     "teryt": "14",
-    "liczba": 1037
+    "liczba": 2929
    },
    {
     "teryt": "16",
-    "liczba": 151
+    "liczba": 398
    },
    {
     "teryt": "18",
-    "liczba": 297
+    "liczba": 907
    },
    {
     "teryt": "20",
-    "liczba": 141
+    "liczba": 421
    },
    {
     "teryt": "22",
-    "liczba": 579
+    "liczba": 1707
    },
    {
     "teryt": "24",
-    "liczba": 880
+    "liczba": 2239
    },
    {
     "teryt": "26",
-    "liczba": 242
+    "liczba": 583
    },
    {
     "teryt": "28",
-    "liczba": 252
+    "liczba": 641
    },
    {
     "teryt": "30",
-    "liczba": 780
+    "liczba": 2147
    },
    {
     "teryt": "32",
-    "liczba": 275
+    "liczba": 806
    }
   ],
   "bezWojewodztwa": 5,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 454
+    "liczba": 592
    },
    {
     "rok": 2018,
-    "liczba": 1721
+    "liczba": 2405
    },
    {
     "rok": 2019,
-    "liczba": 1093
+    "liczba": 1926
    },
    {
     "rok": 2020,
-    "liczba": 305
+    "liczba": 964
    },
    {
     "rok": 2021,
-    "liczba": 185
+    "liczba": 633
    },
    {
     "rok": 2022,
-    "liczba": 151
+    "liczba": 559
    },
    {
     "rok": 2023,
-    "liczba": 117
+    "liczba": 2849
    },
    {
     "rok": 2024,
-    "liczba": 92
+    "liczba": 4429
    },
    {
     "rok": 2025,
-    "liczba": 1312
+    "liczba": 3474
    },
    {
     "rok": 2026,
@@ -127,117 +127,271 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4773
+    "liczba": 11315
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1641
+    "liczba": 5565
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 424
+    "liczba": 1896
    },
    {
     "nazwa": "Diesel",
-    "liczba": 152
+    "liczba": 450
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 204
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 4014
+    "liczba": 11898
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 2426
+    "liczba": 5016
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 159
+    "liczba": 613
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 430
+    "liczba": 1903
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5239
+    "liczba": 12949
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1405
+    "liczba": 3782
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 365
+    "liczba": 2640
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 59
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 6664
+    "liczba": 17918
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 253
+    "liczba": 1055
    },
    {
     "nazwa": "Kombi",
-    "liczba": 75
+    "liczba": 322
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 135
    }
   ],
-  "noweOdPaczki": 4329,
-  "hybrydy": 1655,
-  "elektryczne": 408,
+  "noweOdPaczki": 16730,
+  "hybrydy": 5609,
+  "elektryczne": 1880,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1271
+   },
+   {
+    "rok": 2024,
+    "liczba": 5302
+   },
+   {
+    "rok": 2025,
+    "liczba": 5712
+   },
+   {
     "rok": 2026,
-    "liczba": 4329
+    "liczba": 4445
    }
   ],
-  "miejsce": 288,
-  "miejsceWMarce": 12,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2021.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 390
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 469
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 482
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 493
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 485
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 442
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 403
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 387
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 378
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 391
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 416
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 399
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 557
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 450
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 631
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 545
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 475
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 515
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 464
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 399
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 525
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 300
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 422
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 418
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 568
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 192,
+  "miejsceWMarce": 6,
+  "modeliWMarce": 34,
+  "sredniRocznik": 2022.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "kona",
  "adres": "/marki/hyundai/kona/",
  "konkurenci": [
   {
-   "slug": "opel-grandland",
-   "nazwa": "Opel Grandland",
-   "adres": "/marki/opel/grandland/"
-  },
-  {
    "slug": "toyota-yaris-cross",
    "nazwa": "Toyota Yaris Cross",
    "adres": "/marki/toyota/yaris-cross/"
   },
   {
-   "slug": "opel-crossland",
-   "nazwa": "Opel Crossland",
-   "adres": "/marki/opel/crossland/"
+   "slug": "byd-seal-u",
+   "nazwa": "BYD Seal U",
+   "adres": "/marki/byd/seal-u/"
+  },
+  {
+   "slug": "opel-grandland",
+   "nazwa": "Opel Grandland",
+   "adres": "/marki/opel/grandland/"
   },
   {
    "slug": "omoda-9",
@@ -245,9 +399,9 @@
    "adres": "/marki/omoda/9/"
   },
   {
-   "slug": "byd-seal-u",
-   "nazwa": "BYD Seal U",
-   "adres": "/marki/byd/seal-u/"
+   "slug": "alfa-romeo-tonale",
+   "nazwa": "Alfa Romeo Tonale",
+   "adres": "/marki/alfa-romeo/tonale/"
   }
  ]
 }

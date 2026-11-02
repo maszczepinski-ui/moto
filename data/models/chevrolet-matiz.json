@@ -11,110 +11,114 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Matiz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 93 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MATIZ, MATIZ 1.0 KAT).",
-  "liczbaWPolsce": 2180,
-  "aktywne": 1116,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Matiz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 532 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MATIZ, MATIZ 1.0 KAT).",
+  "liczbaWPolsce": 2619,
+  "aktywne": 1555,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 199
+    "liczba": 251
    },
    {
     "teryt": "04",
-    "liczba": 113
+    "liczba": 135
    },
    {
     "teryt": "06",
-    "liczba": 59
+    "liczba": 73
    },
    {
     "teryt": "08",
-    "liczba": 102
+    "liczba": 130
    },
    {
     "teryt": "10",
-    "liczba": 165
+    "liczba": 180
    },
    {
     "teryt": "12",
-    "liczba": 153
+    "liczba": 199
    },
    {
     "teryt": "14",
-    "liczba": 166
+    "liczba": 196
    },
    {
     "teryt": "16",
-    "liczba": 68
+    "liczba": 81
    },
    {
     "teryt": "18",
-    "liczba": 111
+    "liczba": 153
    },
    {
     "teryt": "20",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "22",
-    "liczba": 72
+    "liczba": 92
    },
    {
     "teryt": "24",
-    "liczba": 282
+    "liczba": 301
    },
    {
     "teryt": "26",
-    "liczba": 47
+    "liczba": 50
    },
    {
     "teryt": "28",
-    "liczba": 31
+    "liczba": 37
    },
    {
     "teryt": "30",
-    "liczba": 374
+    "liczba": 479
    },
    {
     "teryt": "32",
-    "liczba": 167
+    "liczba": 190
    }
   ],
   "bezWojewodztwa": 40,
   "roczniki": [
    {
+    "rok": 2004,
+    "liczba": 10
+   },
+   {
     "rok": 2005,
-    "liczba": 281
+    "liczba": 318
    },
    {
     "rok": 2006,
-    "liczba": 366
+    "liczba": 417
    },
    {
     "rok": 2007,
-    "liczba": 430
+    "liczba": 506
    },
    {
     "rok": 2008,
-    "liczba": 381
+    "liczba": 464
    },
    {
     "rok": 2009,
-    "liczba": 539
+    "liczba": 698
    },
    {
     "rok": 2010,
-    "liczba": 88
+    "liczba": 113
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1864
+    "liczba": 2269
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 302
+    "liczba": 336
    },
    {
     "nazwa": "Inne / brak danych",
@@ -123,12 +127,12 @@
   ],
   "pojemnosci": [
    {
-    "nazwa": "1,0 l",
-    "liczba": 1094
+    "nazwa": "0,8 l",
+    "liczba": 1316
    },
    {
-    "nazwa": "0,8 l",
-    "liczba": 1084
+    "nazwa": "1,0 l",
+    "liczba": 1301
    },
    {
     "nazwa": "Inne / brak danych",
@@ -138,11 +142,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1847
+    "liczba": 2217
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 289
+    "liczba": 358
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,32 +156,186 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2118
+    "liczba": 2554
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 62
+    "liczba": 65
    }
   ],
-  "noweOdPaczki": 93,
+  "noweOdPaczki": 532,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 37
+   },
+   {
+    "rok": 2024,
+    "liczba": 213
+   },
+   {
+    "rok": 2025,
+    "liczba": 180
+   },
+   {
     "rok": 2026,
-    "liczba": 93
+    "liczba": 102
    }
   ],
-  "miejsce": 482,
-  "miejsceWMarce": 8,
-  "modeliWMarce": 20,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 517,
+  "miejsceWMarce": 9,
+  "modeliWMarce": 22,
   "sredniRocznik": 2007.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "matiz",
@@ -204,9 +362,9 @@
    "adres": "/marki/nissan/pixo/"
   },
   {
-   "slug": "honda-jazz",
-   "nazwa": "Honda Jazz",
-   "adres": "/marki/honda/jazz/"
+   "slug": "renault-clio",
+   "nazwa": "Renault Clio",
+   "adres": "/marki/renault/clio/"
   }
  ]
 }

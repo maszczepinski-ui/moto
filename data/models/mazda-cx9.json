@@ -5,8 +5,8 @@
  "generacja": "",
  "lataProdukcji": "2007–2023",
  "nadwozia": [
-  "van",
   "kombi",
+  "van",
   "hatchback",
   "suv"
  ],
@@ -14,21 +14,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX9).",
-  "liczbaWPolsce": 296,
-  "aktywne": 147,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 70 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX9).",
+  "liczbaWPolsce": 349,
+  "aktywne": 200,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "04",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "06",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "08",
@@ -36,47 +36,47 @@
    },
    {
     "teryt": "10",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "12",
-    "liczba": 20
+    "liczba": 27
    },
    {
     "teryt": "14",
-    "liczba": 70
+    "liczba": 87
    },
    {
     "teryt": "16",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "20",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "24",
-    "liczba": 25
+    "liczba": 31
    },
    {
     "teryt": "26",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "28",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "30",
-    "liczba": 29
+    "liczba": 33
    },
    {
     "teryt": "32",
@@ -159,7 +159,7 @@
    },
    {
     "rok": 2012,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 2013,
@@ -171,81 +171,85 @@
    },
    {
     "rok": 2015,
-    "liczba": 19
+    "liczba": 25
    },
    {
     "rok": 2016,
-    "liczba": 9
+    "liczba": 12
    },
    {
     "rok": 2017,
-    "liczba": 2
+    "liczba": 7
    },
    {
     "rok": 2018,
-    "liczba": 5
+    "liczba": 8
    },
    {
     "rok": 2019,
-    "liczba": 0
+    "liczba": 8
    },
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 8
    },
    {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 13
    },
    {
     "rok": 2022,
-    "liczba": 4
+    "liczba": 10
    },
    {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 8
+   },
+   {
+    "rok": 2024,
+    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 180
+    "liczba": 191
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 113
+    "liczba": 154
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,7 l",
-    "liczba": 212
+    "liczba": 219
+   },
+   {
+    "nazwa": "2,5 l",
+    "liczba": 78
    },
    {
     "nazwa": "3,5 l",
     "liczba": 48
    },
    {
-    "nazwa": "2,5 l",
-    "liczba": 34
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 4
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 165
+    "liczba": 187
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 123
+    "liczba": 154
    },
    {
     "nazwa": "Inne / brak danych",
@@ -254,55 +258,236 @@
   ],
   "nadwozia": [
    {
+    "nazwa": "Kombi",
+    "liczba": 107
+   },
+   {
     "nazwa": "Van",
     "liczba": 98
    },
    {
-    "nazwa": "Kombi",
-    "liczba": 89
-   },
-   {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 50
+    "liczba": 75
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 24
+    "liczba": 31
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Sedan",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 14
    }
   ],
-  "noweOdPaczki": 17,
-  "hybrydy": 0,
+  "noweOdPaczki": 70,
+  "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 9
+   },
+   {
+    "rok": 2024,
+    "liczba": 29
+   },
+   {
+    "rok": 2025,
+    "liczba": 15
+   },
    {
     "rok": 2026,
     "liczba": 17
    }
   ],
-  "miejsce": 997,
-  "miejsceWMarce": 28,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2010.7
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1042,
+  "miejsceWMarce": 29,
+  "modeliWMarce": 32,
+  "sredniRocznik": 2012.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "cx9",
- "adres": "/marki/mazda/cx9/"
+ "adres": "/marki/mazda/cx9/",
+ "konkurenci": [
+  {
+   "slug": "jeep-grand-cherokee",
+   "nazwa": "Jeep Grand Cherokee",
+   "adres": "/marki/jeep/grand-cherokee/"
+  },
+  {
+   "slug": "nissan-murano",
+   "nazwa": "Nissan Murano",
+   "adres": "/marki/nissan/murano/"
+  },
+  {
+   "slug": "porsche-911",
+   "nazwa": "Porsche 911",
+   "adres": "/marki/porsche/911/"
+  },
+  {
+   "slug": "audi-s6",
+   "nazwa": "Audi S6",
+   "adres": "/marki/audi/s6/"
+  },
+  {
+   "slug": "audi-s4",
+   "nazwa": "Audi S4",
+   "adres": "/marki/audi/s4/"
+  }
+ ]
 }

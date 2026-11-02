@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Ritmo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RITMO, RITMO 1.5, RITMO 1.3, RITMO 1.7D STRADA, RITMO 1.1).",
-  "liczbaWPolsce": 6408,
-  "aktywne": 8,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Ritmo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RITMO, RITMO 1.5, RITMO 1.3, RITMO 1.7D STRADA, RITMO 1.1).",
+  "liczbaWPolsce": 6416,
+  "aktywne": 16,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 637
+    "liczba": 638
    },
    {
     "teryt": "04",
@@ -34,11 +34,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 471
+    "liczba": 473
    },
    {
     "teryt": "12",
-    "liczba": 534
+    "liczba": 535
    },
    {
     "teryt": "14",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 577
+    "liczba": 580
    },
    {
     "teryt": "26",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 430
+    "liczba": 431
    }
   ],
   "bezWojewodztwa": 32,
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1980,
-    "liczba": 712
+    "liczba": 713
    },
    {
     "rok": 1981,
@@ -101,15 +101,15 @@
    },
    {
     "rok": 1982,
-    "liczba": 1024
+    "liczba": 1028
    },
    {
     "rok": 1983,
-    "liczba": 1034
+    "liczba": 1035
    },
    {
     "rok": 1984,
-    "liczba": 696
+    "liczba": 698
    },
    {
     "rok": 1985,
@@ -155,11 +155,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1025
+    "liczba": 1026
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 962
+    "liczba": 969
    },
    {
     "nazwa": "?+LPG",
@@ -177,15 +177,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 2028
+    "liczba": 2031
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 1266
+    "liczba": 1267
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 1247
+    "liczba": 1251
    },
    {
     "nazwa": "1,3 l",
@@ -211,7 +211,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 150
+    "liczba": 158
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -229,24 +229,174 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 529
+    "liczba": 535
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5320
+    "liczba": 5322
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 9,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2026,
+    "rok": 2024,
     "liczba": 1
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
+   {
+    "rok": 2026,
+    "liczba": 2
    }
   ],
-  "miejsce": 300,
-  "miejsceWMarce": 17,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 357,
+  "miejsceWMarce": 18,
   "modeliWMarce": 58,
   "sredniRocznik": 1983.4
  },
@@ -254,7 +404,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "ritmo",

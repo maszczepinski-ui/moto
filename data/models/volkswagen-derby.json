@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Derby – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DERBY, DERBY 0.9, DERBY 1.1, DERBY 1.3, DERBY 1,1).",
-  "liczbaWPolsce": 3019,
-  "aktywne": 9,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Derby – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DERBY, DERBY 0.9, DERBY 1.1, DERBY 1.3, DERBY 1,1).",
+  "liczbaWPolsce": 3024,
+  "aktywne": 14,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,11 +26,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 94
+    "liczba": 95
    },
    {
     "teryt": "08",
-    "liczba": 247
+    "liczba": 248
    },
    {
     "teryt": "10",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 214
+    "liczba": 216
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 288
+    "liczba": 289
    },
    {
     "teryt": "24",
@@ -85,7 +85,7 @@
   "roczniki": [
    {
     "rok": 1977,
-    "liczba": 670
+    "liczba": 671
    },
    {
     "rok": 1978,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1980,
-    "liczba": 332
+    "liczba": 333
    },
    {
     "rok": 1981,
@@ -105,11 +105,11 @@
    },
    {
     "rok": 1982,
-    "liczba": 149
+    "liczba": 150
    },
    {
     "rok": 1983,
-    "liczba": 81
+    "liczba": 83
    },
    {
     "rok": 1984,
@@ -155,7 +155,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 751
+    "liczba": 756
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -173,15 +173,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 1510
+    "liczba": 1513
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 954
+    "liczba": 955
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 403
+    "liczba": 404
    },
    {
     "nazwa": "1,0 l",
@@ -203,7 +203,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 84
+    "liczba": 89
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -217,7 +217,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 508
+    "liczba": 512
    },
    {
     "nazwa": "Hatchback",
@@ -225,28 +225,178 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2359
+    "liczba": 2360
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 3
+   },
+   {
+    "rok": 2025,
+    "liczba": 2
+   },
    {
     "rok": 2026,
     "liczba": 1
    }
   ],
-  "miejsce": 421,
-  "miejsceWMarce": 27,
-  "modeliWMarce": 57,
-  "sredniRocznik": 1980.2
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 490,
+  "miejsceWMarce": 29,
+  "modeliWMarce": 59,
+  "sredniRocznik": 1980.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "derby",
@@ -273,9 +423,9 @@
    "adres": "/marki/zaz/968/"
   },
   {
-   "slug": "fiat-127",
-   "nazwa": "Fiat 127",
-   "adres": "/marki/fiat/127/"
+   "slug": "dacia-1300-1310",
+   "nazwa": "Dacia 1300 / 1310",
+   "adres": "/marki/dacia/1300-1310/"
   }
  ]
 }

@@ -12,104 +12,104 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GLB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 782 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GLB 200, GLB 250, GLB 220 4MATIC, GLB 200 D, GLB 250 4MATIC).",
-  "liczbaWPolsce": 1782,
-  "aktywne": 1782,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GLB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 581 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GLB 200, GLB 200 D, GLB 220 4MATIC, GLB 200 D 4MATIC, GLB 250).",
+  "liczbaWPolsce": 5581,
+  "aktywne": 5581,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 155
+    "liczba": 503
    },
    {
     "teryt": "04",
-    "liczba": 55
+    "liczba": 248
    },
    {
     "teryt": "06",
-    "liczba": 34
+    "liczba": 109
    },
    {
     "teryt": "08",
-    "liczba": 23
+    "liczba": 99
    },
    {
     "teryt": "10",
-    "liczba": 40
-   },
-   {
-    "teryt": "12",
-    "liczba": 153
-   },
-   {
-    "teryt": "14",
-    "liczba": 520
-   },
-   {
-    "teryt": "16",
-    "liczba": 39
-   },
-   {
-    "teryt": "18",
-    "liczba": 57
-   },
-   {
-    "teryt": "20",
-    "liczba": 37
-   },
-   {
-    "teryt": "22",
     "liczba": 197
    },
    {
+    "teryt": "12",
+    "liczba": 430
+   },
+   {
+    "teryt": "14",
+    "liczba": 1667
+   },
+   {
+    "teryt": "16",
+    "liczba": 74
+   },
+   {
+    "teryt": "18",
+    "liczba": 155
+   },
+   {
+    "teryt": "20",
+    "liczba": 113
+   },
+   {
+    "teryt": "22",
+    "liczba": 487
+   },
+   {
     "teryt": "24",
-    "liczba": 111
+    "liczba": 398
    },
    {
     "teryt": "26",
-    "liczba": 21
+    "liczba": 74
    },
    {
     "teryt": "28",
-    "liczba": 23
+    "liczba": 78
    },
    {
     "teryt": "30",
-    "liczba": 243
+    "liczba": 725
    },
    {
     "teryt": "32",
-    "liczba": 74
+    "liczba": 224
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 16
+    "liczba": 35
    },
    {
     "rok": 2020,
-    "liczba": 107
+    "liczba": 410
    },
    {
     "rok": 2021,
-    "liczba": 151
+    "liczba": 479
    },
    {
     "rok": 2022,
-    "liczba": 95
+    "liczba": 299
    },
    {
     "rok": 2023,
-    "liczba": 81
+    "liczba": 1382
    },
    {
     "rok": 2024,
-    "liczba": 51
+    "liczba": 1028
    },
    {
     "rok": 2025,
-    "liczba": 431
+    "liczba": 1096
    },
    {
     "rok": 2026,
@@ -119,15 +119,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 619
-   },
-   {
-    "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 527
+    "liczba": 2025
    },
    {
     "nazwa": "Diesel",
-    "liczba": 382
+    "liczba": 1958
+   },
+   {
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 1339
    },
    {
     "nazwa": "Elektryczny",
@@ -135,111 +135,265 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 10
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 741
+    "liczba": 3310
+   },
+   {
+    "nazwa": "1,3 l",
+    "liczba": 1529
    },
    {
     "nazwa": "1,5 l",
     "liczba": 487
    },
    {
-    "nazwa": "1,3 l",
-    "liczba": 300
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 254
+    "liczba": 255
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1141
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 474
+    "liczba": 2982
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 110
+    "liczba": 1282
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1213
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 57
+    "liczba": 103
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1585
+    "liczba": 5070
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 150
-   },
-   {
-    "nazwa": "Hatchback",
-    "liczba": 18
+    "liczba": 364
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29
+    "liczba": 147
    }
   ],
-  "noweOdPaczki": 1782,
-  "hybrydy": 529,
+  "noweOdPaczki": 5581,
+  "hybrydy": 1343,
   "elektryczne": 249,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 394
+   },
+   {
+    "rok": 2024,
+    "liczba": 1682
+   },
+   {
+    "rok": 2025,
+    "liczba": 1664
+   },
+   {
     "rok": 2026,
-    "liczba": 1782
+    "liczba": 1841
    }
   ],
-  "miejsce": 526,
-  "miejsceWMarce": 25,
-  "modeliWMarce": 48,
-  "sredniRocznik": 2024.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 173
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 202
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 250
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 191
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 167
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 106
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 111
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 148
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 165
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 169
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 147
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 376,
+  "miejsceWMarce": 18,
+  "modeliWMarce": 54,
+  "sredniRocznik": 2023.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "klasa-glb",
  "adres": "/marki/mercedes-benz/klasa-glb/",
  "konkurenci": [
   {
+   "slug": "skoda-kodiaq",
+   "nazwa": "Skoda Kodiaq",
+   "adres": "/marki/skoda/kodiaq/"
+  },
+  {
    "slug": "cupra-formentor",
    "nazwa": "Cupra Formentor",
    "adres": "/marki/cupra/formentor/"
   },
   {
-   "slug": "cupra-leon",
-   "nazwa": "Cupra Leon",
-   "adres": "/marki/cupra/leon/"
+   "slug": "skoda-karoq",
+   "nazwa": "Skoda Karoq",
+   "adres": "/marki/skoda/karoq/"
+  },
+  {
+   "slug": "volvo-xc40",
+   "nazwa": "Volvo XC40",
+   "adres": "/marki/volvo/xc40/"
   },
   {
    "slug": "volkswagen-tayron",
    "nazwa": "Volkswagen Tayron",
    "adres": "/marki/volkswagen/tayron/"
-  },
-  {
-   "slug": "kia-k4",
-   "nazwa": "Kia K4",
-   "adres": "/marki/kia/k4/"
-  },
-  {
-   "slug": "cupra-terramar",
-   "nazwa": "Cupra Terramar",
-   "adres": "/marki/cupra/terramar/"
   }
  ]
 }

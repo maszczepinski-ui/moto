@@ -3,7 +3,7 @@
  "marka": "Toyota",
  "model": "Aygo",
  "generacja": "",
- "lataProdukcji": "2005–2019",
+ "lataProdukcji": "2005–2021",
  "nadwozia": [
   "hatchback"
  ],
@@ -11,225 +11,383 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Aygo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 487 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AYGO, TOYOTA AYGO, AYGO 1.0, AYGO 1.0 KAT, AYGO 1,0 KAT).",
-  "liczbaWPolsce": 26121,
-  "aktywne": 15542,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Aygo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 610 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AYGO, TOYOTA AYGO, AYGO 1.0, AYGO 1.0 KAT, AYGO 1,0 KAT).",
+  "liczbaWPolsce": 31244,
+  "aktywne": 20665,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1833
+    "liczba": 2279
    },
    {
     "teryt": "04",
-    "liczba": 1127
+    "liczba": 1353
    },
    {
     "teryt": "06",
-    "liczba": 790
+    "liczba": 966
    },
    {
     "teryt": "08",
-    "liczba": 536
+    "liczba": 676
    },
    {
     "teryt": "10",
-    "liczba": 1455
+    "liczba": 1792
    },
    {
     "teryt": "12",
-    "liczba": 2471
+    "liczba": 2957
    },
    {
     "teryt": "14",
-    "liczba": 4303
+    "liczba": 4889
    },
    {
     "teryt": "16",
-    "liczba": 616
+    "liczba": 743
    },
    {
     "teryt": "18",
-    "liczba": 1284
+    "liczba": 1626
    },
    {
     "teryt": "20",
-    "liczba": 570
+    "liczba": 666
    },
    {
     "teryt": "22",
-    "liczba": 1378
+    "liczba": 1567
    },
    {
     "teryt": "24",
-    "liczba": 4783
+    "liczba": 5530
    },
    {
     "teryt": "26",
-    "liczba": 555
+    "liczba": 692
    },
    {
     "teryt": "28",
-    "liczba": 651
+    "liczba": 821
    },
    {
     "teryt": "30",
-    "liczba": 2616
+    "liczba": 3310
    },
    {
     "teryt": "32",
-    "liczba": 985
+    "liczba": 1209
    }
   ],
   "bezWojewodztwa": 168,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 895
+    "liczba": 1022
    },
    {
     "rok": 2006,
-    "liczba": 2747
+    "liczba": 3085
    },
    {
     "rok": 2007,
-    "liczba": 2218
+    "liczba": 2616
    },
    {
     "rok": 2008,
-    "liczba": 1683
+    "liczba": 2032
    },
    {
     "rok": 2009,
-    "liczba": 1580
+    "liczba": 2159
    },
    {
     "rok": 2010,
-    "liczba": 876
+    "liczba": 1180
    },
    {
     "rok": 2011,
-    "liczba": 957
+    "liczba": 1244
    },
    {
     "rok": 2012,
-    "liczba": 925
+    "liczba": 1207
    },
    {
     "rok": 2013,
-    "liczba": 760
+    "liczba": 969
    },
    {
     "rok": 2014,
-    "liczba": 1626
+    "liczba": 1908
    },
    {
     "rok": 2015,
-    "liczba": 2189
+    "liczba": 2493
    },
    {
     "rok": 2016,
-    "liczba": 1870
+    "liczba": 2158
    },
    {
     "rok": 2017,
-    "liczba": 2664
+    "liczba": 2916
    },
    {
     "rok": 2018,
-    "liczba": 2880
+    "liczba": 3175
    },
    {
     "rok": 2019,
-    "liczba": 1088
+    "liczba": 1346
    },
    {
     "rok": 2020,
-    "liczba": 86
+    "liczba": 321
    },
    {
     "rok": 2021,
-    "liczba": 101
+    "liczba": 354
+   },
+   {
+    "rok": 2022,
+    "liczba": 70
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 25261
-   },
-   {
-    "nazwa": "Diesel",
-    "liczba": 427
+    "liczba": 30278
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 382
+    "liczba": 460
+   },
+   {
+    "nazwa": "Diesel",
+    "liczba": 449
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 51
+    "liczba": 57
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 25649
+    "liczba": 30743
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 420
+    "liczba": 441
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 52
+    "liczba": 60
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 12702
+    "liczba": 12703
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 8585
+    "liczba": 12315
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4641
+    "liczba": 6032
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 193
+    "liczba": 194
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 25833
+    "liczba": 30929
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 288
+    "liczba": 315
    }
   ],
-  "noweOdPaczki": 1487,
-  "hybrydy": 3,
-  "elektryczne": 0,
+  "noweOdPaczki": 6610,
+  "hybrydy": 5,
+  "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 537
+   },
+   {
+    "rok": 2024,
+    "liczba": 2308
+   },
+   {
+    "rok": 2025,
+    "liczba": 2193
+   },
+   {
     "rok": 2026,
-    "liczba": 1487
+    "liczba": 1572
    }
   ],
-  "miejsce": 123,
-  "miejsceWMarce": 6,
-  "modeliWMarce": 36,
-  "sredniRocznik": 2012.4
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 175
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 186
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 192
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 225
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 187
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 204
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 187
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 214
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 235
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 177
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 152
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 190
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 194
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 213
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 192
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 172
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 176
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 206
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 189
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 198
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 212
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 130,
+  "miejsceWMarce": 8,
+  "modeliWMarce": 39,
+  "sredniRocznik": 2012.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "aygo",

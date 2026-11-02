@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Lexus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS, LEXUS 4.0 KAT, LEXUS 3.0 KAT).",
-  "liczbaWPolsce": 744,
-  "aktywne": 132,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Lexus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS, LEXUS 4.0 KAT, LEXUS 3.0 KAT, LEXUS GS300, LEXUS LS 400 K).",
+  "liczbaWPolsce": 760,
+  "aktywne": 148,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 44
+    "liczba": 47
    },
    {
     "teryt": "04",
@@ -27,15 +27,15 @@
    },
    {
     "teryt": "06",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "08",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "10",
-    "liczba": 73
+    "liczba": 74
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 170
+    "liczba": 171
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "20",
@@ -59,15 +59,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "24",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 84
+    "liczba": 87
    },
    {
     "teryt": "32",
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "bezWojewodztwa": 5,
@@ -90,11 +90,11 @@
    },
    {
     "rok": 1991,
-    "liczba": 41
+    "liczba": 43
    },
    {
     "rok": 1992,
-    "liczba": 68
+    "liczba": 71
    },
    {
     "rok": 1993,
@@ -102,7 +102,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 90
+    "liczba": 91
    },
    {
     "rok": 1995,
@@ -110,7 +110,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 1997,
@@ -118,15 +118,15 @@
    },
    {
     "rok": 1998,
-    "liczba": 55
+    "liczba": 56
    },
    {
     "rok": 1999,
-    "liczba": 57
+    "liczba": 58
    },
    {
     "rok": 2000,
-    "liczba": 43
+    "liczba": 45
    },
    {
     "rok": 2001,
@@ -134,7 +134,7 @@
    },
    {
     "rok": 2002,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 2003,
@@ -142,7 +142,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 2005,
@@ -188,11 +188,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 351
+    "liczba": 364
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 256
+    "liczba": 257
    },
    {
     "nazwa": "?+LPG",
@@ -200,21 +200,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 127
+    "liczba": 129
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 277
+    "liczba": 282
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 270
+    "liczba": 277
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 101
+    "liczba": 104
    },
    {
     "nazwa": "4,3 l",
@@ -234,17 +234,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26
+    "liczba": 27
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 549
+    "liczba": 555
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 141
+    "liczba": 151
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -262,15 +262,15 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 461
+    "liczba": 473
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 41
+    "liczba": 44
    },
    {
     "nazwa": "Kombi",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Coupe",
@@ -289,25 +289,179 @@
     "liczba": 173
    }
   ],
-  "noweOdPaczki": 6,
-  "hybrydy": 2,
+  "noweOdPaczki": 22,
+  "hybrydy": 4,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
+   {
+    "rok": 2024,
+    "liczba": 8
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
    {
     "rok": 2026,
     "liczba": 6
    }
   ],
-  "miejsce": 736,
-  "miejsceWMarce": 23,
-  "modeliWMarce": 36,
-  "sredniRocznik": 1997.0
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 812,
+  "miejsceWMarce": 27,
+  "modeliWMarce": 39,
+  "sredniRocznik": 1997.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "lexus",
@@ -317,11 +471,6 @@
    "slug": "honda-legend",
    "nazwa": "Honda Legend",
    "adres": "/marki/honda/legend/"
-  },
-  {
-   "slug": "bmw-seria-7",
-   "nazwa": "BMW Seria 7",
-   "adres": "/marki/bmw/seria-7/"
   },
   {
    "slug": "nissan-maxima",
@@ -337,6 +486,11 @@
    "slug": "ford-windstar",
    "nazwa": "Ford Windstar",
    "adres": "/marki/ford/windstar/"
+  },
+  {
+   "slug": "bmw-seria-7",
+   "nazwa": "BMW Seria 7",
+   "adres": "/marki/bmw/seria-7/"
   }
  ]
 }

@@ -11,80 +11,80 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaecoo 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 886 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JAECOO5, JAECOO5 HYBRID, JAECOO5 EV, JAECOO5 HEV).",
-  "liczbaWPolsce": 1886,
-  "aktywne": 1886,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaecoo 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 174 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JAECOO5, JAECOO5 HYBRID, JAECOO5 EV, JAECOO5 HEV).",
+  "liczbaWPolsce": 2174,
+  "aktywne": 2174,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 177
+    "liczba": 213
    },
    {
     "teryt": "04",
-    "liczba": 119
+    "liczba": 122
    },
    {
     "teryt": "06",
-    "liczba": 57
+    "liczba": 62
    },
    {
     "teryt": "08",
-    "liczba": 93
+    "liczba": 105
    },
    {
     "teryt": "10",
-    "liczba": 129
+    "liczba": 150
    },
    {
     "teryt": "12",
-    "liczba": 119
+    "liczba": 138
    },
    {
     "teryt": "14",
-    "liczba": 264
+    "liczba": 306
    },
    {
     "teryt": "16",
-    "liczba": 48
+    "liczba": 55
    },
    {
     "teryt": "18",
-    "liczba": 71
+    "liczba": 79
    },
    {
     "teryt": "20",
-    "liczba": 27
+    "liczba": 32
    },
    {
     "teryt": "22",
-    "liczba": 157
+    "liczba": 173
    },
    {
     "teryt": "24",
-    "liczba": 238
+    "liczba": 280
    },
    {
     "teryt": "26",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "teryt": "28",
-    "liczba": 73
+    "liczba": 85
    },
    {
     "teryt": "30",
-    "liczba": 215
+    "liczba": 255
    },
    {
     "teryt": "32",
-    "liczba": 73
+    "liczba": 89
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 1450
+    "liczba": 1738
    },
    {
     "rok": 2026,
@@ -94,7 +94,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1362
+    "liczba": 1613
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -102,7 +102,7 @@
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 92
+    "liczba": 129
    },
    {
     "nazwa": "Inne / brak danych",
@@ -112,7 +112,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1361
+    "liczba": 1612
    },
    {
     "nazwa": "1,5 l",
@@ -120,39 +120,185 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 92
+    "liczba": 129
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1663
+    "liczba": 1892
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 209
+    "liczba": 265
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 14
+    "liczba": 17
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1886
+    "liczba": 2174
    }
   ],
-  "noweOdPaczki": 1886,
+  "noweOdPaczki": 2174,
   "hybrydy": 430,
-  "elektryczne": 92,
+  "elektryczne": 129,
   "pierwszeRejestracje": [
    {
+    "rok": 2025,
+    "liczba": 212
+   },
+   {
     "rok": 2026,
-    "liczba": 1886
+    "liczba": 1962
    }
   ],
-  "miejsce": 515,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 555,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
   "sredniRocznik": 2025.2
@@ -161,7 +307,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "jaecoo",
  "modelSlug": "5",
@@ -171,11 +317,6 @@
    "slug": "omoda-5",
    "nazwa": "Omoda 5",
    "adres": "/marki/omoda/5/"
-  },
-  {
-   "slug": "kia-xceed",
-   "nazwa": "Kia XCeed",
-   "adres": "/marki/kia/xceed/"
   },
   {
    "slug": "mg-hs",
@@ -188,9 +329,14 @@
    "adres": "/marki/chery/tiggo-7/"
   },
   {
-   "slug": "mg-zs",
-   "nazwa": "MG ZS",
-   "adres": "/marki/mg/zs/"
+   "slug": "renault-symbioz",
+   "nazwa": "Renault Symbioz",
+   "adres": "/marki/renault/symbioz/"
+  },
+  {
+   "slug": "kia-k4",
+   "nazwa": "Kia K4",
+   "adres": "/marki/kia/k4/"
   }
  ]
 }

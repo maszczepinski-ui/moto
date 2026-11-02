@@ -14,186 +14,186 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Journey – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 328 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JOURNEY, JOURNEY 2.0 CRD, JOURNEY GT, JOURNEY CROSSROAD).",
-  "liczbaWPolsce": 1596,
-  "aktywne": 1200,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Journey – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 766 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JOURNEY, JOURNEY CROSSROAD, JOURNEY 2.0 CRD, JOURNEY GT, JOURNEY 3.6).",
+  "liczbaWPolsce": 3034,
+  "aktywne": 2638,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 100
+    "liczba": 179
    },
    {
     "teryt": "04",
-    "liczba": 52
+    "liczba": 94
    },
    {
     "teryt": "06",
-    "liczba": 108
+    "liczba": 239
    },
    {
     "teryt": "08",
-    "liczba": 49
+    "liczba": 68
    },
    {
     "teryt": "10",
-    "liczba": 108
+    "liczba": 205
    },
    {
     "teryt": "12",
-    "liczba": 96
+    "liczba": 203
    },
    {
     "teryt": "14",
-    "liczba": 267
+    "liczba": 563
    },
    {
     "teryt": "16",
-    "liczba": 41
+    "liczba": 61
    },
    {
     "teryt": "18",
-    "liczba": 91
+    "liczba": 190
    },
    {
     "teryt": "20",
-    "liczba": 90
+    "liczba": 213
    },
    {
     "teryt": "22",
-    "liczba": 106
+    "liczba": 184
    },
    {
     "teryt": "24",
-    "liczba": 143
+    "liczba": 274
    },
    {
     "teryt": "26",
-    "liczba": 50
+    "liczba": 92
    },
    {
     "teryt": "28",
-    "liczba": 41
+    "liczba": 86
    },
    {
     "teryt": "30",
-    "liczba": 153
+    "liczba": 246
    },
    {
     "teryt": "32",
-    "liczba": 65
+    "liczba": 101
    }
   ],
   "bezWojewodztwa": 36,
   "roczniki": [
    {
     "rok": 2008,
-    "liczba": 385
+    "liczba": 467
    },
    {
     "rok": 2009,
-    "liczba": 344
+    "liczba": 485
    },
    {
     "rok": 2010,
-    "liczba": 224
+    "liczba": 325
    },
    {
     "rok": 2011,
-    "liczba": 38
+    "liczba": 62
    },
    {
     "rok": 2012,
-    "liczba": 35
+    "liczba": 48
    },
    {
     "rok": 2013,
-    "liczba": 52
+    "liczba": 70
    },
    {
     "rok": 2014,
-    "liczba": 74
+    "liczba": 134
    },
    {
     "rok": 2015,
-    "liczba": 102
+    "liczba": 208
    },
    {
     "rok": 2016,
-    "liczba": 45
+    "liczba": 170
    },
    {
     "rok": 2017,
-    "liczba": 59
+    "liczba": 288
    },
    {
     "rok": 2018,
-    "liczba": 83
+    "liczba": 394
    },
    {
     "rok": 2019,
-    "liczba": 65
+    "liczba": 280
    },
    {
     "rok": 2020,
-    "liczba": 4
+    "liczba": 17
    }
   ],
   "paliwa": [
    {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 1168
+   },
+   {
     "nazwa": "Diesel",
-    "liczba": 818
+    "liczba": 1007
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 394
-   },
-   {
-    "nazwa": "Benzyna + LPG",
-    "liczba": 376
+    "liczba": 848
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 11
    }
   ],
   "pojemnosci": [
    {
-    "nazwa": "2,0 l",
-    "liczba": 819
+    "nazwa": "3,6 l",
+    "liczba": 1477
    },
    {
-    "nazwa": "3,6 l",
-    "liczba": 480
+    "nazwa": "2,0 l",
+    "liczba": 1009
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 234
-   },
-   {
-    "nazwa": "3,5 l",
-    "liczba": 27
+    "liczba": 441
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 20
+    "liczba": 45
+   },
+   {
+    "nazwa": "3,5 l",
+    "liczba": 36
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 16
+    "liczba": 26
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1087
+    "liczba": 1984
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 411
+    "liczba": 951
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "nazwa": "Inne / brak danych",
@@ -203,77 +203,231 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 648
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 396
+    "liczba": 1382
    },
    {
     "nazwa": "Kombi",
-    "liczba": 384
+    "liczba": 807
+   },
+   {
+    "nazwa": "Van",
+    "liczba": 553
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 58
+    "liczba": 106
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 56
+    "liczba": 98
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 54
+    "liczba": 88
    }
   ],
-  "noweOdPaczki": 328,
+  "noweOdPaczki": 1766,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 151
+   },
+   {
+    "rok": 2024,
+    "liczba": 685
+   },
+   {
+    "rok": 2025,
+    "liczba": 587
+   },
+   {
     "rok": 2026,
-    "liczba": 328
+    "liczba": 343
    }
   ],
-  "miejsce": 564,
-  "miejsceWMarce": 4,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 63
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 65
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 489,
+  "miejsceWMarce": 6,
   "modeliWMarce": 12,
-  "sredniRocznik": 2011.3
+  "sredniRocznik": 2013.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "dodge",
  "modelSlug": "journey",
  "adres": "/marki/dodge/journey/",
  "konkurenci": [
   {
-   "slug": "volvo-xc90",
-   "nazwa": "Volvo XC90",
-   "adres": "/marki/volvo/xc90/"
-  },
-  {
-   "slug": "toyota-rav4",
-   "nazwa": "Toyota RAV4",
-   "adres": "/marki/toyota/rav4/"
-  },
-  {
-   "slug": "nissan-x-trail",
-   "nazwa": "Nissan X-Trail",
-   "adres": "/marki/nissan/x-trail/"
-  },
-  {
    "slug": "jeep-wrangler",
    "nazwa": "Jeep Wrangler",
    "adres": "/marki/jeep/wrangler/"
   },
   {
-   "slug": "ford-s-max",
-   "nazwa": "Ford S-Max",
-   "adres": "/marki/ford/s-max/"
+   "slug": "toyota-sienna",
+   "nazwa": "Toyota Sienna",
+   "adres": "/marki/toyota/sienna/"
+  },
+  {
+   "slug": "kia-sorento",
+   "nazwa": "Kia Sorento",
+   "adres": "/marki/kia/sorento/"
+  },
+  {
+   "slug": "mazda-cx-9",
+   "nazwa": "Mazda CX-9",
+   "adres": "/marki/mazda/cx-9/"
+  },
+  {
+   "slug": "toyota-rav4",
+   "nazwa": "Toyota RAV4",
+   "adres": "/marki/toyota/rav4/"
   }
  ]
 }

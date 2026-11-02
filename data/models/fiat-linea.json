@@ -11,17 +11,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Linea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LINEA).",
-  "liczbaWPolsce": 4769,
-  "aktywne": 1185,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Linea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 64 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LINEA).",
+  "liczbaWPolsce": 4823,
+  "aktywne": 1239,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 361
+    "liczba": 363
    },
    {
     "teryt": "04",
-    "liczba": 235
+    "liczba": 238
    },
    {
     "teryt": "06",
@@ -29,74 +29,74 @@
    },
    {
     "teryt": "08",
-    "liczba": 56
+    "liczba": 61
    },
    {
     "teryt": "10",
-    "liczba": 413
+    "liczba": 415
    },
    {
     "teryt": "12",
-    "liczba": 381
+    "liczba": 384
    },
    {
     "teryt": "14",
-    "liczba": 571
+    "liczba": 575
    },
    {
     "teryt": "16",
-    "liczba": 108
+    "liczba": 111
    },
    {
     "teryt": "18",
-    "liczba": 294
+    "liczba": 297
    },
    {
     "teryt": "20",
-    "liczba": 134
-   },
-   {
-    "teryt": "22",
-    "liczba": 206
-   },
-   {
-    "teryt": "24",
-    "liczba": 994
-   },
-   {
-    "teryt": "26",
     "liczba": 136
    },
    {
+    "teryt": "22",
+    "liczba": 208
+   },
+   {
+    "teryt": "24",
+    "liczba": 1002
+   },
+   {
+    "teryt": "26",
+    "liczba": 139
+   },
+   {
     "teryt": "28",
-    "liczba": 149
+    "liczba": 152
    },
    {
     "teryt": "30",
-    "liczba": 429
+    "liczba": 437
    },
    {
     "teryt": "32",
-    "liczba": 160
+    "liczba": 163
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2007,
-    "liczba": 1772
+    "liczba": 1782
    },
    {
     "rok": 2008,
-    "liczba": 1369
+    "liczba": 1392
    },
    {
     "rok": 2009,
-    "liczba": 613
+    "liczba": 628
    },
    {
     "rok": 2010,
-    "liczba": 291
+    "liczba": 295
    },
    {
     "rok": 2011,
@@ -104,7 +104,7 @@
    },
    {
     "rok": 2012,
-    "liczba": 283
+    "liczba": 285
    },
    {
     "rok": 2013,
@@ -114,25 +114,25 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2897
+    "liczba": 2935
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1019
+    "liczba": 1026
    },
    {
     "nazwa": "Diesel",
-    "liczba": 853
+    "liczba": 862
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 3913
+    "liczba": 3958
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 762
+    "liczba": 771
    },
    {
     "nazwa": "1,6 l",
@@ -150,11 +150,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1910
+    "liczba": 1925
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 224
+    "liczba": 263
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,24 +164,178 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 4715
+    "liczba": 4767
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 54
+    "liczba": 56
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 64,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 10
+   },
+   {
+    "rok": 2024,
+    "liczba": 25
+   },
+   {
+    "rok": 2025,
+    "liczba": 19
+   },
    {
     "rok": 2026,
     "liczba": 10
    }
   ],
-  "miejsce": 341,
-  "miejsceWMarce": 22,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 414,
+  "miejsceWMarce": 25,
   "modeliWMarce": 58,
   "sredniRocznik": 2008.4
  },
@@ -189,7 +343,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "linea",
@@ -199,11 +353,6 @@
    "slug": "honda-city",
    "nazwa": "Honda City",
    "adres": "/marki/honda/city/"
-  },
-  {
-   "slug": "skoda-fabia",
-   "nazwa": "Skoda Fabia",
-   "adres": "/marki/skoda/fabia/"
   },
   {
    "slug": "mazda-2",
@@ -216,9 +365,14 @@
    "adres": "/marki/renault/thalia/"
   },
   {
-   "slug": "nissan-note",
-   "nazwa": "Nissan Note",
-   "adres": "/marki/nissan/note/"
+   "slug": "skoda-fabia",
+   "nazwa": "Skoda Fabia",
+   "adres": "/marki/skoda/fabia/"
+  },
+  {
+   "slug": "mitsubishi-space-star",
+   "nazwa": "Mitsubishi Space Star",
+   "adres": "/marki/mitsubishi/space-star/"
   }
  ]
 }

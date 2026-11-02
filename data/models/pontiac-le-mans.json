@@ -6,15 +6,16 @@
  "lataProdukcji": "1970–1993",
  "nadwozia": [
   "hatchback",
-  "sedan"
+  "sedan",
+  "coupe"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac LE-Mans – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LE MANS, LE MANS 1.6).",
-  "liczbaWPolsce": 525,
-  "aktywne": 6,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac LE-Mans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LE MANS, LE MANS 1.6).",
+  "liczbaWPolsce": 536,
+  "aktywne": 17,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "12",
@@ -42,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 103
+    "liczba": 105
    },
    {
     "teryt": "16",
@@ -50,11 +51,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "teryt": "20",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "22",
@@ -70,30 +71,38 @@
    },
    {
     "teryt": "28",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "30",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "32",
-    "liczba": 38
+    "liczba": 41
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
-    "rok": 1968,
-    "liczba": 2
-   },
-   {
-    "rok": 1969,
+    "rok": 1966,
     "liczba": 3
    },
    {
+    "rok": 1967,
+    "liczba": 2
+   },
+   {
+    "rok": 1968,
+    "liczba": 4
+   },
+   {
+    "rok": 1969,
+    "liczba": 4
+   },
+   {
     "rok": 1970,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1971,
@@ -105,7 +114,7 @@
    },
    {
     "rok": 1973,
-    "liczba": 0
+    "liczba": 3
    },
    {
     "rok": 1974,
@@ -113,7 +122,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1976,
@@ -203,7 +212,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 188
+    "liczba": 199
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -229,7 +238,7 @@
    },
    {
     "nazwa": "5,8 l",
-    "liczba": 20
+    "liczba": 25
    },
    {
     "nazwa": "1,5 l",
@@ -245,17 +254,21 @@
    },
    {
     "nazwa": "6,6 l",
-    "liczba": 9
+    "liczba": 10
+   },
+   {
+    "nazwa": "5,7 l",
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 26
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 425
+    "liczba": 428
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -263,7 +276,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 22
+    "liczba": 30
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -281,31 +294,186 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "nazwa": "Coupe",
-    "liczba": 9
+    "liczba": 17
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 270
+    "liczba": 272
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 11,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
-  "miejsce": 829,
+  "pierwszeRejestracje": [
+   {
+    "rok": 2024,
+    "liczba": 4
+   },
+   {
+    "rok": 2025,
+    "liczba": 6
+   },
+   {
+    "rok": 2026,
+    "liczba": 1
+   }
+  ],
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 898,
   "miejsceWMarce": 3,
   "modeliWMarce": 3,
-  "sredniRocznik": 1988.5
+  "sredniRocznik": 1988.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "pontiac",
  "modelSlug": "le-mans",
@@ -317,24 +485,24 @@
    "adres": "/marki/fso/polonez/"
   },
   {
-   "slug": "opel-kadett",
-   "nazwa": "Opel Kadett",
-   "adres": "/marki/opel/kadett/"
-  },
-  {
-   "slug": "citroen-bx19",
-   "nazwa": "Citroen BX19",
-   "adres": "/marki/citroen/bx19/"
-  },
-  {
    "slug": "renault-25",
    "nazwa": "Renault 25",
    "adres": "/marki/renault/25/"
   },
   {
-   "slug": "ford-sierra",
-   "nazwa": "Ford Sierra",
-   "adres": "/marki/ford/sierra/"
+   "slug": "opel-kadett",
+   "nazwa": "Opel Kadett",
+   "adres": "/marki/opel/kadett/"
+  },
+  {
+   "slug": "saab-900",
+   "nazwa": "Saab 900",
+   "adres": "/marki/saab/900/"
+  },
+  {
+   "slug": "citroen-bx14",
+   "nazwa": "Citroen BX14",
+   "adres": "/marki/citroen/bx14/"
   }
  ]
 }

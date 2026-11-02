@@ -13,140 +13,140 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi ASX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 673 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASX, MITSUBISHI ASX, ASX 1.6, ASX 1.8 DID).",
-  "liczbaWPolsce": 18853,
-  "aktywne": 11919,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi ASX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 686 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASX, MITSUBISHI ASX, ASX 1.6, ASX 1.8 DID, ASX 1.6 MIVEC 2WD INVITE).",
+  "liczbaWPolsce": 27866,
+  "aktywne": 20932,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1038
+    "liczba": 1486
    },
    {
     "teryt": "04",
-    "liczba": 823
+    "liczba": 1298
    },
    {
     "teryt": "06",
-    "liczba": 976
+    "liczba": 1530
    },
    {
     "teryt": "08",
-    "liczba": 550
+    "liczba": 827
    },
    {
     "teryt": "10",
-    "liczba": 1928
+    "liczba": 2716
    },
    {
     "teryt": "12",
-    "liczba": 1680
+    "liczba": 2301
    },
    {
     "teryt": "14",
-    "liczba": 3102
+    "liczba": 4581
    },
    {
     "teryt": "16",
-    "liczba": 281
+    "liczba": 445
    },
    {
     "teryt": "18",
-    "liczba": 1284
+    "liczba": 2079
    },
    {
     "teryt": "20",
-    "liczba": 514
+    "liczba": 796
    },
    {
     "teryt": "22",
-    "liczba": 1064
+    "liczba": 1503
    },
    {
     "teryt": "24",
-    "liczba": 2327
+    "liczba": 3181
    },
    {
     "teryt": "26",
-    "liczba": 472
+    "liczba": 853
    },
    {
     "teryt": "28",
-    "liczba": 528
+    "liczba": 875
    },
    {
     "teryt": "30",
-    "liczba": 1540
+    "liczba": 2217
    },
    {
     "teryt": "32",
-    "liczba": 648
+    "liczba": 1080
    }
   ],
   "bezWojewodztwa": 98,
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 1636
+    "liczba": 2104
    },
    {
     "rok": 2011,
-    "liczba": 2858
+    "liczba": 3966
    },
    {
     "rok": 2012,
-    "liczba": 1482
+    "liczba": 2258
    },
    {
     "rok": 2013,
-    "liczba": 1436
+    "liczba": 1971
    },
    {
     "rok": 2014,
-    "liczba": 1988
+    "liczba": 2617
    },
    {
     "rok": 2015,
-    "liczba": 2159
+    "liczba": 3264
    },
    {
     "rok": 2016,
-    "liczba": 1679
+    "liczba": 2284
    },
    {
     "rok": 2017,
-    "liczba": 1665
+    "liczba": 2299
    },
    {
     "rok": 2018,
-    "liczba": 1940
+    "liczba": 2415
    },
    {
     "rok": 2019,
-    "liczba": 836
+    "liczba": 1133
    },
    {
     "rok": 2020,
-    "liczba": 59
+    "liczba": 212
    },
    {
     "rok": 2021,
-    "liczba": 11
+    "liczba": 38
    },
    {
     "rok": 2022,
-    "liczba": 0
+    "liczba": 5
    },
    {
     "rok": 2023,
-    "liczba": 13
+    "liczba": 1093
    },
    {
     "rok": 2024,
-    "liczba": 21
+    "liczba": 831
    },
    {
     "rok": 2025,
-    "liczba": 68
+    "liczba": 374
    },
    {
     "rok": 2026,
@@ -156,116 +156,265 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 13508
+    "liczba": 18968
    },
    {
     "nazwa": "Diesel",
-    "liczba": 4339
+    "liczba": 6542
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 831
+    "liczba": 1406
+   },
+   {
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 933
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 175
+    "liczba": 17
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 13986
+    "liczba": 18613
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 3990
+    "liczba": 5867
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 420
+    "liczba": 2458
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 270
+    "liczba": 508
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 187
+    "liczba": 420
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 10798
+    "liczba": 12554
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 4755
+    "liczba": 9566
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3148
+    "liczba": 5573
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 152
+    "liczba": 173
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 12767
+    "liczba": 13568
    },
    {
     "nazwa": "Kombi",
-    "liczba": 4185
+    "liczba": 9563
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1283
+    "liczba": 3945
    },
    {
     "nazwa": "Van",
-    "liczba": 267
-   },
-   {
-    "nazwa": "Terenowy",
-    "liczba": 192
+    "liczba": 357
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 159
+    "liczba": 433
    }
   ],
-  "noweOdPaczki": 2673,
-  "hybrydy": 159,
+  "noweOdPaczki": 11686,
+  "hybrydy": 933,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 820
+   },
+   {
+    "rok": 2024,
+    "liczba": 4109
+   },
+   {
+    "rok": 2025,
+    "liczba": 3930
+   },
+   {
     "rok": 2026,
-    "liczba": 2673
+    "liczba": 2827
    }
   ],
-  "miejsce": 161,
-  "miejsceWMarce": 4,
-  "modeliWMarce": 18,
-  "sredniRocznik": 2014.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 227
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 335
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 361
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 389
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 341
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 337
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 326
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 355
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 346
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 347
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 404
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 263
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 305
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 332
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 323
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 343
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 336
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 299
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 392
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 377
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 377
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 291
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 248
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 261
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 154
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 148,
+  "miejsceWMarce": 2,
+  "modeliWMarce": 19,
+  "sredniRocznik": 2015.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "asx",
  "adres": "/marki/mitsubishi/asx/",
  "konkurenci": [
-  {
-   "slug": "kia-sportage",
-   "nazwa": "Kia Sportage",
-   "adres": "/marki/kia/sportage/"
-  },
   {
    "slug": "nissan-qashqai",
    "nazwa": "Nissan Qashqai",
@@ -277,14 +426,19 @@
    "adres": "/marki/nissan/juke/"
   },
   {
-   "slug": "honda-hr-v",
-   "nazwa": "Honda HR-V",
-   "adres": "/marki/honda/hr-v/"
+   "slug": "kia-sportage",
+   "nazwa": "Kia Sportage",
+   "adres": "/marki/kia/sportage/"
   },
   {
    "slug": "toyota-auris",
    "nazwa": "Toyota Auris",
    "adres": "/marki/toyota/auris/"
+  },
+  {
+   "slug": "hyundai-tucson",
+   "nazwa": "Hyundai Tucson",
+   "adres": "/marki/hyundai/tucson/"
   }
  ]
 }

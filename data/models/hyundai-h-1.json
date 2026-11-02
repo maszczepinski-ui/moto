@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai H-1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: H-1, H-1 STAREX).",
-  "liczbaWPolsce": 240,
-  "aktywne": 132,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai H-1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 125 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: H-1, H-1 STAREX).",
+  "liczbaWPolsce": 332,
+  "aktywne": 224,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 16
+    "liczba": 24
    },
    {
     "teryt": "04",
-    "liczba": 6
+    "liczba": 11
    },
    {
     "teryt": "06",
-    "liczba": 15
-   },
-   {
-    "teryt": "08",
-    "liczba": 6
-   },
-   {
-    "teryt": "10",
     "liczba": 17
    },
    {
+    "teryt": "08",
+    "liczba": 10
+   },
+   {
+    "teryt": "10",
+    "liczba": 21
+   },
+   {
     "teryt": "12",
-    "liczba": 28
+    "liczba": 34
    },
    {
     "teryt": "14",
-    "liczba": 42
+    "liczba": 53
    },
    {
     "teryt": "16",
-    "liczba": 5
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 13
+    "liczba": 21
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 9
    },
    {
     "teryt": "22",
-    "liczba": 15
+    "liczba": 19
    },
    {
     "teryt": "24",
-    "liczba": 18
+    "liczba": 29
    },
    {
     "teryt": "26",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "teryt": "28",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "30",
-    "liczba": 28
+    "liczba": 43
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 3,
@@ -125,65 +125,65 @@
    },
    {
     "rok": 2006,
-    "liczba": 8
+    "liczba": 11
    },
    {
     "rok": 2007,
-    "liczba": 6
+    "liczba": 10
    },
    {
     "rok": 2008,
-    "liczba": 43
+    "liczba": 50
    },
    {
     "rok": 2009,
-    "liczba": 24
+    "liczba": 41
    },
    {
     "rok": 2010,
-    "liczba": 30
+    "liczba": 49
    },
    {
     "rok": 2011,
-    "liczba": 14
+    "liczba": 36
    },
    {
     "rok": 2012,
-    "liczba": 54
+    "liczba": 62
    },
    {
     "rok": 2013,
-    "liczba": 2
+    "liczba": 6
    },
    {
     "rok": 2014,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2015,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2016,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2017,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2018,
-    "liczba": 0
+    "liczba": 2
    },
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 234
+    "liczba": 325
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -191,13 +191,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 234
+    "liczba": 326
    },
    {
     "nazwa": "2,4 l",
@@ -207,11 +207,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 136
+    "liczba": 193
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 89
+    "liczba": 124
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -225,50 +225,231 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 122
+    "liczba": 191
    },
    {
     "nazwa": "Van",
-    "liczba": 93
+    "liczba": 110
    },
    {
     "nazwa": "Kombi",
-    "liczba": 15
+    "liczba": 19
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "nazwa": "Furgon",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 33,
+  "noweOdPaczki": 125,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 9
+   },
+   {
+    "rok": 2024,
+    "liczba": 39
+   },
+   {
+    "rok": 2025,
+    "liczba": 42
+   },
+   {
     "rok": 2026,
-    "liczba": 33
+    "liczba": 35
    }
   ],
-  "miejsce": 1062,
-  "miejsceWMarce": 30,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2008.4
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 1056,
+  "miejsceWMarce": 33,
+  "modeliWMarce": 34,
+  "sredniRocznik": 2009.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "h-1",
- "adres": "/marki/hyundai/h-1/"
+ "adres": "/marki/hyundai/h-1/",
+ "konkurenci": [
+  {
+   "slug": "mercedes-benz-viano",
+   "nazwa": "Mercedes-Benz Viano",
+   "adres": "/marki/mercedes-benz/viano/"
+  },
+  {
+   "slug": "renault-master",
+   "nazwa": "Renault Master",
+   "adres": "/marki/renault/master/"
+  },
+  {
+   "slug": "mercedes-benz-sprinter",
+   "nazwa": "Mercedes-Benz Sprinter",
+   "adres": "/marki/mercedes-benz/sprinter/"
+  },
+  {
+   "slug": "peugeot-4007",
+   "nazwa": "Peugeot 4007",
+   "adres": "/marki/peugeot/4007/"
+  },
+  {
+   "slug": "citroen-c-crosser",
+   "nazwa": "Citroen C-Crosser",
+   "adres": "/marki/citroen/c-crosser/"
+  }
+ ]
 }

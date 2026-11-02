@@ -11,124 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki S-Cross – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 289 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S-CROSS).",
-  "liczbaWPolsce": 1289,
-  "aktywne": 1289,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki S-Cross – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 390 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S-CROSS).",
+  "liczbaWPolsce": 6390,
+  "aktywne": 6390,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 55
+    "liczba": 443
    },
    {
     "teryt": "04",
-    "liczba": 34
+    "liczba": 207
    },
    {
     "teryt": "06",
-    "liczba": 40
+    "liczba": 247
    },
    {
     "teryt": "08",
-    "liczba": 31
+    "liczba": 154
    },
    {
     "teryt": "10",
-    "liczba": 73
+    "liczba": 387
    },
    {
     "teryt": "12",
-    "liczba": 156
+    "liczba": 878
    },
    {
     "teryt": "14",
-    "liczba": 302
+    "liczba": 1137
    },
    {
     "teryt": "16",
-    "liczba": 23
+    "liczba": 133
    },
    {
     "teryt": "18",
-    "liczba": 51
+    "liczba": 253
    },
    {
     "teryt": "20",
-    "liczba": 38
+    "liczba": 165
    },
    {
     "teryt": "22",
-    "liczba": 91
+    "liczba": 433
    },
    {
     "teryt": "24",
-    "liczba": 183
+    "liczba": 918
    },
    {
     "teryt": "26",
-    "liczba": 53
+    "liczba": 249
    },
    {
     "teryt": "28",
-    "liczba": 38
+    "liczba": 217
    },
    {
     "teryt": "30",
-    "liczba": 97
+    "liczba": 400
    },
    {
     "teryt": "32",
-    "liczba": 24
+    "liczba": 169
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
-    "rok": 2014,
-    "liczba": 4
-   },
-   {
-    "rok": 2015,
-    "liczba": 0
-   },
-   {
-    "rok": 2016,
-    "liczba": 0
-   },
-   {
-    "rok": 2017,
-    "liczba": 1
-   },
-   {
-    "rok": 2018,
-    "liczba": 0
-   },
-   {
-    "rok": 2019,
-    "liczba": 0
-   },
-   {
-    "rok": 2020,
-    "liczba": 0
-   },
-   {
-    "rok": 2021,
-    "liczba": 0
-   },
-   {
     "rok": 2022,
-    "liczba": 4
+    "liczba": 29
    },
    {
     "rok": 2023,
-    "liczba": 17
+    "liczba": 1524
    },
    {
     "rok": 2024,
-    "liczba": 15
+    "liczba": 2705
    },
    {
     "rok": 2025,
-    "liczba": 513
+    "liczba": 1384
    },
    {
     "rok": 2026,
@@ -138,97 +106,245 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 874
+    "liczba": 4381
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 412
+    "liczba": 2001
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 8
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1249
+    "liczba": 5475
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 36
+    "liczba": 907
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 8
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1207
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 43
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 29
+    "liczba": 5478
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 10
+    "liczba": 747
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 96
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 68
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1286
+    "liczba": 6376
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 14
    }
   ],
-  "noweOdPaczki": 1289,
-  "hybrydy": 412,
+  "noweOdPaczki": 6390,
+  "hybrydy": 2001,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 629
+   },
+   {
+    "rok": 2024,
+    "liczba": 2671
+   },
+   {
+    "rok": 2025,
+    "liczba": 1717
+   },
+   {
     "rok": 2026,
-    "liczba": 1289
+    "liczba": 1373
    }
   ],
-  "miejsce": 611,
-  "miejsceWMarce": 15,
-  "modeliWMarce": 19,
-  "sredniRocznik": 2025.5
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 227
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 256
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 288
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 270
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 234
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 226
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 481
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 164
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 185
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 195
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 201
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 193
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 172
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 149
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 134
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 152
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 142
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 106
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 145
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 358,
+  "miejsceWMarce": 8,
+  "modeliWMarce": 20,
+  "sredniRocznik": 2024.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "suzuki",
  "modelSlug": "s-cross",
  "adres": "/marki/suzuki/s-cross/",
  "konkurenci": [
   {
-   "slug": "dacia-bigster",
-   "nazwa": "Dacia Bigster",
-   "adres": "/marki/dacia/bigster/"
-  },
-  {
-   "slug": "toyota-aygo-x",
-   "nazwa": "Toyota Aygo X",
-   "adres": "/marki/toyota/aygo-x/"
-  },
-  {
-   "slug": "mg-hs",
-   "nazwa": "MG HS",
-   "adres": "/marki/mg/hs/"
+   "slug": "renault-arkana",
+   "nazwa": "Renault Arkana",
+   "adres": "/marki/renault/arkana/"
   },
   {
    "slug": "mg-zs",
@@ -236,9 +352,19 @@
    "adres": "/marki/mg/zs/"
   },
   {
-   "slug": "chery-tiggo-7",
-   "nazwa": "Chery Tiggo 7",
-   "adres": "/marki/chery/tiggo-7/"
+   "slug": "mg-hs",
+   "nazwa": "MG HS",
+   "adres": "/marki/mg/hs/"
+  },
+  {
+   "slug": "kia-xceed",
+   "nazwa": "Kia XCeed",
+   "adres": "/marki/kia/xceed/"
+  },
+  {
+   "slug": "skoda-kamiq",
+   "nazwa": "Skoda Kamiq",
+   "adres": "/marki/skoda/kamiq/"
   }
  ]
 }

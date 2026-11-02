@@ -11,106 +11,106 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Karl – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 226 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KARL, KARL ROCKS, KARL VIVA).",
-  "liczbaWPolsce": 1509,
-  "aktywne": 692,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Karl – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 786 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KARL, KARL ROCKS, KARL VIVA).",
+  "liczbaWPolsce": 2069,
+  "aktywne": 1252,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 91
+    "liczba": 136
    },
    {
     "teryt": "04",
-    "liczba": 58
+    "liczba": 83
    },
    {
     "teryt": "06",
-    "liczba": 37
+    "liczba": 64
    },
    {
     "teryt": "08",
-    "liczba": 33
+    "liczba": 56
    },
    {
     "teryt": "10",
-    "liczba": 120
+    "liczba": 164
    },
    {
     "teryt": "12",
-    "liczba": 148
+    "liczba": 205
    },
    {
     "teryt": "14",
-    "liczba": 139
+    "liczba": 189
    },
    {
     "teryt": "16",
-    "liczba": 38
+    "liczba": 59
    },
    {
     "teryt": "18",
-    "liczba": 96
+    "liczba": 128
    },
    {
     "teryt": "20",
-    "liczba": 30
-   },
-   {
-    "teryt": "22",
-    "liczba": 81
-   },
-   {
-    "teryt": "24",
-    "liczba": 367
-   },
-   {
-    "teryt": "26",
-    "liczba": 26
-   },
-   {
-    "teryt": "28",
     "liczba": 39
    },
    {
+    "teryt": "22",
+    "liczba": 101
+   },
+   {
+    "teryt": "24",
+    "liczba": 439
+   },
+   {
+    "teryt": "26",
+    "liczba": 34
+   },
+   {
+    "teryt": "28",
+    "liczba": 47
+   },
+   {
     "teryt": "30",
-    "liczba": 147
+    "liczba": 237
    },
    {
     "teryt": "32",
-    "liczba": 53
+    "liczba": 82
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 2015,
-    "liczba": 888
+    "liczba": 1041
    },
    {
     "rok": 2016,
-    "liczba": 389
+    "liczba": 523
    },
    {
     "rok": 2017,
-    "liczba": 145
+    "liczba": 261
    },
    {
     "rok": 2018,
-    "liczba": 35
+    "liczba": 114
    },
    {
     "rok": 2019,
-    "liczba": 20
+    "liczba": 98
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1487
+    "liczba": 2038
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 20
+    "liczba": 29
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,11 +120,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 1504
+    "liczba": 2063
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "pochodzenie": [
@@ -134,46 +134,200 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 424
+    "liczba": 823
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 167
+    "liczba": 327
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1500
+    "liczba": 2047
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 22
    }
   ],
-  "noweOdPaczki": 226,
+  "noweOdPaczki": 786,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 46
+   },
+   {
+    "rok": 2024,
+    "liczba": 239
+   },
+   {
+    "rok": 2025,
+    "liczba": 263
+   },
+   {
     "rok": 2026,
-    "liczba": 226
+    "liczba": 238
    }
   ],
-  "miejsce": 576,
-  "miejsceWMarce": 25,
-  "modeliWMarce": 31,
-  "sredniRocznik": 2015.6
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 565,
+  "miejsceWMarce": 24,
+  "modeliWMarce": 33,
+  "sredniRocznik": 2015.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "karl",
@@ -200,9 +354,9 @@
    "adres": "/marki/seat/mii/"
   },
   {
-   "slug": "dacia-sandero",
-   "nazwa": "Dacia Sandero",
-   "adres": "/marki/dacia/sandero/"
+   "slug": "peugeot-108",
+   "nazwa": "Peugeot 108",
+   "adres": "/marki/peugeot/108/"
   }
  ]
 }

@@ -7,31 +7,32 @@
  "nadwozia": [
   "sedan",
   "kombi",
-  "coupe"
+  "coupe",
+  "kabriolet"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 320 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 320, 320 CDI, 320 E, 320 E KAT, 320 E CDI).",
-  "liczbaWPolsce": 933,
-  "aktywne": 279,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 320 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 86 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 320, 320 CDI, 320 E, 320 E KAT, 320 CE).",
+  "liczbaWPolsce": 1001,
+  "aktywne": 347,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 73
+    "liczba": 77
    },
    {
     "teryt": "04",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "teryt": "06",
-    "liczba": 38
+    "liczba": 44
    },
    {
     "teryt": "08",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "10",
@@ -39,15 +40,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 54
+    "liczba": 58
    },
    {
     "teryt": "14",
-    "liczba": 157
+    "liczba": 171
    },
    {
     "teryt": "16",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "18",
@@ -55,31 +56,31 @@
    },
    {
     "teryt": "20",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "22",
-    "liczba": 62
+    "liczba": 70
    },
    {
     "teryt": "24",
-    "liczba": 93
+    "liczba": 97
    },
    {
     "teryt": "26",
-    "liczba": 20
+    "liczba": 24
    },
    {
     "teryt": "28",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "teryt": "30",
-    "liczba": 106
+    "liczba": 118
    },
    {
     "teryt": "32",
-    "liczba": 73
+    "liczba": 75
    }
   ],
   "bezWojewodztwa": 2,
@@ -90,19 +91,19 @@
    },
    {
     "rok": 1992,
-    "liczba": 30
+    "liczba": 36
    },
    {
     "rok": 1993,
-    "liczba": 70
+    "liczba": 93
    },
    {
     "rok": 1994,
-    "liczba": 49
+    "liczba": 58
    },
    {
     "rok": 1995,
-    "liczba": 51
+    "liczba": 57
    },
    {
     "rok": 1996,
@@ -114,7 +115,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 43
+    "liczba": 44
    },
    {
     "rok": 1999,
@@ -122,11 +123,11 @@
    },
    {
     "rok": 2000,
-    "liczba": 99
+    "liczba": 100
    },
    {
     "rok": 2001,
-    "liczba": 92
+    "liczba": 93
    },
    {
     "rok": 2002,
@@ -134,41 +135,41 @@
    },
    {
     "rok": 2003,
-    "liczba": 77
+    "liczba": 78
    },
    {
     "rok": 2004,
-    "liczba": 71
+    "liczba": 75
    },
    {
     "rok": 2005,
-    "liczba": 42
+    "liczba": 43
    },
    {
     "rok": 2006,
-    "liczba": 37
+    "liczba": 40
    },
    {
     "rok": 2007,
-    "liczba": 32
-   },
-   {
-    "rok": 2008,
     "liczba": 37
    },
    {
+    "rok": 2008,
+    "liczba": 40
+   },
+   {
     "rok": 2009,
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 506
+    "liczba": 526
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 231
+    "liczba": 279
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -182,25 +183,25 @@
   "pojemnosci": [
    {
     "nazwa": "3,2 l",
-    "liczba": 779
+    "liczba": 830
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 145
+    "liczba": 160
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 11
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 603
+    "liczba": 619
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 304
+    "liczba": 356
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -214,23 +215,23 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 536
+    "liczba": 555
    },
    {
     "nazwa": "Kombi",
-    "liczba": 173
+    "liczba": 186
    },
    {
     "nazwa": "Coupe",
-    "liczba": 63
+    "liczba": 80
+   },
+   {
+    "nazwa": "Kabriolet",
+    "liczba": 35
    },
    {
     "nazwa": "Hatchback",
     "liczba": 27
-   },
-   {
-    "nazwa": "Kabriolet",
-    "liczba": 19
    },
    {
     "nazwa": "Van",
@@ -238,28 +239,182 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 97
+    "liczba": 100
    }
   ],
-  "noweOdPaczki": 18,
+  "noweOdPaczki": 86,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 11
+   },
+   {
+    "rok": 2024,
+    "liczba": 26
+   },
+   {
+    "rok": 2025,
+    "liczba": 29
+   },
+   {
     "rok": 2026,
-    "liczba": 18
+    "liczba": 20
    }
   ],
-  "miejsce": 689,
-  "miejsceWMarce": 33,
-  "modeliWMarce": 48,
-  "sredniRocznik": 1999.9
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 757,
+  "miejsceWMarce": 38,
+  "modeliWMarce": 54,
+  "sredniRocznik": 1999.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "320",
@@ -286,9 +441,9 @@
    "adres": "/marki/jaguar/s-type/"
   },
   {
-   "slug": "alfa-romeo-166",
-   "nazwa": "Alfa Romeo 166",
-   "adres": "/marki/alfa-romeo/166/"
+   "slug": "honda-legend",
+   "nazwa": "Honda Legend",
+   "adres": "/marki/honda/legend/"
   }
  ]
 }

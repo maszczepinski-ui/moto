@@ -13,238 +13,407 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 584 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q3, Q3 SPORTBACK, Q3 200KW TFSI E, Q3 SB 200KW TFSI E, Q3 QUATTRO).",
-  "liczbaWPolsce": 11145,
-  "aktywne": 8960,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 404 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q3, Q3 SPORTBACK, Q3 SPORTBACK E-TRON, Q3 200KW TFSI E, Q3 QUATTRO).",
+  "liczbaWPolsce": 28965,
+  "aktywne": 26780,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 685
+    "liczba": 1835
    },
    {
     "teryt": "04",
-    "liczba": 477
+    "liczba": 1291
    },
    {
     "teryt": "06",
-    "liczba": 373
+    "liczba": 1190
    },
    {
     "teryt": "08",
-    "liczba": 161
+    "liczba": 415
    },
    {
     "teryt": "10",
-    "liczba": 477
+    "liczba": 1394
    },
    {
     "teryt": "12",
-    "liczba": 1214
+    "liczba": 3155
    },
    {
     "teryt": "14",
-    "liczba": 2318
+    "liczba": 5796
    },
    {
     "teryt": "16",
-    "liczba": 301
+    "liczba": 777
    },
    {
     "teryt": "18",
-    "liczba": 674
+    "liczba": 1605
    },
    {
     "teryt": "20",
-    "liczba": 287
+    "liczba": 777
    },
    {
     "teryt": "22",
-    "liczba": 851
+    "liczba": 2103
    },
    {
     "teryt": "24",
-    "liczba": 1319
+    "liczba": 3147
    },
    {
     "teryt": "26",
-    "liczba": 299
+    "liczba": 1065
    },
    {
     "teryt": "28",
-    "liczba": 238
+    "liczba": 697
    },
    {
     "teryt": "30",
-    "liczba": 1142
+    "liczba": 2943
    },
    {
     "teryt": "32",
-    "liczba": 269
+    "liczba": 715
    }
   ],
   "bezWojewodztwa": 60,
   "roczniki": [
    {
     "rok": 2011,
-    "liczba": 204
+    "liczba": 345
    },
    {
     "rok": 2012,
-    "liczba": 1028
+    "liczba": 1998
    },
    {
     "rok": 2013,
-    "liczba": 1003
+    "liczba": 1880
    },
    {
     "rok": 2014,
-    "liczba": 1006
+    "liczba": 1756
    },
    {
     "rok": 2015,
-    "liczba": 1164
+    "liczba": 2039
    },
    {
     "rok": 2016,
-    "liczba": 899
+    "liczba": 1771
    },
    {
     "rok": 2017,
-    "liczba": 765
+    "liczba": 1439
    },
    {
     "rok": 2018,
-    "liczba": 673
+    "liczba": 1256
    },
    {
     "rok": 2019,
-    "liczba": 549
+    "liczba": 1237
    },
    {
     "rok": 2020,
-    "liczba": 267
+    "liczba": 928
    },
    {
     "rok": 2021,
-    "liczba": 244
+    "liczba": 896
    },
    {
     "rok": 2022,
-    "liczba": 247
+    "liczba": 712
    },
    {
     "rok": 2023,
-    "liczba": 157
+    "liczba": 1869
    },
    {
     "rok": 2024,
-    "liczba": 161
+    "liczba": 4367
    },
    {
     "rok": 2025,
-    "liczba": 856
+    "liczba": 4547
    },
    {
     "rok": 2026,
-    "liczba": 1659
+    "liczba": 1662
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5246
+    "liczba": 17697
    },
    {
     "nazwa": "Diesel",
-    "liczba": 4736
+    "liczba": 9508
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1129
+    "liczba": 1627
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 34
+    "liczba": 133
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 7353
+    "liczba": 17031
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 2370
+    "liczba": 9822
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1373
+    "liczba": 2049
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 49
+    "liczba": 63
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5332
+    "liczba": 13116
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 4343
+    "liczba": 10847
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1365
+    "liczba": 4857
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 105
+    "liczba": 145
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 8007
+    "liczba": 17367
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 2116
+    "liczba": 8807
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 685
+    "liczba": 2078
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 337
+    "liczba": 713
    }
   ],
-  "noweOdPaczki": 5584,
-  "hybrydy": 1129,
-  "elektryczne": 1,
+  "noweOdPaczki": 23404,
+  "hybrydy": 1627,
+  "elektryczne": 2,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 1776
+   },
+   {
+    "rok": 2024,
+    "liczba": 7818
+   },
+   {
+    "rok": 2025,
+    "liczba": 7944
+   },
+   {
     "rok": 2026,
-    "liczba": 5584
+    "liczba": 5866
    }
   ],
-  "miejsce": 224,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 522
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 459
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 580
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 613
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 554
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 667
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 734
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 807
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 685
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 681
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 823
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 603
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 612
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 561
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 511
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 603
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 622
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 602
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 684
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 826
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 673
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 773
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 815
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 611
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 663
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 282
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 147,
   "miejsceWMarce": 8,
-  "modeliWMarce": 45,
-  "sredniRocznik": 2018.1
+  "modeliWMarce": 51,
+  "sredniRocznik": 2019.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "q3",
  "adres": "/marki/audi/q3/",
  "konkurenci": [
+  {
+   "slug": "ssangyong-korando",
+   "nazwa": "SsangYong (KGM) Korando",
+   "adres": "/marki/ssangyong-kgm/korando/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-gla",
+   "nazwa": "Mercedes-Benz Klasa GLA",
+   "adres": "/marki/mercedes-benz/klasa-gla/"
+  },
+  {
+   "slug": "ds-7",
+   "nazwa": "DS 7",
+   "adres": "/marki/ds/7/"
+  },
   {
    "slug": "bmw-x1",
    "nazwa": "BMW X1",
@@ -254,21 +423,6 @@
    "slug": "volkswagen-tiguan",
    "nazwa": "Volkswagen Tiguan",
    "adres": "/marki/volkswagen/tiguan/"
-  },
-  {
-   "slug": "mercedes-benz-klasa-gla",
-   "nazwa": "Mercedes-Benz Klasa GLA",
-   "adres": "/marki/mercedes-benz/klasa-gla/"
-  },
-  {
-   "slug": "volvo-xc60",
-   "nazwa": "Volvo XC60",
-   "adres": "/marki/volvo/xc60/"
-  },
-  {
-   "slug": "volvo-v90",
-   "nazwa": "Volvo V90",
-   "adres": "/marki/volvo/v90/"
   }
  ]
 }

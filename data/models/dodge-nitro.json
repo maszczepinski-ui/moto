@@ -3,83 +3,83 @@
  "marka": "Dodge",
  "model": "Nitro",
  "generacja": "",
- "lataProdukcji": "2007–2011",
+ "lataProdukcji": "2007–2012",
  "nadwozia": [
   "kombi",
-  "suv",
-  "van"
+  "van",
+  "suv"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Nitro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 56 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NITRO).",
-  "liczbaWPolsce": 414,
-  "aktywne": 215,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Nitro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 232 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NITRO, NITRO SXT).",
+  "liczbaWPolsce": 590,
+  "aktywne": 391,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 50
+    "liczba": 65
    },
    {
     "teryt": "04",
-    "liczba": 21
+    "liczba": 25
    },
    {
     "teryt": "06",
-    "liczba": 15
+    "liczba": 29
    },
    {
     "teryt": "08",
-    "liczba": 15
+    "liczba": 23
    },
    {
     "teryt": "10",
-    "liczba": 28
+    "liczba": 37
    },
    {
     "teryt": "12",
-    "liczba": 35
+    "liczba": 55
    },
    {
     "teryt": "14",
-    "liczba": 44
+    "liczba": 72
    },
    {
     "teryt": "16",
-    "liczba": 10
+    "liczba": 15
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 22
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "teryt": "22",
-    "liczba": 34
+    "liczba": 42
    },
    {
     "teryt": "24",
-    "liczba": 34
+    "liczba": 53
    },
    {
     "teryt": "26",
-    "liczba": 8
+    "liczba": 11
    },
    {
     "teryt": "28",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "30",
-    "liczba": 60
+    "liczba": 79
    },
    {
     "teryt": "32",
-    "liczba": 23
+    "liczba": 33
    }
   ],
   "bezWojewodztwa": 7,
@@ -90,41 +90,41 @@
    },
    {
     "rok": 2007,
-    "liczba": 234
+    "liczba": 311
    },
    {
     "rok": 2008,
-    "liczba": 98
+    "liczba": 153
    },
    {
     "rok": 2009,
-    "liczba": 32
+    "liczba": 53
    },
    {
     "rok": 2010,
-    "liczba": 11
+    "liczba": 16
    },
    {
     "rok": 2011,
-    "liczba": 11
+    "liczba": 21
    },
    {
     "rok": 2012,
-    "liczba": 2
+    "liczba": 8
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 283
+    "liczba": 398
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 90
+    "liczba": 116
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 39
+    "liczba": 74
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,15 +134,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,8 l",
-    "liczba": 284
+    "liczba": 400
    },
    {
     "nazwa": "3,7 l",
-    "liczba": 80
+    "liczba": 108
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 47
+    "liczba": 79
    },
    {
     "nazwa": "Inne / brak danych",
@@ -151,12 +151,12 @@
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 200
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 301
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 186
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 261
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -170,48 +170,202 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 291
-   },
-   {
-    "nazwa": "Terenowy",
-    "liczba": 38
+    "liczba": 412
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 35
+    "liczba": 63
+   },
+   {
+    "nazwa": "Terenowy",
+    "liczba": 54
    },
    {
     "nazwa": "Van",
-    "liczba": 24
+    "liczba": 31
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 15
+    "liczba": 17
    }
   ],
-  "noweOdPaczki": 56,
+  "noweOdPaczki": 232,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 21
+   },
+   {
+    "rok": 2024,
+    "liczba": 73
+   },
+   {
+    "rok": 2025,
+    "liczba": 78
+   },
+   {
     "rok": 2026,
-    "liczba": 56
+    "liczba": 60
    }
   ],
-  "miejsce": 905,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 875,
   "miejsceWMarce": 9,
   "modeliWMarce": 12,
-  "sredniRocznik": 2007.6
+  "sredniRocznik": 2007.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "dodge",
  "modelSlug": "nitro",
@@ -223,24 +377,24 @@
    "adres": "/marki/mercedes-benz/r/"
   },
   {
+   "slug": "toyota-land-cruiser",
+   "nazwa": "Toyota Land Cruiser",
+   "adres": "/marki/toyota/land-cruiser/"
+  },
+  {
    "slug": "mercedes-benz-klasa-ml",
    "nazwa": "Mercedes-Benz Klasa ML",
    "adres": "/marki/mercedes-benz/klasa-ml/"
   },
   {
+   "slug": "jeep-cherokee",
+   "nazwa": "Jeep Cherokee",
+   "adres": "/marki/jeep/cherokee/"
+  },
+  {
    "slug": "volkswagen-touareg",
    "nazwa": "Volkswagen Touareg",
    "adres": "/marki/volkswagen/touareg/"
-  },
-  {
-   "slug": "mercedes-benz-klasa-g",
-   "nazwa": "Mercedes-Benz Klasa G",
-   "adres": "/marki/mercedes-benz/klasa-g/"
-  },
-  {
-   "slug": "toyota-land-cruiser",
-   "nazwa": "Toyota Land Cruiser",
-   "adres": "/marki/toyota/land-cruiser/"
   }
  ]
 }

@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Pulsar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 357 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PULSAR, NISSAN PULSAR).",
-  "liczbaWPolsce": 2425,
-  "aktywne": 1141,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Pulsar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 356 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PULSAR, NISSAN PULSAR, PULSAR 1.2).",
+  "liczbaWPolsce": 3424,
+  "aktywne": 2140,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 179
+    "liczba": 246
    },
    {
     "teryt": "04",
-    "liczba": 126
+    "liczba": 182
    },
    {
     "teryt": "06",
-    "liczba": 107
+    "liczba": 162
    },
    {
     "teryt": "08",
-    "liczba": 34
+    "liczba": 66
    },
    {
     "teryt": "10",
-    "liczba": 135
+    "liczba": 221
    },
    {
     "teryt": "12",
-    "liczba": 188
+    "liczba": 264
    },
    {
     "teryt": "14",
-    "liczba": 445
+    "liczba": 578
    },
    {
     "teryt": "16",
-    "liczba": 39
+    "liczba": 64
    },
    {
     "teryt": "18",
-    "liczba": 79
+    "liczba": 150
    },
    {
     "teryt": "20",
-    "liczba": 60
+    "liczba": 96
    },
    {
     "teryt": "22",
-    "liczba": 107
+    "liczba": 152
    },
    {
     "teryt": "24",
-    "liczba": 408
+    "liczba": 494
    },
    {
     "teryt": "26",
-    "liczba": 47
+    "liczba": 65
    },
    {
     "teryt": "28",
-    "liczba": 100
+    "liczba": 134
    },
    {
     "teryt": "30",
-    "liczba": 218
+    "liczba": 348
    },
    {
     "teryt": "32",
-    "liczba": 147
+    "liczba": 196
    }
   ],
   "bezWojewodztwa": 6,
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 1988,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1993,
@@ -201,69 +201,69 @@
    },
    {
     "rok": 2014,
-    "liczba": 717
+    "liczba": 865
    },
    {
     "rok": 2015,
-    "liczba": 983
+    "liczba": 1370
    },
    {
     "rok": 2016,
-    "liczba": 410
+    "liczba": 662
    },
    {
     "rok": 2017,
-    "liczba": 170
+    "liczba": 308
    },
    {
     "rok": 2018,
-    "liczba": 34
+    "liczba": 105
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2031
+    "liczba": 2771
    },
    {
     "nazwa": "Diesel",
-    "liczba": 352
+    "liczba": 609
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 42
+    "liczba": 44
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 1953
+    "liczba": 2636
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 365
+    "liczba": 622
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 72
+    "liczba": 130
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "pochodzenie": [
    {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1327
+   },
+   {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1201
+    "liczba": 1202
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 632
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 582
+    "liczba": 885
    },
    {
     "nazwa": "Inne / brak danych",
@@ -273,50 +273,204 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2045
+    "liczba": 2712
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 293
+    "liczba": 613
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 87
+    "liczba": 99
    }
   ],
-  "noweOdPaczki": 357,
+  "noweOdPaczki": 1356,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 64
+   },
+   {
+    "rok": 2024,
+    "liczba": 436
+   },
+   {
+    "rok": 2025,
+    "liczba": 481
+   },
+   {
     "rok": 2026,
-    "liczba": 357
+    "liczba": 375
    }
   ],
-  "miejsce": 455,
-  "miejsceWMarce": 13,
-  "modeliWMarce": 41,
-  "sredniRocznik": 2014.3
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 466,
+  "miejsceWMarce": 12,
+  "modeliWMarce": 46,
+  "sredniRocznik": 2014.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "pulsar",
  "adres": "/marki/nissan/pulsar/",
  "konkurenci": [
   {
-   "slug": "ford-b-max",
-   "nazwa": "Ford B-Max",
-   "adres": "/marki/ford/b-max/"
-  },
-  {
    "slug": "fiat-500l",
    "nazwa": "Fiat 500L",
    "adres": "/marki/fiat/500l/"
+  },
+  {
+   "slug": "ford-b-max",
+   "nazwa": "Ford B-Max",
+   "adres": "/marki/ford/b-max/"
   },
   {
    "slug": "fiat-qubo",

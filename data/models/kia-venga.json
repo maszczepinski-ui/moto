@@ -12,152 +12,152 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Venga – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 155 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VENGA, VENGA 1.4 KAT).",
-  "liczbaWPolsce": 18410,
-  "aktywne": 9077,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Venga – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 700 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VENGA, VENGA 1.4 KAT, VENGA 1.6, VENGA 1.6 CRDI).",
+  "liczbaWPolsce": 21955,
+  "aktywne": 12622,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1172
+    "liczba": 1365
    },
    {
     "teryt": "04",
-    "liczba": 692
+    "liczba": 844
    },
    {
     "teryt": "06",
-    "liczba": 743
+    "liczba": 1089
    },
    {
     "teryt": "08",
-    "liczba": 311
+    "liczba": 385
    },
    {
     "teryt": "10",
-    "liczba": 1524
+    "liczba": 1860
    },
    {
     "teryt": "12",
-    "liczba": 1838
+    "liczba": 2169
    },
    {
     "teryt": "14",
-    "liczba": 2794
+    "liczba": 3260
    },
    {
     "teryt": "16",
-    "liczba": 498
+    "liczba": 565
    },
    {
     "teryt": "18",
-    "liczba": 918
+    "liczba": 1182
    },
    {
     "teryt": "20",
-    "liczba": 601
+    "liczba": 727
    },
    {
     "teryt": "22",
-    "liczba": 1109
+    "liczba": 1254
    },
    {
     "teryt": "24",
-    "liczba": 2694
+    "liczba": 3024
    },
    {
     "teryt": "26",
-    "liczba": 446
+    "liczba": 625
    },
    {
     "teryt": "28",
-    "liczba": 348
+    "liczba": 443
    },
    {
     "teryt": "30",
-    "liczba": 1934
+    "liczba": 2276
    },
    {
     "teryt": "32",
-    "liczba": 685
+    "liczba": 784
    }
   ],
   "bezWojewodztwa": 103,
   "roczniki": [
    {
     "rok": 2009,
-    "liczba": 99
+    "liczba": 146
    },
    {
     "rok": 2010,
-    "liczba": 3586
+    "liczba": 4370
    },
    {
     "rok": 2011,
-    "liczba": 2751
+    "liczba": 3480
    },
    {
     "rok": 2012,
-    "liczba": 1837
+    "liczba": 2336
    },
    {
     "rok": 2013,
-    "liczba": 1580
+    "liczba": 1971
    },
    {
     "rok": 2014,
-    "liczba": 1228
+    "liczba": 1546
    },
    {
     "rok": 2015,
-    "liczba": 1452
+    "liczba": 1726
    },
    {
     "rok": 2016,
-    "liczba": 1288
+    "liczba": 1510
    },
    {
     "rok": 2017,
-    "liczba": 1676
+    "liczba": 1824
    },
    {
     "rok": 2018,
-    "liczba": 1741
+    "liczba": 1834
    },
    {
     "rok": 2019,
-    "liczba": 639
+    "liczba": 679
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 14968
+    "liczba": 17379
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2305
+    "liczba": 3170
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1113
+    "liczba": 1380
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 26
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 11196
+    "liczba": 13337
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 7182
+    "liczba": 8584
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 34
    }
   ],
   "pochodzenie": [
@@ -166,51 +166,205 @@
     "liczba": 11846
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3242
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 5745
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3183
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 4220
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 139
+    "liczba": 144
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 16050
+    "liczba": 18451
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 2056
+    "liczba": 3129
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 304
+    "liczba": 375
    }
   ],
-  "noweOdPaczki": 1155,
+  "noweOdPaczki": 4700,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 346
+   },
+   {
+    "rok": 2024,
+    "liczba": 1563
+   },
+   {
+    "rok": 2025,
+    "liczba": 1571
+   },
+   {
     "rok": 2026,
-    "liczba": 1155
+    "liczba": 1220
    }
   ],
-  "miejsce": 166,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 171
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 140
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 156
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 124
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 148
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 121
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 102
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 111
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 65
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 174,
   "miejsceWMarce": 5,
-  "modeliWMarce": 29,
-  "sredniRocznik": 2013.5
+  "modeliWMarce": 32,
+  "sredniRocznik": 2013.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "venga",
@@ -222,9 +376,9 @@
    "adres": "/marki/hyundai/ix20/"
   },
   {
-   "slug": "nissan-juke",
-   "nazwa": "Nissan Juke",
-   "adres": "/marki/nissan/juke/"
+   "slug": "toyota-auris",
+   "nazwa": "Toyota Auris",
+   "adres": "/marki/toyota/auris/"
   },
   {
    "slug": "nissan-qashqai",
@@ -232,14 +386,14 @@
    "adres": "/marki/nissan/qashqai/"
   },
   {
-   "slug": "toyota-auris",
-   "nazwa": "Toyota Auris",
-   "adres": "/marki/toyota/auris/"
+   "slug": "alfa-romeo-giulietta",
+   "nazwa": "Alfa Romeo Giulietta",
+   "adres": "/marki/alfa-romeo/giulietta/"
   },
   {
-   "slug": "honda-hr-v",
-   "nazwa": "Honda HR-V",
-   "adres": "/marki/honda/hr-v/"
+   "slug": "nissan-juke",
+   "nazwa": "Nissan Juke",
+   "adres": "/marki/nissan/juke/"
   }
  ]
 }

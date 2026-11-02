@@ -12,132 +12,132 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Citan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 175 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITAN, CITAN TOURER).",
-  "liczbaWPolsce": 698,
-  "aktywne": 514,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Citan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 719 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITAN, CITAN TOURER, CITAN TRIPOD).",
+  "liczbaWPolsce": 1242,
+  "aktywne": 1058,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 55
+    "liczba": 101
    },
    {
     "teryt": "04",
-    "liczba": 37
+    "liczba": 65
    },
    {
     "teryt": "06",
-    "liczba": 19
+    "liczba": 40
    },
    {
     "teryt": "08",
-    "liczba": 31
+    "liczba": 54
    },
    {
     "teryt": "10",
-    "liczba": 30
+    "liczba": 52
    },
    {
     "teryt": "12",
-    "liczba": 46
+    "liczba": 91
    },
    {
     "teryt": "14",
-    "liczba": 125
+    "liczba": 193
    },
    {
     "teryt": "16",
-    "liczba": 16
+    "liczba": 25
    },
    {
     "teryt": "18",
-    "liczba": 21
+    "liczba": 51
    },
    {
     "teryt": "20",
-    "liczba": 11
+    "liczba": 21
    },
    {
     "teryt": "22",
-    "liczba": 47
+    "liczba": 93
    },
    {
     "teryt": "24",
-    "liczba": 82
+    "liczba": 136
    },
    {
     "teryt": "26",
-    "liczba": 19
+    "liczba": 30
    },
    {
     "teryt": "28",
-    "liczba": 16
+    "liczba": 26
    },
    {
     "teryt": "30",
-    "liczba": 107
+    "liczba": 201
    },
    {
     "teryt": "32",
-    "liczba": 35
+    "liczba": 62
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 126
+    "liczba": 145
    },
    {
     "rok": 2013,
-    "liczba": 66
+    "liczba": 93
    },
    {
     "rok": 2014,
-    "liczba": 94
+    "liczba": 138
    },
    {
     "rok": 2015,
-    "liczba": 79
+    "liczba": 131
    },
    {
     "rok": 2016,
-    "liczba": 113
+    "liczba": 158
    },
    {
     "rok": 2017,
-    "liczba": 77
+    "liczba": 120
    },
    {
     "rok": 2018,
-    "liczba": 55
+    "liczba": 91
    },
    {
     "rok": 2019,
-    "liczba": 9
+    "liczba": 41
    },
    {
     "rok": 2020,
-    "liczba": 8
+    "liczba": 31
    },
    {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 12
    },
    {
     "rok": 2022,
-    "liczba": 9
+    "liczba": 39
    },
    {
     "rok": 2023,
-    "liczba": 7
+    "liczba": 74
    },
    {
     "rok": 2024,
-    "liczba": 2
+    "liczba": 93
    },
    {
     "rok": 2025,
-    "liczba": 9
+    "liczba": 37
    },
    {
     "rok": 2026,
@@ -147,43 +147,47 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 649
+    "liczba": 1090
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 49
+    "liczba": 152
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 653
+    "liczba": 1093
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 23
+    "liczba": 98
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 22
+    "liczba": 50
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 252
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 534
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 245
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 374
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 186
+    "liczba": 317
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
@@ -193,49 +197,218 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 589
+    "liczba": 865
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 55
+    "liczba": 283
    },
    {
     "nazwa": "Van",
-    "liczba": 32
+    "liczba": 66
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 10
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 14
    }
   ],
-  "noweOdPaczki": 175,
+  "noweOdPaczki": 719,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2023,
+    "liczba": 71
+   },
+   {
+    "rok": 2024,
+    "liczba": 238
+   },
+   {
+    "rok": 2025,
+    "liczba": 228
+   },
+   {
     "rok": 2026,
-    "liczba": 175
+    "liczba": 182
    }
   ],
-  "miejsce": 750,
+  "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2023-12",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-01",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-02",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2024-03",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2024-04",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2024-05",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-06",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2024-07",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2024-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2024-09",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2024-11",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2024-12",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2025-01",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2025-02",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2025-04",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-05",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2025-06",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2025-07",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2025-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-09",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-10",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2025-11",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2025-12",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2026-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2026-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2026-10",
+    "liczba": 0
+   }
+  ],
+  "miejsce": 696,
   "miejsceWMarce": 35,
-  "modeliWMarce": 48,
-  "sredniRocznik": 2015.5
+  "modeliWMarce": 54,
+  "sredniRocznik": 2017.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-01",
+ "dataAktualizacji": "2026-11-02",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "citan",
  "adres": "/marki/mercedes-benz/citan/",
  "konkurenci": [
+  {
+   "slug": "renault-talisman",
+   "nazwa": "Renault Talisman",
+   "adres": "/marki/renault/talisman/"
+  },
+  {
+   "slug": "dacia-dokker",
+   "nazwa": "Dacia Dokker",
+   "adres": "/marki/dacia/dokker/"
+  },
+  {
+   "slug": "renault-kadjar",
+   "nazwa": "Renault Kadjar",
+   "adres": "/marki/renault/kadjar/"
+  },
   {
    "slug": "dacia-duster",
    "nazwa": "Dacia Duster",
@@ -245,21 +418,6 @@
    "slug": "dacia-lodgy",
    "nazwa": "Dacia Lodgy",
    "adres": "/marki/dacia/lodgy/"
-  },
-  {
-   "slug": "dacia-dokker",
-   "nazwa": "Dacia Dokker",
-   "adres": "/marki/dacia/dokker/"
-  },
-  {
-   "slug": "volkswagen-tiguan",
-   "nazwa": "Volkswagen Tiguan",
-   "adres": "/marki/volkswagen/tiguan/"
-  },
-  {
-   "slug": "hyundai-i40",
-   "nazwa": "Hyundai i40",
-   "adres": "/marki/hyundai/i40/"
   }
  ]
 }
