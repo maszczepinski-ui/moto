@@ -4,8 +4,8 @@
 
 export const site = {
   // Nazwa strony i krótki podpis pod logo
-  name: 'MotoFormat',
-  tagline: 'Atlas aut – ile ich jeździ w Polsce i gdzie',
+  name: 'Moto-Raport.pl',
+  tagline: 'Baza Aut, Statystyki Rejestracji i Dane Modeli',
 
   // Adres strony (bez ukośnika na końcu).
   // Dopóki domena nie jest podpięta, możesz tu wpisać adres od Vercel, np. https://moto-format.vercel.app
@@ -25,8 +25,8 @@ export const site = {
   publisherCity: 'Lublin',
   // Uzupełnij przed publikacją – pojawią się w polityce prywatności.
   // Puste pole = ta informacja nie jest pokazywana.
-  publisherNip: '',
-  publisherAddress: '',
-  contactEmail: '',
+  publisherNip: '9462596411',
+  publisherAddress: 'ul. Jana Samsonowicza 41/18, 20-485 Lublin',
+  contactEmail: 'kontakt@moto-raport.pl',
   author: 'Marcin Szczepiński'
 };
