@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Zeta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZETA).",
-  "liczbaWPolsce": 314,
-  "aktywne": 61,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Zeta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZETA).",
+  "liczbaWPolsce": 315,
+  "aktywne": 62,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "08",
@@ -114,7 +114,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 38
+    "liczba": 39
    },
    {
     "rok": 2002,
@@ -132,7 +132,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,7 +142,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 260
+    "liczba": 261
    },
    {
     "nazwa": "2,1 l",
@@ -152,7 +152,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 167
+    "liczba": 168
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -170,7 +170,7 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 215
+    "liczba": 216
    },
    {
     "nazwa": "Kombi",
@@ -193,10 +193,14 @@
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 4
@@ -207,6 +211,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -348,7 +448,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1077,
+  "miejsce": 1117,
   "miejsceWMarce": 14,
   "modeliWMarce": 15,
   "sredniRocznik": 1997.8
@@ -357,7 +457,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "zeta",

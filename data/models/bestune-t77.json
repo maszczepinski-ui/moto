@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bestune T77 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 859 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T77).",
-  "liczbaWPolsce": 859,
-  "aktywne": 859,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bestune T77 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 860 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T77).",
+  "liczbaWPolsce": 860,
+  "aktywne": 860,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 79
+    "liczba": 80
    },
    {
     "teryt": "32",
@@ -84,7 +84,7 @@
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2023,
@@ -106,7 +106,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 580
+    "liczba": 581
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -120,7 +120,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 859
+    "liczba": 860
    }
   ],
   "pochodzenie": [
@@ -130,7 +130,7 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -144,17 +144,21 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 858
+    "liczba": 859
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 859,
+  "noweOdPaczki": 860,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2025,
     "liczba": 126
@@ -165,6 +169,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -306,7 +406,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 784,
+  "miejsce": 809,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 2025.0
@@ -315,21 +415,21 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "bestune",
  "modelSlug": "t77",
  "adres": "/marki/bestune/t77/",
  "konkurenci": [
   {
-   "slug": "toyota-yaris-cross",
-   "nazwa": "Toyota Yaris Cross",
-   "adres": "/marki/toyota/yaris-cross/"
-  },
-  {
    "slug": "omoda-9",
    "nazwa": "Omoda 9",
    "adres": "/marki/omoda/9/"
+  },
+  {
+   "slug": "toyota-yaris-cross",
+   "nazwa": "Toyota Yaris Cross",
+   "adres": "/marki/toyota/yaris-cross/"
   },
   {
    "slug": "byd-seal-u",

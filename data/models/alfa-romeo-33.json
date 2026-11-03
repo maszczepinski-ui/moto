@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 33 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 33, 33 1.4 KAT, 33 1.4, 33 1.7 KAT, 33 1.7).",
-  "liczbaWPolsce": 822,
-  "aktywne": 25,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 33 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 33, 33 1.4 KAT, 33 1.4, 33 1.7 KAT, 33 1.7).",
+  "liczbaWPolsce": 825,
+  "aktywne": 28,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "teryt": "14",
-    "liczba": 115
+    "liczba": 116
    },
    {
     "teryt": "16",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 78
+    "liczba": 79
    },
    {
     "teryt": "26",
@@ -126,11 +126,11 @@
    },
    {
     "rok": 1992,
-    "liczba": 134
+    "liczba": 135
    },
    {
     "rok": 1993,
-    "liczba": 177
+    "liczba": 178
    },
    {
     "rok": 1994,
@@ -152,7 +152,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 487
+    "liczba": 490
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -170,11 +170,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 470
+    "liczba": 472
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 244
+    "liczba": 245
    },
    {
     "nazwa": "1,5 l",
@@ -192,11 +192,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 607
+    "liczba": 608
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 191
+    "liczba": 193
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -210,11 +210,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 508
+    "liczba": 510
    },
    {
     "nazwa": "Sedan",
-    "liczba": 191
+    "liczba": 192
    },
    {
     "nazwa": "Kombi",
@@ -225,13 +225,21 @@
     "liczba": 96
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 2
    },
    {
     "rok": 2024,
@@ -247,6 +255,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -388,7 +492,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 794,
+  "miejsce": 818,
   "miejsceWMarce": 15,
   "modeliWMarce": 20,
   "sredniRocznik": 1992.4
@@ -397,7 +501,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "33",

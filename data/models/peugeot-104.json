@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 104 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 104 1.0, 104, 104 1.1, 104 1.2, 104 1.4).",
-  "liczbaWPolsce": 936,
-  "aktywne": 4,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 104 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 104 1.0, 104, 104 1.1, 104 1.2, 104 1.4).",
+  "liczbaWPolsce": 938,
+  "aktywne": 6,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 83
+    "liczba": 84
    },
    {
     "teryt": "04",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "teryt": "32",
@@ -85,7 +85,7 @@
   "roczniki": [
    {
     "rok": 1972,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1973,
@@ -149,7 +149,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1989,
@@ -183,7 +183,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 173
+    "liczba": 175
    },
    {
     "nazwa": "?+LPG",
@@ -197,11 +197,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 496
+    "liczba": 497
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 166
+    "liczba": 167
    },
    {
     "nazwa": "0,9 l",
@@ -223,7 +223,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 666
+    "liczba": 668
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -249,17 +249,25 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 807
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -270,6 +278,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -411,16 +515,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 770,
-  "miejsceWMarce": 35,
-  "modeliWMarce": 44,
+  "miejsce": 800,
+  "miejsceWMarce": 36,
+  "modeliWMarce": 45,
   "sredniRocznik": 1980.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "104",

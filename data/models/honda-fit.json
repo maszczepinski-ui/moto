@@ -11,37 +11,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda Fit – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FIT, FIT 1.5 KAT).",
-  "liczbaWPolsce": 393,
-  "aktywne": 171,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda Fit – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 117 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FIT, FIT 1.5 KAT).",
+  "liczbaWPolsce": 466,
+  "aktywne": 244,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "teryt": "04",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "06",
-    "liczba": 12
+    "liczba": 16
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "10",
-    "liczba": 8
+    "liczba": 11
    },
    {
     "teryt": "12",
-    "liczba": 79
+    "liczba": 91
    },
    {
     "teryt": "14",
-    "liczba": 61
+    "liczba": 77
    },
    {
     "teryt": "16",
@@ -49,31 +49,31 @@
    },
    {
     "teryt": "18",
-    "liczba": 79
+    "liczba": 86
    },
    {
     "teryt": "20",
-    "liczba": 40
+    "liczba": 52
    },
    {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 20
    },
    {
     "teryt": "24",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "28",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 7
+    "liczba": 12
    },
    {
     "teryt": "32",
@@ -88,19 +88,19 @@
    },
    {
     "rok": 2007,
-    "liczba": 92
+    "liczba": 95
    },
    {
     "rok": 2008,
-    "liczba": 73
+    "liczba": 75
    },
    {
     "rok": 2009,
-    "liczba": 35
+    "liczba": 39
    },
    {
     "rok": 2010,
-    "liczba": 24
+    "liczba": 27
    },
    {
     "rok": 2011,
@@ -112,41 +112,41 @@
    },
    {
     "rok": 2013,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 2014,
-    "liczba": 7
+    "liczba": 11
    },
    {
     "rok": 2015,
-    "liczba": 20
+    "liczba": 28
    },
    {
     "rok": 2016,
-    "liczba": 26
+    "liczba": 33
    },
    {
     "rok": 2017,
-    "liczba": 12
+    "liczba": 20
    },
    {
     "rok": 2018,
-    "liczba": 12
+    "liczba": 22
    },
    {
     "rok": 2019,
-    "liczba": 7
+    "liczba": 23
    },
    {
     "rok": 2020,
-    "liczba": 14
+    "liczba": 21
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 358
+    "liczba": 431
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -160,7 +160,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 376
+    "liczba": 447
    },
    {
     "nazwa": "1,3 l",
@@ -168,17 +168,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 11
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 297
+    "liczba": 343
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 88
+    "liczba": 115
    },
    {
     "nazwa": "Inne / brak danych",
@@ -188,28 +188,40 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 367
+    "liczba": 430
+   },
+   {
+    "nazwa": "Sedan",
+    "liczba": 12
    },
    {
     "nazwa": "Kombi",
     "liczba": 10
    },
    {
-    "nazwa": "Sedan",
-    "liczba": 9
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 44,
+  "noweOdPaczki": 117,
   "hybrydy": 1,
   "elektryczne": 2,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 20
+   },
+   {
+    "rok": 2022,
+    "liczba": 31
+   },
+   {
     "rok": 2023,
-    "liczba": 4
+    "liczba": 26
    },
    {
     "rok": 2024,
@@ -225,6 +237,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -366,16 +474,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1000,
+  "miejsce": 980,
   "miejsceWMarce": 18,
-  "modeliWMarce": 20,
-  "sredniRocznik": 2010.6
+  "modeliWMarce": 21,
+  "sredniRocznik": 2011.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "honda",
  "modelSlug": "fit",
@@ -392,19 +500,19 @@
    "adres": "/marki/toyota/yaris/"
   },
   {
-   "slug": "skoda-fabia",
-   "nazwa": "Skoda Fabia",
-   "adres": "/marki/skoda/fabia/"
+   "slug": "toyota-prius",
+   "nazwa": "Toyota Prius",
+   "adres": "/marki/toyota/prius/"
   },
   {
-   "slug": "suzuki-vitara",
-   "nazwa": "Suzuki Vitara",
-   "adres": "/marki/suzuki/vitara/"
+   "slug": "suzuki-baleno",
+   "nazwa": "Suzuki Baleno",
+   "adres": "/marki/suzuki/baleno/"
   },
   {
-   "slug": "mazda-2",
-   "nazwa": "Mazda 2",
-   "adres": "/marki/mazda/2/"
+   "slug": "mitsubishi-space-star",
+   "nazwa": "Mitsubishi Space Star",
+   "adres": "/marki/mitsubishi/space-star/"
   }
  ]
 }

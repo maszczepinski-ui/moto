@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar Xjr – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 39 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XJR).",
-  "liczbaWPolsce": 222,
-  "aktywne": 82,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar Xjr – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 63 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XJR).",
+  "liczbaWPolsce": 246,
+  "aktywne": 106,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 16
+    "liczba": 19
    },
    {
     "teryt": "04",
-    "liczba": 3
+    "liczba": 5
    },
    {
     "teryt": "06",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "08",
@@ -33,23 +33,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "12",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "14",
-    "liczba": 57
+    "liczba": 63
    },
    {
     "teryt": "16",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "18",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "20",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "26",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 5,
@@ -104,7 +104,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 40
+    "liczba": 44
    },
    {
     "rok": 1996,
@@ -112,11 +112,11 @@
    },
    {
     "rok": 1997,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1998,
-    "liczba": 28
+    "liczba": 33
    },
    {
     "rok": 1999,
@@ -124,7 +124,7 @@
    },
    {
     "rok": 2000,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2001,
@@ -132,19 +132,19 @@
    },
    {
     "rok": 2002,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2003,
-    "liczba": 13
-   },
-   {
-    "rok": 2004,
     "liczba": 17
    },
    {
+    "rok": 2004,
+    "liczba": 19
+   },
+   {
     "rok": 2005,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2006,
@@ -152,11 +152,11 @@
    },
    {
     "rok": 2007,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2008,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2009,
@@ -180,7 +180,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2015,
@@ -192,7 +192,7 @@
    },
    {
     "rok": 2017,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2018,
@@ -206,7 +206,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 188
+    "liczba": 212
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -220,19 +220,19 @@
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 153
+    "liczba": 165
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 46
+    "liczba": 55
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
@@ -241,12 +241,12 @@
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 107
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 117
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 102
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 116
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -260,11 +260,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 195
+    "liczba": 218
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -275,13 +275,21 @@
     "liczba": 20
    }
   ],
-  "noweOdPaczki": 39,
+  "noweOdPaczki": 63,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 9
+   },
+   {
     "rok": 2023,
-    "liczba": 7
+    "liczba": 18
    },
    {
     "rok": 2024,
@@ -297,6 +305,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -438,16 +542,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1189,
-  "miejsceWMarce": 15,
-  "modeliWMarce": 15,
-  "sredniRocznik": 1999.9
+  "miejsce": 1197,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 17,
+  "sredniRocznik": 2000.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "xjr",

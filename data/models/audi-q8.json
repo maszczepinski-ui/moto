@@ -6,107 +6,106 @@
  "lataProdukcji": "2018–2026",
  "nadwozia": [
   "hatchback",
-  "kombi",
-  "van"
+  "kombi"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 289 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q8, Q8 60 TFSI E, Q8 55 TFSI E, Q8 55 E-TRON, Q8 SPORTBACK 55 E-TRON).",
-  "liczbaWPolsce": 5904,
-  "aktywne": 5904,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 091 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q8, Q8 60 TFSI E, Q8 55 TFSI E, Q8 SPORTBACK 55 E-TRON, Q8 55 E-TRON).",
+  "liczbaWPolsce": 7706,
+  "aktywne": 7706,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 490
+    "liczba": 616
    },
    {
     "teryt": "04",
-    "liczba": 323
+    "liczba": 406
    },
    {
     "teryt": "06",
-    "liczba": 147
+    "liczba": 224
    },
    {
     "teryt": "08",
-    "liczba": 52
+    "liczba": 89
    },
    {
     "teryt": "10",
-    "liczba": 279
+    "liczba": 373
    },
    {
     "teryt": "12",
-    "liczba": 530
+    "liczba": 677
    },
    {
     "teryt": "14",
-    "liczba": 1386
+    "liczba": 1786
    },
    {
     "teryt": "16",
-    "liczba": 124
+    "liczba": 171
    },
    {
     "teryt": "18",
-    "liczba": 206
+    "liczba": 260
    },
    {
     "teryt": "20",
-    "liczba": 110
+    "liczba": 178
    },
    {
     "teryt": "22",
-    "liczba": 603
+    "liczba": 753
    },
    {
     "teryt": "24",
-    "liczba": 546
+    "liczba": 718
    },
    {
     "teryt": "26",
-    "liczba": 136
+    "liczba": 178
    },
    {
     "teryt": "28",
-    "liczba": 129
+    "liczba": 174
    },
    {
     "teryt": "30",
-    "liczba": 662
+    "liczba": 848
    },
    {
     "teryt": "32",
-    "liczba": 181
+    "liczba": 255
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 398
+    "liczba": 421
    },
    {
     "rok": 2019,
-    "liczba": 428
+    "liczba": 502
    },
    {
     "rok": 2020,
-    "liczba": 84
+    "liczba": 121
    },
    {
     "rok": 2021,
-    "liczba": 112
+    "liczba": 420
    },
    {
     "rok": 2022,
-    "liczba": 61
+    "liczba": 563
    },
    {
     "rok": 2023,
-    "liczba": 935
+    "liczba": 1793
    },
    {
     "rok": 2024,
@@ -123,24 +122,24 @@
   ],
   "paliwa": [
    {
-    "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1960
+    "nazwa": "Hybryda (diesel + elektryczny)",
+    "liczba": 2525
    },
    {
-    "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 1778
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 2172
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1418
+    "liczba": 1966
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 501
+    "liczba": 679
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 246
+    "liczba": 363
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,56 +149,64 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 5637
+    "liczba": 7317
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 267
+    "liczba": 389
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 4413
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 748
+    "liczba": 5190
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 715
+    "liczba": 1637
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 849
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 30
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 5333
+    "liczba": 6966
    },
    {
     "nazwa": "Kombi",
-    "liczba": 306
+    "liczba": 406
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 190
+    "liczba": 229
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 75
+    "liczba": 105
    }
   ],
-  "noweOdPaczki": 5289,
-  "hybrydy": 3722,
-  "elektryczne": 246,
+  "noweOdPaczki": 7091,
+  "hybrydy": 4681,
+  "elektryczne": 363,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 228
+   },
+   {
+    "rok": 2022,
+    "liczba": 521
+   },
+   {
     "rok": 2023,
-    "liczba": 465
+    "liczba": 1518
    },
    {
     "rok": 2024,
@@ -215,6 +222,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 71
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 102
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 156
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 144
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 176
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 134
+   },
    {
     "miesiac": "2023-12",
     "liczba": 176
@@ -356,16 +459,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 368,
+  "miejsce": 353,
   "miejsceWMarce": 13,
-  "modeliWMarce": 51,
-  "sredniRocznik": 2023.4
+  "modeliWMarce": 52,
+  "sredniRocznik": 2023.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "q8",

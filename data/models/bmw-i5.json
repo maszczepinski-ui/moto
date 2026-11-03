@@ -12,17 +12,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW I5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 739 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I5 EDRIVE40, I5 XDRIVE40, I5 M60 XDRIVE).",
-  "liczbaWPolsce": 739,
-  "aktywne": 739,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW I5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 758 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I5 EDRIVE40, I5 M60 XDRIVE, I5 XDRIVE40).",
+  "liczbaWPolsce": 758,
+  "aktywne": 758,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 33
+    "liczba": 36
    },
    {
     "teryt": "04",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "06",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "10",
@@ -38,15 +38,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "14",
-    "liczba": 304
+    "liczba": 306
    },
    {
     "teryt": "16",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "18",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "24",
-    "liczba": 112
+    "liczba": 117
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "teryt": "32",
@@ -85,7 +85,7 @@
   "roczniki": [
    {
     "rok": 2023,
-    "liczba": 60
+    "liczba": 79
    },
    {
     "rok": 2024,
@@ -103,23 +103,23 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 739
+    "liczba": 758
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 739
+    "liczba": 758
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 650
+    "liczba": 658
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 62
+    "liczba": 73
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -133,20 +133,20 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 567
+    "liczba": 586
    },
    {
     "nazwa": "Kombi",
     "liczba": 172
    }
   ],
-  "noweOdPaczki": 739,
+  "noweOdPaczki": 758,
   "hybrydy": 0,
-  "elektryczne": 739,
+  "elektryczne": 758,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
-    "liczba": 27
+    "liczba": 46
    },
    {
     "rok": 2024,
@@ -162,6 +162,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 8
+   },
    {
     "miesiac": "2023-12",
     "liczba": 7
@@ -303,16 +399,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 819,
-  "miejsceWMarce": 27,
-  "modeliWMarce": 39,
+  "miejsce": 840,
+  "miejsceWMarce": 32,
+  "modeliWMarce": 42,
   "sredniRocznik": 2024.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "i5",
@@ -334,14 +430,14 @@
    "adres": "/marki/tesla/model-y/"
   },
   {
-   "slug": "audi-q4",
-   "nazwa": "Audi Q4",
-   "adres": "/marki/audi/q4/"
+   "slug": "citroen-e-c3",
+   "nazwa": "Citroen E-C3",
+   "adres": "/marki/citroen/e-c3/"
   },
   {
-   "slug": "mercedes-benz-eqa",
-   "nazwa": "Mercedes-Benz EQA",
-   "adres": "/marki/mercedes-benz/eqa/"
+   "slug": "toyota-bz4x",
+   "nazwa": "Toyota bZ4X",
+   "adres": "/marki/toyota/bz4x/"
   }
  ]
 }

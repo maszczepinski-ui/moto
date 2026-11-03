@@ -13,61 +13,61 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi S7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 306 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S7 SPORTBACK, S7).",
-  "liczbaWPolsce": 306,
-  "aktywne": 306,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi S7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 500 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S7 SPORTBACK, S7).",
+  "liczbaWPolsce": 500,
+  "aktywne": 500,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 23
+    "liczba": 35
    },
    {
     "teryt": "04",
-    "liczba": 18
-   },
-   {
-    "teryt": "06",
-    "liczba": 14
-   },
-   {
-    "teryt": "08",
-    "liczba": 5
-   },
-   {
-    "teryt": "10",
-    "liczba": 13
-   },
-   {
-    "teryt": "12",
-    "liczba": 26
-   },
-   {
-    "teryt": "14",
-    "liczba": 61
-   },
-   {
-    "teryt": "16",
-    "liczba": 7
-   },
-   {
-    "teryt": "18",
-    "liczba": 11
-   },
-   {
-    "teryt": "20",
-    "liczba": 5
-   },
-   {
-    "teryt": "22",
     "liczba": 28
    },
    {
+    "teryt": "06",
+    "liczba": 19
+   },
+   {
+    "teryt": "08",
+    "liczba": 10
+   },
+   {
+    "teryt": "10",
+    "liczba": 27
+   },
+   {
+    "teryt": "12",
+    "liczba": 47
+   },
+   {
+    "teryt": "14",
+    "liczba": 96
+   },
+   {
+    "teryt": "16",
+    "liczba": 13
+   },
+   {
+    "teryt": "18",
+    "liczba": 18
+   },
+   {
+    "teryt": "20",
+    "liczba": 8
+   },
+   {
+    "teryt": "22",
+    "liczba": 38
+   },
+   {
     "teryt": "24",
-    "liczba": 42
+    "liczba": 61
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 14
    },
    {
     "teryt": "28",
@@ -75,62 +75,62 @@
    },
    {
     "teryt": "30",
-    "liczba": 28
+    "liczba": 55
    },
    {
     "teryt": "32",
-    "liczba": 13
+    "liczba": 24
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 10
-   },
-   {
-    "rok": 2013,
-    "liczba": 21
-   },
-   {
-    "rok": 2014,
-    "liczba": 14
-   },
-   {
-    "rok": 2015,
     "liczba": 17
    },
    {
-    "rok": 2016,
+    "rok": 2013,
     "liczba": 25
    },
    {
+    "rok": 2014,
+    "liczba": 22
+   },
+   {
+    "rok": 2015,
+    "liczba": 22
+   },
+   {
+    "rok": 2016,
+    "liczba": 30
+   },
+   {
     "rok": 2017,
-    "liczba": 23
+    "liczba": 27
    },
    {
     "rok": 2018,
-    "liczba": 11
+    "liczba": 14
    },
    {
     "rok": 2019,
-    "liczba": 9
+    "liczba": 20
    },
    {
     "rok": 2020,
-    "liczba": 12
+    "liczba": 25
    },
    {
     "rok": 2021,
-    "liczba": 9
+    "liczba": 44
    },
    {
     "rok": 2022,
-    "liczba": 9
+    "liczba": 78
    },
    {
     "rok": 2023,
-    "liczba": 36
+    "liczba": 66
    },
    {
     "rok": 2024,
@@ -143,34 +143,34 @@
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna",
-    "liczba": 135
+    "nazwa": "Hybryda (diesel + elektryczny)",
+    "liczba": 220
    },
    {
-    "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 121
+    "nazwa": "Benzyna",
+    "liczba": 178
    },
    {
     "nazwa": "Diesel",
-    "liczba": 48
+    "liczba": 99
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 170
+    "liczba": 322
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 120
+    "liczba": 156
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 15
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
@@ -180,46 +180,58 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 145
-   },
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 106
+    "liczba": 172
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 55
-   }
-  ],
-  "nadwozia": [
-   {
-    "nazwa": "Hatchback",
-    "liczba": 227
+    "liczba": 167
    },
    {
-    "nazwa": "Coupe",
-    "liczba": 38
-   },
-   {
-    "nazwa": "Sedan",
-    "liczba": 31
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 9
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 160
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 306,
-  "hybrydy": 123,
+  "nadwozia": [
+   {
+    "nazwa": "Hatchback",
+    "liczba": 404
+   },
+   {
+    "nazwa": "Coupe",
+    "liczba": 46
+   },
+   {
+    "nazwa": "Sedan",
+    "liczba": 39
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 10
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
+   }
+  ],
+  "noweOdPaczki": 500,
+  "hybrydy": 223,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 35
+   },
+   {
+    "rok": 2022,
+    "liczba": 89
+   },
+   {
     "rok": 2023,
-    "liczba": 24
+    "liczba": 94
    },
    {
     "rok": 2024,
@@ -235,6 +247,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 11
+   },
    {
     "miesiac": "2023-12",
     "liczba": 11
@@ -376,40 +484,40 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1083,
-  "miejsceWMarce": 46,
-  "modeliWMarce": 51,
-  "sredniRocznik": 2020.0
+  "miejsce": 954,
+  "miejsceWMarce": 44,
+  "modeliWMarce": 52,
+  "sredniRocznik": 2020.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "s7",
  "adres": "/marki/audi/s7/",
  "konkurenci": [
   {
-   "slug": "porsche-panamera",
-   "nazwa": "Porsche Panamera",
-   "adres": "/marki/porsche/panamera/"
-  },
-  {
    "slug": "bmw-x7",
    "nazwa": "BMW X7",
    "adres": "/marki/bmw/x7/"
   },
   {
-   "slug": "kia-stinger",
-   "nazwa": "Kia Stinger",
-   "adres": "/marki/kia/stinger/"
+   "slug": "porsche-panamera",
+   "nazwa": "Porsche Panamera",
+   "adres": "/marki/porsche/panamera/"
   },
   {
    "slug": "bmw-x6",
    "nazwa": "BMW X6",
    "adres": "/marki/bmw/x6/"
+  },
+  {
+   "slug": "kia-stinger",
+   "nazwa": "Kia Stinger",
+   "adres": "/marki/kia/stinger/"
   },
   {
    "slug": "mercedes-benz-klasa-gls",

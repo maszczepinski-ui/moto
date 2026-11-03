@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Forman – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FORMAN, FORMAN 135 LS, FORMAN 135L, FORMAN 135LS, FORMAN 1.3).",
-  "liczbaWPolsce": 1583,
-  "aktywne": 36,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Forman – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FORMAN, FORMAN 135 LS, FORMAN 135L, FORMAN 135LS, FORMAN 1.3).",
+  "liczbaWPolsce": 1591,
+  "aktywne": 44,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 168
+    "liczba": 170
    },
    {
     "teryt": "04",
@@ -39,15 +39,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 96
+    "liczba": 97
    },
    {
     "teryt": "14",
-    "liczba": 207
+    "liczba": 210
    },
    {
     "teryt": "16",
-    "liczba": 56
+    "liczba": 57
    },
    {
     "teryt": "18",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 279
+    "liczba": 280
    },
    {
     "teryt": "26",
@@ -86,19 +86,19 @@
   "roczniki": [
    {
     "rok": 1991,
-    "liczba": 137
+    "liczba": 138
    },
    {
     "rok": 1992,
-    "liczba": 521
+    "liczba": 522
    },
    {
     "rok": 1993,
-    "liczba": 738
+    "liczba": 740
    },
    {
     "rok": 1994,
-    "liczba": 143
+    "liczba": 147
    },
    {
     "rok": 1995,
@@ -116,11 +116,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 645
+    "liczba": 652
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 419
+    "liczba": 420
    },
    {
     "nazwa": "?+LPG",
@@ -134,7 +134,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 1568
+    "liczba": 1576
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,7 +144,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1251
+    "liczba": 1257
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -152,7 +152,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 101
+    "liczba": 103
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -166,7 +166,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 541
+    "liczba": 549
    },
    {
     "nazwa": "Hatchback",
@@ -181,10 +181,22 @@
     "liczba": 650
    }
   ],
-  "noweOdPaczki": 14,
+  "noweOdPaczki": 22,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 6
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 4
@@ -199,6 +211,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -340,8 +448,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 634,
-  "miejsceWMarce": 18,
+  "miejsce": 665,
+  "miejsceWMarce": 19,
   "modeliWMarce": 27,
   "sredniRocznik": 1992.6
  },
@@ -349,7 +457,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "forman",

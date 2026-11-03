@@ -12,88 +12,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Born – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 360 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BORN 170 KW 77/82 KWH, BORN 170 KW 58/62 KWH, BORN 150 KW 60/63 KWH, BORN 150 KW 58/62 KWH, BORN).",
-  "liczbaWPolsce": 360,
-  "aktywne": 360,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Born – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 585 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BORN 170 KW 58/62 KWH, BORN 170 KW 77/82 KWH, BORN 150 KW 58/62 KWH, BORN 150 KW 60/63 KWH, BORN).",
+  "liczbaWPolsce": 585,
+  "aktywne": 585,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 21
+    "liczba": 37
    },
    {
     "teryt": "04",
-    "liczba": 8
-   },
-   {
-    "teryt": "06",
-    "liczba": 4
-   },
-   {
-    "teryt": "08",
-    "liczba": 3
-   },
-   {
-    "teryt": "10",
-    "liczba": 23
-   },
-   {
-    "teryt": "12",
-    "liczba": 55
-   },
-   {
-    "teryt": "14",
-    "liczba": 81
-   },
-   {
-    "teryt": "16",
-    "liczba": 10
-   },
-   {
-    "teryt": "18",
-    "liczba": 5
-   },
-   {
-    "teryt": "20",
-    "liczba": 8
-   },
-   {
-    "teryt": "22",
-    "liczba": 23
-   },
-   {
-    "teryt": "24",
-    "liczba": 39
-   },
-   {
-    "teryt": "26",
     "liczba": 11
    },
    {
+    "teryt": "06",
+    "liczba": 8
+   },
+   {
+    "teryt": "08",
+    "liczba": 13
+   },
+   {
+    "teryt": "10",
+    "liczba": 41
+   },
+   {
+    "teryt": "12",
+    "liczba": 76
+   },
+   {
+    "teryt": "14",
+    "liczba": 139
+   },
+   {
+    "teryt": "16",
+    "liczba": 13
+   },
+   {
+    "teryt": "18",
+    "liczba": 13
+   },
+   {
+    "teryt": "20",
+    "liczba": 13
+   },
+   {
+    "teryt": "22",
+    "liczba": 42
+   },
+   {
+    "teryt": "24",
+    "liczba": 61
+   },
+   {
+    "teryt": "26",
+    "liczba": 18
+   },
+   {
     "teryt": "28",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "30",
-    "liczba": 55
+    "liczba": 80
    },
    {
     "teryt": "32",
-    "liczba": 12
+    "liczba": 17
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 15
    },
    {
     "rok": 2022,
-    "liczba": 55
+    "liczba": 191
    },
    {
     "rok": 2023,
-    "liczba": 126
+    "liczba": 204
    },
    {
     "rok": 2024,
@@ -111,54 +111,66 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 360
+    "liczba": 585
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 360
+    "liczba": 585
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 232
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 83
+    "liczba": 375
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 40
+    "liczba": 118
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 86
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
     "liczba": 5
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 334
+    "liczba": 557
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 360,
+  "noweOdPaczki": 585,
   "hybrydy": 0,
-  "elektryczne": 360,
+  "elektryczne": 585,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 10
+   },
+   {
+    "rok": 2022,
+    "liczba": 72
+   },
+   {
     "rok": 2023,
-    "liczba": 32
+    "liczba": 175
    },
    {
     "rok": 2024,
@@ -174,6 +186,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 9
+   },
    {
     "miesiac": "2023-12",
     "liczba": 5
@@ -315,25 +423,25 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1031,
+  "miejsce": 909,
   "miejsceWMarce": 6,
   "modeliWMarce": 6,
-  "sredniRocznik": 2023.8
+  "sredniRocznik": 2023.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "cupra",
  "modelSlug": "born",
  "adres": "/marki/cupra/born/",
  "konkurenci": [
   {
-   "slug": "volvo-ex30",
-   "nazwa": "Volvo EX30",
-   "adres": "/marki/volvo/ex30/"
+   "slug": "skoda-enyaq",
+   "nazwa": "Skoda Enyaq",
+   "adres": "/marki/skoda/enyaq/"
   },
   {
    "slug": "volkswagen-id-3",
@@ -341,19 +449,19 @@
    "adres": "/marki/volkswagen/id-3/"
   },
   {
+   "slug": "volkswagen-id-4",
+   "nazwa": "Volkswagen ID.4",
+   "adres": "/marki/volkswagen/id-4/"
+  },
+  {
    "slug": "audi-q4",
    "nazwa": "Audi Q4",
    "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "skoda-enyaq",
-   "nazwa": "Skoda Enyaq",
-   "adres": "/marki/skoda/enyaq/"
-  },
-  {
-   "slug": "volkswagen-id-4",
-   "nazwa": "Volkswagen ID.4",
-   "adres": "/marki/volkswagen/id-4/"
+   "slug": "mercedes-benz-eqb",
+   "nazwa": "Mercedes-Benz EQB",
+   "adres": "/marki/mercedes-benz/eqb/"
   }
  ]
 }

@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 940 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 67 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 940, 940 GL, 940 2.4 TD, 940 2.3 KAT, 940 2.3).",
-  "liczbaWPolsce": 1733,
-  "aktywne": 228,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 940 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 118 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 940, 940 GL, 940 2.4 TD, 940 2.3 KAT, 940 2.3).",
+  "liczbaWPolsce": 1784,
+  "aktywne": 279,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 132
+    "liczba": 137
    },
    {
     "teryt": "04",
@@ -27,43 +27,43 @@
    },
    {
     "teryt": "06",
-    "liczba": 154
+    "liczba": 160
    },
    {
     "teryt": "08",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "10",
-    "liczba": 122
+    "liczba": 125
    },
    {
     "teryt": "12",
-    "liczba": 97
+    "liczba": 105
    },
    {
     "teryt": "14",
-    "liczba": 503
+    "liczba": 513
    },
    {
     "teryt": "16",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "18",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "20",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "teryt": "22",
-    "liczba": 110
+    "liczba": 112
    },
    {
     "teryt": "24",
-    "liczba": 109
+    "liczba": 116
    },
    {
     "teryt": "26",
@@ -75,64 +75,64 @@
    },
    {
     "teryt": "30",
-    "liczba": 88
+    "liczba": 93
    },
    {
     "teryt": "32",
-    "liczba": 102
+    "liczba": 103
    }
   ],
   "bezWojewodztwa": 5,
   "roczniki": [
    {
     "rok": 1990,
-    "liczba": 66
+    "liczba": 68
    },
    {
     "rok": 1991,
-    "liczba": 393
+    "liczba": 397
    },
    {
     "rok": 1992,
-    "liczba": 302
+    "liczba": 309
    },
    {
     "rok": 1993,
-    "liczba": 238
+    "liczba": 241
    },
    {
     "rok": 1994,
-    "liczba": 251
+    "liczba": 257
    },
    {
     "rok": 1995,
-    "liczba": 196
+    "liczba": 203
    },
    {
     "rok": 1996,
-    "liczba": 129
+    "liczba": 134
    },
    {
     "rok": 1997,
-    "liczba": 111
+    "liczba": 122
    },
    {
     "rok": 1998,
-    "liczba": 24
+    "liczba": 30
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 675
+    "liczba": 678
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 505
+    "liczba": 518
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 403
+    "liczba": 438
    },
    {
     "nazwa": "?+LPG",
@@ -146,15 +146,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 803
+    "liczba": 842
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 721
+    "liczba": 723
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 187
+    "liczba": 197
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 992
+    "liczba": 1010
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 654
+    "liczba": 687
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -186,28 +186,36 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 725
+    "liczba": 759
    },
    {
     "nazwa": "Sedan",
-    "liczba": 692
+    "liczba": 708
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 72
+    "liczba": 73
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 244
    }
   ],
-  "noweOdPaczki": 67,
+  "noweOdPaczki": 118,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 11
+   },
+   {
+    "rok": 2022,
+    "liczba": 27
+   },
+   {
     "rok": 2023,
-    "liczba": 6
+    "liczba": 19
    },
    {
     "rok": 2024,
@@ -223,6 +231,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -364,16 +468,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 615,
+  "miejsce": 640,
   "miejsceWMarce": 22,
-  "modeliWMarce": 33,
+  "modeliWMarce": 34,
   "sredniRocznik": 1993.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "940",
@@ -385,14 +489,14 @@
    "adres": "/marki/mercedes-benz/mb/"
   },
   {
-   "slug": "peugeot-605",
-   "nazwa": "Peugeot 605",
-   "adres": "/marki/peugeot/605/"
-  },
-  {
    "slug": "citroen-xm",
    "nazwa": "Citroen XM",
    "adres": "/marki/citroen/xm/"
+  },
+  {
+   "slug": "peugeot-605",
+   "nazwa": "Peugeot 605",
+   "adres": "/marki/peugeot/605/"
   },
   {
    "slug": "isuzu-trooper",

@@ -13,21 +13,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Wrx – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 433 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WRX, WRX STI).",
-  "liczbaWPolsce": 610,
-  "aktywne": 566,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Wrx – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 547 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WRX, WRX STI).",
+  "liczbaWPolsce": 724,
+  "aktywne": 680,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 58
+    "liczba": 64
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "teryt": "06",
-    "liczba": 38
+    "liczba": 47
    },
    {
     "teryt": "08",
@@ -35,51 +35,51 @@
    },
    {
     "teryt": "10",
-    "liczba": 30
+    "liczba": 34
    },
    {
     "teryt": "12",
-    "liczba": 107
+    "liczba": 129
    },
    {
     "teryt": "14",
-    "liczba": 110
+    "liczba": 136
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "18",
-    "liczba": 39
+    "liczba": 54
    },
    {
     "teryt": "20",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "22",
-    "liczba": 21
+    "liczba": 27
    },
    {
     "teryt": "24",
-    "liczba": 53
+    "liczba": 64
    },
    {
     "teryt": "26",
-    "liczba": 20
-   },
-   {
-    "teryt": "28",
     "liczba": 21
    },
    {
+    "teryt": "28",
+    "liczba": 25
+   },
+   {
     "teryt": "30",
-    "liczba": 42
+    "liczba": 44
    },
    {
     "teryt": "32",
-    "liczba": 20
+    "liczba": 22
    }
   ],
   "bezWojewodztwa": 9,
@@ -94,7 +94,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2005,
@@ -122,7 +122,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2012,
@@ -134,39 +134,39 @@
    },
    {
     "rok": 2014,
-    "liczba": 50
+    "liczba": 52
    },
    {
     "rok": 2015,
-    "liczba": 79
+    "liczba": 93
    },
    {
     "rok": 2016,
-    "liczba": 70
+    "liczba": 90
    },
    {
     "rok": 2017,
-    "liczba": 81
+    "liczba": 93
    },
    {
     "rok": 2018,
-    "liczba": 75
+    "liczba": 95
    },
    {
     "rok": 2019,
-    "liczba": 42
+    "liczba": 58
    },
    {
     "rok": 2020,
-    "liczba": 49
+    "liczba": 61
    },
    {
     "rok": 2021,
-    "liczba": 46
+    "liczba": 56
    },
    {
     "rok": 2022,
-    "liczba": 44
+    "liczba": 47
    },
    {
     "rok": 2023,
@@ -184,11 +184,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 599
+    "liczba": 711
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
@@ -198,15 +198,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 293
+    "liczba": 337
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 231
+    "liczba": 299
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 79
+    "liczba": 81
    },
    {
     "nazwa": "Inne / brak danych",
@@ -216,11 +216,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 370
+    "liczba": 428
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 165
+    "liczba": 220
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -228,34 +228,42 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 530
+    "liczba": 628
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 35
+    "liczba": 43
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 27
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 23
    }
   ],
-  "noweOdPaczki": 433,
+  "noweOdPaczki": 547,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 23
+   },
+   {
+    "rok": 2022,
+    "liczba": 49
+   },
+   {
     "rok": 2023,
-    "liczba": 15
+    "liczba": 57
    },
    {
     "rok": 2024,
@@ -271,6 +279,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 11
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -412,21 +516,26 @@
     "liczba": 0
    }
   ],
-  "miejsce": 870,
+  "miejsce": 856,
   "miejsceWMarce": 8,
   "modeliWMarce": 12,
-  "sredniRocznik": 2017.8
+  "sredniRocznik": 2017.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "wrx",
  "adres": "/marki/subaru/wrx/",
  "konkurenci": [
+  {
+   "slug": "toyota-camry",
+   "nazwa": "Toyota Camry",
+   "adres": "/marki/toyota/camry/"
+  },
   {
    "slug": "alfa-romeo-giulia",
    "nazwa": "Alfa Romeo Giulia",
@@ -438,19 +547,14 @@
    "adres": "/marki/bmw/seria-4/"
   },
   {
-   "slug": "volvo-s90",
-   "nazwa": "Volvo S90",
-   "adres": "/marki/volvo/s90/"
+   "slug": "nissan-rogue",
+   "nazwa": "Nissan Rogue",
+   "adres": "/marki/nissan/rogue/"
   },
   {
-   "slug": "toyota-camry",
-   "nazwa": "Toyota Camry",
-   "adres": "/marki/toyota/camry/"
-  },
-  {
-   "slug": "mazda-cx-5",
-   "nazwa": "Mazda CX-5",
-   "adres": "/marki/mazda/cx-5/"
+   "slug": "jaguar-xe",
+   "nazwa": "Jaguar XE",
+   "adres": "/marki/jaguar/xe/"
   }
  ]
 }

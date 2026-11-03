@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Pulsar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 356 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PULSAR, NISSAN PULSAR, PULSAR 1.2).",
-  "liczbaWPolsce": 3424,
-  "aktywne": 2140,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Pulsar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 953 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PULSAR, NISSAN PULSAR, PULSAR 1.2).",
+  "liczbaWPolsce": 4021,
+  "aktywne": 2737,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 246
+    "liczba": 287
    },
    {
     "teryt": "04",
-    "liczba": 182
+    "liczba": 206
    },
    {
     "teryt": "06",
-    "liczba": 162
+    "liczba": 195
    },
    {
     "teryt": "08",
-    "liczba": 66
+    "liczba": 87
    },
    {
     "teryt": "10",
-    "liczba": 221
-   },
-   {
-    "teryt": "12",
     "liczba": 264
    },
    {
+    "teryt": "12",
+    "liczba": 320
+   },
+   {
     "teryt": "14",
-    "liczba": 578
+    "liczba": 652
    },
    {
     "teryt": "16",
-    "liczba": 64
+    "liczba": 70
    },
    {
     "teryt": "18",
-    "liczba": 150
+    "liczba": 185
    },
    {
     "teryt": "20",
-    "liczba": 96
+    "liczba": 108
    },
    {
     "teryt": "22",
-    "liczba": 152
+    "liczba": 180
    },
    {
     "teryt": "24",
-    "liczba": 494
+    "liczba": 563
    },
    {
     "teryt": "26",
-    "liczba": 65
+    "liczba": 85
    },
    {
     "teryt": "28",
-    "liczba": 134
+    "liczba": 148
    },
    {
     "teryt": "30",
-    "liczba": 348
+    "liczba": 443
    },
    {
     "teryt": "32",
-    "liczba": 196
+    "liczba": 222
    }
   ],
   "bezWojewodztwa": 6,
@@ -89,11 +89,11 @@
    },
    {
     "rok": 1986,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 1987,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 1988,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1992,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1994,
@@ -201,61 +201,61 @@
    },
    {
     "rok": 2014,
-    "liczba": 865
+    "liczba": 979
    },
    {
     "rok": 2015,
-    "liczba": 1370
+    "liczba": 1603
    },
    {
     "rok": 2016,
-    "liczba": 662
+    "liczba": 805
    },
    {
     "rok": 2017,
-    "liczba": 308
+    "liczba": 367
    },
    {
     "rok": 2018,
-    "liczba": 105
+    "liczba": 147
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2771
+    "liczba": 3168
    },
    {
     "nazwa": "Diesel",
-    "liczba": 609
+    "liczba": 807
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 44
+    "liczba": 46
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 2636
+    "liczba": 3010
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 622
+    "liczba": 820
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 130
+    "liczba": 153
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 36
+    "liczba": 38
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1327
+    "liczba": 1747
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -263,34 +263,42 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 885
+    "liczba": 1061
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2712
+    "liczba": 3032
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 613
+    "liczba": 881
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 99
+    "liczba": 108
    }
   ],
-  "noweOdPaczki": 1356,
+  "noweOdPaczki": 1953,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 147
+   },
+   {
+    "rok": 2022,
+    "liczba": 233
+   },
+   {
     "rok": 2023,
-    "liczba": 64
+    "liczba": 281
    },
    {
     "rok": 2024,
@@ -306,6 +314,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 23
+   },
    {
     "miesiac": "2023-12",
     "liczba": 16
@@ -447,16 +551,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 466,
-  "miejsceWMarce": 12,
-  "modeliWMarce": 46,
-  "sredniRocznik": 2014.6
+  "miejsce": 468,
+  "miejsceWMarce": 14,
+  "modeliWMarce": 47,
+  "sredniRocznik": 2014.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "pulsar",
@@ -478,14 +582,14 @@
    "adres": "/marki/fiat/qubo/"
   },
   {
+   "slug": "opel-mokka",
+   "nazwa": "Opel Mokka",
+   "adres": "/marki/opel/mokka/"
+  },
+  {
    "slug": "hyundai-ix20",
    "nazwa": "Hyundai ix20",
    "adres": "/marki/hyundai/ix20/"
-  },
-  {
-   "slug": "kia-venga",
-   "nazwa": "Kia Venga",
-   "adres": "/marki/kia/venga/"
   }
  ]
 }

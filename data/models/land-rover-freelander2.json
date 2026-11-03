@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Land Rover FREELANDER2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 69 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FREELANDER2).",
-  "liczbaWPolsce": 396,
-  "aktywne": 186,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Land Rover FREELANDER2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 90 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FREELANDER2).",
+  "liczbaWPolsce": 417,
+  "aktywne": 207,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 34
    },
    {
     "teryt": "04",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "06",
-    "liczba": 16
+    "liczba": 20
    },
    {
     "teryt": "08",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 88
+    "liczba": 91
    },
    {
     "teryt": "16",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "24",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "26",
@@ -69,15 +69,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "30",
-    "liczba": 43
+    "liczba": 47
    },
    {
     "teryt": "32",
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,49 +88,45 @@
    },
    {
     "rok": 2007,
-    "liczba": 139
+    "liczba": 150
    },
    {
     "rok": 2008,
-    "liczba": 176
+    "liczba": 184
    },
    {
     "rok": 2009,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 2010,
-    "liczba": 16
+    "liczba": 17
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 389
-   },
-   {
-    "nazwa": "Benzyna + LPG",
-    "liczba": 4
+    "liczba": 409
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 8
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,2 l",
-    "liczba": 389
+    "liczba": 409
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 232
+    "liczba": 241
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -138,7 +134,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 69
+    "liczba": 81
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,16 +144,24 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 396
+    "liczba": 417
    }
   ],
-  "noweOdPaczki": 69,
+  "noweOdPaczki": 90,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 10
+   },
+   {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 10
    },
    {
     "rok": 2024,
@@ -173,6 +177,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -314,7 +414,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 996,
+  "miejsce": 1015,
   "miejsceWMarce": 6,
   "modeliWMarce": 6,
   "sredniRocznik": 2007.8
@@ -323,12 +423,17 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "land-rover",
  "modelSlug": "freelander2",
  "adres": "/marki/land-rover/freelander2/",
  "konkurenci": [
+  {
+   "slug": "audi-a6",
+   "nazwa": "Audi A6",
+   "adres": "/marki/audi/a6/"
+  },
   {
    "slug": "volkswagen-passat-b6",
    "nazwa": "Volkswagen Passat B6",
@@ -340,19 +445,14 @@
    "adres": "/marki/opel/antara/"
   },
   {
-   "slug": "audi-a6",
-   "nazwa": "Audi A6",
-   "adres": "/marki/audi/a6/"
-  },
-  {
    "slug": "alfa-romeo-159",
    "nazwa": "Alfa Romeo 159",
    "adres": "/marki/alfa-romeo/159/"
   },
   {
-   "slug": "volkswagen-multivan",
-   "nazwa": "Volkswagen Multivan",
-   "adres": "/marki/volkswagen/multivan/"
+   "slug": "bmw-x",
+   "nazwa": "BMW X",
+   "adres": "/marki/bmw/x/"
   }
  ]
 }

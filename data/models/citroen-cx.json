@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen CX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 24 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX, CX 2500D, CX 2000, CX 2200, CX 2400).",
-  "liczbaWPolsce": 1179,
-  "aktywne": 51,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen CX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX, CX 2500D, CX 2000, CX 2200, CX 2400).",
+  "liczbaWPolsce": 1195,
+  "aktywne": 67,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 72
+    "liczba": 75
    },
    {
     "teryt": "04",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 231
+    "liczba": 236
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "20",
@@ -58,15 +58,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 80
+    "liczba": 81
    },
    {
     "teryt": "24",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "teryt": "26",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 138
+    "liczba": 142
    },
    {
     "teryt": "32",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 48
+    "liczba": 49
    },
    {
     "rok": 1978,
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 89
+    "liczba": 91
    },
    {
     "rok": 1980,
@@ -113,39 +113,39 @@
    },
    {
     "rok": 1981,
-    "liczba": 113
+    "liczba": 115
    },
    {
     "rok": 1982,
-    "liczba": 114
+    "liczba": 115
    },
    {
     "rok": 1983,
-    "liczba": 98
+    "liczba": 99
    },
    {
     "rok": 1984,
-    "liczba": 82
+    "liczba": 83
    },
    {
     "rok": 1985,
-    "liczba": 60
+    "liczba": 62
    },
    {
     "rok": 1986,
-    "liczba": 51
+    "liczba": 52
    },
    {
     "rok": 1987,
-    "liczba": 53
+    "liczba": 54
    },
    {
     "rok": 1988,
-    "liczba": 51
+    "liczba": 53
    },
    {
     "rok": 1989,
-    "liczba": 27
+    "liczba": 29
    },
    {
     "rok": 1990,
@@ -183,11 +183,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 426
+    "liczba": 429
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 156
+    "liczba": 169
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -205,19 +205,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 569
+    "liczba": 577
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 240
+    "liczba": 244
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 153
+    "liczba": 154
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 121
+    "liczba": 124
    },
    {
     "nazwa": "2,4 l",
@@ -235,7 +235,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 801
+    "liczba": 808
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -243,7 +243,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 105
+    "liczba": 112
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -251,17 +251,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 30
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 181
+    "liczba": 189
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 108
+    "liczba": 116
    },
    {
     "nazwa": "Kombi",
@@ -272,13 +272,21 @@
     "liczba": 855
    }
   ],
-  "noweOdPaczki": 24,
+  "noweOdPaczki": 40,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 2
+   },
+   {
+    "rok": 2022,
+    "liczba": 7
+   },
+   {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 10
    },
    {
     "rok": 2024,
@@ -294,6 +302,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -435,16 +539,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 707,
+  "miejsce": 734,
   "miejsceWMarce": 28,
-  "modeliWMarce": 40,
+  "modeliWMarce": 42,
   "sredniRocznik": 1983.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "cx",
@@ -456,14 +560,14 @@
    "adres": "/marki/peugeot/505/"
   },
   {
-   "slug": "mercedes-benz-w123",
-   "nazwa": "Mercedes-Benz W123",
-   "adres": "/marki/mercedes-benz/w123/"
-  },
-  {
    "slug": "ford-granada",
    "nazwa": "Ford Granada",
    "adres": "/marki/ford/granada/"
+  },
+  {
+   "slug": "mercedes-benz-w123",
+   "nazwa": "Mercedes-Benz W123",
+   "adres": "/marki/mercedes-benz/w123/"
   },
   {
    "slug": "volvo-244",

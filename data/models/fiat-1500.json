@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 1500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1500).",
-  "liczbaWPolsce": 774,
-  "aktywne": 18,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 1500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1500).",
+  "liczbaWPolsce": 775,
+  "aktywne": 19,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -45,7 +45,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "18",
@@ -104,7 +104,7 @@
    },
    {
     "rok": 1967,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1968,
@@ -206,7 +206,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "nazwa": "?+LPG",
@@ -224,7 +224,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 743
+    "liczba": 744
    },
    {
     "nazwa": "Inne / brak danych",
@@ -234,7 +234,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 452
+    "liczba": 453
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -264,13 +264,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 650
+    "liczba": 651
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2023,
     "liczba": 1
@@ -289,6 +293,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -430,16 +530,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 808,
+  "miejsce": 833,
   "miejsceWMarce": 45,
-  "modeliWMarce": 58,
-  "sredniRocznik": 1980.5
+  "modeliWMarce": 60,
+  "sredniRocznik": 1980.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "1500",

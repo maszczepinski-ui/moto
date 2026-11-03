@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 240 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 240, 240 GL, 240 2.4D, 240 2.3, 240 2.4D KOMBI).",
-  "liczbaWPolsce": 720,
-  "aktywne": 75,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 240 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 60 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 240, 240 GL, 240 2.4D, 240 2.3, 240 2.4D KOMBI).",
+  "liczbaWPolsce": 746,
+  "aktywne": 101,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "teryt": "04",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "06",
-    "liczba": 35
+    "liczba": 37
    },
    {
     "teryt": "08",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "10",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "12",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "teryt": "14",
-    "liczba": 254
+    "liczba": 258
    },
    {
     "teryt": "16",
@@ -50,19 +50,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "20",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "22",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "24",
-    "liczba": 33
+    "liczba": 36
    },
    {
     "teryt": "26",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "30",
-    "liczba": 60
+    "liczba": 64
    },
    {
     "teryt": "32",
-    "liczba": 37
+    "liczba": 38
    }
   ],
   "bezWojewodztwa": 3,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 1983,
@@ -125,39 +125,39 @@
    },
    {
     "rok": 1985,
-    "liczba": 50
+    "liczba": 53
    },
    {
     "rok": 1986,
-    "liczba": 44
+    "liczba": 45
    },
    {
     "rok": 1987,
-    "liczba": 44
+    "liczba": 45
    },
    {
     "rok": 1988,
-    "liczba": 67
+    "liczba": 70
    },
    {
     "rok": 1989,
-    "liczba": 54
+    "liczba": 57
    },
    {
     "rok": 1990,
-    "liczba": 47
+    "liczba": 49
    },
    {
     "rok": 1991,
-    "liczba": 75
+    "liczba": 78
    },
    {
     "rok": 1992,
-    "liczba": 110
+    "liczba": 115
    },
    {
     "rok": 1993,
-    "liczba": 30
+    "liczba": 34
    },
    {
     "rok": 1994,
@@ -179,11 +179,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 235
+    "liczba": 239
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 177
+    "liczba": 199
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -201,15 +201,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 321
+    "liczba": 339
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 289
+    "liczba": 292
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 70
+    "liczba": 75
    },
    {
     "nazwa": "2,1 l",
@@ -223,11 +223,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 488
+    "liczba": 493
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 140
+    "liczba": 161
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -241,11 +241,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 227
+    "liczba": 240
    },
    {
     "nazwa": "Sedan",
-    "liczba": 219
+    "liczba": 232
    },
    {
     "nazwa": "Hatchback",
@@ -256,13 +256,21 @@
     "liczba": 259
    }
   ],
-  "noweOdPaczki": 34,
+  "noweOdPaczki": 60,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 13
+   },
+   {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 12
    },
    {
     "rok": 2024,
@@ -278,6 +286,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -419,16 +523,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 826,
+  "miejsce": 845,
   "miejsceWMarce": 25,
-  "modeliWMarce": 33,
-  "sredniRocznik": 1987.9
+  "modeliWMarce": 34,
+  "sredniRocznik": 1988.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "240",

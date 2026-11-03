@@ -12,96 +12,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GLB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 581 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GLB 200, GLB 200 D, GLB 220 4MATIC, GLB 200 D 4MATIC, GLB 250).",
-  "liczbaWPolsce": 5581,
-  "aktywne": 5581,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GLB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 319 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GLB 200, GLB 200 D 4MATIC, GLB 200 D, GLB 220 D 4MATIC, GLB 250 4MATIC).",
+  "liczbaWPolsce": 7319,
+  "aktywne": 7319,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 503
+    "liczba": 622
    },
    {
     "teryt": "04",
-    "liczba": 248
+    "liczba": 310
    },
    {
     "teryt": "06",
-    "liczba": 109
+    "liczba": 150
    },
    {
     "teryt": "08",
-    "liczba": 99
+    "liczba": 144
    },
    {
     "teryt": "10",
-    "liczba": 197
+    "liczba": 265
    },
    {
     "teryt": "12",
-    "liczba": 430
+    "liczba": 573
    },
    {
     "teryt": "14",
-    "liczba": 1667
+    "liczba": 2229
    },
    {
     "teryt": "16",
-    "liczba": 74
+    "liczba": 96
    },
    {
     "teryt": "18",
-    "liczba": 155
+    "liczba": 207
    },
    {
     "teryt": "20",
-    "liczba": 113
+    "liczba": 141
    },
    {
     "teryt": "22",
-    "liczba": 487
+    "liczba": 614
    },
    {
     "teryt": "24",
-    "liczba": 398
+    "liczba": 535
    },
    {
     "teryt": "26",
-    "liczba": 74
+    "liczba": 90
    },
    {
     "teryt": "28",
-    "liczba": 78
+    "liczba": 109
    },
    {
     "teryt": "30",
-    "liczba": 725
+    "liczba": 943
    },
    {
     "teryt": "32",
-    "liczba": 224
+    "liczba": 291
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 35
+    "liczba": 40
    },
    {
     "rok": 2020,
-    "liczba": 410
+    "liczba": 523
    },
    {
     "rok": 2021,
-    "liczba": 479
+    "liczba": 855
    },
    {
     "rok": 2022,
-    "liczba": 299
+    "liczba": 1175
    },
    {
     "rok": 2023,
-    "liczba": 1382
+    "liczba": 1750
    },
    {
     "rok": 2024,
@@ -119,15 +119,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2025
+    "liczba": 3144
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1958
+    "liczba": 2574
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1339
+    "liczba": 1340
    },
    {
     "nazwa": "Elektryczny",
@@ -135,17 +135,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3310
+    "liczba": 4306
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 1529
+    "liczba": 2271
    },
    {
     "nazwa": "1,5 l",
@@ -159,46 +159,54 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2982
+    "liczba": 3733
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1282
+    "liczba": 2194
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1213
+    "liczba": 1284
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 103
+    "liczba": 106
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 5070
+    "liczba": 6755
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 364
+    "liczba": 398
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 147
+    "liczba": 166
    }
   ],
-  "noweOdPaczki": 5581,
-  "hybrydy": 1343,
+  "noweOdPaczki": 7319,
+  "hybrydy": 1345,
   "elektryczne": 249,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 317
+   },
+   {
+    "rok": 2022,
+    "liczba": 798
+   },
+   {
     "rok": 2023,
-    "liczba": 394
+    "liczba": 1017
    },
    {
     "rok": 2024,
@@ -214,6 +222,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 65
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 103
+   },
    {
     "miesiac": "2023-12",
     "liczba": 173
@@ -355,16 +459,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 376,
+  "miejsce": 359,
   "miejsceWMarce": 18,
-  "modeliWMarce": 54,
-  "sredniRocznik": 2023.6
+  "modeliWMarce": 56,
+  "sredniRocznik": 2023.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "klasa-glb",
@@ -391,9 +495,9 @@
    "adres": "/marki/volvo/xc40/"
   },
   {
-   "slug": "volkswagen-tayron",
-   "nazwa": "Volkswagen Tayron",
-   "adres": "/marki/volkswagen/tayron/"
+   "slug": "cupra-leon",
+   "nazwa": "Cupra Leon",
+   "adres": "/marki/cupra/leon/"
   }
  ]
 }

@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Rapid – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 739 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RAPID, RAPID 136, RAPID 1.3).",
-  "liczbaWPolsce": 34018,
-  "aktywne": 21221,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Rapid – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 434 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RAPID, RAPID 136, RAPID 1.3, RAPID 1.6 TDI).",
+  "liczbaWPolsce": 34713,
+  "aktywne": 21916,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 3103
+    "liczba": 3157
    },
    {
     "teryt": "04",
-    "liczba": 1415
+    "liczba": 1446
    },
    {
     "teryt": "06",
-    "liczba": 955
+    "liczba": 974
    },
    {
     "teryt": "08",
-    "liczba": 616
+    "liczba": 641
    },
    {
     "teryt": "10",
-    "liczba": 2104
+    "liczba": 2155
    },
    {
     "teryt": "12",
-    "liczba": 3027
+    "liczba": 3081
    },
    {
     "teryt": "14",
-    "liczba": 7224
+    "liczba": 7309
    },
    {
     "teryt": "16",
-    "liczba": 1089
+    "liczba": 1117
    },
    {
     "teryt": "18",
-    "liczba": 1164
+    "liczba": 1187
    },
    {
     "teryt": "20",
-    "liczba": 588
+    "liczba": 604
    },
    {
     "teryt": "22",
-    "liczba": 2446
+    "liczba": 2506
    },
    {
     "teryt": "24",
-    "liczba": 5068
+    "liczba": 5162
    },
    {
     "teryt": "26",
-    "liczba": 582
+    "liczba": 596
    },
    {
     "teryt": "28",
-    "liczba": 869
+    "liczba": 886
    },
    {
     "teryt": "30",
-    "liczba": 2699
+    "liczba": 2781
    },
    {
     "teryt": "32",
-    "liczba": 1042
+    "liczba": 1084
    }
   ],
   "bezWojewodztwa": 27,
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1991,
@@ -177,49 +177,49 @@
    },
    {
     "rok": 2012,
-    "liczba": 456
+    "liczba": 471
    },
    {
     "rok": 2013,
-    "liczba": 3298
+    "liczba": 3398
    },
    {
     "rok": 2014,
-    "liczba": 5411
+    "liczba": 5596
    },
    {
     "rok": 2015,
-    "liczba": 5616
+    "liczba": 5753
    },
    {
     "rok": 2016,
-    "liczba": 4716
+    "liczba": 4812
    },
    {
     "rok": 2017,
-    "liczba": 4963
+    "liczba": 5037
    },
    {
     "rok": 2018,
-    "liczba": 5960
+    "liczba": 6016
    },
    {
     "rok": 2019,
-    "liczba": 2528
+    "liczba": 2551
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 25448
+    "liczba": 25874
    },
    {
     "nazwa": "Diesel",
-    "liczba": 6891
+    "liczba": 7149
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1533
+    "liczba": 1544
    },
    {
     "nazwa": "Inne / brak danych",
@@ -229,23 +229,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 15591
+    "liczba": 15885
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 10169
+    "liczba": 10245
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 5360
+    "liczba": 5586
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 2567
+    "liczba": 2660
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 331
+    "liczba": 337
    }
   ],
   "pochodzenie": [
@@ -255,38 +255,46 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4391
+    "liczba": 4653
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1827
+    "liczba": 2257
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 87
+    "liczba": 90
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 17632
+    "liczba": 17754
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 15862
+    "liczba": 16326
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 524
+    "liczba": 633
    }
   ],
-  "noweOdPaczki": 1739,
+  "noweOdPaczki": 2434,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 155
+   },
+   {
+    "rok": 2022,
+    "liczba": 305
+   },
+   {
     "rok": 2023,
-    "liczba": 106
+    "liczba": 341
    },
    {
     "rok": 2024,
@@ -302,6 +310,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 38
+   },
    {
     "miesiac": "2023-12",
     "liczba": 26
@@ -443,8 +547,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 116,
-  "miejsceWMarce": 8,
+  "miejsce": 135,
+  "miejsceWMarce": 10,
   "modeliWMarce": 27,
   "sredniRocznik": 2015.6
  },
@@ -452,7 +556,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "rapid",
@@ -474,14 +578,14 @@
    "adres": "/marki/hyundai/i20/"
   },
   {
-   "slug": "peugeot-208",
-   "nazwa": "Peugeot 208",
-   "adres": "/marki/peugeot/208/"
-  },
-  {
    "slug": "nissan-pulsar",
    "nazwa": "Nissan Pulsar",
    "adres": "/marki/nissan/pulsar/"
+  },
+  {
+   "slug": "ford-b-max",
+   "nazwa": "Ford B-Max",
+   "adres": "/marki/ford/b-max/"
   }
  ]
 }

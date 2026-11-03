@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Dedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEDRA, DEDRA 1.6 KAT, DEDRA 2.0 KAT, DEDRA 1.8 KAT, DEDRA 1.6).",
-  "liczbaWPolsce": 1499,
-  "aktywne": 19,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Dedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEDRA, DEDRA 1.6 KAT, DEDRA 2.0 KAT, DEDRA 1.8 KAT, DEDRA 1.6).",
+  "liczbaWPolsce": 1504,
+  "aktywne": 24,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 187
+    "liczba": 188
    },
    {
     "teryt": "04",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 106
+    "liczba": 108
    },
    {
     "teryt": "14",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "24",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "teryt": "26",
@@ -85,14 +85,6 @@
   "bezWojewodztwa": 0,
   "roczniki": [
    {
-    "rok": 1985,
-    "liczba": 3
-   },
-   {
-    "rok": 1986,
-    "liczba": 0
-   },
-   {
     "rok": 1987,
     "liczba": 4
    },
@@ -110,7 +102,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 297
+    "liczba": 298
    },
    {
     "rok": 1992,
@@ -126,29 +118,25 @@
    },
    {
     "rok": 1995,
-    "liczba": 186
+    "liczba": 187
    },
    {
     "rok": 1996,
-    "liczba": 132
+    "liczba": 134
    },
    {
     "rok": 1997,
-    "liczba": 112
+    "liczba": 113
    },
    {
     "rok": 1998,
     "liczba": 28
-   },
-   {
-    "rok": 1999,
-    "liczba": 3
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 505
+    "liczba": 510
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -170,23 +158,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 526
+    "liczba": 527
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 339
+    "liczba": 340
+   },
+   {
+    "nazwa": "1,8 l",
+    "liczba": 292
    },
    {
     "nazwa": "1,9 l",
     "liczba": 292
    },
    {
-    "nazwa": "1,8 l",
-    "liczba": 291
-   },
-   {
     "nazwa": "1,7 l",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "nazwa": "Inne / brak danych",
@@ -196,11 +184,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 757
+    "liczba": 758
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 609
+    "liczba": 613
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -218,11 +206,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 831
+    "liczba": 835
    },
    {
     "nazwa": "Kombi",
-    "liczba": 174
+    "liczba": 175
    },
    {
     "nazwa": "Hatchback",
@@ -233,10 +221,18 @@
     "liczba": 422
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 3
+   },
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
    {
     "rok": 2024,
     "liczba": 3
@@ -247,6 +243,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -388,8 +480,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 645,
-  "miejsceWMarce": 5,
+  "miejsce": 675,
+  "miejsceWMarce": 6,
   "modeliWMarce": 15,
   "sredniRocznik": 1993.1
  },
@@ -397,7 +489,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "dedra",

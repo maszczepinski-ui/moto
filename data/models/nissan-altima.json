@@ -13,21 +13,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Altima – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 49 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALTIMA, ALTIMA 2.5 S, ALTIMA 2.5 KAT, ALTIMA 2.5).",
-  "liczbaWPolsce": 600,
-  "aktywne": 184,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Altima – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 93 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALTIMA, ALTIMA 2.5 S, ALTIMA 2.5 KAT, ALTIMA 2.5, ALTIMA 2.5 S KAT).",
+  "liczbaWPolsce": 644,
+  "aktywne": 228,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 40
+    "liczba": 43
    },
    {
     "teryt": "04",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "06",
-    "liczba": 38
+    "liczba": 40
    },
    {
     "teryt": "08",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "12",
-    "liczba": 78
+    "liczba": 81
    },
    {
     "teryt": "14",
-    "liczba": 98
+    "liczba": 103
    },
    {
     "teryt": "16",
@@ -51,15 +51,15 @@
    },
    {
     "teryt": "18",
-    "liczba": 76
+    "liczba": 85
    },
    {
     "teryt": "20",
-    "liczba": 76
+    "liczba": 79
    },
    {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 21
    },
    {
     "teryt": "24",
@@ -67,19 +67,19 @@
    },
    {
     "teryt": "26",
-    "liczba": 20
-   },
-   {
-    "teryt": "28",
-    "liczba": 18
-   },
-   {
-    "teryt": "30",
     "liczba": 21
    },
    {
+    "teryt": "28",
+    "liczba": 21
+   },
+   {
+    "teryt": "30",
+    "liczba": 27
+   },
+   {
     "teryt": "32",
-    "liczba": 17
+    "liczba": 19
    }
   ],
   "bezWojewodztwa": 2,
@@ -106,7 +106,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1999,
@@ -142,59 +142,59 @@
    },
    {
     "rok": 2007,
-    "liczba": 87
+    "liczba": 88
    },
    {
     "rok": 2008,
-    "liczba": 49
+    "liczba": 53
    },
    {
     "rok": 2009,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 2010,
-    "liczba": 14
+    "liczba": 17
    },
    {
     "rok": 2011,
-    "liczba": 8
-   },
-   {
-    "rok": 2012,
     "liczba": 12
    },
    {
-    "rok": 2013,
-    "liczba": 11
+    "rok": 2012,
+    "liczba": 13
    },
    {
-    "rok": 2014,
+    "rok": 2013,
     "liczba": 15
    },
    {
+    "rok": 2014,
+    "liczba": 17
+   },
+   {
     "rok": 2015,
-    "liczba": 10
+    "liczba": 19
    },
    {
     "rok": 2016,
-    "liczba": 10
+    "liczba": 14
    },
    {
     "rok": 2017,
-    "liczba": 8
+    "liczba": 13
    },
    {
     "rok": 2018,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2019,
-    "liczba": 2
+    "liczba": 4
    },
    {
     "rok": 2020,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2021,
@@ -204,29 +204,29 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 344
+    "liczba": 380
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 213
+    "liczba": 219
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 43
+    "liczba": 45
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 438
+    "liczba": 479
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 114
+    "liczba": 115
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "nazwa": "2,0 l",
@@ -240,50 +240,54 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 320
+    "liczba": 350
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 257
+    "liczba": 271
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 15
    },
    {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 3
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 503
+    "liczba": 541
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "nazwa": "Coupe",
-    "liczba": 22
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 50
+    "liczba": 51
    }
   ],
-  "noweOdPaczki": 49,
-  "hybrydy": 3,
+  "noweOdPaczki": 93,
+  "hybrydy": 5,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 14
+   },
+   {
+    "rok": 2022,
+    "liczba": 18
+   },
+   {
     "rok": 2023,
-    "liczba": 4
+    "liczba": 16
    },
    {
     "rok": 2024,
@@ -299,6 +303,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -440,16 +540,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 873,
+  "miejsce": 880,
   "miejsceWMarce": 31,
-  "modeliWMarce": 46,
-  "sredniRocznik": 2005.0
+  "modeliWMarce": 47,
+  "sredniRocznik": 2005.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "altima",
@@ -476,9 +576,9 @@
    "adres": "/marki/mercedes-benz/klasa-e/"
   },
   {
-   "slug": "subaru-impreza",
-   "nazwa": "Subaru Impreza",
-   "adres": "/marki/subaru/impreza/"
+   "slug": "lexus-is",
+   "nazwa": "Lexus IS",
+   "adres": "/marki/lexus/is/"
   }
  ]
 }

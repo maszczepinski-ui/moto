@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac Trans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRANS SPORT, TRANS SPORT 2.3 KAT, TRANS SPORT SE, TRANS SPORT 3.1, TRANS SPORT 3.8 KAT).",
-  "liczbaWPolsce": 1786,
-  "aktywne": 69,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac Trans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 41 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRANS SPORT, TRANS SPORT 2.3 KAT, TRANS SPORT SE, TRANS SPORT 3.1, TRANS SPORT 3.8 KAT).",
+  "liczbaWPolsce": 1800,
+  "aktywne": 83,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 188
+    "liczba": 190
    },
    {
     "teryt": "04",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 133
+    "liczba": 134
    },
    {
     "teryt": "08",
@@ -36,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 116
+    "liczba": 117
    },
    {
     "teryt": "12",
-    "liczba": 96
+    "liczba": 98
    },
    {
     "teryt": "14",
-    "liczba": 315
+    "liczba": 316
    },
    {
     "teryt": "16",
@@ -64,11 +64,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 150
+    "liczba": 152
    },
    {
     "teryt": "26",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "28",
@@ -76,18 +76,18 @@
    },
    {
     "teryt": "30",
-    "liczba": 155
+    "liczba": 158
    },
    {
     "teryt": "32",
-    "liczba": 133
+    "liczba": 134
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 1979,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 1980,
@@ -95,7 +95,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 0
+    "liczba": 2
    },
    {
     "rok": 1982,
@@ -111,7 +111,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1986,
@@ -119,7 +119,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1988,
@@ -131,7 +131,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 110
+    "liczba": 112
    },
    {
     "rok": 1991,
@@ -139,11 +139,11 @@
    },
    {
     "rok": 1992,
-    "liczba": 172
+    "liczba": 174
    },
    {
     "rok": 1993,
-    "liczba": 403
+    "liczba": 404
    },
    {
     "rok": 1994,
@@ -151,11 +151,11 @@
    },
    {
     "rok": 1995,
-    "liczba": 299
+    "liczba": 300
    },
    {
     "rok": 1996,
-    "liczba": 179
+    "liczba": 180
    },
    {
     "rok": 1997,
@@ -177,7 +177,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 665
+    "liczba": 679
    },
    {
     "nazwa": "?+LPG",
@@ -199,7 +199,7 @@
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 543
+    "liczba": 548
    },
    {
     "nazwa": "3,1 l",
@@ -219,17 +219,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 77
+    "liczba": 86
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1045
+    "liczba": 1048
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 661
+    "liczba": 671
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -241,17 +241,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 896
+    "liczba": 898
    },
    {
     "nazwa": "Kombi",
-    "liczba": 254
+    "liczba": 256
    },
    {
     "nazwa": "Sedan",
@@ -263,24 +263,32 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "nazwa": "Coupe",
-    "liczba": 19
+    "liczba": 28
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 363
    }
   ],
-  "noweOdPaczki": 27,
+  "noweOdPaczki": 41,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 3
+   },
+   {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 9
    },
    {
     "rok": 2024,
@@ -296,6 +304,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -437,7 +541,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 608,
+  "miejsce": 636,
   "miejsceWMarce": 1,
   "modeliWMarce": 3,
   "sredniRocznik": 1993.4
@@ -446,7 +550,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "pontiac",
  "modelSlug": "trans",

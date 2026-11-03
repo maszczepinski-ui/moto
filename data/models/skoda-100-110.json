@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda 100 / 110 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 100, S100, 110, 100 L, 100 S).",
-  "liczbaWPolsce": 35423,
-  "aktywne": 54,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda 100 / 110 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 100, S100, 110, 100 L, 100 S).",
+  "liczbaWPolsce": 35427,
+  "aktywne": 58,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 3604
+    "liczba": 3605
    },
    {
     "teryt": "04",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 4370
+    "liczba": 4371
    },
    {
     "teryt": "16",
-    "liczba": 1508
+    "liczba": 1509
    },
    {
     "teryt": "18",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 3319
+    "liczba": 3320
    },
    {
     "teryt": "26",
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 3406
+    "liczba": 3408
    },
    {
     "rok": 1972,
@@ -116,7 +116,7 @@
    },
    {
     "rok": 1973,
-    "liczba": 10072
+    "liczba": 10074
    },
    {
     "rok": 1974,
@@ -166,7 +166,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4035
+    "liczba": 4039
    },
    {
     "nazwa": "?+LPG",
@@ -180,11 +180,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 29812
+    "liczba": 29815
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 3921
+    "liczba": 3922
    },
    {
     "nazwa": "Inne / brak danych",
@@ -194,7 +194,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 22859
+    "liczba": 22860
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -202,7 +202,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 459
+    "liczba": 461
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -210,23 +210,31 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2254
+    "liczba": 2255
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3179
+    "liczba": 3182
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32244
+    "liczba": 32245
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 3
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -241,6 +249,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -382,8 +486,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 112,
-  "miejsceWMarce": 7,
+  "miejsce": 131,
+  "miejsceWMarce": 9,
   "modeliWMarce": 27,
   "sredniRocznik": 1973.6
  },
@@ -391,7 +495,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "100-110",

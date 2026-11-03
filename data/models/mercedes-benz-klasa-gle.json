@@ -12,112 +12,112 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GLE – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 624 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GLE 300 D 4MATIC, GLE 450 D 4MATIC, GLE 350 D 4MATIC, GLE 450 D 4MATIC COUPE, GLE 300 D 4MATIC COUPE).",
-  "liczbaWPolsce": 11813,
-  "aktywne": 11537,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GLE – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 104 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GLE 300 D 4MATIC, GLE 450 D 4MATIC, GLE 300 D 4MATIC COUPE, GLE 350 D 4MATIC, GLE 450 D 4MATIC COUPE).",
+  "liczbaWPolsce": 17293,
+  "aktywne": 17017,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 932
+    "liczba": 1311
    },
    {
     "teryt": "04",
-    "liczba": 480
+    "liczba": 708
    },
    {
     "teryt": "06",
-    "liczba": 283
+    "liczba": 440
    },
    {
     "teryt": "08",
-    "liczba": 246
+    "liczba": 374
    },
    {
     "teryt": "10",
-    "liczba": 491
+    "liczba": 777
    },
    {
     "teryt": "12",
-    "liczba": 889
+    "liczba": 1319
    },
    {
     "teryt": "14",
-    "liczba": 3291
+    "liczba": 4812
    },
    {
     "teryt": "16",
-    "liczba": 152
+    "liczba": 255
    },
    {
     "teryt": "18",
-    "liczba": 394
+    "liczba": 559
    },
    {
     "teryt": "20",
-    "liczba": 325
+    "liczba": 502
    },
    {
     "teryt": "22",
-    "liczba": 830
+    "liczba": 1233
    },
    {
     "teryt": "24",
-    "liczba": 1004
+    "liczba": 1393
    },
    {
     "teryt": "26",
-    "liczba": 208
+    "liczba": 306
    },
    {
     "teryt": "28",
-    "liczba": 231
+    "liczba": 345
    },
    {
     "teryt": "30",
-    "liczba": 1554
+    "liczba": 2219
    },
    {
     "teryt": "32",
-    "liczba": 496
+    "liczba": 733
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2015,
-    "liczba": 241
+    "liczba": 260
    },
    {
     "rok": 2016,
-    "liczba": 597
+    "liczba": 675
    },
    {
     "rok": 2017,
-    "liczba": 536
+    "liczba": 601
    },
    {
     "rok": 2018,
-    "liczba": 787
+    "liczba": 846
    },
    {
     "rok": 2019,
-    "liczba": 406
+    "liczba": 451
    },
    {
     "rok": 2020,
-    "liczba": 348
+    "liczba": 476
    },
    {
     "rok": 2021,
-    "liczba": 314
+    "liczba": 2049
    },
    {
     "rok": 2022,
-    "liczba": 392
+    "liczba": 2798
    },
    {
     "rok": 2023,
-    "liczba": 1369
+    "liczba": 2314
    },
    {
     "rok": 2024,
@@ -135,19 +135,19 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 5172
+    "liczba": 8161
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 4842
+    "liczba": 6272
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1200
+    "liczba": 1511
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 594
+    "liczba": 1344
    },
    {
     "nazwa": "Inne / brak danych",
@@ -157,72 +157,76 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 5777
+    "liczba": 8727
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 5299
-   },
-   {
-    "nazwa": "2,1 l",
-    "liczba": 328
+    "liczba": 5936
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 210
+    "liczba": 2008
+   },
+   {
+    "nazwa": "2,1 l",
+    "liczba": 344
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 199
+    "liczba": 278
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 8161
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1831
+    "liczba": 10703
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1700
+    "liczba": 4358
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 2101
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 112
+    "liczba": 119
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 12
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 10880
+    "liczba": 16160
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 489
-   },
-   {
-    "nazwa": "Hatchback",
-    "liczba": 131
+    "liczba": 569
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 313
+    "liczba": 564
    }
   ],
-  "noweOdPaczki": 9624,
-  "hybrydy": 5428,
+  "noweOdPaczki": 15104,
+  "hybrydy": 7608,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 1084
+   },
+   {
+    "rok": 2022,
+    "liczba": 2892
+   },
+   {
     "rok": 2023,
-    "liczba": 622
+    "liczba": 2126
    },
    {
     "rok": 2024,
@@ -238,6 +242,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 188
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 217
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 179
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 274
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 247
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 278
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 337
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 306
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 225
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 193
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 187
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 209
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 240
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 187
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 142
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 152
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 167
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 157
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 178
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 228
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 246
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 180
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 204
+   },
    {
     "miesiac": "2023-12",
     "liczba": 172
@@ -379,16 +479,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 259,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 54,
-  "sredniRocznik": 2022.5
+  "miejsce": 227,
+  "miejsceWMarce": 12,
+  "modeliWMarce": 56,
+  "sredniRocznik": 2022.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "klasa-gle",
@@ -400,9 +500,9 @@
    "adres": "/marki/volkswagen/california/"
   },
   {
-   "slug": "skoda-kodiaq",
-   "nazwa": "Skoda Kodiaq",
-   "adres": "/marki/skoda/kodiaq/"
+   "slug": "toyota-highlander",
+   "nazwa": "Toyota Highlander",
+   "adres": "/marki/toyota/highlander/"
   },
   {
    "slug": "mazda-cx-60",
@@ -410,14 +510,14 @@
    "adres": "/marki/mazda/cx-60/"
   },
   {
+   "slug": "skoda-kodiaq",
+   "nazwa": "Skoda Kodiaq",
+   "adres": "/marki/skoda/kodiaq/"
+  },
+  {
    "slug": "volvo-xc60",
    "nazwa": "Volvo XC60",
    "adres": "/marki/volvo/xc60/"
-  },
-  {
-   "slug": "toyota-highlander",
-   "nazwa": "Toyota Highlander",
-   "adres": "/marki/toyota/highlander/"
   }
  ]
 }

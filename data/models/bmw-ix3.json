@@ -11,92 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 481 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX3 50 XDRIVE, IX3, IX3 40).",
-  "liczbaWPolsce": 481,
-  "aktywne": 481,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 851 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX3, IX3 50 XDRIVE, IX3 40).",
+  "liczbaWPolsce": 851,
+  "aktywne": 851,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 30
+    "liczba": 65
    },
    {
     "teryt": "04",
-    "liczba": 21
+    "liczba": 30
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 21
    },
    {
     "teryt": "08",
-    "liczba": 10
+    "liczba": 16
    },
    {
     "teryt": "10",
-    "liczba": 33
+    "liczba": 46
    },
    {
     "teryt": "12",
-    "liczba": 40
+    "liczba": 67
    },
    {
     "teryt": "14",
-    "liczba": 144
+    "liczba": 270
    },
    {
     "teryt": "16",
-    "liczba": 8
-   },
-   {
-    "teryt": "18",
-    "liczba": 11
-   },
-   {
-    "teryt": "20",
-    "liczba": 11
-   },
-   {
-    "teryt": "22",
-    "liczba": 27
-   },
-   {
-    "teryt": "24",
-    "liczba": 47
-   },
-   {
-    "teryt": "26",
     "liczba": 12
    },
    {
-    "teryt": "28",
-    "liczba": 7
+    "teryt": "18",
+    "liczba": 16
    },
    {
-    "teryt": "30",
+    "teryt": "20",
+    "liczba": 23
+   },
+   {
+    "teryt": "22",
     "liczba": 50
    },
    {
+    "teryt": "24",
+    "liczba": 86
+   },
+   {
+    "teryt": "26",
+    "liczba": 18
+   },
+   {
+    "teryt": "28",
+    "liczba": 12
+   },
+   {
+    "teryt": "30",
+    "liczba": 84
+   },
+   {
     "teryt": "32",
-    "liczba": 16
+    "liczba": 35
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2021,
-    "liczba": 17
+    "liczba": 168
    },
    {
     "rok": 2022,
-    "liczba": 11
+    "liczba": 181
    },
    {
     "rok": 2023,
-    "liczba": 109
+    "liczba": 157
    },
    {
     "rok": 2024,
@@ -114,50 +114,58 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 481
+    "liczba": 851
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 481
+    "liczba": 851
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 382
+    "liczba": 579
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 56
+    "liczba": 221
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 43
+    "liczba": 46
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 5
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 472
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 7
+    "liczba": 840
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 11
    }
   ],
-  "noweOdPaczki": 481,
+  "noweOdPaczki": 851,
   "hybrydy": 0,
-  "elektryczne": 481,
+  "elektryczne": 851,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 108
+   },
+   {
+    "rok": 2022,
+    "liczba": 168
+   },
+   {
     "rok": 2023,
-    "liczba": 41
+    "liczba": 135
    },
    {
     "rok": 2024,
@@ -173,6 +181,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 10
+   },
    {
     "miesiac": "2023-12",
     "liczba": 14
@@ -314,35 +418,25 @@
     "liczba": 0
    }
   ],
-  "miejsce": 941,
-  "miejsceWMarce": 32,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2024.8
+  "miejsce": 812,
+  "miejsceWMarce": 30,
+  "modeliWMarce": 42,
+  "sredniRocznik": 2023.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "ix3",
  "adres": "/marki/bmw/ix3/",
  "konkurenci": [
   {
-   "slug": "audi-q4",
-   "nazwa": "Audi Q4",
-   "adres": "/marki/audi/q4/"
-  },
-  {
-   "slug": "mercedes-benz-eqa",
-   "nazwa": "Mercedes-Benz EQA",
-   "adres": "/marki/mercedes-benz/eqa/"
-  },
-  {
-   "slug": "toyota-bz4x",
-   "nazwa": "Toyota bZ4X",
-   "adres": "/marki/toyota/bz4x/"
+   "slug": "volkswagen-id-3",
+   "nazwa": "Volkswagen ID.3",
+   "adres": "/marki/volkswagen/id-3/"
   },
   {
    "slug": "volkswagen-id-4",
@@ -350,9 +444,19 @@
    "adres": "/marki/volkswagen/id-4/"
   },
   {
-   "slug": "audi-q6",
-   "nazwa": "Audi Q6",
-   "adres": "/marki/audi/q6/"
+   "slug": "skoda-enyaq",
+   "nazwa": "Skoda Enyaq",
+   "adres": "/marki/skoda/enyaq/"
+  },
+  {
+   "slug": "audi-q4",
+   "nazwa": "Audi Q4",
+   "adres": "/marki/audi/q4/"
+  },
+  {
+   "slug": "mercedes-benz-eqb",
+   "nazwa": "Mercedes-Benz EQB",
+   "adres": "/marki/mercedes-benz/eqb/"
   }
  ]
 }

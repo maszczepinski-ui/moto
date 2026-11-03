@@ -15,33 +15,33 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Santana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 49 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SANTANA).",
-  "liczbaWPolsce": 436,
-  "aktywne": 181,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Santana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 122 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SANTANA).",
+  "liczbaWPolsce": 509,
+  "aktywne": 254,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 25
+    "liczba": 33
    },
    {
     "teryt": "04",
-    "liczba": 16
-   },
-   {
-    "teryt": "06",
     "liczba": 17
    },
    {
-    "teryt": "08",
+    "teryt": "06",
     "liczba": 24
    },
    {
+    "teryt": "08",
+    "liczba": 29
+   },
+   {
     "teryt": "10",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "12",
-    "liczba": 85
+    "liczba": 101
    },
    {
     "teryt": "14",
@@ -53,7 +53,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 41
+    "liczba": 48
    },
    {
     "teryt": "20",
@@ -61,15 +61,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 25
+    "liczba": 29
    },
    {
     "teryt": "24",
-    "liczba": 49
+    "liczba": 58
    },
    {
     "teryt": "26",
-    "liczba": 17
+    "liczba": 23
    },
    {
     "teryt": "28",
@@ -77,11 +77,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 27
+    "liczba": 32
    },
    {
     "teryt": "32",
-    "liczba": 30
+    "liczba": 34
    }
   ],
   "bezWojewodztwa": 8,
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1987,
@@ -100,7 +100,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 8
+    "liczba": 14
    },
    {
     "rok": 1989,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1991,
@@ -116,63 +116,63 @@
    },
    {
     "rok": 1992,
-    "liczba": 25
+    "liczba": 28
    },
    {
     "rok": 1993,
-    "liczba": 38
+    "liczba": 39
    },
    {
     "rok": 1994,
-    "liczba": 35
+    "liczba": 38
    },
    {
     "rok": 1995,
-    "liczba": 45
+    "liczba": 50
    },
    {
     "rok": 1996,
-    "liczba": 41
+    "liczba": 49
    },
    {
     "rok": 1997,
-    "liczba": 45
+    "liczba": 51
    },
    {
     "rok": 1998,
-    "liczba": 23
+    "liczba": 31
    },
    {
     "rok": 1999,
-    "liczba": 33
+    "liczba": 42
    },
    {
     "rok": 2000,
-    "liczba": 34
+    "liczba": 38
    },
    {
     "rok": 2001,
-    "liczba": 18
+    "liczba": 21
    },
    {
     "rok": 2002,
-    "liczba": 17
+    "liczba": 22
    },
    {
     "rok": 2003,
-    "liczba": 20
+    "liczba": 25
    },
    {
     "rok": 2004,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2005,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2006,
-    "liczba": 0
+    "liczba": 3
    },
    {
     "rok": 2007,
@@ -190,15 +190,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 284
+    "liczba": 346
+   },
+   {
+    "nazwa": "Diesel",
+    "liczba": 81
    },
    {
     "nazwa": "Benzyna + LPG",
     "liczba": 76
-   },
-   {
-    "nazwa": "Diesel",
-    "liczba": 70
    },
    {
     "nazwa": "Inne / brak danych",
@@ -208,23 +208,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 238
+    "liczba": 281
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 114
+    "liczba": 129
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 54
+    "liczba": 64
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 15
+    "liczba": 19
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "nazwa": "Inne / brak danych",
@@ -234,11 +234,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 251
+    "liczba": 298
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 174
+    "liczba": 200
    },
    {
     "nazwa": "Inne / brak danych",
@@ -248,40 +248,48 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 121
+    "liczba": 132
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 94
+    "liczba": 126
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 56
+    "liczba": 66
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 49
+    "liczba": 53
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 37
+    "liczba": 52
    },
    {
     "nazwa": "Van",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 63
    }
   ],
-  "noweOdPaczki": 49,
+  "noweOdPaczki": 122,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 14
+   },
+   {
+    "rok": 2022,
+    "liczba": 37
+   },
+   {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 25
    },
    {
     "rok": 2024,
@@ -297,6 +305,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -438,16 +542,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 972,
+  "miejsce": 948,
   "miejsceWMarce": 17,
-  "modeliWMarce": 20,
-  "sredniRocznik": 1996.7
+  "modeliWMarce": 21,
+  "sredniRocznik": 1996.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "suzuki",
  "modelSlug": "santana",
@@ -459,14 +563,14 @@
    "adres": "/marki/rover/200/"
   },
   {
-   "slug": "daewoo-nexia",
-   "nazwa": "Daewoo Nexia",
-   "adres": "/marki/daewoo/nexia/"
-  },
-  {
    "slug": "fiat-palio",
    "nazwa": "Fiat Palio",
    "adres": "/marki/fiat/palio/"
+  },
+  {
+   "slug": "daewoo-nexia",
+   "nazwa": "Daewoo Nexia",
+   "adres": "/marki/daewoo/nexia/"
   },
   {
    "slug": "fiat-brava",

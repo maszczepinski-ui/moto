@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe ZAZ Zaporożec – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZAPOROŻEC 968, ZAPOROŻEC).",
-  "liczbaWPolsce": 256,
-  "aktywne": 13,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe ZAZ Zaporożec – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZAPOROŻEC 968, ZAPOROŻEC, ZAPOROŻEC 968 M).",
+  "liczbaWPolsce": 260,
+  "aktywne": 17,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -46,7 +46,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "20",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "32",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "bezWojewodztwa": 2,
@@ -145,7 +145,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 1982,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 1986,
@@ -197,7 +197,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1995,
@@ -231,7 +231,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 80
+    "liczba": 84
    },
    {
     "nazwa": "?+LPG",
@@ -245,7 +245,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 204
+    "liczba": 208
    },
    {
     "nazwa": "1,1 l",
@@ -267,7 +267,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 206
+    "liczba": 208
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -275,7 +275,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "nazwa": "Inne / brak danych",
@@ -285,21 +285,29 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 117
+    "liczba": 119
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 126
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 3
+   },
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
    {
     "rok": 2025,
     "liczba": 2
@@ -310,6 +318,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -451,16 +555,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1141,
+  "miejsce": 1168,
   "miejsceWMarce": 7,
   "modeliWMarce": 8,
-  "sredniRocznik": 1981.2
+  "sredniRocznik": 1981.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "zaz",
  "modelSlug": "zaporozec",

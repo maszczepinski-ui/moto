@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MPV – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MPV, MPV 2.5 TD, MPV 2.0 KAT, MPV 2.0 TDI, MPV 2.0 TD).",
-  "liczbaWPolsce": 2212,
-  "aktywne": 535,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MPV – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 39 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MPV, MPV 2.5 TD, MPV 2.0 KAT, MPV 2.0 TDI, MPV 2.0 TD).",
+  "liczbaWPolsce": 2234,
+  "aktywne": 557,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 162
+    "liczba": 167
    },
    {
     "teryt": "04",
-    "liczba": 78
+    "liczba": 81
    },
    {
     "teryt": "06",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 148
+    "liczba": 149
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 358
+    "liczba": 359
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 171
+    "liczba": 174
    },
    {
     "teryt": "20",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 125
+    "liczba": 129
    },
    {
     "teryt": "24",
-    "liczba": 154
+    "liczba": 157
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 172
+    "liczba": 174
    },
    {
     "teryt": "32",
@@ -130,27 +130,27 @@
    },
    {
     "rok": 2000,
-    "liczba": 219
+    "liczba": 222
    },
    {
     "rok": 2001,
-    "liczba": 131
+    "liczba": 132
    },
    {
     "rok": 2002,
-    "liczba": 369
+    "liczba": 370
    },
    {
     "rok": 2003,
-    "liczba": 373
+    "liczba": 378
    },
    {
     "rok": 2004,
-    "liczba": 461
+    "liczba": 470
    },
    {
     "rok": 2005,
-    "liczba": 140
+    "liczba": 143
    },
    {
     "rok": 2006,
@@ -160,15 +160,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1446
+    "liczba": 1465
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 444
+    "liczba": 445
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 288
+    "liczba": 290
    },
    {
     "nazwa": "Inne / brak danych",
@@ -178,11 +178,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1665
+    "liczba": 1686
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 279
+    "liczba": 280
    },
    {
     "nazwa": "3,0 l",
@@ -200,11 +200,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1230
+    "liczba": 1245
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 949
+    "liczba": 956
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -218,19 +218,19 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 1534
+    "liczba": 1544
    },
    {
     "nazwa": "Kombi",
-    "liczba": 338
+    "liczba": 341
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 152
+    "liczba": 160
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "nazwa": "Sedan",
@@ -241,13 +241,21 @@
     "liczba": 78
    }
   ],
-  "noweOdPaczki": 17,
+  "noweOdPaczki": 39,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 10
+   },
+   {
     "rok": 2023,
-    "liczba": 4
+    "liczba": 15
    },
    {
     "rok": 2024,
@@ -263,6 +271,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -404,8 +508,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 551,
-  "miejsceWMarce": 16,
+  "miejsce": 576,
+  "miejsceWMarce": 17,
   "modeliWMarce": 32,
   "sredniRocznik": 2001.4
  },
@@ -413,7 +517,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "mpv",
@@ -440,9 +544,9 @@
    "adres": "/marki/volkswagen/sharan/"
   },
   {
-   "slug": "ford-galaxy",
-   "nazwa": "Ford Galaxy",
-   "adres": "/marki/ford/galaxy/"
+   "slug": "fiat-multipla",
+   "nazwa": "Fiat Multipla",
+   "adres": "/marki/fiat/multipla/"
   }
  ]
 }

@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Id. – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 322 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID. BUZZ PRO 150 KW, ID. BUZZ PRO LR 210 KW, ID. BUZZ GTX LR 250 KW, ID. BUZZ PRO KR 210 KW, ID. BUZZ GTX KR 250 KW).",
-  "liczbaWPolsce": 322,
-  "aktywne": 322,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Id. – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 338 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID. BUZZ PRO 150 KW, ID. BUZZ PRO LR 210 KW, ID. BUZZ GTX LR 250 KW, ID. BUZZ PRO KR 210 KW, ID. BUZZ GTX KR 250 KW).",
+  "liczbaWPolsce": 338,
+  "aktywne": 338,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "04",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "10",
@@ -38,15 +38,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "14",
-    "liczba": 86
+    "liczba": 90
    },
    {
     "teryt": "16",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "18",
@@ -54,7 +54,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "22",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 38
+    "liczba": 41
    },
    {
     "teryt": "32",
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "bezWojewodztwa": 0,
@@ -89,7 +89,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 172
+    "liczba": 188
    },
    {
     "rok": 2024,
@@ -107,23 +107,23 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 322
+    "liczba": 338
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 322
+    "liczba": 338
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 275
+    "liczba": 288
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -131,13 +131,13 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 190
+    "liczba": 206
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -148,13 +148,13 @@
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 322,
+  "noweOdPaczki": 338,
   "hybrydy": 0,
-  "elektryczne": 322,
+  "elektryczne": 338,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
-    "liczba": 25
+    "liczba": 41
    },
    {
     "rok": 2024,
@@ -170,6 +170,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 9
+   },
    {
     "miesiac": "2023-12",
     "liczba": 12
@@ -311,40 +407,40 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1068,
-  "miejsceWMarce": 55,
-  "modeliWMarce": 59,
+  "miejsce": 1096,
+  "miejsceWMarce": 54,
+  "modeliWMarce": 60,
   "sredniRocznik": 2024.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "id",
  "adres": "/marki/volkswagen/id/",
  "konkurenci": [
   {
-   "slug": "volvo-ex30",
-   "nazwa": "Volvo EX30",
-   "adres": "/marki/volvo/ex30/"
-  },
-  {
    "slug": "audi-q4",
    "nazwa": "Audi Q4",
    "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "skoda-enyaq",
-   "nazwa": "Skoda Enyaq",
-   "adres": "/marki/skoda/enyaq/"
-  },
-  {
    "slug": "mercedes-benz-eqa",
    "nazwa": "Mercedes-Benz EQA",
    "adres": "/marki/mercedes-benz/eqa/"
+  },
+  {
+   "slug": "volvo-ex30",
+   "nazwa": "Volvo EX30",
+   "adres": "/marki/volvo/ex30/"
+  },
+  {
+   "slug": "mercedes-benz-eqb",
+   "nazwa": "Mercedes-Benz EQB",
+   "adres": "/marki/mercedes-benz/eqb/"
   },
   {
    "slug": "bmw-ix1",

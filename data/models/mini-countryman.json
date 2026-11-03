@@ -12,132 +12,132 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mini Countryman – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 803 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUNTRYMAN C, COUNTRYMAN COOPER, COUNTRYMAN, COUNTRYMAN S ALL4, COUNTRYMAN COOPER S ALL4).",
-  "liczbaWPolsce": 4744,
-  "aktywne": 4711,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mini Countryman – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 531 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUNTRYMAN COOPER, COUNTRYMAN C, COUNTRYMAN COOPER S ALL4, COUNTRYMAN, COUNTRYMAN COOPER SE ALL4).",
+  "liczbaWPolsce": 7472,
+  "aktywne": 7439,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 305
+    "liczba": 488
    },
    {
     "teryt": "04",
-    "liczba": 135
+    "liczba": 218
    },
    {
     "teryt": "06",
-    "liczba": 126
+    "liczba": 205
    },
    {
     "teryt": "08",
-    "liczba": 74
+    "liczba": 128
    },
    {
     "teryt": "10",
-    "liczba": 185
+    "liczba": 302
    },
    {
     "teryt": "12",
-    "liczba": 490
+    "liczba": 786
    },
    {
     "teryt": "14",
-    "liczba": 1487
+    "liczba": 2273
    },
    {
     "teryt": "16",
-    "liczba": 57
-   },
-   {
-    "teryt": "18",
     "liczba": 105
    },
    {
+    "teryt": "18",
+    "liczba": 170
+   },
+   {
     "teryt": "20",
-    "liczba": 61
+    "liczba": 106
    },
    {
     "teryt": "22",
-    "liczba": 335
+    "liczba": 504
    },
    {
     "teryt": "24",
-    "liczba": 583
+    "liczba": 981
    },
    {
     "teryt": "26",
-    "liczba": 62
+    "liczba": 97
    },
    {
     "teryt": "28",
-    "liczba": 44
+    "liczba": 81
    },
    {
     "teryt": "30",
-    "liczba": 538
+    "liczba": 786
    },
    {
     "teryt": "32",
-    "liczba": 147
+    "liczba": 232
    }
   ],
   "bezWojewodztwa": 10,
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 26
+    "liczba": 35
    },
    {
     "rok": 2011,
-    "liczba": 99
+    "liczba": 155
    },
    {
     "rok": 2012,
-    "liczba": 80
+    "liczba": 108
    },
    {
     "rok": 2013,
-    "liczba": 50
+    "liczba": 76
    },
    {
     "rok": 2014,
-    "liczba": 75
+    "liczba": 92
    },
    {
     "rok": 2015,
-    "liczba": 55
+    "liczba": 72
    },
    {
     "rok": 2016,
-    "liczba": 32
+    "liczba": 48
    },
    {
     "rok": 2017,
-    "liczba": 329
+    "liczba": 364
    },
    {
     "rok": 2018,
-    "liczba": 489
+    "liczba": 533
    },
    {
     "rok": 2019,
-    "liczba": 384
+    "liczba": 420
    },
    {
     "rok": 2020,
-    "liczba": 114
+    "liczba": 171
    },
    {
     "rok": 2021,
-    "liczba": 83
+    "liczba": 498
    },
    {
     "rok": 2022,
-    "liczba": 97
+    "liczba": 1157
    },
    {
     "rok": 2023,
-    "liczba": 705
+    "liczba": 1617
    },
    {
     "rok": 2024,
@@ -155,15 +155,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2880
+    "liczba": 5037
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1000
+    "liczba": 1379
    },
    {
     "nazwa": "Diesel",
-    "liczba": 483
+    "liczba": 674
    },
    {
     "nazwa": "Elektryczny",
@@ -171,21 +171,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 47
+    "liczba": 48
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 2320
+    "liczba": 3802
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1758
+    "liczba": 2875
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 330
+    "liczba": 459
    },
    {
     "nazwa": "Inne / brak danych",
@@ -195,19 +195,19 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2820
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1005
+    "liczba": 4100
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 807
+    "liczba": 2090
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1165
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 102
+    "liczba": 107
    },
    {
     "nazwa": "Inne / brak danych",
@@ -217,28 +217,36 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 4168
+    "liczba": 6747
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 413
+    "liczba": 535
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 117
+    "liczba": 138
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 46
+    "liczba": 52
    }
   ],
-  "noweOdPaczki": 3803,
-  "hybrydy": 1025,
+  "noweOdPaczki": 6531,
+  "hybrydy": 1404,
   "elektryczne": 334,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 366
+   },
+   {
+    "rok": 2022,
+    "liczba": 1162
+   },
+   {
     "rok": 2023,
-    "liczba": 501
+    "liczba": 1701
    },
    {
     "rok": 2024,
@@ -254,6 +262,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 105
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 97
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 107
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 111
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 169
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 146
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 201
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 146
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 142
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 163
+   },
    {
     "miesiac": "2023-12",
     "liczba": 171
@@ -395,16 +499,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 417,
+  "miejsce": 356,
   "miejsceWMarce": 2,
   "modeliWMarce": 6,
-  "sredniRocznik": 2021.5
+  "sredniRocznik": 2021.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mini",
  "modelSlug": "countryman",
@@ -416,19 +520,19 @@
    "adres": "/marki/mercedes-benz/klasa-gla/"
   },
   {
-   "slug": "kia-niro",
-   "nazwa": "Kia Niro",
-   "adres": "/marki/kia/niro/"
-  },
-  {
    "slug": "seat-ateca",
    "nazwa": "Seat Ateca",
    "adres": "/marki/seat/ateca/"
   },
   {
-   "slug": "ssangyong-korando",
-   "nazwa": "SsangYong (KGM) Korando",
-   "adres": "/marki/ssangyong-kgm/korando/"
+   "slug": "cupra-formentor",
+   "nazwa": "Cupra Formentor",
+   "adres": "/marki/cupra/formentor/"
+  },
+  {
+   "slug": "ssangyong-tivoli",
+   "nazwa": "SsangYong (KGM) Tivoli",
+   "adres": "/marki/ssangyong-kgm/tivoli/"
   },
   {
    "slug": "skoda-karoq",

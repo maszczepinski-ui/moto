@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Evasion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVASION, EVASION 2.0 HDI, EVASION 2.0 KAT, EVASION 1.9 TD, EVASION 2.0).",
-  "liczbaWPolsce": 1256,
-  "aktywne": 192,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Evasion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVASION, EVASION 2.0 HDI, EVASION 2.0 KAT, EVASION 1.9 TD, EVASION 2.0).",
+  "liczbaWPolsce": 1278,
+  "aktywne": 214,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 103
+    "liczba": 109
    },
    {
     "teryt": "04",
@@ -28,15 +28,15 @@
    },
    {
     "teryt": "06",
-    "liczba": 127
+    "liczba": 128
    },
    {
     "teryt": "08",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "10",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "teryt": "12",
@@ -44,15 +44,15 @@
    },
    {
     "teryt": "14",
-    "liczba": 201
+    "liczba": 204
    },
    {
     "teryt": "16",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "18",
-    "liczba": 108
+    "liczba": 110
    },
    {
     "teryt": "20",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 115
+    "liczba": 120
    },
    {
     "teryt": "32",
-    "liczba": 78
+    "liczba": 80
    }
   ],
   "bezWojewodztwa": 3,
@@ -99,41 +99,41 @@
    },
    {
     "rok": 1997,
-    "liczba": 120
+    "liczba": 121
    },
    {
     "rok": 1998,
-    "liczba": 155
+    "liczba": 157
    },
    {
     "rok": 1999,
-    "liczba": 162
+    "liczba": 166
    },
    {
     "rok": 2000,
-    "liczba": 172
+    "liczba": 179
    },
    {
     "rok": 2001,
-    "liczba": 158
+    "liczba": 165
    },
    {
     "rok": 2002,
-    "liczba": 29
+    "liczba": 30
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 665
+    "liczba": 672
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 339
+    "liczba": 345
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 220
+    "liczba": 229
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,7 +143,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 796
+    "liczba": 817
    },
    {
     "nazwa": "1,9 l",
@@ -155,7 +155,7 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "nazwa": "Inne / brak danych",
@@ -165,11 +165,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 619
+    "liczba": 637
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 611
+    "liczba": 615
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -183,15 +183,15 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 858
+    "liczba": 867
    },
    {
     "nazwa": "Kombi",
-    "liczba": 161
+    "liczba": 167
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 62
+    "liczba": 69
    },
    {
     "nazwa": "Hatchback",
@@ -206,13 +206,21 @@
     "liczba": 79
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 31,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 3
+   },
+   {
+    "rok": 2022,
+    "liczba": 12
+   },
+   {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 9
    },
    {
     "rok": 2024,
@@ -228,6 +236,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -369,16 +473,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 692,
-  "miejsceWMarce": 27,
-  "modeliWMarce": 40,
-  "sredniRocznik": 1997.8
+  "miejsce": 714,
+  "miejsceWMarce": 26,
+  "modeliWMarce": 42,
+  "sredniRocznik": 1997.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "evasion",

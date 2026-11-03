@@ -12,126 +12,126 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo V50 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 611 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V50, V50 2.0D, V50 2.0 D, V50 1.6D, V50 2.0).",
-  "liczbaWPolsce": 27380,
-  "aktywne": 16055,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo V50 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 858 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V50, V50 2.0D, V50 2.0 D, V50 1.6D, V50 2.0).",
+  "liczbaWPolsce": 33627,
+  "aktywne": 22302,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1638
+    "liczba": 2004
    },
    {
     "teryt": "04",
-    "liczba": 1172
+    "liczba": 1497
    },
    {
     "teryt": "06",
-    "liczba": 2504
+    "liczba": 3338
    },
    {
     "teryt": "08",
-    "liczba": 643
+    "liczba": 771
    },
    {
     "teryt": "10",
-    "liczba": 1804
+    "liczba": 2313
    },
    {
     "teryt": "12",
-    "liczba": 2265
+    "liczba": 2645
    },
    {
     "teryt": "14",
-    "liczba": 4827
+    "liczba": 5944
    },
    {
     "teryt": "16",
-    "liczba": 474
+    "liczba": 567
    },
    {
     "teryt": "18",
-    "liczba": 1517
+    "liczba": 1867
    },
    {
     "teryt": "20",
-    "liczba": 925
+    "liczba": 1138
    },
    {
     "teryt": "22",
-    "liczba": 1648
+    "liczba": 2012
    },
    {
     "teryt": "24",
-    "liczba": 2490
+    "liczba": 2924
    },
    {
     "teryt": "26",
-    "liczba": 909
+    "liczba": 1136
    },
    {
     "teryt": "28",
-    "liczba": 981
+    "liczba": 1224
    },
    {
     "teryt": "30",
-    "liczba": 2195
+    "liczba": 2622
    },
    {
     "teryt": "32",
-    "liczba": 1153
+    "liczba": 1390
    }
   ],
   "bezWojewodztwa": 235,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 3435
+    "liczba": 3993
    },
    {
     "rok": 2005,
-    "liczba": 5214
+    "liczba": 6214
    },
    {
     "rok": 2006,
-    "liczba": 4293
+    "liczba": 5190
    },
    {
     "rok": 2007,
-    "liczba": 3787
+    "liczba": 4716
    },
    {
     "rok": 2008,
-    "liczba": 3364
+    "liczba": 4372
    },
    {
     "rok": 2009,
-    "liczba": 2269
+    "liczba": 2948
    },
    {
     "rok": 2010,
-    "liczba": 1884
+    "liczba": 2490
    },
    {
     "rok": 2011,
-    "liczba": 1362
+    "liczba": 1749
    },
    {
     "rok": 2012,
-    "liczba": 907
+    "liczba": 1087
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 22674
+    "liczba": 27007
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 3132
+    "liczba": 4382
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1507
+    "liczba": 2171
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,68 +141,76 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 14230
+    "liczba": 16499
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 8694
+    "liczba": 10833
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 2454
+    "liczba": 3412
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 1434
+    "liczba": 2025
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 495
+    "liczba": 782
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 73
+    "liczba": 76
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 18843
+    "liczba": 22771
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 7441
+    "liczba": 9750
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 839
+    "liczba": 841
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 257
+    "liczba": 265
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 24346
+    "liczba": 30025
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2296
+    "liczba": 2816
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 738
+    "liczba": 786
    }
   ],
-  "noweOdPaczki": 4611,
+  "noweOdPaczki": 10858,
   "hybrydy": 2,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 1462
+   },
+   {
+    "rok": 2022,
+    "liczba": 2881
+   },
+   {
     "rok": 2023,
-    "liczba": 607
+    "liczba": 2511
    },
    {
     "rok": 2024,
@@ -218,6 +226,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 270
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 232
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 242
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 245
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 251
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 251
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 261
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 231
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 246
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 240
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 229
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 252
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 201
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 215
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 203
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 269
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 246
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 209
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 200
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 221
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 190
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 181
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 232
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 198
+   },
    {
     "miesiac": "2023-12",
     "liczba": 147
@@ -359,16 +463,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 150,
+  "miejsce": 145,
   "miejsceWMarce": 3,
-  "modeliWMarce": 33,
-  "sredniRocznik": 2006.9
+  "modeliWMarce": 34,
+  "sredniRocznik": 2007.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "v50",
@@ -378,6 +482,11 @@
    "slug": "volkswagen-passat-b6",
    "nazwa": "Volkswagen Passat B6",
    "adres": "/marki/volkswagen/passat/b6/"
+  },
+  {
+   "slug": "peugeot-407",
+   "nazwa": "Peugeot 407",
+   "adres": "/marki/peugeot/407/"
   },
   {
    "slug": "toyota-avensis",
@@ -393,11 +502,6 @@
    "slug": "volkswagen-touran",
    "nazwa": "Volkswagen Touran",
    "adres": "/marki/volkswagen/touran/"
-  },
-  {
-   "slug": "ford-mondeo",
-   "nazwa": "Ford Mondeo",
-   "adres": "/marki/ford/mondeo/"
   }
  ]
 }

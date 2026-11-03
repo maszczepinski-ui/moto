@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Thesis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THESIS).",
-  "liczbaWPolsce": 449,
-  "aktywne": 142,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Thesis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 52 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THESIS).",
+  "liczbaWPolsce": 474,
+  "aktywne": 167,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,11 +21,11 @@
    },
    {
     "teryt": "04",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "08",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 35
+    "liczba": 37
    },
    {
     "teryt": "12",
-    "liczba": 41
+    "liczba": 45
    },
    {
     "teryt": "14",
-    "liczba": 77
+    "liczba": 83
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "24",
-    "liczba": 68
+    "liczba": 71
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "32",
@@ -88,45 +88,45 @@
    },
    {
     "rok": 2002,
-    "liczba": 116
+    "liczba": 121
    },
    {
     "rok": 2003,
-    "liczba": 162
+    "liczba": 168
    },
    {
     "rok": 2004,
-    "liczba": 74
+    "liczba": 75
    },
    {
     "rok": 2005,
-    "liczba": 26
+    "liczba": 31
    },
    {
     "rok": 2006,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 2007,
-    "liczba": 20
+    "liczba": 23
    },
    {
     "rok": 2008,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2009,
-    "liczba": 6
+    "liczba": 8
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 238
+    "liczba": 251
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 132
+    "liczba": 144
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -140,29 +140,29 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 283
+    "liczba": 299
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 81
+    "liczba": 84
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 64
+    "liczba": 68
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 21
+    "liczba": 23
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 234
+    "liczba": 253
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 203
+    "liczba": 209
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -176,24 +176,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 431
+    "liczba": 455
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 27,
+  "noweOdPaczki": 52,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 5
+   },
+   {
+    "rok": 2022,
+    "liczba": 15
+   },
+   {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 7
    },
    {
     "rok": 2024,
@@ -209,6 +217,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -350,16 +454,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 968,
+  "miejsce": 975,
   "miejsceWMarce": 11,
   "modeliWMarce": 15,
-  "sredniRocznik": 2003.5
+  "sredniRocznik": 2003.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "thesis",
@@ -386,9 +490,9 @@
    "adres": "/marki/peugeot/607/"
   },
   {
-   "slug": "mercedes-benz-klasa-e",
-   "nazwa": "Mercedes-Benz Klasa E",
-   "adres": "/marki/mercedes-benz/klasa-e/"
+   "slug": "bmw-seria-3",
+   "nazwa": "BMW Seria 3",
+   "adres": "/marki/bmw/seria-3/"
   }
  ]
 }

@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Pride – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRIDE, PRIDE 1.3 KAT, PRIDE 1.3KAT, PRIDE 1.3, PRIDE 1.3 GLXI).",
-  "liczbaWPolsce": 2040,
-  "aktywne": 67,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Pride – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRIDE, PRIDE 1.3 KAT, PRIDE 1.3KAT, PRIDE 1.3, PRIDE 1.3 GLXI).",
+  "liczbaWPolsce": 2043,
+  "aktywne": 70,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -47,7 +47,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "18",
@@ -75,18 +75,18 @@
    },
    {
     "teryt": "30",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "32",
-    "liczba": 137
+    "liczba": 138
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 1995,
-    "liczba": 71
+    "liczba": 73
    },
    {
     "rok": 1996,
@@ -112,11 +112,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1523
+    "liczba": 1525
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 236
+    "liczba": 237
    },
    {
     "nazwa": "?+LPG",
@@ -130,17 +130,17 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 2031
+    "liczba": 2033
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1216
+    "liczba": 1217
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -148,7 +148,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 184
+    "liczba": 186
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -162,7 +162,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1018
+    "liczba": 1020
    },
    {
     "nazwa": "Kombi",
@@ -170,17 +170,25 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 219
+    "liczba": 220
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 559
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 2
+   },
    {
     "rok": 2024,
     "liczba": 3
@@ -195,6 +203,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -336,16 +440,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 570,
-  "miejsceWMarce": 17,
-  "modeliWMarce": 32,
+  "miejsce": 599,
+  "miejsceWMarce": 19,
+  "modeliWMarce": 33,
   "sredniRocznik": 1998.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "pride",
@@ -372,9 +476,9 @@
    "adres": "/marki/opel/corsa/b/"
   },
   {
-   "slug": "lancia-y",
-   "nazwa": "Lancia Y",
-   "adres": "/marki/lancia/y/"
+   "slug": "mazda-demio",
+   "nazwa": "Mazda Demio",
+   "adres": "/marki/mazda/demio/"
   }
  ]
 }

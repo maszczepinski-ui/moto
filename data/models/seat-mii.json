@@ -11,154 +11,158 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Mii – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 920 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MII).",
-  "liczbaWPolsce": 1908,
-  "aktywne": 1525,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Mii – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 412 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MII).",
+  "liczbaWPolsce": 2400,
+  "aktywne": 2017,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 158
+    "liczba": 191
    },
    {
     "teryt": "04",
-    "liczba": 97
+    "liczba": 116
    },
    {
     "teryt": "06",
-    "liczba": 40
+    "liczba": 50
    },
    {
     "teryt": "08",
-    "liczba": 55
+    "liczba": 74
    },
    {
     "teryt": "10",
-    "liczba": 104
+    "liczba": 133
    },
    {
     "teryt": "12",
-    "liczba": 164
+    "liczba": 227
    },
    {
     "teryt": "14",
-    "liczba": 244
+    "liczba": 296
    },
    {
     "teryt": "16",
-    "liczba": 73
+    "liczba": 90
    },
    {
     "teryt": "18",
-    "liczba": 60
+    "liczba": 79
    },
    {
     "teryt": "20",
-    "liczba": 30
+    "liczba": 37
    },
    {
     "teryt": "22",
-    "liczba": 145
+    "liczba": 178
    },
    {
     "teryt": "24",
-    "liczba": 315
+    "liczba": 404
    },
    {
     "teryt": "26",
-    "liczba": 32
+    "liczba": 37
    },
    {
     "teryt": "28",
-    "liczba": 41
+    "liczba": 51
    },
    {
     "teryt": "30",
-    "liczba": 261
+    "liczba": 329
    },
    {
     "teryt": "32",
-    "liczba": 74
+    "liczba": 93
    }
   ],
   "bezWojewodztwa": 15,
   "roczniki": [
    {
     "rok": 2011,
-    "liczba": 6
-   },
-   {
-    "rok": 2012,
-    "liczba": 276
-   },
-   {
-    "rok": 2013,
-    "liczba": 339
-   },
-   {
-    "rok": 2014,
-    "liczba": 397
-   },
-   {
-    "rok": 2015,
-    "liczba": 293
-   },
-   {
-    "rok": 2016,
-    "liczba": 235
-   },
-   {
-    "rok": 2017,
-    "liczba": 155
-   },
-   {
-    "rok": 2018,
-    "liczba": 68
-   },
-   {
-    "rok": 2019,
-    "liczba": 66
-   },
-   {
-    "rok": 2020,
     "liczba": 7
    },
    {
+    "rok": 2012,
+    "liczba": 382
+   },
+   {
+    "rok": 2013,
+    "liczba": 431
+   },
+   {
+    "rok": 2014,
+    "liczba": 480
+   },
+   {
+    "rok": 2015,
+    "liczba": 356
+   },
+   {
+    "rok": 2016,
+    "liczba": 282
+   },
+   {
+    "rok": 2017,
+    "liczba": 188
+   },
+   {
+    "rok": 2018,
+    "liczba": 105
+   },
+   {
+    "rok": 2019,
+    "liczba": 82
+   },
+   {
+    "rok": 2020,
+    "liczba": 15
+   },
+   {
     "rok": 2021,
-    "liczba": 11
+    "liczba": 17
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1777
+    "liczba": 2197
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 99
+    "liczba": 155
+   },
+   {
+    "nazwa": "Elektryczny",
+    "liczba": 32
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 16
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 1875
+    "liczba": 2352
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 33
+    "liczba": 48
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1085
+    "liczba": 1402
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 478
+    "liczba": 653
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -172,20 +176,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1880
+    "liczba": 2365
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 35
    }
   ],
-  "noweOdPaczki": 920,
+  "noweOdPaczki": 1412,
   "hybrydy": 0,
-  "elektryczne": 18,
+  "elektryczne": 32,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 124
+   },
+   {
+    "rok": 2022,
+    "liczba": 203
+   },
+   {
     "rok": 2023,
-    "liczba": 73
+    "liczba": 238
    },
    {
     "rok": 2024,
@@ -201,6 +213,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 29
+   },
    {
     "miesiac": "2023-12",
     "liczba": 17
@@ -342,7 +450,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 590,
+  "miejsce": 562,
   "miejsceWMarce": 11,
   "modeliWMarce": 19,
   "sredniRocznik": 2014.5
@@ -351,7 +459,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "mii",
@@ -373,14 +481,14 @@
    "adres": "/marki/toyota/aygo/"
   },
   {
-   "slug": "opel-karl",
-   "nazwa": "Opel Karl",
-   "adres": "/marki/opel/karl/"
-  },
-  {
    "slug": "hyundai-i10",
    "nazwa": "Hyundai i10",
    "adres": "/marki/hyundai/i10/"
+  },
+  {
+   "slug": "opel-karl",
+   "nazwa": "Opel Karl",
+   "adres": "/marki/opel/karl/"
   }
  ]
 }

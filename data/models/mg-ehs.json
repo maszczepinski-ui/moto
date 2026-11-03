@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG EHS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 451 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EHS PLUG-IN HYBRID, MG EHS PLUG-IN HYBRID, EHS, EHS PHEV, MG EHS).",
-  "liczbaWPolsce": 451,
-  "aktywne": 451,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG EHS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 455 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EHS PLUG-IN HYBRID, MG EHS PLUG-IN HYBRID, EHS, EHS PHEV, MG EHS).",
+  "liczbaWPolsce": 455,
+  "aktywne": 455,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "12",
@@ -47,7 +47,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 3
+    "liczba": 5
    },
    {
     "teryt": "18",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "32",
@@ -90,11 +90,11 @@
    },
    {
     "rok": 2021,
-    "liczba": 115
+    "liczba": 117
    },
    {
     "rok": 2022,
-    "liczba": 300
+    "liczba": 302
    },
    {
     "rok": 2023,
@@ -108,7 +108,7 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 441
+    "liczba": 445
    },
    {
     "nazwa": "Benzyna",
@@ -118,23 +118,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 451
+    "liczba": 455
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 360
+    "liczba": 363
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 91
+    "liczba": 92
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 373
+    "liczba": 376
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -142,20 +142,20 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 451,
-  "hybrydy": 441,
+  "noweOdPaczki": 455,
+  "hybrydy": 445,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
-    "liczba": 5
+    "liczba": 9
    },
    {
     "rok": 2024,
@@ -171,6 +171,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -312,7 +408,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 964,
+  "miejsce": 989,
   "miejsceWMarce": 6,
   "modeliWMarce": 7,
   "sredniRocznik": 2021.8
@@ -321,7 +417,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "ehs",
@@ -348,9 +444,9 @@
    "adres": "/marki/renault/arkana/"
   },
   {
-   "slug": "suzuki-s-cross",
-   "nazwa": "Suzuki S-Cross",
-   "adres": "/marki/suzuki/s-cross/"
+   "slug": "toyota-gr-yaris",
+   "nazwa": "Toyota GR-Yaris",
+   "adres": "/marki/toyota/gr-yaris/"
   }
  ]
 }

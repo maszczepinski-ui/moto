@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Vision – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VISION, VISION 3.5 KAT).",
-  "liczbaWPolsce": 208,
-  "aktywne": 13,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Vision – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VISION, VISION 3.5 KAT).",
+  "liczbaWPolsce": 211,
+  "aktywne": 16,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "16",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "32",
-    "liczba": 17
+    "liczba": 18
    }
   ],
   "bezWojewodztwa": 0,
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 30
+    "liczba": 32
    },
    {
     "rok": 1996,
@@ -121,7 +121,7 @@
    },
    {
     "rok": 2002,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2003,
@@ -147,7 +147,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 103
+    "liczba": 106
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -165,7 +165,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 197
+    "liczba": 200
    },
    {
     "nazwa": "3,3 l",
@@ -183,11 +183,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 111
+    "liczba": 112
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 93
+    "liczba": 95
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -197,7 +197,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 158
+    "liczba": 161
    },
    {
     "nazwa": "Hatchback",
@@ -212,10 +212,18 @@
     "liczba": 38
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 2
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -226,6 +234,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -367,16 +471,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1213,
-  "miejsceWMarce": 19,
-  "modeliWMarce": 19,
+  "miejsce": 1246,
+  "miejsceWMarce": 21,
+  "modeliWMarce": 21,
   "sredniRocznik": 1994.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "vision",

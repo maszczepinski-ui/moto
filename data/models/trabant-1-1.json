@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Trabant 1.1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1.1, 1.1 LIMUZYNA, 1.1 KOMBI, 1,1, 1.1 POLO).",
-  "liczbaWPolsce": 4241,
-  "aktywne": 168,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Trabant 1.1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1.1, 1.1 LIMUZYNA, 1.1 KOMBI, 1,1, 1.1 POLO).",
+  "liczbaWPolsce": 4243,
+  "aktywne": 170,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 129
+    "liczba": 130
    },
    {
     "teryt": "30",
-    "liczba": 473
+    "liczba": 474
    },
    {
     "teryt": "32",
@@ -90,13 +90,13 @@
    },
    {
     "rok": 1991,
-    "liczba": 3041
+    "liczba": 3043
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1866
+    "liczba": 1868
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -114,7 +114,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3133
+    "liczba": 3135
    },
    {
     "nazwa": "1,1 l",
@@ -136,7 +136,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 54
+    "liczba": 56
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,11 +146,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1273
+    "liczba": 1274
    },
    {
     "nazwa": "Kombi",
-    "liczba": 710
+    "liczba": 711
    },
    {
     "nazwa": "Hatchback",
@@ -161,10 +161,18 @@
     "liczba": 2097
    }
   ],
-  "noweOdPaczki": 13,
+  "noweOdPaczki": 15,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 5
@@ -179,6 +187,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -320,7 +424,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 433,
+  "miejsce": 457,
   "miejsceWMarce": 3,
   "modeliWMarce": 8,
   "sredniRocznik": 1990.6
@@ -329,7 +433,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "trabant",
  "modelSlug": "1-1",

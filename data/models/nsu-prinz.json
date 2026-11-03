@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nsu Prinz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRINZ 1000, PRINZ).",
-  "liczbaWPolsce": 273,
-  "aktywne": 10,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nsu Prinz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRINZ 1000, PRINZ).",
+  "liczbaWPolsce": 274,
+  "aktywne": 11,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "04",
@@ -132,7 +132,7 @@
    },
    {
     "rok": 1970,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 1971,
@@ -214,7 +214,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Inne / brak danych",
@@ -232,7 +232,7 @@
    },
    {
     "nazwa": "0,6 l",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "0,7 l",
@@ -254,7 +254,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Inne / brak danych",
@@ -264,17 +264,21 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 248
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 3
@@ -289,6 +293,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -430,7 +530,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1123,
+  "miejsce": 1150,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
   "sredniRocznik": 1967.7
@@ -439,7 +539,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "nsu",
  "modelSlug": "prinz",

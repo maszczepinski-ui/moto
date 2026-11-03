@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Tempra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TEMPRA, TEMPRA 1.6 KAT, TEMPRA 1.6, TEMPRA 1,6, TEMPRA 1.9TD).",
-  "liczbaWPolsce": 7717,
-  "aktywne": 35,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Tempra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TEMPRA, TEMPRA 1.6 KAT, TEMPRA 1.6, TEMPRA 1,6, TEMPRA 1.9TD).",
+  "liczbaWPolsce": 7729,
+  "aktywne": 47,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 431
+    "liczba": 433
    },
    {
     "teryt": "06",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 516
+    "liczba": 519
    },
    {
     "teryt": "14",
-    "liczba": 1106
+    "liczba": 1108
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 200
+    "liczba": 201
    },
    {
     "teryt": "20",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 277
+    "liczba": 279
    },
    {
     "teryt": "30",
-    "liczba": 618
+    "liczba": 620
    },
    {
     "teryt": "32",
@@ -86,27 +86,27 @@
   "roczniki": [
    {
     "rok": 1990,
-    "liczba": 149
+    "liczba": 150
    },
    {
     "rok": 1991,
-    "liczba": 1406
+    "liczba": 1409
    },
    {
     "rok": 1992,
-    "liczba": 1208
+    "liczba": 1211
    },
    {
     "rok": 1993,
-    "liczba": 1798
+    "liczba": 1799
    },
    {
     "rok": 1994,
-    "liczba": 1395
+    "liczba": 1396
    },
    {
     "rok": 1995,
-    "liczba": 917
+    "liczba": 920
    },
    {
     "rok": 1996,
@@ -120,15 +120,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 2544
+    "liczba": 2546
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2257
+    "liczba": 2266
    },
    {
     "nazwa": "Diesel",
-    "liczba": 922
+    "liczba": 923
    },
    {
     "nazwa": "?+LPG",
@@ -142,15 +142,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 5375
+    "liczba": 5381
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 1139
+    "liczba": 1140
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 512
+    "liczba": 514
    },
    {
     "nazwa": "1,4 l",
@@ -158,7 +158,7 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 268
+    "liczba": 271
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,11 +168,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5403
+    "liczba": 5404
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1469
+    "liczba": 1480
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -190,11 +190,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3578
+    "liczba": 3585
    },
    {
     "nazwa": "Kombi",
-    "liczba": 847
+    "liczba": 852
    },
    {
     "nazwa": "Hatchback",
@@ -205,10 +205,18 @@
     "liczba": 2740
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 18,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 5
+   },
+   {
+    "rok": 2023,
+    "liczba": 7
+   },
    {
     "rok": 2024,
     "liczba": 3
@@ -219,6 +227,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -360,16 +464,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 328,
-  "miejsceWMarce": 15,
-  "modeliWMarce": 58,
+  "miejsce": 352,
+  "miejsceWMarce": 16,
+  "modeliWMarce": 60,
   "sredniRocznik": 1993.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "tempra",

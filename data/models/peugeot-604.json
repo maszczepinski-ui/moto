@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 604 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 604, 604 2.7, 604 2.3D).",
-  "liczbaWPolsce": 249,
-  "aktywne": 4,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 604 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 604, 604 2.7, 604 2.3D).",
+  "liczbaWPolsce": 250,
+  "aktywne": 5,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "26",
@@ -124,7 +124,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 1983,
@@ -178,7 +178,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "nazwa": "?+LPG",
@@ -192,7 +192,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,7 l",
-    "liczba": 115
+    "liczba": 116
    },
    {
     "nazwa": "2,3 l",
@@ -238,7 +238,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -252,7 +252,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "nazwa": "Hatchback",
@@ -263,10 +263,14 @@
     "liczba": 210
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 3,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 1
@@ -277,6 +281,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -418,16 +518,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1152,
-  "miejsceWMarce": 44,
-  "modeliWMarce": 44,
+  "miejsce": 1186,
+  "miejsceWMarce": 45,
+  "modeliWMarce": 45,
   "sredniRocznik": 1980.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "604",

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 460 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 460, 460 1.8 KAT, 460 1.9 TD, 460 1.7 KAT, 460 1.8KAT).",
-  "liczbaWPolsce": 2670,
-  "aktywne": 45,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 460 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 460, 460 1.8 KAT, 460 1.9 TD, 460 1.7 KAT, 460 1.8KAT).",
+  "liczbaWPolsce": 2677,
+  "aktywne": 52,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 129
+    "liczba": 130
    },
    {
     "teryt": "06",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 254
+    "liczba": 255
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 437
+    "liczba": 440
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 185
+    "liczba": 186
    },
    {
     "teryt": "26",
@@ -78,18 +78,18 @@
    },
    {
     "teryt": "32",
-    "liczba": 209
+    "liczba": 210
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 1990,
-    "liczba": 209
+    "liczba": 211
    },
    {
     "rok": 1991,
-    "liczba": 250
+    "liczba": 251
    },
    {
     "rok": 1992,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 626
+    "liczba": 627
    },
    {
     "rok": 1995,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 324
+    "liczba": 327
    },
    {
     "rok": 1997,
@@ -119,11 +119,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 982
+    "liczba": 988
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 783
+    "liczba": 784
    },
    {
     "nazwa": "Diesel",
@@ -145,7 +145,7 @@
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 765
+    "liczba": 769
    },
    {
     "nazwa": "1,9 l",
@@ -153,11 +153,11 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 471
+    "liczba": 473
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 83
+    "liczba": 84
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,11 +167,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1455
+    "liczba": 1457
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1073
+    "liczba": 1078
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,7 +189,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2010
+    "liczba": 2017
    },
    {
     "nazwa": "Hatchback",
@@ -200,13 +200,21 @@
     "liczba": 571
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 17,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
+    "liczba": 2
+   },
+   {
+    "rok": 2022,
     "liczba": 3
+   },
+   {
+    "rok": 2023,
+    "liczba": 5
    },
    {
     "rok": 2024,
@@ -222,6 +230,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -363,16 +467,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 514,
+  "miejsce": 537,
   "miejsceWMarce": 18,
-  "modeliWMarce": 33,
+  "modeliWMarce": 34,
   "sredniRocznik": 1993.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "460",
@@ -399,9 +503,9 @@
    "adres": "/marki/volkswagen/vento/"
   },
   {
-   "slug": "mercedes-benz-180",
-   "nazwa": "Mercedes-Benz 180",
-   "adres": "/marki/mercedes-benz/180/"
+   "slug": "fiat-tempra",
+   "nazwa": "Fiat Tempra",
+   "adres": "/marki/fiat/tempra/"
   }
  ]
 }

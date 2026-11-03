@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Prisma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRISMA, PRISMA 1.6).",
-  "liczbaWPolsce": 344,
-  "aktywne": 7,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Prisma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRISMA, PRISMA 1.6).",
+  "liczbaWPolsce": 347,
+  "aktywne": 10,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -53,11 +53,11 @@
    },
    {
     "teryt": "20",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "22",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "24",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "32",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 28
+    "liczba": 29
    },
    {
     "rok": 1984,
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 19
+    "liczba": 21
    },
    {
     "rok": 1990,
@@ -150,7 +150,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 67
+    "liczba": 70
    },
    {
     "nazwa": "Diesel",
@@ -172,7 +172,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 157
+    "liczba": 159
    },
    {
     "nazwa": "1,9 l",
@@ -188,7 +188,7 @@
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
@@ -198,7 +198,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 255
+    "liczba": 256
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -206,7 +206,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -220,7 +220,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 99
+    "liczba": 102
    },
    {
     "nazwa": "Hatchback",
@@ -231,13 +231,17 @@
     "liczba": 238
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 9,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2022,
     "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 3
    },
    {
     "rok": 2024,
@@ -253,6 +257,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -394,7 +494,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1048,
+  "miejsce": 1086,
   "miejsceWMarce": 12,
   "modeliWMarce": 15,
   "sredniRocznik": 1987.1
@@ -403,7 +503,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "prisma",

@@ -11,73 +11,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Rcz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 549 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RCZ).",
-  "liczbaWPolsce": 1133,
-  "aktywne": 908,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Rcz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 808 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RCZ).",
+  "liczbaWPolsce": 1392,
+  "aktywne": 1167,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 115
+    "liczba": 133
    },
    {
     "teryt": "04",
-    "liczba": 64
+    "liczba": 76
    },
    {
     "teryt": "06",
-    "liczba": 26
+    "liczba": 31
    },
    {
     "teryt": "08",
-    "liczba": 22
-   },
-   {
-    "teryt": "10",
-    "liczba": 82
-   },
-   {
-    "teryt": "12",
-    "liczba": 106
-   },
-   {
-    "teryt": "14",
-    "liczba": 155
-   },
-   {
-    "teryt": "16",
-    "liczba": 26
-   },
-   {
-    "teryt": "18",
-    "liczba": 48
-   },
-   {
-    "teryt": "20",
-    "liczba": 8
-   },
-   {
-    "teryt": "22",
-    "liczba": 49
-   },
-   {
-    "teryt": "24",
-    "liczba": 170
-   },
-   {
-    "teryt": "26",
     "liczba": 29
    },
    {
+    "teryt": "10",
+    "liczba": 97
+   },
+   {
+    "teryt": "12",
+    "liczba": 142
+   },
+   {
+    "teryt": "14",
+    "liczba": 191
+   },
+   {
+    "teryt": "16",
+    "liczba": 31
+   },
+   {
+    "teryt": "18",
+    "liczba": 62
+   },
+   {
+    "teryt": "20",
+    "liczba": 10
+   },
+   {
+    "teryt": "22",
+    "liczba": 68
+   },
+   {
+    "teryt": "24",
+    "liczba": 207
+   },
+   {
+    "teryt": "26",
+    "liczba": 36
+   },
+   {
     "teryt": "28",
-    "liczba": 15
+    "liczba": 20
    },
    {
     "teryt": "30",
-    "liczba": 167
+    "liczba": 197
    },
    {
     "teryt": "32",
-    "liczba": 35
+    "liczba": 46
    }
   ],
   "bezWojewodztwa": 16,
@@ -108,55 +108,55 @@
    },
    {
     "rok": 2009,
-    "liczba": 7
+    "liczba": 11
    },
    {
     "rok": 2010,
-    "liczba": 270
+    "liczba": 342
    },
    {
     "rok": 2011,
-    "liczba": 307
+    "liczba": 386
    },
    {
     "rok": 2012,
-    "liczba": 242
+    "liczba": 283
    },
    {
     "rok": 2013,
-    "liczba": 106
+    "liczba": 137
    },
    {
     "rok": 2014,
-    "liczba": 86
+    "liczba": 110
    },
    {
     "rok": 2015,
-    "liczba": 52
+    "liczba": 60
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 656
+    "liczba": 780
    },
    {
     "nazwa": "Diesel",
-    "liczba": 470
+    "liczba": 604
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 661
+    "liczba": 785
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 458
+    "liczba": 593
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,11 +166,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 608
+    "liczba": 732
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 432
+    "liczba": 565
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -178,30 +178,38 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 20
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1065
+    "liczba": 1320
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 42
    }
   ],
-  "noweOdPaczki": 549,
+  "noweOdPaczki": 808,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 56
+   },
+   {
+    "rok": 2022,
+    "liczba": 124
+   },
+   {
+    "rok": 2023,
+    "liczba": 135
    },
    {
     "rok": 2024,
@@ -217,6 +225,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 17
+   },
    {
     "miesiac": "2023-12",
     "liczba": 14
@@ -358,26 +462,21 @@
     "liczba": 0
    }
   ],
-  "miejsce": 717,
+  "miejsce": 699,
   "miejsceWMarce": 34,
-  "modeliWMarce": 44,
-  "sredniRocznik": 2011.4
+  "modeliWMarce": 45,
+  "sredniRocznik": 2011.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "rcz",
  "adres": "/marki/peugeot/rcz/",
  "konkurenci": [
-  {
-   "slug": "skoda-octavia",
-   "nazwa": "Skoda Octavia",
-   "adres": "/marki/skoda/octavia/"
-  },
   {
    "slug": "bmw-seria-1",
    "nazwa": "BMW Seria 1",
@@ -389,14 +488,19 @@
    "adres": "/marki/hyundai/ix35/"
   },
   {
-   "slug": "volvo-c30",
-   "nazwa": "Volvo C30",
-   "adres": "/marki/volvo/c30/"
+   "slug": "skoda-octavia",
+   "nazwa": "Skoda Octavia",
+   "adres": "/marki/skoda/octavia/"
   },
   {
    "slug": "chevrolet-cruze",
    "nazwa": "Chevrolet Cruze",
    "adres": "/marki/chevrolet/cruze/"
+  },
+  {
+   "slug": "volvo-c30",
+   "nazwa": "Volvo C30",
+   "adres": "/marki/volvo/c30/"
   }
  ]
 }

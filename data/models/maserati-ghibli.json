@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Maserati Ghibli – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 786 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GHIBLI, GHIBLI S, GHIBLI S Q4, GHIBLI DIESEL, GHIBLI 3.0 S).",
-  "liczbaWPolsce": 899,
-  "aktywne": 874,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Maserati Ghibli – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 108 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GHIBLI, GHIBLI S Q4, GHIBLI S, GHIBLI DIESEL, GHIBLI HYBRID).",
+  "liczbaWPolsce": 1221,
+  "aktywne": 1196,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 51
+    "liczba": 75
    },
    {
     "teryt": "04",
-    "liczba": 28
+    "liczba": 40
    },
    {
     "teryt": "06",
-    "liczba": 60
+    "liczba": 81
    },
    {
     "teryt": "08",
-    "liczba": 14
+    "liczba": 20
    },
    {
     "teryt": "10",
-    "liczba": 59
+    "liczba": 84
    },
    {
     "teryt": "12",
-    "liczba": 109
+    "liczba": 149
    },
    {
     "teryt": "14",
-    "liczba": 198
+    "liczba": 267
    },
    {
     "teryt": "16",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "18",
-    "liczba": 53
+    "liczba": 72
    },
    {
     "teryt": "20",
-    "liczba": 26
+    "liczba": 35
    },
    {
     "teryt": "22",
-    "liczba": 47
+    "liczba": 67
    },
    {
     "teryt": "24",
-    "liczba": 87
+    "liczba": 112
    },
    {
     "teryt": "26",
-    "liczba": 20
+    "liczba": 32
    },
    {
     "teryt": "28",
-    "liczba": 20
+    "liczba": 27
    },
    {
     "teryt": "30",
-    "liczba": 78
+    "liczba": 101
    },
    {
     "teryt": "32",
-    "liczba": 30
+    "liczba": 37
    }
   ],
   "bezWojewodztwa": 6,
@@ -89,11 +89,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1995,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1996,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 0
+    "liczba": 2
    },
    {
     "rok": 1998,
@@ -165,93 +165,93 @@
    },
    {
     "rok": 2013,
-    "liczba": 20
+    "liczba": 24
    },
    {
     "rok": 2014,
-    "liczba": 159
+    "liczba": 215
    },
    {
     "rok": 2015,
-    "liczba": 163
+    "liczba": 224
    },
    {
     "rok": 2016,
-    "liczba": 107
+    "liczba": 145
    },
    {
     "rok": 2017,
-    "liczba": 119
+    "liczba": 180
    },
    {
     "rok": 2018,
-    "liczba": 113
+    "liczba": 139
    },
    {
     "rok": 2019,
-    "liczba": 80
+    "liczba": 103
    },
    {
     "rok": 2020,
-    "liczba": 39
+    "liczba": 58
    },
    {
     "rok": 2021,
-    "liczba": 33
+    "liczba": 50
    },
    {
     "rok": 2022,
-    "liczba": 37
+    "liczba": 47
    },
    {
     "rok": 2023,
-    "liczba": 11
+    "liczba": 13
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 814
+    "liczba": 1106
    },
    {
     "nazwa": "Diesel",
-    "liczba": 70
+    "liczba": 88
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 12
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 6
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 861
+    "liczba": 1160
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 20
+    "liczba": 38
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 23
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 638
+    "liczba": 795
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 237
+    "liczba": 391
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 14
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
@@ -261,32 +261,40 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 780
+    "liczba": 1064
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 51
+    "liczba": 61
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 25
+    "liczba": 32
    },
    {
     "nazwa": "Coupe",
-    "liczba": 18
+    "liczba": 32
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 25
+    "liczba": 32
    }
   ],
-  "noweOdPaczki": 786,
-  "hybrydy": 12,
+  "noweOdPaczki": 1108,
+  "hybrydy": 21,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 58
+   },
+   {
+    "rok": 2022,
+    "liczba": 134
+   },
+   {
+    "rok": 2023,
+    "liczba": 188
    },
    {
     "rok": 2024,
@@ -302,6 +310,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 17
+   },
    {
     "miesiac": "2023-12",
     "liczba": 16
@@ -443,7 +547,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 778,
+  "miejsce": 731,
   "miejsceWMarce": 1,
   "modeliWMarce": 5,
   "sredniRocznik": 2016.5
@@ -452,7 +556,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "maserati",
  "modelSlug": "ghibli",
@@ -474,14 +578,14 @@
    "adres": "/marki/toyota/camry/"
   },
   {
-   "slug": "bmw-x6",
-   "nazwa": "BMW X6",
-   "adres": "/marki/bmw/x6/"
-  },
-  {
    "slug": "jeep-wrangler",
    "nazwa": "Jeep Wrangler",
    "adres": "/marki/jeep/wrangler/"
+  },
+  {
+   "slug": "audi-s5",
+   "nazwa": "Audi S5",
+   "adres": "/marki/audi/s5/"
   }
  ]
 }

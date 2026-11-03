@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus RZ – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 519 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RZ450E, LEXUS RZ450E, LEXUS RZ500E, RZ300E, RZ500E).",
-  "liczbaWPolsce": 519,
-  "aktywne": 519,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus RZ – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 552 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS RZ450E, RZ450E, LEXUS RZ500E, RZ300E, RZ500E).",
+  "liczbaWPolsce": 552,
+  "aktywne": 552,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 52
+    "liczba": 55
    },
    {
     "teryt": "04",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "08",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "12",
-    "liczba": 76
+    "liczba": 84
    },
    {
     "teryt": "14",
-    "liczba": 133
+    "liczba": 140
    },
    {
     "teryt": "16",
@@ -49,19 +49,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "20",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "22",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "24",
-    "liczba": 53
+    "liczba": 55
    },
    {
     "teryt": "26",
@@ -73,18 +73,18 @@
    },
    {
     "teryt": "30",
-    "liczba": 33
+    "liczba": 38
    },
    {
     "teryt": "32",
-    "liczba": 15
+    "liczba": 16
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2023,
-    "liczba": 111
+    "liczba": 144
    },
    {
     "rok": 2024,
@@ -102,23 +102,23 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 519
+    "liczba": 552
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 519
+    "liczba": 552
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 441
+    "liczba": 460
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 52
+    "liczba": 66
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -132,20 +132,20 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 511
+    "liczba": 544
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 519,
+  "noweOdPaczki": 552,
   "hybrydy": 0,
-  "elektryczne": 519,
+  "elektryczne": 552,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
-    "liczba": 35
+    "liczba": 68
    },
    {
     "rok": 2024,
@@ -161,6 +161,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 11
+   },
    {
     "miesiac": "2023-12",
     "liczba": 11
@@ -302,16 +398,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 910,
+  "miejsce": 926,
   "miejsceWMarce": 10,
   "modeliWMarce": 12,
-  "sredniRocznik": 2024.8
+  "sredniRocznik": 2024.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "rz",

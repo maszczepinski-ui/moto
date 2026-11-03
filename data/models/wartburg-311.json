@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 311 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 311).",
-  "liczbaWPolsce": 1843,
-  "aktywne": 20,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 311 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 311).",
+  "liczbaWPolsce": 1844,
+  "aktywne": 21,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 226
+    "liczba": 227
    },
    {
     "teryt": "26",
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1958,
-    "liczba": 49
+    "liczba": 50
    },
    {
     "rok": 1959,
@@ -218,7 +218,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 183
+    "liczba": 184
    },
    {
     "nazwa": "Inne / brak danych",
@@ -228,7 +228,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 1193
+    "liczba": 1194
    },
    {
     "nazwa": "0,9 l",
@@ -250,7 +250,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -264,17 +264,21 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 166
+    "liczba": 167
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1677
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
    {
     "rok": 2023,
     "liczba": 3
@@ -289,6 +293,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -430,7 +530,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 597,
+  "miejsce": 624,
   "miejsceWMarce": 5,
   "modeliWMarce": 11,
   "sredniRocznik": 1963.0
@@ -439,7 +539,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "wartburg",
  "modelSlug": "311",

@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Tacuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TACUMA).",
-  "liczbaWPolsce": 226,
-  "aktywne": 119,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Tacuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TACUMA).",
+  "liczbaWPolsce": 239,
+  "aktywne": 132,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "04",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "06",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "12",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "14",
-    "liczba": 47
+    "liczba": 49
    },
    {
     "teryt": "16",
@@ -55,11 +55,11 @@
    },
    {
     "teryt": "20",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "22",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "24",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "30",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "32",
@@ -86,23 +86,23 @@
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2005,
-    "liczba": 92
+    "liczba": 96
    },
    {
     "rok": 2006,
-    "liczba": 65
+    "liczba": 70
    },
    {
     "rok": 2007,
-    "liczba": 40
+    "liczba": 42
    },
    {
     "rok": 2008,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 2009,
@@ -112,11 +112,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 150
+    "liczba": 154
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 75
+    "liczba": 84
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,11 +126,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 175
+    "liczba": 185
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 50
+    "liczba": 53
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,11 +140,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 180
+    "liczba": 187
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 45
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,32 +154,40 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 89
+    "liczba": 97
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 65
+    "liczba": 67
    },
    {
     "nazwa": "Van",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 20,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 5
+   },
+   {
+    "rok": 2022,
+    "liczba": 5
+   },
+   {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 4
    },
    {
     "rok": 2024,
@@ -195,6 +203,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -336,16 +440,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1178,
-  "miejsceWMarce": 21,
-  "modeliWMarce": 22,
+  "miejsce": 1206,
+  "miejsceWMarce": 23,
+  "modeliWMarce": 23,
   "sredniRocznik": 2005.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "tacuma",

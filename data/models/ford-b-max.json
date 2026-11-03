@@ -13,118 +13,114 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford B-Max – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 148 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B-MAX).",
-  "liczbaWPolsce": 6972,
-  "aktywne": 4497,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford B-Max – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 680 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B-MAX).",
+  "liczbaWPolsce": 8504,
+  "aktywne": 6029,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 510
+    "liczba": 625
    },
    {
     "teryt": "04",
-    "liczba": 286
+    "liczba": 365
    },
    {
     "teryt": "06",
-    "liczba": 223
+    "liczba": 321
    },
    {
     "teryt": "08",
-    "liczba": 218
+    "liczba": 272
    },
    {
     "teryt": "10",
-    "liczba": 322
+    "liczba": 406
    },
    {
     "teryt": "12",
-    "liczba": 669
+    "liczba": 793
    },
    {
     "teryt": "14",
-    "liczba": 702
+    "liczba": 848
    },
    {
     "teryt": "16",
-    "liczba": 225
+    "liczba": 264
    },
    {
     "teryt": "18",
-    "liczba": 273
+    "liczba": 356
    },
    {
     "teryt": "20",
-    "liczba": 126
+    "liczba": 174
    },
    {
     "teryt": "22",
-    "liczba": 558
+    "liczba": 688
    },
    {
     "teryt": "24",
-    "liczba": 1353
+    "liczba": 1503
    },
    {
     "teryt": "26",
-    "liczba": 110
+    "liczba": 151
    },
    {
     "teryt": "28",
-    "liczba": 152
+    "liczba": 190
    },
    {
     "teryt": "30",
-    "liczba": 964
+    "liczba": 1212
    },
    {
     "teryt": "32",
-    "liczba": 257
+    "liczba": 312
    }
   ],
   "bezWojewodztwa": 24,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 687
+    "liczba": 910
    },
    {
     "rok": 2013,
-    "liczba": 1873
+    "liczba": 2492
    },
    {
     "rok": 2014,
-    "liczba": 1277
+    "liczba": 1582
    },
    {
     "rok": 2015,
-    "liczba": 1174
+    "liczba": 1357
    },
    {
     "rok": 2016,
-    "liczba": 1162
+    "liczba": 1273
    },
    {
     "rok": 2017,
-    "liczba": 709
-   },
-   {
-    "rok": 2018,
-    "liczba": 15
+    "liczba": 799
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5769
+    "liczba": 6826
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1079
+    "liczba": 1506
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 119
+    "liczba": 167
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,19 +130,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 4729
+    "liczba": 5604
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1062
+    "liczba": 1431
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 719
+    "liczba": 839
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 451
+    "liczba": 619
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,7 +152,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3222
+    "liczba": 4256
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -164,42 +160,50 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1079
+    "liczba": 1573
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 33
+    "liczba": 37
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5662
+    "liczba": 6582
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 822
+    "liczba": 1227
    },
    {
     "nazwa": "Kombi",
-    "liczba": 256
+    "liczba": 379
    },
    {
     "nazwa": "Van",
-    "liczba": 198
+    "liczba": 279
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 34
+    "liczba": 37
    }
   ],
-  "noweOdPaczki": 3148,
+  "noweOdPaczki": 4680,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 308
+   },
+   {
+    "rok": 2022,
+    "liczba": 635
+   },
+   {
     "rok": 2023,
-    "liczba": 245
+    "liczba": 834
    },
    {
     "rok": 2024,
@@ -215,6 +219,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 69
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 80
+   },
    {
     "miesiac": "2023-12",
     "liczba": 61
@@ -356,16 +456,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 346,
+  "miejsce": 339,
   "miejsceWMarce": 23,
-  "modeliWMarce": 45,
-  "sredniRocznik": 2014.3
+  "modeliWMarce": 46,
+  "sredniRocznik": 2014.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "b-max",
@@ -387,14 +487,14 @@
    "adres": "/marki/fiat/500l/"
   },
   {
-   "slug": "fiat-qubo",
-   "nazwa": "Fiat Qubo",
-   "adres": "/marki/fiat/qubo/"
-  },
-  {
    "slug": "nissan-juke",
    "nazwa": "Nissan Juke",
    "adres": "/marki/nissan/juke/"
+  },
+  {
+   "slug": "fiat-qubo",
+   "nazwa": "Fiat Qubo",
+   "adres": "/marki/fiat/qubo/"
   }
  ]
 }

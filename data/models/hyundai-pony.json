@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Pony – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PONY, PONY 1.5, PONY 1.5 KAT, PONY 1.3, PONY 1.5 GLS).",
-  "liczbaWPolsce": 10064,
-  "aktywne": 48,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Pony – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PONY, PONY 1.5, PONY 1.5 KAT, PONY 1.3, PONY 1.5 GLS).",
+  "liczbaWPolsce": 10066,
+  "aktywne": 50,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 1072
+    "liczba": 1073
    },
    {
     "teryt": "12",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 851
+    "liczba": 852
    },
    {
     "teryt": "32",
@@ -121,7 +121,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 1721
+    "liczba": 1722
    },
    {
     "rok": 1993,
@@ -129,7 +129,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 824
+    "liczba": 825
    },
    {
     "rok": 1995,
@@ -147,7 +147,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4501
+    "liczba": 4503
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -165,7 +165,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 7989
+    "liczba": 7991
    },
    {
     "nazwa": "1,3 l",
@@ -187,7 +187,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 984
+    "liczba": 986
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -201,21 +201,29 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3217
+    "liczba": 3218
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 2674
+    "liczba": 2675
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4173
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -226,6 +234,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -367,7 +471,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 283,
+  "miejsce": 314,
   "miejsceWMarce": 11,
   "modeliWMarce": 34,
   "sredniRocznik": 1991.7
@@ -376,7 +480,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "pony",

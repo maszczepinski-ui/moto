@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Gsa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GSA, GSA 1.3).",
-  "liczbaWPolsce": 208,
-  "aktywne": 9,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Gsa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GSA, GSA 1.3).",
+  "liczbaWPolsce": 209,
+  "aktywne": 10,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "26",
@@ -121,7 +121,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 1983,
@@ -175,7 +175,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
@@ -189,7 +189,7 @@
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "nazwa": "1,2 l",
@@ -211,7 +211,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 170
+    "liczba": 171
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -233,7 +233,7 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "nazwa": "Kombi",
@@ -244,10 +244,14 @@
     "liczba": 155
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -262,6 +266,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -403,16 +503,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1211,
-  "miejsceWMarce": 40,
-  "modeliWMarce": 40,
+  "miejsce": 1249,
+  "miejsceWMarce": 42,
+  "modeliWMarce": 42,
   "sredniRocznik": 1982.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "gsa",

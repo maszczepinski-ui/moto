@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Bus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BUS).",
-  "liczbaWPolsce": 359,
-  "aktywne": 16,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Bus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BUS).",
+  "liczbaWPolsce": 360,
+  "aktywne": 17,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 110
+    "liczba": 111
    },
    {
     "teryt": "16",
@@ -174,7 +174,7 @@
    },
    {
     "rok": 1980,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 1981,
@@ -252,7 +252,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -274,7 +274,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "1,9 l",
@@ -316,7 +316,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
@@ -334,7 +334,7 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Kombi",
@@ -353,10 +353,14 @@
     "liczba": 232
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 4,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 1
@@ -371,6 +375,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -512,16 +612,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1034,
-  "miejsceWMarce": 51,
-  "modeliWMarce": 59,
+  "miejsce": 1068,
+  "miejsceWMarce": 52,
+  "modeliWMarce": 60,
   "sredniRocznik": 1982.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "bus",

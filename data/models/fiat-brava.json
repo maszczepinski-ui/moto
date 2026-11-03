@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Brava – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRAVA, BRAVA 1.4 KAT, BRAVA 1.6 KAT, BRAVA 1.4KAT, BRAVA 1.4).",
-  "liczbaWPolsce": 13489,
-  "aktywne": 874,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Brava – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRAVA, BRAVA 1.4 KAT, BRAVA 1.6 KAT, BRAVA 1.4KAT, BRAVA 1.4).",
+  "liczbaWPolsce": 13503,
+  "aktywne": 888,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1190
+    "liczba": 1193
    },
    {
     "teryt": "04",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 1191
+    "liczba": 1193
    },
    {
     "teryt": "14",
-    "liczba": 1591
+    "liczba": 1592
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 701
+    "liczba": 703
    },
    {
     "teryt": "20",
@@ -62,11 +62,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 1540
+    "liczba": 1543
    },
    {
     "teryt": "26",
-    "liczba": 369
+    "liczba": 370
    },
    {
     "teryt": "28",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 1327
+    "liczba": 1328
    },
    {
     "teryt": "32",
-    "liczba": 686
+    "liczba": 687
    }
   ],
   "bezWojewodztwa": 21,
@@ -93,29 +93,29 @@
    },
    {
     "rok": 1997,
-    "liczba": 3632
+    "liczba": 3634
    },
    {
     "rok": 1998,
-    "liczba": 1777
+    "liczba": 1780
    },
    {
     "rok": 1999,
-    "liczba": 2191
+    "liczba": 2192
    },
    {
     "rok": 2000,
-    "liczba": 1563
+    "liczba": 1565
    },
    {
     "rok": 2001,
-    "liczba": 816
+    "liczba": 818
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 7478
+    "liczba": 7489
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -123,7 +123,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1448
+    "liczba": 1451
    },
    {
     "nazwa": "Inne / brak danych",
@@ -133,19 +133,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 4540
+    "liczba": 4544
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 4207
+    "liczba": 4213
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 2943
+    "liczba": 2944
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 1482
+    "liczba": 1485
    },
    {
     "nazwa": "1,7 l",
@@ -159,11 +159,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 9302
+    "liczba": 9306
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2222
+    "liczba": 2232
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,7 +181,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 10228
+    "liczba": 10241
    },
    {
     "nazwa": "Sedan",
@@ -189,13 +189,25 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1702
+    "liczba": 1703
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 23,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 5
+   },
+   {
+    "rok": 2022,
+    "liczba": 7
+   },
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
    {
     "rok": 2024,
     "liczba": 4
@@ -206,6 +218,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -347,16 +455,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 245,
+  "miejsce": 263,
   "miejsceWMarce": 12,
-  "modeliWMarce": 58,
+  "modeliWMarce": 60,
   "sredniRocznik": 1997.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "brava",

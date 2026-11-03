@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar Xkr – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 88 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XKR, XKR COUPE, XKR CONVERTIBLE).",
-  "liczbaWPolsce": 267,
-  "aktywne": 135,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar Xkr – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 124 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XKR, XKR COUPE, XKR CONVERTIBLE).",
+  "liczbaWPolsce": 303,
+  "aktywne": 171,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "06",
@@ -31,15 +31,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "12",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "teryt": "14",
-    "liczba": 81
+    "liczba": 94
    },
    {
     "teryt": "16",
@@ -47,19 +47,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "20",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "22",
-    "liczba": 18
+    "liczba": 21
    },
    {
     "teryt": "24",
-    "liczba": 33
+    "liczba": 36
    },
    {
     "teryt": "26",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 30
+    "liczba": 33
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 13
    }
   ],
   "bezWojewodztwa": 5,
@@ -90,31 +90,31 @@
    },
    {
     "rok": 1999,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 2000,
-    "liczba": 25
+    "liczba": 30
    },
    {
     "rok": 2001,
-    "liczba": 28
+    "liczba": 33
    },
    {
     "rok": 2002,
-    "liczba": 17
+    "liczba": 21
    },
    {
     "rok": 2003,
-    "liczba": 11
+    "liczba": 14
    },
    {
     "rok": 2004,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 2005,
-    "liczba": 18
+    "liczba": 20
    },
    {
     "rok": 2006,
@@ -122,27 +122,27 @@
    },
    {
     "rok": 2007,
-    "liczba": 36
+    "liczba": 43
    },
    {
     "rok": 2008,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 2009,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2010,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2011,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2012,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2013,
@@ -156,7 +156,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 262
+    "liczba": 298
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,15 +166,15 @@
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 114
+    "liczba": 129
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 103
+    "liczba": 120
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 49
+    "liczba": 53
    },
    {
     "nazwa": "Inne / brak danych",
@@ -184,11 +184,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 148
+    "liczba": 177
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 110
+    "liczba": 117
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -202,15 +202,15 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 158
+    "liczba": 172
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 86
+    "liczba": 105
    },
    {
     "nazwa": "Sedan",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "Hatchback",
@@ -218,16 +218,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 88,
+  "noweOdPaczki": 124,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 8
+   },
+   {
+    "rok": 2022,
+    "liczba": 17
+   },
+   {
     "rok": 2023,
-    "liczba": 5
+    "liczba": 16
    },
    {
     "rok": 2024,
@@ -243,6 +251,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -384,18 +488,45 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1127,
+  "miejsce": 1122,
   "miejsceWMarce": 13,
-  "modeliWMarce": 15,
+  "modeliWMarce": 17,
   "sredniRocznik": 2004.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "xkr",
- "adres": "/marki/jaguar/xkr/"
+ "adres": "/marki/jaguar/xkr/",
+ "konkurenci": [
+  {
+   "slug": "mercedes-benz-klasa-cl",
+   "nazwa": "Mercedes-Benz Klasa CL",
+   "adres": "/marki/mercedes-benz/klasa-cl/"
+  },
+  {
+   "slug": "chevrolet-camaro",
+   "nazwa": "Chevrolet Camaro",
+   "adres": "/marki/chevrolet/camaro/"
+  },
+  {
+   "slug": "lexus-ls",
+   "nazwa": "Lexus LS",
+   "adres": "/marki/lexus/ls/"
+  },
+  {
+   "slug": "ford-mustang",
+   "nazwa": "Ford Mustang",
+   "adres": "/marki/ford/mustang/"
+  },
+  {
+   "slug": "bmw-seria-6",
+   "nazwa": "BMW Seria 6",
+   "adres": "/marki/bmw/seria-6/"
+  }
+ ]
 }

@@ -12,88 +12,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 466 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQS 450 4MATIC, EQS 580 4MATIC, EQS 450, EQS 500 4MATIC, EQS 350).",
-  "liczbaWPolsce": 466,
-  "aktywne": 466,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 756 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQS 450 4MATIC, EQS 580 4MATIC, EQS 450, EQS 500 4MATIC, EQS 350).",
+  "liczbaWPolsce": 756,
+  "aktywne": 756,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 29
+    "liczba": 56
    },
    {
     "teryt": "04",
-    "liczba": 22
-   },
-   {
-    "teryt": "06",
-    "liczba": 11
-   },
-   {
-    "teryt": "08",
-    "liczba": 6
-   },
-   {
-    "teryt": "10",
-    "liczba": 20
-   },
-   {
-    "teryt": "12",
-    "liczba": 31
-   },
-   {
-    "teryt": "14",
-    "liczba": 162
-   },
-   {
-    "teryt": "16",
-    "liczba": 3
-   },
-   {
-    "teryt": "18",
-    "liczba": 15
-   },
-   {
-    "teryt": "20",
-    "liczba": 6
-   },
-   {
-    "teryt": "22",
     "liczba": 37
    },
    {
+    "teryt": "06",
+    "liczba": 17
+   },
+   {
+    "teryt": "08",
+    "liczba": 13
+   },
+   {
+    "teryt": "10",
+    "liczba": 30
+   },
+   {
+    "teryt": "12",
+    "liczba": 53
+   },
+   {
+    "teryt": "14",
+    "liczba": 231
+   },
+   {
+    "teryt": "16",
+    "liczba": 8
+   },
+   {
+    "teryt": "18",
+    "liczba": 21
+   },
+   {
+    "teryt": "20",
+    "liczba": 16
+   },
+   {
+    "teryt": "22",
+    "liczba": 61
+   },
+   {
     "teryt": "24",
-    "liczba": 43
+    "liczba": 68
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 9
    },
    {
     "teryt": "28",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "teryt": "30",
-    "liczba": 52
+    "liczba": 97
    },
    {
     "teryt": "32",
-    "liczba": 20
+    "liczba": 32
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 53
    },
    {
     "rok": 2022,
-    "liczba": 70
+    "liczba": 267
    },
    {
     "rok": 2023,
-    "liczba": 223
+    "liczba": 268
    },
    {
     "rok": 2024,
@@ -111,62 +111,70 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 466
+    "liczba": 756
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 466
+    "liczba": 756
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 320
+    "liczba": 455
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 69
+    "liczba": 214
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 63
+    "liczba": 71
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 14
+    "liczba": 16
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 254
+    "liczba": 370
    },
    {
     "nazwa": "Sedan",
-    "liczba": 190
+    "liczba": 361
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 466,
+  "noweOdPaczki": 756,
   "hybrydy": 0,
-  "elektryczne": 466,
+  "elektryczne": 756,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 15
+   },
+   {
+    "rok": 2022,
+    "liczba": 122
+   },
+   {
     "rok": 2023,
-    "liczba": 50
+    "liczba": 203
    },
    {
     "rok": 2024,
@@ -182,6 +190,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2023-12",
     "liczba": 33
@@ -323,25 +427,25 @@
     "liczba": 0
    }
   ],
-  "miejsce": 953,
-  "miejsceWMarce": 44,
-  "modeliWMarce": 54,
-  "sredniRocznik": 2023.4
+  "miejsce": 841,
+  "miejsceWMarce": 42,
+  "modeliWMarce": 56,
+  "sredniRocznik": 2022.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "eqs",
  "adres": "/marki/mercedes-benz/eqs/",
  "konkurenci": [
   {
-   "slug": "volvo-ex30",
-   "nazwa": "Volvo EX30",
-   "adres": "/marki/volvo/ex30/"
+   "slug": "skoda-enyaq",
+   "nazwa": "Skoda Enyaq",
+   "adres": "/marki/skoda/enyaq/"
   },
   {
    "slug": "volkswagen-id-3",
@@ -349,19 +453,19 @@
    "adres": "/marki/volkswagen/id-3/"
   },
   {
+   "slug": "volkswagen-id-4",
+   "nazwa": "Volkswagen ID.4",
+   "adres": "/marki/volkswagen/id-4/"
+  },
+  {
    "slug": "audi-q4",
    "nazwa": "Audi Q4",
    "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "skoda-enyaq",
-   "nazwa": "Skoda Enyaq",
-   "adres": "/marki/skoda/enyaq/"
-  },
-  {
-   "slug": "volkswagen-id-4",
-   "nazwa": "Volkswagen ID.4",
-   "adres": "/marki/volkswagen/id-4/"
+   "slug": "volvo-ex30",
+   "nazwa": "Volvo EX30",
+   "adres": "/marki/volvo/ex30/"
   }
  ]
 }

@@ -12,100 +12,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo XC40 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 140 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XC40, XC40 T5 TWIN ENGINE, XC40 RECHARGE, XC40 HYBRID).",
-  "liczbaWPolsce": 21635,
-  "aktywne": 21633,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo XC40 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 543 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XC40, XC40 T5 TWIN ENGINE, XC40 RECHARGE, XC40 HYBRID).",
+  "liczbaWPolsce": 28038,
+  "aktywne": 28036,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1566
+    "liczba": 2050
    },
    {
     "teryt": "04",
-    "liczba": 905
+    "liczba": 1134
    },
    {
     "teryt": "06",
-    "liczba": 894
+    "liczba": 1118
    },
    {
     "teryt": "08",
-    "liczba": 304
+    "liczba": 404
    },
    {
     "teryt": "10",
-    "liczba": 1240
+    "liczba": 1553
    },
    {
     "teryt": "12",
-    "liczba": 1882
+    "liczba": 2487
    },
    {
     "teryt": "14",
-    "liczba": 5360
+    "liczba": 7084
    },
    {
     "teryt": "16",
-    "liczba": 268
+    "liczba": 358
    },
    {
     "teryt": "18",
-    "liczba": 845
+    "liczba": 1034
    },
    {
     "teryt": "20",
-    "liczba": 540
+    "liczba": 687
    },
    {
     "teryt": "22",
-    "liczba": 1514
+    "liczba": 2010
    },
    {
     "teryt": "24",
-    "liczba": 2180
+    "liczba": 2822
    },
    {
     "teryt": "26",
-    "liczba": 554
+    "liczba": 690
    },
    {
     "teryt": "28",
-    "liczba": 530
+    "liczba": 679
    },
    {
     "teryt": "30",
-    "liczba": 2234
+    "liczba": 2866
    },
    {
     "teryt": "32",
-    "liczba": 817
+    "liczba": 1060
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 1435
+    "liczba": 1630
    },
    {
     "rok": 2019,
-    "liczba": 2766
+    "liczba": 3101
    },
    {
     "rok": 2020,
-    "liczba": 1629
+    "liczba": 1873
    },
    {
     "rok": 2021,
-    "liczba": 1197
+    "liczba": 2459
    },
    {
     "rok": 2022,
-    "liczba": 671
+    "liczba": 3284
    },
    {
     "rok": 2023,
-    "liczba": 1430
+    "liczba": 3181
    },
    {
     "rok": 2024,
@@ -123,82 +123,90 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 10925
+    "liczba": 14565
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 7573
+    "liczba": 9585
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2790
+    "liczba": 3176
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 280
+    "liczba": 633
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 67
+    "liczba": 79
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 18978
+    "liczba": 22859
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 2371
+    "liczba": 4538
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 286
+    "liczba": 641
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 12396
+    "liczba": 15544
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5958
+    "liczba": 6504
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3223
+    "liczba": 5924
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 58
+    "liczba": 66
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 19644
+    "liczba": 25672
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1282
+    "liczba": 1501
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 409
+    "liczba": 504
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 300
+    "liczba": 361
    }
   ],
-  "noweOdPaczki": 20140,
-  "hybrydy": 7576,
-  "elektryczne": 280,
+  "noweOdPaczki": 26543,
+  "hybrydy": 9588,
+  "elektryczne": 633,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 1069
+   },
+   {
+    "rok": 2022,
+    "liczba": 2893
+   },
+   {
     "rok": 2023,
-    "liczba": 921
+    "liczba": 3362
    },
    {
     "rok": 2024,
@@ -214,6 +222,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 145
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 288
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 480
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 242
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 202
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 281
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 266
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 233
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 210
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 280
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 160
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 205
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 314
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 237
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 279
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 375
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 469
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 279
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 250
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 363
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 250
+   },
    {
     "miesiac": "2023-12",
     "liczba": 181
@@ -355,30 +459,35 @@
     "liczba": 0
    }
   ],
-  "miejsce": 177,
+  "miejsce": 164,
   "miejsceWMarce": 6,
-  "modeliWMarce": 33,
-  "sredniRocznik": 2022.9
+  "modeliWMarce": 34,
+  "sredniRocznik": 2022.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "xc40",
  "adres": "/marki/volvo/xc40/",
  "konkurenci": [
   {
+   "slug": "mazda-cx-30",
+   "nazwa": "Mazda CX-30",
+   "adres": "/marki/mazda/cx-30/"
+  },
+  {
    "slug": "skoda-kodiaq",
    "nazwa": "Skoda Kodiaq",
    "adres": "/marki/skoda/kodiaq/"
   },
   {
-   "slug": "mazda-cx-30",
-   "nazwa": "Mazda CX-30",
-   "adres": "/marki/mazda/cx-30/"
+   "slug": "suzuki-swace",
+   "nazwa": "Suzuki Swace",
+   "adres": "/marki/suzuki/swace/"
   },
   {
    "slug": "mercedes-benz-klasa-glc",
@@ -389,11 +498,6 @@
    "slug": "skoda-karoq",
    "nazwa": "Skoda Karoq",
    "adres": "/marki/skoda/karoq/"
-  },
-  {
-   "slug": "suzuki-swace",
-   "nazwa": "Suzuki Swace",
-   "adres": "/marki/suzuki/swace/"
   }
  ]
 }

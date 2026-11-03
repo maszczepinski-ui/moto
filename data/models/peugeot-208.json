@@ -11,124 +11,124 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 208 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 906 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 208, 208 1.4 HDI, 208 1.6 HDI, 208 GTI, 208 1.2 KAT).",
-  "liczbaWPolsce": 36853,
-  "aktywne": 27240,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 208 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 305 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 208, 208 1.4 HDI, 208 1.6 HDI, 208 1.2 KAT, 208 GTI).",
+  "liczbaWPolsce": 47252,
+  "aktywne": 37639,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2325
+    "liczba": 3018
    },
    {
     "teryt": "04",
-    "liczba": 1666
+    "liczba": 2056
    },
    {
     "teryt": "06",
-    "liczba": 1108
+    "liczba": 1470
    },
    {
     "teryt": "08",
-    "liczba": 658
+    "liczba": 844
    },
    {
     "teryt": "10",
-    "liczba": 1959
+    "liczba": 2601
    },
    {
     "teryt": "12",
-    "liczba": 4322
+    "liczba": 5456
    },
    {
     "teryt": "14",
-    "liczba": 5093
+    "liczba": 6536
    },
    {
     "teryt": "16",
-    "liczba": 447
+    "liczba": 571
    },
    {
     "teryt": "18",
-    "liczba": 1600
+    "liczba": 2236
    },
    {
     "teryt": "20",
-    "liczba": 466
+    "liczba": 630
    },
    {
     "teryt": "22",
-    "liczba": 1571
+    "liczba": 1923
    },
    {
     "teryt": "24",
-    "liczba": 5077
+    "liczba": 6312
    },
    {
     "teryt": "26",
-    "liczba": 1009
+    "liczba": 1367
    },
    {
     "teryt": "28",
-    "liczba": 527
+    "liczba": 659
    },
    {
     "teryt": "30",
-    "liczba": 7856
+    "liczba": 10101
    },
    {
     "teryt": "32",
-    "liczba": 1024
+    "liczba": 1327
    }
   ],
   "bezWojewodztwa": 145,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 4892
+    "liczba": 5830
    },
    {
     "rok": 2013,
-    "liczba": 4956
+    "liczba": 5912
    },
    {
     "rok": 2014,
-    "liczba": 3685
+    "liczba": 4552
    },
    {
     "rok": 2015,
-    "liczba": 3233
+    "liczba": 4083
    },
    {
     "rok": 2016,
-    "liczba": 3827
+    "liczba": 4670
    },
    {
     "rok": 2017,
-    "liczba": 3775
+    "liczba": 4555
    },
    {
     "rok": 2018,
-    "liczba": 2555
+    "liczba": 3186
    },
    {
     "rok": 2019,
-    "liczba": 1628
+    "liczba": 2101
    },
    {
     "rok": 2020,
-    "liczba": 1118
+    "liczba": 1418
    },
    {
     "rok": 2021,
-    "liczba": 1041
+    "liczba": 2106
    },
    {
     "rok": 2022,
-    "liczba": 858
+    "liczba": 2656
    },
    {
     "rok": 2023,
-    "liczba": 1198
+    "liczba": 2091
    },
    {
     "rok": 2024,
@@ -146,15 +146,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 25578
+    "liczba": 31962
    },
    {
     "nazwa": "Diesel",
-    "liczba": 9293
+    "liczba": 12555
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 982
+    "liczba": 1587
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -162,70 +162,78 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 317
+    "liczba": 465
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 22568
+    "liczba": 28256
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 6134
+    "liczba": 8436
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 4880
-   },
-   {
-    "nazwa": "1,0 l",
-    "liczba": 1119
+    "liczba": 5795
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1108
+    "liczba": 1576
+   },
+   {
+    "nazwa": "1,0 l",
+    "liczba": 1539
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1044
+    "liczba": 1650
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 14524
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 18629
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 14512
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 16325
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 7548
+    "liczba": 12019
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 269
+    "liczba": 279
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 36454
+    "liczba": 46755
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 399
+    "liczba": 497
    }
   ],
-  "noweOdPaczki": 16906,
+  "noweOdPaczki": 27305,
   "hybrydy": 684,
-  "elektryczne": 982,
+  "elektryczne": 1587,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 2182
+   },
+   {
+    "rok": 2022,
+    "liczba": 4755
+   },
+   {
     "rok": 2023,
-    "liczba": 1367
+    "liczba": 4829
    },
    {
     "rok": 2024,
@@ -241,6 +249,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 518
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 372
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 412
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 441
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 431
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 457
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 451
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 483
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 390
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 342
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 355
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 314
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 307
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 350
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 322
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 430
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 293
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 457
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 454
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 448
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 405
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 435
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 452
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 431
+   },
    {
     "miesiac": "2023-12",
     "liczba": 352
@@ -382,16 +486,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 111,
+  "miejsce": 100,
   "miejsceWMarce": 6,
-  "modeliWMarce": 44,
-  "sredniRocznik": 2016.6
+  "modeliWMarce": 45,
+  "sredniRocznik": 2016.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "208",
@@ -408,19 +512,19 @@
    "adres": "/marki/audi/a1/"
   },
   {
-   "slug": "opel-adam",
-   "nazwa": "Opel Adam",
-   "adres": "/marki/opel/adam/"
+   "slug": "hyundai-i30",
+   "nazwa": "Hyundai i30",
+   "adres": "/marki/hyundai/i30/"
+  },
+  {
+   "slug": "kia-rio",
+   "nazwa": "Kia Rio",
+   "adres": "/marki/kia/rio/"
   },
   {
    "slug": "dacia-sandero",
    "nazwa": "Dacia Sandero",
    "adres": "/marki/dacia/sandero/"
-  },
-  {
-   "slug": "hyundai-i30",
-   "nazwa": "Hyundai i30",
-   "adres": "/marki/hyundai/i30/"
   }
  ]
 }

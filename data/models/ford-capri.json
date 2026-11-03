@@ -14,17 +14,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Capri – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 883 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CAPRI, CAPRI 1600, CAPRI 1300, CAPRI 2000, CAPRI 1500).",
-  "liczbaWPolsce": 2768,
-  "aktywne": 933,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Capri – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 900 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CAPRI, CAPRI 1600, CAPRI 1300, CAPRI 2000, CAPRI 1500).",
+  "liczbaWPolsce": 2785,
+  "aktywne": 950,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 159
+    "liczba": 161
    },
    {
     "teryt": "04",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "teryt": "06",
@@ -40,15 +40,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 242
+    "liczba": 246
    },
    {
     "teryt": "14",
-    "liczba": 929
+    "liczba": 933
    },
    {
     "teryt": "16",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "teryt": "18",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 164
+    "liczba": 165
    },
    {
     "teryt": "24",
@@ -72,15 +72,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "teryt": "30",
-    "liczba": 201
+    "liczba": 202
    },
    {
     "teryt": "32",
-    "liczba": 151
+    "liczba": 153
    }
   ],
   "bezWojewodztwa": 15,
@@ -115,7 +115,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 131
+    "liczba": 133
    },
    {
     "rok": 1972,
@@ -127,7 +127,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 167
+    "liczba": 168
    },
    {
     "rok": 1975,
@@ -135,11 +135,11 @@
    },
    {
     "rok": 1976,
-    "liczba": 102
+    "liczba": 104
    },
    {
     "rok": 1977,
-    "liczba": 88
+    "liczba": 90
    },
    {
     "rok": 1978,
@@ -151,23 +151,23 @@
    },
    {
     "rok": 1980,
-    "liczba": 103
+    "liczba": 105
    },
    {
     "rok": 1981,
-    "liczba": 56
+    "liczba": 57
    },
    {
     "rok": 1982,
-    "liczba": 53
+    "liczba": 55
    },
    {
     "rok": 1983,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 1984,
-    "liczba": 43
+    "liczba": 46
    },
    {
     "rok": 1985,
@@ -195,7 +195,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 1992,
@@ -345,7 +345,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 524
+    "liczba": 541
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -363,37 +363,37 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 423
+    "liczba": 427
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 372
+    "liczba": 377
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 363
+    "liczba": 364
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 225
+    "liczba": 226
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 185
+    "liczba": 186
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 169
+    "liczba": 173
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1031
+    "liczba": 1032
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1315
+    "liczba": 1321
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -401,7 +401,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 120
+    "liczba": 131
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -419,7 +419,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 236
+    "liczba": 251
    },
    {
     "nazwa": "Sedan",
@@ -427,20 +427,28 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1324
+    "liczba": 1325
    }
   ],
-  "noweOdPaczki": 883,
+  "noweOdPaczki": 900,
   "hybrydy": 0,
   "elektryczne": 856,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
     "liczba": 5
+   },
+   {
+    "rok": 2023,
+    "liczba": 13
    },
    {
     "rok": 2024,
@@ -456,6 +464,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -597,16 +701,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 506,
-  "miejsceWMarce": 27,
-  "modeliWMarce": 45,
-  "sredniRocznik": 1991.1
+  "miejsce": 534,
+  "miejsceWMarce": 28,
+  "modeliWMarce": 46,
+  "sredniRocznik": 1991.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "capri",
@@ -618,6 +722,11 @@
    "adres": "/marki/fso/polonez/"
   },
   {
+   "slug": "audi-80",
+   "nazwa": "Audi 80",
+   "adres": "/marki/audi/80/"
+  },
+  {
    "slug": "renault-21",
    "nazwa": "Renault 21",
    "adres": "/marki/renault/21/"
@@ -626,11 +735,6 @@
    "slug": "renault-19",
    "nazwa": "Renault 19",
    "adres": "/marki/renault/19/"
-  },
-  {
-   "slug": "audi-80",
-   "nazwa": "Audi 80",
-   "adres": "/marki/audi/80/"
   },
   {
    "slug": "honda-cr-x",

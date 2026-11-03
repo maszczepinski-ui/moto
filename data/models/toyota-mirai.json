@@ -3,7 +3,7 @@
  "marka": "Toyota",
  "model": "Mirai",
  "generacja": "",
- "lataProdukcji": "2017–2024",
+ "lataProdukcji": "2016–2024",
  "nadwozia": [
   "sedan",
   "hatchback"
@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Mirai – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 428 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MIRAI, TOYOTA MIRAI).",
-  "liczbaWPolsce": 428,
-  "aktywne": 428,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Mirai – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 502 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MIRAI, TOYOTA MIRAI).",
+  "liczbaWPolsce": 502,
+  "aktywne": 502,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "06",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "12",
-    "liczba": 6
+    "liczba": 11
    },
    {
     "teryt": "14",
-    "liczba": 229
+    "liczba": 279
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 22
+    "liczba": 25
    },
    {
     "teryt": "24",
-    "liczba": 46
+    "liczba": 51
    },
    {
     "teryt": "26",
@@ -74,26 +74,22 @@
    },
    {
     "teryt": "30",
-    "liczba": 32
+    "liczba": 37
    },
    {
     "teryt": "32",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
-    "rok": 2015,
-    "liczba": 1
-   },
-   {
     "rok": 2016,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 2017,
-    "liczba": 10
+    "liczba": 15
    },
    {
     "rok": 2018,
@@ -101,23 +97,23 @@
    },
    {
     "rok": 2019,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2020,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2021,
-    "liczba": 63
+    "liczba": 114
    },
    {
     "rok": 2022,
-    "liczba": 123
+    "liczba": 136
    },
    {
     "rok": 2023,
-    "liczba": 207
+    "liczba": 208
    },
    {
     "rok": 2024,
@@ -127,15 +123,15 @@
   "paliwa": [
    {
     "nazwa": "Wodór",
-    "liczba": 266
+    "liczba": 329
    },
    {
     "nazwa": "Wodór",
-    "liczba": 126
+    "liczba": 133
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 34
+    "liczba": 38
    },
    {
     "nazwa": "Inne / brak danych",
@@ -145,21 +141,21 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 428
+    "liczba": 502
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 197
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 126
+    "liczba": 208
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 103
+    "liczba": 158
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 134
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,11 +165,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 386
+    "liczba": 458
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -184,13 +180,21 @@
     "liczba": 11
    }
   ],
-  "noweOdPaczki": 428,
-  "hybrydy": 266,
-  "elektryczne": 34,
+  "noweOdPaczki": 502,
+  "hybrydy": 329,
+  "elektryczne": 38,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 13
+   },
+   {
+    "rok": 2022,
+    "liczba": 24
+   },
+   {
     "rok": 2023,
-    "liczba": 18
+    "liczba": 55
    },
    {
     "rok": 2024,
@@ -206,6 +210,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 3
@@ -347,16 +447,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 976,
-  "miejsceWMarce": 34,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2022.1
+  "miejsce": 952,
+  "miejsceWMarce": 33,
+  "modeliWMarce": 43,
+  "sredniRocznik": 2021.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "mirai",

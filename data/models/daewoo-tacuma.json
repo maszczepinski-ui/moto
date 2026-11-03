@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Tacuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TACUMA).",
-  "liczbaWPolsce": 508,
-  "aktywne": 137,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Tacuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TACUMA).",
+  "liczbaWPolsce": 515,
+  "aktywne": 144,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 70
+    "liczba": 73
    },
    {
     "teryt": "08",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "16",
@@ -63,11 +63,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "26",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "28",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 183
+    "liczba": 184
    },
    {
     "rok": 2002,
@@ -98,15 +98,15 @@
    },
    {
     "rok": 2003,
-    "liczba": 79
+    "liczba": 81
    },
    {
     "rok": 2004,
-    "liczba": 80
+    "liczba": 83
    },
    {
     "rok": 2005,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2006,
@@ -119,20 +119,16 @@
    {
     "rok": 2008,
     "liczba": 4
-   },
-   {
-    "rok": 2009,
-    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 316
+    "liczba": 317
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 189
+    "liczba": 195
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,25 +138,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 215
+    "liczba": 220
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 170
+    "liczba": 171
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 123
+    "liczba": 124
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 296
+    "liczba": 301
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 192
+    "liczba": 194
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -174,19 +170,19 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 163
+    "liczba": 165
    },
    {
     "nazwa": "Van",
-    "liczba": 158
+    "liczba": 159
    },
    {
     "nazwa": "Kombi",
-    "liczba": 125
+    "liczba": 128
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "nazwa": "Sedan",
@@ -197,10 +193,22 @@
     "liczba": 24
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 4
+   },
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -215,6 +223,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -356,7 +460,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 918,
+  "miejsce": 945,
   "miejsceWMarce": 9,
   "modeliWMarce": 15,
   "sredniRocznik": 2002.1
@@ -365,31 +469,31 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "tacuma",
  "adres": "/marki/daewoo/tacuma/",
  "konkurenci": [
   {
-   "slug": "honda-civic",
-   "nazwa": "Honda Civic",
-   "adres": "/marki/honda/civic/"
-  },
-  {
-   "slug": "renault-laguna",
-   "nazwa": "Renault Laguna",
-   "adres": "/marki/renault/laguna/"
-  },
-  {
    "slug": "nissan-almera",
    "nazwa": "Nissan Almera",
    "adres": "/marki/nissan/almera/"
   },
   {
+   "slug": "honda-civic",
+   "nazwa": "Honda Civic",
+   "adres": "/marki/honda/civic/"
+  },
+  {
    "slug": "volkswagen-new-beetle",
    "nazwa": "Volkswagen New Beetle",
    "adres": "/marki/volkswagen/new-beetle/"
+  },
+  {
+   "slug": "renault-laguna",
+   "nazwa": "Renault Laguna",
+   "adres": "/marki/renault/laguna/"
   },
   {
    "slug": "opel-astra-g",

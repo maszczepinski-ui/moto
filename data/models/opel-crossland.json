@@ -12,104 +12,104 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Crossland – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 106 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSLAND X, CROSSLAND).",
-  "liczbaWPolsce": 8737,
-  "aktywne": 8735,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Crossland – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 018 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSLAND X, CROSSLAND).",
+  "liczbaWPolsce": 12649,
+  "aktywne": 12647,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 530
+    "liczba": 688
    },
    {
     "teryt": "04",
-    "liczba": 635
+    "liczba": 883
    },
    {
     "teryt": "06",
-    "liczba": 254
+    "liczba": 340
    },
    {
     "teryt": "08",
-    "liczba": 220
+    "liczba": 341
    },
    {
     "teryt": "10",
-    "liczba": 490
+    "liczba": 671
    },
    {
     "teryt": "12",
-    "liczba": 778
+    "liczba": 1114
    },
    {
     "teryt": "14",
-    "liczba": 1003
+    "liczba": 1666
    },
    {
     "teryt": "16",
-    "liczba": 241
+    "liczba": 309
    },
    {
     "teryt": "18",
-    "liczba": 579
+    "liczba": 814
    },
    {
     "teryt": "20",
-    "liczba": 176
+    "liczba": 244
    },
    {
     "teryt": "22",
-    "liczba": 517
+    "liczba": 697
    },
    {
     "teryt": "24",
-    "liczba": 1474
+    "liczba": 2173
    },
    {
     "teryt": "26",
-    "liczba": 201
+    "liczba": 243
    },
    {
     "teryt": "28",
-    "liczba": 268
+    "liczba": 391
    },
    {
     "teryt": "30",
-    "liczba": 1107
+    "liczba": 1657
    },
    {
     "teryt": "32",
-    "liczba": 262
+    "liczba": 416
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 1302
+    "liczba": 1487
    },
    {
     "rok": 2018,
-    "liczba": 2180
+    "liczba": 2457
    },
    {
     "rok": 2019,
-    "liczba": 1664
+    "liczba": 1913
    },
    {
     "rok": 2020,
-    "liczba": 589
+    "liczba": 772
    },
    {
     "rok": 2021,
-    "liczba": 430
+    "liczba": 1332
    },
    {
     "rok": 2022,
-    "liczba": 299
+    "liczba": 1923
    },
    {
     "rok": 2023,
-    "liczba": 430
+    "liczba": 919
    },
    {
     "rok": 2024,
@@ -119,15 +119,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 7820
+    "liczba": 11477
    },
    {
     "nazwa": "Diesel",
-    "liczba": 773
+    "liczba": 1009
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 140
+    "liczba": 159
    },
    {
     "nazwa": "Inne / brak danych",
@@ -137,64 +137,72 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 7957
+    "liczba": 11631
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 486
+    "liczba": 620
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 293
+    "liczba": 396
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 4098
+    "liczba": 5219
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3279
+    "liczba": 3882
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1347
+    "liczba": 3530
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 18
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 7856
+    "liczba": 11455
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 543
+    "liczba": 719
    },
    {
     "nazwa": "Kombi",
-    "liczba": 238
+    "liczba": 341
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 100
+    "liczba": 134
    }
   ],
-  "noweOdPaczki": 6106,
+  "noweOdPaczki": 10018,
   "hybrydy": 2,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 980
+   },
+   {
+    "rok": 2022,
+    "liczba": 1869
+   },
+   {
     "rok": 2023,
-    "liczba": 418
+    "liczba": 1481
    },
    {
     "rok": 2024,
@@ -210,6 +218,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 228
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 362
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 117
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 205
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 251
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 193
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 314
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 107
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 190
+   },
    {
     "miesiac": "2023-12",
     "liczba": 132
@@ -351,16 +455,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 308,
-  "miejsceWMarce": 18,
+  "miejsce": 273,
+  "miejsceWMarce": 16,
   "modeliWMarce": 33,
-  "sredniRocznik": 2019.9
+  "sredniRocznik": 2020.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "crossland",
@@ -372,24 +476,24 @@
    "adres": "/marki/ford/puma/"
   },
   {
-   "slug": "renault-captur",
-   "nazwa": "Renault Captur",
-   "adres": "/marki/renault/captur/"
-  },
-  {
    "slug": "hyundai-kona",
    "nazwa": "Hyundai Kona",
    "adres": "/marki/hyundai/kona/"
   },
   {
+   "slug": "renault-captur",
+   "nazwa": "Renault Captur",
+   "adres": "/marki/renault/captur/"
+  },
+  {
+   "slug": "buick-encore",
+   "nazwa": "Buick Encore",
+   "adres": "/marki/buick/encore/"
+  },
+  {
    "slug": "kia-stonic",
    "nazwa": "Kia Stonic",
    "adres": "/marki/kia/stonic/"
-  },
-  {
-   "slug": "nissan-pulsar",
-   "nazwa": "Nissan Pulsar",
-   "adres": "/marki/nissan/pulsar/"
   }
  ]
 }

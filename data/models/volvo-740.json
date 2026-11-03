@@ -12,17 +12,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 740 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 38 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 740, 740 2.4D, 740 2.3, 740 GL, 740 2.3 KAT).",
-  "liczbaWPolsce": 2334,
-  "aktywne": 128,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 740 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 62 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 740, 740 2.4D, 740 2.3, 740 GL, 740 2.3 KAT).",
+  "liczbaWPolsce": 2358,
+  "aktywne": 152,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 155
+    "liczba": 157
    },
    {
     "teryt": "04",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "06",
@@ -38,19 +38,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 139
+    "liczba": 141
    },
    {
     "teryt": "14",
-    "liczba": 573
+    "liczba": 578
    },
    {
     "teryt": "16",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "18",
-    "liczba": 47
+    "liczba": 48
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 189
+    "liczba": 195
    },
    {
     "teryt": "24",
-    "liczba": 143
+    "liczba": 145
    },
    {
     "teryt": "26",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 102
+    "liczba": 103
    },
    {
     "teryt": "30",
-    "liczba": 175
+    "liczba": 177
    },
    {
     "teryt": "32",
-    "liczba": 155
+    "liczba": 156
    }
   ],
   "bezWojewodztwa": 2,
@@ -93,31 +93,31 @@
    },
    {
     "rok": 1985,
-    "liczba": 252
+    "liczba": 253
    },
    {
     "rok": 1986,
-    "liczba": 280
+    "liczba": 283
    },
    {
     "rok": 1987,
-    "liczba": 298
+    "liczba": 301
    },
    {
     "rok": 1988,
-    "liczba": 328
+    "liczba": 332
    },
    {
     "rok": 1989,
-    "liczba": 329
+    "liczba": 333
    },
    {
     "rok": 1990,
-    "liczba": 345
+    "liczba": 349
    },
    {
     "rok": 1991,
-    "liczba": 144
+    "liczba": 149
    },
    {
     "rok": 1992,
@@ -147,15 +147,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 820
+    "liczba": 822
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 497
+    "liczba": 498
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 476
+    "liczba": 497
    },
    {
     "nazwa": "?+LPG",
@@ -169,29 +169,29 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 1120
+    "liczba": 1138
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 945
+    "liczba": 946
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 209
+    "liczba": 213
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 60
+    "liczba": 61
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1507
+    "liczba": 1515
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 590
+    "liczba": 605
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -199,34 +199,42 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 40
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 966
+    "liczba": 979
    },
    {
     "nazwa": "Kombi",
-    "liczba": 532
+    "liczba": 542
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 785
    }
   ],
-  "noweOdPaczki": 38,
+  "noweOdPaczki": 62,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 9
+   },
+   {
+    "rok": 2023,
+    "liczba": 15
    },
    {
     "rok": 2024,
@@ -242,6 +250,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -383,16 +487,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 540,
+  "miejsce": 565,
   "miejsceWMarce": 19,
-  "modeliWMarce": 33,
+  "modeliWMarce": 34,
   "sredniRocznik": 1988.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "740",

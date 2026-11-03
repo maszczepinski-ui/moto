@@ -7,20 +7,20 @@
  "nadwozia": [
   "coupe",
   "hatchback",
-  "kombi",
-  "sedan"
+  "sedan",
+  "kombi"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Scion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 38 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCION, SCION FR-S).",
-  "liczbaWPolsce": 207,
-  "aktywne": 92,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Scion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCION, SCION FR-S).",
+  "liczbaWPolsce": 237,
+  "aktywne": 122,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 18
+    "liczba": 21
    },
    {
     "teryt": "04",
@@ -28,23 +28,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "08",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "teryt": "10",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "12",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "teryt": "14",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "teryt": "16",
@@ -52,35 +52,35 @@
    },
    {
     "teryt": "18",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "20",
-    "liczba": 17
-   },
-   {
-    "teryt": "22",
-    "liczba": 9
-   },
-   {
-    "teryt": "24",
     "liczba": 18
    },
    {
+    "teryt": "22",
+    "liczba": 13
+   },
+   {
+    "teryt": "24",
+    "liczba": 22
+   },
+   {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "28",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 7
+    "liczba": 11
    },
    {
     "teryt": "32",
-    "liczba": 4
+    "liczba": 6
    }
   ],
   "bezWojewodztwa": 1,
@@ -95,19 +95,19 @@
    },
    {
     "rok": 2006,
-    "liczba": 66
+    "liczba": 67
    },
    {
     "rok": 2007,
-    "liczba": 20
+    "liczba": 21
    },
    {
     "rok": 2008,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2009,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2010,
@@ -115,37 +115,37 @@
    },
    {
     "rok": 2011,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2012,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2013,
-    "liczba": 17
+    "liczba": 25
    },
    {
     "rok": 2014,
-    "liczba": 8
+    "liczba": 11
    },
    {
     "rok": 2015,
-    "liczba": 9
+    "liczba": 17
    },
    {
     "rok": 2016,
-    "liczba": 12
+    "liczba": 16
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 140
+    "liczba": 169
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,23 +155,23 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 87
+    "liczba": 90
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 36
+    "liczba": 55
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 18
+    "liczba": 22
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
@@ -181,11 +181,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 111
+    "liczba": 129
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 95
+    "liczba": 107
    },
    {
     "nazwa": "Inne / brak danych",
@@ -195,18 +195,18 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 94
+    "liczba": 115
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 79
-   },
-   {
-    "nazwa": "Kombi",
-    "liczba": 10
+    "liczba": 87
    },
    {
     "nazwa": "Sedan",
+    "liczba": 11
+   },
+   {
+    "nazwa": "Kombi",
     "liczba": 10
    },
    {
@@ -218,13 +218,21 @@
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 38,
+  "noweOdPaczki": 68,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 5
+   },
+   {
+    "rok": 2022,
+    "liczba": 13
+   },
+   {
+    "rok": 2023,
+    "liczba": 17
    },
    {
     "rok": 2024,
@@ -240,6 +248,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -381,16 +485,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1215,
-  "miejsceWMarce": 39,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2008.1
+  "miejsce": 1209,
+  "miejsceWMarce": 38,
+  "modeliWMarce": 43,
+  "sredniRocznik": 2008.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "scion",

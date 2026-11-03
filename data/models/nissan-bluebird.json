@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Bluebird – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BLUEBIRD, BLUEBIRD 2.0, BLUEBIRD 1.9D, BLUEBIRD 2.0 KAT, BLUEBIRD 1.6).",
-  "liczbaWPolsce": 2029,
-  "aktywne": 20,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Bluebird – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BLUEBIRD, BLUEBIRD 2.0, BLUEBIRD 1.9D, BLUEBIRD 2.0 KAT, BLUEBIRD 1.6).",
+  "liczbaWPolsce": 2039,
+  "aktywne": 30,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -31,7 +31,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 123
+    "liczba": 125
    },
    {
     "teryt": "10",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 258
+    "liczba": 261
    },
    {
     "teryt": "16",
@@ -55,15 +55,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "22",
-    "liczba": 141
+    "liczba": 142
    },
    {
     "teryt": "24",
-    "liczba": 150
+    "liczba": 153
    },
    {
     "teryt": "26",
@@ -114,19 +114,19 @@
    },
    {
     "rok": 1987,
-    "liczba": 188
+    "liczba": 190
    },
    {
     "rok": 1988,
-    "liczba": 169
+    "liczba": 172
    },
    {
     "rok": 1989,
-    "liczba": 158
+    "liczba": 161
    },
    {
     "rok": 1990,
-    "liczba": 142
+    "liczba": 144
    },
    {
     "rok": 1991,
@@ -164,7 +164,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 292
+    "liczba": 302
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -182,7 +182,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1044
+    "liczba": 1050
    },
    {
     "nazwa": "1,9 l",
@@ -190,11 +190,11 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 183
+    "liczba": 185
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 114
+    "liczba": 116
    },
    {
     "nazwa": "Inne / brak danych",
@@ -204,7 +204,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1511
+    "liczba": 1517
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -212,7 +212,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 192
+    "liczba": 196
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -226,11 +226,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 457
+    "liczba": 464
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 166
+    "liczba": 169
    },
    {
     "nazwa": "Kombi",
@@ -241,13 +241,21 @@
     "liczba": 1261
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 25,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 7
+   },
+   {
+    "rok": 2023,
+    "liczba": 3
    },
    {
     "rok": 2024,
@@ -263,6 +271,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -404,16 +508,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 573,
+  "miejsce": 600,
   "miejsceWMarce": 18,
-  "modeliWMarce": 46,
+  "modeliWMarce": 47,
   "sredniRocznik": 1987.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "bluebird",

@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tata Indica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: INDICA).",
-  "liczbaWPolsce": 538,
-  "aktywne": 111,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tata Indica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: INDICA).",
+  "liczbaWPolsce": 542,
+  "aktywne": 115,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "20",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "24",
@@ -65,7 +65,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "28",
@@ -96,7 +96,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 281
+    "liczba": 282
    },
    {
     "rok": 2009,
@@ -108,13 +108,13 @@
    },
    {
     "rok": 2011,
-    "liczba": 2
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 435
+    "liczba": 438
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -122,17 +122,17 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 50
+    "liczba": 51
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 536
+    "liczba": 539
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "pochodzenie": [
@@ -142,11 +142,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 173
+    "liczba": 174
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,17 +156,25 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 532
+    "liczba": 535
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 7
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 3
+   },
    {
     "rok": 2023,
     "liczba": 1
@@ -185,6 +193,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -326,7 +430,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 897,
+  "miejsce": 931,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
   "sredniRocznik": 2008.7
@@ -335,7 +439,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "tata",
  "modelSlug": "indica",
@@ -347,19 +451,19 @@
    "adres": "/marki/mazda/2/"
   },
   {
-   "slug": "skoda-fabia",
-   "nazwa": "Skoda Fabia",
-   "adres": "/marki/skoda/fabia/"
+   "slug": "suzuki-swift",
+   "nazwa": "Suzuki Swift",
+   "adres": "/marki/suzuki/swift/"
+  },
+  {
+   "slug": "suzuki-ignis",
+   "nazwa": "Suzuki Ignis",
+   "adres": "/marki/suzuki/ignis/"
   },
   {
    "slug": "mitsubishi-space-star",
    "nazwa": "Mitsubishi Space Star",
    "adres": "/marki/mitsubishi/space-star/"
-  },
-  {
-   "slug": "suzuki-swift",
-   "nazwa": "Suzuki Swift",
-   "adres": "/marki/suzuki/swift/"
   },
   {
    "slug": "peugeot-207",

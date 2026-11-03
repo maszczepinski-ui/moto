@@ -12,17 +12,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 400 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 400, 416, 420, 416 SI, 420 D).",
-  "liczbaWPolsce": 4674,
-  "aktywne": 273,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 400 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 400, 416, 420, 416 SI, 420 D).",
+  "liczbaWPolsce": 4679,
+  "aktywne": 278,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 509
+    "liczba": 510
    },
    {
     "teryt": "04",
-    "liczba": 264
+    "liczba": 265
    },
    {
     "teryt": "06",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 221
+    "liczba": 222
    },
    {
     "teryt": "10",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 638
+    "liczba": 639
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 221
+    "liczba": 222
    },
    {
     "teryt": "24",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 1993,
@@ -109,15 +109,15 @@
    },
    {
     "rok": 1997,
-    "liczba": 1007
+    "liczba": 1008
    },
    {
     "rok": 1998,
-    "liczba": 1162
+    "liczba": 1164
    },
    {
     "rok": 1999,
-    "liczba": 889
+    "liczba": 890
    },
    {
     "rok": 2000,
@@ -127,7 +127,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2429
+    "liczba": 2434
    },
    {
     "nazwa": "Diesel",
@@ -145,7 +145,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2470
+    "liczba": 2475
    },
    {
     "nazwa": "2,0 l",
@@ -167,7 +167,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1730
+    "liczba": 1735
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,11 +181,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2242
+    "liczba": 2245
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 2060
+    "liczba": 2062
    },
    {
     "nazwa": "Kombi",
@@ -196,10 +196,22 @@
     "liczba": 296
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 2
+   },
+   {
+    "rok": 2022,
+    "liczba": 2
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 1
@@ -210,6 +222,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -351,7 +459,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 420,
+  "miejsce": 440,
   "miejsceWMarce": 3,
   "modeliWMarce": 9,
   "sredniRocznik": 1997.2
@@ -360,7 +468,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "rover",
  "modelSlug": "400",

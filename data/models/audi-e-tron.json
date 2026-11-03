@@ -7,107 +7,106 @@
  "nadwozia": [
   "hatchback",
   "kombi",
-  "van",
-  "coupe"
+  "van"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi E-Tron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 561 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: E-TRON GT, E-TRON, E-TRON 50, E-TRON 55, E-TRON SPORTBACK 55).",
-  "liczbaWPolsce": 561,
-  "aktywne": 561,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi E-Tron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 222 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: E-TRON GT, E-TRON SPORTBACK 55, E-TRON 55, E-TRON, E-TRON 50).",
+  "liczbaWPolsce": 1222,
+  "aktywne": 1222,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 40
+    "liczba": 77
    },
    {
     "teryt": "04",
-    "liczba": 25
-   },
-   {
-    "teryt": "06",
-    "liczba": 29
-   },
-   {
-    "teryt": "08",
-    "liczba": 14
-   },
-   {
-    "teryt": "10",
-    "liczba": 27
-   },
-   {
-    "teryt": "12",
-    "liczba": 49
-   },
-   {
-    "teryt": "14",
-    "liczba": 112
-   },
-   {
-    "teryt": "16",
-    "liczba": 10
-   },
-   {
-    "teryt": "18",
-    "liczba": 36
-   },
-   {
-    "teryt": "20",
-    "liczba": 20
-   },
-   {
-    "teryt": "22",
-    "liczba": 42
-   },
-   {
-    "teryt": "24",
-    "liczba": 51
-   },
-   {
-    "teryt": "26",
-    "liczba": 15
-   },
-   {
-    "teryt": "28",
-    "liczba": 13
-   },
-   {
-    "teryt": "30",
     "liczba": 59
    },
    {
+    "teryt": "06",
+    "liczba": 48
+   },
+   {
+    "teryt": "08",
+    "liczba": 28
+   },
+   {
+    "teryt": "10",
+    "liczba": 60
+   },
+   {
+    "teryt": "12",
+    "liczba": 102
+   },
+   {
+    "teryt": "14",
+    "liczba": 238
+   },
+   {
+    "teryt": "16",
+    "liczba": 22
+   },
+   {
+    "teryt": "18",
+    "liczba": 56
+   },
+   {
+    "teryt": "20",
+    "liczba": 41
+   },
+   {
+    "teryt": "22",
+    "liczba": 112
+   },
+   {
+    "teryt": "24",
+    "liczba": 135
+   },
+   {
+    "teryt": "26",
+    "liczba": 36
+   },
+   {
+    "teryt": "28",
+    "liczba": 27
+   },
+   {
+    "teryt": "30",
+    "liczba": 146
+   },
+   {
     "teryt": "32",
-    "liczba": 19
+    "liczba": 35
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 4
+    "liczba": 7
    },
    {
     "rok": 2019,
-    "liczba": 88
+    "liczba": 108
    },
    {
     "rok": 2020,
-    "liczba": 97
+    "liczba": 131
    },
    {
     "rok": 2021,
-    "liczba": 96
+    "liczba": 320
    },
    {
     "rok": 2022,
-    "liczba": 146
+    "liczba": 487
    },
    {
     "rok": 2023,
-    "liczba": 75
+    "liczba": 113
    },
    {
     "rok": 2024,
@@ -125,31 +124,31 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 559
+    "liczba": 1218
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 4
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 561
+    "liczba": 1222
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 373
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 465
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 113
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 457
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 74
+    "liczba": 299
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,40 +158,44 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 270
+    "liczba": 731
    },
    {
     "nazwa": "Kombi",
-    "liczba": 195
+    "liczba": 371
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 53
+    "liczba": 68
    },
    {
     "nazwa": "Coupe",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "nazwa": "Sedan",
-    "liczba": 9
-   },
-   {
-    "nazwa": "Terenowy",
-    "liczba": 6
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 20
    }
   ],
-  "noweOdPaczki": 561,
-  "hybrydy": 1,
-  "elektryczne": 559,
+  "noweOdPaczki": 1222,
+  "hybrydy": 2,
+  "elektryczne": 1218,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 100
+   },
+   {
+    "rok": 2022,
+    "liczba": 401
+   },
+   {
     "rok": 2023,
-    "liczba": 59
+    "liczba": 219
    },
    {
     "rok": 2024,
@@ -208,6 +211,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 16
+   },
    {
     "miesiac": "2023-12",
     "liczba": 19
@@ -349,16 +448,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 887,
-  "miejsceWMarce": 40,
-  "modeliWMarce": 51,
+  "miejsce": 730,
+  "miejsceWMarce": 30,
+  "modeliWMarce": 52,
   "sredniRocznik": 2021.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "e-tron",
@@ -375,19 +474,19 @@
    "adres": "/marki/byd/dolphin/"
   },
   {
-   "slug": "citroen-e-c3",
-   "nazwa": "Citroen E-C3",
-   "adres": "/marki/citroen/e-c3/"
+   "slug": "leapmotor-b10",
+   "nazwa": "Leapmotor B10",
+   "adres": "/marki/leapmotor/b10/"
   },
   {
-   "slug": "leapmotor-t03",
-   "nazwa": "Leapmotor T03",
-   "adres": "/marki/leapmotor/t03/"
+   "slug": "renault-zoe",
+   "nazwa": "Renault Zoe",
+   "adres": "/marki/renault/zoe/"
   },
   {
-   "slug": "bmw-ix2",
-   "nazwa": "BMW IX2",
-   "adres": "/marki/bmw/ix2/"
+   "slug": "mazda-mx-30",
+   "nazwa": "Mazda MX-30",
+   "adres": "/marki/mazda/mx-30/"
   }
  ]
 }

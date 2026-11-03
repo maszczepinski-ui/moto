@@ -12,96 +12,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 554 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS 6 AVANT, RS6, RS6 AVANT, RS 6 GT AVANT, RS6 AVANT PERFORMANCE).",
-  "liczbaWPolsce": 709,
-  "aktywne": 626,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 871 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS 6 AVANT, RS6, RS6 AVANT, RS 6 GT AVANT, RS 6 AVANT PERFORMANCE).",
+  "liczbaWPolsce": 1026,
+  "aktywne": 943,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 59
+    "liczba": 90
    },
    {
     "teryt": "04",
-    "liczba": 21
+    "liczba": 39
    },
    {
     "teryt": "06",
-    "liczba": 23
+    "liczba": 39
    },
    {
     "teryt": "08",
-    "liczba": 19
+    "liczba": 26
    },
    {
     "teryt": "10",
-    "liczba": 40
+    "liczba": 54
    },
    {
     "teryt": "12",
-    "liczba": 53
+    "liczba": 76
    },
    {
     "teryt": "14",
-    "liczba": 209
+    "liczba": 298
    },
    {
     "teryt": "16",
-    "liczba": 5
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 22
+    "liczba": 28
    },
    {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 15
    },
    {
     "teryt": "22",
-    "liczba": 64
+    "liczba": 83
    },
    {
     "teryt": "24",
-    "liczba": 77
+    "liczba": 112
    },
    {
     "teryt": "26",
-    "liczba": 8
+    "liczba": 18
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 9
    },
    {
     "teryt": "30",
-    "liczba": 82
+    "liczba": 108
    },
    {
     "teryt": "32",
-    "liczba": 8
+    "liczba": 14
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
-    "rok": 2000,
-    "liczba": 2
-   },
-   {
-    "rok": 2001,
-    "liczba": 0
-   },
-   {
     "rok": 2002,
-    "liczba": 18
+    "liczba": 22
    },
    {
     "rok": 2003,
-    "liczba": 48
+    "liczba": 62
    },
    {
     "rok": 2004,
-    "liczba": 16
+    "liczba": 19
    },
    {
     "rok": 2005,
@@ -117,15 +109,15 @@
    },
    {
     "rok": 2008,
-    "liczba": 46
+    "liczba": 53
    },
    {
     "rok": 2009,
-    "liczba": 7
+    "liczba": 12
    },
    {
     "rok": 2010,
-    "liczba": 12
+    "liczba": 16
    },
    {
     "rok": 2011,
@@ -137,27 +129,27 @@
    },
    {
     "rok": 2013,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 2014,
-    "liczba": 10
-   },
-   {
-    "rok": 2015,
     "liczba": 12
    },
    {
+    "rok": 2015,
+    "liczba": 19
+   },
+   {
     "rok": 2016,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2017,
-    "liczba": 8
+    "liczba": 15
    },
    {
     "rok": 2018,
-    "liczba": 5
+    "liczba": 8
    },
    {
     "rok": 2019,
@@ -165,19 +157,19 @@
    },
    {
     "rok": 2020,
-    "liczba": 14
+    "liczba": 21
    },
    {
     "rok": 2021,
-    "liczba": 14
+    "liczba": 83
    },
    {
     "rok": 2022,
-    "liczba": 12
+    "liczba": 141
    },
    {
     "rok": 2023,
-    "liczba": 79
+    "liczba": 132
    },
    {
     "rok": 2024,
@@ -191,11 +183,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 436
+    "liczba": 601
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 266
+    "liczba": 418
    },
    {
     "nazwa": "Inne / brak danych",
@@ -205,15 +197,15 @@
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 554
+    "liczba": 834
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 85
+    "liczba": 106
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 66
+    "liczba": 82
    },
    {
     "nazwa": "Inne / brak danych",
@@ -223,15 +215,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 364
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 187
+    "liczba": 479
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 150
+    "liczba": 303
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 236
    },
    {
     "nazwa": "Inne / brak danych",
@@ -241,24 +233,32 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 663
+    "liczba": 967
    },
    {
     "nazwa": "Sedan",
-    "liczba": 32
+    "liczba": 44
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 15
    }
   ],
-  "noweOdPaczki": 554,
-  "hybrydy": 266,
+  "noweOdPaczki": 871,
+  "hybrydy": 418,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 72
+   },
+   {
+    "rok": 2022,
+    "liczba": 152
+   },
+   {
     "rok": 2023,
-    "liczba": 55
+    "liczba": 148
    },
    {
     "rok": 2024,
@@ -274,6 +274,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 17
+   },
    {
     "miesiac": "2023-12",
     "liczba": 26
@@ -415,16 +511,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 828,
-  "miejsceWMarce": 35,
-  "modeliWMarce": 51,
-  "sredniRocznik": 2019.0
+  "miejsce": 776,
+  "miejsceWMarce": 32,
+  "modeliWMarce": 52,
+  "sredniRocznik": 2019.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "rs6",
@@ -451,9 +547,9 @@
    "adres": "/marki/chrysler/pacifica/"
   },
   {
-   "slug": "toyota-highlander",
-   "nazwa": "Toyota Highlander",
-   "adres": "/marki/toyota/highlander/"
+   "slug": "mercedes-benz-amg",
+   "nazwa": "Mercedes-Benz Amg",
+   "adres": "/marki/mercedes-benz/amg/"
   }
  ]
 }

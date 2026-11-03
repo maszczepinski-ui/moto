@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG HS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 612 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG HS, MG HS HYBRID, HS, HS HYBRID, MG HS PLUG-IN HYBRID).",
-  "liczbaWPolsce": 20612,
-  "aktywne": 20612,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG HS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 616 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG HS, MG HS HYBRID, HS, HS HYBRID, MG HS PLUG-IN HYBRID).",
+  "liczbaWPolsce": 20616,
+  "aktywne": 20616,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 3922
+    "liczba": 3923
    },
    {
     "teryt": "16",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 2212
+    "liczba": 2214
    },
    {
     "teryt": "32",
-    "liczba": 1515
+    "liczba": 1516
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 1377
+    "liczba": 1381
    },
    {
     "rok": 2024,
@@ -106,7 +106,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 10955
+    "liczba": 10959
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -120,17 +120,17 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 20612
+    "liczba": 20616
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 18821
+    "liczba": 18822
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1556
+    "liczba": 1559
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -144,20 +144,20 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 20580
+    "liczba": 20584
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 32
    }
   ],
-  "noweOdPaczki": 20612,
+  "noweOdPaczki": 20616,
   "hybrydy": 9601,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
-    "liczba": 26
+    "liczba": 30
    },
    {
     "rok": 2024,
@@ -173,6 +173,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 8
+   },
    {
     "miesiac": "2023-12",
     "liczba": 18
@@ -314,7 +410,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 183,
+  "miejsce": 198,
   "miejsceWMarce": 1,
   "modeliWMarce": 7,
   "sredniRocznik": 2024.7
@@ -323,7 +419,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "hs",
@@ -340,11 +436,6 @@
    "adres": "/marki/chery/tiggo-4/"
   },
   {
-   "slug": "kia-xceed",
-   "nazwa": "Kia XCeed",
-   "adres": "/marki/kia/xceed/"
-  },
-  {
    "slug": "omoda-5",
    "nazwa": "Omoda 5",
    "adres": "/marki/omoda/5/"
@@ -353,6 +444,11 @@
    "slug": "chery-tiggo-7",
    "nazwa": "Chery Tiggo 7",
    "adres": "/marki/chery/tiggo-7/"
+  },
+  {
+   "slug": "dacia-bigster",
+   "nazwa": "Dacia Bigster",
+   "adres": "/marki/dacia/bigster/"
   }
  ]
 }

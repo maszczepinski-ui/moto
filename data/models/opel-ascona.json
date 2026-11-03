@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Ascona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASCONA, ASCONA 1.6, ASCONA 1.6D, ASCONA 1.3, ASCONA 1.9).",
-  "liczbaWPolsce": 19817,
-  "aktywne": 59,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Ascona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASCONA, ASCONA 1.6, ASCONA 1.6D, ASCONA 1.3, ASCONA 1.9).",
+  "liczbaWPolsce": 19841,
+  "aktywne": 83,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2054
+    "liczba": 2058
    },
    {
     "teryt": "04",
@@ -26,23 +26,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 1086
+    "liczba": 1088
    },
    {
     "teryt": "08",
-    "liczba": 1013
+    "liczba": 1015
    },
    {
     "teryt": "10",
-    "liczba": 1155
+    "liczba": 1158
    },
    {
     "teryt": "12",
-    "liczba": 1004
+    "liczba": 1005
    },
    {
     "teryt": "14",
-    "liczba": 2183
+    "liczba": 2185
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 1710
+    "liczba": 1713
    },
    {
     "teryt": "24",
-    "liczba": 1658
+    "liczba": 1661
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1746
+    "liczba": 1750
    },
    {
     "teryt": "32",
@@ -85,7 +85,7 @@
   "roczniki": [
    {
     "rok": 1973,
-    "liczba": 75
+    "liczba": 76
    },
    {
     "rok": 1974,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 481
+    "liczba": 482
    },
    {
     "rok": 1978,
@@ -121,31 +121,31 @@
    },
    {
     "rok": 1982,
-    "liczba": 3315
+    "liczba": 3316
    },
    {
     "rok": 1983,
-    "liczba": 2931
+    "liczba": 2934
    },
    {
     "rok": 1984,
-    "liczba": 2559
+    "liczba": 2562
    },
    {
     "rok": 1985,
-    "liczba": 1756
+    "liczba": 1761
    },
    {
     "rok": 1986,
-    "liczba": 1303
+    "liczba": 1306
    },
    {
     "rok": 1987,
-    "liczba": 739
+    "liczba": 745
    },
    {
     "rok": 1988,
-    "liczba": 590
+    "liczba": 591
    },
    {
     "rok": 1989,
@@ -187,11 +187,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4017
+    "liczba": 4038
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3422
+    "liczba": 3425
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -209,27 +209,27 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 12764
+    "liczba": 12778
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 3332
+    "liczba": 3334
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1082
+    "liczba": 1087
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 854
+    "liczba": 855
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 842
+    "liczba": 843
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 433
+    "liczba": 434
    },
    {
     "nazwa": "Inne / brak danych",
@@ -239,7 +239,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 15352
+    "liczba": 15355
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -247,7 +247,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 872
+    "liczba": 893
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -261,24 +261,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 4866
+    "liczba": 4881
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1230
+    "liczba": 1234
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13721
+    "liczba": 13726
    }
   ],
-  "noweOdPaczki": 20,
+  "noweOdPaczki": 44,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 5
+   },
+   {
+    "rok": 2022,
+    "liczba": 9
+   },
+   {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 11
    },
    {
     "rok": 2024,
@@ -294,6 +302,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -435,8 +539,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 189,
-  "miejsceWMarce": 10,
+  "miejsce": 205,
+  "miejsceWMarce": 11,
   "modeliWMarce": 33,
   "sredniRocznik": 1983.9
  },
@@ -444,7 +548,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "ascona",

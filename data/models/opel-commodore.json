@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Commodore – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COMMODORE 2.5, COMMODORE).",
-  "liczbaWPolsce": 480,
-  "aktywne": 11,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Commodore – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COMMODORE 2.5, COMMODORE).",
+  "liczbaWPolsce": 484,
+  "aktywne": 15,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "12",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "16",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "18",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 72
+    "liczba": 73
    },
    {
     "teryt": "32",
@@ -164,7 +164,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1972,
@@ -184,7 +184,7 @@
    },
    {
     "rok": 1976,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1977,
@@ -196,7 +196,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 138
+    "liczba": 140
    },
    {
     "rok": 1980,
@@ -274,7 +274,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 77
+    "liczba": 81
    },
    {
     "nazwa": "?+LPG",
@@ -296,7 +296,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 381
+    "liczba": 384
    },
    {
     "nazwa": "2,0 l",
@@ -323,8 +323,12 @@
     "liczba": 6
    },
    {
+    "nazwa": "2,8 l",
+    "liczba": 5
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 28
    }
   ],
   "pochodzenie": [
@@ -338,7 +342,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 31
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
@@ -348,24 +352,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 56
+    "liczba": 58
    },
    {
     "nazwa": "Coupe",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 419
+    "liczba": 420
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
+    "liczba": 2
+   },
+   {
+    "rok": 2022,
     "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 2
    },
    {
     "rok": 2024,
@@ -381,6 +393,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -522,7 +630,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 943,
+  "miejsce": 967,
   "miejsceWMarce": 30,
   "modeliWMarce": 33,
   "sredniRocznik": 1979.1
@@ -531,7 +639,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "commodore",

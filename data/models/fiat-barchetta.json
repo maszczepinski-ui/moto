@@ -12,108 +12,108 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Barchetta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 128 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BARCHETTA, BARCHETTA 1.8 KAT).",
-  "liczbaWPolsce": 947,
-  "aktywne": 306,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Barchetta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 211 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BARCHETTA, BARCHETTA 1.8 KAT).",
+  "liczbaWPolsce": 1030,
+  "aktywne": 389,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 78
+    "liczba": 85
    },
    {
     "teryt": "04",
-    "liczba": 36
+    "liczba": 41
    },
    {
     "teryt": "06",
-    "liczba": 42
+    "liczba": 45
    },
    {
     "teryt": "08",
-    "liczba": 36
+    "liczba": 41
    },
    {
     "teryt": "10",
-    "liczba": 49
+    "liczba": 52
    },
    {
     "teryt": "12",
-    "liczba": 91
+    "liczba": 96
    },
    {
     "teryt": "14",
-    "liczba": 157
+    "liczba": 169
    },
    {
     "teryt": "16",
-    "liczba": 16
+    "liczba": 19
    },
    {
     "teryt": "18",
-    "liczba": 46
+    "liczba": 48
    },
    {
     "teryt": "20",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "22",
-    "liczba": 57
+    "liczba": 63
    },
    {
     "teryt": "24",
-    "liczba": 149
+    "liczba": 160
    },
    {
     "teryt": "26",
-    "liczba": 18
+    "liczba": 22
    },
    {
     "teryt": "28",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "30",
-    "liczba": 95
+    "liczba": 108
    },
    {
     "teryt": "32",
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 1995,
-    "liczba": 187
+    "liczba": 207
    },
    {
     "rok": 1996,
-    "liczba": 211
+    "liczba": 227
    },
    {
     "rok": 1997,
-    "liczba": 150
+    "liczba": 163
    },
    {
     "rok": 1998,
-    "liczba": 125
+    "liczba": 137
    },
    {
     "rok": 1999,
-    "liczba": 87
+    "liczba": 97
    },
    {
     "rok": 2000,
-    "liczba": 82
+    "liczba": 87
    },
    {
     "rok": 2001,
-    "liczba": 40
+    "liczba": 41
    },
    {
     "rok": 2002,
-    "liczba": 24
+    "liczba": 26
    },
    {
     "rok": 2003,
@@ -121,17 +121,17 @@
    },
    {
     "rok": 2004,
-    "liczba": 11
+    "liczba": 14
    },
    {
     "rok": 2005,
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 870
+    "liczba": 952
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -139,13 +139,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 22
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 942
+    "liczba": 1025
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,11 +155,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 514
+    "liczba": 544
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 416
+    "liczba": 467
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -167,38 +167,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 777
+    "liczba": 854
    },
    {
     "nazwa": "Coupe",
-    "liczba": 91
+    "liczba": 95
    },
    {
     "nazwa": "Sedan",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 31
    }
   ],
-  "noweOdPaczki": 128,
+  "noweOdPaczki": 211,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 14
+   },
+   {
+    "rok": 2022,
+    "liczba": 26
+   },
+   {
     "rok": 2023,
-    "liczba": 13
+    "liczba": 56
    },
    {
     "rok": 2024,
@@ -214,6 +222,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -355,16 +459,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 767,
-  "miejsceWMarce": 43,
-  "modeliWMarce": 58,
+  "miejsce": 774,
+  "miejsceWMarce": 41,
+  "modeliWMarce": 60,
   "sredniRocznik": 1997.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "barchetta",
@@ -386,14 +490,14 @@
    "adres": "/marki/bmw/z3/"
   },
   {
-   "slug": "volkswagen-scirocco",
-   "nazwa": "Volkswagen Scirocco",
-   "adres": "/marki/volkswagen/scirocco/"
-  },
-  {
    "slug": "opel-vectra-b",
    "nazwa": "Opel Vectra B",
    "adres": "/marki/opel/vectra/b/"
+  },
+  {
+   "slug": "rover-400",
+   "nazwa": "Rover 400",
+   "adres": "/marki/rover/400/"
   }
  ]
 }

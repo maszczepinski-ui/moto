@@ -3,7 +3,7 @@
  "marka": "Audi",
  "model": "RS5",
  "generacja": "",
- "lataProdukcji": "2011–2026",
+ "lataProdukcji": "2010–2026",
  "nadwozia": [
   "hatchback",
   "coupe",
@@ -14,61 +14,61 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 427 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS5, RS 5 SPORTBACK, RS 5 AVANT, RS 5 LIMOUSINE, RS 5 COUPE).",
-  "liczbaWPolsce": 427,
-  "aktywne": 427,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 618 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS5, RS 5 SPORTBACK, RS 5 AVANT, RS 5 COUPE, RS 5 LIMOUSINE).",
+  "liczbaWPolsce": 618,
+  "aktywne": 618,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 39
+    "liczba": 58
    },
    {
     "teryt": "04",
-    "liczba": 16
+    "liczba": 26
    },
    {
     "teryt": "06",
-    "liczba": 7
+    "liczba": 12
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "10",
-    "liczba": 27
+    "liczba": 35
    },
    {
     "teryt": "12",
-    "liczba": 40
+    "liczba": 62
    },
    {
     "teryt": "14",
-    "liczba": 113
+    "liczba": 164
    },
    {
     "teryt": "16",
-    "liczba": 3
+    "liczba": 6
    },
    {
     "teryt": "18",
-    "liczba": 17
+    "liczba": 30
    },
    {
     "teryt": "20",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "22",
-    "liczba": 32
+    "liczba": 42
    },
    {
     "teryt": "24",
-    "liczba": 44
+    "liczba": 64
    },
    {
     "teryt": "26",
-    "liczba": 11
+    "liczba": 14
    },
    {
     "teryt": "28",
@@ -76,38 +76,38 @@
    },
    {
     "teryt": "30",
-    "liczba": 50
+    "liczba": 72
    },
    {
     "teryt": "32",
-    "liczba": 8
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 3
+    "liczba": 8
    },
    {
     "rok": 2011,
-    "liczba": 7
+    "liczba": 13
    },
    {
     "rok": 2012,
-    "liczba": 4
+    "liczba": 9
    },
    {
     "rok": 2013,
-    "liczba": 17
+    "liczba": 19
    },
    {
     "rok": 2014,
-    "liczba": 17
+    "liczba": 20
    },
    {
     "rok": 2015,
-    "liczba": 7
+    "liczba": 12
    },
    {
     "rok": 2016,
@@ -115,31 +115,31 @@
    },
    {
     "rok": 2017,
-    "liczba": 3
+    "liczba": 7
    },
    {
     "rok": 2018,
-    "liczba": 34
+    "liczba": 47
    },
    {
     "rok": 2019,
-    "liczba": 40
+    "liczba": 64
    },
    {
     "rok": 2020,
-    "liczba": 12
+    "liczba": 20
    },
    {
     "rok": 2021,
-    "liczba": 20
+    "liczba": 65
    },
    {
     "rok": 2022,
-    "liczba": 20
+    "liczba": 70
    },
    {
     "rok": 2023,
-    "liczba": 55
+    "liczba": 76
    },
    {
     "rok": 2024,
@@ -157,39 +157,43 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 317
+    "liczba": 507
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
     "liczba": 110
-   }
-  ],
-  "pojemnosci": [
-   {
-    "nazwa": "2,9 l",
-    "liczba": 371
-   },
-   {
-    "nazwa": "4,2 l",
-    "liczba": 55
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
+  "pojemnosci": [
+   {
+    "nazwa": "2,9 l",
+    "liczba": 535
+   },
+   {
+    "nazwa": "4,2 l",
+    "liczba": 80
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 3
+   }
+  ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 184
+    "liczba": 224
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 174
+    "liczba": 219
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 68
+    "liczba": 174
    },
    {
     "nazwa": "Inne / brak danych",
@@ -199,40 +203,48 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 201
+    "liczba": 315
    },
    {
     "nazwa": "Coupe",
-    "liczba": 106
+    "liczba": 172
    },
    {
     "nazwa": "Kombi",
-    "liczba": 67
+    "liczba": 69
    },
    {
     "nazwa": "Sedan",
-    "liczba": 32
+    "liczba": 36
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 427,
+  "noweOdPaczki": 618,
   "hybrydy": 110,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 45
+   },
+   {
+    "rok": 2022,
+    "liczba": 74
+   },
+   {
     "rok": 2023,
-    "liczba": 28
+    "liczba": 100
    },
    {
     "rok": 2024,
@@ -248,6 +260,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 14
+   },
    {
     "miesiac": "2023-12",
     "liczba": 5
@@ -389,16 +497,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 980,
-  "miejsceWMarce": 44,
-  "modeliWMarce": 51,
-  "sredniRocznik": 2021.6
+  "miejsce": 895,
+  "miejsceWMarce": 41,
+  "modeliWMarce": 52,
+  "sredniRocznik": 2021.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "rs5",
@@ -410,9 +518,9 @@
    "adres": "/marki/kia/stinger/"
   },
   {
-   "slug": "bmw-m2",
-   "nazwa": "BMW M2",
-   "adres": "/marki/bmw/m2/"
+   "slug": "porsche-panamera",
+   "nazwa": "Porsche Panamera",
+   "adres": "/marki/porsche/panamera/"
   },
   {
    "slug": "bmw-m4",
@@ -420,14 +528,14 @@
    "adres": "/marki/bmw/m4/"
   },
   {
-   "slug": "porsche-panamera",
-   "nazwa": "Porsche Panamera",
-   "adres": "/marki/porsche/panamera/"
-  },
-  {
    "slug": "mercedes-benz-amg",
    "nazwa": "Mercedes-Benz Amg",
    "adres": "/marki/mercedes-benz/amg/"
+  },
+  {
+   "slug": "bmw-m2",
+   "nazwa": "BMW M2",
+   "adres": "/marki/bmw/m2/"
   }
  ]
 }

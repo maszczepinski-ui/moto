@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Sephia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEPHIA, SEPHIA 1.6 KAT, SEPHIA 1.5 KAT, SEPHIA 1.6KAT, SEPHIA 1.5).",
-  "liczbaWPolsce": 1974,
-  "aktywne": 67,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Sephia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEPHIA, SEPHIA 1.6 KAT, SEPHIA 1.5 KAT, SEPHIA 1.6KAT, SEPHIA 1.5).",
+  "liczbaWPolsce": 1978,
+  "aktywne": 71,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 169
+    "liczba": 170
    },
    {
     "teryt": "04",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "20",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 253
+    "liczba": 255
    }
   ],
   "bezWojewodztwa": 2,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 207
+    "liczba": 208
    },
    {
     "rok": 1997,
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 210
+    "liczba": 213
    },
    {
     "rok": 1999,
@@ -123,11 +123,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1287
+    "liczba": 1290
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 522
+    "liczba": 523
    },
    {
     "nazwa": "?+LPG",
@@ -141,11 +141,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1005
+    "liczba": 1006
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 923
+    "liczba": 926
    },
    {
     "nazwa": "1,8 l",
@@ -159,11 +159,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1000
+    "liczba": 1002
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 678
+    "liczba": 680
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,7 +181,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1373
+    "liczba": 1377
    },
    {
     "nazwa": "Hatchback",
@@ -192,10 +192,18 @@
     "liczba": 308
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 3
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 1
@@ -206,6 +214,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -347,16 +451,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 580,
-  "miejsceWMarce": 18,
-  "modeliWMarce": 32,
+  "miejsce": 607,
+  "miejsceWMarce": 20,
+  "modeliWMarce": 33,
   "sredniRocznik": 1996.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "sephia",

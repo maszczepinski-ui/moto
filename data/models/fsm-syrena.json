@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSM Syrena – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SYRENA 105, SYRENA).",
-  "liczbaWPolsce": 331,
-  "aktywne": 61,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSM Syrena – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SYRENA 105, SYRENA).",
+  "liczbaWPolsce": 340,
+  "aktywne": 70,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "04",
@@ -26,11 +26,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "08",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "10",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "teryt": "14",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "16",
@@ -58,15 +58,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "24",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
@@ -149,11 +149,11 @@
    },
    {
     "rok": 1973,
-    "liczba": 34
+    "liczba": 35
    },
    {
     "rok": 1974,
-    "liczba": 38
+    "liczba": 39
    },
    {
     "rok": 1975,
@@ -161,15 +161,15 @@
    },
    {
     "rok": 1976,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1977,
-    "liczba": 22
+    "liczba": 24
    },
    {
     "rok": 1978,
-    "liczba": 38
+    "liczba": 41
    },
    {
     "rok": 1979,
@@ -185,7 +185,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 1983,
@@ -199,7 +199,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 292
+    "liczba": 301
    },
    {
     "nazwa": "Inne / brak danych",
@@ -209,7 +209,7 @@
   "pojemnosci": [
    {
     "nazwa": "0,8 l",
-    "liczba": 323
+    "liczba": 332
    },
    {
     "nazwa": "Inne / brak danych",
@@ -219,7 +219,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 263
+    "liczba": 266
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -231,17 +231,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 30
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 278
+    "liczba": 286
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "Coupe",
@@ -252,13 +252,21 @@
     "liczba": 27
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 5
+   },
+   {
+    "rok": 2023,
+    "liczba": 4
    },
    {
     "rok": 2024,
@@ -270,6 +278,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -411,7 +515,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1058,
+  "miejsce": 1093,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 1976.5
@@ -420,7 +524,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fsm",
  "modelSlug": "syrena",

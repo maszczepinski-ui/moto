@@ -3,7 +3,7 @@
  "marka": "Suzuki",
  "model": "Maruti",
  "generacja": "",
- "lataProdukcji": "1991–1996",
+ "lataProdukcji": "1991–2003",
  "nadwozia": [
   "hatchback",
   "sedan"
@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Maruti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MARUTI 800, MARUTI, MARUTI 0.8, MARUTI 0,8).",
-  "liczbaWPolsce": 2502,
-  "aktywne": 70,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Maruti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MARUTI 800, MARUTI, MARUTI 0.8, MARUTI 0,8).",
+  "liczbaWPolsce": 2518,
+  "aktywne": 86,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 155
+    "liczba": 157
    },
    {
     "teryt": "04",
@@ -30,19 +30,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "10",
-    "liczba": 203
+    "liczba": 204
    },
    {
     "teryt": "12",
-    "liczba": 160
+    "liczba": 163
    },
    {
     "teryt": "14",
-    "liczba": 486
+    "liczba": 489
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 67
+    "liczba": 69
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 189
+    "liczba": 190
    },
    {
     "teryt": "24",
-    "liczba": 431
+    "liczba": 434
    },
    {
     "teryt": "26",
@@ -129,19 +129,19 @@
    },
    {
     "rok": 2002,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2003,
-    "liczba": 23
+    "liczba": 30
    },
    {
     "rok": 2004,
-    "liczba": 20
+    "liczba": 21
    },
    {
     "rok": 2005,
-    "liczba": 6
+    "liczba": 9
    },
    {
     "rok": 2006,
@@ -157,13 +157,13 @@
    },
    {
     "rok": 2009,
-    "liczba": 9
+    "liczba": 13
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1653
+    "liczba": 1669
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -185,11 +185,11 @@
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 76
+    "liczba": 80
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 59
+    "liczba": 71
    },
    {
     "nazwa": "Inne / brak danych",
@@ -199,7 +199,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2054
+    "liczba": 2057
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -207,7 +207,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 107
+    "liczba": 120
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -221,7 +221,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1186
+    "liczba": 1202
    },
    {
     "nazwa": "Sedan",
@@ -232,13 +232,21 @@
     "liczba": 996
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 31,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 3
+   },
+   {
+    "rok": 2022,
+    "liczba": 7
+   },
+   {
+    "rok": 2023,
+    "liczba": 9
    },
    {
     "rok": 2024,
@@ -254,6 +262,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -395,16 +499,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 527,
+  "miejsce": 549,
   "miejsceWMarce": 14,
-  "modeliWMarce": 20,
+  "modeliWMarce": 21,
   "sredniRocznik": 1992.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "suzuki",
  "modelSlug": "maruti",

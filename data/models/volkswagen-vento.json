@@ -12,49 +12,49 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Vento – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 52 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VENTO, VENTO 1.8 KAT, VENTO 1.9 TDI, VENTO 1.9 TD, VENTO 1.9 D).",
-  "liczbaWPolsce": 14197,
-  "aktywne": 732,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Vento – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 80 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VENTO, VENTO 1.8 KAT, VENTO 1.9 TDI, VENTO 1.9 TD, VENTO 1.9 D).",
+  "liczbaWPolsce": 14225,
+  "aktywne": 760,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1161
+    "liczba": 1164
    },
    {
     "teryt": "04",
-    "liczba": 859
+    "liczba": 862
    },
    {
     "teryt": "06",
-    "liczba": 1567
+    "liczba": 1568
    },
    {
     "teryt": "08",
-    "liczba": 488
+    "liczba": 491
    },
    {
     "teryt": "10",
-    "liczba": 804
+    "liczba": 805
    },
    {
     "teryt": "12",
-    "liczba": 847
+    "liczba": 849
    },
    {
     "teryt": "14",
-    "liczba": 1925
+    "liczba": 1927
    },
    {
     "teryt": "16",
-    "liczba": 368
+    "liczba": 369
    },
    {
     "teryt": "18",
-    "liczba": 886
+    "liczba": 888
    },
    {
     "teryt": "20",
-    "liczba": 487
+    "liczba": 488
    },
    {
     "teryt": "22",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 648
+    "liczba": 653
    },
    {
     "teryt": "26",
@@ -70,42 +70,42 @@
    },
    {
     "teryt": "28",
-    "liczba": 798
+    "liczba": 800
    },
    {
     "teryt": "30",
-    "liczba": 834
+    "liczba": 835
    },
    {
     "teryt": "32",
-    "liczba": 811
+    "liczba": 812
    }
   ],
   "bezWojewodztwa": 19,
   "roczniki": [
    {
     "rok": 1992,
-    "liczba": 2506
+    "liczba": 2509
    },
    {
     "rok": 1993,
-    "liczba": 3877
+    "liczba": 3881
    },
    {
     "rok": 1994,
-    "liczba": 3116
+    "liczba": 3119
    },
    {
     "rok": 1995,
-    "liczba": 2001
+    "liczba": 2006
    },
    {
     "rok": 1996,
-    "liczba": 1516
+    "liczba": 1520
    },
    {
     "rok": 1997,
-    "liczba": 1022
+    "liczba": 1031
    },
    {
     "rok": 1998,
@@ -115,15 +115,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 6468
+    "liczba": 6473
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 4134
+    "liczba": 4138
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2892
+    "liczba": 2911
    },
    {
     "nazwa": "Inne / brak danych",
@@ -133,33 +133,33 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 6693
+    "liczba": 6698
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 6321
+    "liczba": 6336
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 634
+    "liczba": 638
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 438
+    "liczba": 441
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 111
+    "liczba": 112
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 8586
+    "liczba": 8596
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5185
+    "liczba": 5203
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -173,7 +173,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 11977
+    "liczba": 12005
    },
    {
     "nazwa": "Hatchback",
@@ -184,13 +184,21 @@
     "liczba": 1570
    }
   ],
-  "noweOdPaczki": 52,
+  "noweOdPaczki": 80,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 8
+   },
+   {
+    "rok": 2022,
+    "liczba": 11
+   },
+   {
     "rok": 2023,
-    "liczba": 6
+    "liczba": 15
    },
    {
     "rok": 2024,
@@ -206,6 +214,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -347,16 +451,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 237,
-  "miejsceWMarce": 16,
-  "modeliWMarce": 59,
+  "miejsce": 256,
+  "miejsceWMarce": 19,
+  "modeliWMarce": 60,
   "sredniRocznik": 1994.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "vento",
@@ -373,14 +477,14 @@
    "adres": "/marki/toyota/carina/"
   },
   {
-   "slug": "volvo-460",
-   "nazwa": "Volvo 460",
-   "adres": "/marki/volvo/460/"
-  },
-  {
    "slug": "audi-a4-b5",
    "nazwa": "Audi A4 B5",
    "adres": "/marki/audi/a4/b5/"
+  },
+  {
+   "slug": "volvo-460",
+   "nazwa": "Volvo 460",
+   "adres": "/marki/volvo/460/"
   },
   {
    "slug": "mercedes-benz-180",

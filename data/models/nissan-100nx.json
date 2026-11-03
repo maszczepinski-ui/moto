@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan 100NX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 100NX, 100NX 1.6 KAT).",
-  "liczbaWPolsce": 544,
-  "aktywne": 39,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan 100NX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 100NX, 100NX 1.6 KAT).",
+  "liczbaWPolsce": 559,
+  "aktywne": 54,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 69
+    "liczba": 71
    },
    {
     "teryt": "04",
@@ -31,19 +31,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "10",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "12",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "14",
-    "liczba": 65
+    "liczba": 66
    },
    {
     "teryt": "16",
@@ -51,19 +51,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "20",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "22",
-    "liczba": 37
+    "liczba": 40
    },
    {
     "teryt": "24",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 50
+    "liczba": 52
    },
    {
     "teryt": "32",
@@ -86,23 +86,23 @@
   "roczniki": [
    {
     "rok": 1991,
-    "liczba": 181
+    "liczba": 184
    },
    {
     "rok": 1992,
-    "liczba": 156
+    "liczba": 159
    },
    {
     "rok": 1993,
-    "liczba": 85
+    "liczba": 89
    },
    {
     "rok": 1994,
-    "liczba": 83
+    "liczba": 87
    },
    {
     "rok": 1995,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1996,
@@ -116,11 +116,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 401
+    "liczba": 415
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 129
+    "liczba": 130
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,7 +130,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 486
+    "liczba": 501
    },
    {
     "nazwa": "2,0 l",
@@ -140,11 +140,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 281
+    "liczba": 288
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 262
+    "liczba": 270
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,11 +154,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 327
+    "liczba": 335
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 173
+    "liczba": 179
    },
    {
     "nazwa": "Sedan",
@@ -170,16 +170,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 21
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 34,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 2
+   },
+   {
+    "rok": 2022,
+    "liczba": 5
+   },
+   {
     "rok": 2023,
-    "liczba": 4
+    "liczba": 12
    },
    {
     "rok": 2024,
@@ -195,6 +203,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -336,16 +440,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 896,
-  "miejsceWMarce": 33,
-  "modeliWMarce": 46,
+  "miejsce": 922,
+  "miejsceWMarce": 36,
+  "modeliWMarce": 47,
   "sredniRocznik": 1992.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "100nx",

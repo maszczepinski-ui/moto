@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Shuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SHUMA, SHUMA 1.5 KAT, SHUMA II, SHUMA 1.5, SHUMA 1,5).",
-  "liczbaWPolsce": 1617,
-  "aktywne": 193,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Shuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SHUMA, SHUMA 1.5 KAT, SHUMA II, SHUMA 1.5, SHUMA 1,5).",
+  "liczbaWPolsce": 1621,
+  "aktywne": 197,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 157
+    "liczba": 159
    },
    {
     "teryt": "04",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 149
+    "liczba": 150
    },
    {
     "teryt": "26",
@@ -93,11 +93,11 @@
    },
    {
     "rok": 2000,
-    "liczba": 353
+    "liczba": 355
    },
    {
     "rok": 2001,
-    "liczba": 123
+    "liczba": 124
    },
    {
     "rok": 2002,
@@ -105,7 +105,7 @@
    },
    {
     "rok": 2003,
-    "liczba": 156
+    "liczba": 157
    },
    {
     "rok": 2004,
@@ -115,11 +115,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 976
+    "liczba": 979
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 566
+    "liczba": 567
    },
    {
     "nazwa": "Inne / brak danych",
@@ -129,15 +129,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1122
+    "liczba": 1124
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 311
+    "liczba": 312
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 183
+    "liczba": 184
    },
    {
     "nazwa": "Inne / brak danych",
@@ -147,11 +147,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 866
+    "liczba": 867
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 403
+    "liczba": 406
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -169,21 +169,29 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 977
+    "liczba": 980
    },
    {
     "nazwa": "Sedan",
-    "liczba": 442
+    "liczba": 443
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 198
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 3
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 3
@@ -198,6 +206,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -339,16 +443,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 629,
-  "miejsceWMarce": 20,
-  "modeliWMarce": 32,
+  "miejsce": 659,
+  "miejsceWMarce": 21,
+  "modeliWMarce": 33,
   "sredniRocznik": 1999.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "shuma",
@@ -360,14 +464,14 @@
    "adres": "/marki/volkswagen/golf/"
   },
   {
-   "slug": "opel-astra-g",
-   "nazwa": "Opel Astra G",
-   "adres": "/marki/opel/astra/g/"
-  },
-  {
    "slug": "hyundai-accent",
    "nazwa": "Hyundai Accent",
    "adres": "/marki/hyundai/accent/"
+  },
+  {
+   "slug": "opel-astra-g",
+   "nazwa": "Opel Astra G",
+   "adres": "/marki/opel/astra/g/"
   },
   {
    "slug": "nissan-almera",
@@ -375,9 +479,9 @@
    "adres": "/marki/nissan/almera/"
   },
   {
-   "slug": "honda-civic",
-   "nazwa": "Honda Civic",
-   "adres": "/marki/honda/civic/"
+   "slug": "mazda-demio",
+   "nazwa": "Mazda Demio",
+   "adres": "/marki/mazda/demio/"
   }
  ]
 }

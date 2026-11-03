@@ -11,108 +11,108 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Ateca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 772 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ATECA, SEAT ATECA).",
-  "liczbaWPolsce": 10063,
-  "aktywne": 9773,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Ateca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 127 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ATECA, SEAT ATECA).",
+  "liczbaWPolsce": 13418,
+  "aktywne": 13128,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 776
+    "liczba": 1051
    },
    {
     "teryt": "04",
-    "liczba": 441
+    "liczba": 577
    },
    {
     "teryt": "06",
-    "liczba": 196
+    "liczba": 252
    },
    {
     "teryt": "08",
-    "liczba": 329
+    "liczba": 435
    },
    {
     "teryt": "10",
-    "liczba": 542
+    "liczba": 719
    },
    {
     "teryt": "12",
-    "liczba": 1061
+    "liczba": 1429
    },
    {
     "teryt": "14",
-    "liczba": 1383
+    "liczba": 1939
    },
    {
     "teryt": "16",
-    "liczba": 378
+    "liczba": 513
    },
    {
     "teryt": "18",
-    "liczba": 400
+    "liczba": 519
    },
    {
     "teryt": "20",
-    "liczba": 369
+    "liczba": 484
    },
    {
     "teryt": "22",
-    "liczba": 1029
+    "liczba": 1379
    },
    {
     "teryt": "24",
-    "liczba": 1138
+    "liczba": 1485
    },
    {
     "teryt": "26",
-    "liczba": 278
+    "liczba": 350
    },
    {
     "teryt": "28",
-    "liczba": 188
+    "liczba": 237
    },
    {
     "teryt": "30",
-    "liczba": 1104
+    "liczba": 1476
    },
    {
     "teryt": "32",
-    "liczba": 445
+    "liczba": 567
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 504
+    "liczba": 606
    },
    {
     "rok": 2017,
-    "liczba": 1328
+    "liczba": 1550
    },
    {
     "rok": 2018,
-    "liczba": 1276
+    "liczba": 1436
    },
    {
     "rok": 2019,
-    "liczba": 1192
+    "liczba": 1302
    },
    {
     "rok": 2020,
-    "liczba": 387
+    "liczba": 449
    },
    {
     "rok": 2021,
-    "liczba": 318
+    "liczba": 717
    },
    {
     "rok": 2022,
-    "liczba": 194
+    "liczba": 1487
    },
    {
     "rok": 2023,
-    "liczba": 1212
+    "liczba": 2219
    },
    {
     "rok": 2024,
@@ -130,37 +130,37 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 7965
+    "liczba": 10653
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2077
+    "liczba": 2734
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 31
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 5091
+    "liczba": 7231
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 2510
+    "liczba": 3319
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1421
+    "liczba": 1542
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 528
+    "liczba": 726
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 508
+    "liczba": 595
    },
    {
     "nazwa": "Inne / brak danych",
@@ -170,46 +170,54 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5962
+    "liczba": 7532
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2544
+    "liczba": 2942
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1518
+    "liczba": 2896
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 48
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 9656
+    "liczba": 12865
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 200
+    "liczba": 268
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 149
+    "liczba": 206
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 58
+    "liczba": 79
    }
   ],
-  "noweOdPaczki": 7772,
+  "noweOdPaczki": 11127,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 445
+   },
+   {
+    "rok": 2022,
+    "liczba": 1512
+   },
+   {
     "rok": 2023,
-    "liczba": 793
+    "liczba": 2191
    },
    {
     "rok": 2024,
@@ -225,6 +233,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 111
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 127
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 139
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 134
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 173
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 146
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 107
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 184
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 209
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 212
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 197
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 289
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 156
+   },
    {
     "miesiac": "2023-12",
     "liczba": 268
@@ -366,7 +470,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 284,
+  "miejsce": 264,
   "miejsceWMarce": 7,
   "modeliWMarce": 19,
   "sredniRocznik": 2021.1
@@ -375,7 +479,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "ateca",
@@ -387,14 +491,14 @@
    "adres": "/marki/skoda/karoq/"
   },
   {
-   "slug": "ssangyong-tivoli",
-   "nazwa": "SsangYong (KGM) Tivoli",
-   "adres": "/marki/ssangyong-kgm/tivoli/"
-  },
-  {
    "slug": "mercedes-benz-klasa-gla",
    "nazwa": "Mercedes-Benz Klasa GLA",
    "adres": "/marki/mercedes-benz/klasa-gla/"
+  },
+  {
+   "slug": "ssangyong-tivoli",
+   "nazwa": "SsangYong (KGM) Tivoli",
+   "adres": "/marki/ssangyong-kgm/tivoli/"
   },
   {
    "slug": "audi-q2",
@@ -402,9 +506,9 @@
    "adres": "/marki/audi/q2/"
   },
   {
-   "slug": "kia-niro",
-   "nazwa": "Kia Niro",
-   "adres": "/marki/kia/niro/"
+   "slug": "ssangyong-korando",
+   "nazwa": "SsangYong (KGM) Korando",
+   "adres": "/marki/ssangyong-kgm/korando/"
   }
  ]
 }

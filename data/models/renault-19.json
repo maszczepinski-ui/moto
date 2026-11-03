@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 19 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 41 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 19, 19, R 19 1.7 KAT, R 19 1.4 KAT, R 19 1.4).",
-  "liczbaWPolsce": 43528,
-  "aktywne": 268,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 19 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 72 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 19, 19, R 19 1.7 KAT, R 19 1.4 KAT, R 19 1.4).",
+  "liczbaWPolsce": 43559,
+  "aktywne": 299,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5489
+    "liczba": 5494
    },
    {
     "teryt": "04",
-    "liczba": 3075
+    "liczba": 3076
    },
    {
     "teryt": "06",
-    "liczba": 2736
+    "liczba": 2740
    },
    {
     "teryt": "08",
-    "liczba": 3288
+    "liczba": 3289
    },
    {
     "teryt": "10",
-    "liczba": 2883
+    "liczba": 2885
    },
    {
     "teryt": "12",
-    "liczba": 2227
+    "liczba": 2228
    },
    {
     "teryt": "14",
-    "liczba": 3788
+    "liczba": 3792
    },
    {
     "teryt": "16",
@@ -50,23 +50,23 @@
    },
    {
     "teryt": "18",
-    "liczba": 774
+    "liczba": 775
    },
    {
     "teryt": "20",
-    "liczba": 517
+    "liczba": 520
    },
    {
     "teryt": "22",
-    "liczba": 2570
+    "liczba": 2571
    },
    {
     "teryt": "24",
-    "liczba": 3110
+    "liczba": 3113
    },
    {
     "teryt": "26",
-    "liczba": 1366
+    "liczba": 1368
    },
    {
     "teryt": "28",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 4931
+    "liczba": 4932
    },
    {
     "teryt": "32",
-    "liczba": 3983
+    "liczba": 3985
    }
   ],
   "bezWojewodztwa": 14,
@@ -89,27 +89,27 @@
    },
    {
     "rok": 1990,
-    "liczba": 3474
+    "liczba": 3475
    },
    {
     "rok": 1991,
-    "liczba": 6825
+    "liczba": 6829
    },
    {
     "rok": 1992,
-    "liczba": 7347
+    "liczba": 7353
    },
    {
     "rok": 1993,
-    "liczba": 7264
+    "liczba": 7274
    },
    {
     "rok": 1994,
-    "liczba": 5910
+    "liczba": 5915
    },
    {
     "rok": 1995,
-    "liczba": 4699
+    "liczba": 4704
    },
    {
     "rok": 1996,
@@ -123,11 +123,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 18880
+    "liczba": 18910
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 12503
+    "liczba": 12504
    },
    {
     "nazwa": "Diesel",
@@ -145,11 +145,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 21594
+    "liczba": 21603
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 13104
+    "liczba": 13109
    },
    {
     "nazwa": "1,9 l",
@@ -157,7 +157,7 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 3633
+    "liczba": 3650
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,11 +167,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 27632
+    "liczba": 27639
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 12407
+    "liczba": 12431
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,24 +189,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 21206
+    "liczba": 21218
    },
    {
     "nazwa": "Sedan",
-    "liczba": 9481
+    "liczba": 9485
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12841
+    "liczba": 12856
    }
   ],
-  "noweOdPaczki": 41,
+  "noweOdPaczki": 72,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 5
+   },
+   {
+    "rok": 2022,
+    "liczba": 16
+   },
+   {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 12
    },
    {
     "rok": 2024,
@@ -222,6 +230,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -363,7 +467,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 97,
+  "miejsce": 107,
   "miejsceWMarce": 6,
   "modeliWMarce": 48,
   "sredniRocznik": 1992.9
@@ -372,7 +476,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "19",
@@ -394,14 +498,14 @@
    "adres": "/marki/mazda/323/"
   },
   {
-   "slug": "lada-niva",
-   "nazwa": "Łada Niva",
-   "adres": "/marki/lada/niva/"
-  },
-  {
    "slug": "volvo-440",
    "nazwa": "Volvo 440",
    "adres": "/marki/volvo/440/"
+  },
+  {
+   "slug": "nissan-100",
+   "nazwa": "Nissan 100",
+   "adres": "/marki/nissan/100/"
   }
  ]
 }

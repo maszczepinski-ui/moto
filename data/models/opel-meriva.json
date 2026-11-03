@@ -13,229 +13,237 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Meriva – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 617 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MERIVA, MERIVA-A, MERIVA 1.7 CDTI, MERIVA 1.6, MERIVA-B).",
-  "liczbaWPolsce": 85730,
-  "aktywne": 51255,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Meriva – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 37 360 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MERIVA, MERIVA-A, MERIVA 1.7 CDTI, MERIVA-B, MERIVA 1.6).",
+  "liczbaWPolsce": 103473,
+  "aktywne": 68998,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 4711
+    "liczba": 5769
    },
    {
     "teryt": "04",
-    "liczba": 6315
+    "liczba": 7743
    },
    {
     "teryt": "06",
-    "liczba": 5241
+    "liczba": 6669
    },
    {
     "teryt": "08",
-    "liczba": 2039
+    "liczba": 2481
    },
    {
     "teryt": "10",
-    "liczba": 6451
+    "liczba": 7768
    },
    {
     "teryt": "12",
-    "liczba": 6656
+    "liczba": 7774
    },
    {
     "teryt": "14",
-    "liczba": 9971
+    "liczba": 12161
    },
    {
     "teryt": "16",
-    "liczba": 2332
+    "liczba": 2838
    },
    {
     "teryt": "18",
-    "liczba": 6585
+    "liczba": 7905
    },
    {
     "teryt": "20",
-    "liczba": 2909
+    "liczba": 3559
    },
    {
     "teryt": "22",
-    "liczba": 4070
+    "liczba": 4882
    },
    {
     "teryt": "24",
-    "liczba": 8848
+    "liczba": 10340
    },
    {
     "teryt": "26",
-    "liczba": 2584
+    "liczba": 3224
    },
    {
     "teryt": "28",
-    "liczba": 3048
+    "liczba": 3762
    },
    {
     "teryt": "30",
-    "liczba": 10160
+    "liczba": 12176
    },
    {
     "teryt": "32",
-    "liczba": 3012
+    "liczba": 3624
    }
   ],
   "bezWojewodztwa": 798,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 8806
+    "liczba": 9777
    },
    {
     "rok": 2004,
-    "liczba": 11887
+    "liczba": 13207
    },
    {
     "rok": 2005,
-    "liczba": 10665
+    "liczba": 12200
    },
    {
     "rok": 2006,
-    "liczba": 10303
+    "liczba": 12435
    },
    {
     "rok": 2007,
-    "liczba": 7162
+    "liczba": 8790
    },
    {
     "rok": 2008,
-    "liczba": 4988
+    "liczba": 6357
    },
    {
     "rok": 2009,
-    "liczba": 3212
+    "liczba": 4264
    },
    {
     "rok": 2010,
-    "liczba": 5354
+    "liczba": 7275
    },
    {
     "rok": 2011,
-    "liczba": 5937
+    "liczba": 8383
    },
    {
     "rok": 2012,
-    "liczba": 3293
+    "liczba": 4579
    },
    {
     "rok": 2013,
-    "liczba": 2063
+    "liczba": 2733
    },
    {
     "rok": 2014,
-    "liczba": 2769
+    "liczba": 3336
    },
    {
     "rok": 2015,
-    "liczba": 2752
+    "liczba": 3197
    },
    {
     "rok": 2016,
-    "liczba": 2796
+    "liczba": 3114
    },
    {
     "rok": 2017,
-    "liczba": 1424
+    "liczba": 1507
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 50855
+    "liczba": 63425
    },
    {
     "nazwa": "Diesel",
-    "liczba": 21205
+    "liczba": 23898
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 13473
+    "liczba": 15951
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 197
+    "liczba": 199
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 32975
+    "liczba": 41179
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 29002
+    "liczba": 35392
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 17004
+    "liczba": 18878
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 3680
+    "liczba": 4235
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 2867
+    "liczba": 3571
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 202
+    "liczba": 218
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 63249
+    "liczba": 76517
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 14691
+    "liczba": 19153
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6926
+    "liczba": 6928
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 864
+    "liczba": 875
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 32782
+    "liczba": 41878
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 29219
+    "liczba": 34841
    },
    {
     "nazwa": "Van",
-    "liczba": 15703
+    "liczba": 17253
    },
    {
     "nazwa": "Kombi",
-    "liczba": 6351
+    "liczba": 7738
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1675
+    "liczba": 1763
    }
   ],
-  "noweOdPaczki": 19617,
+  "noweOdPaczki": 37360,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4245
+   },
+   {
+    "rok": 2022,
+    "liczba": 7893
+   },
+   {
     "rok": 2023,
-    "liczba": 1953
+    "liczba": 7558
    },
    {
     "rok": 2024,
@@ -251,6 +259,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 648
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 643
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 658
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 769
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 706
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 753
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 667
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 604
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 648
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 636
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 682
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 664
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 463
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 624
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 609
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 786
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 620
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 663
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 616
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 609
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 660
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 609
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 688
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 618
+   },
    {
     "miesiac": "2023-12",
     "liczba": 456
@@ -392,16 +496,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 52,
+  "miejsce": 49,
   "miejsceWMarce": 6,
   "modeliWMarce": 33,
-  "sredniRocznik": 2007.7
+  "sredniRocznik": 2007.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "meriva",
@@ -413,14 +517,14 @@
    "adres": "/marki/fiat/tipo/"
   },
   {
-   "slug": "renault-kangoo",
-   "nazwa": "Renault Kangoo",
-   "adres": "/marki/renault/kangoo/"
-  },
-  {
    "slug": "skoda-roomster",
    "nazwa": "Skoda Roomster",
    "adres": "/marki/skoda/roomster/"
+  },
+  {
+   "slug": "renault-kangoo",
+   "nazwa": "Renault Kangoo",
+   "adres": "/marki/renault/kangoo/"
   },
   {
    "slug": "fiat-doblo",

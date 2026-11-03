@@ -13,116 +13,116 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Macan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 518 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MACAN, MACAN T, MACAN S, MACAN 4, MACAN GTS).",
-  "liczbaWPolsce": 7083,
-  "aktywne": 6832,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Macan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 688 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MACAN, MACAN T, MACAN S, MACAN GTS, MACAN 4).",
+  "liczbaWPolsce": 10253,
+  "aktywne": 10002,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 577
-   },
-   {
-    "teryt": "04",
-    "liczba": 202
-   },
-   {
-    "teryt": "06",
-    "liczba": 233
-   },
-   {
-    "teryt": "08",
-    "liczba": 94
-   },
-   {
-    "teryt": "10",
-    "liczba": 393
-   },
-   {
-    "teryt": "12",
     "liczba": 816
    },
    {
+    "teryt": "04",
+    "liczba": 283
+   },
+   {
+    "teryt": "06",
+    "liczba": 311
+   },
+   {
+    "teryt": "08",
+    "liczba": 143
+   },
+   {
+    "teryt": "10",
+    "liczba": 570
+   },
+   {
+    "teryt": "12",
+    "liczba": 1201
+   },
+   {
     "teryt": "14",
-    "liczba": 1829
+    "liczba": 2677
    },
    {
     "teryt": "16",
-    "liczba": 115
+    "liczba": 163
    },
    {
     "teryt": "18",
-    "liczba": 240
+    "liczba": 318
    },
    {
     "teryt": "20",
-    "liczba": 134
+    "liczba": 186
    },
    {
     "teryt": "22",
-    "liczba": 501
+    "liczba": 751
    },
    {
     "teryt": "24",
-    "liczba": 767
+    "liczba": 1142
    },
    {
     "teryt": "26",
-    "liczba": 122
+    "liczba": 181
    },
    {
     "teryt": "28",
-    "liczba": 118
+    "liczba": 182
    },
    {
     "teryt": "30",
-    "liczba": 694
+    "liczba": 994
    },
    {
     "teryt": "32",
-    "liczba": 231
+    "liczba": 318
    }
   ],
   "bezWojewodztwa": 17,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 173
+    "liczba": 192
    },
    {
     "rok": 2015,
-    "liczba": 363
+    "liczba": 410
    },
    {
     "rok": 2016,
-    "liczba": 430
+    "liczba": 481
    },
    {
     "rok": 2017,
-    "liczba": 647
+    "liczba": 739
    },
    {
     "rok": 2018,
-    "liczba": 718
+    "liczba": 819
    },
    {
     "rok": 2019,
-    "liczba": 551
+    "liczba": 603
    },
    {
     "rok": 2020,
-    "liczba": 226
+    "liczba": 308
    },
    {
     "rok": 2021,
-    "liczba": 242
+    "liczba": 755
    },
    {
     "rok": 2022,
-    "liczba": 188
+    "liczba": 1404
    },
    {
     "rok": 2023,
-    "liczba": 1017
+    "liczba": 2014
    },
    {
     "rok": 2024,
@@ -140,7 +140,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5988
+    "liczba": 9098
    },
    {
     "nazwa": "Elektryczny",
@@ -148,78 +148,86 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 383
+    "liczba": 434
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 29
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 4474
+    "liczba": 6987
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 1180
+    "liczba": 1380
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 556
+    "liczba": 997
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 157
+    "liczba": 172
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 716
+    "liczba": 717
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 3880
+    "liczba": 5599
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2076
+    "liczba": 2362
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1097
+    "liczba": 2256
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 30
+    "liczba": 36
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 5519
+    "liczba": 8396
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 844
+    "liczba": 980
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 446
+    "liczba": 542
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 274
+    "liczba": 335
    }
   ],
-  "noweOdPaczki": 5518,
-  "hybrydy": 0,
+  "noweOdPaczki": 8688,
+  "hybrydy": 1,
   "elektryczne": 692,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 430
+   },
+   {
+    "rok": 2022,
+    "liczba": 1324
+   },
+   {
     "rok": 2023,
-    "liczba": 677
+    "liczba": 2093
    },
    {
     "rok": 2024,
@@ -235,6 +243,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 192
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 69
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 69
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 105
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 163
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 240
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 155
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 167
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 157
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 139
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 149
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 210
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 220
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 209
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 224
+   },
    {
     "miesiac": "2023-12",
     "liczba": 206
@@ -376,16 +480,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 342,
+  "miejsce": 310,
   "miejsceWMarce": 2,
-  "modeliWMarce": 11,
-  "sredniRocznik": 2020.8
+  "modeliWMarce": 12,
+  "sredniRocznik": 2021.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "porsche",
  "modelSlug": "macan",
@@ -395,6 +499,11 @@
    "slug": "alfa-romeo-stelvio",
    "nazwa": "Alfa Romeo Stelvio",
    "adres": "/marki/alfa-romeo/stelvio/"
+  },
+  {
+   "slug": "mazda-mazda6",
+   "nazwa": "Mazda MAZDA6",
+   "adres": "/marki/mazda/mazda6/"
   },
   {
    "slug": "mazda-cx-5",
@@ -407,14 +516,9 @@
    "adres": "/marki/toyota/highlander/"
   },
   {
-   "slug": "ford-edge",
-   "nazwa": "Ford Edge",
-   "adres": "/marki/ford/edge/"
-  },
-  {
-   "slug": "volvo-xc60",
-   "nazwa": "Volvo XC60",
-   "adres": "/marki/volvo/xc60/"
+   "slug": "mazda-cx-30",
+   "nazwa": "Mazda CX-30",
+   "adres": "/marki/mazda/cx-30/"
   }
  ]
 }

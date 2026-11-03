@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti FX30D – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 37 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FX30D).",
-  "liczbaWPolsce": 228,
-  "aktywne": 114,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti FX30D – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 52 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FX30D).",
+  "liczbaWPolsce": 243,
+  "aktywne": 129,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -24,11 +24,11 @@
    },
    {
     "teryt": "04",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "06",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "08",
@@ -36,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "12",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "14",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "16",
@@ -56,15 +56,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "teryt": "22",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "24",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "26",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 15
+    "liczba": 18
    },
    {
     "teryt": "32",
@@ -87,41 +87,45 @@
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 42
+    "liczba": 44
    },
    {
     "rok": 2011,
-    "liczba": 78
+    "liczba": 86
    },
    {
     "rok": 2012,
-    "liczba": 48
+    "liczba": 51
    },
    {
     "rok": 2013,
-    "liczba": 50
+    "liczba": 51
+   },
+   {
+    "rok": 2014,
+    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 228
+    "liczba": 243
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 228
+    "liczba": 243
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 129
+    "liczba": 136
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 63
+    "liczba": 71
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -135,15 +139,15 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 162
+    "liczba": 173
    },
    {
     "nazwa": "Kombi",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Van",
@@ -151,20 +155,28 @@
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 37,
+  "noweOdPaczki": 52,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 2
+   },
+   {
+    "rok": 2022,
+    "liczba": 9
+   },
+   {
     "rok": 2023,
-    "liczba": 4
+    "liczba": 8
    },
    {
     "rok": 2024,
@@ -180,6 +192,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -321,16 +429,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1176,
+  "miejsce": 1201,
   "miejsceWMarce": 5,
-  "modeliWMarce": 6,
+  "modeliWMarce": 7,
   "sredniRocznik": 2011.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "infiniti",
  "modelSlug": "fx30d",

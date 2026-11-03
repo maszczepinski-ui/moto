@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 25 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 25, 25, R 25 2.0 KAT, R 25 2.2, R 25 2.0).",
-  "liczbaWPolsce": 1979,
-  "aktywne": 14,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 25 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 25, 25, R 25 2.0 KAT, R 25 2.2, R 25 2.0).",
+  "liczbaWPolsce": 1983,
+  "aktywne": 18,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 220
+    "liczba": 221
    },
    {
     "teryt": "08",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 312
+    "liczba": 313
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 188
+    "liczba": 189
    },
    {
     "teryt": "26",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 140
+    "liczba": 142
    },
    {
     "rok": 1988,
@@ -105,11 +105,11 @@
    },
    {
     "rok": 1989,
-    "liczba": 130
+    "liczba": 131
    },
    {
     "rok": 1990,
-    "liczba": 173
+    "liczba": 174
    },
    {
     "rok": 1991,
@@ -143,11 +143,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 405
+    "liczba": 408
    },
    {
     "nazwa": "Diesel",
-    "liczba": 368
+    "liczba": 369
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -169,11 +169,11 @@
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 482
+    "liczba": 483
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 429
+    "liczba": 430
    },
    {
     "nazwa": "2,8 l",
@@ -181,15 +181,15 @@
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 32
+    "liczba": 33
+   },
+   {
+    "nazwa": "2,5 l",
+    "liczba": 30
    },
    {
     "nazwa": "2,7 l",
     "liczba": 30
-   },
-   {
-    "nazwa": "2,5 l",
-    "liczba": 29
    },
    {
     "nazwa": "1,6 l",
@@ -211,7 +211,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 205
+    "liczba": 208
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -219,33 +219,137 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 58
+    "liczba": 59
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 515
+    "liczba": 516
    },
    {
     "nazwa": "Sedan",
-    "liczba": 354
+    "liczba": 357
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1110
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 3
+   },
    {
     "rok": 2025,
     "liczba": 1
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -387,8 +491,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 577,
-  "miejsceWMarce": 26,
+  "miejsce": 606,
+  "miejsceWMarce": 28,
   "modeliWMarce": 48,
   "sredniRocznik": 1989.2
  },
@@ -396,7 +500,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "25",
@@ -423,9 +527,9 @@
    "adres": "/marki/citroen/bx/"
   },
   {
-   "slug": "saab-9000",
-   "nazwa": "Saab 9000",
-   "adres": "/marki/saab/9000/"
+   "slug": "mercedes-benz-190-w201",
+   "nazwa": "Mercedes-Benz 190 (W201)",
+   "adres": "/marki/mercedes-benz/190-w201/"
   }
  ]
 }

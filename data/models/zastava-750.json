@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Zastava 750 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 750).",
-  "liczbaWPolsce": 3631,
-  "aktywne": 20,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Zastava 750 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 750).",
+  "liczbaWPolsce": 3639,
+  "aktywne": 28,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "04",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 278
+    "liczba": 279
    },
    {
     "teryt": "12",
-    "liczba": 576
+    "liczba": 577
    },
    {
     "teryt": "14",
-    "liczba": 306
+    "liczba": 307
    },
    {
     "teryt": "16",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "teryt": "24",
-    "liczba": 160
+    "liczba": 161
    },
    {
     "teryt": "26",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 759
+    "liczba": 760
    },
    {
     "teryt": "32",
-    "liczba": 66
+    "liczba": 67
    }
   ],
   "bezWojewodztwa": 52,
@@ -136,7 +136,7 @@
    },
    {
     "rok": 1976,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1977,
@@ -144,17 +144,21 @@
    },
    {
     "rok": 1978,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1979,
+    "liczba": 9
+   },
+   {
+    "rok": 1980,
     "liczba": 8
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 331
+    "liczba": 339
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,17 +168,17 @@
   "pojemnosci": [
    {
     "nazwa": "0,8 l",
-    "liczba": 3537
+    "liczba": 3543
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 94
+    "liczba": 96
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1999
+    "liczba": 2001
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -182,7 +186,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 151
+    "liczba": 157
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -196,24 +200,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 116
+    "liczba": 118
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 59
+    "liczba": 62
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3456
+    "liczba": 3459
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 4
+   },
+   {
+    "rok": 2023,
+    "liczba": 4
    },
    {
     "rok": 2024,
@@ -225,6 +237,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -366,7 +474,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 459,
+  "miejsce": 485,
   "miejsceWMarce": 2,
   "modeliWMarce": 2,
   "sredniRocznik": 1966.3
@@ -375,7 +483,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "zastava",
  "modelSlug": "750",

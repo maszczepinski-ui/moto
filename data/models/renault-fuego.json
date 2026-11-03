@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Fuego – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FUEGO).",
-  "liczbaWPolsce": 989,
-  "aktywne": 12,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Fuego – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FUEGO).",
+  "liczbaWPolsce": 990,
+  "aktywne": 13,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "20",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 327
+    "liczba": 328
    },
    {
     "rok": 1982,
@@ -155,7 +155,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 179
+    "liczba": 180
    },
    {
     "nazwa": "?+LPG",
@@ -181,7 +181,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 224
+    "liczba": 225
    },
    {
     "nazwa": "1,5 l",
@@ -211,7 +211,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Inne / brak danych",
@@ -225,7 +225,7 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "nazwa": "Coupe",
@@ -236,13 +236,13 @@
     "liczba": 798
    }
   ],
-  "noweOdPaczki": 11,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2024,
@@ -258,6 +258,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -399,7 +495,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 759,
+  "miejsce": 784,
   "miejsceWMarce": 34,
   "modeliWMarce": 48,
   "sredniRocznik": 1982.7
@@ -408,7 +504,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "fuego",

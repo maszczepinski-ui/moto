@@ -12,17 +12,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Saab 9000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 9000, 9000 2.0, 9000 2.3 KAT, 9000 2.0 KAT, 9000 CS).",
-  "liczbaWPolsce": 1674,
-  "aktywne": 91,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Saab 9000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 9000, 9000 2.0, 9000 2.3 KAT, 9000 CS, 9000 2.0 KAT).",
+  "liczbaWPolsce": 1691,
+  "aktywne": 108,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 124
+    "liczba": 128
    },
    {
     "teryt": "04",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "06",
@@ -30,23 +30,23 @@
    },
    {
     "teryt": "08",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "teryt": "10",
-    "liczba": 94
+    "liczba": 96
    },
    {
     "teryt": "12",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "14",
-    "liczba": 446
+    "liczba": 450
    },
    {
     "teryt": "16",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "18",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 123
+    "liczba": 124
    },
    {
     "teryt": "24",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 94
+    "liczba": 95
    }
   ],
   "bezWojewodztwa": 4,
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 40
+    "liczba": 41
    },
    {
     "rok": 1987,
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 143
+    "liczba": 145
    },
    {
     "rok": 1991,
@@ -113,27 +113,27 @@
    },
    {
     "rok": 1992,
-    "liczba": 194
+    "liczba": 195
    },
    {
     "rok": 1993,
-    "liczba": 174
+    "liczba": 176
    },
    {
     "rok": 1994,
-    "liczba": 133
+    "liczba": 134
    },
    {
     "rok": 1995,
-    "liczba": 183
+    "liczba": 186
    },
    {
     "rok": 1996,
-    "liczba": 184
+    "liczba": 185
    },
    {
     "rok": 1997,
-    "liczba": 170
+    "liczba": 176
    },
    {
     "rok": 1998,
@@ -143,11 +143,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 847
+    "liczba": 863
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 448
+    "liczba": 449
    },
    {
     "nazwa": "?+LPG",
@@ -161,11 +161,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 890
+    "liczba": 897
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 741
+    "liczba": 751
    },
    {
     "nazwa": "3,0 l",
@@ -179,11 +179,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 943
+    "liczba": 946
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 613
+    "liczba": 627
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -201,24 +201,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 743
+    "liczba": 755
    },
    {
     "nazwa": "Sedan",
-    "liczba": 533
+    "liczba": 537
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 398
+    "liczba": 399
    }
   ],
-  "noweOdPaczki": 27,
+  "noweOdPaczki": 44,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
+    "liczba": 6
+   },
+   {
+    "rok": 2022,
     "liczba": 5
+   },
+   {
+    "rok": 2023,
+    "liczba": 11
    },
    {
     "rok": 2024,
@@ -234,6 +242,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -375,16 +479,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 623,
+  "miejsce": 655,
   "miejsceWMarce": 4,
   "modeliWMarce": 6,
-  "sredniRocznik": 1992.5
+  "sredniRocznik": 1992.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "saab",
  "modelSlug": "9000",
@@ -411,9 +515,9 @@
    "adres": "/marki/citroen/xm/"
   },
   {
-   "slug": "nissan-100",
-   "nazwa": "Nissan 100",
-   "adres": "/marki/nissan/100/"
+   "slug": "ford-probe",
+   "nazwa": "Ford Probe",
+   "adres": "/marki/ford/probe/"
   }
  ]
 }

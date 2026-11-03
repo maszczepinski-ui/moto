@@ -13,25 +13,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Yrv – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: YRV).",
-  "liczbaWPolsce": 310,
-  "aktywne": 151,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Yrv – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 47 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: YRV).",
+  "liczbaWPolsce": 347,
+  "aktywne": 188,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 30
+    "liczba": 37
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "06",
-    "liczba": 17
+    "liczba": 21
    },
    {
     "teryt": "08",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "10",
@@ -39,43 +39,43 @@
    },
    {
     "teryt": "12",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "14",
-    "liczba": 38
+    "liczba": 43
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "teryt": "18",
-    "liczba": 9
-   },
-   {
-    "teryt": "20",
-    "liczba": 9
-   },
-   {
-    "teryt": "22",
-    "liczba": 11
-   },
-   {
-    "teryt": "24",
-    "liczba": 19
-   },
-   {
-    "teryt": "26",
     "liczba": 12
    },
    {
+    "teryt": "20",
+    "liczba": 10
+   },
+   {
+    "teryt": "22",
+    "liczba": 13
+   },
+   {
+    "teryt": "24",
+    "liczba": 20
+   },
+   {
+    "teryt": "26",
+    "liczba": 14
+   },
+   {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 49
+    "liczba": 52
    },
    {
     "teryt": "32",
@@ -86,65 +86,65 @@
   "roczniki": [
    {
     "rok": 2000,
-    "liczba": 27
+    "liczba": 31
    },
    {
     "rok": 2001,
-    "liczba": 76
+    "liczba": 86
    },
    {
     "rok": 2002,
-    "liczba": 82
+    "liczba": 88
    },
    {
     "rok": 2003,
-    "liczba": 51
+    "liczba": 57
    },
    {
     "rok": 2004,
-    "liczba": 35
+    "liczba": 43
    },
    {
     "rok": 2005,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 2006,
-    "liczba": 4
+    "liczba": 6
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 283
+    "liczba": 318
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 292
+    "liczba": 326
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 18
+    "liczba": 21
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 246
+    "liczba": 268
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 59
+    "liczba": 74
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,32 +154,40 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 227
+    "liczba": 256
    },
    {
     "nazwa": "Van",
-    "liczba": 34
+    "liczba": 40
    },
    {
     "nazwa": "Kombi",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 47,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 8
+   },
+   {
+    "rok": 2022,
+    "liczba": 19
+   },
+   {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 11
    },
    {
     "rok": 2024,
@@ -195,6 +203,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -336,7 +440,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1079,
+  "miejsce": 1085,
   "miejsceWMarce": 9,
   "modeliWMarce": 10,
   "sredniRocznik": 2002.3
@@ -345,21 +449,21 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "daihatsu",
  "modelSlug": "yrv",
  "adres": "/marki/daihatsu/yrv/",
  "konkurenci": [
   {
-   "slug": "ford-fiesta",
-   "nazwa": "Ford Fiesta",
-   "adres": "/marki/ford/fiesta/"
-  },
-  {
    "slug": "volkswagen-polo",
    "nazwa": "Volkswagen Polo",
    "adres": "/marki/volkswagen/polo/"
+  },
+  {
+   "slug": "ford-fiesta",
+   "nazwa": "Ford Fiesta",
+   "adres": "/marki/ford/fiesta/"
   },
   {
    "slug": "mitsubishi-colt",

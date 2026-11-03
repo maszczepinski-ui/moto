@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo S70 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S70, S70 2.5 TDI, S70 2.4 KAT, S70 2.5 KAT).",
-  "liczbaWPolsce": 1018,
-  "aktywne": 243,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo S70 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 76 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S70, S70 2.5 TDI, S70 2.4 KAT, S70 2.5 KAT).",
+  "liczbaWPolsce": 1054,
+  "aktywne": 279,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 51
+    "liczba": 56
    },
    {
     "teryt": "04",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "06",
-    "liczba": 115
+    "liczba": 117
    },
    {
     "teryt": "08",
@@ -33,23 +33,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 85
+    "liczba": 87
    },
    {
     "teryt": "12",
-    "liczba": 66
+    "liczba": 70
    },
    {
     "teryt": "14",
-    "liczba": 298
+    "liczba": 304
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "18",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "teryt": "20",
@@ -57,27 +57,27 @@
    },
    {
     "teryt": "22",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "teryt": "24",
-    "liczba": 53
+    "liczba": 57
    },
    {
     "teryt": "26",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "teryt": "28",
-    "liczba": 51
+    "liczba": 54
    },
    {
     "teryt": "30",
-    "liczba": 59
+    "liczba": 62
    },
    {
     "teryt": "32",
-    "liczba": 31
+    "liczba": 32
    }
   ],
   "bezWojewodztwa": 3,
@@ -88,57 +88,33 @@
    },
    {
     "rok": 1997,
-    "liczba": 400
+    "liczba": 411
    },
    {
     "rok": 1998,
-    "liczba": 344
+    "liczba": 359
    },
    {
     "rok": 1999,
-    "liczba": 172
+    "liczba": 180
    },
    {
     "rok": 2000,
-    "liczba": 69
-   },
-   {
-    "rok": 2001,
-    "liczba": 0
-   },
-   {
-    "rok": 2002,
-    "liczba": 2
-   },
-   {
-    "rok": 2003,
-    "liczba": 0
-   },
-   {
-    "rok": 2004,
-    "liczba": 0
-   },
-   {
-    "rok": 2005,
-    "liczba": 1
-   },
-   {
-    "rok": 2006,
-    "liczba": 2
+    "liczba": 71
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Diesel",
-    "liczba": 356
+    "nazwa": "Benzyna",
+    "liczba": 379
    },
    {
-    "nazwa": "Benzyna",
-    "liczba": 354
+    "nazwa": "Diesel",
+    "liczba": 359
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 281
+    "liczba": 289
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,15 +124,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 427
+    "liczba": 455
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 376
+    "liczba": 379
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 155
+    "liczba": 160
    },
    {
     "nazwa": "2,3 l",
@@ -170,11 +146,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 583
+    "liczba": 600
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 418
+    "liczba": 437
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -188,28 +164,36 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 903
+    "liczba": 937
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "nazwa": "Kombi",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 79
    }
   ],
-  "noweOdPaczki": 40,
+  "noweOdPaczki": 76,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 7
+   },
+   {
+    "rok": 2022,
+    "liczba": 20
+   },
+   {
     "rok": 2023,
-    "liczba": 6
+    "liczba": 15
    },
    {
     "rok": 2024,
@@ -225,6 +209,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -366,16 +446,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 751,
+  "miejsce": 770,
   "miejsceWMarce": 24,
-  "modeliWMarce": 33,
+  "modeliWMarce": 34,
   "sredniRocznik": 1997.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "s70",

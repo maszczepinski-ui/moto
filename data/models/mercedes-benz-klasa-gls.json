@@ -12,112 +12,112 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GLS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 490 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GLS 450 D 4MATIC, GLS 350 D 4MATIC, GLS 450 4MATIC, GLS 450, GLS).",
-  "liczbaWPolsce": 2893,
-  "aktywne": 2832,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GLS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 548 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GLS 450 D 4MATIC, GLS 400 D 4MATIC, GLS 350 D 4MATIC, GLS 450 4MATIC, GLS 450).",
+  "liczbaWPolsce": 3951,
+  "aktywne": 3890,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 182
+    "liczba": 268
    },
    {
     "teryt": "04",
-    "liczba": 132
+    "liczba": 180
    },
    {
     "teryt": "06",
-    "liczba": 77
+    "liczba": 110
    },
    {
     "teryt": "08",
-    "liczba": 59
+    "liczba": 80
    },
    {
     "teryt": "10",
-    "liczba": 126
+    "liczba": 173
    },
    {
     "teryt": "12",
-    "liczba": 201
+    "liczba": 261
    },
    {
     "teryt": "14",
-    "liczba": 889
+    "liczba": 1201
    },
    {
     "teryt": "16",
-    "liczba": 25
+    "liczba": 30
    },
    {
     "teryt": "18",
-    "liczba": 77
+    "liczba": 111
    },
    {
     "teryt": "20",
-    "liczba": 101
+    "liczba": 154
    },
    {
     "teryt": "22",
-    "liczba": 243
+    "liczba": 321
    },
    {
     "teryt": "24",
-    "liczba": 212
+    "liczba": 281
    },
    {
     "teryt": "26",
-    "liczba": 39
+    "liczba": 60
    },
    {
     "teryt": "28",
-    "liczba": 55
+    "liczba": 87
    },
    {
     "teryt": "30",
-    "liczba": 348
+    "liczba": 463
    },
    {
     "teryt": "32",
-    "liczba": 126
+    "liczba": 170
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 2015,
-    "liczba": 6
+    "liczba": 8
    },
    {
     "rok": 2016,
-    "liczba": 181
+    "liczba": 196
    },
    {
     "rok": 2017,
-    "liczba": 264
+    "liczba": 305
    },
    {
     "rok": 2018,
-    "liczba": 208
+    "liczba": 228
    },
    {
     "rok": 2019,
-    "liczba": 77
+    "liczba": 94
    },
    {
     "rok": 2020,
-    "liczba": 72
+    "liczba": 101
    },
    {
     "rok": 2021,
-    "liczba": 63
+    "liczba": 383
    },
    {
     "rok": 2022,
-    "liczba": 37
+    "liczba": 502
    },
    {
     "rok": 2023,
-    "liczba": 445
+    "liczba": 593
    },
    {
     "rok": 2024,
@@ -135,94 +135,102 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1137
+    "liczba": 1837
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 927
+    "liczba": 939
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 676
+    "liczba": 884
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 153
+    "liczba": 290
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 2478
-   },
-   {
-    "nazwa": "4,0 l",
-    "liczba": 154
-   },
-   {
-    "nazwa": "4,7 l",
-    "liczba": 126
+    "liczba": 2670
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 78
+    "liczba": 752
+   },
+   {
+    "nazwa": "4,0 l",
+    "liczba": 311
+   },
+   {
+    "nazwa": "4,7 l",
+    "liczba": 144
    },
    {
     "nazwa": "5,5 l",
-    "liczba": 47
+    "liczba": 63
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1877
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 541
+    "liczba": 2340
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 455
+    "liczba": 986
    },
    {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 17
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 605
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 20
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2568
+    "liczba": 3553
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 221
+    "liczba": 260
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 47
+    "liczba": 57
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 57
+    "liczba": 81
    }
   ],
-  "noweOdPaczki": 2490,
-  "hybrydy": 1080,
+  "noweOdPaczki": 3548,
+  "hybrydy": 1229,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 231
+   },
+   {
+    "rok": 2022,
+    "liczba": 524
+   },
+   {
     "rok": 2023,
-    "liczba": 162
+    "liczba": 465
    },
    {
     "rok": 2024,
@@ -238,6 +246,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 45
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 59
+   },
    {
     "miesiac": "2023-12",
     "liczba": 52
@@ -379,16 +483,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 496,
+  "miejsce": 473,
   "miejsceWMarce": 24,
-  "modeliWMarce": 54,
-  "sredniRocznik": 2022.3
+  "modeliWMarce": 56,
+  "sredniRocznik": 2022.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "klasa-gls",
@@ -405,14 +509,14 @@
    "adres": "/marki/mazda/cx-80/"
   },
   {
-   "slug": "audi-sq5",
-   "nazwa": "Audi SQ5",
-   "adres": "/marki/audi/sq5/"
-  },
-  {
    "slug": "audi-q7",
    "nazwa": "Audi Q7",
    "adres": "/marki/audi/q7/"
+  },
+  {
+   "slug": "audi-sq5",
+   "nazwa": "Audi SQ5",
+   "adres": "/marki/audi/sq5/"
   },
   {
    "slug": "bmw-x7",

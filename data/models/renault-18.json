@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 18 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 18, 18 GTD, 18 TD).",
-  "liczbaWPolsce": 815,
-  "aktywne": 3,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 18 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 18, 18 GTD, 18 TD).",
+  "liczbaWPolsce": 816,
+  "aktywne": 4,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "32",
@@ -110,7 +110,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 73
+    "liczba": 74
    },
    {
     "rok": 1985,
@@ -160,7 +160,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -186,7 +186,7 @@
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 183
+    "liczba": 184
    },
    {
     "nazwa": "1,3 l",
@@ -220,7 +220,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -238,7 +238,7 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "Kombi",
@@ -249,11 +249,112 @@
     "liczba": 623
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
+  "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   }
+  ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -395,7 +496,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 795,
+  "miejsce": 821,
   "miejsceWMarce": 35,
   "modeliWMarce": 48,
   "sredniRocznik": 1982.1
@@ -404,7 +505,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "18",

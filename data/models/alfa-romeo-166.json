@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 166 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 55 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 166, 166 2.4 JTD, 166 2,4 JTD, 166 2.0 KAT, 166 3.0 KAT).",
-  "liczbaWPolsce": 2239,
-  "aktywne": 442,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 166 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 115 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 166, 166 2.4 JTD, 166 2,4 JTD, 166 2.0 KAT, 166 3.0 KAT).",
+  "liczbaWPolsce": 2299,
+  "aktywne": 502,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 197
+    "liczba": 205
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 158
+    "liczba": 161
    },
    {
     "teryt": "08",
@@ -34,108 +34,108 @@
    },
    {
     "teryt": "10",
-    "liczba": 130
+    "liczba": 131
    },
    {
     "teryt": "12",
-    "liczba": 176
+    "liczba": 184
    },
    {
     "teryt": "14",
-    "liczba": 349
+    "liczba": 355
    },
    {
     "teryt": "16",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "18",
-    "liczba": 132
+    "liczba": 137
    },
    {
     "teryt": "20",
-    "liczba": 74
-   },
-   {
-    "teryt": "22",
-    "liczba": 121
-   },
-   {
-    "teryt": "24",
-    "liczba": 252
-   },
-   {
-    "teryt": "26",
     "liczba": 77
    },
    {
+    "teryt": "22",
+    "liczba": 124
+   },
+   {
+    "teryt": "24",
+    "liczba": 257
+   },
+   {
+    "teryt": "26",
+    "liczba": 78
+   },
+   {
     "teryt": "28",
-    "liczba": 80
+    "liczba": 85
    },
    {
     "teryt": "30",
-    "liczba": 174
+    "liczba": 183
    },
    {
     "teryt": "32",
-    "liczba": 110
+    "liczba": 112
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 1998,
-    "liczba": 198
+    "liczba": 201
    },
    {
     "rok": 1999,
-    "liczba": 671
+    "liczba": 675
    },
    {
     "rok": 2000,
-    "liczba": 436
+    "liczba": 448
    },
    {
     "rok": 2001,
-    "liczba": 254
+    "liczba": 259
    },
    {
     "rok": 2002,
-    "liczba": 157
+    "liczba": 164
    },
    {
     "rok": 2003,
-    "liczba": 163
+    "liczba": 172
    },
    {
     "rok": 2004,
-    "liczba": 181
+    "liczba": 189
    },
    {
     "rok": 2005,
-    "liczba": 100
+    "liczba": 105
    },
    {
     "rok": 2006,
-    "liczba": 34
+    "liczba": 38
    },
    {
     "rok": 2007,
-    "liczba": 11
+    "liczba": 13
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1141
+    "liczba": 1168
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 606
+    "liczba": 636
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 480
+    "liczba": 483
    },
    {
     "nazwa": "Inne / brak danych",
@@ -145,19 +145,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1152
+    "liczba": 1180
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 447
+    "liczba": 453
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 351
+    "liczba": 373
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 252
+    "liczba": 255
    },
    {
     "nazwa": "3,2 l",
@@ -165,17 +165,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 9
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1341
+    "liczba": 1355
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 873
+    "liczba": 919
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,24 +189,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2100
+    "liczba": 2156
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 90
+    "liczba": 94
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 49
    }
   ],
-  "noweOdPaczki": 55,
+  "noweOdPaczki": 115,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 9
+   },
+   {
+    "rok": 2022,
+    "liczba": 35
+   },
+   {
     "rok": 2023,
-    "liczba": 10
+    "liczba": 26
    },
    {
     "rok": 2024,
@@ -222,6 +230,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -363,7 +467,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 548,
+  "miejsce": 569,
   "miejsceWMarce": 8,
   "modeliWMarce": 20,
   "sredniRocznik": 2000.7
@@ -372,7 +476,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "166",
@@ -394,14 +498,14 @@
    "adres": "/marki/rover/75/"
   },
   {
-   "slug": "hyundai-sonata",
-   "nazwa": "Hyundai Sonata",
-   "adres": "/marki/hyundai/sonata/"
-  },
-  {
    "slug": "volvo-s80",
    "nazwa": "Volvo S80",
    "adres": "/marki/volvo/s80/"
+  },
+  {
+   "slug": "hyundai-sonata",
+   "nazwa": "Hyundai Sonata",
+   "adres": "/marki/hyundai/sonata/"
   }
  ]
 }

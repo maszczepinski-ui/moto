@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe UAZ 469 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 469 B, 469 B CABRIO, 469).",
-  "liczbaWPolsce": 2226,
-  "aktywne": 136,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe UAZ 469 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 469 B, 469 B CABRIO, 469).",
+  "liczbaWPolsce": 2231,
+  "aktywne": 141,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -36,11 +36,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "teryt": "12",
-    "liczba": 197
+    "liczba": 198
    },
    {
     "teryt": "14",
@@ -48,7 +48,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "18",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 145
+    "liczba": 146
    },
    {
     "teryt": "24",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 198
+    "liczba": 199
    },
    {
     "teryt": "32",
@@ -91,7 +91,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 95
+    "liczba": 96
    },
    {
     "rok": 1976,
@@ -99,7 +99,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 141
+    "liczba": 142
    },
    {
     "rok": 1978,
@@ -127,11 +127,11 @@
    },
    {
     "rok": 1984,
-    "liczba": 78
+    "liczba": 79
    },
    {
     "rok": 1985,
-    "liczba": 109
+    "liczba": 110
    },
    {
     "rok": 1986,
@@ -156,12 +156,16 @@
    {
     "rok": 1991,
     "liczba": 15
+   },
+   {
+    "rok": 1992,
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 631
+    "liczba": 636
    },
    {
     "nazwa": "Diesel",
@@ -183,7 +187,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1865
+    "liczba": 1869
    },
    {
     "nazwa": "2,0 l",
@@ -191,7 +195,7 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "nazwa": "2,1 l",
@@ -233,13 +237,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 145
+    "liczba": 150
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Terenowy",
-    "liczba": 164
+    "liczba": 168
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -255,7 +259,7 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "nazwa": "Furgon",
@@ -266,13 +270,21 @@
     "liczba": 1470
    }
   ],
-  "noweOdPaczki": 14,
+  "noweOdPaczki": 19,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 2
+   },
+   {
+    "rok": 2022,
+    "liczba": 2
+   },
+   {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2024,
@@ -288,6 +300,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -429,7 +537,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 549,
+  "miejsce": 577,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 1981.8
@@ -438,7 +546,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "uaz",
  "modelSlug": "469",

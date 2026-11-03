@@ -13,73 +13,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Clc – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 389 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLC 180 KOMPRESSOR, CLC 200 KOMPRESSOR, CLC 200, CLC 180, CLC 220 CDI).",
-  "liczbaWPolsce": 741,
-  "aktywne": 577,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Clc – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 646 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLC 180 KOMPRESSOR, CLC 200 KOMPRESSOR, CLC 220 CDI, CLC 200, CLC 200 CDI).",
+  "liczbaWPolsce": 998,
+  "aktywne": 834,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 68
+    "liczba": 97
    },
    {
     "teryt": "04",
-    "liczba": 56
+    "liczba": 74
    },
    {
     "teryt": "06",
-    "liczba": 28
+    "liczba": 42
    },
    {
     "teryt": "08",
-    "liczba": 34
+    "liczba": 45
    },
    {
     "teryt": "10",
-    "liczba": 30
+    "liczba": 48
    },
    {
     "teryt": "12",
-    "liczba": 52
+    "liczba": 67
    },
    {
     "teryt": "14",
-    "liczba": 96
+    "liczba": 130
    },
    {
     "teryt": "16",
-    "liczba": 14
+    "liczba": 20
    },
    {
     "teryt": "18",
-    "liczba": 31
+    "liczba": 37
    },
    {
     "teryt": "20",
-    "liczba": 19
+    "liczba": 27
    },
    {
     "teryt": "22",
-    "liczba": 58
+    "liczba": 72
    },
    {
     "teryt": "24",
-    "liczba": 77
+    "liczba": 105
    },
    {
     "teryt": "26",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "28",
-    "liczba": 24
+    "liczba": 29
    },
    {
     "teryt": "30",
-    "liczba": 93
+    "liczba": 131
    },
    {
     "teryt": "32",
-    "liczba": 39
+    "liczba": 50
    }
   ],
   "bezWojewodztwa": 3,
@@ -118,11 +118,11 @@
    },
    {
     "rok": 2001,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2002,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2003,
@@ -134,7 +134,7 @@
    },
    {
     "rok": 2005,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2006,
@@ -142,23 +142,23 @@
    },
    {
     "rok": 2007,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2008,
-    "liczba": 270
+    "liczba": 388
    },
    {
     "rok": 2009,
-    "liczba": 288
+    "liczba": 379
    },
    {
     "rok": 2010,
-    "liczba": 108
+    "liczba": 144
    },
    {
     "rok": 2011,
-    "liczba": 11
+    "liczba": 18
    },
    {
     "rok": 2012,
@@ -192,15 +192,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 508
+    "liczba": 669
    },
    {
     "nazwa": "Diesel",
-    "liczba": 169
+    "liczba": 234
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 63
+    "liczba": 94
    },
    {
     "nazwa": "Inne / brak danych",
@@ -210,37 +210,33 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 532
+    "liczba": 708
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 158
+    "liczba": 224
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 20
+    "liczba": 28
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 11
-   },
-   {
-    "nazwa": "2,2 l",
-    "liczba": 8
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 22
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 470
+    "liczba": 624
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 224
+    "liczba": 327
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -254,28 +250,36 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 428
+    "liczba": 555
    },
    {
     "nazwa": "Coupe",
-    "liczba": 273
+    "liczba": 397
    },
    {
     "nazwa": "Sedan",
-    "liczba": 28
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 15
    }
   ],
-  "noweOdPaczki": 389,
+  "noweOdPaczki": 646,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 75
+   },
+   {
+    "rok": 2022,
+    "liczba": 111
+   },
+   {
     "rok": 2023,
-    "liczba": 36
+    "liczba": 107
    },
    {
     "rok": 2024,
@@ -291,6 +295,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 11
+   },
    {
     "miesiac": "2023-12",
     "liczba": 7
@@ -432,16 +532,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 818,
+  "miejsce": 781,
   "miejsceWMarce": 41,
-  "modeliWMarce": 54,
-  "sredniRocznik": 2008.3
+  "modeliWMarce": 56,
+  "sredniRocznik": 2008.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "clc",
@@ -458,14 +558,14 @@
    "adres": "/marki/dodge/caliber/"
   },
   {
-   "slug": "volkswagen-beetle",
-   "nazwa": "Volkswagen Beetle",
-   "adres": "/marki/volkswagen/beetle/"
-  },
-  {
    "slug": "fiat-sedici",
    "nazwa": "Fiat Sedici",
    "adres": "/marki/fiat/sedici/"
+  },
+  {
+   "slug": "volkswagen-beetle",
+   "nazwa": "Volkswagen Beetle",
+   "adres": "/marki/volkswagen/beetle/"
   },
   {
    "slug": "seat-leon",

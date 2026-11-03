@@ -13,134 +13,134 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 085 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 5, 5 2.0, MAZDA 5, 5 2.0 D, 5 1.8).",
-  "liczbaWPolsce": 15782,
-  "aktywne": 9703,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 131 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 5, 5 2.0, MAZDA 5, 5 1.8, 5 2.0 D).",
+  "liczbaWPolsce": 18828,
+  "aktywne": 12749,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1521
+    "liczba": 1818
    },
    {
     "teryt": "04",
-    "liczba": 886
+    "liczba": 1053
    },
    {
     "teryt": "06",
-    "liczba": 733
+    "liczba": 881
    },
    {
     "teryt": "08",
-    "liczba": 625
+    "liczba": 767
    },
    {
     "teryt": "10",
-    "liczba": 1002
+    "liczba": 1210
    },
    {
     "teryt": "12",
-    "liczba": 1282
+    "liczba": 1495
    },
    {
     "teryt": "14",
-    "liczba": 1996
+    "liczba": 2384
    },
    {
     "teryt": "16",
-    "liczba": 384
+    "liczba": 469
    },
    {
     "teryt": "18",
-    "liczba": 825
+    "liczba": 966
    },
    {
     "teryt": "20",
-    "liczba": 474
+    "liczba": 554
    },
    {
     "teryt": "22",
-    "liczba": 868
+    "liczba": 1020
    },
    {
     "teryt": "24",
-    "liczba": 1511
+    "liczba": 1797
    },
    {
     "teryt": "26",
-    "liczba": 381
+    "liczba": 468
    },
    {
     "teryt": "28",
-    "liczba": 552
+    "liczba": 660
    },
    {
     "teryt": "30",
-    "liczba": 1769
+    "liczba": 2158
    },
    {
     "teryt": "32",
-    "liczba": 819
+    "liczba": 974
    }
   ],
   "bezWojewodztwa": 154,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 2208
+    "liczba": 2494
    },
    {
     "rok": 2006,
-    "liczba": 3991
+    "liczba": 4487
    },
    {
     "rok": 2007,
-    "liczba": 2926
+    "liczba": 3465
    },
    {
     "rok": 2008,
-    "liczba": 1947
+    "liczba": 2397
    },
    {
     "rok": 2009,
-    "liczba": 1188
+    "liczba": 1537
    },
    {
     "rok": 2010,
-    "liczba": 1084
+    "liczba": 1399
    },
    {
     "rok": 2011,
-    "liczba": 955
+    "liczba": 1285
    },
    {
     "rok": 2012,
-    "liczba": 474
+    "liczba": 614
    },
    {
     "rok": 2013,
-    "liczba": 255
+    "liczba": 321
    },
    {
     "rok": 2014,
-    "liczba": 186
+    "liczba": 223
    },
    {
     "rok": 2015,
-    "liczba": 97
+    "liczba": 130
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Diesel",
-    "liczba": 6541
+    "nazwa": "Benzyna",
+    "liczba": 7542
    },
    {
-    "nazwa": "Benzyna",
-    "liczba": 6007
+    "nazwa": "Diesel",
+    "liczba": 7530
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3182
+    "liczba": 3704
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,33 +150,33 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 10762
+    "liczba": 12622
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 3878
+    "liczba": 4768
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 833
+    "liczba": 1114
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 217
+    "liczba": 222
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 92
+    "liczba": 102
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 12020
+    "liczba": 14080
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3446
+    "liczba": 4428
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -184,38 +184,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 177
+    "liczba": 181
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 6743
+    "liczba": 7407
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5322
+    "liczba": 7082
    },
    {
     "nazwa": "Kombi",
-    "liczba": 2629
+    "liczba": 3138
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 705
+    "liczba": 802
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 383
+    "liczba": 399
    }
   ],
-  "noweOdPaczki": 3085,
+  "noweOdPaczki": 6131,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 742
+   },
+   {
+    "rok": 2022,
+    "liczba": 1351
+   },
+   {
     "rok": 2023,
-    "liczba": 322
+    "liczba": 1275
    },
    {
     "rok": 2024,
@@ -231,6 +239,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 114
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 127
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 87
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 128
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 121
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 105
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 101
+   },
    {
     "miesiac": "2023-12",
     "liczba": 82
@@ -372,16 +476,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 214,
+  "miejsce": 211,
   "miejsceWMarce": 7,
   "modeliWMarce": 32,
-  "sredniRocznik": 2007.6
+  "sredniRocznik": 2007.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "5",
@@ -393,24 +497,24 @@
    "adres": "/marki/opel/zafira/"
   },
   {
-   "slug": "honda-fr-v",
-   "nazwa": "Honda FR-V",
-   "adres": "/marki/honda/fr-v/"
-  },
-  {
-   "slug": "mitsubishi-grandis",
-   "nazwa": "Mitsubishi Grandis",
-   "adres": "/marki/mitsubishi/grandis/"
-  },
-  {
    "slug": "renault-espace",
    "nazwa": "Renault Espace",
    "adres": "/marki/renault/espace/"
   },
   {
+   "slug": "honda-fr-v",
+   "nazwa": "Honda FR-V",
+   "adres": "/marki/honda/fr-v/"
+  },
+  {
    "slug": "opel-meriva",
    "nazwa": "Opel Meriva",
    "adres": "/marki/opel/meriva/"
+  },
+  {
+   "slug": "honda-cr-v",
+   "nazwa": "Honda CR-V",
+   "adres": "/marki/honda/cr-v/"
   }
  ]
 }

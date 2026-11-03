@@ -13,122 +13,122 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Trax – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 317 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAX, CHEVROLET TRAX, TRAX 1.4 AWD).",
-  "liczbaWPolsce": 2283,
-  "aktywne": 1788,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Trax – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 099 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAX, CHEVROLET TRAX, TRAX 1.4 AWD, TRAX 1.7 CDTI).",
+  "liczbaWPolsce": 3065,
+  "aktywne": 2570,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 122
+    "liczba": 169
    },
    {
     "teryt": "04",
-    "liczba": 101
+    "liczba": 152
    },
    {
     "teryt": "06",
-    "liczba": 129
+    "liczba": 180
    },
    {
     "teryt": "08",
-    "liczba": 39
+    "liczba": 52
    },
    {
     "teryt": "10",
-    "liczba": 120
+    "liczba": 184
    },
    {
     "teryt": "12",
-    "liczba": 303
+    "liczba": 391
    },
    {
     "teryt": "14",
-    "liczba": 336
+    "liczba": 434
    },
    {
     "teryt": "16",
-    "liczba": 47
+    "liczba": 57
    },
    {
     "teryt": "18",
-    "liczba": 223
+    "liczba": 299
    },
    {
     "teryt": "20",
-    "liczba": 63
+    "liczba": 82
    },
    {
     "teryt": "22",
-    "liczba": 101
+    "liczba": 122
    },
    {
     "teryt": "24",
-    "liczba": 221
+    "liczba": 289
    },
    {
     "teryt": "26",
-    "liczba": 84
+    "liczba": 126
    },
    {
     "teryt": "28",
-    "liczba": 78
+    "liczba": 107
    },
    {
     "teryt": "30",
-    "liczba": 213
+    "liczba": 288
    },
    {
     "teryt": "32",
-    "liczba": 83
+    "liczba": 113
    }
   ],
   "bezWojewodztwa": 20,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 1723
+    "liczba": 2284
    },
    {
     "rok": 2014,
-    "liczba": 432
+    "liczba": 606
    },
    {
     "rok": 2015,
-    "liczba": 16
+    "liczba": 22
    },
    {
     "rok": 2016,
-    "liczba": 18
+    "liczba": 22
    },
    {
     "rok": 2017,
-    "liczba": 17
+    "liczba": 28
    },
    {
     "rok": 2018,
-    "liczba": 8
-   },
-   {
-    "rok": 2019,
     "liczba": 11
    },
    {
+    "rok": 2019,
+    "liczba": 28
+   },
+   {
     "rok": 2020,
-    "liczba": 9
+    "liczba": 15
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1376
+    "liczba": 1715
    },
    {
     "nazwa": "Diesel",
-    "liczba": 709
+    "liczba": 1036
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 197
+    "liczba": 313
    },
    {
     "nazwa": "Inne / brak danych",
@@ -138,29 +138,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1017
+    "liczba": 1359
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 709
+    "liczba": 1037
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 545
+    "liczba": 656
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1354
+    "liczba": 1923
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 493
+    "liczba": 706
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -174,36 +174,44 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1518
+    "liczba": 1986
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 453
+    "liczba": 635
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 227
+    "liczba": 319
    },
    {
     "nazwa": "Van",
-    "liczba": 43
+    "liczba": 67
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 27
+    "liczba": 38
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 15
+    "liczba": 20
    }
   ],
-  "noweOdPaczki": 1317,
+  "noweOdPaczki": 2099,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 163
+   },
+   {
+    "rok": 2022,
+    "liczba": 336
+   },
+   {
     "rok": 2023,
-    "liczba": 92
+    "liczba": 375
    },
    {
     "rok": 2024,
@@ -219,6 +227,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 31
+   },
    {
     "miesiac": "2023-12",
     "liczba": 24
@@ -360,16 +464,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 544,
-  "miejsceWMarce": 11,
-  "modeliWMarce": 22,
+  "miejsce": 505,
+  "miejsceWMarce": 9,
+  "modeliWMarce": 23,
   "sredniRocznik": 2013.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "trax",
@@ -386,11 +490,6 @@
    "adres": "/marki/skoda/yeti/"
   },
   {
-   "slug": "dacia-lodgy",
-   "nazwa": "Dacia Lodgy",
-   "adres": "/marki/dacia/lodgy/"
-  },
-  {
    "slug": "skoda-octavia",
    "nazwa": "Skoda Octavia",
    "adres": "/marki/skoda/octavia/"
@@ -399,6 +498,11 @@
    "slug": "ford-grand-c-max",
    "nazwa": "Ford Grand C-Max",
    "adres": "/marki/ford/grand-c-max/"
+  },
+  {
+   "slug": "dacia-lodgy",
+   "nazwa": "Dacia Lodgy",
+   "adres": "/marki/dacia/lodgy/"
   }
  ]
 }

@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 144 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 144, 144 2.0, 144 1.8).",
-  "liczbaWPolsce": 464,
-  "aktywne": 12,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 144 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 144, 144 2.0, 144 1.8).",
+  "liczbaWPolsce": 467,
+  "aktywne": 15,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "04",
@@ -53,11 +53,11 @@
    },
    {
     "teryt": "20",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "22",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "24",
@@ -116,7 +116,7 @@
    },
    {
     "rok": 1970,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 1971,
@@ -128,7 +128,7 @@
    },
    {
     "rok": 1973,
-    "liczba": 63
+    "liczba": 65
    },
    {
     "rok": 1974,
@@ -210,7 +210,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 72
+    "liczba": 75
    },
    {
     "nazwa": "?+LPG",
@@ -232,7 +232,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 251
+    "liczba": 254
    },
    {
     "nazwa": "1,8 l",
@@ -254,7 +254,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 306
+    "liczba": 308
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -262,7 +262,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -276,20 +276,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 94
+    "liczba": 97
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 370
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 11,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2022,
+    "liczba": 2
+   },
+   {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2024,
@@ -305,6 +309,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -446,16 +546,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 956,
+  "miejsce": 978,
   "miejsceWMarce": 29,
-  "modeliWMarce": 33,
+  "modeliWMarce": 34,
   "sredniRocznik": 1970.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "144",

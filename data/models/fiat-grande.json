@@ -12,69 +12,69 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Grande – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 155 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANDE PUNTO, GRANDE PUNTO 1.4, GRANDE PUNTO 1.3 MULTIJET).",
-  "liczbaWPolsce": 1687,
-  "aktywne": 901,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Grande – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 434 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANDE PUNTO, GRANDE PUNTO 1.4, GRANDE PUNTO 1.3 MULTIJET, GRANDE PUNTO 1.2, GRANDE PUNTO EVO).",
+  "liczbaWPolsce": 1966,
+  "aktywne": 1180,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 135
+    "liczba": 152
    },
    {
     "teryt": "04",
-    "liczba": 73
+    "liczba": 78
    },
    {
     "teryt": "06",
-    "liczba": 37
+    "liczba": 46
    },
    {
     "teryt": "08",
-    "liczba": 37
+    "liczba": 41
    },
    {
     "teryt": "10",
-    "liczba": 161
+    "liczba": 183
    },
    {
     "teryt": "12",
-    "liczba": 157
+    "liczba": 183
    },
    {
     "teryt": "14",
-    "liczba": 92
+    "liczba": 105
    },
    {
     "teryt": "16",
-    "liczba": 48
+    "liczba": 56
    },
    {
     "teryt": "18",
-    "liczba": 124
+    "liczba": 164
    },
    {
     "teryt": "20",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "22",
-    "liczba": 53
+    "liczba": 61
    },
    {
     "teryt": "24",
-    "liczba": 279
+    "liczba": 357
    },
    {
     "teryt": "26",
-    "liczba": 54
+    "liczba": 72
    },
    {
     "teryt": "28",
-    "liczba": 15
+    "liczba": 20
    },
    {
     "teryt": "30",
-    "liczba": 352
+    "liczba": 376
    },
    {
     "teryt": "32",
@@ -85,53 +85,53 @@
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 97
+    "liczba": 109
    },
    {
     "rok": 2006,
-    "liczba": 477
+    "liczba": 554
    },
    {
     "rok": 2007,
-    "liczba": 336
+    "liczba": 386
    },
    {
     "rok": 2008,
-    "liczba": 291
+    "liczba": 340
    },
    {
     "rok": 2009,
-    "liczba": 299
+    "liczba": 372
    },
    {
     "rok": 2010,
-    "liczba": 46
+    "liczba": 50
    },
    {
     "rok": 2011,
-    "liczba": 34
+    "liczba": 41
    },
    {
     "rok": 2012,
-    "liczba": 21
+    "liczba": 25
    },
    {
     "rok": 2013,
-    "liczba": 11
+    "liczba": 13
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 920
+    "liczba": 1143
    },
    {
     "nazwa": "Diesel",
-    "liczba": 523
+    "liczba": 543
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 242
+    "liczba": 278
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,29 +141,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 864
+    "liczba": 944
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 752
+    "liczba": 942
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 61
+    "liczba": 68
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1226
+    "liczba": 1378
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 440
+    "liczba": 567
    },
    {
     "nazwa": "Inne / brak danych",
@@ -173,24 +173,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1550
+    "liczba": 1786
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 105
+    "liczba": 145
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 35
    }
   ],
-  "noweOdPaczki": 155,
+  "noweOdPaczki": 434,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 70
+   },
+   {
+    "rok": 2022,
+    "liczba": 124
+   },
+   {
     "rok": 2023,
-    "liczba": 22
+    "liczba": 107
    },
    {
     "rok": 2024,
@@ -206,6 +214,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 7
+   },
    {
     "miesiac": "2023-12",
     "liczba": 5
@@ -347,16 +451,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 620,
-  "miejsceWMarce": 38,
-  "modeliWMarce": 58,
-  "sredniRocznik": 2007.4
+  "miejsce": 610,
+  "miejsceWMarce": 36,
+  "modeliWMarce": 60,
+  "sredniRocznik": 2007.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "grande",
@@ -373,9 +477,9 @@
    "adres": "/marki/renault/modus/"
   },
   {
-   "slug": "skoda-fabia",
-   "nazwa": "Skoda Fabia",
-   "adres": "/marki/skoda/fabia/"
+   "slug": "ford-ka",
+   "nazwa": "Ford Ka",
+   "adres": "/marki/ford/ka/"
   },
   {
    "slug": "honda-jazz",
@@ -383,9 +487,9 @@
    "adres": "/marki/honda/jazz/"
   },
   {
-   "slug": "suzuki-ignis",
-   "nazwa": "Suzuki Ignis",
-   "adres": "/marki/suzuki/ignis/"
+   "slug": "volkswagen-polo-iv",
+   "nazwa": "Volkswagen Polo IV (9N)",
+   "adres": "/marki/volkswagen/polo/iv-9n/"
   }
  ]
 }

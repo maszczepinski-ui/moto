@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 300M – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 300M, 300M 3.5, 300M 3.5 V6, 300M 3.5 KAT).",
-  "liczbaWPolsce": 1144,
-  "aktywne": 222,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 300M – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 300M, 300M 3.5, 300M 3.5 V6, 300M 3.5 KAT).",
+  "liczbaWPolsce": 1152,
+  "aktywne": 230,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "08",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 99
+    "liczba": 101
    },
    {
     "teryt": "12",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 193
+    "liczba": 195
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "20",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 129
+    "liczba": 130
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "teryt": "32",
@@ -88,27 +88,27 @@
    },
    {
     "rok": 1999,
-    "liczba": 353
+    "liczba": 355
    },
    {
     "rok": 2000,
-    "liczba": 250
+    "liczba": 252
    },
    {
     "rok": 2001,
-    "liczba": 157
+    "liczba": 158
    },
    {
     "rok": 2002,
-    "liczba": 122
+    "liczba": 123
    },
    {
     "rok": 2003,
-    "liczba": 71
+    "liczba": 72
    },
    {
     "rok": 2004,
-    "liczba": 46
+    "liczba": 47
    },
    {
     "rok": 2005,
@@ -118,11 +118,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 624
+    "liczba": 628
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 498
+    "liczba": 502
    },
    {
     "nazwa": "Inne / brak danych",
@@ -132,11 +132,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 896
+    "liczba": 901
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 237
+    "liczba": 240
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,11 +146,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 789
+    "liczba": 792
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 327
+    "liczba": 332
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -164,7 +164,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1040
+    "liczba": 1048
    },
    {
     "nazwa": "Hatchback",
@@ -179,10 +179,18 @@
     "liczba": 62
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 15,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 6
+   },
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
    {
     "rok": 2024,
     "liczba": 6
@@ -193,6 +201,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -334,16 +438,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 715,
+  "miejsce": 744,
   "miejsceWMarce": 8,
-  "modeliWMarce": 19,
-  "sredniRocznik": 2000.2
+  "modeliWMarce": 21,
+  "sredniRocznik": 2000.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "300m",
@@ -370,9 +474,9 @@
    "adres": "/marki/mercedes-benz/320/"
   },
   {
-   "slug": "dodge-caravan",
-   "nazwa": "Dodge Caravan",
-   "adres": "/marki/dodge/caravan/"
+   "slug": "nissan-maxima",
+   "nazwa": "Nissan Maxima",
+   "adres": "/marki/nissan/maxima/"
   }
  ]
 }

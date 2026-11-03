@@ -16,9 +16,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Sidekick – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIDEKICK).",
-  "liczbaWPolsce": 215,
-  "aktywne": 36,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Sidekick – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIDEKICK).",
+  "liczbaWPolsce": 217,
+  "aktywne": 38,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "08",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "14",
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 1993,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1997,
@@ -135,7 +135,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 98
+    "liczba": 100
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -153,15 +153,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 200
+    "liczba": 201
+   },
+   {
+    "nazwa": "1,8 l",
+    "liczba": 5
    },
    {
     "nazwa": "1,3 l",
     "liczba": 5
-   },
-   {
-    "nazwa": "1,8 l",
-    "liczba": 4
    },
    {
     "nazwa": "Inne / brak danych",
@@ -171,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 187
+    "liczba": 188
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,11 +189,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "nazwa": "Sedan",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -216,10 +216,18 @@
     "liczba": 82
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 4,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2025,
     "liczba": 1
@@ -230,6 +238,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -371,16 +475,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1198,
-  "miejsceWMarce": 20,
-  "modeliWMarce": 20,
+  "miejsce": 1237,
+  "miejsceWMarce": 21,
+  "modeliWMarce": 21,
   "sredniRocznik": 1993.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "suzuki",
  "modelSlug": "sidekick",

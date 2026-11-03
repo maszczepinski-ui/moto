@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100).",
-  "liczbaWPolsce": 432,
-  "aktywne": 20,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100).",
+  "liczbaWPolsce": 436,
+  "aktywne": 24,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "14",
-    "liczba": 100
+    "liczba": 102
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "24",
@@ -141,7 +141,7 @@
    },
    {
     "rok": 1961,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 1962,
@@ -161,15 +161,15 @@
    },
    {
     "rok": 1966,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 1967,
-    "liczba": 28
+    "liczba": 29
    },
    {
     "rok": 1968,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1969,
@@ -343,7 +343,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 109
+    "liczba": 113
    },
    {
     "nazwa": "?+LPG",
@@ -357,7 +357,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 344
+    "liczba": 348
    },
    {
     "nazwa": "1,2 l",
@@ -379,7 +379,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 259
+    "liczba": 260
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -387,7 +387,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 22
+    "liczba": 25
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -401,21 +401,33 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 57
+    "liczba": 60
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 345
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 2
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -430,6 +442,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -571,16 +679,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 975,
+  "miejsce": 998,
   "miejsceWMarce": 49,
-  "modeliWMarce": 58,
+  "modeliWMarce": 60,
   "sredniRocznik": 1968.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "1100",

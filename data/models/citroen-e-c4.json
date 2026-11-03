@@ -12,92 +12,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen E-C4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 371 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: E-C4, E-C4 X).",
-  "liczbaWPolsce": 371,
-  "aktywne": 371,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen E-C4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 603 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: E-C4, E-C4 X).",
+  "liczbaWPolsce": 603,
+  "aktywne": 603,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 22
+    "liczba": 43
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 22
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 14
    },
    {
     "teryt": "08",
-    "liczba": 4
+    "liczba": 8
    },
    {
     "teryt": "10",
-    "liczba": 5
+    "liczba": 22
    },
    {
     "teryt": "12",
-    "liczba": 25
+    "liczba": 57
    },
    {
     "teryt": "14",
-    "liczba": 107
+    "liczba": 154
    },
    {
     "teryt": "16",
-    "liczba": 4
-   },
-   {
-    "teryt": "18",
-    "liczba": 29
-   },
-   {
-    "teryt": "20",
-    "liczba": 17
-   },
-   {
-    "teryt": "22",
-    "liczba": 18
-   },
-   {
-    "teryt": "24",
-    "liczba": 35
-   },
-   {
-    "teryt": "26",
-    "liczba": 11
-   },
-   {
-    "teryt": "28",
     "liczba": 5
    },
    {
+    "teryt": "18",
+    "liczba": 44
+   },
+   {
+    "teryt": "20",
+    "liczba": 20
+   },
+   {
+    "teryt": "22",
+    "liczba": 30
+   },
+   {
+    "teryt": "24",
+    "liczba": 53
+   },
+   {
+    "teryt": "26",
+    "liczba": 18
+   },
+   {
+    "teryt": "28",
+    "liczba": 14
+   },
+   {
     "teryt": "30",
-    "liczba": 47
+    "liczba": 72
    },
    {
     "teryt": "32",
-    "liczba": 18
+    "liczba": 27
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2021,
-    "liczba": 26
+    "liczba": 70
    },
    {
     "rok": 2022,
-    "liczba": 49
+    "liczba": 172
    },
    {
     "rok": 2023,
-    "liczba": 155
+    "liczba": 219
    },
    {
     "rok": 2024,
@@ -111,27 +111,27 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 371
+    "liczba": 603
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 371
+    "liczba": 603
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 175
+    "liczba": 276
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 116
+    "liczba": 243
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 72
+    "liczba": 76
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -145,28 +145,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 290
+    "liczba": 487
    },
    {
     "nazwa": "Sedan",
-    "liczba": 74
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5
+    "liczba": 109
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 7
    }
   ],
-  "noweOdPaczki": 371,
+  "noweOdPaczki": 603,
   "hybrydy": 0,
-  "elektryczne": 371,
+  "elektryczne": 603,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 23
+   },
+   {
+    "rok": 2022,
+    "liczba": 123
+   },
+   {
     "rok": 2023,
-    "liczba": 61
+    "liczba": 147
    },
    {
     "rok": 2024,
@@ -182,6 +186,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 19
+   },
    {
     "miesiac": "2023-12",
     "liczba": 29
@@ -323,16 +423,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1020,
-  "miejsceWMarce": 38,
-  "modeliWMarce": 40,
-  "sredniRocznik": 2023.4
+  "miejsce": 903,
+  "miejsceWMarce": 35,
+  "modeliWMarce": 42,
+  "sredniRocznik": 2022.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "e-c4",

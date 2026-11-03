@@ -13,114 +13,114 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jeep Commander – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 377 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COMMANDER, COMMANDER LIMITED, COMMANDER 3.0 CRD).",
-  "liczbaWPolsce": 1096,
-  "aktywne": 654,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jeep Commander – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 671 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COMMANDER, COMMANDER LIMITED, COMMANDER 3.0 CRD, COMMANDER 3.7).",
+  "liczbaWPolsce": 1390,
+  "aktywne": 948,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 62
+    "liczba": 78
    },
    {
     "teryt": "04",
-    "liczba": 35
+    "liczba": 43
    },
    {
     "teryt": "06",
-    "liczba": 71
+    "liczba": 92
    },
    {
     "teryt": "08",
-    "liczba": 37
+    "liczba": 54
    },
    {
     "teryt": "10",
-    "liczba": 67
+    "liczba": 78
    },
    {
     "teryt": "12",
-    "liczba": 113
+    "liczba": 141
    },
    {
     "teryt": "14",
-    "liczba": 185
+    "liczba": 240
    },
    {
     "teryt": "16",
-    "liczba": 14
+    "liczba": 22
    },
    {
     "teryt": "18",
-    "liczba": 36
+    "liczba": 53
    },
    {
     "teryt": "20",
-    "liczba": 46
+    "liczba": 56
    },
    {
     "teryt": "22",
-    "liczba": 103
+    "liczba": 122
    },
    {
     "teryt": "24",
-    "liczba": 108
+    "liczba": 140
    },
    {
     "teryt": "26",
-    "liczba": 19
+    "liczba": 25
    },
    {
     "teryt": "28",
-    "liczba": 49
+    "liczba": 61
    },
    {
     "teryt": "30",
-    "liczba": 66
+    "liczba": 87
    },
    {
     "teryt": "32",
-    "liczba": 77
+    "liczba": 90
    }
   ],
   "bezWojewodztwa": 8,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 16
+    "liczba": 20
    },
    {
     "rok": 2006,
-    "liczba": 478
+    "liczba": 587
    },
    {
     "rok": 2007,
-    "liczba": 346
+    "liczba": 432
    },
    {
     "rok": 2008,
-    "liczba": 154
+    "liczba": 205
    },
    {
     "rok": 2009,
-    "liczba": 44
+    "liczba": 67
    },
    {
     "rok": 2010,
-    "liczba": 36
+    "liczba": 57
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 622
+    "liczba": 747
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 304
+    "liczba": 422
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 166
+    "liczba": 217
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,33 +130,33 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 620
+    "liczba": 745
    },
    {
     "nazwa": "5,7 l",
-    "liczba": 233
+    "liczba": 358
    },
    {
     "nazwa": "3,7 l",
-    "liczba": 131
+    "liczba": 152
    },
    {
     "nazwa": "4,7 l",
-    "liczba": 104
+    "liczba": 125
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 10
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 568
+    "liczba": 724
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 492
+    "liczba": 628
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -164,42 +164,50 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 535
+    "liczba": 661
    },
    {
     "nazwa": "Kombi",
-    "liczba": 280
+    "liczba": 344
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 167
+    "liczba": 252
    },
    {
     "nazwa": "Van",
-    "liczba": 62
+    "liczba": 68
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 14
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 38
+    "liczba": 42
    }
   ],
-  "noweOdPaczki": 377,
+  "noweOdPaczki": 671,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 76
+   },
+   {
+    "rok": 2022,
+    "liczba": 142
+   },
+   {
     "rok": 2023,
-    "liczba": 51
+    "liczba": 127
    },
    {
     "rok": 2024,
@@ -215,6 +223,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 16
+   },
    {
     "miesiac": "2023-12",
     "liczba": 15
@@ -356,7 +460,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 729,
+  "miejsce": 700,
   "miejsceWMarce": 8,
   "modeliWMarce": 9,
   "sredniRocznik": 2006.9
@@ -365,16 +469,16 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "jeep",
  "modelSlug": "commander",
  "adres": "/marki/jeep/commander/",
  "konkurenci": [
   {
-   "slug": "mercedes-benz-klasa-s",
-   "nazwa": "Mercedes-Benz Klasa S",
-   "adres": "/marki/mercedes-benz/klasa-s/"
+   "slug": "audi-a8",
+   "nazwa": "Audi A8",
+   "adres": "/marki/audi/a8/"
   },
   {
    "slug": "chrysler-300c",
@@ -382,19 +486,19 @@
    "adres": "/marki/chrysler/300c/"
   },
   {
-   "slug": "audi-a8",
-   "nazwa": "Audi A8",
-   "adres": "/marki/audi/a8/"
-  },
-  {
-   "slug": "chrysler-town-country",
-   "nazwa": "Chrysler Town & Country",
-   "adres": "/marki/chrysler/town-country/"
+   "slug": "mercedes-benz-klasa-s",
+   "nazwa": "Mercedes-Benz Klasa S",
+   "adres": "/marki/mercedes-benz/klasa-s/"
   },
   {
    "slug": "nissan-pathfinder",
    "nazwa": "Nissan Pathfinder",
    "adres": "/marki/nissan/pathfinder/"
+  },
+  {
+   "slug": "volkswagen-phaeton",
+   "nazwa": "Volkswagen Phaeton",
+   "adres": "/marki/volkswagen/phaeton/"
   }
  ]
 }

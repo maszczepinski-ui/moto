@@ -12,104 +12,104 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 880 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 7 CROSSBACK, DS 7).",
-  "liczbaWPolsce": 2880,
-  "aktywne": 2880,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 887 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 7 CROSSBACK, DS 7).",
+  "liczbaWPolsce": 3887,
+  "aktywne": 3887,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 205
+    "liczba": 278
    },
    {
     "teryt": "04",
-    "liczba": 129
-   },
-   {
-    "teryt": "06",
-    "liczba": 89
-   },
-   {
-    "teryt": "08",
-    "liczba": 68
-   },
-   {
-    "teryt": "10",
     "liczba": 159
    },
    {
+    "teryt": "06",
+    "liczba": 117
+   },
+   {
+    "teryt": "08",
+    "liczba": 80
+   },
+   {
+    "teryt": "10",
+    "liczba": 220
+   },
+   {
     "teryt": "12",
-    "liczba": 301
+    "liczba": 389
    },
    {
     "teryt": "14",
-    "liczba": 523
+    "liczba": 819
    },
    {
     "teryt": "16",
-    "liczba": 51
-   },
-   {
-    "teryt": "18",
-    "liczba": 129
-   },
-   {
-    "teryt": "20",
     "liczba": 70
    },
    {
+    "teryt": "18",
+    "liczba": 164
+   },
+   {
+    "teryt": "20",
+    "liczba": 83
+   },
+   {
     "teryt": "22",
-    "liczba": 171
+    "liczba": 219
    },
    {
     "teryt": "24",
-    "liczba": 271
+    "liczba": 393
    },
    {
     "teryt": "26",
-    "liczba": 64
+    "liczba": 77
    },
    {
     "teryt": "28",
-    "liczba": 51
+    "liczba": 71
    },
    {
     "teryt": "30",
-    "liczba": 450
+    "liczba": 577
    },
    {
     "teryt": "32",
-    "liczba": 149
+    "liczba": 171
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 17
+    "liczba": 19
    },
    {
     "rok": 2018,
-    "liczba": 543
+    "liczba": 680
    },
    {
     "rok": 2019,
-    "liczba": 644
+    "liczba": 746
    },
    {
     "rok": 2020,
-    "liczba": 607
+    "liczba": 669
    },
    {
     "rok": 2021,
-    "liczba": 473
+    "liczba": 651
    },
    {
     "rok": 2022,
-    "liczba": 205
+    "liczba": 693
    },
    {
     "rok": 2023,
-    "liczba": 119
+    "liczba": 157
    },
    {
     "rok": 2024,
@@ -123,82 +123,94 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1356
+    "liczba": 1589
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 920
+    "liczba": 1172
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 600
+    "liczba": 1116
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 10
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1497
+    "liczba": 2269
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 891
+    "liczba": 1068
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 466
+    "liczba": 523
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26
+    "liczba": 27
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1948
+    "liczba": 2132
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 672
+    "liczba": 1319
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 219
+    "liczba": 392
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 41
+    "liczba": 43
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2618
+    "liczba": 3560
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 156
+    "liczba": 184
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 71
+    "liczba": 99
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 35
+    "liczba": 44
    }
   ],
-  "noweOdPaczki": 2880,
-  "hybrydy": 921,
+  "noweOdPaczki": 3887,
+  "hybrydy": 1173,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 160
+   },
+   {
+    "rok": 2022,
+    "liczba": 563
+   },
+   {
     "rok": 2023,
-    "liczba": 141
+    "liczba": 425
    },
    {
     "rok": 2024,
@@ -214,6 +226,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 117
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 47
+   },
    {
     "miesiac": "2023-12",
     "liczba": 46
@@ -355,21 +463,26 @@
     "liczba": 0
    }
   ],
-  "miejsce": 498,
+  "miejsce": 478,
   "miejsceWMarce": 1,
   "modeliWMarce": 7,
-  "sredniRocznik": 2020.2
+  "sredniRocznik": 2020.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ds",
  "modelSlug": "7",
  "adres": "/marki/ds/7/",
  "konkurenci": [
+  {
+   "slug": "mercedes-benz-klasa-gla",
+   "nazwa": "Mercedes-Benz Klasa GLA",
+   "adres": "/marki/mercedes-benz/klasa-gla/"
+  },
   {
    "slug": "audi-q3",
    "nazwa": "Audi Q3",
@@ -381,19 +494,14 @@
    "adres": "/marki/ssangyong-kgm/korando/"
   },
   {
-   "slug": "mercedes-benz-klasa-gla",
-   "nazwa": "Mercedes-Benz Klasa GLA",
-   "adres": "/marki/mercedes-benz/klasa-gla/"
-  },
-  {
    "slug": "seat-ateca",
    "nazwa": "Seat Ateca",
    "adres": "/marki/seat/ateca/"
   },
   {
-   "slug": "seat-tarraco",
-   "nazwa": "Seat Tarraco",
-   "adres": "/marki/seat/tarraco/"
+   "slug": "mini-countryman",
+   "nazwa": "Mini Countryman",
+   "adres": "/marki/mini/countryman/"
   }
  ]
 }

@@ -11,92 +11,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota GR-Yaris – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 705 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOYOTA GR YARIS, GR YARIS).",
-  "liczbaWPolsce": 705,
-  "aktywne": 705,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota GR-Yaris – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 237 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOYOTA GR YARIS, GR YARIS).",
+  "liczbaWPolsce": 1237,
+  "aktywne": 1237,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 78
+    "liczba": 142
    },
    {
     "teryt": "04",
-    "liczba": 12
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 21
    },
    {
     "teryt": "08",
-    "liczba": 15
+    "liczba": 20
    },
    {
     "teryt": "10",
-    "liczba": 19
+    "liczba": 42
    },
    {
     "teryt": "12",
-    "liczba": 92
+    "liczba": 184
    },
    {
     "teryt": "14",
-    "liczba": 211
+    "liczba": 355
    },
    {
     "teryt": "16",
-    "liczba": 11
+    "liczba": 18
    },
    {
     "teryt": "18",
-    "liczba": 22
+    "liczba": 34
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 16
    },
    {
     "teryt": "22",
-    "liczba": 47
+    "liczba": 68
    },
    {
     "teryt": "24",
-    "liczba": 76
+    "liczba": 145
    },
    {
     "teryt": "26",
-    "liczba": 13
+    "liczba": 26
    },
    {
     "teryt": "28",
-    "liczba": 28
-   },
-   {
-    "teryt": "30",
     "liczba": 53
    },
    {
+    "teryt": "30",
+    "liczba": 71
+   },
+   {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 19
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 4
+    "liczba": 7
    },
    {
     "rok": 2021,
-    "liczba": 13
+    "liczba": 342
    },
    {
     "rok": 2022,
-    "liczba": 16
+    "liczba": 197
    },
    {
     "rok": 2023,
-    "liczba": 90
+    "liczba": 109
    },
    {
     "rok": 2024,
@@ -114,27 +114,27 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 705
+    "liczba": 1237
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 705
+    "liczba": 1237
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 553
+    "liczba": 786
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 98
+    "liczba": 392
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 41
+    "liczba": 46
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -144,20 +144,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 703
+    "liczba": 1235
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 705,
+  "noweOdPaczki": 1237,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 287
+   },
+   {
+    "rok": 2022,
+    "liczba": 125
+   },
+   {
     "rok": 2023,
-    "liczba": 22
+    "liczba": 142
    },
    {
     "rok": 2024,
@@ -173,6 +181,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2023-12",
     "liczba": 6
@@ -314,16 +418,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 832,
-  "miejsceWMarce": 28,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2023.9
+  "miejsce": 725,
+  "miejsceWMarce": 23,
+  "modeliWMarce": 43,
+  "sredniRocznik": 2022.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "gr-yaris",
@@ -335,6 +439,16 @@
    "adres": "/marki/kia/xceed/"
   },
   {
+   "slug": "renault-arkana",
+   "nazwa": "Renault Arkana",
+   "adres": "/marki/renault/arkana/"
+  },
+  {
+   "slug": "kia-proceed",
+   "nazwa": "Kia ProCeed",
+   "adres": "/marki/kia/proceed/"
+  },
+  {
    "slug": "jaecoo-7",
    "nazwa": "Jaecoo 7",
    "adres": "/marki/jaecoo/7/"
@@ -343,16 +457,6 @@
    "slug": "mg-hs",
    "nazwa": "MG HS",
    "adres": "/marki/mg/hs/"
-  },
-  {
-   "slug": "omoda-5",
-   "nazwa": "Omoda 5",
-   "adres": "/marki/omoda/5/"
-  },
-  {
-   "slug": "renault-arkana",
-   "nazwa": "Renault Arkana",
-   "adres": "/marki/renault/arkana/"
   }
  ]
 }

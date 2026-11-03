@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault R20 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 20 2.0, R 20 1.6, R 20).",
-  "liczbaWPolsce": 347,
-  "aktywne": 0,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault R20 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 20 2.0, R 20 1.6, R 20).",
+  "liczbaWPolsce": 348,
+  "aktywne": 1,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -65,7 +65,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "28",
@@ -148,7 +148,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 1984,
@@ -206,7 +206,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "nazwa": "Diesel",
@@ -236,7 +236,7 @@
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "1,5 l",
@@ -258,7 +258,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -276,18 +276,119 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 323
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
+  "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   }
+  ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -429,7 +530,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1044,
+  "miejsce": 1083,
   "miejsceWMarce": 45,
   "modeliWMarce": 48,
   "sredniRocznik": 1981.3
@@ -438,7 +539,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "r20",
@@ -460,14 +561,14 @@
    "adres": "/marki/polski-fiat/125p/"
   },
   {
+   "slug": "volvo-244",
+   "nazwa": "Volvo 244",
+   "adres": "/marki/volvo/244/"
+  },
+  {
    "slug": "fiat-131",
    "nazwa": "Fiat 131",
    "adres": "/marki/fiat/131/"
-  },
-  {
-   "slug": "fiat-132",
-   "nazwa": "Fiat 132",
-   "adres": "/marki/fiat/132/"
   }
  ]
 }

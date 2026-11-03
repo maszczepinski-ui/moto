@@ -14,100 +14,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Tribute – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 107 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRIBUTE, TRIBUTE 2.0 KAT).",
-  "liczbaWPolsce": 1185,
-  "aktywne": 587,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Tribute – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 268 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRIBUTE, TRIBUTE 2.0 KAT).",
+  "liczbaWPolsce": 1346,
+  "aktywne": 748,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 94
+    "liczba": 114
    },
    {
     "teryt": "04",
-    "liczba": 51
+    "liczba": 62
    },
    {
     "teryt": "06",
-    "liczba": 100
+    "liczba": 113
    },
    {
     "teryt": "08",
-    "liczba": 49
+    "liczba": 63
    },
    {
     "teryt": "10",
-    "liczba": 78
+    "liczba": 88
    },
    {
     "teryt": "12",
-    "liczba": 86
+    "liczba": 96
    },
    {
     "teryt": "14",
-    "liczba": 126
+    "liczba": 142
    },
    {
     "teryt": "16",
-    "liczba": 32
+    "liczba": 37
    },
    {
     "teryt": "18",
-    "liczba": 60
+    "liczba": 73
    },
    {
     "teryt": "20",
-    "liczba": 76
+    "liczba": 77
    },
    {
     "teryt": "22",
-    "liczba": 53
+    "liczba": 60
    },
    {
     "teryt": "24",
-    "liczba": 95
+    "liczba": 98
    },
    {
     "teryt": "26",
-    "liczba": 26
+    "liczba": 32
    },
    {
     "teryt": "28",
-    "liczba": 54
+    "liczba": 61
    },
    {
     "teryt": "30",
-    "liczba": 122
+    "liczba": 138
    },
    {
     "teryt": "32",
-    "liczba": 70
+    "liczba": 79
    }
   ],
   "bezWojewodztwa": 13,
   "roczniki": [
    {
     "rok": 2001,
-    "liczba": 298
+    "liczba": 320
    },
    {
     "rok": 2002,
-    "liczba": 296
+    "liczba": 320
    },
    {
     "rok": 2003,
-    "liczba": 187
+    "liczba": 218
    },
    {
     "rok": 2004,
-    "liczba": 141
+    "liczba": 160
    },
    {
     "rok": 2005,
-    "liczba": 149
+    "liczba": 196
    },
    {
     "rok": 2006,
-    "liczba": 50
+    "liczba": 64
    },
    {
     "rok": 2007,
@@ -115,17 +115,25 @@
    },
    {
     "rok": 2008,
-    "liczba": 9
+    "liczba": 11
+   },
+   {
+    "rok": 2009,
+    "liczba": 1
+   },
+   {
+    "rok": 2010,
+    "liczba": 3
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 716
+    "liczba": 778
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 464
+    "liczba": 563
    },
    {
     "nazwa": "Inne / brak danych",
@@ -135,55 +143,55 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 696
+    "liczba": 763
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 251
+    "liczba": 320
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 229
+    "liczba": 253
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 829
+    "liczba": 934
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 339
+    "liczba": 394
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 18
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 567
+    "liczba": 643
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 167
+    "liczba": 191
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 150
+    "liczba": 187
    },
    {
     "nazwa": "Van",
-    "liczba": 122
+    "liczba": 133
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 97
+    "liczba": 109
    },
    {
     "nazwa": "Furgon",
@@ -191,16 +199,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 67
+    "liczba": 68
    }
   ],
-  "noweOdPaczki": 107,
+  "noweOdPaczki": 268,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 48
+   },
+   {
+    "rok": 2022,
+    "liczba": 70
+   },
+   {
     "rok": 2023,
-    "liczba": 17
+    "liczba": 60
    },
    {
     "rok": 2024,
@@ -216,6 +232,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 7
@@ -357,16 +469,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 705,
+  "miejsce": 704,
   "miejsceWMarce": 22,
   "modeliWMarce": 32,
-  "sredniRocznik": 2002.8
+  "sredniRocznik": 2002.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "tribute",
@@ -378,14 +490,14 @@
    "adres": "/marki/subaru/legacy/"
   },
   {
-   "slug": "ford-mondeo-mk3",
-   "nazwa": "Ford Mondeo Mk3",
-   "adres": "/marki/ford/mondeo/mk3/"
-  },
-  {
    "slug": "audi-a4-b6",
    "nazwa": "Audi A4 B6",
    "adres": "/marki/audi/a4/b6/"
+  },
+  {
+   "slug": "ford-mondeo-mk3",
+   "nazwa": "Ford Mondeo Mk3",
+   "adres": "/marki/ford/mondeo/mk3/"
   },
   {
    "slug": "volvo-v70",
@@ -393,9 +505,9 @@
    "adres": "/marki/volvo/v70/"
   },
   {
-   "slug": "audi-a6-c5",
-   "nazwa": "Audi A6 C5",
-   "adres": "/marki/audi/a6/c5/"
+   "slug": "mercedes-benz-klasa-slk",
+   "nazwa": "Mercedes-Benz Klasa SLK",
+   "adres": "/marki/mercedes-benz/klasa-slk/"
   }
  ]
 }

@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Carisma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 134 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CARISMA, CARISMA 1.6 KAT, CARISMA 1.8 KAT, CARISMA 1.9 TD, CARISMA 1.6).",
-  "liczbaWPolsce": 15010,
-  "aktywne": 2718,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Carisma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 362 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CARISMA, CARISMA 1.6 KAT, CARISMA 1.8 KAT, CARISMA 1.9 TD, CARISMA 1.6).",
+  "liczbaWPolsce": 15238,
+  "aktywne": 2946,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1158
+    "liczba": 1190
    },
    {
     "teryt": "04",
-    "liczba": 713
+    "liczba": 725
    },
    {
     "teryt": "06",
-    "liczba": 1472
+    "liczba": 1480
    },
    {
     "teryt": "08",
-    "liczba": 695
+    "liczba": 721
    },
    {
     "teryt": "10",
-    "liczba": 1214
+    "liczba": 1226
    },
    {
     "teryt": "12",
-    "liczba": 845
+    "liczba": 852
    },
    {
     "teryt": "14",
-    "liczba": 2352
+    "liczba": 2376
    },
    {
     "teryt": "16",
-    "liczba": 315
+    "liczba": 316
    },
    {
     "teryt": "18",
-    "liczba": 828
+    "liczba": 836
    },
    {
     "teryt": "20",
-    "liczba": 440
+    "liczba": 444
    },
    {
     "teryt": "22",
-    "liczba": 615
+    "liczba": 621
    },
    {
     "teryt": "24",
-    "liczba": 955
+    "liczba": 971
    },
    {
     "teryt": "26",
-    "liczba": 500
+    "liczba": 504
    },
    {
     "teryt": "28",
-    "liczba": 692
+    "liczba": 699
    },
    {
     "teryt": "30",
-    "liczba": 1184
+    "liczba": 1216
    },
    {
     "teryt": "32",
-    "liczba": 971
+    "liczba": 1000
    }
   ],
   "bezWojewodztwa": 61,
@@ -89,53 +89,53 @@
    },
    {
     "rok": 1996,
-    "liczba": 1317
+    "liczba": 1319
    },
    {
     "rok": 1997,
-    "liczba": 2578
+    "liczba": 2583
    },
    {
     "rok": 1998,
-    "liczba": 2899
+    "liczba": 2921
    },
    {
     "rok": 1999,
-    "liczba": 1714
+    "liczba": 1731
    },
    {
     "rok": 2000,
-    "liczba": 1832
+    "liczba": 1868
    },
    {
     "rok": 2001,
-    "liczba": 1272
+    "liczba": 1301
    },
    {
     "rok": 2002,
-    "liczba": 1116
+    "liczba": 1151
    },
    {
     "rok": 2003,
-    "liczba": 1089
+    "liczba": 1139
    },
    {
     "rok": 2004,
-    "liczba": 403
+    "liczba": 435
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 8792
+    "liczba": 8993
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3691
+    "liczba": 3712
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 2322
+    "liczba": 2328
    },
    {
     "nazwa": "Inne / brak danych",
@@ -145,15 +145,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 6084
+    "liczba": 6226
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 5161
+    "liczba": 5226
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 3726
+    "liczba": 3747
    },
    {
     "nazwa": "Inne / brak danych",
@@ -162,12 +162,12 @@
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 7194
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 7302
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 7139
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 7259
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,24 +181,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 10170
+    "liczba": 10327
    },
    {
     "nazwa": "Sedan",
-    "liczba": 4108
+    "liczba": 4177
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 732
+    "liczba": 734
    }
   ],
-  "noweOdPaczki": 134,
+  "noweOdPaczki": 362,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 65
+   },
+   {
+    "rok": 2022,
+    "liczba": 105
+   },
+   {
     "rok": 2023,
-    "liczba": 18
+    "liczba": 76
    },
    {
     "rok": 2024,
@@ -214,6 +222,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2023-12",
     "liczba": 5
@@ -355,8 +459,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 224,
-  "miejsceWMarce": 5,
+  "miejsce": 246,
+  "miejsceWMarce": 6,
   "modeliWMarce": 19,
   "sredniRocznik": 1999.0
  },
@@ -364,7 +468,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "carisma",

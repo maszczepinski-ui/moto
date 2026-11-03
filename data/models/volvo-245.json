@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 245 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 245, 245 2.1 KOMBI).",
-  "liczbaWPolsce": 380,
-  "aktywne": 14,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 245 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 245, 245 2.1 KOMBI).",
+  "liczbaWPolsce": 385,
+  "aktywne": 19,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 39
+    "liczba": 41
    },
    {
     "teryt": "14",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "24",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "26",
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1976,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 1977,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1978,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 1979,
@@ -169,11 +169,11 @@
    },
    {
     "rok": 1992,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 1993,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 1994,
@@ -191,7 +191,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 94
+    "liczba": 99
    },
    {
     "nazwa": "Diesel",
@@ -213,7 +213,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 129
+    "liczba": 130
    },
    {
     "nazwa": "2,4 l",
@@ -221,11 +221,11 @@
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 77
+    "liczba": 78
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 61
+    "liczba": 64
    },
    {
     "nazwa": "1,8 l",
@@ -239,7 +239,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 269
+    "liczba": 270
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -247,7 +247,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 47
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
@@ -257,7 +257,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 122
+    "liczba": 127
    },
    {
     "nazwa": "Sedan",
@@ -272,10 +272,22 @@
     "liczba": 219
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 2
+   },
+   {
+    "rok": 2022,
+    "liczba": 2
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 3
@@ -286,6 +298,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -427,16 +535,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1011,
-  "miejsceWMarce": 30,
-  "modeliWMarce": 33,
+  "miejsce": 1041,
+  "miejsceWMarce": 31,
+  "modeliWMarce": 34,
   "sredniRocznik": 1982.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "245",

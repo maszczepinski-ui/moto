@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Trajet – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAJET, TRAJET 2.0 CRDI, TRAJET 2,0 CRDI).",
-  "liczbaWPolsce": 1156,
-  "aktywne": 341,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Trajet – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAJET, TRAJET 2.0 CRDI, TRAJET 2,0 CRDI).",
+  "liczbaWPolsce": 1185,
+  "aktywne": 370,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 95
+    "liczba": 98
    },
    {
     "teryt": "04",
-    "liczba": 42
+    "liczba": 44
    },
    {
     "teryt": "06",
-    "liczba": 92
+    "liczba": 93
    },
    {
     "teryt": "08",
@@ -34,31 +34,31 @@
    },
    {
     "teryt": "10",
-    "liczba": 100
+    "liczba": 105
    },
    {
     "teryt": "12",
-    "liczba": 55
+    "liczba": 57
    },
    {
     "teryt": "14",
-    "liczba": 159
+    "liczba": 164
    },
    {
     "teryt": "16",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "18",
-    "liczba": 78
+    "liczba": 80
    },
    {
     "teryt": "20",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "22",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "teryt": "24",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "30",
-    "liczba": 118
+    "liczba": 121
    },
    {
     "teryt": "32",
@@ -89,31 +89,31 @@
    },
    {
     "rok": 2001,
-    "liczba": 156
+    "liczba": 157
    },
    {
     "rok": 2002,
-    "liczba": 116
+    "liczba": 118
    },
    {
     "rok": 2003,
-    "liczba": 152
+    "liczba": 154
    },
    {
     "rok": 2004,
-    "liczba": 232
+    "liczba": 238
    },
    {
     "rok": 2005,
-    "liczba": 181
+    "liczba": 189
    },
    {
     "rok": 2006,
-    "liczba": 145
+    "liczba": 152
    },
    {
     "rok": 2007,
-    "liczba": 57
+    "liczba": 60
    },
    {
     "rok": 2008,
@@ -123,15 +123,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 806
+    "liczba": 827
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 235
+    "liczba": 238
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 111
+    "liczba": 116
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,11 +141,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1123
+    "liczba": 1151
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,11 +155,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 787
+    "liczba": 810
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 364
+    "liczba": 370
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,32 +169,40 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 813
+    "liczba": 823
    },
    {
     "nazwa": "Kombi",
-    "liczba": 172
+    "liczba": 175
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 111
+    "liczba": 125
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29
+    "liczba": 30
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 44,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 16
+   },
+   {
+    "rok": 2023,
+    "liczba": 13
    },
    {
     "rok": 2024,
@@ -206,6 +214,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -347,30 +451,35 @@
     "liczba": 0
    }
   ],
-  "miejsce": 712,
-  "miejsceWMarce": 24,
+  "miejsce": 735,
+  "miejsceWMarce": 25,
   "modeliWMarce": 34,
-  "sredniRocznik": 2003.5
+  "sredniRocznik": 2003.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "trajet",
  "adres": "/marki/hyundai/trajet/",
  "konkurenci": [
   {
+   "slug": "volkswagen-sharan",
+   "nazwa": "Volkswagen Sharan",
+   "adres": "/marki/volkswagen/sharan/"
+  },
+  {
    "slug": "ford-galaxy",
    "nazwa": "Ford Galaxy",
    "adres": "/marki/ford/galaxy/"
   },
   {
-   "slug": "volkswagen-sharan",
-   "nazwa": "Volkswagen Sharan",
-   "adres": "/marki/volkswagen/sharan/"
+   "slug": "fiat-ulysse",
+   "nazwa": "Fiat Ulysse",
+   "adres": "/marki/fiat/ulysse/"
   },
   {
    "slug": "seat-alhambra",
@@ -381,11 +490,6 @@
    "slug": "renault-espace",
    "nazwa": "Renault Espace",
    "adres": "/marki/renault/espace/"
-  },
-  {
-   "slug": "fiat-ulysse",
-   "nazwa": "Fiat Ulysse",
-   "adres": "/marki/fiat/ulysse/"
   }
  ]
 }

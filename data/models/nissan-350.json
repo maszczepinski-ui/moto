@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan 350 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 350 Z).",
-  "liczbaWPolsce": 246,
-  "aktywne": 43,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan 350 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 350 Z).",
+  "liczbaWPolsce": 248,
+  "aktywne": 45,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "20",
@@ -94,7 +94,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 83
+    "liczba": 85
    },
    {
     "rok": 2005,
@@ -116,7 +116,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 225
+    "liczba": 227
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -130,7 +130,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 243
+    "liczba": 245
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,17 +140,17 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 168
+    "liczba": 169
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 78
+    "liczba": 79
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 205
+    "liczba": 207
    },
    {
     "nazwa": "Kabriolet",
@@ -169,16 +169,120 @@
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 3,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 1
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -320,16 +424,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1158,
-  "miejsceWMarce": 42,
-  "modeliWMarce": 46,
+  "miejsce": 1191,
+  "miejsceWMarce": 44,
+  "modeliWMarce": 47,
   "sredniRocznik": 2004.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "350",

@@ -14,25 +14,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Paseo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PASEO, PASEO 1.5 KAT, PASEO 1,5 KAT).",
-  "liczbaWPolsce": 507,
-  "aktywne": 121,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Paseo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 46 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PASEO, PASEO 1.5 KAT, PASEO 1,5 KAT).",
+  "liczbaWPolsce": 531,
+  "aktywne": 145,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 46
+    "liczba": 48
    },
    {
     "teryt": "04",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "teryt": "06",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "08",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "10",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 79
+    "liczba": 83
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "20",
@@ -60,11 +60,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "24",
-    "liczba": 41
+    "liczba": 46
    },
    {
     "teryt": "26",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 37
+    "liczba": 40
    },
    {
     "teryt": "32",
-    "liczba": 36
+    "liczba": 38
    }
   ],
   "bezWojewodztwa": 4,
@@ -103,19 +103,19 @@
    },
    {
     "rok": 1995,
-    "liczba": 10
+    "liczba": 12
    },
    {
     "rok": 1996,
-    "liczba": 278
+    "liczba": 294
    },
    {
     "rok": 1997,
-    "liczba": 117
+    "liczba": 122
    },
    {
     "rok": 1998,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 1999,
@@ -125,11 +125,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 410
+    "liczba": 432
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 76
+    "liczba": 78
    },
    {
     "nazwa": "Inne / brak danych",
@@ -139,7 +139,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 502
+    "liczba": 526
    },
    {
     "nazwa": "Inne / brak danych",
@@ -149,11 +149,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 249
+    "liczba": 262
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 245
+    "liczba": 256
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -167,11 +167,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 330
+    "liczba": 345
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 72
+    "liczba": 78
    },
    {
     "nazwa": "Sedan",
@@ -179,20 +179,28 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 31
+    "liczba": 32
    }
   ],
-  "noweOdPaczki": 22,
+  "noweOdPaczki": 46,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 8
+   },
+   {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 14
    },
    {
     "rok": 2024,
@@ -208,6 +216,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -349,16 +453,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 920,
+  "miejsce": 937,
   "miejsceWMarce": 32,
-  "modeliWMarce": 39,
+  "modeliWMarce": 43,
   "sredniRocznik": 1996.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "paseo",
@@ -368,11 +472,6 @@
    "slug": "opel-tigra",
    "nazwa": "Opel Tigra",
    "adres": "/marki/opel/tigra/"
-  },
-  {
-   "slug": "volkswagen-scirocco",
-   "nazwa": "Volkswagen Scirocco",
-   "adres": "/marki/volkswagen/scirocco/"
   },
   {
    "slug": "daewoo-nexia",
@@ -388,6 +487,11 @@
    "slug": "kia-sephia",
    "nazwa": "Kia Sephia",
    "adres": "/marki/kia/sephia/"
+  },
+  {
+   "slug": "volkswagen-scirocco",
+   "nazwa": "Volkswagen Scirocco",
+   "adres": "/marki/volkswagen/scirocco/"
   }
  ]
 }

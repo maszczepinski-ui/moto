@@ -12,116 +12,116 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Veloster – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 497 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VELOSTER, VELOSTER 1.6 GDI, VELOSTER 1.6 TGDI, VELOSTER N).",
-  "liczbaWPolsce": 812,
-  "aktywne": 705,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Veloster – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 767 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VELOSTER, VELOSTER 1.6 GDI, VELOSTER N, VELOSTER 1.6 TGDI).",
+  "liczbaWPolsce": 1082,
+  "aktywne": 975,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 75
+    "liczba": 101
    },
    {
     "teryt": "04",
-    "liczba": 26
+    "liczba": 31
    },
    {
     "teryt": "06",
-    "liczba": 38
+    "liczba": 49
    },
    {
     "teryt": "08",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "10",
-    "liczba": 68
+    "liczba": 96
    },
    {
     "teryt": "12",
-    "liczba": 93
+    "liczba": 124
    },
    {
     "teryt": "14",
-    "liczba": 105
+    "liczba": 143
    },
    {
     "teryt": "16",
-    "liczba": 22
+    "liczba": 27
    },
    {
     "teryt": "18",
-    "liczba": 45
+    "liczba": 63
    },
    {
     "teryt": "20",
-    "liczba": 17
+    "liczba": 30
    },
    {
     "teryt": "22",
-    "liczba": 30
+    "liczba": 38
    },
    {
     "teryt": "24",
-    "liczba": 105
+    "liczba": 141
    },
    {
     "teryt": "26",
-    "liczba": 28
+    "liczba": 35
    },
    {
     "teryt": "28",
-    "liczba": 30
+    "liczba": 37
    },
    {
     "teryt": "30",
-    "liczba": 71
+    "liczba": 94
    },
    {
     "teryt": "32",
-    "liczba": 30
+    "liczba": 41
    }
   ],
   "bezWojewodztwa": 17,
   "roczniki": [
    {
     "rok": 2011,
-    "liczba": 286
+    "liczba": 387
    },
    {
     "rok": 2012,
-    "liczba": 273
+    "liczba": 366
    },
    {
     "rok": 2013,
-    "liczba": 99
+    "liczba": 130
    },
    {
     "rok": 2014,
-    "liczba": 32
+    "liczba": 41
    },
    {
     "rok": 2015,
-    "liczba": 24
+    "liczba": 28
    },
    {
     "rok": 2016,
-    "liczba": 17
+    "liczba": 26
    },
    {
     "rok": 2017,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 2018,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2019,
-    "liczba": 21
+    "liczba": 31
    },
    {
     "rok": 2020,
-    "liczba": 11
+    "liczba": 20
    },
    {
     "rok": 2021,
@@ -129,31 +129,31 @@
    },
    {
     "rok": 2022,
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 784
+    "liczba": 1040
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 16
+    "liczba": 29
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 759
+    "liczba": 1011
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 44
+    "liczba": 62
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,11 +163,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 525
+    "liczba": 661
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 239
+    "liczba": 373
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,24 +181,36 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 576
+    "liczba": 753
    },
    {
     "nazwa": "Coupe",
-    "liczba": 201
+    "liczba": 286
+   },
+   {
+    "nazwa": "Sedan",
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 35
+    "liczba": 29
    }
   ],
-  "noweOdPaczki": 497,
+  "noweOdPaczki": 767,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 59
+   },
+   {
+    "rok": 2022,
+    "liczba": 113
+   },
+   {
     "rok": 2023,
-    "liczba": 33
+    "liczba": 131
    },
    {
     "rok": 2024,
@@ -214,6 +226,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 14
+   },
    {
     "miesiac": "2023-12",
     "liczba": 7
@@ -355,8 +463,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 798,
-  "miejsceWMarce": 29,
+  "miejsce": 762,
+  "miejsceWMarce": 26,
   "modeliWMarce": 34,
   "sredniRocznik": 2012.6
  },
@@ -364,7 +472,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "veloster",
@@ -374,11 +482,6 @@
    "slug": "mini-one-cooper",
    "nazwa": "Mini One / Cooper",
    "adres": "/marki/mini/one-cooper/"
-  },
-  {
-   "slug": "suzuki-vitara",
-   "nazwa": "Suzuki Vitara",
-   "adres": "/marki/suzuki/vitara/"
   },
   {
    "slug": "suzuki-sx4",
@@ -391,9 +494,14 @@
    "adres": "/marki/toyota/prius/"
   },
   {
-   "slug": "kia-rio",
-   "nazwa": "Kia Rio",
-   "adres": "/marki/kia/rio/"
+   "slug": "suzuki-vitara",
+   "nazwa": "Suzuki Vitara",
+   "adres": "/marki/suzuki/vitara/"
+  },
+  {
+   "slug": "citroen-c4",
+   "nazwa": "Citroen C4",
+   "adres": "/marki/citroen/c4/"
   }
  ]
 }

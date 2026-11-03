@@ -13,73 +13,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Probe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 57 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROBE, PROBE 2.2, PROBE 2.2 KAT, PROBE 2.5 KAT, PROBE 2.0 KAT).",
-  "liczbaWPolsce": 3156,
-  "aktywne": 200,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Probe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 101 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROBE, PROBE 2.2, PROBE 2.2 KAT, PROBE 2.5 KAT, PROBE 2.0 KAT).",
+  "liczbaWPolsce": 3200,
+  "aktywne": 244,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 353
+    "liczba": 358
    },
    {
     "teryt": "04",
-    "liczba": 176
+    "liczba": 181
    },
    {
     "teryt": "06",
-    "liczba": 185
+    "liczba": 188
    },
    {
     "teryt": "08",
-    "liczba": 91
+    "liczba": 92
    },
    {
     "teryt": "10",
-    "liczba": 200
+    "liczba": 202
    },
    {
     "teryt": "12",
-    "liczba": 201
+    "liczba": 204
    },
    {
     "teryt": "14",
-    "liczba": 423
+    "liczba": 428
    },
    {
     "teryt": "16",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "18",
-    "liczba": 122
+    "liczba": 124
    },
    {
     "teryt": "20",
-    "liczba": 91
+    "liczba": 92
    },
    {
     "teryt": "22",
-    "liczba": 193
+    "liczba": 196
    },
    {
     "teryt": "24",
-    "liczba": 347
+    "liczba": 350
    },
    {
     "teryt": "26",
-    "liczba": 82
+    "liczba": 84
    },
    {
     "teryt": "28",
-    "liczba": 140
+    "liczba": 141
    },
    {
     "teryt": "30",
-    "liczba": 256
+    "liczba": 261
    },
    {
     "teryt": "32",
-    "liczba": 200
+    "liczba": 202
    }
   ],
   "bezWojewodztwa": 7,
@@ -90,39 +90,39 @@
    },
    {
     "rok": 1989,
-    "liczba": 471
+    "liczba": 473
    },
    {
     "rok": 1990,
-    "liczba": 148
+    "liczba": 149
    },
    {
     "rok": 1991,
-    "liczba": 446
+    "liczba": 449
    },
    {
     "rok": 1992,
-    "liczba": 327
+    "liczba": 329
    },
    {
     "rok": 1993,
-    "liczba": 518
+    "liczba": 524
    },
    {
     "rok": 1994,
-    "liczba": 491
+    "liczba": 498
    },
    {
     "rok": 1995,
-    "liczba": 310
+    "liczba": 318
    },
    {
     "rok": 1996,
-    "liczba": 239
+    "liczba": 249
    },
    {
     "rok": 1997,
-    "liczba": 164
+    "liczba": 169
    },
    {
     "rok": 1998,
@@ -132,11 +132,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1781
+    "liczba": 1819
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 713
+    "liczba": 719
    },
    {
     "nazwa": "?+LPG",
@@ -150,15 +150,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,2 l",
-    "liczba": 1480
+    "liczba": 1488
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 832
+    "liczba": 852
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 759
+    "liczba": 775
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,11 +168,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2088
+    "liczba": 2103
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 875
+    "liczba": 904
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -190,28 +190,36 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1443
+    "liczba": 1479
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 665
+    "liczba": 670
    },
    {
     "nazwa": "Sedan",
-    "liczba": 328
+    "liczba": 330
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 720
+    "liczba": 721
    }
   ],
-  "noweOdPaczki": 57,
+  "noweOdPaczki": 101,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 11
+   },
+   {
+    "rok": 2022,
+    "liczba": 11
+   },
+   {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 25
    },
    {
     "rok": 2024,
@@ -227,6 +235,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -368,16 +472,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 481,
+  "miejsce": 503,
   "miejsceWMarce": 26,
-  "modeliWMarce": 45,
+  "modeliWMarce": 46,
   "sredniRocznik": 1992.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "probe",

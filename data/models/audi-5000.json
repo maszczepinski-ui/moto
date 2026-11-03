@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 5000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 5000, 5000 S).",
-  "liczbaWPolsce": 264,
-  "aktywne": 4,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 5000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 5000, 5000 S).",
+  "liczbaWPolsce": 265,
+  "aktywne": 5,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 17
+    "liczba": 18
    }
   ],
   "bezWojewodztwa": 1,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1983,
@@ -163,7 +163,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -192,12 +192,12 @@
     "liczba": 54
    },
    {
-    "nazwa": "2,3 l",
+    "nazwa": "2,1 l",
     "liczba": 33
    },
    {
-    "nazwa": "2,1 l",
-    "liczba": 32
+    "nazwa": "2,3 l",
+    "liczba": 33
    },
    {
     "nazwa": "1,8 l",
@@ -231,7 +231,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
@@ -241,7 +241,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "nazwa": "Hatchback",
@@ -256,10 +256,14 @@
     "liczba": 128
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 3,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 1
@@ -270,6 +274,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -411,16 +511,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1132,
-  "miejsceWMarce": 47,
-  "modeliWMarce": 51,
+  "miejsce": 1164,
+  "miejsceWMarce": 48,
+  "modeliWMarce": 52,
   "sredniRocznik": 1985.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "5000",

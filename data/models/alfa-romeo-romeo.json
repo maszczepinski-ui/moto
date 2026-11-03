@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Romeo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALFA ROMEO 147, ALFA ROMEO 159, ALFA ROMEO 159 SPORTWAGON, ALFA ROMEO SPORT WAGON).",
-  "liczbaWPolsce": 253,
-  "aktywne": 140,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Romeo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 72 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALFA ROMEO 147, ALFA ROMEO 159, ALFA ROMEO 159 SPORTWAGON, ALFA ROMEO SPORT WAGON).",
+  "liczbaWPolsce": 285,
+  "aktywne": 172,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "04",
@@ -31,31 +31,31 @@
    },
    {
     "teryt": "08",
-    "liczba": 2
+    "liczba": 4
    },
    {
     "teryt": "10",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "12",
-    "liczba": 24
+    "liczba": 29
    },
    {
     "teryt": "14",
-    "liczba": 61
+    "liczba": 65
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "18",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "teryt": "20",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 32
+    "liczba": 36
    },
    {
     "teryt": "26",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 24
+    "liczba": 29
    },
    {
     "teryt": "32",
@@ -126,67 +126,71 @@
    },
    {
     "rok": 2005,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2006,
-    "liczba": 32
+    "liczba": 34
    },
    {
     "rok": 2007,
-    "liczba": 99
+    "liczba": 109
    },
    {
     "rok": 2008,
-    "liczba": 21
+    "liczba": 25
    },
    {
     "rok": 2009,
-    "liczba": 33
+    "liczba": 39
    },
    {
     "rok": 2010,
-    "liczba": 40
+    "liczba": 45
    },
    {
     "rok": 2011,
-    "liczba": 7
+    "liczba": 9
+   },
+   {
+    "rok": 2012,
+    "liczba": 2
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna",
-    "liczba": 118
+    "nazwa": "Diesel",
+    "liczba": 139
    },
    {
-    "nazwa": "Diesel",
-    "liczba": 115
+    "nazwa": "Benzyna",
+    "liczba": 125
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 20
+    "liczba": 21
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 100
+    "liczba": 104
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 47
+    "liczba": 63
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 45
+    "liczba": 50
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 33
+    "liczba": 36
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
@@ -196,11 +200,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 137
+    "liczba": 150
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 75
+    "liczba": 94
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -214,24 +218,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 131
+    "liczba": 143
    },
    {
     "nazwa": "Sedan",
-    "liczba": 88
+    "liczba": 97
    },
    {
     "nazwa": "Kombi",
-    "liczba": 34
+    "liczba": 45
    }
   ],
-  "noweOdPaczki": 40,
+  "noweOdPaczki": 72,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 3
+   },
+   {
+    "rok": 2022,
+    "liczba": 16
+   },
+   {
+    "rok": 2023,
+    "liczba": 16
    },
    {
     "rok": 2024,
@@ -247,6 +259,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -388,16 +496,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1145,
+  "miejsce": 1141,
   "miejsceWMarce": 20,
   "modeliWMarce": 20,
-  "sredniRocznik": 2007.6
+  "sredniRocznik": 2007.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "romeo",

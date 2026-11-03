@@ -13,96 +13,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW X7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 046 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X7 XDRIVE40D, X7 M60I XDRIVE, X7 XDRIVE40I, X7, X7 M50I).",
-  "liczbaWPolsce": 3046,
-  "aktywne": 3046,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW X7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 395 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X7 XDRIVE40D, X7 XDRIVE40I, X7 M60I XDRIVE, X7, X7 M50I).",
+  "liczbaWPolsce": 4395,
+  "aktywne": 4395,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 206
+    "liczba": 294
    },
    {
     "teryt": "04",
-    "liczba": 115
+    "liczba": 175
    },
    {
     "teryt": "06",
-    "liczba": 79
+    "liczba": 105
    },
    {
     "teryt": "08",
-    "liczba": 67
+    "liczba": 105
    },
    {
     "teryt": "10",
-    "liczba": 151
+    "liczba": 221
    },
    {
     "teryt": "12",
-    "liczba": 271
+    "liczba": 365
    },
    {
     "teryt": "14",
-    "liczba": 863
+    "liczba": 1254
    },
    {
     "teryt": "16",
-    "liczba": 29
+    "liczba": 45
    },
    {
     "teryt": "18",
-    "liczba": 72
+    "liczba": 108
    },
    {
     "teryt": "20",
-    "liczba": 72
+    "liczba": 116
    },
    {
     "teryt": "22",
-    "liczba": 238
+    "liczba": 351
    },
    {
     "teryt": "24",
-    "liczba": 344
+    "liczba": 481
    },
    {
     "teryt": "26",
-    "liczba": 41
+    "liczba": 71
    },
    {
     "teryt": "28",
-    "liczba": 65
+    "liczba": 94
    },
    {
     "teryt": "30",
-    "liczba": 317
+    "liczba": 458
    },
    {
     "teryt": "32",
-    "liczba": 116
+    "liczba": 152
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 66
+    "liczba": 91
    },
    {
     "rok": 2020,
-    "liczba": 44
+    "liczba": 65
    },
    {
     "rok": 2021,
-    "liczba": 45
+    "liczba": 469
    },
    {
     "rok": 2022,
-    "liczba": 53
+    "liczba": 523
    },
    {
     "rok": 2023,
-    "liczba": 552
+    "liczba": 961
    },
    {
     "rok": 2024,
@@ -120,29 +120,29 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1123
+    "liczba": 1592
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 998
+    "liczba": 1440
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 578
+    "liczba": 879
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 347
+    "liczba": 484
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 2592
+    "liczba": 3708
    },
    {
     "nazwa": "4,4 l",
-    "liczba": 453
+    "liczba": 686
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,46 +152,58 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2341
+    "liczba": 2921
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 379
+    "liczba": 1093
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 290
+    "liczba": 335
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 36
+    "liczba": 44
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2765
+    "liczba": 3456
    },
    {
     "nazwa": "Kombi",
-    "liczba": 140
+    "liczba": 765
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 107
+    "liczba": 135
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 34
+    "liczba": 39
    }
   ],
-  "noweOdPaczki": 3046,
-  "hybrydy": 1345,
+  "noweOdPaczki": 4395,
+  "hybrydy": 1924,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 302
+   },
+   {
+    "rok": 2022,
+    "liczba": 547
+   },
+   {
     "rok": 2023,
-    "liczba": 238
+    "liczba": 738
    },
    {
     "rok": 2024,
@@ -207,6 +219,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 66
+   },
    {
     "miesiac": "2023-12",
     "liczba": 90
@@ -348,16 +456,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 486,
+  "miejsce": 451,
   "miejsceWMarce": 14,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2024.2
+  "modeliWMarce": 42,
+  "sredniRocznik": 2023.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "x7",
@@ -374,9 +482,9 @@
    "adres": "/marki/mazda/cx-60/"
   },
   {
-   "slug": "mazda-cx-80",
-   "nazwa": "Mazda CX-80",
-   "adres": "/marki/mazda/cx-80/"
+   "slug": "audi-rs",
+   "nazwa": "Audi RS",
+   "adres": "/marki/audi/rs/"
   },
   {
    "slug": "mercedes-benz-klasa-gls",
@@ -384,9 +492,9 @@
    "adres": "/marki/mercedes-benz/klasa-gls/"
   },
   {
-   "slug": "audi-rs3",
-   "nazwa": "Audi RS3",
-   "adres": "/marki/audi/rs3/"
+   "slug": "mazda-cx-80",
+   "nazwa": "Mazda CX-80",
+   "adres": "/marki/mazda/cx-80/"
   }
  ]
 }

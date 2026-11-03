@@ -12,61 +12,61 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Phedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 66 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PHEDRA).",
-  "liczbaWPolsce": 678,
-  "aktywne": 332,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Phedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 182 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PHEDRA, PHEDRA 2.0 I).",
+  "liczbaWPolsce": 794,
+  "aktywne": 448,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 71
+    "liczba": 88
    },
    {
     "teryt": "04",
-    "liczba": 18
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 36
+    "liczba": 43
    },
    {
     "teryt": "08",
-    "liczba": 21
+    "liczba": 24
    },
    {
     "teryt": "10",
-    "liczba": 49
+    "liczba": 55
    },
    {
     "teryt": "12",
-    "liczba": 91
+    "liczba": 107
    },
    {
     "teryt": "14",
-    "liczba": 105
+    "liczba": 124
    },
    {
     "teryt": "16",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "18",
-    "liczba": 46
+    "liczba": 57
    },
    {
     "teryt": "20",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "22",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "24",
-    "liczba": 65
+    "liczba": 73
    },
    {
     "teryt": "26",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "28",
@@ -74,64 +74,64 @@
    },
    {
     "teryt": "30",
-    "liczba": 63
+    "liczba": 73
    },
    {
     "teryt": "32",
-    "liczba": 23
+    "liczba": 28
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2002,
-    "liczba": 53
+    "liczba": 59
    },
    {
     "rok": 2003,
-    "liczba": 133
+    "liczba": 145
    },
    {
     "rok": 2004,
-    "liczba": 123
+    "liczba": 138
    },
    {
     "rok": 2005,
-    "liczba": 95
+    "liczba": 106
    },
    {
     "rok": 2006,
-    "liczba": 69
+    "liczba": 84
    },
    {
     "rok": 2007,
-    "liczba": 65
+    "liczba": 87
    },
    {
     "rok": 2008,
-    "liczba": 67
+    "liczba": 83
    },
    {
     "rok": 2009,
-    "liczba": 27
+    "liczba": 37
    },
    {
     "rok": 2010,
-    "liczba": 19
+    "liczba": 28
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 544
+    "liczba": 645
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 85
+    "liczba": 91
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 47
+    "liczba": 56
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,15 +141,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 364
+    "liczba": 435
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 278
+    "liczba": 321
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,11 +159,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 492
+    "liczba": 573
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 179
+    "liczba": 214
    },
    {
     "nazwa": "Inne / brak danych",
@@ -173,19 +173,19 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 393
+    "liczba": 421
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 163
+    "liczba": 225
    },
    {
     "nazwa": "Kombi",
-    "liczba": 82
+    "liczba": 103
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 18
+    "liczba": 23
    },
    {
     "nazwa": "Sedan",
@@ -196,13 +196,21 @@
     "liczba": 12
    }
   ],
-  "noweOdPaczki": 66,
+  "noweOdPaczki": 182,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 37
+   },
+   {
+    "rok": 2022,
+    "liczba": 47
+   },
+   {
     "rok": 2023,
-    "liczba": 17
+    "liczba": 49
    },
    {
     "rok": 2024,
@@ -218,6 +226,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 4
@@ -359,35 +463,30 @@
     "liczba": 0
    }
   ],
-  "miejsce": 841,
+  "miejsce": 826,
   "miejsceWMarce": 9,
   "modeliWMarce": 15,
-  "sredniRocznik": 2005.1
+  "sredniRocznik": 2005.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "phedra",
  "adres": "/marki/lancia/phedra/",
  "konkurenci": [
   {
-   "slug": "seat-alhambra",
-   "nazwa": "Seat Alhambra",
-   "adres": "/marki/seat/alhambra/"
-  },
-  {
-   "slug": "renault-espace",
-   "nazwa": "Renault Espace",
-   "adres": "/marki/renault/espace/"
-  },
-  {
    "slug": "ford-galaxy",
    "nazwa": "Ford Galaxy",
    "adres": "/marki/ford/galaxy/"
+  },
+  {
+   "slug": "seat-alhambra",
+   "nazwa": "Seat Alhambra",
+   "adres": "/marki/seat/alhambra/"
   },
   {
    "slug": "peugeot-807",
@@ -395,9 +494,14 @@
    "adres": "/marki/peugeot/807/"
   },
   {
-   "slug": "ford-transit",
-   "nazwa": "Ford Transit",
-   "adres": "/marki/ford/transit/"
+   "slug": "renault-espace",
+   "nazwa": "Renault Espace",
+   "adres": "/marki/renault/espace/"
+  },
+  {
+   "slug": "volkswagen-sharan",
+   "nazwa": "Volkswagen Sharan",
+   "adres": "/marki/volkswagen/sharan/"
   }
  ]
 }

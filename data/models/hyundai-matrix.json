@@ -13,73 +13,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Matrix – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 174 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MATRIX, MATRIX 1.5 CRDI, MATRIX 1.6 KAT, MATRIX 1.6, MATRIX 1,5 CRDI).",
-  "liczbaWPolsce": 3556,
-  "aktywne": 1542,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Matrix – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 366 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MATRIX, MATRIX 1.5 CRDI, MATRIX 1.6, MATRIX 1.6 KAT, MATRIX 1,5 CRDI).",
+  "liczbaWPolsce": 3748,
+  "aktywne": 1734,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 242
+    "liczba": 268
    },
    {
     "teryt": "04",
-    "liczba": 142
+    "liczba": 149
    },
    {
     "teryt": "06",
-    "liczba": 248
+    "liczba": 259
    },
    {
     "teryt": "08",
-    "liczba": 144
+    "liczba": 153
    },
    {
     "teryt": "10",
-    "liczba": 370
+    "liczba": 382
    },
    {
     "teryt": "12",
-    "liczba": 199
+    "liczba": 211
    },
    {
     "teryt": "14",
-    "liczba": 325
+    "liczba": 344
    },
    {
     "teryt": "16",
-    "liczba": 58
+    "liczba": 61
    },
    {
     "teryt": "18",
-    "liczba": 235
+    "liczba": 241
    },
    {
     "teryt": "20",
-    "liczba": 82
+    "liczba": 90
    },
    {
     "teryt": "22",
-    "liczba": 120
+    "liczba": 131
    },
    {
     "teryt": "24",
-    "liczba": 313
+    "liczba": 324
    },
    {
     "teryt": "26",
-    "liczba": 142
+    "liczba": 148
    },
    {
     "teryt": "28",
-    "liczba": 121
+    "liczba": 126
    },
    {
     "teryt": "30",
-    "liczba": 463
+    "liczba": 480
    },
    {
     "teryt": "32",
-    "liczba": 320
+    "liczba": 349
    }
   ],
   "bezWojewodztwa": 32,
@@ -90,53 +90,53 @@
    },
    {
     "rok": 2002,
-    "liczba": 512
+    "liczba": 518
    },
    {
     "rok": 2003,
-    "liczba": 461
+    "liczba": 469
    },
    {
     "rok": 2004,
-    "liczba": 699
+    "liczba": 717
    },
    {
     "rok": 2005,
-    "liczba": 545
+    "liczba": 567
    },
    {
     "rok": 2006,
-    "liczba": 483
+    "liczba": 505
    },
    {
     "rok": 2007,
-    "liczba": 256
+    "liczba": 285
    },
    {
     "rok": 2008,
-    "liczba": 190
+    "liczba": 227
    },
    {
     "rok": 2009,
-    "liczba": 194
+    "liczba": 240
    },
    {
     "rok": 2010,
-    "liczba": 18
+    "liczba": 22
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1570
+    "liczba": 1697
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1219
+    "liczba": 1249
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 760
+    "liczba": 795
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,15 +146,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2103
+    "liczba": 2253
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1225
+    "liczba": 1254
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 222
+    "liczba": 235
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2779
+    "liczba": 2936
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 692
+    "liczba": 727
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -182,32 +182,40 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1602
+    "liczba": 1686
    },
    {
     "nazwa": "Van",
-    "liczba": 881
+    "liczba": 896
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 521
+    "liczba": 596
    },
    {
     "nazwa": "Kombi",
-    "liczba": 457
+    "liczba": 474
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 95
+    "liczba": 96
    }
   ],
-  "noweOdPaczki": 174,
+  "noweOdPaczki": 366,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 50
+   },
+   {
+    "rok": 2022,
+    "liczba": 92
+   },
+   {
     "rok": 2023,
-    "liczba": 15
+    "liczba": 65
    },
    {
     "rok": 2024,
@@ -223,6 +231,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -364,16 +468,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 463,
+  "miejsce": 483,
   "miejsceWMarce": 19,
   "modeliWMarce": 34,
-  "sredniRocznik": 2004.7
+  "sredniRocznik": 2004.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "matrix",
@@ -385,14 +489,9 @@
    "adres": "/marki/opel/astra/"
   },
   {
-   "slug": "renault-megane",
-   "nazwa": "Renault Megane",
-   "adres": "/marki/renault/megane/"
-  },
-  {
-   "slug": "fiat-bravo",
-   "nazwa": "Fiat Bravo",
-   "adres": "/marki/fiat/bravo/"
+   "slug": "renault-megane-ii",
+   "nazwa": "Renault Megane II",
+   "adres": "/marki/renault/megane/ii/"
   },
   {
    "slug": "lancia-delta",
@@ -400,9 +499,14 @@
    "adres": "/marki/lancia/delta/"
   },
   {
-   "slug": "seat-ibiza",
-   "nazwa": "Seat Ibiza",
-   "adres": "/marki/seat/ibiza/"
+   "slug": "fiat-bravo",
+   "nazwa": "Fiat Bravo",
+   "adres": "/marki/fiat/bravo/"
+  },
+  {
+   "slug": "honda-civic",
+   "nazwa": "Honda Civic",
+   "adres": "/marki/honda/civic/"
   }
  ]
 }

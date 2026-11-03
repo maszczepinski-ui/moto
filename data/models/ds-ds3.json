@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS DS3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 210 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS3, DS3 CROSSBACK).",
-  "liczbaWPolsce": 210,
-  "aktywne": 210,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS DS3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 261 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS3 CROSSBACK, DS3).",
+  "liczbaWPolsce": 261,
+  "aktywne": 261,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "04",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "06",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "08",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "teryt": "12",
-    "liczba": 29
+    "liczba": 36
    },
    {
     "teryt": "14",
-    "liczba": 41
+    "liczba": 53
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 8
+    "liczba": 14
    },
    {
     "teryt": "24",
-    "liczba": 14
+    "liczba": 21
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "teryt": "30",
-    "liczba": 43
+    "liczba": 50
    },
    {
     "teryt": "32",
@@ -105,19 +105,19 @@
    },
    {
     "rok": 2020,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 2021,
-    "liczba": 24
+    "liczba": 44
    },
    {
     "rok": 2022,
-    "liczba": 21
+    "liczba": 39
    },
    {
     "rok": 2023,
-    "liczba": 19
+    "liczba": 31
    },
    {
     "rok": 2024,
@@ -131,15 +131,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 121
+    "liczba": 142
    },
    {
     "nazwa": "Diesel",
-    "liczba": 55
+    "liczba": 58
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 24
+    "liczba": 51
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -153,7 +153,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 128
+    "liczba": 148
    },
    {
     "nazwa": "1,6 l",
@@ -161,31 +161,31 @@
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 51
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 129
+    "liczba": 130
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 54
+    "liczba": 82
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 27
+    "liczba": 49
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 138
+    "liczba": 189
    },
    {
     "nazwa": "Hatchback",
@@ -200,13 +200,21 @@
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 210,
+  "noweOdPaczki": 261,
   "hybrydy": 9,
-  "elektryczne": 24,
+  "elektryczne": 51,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 13
+   },
+   {
+    "rok": 2022,
+    "liczba": 19
+   },
+   {
     "rok": 2023,
-    "liczba": 4
+    "liczba": 23
    },
    {
     "rok": 2024,
@@ -222,6 +230,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 3
@@ -363,16 +467,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1209,
+  "miejsce": 1167,
   "miejsceWMarce": 7,
   "modeliWMarce": 7,
-  "sredniRocznik": 2020.2
+  "sredniRocznik": 2020.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ds",
  "modelSlug": "ds3",

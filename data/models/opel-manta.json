@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Manta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MANTA, MANTA 2.0, MANTA 1.9, MANTA 1.6, MANTA 1.2).",
-  "liczbaWPolsce": 1497,
-  "aktywne": 27,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Manta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MANTA, MANTA 2.0, MANTA 1.9, MANTA 1.6, MANTA 1.2).",
+  "liczbaWPolsce": 1510,
+  "aktywne": 40,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 134
+    "liczba": 135
    },
    {
     "teryt": "04",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "teryt": "06",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 105
+    "liczba": 108
    },
    {
     "teryt": "14",
-    "liczba": 234
+    "liczba": 236
    },
    {
     "teryt": "16",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 97
+    "liczba": 99
    },
    {
     "teryt": "24",
-    "liczba": 153
+    "liczba": 154
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 146
+    "liczba": 148
    },
    {
     "teryt": "32",
-    "liczba": 103
+    "liczba": 104
    }
   ],
   "bezWojewodztwa": 6,
@@ -90,23 +90,23 @@
    },
    {
     "rok": 1971,
-    "liczba": 51
+    "liczba": 53
    },
    {
     "rok": 1972,
-    "liczba": 35
+    "liczba": 37
    },
    {
     "rok": 1973,
-    "liczba": 50
+    "liczba": 52
    },
    {
     "rok": 1974,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 1975,
-    "liczba": 63
+    "liczba": 64
    },
    {
     "rok": 1976,
@@ -122,7 +122,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 219
+    "liczba": 221
    },
    {
     "rok": 1980,
@@ -130,7 +130,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 117
+    "liczba": 118
    },
    {
     "rok": 1982,
@@ -142,7 +142,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 29
+    "liczba": 30
    },
    {
     "rok": 1985,
@@ -158,7 +158,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1989,
@@ -187,20 +187,12 @@
    {
     "rok": 1995,
     "liczba": 4
-   },
-   {
-    "rok": 1996,
-    "liczba": 3
-   },
-   {
-    "rok": 1997,
-    "liczba": 3
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 361
+    "liczba": 374
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -218,23 +210,23 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 524
+    "liczba": 528
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 346
+    "liczba": 349
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 305
+    "liczba": 308
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 101
+    "liczba": 102
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 81
+    "liczba": 82
    },
    {
     "nazwa": "1,8 l",
@@ -246,7 +238,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 66
+    "liczba": 67
    }
   ],
   "pochodzenie": [
@@ -260,11 +252,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 72
+    "liczba": 84
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 53
+    "liczba": 54
    }
   ],
   "nadwozia": [
@@ -274,24 +266,32 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 102
+    "liczba": 114
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1054
    }
   ],
-  "noweOdPaczki": 13,
+  "noweOdPaczki": 26,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 5
+   },
+   {
+    "rok": 2023,
+    "liczba": 8
    },
    {
     "rok": 2024,
@@ -307,6 +307,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -448,7 +544,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 646,
+  "miejsce": 672,
   "miejsceWMarce": 26,
   "modeliWMarce": 33,
   "sredniRocznik": 1979.3
@@ -457,7 +553,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "manta",

@@ -13,21 +13,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Cupra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 247 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA ATECA, CUPRA FORMENTOR, CUPRA LEON SPORTSTOURER, CUPRA LEON).",
-  "liczbaWPolsce": 247,
-  "aktywne": 247,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Cupra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 297 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA ATECA, CUPRA FORMENTOR, CUPRA LEON SPORTSTOURER, CUPRA LEON).",
+  "liczbaWPolsce": 297,
+  "aktywne": 297,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 14
+    "liczba": 20
    },
    {
     "teryt": "04",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "06",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "08",
@@ -35,23 +35,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "12",
-    "liczba": 35
+    "liczba": 38
    },
    {
     "teryt": "14",
-    "liczba": 27
+    "liczba": 36
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "18",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "20",
@@ -63,46 +63,46 @@
    },
    {
     "teryt": "24",
-    "liczba": 23
+    "liczba": 30
    },
    {
     "teryt": "26",
-    "liczba": 3
+    "liczba": 7
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "30",
-    "liczba": 37
+    "liczba": 45
    },
    {
     "teryt": "32",
-    "liczba": 12
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2019,
-    "liczba": 52
+    "liczba": 70
    },
    {
     "rok": 2020,
-    "liczba": 79
+    "liczba": 103
    },
    {
     "rok": 2021,
-    "liczba": 24
+    "liczba": 28
    },
    {
     "rok": 2022,
-    "liczba": 24
+    "liczba": 25
    },
    {
     "rok": 2023,
@@ -124,11 +124,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 211
+    "liczba": 255
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 26
+    "liczba": 32
    },
    {
     "nazwa": "Diesel",
@@ -142,7 +142,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 169
+    "liczba": 213
    },
    {
     "nazwa": "1,5 l",
@@ -150,48 +150,56 @@
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 26
+    "liczba": 32
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 188
+    "liczba": 201
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 58
+    "liczba": 94
    },
    {
-    "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 206
+    "liczba": 249
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 25
+    "liczba": 30
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 247,
-  "hybrydy": 26,
+  "noweOdPaczki": 297,
+  "hybrydy": 32,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 13
+   },
+   {
+    "rok": 2022,
+    "liczba": 20
+   },
+   {
     "rok": 2023,
-    "liczba": 12
+    "liczba": 29
    },
    {
     "rok": 2024,
@@ -207,6 +215,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -348,16 +452,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1157,
-  "miejsceWMarce": 19,
+  "miejsce": 1128,
+  "miejsceWMarce": 18,
   "modeliWMarce": 19,
-  "sredniRocznik": 2020.9
+  "sredniRocznik": 2020.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "cupra",

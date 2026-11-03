@@ -13,21 +13,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai I30CW – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 376 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I30CW).",
-  "liczbaWPolsce": 931,
-  "aktywne": 558,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai I30CW – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 431 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I30CW).",
+  "liczbaWPolsce": 986,
+  "aktywne": 613,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 84
+    "liczba": 90
    },
    {
     "teryt": "04",
-    "liczba": 38
+    "liczba": 41
    },
    {
     "teryt": "06",
-    "liczba": 50
+    "liczba": 52
    },
    {
     "teryt": "08",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 56
+    "liczba": 57
    },
    {
     "teryt": "14",
-    "liczba": 160
+    "liczba": 168
    },
    {
     "teryt": "16",
@@ -51,19 +51,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "20",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "22",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "24",
-    "liczba": 104
+    "liczba": 112
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 40
+    "liczba": 50
    },
    {
     "teryt": "30",
-    "liczba": 76
+    "liczba": 86
    },
    {
     "teryt": "32",
-    "liczba": 49
+    "liczba": 52
    }
   ],
   "bezWojewodztwa": 9,
@@ -94,19 +94,19 @@
    },
    {
     "rok": 2009,
-    "liczba": 125
+    "liczba": 126
    },
    {
     "rok": 2010,
-    "liczba": 411
+    "liczba": 436
    },
    {
     "rok": 2011,
-    "liczba": 265
+    "liczba": 290
    },
    {
     "rok": 2012,
-    "liczba": 51
+    "liczba": 55
    },
    {
     "rok": 2013,
@@ -132,15 +132,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 480
+    "liczba": 505
    },
    {
     "nazwa": "Diesel",
-    "liczba": 374
+    "liczba": 394
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 76
+    "liczba": 86
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,11 +150,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 648
+    "liczba": 673
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 276
+    "liczba": 306
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 414
+    "liczba": 457
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 314
+    "liczba": 326
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -182,11 +182,11 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 648
+    "liczba": 702
    },
    {
     "nazwa": "Kombi",
-    "liczba": 246
+    "liczba": 247
    },
    {
     "nazwa": "Hatchback",
@@ -197,13 +197,21 @@
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 376,
+  "noweOdPaczki": 431,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 10
+   },
+   {
+    "rok": 2022,
+    "liczba": 21
+   },
+   {
     "rok": 2023,
-    "liczba": 6
+    "liczba": 30
    },
    {
     "rok": 2024,
@@ -219,6 +227,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -360,8 +464,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 773,
-  "miejsceWMarce": 27,
+  "miejsce": 786,
+  "miejsceWMarce": 28,
   "modeliWMarce": 34,
   "sredniRocznik": 2010.3
  },
@@ -369,7 +473,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "i30cw",
@@ -386,9 +490,9 @@
    "adres": "/marki/ford/c-max/"
   },
   {
-   "slug": "kia-soul",
-   "nazwa": "Kia Soul",
-   "adres": "/marki/kia/soul/"
+   "slug": "alfa-romeo-giulietta",
+   "nazwa": "Alfa Romeo Giulietta",
+   "adres": "/marki/alfa-romeo/giulietta/"
   },
   {
    "slug": "opel-meriva",

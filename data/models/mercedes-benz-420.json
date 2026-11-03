@@ -3,7 +3,7 @@
  "marka": "Mercedes-Benz",
  "model": "420",
  "generacja": "",
- "lataProdukcji": "1985–2007",
+ "lataProdukcji": "1985–1997",
  "nadwozia": [
   "sedan",
   "coupe",
@@ -13,45 +13,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 420 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 74 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 420, 420 SE, 420 SEL, 420 SEC).",
-  "liczbaWPolsce": 300,
-  "aktywne": 124,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 420 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 125 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 420, 420 SE, 420 SEL, 420 SEC).",
+  "liczbaWPolsce": 351,
+  "aktywne": 175,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 26
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 20
    },
    {
     "teryt": "06",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "teryt": "08",
-    "liczba": 5
-   },
-   {
-    "teryt": "10",
-    "liczba": 21
-   },
-   {
-    "teryt": "12",
-    "liczba": 21
-   },
-   {
-    "teryt": "14",
-    "liczba": 47
-   },
-   {
-    "teryt": "16",
     "liczba": 9
    },
    {
+    "teryt": "10",
+    "liczba": 24
+   },
+   {
+    "teryt": "12",
+    "liczba": 24
+   },
+   {
+    "teryt": "14",
+    "liczba": 52
+   },
+   {
+    "teryt": "16",
+    "liczba": 10
+   },
+   {
     "teryt": "18",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "teryt": "20",
@@ -59,23 +59,23 @@
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "24",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "26",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 14
    },
    {
     "teryt": "30",
-    "liczba": 37
+    "liczba": 43
    },
    {
     "teryt": "32",
@@ -110,31 +110,31 @@
    },
    {
     "rok": 1985,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 1986,
-    "liczba": 43
+    "liczba": 55
    },
    {
     "rok": 1987,
-    "liczba": 40
+    "liczba": 45
    },
    {
     "rok": 1988,
-    "liczba": 33
+    "liczba": 41
    },
    {
     "rok": 1989,
-    "liczba": 43
+    "liczba": 57
    },
    {
     "rok": 1990,
-    "liczba": 34
+    "liczba": 40
    },
    {
     "rok": 1991,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 1992,
@@ -146,7 +146,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 1995,
@@ -202,7 +202,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2009,
@@ -212,7 +212,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 193
+    "liczba": 242
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -220,7 +220,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "nazwa": "?+LPG",
@@ -234,11 +234,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,2 l",
-    "liczba": 199
+    "liczba": 240
    },
    {
     "nazwa": "4,1 l",
-    "liczba": 74
+    "liczba": 81
    },
    {
     "nazwa": "3,0 l",
@@ -246,25 +246,21 @@
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 7
-   },
-   {
-    "nazwa": "2,5 l",
-    "liczba": 3
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 12
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 157
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 169
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 129
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 167
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -272,38 +268,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 217
+    "liczba": 254
    },
    {
     "nazwa": "Coupe",
-    "liczba": 32
+    "liczba": 43
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "nazwa": "Kombi",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 38
    }
   ],
-  "noweOdPaczki": 74,
+  "noweOdPaczki": 125,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 8
+   },
+   {
+    "rok": 2022,
+    "liczba": 28
+   },
+   {
     "rok": 2023,
-    "liczba": 9
+    "liczba": 24
    },
    {
     "rok": 2024,
@@ -319,6 +323,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 5
@@ -460,16 +560,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1093,
+  "miejsce": 1079,
   "miejsceWMarce": 52,
-  "modeliWMarce": 54,
-  "sredniRocznik": 1990.0
+  "modeliWMarce": 56,
+  "sredniRocznik": 1989.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "420",

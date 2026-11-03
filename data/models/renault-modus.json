@@ -12,162 +12,166 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Modus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 636 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODUS, MODUS 1.5 DCI, MODUS 1,5 DCI, MODUS 1.2 16V, MODUS 1.2 KAT).",
-  "liczbaWPolsce": 15745,
-  "aktywne": 8646,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Modus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 882 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODUS, MODUS 1.5 DCI, MODUS 1,5 DCI, MODUS 1.2 16V, MODUS 1.2 KAT).",
+  "liczbaWPolsce": 18991,
+  "aktywne": 11892,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 994
+    "liczba": 1190
    },
    {
     "teryt": "04",
-    "liczba": 884
+    "liczba": 1040
    },
    {
     "teryt": "06",
-    "liczba": 789
+    "liczba": 1034
    },
    {
     "teryt": "08",
-    "liczba": 659
+    "liczba": 744
    },
    {
     "teryt": "10",
-    "liczba": 1279
+    "liczba": 1528
    },
    {
     "teryt": "12",
-    "liczba": 1171
-   },
-   {
-    "teryt": "14",
     "liczba": 1446
    },
    {
+    "teryt": "14",
+    "liczba": 1739
+   },
+   {
     "teryt": "16",
-    "liczba": 315
+    "liczba": 377
    },
    {
     "teryt": "18",
-    "liczba": 1183
+    "liczba": 1528
    },
    {
     "teryt": "20",
-    "liczba": 282
+    "liczba": 367
    },
    {
     "teryt": "22",
-    "liczba": 621
+    "liczba": 748
    },
    {
     "teryt": "24",
-    "liczba": 1722
+    "liczba": 2003
    },
    {
     "teryt": "26",
-    "liczba": 503
+    "liczba": 620
    },
    {
     "teryt": "28",
-    "liczba": 381
+    "liczba": 507
    },
    {
     "teryt": "30",
-    "liczba": 2850
+    "liczba": 3350
    },
    {
     "teryt": "32",
-    "liczba": 525
+    "liczba": 629
    }
   ],
   "bezWojewodztwa": 141,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 2429
+    "liczba": 2828
    },
    {
     "rok": 2005,
-    "liczba": 5036
+    "liczba": 5990
    },
    {
     "rok": 2006,
-    "liczba": 2264
+    "liczba": 2782
    },
    {
     "rok": 2007,
-    "liczba": 1498
+    "liczba": 1853
    },
    {
     "rok": 2008,
-    "liczba": 1721
+    "liczba": 2102
    },
    {
     "rok": 2009,
-    "liczba": 1027
+    "liczba": 1301
    },
    {
     "rok": 2010,
-    "liczba": 487
+    "liczba": 624
    },
    {
     "rok": 2011,
-    "liczba": 474
+    "liczba": 596
    },
    {
     "rok": 2012,
-    "liczba": 295
+    "liczba": 386
+   },
+   {
+    "rok": 2013,
+    "liczba": 40
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 11050
+    "liczba": 13766
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3655
+    "liczba": 4018
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 995
+    "liczba": 1160
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 45
+    "liczba": 47
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 7986
-   },
-   {
-    "nazwa": "1,5 l",
-    "liczba": 3669
+    "liczba": 9909
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 3295
+    "liczba": 4161
+   },
+   {
+    "nazwa": "1,5 l",
+    "liczba": 4034
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 768
+    "liczba": 856
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 31
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 11651
+    "liczba": 14040
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3575
+    "liczba": 4431
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -175,38 +179,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 151
+    "liczba": 152
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 10218
+    "liczba": 12101
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3917
+    "liczba": 5117
    },
    {
     "nazwa": "Van",
-    "liczba": 950
+    "liczba": 1034
    },
    {
     "nazwa": "Kombi",
-    "liczba": 308
+    "liczba": 376
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 352
+    "liczba": 363
    }
   ],
-  "noweOdPaczki": 2636,
-  "hybrydy": 0,
+  "noweOdPaczki": 5882,
+  "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 775
+   },
+   {
+    "rok": 2022,
+    "liczba": 1517
+   },
+   {
     "rok": 2023,
-    "liczba": 318
+    "liczba": 1272
    },
    {
     "rok": 2024,
@@ -222,6 +234,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 147
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 123
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 107
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 94
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 146
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 98
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 93
+   },
    {
     "miesiac": "2023-12",
     "liczba": 64
@@ -363,7 +471,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 215,
+  "miejsce": 209,
   "miejsceWMarce": 12,
   "modeliWMarce": 48,
   "sredniRocznik": 2006.3
@@ -372,7 +480,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "modus",
@@ -384,24 +492,24 @@
    "adres": "/marki/citroen/c2/"
   },
   {
-   "slug": "volkswagen-polo-iv",
-   "nazwa": "Volkswagen Polo IV (9N)",
-   "adres": "/marki/volkswagen/polo/iv-9n/"
-  },
-  {
-   "slug": "volkswagen-fox",
-   "nazwa": "Volkswagen Fox",
-   "adres": "/marki/volkswagen/fox/"
-  },
-  {
    "slug": "opel-corsa",
    "nazwa": "Opel Corsa",
    "adres": "/marki/opel/corsa/"
   },
   {
-   "slug": "ford-ka",
-   "nazwa": "Ford Ka",
-   "adres": "/marki/ford/ka/"
+   "slug": "volkswagen-polo-iv",
+   "nazwa": "Volkswagen Polo IV (9N)",
+   "adres": "/marki/volkswagen/polo/iv-9n/"
+  },
+  {
+   "slug": "seat-ibiza",
+   "nazwa": "Seat Ibiza",
+   "adres": "/marki/seat/ibiza/"
+  },
+  {
+   "slug": "volkswagen-fox",
+   "nazwa": "Volkswagen Fox",
+   "adres": "/marki/volkswagen/fox/"
   }
  ]
 }

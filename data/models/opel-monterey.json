@@ -7,29 +7,29 @@
  "nadwozia": [
   "kombi",
   "van",
-  "sedan",
   "suv",
+  "sedan",
   "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Monterey – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MONTEREY, MONTEREY 3.1 TD, MONTEREY 3.2 KAT, MONTEREY 3,1 TD, MONTEREY 3.1 D).",
-  "liczbaWPolsce": 1262,
-  "aktywne": 149,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Monterey – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MONTEREY, MONTEREY 3.1 TD, MONTEREY 3.2 KAT, MONTEREY 3,1 TD, MONTEREY 3.1 D).",
+  "liczbaWPolsce": 1286,
+  "aktywne": 173,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 163
+    "liczba": 167
    },
    {
     "teryt": "04",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "06",
-    "liczba": 112
+    "liczba": 113
    },
    {
     "teryt": "08",
@@ -37,86 +37,86 @@
    },
    {
     "teryt": "10",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "teryt": "12",
-    "liczba": 80
+    "liczba": 81
    },
    {
     "teryt": "14",
-    "liczba": 154
+    "liczba": 155
    },
    {
     "teryt": "16",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "18",
-    "liczba": 93
+    "liczba": 95
    },
    {
     "teryt": "20",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "22",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "teryt": "24",
-    "liczba": 97
+    "liczba": 101
    },
    {
     "teryt": "26",
-    "liczba": 38
+    "liczba": 40
    },
    {
     "teryt": "28",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "30",
-    "liczba": 104
+    "liczba": 105
    },
    {
     "teryt": "32",
-    "liczba": 65
+    "liczba": 67
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 1992,
-    "liczba": 209
+    "liczba": 212
    },
    {
     "rok": 1993,
-    "liczba": 339
+    "liczba": 344
    },
    {
     "rok": 1994,
-    "liczba": 184
+    "liczba": 186
    },
    {
     "rok": 1995,
-    "liczba": 158
+    "liczba": 162
    },
    {
     "rok": 1996,
-    "liczba": 116
+    "liczba": 119
    },
    {
     "rok": 1997,
-    "liczba": 82
+    "liczba": 83
    },
    {
     "rok": 1998,
-    "liczba": 92
+    "liczba": 94
    },
    {
     "rok": 1999,
-    "liczba": 53
+    "liczba": 57
    },
    {
     "rok": 2000,
@@ -126,15 +126,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 944
+    "liczba": 955
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 189
+    "liczba": 196
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 87
+    "liczba": 93
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,19 +144,19 @@
   "pojemnosci": [
    {
     "nazwa": "3,1 l",
-    "liczba": 864
+    "liczba": 872
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 272
+    "liczba": 283
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 102
+    "liczba": 105
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,11 +166,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 818
+    "liczba": 827
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 417
+    "liczba": 432
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -184,40 +184,48 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 612
+    "liczba": 618
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 115
+    "liczba": 119
+   },
+   {
+    "nazwa": "Terenowy",
+    "liczba": 92
    },
    {
     "nazwa": "Van",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "nazwa": "Sedan",
     "liczba": 90
    },
    {
-    "nazwa": "Terenowy",
-    "liczba": 80
-   },
-   {
     "nazwa": "Hatchback",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 204
    }
   ],
-  "noweOdPaczki": 18,
+  "noweOdPaczki": 42,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 14
+   },
+   {
     "rok": 2023,
-    "liczba": 4
+    "liczba": 13
    },
    {
     "rok": 2024,
@@ -233,6 +241,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -374,7 +478,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 690,
+  "miejsce": 713,
   "miejsceWMarce": 27,
   "modeliWMarce": 33,
   "sredniRocznik": 1994.4
@@ -383,7 +487,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "monterey",
@@ -400,14 +504,14 @@
    "adres": "/marki/nissan/terrano/"
   },
   {
-   "slug": "chrysler-jeep",
-   "nazwa": "Chrysler Jeep",
-   "adres": "/marki/chrysler/jeep/"
-  },
-  {
    "slug": "isuzu-trooper",
    "nazwa": "Isuzu Trooper",
    "adres": "/marki/isuzu/trooper/"
+  },
+  {
+   "slug": "chrysler-jeep",
+   "nazwa": "Chrysler Jeep",
+   "adres": "/marki/chrysler/jeep/"
   },
   {
    "slug": "mercedes-benz-mb",

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Santana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SANTANA, SANTANA 1.6, SANTANA 1.6D, SANTANA 1.8).",
-  "liczbaWPolsce": 1242,
-  "aktywne": 10,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Santana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SANTANA, SANTANA 1.6, SANTANA 1.6D, SANTANA 1.8).",
+  "liczbaWPolsce": 1245,
+  "aktywne": 13,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 106
+    "liczba": 107
    },
    {
     "teryt": "08",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 112
+    "liczba": 113
    },
    {
     "teryt": "24",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "28",
@@ -89,11 +89,11 @@
    },
    {
     "rok": 1982,
-    "liczba": 413
+    "liczba": 414
    },
    {
     "rok": 1983,
-    "liczba": 327
+    "liczba": 329
    },
    {
     "rok": 1984,
@@ -151,7 +151,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 277
+    "liczba": 280
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -169,15 +169,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 842
+    "liczba": 843
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 163
+    "liczba": 164
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 82
+    "liczba": 83
    },
    {
     "nazwa": "1,5 l",
@@ -199,7 +199,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1012
+    "liczba": 1013
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -207,7 +207,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 48
+    "liczba": 50
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -221,7 +221,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 449
+    "liczba": 452
    },
    {
     "nazwa": "Hatchback",
@@ -232,10 +232,18 @@
     "liczba": 739
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 11,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 2
+   },
    {
     "rok": 2024,
     "liczba": 4
@@ -250,6 +258,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -391,16 +495,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 695,
-  "miejsceWMarce": 40,
-  "modeliWMarce": 59,
+  "miejsce": 723,
+  "miejsceWMarce": 42,
+  "modeliWMarce": 60,
   "sredniRocznik": 1983.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "santana",

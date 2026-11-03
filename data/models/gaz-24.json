@@ -11,29 +11,29 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 24 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 24, 24 02).",
-  "liczbaWPolsce": 730,
-  "aktywne": 23,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 24 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 24, 24 02).",
+  "liczbaWPolsce": 745,
+  "aktywne": 38,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1
-   },
-   {
-    "teryt": "04",
-    "liczba": 3
-   },
-   {
-    "teryt": "06",
     "liczba": 2
    },
    {
+    "teryt": "04",
+    "liczba": 4
+   },
+   {
+    "teryt": "06",
+    "liczba": 3
+   },
+   {
     "teryt": "08",
-    "liczba": 1
+    "liczba": 3
    },
    {
     "teryt": "10",
-    "liczba": 95
+    "liczba": 96
    },
    {
     "teryt": "12",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "18",
-    "liczba": 3
+    "liczba": 5
    },
    {
     "teryt": "20",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "26",
@@ -65,11 +65,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "30",
-    "liczba": 2
+    "liczba": 4
    },
    {
     "teryt": "32",
@@ -120,11 +120,11 @@
    },
    {
     "rok": 1972,
-    "liczba": 66
+    "liczba": 67
    },
    {
     "rok": 1973,
-    "liczba": 76
+    "liczba": 78
    },
    {
     "rok": 1974,
@@ -140,15 +140,15 @@
    },
    {
     "rok": 1977,
-    "liczba": 48
+    "liczba": 50
    },
    {
     "rok": 1978,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 1979,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 1980,
@@ -156,7 +156,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 44
+    "liczba": 46
    },
    {
     "rok": 1982,
@@ -164,7 +164,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 9
+    "liczba": 14
    },
    {
     "rok": 1984,
@@ -172,7 +172,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1986,
@@ -206,7 +206,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 549
+    "liczba": 563
    },
    {
     "nazwa": "Diesel",
@@ -214,13 +214,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 161
+    "liczba": 162
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 688
+    "liczba": 703
    },
    {
     "nazwa": "2,2 l",
@@ -238,7 +238,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 572
+    "liczba": 578
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -246,30 +246,38 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 24
+    "liczba": 32
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 46
+    "liczba": 61
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 684
    }
   ],
-  "noweOdPaczki": 16,
+  "noweOdPaczki": 31,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 3
+   },
+   {
+    "rok": 2022,
+    "liczba": 7
+   },
+   {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 7
    },
    {
     "rok": 2024,
@@ -285,6 +293,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -426,16 +530,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 823,
+  "miejsce": 846,
   "miejsceWMarce": 3,
   "modeliWMarce": 4,
-  "sredniRocznik": 1977.1
+  "sredniRocznik": 1977.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "gaz",
  "modelSlug": "24",
@@ -462,9 +566,9 @@
    "adres": "/marki/fiat/132/"
   },
   {
-   "slug": "peugeot-504",
-   "nazwa": "Peugeot 504",
-   "adres": "/marki/peugeot/504/"
+   "slug": "ford-granada",
+   "nazwa": "Ford Granada",
+   "adres": "/marki/ford/granada/"
   }
  ]
 }

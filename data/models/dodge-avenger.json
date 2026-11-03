@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Avenger – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 64 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AVENGER).",
-  "liczbaWPolsce": 367,
-  "aktywne": 190,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Avenger – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 149 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AVENGER).",
+  "liczbaWPolsce": 452,
+  "aktywne": 275,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 22
+    "liczba": 31
    },
    {
     "teryt": "04",
-    "liczba": 20
+    "liczba": 32
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 24
    },
    {
     "teryt": "08",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "10",
-    "liczba": 34
+    "liczba": 37
    },
    {
     "teryt": "12",
-    "liczba": 19
+    "liczba": 25
    },
    {
     "teryt": "14",
-    "liczba": 65
+    "liczba": 76
    },
    {
     "teryt": "16",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "20",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 32
    },
    {
     "teryt": "24",
-    "liczba": 36
+    "liczba": 42
    },
    {
     "teryt": "26",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 14
    },
    {
     "teryt": "30",
-    "liczba": 35
+    "liczba": 43
    },
    {
     "teryt": "32",
-    "liczba": 17
+    "liczba": 21
    }
   ],
   "bezWojewodztwa": 6,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 1996,
@@ -149,31 +149,31 @@
    },
    {
     "rok": 2007,
-    "liczba": 130
+    "liczba": 142
    },
    {
     "rok": 2008,
-    "liczba": 141
+    "liczba": 196
    },
    {
     "rok": 2009,
-    "liczba": 18
+    "liczba": 27
    },
    {
     "rok": 2010,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2011,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2012,
-    "liczba": 2
+    "liczba": 6
    },
    {
     "rok": 2013,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2014,
@@ -183,15 +183,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 182
+    "liczba": 208
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 103
+    "liczba": 135
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 73
+    "liczba": 100
    },
    {
     "nazwa": "Inne / brak danych",
@@ -201,11 +201,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 303
+    "liczba": 372
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 23
+    "liczba": 29
    },
    {
     "nazwa": "2,5 l",
@@ -213,64 +213,68 @@
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 11
+    "liczba": 17
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 177
+    "liczba": 219
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 162
+    "liczba": 205
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 19
    },
    {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 2
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 9
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 329
+    "liczba": 407
    },
    {
     "nazwa": "Coupe",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 21
    }
   ],
-  "noweOdPaczki": 64,
+  "noweOdPaczki": 149,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 24
+   },
+   {
+    "rok": 2022,
+    "liczba": 33
+   },
+   {
     "rok": 2023,
-    "liczba": 11
+    "liczba": 39
    },
    {
     "rok": 2024,
@@ -286,6 +290,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -427,16 +527,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1026,
+  "miejsce": 992,
   "miejsceWMarce": 10,
   "modeliWMarce": 12,
-  "sredniRocznik": 2006.4
+  "sredniRocznik": 2006.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "dodge",
  "modelSlug": "avenger",
@@ -448,14 +548,14 @@
    "adres": "/marki/mercedes-benz/klasa-c/"
   },
   {
-   "slug": "kia-magentis",
-   "nazwa": "Kia Magentis",
-   "adres": "/marki/kia/magentis/"
-  },
-  {
    "slug": "chevrolet-epica",
    "nazwa": "Chevrolet Epica",
    "adres": "/marki/chevrolet/epica/"
+  },
+  {
+   "slug": "kia-magentis",
+   "nazwa": "Kia Magentis",
+   "adres": "/marki/kia/magentis/"
   },
   {
    "slug": "saab-9-3",
@@ -463,9 +563,9 @@
    "adres": "/marki/saab/9-3/"
   },
   {
-   "slug": "peugeot-407",
-   "nazwa": "Peugeot 407",
-   "adres": "/marki/peugeot/407/"
+   "slug": "volvo-s60",
+   "nazwa": "Volvo S60",
+   "adres": "/marki/volvo/s60/"
   }
  ]
 }

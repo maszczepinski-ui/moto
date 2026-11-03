@@ -12,29 +12,29 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Evanda – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVANDA).",
-  "liczbaWPolsce": 394,
-  "aktywne": 128,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Evanda – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVANDA).",
+  "liczbaWPolsce": 409,
+  "aktywne": 143,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "04",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "06",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "08",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "10",
-    "liczba": 48
+    "liczba": 50
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 95
+    "liczba": 97
    },
    {
     "teryt": "16",
@@ -50,11 +50,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "20",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "22",
@@ -62,11 +62,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "32",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "bezWojewodztwa": 0,
@@ -89,15 +89,15 @@
    },
    {
     "rok": 2004,
-    "liczba": 170
+    "liczba": 175
    },
    {
     "rok": 2005,
-    "liczba": 172
+    "liczba": 178
    },
    {
     "rok": 2006,
-    "liczba": 35
+    "liczba": 38
    },
    {
     "rok": 2007,
@@ -105,17 +105,17 @@
    },
    {
     "rok": 2008,
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 274
+    "liczba": 282
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 114
+    "liczba": 121
    },
    {
     "nazwa": "Inne / brak danych",
@@ -125,17 +125,17 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 394
+    "liczba": 409
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 220
+    "liczba": 225
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 123
+    "liczba": 133
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -145,7 +145,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 356
+    "liczba": 371
    },
    {
     "nazwa": "Hatchback",
@@ -160,13 +160,21 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 8
+   },
+   {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 4
    },
    {
     "rok": 2024,
@@ -182,6 +190,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -323,16 +427,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 998,
-  "miejsceWMarce": 17,
-  "modeliWMarce": 22,
+  "miejsce": 1025,
+  "miejsceWMarce": 18,
+  "modeliWMarce": 23,
   "sredniRocznik": 2004.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "evanda",
@@ -349,19 +453,19 @@
    "adres": "/marki/honda/accord/"
   },
   {
-   "slug": "saab-9-3",
-   "nazwa": "Saab 9-3",
-   "adres": "/marki/saab/9-3/"
-  },
-  {
    "slug": "mitsubishi-lancer",
    "nazwa": "Mitsubishi Lancer",
    "adres": "/marki/mitsubishi/lancer/"
   },
   {
-   "slug": "mercedes-benz-klasa-c",
-   "nazwa": "Mercedes-Benz Klasa C",
-   "adres": "/marki/mercedes-benz/klasa-c/"
+   "slug": "saab-9-3",
+   "nazwa": "Saab 9-3",
+   "adres": "/marki/saab/9-3/"
+  },
+  {
+   "slug": "bmw-seria-3",
+   "nazwa": "BMW Seria 3",
+   "adres": "/marki/bmw/seria-3/"
   }
  ]
 }

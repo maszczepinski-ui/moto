@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Bls – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 30 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BLS).",
-  "liczbaWPolsce": 211,
-  "aktywne": 107,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Bls – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 78 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BLS).",
+  "liczbaWPolsce": 259,
+  "aktywne": 155,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 16
+    "liczba": 21
    },
    {
     "teryt": "04",
-    "liczba": 12
+    "liczba": 16
    },
    {
     "teryt": "06",
-    "liczba": 15
+    "liczba": 21
    },
    {
     "teryt": "08",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 15
+    "liczba": 22
    },
    {
     "teryt": "12",
-    "liczba": 23
+    "liczba": 29
    },
    {
     "teryt": "14",
-    "liczba": 27
+    "liczba": 31
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "20",
@@ -62,46 +62,46 @@
    },
    {
     "teryt": "24",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 8
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 8
    },
    {
     "teryt": "30",
-    "liczba": 24
+    "liczba": 28
    },
    {
     "teryt": "32",
-    "liczba": 7
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 87
+    "liczba": 104
    },
    {
     "rok": 2007,
-    "liczba": 45
+    "liczba": 54
    },
    {
     "rok": 2008,
-    "liczba": 42
+    "liczba": 57
    },
    {
     "rok": 2009,
-    "liczba": 18
+    "liczba": 22
    },
    {
     "rok": 2010,
-    "liczba": 12
+    "liczba": 15
    },
    {
     "rok": 2011,
@@ -115,39 +115,39 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 137
+    "liczba": 163
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 51
+    "liczba": 65
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 23
+    "liczba": 31
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 137
+    "liczba": 163
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 67
+    "liczba": 83
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 7
+    "liczba": 13
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 125
+    "liczba": 154
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 74
+    "liczba": 93
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -161,24 +161,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 165
+    "liczba": 194
    },
    {
     "nazwa": "Kombi",
-    "liczba": 45
+    "liczba": 64
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 30,
+  "noweOdPaczki": 78,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 8
+   },
+   {
+    "rok": 2022,
+    "liczba": 26
+   },
+   {
     "rok": 2023,
-    "liczba": 5
+    "liczba": 19
    },
    {
     "rok": 2024,
@@ -194,6 +202,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -335,16 +439,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1207,
-  "miejsceWMarce": 7,
-  "modeliWMarce": 7,
+  "miejsce": 1171,
+  "miejsceWMarce": 6,
+  "modeliWMarce": 8,
   "sredniRocznik": 2007.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "cadillac",
  "modelSlug": "bls",

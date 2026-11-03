@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Vaneo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 54 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VANEO, VANEO 1.7 CDI).",
-  "liczbaWPolsce": 412,
-  "aktywne": 222,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Vaneo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 108 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VANEO, VANEO 1.7 CDI).",
+  "liczbaWPolsce": 466,
+  "aktywne": 276,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 42
+    "liczba": 51
    },
    {
     "teryt": "04",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "teryt": "06",
@@ -31,39 +31,39 @@
    },
    {
     "teryt": "08",
-    "liczba": 20
+    "liczba": 25
    },
    {
     "teryt": "10",
-    "liczba": 29
+    "liczba": 33
    },
    {
     "teryt": "12",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "teryt": "14",
-    "liczba": 39
+    "liczba": 46
    },
    {
     "teryt": "16",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "18",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "22",
-    "liczba": 36
+    "liczba": 38
    },
    {
     "teryt": "24",
-    "liczba": 44
+    "liczba": 46
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "30",
-    "liczba": 47
+    "liczba": 53
    },
    {
     "teryt": "32",
-    "liczba": 29
+    "liczba": 35
    }
   ],
   "bezWojewodztwa": 4,
@@ -90,47 +90,47 @@
    },
    {
     "rok": 2002,
-    "liczba": 125
+    "liczba": 140
    },
    {
     "rok": 2003,
-    "liczba": 125
+    "liczba": 136
    },
    {
     "rok": 2004,
-    "liczba": 90
+    "liczba": 105
    },
    {
     "rok": 2005,
-    "liczba": 58
+    "liczba": 71
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 258
+    "liczba": 284
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 109
+    "liczba": 131
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 45
+    "liczba": 51
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 255
-   },
-   {
-    "nazwa": "1,9 l",
-    "liczba": 78
+    "liczba": 282
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 77
+    "liczba": 94
+   },
+   {
+    "nazwa": "1,9 l",
+    "liczba": 88
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,11 +140,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 307
+    "liczba": 342
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 98
+    "liczba": 117
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,19 +154,19 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 228
+    "liczba": 251
    },
    {
     "nazwa": "Kombi",
-    "liczba": 86
+    "liczba": 104
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 43
+    "liczba": 47
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 36
+    "liczba": 44
    },
    {
     "nazwa": "Sedan",
@@ -174,16 +174,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 13
    }
   ],
-  "noweOdPaczki": 54,
+  "noweOdPaczki": 108,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 13
+   },
+   {
+    "rok": 2022,
+    "liczba": 24
+   },
+   {
     "rok": 2023,
-    "liczba": 7
+    "liczba": 24
    },
    {
     "rok": 2024,
@@ -199,6 +207,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -340,16 +444,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 987,
+  "miejsce": 979,
   "miejsceWMarce": 13,
-  "modeliWMarce": 19,
+  "modeliWMarce": 21,
   "sredniRocznik": 2003.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "vaneo",
@@ -361,14 +465,14 @@
    "adres": "/marki/citroen/xsara-picasso/"
   },
   {
-   "slug": "renault-scenic",
-   "nazwa": "Renault Scenic",
-   "adres": "/marki/renault/scenic/"
-  },
-  {
    "slug": "mercedes-benz-vaneo",
    "nazwa": "Mercedes-Benz Vaneo",
    "adres": "/marki/mercedes-benz/vaneo/"
+  },
+  {
+   "slug": "renault-scenic",
+   "nazwa": "Renault Scenic",
+   "adres": "/marki/renault/scenic/"
   },
   {
    "slug": "fiat-multipla",

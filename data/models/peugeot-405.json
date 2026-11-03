@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 405 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 405, 405 1.6, 405 1.9D, 405 1.6 KAT, 405 1.9).",
-  "liczbaWPolsce": 17338,
-  "aktywne": 88,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 405 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 36 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 405, 405 1.6, 405 1.9D, 405 1.6 KAT, 405 1.9).",
+  "liczbaWPolsce": 17359,
+  "aktywne": 109,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -31,7 +31,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 628
+    "liczba": 629
    },
    {
     "teryt": "10",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 1163
+    "liczba": 1166
    },
    {
     "teryt": "14",
-    "liczba": 2594
+    "liczba": 2598
    },
    {
     "teryt": "16",
@@ -51,19 +51,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 484
+    "liczba": 486
    },
    {
     "teryt": "20",
-    "liczba": 309
+    "liczba": 310
    },
    {
     "teryt": "22",
-    "liczba": 1539
+    "liczba": 1542
    },
    {
     "teryt": "24",
-    "liczba": 1420
+    "liczba": 1421
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 502
+    "liczba": 503
    },
    {
     "teryt": "30",
-    "liczba": 1513
+    "liczba": 1517
    },
    {
     "teryt": "32",
-    "liczba": 1144
+    "liczba": 1145
    }
   ],
   "bezWojewodztwa": 21,
@@ -90,11 +90,11 @@
    },
    {
     "rok": 1988,
-    "liczba": 947
+    "liczba": 948
    },
    {
     "rok": 1989,
-    "liczba": 1178
+    "liczba": 1180
    },
    {
     "rok": 1990,
@@ -102,27 +102,27 @@
    },
    {
     "rok": 1991,
-    "liczba": 2950
+    "liczba": 2951
    },
    {
     "rok": 1992,
-    "liczba": 1832
+    "liczba": 1835
    },
    {
     "rok": 1993,
-    "liczba": 1799
+    "liczba": 1803
    },
    {
     "rok": 1994,
-    "liczba": 2445
+    "liczba": 2452
    },
    {
     "rok": 1995,
-    "liczba": 1719
+    "liczba": 1720
    },
    {
     "rok": 1996,
-    "liczba": 1559
+    "liczba": 1560
    },
    {
     "rok": 1997,
@@ -132,15 +132,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 4387
+    "liczba": 4391
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 4224
+    "liczba": 4225
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 4181
+    "liczba": 4197
    },
    {
     "nazwa": "?+LPG",
@@ -154,23 +154,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 7419
+    "liczba": 7426
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 6221
+    "liczba": 6226
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1628
+    "liczba": 1630
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1309
+    "liczba": 1310
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 595
+    "liczba": 601
    },
    {
     "nazwa": "Inne / brak danych",
@@ -180,11 +180,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 12715
+    "liczba": 12725
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2692
+    "liczba": 2703
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -202,28 +202,36 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 7441
+    "liczba": 7456
    },
    {
     "nazwa": "Kombi",
-    "liczba": 2034
+    "liczba": 2037
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1215
+    "liczba": 1216
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6648
+    "liczba": 6650
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 36,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
+    "liczba": 9
+   },
+   {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 13
    },
    {
     "rok": 2024,
@@ -239,6 +247,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -380,16 +484,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 203,
+  "miejsce": 225,
   "miejsceWMarce": 13,
-  "modeliWMarce": 44,
+  "modeliWMarce": 45,
   "sredniRocznik": 1992.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "405",

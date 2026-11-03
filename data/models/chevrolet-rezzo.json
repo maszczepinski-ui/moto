@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Rezzo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 30 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REZZO).",
-  "liczbaWPolsce": 672,
-  "aktywne": 317,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Rezzo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 60 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REZZO).",
+  "liczbaWPolsce": 702,
+  "aktywne": 347,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 37
+    "liczba": 40
    },
    {
     "teryt": "04",
@@ -27,23 +27,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "08",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "10",
-    "liczba": 101
+    "liczba": 105
    },
    {
     "teryt": "12",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "14",
-    "liczba": 83
+    "liczba": 86
    },
    {
     "teryt": "16",
@@ -59,27 +59,27 @@
    },
    {
     "teryt": "22",
-    "liczba": 36
+    "liczba": 39
    },
    {
     "teryt": "24",
-    "liczba": 77
+    "liczba": 80
    },
    {
     "teryt": "26",
-    "liczba": 18
+    "liczba": 21
    },
    {
     "teryt": "28",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "30",
-    "liczba": 69
+    "liczba": 72
    },
    {
     "teryt": "32",
-    "liczba": 29
+    "liczba": 31
    }
   ],
   "bezWojewodztwa": 9,
@@ -94,29 +94,29 @@
    },
    {
     "rok": 2005,
-    "liczba": 164
+    "liczba": 172
    },
    {
     "rok": 2006,
-    "liczba": 161
+    "liczba": 172
    },
    {
     "rok": 2007,
-    "liczba": 130
+    "liczba": 135
    },
    {
     "rok": 2008,
-    "liczba": 92
+    "liczba": 98
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 466
+    "liczba": 484
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 203
+    "liczba": 215
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,11 +126,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 431
+    "liczba": 444
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 238
+    "liczba": 255
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,11 +140,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 451
+    "liczba": 470
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 166
+    "liczba": 177
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -158,19 +158,19 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 318
+    "liczba": 335
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 173
+    "liczba": 179
    },
    {
     "nazwa": "Van",
-    "liczba": 125
+    "liczba": 129
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 30
+    "liczba": 33
    },
    {
     "nazwa": "Sedan",
@@ -181,13 +181,21 @@
     "liczba": 18
    }
   ],
-  "noweOdPaczki": 30,
+  "noweOdPaczki": 60,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 6
+   },
+   {
+    "rok": 2022,
+    "liczba": 15
+   },
+   {
     "rok": 2023,
-    "liczba": 10
+    "liczba": 19
    },
    {
     "rok": 2024,
@@ -203,6 +211,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 4
@@ -344,26 +448,21 @@
     "liczba": 0
    }
   ],
-  "miejsce": 842,
+  "miejsce": 863,
   "miejsceWMarce": 14,
-  "modeliWMarce": 22,
+  "modeliWMarce": 23,
   "sredniRocznik": 2005.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "rezzo",
  "adres": "/marki/chevrolet/rezzo/",
  "konkurenci": [
-  {
-   "slug": "toyota-avensis",
-   "nazwa": "Toyota Avensis",
-   "adres": "/marki/toyota/avensis/"
-  },
   {
    "slug": "mazda-mx-5",
    "nazwa": "Mazda MX-5",
@@ -375,14 +474,19 @@
    "adres": "/marki/suzuki/grand-vitara/"
   },
   {
-   "slug": "volvo-v40",
-   "nazwa": "Volvo V40",
-   "adres": "/marki/volvo/v40/"
+   "slug": "toyota-avensis",
+   "nazwa": "Toyota Avensis",
+   "adres": "/marki/toyota/avensis/"
   },
   {
-   "slug": "ford-focus",
-   "nazwa": "Ford Focus",
-   "adres": "/marki/ford/focus/"
+   "slug": "ford-mondeo",
+   "nazwa": "Ford Mondeo",
+   "adres": "/marki/ford/mondeo/"
+  },
+  {
+   "slug": "audi-a4",
+   "nazwa": "Audi A4",
+   "adres": "/marki/audi/a4/"
   }
  ]
 }

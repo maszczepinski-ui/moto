@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 404 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 404, 404 D).",
-  "liczbaWPolsce": 725,
-  "aktywne": 17,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 404 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 404, 404 D).",
+  "liczbaWPolsce": 734,
+  "aktywne": 26,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,11 +21,11 @@
    },
    {
     "teryt": "04",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "06",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "08",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 81
+    "liczba": 82
    },
    {
     "teryt": "14",
-    "liczba": 249
+    "liczba": 250
    },
    {
     "teryt": "16",
@@ -57,15 +57,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "24",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "teryt": "26",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "28",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "teryt": "32",
@@ -96,7 +96,7 @@
    },
    {
     "rok": 1963,
-    "liczba": 59
+    "liczba": 60
    },
    {
     "rok": 1964,
@@ -108,11 +108,11 @@
    },
    {
     "rok": 1966,
-    "liczba": 87
+    "liczba": 88
    },
    {
     "rok": 1967,
-    "liczba": 68
+    "liczba": 71
    },
    {
     "rok": 1968,
@@ -120,7 +120,7 @@
    },
    {
     "rok": 1969,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 1970,
@@ -140,11 +140,11 @@
    },
    {
     "rok": 1974,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1975,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1976,
@@ -218,11 +218,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 85
+    "liczba": 92
    },
    {
     "nazwa": "Diesel",
-    "liczba": 76
+    "liczba": 78
    },
    {
     "nazwa": "?+LPG",
@@ -236,11 +236,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 553
+    "liczba": 560
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 87
+    "liczba": 89
    },
    {
     "nazwa": "1,5 l",
@@ -258,7 +258,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 413
+    "liczba": 415
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -266,7 +266,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 43
+    "liczba": 50
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -280,20 +280,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 130
+    "liczba": 138
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 595
+    "liczba": 596
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 16,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 3
+   },
+   {
+    "rok": 2022,
+    "liczba": 4
+   },
+   {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2024,
@@ -305,6 +313,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -446,30 +550,30 @@
     "liczba": 0
    }
   ],
-  "miejsce": 824,
-  "miejsceWMarce": 37,
-  "modeliWMarce": 44,
-  "sredniRocznik": 1968.5
+  "miejsce": 849,
+  "miejsceWMarce": 38,
+  "modeliWMarce": 45,
+  "sredniRocznik": 1968.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "404",
  "adres": "/marki/peugeot/404/",
  "konkurenci": [
   {
-   "slug": "moskwicz-408",
-   "nazwa": "Moskwicz 408",
-   "adres": "/marki/moskwicz/408/"
-  },
-  {
    "slug": "volkswagen-1500",
    "nazwa": "Volkswagen 1500",
    "adres": "/marki/volkswagen/1500/"
+  },
+  {
+   "slug": "moskwicz-408",
+   "nazwa": "Moskwicz 408",
+   "adres": "/marki/moskwicz/408/"
   },
   {
    "slug": "volkswagen-garbus-kafer",

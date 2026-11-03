@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 21412 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MOSKWICZ 21412, MOSKWICZ 21412 1500).",
-  "liczbaWPolsce": 484,
-  "aktywne": 0,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 21412 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MOSKWICZ 21412, MOSKWICZ 21412 1500).",
+  "liczbaWPolsce": 485,
+  "aktywne": 1,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "14",
@@ -165,7 +165,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 201
+    "liczba": 202
    },
    {
     "rok": 1991,
@@ -195,7 +195,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "nazwa": "?+LPG",
@@ -213,7 +213,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 439
+    "liczba": 440
    },
    {
     "nazwa": "1,6 l",
@@ -231,7 +231,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 297
+    "liczba": 298
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -257,18 +257,119 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 355
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
+  "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   }
+  ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -410,7 +511,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 939,
+  "miejsce": 965,
   "miejsceWMarce": 4,
   "modeliWMarce": 5,
   "sredniRocznik": 1989.6
@@ -419,7 +520,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "moskwicz",
  "modelSlug": "21412",

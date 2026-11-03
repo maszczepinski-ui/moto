@@ -13,25 +13,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche 924 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 60 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 924, 924 2.0, 924 S, 924 TURBO).",
-  "liczbaWPolsce": 736,
-  "aktywne": 116,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche 924 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 101 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 924, 924 2.0, 924 S, 924 TURBO).",
+  "liczbaWPolsce": 777,
+  "aktywne": 157,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 54
+    "liczba": 60
    },
    {
     "teryt": "04",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "teryt": "06",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "08",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "10",
@@ -39,35 +39,35 @@
    },
    {
     "teryt": "12",
-    "liczba": 78
+    "liczba": 83
    },
    {
     "teryt": "14",
-    "liczba": 129
+    "liczba": 135
    },
    {
     "teryt": "16",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "teryt": "18",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "20",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "22",
-    "liczba": 62
+    "liczba": 67
    },
    {
     "teryt": "24",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "26",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "28",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 80
+    "liczba": 87
    },
    {
     "teryt": "32",
@@ -98,35 +98,35 @@
    },
    {
     "rok": 1976,
-    "liczba": 44
+    "liczba": 45
    },
    {
     "rok": 1977,
-    "liczba": 64
+    "liczba": 70
    },
    {
     "rok": 1978,
-    "liczba": 71
+    "liczba": 78
    },
    {
     "rok": 1979,
-    "liczba": 90
+    "liczba": 94
    },
    {
     "rok": 1980,
-    "liczba": 67
+    "liczba": 70
    },
    {
     "rok": 1981,
-    "liczba": 75
+    "liczba": 80
    },
    {
     "rok": 1982,
-    "liczba": 58
+    "liczba": 61
    },
    {
     "rok": 1983,
-    "liczba": 54
+    "liczba": 57
    },
    {
     "rok": 1984,
@@ -134,15 +134,15 @@
    },
    {
     "rok": 1985,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 1986,
-    "liczba": 15
+    "liczba": 21
    },
    {
     "rok": 1987,
-    "liczba": 15
+    "liczba": 17
    },
    {
     "rok": 1988,
@@ -188,7 +188,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 373
+    "liczba": 414
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -206,15 +206,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 676
+    "liczba": 710
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 20
+    "liczba": 24
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "nazwa": "Inne / brak danych",
@@ -224,11 +224,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 494
+    "liczba": 505
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 140
+    "liczba": 169
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -240,17 +240,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 21
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 233
+    "liczba": 268
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 83
+    "liczba": 87
    },
    {
     "nazwa": "Sedan",
@@ -258,16 +258,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 355
+    "liczba": 357
    }
   ],
-  "noweOdPaczki": 60,
+  "noweOdPaczki": 101,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 10
+   },
+   {
+    "rok": 2022,
+    "liczba": 11
+   },
+   {
     "rok": 2023,
-    "liczba": 2
+    "liczba": 22
    },
    {
     "rok": 2024,
@@ -283,6 +291,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -424,30 +528,30 @@
     "liczba": 0
    }
   ],
-  "miejsce": 820,
-  "miejsceWMarce": 7,
-  "modeliWMarce": 11,
-  "sredniRocznik": 1981.9
+  "miejsce": 832,
+  "miejsceWMarce": 8,
+  "modeliWMarce": 12,
+  "sredniRocznik": 1981.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "porsche",
  "modelSlug": "924",
  "adres": "/marki/porsche/924/",
  "konkurenci": [
   {
-   "slug": "opel-rekord",
-   "nazwa": "Opel Rekord",
-   "adres": "/marki/opel/rekord/"
-  },
-  {
    "slug": "ford-granada",
    "nazwa": "Ford Granada",
    "adres": "/marki/ford/granada/"
+  },
+  {
+   "slug": "opel-rekord",
+   "nazwa": "Opel Rekord",
+   "adres": "/marki/opel/rekord/"
   },
   {
    "slug": "polski-fiat-125p",
@@ -460,9 +564,9 @@
    "adres": "/marki/uaz/469/"
   },
   {
-   "slug": "nysa-522",
-   "nazwa": "Nysa 522",
-   "adres": "/marki/nysa/522/"
+   "slug": "opel-manta",
+   "nazwa": "Opel Manta",
+   "adres": "/marki/opel/manta/"
   }
  ]
 }

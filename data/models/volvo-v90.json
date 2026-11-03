@@ -11,84 +11,84 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo V90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 861 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V90, V90 CROSS COUNTRY, V90 T8 TWIN ENGINE).",
-  "liczbaWPolsce": 4835,
-  "aktywne": 4775,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo V90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 797 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V90, V90 CROSS COUNTRY, V90 T8 TWIN ENGINE).",
+  "liczbaWPolsce": 6771,
+  "aktywne": 6711,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 370
+    "liczba": 522
    },
    {
     "teryt": "04",
-    "liczba": 156
+    "liczba": 223
    },
    {
     "teryt": "06",
-    "liczba": 197
+    "liczba": 264
    },
    {
     "teryt": "08",
-    "liczba": 107
+    "liczba": 137
    },
    {
     "teryt": "10",
-    "liczba": 267
+    "liczba": 369
    },
    {
     "teryt": "12",
-    "liczba": 368
+    "liczba": 518
    },
    {
     "teryt": "14",
-    "liczba": 1262
+    "liczba": 1698
    },
    {
     "teryt": "16",
-    "liczba": 61
+    "liczba": 94
    },
    {
     "teryt": "18",
-    "liczba": 152
+    "liczba": 220
    },
    {
     "teryt": "20",
-    "liczba": 108
+    "liczba": 139
    },
    {
     "teryt": "22",
-    "liczba": 331
+    "liczba": 473
    },
    {
     "teryt": "24",
-    "liczba": 573
+    "liczba": 829
    },
    {
     "teryt": "26",
-    "liczba": 88
+    "liczba": 123
    },
    {
     "teryt": "28",
-    "liczba": 121
+    "liczba": 173
    },
    {
     "teryt": "30",
-    "liczba": 444
+    "liczba": 651
    },
    {
     "teryt": "32",
-    "liczba": 222
+    "liczba": 330
    }
   ],
   "bezWojewodztwa": 8,
   "roczniki": [
    {
     "rok": 1997,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 1998,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1999,
@@ -160,35 +160,35 @@
    },
    {
     "rok": 2016,
-    "liczba": 230
+    "liczba": 307
    },
    {
     "rok": 2017,
-    "liczba": 806
+    "liczba": 1267
    },
    {
     "rok": 2018,
-    "liczba": 968
+    "liczba": 1285
    },
    {
     "rok": 2019,
-    "liczba": 810
+    "liczba": 1005
    },
    {
     "rok": 2020,
-    "liczba": 367
+    "liczba": 509
    },
    {
     "rok": 2021,
-    "liczba": 235
+    "liczba": 451
    },
    {
     "rok": 2022,
-    "liczba": 162
+    "liczba": 414
    },
    {
     "rok": 2023,
-    "liczba": 327
+    "liczba": 601
    },
    {
     "rok": 2024,
@@ -202,47 +202,47 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 2701
+    "liczba": 3894
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1013
+    "liczba": 1200
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 683
+    "liczba": 863
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 393
+    "liczba": 754
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 60
+   }
+  ],
+  "pojemnosci": [
+   {
+    "nazwa": "2,0 l",
+    "liczba": 6726
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 45
    }
   ],
-  "pojemnosci": [
-   {
-    "nazwa": "2,0 l",
-    "liczba": 4794
-   },
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 41
-   }
-  ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2158
-   },
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1515
+    "liczba": 2786
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1148
+    "liczba": 2131
+   },
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 1840
    },
    {
     "nazwa": "Inne / brak danych",
@@ -252,20 +252,28 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 4760
+    "liczba": 6665
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 75
+    "liczba": 106
    }
   ],
-  "noweOdPaczki": 3861,
-  "hybrydy": 1406,
+  "noweOdPaczki": 5797,
+  "hybrydy": 1954,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 389
+   },
+   {
+    "rok": 2022,
+    "liczba": 667
+   },
+   {
     "rok": 2023,
-    "liczba": 425
+    "liczba": 1305
    },
    {
     "rok": 2024,
@@ -281,6 +289,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 63
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 123
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 112
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 138
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 101
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 110
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 124
+   },
    {
     "miesiac": "2023-12",
     "liczba": 120
@@ -422,16 +526,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 413,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 33,
-  "sredniRocznik": 2019.7
+  "miejsce": 371,
+  "miejsceWMarce": 12,
+  "modeliWMarce": 34,
+  "sredniRocznik": 2019.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "v90",
@@ -453,14 +557,14 @@
    "adres": "/marki/jaguar/e-pace/"
   },
   {
+   "slug": "skoda-superb",
+   "nazwa": "Skoda Superb",
+   "adres": "/marki/skoda/superb/"
+  },
+  {
    "slug": "bmw-x1",
    "nazwa": "BMW X1",
    "adres": "/marki/bmw/x1/"
-  },
-  {
-   "slug": "audi-q3",
-   "nazwa": "Audi Q3",
-   "adres": "/marki/audi/q3/"
   }
  ]
 }

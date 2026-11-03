@@ -6,103 +6,102 @@
  "lataProdukcji": "2019–2026",
  "nadwozia": [
   "hatchback",
-  "kombi",
-  "van"
+  "kombi"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi SQ8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 751 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SQ8, SQ8 E-TRON, SQ8 SPORTBACK E-TRON).",
-  "liczbaWPolsce": 751,
-  "aktywne": 751,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi SQ8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 223 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SQ8, SQ8 E-TRON, SQ8 SPORTBACK E-TRON).",
+  "liczbaWPolsce": 1223,
+  "aktywne": 1223,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 70
+    "liczba": 108
    },
    {
     "teryt": "04",
-    "liczba": 37
+    "liczba": 50
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 32
    },
    {
     "teryt": "08",
-    "liczba": 9
+    "liczba": 20
    },
    {
     "teryt": "10",
-    "liczba": 39
+    "liczba": 64
    },
    {
     "teryt": "12",
-    "liczba": 64
+    "liczba": 106
    },
    {
     "teryt": "14",
-    "liczba": 170
+    "liczba": 264
    },
    {
     "teryt": "16",
-    "liczba": 19
+    "liczba": 29
    },
    {
     "teryt": "18",
-    "liczba": 25
+    "liczba": 40
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 15
    },
    {
     "teryt": "22",
-    "liczba": 56
+    "liczba": 94
    },
    {
     "teryt": "24",
-    "liczba": 64
+    "liczba": 130
    },
    {
     "teryt": "26",
-    "liczba": 25
+    "liczba": 37
    },
    {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 24
    },
    {
     "teryt": "30",
-    "liczba": 111
+    "liczba": 158
    },
    {
     "teryt": "32",
-    "liczba": 32
+    "liczba": 52
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 11
+    "liczba": 18
    },
    {
     "rok": 2020,
-    "liczba": 33
+    "liczba": 51
    },
    {
     "rok": 2021,
-    "liczba": 15
+    "liczba": 90
    },
    {
     "rok": 2022,
-    "liczba": 16
+    "liczba": 281
    },
    {
     "rok": 2023,
-    "liczba": 137
+    "liczba": 244
    },
    {
     "rok": 2024,
@@ -120,74 +119,86 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 673
+    "liczba": 1120
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 25
+    "liczba": 37
    },
    {
     "nazwa": "Diesel",
-    "liczba": 13
+    "liczba": 23
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 710
+    "liczba": 1180
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 41
+    "liczba": 43
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 523
+    "liczba": 733
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 126
+    "liczba": 366
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 100
+    "liczba": 121
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 664
+    "liczba": 1122
    },
    {
     "nazwa": "Kombi",
-    "liczba": 51
+    "liczba": 59
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 28
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 11
    }
   ],
-  "noweOdPaczki": 751,
-  "hybrydy": 25,
-  "elektryczne": 40,
+  "noweOdPaczki": 1223,
+  "hybrydy": 38,
+  "elektryczne": 42,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 63
+   },
+   {
+    "rok": 2022,
+    "liczba": 275
+   },
+   {
     "rok": 2023,
-    "liczba": 75
+    "liczba": 209
    },
    {
     "rok": 2024,
@@ -203,6 +214,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 17
+   },
    {
     "miesiac": "2023-12",
     "liczba": 33
@@ -344,16 +451,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 815,
-  "miejsceWMarce": 34,
-  "modeliWMarce": 51,
-  "sredniRocznik": 2023.9
+  "miejsce": 729,
+  "miejsceWMarce": 29,
+  "modeliWMarce": 52,
+  "sredniRocznik": 2023.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "sq8",
@@ -380,9 +487,9 @@
    "adres": "/marki/mercedes-benz/amg/"
   },
   {
-   "slug": "bmw-m4",
-   "nazwa": "BMW M4",
-   "adres": "/marki/bmw/m4/"
+   "slug": "kia-stinger",
+   "nazwa": "Kia Stinger",
+   "adres": "/marki/kia/stinger/"
   }
  ]
 }

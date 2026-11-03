@@ -13,100 +13,104 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW X2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 819 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X2 SDRIVE20I, X2 XDRIVE20D, X2 M35I XDRIVE, X2, X2 SDRIVE18D).",
-  "liczbaWPolsce": 5270,
-  "aktywne": 5270,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW X2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 449 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X2 SDRIVE20I, X2 XDRIVE20D, X2 SDRIVE18I, X2, X2 M35I XDRIVE).",
+  "liczbaWPolsce": 6900,
+  "aktywne": 6900,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 353
+    "liczba": 451
    },
    {
     "teryt": "04",
-    "liczba": 202
+    "liczba": 277
    },
    {
     "teryt": "06",
-    "liczba": 162
+    "liczba": 210
    },
    {
     "teryt": "08",
-    "liczba": 107
+    "liczba": 141
    },
    {
     "teryt": "10",
-    "liczba": 272
+    "liczba": 362
    },
    {
     "teryt": "12",
-    "liczba": 474
+    "liczba": 675
    },
    {
     "teryt": "14",
-    "liczba": 1210
+    "liczba": 1636
    },
    {
     "teryt": "16",
-    "liczba": 93
+    "liczba": 121
    },
    {
     "teryt": "18",
-    "liczba": 160
+    "liczba": 219
    },
    {
     "teryt": "20",
-    "liczba": 101
+    "liczba": 121
    },
    {
     "teryt": "22",
-    "liczba": 285
+    "liczba": 356
    },
    {
     "teryt": "24",
-    "liczba": 728
+    "liczba": 935
    },
    {
     "teryt": "26",
-    "liczba": 122
+    "liczba": 169
    },
    {
     "teryt": "28",
-    "liczba": 74
+    "liczba": 99
    },
    {
     "teryt": "30",
-    "liczba": 761
+    "liczba": 909
    },
    {
     "teryt": "32",
-    "liczba": 166
+    "liczba": 219
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2017,
+    "liczba": 15
+   },
+   {
     "rok": 2018,
-    "liczba": 771
+    "liczba": 965
    },
    {
     "rok": 2019,
-    "liczba": 531
+    "liczba": 663
    },
    {
     "rok": 2020,
-    "liczba": 218
+    "liczba": 319
    },
    {
     "rok": 2021,
-    "liczba": 160
+    "liczba": 535
    },
    {
     "rok": 2022,
-    "liczba": 130
+    "liczba": 735
    },
    {
     "rok": 2023,
-    "liczba": 180
+    "liczba": 397
    },
    {
     "rok": 2024,
@@ -124,15 +128,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2843
+    "liczba": 3935
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1212
+    "liczba": 1634
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 846
+    "liczba": 959
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
@@ -140,17 +144,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 5
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3142
+    "liczba": 4040
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 2126
+    "liczba": 2858
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,50 +164,58 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2868
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1287
+    "liczba": 3389
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 855
+    "liczba": 1706
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1538
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 259
+    "liczba": 263
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 4
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3445
+    "liczba": 3557
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1482
+    "liczba": 2906
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 256
+    "liczba": 319
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 87
+    "liczba": 118
    }
   ],
-  "noweOdPaczki": 4819,
-  "hybrydy": 1213,
+  "noweOdPaczki": 6449,
+  "hybrydy": 1326,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 371
+   },
+   {
+    "rok": 2022,
+    "liczba": 786
+   },
+   {
     "rok": 2023,
-    "liczba": 187
+    "liczba": 660
    },
    {
     "rok": 2024,
@@ -219,6 +231,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 71
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 77
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 65
+   },
    {
     "miesiac": "2023-12",
     "liczba": 48
@@ -360,16 +468,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 388,
+  "miejsce": 368,
   "miejsceWMarce": 13,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2022.7
+  "modeliWMarce": 42,
+  "sredniRocznik": 2022.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "x2",
@@ -391,14 +499,14 @@
    "adres": "/marki/lexus/ux/"
   },
   {
-   "slug": "mazda-mazda3",
-   "nazwa": "Mazda MAZDA3",
-   "adres": "/marki/mazda/mazda3/"
-  },
-  {
    "slug": "kia-proceed",
    "nazwa": "Kia ProCeed",
    "adres": "/marki/kia/proceed/"
+  },
+  {
+   "slug": "mazda-mazda3",
+   "nazwa": "Mazda MAZDA3",
+   "adres": "/marki/mazda/mazda3/"
   }
  ]
 }

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fso Motor Polonez – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: POLONEZ, POLONEZ CARO, POLONEZ CARO 1.6, POLONEZ 1.5).",
-  "liczbaWPolsce": 466,
-  "aktywne": 5,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fso Motor Polonez – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: POLONEZ, POLONEZ CARO, POLONEZ CARO 1.6, POLONEZ 1.5).",
+  "liczbaWPolsce": 467,
+  "aktywne": 6,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "teryt": "26",
@@ -149,7 +149,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 1997,
@@ -179,7 +179,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 141
+    "liczba": 142
    },
    {
     "nazwa": "?+LPG",
@@ -197,7 +197,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 279
+    "liczba": 280
    },
    {
     "nazwa": "1,5 l",
@@ -231,13 +231,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 222
+    "liczba": 223
    },
    {
     "nazwa": "Sedan",
@@ -248,11 +248,112 @@
     "liczba": 173
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
+  "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   }
+  ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -394,7 +495,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 952,
+  "miejsce": 977,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
   "sredniRocznik": 1993.7
@@ -403,7 +504,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fso-motor",
  "modelSlug": "polonez",
@@ -420,11 +521,6 @@
    "adres": "/marki/mazda/323/"
   },
   {
-   "slug": "lada-niva",
-   "nazwa": "Łada Niva",
-   "adres": "/marki/lada/niva/"
-  },
-  {
    "slug": "renault-19",
    "nazwa": "Renault 19",
    "adres": "/marki/renault/19/"
@@ -433,6 +529,11 @@
    "slug": "honda-concerto",
    "nazwa": "Honda Concerto",
    "adres": "/marki/honda/concerto/"
+  },
+  {
+   "slug": "citroen-zx",
+   "nazwa": "Citroen ZX",
+   "adres": "/marki/citroen/zx/"
   }
  ]
 }

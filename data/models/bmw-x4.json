@@ -14,116 +14,116 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW X4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 781 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X4 XDRIVE20D, X4 XDRIVE20I, X4, X4 XDRIVE30I, X4 XDRIVE30D).",
-  "liczbaWPolsce": 7463,
-  "aktywne": 6982,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW X4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 903 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X4 XDRIVE20D, X4 XDRIVE20I, X4 XDRIVE30I, X4, X4 XDRIVE30D).",
+  "liczbaWPolsce": 10585,
+  "aktywne": 10104,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 631
+    "liczba": 844
    },
    {
     "teryt": "04",
-    "liczba": 294
+    "liczba": 476
    },
    {
     "teryt": "06",
-    "liczba": 266
+    "liczba": 381
    },
    {
     "teryt": "08",
-    "liczba": 142
+    "liczba": 188
    },
    {
     "teryt": "10",
-    "liczba": 383
+    "liczba": 572
    },
    {
     "teryt": "12",
-    "liczba": 862
+    "liczba": 1210
    },
    {
     "teryt": "14",
-    "liczba": 1586
+    "liczba": 2255
    },
    {
     "teryt": "16",
-    "liczba": 117
+    "liczba": 178
    },
    {
     "teryt": "18",
-    "liczba": 314
+    "liczba": 440
    },
    {
     "teryt": "20",
-    "liczba": 264
+    "liczba": 354
    },
    {
     "teryt": "22",
-    "liczba": 430
+    "liczba": 595
    },
    {
     "teryt": "24",
-    "liczba": 829
+    "liczba": 1179
    },
    {
     "teryt": "26",
-    "liczba": 228
+    "liczba": 336
    },
    {
     "teryt": "28",
-    "liczba": 144
+    "liczba": 211
    },
    {
     "teryt": "30",
-    "liczba": 753
+    "liczba": 1041
    },
    {
     "teryt": "32",
-    "liczba": 210
+    "liczba": 315
    }
   ],
   "bezWojewodztwa": 10,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 300
+    "liczba": 335
    },
    {
     "rok": 2015,
-    "liczba": 670
+    "liczba": 759
    },
    {
     "rok": 2016,
-    "liczba": 642
+    "liczba": 738
    },
    {
     "rok": 2017,
-    "liczba": 638
+    "liczba": 706
    },
    {
     "rok": 2018,
-    "liczba": 624
+    "liczba": 680
    },
    {
     "rok": 2019,
-    "liczba": 634
+    "liczba": 715
    },
    {
     "rok": 2020,
-    "liczba": 133
+    "liczba": 192
    },
    {
     "rok": 2021,
-    "liczba": 133
+    "liczba": 923
    },
    {
     "rok": 2022,
-    "liczba": 149
+    "liczba": 1278
    },
    {
     "rok": 2023,
-    "liczba": 843
+    "liczba": 1562
    },
    {
     "rok": 2024,
@@ -137,33 +137,33 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 3324
+    "liczba": 4317
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2352
+    "liczba": 3363
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 1003
+    "liczba": 1661
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 779
+    "liczba": 1234
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 10
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 6295
+    "liczba": 8741
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 1160
+    "liczba": 1836
    },
    {
     "nazwa": "Inne / brak danych",
@@ -173,19 +173,19 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 4460
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1556
+    "liczba": 5713
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1310
+    "liczba": 2878
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1847
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 122
+    "liczba": 132
    },
    {
     "nazwa": "Inne / brak danych",
@@ -195,36 +195,44 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 6334
+    "liczba": 9084
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 358
+    "liczba": 473
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 305
+    "liczba": 418
    },
    {
     "nazwa": "Kombi",
-    "liczba": 257
+    "liczba": 336
    },
    {
     "nazwa": "Coupe",
-    "liczba": 86
+    "liczba": 109
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 123
+    "liczba": 165
    }
   ],
-  "noweOdPaczki": 4781,
-  "hybrydy": 1782,
+  "noweOdPaczki": 7903,
+  "hybrydy": 2895,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 668
+   },
+   {
+    "rok": 2022,
+    "liczba": 1378
+   },
+   {
     "rok": 2023,
-    "liczba": 480
+    "liczba": 1556
    },
    {
     "rok": 2024,
@@ -240,6 +248,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 110
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 91
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 174
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 146
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 191
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 97
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 152
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 125
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 145
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 117
+   },
    {
     "miesiac": "2023-12",
     "liczba": 191
@@ -381,16 +485,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 333,
+  "miejsce": 306,
   "miejsceWMarce": 10,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2020.4
+  "modeliWMarce": 42,
+  "sredniRocznik": 2020.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "x4",
@@ -402,14 +506,14 @@
    "adres": "/marki/volvo/s90/"
   },
   {
-   "slug": "skoda-superb",
-   "nazwa": "Skoda Superb",
-   "adres": "/marki/skoda/superb/"
-  },
-  {
    "slug": "jaguar-xe",
    "nazwa": "Jaguar XE",
    "adres": "/marki/jaguar/xe/"
+  },
+  {
+   "slug": "alfa-romeo-giulia",
+   "nazwa": "Alfa Romeo Giulia",
+   "adres": "/marki/alfa-romeo/giulia/"
   },
   {
    "slug": "volvo-xc60",
@@ -417,9 +521,9 @@
    "adres": "/marki/volvo/xc60/"
   },
   {
-   "slug": "alfa-romeo-giulia",
-   "nazwa": "Alfa Romeo Giulia",
-   "adres": "/marki/alfa-romeo/giulia/"
+   "slug": "mercedes-benz-klasa-cla",
+   "nazwa": "Mercedes-Benz Klasa CLA",
+   "adres": "/marki/mercedes-benz/klasa-cla/"
   }
  ]
 }

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Visa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VISA, VISA 1.1, VISA 0.6).",
-  "liczbaWPolsce": 1564,
-  "aktywne": 5,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Visa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VISA, VISA 1.1, VISA 0.6).",
+  "liczbaWPolsce": 1565,
+  "aktywne": 6,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 190
+    "liczba": 191
    },
    {
     "teryt": "32",
@@ -109,7 +109,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 196
+    "liczba": 197
    },
    {
     "rok": 1986,
@@ -163,7 +163,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 319
+    "liczba": 320
    },
    {
     "nazwa": "Diesel",
@@ -185,7 +185,7 @@
    },
    {
     "nazwa": "0,7 l",
-    "liczba": 274
+    "liczba": 275
    },
    {
     "nazwa": "1,8 l",
@@ -219,7 +219,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1200
+    "liczba": 1201
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -241,7 +241,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 178
+    "liczba": 179
    },
    {
     "nazwa": "Sedan",
@@ -252,10 +252,14 @@
     "liczba": 1238
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 1
@@ -266,6 +270,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -407,16 +507,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 637,
-  "miejsceWMarce": 22,
-  "modeliWMarce": 40,
+  "miejsce": 667,
+  "miejsceWMarce": 23,
+  "modeliWMarce": 42,
   "sredniRocznik": 1984.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "visa",

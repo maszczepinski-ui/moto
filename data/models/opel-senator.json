@@ -11,25 +11,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Senator – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SENATOR, SENATOR 3.0, SENATOR 3.0 KAT, SENATOR 2.6 KAT, SENATOR 2.5).",
-  "liczbaWPolsce": 1597,
-  "aktywne": 35,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Senator – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SENATOR, SENATOR 3.0, SENATOR 3.0 KAT, SENATOR 2.6 KAT, SENATOR 2.5).",
+  "liczbaWPolsce": 1610,
+  "aktywne": 48,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 142
+    "liczba": 143
    },
    {
     "teryt": "04",
-    "liczba": 73
+    "liczba": 75
    },
    {
     "teryt": "06",
-    "liczba": 101
+    "liczba": 103
    },
    {
     "teryt": "08",
-    "liczba": 80
+    "liczba": 81
    },
    {
     "teryt": "10",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 65
+    "liczba": 68
    },
    {
     "teryt": "14",
-    "liczba": 217
+    "liczba": 219
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "20",
@@ -77,7 +77,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 146
+    "liczba": 147
    }
   ],
   "bezWojewodztwa": 3,
@@ -88,7 +88,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 105
+    "liczba": 106
    },
    {
     "rok": 1980,
@@ -104,7 +104,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 67
+    "liczba": 68
    },
    {
     "rok": 1984,
@@ -120,11 +120,11 @@
    },
    {
     "rok": 1987,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 1988,
-    "liczba": 105
+    "liczba": 107
    },
    {
     "rok": 1989,
@@ -136,15 +136,15 @@
    },
    {
     "rok": 1991,
-    "liczba": 134
+    "liczba": 138
    },
    {
     "rok": 1992,
-    "liczba": 113
+    "liczba": 114
    },
    {
     "rok": 1993,
-    "liczba": 54
+    "liczba": 57
    },
    {
     "rok": 1994,
@@ -170,7 +170,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 388
+    "liczba": 401
    },
    {
     "nazwa": "?+LPG",
@@ -188,19 +188,19 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 721
+    "liczba": 727
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 283
+    "liczba": 286
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 159
+    "liczba": 160
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 131
+    "liczba": 133
    },
    {
     "nazwa": "2,8 l",
@@ -220,17 +220,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 44
+    "liczba": 45
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1105
+    "liczba": 1110
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 262
+    "liczba": 269
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -242,13 +242,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 33
+    "liczba": 34
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 740
+    "liczba": 753
    },
    {
     "nazwa": "Hatchback",
@@ -259,13 +259,21 @@
     "liczba": 817
    }
   ],
-  "noweOdPaczki": 18,
+  "noweOdPaczki": 31,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
+    "liczba": 1
+   },
+   {
+    "rok": 2022,
     "liczba": 4
+   },
+   {
+    "rok": 2023,
+    "liczba": 12
    },
    {
     "rok": 2024,
@@ -281,6 +289,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -422,7 +526,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 631,
+  "miejsce": 662,
   "miejsceWMarce": 25,
   "modeliWMarce": 33,
   "sredniRocznik": 1987.9
@@ -431,7 +535,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "senator",

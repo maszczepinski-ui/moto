@@ -12,100 +12,136 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia ProCeed – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 682 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROCEED, PROCEED GT 1.6).",
-  "liczbaWPolsce": 4497,
-  "aktywne": 4497,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia ProCeed – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 072 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROCEED, PROCEED GT 1.6).",
+  "liczbaWPolsce": 7887,
+  "aktywne": 7887,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 349
+    "liczba": 586
    },
    {
     "teryt": "04",
-    "liczba": 172
+    "liczba": 298
    },
    {
     "teryt": "06",
-    "liczba": 147
+    "liczba": 248
    },
    {
     "teryt": "08",
-    "liczba": 80
+    "liczba": 139
    },
    {
     "teryt": "10",
-    "liczba": 290
+    "liczba": 522
    },
    {
     "teryt": "12",
-    "liczba": 476
+    "liczba": 872
    },
    {
     "teryt": "14",
-    "liczba": 956
+    "liczba": 1694
    },
    {
     "teryt": "16",
-    "liczba": 64
+    "liczba": 100
    },
    {
     "teryt": "18",
-    "liczba": 148
+    "liczba": 250
    },
    {
     "teryt": "20",
-    "liczba": 91
+    "liczba": 150
    },
    {
     "teryt": "22",
-    "liczba": 240
+    "liczba": 469
    },
    {
     "teryt": "24",
-    "liczba": 730
+    "liczba": 1267
    },
    {
     "teryt": "26",
-    "liczba": 70
+    "liczba": 131
    },
    {
     "teryt": "28",
-    "liczba": 101
+    "liczba": 173
    },
    {
     "teryt": "30",
-    "liczba": 439
+    "liczba": 732
    },
    {
     "teryt": "32",
-    "liczba": 144
+    "liczba": 256
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2009,
+    "liczba": 16
+   },
+   {
+    "rok": 2010,
+    "liczba": 4
+   },
+   {
+    "rok": 2011,
+    "liczba": 10
+   },
+   {
+    "rok": 2012,
+    "liczba": 7
+   },
+   {
+    "rok": 2013,
+    "liczba": 7
+   },
+   {
+    "rok": 2014,
+    "liczba": 2
+   },
+   {
+    "rok": 2015,
+    "liczba": 1
+   },
+   {
+    "rok": 2016,
+    "liczba": 3
+   },
+   {
+    "rok": 2017,
+    "liczba": 0
+   },
+   {
     "rok": 2018,
-    "liczba": 78
+    "liczba": 80
    },
    {
     "rok": 2019,
-    "liczba": 1064
+    "liczba": 1116
    },
    {
     "rok": 2020,
-    "liczba": 296
+    "liczba": 331
    },
    {
     "rok": 2021,
-    "liczba": 214
+    "liczba": 1043
    },
    {
     "rok": 2022,
-    "liczba": 157
+    "liczba": 1659
    },
    {
     "rok": 2023,
-    "liczba": 755
+    "liczba": 1695
    },
    {
     "rok": 2024,
@@ -115,74 +151,82 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4216
+    "liczba": 7557
    },
    {
     "nazwa": "Diesel",
-    "liczba": 243
+    "liczba": 265
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 38
+    "liczba": 65
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 2201
+    "liczba": 4220
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1855
+    "liczba": 3174
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 424
+    "liczba": 465
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 28
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2850
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 868
+    "liczba": 4730
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 774
+    "liczba": 2205
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 938
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 14
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 4240
+    "liczba": 7574
    },
    {
     "nazwa": "Kombi",
-    "liczba": 226
+    "liczba": 266
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 31
+    "liczba": 47
    }
   ],
-  "noweOdPaczki": 3682,
-  "hybrydy": 28,
+  "noweOdPaczki": 7072,
+  "hybrydy": 42,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 644
+   },
+   {
+    "rok": 2022,
+    "liczba": 1524
+   },
+   {
     "rok": 2023,
-    "liczba": 507
+    "liczba": 1729
    },
    {
     "rok": 2024,
@@ -198,6 +242,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 97
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 143
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 98
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 121
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 67
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 132
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 171
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 157
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 156
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 177
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 170
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 148
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 192
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 139
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 180
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 173
+   },
    {
     "miesiac": "2023-12",
     "liczba": 140
@@ -339,16 +479,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 422,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 32,
+  "miejsce": 348,
+  "miejsceWMarce": 11,
+  "modeliWMarce": 33,
   "sredniRocznik": 2021.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "proceed",
@@ -360,24 +500,24 @@
    "adres": "/marki/mazda/mazda2/"
   },
   {
-   "slug": "mg-hs",
-   "nazwa": "MG HS",
-   "adres": "/marki/mg/hs/"
-  },
-  {
    "slug": "renault-arkana",
    "nazwa": "Renault Arkana",
    "adres": "/marki/renault/arkana/"
   },
   {
-   "slug": "jaecoo-7",
-   "nazwa": "Jaecoo 7",
-   "adres": "/marki/jaecoo/7/"
+   "slug": "toyota-gr-yaris",
+   "nazwa": "Toyota GR-Yaris",
+   "adres": "/marki/toyota/gr-yaris/"
   },
   {
    "slug": "toyota-c-hr",
    "nazwa": "Toyota C-HR",
    "adres": "/marki/toyota/c-hr/"
+  },
+  {
+   "slug": "mg-hs",
+   "nazwa": "MG HS",
+   "adres": "/marki/mg/hs/"
   }
  ]
 }

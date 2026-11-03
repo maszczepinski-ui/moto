@@ -12,25 +12,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Rodius – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 41 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RODIUS).",
-  "liczbaWPolsce": 209,
-  "aktywne": 119,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Rodius – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RODIUS).",
+  "liczbaWPolsce": 236,
+  "aktywne": 146,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "04",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "10",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 16
+    "liczba": 21
    },
    {
     "teryt": "14",
-    "liczba": 26
+    "liczba": 29
    },
    {
     "teryt": "16",
@@ -54,19 +54,19 @@
    },
    {
     "teryt": "20",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "22",
-    "liczba": 20
-   },
-   {
-    "teryt": "24",
     "liczba": 22
    },
    {
+    "teryt": "24",
+    "liczba": 26
+   },
+   {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "28",
@@ -74,30 +74,30 @@
    },
    {
     "teryt": "30",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "32",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 53
+    "liczba": 54
    },
    {
     "rok": 2006,
-    "liczba": 66
+    "liczba": 71
    },
    {
     "rok": 2007,
-    "liczba": 18
+    "liczba": 24
    },
    {
     "rok": 2008,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2009,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2012,
@@ -117,23 +117,23 @@
    },
    {
     "rok": 2013,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 2014,
-    "liczba": 9
+    "liczba": 15
    },
    {
     "rok": 2015,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2016,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2017,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2018,
@@ -143,21 +143,21 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 209
+    "liczba": 236
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,7 l",
-    "liczba": 157
+    "liczba": 171
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 31
+    "liczba": 40
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 19
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,11 +167,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 97
+    "liczba": 114
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 88
+    "liczba": 98
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -185,19 +185,19 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 124
+    "liczba": 138
    },
    {
     "nazwa": "Van",
-    "liczba": 57
+    "liczba": 66
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 16
+    "liczba": 19
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "nazwa": "Terenowy",
@@ -208,13 +208,21 @@
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 41,
+  "noweOdPaczki": 68,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 5
+   },
+   {
+    "rok": 2022,
+    "liczba": 13
+   },
+   {
+    "rok": 2023,
+    "liczba": 14
    },
    {
     "rok": 2024,
@@ -230,6 +238,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -374,13 +478,13 @@
   "miejsce": 1210,
   "miejsceWMarce": 10,
   "modeliWMarce": 10,
-  "sredniRocznik": 2008.5
+  "sredniRocznik": 2008.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ssangyong-kgm",
  "modelSlug": "rodius",

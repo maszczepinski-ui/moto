@@ -11,17 +11,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW XM – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 352 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XM 50E, XM, XM LABEL).",
-  "liczbaWPolsce": 352,
-  "aktywne": 352,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW XM – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 456 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XM, XM 50E, XM LABEL).",
+  "liczbaWPolsce": 456,
+  "aktywne": 456,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 27
+    "liczba": 33
    },
    {
     "teryt": "04",
-    "liczba": 26
+    "liczba": 31
    },
    {
     "teryt": "06",
@@ -29,62 +29,62 @@
    },
    {
     "teryt": "08",
-    "liczba": 8
+    "liczba": 12
    },
    {
     "teryt": "10",
-    "liczba": 15
+    "liczba": 22
    },
    {
     "teryt": "12",
-    "liczba": 30
+    "liczba": 38
    },
    {
     "teryt": "14",
-    "liczba": 73
+    "liczba": 96
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 18
+    "liczba": 24
    },
    {
     "teryt": "20",
-    "liczba": 6
-   },
-   {
-    "teryt": "22",
-    "liczba": 19
-   },
-   {
-    "teryt": "24",
-    "liczba": 45
-   },
-   {
-    "teryt": "26",
     "liczba": 7
    },
    {
+    "teryt": "22",
+    "liczba": 26
+   },
+   {
+    "teryt": "24",
+    "liczba": 56
+   },
+   {
+    "teryt": "26",
+    "liczba": 10
+   },
+   {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 8
    },
    {
     "teryt": "30",
-    "liczba": 42
+    "liczba": 56
    },
    {
     "teryt": "32",
-    "liczba": 16
+    "liczba": 19
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2023,
-    "liczba": 101
+    "liczba": 205
    },
    {
     "rok": 2024,
@@ -102,11 +102,11 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 343
+    "liczba": 446
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
@@ -115,12 +115,12 @@
   ],
   "pojemnosci": [
    {
-    "nazwa": "3,0 l",
-    "liczba": 189
+    "nazwa": "4,4 l",
+    "liczba": 265
    },
    {
-    "nazwa": "4,4 l",
-    "liczba": 161
+    "nazwa": "3,0 l",
+    "liczba": 189
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,25 +130,25 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 260
+    "liczba": 308
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 62
+    "liczba": 117
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 28
+    "liczba": 29
    },
    {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 343
+    "liczba": 447
    },
    {
     "nazwa": "Kombi",
@@ -159,13 +159,13 @@
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 352,
-  "hybrydy": 343,
+  "noweOdPaczki": 456,
+  "hybrydy": 446,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
-    "liczba": 31
+    "liczba": 135
    },
    {
     "rok": 2024,
@@ -181,6 +181,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2023-12",
     "liczba": 7
@@ -322,21 +418,31 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1041,
-  "miejsceWMarce": 34,
-  "modeliWMarce": 39,
-  "sredniRocznik": 2024.2
+  "miejsce": 987,
+  "miejsceWMarce": 33,
+  "modeliWMarce": 42,
+  "sredniRocznik": 2023.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "xm",
  "adres": "/marki/bmw/xm/",
  "konkurenci": [
+  {
+   "slug": "audi-sq8",
+   "nazwa": "Audi SQ8",
+   "adres": "/marki/audi/sq8/"
+  },
+  {
+   "slug": "audi-rs",
+   "nazwa": "Audi RS",
+   "adres": "/marki/audi/rs/"
+  },
   {
    "slug": "porsche-panamera",
    "nazwa": "Porsche Panamera",
@@ -351,16 +457,6 @@
    "slug": "audi-q8",
    "nazwa": "Audi Q8",
    "adres": "/marki/audi/q8/"
-  },
-  {
-   "slug": "lexus-ux",
-   "nazwa": "Lexus UX",
-   "adres": "/marki/lexus/ux/"
-  },
-  {
-   "slug": "mercedes-benz-amg",
-   "nazwa": "Mercedes-Benz Amg",
-   "adres": "/marki/mercedes-benz/amg/"
   }
  ]
 }

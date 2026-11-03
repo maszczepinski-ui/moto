@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Ariya – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 488 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARIYA, NISSAN ARIYA).",
-  "liczbaWPolsce": 488,
-  "aktywne": 488,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Ariya – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 625 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARIYA, NISSAN ARIYA).",
+  "liczbaWPolsce": 625,
+  "aktywne": 625,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 33
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 19
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 14
    },
    {
     "teryt": "08",
@@ -33,35 +33,35 @@
    },
    {
     "teryt": "10",
-    "liczba": 19
+    "liczba": 32
    },
    {
     "teryt": "12",
-    "liczba": 36
+    "liczba": 45
    },
    {
     "teryt": "14",
-    "liczba": 258
+    "liczba": 289
    },
    {
     "teryt": "16",
-    "liczba": 6
+    "liczba": 10
    },
    {
     "teryt": "18",
-    "liczba": 11
+    "liczba": 16
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "teryt": "22",
-    "liczba": 21
+    "liczba": 34
    },
    {
     "teryt": "24",
-    "liczba": 32
+    "liczba": 40
    },
    {
     "teryt": "26",
@@ -69,26 +69,26 @@
    },
    {
     "teryt": "28",
-    "liczba": 2
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 35
+    "liczba": 46
    },
    {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 21
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 13
+    "liczba": 135
    },
    {
     "rok": 2023,
-    "liczba": 239
+    "liczba": 254
    },
    {
     "rok": 2024,
@@ -102,23 +102,23 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 488
+    "liczba": 625
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 488
+    "liczba": 625
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 413
+    "liczba": 488
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 39
+    "liczba": 100
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -126,13 +126,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 464
+    "liczba": 601
    },
    {
     "nazwa": "Hatchback",
@@ -147,13 +147,17 @@
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 488,
+  "noweOdPaczki": 625,
   "hybrydy": 0,
-  "elektryczne": 488,
+  "elektryczne": 625,
   "pierwszeRejestracje": [
    {
+    "rok": 2022,
+    "liczba": 77
+   },
+   {
     "rok": 2023,
-    "liczba": 15
+    "liczba": 75
    },
    {
     "rok": 2024,
@@ -169,6 +173,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2023-12",
     "liczba": 3
@@ -310,45 +410,45 @@
     "liczba": 0
    }
   ],
-  "miejsce": 935,
-  "miejsceWMarce": 36,
-  "modeliWMarce": 46,
-  "sredniRocznik": 2023.6
+  "miejsce": 891,
+  "miejsceWMarce": 32,
+  "modeliWMarce": 47,
+  "sredniRocznik": 2023.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "ariya",
  "adres": "/marki/nissan/ariya/",
  "konkurenci": [
   {
-   "slug": "kia-ev6",
-   "nazwa": "Kia EV6",
-   "adres": "/marki/kia/ev6/"
-  },
-  {
    "slug": "tesla-model-y",
    "nazwa": "Tesla Model Y",
    "adres": "/marki/tesla/model-y/"
   },
   {
-   "slug": "hyundai-ioniq5",
-   "nazwa": "Hyundai IONIQ5",
-   "adres": "/marki/hyundai/ioniq5/"
-  },
-  {
-   "slug": "kia-ev3",
-   "nazwa": "Kia EV3",
-   "adres": "/marki/kia/ev3/"
+   "slug": "kia-ev6",
+   "nazwa": "Kia EV6",
+   "adres": "/marki/kia/ev6/"
   },
   {
    "slug": "hyundai-inster",
    "nazwa": "Hyundai Inster",
    "adres": "/marki/hyundai/inster/"
+  },
+  {
+   "slug": "byd-sealion-7",
+   "nazwa": "BYD Sealion 7",
+   "adres": "/marki/byd/sealion-7/"
+  },
+  {
+   "slug": "tesla-model-3",
+   "nazwa": "Tesla Model 3",
+   "adres": "/marki/tesla/model-3/"
   }
  ]
 }

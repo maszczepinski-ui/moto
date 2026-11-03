@@ -13,118 +13,118 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda FR-V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 375 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FR-V, FR-V 2.0, FR-V 1.8).",
-  "liczbaWPolsce": 3601,
-  "aktywne": 1973,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda FR-V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 952 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FR-V, FR-V 2.0, FR-V 1.8).",
+  "liczbaWPolsce": 4178,
+  "aktywne": 2550,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 187
+    "liczba": 232
    },
    {
     "teryt": "04",
-    "liczba": 205
+    "liczba": 239
    },
    {
     "teryt": "06",
-    "liczba": 263
+    "liczba": 307
    },
    {
     "teryt": "08",
-    "liczba": 77
+    "liczba": 101
    },
    {
     "teryt": "10",
-    "liczba": 271
+    "liczba": 308
    },
    {
     "teryt": "12",
-    "liczba": 367
+    "liczba": 433
    },
    {
     "teryt": "14",
-    "liczba": 600
+    "liczba": 680
    },
    {
     "teryt": "16",
-    "liczba": 63
+    "liczba": 68
    },
    {
     "teryt": "18",
-    "liczba": 312
+    "liczba": 344
    },
    {
     "teryt": "20",
-    "liczba": 114
+    "liczba": 134
    },
    {
     "teryt": "22",
-    "liczba": 138
+    "liczba": 159
    },
    {
     "teryt": "24",
-    "liczba": 293
+    "liczba": 341
    },
    {
     "teryt": "26",
-    "liczba": 109
+    "liczba": 125
    },
    {
     "teryt": "28",
-    "liczba": 88
+    "liczba": 102
    },
    {
     "teryt": "30",
-    "liczba": 315
+    "liczba": 379
    },
    {
     "teryt": "32",
-    "liczba": 156
+    "liczba": 183
    }
   ],
   "bezWojewodztwa": 43,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 379
+    "liczba": 413
    },
    {
     "rok": 2005,
-    "liczba": 1105
+    "liczba": 1275
    },
    {
     "rok": 2006,
-    "liczba": 756
+    "liczba": 872
    },
    {
     "rok": 2007,
-    "liczba": 746
+    "liczba": 881
    },
    {
     "rok": 2008,
-    "liczba": 336
+    "liczba": 400
    },
    {
     "rok": 2009,
-    "liczba": 142
+    "liczba": 198
    },
    {
     "rok": 2010,
-    "liczba": 8
+    "liczba": 10
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1559
+    "liczba": 1829
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1238
+    "liczba": 1410
    },
    {
     "nazwa": "Diesel",
-    "liczba": 796
+    "liczba": 931
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,19 +134,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1171
+    "liczba": 1294
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 878
+    "liczba": 1072
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 793
+    "liczba": 928
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 743
+    "liczba": 868
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,11 +156,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2312
+    "liczba": 2707
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1075
+    "liczba": 1254
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -168,38 +168,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 47
+    "liczba": 50
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1314
+    "liczba": 1586
    },
    {
     "nazwa": "Van",
-    "liczba": 914
+    "liczba": 1005
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 762
+    "liczba": 878
    },
    {
     "nazwa": "Kombi",
-    "liczba": 496
+    "liczba": 590
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 115
+    "liczba": 119
    }
   ],
-  "noweOdPaczki": 375,
+  "noweOdPaczki": 952,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 164
+   },
+   {
+    "rok": 2022,
+    "liczba": 261
+   },
+   {
     "rok": 2023,
-    "liczba": 38
+    "liczba": 190
    },
    {
     "rok": 2024,
@@ -215,6 +223,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 9
+   },
    {
     "miesiac": "2023-12",
     "liczba": 11
@@ -356,16 +460,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 460,
+  "miejsce": 462,
   "miejsceWMarce": 8,
-  "modeliWMarce": 20,
+  "modeliWMarce": 21,
   "sredniRocznik": 2006.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "honda",
  "modelSlug": "fr-v",
@@ -377,14 +481,14 @@
    "adres": "/marki/opel/zafira/"
   },
   {
-   "slug": "mazda-5",
-   "nazwa": "Mazda 5",
-   "adres": "/marki/mazda/5/"
-  },
-  {
    "slug": "renault-espace",
    "nazwa": "Renault Espace",
    "adres": "/marki/renault/espace/"
+  },
+  {
+   "slug": "mazda-5",
+   "nazwa": "Mazda 5",
+   "adres": "/marki/mazda/5/"
   },
   {
    "slug": "opel-frontera",
@@ -392,9 +496,9 @@
    "adres": "/marki/opel/frontera/"
   },
   {
-   "slug": "citroen-c8",
-   "nazwa": "Citroen C8",
-   "adres": "/marki/citroen/c8/"
+   "slug": "renault-scenic",
+   "nazwa": "Renault Scenic",
+   "adres": "/marki/renault/scenic/"
   }
  ]
 }

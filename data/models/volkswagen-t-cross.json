@@ -11,96 +11,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen T-Cross – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 859 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T-CROSS).",
-  "liczbaWPolsce": 14076,
-  "aktywne": 14076,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen T-Cross – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 496 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T-CROSS).",
+  "liczbaWPolsce": 18713,
+  "aktywne": 18713,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1091
+    "liczba": 1433
    },
    {
     "teryt": "04",
-    "liczba": 676
+    "liczba": 895
    },
    {
     "teryt": "06",
-    "liczba": 315
+    "liczba": 422
    },
    {
     "teryt": "08",
-    "liczba": 412
+    "liczba": 564
    },
    {
     "teryt": "10",
-    "liczba": 945
+    "liczba": 1254
    },
    {
     "teryt": "12",
-    "liczba": 1101
+    "liczba": 1420
    },
    {
     "teryt": "14",
-    "liczba": 2404
+    "liczba": 3396
    },
    {
     "teryt": "16",
-    "liczba": 306
+    "liczba": 417
    },
    {
     "teryt": "18",
-    "liczba": 493
+    "liczba": 652
    },
    {
     "teryt": "20",
-    "liczba": 179
+    "liczba": 254
    },
    {
     "teryt": "22",
-    "liczba": 1356
+    "liczba": 1760
    },
    {
     "teryt": "24",
-    "liczba": 1710
+    "liczba": 2202
    },
    {
     "teryt": "26",
-    "liczba": 322
+    "liczba": 403
    },
    {
     "teryt": "28",
-    "liczba": 276
+    "liczba": 383
    },
    {
     "teryt": "30",
-    "liczba": 1878
+    "liczba": 2408
    },
    {
     "teryt": "32",
-    "liczba": 612
+    "liczba": 850
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 1237
+    "liczba": 1282
    },
    {
     "rok": 2020,
-    "liczba": 238
+    "liczba": 306
    },
    {
     "rok": 2021,
-    "liczba": 209
+    "liczba": 1741
    },
    {
     "rok": 2022,
-    "liczba": 165
+    "liczba": 2185
    },
    {
     "rok": 2023,
-    "liczba": 914
+    "liczba": 1886
    },
    {
     "rok": 2024,
@@ -118,62 +118,70 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 13977
+    "liczba": 18593
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 99
+    "liczba": 120
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 8601
+    "liczba": 11750
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 5390
+    "liczba": 6860
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 85
+    "liczba": 103
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 12397
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 837
+    "liczba": 15405
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 815
+    "liczba": 2358
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 915
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 35
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 13894
+    "liczba": 18488
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 182
+    "liczba": 225
    }
   ],
-  "noweOdPaczki": 12859,
+  "noweOdPaczki": 17496,
   "hybrydy": 9,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 1211
+   },
+   {
+    "rok": 2022,
+    "liczba": 2117
+   },
+   {
     "rok": 2023,
-    "liczba": 669
+    "liczba": 1978
    },
    {
     "rok": 2024,
@@ -189,6 +197,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 371
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 175
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 177
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 147
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 341
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 246
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 185
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 172
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 216
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 128
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 279
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 165
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 242
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 247
+   },
    {
     "miesiac": "2023-12",
     "liczba": 214
@@ -330,16 +434,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 239,
-  "miejsceWMarce": 17,
-  "modeliWMarce": 59,
-  "sredniRocznik": 2024.1
+  "miejsce": 212,
+  "miejsceWMarce": 14,
+  "modeliWMarce": 60,
+  "sredniRocznik": 2023.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "t-cross",
@@ -351,24 +455,24 @@
    "adres": "/marki/dacia/jogger/"
   },
   {
-   "slug": "renault-austral",
-   "nazwa": "Renault Austral",
-   "adres": "/marki/renault/austral/"
-  },
-  {
-   "slug": "renault-rafale",
-   "nazwa": "Renault Rafale",
-   "adres": "/marki/renault/rafale/"
-  },
-  {
    "slug": "kia-stonic",
    "nazwa": "Kia Stonic",
    "adres": "/marki/kia/stonic/"
   },
   {
+   "slug": "renault-austral",
+   "nazwa": "Renault Austral",
+   "adres": "/marki/renault/austral/"
+  },
+  {
    "slug": "hyundai-bayon",
    "nazwa": "Hyundai Bayon",
    "adres": "/marki/hyundai/bayon/"
+  },
+  {
+   "slug": "renault-rafale",
+   "nazwa": "Renault Rafale",
+   "adres": "/marki/renault/rafale/"
   }
  ]
 }

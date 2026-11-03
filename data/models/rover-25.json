@@ -11,17 +11,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 25 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 25, 25 1.4 KAT, 25 2.0 TD, 25 1,4 KAT, 25 2.0 TDI).",
-  "liczbaWPolsce": 1937,
-  "aktywne": 447,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 25 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 25, 25 1.4 KAT, 25 2.0 TD, 25 1,4 KAT, 25 2.0 TDI).",
+  "liczbaWPolsce": 1954,
+  "aktywne": 464,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 179
+    "liczba": 180
    },
    {
     "teryt": "04",
-    "liczba": 101
+    "liczba": 104
    },
    {
     "teryt": "06",
@@ -29,15 +29,15 @@
    },
    {
     "teryt": "08",
-    "liczba": 64
+    "liczba": 67
    },
    {
     "teryt": "10",
-    "liczba": 148
+    "liczba": 149
    },
    {
     "teryt": "12",
-    "liczba": 162
+    "liczba": 163
    },
    {
     "teryt": "14",
@@ -61,11 +61,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 142
+    "liczba": 143
    },
    {
     "teryt": "26",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "teryt": "28",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 308
+    "liczba": 311
    },
    {
     "teryt": "32",
-    "liczba": 83
+    "liczba": 86
    }
   ],
   "bezWojewodztwa": 4,
@@ -88,27 +88,27 @@
    },
    {
     "rok": 2000,
-    "liczba": 734
+    "liczba": 736
    },
    {
     "rok": 2001,
-    "liczba": 372
+    "liczba": 377
    },
    {
     "rok": 2002,
-    "liczba": 180
+    "liczba": 181
    },
    {
     "rok": 2003,
-    "liczba": 249
+    "liczba": 253
    },
    {
     "rok": 2004,
-    "liczba": 195
+    "liczba": 198
    },
    {
     "rok": 2005,
-    "liczba": 108
+    "liczba": 109
    },
    {
     "rok": 2006,
@@ -118,11 +118,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1086
+    "liczba": 1101
    },
    {
     "nazwa": "Diesel",
-    "liczba": 611
+    "liczba": 613
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -136,15 +136,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1076
+    "liczba": 1087
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 614
+    "liczba": 616
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 169
+    "liczba": 173
    },
    {
     "nazwa": "1,1 l",
@@ -162,11 +162,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 972
+    "liczba": 976
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 950
+    "liczba": 963
    },
    {
     "nazwa": "Inne / brak danych",
@@ -176,7 +176,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1845
+    "liczba": 1862
    },
    {
     "nazwa": "Sedan",
@@ -187,10 +187,22 @@
     "liczba": 38
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 26,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 8
+   },
+   {
+    "rok": 2023,
+    "liczba": 5
+   },
    {
     "rok": 2024,
     "liczba": 4
@@ -205,6 +217,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -346,7 +454,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 585,
+  "miejsce": 612,
   "miejsceWMarce": 5,
   "modeliWMarce": 9,
   "sredniRocznik": 2001.5
@@ -355,7 +463,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "rover",
  "modelSlug": "25",
@@ -382,9 +490,9 @@
    "adres": "/marki/citroen/xsara/"
   },
   {
-   "slug": "honda-civic",
-   "nazwa": "Honda Civic",
-   "adres": "/marki/honda/civic/"
+   "slug": "volkswagen-new-beetle",
+   "nazwa": "Volkswagen New Beetle",
+   "adres": "/marki/volkswagen/new-beetle/"
   }
  ]
 }

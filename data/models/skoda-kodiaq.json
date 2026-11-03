@@ -11,104 +11,104 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Kodiaq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 418 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KODIAQ).",
-  "liczbaWPolsce": 31178,
-  "aktywne": 31075,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Kodiaq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 443 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KODIAQ).",
+  "liczbaWPolsce": 40203,
+  "aktywne": 40100,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2653
+    "liczba": 3458
    },
    {
     "teryt": "04",
-    "liczba": 1293
+    "liczba": 1667
    },
    {
     "teryt": "06",
-    "liczba": 693
+    "liczba": 931
    },
    {
     "teryt": "08",
-    "liczba": 877
+    "liczba": 1098
    },
    {
     "teryt": "10",
-    "liczba": 1385
+    "liczba": 1773
    },
    {
     "teryt": "12",
-    "liczba": 2048
+    "liczba": 2700
    },
    {
     "teryt": "14",
-    "liczba": 7979
+    "liczba": 10343
    },
    {
     "teryt": "16",
-    "liczba": 589
+    "liczba": 804
    },
    {
     "teryt": "18",
-    "liczba": 738
+    "liczba": 1000
    },
    {
     "teryt": "20",
-    "liczba": 350
+    "liczba": 484
    },
    {
     "teryt": "22",
-    "liczba": 3965
+    "liczba": 4827
    },
    {
     "teryt": "24",
-    "liczba": 3194
+    "liczba": 4188
    },
    {
     "teryt": "26",
-    "liczba": 410
+    "liczba": 529
    },
    {
     "teryt": "28",
-    "liczba": 820
+    "liczba": 1056
    },
    {
     "teryt": "30",
-    "liczba": 3120
+    "liczba": 3979
    },
    {
     "teryt": "32",
-    "liczba": 1060
+    "liczba": 1362
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 1830
+    "liczba": 1921
    },
    {
     "rok": 2018,
-    "liczba": 2270
+    "liczba": 2442
    },
    {
     "rok": 2019,
-    "liczba": 2776
+    "liczba": 2959
    },
    {
     "rok": 2020,
-    "liczba": 986
+    "liczba": 1093
    },
    {
     "rok": 2021,
-    "liczba": 631
+    "liczba": 1832
    },
    {
     "rok": 2022,
-    "liczba": 531
+    "liczba": 4820
    },
    {
     "rok": 2023,
-    "liczba": 2211
+    "liczba": 5192
    },
    {
     "rok": 2024,
@@ -126,11 +126,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 14023
+    "liczba": 19292
    },
    {
     "nazwa": "Diesel",
-    "liczba": 13646
+    "liczba": 17367
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -138,21 +138,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 72
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 22826
+    "liczba": 29185
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 7647
+    "liczba": 10282
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 693
+    "liczba": 724
    },
    {
     "nazwa": "Inne / brak danych",
@@ -162,38 +162,46 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 24761
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3164
+    "liczba": 30115
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3116
+    "liczba": 6442
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 3491
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 137
+    "liczba": 155
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 30766
+    "liczba": 39695
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 412
+    "liczba": 508
    }
   ],
-  "noweOdPaczki": 25418,
-  "hybrydy": 3478,
+  "noweOdPaczki": 34443,
+  "hybrydy": 3480,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 999
+   },
+   {
+    "rok": 2022,
+    "liczba": 4221
+   },
+   {
     "rok": 2023,
-    "liczba": 1713
+    "liczba": 5518
    },
    {
     "rok": 2024,
@@ -209,6 +217,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 196
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 220
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 380
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 433
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 425
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 356
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 505
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 368
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 231
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 354
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 334
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 264
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 359
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 449
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 484
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 371
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 379
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 387
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 379
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 373
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 640
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 588
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 619
+   },
    {
     "miesiac": "2023-12",
     "liczba": 490
@@ -350,16 +454,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 131,
-  "miejsceWMarce": 9,
+  "miejsce": 116,
+  "miejsceWMarce": 6,
   "modeliWMarce": 27,
-  "sredniRocznik": 2023.0
+  "sredniRocznik": 2022.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "kodiaq",
@@ -381,14 +485,14 @@
    "adres": "/marki/mercedes-benz/klasa-glb/"
   },
   {
-   "slug": "volkswagen-tayron",
-   "nazwa": "Volkswagen Tayron",
-   "adres": "/marki/volkswagen/tayron/"
-  },
-  {
    "slug": "seat-tarraco",
    "nazwa": "Seat Tarraco",
    "adres": "/marki/seat/tarraco/"
+  },
+  {
+   "slug": "suzuki-swace",
+   "nazwa": "Suzuki Swace",
+   "adres": "/marki/suzuki/swace/"
   }
  ]
 }

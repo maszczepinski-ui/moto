@@ -12,108 +12,108 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Niro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 070 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NIRO, NIRO ELECTRIC).",
-  "liczbaWPolsce": 6240,
-  "aktywne": 6135,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Niro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 085 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NIRO, NIRO ELECTRIC).",
+  "liczbaWPolsce": 9255,
+  "aktywne": 9150,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 376
+    "liczba": 572
    },
    {
     "teryt": "04",
-    "liczba": 236
+    "liczba": 330
    },
    {
     "teryt": "06",
-    "liczba": 290
+    "liczba": 408
    },
    {
     "teryt": "08",
-    "liczba": 74
+    "liczba": 127
    },
    {
     "teryt": "10",
-    "liczba": 365
+    "liczba": 560
    },
    {
     "teryt": "12",
-    "liczba": 576
+    "liczba": 869
    },
    {
     "teryt": "14",
-    "liczba": 1353
+    "liczba": 2211
    },
    {
     "teryt": "16",
-    "liczba": 128
+    "liczba": 189
    },
    {
     "teryt": "18",
-    "liczba": 348
+    "liczba": 444
    },
    {
     "teryt": "20",
-    "liczba": 297
+    "liczba": 382
    },
    {
     "teryt": "22",
-    "liczba": 552
+    "liczba": 822
    },
    {
     "teryt": "24",
-    "liczba": 635
+    "liczba": 900
    },
    {
     "teryt": "26",
-    "liczba": 100
+    "liczba": 143
    },
    {
     "teryt": "28",
-    "liczba": 151
+    "liczba": 225
    },
    {
     "teryt": "30",
-    "liczba": 533
+    "liczba": 766
    },
    {
     "teryt": "32",
-    "liczba": 222
+    "liczba": 303
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 263
+    "liczba": 298
    },
    {
     "rok": 2017,
-    "liczba": 610
+    "liczba": 679
    },
    {
     "rok": 2018,
-    "liczba": 631
+    "liczba": 680
    },
    {
     "rok": 2019,
-    "liczba": 545
+    "liczba": 611
    },
    {
     "rok": 2020,
-    "liczba": 243
+    "liczba": 366
    },
    {
     "rok": 2021,
-    "liczba": 160
+    "liczba": 1258
    },
    {
     "rok": 2022,
-    "liczba": 171
+    "liczba": 1302
    },
    {
     "rok": 2023,
-    "liczba": 1039
+    "liczba": 1483
    },
    {
     "rok": 2024,
@@ -131,74 +131,82 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 4726
+    "liczba": 6419
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 800
+    "liczba": 2031
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 697
+    "liczba": 779
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 26
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 5443
+    "liczba": 7227
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 797
+    "liczba": 2028
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 4120
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1300
+    "liczba": 5942
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 797
+    "liczba": 1787
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1493
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 33
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 5700
+    "liczba": 8607
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 350
+    "liczba": 420
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 150
+    "liczba": 178
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 40
+    "liczba": 50
    }
   ],
-  "noweOdPaczki": 5070,
-  "hybrydy": 4692,
-  "elektryczne": 799,
+  "noweOdPaczki": 8085,
+  "hybrydy": 6385,
+  "elektryczne": 2030,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 805
+   },
+   {
+    "rok": 2022,
+    "liczba": 1193
+   },
+   {
     "rok": 2023,
-    "liczba": 367
+    "liczba": 1384
    },
    {
     "rok": 2024,
@@ -214,6 +222,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 204
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 127
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 144
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 185
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 137
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 134
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 129
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 114
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 143
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 108
+   },
    {
     "miesiac": "2023-12",
     "liczba": 80
@@ -355,30 +459,30 @@
     "liczba": 0
    }
   ],
-  "miejsce": 361,
+  "miejsce": 328,
   "miejsceWMarce": 10,
-  "modeliWMarce": 32,
-  "sredniRocznik": 2021.7
+  "modeliWMarce": 33,
+  "sredniRocznik": 2021.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "niro",
  "adres": "/marki/kia/niro/",
  "konkurenci": [
   {
-   "slug": "mini-countryman",
-   "nazwa": "Mini Countryman",
-   "adres": "/marki/mini/countryman/"
-  },
-  {
    "slug": "seat-ateca",
    "nazwa": "Seat Ateca",
    "adres": "/marki/seat/ateca/"
+  },
+  {
+   "slug": "mini-countryman",
+   "nazwa": "Mini Countryman",
+   "adres": "/marki/mini/countryman/"
   },
   {
    "slug": "skoda-karoq",

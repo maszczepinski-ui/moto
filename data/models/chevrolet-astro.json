@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Astro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 36 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASTRO, ASTRO 4.3 KAT, ASTRO VAN, ASTRO 4X4).",
-  "liczbaWPolsce": 215,
-  "aktywne": 77,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Astro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 65 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASTRO, ASTRO 4.3 KAT, ASTRO VAN, ASTRO 4X4).",
+  "liczbaWPolsce": 244,
+  "aktywne": 106,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 15
+    "liczba": 19
    },
    {
     "teryt": "04",
@@ -36,19 +36,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 5
+    "liczba": 8
    },
    {
     "teryt": "12",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "14",
-    "liczba": 49
+    "liczba": 55
    },
    {
     "teryt": "16",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "18",
@@ -56,31 +56,31 @@
    },
    {
     "teryt": "20",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "22",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "24",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "26",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "teryt": "28",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "30",
-    "liczba": 17
+    "liczba": 21
    },
    {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "bezWojewodztwa": 2,
@@ -107,47 +107,47 @@
    },
    {
     "rok": 1991,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 1992,
-    "liczba": 8
-   },
-   {
-    "rok": 1993,
-    "liczba": 7
-   },
-   {
-    "rok": 1994,
-    "liczba": 20
-   },
-   {
-    "rok": 1995,
-    "liczba": 31
-   },
-   {
-    "rok": 1996,
-    "liczba": 22
-   },
-   {
-    "rok": 1997,
-    "liczba": 20
-   },
-   {
-    "rok": 1998,
-    "liczba": 9
-   },
-   {
-    "rok": 1999,
-    "liczba": 6
-   },
-   {
-    "rok": 2000,
     "liczba": 10
    },
    {
+    "rok": 1993,
+    "liczba": 8
+   },
+   {
+    "rok": 1994,
+    "liczba": 21
+   },
+   {
+    "rok": 1995,
+    "liczba": 34
+   },
+   {
+    "rok": 1996,
+    "liczba": 30
+   },
+   {
+    "rok": 1997,
+    "liczba": 21
+   },
+   {
+    "rok": 1998,
+    "liczba": 12
+   },
+   {
+    "rok": 1999,
+    "liczba": 8
+   },
+   {
+    "rok": 2000,
+    "liczba": 13
+   },
+   {
     "rok": 2001,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2002,
@@ -155,7 +155,7 @@
    },
    {
     "rok": 2003,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2004,
@@ -169,11 +169,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 105
+    "liczba": 115
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 82
+    "liczba": 101
    },
    {
     "nazwa": "?+LPG",
@@ -187,7 +187,7 @@
   "pojemnosci": [
    {
     "nazwa": "4,3 l",
-    "liczba": 197
+    "liczba": 226
    },
    {
     "nazwa": "4,2 l",
@@ -201,11 +201,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 116
+    "liczba": 135
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 84
+    "liczba": 94
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -223,15 +223,15 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 110
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 27
+    "liczba": 126
    },
    {
     "nazwa": "Kombi",
-    "liczba": 22
+    "liczba": 31
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 29
    },
    {
     "nazwa": "Sedan",
@@ -239,7 +239,7 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "nazwa": "Furgon",
@@ -250,13 +250,21 @@
     "liczba": 35
    }
   ],
-  "noweOdPaczki": 36,
+  "noweOdPaczki": 65,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 10
+   },
+   {
+    "rok": 2022,
+    "liczba": 16
+   },
+   {
     "rok": 2023,
-    "liczba": 6
+    "liczba": 9
    },
    {
     "rok": 2024,
@@ -272,6 +280,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -415,14 +519,14 @@
   ],
   "miejsce": 1200,
   "miejsceWMarce": 22,
-  "modeliWMarce": 22,
-  "sredniRocznik": 1994.8
+  "modeliWMarce": 23,
+  "sredniRocznik": 1995.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "astro",

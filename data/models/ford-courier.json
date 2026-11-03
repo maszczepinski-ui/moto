@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Courier – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COURIER, COURIER 1.8 D, COURIER 1.3 KAT, COURIER 1.8D).",
-  "liczbaWPolsce": 561,
-  "aktywne": 14,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Courier – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COURIER, COURIER 1.8 D, COURIER 1.3 KAT, COURIER 1.8D).",
+  "liczbaWPolsce": 562,
+  "aktywne": 15,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -80,7 +80,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 66
+    "liczba": 67
    }
   ],
   "bezWojewodztwa": 1,
@@ -115,7 +115,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 1999,
@@ -201,7 +201,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 184
+    "liczba": 185
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -219,7 +219,7 @@
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 220
+    "liczba": 221
    },
    {
     "nazwa": "1,4 l",
@@ -237,7 +237,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 306
+    "liczba": 307
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -255,7 +255,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 231
+    "liczba": 232
    },
    {
     "nazwa": "Van",
@@ -282,10 +282,14 @@
     "liczba": 127
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 3
@@ -300,6 +304,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -441,26 +541,21 @@
     "liczba": 0
    }
   ],
-  "miejsce": 886,
+  "miejsce": 920,
   "miejsceWMarce": 34,
-  "modeliWMarce": 45,
+  "modeliWMarce": 46,
   "sredniRocznik": 1995.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "courier",
  "adres": "/marki/ford/courier/",
  "konkurenci": [
-  {
-   "slug": "volkswagen-jetta",
-   "nazwa": "Volkswagen Jetta",
-   "adres": "/marki/volkswagen/jetta/"
-  },
   {
    "slug": "volkswagen-golf-iii",
    "nazwa": "Volkswagen Golf III",
@@ -470,6 +565,11 @@
    "slug": "opel-astra-f",
    "nazwa": "Opel Astra F",
    "adres": "/marki/opel/astra/f/"
+  },
+  {
+   "slug": "volkswagen-jetta",
+   "nazwa": "Volkswagen Jetta",
+   "adres": "/marki/volkswagen/jetta/"
   },
   {
    "slug": "fiat-marea",

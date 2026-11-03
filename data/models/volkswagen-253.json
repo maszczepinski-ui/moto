@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 253 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 253).",
-  "liczbaWPolsce": 359,
-  "aktywne": 19,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 253 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 253).",
+  "liczbaWPolsce": 361,
+  "aktywne": 21,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "teryt": "04",
@@ -64,7 +64,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 80
+    "liczba": 81
    },
    {
     "teryt": "26",
@@ -131,11 +131,11 @@
    },
    {
     "rok": 1988,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1989,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 1990,
@@ -173,7 +173,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 218
+    "liczba": 220
    },
    {
     "nazwa": "Benzyna",
@@ -195,7 +195,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 238
+    "liczba": 240
    },
    {
     "nazwa": "1,7 l",
@@ -225,11 +225,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 271
+    "liczba": 272
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -247,11 +247,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "nazwa": "Van",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "nazwa": "Sedan",
@@ -274,10 +274,18 @@
     "liczba": 157
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -292,6 +300,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -433,16 +537,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1033,
-  "miejsceWMarce": 50,
-  "modeliWMarce": 59,
+  "miejsce": 1064,
+  "miejsceWMarce": 51,
+  "modeliWMarce": 60,
   "sredniRocznik": 1985.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "253",

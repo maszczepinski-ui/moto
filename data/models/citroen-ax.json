@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen AX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AX, AX 1.0 KAT, AX 1.1 KAT, AX 1.1, AX 1.1KAT).",
-  "liczbaWPolsce": 9537,
-  "aktywne": 155,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen AX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AX, AX 1.0 KAT, AX 1.1 KAT, AX 1.1, AX 1.1KAT).",
+  "liczbaWPolsce": 9543,
+  "aktywne": 161,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 881
+    "liczba": 882
    },
    {
     "teryt": "04",
@@ -34,11 +34,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 531
+    "liczba": 532
    },
    {
     "teryt": "12",
-    "liczba": 465
+    "liczba": 466
    },
    {
     "teryt": "14",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 875
+    "liczba": 876
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1256
+    "liczba": 1258
    },
    {
     "teryt": "32",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 222
+    "liczba": 223
    },
    {
     "rok": 1989,
@@ -97,11 +97,11 @@
    },
    {
     "rok": 1990,
-    "liczba": 683
+    "liczba": 684
    },
    {
     "rok": 1991,
-    "liczba": 1408
+    "liczba": 1409
    },
    {
     "rok": 1992,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 1217
+    "liczba": 1218
    },
    {
     "rok": 1994,
@@ -117,11 +117,11 @@
    },
    {
     "rok": 1995,
-    "liczba": 1244
+    "liczba": 1245
    },
    {
     "rok": 1996,
-    "liczba": 1358
+    "liczba": 1359
    },
    {
     "rok": 1997,
@@ -135,7 +135,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5340
+    "liczba": 5346
    },
    {
     "nazwa": "Diesel",
@@ -157,11 +157,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3614
+    "liczba": 3618
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 3163
+    "liczba": 3165
    },
    {
     "nazwa": "1,4 l",
@@ -179,11 +179,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 6153
+    "liczba": 6154
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2366
+    "liczba": 2371
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -201,7 +201,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6316
+    "liczba": 6322
    },
    {
     "nazwa": "Sedan",
@@ -212,13 +212,17 @@
     "liczba": 2448
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 18,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2022,
     "liczba": 3
+   },
+   {
+    "rok": 2023,
+    "liczba": 6
    },
    {
     "rok": 2024,
@@ -234,6 +238,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -375,16 +475,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 292,
+  "miejsce": 320,
   "miejsceWMarce": 9,
-  "modeliWMarce": 40,
+  "modeliWMarce": 42,
   "sredniRocznik": 1993.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "ax",

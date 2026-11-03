@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Regata – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REGATA, REGATA 1.7D, REGATA 1.3, REGATA 2.0D, REGATA 100S 1.6).",
-  "liczbaWPolsce": 3344,
-  "aktywne": 9,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Regata – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REGATA, REGATA 1.7D, REGATA 1.3, REGATA 2.0D, REGATA 100S 1.6).",
+  "liczbaWPolsce": 3346,
+  "aktywne": 11,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 412
+    "liczba": 414
    },
    {
     "teryt": "16",
@@ -96,7 +96,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 703
+    "liczba": 705
    },
    {
     "rok": 1987,
@@ -150,7 +150,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 375
+    "liczba": 377
    },
    {
     "nazwa": "?+LPG",
@@ -172,7 +172,7 @@
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 707
+    "liczba": 708
    },
    {
     "nazwa": "1,6 l",
@@ -188,13 +188,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 154
+    "liczba": 155
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2548
+    "liczba": 2549
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -202,7 +202,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 110
+    "liczba": 111
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -216,7 +216,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 608
+    "liczba": 610
    },
    {
     "nazwa": "Hatchback",
@@ -231,10 +231,14 @@
     "liczba": 2611
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2022,
+    "liczba": 2
+   },
    {
     "rok": 2024,
     "liczba": 3
@@ -249,6 +253,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -390,16 +490,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 472,
+  "miejsce": 498,
   "miejsceWMarce": 29,
-  "modeliWMarce": 58,
+  "modeliWMarce": 60,
   "sredniRocznik": 1986.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "regata",

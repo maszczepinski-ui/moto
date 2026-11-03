@@ -12,120 +12,124 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Kalos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 81 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KALOS, KALOS 1.4, KALOS 1.4 KAT).",
-  "liczbaWPolsce": 1749,
-  "aktywne": 903,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Kalos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 226 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KALOS, KALOS 1.4, KALOS 1.4 KAT).",
+  "liczbaWPolsce": 1894,
+  "aktywne": 1048,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 152
+    "liczba": 165
    },
    {
     "teryt": "04",
-    "liczba": 99
+    "liczba": 105
    },
    {
     "teryt": "06",
-    "liczba": 73
+    "liczba": 79
    },
    {
     "teryt": "08",
-    "liczba": 76
+    "liczba": 86
    },
    {
     "teryt": "10",
-    "liczba": 206
+    "liczba": 216
    },
    {
     "teryt": "12",
-    "liczba": 153
+    "liczba": 161
    },
    {
     "teryt": "14",
-    "liczba": 158
+    "liczba": 171
    },
    {
     "teryt": "16",
-    "liczba": 34
+    "liczba": 41
    },
    {
     "teryt": "18",
-    "liczba": 112
+    "liczba": 119
    },
    {
     "teryt": "20",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "22",
-    "liczba": 37
+    "liczba": 44
    },
    {
     "teryt": "24",
-    "liczba": 196
+    "liczba": 208
    },
    {
     "teryt": "26",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "teryt": "28",
-    "liczba": 48
+    "liczba": 54
    },
    {
     "teryt": "30",
-    "liczba": 230
+    "liczba": 248
    },
    {
     "teryt": "32",
-    "liczba": 74
+    "liczba": 93
    }
   ],
   "bezWojewodztwa": 16,
   "roczniki": [
    {
     "rok": 2002,
-    "liczba": 114
+    "liczba": 122
    },
    {
     "rok": 2003,
-    "liczba": 624
+    "liczba": 658
    },
    {
     "rok": 2004,
-    "liczba": 716
+    "liczba": 773
    },
    {
     "rok": 2005,
-    "liczba": 191
+    "liczba": 230
    },
    {
     "rok": 2006,
-    "liczba": 31
+    "liczba": 37
+   },
+   {
+    "rok": 2007,
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1380
+    "liczba": 1512
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 361
+    "liczba": 372
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 10
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1259
+    "liczba": 1365
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 473
+    "liczba": 512
    },
    {
     "nazwa": "Inne / brak danych",
@@ -135,11 +139,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1438
+    "liczba": 1551
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 293
+    "liczba": 325
    },
    {
     "nazwa": "Inne / brak danych",
@@ -149,24 +153,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1626
+    "liczba": 1765
    },
    {
     "nazwa": "Sedan",
-    "liczba": 70
+    "liczba": 74
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 53
+    "liczba": 55
    }
   ],
-  "noweOdPaczki": 81,
+  "noweOdPaczki": 226,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 39
+   },
+   {
+    "rok": 2022,
+    "liczba": 65
+   },
+   {
     "rok": 2023,
-    "liczba": 15
+    "liczba": 56
    },
    {
     "rok": 2024,
@@ -182,6 +194,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 7
+   },
    {
     "miesiac": "2023-12",
     "liczba": 3
@@ -323,30 +431,35 @@
     "liczba": 0
    }
   ],
-  "miejsce": 613,
+  "miejsce": 619,
   "miejsceWMarce": 8,
   "modeliWMarce": 15,
-  "sredniRocznik": 2003.6
+  "sredniRocznik": 2003.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "kalos",
  "adres": "/marki/daewoo/kalos/",
  "konkurenci": [
   {
-   "slug": "fiat-punto",
-   "nazwa": "Fiat Punto",
-   "adres": "/marki/fiat/punto/"
-  },
-  {
    "slug": "mitsubishi-colt",
    "nazwa": "Mitsubishi Colt",
    "adres": "/marki/mitsubishi/colt/"
+  },
+  {
+   "slug": "ford-fiesta",
+   "nazwa": "Ford Fiesta",
+   "adres": "/marki/ford/fiesta/"
+  },
+  {
+   "slug": "fiat-punto",
+   "nazwa": "Fiat Punto",
+   "adres": "/marki/fiat/punto/"
   },
   {
    "slug": "volkswagen-polo",
@@ -357,11 +470,6 @@
    "slug": "skoda-fabia-i",
    "nazwa": "Skoda Fabia I",
    "adres": "/marki/skoda/fabia/i/"
-  },
-  {
-   "slug": "ford-fiesta",
-   "nazwa": "Ford Fiesta",
-   "adres": "/marki/ford/fiesta/"
   }
  ]
 }

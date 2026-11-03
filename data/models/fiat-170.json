@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 170 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 170, 170 704, 170 CINQUCENTO, 170 700, 170 704 YOUNG).",
-  "liczbaWPolsce": 975,
-  "aktywne": 34,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 170 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 170, 170 704, 170 CINQUCENTO, 170 700, 170 704 YOUNG).",
+  "liczbaWPolsce": 979,
+  "aktywne": 38,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "14",
-    "liczba": 97
+    "liczba": 100
    },
    {
     "teryt": "16",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 196
+    "liczba": 198
    },
    {
     "rok": 1994,
@@ -113,17 +113,17 @@
    },
    {
     "rok": 1997,
-    "liczba": 161
+    "liczba": 162
    },
    {
     "rok": 1998,
-    "liczba": 38
+    "liczba": 39
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 683
+    "liczba": 687
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -145,11 +145,11 @@
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 208
+    "liczba": 211
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,7 +159,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 810
+    "liczba": 812
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -167,7 +167,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
@@ -177,7 +177,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 532
+    "liczba": 534
    },
    {
     "nazwa": "Sedan",
@@ -185,16 +185,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 379
+    "liczba": 381
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2022,
     "liczba": 1
+   },
+   {
+    "rok": 2023,
+    "liczba": 4
    },
    {
     "rok": 2024,
@@ -206,6 +210,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -347,16 +447,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 762,
-  "miejsceWMarce": 41,
-  "modeliWMarce": 58,
+  "miejsce": 789,
+  "miejsceWMarce": 42,
+  "modeliWMarce": 60,
   "sredniRocznik": 1994.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "170",
@@ -383,9 +483,9 @@
    "adres": "/marki/daewoo/matiz/"
   },
   {
-   "slug": "daihatsu-cuore",
-   "nazwa": "Daihatsu Cuore",
-   "adres": "/marki/daihatsu/cuore/"
+   "slug": "peugeot-106",
+   "nazwa": "Peugeot 106",
+   "adres": "/marki/peugeot/106/"
   }
  ]
 }

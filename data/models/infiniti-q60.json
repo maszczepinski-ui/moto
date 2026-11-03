@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti Q60 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 103 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q60).",
-  "liczbaWPolsce": 203,
-  "aktywne": 194,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti Q60 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 134 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q60, Q60 COUPE).",
+  "liczbaWPolsce": 234,
+  "aktywne": 225,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "04",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "08",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "12",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "teryt": "14",
-    "liczba": 55
+    "liczba": 61
    },
    {
     "teryt": "16",
@@ -49,23 +49,23 @@
    },
    {
     "teryt": "18",
-    "liczba": 11
-   },
-   {
-    "teryt": "20",
-    "liczba": 7
-   },
-   {
-    "teryt": "22",
-    "liczba": 11
-   },
-   {
-    "teryt": "24",
     "liczba": 12
    },
    {
+    "teryt": "20",
+    "liczba": 9
+   },
+   {
+    "teryt": "22",
+    "liczba": 12
+   },
+   {
+    "teryt": "24",
+    "liczba": 14
+   },
+   {
     "teryt": "26",
-    "liczba": 2
+    "liczba": 4
    },
    {
     "teryt": "28",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 18
+    "liczba": 21
    },
    {
     "teryt": "32",
-    "liczba": 6
+    "liczba": 9
    }
   ],
   "bezWojewodztwa": 3,
@@ -88,31 +88,31 @@
    },
    {
     "rok": 2014,
-    "liczba": 8
+    "liczba": 12
    },
    {
     "rok": 2015,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2016,
-    "liczba": 37
+    "liczba": 40
    },
    {
     "rok": 2017,
-    "liczba": 74
+    "liczba": 89
    },
    {
     "rok": 2018,
-    "liczba": 47
+    "liczba": 53
    },
    {
     "rok": 2019,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -126,25 +126,25 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 200
+    "liczba": 229
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3
+    "liczba": 5
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 130
+    "liczba": 148
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 55
+    "liczba": 63
    },
    {
     "nazwa": "3,7 l",
-    "liczba": 16
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,15 +154,15 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 89
+    "liczba": 104
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 62
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 53
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 46
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -176,28 +176,40 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 186
+    "liczba": 214
    },
    {
     "nazwa": "Sedan",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "nazwa": "Kabriolet",
     "liczba": 3
    },
    {
+    "nazwa": "Hatchback",
+    "liczba": 3
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 7
    }
   ],
-  "noweOdPaczki": 103,
+  "noweOdPaczki": 134,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 16
+   },
+   {
     "rok": 2023,
-    "liczba": 7
+    "liczba": 18
    },
    {
     "rok": 2024,
@@ -213,6 +225,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 4
@@ -354,16 +462,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1222,
+  "miejsce": 1213,
   "miejsceWMarce": 6,
-  "modeliWMarce": 6,
-  "sredniRocznik": 2017.3
+  "modeliWMarce": 7,
+  "sredniRocznik": 2017.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "infiniti",
  "modelSlug": "q60",

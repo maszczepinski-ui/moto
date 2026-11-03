@@ -13,21 +13,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Xantia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 32 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XANTIA, XANTIA 1.8 KAT, XANTIA 1.9 TD, XANTIA 2.0 KAT, XANTIA 1.8KAT).",
-  "liczbaWPolsce": 7487,
-  "aktywne": 322,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Xantia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 61 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XANTIA, XANTIA 1.8 KAT, XANTIA 1.9 TD, XANTIA 2.0 KAT, XANTIA 1.8KAT).",
+  "liczbaWPolsce": 7516,
+  "aktywne": 351,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 877
+    "liczba": 881
    },
    {
     "teryt": "04",
-    "liczba": 372
+    "liczba": 374
    },
    {
     "teryt": "06",
-    "liczba": 716
+    "liczba": 718
    },
    {
     "teryt": "08",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 487
+    "liczba": 491
    },
    {
     "teryt": "12",
@@ -43,31 +43,31 @@
    },
    {
     "teryt": "14",
-    "liczba": 1009
+    "liczba": 1013
    },
    {
     "teryt": "16",
-    "liczba": 172
+    "liczba": 174
    },
    {
     "teryt": "18",
-    "liczba": 262
+    "liczba": 265
    },
    {
     "teryt": "20",
-    "liczba": 170
+    "liczba": 172
    },
    {
     "teryt": "22",
-    "liczba": 446
+    "liczba": 448
    },
    {
     "teryt": "24",
-    "liczba": 551
+    "liczba": 552
    },
    {
     "teryt": "26",
-    "liczba": 153
+    "liczba": 154
    },
    {
     "teryt": "28",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 497
+    "liczba": 499
    },
    {
     "teryt": "32",
@@ -90,49 +90,49 @@
    },
    {
     "rok": 1994,
-    "liczba": 1455
+    "liczba": 1457
    },
    {
     "rok": 1995,
-    "liczba": 1312
+    "liczba": 1314
    },
    {
     "rok": 1996,
-    "liczba": 1144
+    "liczba": 1146
    },
    {
     "rok": 1997,
-    "liczba": 885
+    "liczba": 887
    },
    {
     "rok": 1998,
-    "liczba": 601
+    "liczba": 606
    },
    {
     "rok": 1999,
-    "liczba": 655
+    "liczba": 659
    },
    {
     "rok": 2000,
-    "liczba": 439
+    "liczba": 450
    },
    {
     "rok": 2001,
-    "liczba": 104
+    "liczba": 105
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2711
+    "liczba": 2729
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2559
+    "liczba": 2569
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1657
+    "liczba": 1658
    },
    {
     "nazwa": "?+LPG",
@@ -146,19 +146,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 2702
+    "liczba": 2710
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1941
+    "liczba": 1953
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 1749
+    "liczba": 1753
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 732
+    "liczba": 733
    },
    {
     "nazwa": "2,1 l",
@@ -166,7 +166,7 @@
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 94
+    "liczba": 98
    },
    {
     "nazwa": "Inne / brak danych",
@@ -176,11 +176,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4126
+    "liczba": 4133
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3053
+    "liczba": 3075
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -198,28 +198,36 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 4183
+    "liczba": 4202
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1303
+    "liczba": 1305
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1164
+    "liczba": 1172
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 837
    }
   ],
-  "noweOdPaczki": 32,
+  "noweOdPaczki": 61,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
+    "liczba": 10
+   },
+   {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 18
    },
    {
     "rok": 2024,
@@ -235,6 +243,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -376,16 +480,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 332,
+  "miejsce": 355,
   "miejsceWMarce": 12,
-  "modeliWMarce": 40,
-  "sredniRocznik": 1995.9
+  "modeliWMarce": 42,
+  "sredniRocznik": 1996.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "xantia",

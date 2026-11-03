@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 60 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Y, Y 1.2, Y 1.2 KAT, Y 1,2, Y 1.2 LE).",
-  "liczbaWPolsce": 1100,
-  "aktywne": 300,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 115 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Y, Y 1.2, Y 1.2 KAT, Y 1,2, Y 1.2 LE).",
+  "liczbaWPolsce": 1155,
+  "aktywne": 355,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 115
+    "liczba": 117
    },
    {
     "teryt": "04",
@@ -30,27 +30,27 @@
    },
    {
     "teryt": "08",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "10",
-    "liczba": 83
+    "liczba": 84
    },
    {
     "teryt": "12",
-    "liczba": 124
+    "liczba": 132
    },
    {
     "teryt": "14",
-    "liczba": 155
+    "liczba": 158
    },
    {
     "teryt": "16",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "18",
-    "liczba": 90
+    "liczba": 120
    },
    {
     "teryt": "20",
@@ -62,11 +62,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 121
+    "liczba": 122
    },
    {
     "teryt": "26",
-    "liczba": 25
+    "liczba": 29
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 103
+    "liczba": 107
    },
    {
     "teryt": "32",
@@ -105,51 +105,51 @@
    },
    {
     "rok": 1996,
-    "liczba": 134
+    "liczba": 135
    },
    {
     "rok": 1997,
-    "liczba": 132
+    "liczba": 133
    },
    {
     "rok": 1998,
-    "liczba": 214
+    "liczba": 218
    },
    {
     "rok": 1999,
-    "liczba": 114
+    "liczba": 118
    },
    {
     "rok": 2000,
-    "liczba": 93
+    "liczba": 95
    },
    {
     "rok": 2001,
-    "liczba": 100
+    "liczba": 108
    },
    {
     "rok": 2002,
-    "liczba": 69
+    "liczba": 74
    },
    {
     "rok": 2003,
-    "liczba": 82
+    "liczba": 88
    },
    {
     "rok": 2004,
-    "liczba": 43
+    "liczba": 55
    },
    {
     "rok": 2005,
-    "liczba": 18
+    "liczba": 22
    },
    {
     "rok": 2006,
-    "liczba": 15
+    "liczba": 20
    },
    {
     "rok": 2007,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2008,
@@ -165,11 +165,11 @@
    },
    {
     "rok": 2011,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2012,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2013,
@@ -179,15 +179,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 951
+    "liczba": 993
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 102
+    "liczba": 104
    },
    {
     "nazwa": "Diesel",
-    "liczba": 23
+    "liczba": 34
    },
    {
     "nazwa": "Inne / brak danych",
@@ -197,29 +197,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 827
+    "liczba": 878
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 165
+    "liczba": 167
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 101
+    "liczba": 102
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 571
+    "liczba": 617
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 470
+    "liczba": 479
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -233,7 +233,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 973
+    "liczba": 1026
    },
    {
     "nazwa": "Sedan",
@@ -241,16 +241,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 59
+    "liczba": 61
    }
   ],
-  "noweOdPaczki": 60,
+  "noweOdPaczki": 115,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 12
+   },
+   {
+    "rok": 2022,
+    "liczba": 33
+   },
+   {
     "rok": 2023,
-    "liczba": 8
+    "liczba": 18
    },
    {
     "rok": 2024,
@@ -266,6 +274,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2023-12",
     "liczba": 4
@@ -407,16 +511,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 728,
+  "miejsce": 742,
   "miejsceWMarce": 8,
   "modeliWMarce": 15,
-  "sredniRocznik": 1999.5
+  "sredniRocznik": 1999.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "y",
@@ -426,11 +530,6 @@
    "slug": "citroen-saxo",
    "nazwa": "Citroen Saxo",
    "adres": "/marki/citroen/saxo/"
-  },
-  {
-   "slug": "subaru-justy",
-   "nazwa": "Subaru Justy",
-   "adres": "/marki/subaru/justy/"
   },
   {
    "slug": "volkswagen-lupo",
@@ -443,9 +542,14 @@
    "adres": "/marki/seat/arosa/"
   },
   {
-   "slug": "kia-pride",
-   "nazwa": "Kia Pride",
-   "adres": "/marki/kia/pride/"
+   "slug": "subaru-justy",
+   "nazwa": "Subaru Justy",
+   "adres": "/marki/subaru/justy/"
+  },
+  {
+   "slug": "hyundai-accent",
+   "nazwa": "Hyundai Accent",
+   "adres": "/marki/hyundai/accent/"
   }
  ]
 }

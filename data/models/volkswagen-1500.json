@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 1500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1500).",
-  "liczbaWPolsce": 1587,
-  "aktywne": 35,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 1500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 29 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1500).",
+  "liczbaWPolsce": 1601,
+  "aktywne": 49,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 113
+    "liczba": 114
    },
    {
     "teryt": "04",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "10",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 177
+    "liczba": 180
    },
    {
     "teryt": "14",
-    "liczba": 333
+    "liczba": 336
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 135
+    "liczba": 137
    },
    {
     "teryt": "24",
@@ -66,11 +66,11 @@
    },
    {
     "teryt": "26",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "28",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "teryt": "30",
@@ -101,23 +101,23 @@
    },
    {
     "rok": 1966,
-    "liczba": 117
+    "liczba": 119
    },
    {
     "rok": 1967,
-    "liczba": 233
+    "liczba": 235
    },
    {
     "rok": 1968,
-    "liczba": 185
+    "liczba": 190
    },
    {
     "rok": 1969,
-    "liczba": 183
+    "liczba": 185
    },
    {
     "rok": 1970,
-    "liczba": 95
+    "liczba": 97
    },
    {
     "rok": 1971,
@@ -125,7 +125,7 @@
    },
    {
     "rok": 1972,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1973,
@@ -219,7 +219,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 319
+    "liczba": 333
    },
    {
     "nazwa": "Diesel",
@@ -233,7 +233,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1423
+    "liczba": 1435
    },
    {
     "nazwa": "1,2 l",
@@ -245,7 +245,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "nazwa": "Inne / brak danych",
@@ -255,7 +255,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1094
+    "liczba": 1097
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -263,7 +263,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 47
+    "liczba": 57
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -271,34 +271,42 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 40
+    "liczba": 41
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 189
+    "liczba": 190
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 79
+    "liczba": 83
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 19
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1300
+    "liczba": 1303
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 29,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
     "liczba": 2
+   },
+   {
+    "rok": 2022,
+    "liczba": 7
+   },
+   {
+    "rok": 2023,
+    "liczba": 7
    },
    {
     "rok": 2024,
@@ -314,6 +322,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -455,16 +559,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 633,
-  "miejsceWMarce": 34,
-  "modeliWMarce": 59,
+  "miejsce": 664,
+  "miejsceWMarce": 37,
+  "modeliWMarce": 60,
   "sredniRocznik": 1970.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "1500",

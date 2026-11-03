@@ -14,229 +14,241 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Koleos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 301 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KOLEOS, KOLEOS 2.0 DCI, KOLEOS 2,0 DCI).",
-  "liczbaWPolsce": 7774,
-  "aktywne": 5848,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Koleos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 708 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KOLEOS, KOLEOS 2.0 DCI, KOLEOS 2,0 DCI).",
+  "liczbaWPolsce": 10181,
+  "aktywne": 8255,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 626
+    "liczba": 810
    },
    {
     "teryt": "04",
-    "liczba": 343
+    "liczba": 463
    },
    {
     "teryt": "06",
-    "liczba": 510
+    "liczba": 688
    },
    {
     "teryt": "08",
-    "liczba": 186
+    "liczba": 252
    },
    {
     "teryt": "10",
-    "liczba": 403
+    "liczba": 518
    },
    {
     "teryt": "12",
-    "liczba": 639
+    "liczba": 796
    },
    {
     "teryt": "14",
-    "liczba": 1352
+    "liczba": 1789
    },
    {
     "teryt": "16",
-    "liczba": 142
+    "liczba": 183
    },
    {
     "teryt": "18",
-    "liczba": 423
+    "liczba": 553
    },
    {
     "teryt": "20",
-    "liczba": 218
+    "liczba": 298
    },
    {
     "teryt": "22",
-    "liczba": 503
+    "liczba": 643
    },
    {
     "teryt": "24",
-    "liczba": 757
+    "liczba": 992
    },
    {
     "teryt": "26",
-    "liczba": 187
+    "liczba": 259
    },
    {
     "teryt": "28",
-    "liczba": 353
+    "liczba": 461
    },
    {
     "teryt": "30",
-    "liczba": 783
+    "liczba": 1050
    },
    {
     "teryt": "32",
-    "liczba": 267
+    "liczba": 344
    }
   ],
   "bezWojewodztwa": 82,
   "roczniki": [
    {
     "rok": 2008,
-    "liczba": 1570
+    "liczba": 1930
    },
    {
     "rok": 2009,
-    "liczba": 1072
+    "liczba": 1271
    },
    {
     "rok": 2010,
-    "liczba": 658
+    "liczba": 825
    },
    {
     "rok": 2011,
-    "liczba": 745
+    "liczba": 925
    },
    {
     "rok": 2012,
-    "liczba": 655
+    "liczba": 831
    },
    {
     "rok": 2013,
-    "liczba": 309
+    "liczba": 412
    },
    {
     "rok": 2014,
-    "liczba": 260
+    "liczba": 337
    },
    {
     "rok": 2015,
-    "liczba": 71
+    "liczba": 111
    },
    {
     "rok": 2016,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2017,
-    "liczba": 642
+    "liczba": 745
    },
    {
     "rok": 2018,
-    "liczba": 716
+    "liczba": 809
    },
    {
     "rok": 2019,
-    "liczba": 439
+    "liczba": 472
    },
    {
     "rok": 2020,
-    "liczba": 74
+    "liczba": 96
    },
    {
     "rok": 2021,
-    "liczba": 47
+    "liczba": 466
    },
    {
     "rok": 2022,
-    "liczba": 59
+    "liczba": 347
    },
    {
     "rok": 2023,
-    "liczba": 142
+    "liczba": 286
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 7299
+    "liczba": 9286
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 251
+    "liczba": 592
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 205
+    "liczba": 283
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 19
+    "liczba": 20
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 7128
+    "liczba": 9055
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 390
+    "liczba": 521
+   },
+   {
+    "nazwa": "1,3 l",
+    "liczba": 340
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 151
+    "liczba": 206
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 105
+    "liczba": 59
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3930
+    "liczba": 4948
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1976
+    "liczba": 2978
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1766
+    "liczba": 2148
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 102
+    "liczba": 107
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 6067
+    "liczba": 8049
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 486
+    "liczba": 675
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 463
+    "liczba": 591
    },
    {
     "nazwa": "Van",
-    "liczba": 352
+    "liczba": 406
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 260
+    "liczba": 309
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 146
+    "liczba": 151
    }
   ],
-  "noweOdPaczki": 2301,
-  "hybrydy": 0,
+  "noweOdPaczki": 4708,
+  "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 695
+   },
+   {
+    "rok": 2022,
+    "liczba": 919
+   },
+   {
     "rok": 2023,
-    "liczba": 319
+    "liczba": 1112
    },
    {
     "rok": 2024,
@@ -252,6 +264,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 154
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 95
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 67
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 87
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 69
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 144
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 90
+   },
    {
     "miesiac": "2023-12",
     "liczba": 74
@@ -393,16 +501,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 326,
+  "miejsce": 312,
   "miejsceWMarce": 15,
   "modeliWMarce": 48,
-  "sredniRocznik": 2012.4
+  "sredniRocznik": 2013.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "koleos",
@@ -424,9 +532,9 @@
    "adres": "/marki/peugeot/508/"
   },
   {
-   "slug": "volkswagen-multivan",
-   "nazwa": "Volkswagen Multivan",
-   "adres": "/marki/volkswagen/multivan/"
+   "slug": "hyundai-i40",
+   "nazwa": "Hyundai i40",
+   "adres": "/marki/hyundai/i40/"
   },
   {
    "slug": "skoda-octavia",

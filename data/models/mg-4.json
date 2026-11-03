@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 969 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG4 ELECTRIC).",
-  "liczbaWPolsce": 969,
-  "aktywne": 969,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 971 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG4 ELECTRIC).",
+  "liczbaWPolsce": 971,
+  "aktywne": 971,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 258
+    "liczba": 260
    },
    {
     "teryt": "16",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 380
+    "liczba": 382
    },
    {
     "rok": 2024,
@@ -102,13 +102,13 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 969
+    "liczba": 971
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 969
+    "liczba": 971
    }
   ],
   "pochodzenie": [
@@ -118,7 +118,7 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 139
+    "liczba": 141
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -132,20 +132,20 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 963
+    "liczba": 965
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 969,
+  "noweOdPaczki": 971,
   "hybrydy": 0,
-  "elektryczne": 968,
+  "elektryczne": 970,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 2024,
@@ -161,6 +161,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2023-12",
     "liczba": 4
@@ -302,7 +398,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 763,
+  "miejsce": 791,
   "miejsceWMarce": 4,
   "modeliWMarce": 7,
   "sredniRocznik": 2023.7
@@ -311,7 +407,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "4",
@@ -328,6 +424,11 @@
    "adres": "/marki/citroen/e-c3/"
   },
   {
+   "slug": "porsche-taycan",
+   "nazwa": "Porsche Taycan",
+   "adres": "/marki/porsche/taycan/"
+  },
+  {
    "slug": "leapmotor-t03",
    "nazwa": "Leapmotor T03",
    "adres": "/marki/leapmotor/t03/"
@@ -336,11 +437,6 @@
    "slug": "bmw-ix2",
    "nazwa": "BMW IX2",
    "adres": "/marki/bmw/ix2/"
-  },
-  {
-   "slug": "skoda-elroq",
-   "nazwa": "Skoda Elroq",
-   "adres": "/marki/skoda/elroq/"
   }
  ]
 }

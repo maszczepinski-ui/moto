@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Cougar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUGAR, COUGAR 2.0 KAT, COUGAR 2.5 KAT, COUGAR 2.5).",
-  "liczbaWPolsce": 1281,
-  "aktywne": 337,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Cougar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 72 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUGAR, COUGAR 2.0 KAT, COUGAR 2.5 KAT, COUGAR 2.5).",
+  "liczbaWPolsce": 1319,
+  "aktywne": 375,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 132
+    "liczba": 136
    },
    {
     "teryt": "04",
-    "liczba": 69
+    "liczba": 76
    },
    {
     "teryt": "06",
-    "liczba": 93
+    "liczba": 96
    },
    {
     "teryt": "08",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "teryt": "10",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "teryt": "12",
-    "liczba": 97
+    "liczba": 99
    },
    {
     "teryt": "14",
-    "liczba": 148
+    "liczba": 152
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 67
+    "liczba": 68
    },
    {
     "teryt": "24",
-    "liczba": 129
+    "liczba": 132
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "teryt": "30",
-    "liczba": 131
+    "liczba": 140
    },
    {
     "teryt": "32",
@@ -85,19 +85,19 @@
   "roczniki": [
    {
     "rok": 1998,
-    "liczba": 192
+    "liczba": 197
    },
    {
     "rok": 1999,
-    "liczba": 798
+    "liczba": 820
    },
    {
     "rok": 2000,
-    "liczba": 202
+    "liczba": 208
    },
    {
     "rok": 2001,
-    "liczba": 56
+    "liczba": 60
    },
    {
     "rok": 2002,
@@ -107,11 +107,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 749
+    "liczba": 784
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 524
+    "liczba": 527
    },
    {
     "nazwa": "Inne / brak danych",
@@ -121,25 +121,25 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 662
+    "liczba": 683
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 615
+    "liczba": 631
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 722
+    "liczba": 731
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 552
+    "liczba": 581
    },
    {
     "nazwa": "Inne / brak danych",
@@ -149,11 +149,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1062
+    "liczba": 1097
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 155
+    "liczba": 158
    },
    {
     "nazwa": "Sedan",
@@ -164,13 +164,21 @@
     "liczba": 28
    }
   ],
-  "noweOdPaczki": 34,
+  "noweOdPaczki": 72,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 7
+   },
+   {
+    "rok": 2022,
+    "liczba": 17
+   },
+   {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 15
    },
    {
     "rok": 2024,
@@ -186,6 +194,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -327,16 +431,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 685,
+  "miejsce": 707,
   "miejsceWMarce": 31,
-  "modeliWMarce": 45,
+  "modeliWMarce": 46,
   "sredniRocznik": 1999.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "cougar",
@@ -353,9 +457,9 @@
    "adres": "/marki/mercedes-benz/klasa-clk/"
   },
   {
-   "slug": "fiat-coupe",
-   "nazwa": "Fiat Coupe",
-   "adres": "/marki/fiat/coupe/"
+   "slug": "volkswagen-scirocco",
+   "nazwa": "Volkswagen Scirocco",
+   "adres": "/marki/volkswagen/scirocco/"
   },
   {
    "slug": "bmw-z3",
@@ -363,9 +467,9 @@
    "adres": "/marki/bmw/z3/"
   },
   {
-   "slug": "daewoo-leganza",
-   "nazwa": "Daewoo Leganza",
-   "adres": "/marki/daewoo/leganza/"
+   "slug": "fiat-coupe",
+   "nazwa": "Fiat Coupe",
+   "adres": "/marki/fiat/coupe/"
   }
  ]
 }

@@ -13,108 +13,108 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 353 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL X).",
-  "liczbaWPolsce": 353,
-  "aktywne": 353,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 573 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL X, MODEL X 100D).",
+  "liczbaWPolsce": 573,
+  "aktywne": 573,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 38
    },
    {
     "teryt": "04",
-    "liczba": 10
-   },
-   {
-    "teryt": "06",
-    "liczba": 21
-   },
-   {
-    "teryt": "08",
-    "liczba": 9
-   },
-   {
-    "teryt": "10",
     "liczba": 14
    },
    {
+    "teryt": "06",
+    "liczba": 26
+   },
+   {
+    "teryt": "08",
+    "liczba": 10
+   },
+   {
+    "teryt": "10",
+    "liczba": 27
+   },
+   {
     "teryt": "12",
-    "liczba": 39
+    "liczba": 65
    },
    {
     "teryt": "14",
-    "liczba": 70
+    "liczba": 126
    },
    {
     "teryt": "16",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 19
+    "liczba": 28
    },
    {
     "teryt": "20",
-    "liczba": 13
+    "liczba": 19
    },
    {
     "teryt": "22",
-    "liczba": 24
+    "liczba": 38
    },
    {
     "teryt": "24",
-    "liczba": 30
+    "liczba": 63
    },
    {
     "teryt": "26",
-    "liczba": 13
+    "liczba": 20
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 13
    },
    {
     "teryt": "30",
-    "liczba": 43
+    "liczba": 60
    },
    {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 33
+    "liczba": 51
    },
    {
     "rok": 2017,
-    "liczba": 93
+    "liczba": 117
    },
    {
     "rok": 2018,
-    "liczba": 56
+    "liczba": 86
    },
    {
     "rok": 2019,
-    "liczba": 31
+    "liczba": 43
    },
    {
     "rok": 2020,
-    "liczba": 27
+    "liczba": 41
    },
    {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 2022,
-    "liczba": 17
+    "liczba": 53
    },
    {
     "rok": 2023,
-    "liczba": 52
+    "liczba": 136
    },
    {
     "rok": 2024,
@@ -132,66 +132,74 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 353
+    "liczba": 573
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 353
+    "liczba": 573
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 219
+    "liczba": 276
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 81
+    "liczba": 170
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 47
+    "liczba": 116
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 6
+    "liczba": 11
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 196
+    "liczba": 355
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 108
+    "liczba": 142
    },
    {
     "nazwa": "Kombi",
-    "liczba": 29
+    "liczba": 44
    },
    {
     "nazwa": "Van",
-    "liczba": 9
+    "liczba": 16
    },
    {
     "nazwa": "Sedan",
-    "liczba": 8
+    "liczba": 12
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
-  "noweOdPaczki": 353,
+  "noweOdPaczki": 573,
   "hybrydy": 0,
-  "elektryczne": 353,
+  "elektryczne": 573,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 8
+   },
+   {
+    "rok": 2022,
+    "liczba": 78
+   },
+   {
     "rok": 2023,
-    "liczba": 54
+    "liczba": 188
    },
    {
     "rok": 2024,
@@ -207,6 +215,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2023-12",
     "liczba": 21
@@ -348,16 +452,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1040,
+  "miejsce": 915,
   "miejsceWMarce": 4,
   "modeliWMarce": 4,
-  "sredniRocznik": 2019.5
+  "sredniRocznik": 2019.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "tesla",
  "modelSlug": "model-x",
@@ -369,6 +473,11 @@
    "adres": "/marki/kia/ev6/"
   },
   {
+   "slug": "nissan-leaf",
+   "nazwa": "Nissan Leaf",
+   "adres": "/marki/nissan/leaf/"
+  },
+  {
    "slug": "hyundai-inster",
    "nazwa": "Hyundai Inster",
    "adres": "/marki/hyundai/inster/"
@@ -377,11 +486,6 @@
    "slug": "byd-sealion-7",
    "nazwa": "BYD Sealion 7",
    "adres": "/marki/byd/sealion-7/"
-  },
-  {
-   "slug": "nissan-leaf",
-   "nazwa": "Nissan Leaf",
-   "adres": "/marki/nissan/leaf/"
   },
   {
    "slug": "ford-puma",

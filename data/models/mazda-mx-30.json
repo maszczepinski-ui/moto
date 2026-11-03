@@ -12,92 +12,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MX-30 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 481 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MX-30, MAZDA MX-30).",
-  "liczbaWPolsce": 481,
-  "aktywne": 481,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MX-30 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 058 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MX-30, MAZDA MX-30).",
+  "liczbaWPolsce": 1058,
+  "aktywne": 1058,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 34
+    "liczba": 80
    },
    {
     "teryt": "04",
-    "liczba": 17
-   },
-   {
-    "teryt": "06",
-    "liczba": 14
-   },
-   {
-    "teryt": "08",
-    "liczba": 5
-   },
-   {
-    "teryt": "10",
-    "liczba": 22
-   },
-   {
-    "teryt": "12",
-    "liczba": 51
-   },
-   {
-    "teryt": "14",
-    "liczba": 98
-   },
-   {
-    "teryt": "16",
-    "liczba": 11
-   },
-   {
-    "teryt": "18",
-    "liczba": 23
-   },
-   {
-    "teryt": "20",
-    "liczba": 3
-   },
-   {
-    "teryt": "22",
-    "liczba": 38
-   },
-   {
-    "teryt": "24",
-    "liczba": 88
-   },
-   {
-    "teryt": "26",
-    "liczba": 12
-   },
-   {
-    "teryt": "28",
-    "liczba": 4
-   },
-   {
-    "teryt": "30",
     "liczba": 41
    },
    {
-    "teryt": "32",
+    "teryt": "06",
+    "liczba": 32
+   },
+   {
+    "teryt": "08",
+    "liczba": 10
+   },
+   {
+    "teryt": "10",
+    "liczba": 53
+   },
+   {
+    "teryt": "12",
+    "liczba": 92
+   },
+   {
+    "teryt": "14",
+    "liczba": 230
+   },
+   {
+    "teryt": "16",
+    "liczba": 24
+   },
+   {
+    "teryt": "18",
+    "liczba": 50
+   },
+   {
+    "teryt": "20",
+    "liczba": 14
+   },
+   {
+    "teryt": "22",
+    "liczba": 81
+   },
+   {
+    "teryt": "24",
+    "liczba": 187
+   },
+   {
+    "teryt": "26",
     "liczba": 20
+   },
+   {
+    "teryt": "28",
+    "liczba": 16
+   },
+   {
+    "teryt": "30",
+    "liczba": 93
+   },
+   {
+    "teryt": "32",
+    "liczba": 35
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 67
+    "liczba": 94
    },
    {
     "rok": 2021,
-    "liczba": 65
+    "liczba": 261
    },
    {
     "rok": 2022,
-    "liczba": 54
+    "liczba": 332
    },
    {
     "rok": 2023,
-    "liczba": 216
+    "liczba": 292
    },
    {
     "rok": 2024,
@@ -107,14 +107,14 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 416
+    "liczba": 993
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
     "liczba": 59
    },
    {
-    "nazwa": "Benzyna",
+    "nazwa": "Inne / brak danych",
     "liczba": 6
    }
   ],
@@ -125,52 +125,56 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 381
+    "liczba": 958
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 177
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 464
    },
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 157
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 421
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 144
+    "liczba": 168
    },
    {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 3
+    "nazwa": "Inne / brak danych",
+    "liczba": 5
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 436
+    "liczba": 1001
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 37
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5
+    "liczba": 45
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 12
    }
   ],
-  "noweOdPaczki": 481,
+  "noweOdPaczki": 1058,
   "hybrydy": 59,
-  "elektryczne": 416,
+  "elektryczne": 993,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 140
+   },
+   {
+    "rok": 2022,
+    "liczba": 234
+   },
+   {
     "rok": 2023,
-    "liczba": 169
+    "liczba": 372
    },
    {
     "rok": 2024,
@@ -186,6 +190,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 33
+   },
    {
     "miesiac": "2023-12",
     "liczba": 96
@@ -327,30 +427,35 @@
     "liczba": 0
    }
   ],
-  "miejsce": 942,
-  "miejsceWMarce": 28,
+  "miejsce": 764,
+  "miejsceWMarce": 26,
   "modeliWMarce": 32,
-  "sredniRocznik": 2022.4
+  "sredniRocznik": 2022.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "mx-30",
  "adres": "/marki/mazda/mx-30/",
  "konkurenci": [
   {
+   "slug": "skoda-enyaq",
+   "nazwa": "Skoda Enyaq",
+   "adres": "/marki/skoda/enyaq/"
+  },
+  {
    "slug": "volkswagen-id-3",
    "nazwa": "Volkswagen ID.3",
    "adres": "/marki/volkswagen/id-3/"
   },
   {
-   "slug": "bmw-ix1",
-   "nazwa": "BMW IX1",
-   "adres": "/marki/bmw/ix1/"
+   "slug": "volkswagen-id-4",
+   "nazwa": "Volkswagen ID.4",
+   "adres": "/marki/volkswagen/id-4/"
   },
   {
    "slug": "audi-q4",
@@ -358,14 +463,9 @@
    "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "skoda-enyaq",
-   "nazwa": "Skoda Enyaq",
-   "adres": "/marki/skoda/enyaq/"
-  },
-  {
-   "slug": "volkswagen-id-4",
-   "nazwa": "Volkswagen ID.4",
-   "adres": "/marki/volkswagen/id-4/"
+   "slug": "mercedes-benz-eqb",
+   "nazwa": "Mercedes-Benz EQB",
+   "adres": "/marki/mercedes-benz/eqb/"
   }
  ]
 }

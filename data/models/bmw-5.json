@@ -3,7 +3,7 @@
  "marka": "BMW",
  "model": "5",
  "generacja": "",
- "lataProdukcji": "1976–2011",
+ "lataProdukcji": "1976–2013",
  "nadwozia": [
   "sedan",
   "hatchback"
@@ -12,17 +12,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 5 H, 5 GRAN TURISMO).",
-  "liczbaWPolsce": 356,
-  "aktywne": 21,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 35 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 5 H, 5 GRAN TURISMO).",
+  "liczbaWPolsce": 371,
+  "aktywne": 36,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 10
+    "liczba": 14
    },
    {
     "teryt": "04",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "06",
@@ -34,19 +34,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "teryt": "12",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "14",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "16",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "18",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "24",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "32",
-    "liczba": 238
+    "liczba": 239
    }
   ],
   "bezWojewodztwa": 0,
@@ -233,27 +233,27 @@
    },
    {
     "rok": 2009,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2010,
-    "liczba": 8
+    "liczba": 12
    },
    {
     "rok": 2011,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 2012,
-    "liczba": 3
+    "liczba": 6
    },
    {
     "rok": 2013,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2014,
-    "liczba": 0
+    "liczba": 2
    },
    {
     "rok": 2015,
@@ -263,15 +263,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 163
+    "liczba": 167
+   },
+   {
+    "nazwa": "Diesel",
+    "liczba": 63
    },
    {
     "nazwa": "Benzyna + LPG",
     "liczba": 62
-   },
-   {
-    "nazwa": "Diesel",
-    "liczba": 52
    },
    {
     "nazwa": "?+LPG",
@@ -285,11 +285,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 126
+    "liczba": 130
    },
    {
     "nazwa": "2,5 l",
     "liczba": 93
+   },
+   {
+    "nazwa": "3,0 l",
+    "liczba": 41
    },
    {
     "nazwa": "1,8 l",
@@ -298,10 +302,6 @@
    {
     "nazwa": "2,4 l",
     "liczba": 34
-   },
-   {
-    "nazwa": "3,0 l",
-    "liczba": 30
    },
    {
     "nazwa": "2,8 l",
@@ -319,11 +319,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 289
+    "liczba": 293
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 60
+    "liczba": 71
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -337,24 +337,36 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 150
+    "liczba": 155
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 15
+    "liczba": 22
+   },
+   {
+    "nazwa": "Kombi",
+    "liczba": 4
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 191
+    "liczba": 190
    }
   ],
-  "noweOdPaczki": 20,
+  "noweOdPaczki": 35,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2023,
+    "rok": 2021,
+    "liczba": 4
+   },
+   {
+    "rok": 2022,
     "liczba": 6
+   },
+   {
+    "rok": 2023,
+    "liczba": 11
    },
    {
     "rok": 2024,
@@ -370,6 +382,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 2
@@ -511,16 +619,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1037,
-  "miejsceWMarce": 33,
-  "modeliWMarce": 39,
-  "sredniRocznik": 1988.2
+  "miejsce": 1054,
+  "miejsceWMarce": 34,
+  "modeliWMarce": 42,
+  "sredniRocznik": 1989.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "5",
@@ -530,11 +638,6 @@
    "slug": "volvo-740",
    "nazwa": "Volvo 740",
    "adres": "/marki/volvo/740/"
-  },
-  {
-   "slug": "audi-100",
-   "nazwa": "Audi 100",
-   "adres": "/marki/audi/100/"
   },
   {
    "slug": "ford-sierra",
@@ -550,6 +653,11 @@
    "slug": "mercedes-benz-190-w201",
    "nazwa": "Mercedes-Benz 190 (W201)",
    "adres": "/marki/mercedes-benz/190-w201/"
+  },
+  {
+   "slug": "audi-80",
+   "nazwa": "Audi 80",
+   "adres": "/marki/audi/80/"
   }
  ]
 }

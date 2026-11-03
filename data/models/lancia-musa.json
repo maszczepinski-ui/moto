@@ -13,126 +13,130 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Musa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 639 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MUSA, LANCIA MUSA).",
-  "liczbaWPolsce": 1470,
-  "aktywne": 1079,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Musa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 018 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MUSA, LANCIA MUSA).",
+  "liczbaWPolsce": 1849,
+  "aktywne": 1458,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 138
+    "liczba": 162
    },
    {
     "teryt": "04",
-    "liczba": 39
+    "liczba": 53
    },
    {
     "teryt": "06",
-    "liczba": 42
+    "liczba": 54
    },
    {
     "teryt": "08",
-    "liczba": 33
+    "liczba": 40
    },
    {
     "teryt": "10",
-    "liczba": 74
+    "liczba": 81
    },
    {
     "teryt": "12",
-    "liczba": 217
+    "liczba": 312
    },
    {
     "teryt": "14",
-    "liczba": 175
+    "liczba": 207
    },
    {
     "teryt": "16",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "18",
-    "liczba": 158
+    "liczba": 229
    },
    {
     "teryt": "20",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "22",
-    "liczba": 29
+    "liczba": 41
    },
    {
     "teryt": "24",
-    "liczba": 134
+    "liczba": 179
    },
    {
     "teryt": "26",
-    "liczba": 38
+    "liczba": 52
    },
    {
     "teryt": "28",
-    "liczba": 18
+    "liczba": 24
    },
    {
     "teryt": "30",
-    "liczba": 285
+    "liczba": 309
    },
    {
     "teryt": "32",
-    "liczba": 30
+    "liczba": 38
    }
   ],
   "bezWojewodztwa": 14,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 97
+    "liczba": 120
    },
    {
     "rok": 2005,
-    "liczba": 264
+    "liczba": 330
    },
    {
     "rok": 2006,
-    "liczba": 245
+    "liczba": 299
    },
    {
     "rok": 2007,
-    "liczba": 209
-   },
-   {
-    "rok": 2008,
     "liczba": 266
    },
    {
+    "rok": 2008,
+    "liczba": 337
+   },
+   {
     "rok": 2009,
-    "liczba": 162
+    "liczba": 211
    },
    {
     "rok": 2010,
-    "liczba": 99
+    "liczba": 123
    },
    {
     "rok": 2011,
-    "liczba": 72
+    "liczba": 90
    },
    {
     "rok": 2012,
-    "liczba": 33
+    "liczba": 48
+   },
+   {
+    "rok": 2013,
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 691
+    "liczba": 873
    },
    {
     "nazwa": "Diesel",
-    "liczba": 656
+    "liczba": 813
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 117
+    "liczba": 157
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,19 +146,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 804
+    "liczba": 1020
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 444
+    "liczba": 554
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 197
+    "liczba": 245
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 21
+    "liczba": 26
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,11 +168,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1201
+    "liczba": 1504
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 228
+    "liczba": 304
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -182,32 +186,40 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 657
+    "liczba": 822
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 616
+    "liczba": 794
    },
    {
     "nazwa": "Van",
-    "liczba": 133
+    "liczba": 152
    },
    {
     "nazwa": "Kombi",
-    "liczba": 46
+    "liczba": 61
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 20
    }
   ],
-  "noweOdPaczki": 639,
+  "noweOdPaczki": 1018,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 98
+   },
+   {
+    "rok": 2022,
+    "liczba": 163
+   },
+   {
     "rok": 2023,
-    "liczba": 45
+    "liczba": 163
    },
    {
     "rok": 2024,
@@ -223,6 +235,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 13
+   },
    {
     "miesiac": "2023-12",
     "liczba": 16
@@ -364,8 +472,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 650,
-  "miejsceWMarce": 6,
+  "miejsce": 622,
+  "miejsceWMarce": 4,
   "modeliWMarce": 15,
   "sredniRocznik": 2007.2
  },
@@ -373,36 +481,36 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "musa",
  "adres": "/marki/lancia/musa/",
  "konkurenci": [
   {
-   "slug": "peugeot-207",
-   "nazwa": "Peugeot 207",
-   "adres": "/marki/peugeot/207/"
-  },
-  {
-   "slug": "ford-fusion",
-   "nazwa": "Ford Fusion",
-   "adres": "/marki/ford/fusion/"
-  },
-  {
    "slug": "renault-megane",
    "nazwa": "Renault Megane",
    "adres": "/marki/renault/megane/"
   },
   {
-   "slug": "mitsubishi-space-star",
-   "nazwa": "Mitsubishi Space Star",
-   "adres": "/marki/mitsubishi/space-star/"
+   "slug": "peugeot-207",
+   "nazwa": "Peugeot 207",
+   "adres": "/marki/peugeot/207/"
   },
   {
-   "slug": "renault-clio",
-   "nazwa": "Renault Clio",
-   "adres": "/marki/renault/clio/"
+   "slug": "mercedes-benz-klasa-a",
+   "nazwa": "Mercedes-Benz Klasa A",
+   "adres": "/marki/mercedes-benz/klasa-a/"
+  },
+  {
+   "slug": "seat-ibiza",
+   "nazwa": "Seat Ibiza",
+   "adres": "/marki/seat/ibiza/"
+  },
+  {
+   "slug": "ford-fusion",
+   "nazwa": "Ford Fusion",
+   "adres": "/marki/ford/fusion/"
   }
  ]
 }

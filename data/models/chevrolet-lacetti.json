@@ -13,118 +13,118 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Lacetti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 118 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LACETTI, LACETTI 1.4 KAT).",
-  "liczbaWPolsce": 6710,
-  "aktywne": 1870,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Lacetti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 260 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LACETTI, LACETTI 1.4 KAT, LACETTI 1.6).",
+  "liczbaWPolsce": 6852,
+  "aktywne": 2012,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 369
+    "liczba": 382
    },
    {
     "teryt": "04",
-    "liczba": 267
+    "liczba": 276
    },
    {
     "teryt": "06",
-    "liczba": 304
+    "liczba": 311
    },
    {
     "teryt": "08",
-    "liczba": 90
+    "liczba": 97
    },
    {
     "teryt": "10",
-    "liczba": 561
+    "liczba": 567
    },
    {
     "teryt": "12",
-    "liczba": 501
+    "liczba": 509
    },
    {
     "teryt": "14",
-    "liczba": 1457
+    "liczba": 1482
    },
    {
     "teryt": "16",
-    "liczba": 141
+    "liczba": 145
    },
    {
     "teryt": "18",
-    "liczba": 455
+    "liczba": 464
    },
    {
     "teryt": "20",
-    "liczba": 256
+    "liczba": 259
    },
    {
     "teryt": "22",
-    "liczba": 318
+    "liczba": 325
    },
    {
     "teryt": "24",
-    "liczba": 965
+    "liczba": 974
    },
    {
     "teryt": "26",
-    "liczba": 141
+    "liczba": 146
    },
    {
     "teryt": "28",
-    "liczba": 184
+    "liczba": 188
    },
    {
     "teryt": "30",
-    "liczba": 359
+    "liczba": 374
    },
    {
     "teryt": "32",
-    "liczba": 300
+    "liczba": 311
    }
   ],
   "bezWojewodztwa": 42,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 908
+    "liczba": 919
    },
    {
     "rok": 2005,
-    "liczba": 950
+    "liczba": 985
    },
    {
     "rok": 2006,
-    "liczba": 1284
+    "liczba": 1319
    },
    {
     "rok": 2007,
-    "liczba": 1454
+    "liczba": 1485
    },
    {
     "rok": 2008,
-    "liczba": 1147
+    "liczba": 1163
    },
    {
     "rok": 2009,
-    "liczba": 672
+    "liczba": 682
    },
    {
     "rok": 2010,
-    "liczba": 116
+    "liczba": 120
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3705
+    "liczba": 3789
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 2399
+    "liczba": 2437
    },
    {
     "nazwa": "Diesel",
-    "liczba": 567
+    "liczba": 587
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,19 +134,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 3634
+    "liczba": 3679
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 2093
+    "liczba": 2140
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 568
+    "liczba": 588
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 393
+    "liczba": 423
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,11 +160,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2668
+    "liczba": 2719
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1152
+    "liczba": 1243
    },
    {
     "nazwa": "Inne / brak danych",
@@ -174,28 +174,36 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 4007
+    "liczba": 4138
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1427
+    "liczba": 1434
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1125
+    "liczba": 1128
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 151
+    "liczba": 152
    }
   ],
-  "noweOdPaczki": 118,
+  "noweOdPaczki": 260,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 37
+   },
+   {
+    "rok": 2022,
+    "liczba": 60
+   },
+   {
     "rok": 2023,
-    "liczba": 16
+    "liczba": 61
    },
    {
     "rok": 2024,
@@ -211,6 +219,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -352,16 +456,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 350,
+  "miejsce": 369,
   "miejsceWMarce": 5,
-  "modeliWMarce": 22,
+  "modeliWMarce": 23,
   "sredniRocznik": 2006.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "lacetti",
@@ -373,24 +477,24 @@
    "adres": "/marki/renault/megane/"
   },
   {
-   "slug": "ford-fusion",
-   "nazwa": "Ford Fusion",
-   "adres": "/marki/ford/fusion/"
-  },
-  {
    "slug": "fiat-bravo",
    "nazwa": "Fiat Bravo",
    "adres": "/marki/fiat/bravo/"
   },
   {
-   "slug": "mercedes-benz-klasa-a",
-   "nazwa": "Mercedes-Benz Klasa A",
-   "adres": "/marki/mercedes-benz/klasa-a/"
+   "slug": "ford-fusion",
+   "nazwa": "Ford Fusion",
+   "adres": "/marki/ford/fusion/"
   },
   {
    "slug": "opel-astra",
    "nazwa": "Opel Astra",
    "adres": "/marki/opel/astra/"
+  },
+  {
+   "slug": "honda-civic",
+   "nazwa": "Honda Civic",
+   "adres": "/marki/honda/civic/"
   }
  ]
 }

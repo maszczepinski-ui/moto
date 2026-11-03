@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG ZS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 372 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG ZS, ZS, MG ZS EV, ZS HYBRID, ZS EV).",
-  "liczbaWPolsce": 13372,
-  "aktywne": 13372,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG ZS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 383 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG ZS, ZS, MG ZS EV, ZS HYBRID, ZS EV).",
+  "liczbaWPolsce": 13383,
+  "aktywne": 13383,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 720
+    "liczba": 723
    },
    {
     "teryt": "04",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 2417
+    "liczba": 2421
    },
    {
     "teryt": "16",
@@ -53,7 +53,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 452
+    "liczba": 453
    },
    {
     "teryt": "22",
@@ -61,11 +61,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 1654
+    "liczba": 1655
    },
    {
     "teryt": "26",
-    "liczba": 267
+    "liczba": 268
    },
    {
     "teryt": "28",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1509
+    "liczba": 1510
    },
    {
     "teryt": "32",
@@ -83,12 +83,16 @@
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2021,
+    "liczba": 28
+   },
+   {
     "rok": 2022,
-    "liczba": 116
+    "liczba": 117
    },
    {
     "rok": 2023,
-    "liczba": 1218
+    "liczba": 1220
    },
    {
     "rok": 2024,
@@ -110,25 +114,25 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 4079
+    "liczba": 4084
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 150
+    "liczba": 156
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 12583
+    "liczba": 12584
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 715
+    "liczba": 718
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 74
+    "liczba": 81
    }
   ],
   "pochodzenie": [
@@ -138,11 +142,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 835
+    "liczba": 840
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 327
+    "liczba": 333
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,20 +156,24 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 13314
+    "liczba": 13321
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 58
+    "liczba": 62
    }
   ],
-  "noweOdPaczki": 13372,
+  "noweOdPaczki": 13383,
   "hybrydy": 9143,
-  "elektryczne": 70,
+  "elektryczne": 76,
   "pierwszeRejestracje": [
    {
+    "rok": 2022,
+    "liczba": 3
+   },
+   {
     "rok": 2023,
-    "liczba": 25
+    "liczba": 33
    },
    {
     "rok": 2024,
@@ -181,6 +189,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 8
+   },
    {
     "miesiac": "2023-12",
     "liczba": 16
@@ -322,7 +426,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 247,
+  "miejsce": 265,
   "miejsceWMarce": 2,
   "modeliWMarce": 7,
   "sredniRocznik": 2024.8
@@ -331,7 +435,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "zs",
@@ -358,9 +462,9 @@
    "adres": "/marki/omoda/5/"
   },
   {
-   "slug": "kia-xceed",
-   "nazwa": "Kia XCeed",
-   "adres": "/marki/kia/xceed/"
+   "slug": "chery-tiggo-7",
+   "nazwa": "Chery Tiggo 7",
+   "adres": "/marki/chery/tiggo-7/"
   }
  ]
 }

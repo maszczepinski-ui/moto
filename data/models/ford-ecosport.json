@@ -13,189 +13,201 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Ecosport – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 518 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ECOSPORT, ECOSPORT TITANIUM, ECOSPORT AWD).",
-  "liczbaWPolsce": 7126,
-  "aktywne": 7097,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Ecosport – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 599 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ECOSPORT, ECOSPORT TITANIUM, ECOSPORT AWD).",
+  "liczbaWPolsce": 10207,
+  "aktywne": 10178,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 537
+    "liczba": 717
    },
    {
     "teryt": "04",
-    "liczba": 331
+    "liczba": 502
    },
    {
     "teryt": "06",
-    "liczba": 242
+    "liczba": 350
    },
    {
     "teryt": "08",
-    "liczba": 263
+    "liczba": 341
    },
    {
     "teryt": "10",
-    "liczba": 277
+    "liczba": 436
    },
    {
     "teryt": "12",
-    "liczba": 614
+    "liczba": 885
    },
    {
     "teryt": "14",
-    "liczba": 675
+    "liczba": 1047
    },
    {
     "teryt": "16",
-    "liczba": 208
+    "liczba": 327
    },
    {
     "teryt": "18",
-    "liczba": 334
+    "liczba": 498
    },
    {
     "teryt": "20",
-    "liczba": 219
+    "liczba": 319
    },
    {
     "teryt": "22",
-    "liczba": 616
+    "liczba": 839
    },
    {
     "teryt": "24",
-    "liczba": 997
+    "liczba": 1420
    },
    {
     "teryt": "26",
-    "liczba": 101
+    "liczba": 158
    },
    {
     "teryt": "28",
-    "liczba": 198
+    "liczba": 306
    },
    {
     "teryt": "30",
-    "liczba": 1134
+    "liczba": 1522
    },
    {
     "teryt": "32",
-    "liczba": 364
+    "liczba": 524
    }
   ],
   "bezWojewodztwa": 16,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 376
+    "liczba": 542
    },
    {
     "rok": 2015,
-    "liczba": 533
+    "liczba": 695
    },
    {
     "rok": 2016,
-    "liczba": 619
+    "liczba": 795
    },
    {
     "rok": 2017,
-    "liczba": 621
+    "liczba": 796
    },
    {
     "rok": 2018,
-    "liczba": 2714
+    "liczba": 3099
    },
    {
     "rok": 2019,
-    "liczba": 1301
+    "liczba": 1624
    },
    {
     "rok": 2020,
-    "liczba": 378
+    "liczba": 574
    },
    {
     "rok": 2021,
-    "liczba": 199
+    "liczba": 895
    },
    {
     "rok": 2022,
-    "liczba": 189
+    "liczba": 987
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6455
+    "liczba": 9245
    },
    {
     "nazwa": "Diesel",
-    "liczba": 605
+    "liczba": 828
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 127
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 66
+    "liczba": 7
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 5594
+    "liczba": 7946
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 847
+    "liczba": 1137
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 671
+    "liczba": 1106
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 18
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3671
+    "liczba": 4661
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2286
+    "liczba": 3339
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1143
+    "liczba": 2179
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26
+    "liczba": 28
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6040
+    "liczba": 8524
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 538
+    "liczba": 827
    },
    {
     "nazwa": "Kombi",
-    "liczba": 370
+    "liczba": 582
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 178
+    "liczba": 274
    }
   ],
-  "noweOdPaczki": 4518,
-  "hybrydy": 0,
+  "noweOdPaczki": 7599,
+  "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 843
+   },
+   {
+    "rok": 2022,
+    "liczba": 1422
+   },
+   {
     "rok": 2023,
-    "liczba": 296
+    "liczba": 1112
    },
    {
     "rok": 2024,
@@ -211,6 +223,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 142
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 214
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 141
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 94
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 119
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 62
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 81
+   },
    {
     "miesiac": "2023-12",
     "liczba": 78
@@ -352,16 +460,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 341,
-  "miejsceWMarce": 22,
-  "modeliWMarce": 45,
-  "sredniRocznik": 2017.8
+  "miejsce": 311,
+  "miejsceWMarce": 20,
+  "modeliWMarce": 46,
+  "sredniRocznik": 2018.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "ecosport",
@@ -373,24 +481,24 @@
    "adres": "/marki/dacia/sandero/"
   },
   {
-   "slug": "hyundai-i20",
-   "nazwa": "Hyundai i20",
-   "adres": "/marki/hyundai/i20/"
-  },
-  {
    "slug": "renault-captur",
    "nazwa": "Renault Captur",
    "adres": "/marki/renault/captur/"
   },
   {
-   "slug": "peugeot-108",
-   "nazwa": "Peugeot 108",
-   "adres": "/marki/peugeot/108/"
+   "slug": "hyundai-i20",
+   "nazwa": "Hyundai i20",
+   "adres": "/marki/hyundai/i20/"
   },
   {
    "slug": "peugeot-208",
    "nazwa": "Peugeot 208",
    "adres": "/marki/peugeot/208/"
+  },
+  {
+   "slug": "peugeot-108",
+   "nazwa": "Peugeot 108",
+   "adres": "/marki/peugeot/108/"
   }
  ]
 }

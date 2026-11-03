@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 90, 90 2.3, 90 2.3 KAT, 90 2.0 KAT, 90 2.0).",
-  "liczbaWPolsce": 2929,
-  "aktywne": 105,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 35 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 90, 90 2.3, 90 2.3 KAT, 90 2.0 KAT, 90 2.0).",
+  "liczbaWPolsce": 2945,
+  "aktywne": 121,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 290
+    "liczba": 292
    },
    {
     "teryt": "04",
@@ -31,19 +31,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "10",
-    "liczba": 199
+    "liczba": 200
    },
    {
     "teryt": "12",
-    "liczba": 196
+    "liczba": 198
    },
    {
     "teryt": "14",
-    "liczba": 368
+    "liczba": 373
    },
    {
     "teryt": "16",
@@ -55,11 +55,11 @@
    },
    {
     "teryt": "20",
-    "liczba": 94
+    "liczba": 95
    },
    {
     "teryt": "22",
-    "liczba": 226
+    "liczba": 227
    },
    {
     "teryt": "24",
@@ -71,7 +71,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 180
+    "liczba": 181
    },
    {
     "teryt": "30",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 138
+    "liczba": 140
    }
   ],
   "bezWojewodztwa": 9,
@@ -90,39 +90,39 @@
    },
    {
     "rok": 1985,
-    "liczba": 121
+    "liczba": 122
    },
    {
     "rok": 1986,
-    "liczba": 90
+    "liczba": 91
    },
    {
     "rok": 1987,
-    "liczba": 281
+    "liczba": 282
    },
    {
     "rok": 1988,
-    "liczba": 426
+    "liczba": 427
    },
    {
     "rok": 1989,
-    "liczba": 491
+    "liczba": 493
    },
    {
     "rok": 1990,
-    "liczba": 437
+    "liczba": 440
    },
    {
     "rok": 1991,
-    "liczba": 184
+    "liczba": 186
    },
    {
     "rok": 1992,
-    "liczba": 55
+    "liczba": 57
    },
    {
     "rok": 1993,
-    "liczba": 67
+    "liczba": 68
    },
    {
     "rok": 1994,
@@ -144,11 +144,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1086
+    "liczba": 1087
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 994
+    "liczba": 1009
    },
    {
     "nazwa": "?+LPG",
@@ -166,23 +166,23 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 1534
+    "liczba": 1542
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 817
+    "liczba": 818
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 289
+    "liczba": 291
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 85
+    "liczba": 87
    },
    {
     "nazwa": "1,9 l",
@@ -190,17 +190,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 86
+    "liczba": 88
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2076
+    "liczba": 2078
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 579
+    "liczba": 593
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -218,11 +218,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1704
+    "liczba": 1714
    },
    {
     "nazwa": "Coupe",
-    "liczba": 182
+    "liczba": 185
    },
    {
     "nazwa": "Hatchback",
@@ -230,16 +230,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 931
+    "liczba": 934
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 35,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 7
+   },
+   {
+    "rok": 2022,
+    "liczba": 4
+   },
+   {
     "rok": 2023,
-    "liczba": 1
+    "liczba": 6
    },
    {
     "rok": 2024,
@@ -255,6 +263,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2023-12",
     "liczba": 0
@@ -396,16 +500,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 493,
+  "miejsce": 513,
   "miejsceWMarce": 19,
-  "modeliWMarce": 51,
+  "modeliWMarce": 52,
   "sredniRocznik": 1990.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "90",
@@ -422,14 +526,14 @@
    "adres": "/marki/ford/sierra/"
   },
   {
-   "slug": "opel-omega",
-   "nazwa": "Opel Omega",
-   "adres": "/marki/opel/omega/"
-  },
-  {
    "slug": "mercedes-benz-190-w201",
    "nazwa": "Mercedes-Benz 190 (W201)",
    "adres": "/marki/mercedes-benz/190-w201/"
+  },
+  {
+   "slug": "opel-omega",
+   "nazwa": "Opel Omega",
+   "adres": "/marki/opel/omega/"
   },
   {
    "slug": "renault-21",

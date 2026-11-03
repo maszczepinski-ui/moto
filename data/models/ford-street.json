@@ -6,27 +6,28 @@
  "lataProdukcji": "2003–2005",
  "nadwozia": [
   "kabriolet",
-  "hatchback"
+  "hatchback",
+  "coupe"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Street – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 87 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREET KA).",
-  "liczbaWPolsce": 278,
-  "aktywne": 183,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Street – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 164 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREET KA).",
+  "liczbaWPolsce": 355,
+  "aktywne": 260,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 27
+    "liczba": 32
    },
    {
     "teryt": "04",
-    "liczba": 15
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 7
+    "liczba": 13
    },
    {
     "teryt": "08",
@@ -34,23 +35,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 21
+    "liczba": 27
    },
    {
     "teryt": "12",
-    "liczba": 14
+    "liczba": 20
    },
    {
     "teryt": "14",
-    "liczba": 45
+    "liczba": 55
    },
    {
     "teryt": "16",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "18",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "20",
@@ -58,15 +59,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 26
    },
    {
     "teryt": "24",
-    "liczba": 31
+    "liczba": 40
    },
    {
     "teryt": "26",
-    "liczba": 6
+    "liczba": 9
    },
    {
     "teryt": "28",
@@ -74,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 34
+    "liczba": 42
    },
    {
     "teryt": "32",
-    "liczba": 11
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 9,
@@ -229,15 +230,15 @@
    },
    {
     "rok": 2003,
-    "liczba": 146
+    "liczba": 187
    },
    {
     "rok": 2004,
-    "liczba": 87
+    "liczba": 111
    },
    {
     "rok": 2005,
-    "liczba": 30
+    "liczba": 42
    },
    {
     "rok": 2006,
@@ -247,11 +248,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 261
+    "liczba": 336
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
@@ -261,7 +262,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 273
+    "liczba": 350
    },
    {
     "nazwa": "Inne / brak danych",
@@ -271,46 +272,58 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 166
+    "liczba": 195
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 101
+    "liczba": 144
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy jako nowy",
+    "liczba": 2
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 14
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 250
+    "liczba": 311
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 14
+    "liczba": 23
    },
    {
     "nazwa": "Coupe",
-    "liczba": 6
+    "liczba": 11
    },
    {
     "nazwa": "Sedan",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
-  "noweOdPaczki": 87,
+  "noweOdPaczki": 164,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2021,
+    "liczba": 16
+   },
+   {
+    "rok": 2022,
+    "liczba": 32
+   },
+   {
     "rok": 2023,
-    "liczba": 5
+    "liczba": 34
    },
    {
     "rok": 2024,
@@ -326,6 +339,102 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2021-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2022-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2022-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2022-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2022-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2022-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2022-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2022-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2023-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2023-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2023-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2023-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2023-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2023-12",
     "liczba": 1
@@ -467,18 +576,45 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1115,
+  "miejsce": 1074,
   "miejsceWMarce": 39,
-  "modeliWMarce": 45,
-  "sredniRocznik": 2003.4
+  "modeliWMarce": 46,
+  "sredniRocznik": 2003.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-02",
+ "dataAktualizacji": "2026-11-03",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "street",
- "adres": "/marki/ford/street/"
+ "adres": "/marki/ford/street/",
+ "konkurenci": [
+  {
+   "slug": "honda-civic",
+   "nazwa": "Honda Civic",
+   "adres": "/marki/honda/civic/"
+  },
+  {
+   "slug": "mazda-mx-5",
+   "nazwa": "Mazda MX-5",
+   "adres": "/marki/mazda/mx-5/"
+  },
+  {
+   "slug": "opel-astra",
+   "nazwa": "Opel Astra",
+   "adres": "/marki/opel/astra/"
+  },
+  {
+   "slug": "skoda-fabia-i",
+   "nazwa": "Skoda Fabia I",
+   "adres": "/marki/skoda/fabia/i/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-slk",
+   "nazwa": "Mercedes-Benz Klasa SLK",
+   "adres": "/marki/mercedes-benz/klasa-slk/"
+  }
+ ]
 }
