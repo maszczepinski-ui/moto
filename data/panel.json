@@ -7,14 +7,62 @@
   },
   "filmy": [],
   "moduly": {
-    "vin": { "wlaczony": true, "partner": "", "url": "" },
-    "ubezpieczenia": { "wlaczony": true, "siec": "", "oc": "", "ac": "", "nnw": "" },
-    "czesci": { "wlaczony": false, "allegro": "", "ceneo": "", "frazy": "filtr oleju, klocki hamulcowe, olej silnikowy, wycieraczki, akumulator" },
-    "adsense": { "wlaczony": false, "klient": "", "slotGora": "", "slotSpec": "", "slotDol": "" }
+    "vin": {
+      "wlaczony": false,
+      "partner": "carvertical",
+      "url": "",
+      "kod": "",
+      "rabat": "-20%"
+    },
+    "ubezpieczenia": {
+      "wlaczony": true,
+      "siec": "",
+      "oc": "",
+      "ac": "",
+      "nnw": ""
+    },
+    "czesci": {
+      "wlaczony": false,
+      "allegro": "",
+      "ceneo": "",
+      "frazy": "filtr oleju, klocki hamulcowe, olej silnikowy, wycieraczki, akumulator"
+    },
+    "adsense": {
+      "wlaczony": false,
+      "klient": "",
+      "slotGora": "",
+      "slotSpec": "",
+      "slotDol": ""
+    },
+    "ogledziny": {
+      "wlaczony": true,
+      "partner": "",
+      "url": ""
+    },
+    "finansowanie": {
+      "wlaczony": true,
+      "partner": "",
+      "url": ""
+    }
   },
-  "kolejnosc": ["vin", "ubezpieczenia", "czesci"],
+  "kolejnosc": [
+    "vin",
+    "ubezpieczenia",
+    "czesci"
+  ],
   "reguly": [],
-  "kody": { "head": "", "body": "", "strony": [] },
-  "seo": { "gsc": "", "adsTxt": "", "ga4": "" },
-  "opisyZatwierdzone": []
+  "kody": {
+    "head": "",
+    "body": "",
+    "strony": []
+  },
+  "seo": {
+    "gsc": "",
+    "adsTxt": "",
+    "ga4": ""
+  },
+  "opisyZatwierdzone": [
+    "polski-fiat-126p",
+    "volkswagen-golf"
+  ]
 }
