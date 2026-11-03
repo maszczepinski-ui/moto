@@ -13,10 +13,12 @@ import Aktualizacje from '@/components/admin/Aktualizacje';
 import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
 import ProduktyRankingi from '@/components/admin/ProduktyRankingi';
 import OpisFilmu from '@/components/admin/OpisFilmu';
+import LogoIkona, { type Marka } from '@/components/admin/LogoIkona';
 import { site } from '@/config/site';
 import {
   KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard,
-  Fuel
+  Fuel,
+  Palette
 } from 'lucide-react';
 
 type Linki = { vin: string; oc: string; ac: string; nnw: string };
@@ -42,6 +44,7 @@ type Dane = {
   seo: { gsc: string; adsTxt: string; ga4: string };
   opisyZatwierdzone: string[];
   ceny: { pb95: number; on: number; lpg: number; prad: number; data: string };
+  marka: Marka;
 };
 type ModelOpcja = { slug: string; nazwa: string; liczba: number; adres: string };
 type StronaOpcja = { sciezka: string; nazwa: string };
@@ -132,7 +135,8 @@ function uzupelnij(d: Partial<Dane>): Dane {
     kody: { head: '', body: '', strony: [], ...d.kody },
     seo: { gsc: '', adsTxt: '', ga4: '', ...d.seo },
     opisyZatwierdzone: d.opisyZatwierdzone || [],
-    ceny: { pb95: 6.45, on: 8.09, lpg: 3.69, prad: 1.2, data: '2026-11-02', ...d.ceny }
+    ceny: { pb95: 6.45, on: 8.09, lpg: 3.69, prad: 1.2, data: '2026-11-02', ...d.ceny },
+    marka: { logo: '', logoCiemne: '', logoTryb: 'obok', ikonaWersja: '', ...d.marka }
   };
 }
 
@@ -160,7 +164,7 @@ function Przelacznik({ wlaczony, onChange, label }: { wlaczony: boolean; onChang
   );
 }
 
-type Zakladka = 'linki' | 'filmy' | 'artykuly' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje';
+type Zakladka = 'linki' | 'filmy' | 'artykuly' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
 
 export default function AdminPanel({
   modele,
@@ -212,7 +216,7 @@ export default function AdminPanel({
   }, [repoDomyslne]);
 
   /** Dowolne zapytanie do API GitHuba dla tego repozytorium (np. uruchomienie aktualizacji danych) */
-  async function api(sciezka: string, metoda: 'GET' | 'POST' | 'PUT' | 'DELETE' = 'GET', body?: object) {
+  async function api(sciezka: string, metoda: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE' = 'GET', body?: object) {
     let r: Response;
     try {
       r = await fetch(`https://api.github.com/repos/${repo.trim()}${sciezka}`, {
@@ -377,7 +381,8 @@ export default function AdminPanel({
     ['kody', 'Kody', <Code2 key="i" className="w-4 h-4" />],
     ['seo', 'SEO, reklamy i ceny', <Megaphone key="i" className="w-4 h-4" />],
     ['opisy', `Opisy (${szkice.length})`, <FileText key="i" className="w-4 h-4" />],
-    ['aktualizacje', 'Aktualizacje danych', <Database key="i" className="w-4 h-4" />]
+    ['aktualizacje', 'Aktualizacje danych', <Database key="i" className="w-4 h-4" />],
+    ['wyglad', 'Logo i ikona', <Palette key="i" className="w-4 h-4" />]
   ];
 
   return (
@@ -900,6 +905,7 @@ export default function AdminPanel({
           {zakladka === 'aktualizacje' && <Aktualizacje api={api} branch={branch} stanDanych={stanDanych} />}
           {zakladka === 'artykuly' && <ArtykulyFilmow api={api} branch={branch} modele={modele} />}
           {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
+          {zakladka === 'wyglad' && <LogoIkona api={api} branch={branch} marka={dane.marka} zmiany={zmiany} onZapisano={wczytaj} />}
 
           {/* ===================== OPISY ===================== */}
           {zakladka === 'opisy' && (
@@ -959,7 +965,7 @@ export default function AdminPanel({
           )}
 
           {/* przycisk zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje) mają własne przyciski */}
-          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'produkty', 'aktualizacje'].includes(zakladka) ? 'hidden' : ''}`}>
+          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'produkty', 'aktualizacje', 'wyglad'].includes(zakladka) ? 'hidden' : ''}`}>
             <button
               type="button"
               onClick={zapisz}

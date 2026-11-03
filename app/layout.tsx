@@ -7,6 +7,7 @@ import { site } from '@/config/site';
 import { Analytics } from '@vercel/analytics/next';
 import { SkryptyHead, SkryptyBody, wlasnyBanerZgod } from '@/components/SkryptyGlobalne';
 import BanerZgod from '@/components/BanerZgod';
+import Aplikacja from '@/components/Aplikacja';
 import PasekSezonowy from '@/components/PasekSezonowy';
 import { panelDane } from '@/lib/panel';
 
@@ -22,6 +23,9 @@ export const metadata: Metadata = {
   description:
     'Karty popularnych modeli aut: liczba zarejestrowanych egzemplarzy w Polsce według CEPiK, mapa województw, roczniki, silniki i wymiary.',
   ...(gsc ? { verification: { google: gsc } } : {}),
+  // Strona dodana do ekranu głównego iPhone'a otwiera się jak aplikacja (bez paska Safari)
+  applicationName: site.name,
+  appleWebApp: { capable: true, title: site.name, statusBarStyle: 'default' },
   openGraph: {
     siteName: site.name,
     title: `${site.name} – ile ich jeździ w Polsce i gdzie`,
@@ -61,6 +65,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {process.env.NEXT_PUBLIC_STATYCZNA !== '1' && <Analytics />}
         <SkryptyBody />
         {wlasnyBanerZgod && <BanerZgod />}
+        <Aplikacja />
       </body>
     </html>
   );

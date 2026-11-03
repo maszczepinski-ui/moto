@@ -102,22 +102,81 @@ const FORMULARZE: Record<Generator, Grupa[]> = {
     { t: 'Ubezpieczyciel', pola: [{ k: 'ubezp', l: 'Nazwa ubezpieczyciela' }, { k: 'polisa', l: 'Nr polisy OC', szer: 'pol' }, { k: 'nowa', l: 'Nr nowej polisy (art. 28a, opcjonalnie)', szer: 'pol' }] },
     { t: 'Twoje dane', pola: [{ k: 'imie', l: 'Imię i nazwisko' }, { k: 'adres', l: 'Adres' }, { k: 'pesel', l: 'PESEL (opcjonalnie)' }] },
     { t: 'Samochód', pola: [{ k: 'auto', l: 'Marka i model', szer: 'pol' }, { k: 'rej', l: 'Nr rejestracyjny', szer: 'pol' }, { k: 'miejsce', l: 'Miejscowość', szer: 'pol' }, { k: 'data', l: 'Data', typ: 'date', szer: 'pol' }] }
+  ],
+  darowizna: [
+    { t: 'Umowa', pola: [{ k: 'miejsce', l: 'Miejscowość', szer: 'pol' }, { k: 'data', l: 'Data', typ: 'date', szer: 'pol' }] },
+    { t: 'Darczyńca (oddaje auto)', pola: [{ k: 'd_imie', l: 'Imię i nazwisko' }, { k: 'd_adres', l: 'Adres' }, { k: 'd_dok', l: 'Nr dowodu osobistego lub PESEL' }] },
+    { t: 'Obdarowany (dostaje auto)', pola: [{ k: 'o_imie', l: 'Imię i nazwisko' }, { k: 'o_adres', l: 'Adres' }, { k: 'o_dok', l: 'Nr dowodu osobistego lub PESEL' }, { k: 'pokrewienstwo', l: 'Kim jest dla darczyńcy', pod: 'Np. „synem darczyńcy”, „córką”, „bratem”, „małżonkiem”.' }] },
+    {
+      t: 'Samochód',
+      pola: [
+        { k: 'marka', l: 'Marka', szer: 'pol' },
+        { k: 'model', l: 'Model', szer: 'pol' },
+        { k: 'rok', l: 'Rok produkcji', typ: 'number', szer: 'pol' },
+        { k: 'rej', l: 'Nr rejestracyjny', szer: 'pol' },
+        { k: 'vin', l: 'Numer VIN (17 znaków)' },
+        { k: 'przebieg', l: 'Przebieg (km)', typ: 'number', szer: 'pol' },
+        { k: 'wartosc', l: 'Wartość rynkowa (zł)', typ: 'number', szer: 'pol', pod: 'Potrzebna do zgłoszenia SD-Z2.' }
+      ]
+    }
+  ],
+  dziura: [
+    { t: 'Pismo', pola: [{ k: 'miejsce', l: 'Miejscowość', szer: 'pol' }, { k: 'data', l: 'Data pisma', typ: 'date', szer: 'pol' }] },
+    { t: 'Twoje dane', pola: [{ k: 'imie', l: 'Imię i nazwisko' }, { k: 'adres', l: 'Adres' }, { k: 'tel', l: 'Telefon lub e-mail', szer: 'pol' }, { k: 'konto', l: 'Nr konta do wypłaty', szer: 'pol' }] },
+    { t: 'Zarządca drogi', pola: [{ k: 'zarzadca', l: 'Nazwa i adres zarządcy', pod: 'Np. „Zarząd Dróg Powiatowych w …, ul. …” albo „GDDKiA Oddział w …”.' }] },
+    {
+      t: 'Zdarzenie',
+      pola: [
+        { k: 'z_data', l: 'Data zdarzenia', typ: 'date', szer: 'pol' },
+        { k: 'z_godz', l: 'Godzina', typ: 'time', szer: 'pol' },
+        { k: 'z_miejsce', l: 'Dokładne miejsce', pod: 'Miejscowość, ulica lub numer drogi, kilometr, kierunek jazdy.' },
+        { k: 'auto', l: 'Marka i model auta', szer: 'pol' },
+        { k: 'rej', l: 'Nr rejestracyjny', szer: 'pol' },
+        { k: 'opis', l: 'Przebieg zdarzenia', typ: 'textarea', pod: 'Np. „Jadąc z prędkością ok. 40 km/h wjechałem prawym przednim kołem w nieoznakowaną dziurę o głębokości ok. 10 cm…”' },
+        { k: 'szkody', l: 'Uszkodzenia auta', typ: 'textarea' },
+        { k: 'kwota', l: 'Żądana kwota (zł)', typ: 'number', szer: 'pol' },
+        {
+          k: 'znak',
+          l: 'Czy dziura była oznakowana?',
+          typ: 'select',
+          szer: 'pol',
+          opcje: [
+            ['nie', 'nie – brak znaku i zabezpieczenia'],
+            ['tak', 'tak – był znak ostrzegawczy']
+          ]
+        },
+        {
+          k: 'policja',
+          l: 'Notatka służb',
+          typ: 'select',
+          szer: 'pol',
+          opcje: [
+            ['tak', 'zdarzenie zgłoszono policji / straży miejskiej'],
+            ['nie', 'nie wzywano służb']
+          ]
+        }
+      ]
+    }
   ]
 };
 
 const DOMYSLNE: Record<Generator, Record<string, string>> = {
   umowa: { data: '', zaplata: 'gotowka', rekojmia: 'zostaje', klucze: '2' },
   oswiadczenie: { data: '' },
-  wypowiedzenie: { podstawa: '28', data: '' }
+  wypowiedzenie: { podstawa: '28', data: '' },
+  darowizna: { data: '' },
+  dziura: { data: '', policja: 'tak', znak: 'nie' }
 };
 
 const TYTULY: Record<Generator, string> = {
   umowa: 'Umowa kupna-sprzedaży',
   oswiadczenie: 'Oświadczenie sprawcy kolizji',
-  wypowiedzenie: 'Wypowiedzenie OC'
+  wypowiedzenie: 'Wypowiedzenie OC',
+  darowizna: 'Umowa darowizny samochodu',
+  dziura: 'Wniosek o odszkodowanie do zarządcy drogi'
 };
 
-const KOPIE: Record<Generator, number> = { umowa: 2, oswiadczenie: 2, wypowiedzenie: 1 };
+const KOPIE: Record<Generator, number> = { umowa: 2, oswiadczenie: 2, wypowiedzenie: 1, darowizna: 2, dziura: 1 };
 
 function dataPl(iso?: string) {
   if (!iso) return '';
@@ -259,8 +318,88 @@ function Wypowiedzenie({ d }: { d: Record<string, string> }) {
   );
 }
 
+function Darowizna({ d }: { d: Record<string, string> }) {
+  return (
+    <>
+      <h3 className="text-center text-base font-bold uppercase tracking-wide">Umowa darowizny samochodu</h3>
+      <p className="text-center">
+        zawarta w <W v={d.miejsce} /> dnia <W v={dataPl(d.data)} min="w-24" />
+      </p>
+      <p>
+        <strong>Darczyńca:</strong> <W v={d.d_imie} min="w-56" />, zam. <W v={d.d_adres} min="w-64" />, legitymujący się <W v={d.d_dok} />
+      </p>
+      <p>
+        <strong>Obdarowany:</strong> <W v={d.o_imie} min="w-56" />, zam. <W v={d.o_adres} min="w-64" />, legitymujący się <W v={d.o_dok} />, będący <W v={d.pokrewienstwo} />.
+      </p>
+      <p>
+        <strong>§ 1.</strong> Darczyńca oświadcza, że jest właścicielem samochodu marki <W v={d.marka} min="w-24" /> model <W v={d.model} min="w-24" />, rok produkcji <W v={d.rok} min="w-14" />, nr VIN{' '}
+        <W v={d.vin} min="w-56" />, nr rejestracyjny <W v={d.rej} min="w-24" />, o przebiegu <W v={d.przebieg ? `${Number(d.przebieg).toLocaleString('pl-PL')} km` : ''} min="w-24" />, oraz że samochód nie jest obciążony prawami osób trzecich.
+      </p>
+      <p>
+        <strong>§ 2.</strong> Darczyńca przekazuje opisany samochód Obdarowanemu w darowiźnie, a Obdarowany darowiznę przyjmuje. Strony określają wartość rynkową samochodu na <W v={kwota(d.wartosc)} min="w-28" />.
+      </p>
+      <p>
+        <strong>§ 3.</strong> Wydanie samochodu wraz z dowodem rejestracyjnym, kluczykami i dokumentem ubezpieczenia OC nastąpiło w dniu podpisania umowy.
+      </p>
+      <p>
+        <strong>§ 4.</strong> Obdarowany zapoznał się ze stanem technicznym samochodu. W sprawach nieuregulowanych stosuje się przepisy Kodeksu cywilnego. Umowę sporządzono w dwóch jednobrzmiących egzemplarzach, po jednym dla każdej ze stron.
+      </p>
+      <Podpisy lewy="podpis Darczyńcy" prawy="podpis Obdarowanego" />
+    </>
+  );
+}
+
+function Dziura({ d }: { d: Record<string, string> }) {
+  return (
+    <>
+      <p className="text-right">
+        <W v={d.miejsce} />, dnia <W v={dataPl(d.data)} min="w-24" />
+      </p>
+      <p>
+        <W v={d.imie} min="w-56" />
+        <br />
+        <W v={d.adres} min="w-64" />
+        {d.tel ? (
+          <>
+            <br />
+            kontakt: {d.tel}
+          </>
+        ) : null}
+      </p>
+      <p className="ml-auto max-w-[60%] text-right font-semibold whitespace-pre-line">
+        <W v={d.zarzadca} min="w-64" />
+      </p>
+      <h3 className="text-center text-base font-bold uppercase tracking-wide pt-2">Wniosek o wypłatę odszkodowania</h3>
+      <p>
+        Na podstawie art. 415 Kodeksu cywilnego wnoszę o wypłatę odszkodowania w kwocie <W v={kwota(d.kwota)} min="w-28" /> za szkodę w samochodzie <W v={d.auto} /> o nr rejestracyjnym <W v={d.rej} min="w-24" />, powstałą w dniu{' '}
+        <W v={dataPl(d.z_data)} min="w-24" />
+        {d.z_godz ? ` około godz. ${d.z_godz}` : ''} w miejscu: <W v={d.z_miejsce} min="w-64" />, w wyniku najechania na ubytek w nawierzchni drogi, której jesteście Państwo zarządcą.
+      </p>
+      <p>
+        <strong>Przebieg zdarzenia:</strong> <W v={d.opis} min="w-full" />
+      </p>
+      <p>
+        <strong>Uszkodzenia:</strong> <W v={d.szkody} min="w-full" />
+      </p>
+      <p>
+        {d.znak === 'tak' ? 'Mimo ustawionego oznakowania stan drogi nie pozwalał na bezpieczny przejazd z dozwoloną prędkością.' : 'Ubytek nie był oznakowany ani zabezpieczony, co stanowi naruszenie obowiązku utrzymania drogi w należytym stanie.'}{' '}
+        {d.policja === 'tak' ? 'Zdarzenie zostało zgłoszone służbom, które sporządziły notatkę.' : ''} Jeżeli zarządca posiada ubezpieczenie OC, proszę o przekazanie wniosku ubezpieczycielowi i wskazanie numeru szkody.
+      </p>
+      <p>
+        Odszkodowanie proszę przelać na rachunek: <W v={d.konto} min="w-64" />.
+      </p>
+      <p>
+        <strong>Załączniki:</strong> zdjęcia miejsca zdarzenia i uszkodzeń{d.policja === 'tak' ? ', notatka służb (lub jej sygnatura)' : ''}, kosztorys lub faktury za naprawę, kopia dowodu rejestracyjnego.
+      </p>
+      <div className="flex justify-end pt-12">
+        <div className="w-56 border-t border-slate-500 pt-1 text-center text-[11px]">podpis</div>
+      </div>
+    </>
+  );
+}
+
 function Arkusz({ rodzaj, d }: { rodzaj: Generator; d: Record<string, string> }) {
-  const tresc: Record<Generator, ReactNode> = { umowa: <Umowa d={d} />, oswiadczenie: <Oswiadczenie d={d} />, wypowiedzenie: <Wypowiedzenie d={d} /> };
+  const tresc: Record<Generator, ReactNode> = { umowa: <Umowa d={d} />, oswiadczenie: <Oswiadczenie d={d} />, wypowiedzenie: <Wypowiedzenie d={d} />, darowizna: <Darowizna d={d} />, dziura: <Dziura d={d} /> };
   return <div className="arkusz bg-white text-slate-900 font-serif text-[13px] leading-relaxed space-y-3 p-8 sm:p-10">{tresc[rodzaj]}</div>;
 }
 

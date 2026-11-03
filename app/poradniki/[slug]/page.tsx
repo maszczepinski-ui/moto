@@ -73,6 +73,13 @@ const AKCENT: Record<KategoriaPoradnika, { tlo: string; etykieta: string; skrot:
     ikona: 'text-rust-600 dark:text-rust-400',
     pasek: 'bg-rust-500'
   },
+  codzienne: {
+    tlo: 'from-slate-950 via-slate-900 to-violet-900',
+    etykieta: 'text-violet-300',
+    skrot: 'bg-violet-50 ring-violet-200 dark:bg-violet-950/40 dark:ring-violet-900',
+    ikona: 'text-violet-600 dark:text-violet-400',
+    pasek: 'bg-violet-500'
+  },
   bezpieczenstwo: {
     tlo: 'from-slate-950 via-slate-900 to-emerald-900',
     etykieta: 'text-emerald-300',

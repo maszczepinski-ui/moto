@@ -58,6 +58,8 @@ export interface PanelDane {
   opisyZatwierdzone?: string[];
   /** ceny paliw i prądu do kalkulatorów (zł/l, prąd zł/kWh); data – kiedy je wpisano */
   ceny?: Partial<CenyPaliw>;
+  /** logo w nagłówku i wersja ikon (zmieniane w panelu: zakładka „Logo i ikona”) */
+  marka?: { logo?: string; logoCiemne?: string; logoTryb?: 'obok' | 'zamiast'; ikonaWersja?: string };
 }
 
 export interface CenyPaliw {
@@ -197,4 +199,11 @@ export function sklepOpon(sezon?: 'zimowe' | 'letnie'): { nazwa: string; url: st
   if (!o || o.wlaczony === false) return null;
   const url = ((sezon && o[sezon]) || o.url || '').trim();
   return /^https:\/\//.test(url) ? { nazwa: o.partner || 'sklep z oponami', url } : null;
+}
+
+/** Logo i ikona strony z panelu admina (puste = domyślna pinezka i nazwa) */
+export function marka() {
+  const m = panelDane.marka || {};
+  const bezpieczny = (u?: string) => (u && /^\/marka\/[\w.-]+\.png(\?v=\d+)?$/.test(u) ? u : '');
+  return { logo: bezpieczny(m.logo), logoCiemne: bezpieczny(m.logoCiemne), logoTryb: m.logoTryb === 'zamiast' ? 'zamiast' : 'obok', ikonaWersja: /^\d+$/.test(m.ikonaWersja || '') ? m.ikonaWersja! : '' } as const;
 }

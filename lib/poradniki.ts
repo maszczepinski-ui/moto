@@ -4,9 +4,9 @@
 
 export const STAN_PORADNIKOW = 'listopad 2026';
 
-export type KategoriaPoradnika = 'kupno' | 'kolizja' | 'bezpieczenstwo';
-export type Generator = 'umowa' | 'oswiadczenie' | 'wypowiedzenie';
-export type IkonaPoradnika = 'umowa' | 'kluczyk' | 'sprzedaz' | 'oc' | 'kolizja' | 'ranni' | 'ucieczka' | 'zwierze' | 'korytarz' | 'odstep' | 'fotelik' | 'awaria' | 'mgla';
+export type KategoriaPoradnika = 'kupno' | 'kolizja' | 'bezpieczenstwo' | 'codzienne';
+export type Generator = 'umowa' | 'oswiadczenie' | 'wypowiedzenie' | 'darowizna' | 'dziura';
+export type IkonaPoradnika = 'umowa' | 'kluczyk' | 'sprzedaz' | 'oc' | 'kolizja' | 'ranni' | 'ucieczka' | 'zwierze' | 'korytarz' | 'odstep' | 'fotelik' | 'awaria' | 'mgla' | 'import' | 'darowizna' | 'szkoda' | 'dziura' | 'przeglad' | 'dokumenty' | 'kontrola' | 'granica' | 'zima';
 
 export type Blok =
   | { typ: 'p'; t: string }
@@ -40,8 +40,9 @@ export interface Poradnik {
 
 export const KATEGORIE: Record<KategoriaPoradnika, { nazwa: string; opis: string }> = {
   kupno: { nazwa: 'Kupno i sprzedaż auta', opis: 'Umowa, podatek, rejestracja, OC – terminy i kary w jednym miejscu.' },
-  kolizja: { nazwa: 'Kolizja i wypadek', opis: 'Co zrobić na miejscu, kiedy wezwać policję i jak dostać odszkodowanie.' },
-  bezpieczenstwo: { nazwa: 'Bezpieczeństwo na drodze', opis: 'Jak się zachować w trudnych sytuacjach – przepisy i proste zasady, które ratują życie.' }
+  kolizja: { nazwa: 'Kolizja, wypadek i szkody', opis: 'Co zrobić na miejscu, kiedy wezwać policję i jak dostać odszkodowanie.' },
+  bezpieczenstwo: { nazwa: 'Bezpieczeństwo na drodze', opis: 'Jak się zachować w trudnych sytuacjach – przepisy i proste zasady, które ratują życie.' },
+  codzienne: { nazwa: 'Kierowca na co dzień', opis: 'Przegląd, dokumenty, kontrola drogowa i wyjazd za granicę – sprawy, które prędzej czy później dotyczą każdego.' }
 };
 
 const Z = {
@@ -63,6 +64,30 @@ const Z = {
   odstep: { n: 'Auto Świat – zasada „pół licznika”, minimalny odstęp na autostradzie', url: 'https://www.auto-swiat.pl/porady/czy-wiesz-co-oznacza-zasada-pol-licznika-jaki-jest-minimalny-odstep-na-autostradzie/1spfkfm' },
   foteliki: { n: 'CUK – przewóz dzieci w samochodzie, aktualne przepisy', url: 'https://cuk.pl/porady/przewoz-dzieci-w-samochodzie-do-kiedy-musi-byc-w-foteliku-aktualne-przepisy' },
   awaria: { n: 'Mubi – awaria na autostradzie lub drodze ekspresowej', url: 'https://mubi.pl/poradniki/awaria-samochodu-na-autostradzie/' },
+  akcyza: { n: 'Rankomat – akcyza za samochód sprowadzony (stawki, terminy)', url: 'https://rankomat.pl/samochod/akcyza-za-samochod' },
+  importCuk: { n: 'CUK – auta z Niemiec: sprowadzenie, rejestracja, ubezpieczenie', url: 'https://cuk.pl/porady/auta-z-niemiec-jak-sprowadzic-zarejestrowac-i-ubezpieczyc-w-polsce' },
+  rejestracja2026: { n: 'Otomoto – ile kosztuje rejestracja samochodu w 2026 r.', url: 'https://www.otomoto.pl/news/rejestracja-samochodu-2' },
+  darowizna: { n: 'Freenance – darowizna samochodu 2026: podatek, umowa, SD-Z2', url: 'https://freenance.io/podatki/darowizna-samochodu-2026-podatek-umowa-zgloszenie/' },
+  darowiznaUlotka: { n: 'Ministerstwo Finansów (podatki.gov.pl) – zasady opodatkowania spadków i darowizn', url: 'https://www.podatki.gov.pl/media/5852/zasady_opodatk-_spadkow_i_darowizn_2019.pdf' },
+  wyplataOc: { n: 'CUK – kiedy zostanie wypłacone odszkodowanie z OC sprawcy', url: 'https://cuk.pl/porady/kiedy-zostanie-wyplacone-odszkodowanie-z-oc-sprawcy' },
+  autoZastepcze: { n: 'CUK – samochód zastępczy z OC sprawcy', url: 'https://cuk.pl/porady/samochod-zastepczy-z-oc-sprawcy-na-jakich-warunkach' },
+  przedawnienie: { n: 'Mubi – przedawnienie roszczeń z OC', url: 'https://mubi.pl/poradniki/przedawnienie-roszczen-z-oc/' },
+  rf: { n: 'Rzecznik Finansowy – pomoc w sporach z ubezpieczycielem', url: 'https://rf.gov.pl/' },
+  dziuraRankomat: { n: 'Rankomat – dziura w drodze: kto zapłaci za uszkodzenia', url: 'https://rankomat.pl/samochod/dziura-droga-kto-zaplaci-za-uszkodzenia' },
+  dziuraAutocentrum: { n: 'Autocentrum – uszkodzenie auta na dziurze: jak uzyskać odszkodowanie', url: 'https://www.autocentrum.pl/publikacje/porady/uszkodziles-samochod-na-dziurze-w-jezdni-oto-jak-uzyskac-odszkodowanie/' },
+  przeglad2026: { n: 'Auto Świat – badania techniczne 2026: ceny i zapowiadane zmiany', url: 'https://www.auto-swiat.pl/porady/nowe-przeglady-techniczne-2026-cala-prawda-o-podwyzkach-i-rzekomych-karach/1j64h4m' },
+  przegladPoTerminie: { n: 'Otomoto – przegląd po terminie: cena i kara', url: 'https://www.otomoto.pl/news/ile-kosztuje-przeglad-samochodu-po-terminie-cena-i-kara' },
+  przegladRankomat: { n: 'Rankomat – przegląd samochodu: koszt i ponowne badanie', url: 'https://rankomat.pl/samochod/przeglad-samochodu' },
+  wtornikDowodu: { n: 'Warszawa 19115 – wydanie wtórnika dowodu rejestracyjnego', url: 'https://warszawa19115.pl/en/-/wydanie-wtornika-dowodu-rejestracyjnego' },
+  wtornikPj: { n: 'gov.pl – zgłoś utratę lub uszkodzenie prawa jazdy', url: 'https://www.gov.pl/web/gov/zglos-utrate-lub-uszkodzenie-prawa-jazdy' },
+  dokumentyKierowcy: { n: 'CUK – jakie dokumenty musi mieć kierowca', url: 'https://cuk.pl/porady/czy-trzeba-miec-przy-sobie-prawo-jazdy-jakie-dokumenty-musi-miec-kierowca' },
+  kontrolaInteria: { n: 'Interia Motoryzacja – kontrola drogowa: kto może zatrzymać i jak się zachować', url: 'https://motoryzacja.interia.pl/porady/przepisy-drogowe/news-kontrola-drogowa-kto-moze-nas-zatrzymac-i-jak-sie-zachowac,nId,7272801' },
+  kontrolaCuk: { n: 'CUK – jak przebiega kontrola policyjna', url: 'https://cuk.pl/porady/kontrola-policyjna' },
+  kpw: { n: 'Kodeks postępowania w sprawach o wykroczenia (ISAP)', url: 'https://isap.sejm.gov.pl/isap.nsf/DocDetails.xsp?id=WDU20011061148' },
+  zielonaKarta: { n: 'Rankomat – kiedy i gdzie kierowca potrzebuje Zielonej Karty', url: 'https://rankomat.pl/samochod/kiedy-gdzie-kierowca-potrzebuje-zielonej-karty-za-granica' },
+  wakacjeAutem: { n: 'CarLease Polska – wakacje autem po Europie 2026: dokumenty, winiety', url: 'https://carleasepolska.pl/blog/556/wakacje-autem-po-europie-2026-jakie-dokumenty-winiety-i-ubezpieczenia-musisz-miec' },
+  zimaInteria: { n: 'Interia Motoryzacja – mandat za nieodśnieżony samochód (art. 60 i 66)', url: 'https://motoryzacja.interia.pl/porady/przepisy-drogowe/news-zima-kierowcy-musza-szczegolnie-uwazac-na-art-60-i-66-inacze,nId,7253172' },
+  kable: { n: 'CUK – jak uruchomić samochód za pomocą kabli rozruchowych', url: 'https://cuk.pl/porady/samochod-kable-rozruchowe' },
   mgla: { n: 'Interia Motoryzacja – kiedy włączać światła przeciwmgłowe z przodu i z tyłu', url: 'https://motoryzacja.interia.pl/porady/news-kiedy-wlaczac-swiatla-przeciwmgielne-z-przodu-a-kiedy-z-tylu,nId,7154932' }
 };
 
@@ -876,8 +901,774 @@ export const PORADNIKI: Poradnik[] = [
     ],
     powiazane: ['odstep-na-autostradzie', 'awaria-na-autostradzie'],
     zrodla: [Z.mgla, Z.prd]
+  },
+  // ───────────── KUPNO I SPRZEDAŻ (cd.) ─────────────
+  {
+    slug: 'sprowadzenie-auta-z-zagranicy',
+    kategoria: 'kupno',
+    ikona: 'import',
+    tytul: 'Sprowadzenie auta z Niemiec i UE – akcyza, rejestracja, koszty krok po kroku',
+    krotko: 'Sprowadzenie auta z zagranicy',
+    opis: 'Od umowy za granicą do polskich tablic: jak przewieźć auto, ile wynosi akcyza, jakie dokumenty przetłumaczyć i w jakich terminach się zmieścić.',
+    liczby: [
+      { w: '14 dni', o: 'na deklarację akcyzową AKC-U/S' },
+      { w: '3,1% / 18,6%', o: 'akcyza: silnik do 2,0 l / powyżej' },
+      { w: '30 dni', o: 'na rejestrację od wjazdu do Polski' }
+    ],
+    sekcje: [
+      {
+        id: 'zanim-kupisz',
+        t: 'Zanim kupisz',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'sprawdź historię auta po numerze VIN – przebieg i szkody z zagranicy to najczęstsza pułapka przy imporcie,',
+              'umowa albo faktura musi zawierać VIN, dane obu stron i cenę – później posłuży do akcyzy i rejestracji,',
+              'zabierz oryginały dokumentów pojazdu (w Niemczech to dwie części dowodu rejestracyjnego) i wszystkie kluczyki,',
+              'policz akcyzę przed zakupem – przy silniku powyżej 2,0 l potrafi zmienić opłacalność całej transakcji.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'transport',
+        t: 'Jak przywieźć auto do Polski',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Na kołach – z tablicami wywozowymi', o: 'Auto musi być sprawne, mieć tablice tymczasowe (wywozowe) i krótkoterminowe ubezpieczenie. Taka polisa zwykle obejmuje do 30 dni – do czasu rejestracji w Polsce.' },
+              { t: 'Na lawecie lub przyczepie', o: 'Gdy auto nie ma tablic albo nie jest sprawne. Weź od przewoźnika dokumenty przewozu – mogą się przydać przy rejestracji.' }
+            ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'Najpóźniej w dniu rejestracji musisz mieć polskie OC. Zagraniczna polisa przestaje działać po rejestracji auta w Polsce.'
+          }
+        ]
+      },
+      {
+        id: 'akcyza',
+        t: 'Akcyza – ile i do kiedy',
+        bloki: [
+          {
+            typ: 'liczby',
+            elementy: [
+              { w: '3,1%', o: 'silnik do 2000 cm³' },
+              { w: '18,6%', o: 'silnik powyżej 2000 cm³' },
+              { w: '1,55%', o: 'hybryda do 2000 cm³' },
+              { w: '0%', o: 'elektryk, hybryda plug-in do 2000 cm³' }
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Akcyzę liczy się od wartości rynkowej auta przeliczonej na złote po średnim kursie NBP z dnia zakupu. Hybrydy od 2001 do 3500 cm³ płacą 9,3%, a hybrydy plug-in do 2000 cm³ są zwolnione do końca 2029 r. Deklarację AKC-U/S składasz w ciągu 14 dni od zakupu – najprościej przez portal PUESC – i płacisz podatek do urzędu skarbowego. Potwierdzenie zapłaty (z numerem VIN) jest potrzebne do rejestracji.'
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Zwolnienie z akcyzy (np. dla elektryka) też trzeba potwierdzić w urzędzie skarbowym – bez tego dokumentu wydział komunikacji nie zarejestruje auta.'
+          }
+        ]
+      },
+      {
+        id: 'rejestracja',
+        t: 'Rejestracja w Polsce',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Zaświadczenie o VAT', o: 'Przy aucie z Unii Europejskiej urząd skarbowy wydaje zaświadczenie VAT-25 (składasz wniosek VAT-24, opłata 160 zł). Urząd ma na to do 7 dni roboczych.' },
+              { t: 'Tłumaczenia przysięgłe', o: 'Umowę lub fakturę i inne dokumenty w obcym języku przetłumacz u tłumacza przysięgłego. Jedna strona umowy to zwykle koszt rzędu 70–100 zł.' },
+              { t: 'Badanie techniczne w Polsce', o: 'Przed pierwszą rejestracją auto musi przejść badanie w polskiej stacji kontroli pojazdów – nawet jeśli ma ważny przegląd z zagranicy.' },
+              { t: 'Wniosek w wydziale komunikacji', o: 'Masz 30 dni od wprowadzenia auta do Polski. Zabierz: umowę z tłumaczeniem, dokumenty pojazdu (z tłumaczeniem), tablice albo oświadczenie o ich braku, potwierdzenie akcyzy, VAT-25, badanie techniczne, dowód osobisty i polisę OC.' }
+            ]
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Za brak wniosku o rejestrację w 30 dni grozi kara 500 zł, a po 180 dniach – 1000 zł. Przy kupnie od osoby prywatnej za granicą PCC zwykle nie płacisz.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Ile wynosi akcyza na auto z Niemiec?', a: '3,1% wartości rynkowej przy silniku do 2000 cm³ i 18,6% powyżej. Hybrydy mają niższe stawki (1,55% i 9,3%), a auta elektryczne i hybrydy plug-in do 2000 cm³ są zwolnione.' },
+      { q: 'Ile mam czasu na zarejestrowanie auta sprowadzonego z zagranicy?', a: '30 dni od wprowadzenia auta do Polski. Spóźnienie kosztuje 500 zł, a po 180 dniach 1000 zł.' },
+      { q: 'Czy trzeba tłumaczyć dokumenty auta z Niemiec?', a: 'Tak – dokumenty w obcym języku, w tym umowę lub fakturę, trzeba przetłumaczyć u tłumacza przysięgłego.' }
+    ],
+    powiazane: ['kupilem-auto-co-dalej', 'umowa-kupna-sprzedazy-samochodu', 'przeglad-techniczny-terminy-koszt'],
+    zrodla: [Z.akcyza, Z.importCuk, Z.rejestracja2026, Z.pcc]
+  },
+  {
+    slug: 'darowizna-samochodu',
+    kategoria: 'kupno',
+    ikona: 'darowizna',
+    tytul: 'Darowizna samochodu w rodzinie – umowa, SD-Z2 i podatek',
+    krotko: 'Darowizna auta w rodzinie',
+    opis: 'Przekazujesz auto dziecku, rodzicom albo rodzeństwu? Zobacz, kiedy nie zapłacisz podatku, jak spisać umowę darowizny i o jakim terminie nie wolno zapomnieć.',
+    generator: 'darowizna',
+    liczby: [
+      { w: '0 zł', o: 'podatku dla najbliższej rodziny' },
+      { w: '6 mies.', o: 'na zgłoszenie SD-Z2' },
+      { w: '30 dni', o: 'na przerejestrowanie auta' }
+    ],
+    sekcje: [
+      {
+        id: 'kto-bez-podatku',
+        t: 'Kto nie płaci podatku',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Darowizna między najbliższymi – tak zwana „grupa zerowa” – jest zwolniona z podatku bez względu na wartość auta. Warunek: obdarowany zgłasza ją w urzędzie skarbowym na formularzu SD-Z2 w ciągu 6 miesięcy od podpisania umowy.'
+          },
+          {
+            typ: 'lista',
+            elementy: ['małżonek,', 'dzieci, wnuki i prawnuki,', 'rodzice i dziadkowie,', 'rodzeństwo,', 'pasierb, ojczym i macocha.']
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Spóźnione zgłoszenie oznacza utratę zwolnienia – wtedy podatek liczy się jak dla zwykłej darowizny w pierwszej grupie podatkowej.'
+          },
+          {
+            typ: 'p',
+            t: 'Darowizna od dalszej rodziny lub znajomych jest opodatkowana powyżej kwoty wolnej, sumowanej z 5 lat od jednego darczyńcy: 36 120 zł w I grupie, 27 090 zł w II i 5733 zł w III grupie podatkowej.'
+          }
+        ]
+      },
+      {
+        id: 'umowa',
+        t: 'Umowa darowizny – co w niej musi być',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Do darowizny auta nie potrzebujesz notariusza – wystarczy umowa na piśmie w dwóch egzemplarzach, podpisana przez obie strony. Wypełnisz ją niżej.'
+          },
+          {
+            typ: 'lista',
+            elementy: [
+              'dane darczyńcy i obdarowanego oraz stopień pokrewieństwa,',
+              'dokładny opis auta: marka, model, rok, numer VIN i numer rejestracyjny,',
+              'wartość rynkowa auta – potrzebna do zgłoszenia w urzędzie skarbowym,',
+              'datę, miejsce i podpisy.'
+            ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'Darowizna to nie sprzedaż – nie płacisz od niej PCC. Nie wpisuj w umowie symbolicznej ceny „za 1 zł”, bo taka umowa staje się sprzedażą i urząd może naliczyć PCC od wartości rynkowej.'
+          }
+        ]
+      },
+      {
+        id: 'po-darowiznie',
+        t: 'Po podpisaniu umowy',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Obdarowany: SD-Z2 w 6 miesięcy', o: 'Najprościej przez e-Urząd Skarbowy. Zachowaj potwierdzenie złożenia.' },
+              { t: 'Obdarowany: rejestracja w 30 dni', o: 'Tak samo jak po kupnie auta – za spóźnienie grozi 500 zł kary.' },
+              { t: 'Darczyńca: zgłoszenie zbycia w 30 dni', o: 'Darowizna to też „zbycie” auta – zawiadom wydział komunikacji. Kara za brak zgłoszenia: 250 zł.' },
+              { t: 'OC przechodzi na obdarowanego', o: 'Polisa chroni do końca okresu, ale nie odnowi się sama. Obdarowany może ją też wypowiedzieć i kupić własną.' }
+            ]
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Czy od darowizny samochodu od rodziców płaci się podatek?', a: 'Nie, jeśli obdarowany zgłosi darowiznę na formularzu SD-Z2 w ciągu 6 miesięcy od umowy. Spóźnienie oznacza utratę zwolnienia.' },
+      { q: 'Czy umowa darowizny samochodu musi być u notariusza?', a: 'Nie. Wystarczy pisemna umowa w dwóch egzemplarzach, podpisana przez obie strony.' },
+      { q: 'Czy od darowizny auta płaci się PCC?', a: 'Nie. PCC płaci się od sprzedaży. Darowizna podlega przepisom o podatku od spadków i darowizn.' }
+    ],
+    powiazane: ['sprzedalem-auto-co-dalej', 'kupilem-auto-co-dalej', 'wypowiedzenie-oc'],
+    zrodla: [Z.darowizna, Z.darowiznaUlotka, Z.starostwo]
+  },
+
+  // ───────────── KOLIZJA I SZKODY (cd.) ─────────────
+  {
+    slug: 'odszkodowanie-z-oc-sprawcy',
+    kategoria: 'kolizja',
+    ikona: 'szkoda',
+    tytul: 'Odszkodowanie z OC sprawcy – terminy, auto zastępcze, zaniżona wycena',
+    krotko: 'Szkoda z OC sprawcy',
+    opis: 'Ktoś uderzył w Twoje auto. Jak zgłosić szkodę, ile ubezpieczyciel ma czasu na wypłatę, kiedy należy się auto zastępcze i co zrobić, gdy wycena jest za niska.',
+    liczby: [
+      { w: '30 dni', o: 'na wypłatę od zgłoszenia szkody' },
+      { w: '3 lata', o: 'na zgłoszenie szkody w aucie' },
+      { w: '7%', o: 'rocznie – odsetki za spóźnioną wypłatę' }
+    ],
+    sekcje: [
+      {
+        id: 'zgloszenie',
+        t: 'Jak zgłosić szkodę',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Do ubezpieczyciela sprawcy', o: 'Telefonicznie, przez formularz online albo w oddziale. Potrzebujesz numeru polisy sprawcy – jest w oświadczeniu albo w notatce policji (sprawdzisz ją też na ufg.pl po numerze rejestracyjnym).' },
+              { t: 'Dołącz dokumenty', o: 'Oświadczenie sprawcy lub dane z notatki policji, zdjęcia z miejsca zdarzenia, dowód rejestracyjny, prawo jazdy i numer konta.' },
+              { t: 'Oględziny auta', o: 'Rzeczoznawca ubezpieczyciela ogląda uszkodzenia i przygotowuje kosztorys. Nie naprawiaj auta przed oględzinami.' },
+              { t: 'Wybierz sposób rozliczenia', o: 'Gotówka według kosztorysu albo naprawa w warsztacie, który rozlicza się bezpośrednio z ubezpieczycielem (bezgotówkowo).' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'terminy',
+        t: 'Ile trwa wypłata',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Ubezpieczyciel ma 30 dni od zgłoszenia szkody. Jeśli w tym czasie nie da się ustalić odpowiedzialności lub wysokości szkody, musi Cię o tym poinformować na piśmie – wtedy płaci w ciągu 14 dni od wyjaśnienia sprawy, ale nie później niż 90 dni od zgłoszenia (dłużej tylko przy toczącym się postępowaniu karnym lub cywilnym). Bezsporną część odszkodowania wypłaca w terminie 30 dni.'
+          },
+          {
+            typ: 'uwaga',
+            t: 'Za spóźnioną wypłatę należą Ci odsetki ustawowe za opóźnienie (7% w skali roku). Upomnij się o nie pisemnie.'
+          }
+        ]
+      },
+      {
+        id: 'auto-zastepcze',
+        t: 'Auto zastępcze',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'należy się także osobie prywatnej, nie tylko firmie – gdy brak auta jest dla Ciebie realnym problemem,',
+              'przy szkodzie częściowej – na czas naprawy, razem z czekaniem na części; przy szkodzie całkowitej – do wypłaty odszkodowania,',
+              'powinno być tej samej lub niższej klasy co Twoje auto i wynajęte po rynkowej stawce,',
+              'nie musisz brać auta z wypożyczalni wskazanej przez ubezpieczyciela – zachowaj wtedy umowę najmu, fakturę i dowód zapłaty.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'zanizona-wycena',
+        t: 'Wycena jest za niska – co zrobić',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Poproś o kosztorys i uzasadnienie', o: 'Masz prawo zobaczyć, jakie ceny części i roboczogodzin przyjął ubezpieczyciel.' },
+              { t: 'Złóż reklamację', o: 'Na piśmie, z własnym kosztorysem z warsztatu albo opinią rzeczoznawcy. Ubezpieczyciel odpowiada w 30 dni, w skomplikowanych sprawach do 60 dni.' },
+              { t: 'Rzecznik Finansowy', o: 'Gdy reklamacja nie pomoże, możesz złożyć wniosek o interwencję lub postępowanie polubowne u Rzecznika Finansowego.' },
+              { t: 'Sąd', o: 'Ostatni krok – pozew o dopłatę. Odszkodowanie ma pokryć koszt przywrócenia auta do stanu sprzed szkody.' }
+            ]
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Roszczenie o szkodę w aucie przedawnia się co do zasady po 3 latach od dnia, w którym dowiedziałeś się o szkodzie i o sprawcy. Zgłoszenie szkody ubezpieczycielowi przerywa ten termin.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Ile ubezpieczyciel ma czasu na wypłatę odszkodowania z OC?', a: '30 dni od zgłoszenia szkody. Gdy wyjaśnienie sprawy trwa dłużej – 14 dni od wyjaśnienia, ale nie później niż 90 dni od zgłoszenia.' },
+      { q: 'Czy osobie prywatnej należy się auto zastępcze z OC sprawcy?', a: 'Tak, jeśli brak auta jest uzasadnioną niedogodnością. Przy naprawie – na czas naprawy, przy szkodzie całkowitej – do wypłaty odszkodowania.' },
+      { q: 'Co zrobić, gdy odszkodowanie z OC jest za niskie?', a: 'Złożyć reklamację z własnym kosztorysem. Gdy to nie pomoże – zwrócić się do Rzecznika Finansowego albo do sądu.' }
+    ],
+    powiazane: ['kolizja-bez-policji', 'sprawca-uciekl-brak-oc', 'odszkodowanie-za-dziure-w-drodze'],
+    zrodla: [Z.wyplataOc, Z.autoZastepcze, Z.przedawnienie, Z.rf]
+  },
+  {
+    slug: 'odszkodowanie-za-dziure-w-drodze',
+    kategoria: 'kolizja',
+    ikona: 'dziura',
+    tytul: 'Dziura w drodze uszkodziła auto – jak dostać odszkodowanie (wzór pisma)',
+    krotko: 'Odszkodowanie za dziurę',
+    opis: 'Felga, opona, zawieszenie – za szkody spowodowane dziurą może zapłacić zarządca drogi. Jak to udokumentować, do kogo napisać i jak wygląda wniosek.',
+    generator: 'dziura',
+    liczby: [
+      { w: '30 dni', o: 'na decyzję ubezpieczyciela zarządcy' },
+      { w: '3 lata', o: 'na zgłoszenie roszczenia' },
+      { w: '4 rodzaje', o: 'zarządców: gmina, powiat, województwo, GDDKiA' }
+    ],
+    sekcje: [
+      {
+        id: 'na-miejscu',
+        t: 'Na miejscu',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Zatrzymaj się bezpiecznie', o: 'Włącz światła awaryjne. Gdy uszkodzone jest koło, nie jedź dalej – możesz dodatkowo zniszczyć felgę.' },
+              { t: 'Sfotografuj dziurę z bliska i z daleka', o: 'Połóż obok coś, co pokaże skalę (np. butelkę albo miarkę). Zrób też zdjęcia otoczenia: znaków (lub ich braku), numeru drogi, pobliskich budynków.' },
+              { t: 'Sfotografuj uszkodzenia auta', o: 'Oponę, felgę, zderzak – tak, żeby było widać, że to świeże uszkodzenia.' },
+              { t: 'Wezwij policję lub straż miejską', o: 'Notatka służb to najmocniejszy dowód. Zapisz też dane świadków.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'kto-zarzadza',
+        t: 'Kto odpowiada za drogę',
+        bloki: [
+          {
+            typ: 'liczby',
+            elementy: [
+              { w: 'gmina', o: 'drogi gminne, ulice w mieście' },
+              { w: 'powiat', o: 'drogi powiatowe' },
+              { w: 'województwo', o: 'drogi wojewódzkie (DW)' },
+              { w: 'GDDKiA', o: 'drogi krajowe (DK), ekspresowe (S), autostrady (A)' }
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Na płatnych odcinkach autostrad zarządcą jest koncesjonariusz. Jeśli nie wiesz, czyja jest droga, zapytaj w urzędzie gminy – albo wpisz to do notatki policji.'
+          }
+        ]
+      },
+      {
+        id: 'wniosek',
+        t: 'Jak złożyć wniosek',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Napisz do zarządcy drogi', o: 'Opisz miejsce, datę i przebieg zdarzenia, uszkodzenia i żądaną kwotę. Dołącz zdjęcia, notatkę policji, kosztorys lub faktury za naprawę. Wzór wypełnisz niżej.' },
+              { t: 'Zarządca przekaże sprawę ubezpieczycielowi', o: 'Większość zarządców ma OC. Możesz też zgłosić szkodę bezpośrednio do jego ubezpieczyciela – ma 30 dni na decyzję.' },
+              { t: 'Zachowaj kopie', o: 'Wniosek wyślij listem poleconym albo złóż w kancelarii urzędu i weź potwierdzenie.' }
+            ]
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Musisz wykazać, że zarządca zaniedbał drogę. Jeśli jechałeś za szybko albo stał znak ostrzegający o ubytkach, odszkodowanie może zostać obniżone lub odrzucone.'
+          }
+        ]
+      },
+      {
+        id: 'odmowa',
+        t: 'Gdy zarządca odmawia',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'złóż odwołanie z dodatkowymi dowodami (np. zgłoszenia mieszkańców o tej samej dziurze),',
+              'skorzystaj z AC, jeśli je masz – ubezpieczyciel sam dochodzi potem pieniędzy od zarządcy, ale możesz stracić zniżki,',
+              'ostatnia droga to pozew – roszczenie przedawnia się co do zasady po 3 latach.'
+            ]
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Kto płaci za uszkodzenie auta na dziurze?', a: 'Zarządca drogi (gmina, powiat, województwo lub GDDKiA) albo jego ubezpieczyciel – jeśli zaniedbał utrzymanie drogi.' },
+      { q: 'Jak udokumentować szkodę na dziurze?', a: 'Zdjęcia dziury ze skalą i otoczenia, zdjęcia uszkodzeń, notatka policji lub straży miejskiej, dane świadków i kosztorys naprawy.' },
+      { q: 'Ile czasu jest na zgłoszenie szkody z dziury?', a: 'Co do zasady 3 lata. Im szybciej jednak zgłosisz szkodę, tym łatwiej ją udowodnić.' }
+    ],
+    powiazane: ['odszkodowanie-z-oc-sprawcy', 'zderzenie-ze-zwierzeciem'],
+    zrodla: [Z.dziuraRankomat, Z.dziuraAutocentrum, Z.kc]
+  },
+
+  // ───────────── NA CO DZIEŃ ─────────────
+  {
+    slug: 'przeglad-techniczny-terminy-koszt',
+    kategoria: 'codzienne',
+    ikona: 'przeglad',
+    tytul: 'Przegląd techniczny auta – terminy, cena 2026 i co gdy auto nie przejdzie',
+    krotko: 'Przegląd techniczny',
+    opis: 'Kiedy robić badanie techniczne, ile kosztuje w 2026 roku, co się dzieje przy negatywnym wyniku i czym grozi jazda bez ważnego przeglądu.',
+    liczby: [
+      { w: '149 zł', o: 'badanie auta osobowego' },
+      { w: '245 zł', o: 'auto z instalacją LPG' },
+      { w: '3 → 2 → 1', o: 'lata między badaniami nowego auta' }
+    ],
+    sekcje: [
+      {
+        id: 'terminy',
+        t: 'Kiedy robić przegląd',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Nowe auto: po 3 latach', o: 'Pierwsze badanie przed upływem 3 lat od pierwszej rejestracji.' },
+              { t: 'Potem: po 2 latach', o: 'Drugie badanie przed upływem kolejnych 2 lat.' },
+              { t: 'Dalej: co roku', o: 'Każde następne badanie – raz w roku.' },
+              { t: 'Auto z LPG: zawsze co roku', o: 'Bez względu na wiek auta, bo badana jest też instalacja gazowa.' }
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Termin kolejnego badania znajdziesz w aplikacji mObywatel, na historiapojazdu.gov.pl albo na zaświadczeniu ze stacji. Przegląd możesz zrobić w dowolnej stacji kontroli pojazdów w Polsce, nie tylko w swoim mieście.'
+          },
+          {
+            typ: 'uwaga',
+            t: 'Badanie zrobione wcześniej skraca ważność – kolejny termin liczy się od dnia badania, nie od starej daty.'
+          }
+        ]
+      },
+      {
+        id: 'koszt',
+        t: 'Ile kosztuje przegląd w 2026 roku',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Badanie auta osobowego kosztuje 149 zł, a z instalacją gazową 245 zł (149 zł plus 96 zł za sprawdzenie LPG). Płacisz przed badaniem i pieniądze nie wracają, jeśli auto nie przejdzie. Za spóźniony przegląd nie ma dodatkowej opłaty – głośne zapowiedzi „podwójnej ceny” to wciąż tylko projekty.'
+          }
+        ]
+      },
+      {
+        id: 'negatywny-wynik',
+        t: 'Auto nie przeszło przeglądu',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Diagnosta wpisuje usterki', o: 'Dostajesz informację, co trzeba naprawić. Przy usterce stwarzającej poważne zagrożenie diagnosta może zakazać dalszej jazdy.' },
+              { t: 'Naprawiasz i wracasz', o: 'Przy ponownym badaniu płacisz tylko za sprawdzenie naprawionych elementów (np. hamulce, światła). Suma tych opłat nie przekroczy ceny całego badania.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'bez-przegladu',
+        t: 'Jazda bez ważnego przeglądu',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'grozi mandat, a policja może zatrzymać dowód rejestracyjny – dziś zwykle elektronicznie, wpisem w systemie,',
+              'gdy auto zagraża bezpieczeństwu, może zostać odholowane na koszt właściciela,',
+              'ubezpieczyciel z AC może obniżyć lub odmówić wypłaty, jeśli usterka przyczyniła się do szkody,',
+              'z OC poszkodowany i tak dostanie pieniądze – ale przy ewidentnej usterce (np. hamulców) sprawa może się skomplikować.'
+            ]
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Ile kosztuje przegląd samochodu w 2026 roku?', a: '149 zł za auto osobowe i 245 zł za auto z instalacją LPG.' },
+      { q: 'Co ile lat robi się przegląd nowego samochodu?', a: 'Pierwszy przed upływem 3 lat od rejestracji, drugi po kolejnych 2 latach, a potem co roku. Auta z LPG – co roku.' },
+      { q: 'Czy za przegląd po terminie płaci się więcej?', a: 'Nie, cena jest taka sama. Jazda bez ważnego badania grozi jednak mandatem i zatrzymaniem dowodu rejestracyjnego.' }
+    ],
+    powiazane: ['zgubiony-dowod-rejestracyjny-prawo-jazdy', 'kontrola-drogowa-prawa-kierowcy', 'zima-w-samochodzie'],
+    zrodla: [Z.przeglad2026, Z.przegladPoTerminie, Z.przegladRankomat, Z.prd]
+  },
+  {
+    slug: 'zgubiony-dowod-rejestracyjny-prawo-jazdy',
+    kategoria: 'codzienne',
+    ikona: 'dokumenty',
+    tytul: 'Zgubiony dowód rejestracyjny lub prawo jazdy – co zrobić i ile to kosztuje',
+    krotko: 'Zgubione dokumenty auta',
+    opis: 'Zgubiłeś albo ktoś ukradł Ci dowód rejestracyjny lub prawo jazdy? Gdzie to zgłosić, jak dostać wtórnik i czy w międzyczasie możesz jeździć.',
+    liczby: [
+      { w: '30 dni', o: 'na wniosek o wtórnik dowodu rejestracyjnego' },
+      { w: '100 zł', o: 'wtórnik prawa jazdy' },
+      { w: 'do 9 dni', o: 'roboczych na nowe prawo jazdy' }
+    ],
+    sekcje: [
+      {
+        id: 'dowod',
+        t: 'Dowód rejestracyjny',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Kradzież? Najpierw policja', o: 'Gdy dokument (albo tablice) ukradziono, zgłoś to na policji.' },
+              { t: 'Wniosek o wtórnik w 30 dni', o: 'W wydziale komunikacji, w którym auto jest zarejestrowane. Zabierz dowód osobisty i podpisz oświadczenie o utracie dokumentu.' },
+              { t: 'Pozwolenie czasowe', o: 'Na czas oczekiwania możesz dostać pozwolenie czasowe ważne 30 dni – oddajesz je przy odbiorze nowego dowodu.' },
+              { t: 'Odbiór', o: 'Nowy dowód zwykle jest gotowy w ciągu 30 dni. Status sprawdzisz na info-car.pl.' }
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Przykładowe opłaty (Warszawa): 54 zł za nowy dowód i 18,50 zł za pozwolenie czasowe. Stawki mogą się zmieniać – sprawdź je w swoim urzędzie przed wizytą.'
+          },
+          {
+            typ: 'uwaga',
+            t: 'W Polsce nie musisz wozić dowodu rejestracyjnego – policja sprawdza dane w systemie. Ale za granicę bez papierowego dokumentu (lub pozwolenia czasowego) nie wyjedziesz.'
+          }
+        ]
+      },
+      {
+        id: 'prawo-jazdy',
+        t: 'Prawo jazdy',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Złóż wniosek o wtórnik', o: 'Przez internet (usługa „Wydanie wtórnika prawa jazdy”, profil zaufany) albo w urzędzie – starostwie, urzędzie miasta lub dzielnicy.' },
+              { t: 'Przygotuj zdjęcie i opłatę', o: 'Opłata wynosi 100 zł. Online potrzebne jest zdjęcie w formie pliku – wymagania są opisane na gov.pl.' },
+              { t: 'Poczekaj na dokument', o: 'Zwykle do 9 dni roboczych. Gotowość sprawdzisz na info-car.pl.' }
+            ]
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Strona gov.pl przypomina, że nie możesz prowadzić pojazdu bez ważnego prawa jazdy. Do odbioru wtórnika lepiej zostawić auto.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Ile kosztuje wtórnik dowodu rejestracyjnego?', a: 'W Warszawie 54 zł za dowód i 18,50 zł za pozwolenie czasowe na czas oczekiwania. Stawki sprawdź w swoim urzędzie.' },
+      { q: 'Ile kosztuje wtórnik prawa jazdy i jak długo się czeka?', a: '100 zł. Urząd wydaje dokument zwykle w ciągu 9 dni roboczych.' },
+      { q: 'Czy muszę wozić dowód rejestracyjny?', a: 'W Polsce nie – wystarczy dokument tożsamości, a policja sprawdzi dane w systemie. Za granicą potrzebny jest papierowy dokument.' }
+    ],
+    powiazane: ['kontrola-drogowa-prawa-kierowcy', 'wyjazd-autem-za-granice', 'przeglad-techniczny-terminy-koszt'],
+    zrodla: [Z.wtornikDowodu, Z.wtornikPj, Z.dokumentyKierowcy]
+  },
+  {
+    slug: 'kontrola-drogowa-prawa-kierowcy',
+    kategoria: 'codzienne',
+    ikona: 'kontrola',
+    tytul: 'Kontrola drogowa – prawa i obowiązki kierowcy, dokumenty, mandat',
+    krotko: 'Kontrola drogowa',
+    opis: 'Jak zachować się po zatrzymaniu przez policję, jakie dokumenty musisz mieć, kto w ogóle może Cię zatrzymać i co się dzieje, gdy nie przyjmiesz mandatu.',
+    liczby: [
+      { w: '1 dokument', o: 'wystarczy w Polsce – dowód tożsamości' },
+      { w: 'po cywilnemu', o: 'policjant zatrzyma Cię tylko w terenie zabudowanym' },
+      { w: 'sąd', o: 'rozstrzyga, gdy odmówisz mandatu' }
+    ],
+    sekcje: [
+      {
+        id: 'zatrzymanie',
+        t: 'Jak się zachować',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Zatrzymaj się w bezpiecznym miejscu', o: 'Zwolnij, zjedź na pobocze lub zatokę i włącz światła awaryjne.' },
+              { t: 'Zostań w aucie', o: 'Wysiadasz tylko na polecenie. Uchyl szybę i trzymaj ręce na kierownicy, żeby policjant je widział.' },
+              { t: 'Wysłuchaj powodu kontroli', o: 'Policjant przedstawia się, podaje stopień i powód zatrzymania. Masz prawo poprosić o legitymację służbową.' },
+              { t: 'Okaż dokument tożsamości', o: 'Dowód osobisty, paszport albo dokument w mObywatelu. Spokojnie, bez sporów – zastrzeżenia zgłosisz później.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'kto-moze',
+        t: 'Kto może Cię zatrzymać',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'policjant w mundurze – wszędzie,',
+              'policjant po cywilnemu – tylko w obszarze zabudowanym; musi od razu okazać legitymację, a w nocy używać tarczy lub latarki z czerwonym światłem,',
+              'w nocy poza obszarem zabudowanym – tylko umundurowany policjant przy oznakowanym radiowozie,',
+              'także inne służby, np. Inspekcja Transportu Drogowego czy Straż Graniczna – w swoim zakresie.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'dokumenty',
+        t: 'Jakie dokumenty musisz mieć',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'W Polsce wystarczy dokument tożsamości. Prawa jazdy, dowodu rejestracyjnego i potwierdzenia OC nie musisz wozić – policja sprawdza je w systemie CEPiK. Wyjątek: auta firmowe i sytuacje, w których dane trudno sprawdzić – wtedy papiery przyspieszą kontrolę. Za granicą zawsze potrzebujesz fizycznych dokumentów.'
+          }
+        ]
+      },
+      {
+        id: 'mandat',
+        t: 'Mandat – przyjąć czy nie',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Masz prawo odmówić przyjęcia mandatu. Wtedy policja kieruje wniosek o ukaranie do sądu, który rozpatrzy sprawę – i może wymierzyć karę niższą albo wyższą niż mandat, a do tego doliczyć koszty postępowania.'
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Przyjęty mandat jest od razu prawomocny. Sąd może go uchylić tylko wtedy, gdy czyn w ogóle nie był wykroczeniem – wniosek trzeba złożyć w ciągu 7 dni.'
+          },
+          {
+            typ: 'p',
+            t: 'Policjant może też poprzestać na pouczeniu. Gdy uważasz, że funkcjonariusz złamał przepisy, możesz złożyć skargę – pisemnie lub elektronicznie, najlepiej z opisem i dowodami.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Jakie dokumenty trzeba mieć przy kontroli drogowej?', a: 'W Polsce wystarczy dokument tożsamości. Prawo jazdy, dowód rejestracyjny i OC policja sprawdzi w systemie.' },
+      { q: 'Czy policjant po cywilnemu może zatrzymać kierowcę?', a: 'Tylko w obszarze zabudowanym i musi od razu okazać legitymację. W nocy poza obszarem zabudowanym zatrzymać może tylko umundurowany policjant.' },
+      { q: 'Co się stanie, gdy nie przyjmę mandatu?', a: 'Sprawa trafi do sądu. Sąd może wymierzyć karę niższą lub wyższą niż mandat i obciążyć kosztami postępowania.' }
+    ],
+    powiazane: ['zgubiony-dowod-rejestracyjny-prawo-jazdy', 'odstep-na-autostradzie', 'jazda-we-mgle'],
+    zrodla: [Z.kontrolaInteria, Z.kontrolaCuk, Z.dokumentyKierowcy, Z.kpw]
+  },
+  {
+    slug: 'wyjazd-autem-za-granice',
+    kategoria: 'codzienne',
+    ikona: 'granica',
+    tytul: 'Wyjazd autem za granicę – Zielona Karta, winiety, obowiązkowe wyposażenie',
+    krotko: 'Autem za granicę',
+    opis: 'Lista rzeczy do sprawdzenia przed wyjazdem samochodem za granicę: dokumenty, Zielona Karta, winiety i wyposażenie wymagane w popularnych krajach.',
+    liczby: [
+      { w: '8 krajów', o: 'wymaga Zielonej Karty (m.in. Turcja, Albania)' },
+      { w: 'papierowe', o: 'prawo jazdy i dowód – mObywatel za granicą nie działa' },
+      { w: 'e-winieta', o: 'Czechy, Słowacja, Austria' }
+    ],
+    sekcje: [
+      {
+        id: 'dokumenty',
+        t: 'Dokumenty',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'fizyczne prawo jazdy – za granicą aplikacja mObywatel nie jest uznawana,',
+              'dowód rejestracyjny i potwierdzenie ważnego OC,',
+              'dowód osobisty lub paszport dla każdego pasażera,',
+              'przy aucie firmowym lub leasingowym – dokument potwierdzający prawo do korzystania z auta.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'zielona-karta',
+        t: 'Zielona Karta',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'W krajach Unii Europejskiej, a także m.in. w Norwegii, Szwajcarii, Wielkiej Brytanii, Serbii, Czarnogórze oraz Bośni i Hercegowinie wystarczy polskie OC. Zieloną Kartę musisz mieć w: Albanii, Azerbejdżanie, Maroku, Mołdawii, Macedonii Północnej, Tunezji, Turcji i Ukrainie.'
+          },
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Poproś swojego ubezpieczyciela OC', o: 'Zielonej Karty nie kupuje się osobno – wydaje ją towarzystwo, w którym masz OC. Wiele robi to za darmo, część pobiera kilkanaście–kilkadziesiąt złotych.' },
+              { t: 'Sprawdź ważność', o: 'Zielona Karta nie może być ważna dłużej niż Twoja polisa OC.' },
+              { t: 'Nie masz jej na granicy?', o: 'Trzeba będzie kupić tzw. OC graniczne. W niektórych krajach (np. Białoruś) to jedyna możliwość.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'winiety',
+        t: 'Winiety i opłaty za drogi',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'Czechy – elektroniczna winieta na płatne autostrady,',
+              'Słowacja – elektroniczna winieta przypisana do numeru rejestracyjnego,',
+              'Austria – winieta elektroniczna lub naklejana, a na wybranych odcinkach dodatkowe opłaty,',
+              'Włochy i Chorwacja – bez winiet, płacisz na bramkach za przejechany odcinek.'
+            ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'Winiety kupuj na oficjalnych stronach operatorów albo na stacjach. Pośrednicy w internecie często doliczają wysokie prowizje.'
+          }
+        ]
+      },
+      {
+        id: 'wyposazenie',
+        t: 'Obowiązkowe wyposażenie',
+        bloki: [
+          {
+            typ: 'liczby',
+            elementy: [
+              { w: 'Czechy', o: 'kamizelka, trójkąt, apteczka' },
+              { w: 'Słowacja', o: 'kamizelka, trójkąt, apteczka' },
+              { w: 'Austria', o: 'kamizelka, trójkąt; zimą zasady dla opon' },
+              { w: 'Włochy', o: 'kamizelka, trójkąt; sezonowo łańcuchy' }
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Najprościej mieć zawsze w aucie: kamizelki dla wszystkich pasażerów, trójkąt, apteczkę i gaśnicę. Przed wyjazdem sprawdź też przepisy zimowe w krajach na trasie i strefy ograniczonego ruchu w dużych miastach.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'W jakich krajach potrzebna jest Zielona Karta?', a: 'M.in. w Albanii, Azerbejdżanie, Maroku, Mołdawii, Macedonii Północnej, Tunezji, Turcji i Ukrainie. W krajach UE wystarczy polskie OC.' },
+      { q: 'Czy za granicą wystarczy prawo jazdy w mObywatelu?', a: 'Nie. Za granicą potrzebujesz fizycznego prawa jazdy i dowodu rejestracyjnego.' },
+      { q: 'Ile kosztuje Zielona Karta?', a: 'Zależy od ubezpieczyciela OC – wiele firm wydaje ją bezpłatnie, inne pobierają zwykle kilkanaście–kilkadziesiąt złotych.' }
+    ],
+    powiazane: ['zgubiony-dowod-rejestracyjny-prawo-jazdy', 'awaria-na-autostradzie', 'zima-w-samochodzie'],
+    zrodla: [Z.zielonaKarta, Z.wakacjeAutem, Z.dokumentyKierowcy]
+  },
+  {
+    slug: 'zima-w-samochodzie',
+    kategoria: 'bezpieczenstwo',
+    ikona: 'zima',
+    tytul: 'Zima w samochodzie – odśnieżanie, akumulator, odpalanie z kabli',
+    krotko: 'Zima w aucie',
+    opis: 'Mandat za nieodśnieżone auto, rozładowany akumulator i zamarznięte zamki – jak przygotować auto do zimy i co zrobić, gdy rano nie chce odpalić.',
+    liczby: [
+      { w: '3000 zł', o: 'mandatu może kosztować nieodśnieżone auto' },
+      { w: '1 min', o: 'maks. pracy silnika na postoju w mieście' },
+      { w: '4 kroki', o: 'podłączenia kabli rozruchowych' }
+    ],
+    sekcje: [
+      {
+        id: 'odsniezanie',
+        t: 'Odśnieżanie – co i dlaczego',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'wszystkie szyby i lusterka – kierowca musi mieć dostateczne pole widzenia,',
+              'dach i maskę – zsuwający się śnieg i lód zasłoni Ci szybę albo uderzy w auto za Tobą,',
+              'światła – zaklejone śniegiem lampy to osobne wykroczenie,',
+              'tablice rejestracyjne – muszą być czytelne.'
+            ]
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Za jazdę nieodśnieżonym autem mandat może sięgnąć 3000 zł, a do tego dochodzą punkty karne. Nie zostawiaj też pracującego silnika na postoju w terenie zabudowanym dłużej niż minutę – to również wykroczenie.'
+          }
+        ]
+      },
+      {
+        id: 'kable',
+        t: 'Rozładowany akumulator – odpalanie z kabli',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Wyłącz oba auta i odbiorniki', o: 'Ogrzewanie, radio, światła. Ustaw auta tak, żeby się nie stykały.' },
+              { t: 'Czerwony kabel: plus – plus', o: 'Najpierw do plusa sprawnego akumulatora, potem do plusa rozładowanego.' },
+              { t: 'Czarny kabel: minus – masa', o: 'Do minusa sprawnego akumulatora, a drugi koniec do metalowej, niemalowanej części silnika rozładowanego auta – z dala od akumulatora.' },
+              { t: 'Odpal dawcę, potem swoje auto', o: 'Odczekaj kilka minut. Kręć rozrusznikiem kilkanaście sekund, z przerwami – najwyżej 4–5 prób. Odłącz kable w odwrotnej kolejności.' }
+            ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'Uważaj na iskry przy akumulatorze – może wydzielać łatwopalny wodór. Dawca powinien mieć silnik na to samo paliwo i podobny akumulator. W hybrydzie i elektryku sprawdź w instrukcji, czy wolno odpalać (lub pomagać) z kabli.'
+          }
+        ]
+      },
+      {
+        id: 'zimowy-zestaw',
+        t: 'Co wozić zimą',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'skrobaczkę i miotełkę do śniegu,',
+              'zimowy płyn do spryskiwaczy (zapasowy),',
+              'kable rozruchowe albo ładowany booster (powerbank rozruchowy),',
+              'koc, rękawiczki, latarkę i naładowany powerbank do telefonu,',
+              'odmrażacz do zamków – trzymaj go w domu lub w kieszeni, nie w zamarzniętym aucie.'
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Zamarzniętych drzwi i szyb nie polewaj gorącą wodą – szyba może pęknąć od różnicy temperatur. Lepiej użyć odmrażacza albo poczekać, aż nawiew rozgrzeje szybę od środka.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Jaki jest mandat za nieodśnieżony samochód?', a: 'Może sięgnąć nawet 3000 zł, a do tego dochodzą punkty karne – zależnie od tego, czy chodzi o widoczność, zsuwający się śnieg, światła czy tablice.' },
+      { q: 'Jak podłączyć kable rozruchowe?', a: 'Czerwony: plus sprawnego – plus rozładowanego. Czarny: minus sprawnego – masa (metal silnika) w rozładowanym aucie. Odłączasz w odwrotnej kolejności.' },
+      { q: 'Czy można odśnieżać auto z włączonym silnikiem?', a: 'W terenie zabudowanym silnik na postoju może pracować najwyżej minutę – dłuższe grzanie auta jest wykroczeniem.' }
+    ],
+    powiazane: ['jazda-we-mgle', 'awaria-na-autostradzie', 'przeglad-techniczny-terminy-koszt'],
+    zrodla: [Z.zimaInteria, Z.kable, Z.prd]
   }
 ];
+
 export function poradnik(slug: string): Poradnik | undefined {
   return PORADNIKI.find((p) => p.slug === slug);
 }
@@ -889,7 +1680,7 @@ export function poradnikiKategorii(k: KategoriaPoradnika): Poradnik[] {
 // ───────────── SEO i podsumowania ─────────────
 // seoTytul: krótszy tytuł do Google (z dopiskiem „| MotoFormat” mieści się w ok. 60 znakach).
 // seoOpis: opis w wynikach wyszukiwania (ok. 140–160 znaków). skrot: 3 zdania „W skrócie” na górze strony.
-export const AKTUALIZACJA = '2026-11-03';
+export const AKTUALIZACJA = '2026-11-04';
 export const OPUBLIKOWANO = '2026-11-03';
 
 const DODATKI: Record<string, { seoTytul: string; seoOpis: string; skrot: string[] }> = {
@@ -999,6 +1790,87 @@ const DODATKI: Record<string, { seoTytul: string; seoOpis: string; skrot: string
       'Wysiądź od strony bariery i czekaj za nią – nie przy aucie i nie na pasie awaryjnym.',
       'Trójkąt stawiasz 100 m za autem. Słupki przy drodze pomogą odmierzyć odległość.',
       'Pomoc: 19 111 na drogach GDDKiA, w nagłej sytuacji 112. Holowanie na lince jest zakazane.'
+    ]
+  },
+  'sprowadzenie-auta-z-zagranicy': {
+    seoTytul: 'Auto z Niemiec – akcyza, rejestracja, koszty',
+    seoOpis: 'Jak sprowadzić auto z Niemiec i UE: akcyza 3,1% lub 18,6% (deklaracja w 14 dni), VAT-25, tłumaczenia, badanie i rejestracja w 30 dni. Koszty i terminy.',
+    skrot: [
+      'Akcyzę deklarujesz w 14 dni od zakupu: 3,1% przy silniku do 2,0 l, 18,6% powyżej, hybrydy mniej, elektryki 0%.',
+      'Do rejestracji potrzebujesz tłumaczeń przysięgłych, VAT-25, potwierdzenia akcyzy i polskiego przeglądu.',
+      'Na rejestrację masz 30 dni od wjazdu do Polski – spóźnienie kosztuje 500 zł.'
+    ]
+  },
+  'darowizna-samochodu': {
+    seoTytul: 'Darowizna samochodu w rodzinie – umowa i SD-Z2',
+    seoOpis: 'Darowizna auta dla dziecka, rodziców czy rodzeństwa bez podatku: zgłoszenie SD-Z2 w 6 miesięcy, wzór umowy darowizny samochodu do druku i rejestracja.',
+    skrot: [
+      'Najbliższa rodzina nie płaci podatku – pod warunkiem zgłoszenia SD-Z2 w ciągu 6 miesięcy.',
+      'Wystarczy pisemna umowa w dwóch egzemplarzach, bez notariusza i bez PCC.',
+      'Obdarowany rejestruje auto w 30 dni, a darczyńca zgłasza zbycie – też w 30 dni.'
+    ]
+  },
+  'odszkodowanie-z-oc-sprawcy': {
+    seoTytul: 'Odszkodowanie z OC sprawcy – terminy i porady',
+    seoOpis: 'Jak zgłosić szkodę z OC sprawcy, ile ubezpieczyciel ma czasu na wypłatę (30/90 dni), kiedy należy się auto zastępcze i co zrobić przy zaniżonej wycenie.',
+    skrot: [
+      'Ubezpieczyciel ma 30 dni na wypłatę – dłużej tylko z pisemnym wyjaśnieniem, maksymalnie do 90 dni.',
+      'Auto zastępcze należy się także osobie prywatnej – na czas naprawy albo do wypłaty przy szkodzie całkowitej.',
+      'Zaniżona wycena? Reklamacja z własnym kosztorysem, potem Rzecznik Finansowy lub sąd.'
+    ]
+  },
+  'odszkodowanie-za-dziure-w-drodze': {
+    seoTytul: 'Odszkodowanie za dziurę w drodze – wzór pisma',
+    seoOpis: 'Dziura uszkodziła oponę lub felgę? Jak udokumentować szkodę, kto jest zarządcą drogi i jak napisać wniosek o odszkodowanie – gotowy wzór do druku.',
+    skrot: [
+      'Zrób zdjęcia dziury ze skalą, otoczenia i uszkodzeń, wezwij policję lub straż miejską.',
+      'Ustal zarządcę: gmina, powiat, województwo albo GDDKiA – to do niego piszesz wniosek.',
+      'Na zgłoszenie masz co do zasady 3 lata, ale szybkie zgłoszenie łatwiej udowodnić.'
+    ]
+  },
+  'przeglad-techniczny-terminy-koszt': {
+    seoTytul: 'Przegląd techniczny 2026 – cena, terminy, kary',
+    seoOpis: 'Ile kosztuje przegląd samochodu w 2026 r. (149 zł, z LPG 245 zł), kiedy robić badanie nowego auta, co przy negatywnym wyniku i czym grozi jazda bez przeglądu.',
+    skrot: [
+      'Badanie auta osobowego kosztuje 149 zł, z instalacją LPG 245 zł – za spóźnienie nie ma dopłaty.',
+      'Nowe auto: pierwszy przegląd po 3 latach, drugi po 2, potem co rok. Auta z LPG – zawsze co roku.',
+      'Bez ważnego przeglądu grozi mandat i zatrzymanie dowodu, a AC może odmówić wypłaty.'
+    ]
+  },
+  'zgubiony-dowod-rejestracyjny-prawo-jazdy': {
+    seoTytul: 'Zgubiony dowód rejestracyjny lub prawo jazdy',
+    seoOpis: 'Co zrobić po zgubieniu dowodu rejestracyjnego lub prawa jazdy: gdzie zgłosić, ile kosztuje wtórnik (100 zł za prawo jazdy), ile się czeka i czy można jeździć.',
+    skrot: [
+      'Wtórnik dowodu rejestracyjnego: wniosek w 30 dni, na czas oczekiwania pozwolenie czasowe.',
+      'Wtórnik prawa jazdy: 100 zł, wniosek online lub w urzędzie, zwykle do 9 dni roboczych.',
+      'Kradzież zgłaszasz najpierw na policji. Za granicę potrzebujesz papierowych dokumentów.'
+    ]
+  },
+  'kontrola-drogowa-prawa-kierowcy': {
+    seoTytul: 'Kontrola drogowa – prawa i obowiązki kierowcy',
+    seoOpis: 'Jak zachować się podczas kontroli drogowej, jakie dokumenty trzeba mieć, kiedy może zatrzymać policjant po cywilnemu i co się dzieje po odmowie przyjęcia mandatu.',
+    skrot: [
+      'Zostań w aucie, uchyl szybę i trzymaj ręce na kierownicy. Wysiadasz tylko na polecenie.',
+      'W Polsce wystarczy dokument tożsamości – resztę policja sprawdzi w systemie.',
+      'Możesz odmówić mandatu – wtedy decyduje sąd. Przyjęty mandat jest od razu prawomocny.'
+    ]
+  },
+  'wyjazd-autem-za-granice': {
+    seoTytul: 'Autem za granicę – Zielona Karta i winiety',
+    seoOpis: 'Gdzie potrzebna jest Zielona Karta, jakie dokumenty zabrać, które kraje mają winiety elektroniczne i jakie wyposażenie jest obowiązkowe w Czechach czy Austrii.',
+    skrot: [
+      'Za granicę zabierz papierowe prawo jazdy i dowód rejestracyjny – mObywatel tam nie działa.',
+      'Zielona Karta jest potrzebna m.in. w Turcji, Albanii, Ukrainie i Maroku. W UE wystarczy polskie OC.',
+      'Czechy, Słowacja i Austria mają winiety elektroniczne – kupuj je na oficjalnych stronach.'
+    ]
+  },
+  'zima-w-samochodzie': {
+    seoTytul: 'Zima w aucie – odśnieżanie, mandat, kable',
+    seoOpis: 'Mandat za nieodśnieżone auto (nawet 3000 zł), jak bezpiecznie odpalić auto z kabli krok po kroku i co wozić zimą w samochodzie. Porady na mroźny poranek.',
+    skrot: [
+      'Odśnieżasz szyby, dach, światła i tablice – za nieodśnieżone auto grozi nawet 3000 zł.',
+      'Kable: czerwony plus–plus, czarny minus–masa. Odłączasz w odwrotnej kolejności.',
+      'W mieście silnik na postoju może pracować najwyżej minutę – auta nie grzejemy na postoju.'
     ]
   },
   'jazda-we-mgle': {

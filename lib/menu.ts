@@ -1,6 +1,7 @@
 // Struktura menu strony – jedno miejsce dla nawigacji u góry, menu na telefonie, stopki i kafelków na stronie głównej.
 import { opublikowane } from '@/lib/wpisy';
 import { rankingiZProduktami } from '@/lib/produkty';
+import { PORADNIKI } from '@/lib/poradniki';
 
 export type Ikona =
   | 'car'
@@ -32,7 +33,13 @@ export type Ikona =
   | 'odstep'
   | 'fotelik'
   | 'awaria'
-  | 'mgla';
+  | 'mgla'
+  | 'szkoda'
+  | 'przeglad'
+  | 'import'
+  | 'kontrola'
+  | 'zima'
+  | 'wszystkie';
 
 export interface PozycjaMenu {
   nazwa: string;
@@ -89,21 +96,22 @@ export function menuGlowne(): GrupaMenu[] {
       id: 'poradniki',
       nazwa: 'Poradniki',
       pozycje: [
-        { nazwa: 'Umowa kupna-sprzedaży', opis: 'Wzór do wypełnienia i wydruku', adres: '/poradniki/umowa-kupna-sprzedazy-samochodu/', ikona: 'dokument', nowe: true },
-        { nazwa: 'Kolizja – co zrobić', opis: 'Bez policji? Oświadczenie sprawcy', adres: '/poradniki/kolizja-bez-policji/', ikona: 'kolizja', nowe: true },
+        { nazwa: 'Umowa kupna-sprzedaży', opis: 'Wzór do wypełnienia i wydruku', adres: '/poradniki/umowa-kupna-sprzedazy-samochodu/', ikona: 'dokument' },
+        { nazwa: 'Kolizja – co zrobić', opis: 'Bez policji? Oświadczenie sprawcy', adres: '/poradniki/kolizja-bez-policji/', ikona: 'kolizja' },
+        { nazwa: 'Szkoda z OC sprawcy', opis: 'Terminy, auto zastępcze, wycena', adres: '/poradniki/odszkodowanie-z-oc-sprawcy/', ikona: 'szkoda', nowe: true },
+        { nazwa: 'Przegląd techniczny', opis: 'Cena 2026, terminy, kary', adres: '/poradniki/przeglad-techniczny-terminy-koszt/', ikona: 'przeglad', nowe: true },
+        { nazwa: 'Auto z zagranicy', opis: 'Akcyza, tłumaczenia, rejestracja', adres: '/poradniki/sprowadzenie-auta-z-zagranicy/', ikona: 'import', nowe: true },
+        { nazwa: 'Kontrola drogowa', opis: 'Prawa i obowiązki kierowcy', adres: '/poradniki/kontrola-drogowa-prawa-kierowcy/', ikona: 'kontrola', nowe: true },
         { nazwa: 'Kupiłem auto', opis: 'PCC, rejestracja, OC – terminy i kary', adres: '/poradniki/kupilem-auto-co-dalej/', ikona: 'kluczyk' },
-        { nazwa: 'Wypadek z rannymi', opis: 'Obowiązki kierowcy, 112, pierwsza pomoc', adres: '/poradniki/wypadek-z-rannymi/', ikona: 'ranni' },
-        { nazwa: 'Sprzedałem auto', opis: 'Zgłoszenie zbycia i powiadomienie OC', adres: '/poradniki/sprzedalem-auto-co-dalej/', ikona: 'sprzedaz' },
-        { nazwa: 'Sprawca uciekł lub bez OC', opis: 'Odszkodowanie z UFG', adres: '/poradniki/sprawca-uciekl-brak-oc/', ikona: 'ucieczka' },
-        { nazwa: 'Wypowiedzenie OC', opis: 'Kiedy można i wzór pisma', adres: '/poradniki/wypowiedzenie-oc/', ikona: 'tarcza' },
-        { nazwa: 'Zderzenie ze zwierzęciem', opis: 'Co zrobić i kto zapłaci', adres: '/poradniki/zderzenie-ze-zwierzeciem/', ikona: 'zwierze' }
+        { nazwa: 'Wszystkie poradniki', opis: `${PORADNIKI.length} poradników i 5 wzorów do druku`, adres: '/poradniki/', ikona: 'wszystkie' }
       ]
     },
     {
       id: 'bezpieczenstwo',
       nazwa: 'Bezpieczeństwo',
       pozycje: [
-        { nazwa: 'Awaria na autostradzie', opis: 'Gdzie stanąć, trójkąt, numer 19 111', adres: '/poradniki/awaria-na-autostradzie/', ikona: 'awaria', nowe: true },
+        { nazwa: 'Zima w aucie', opis: 'Odśnieżanie, mandat, kable rozruchowe', adres: '/poradniki/zima-w-samochodzie/', ikona: 'zima', nowe: true },
+        { nazwa: 'Awaria na autostradzie', opis: 'Gdzie stanąć, trójkąt, numer 19 111', adres: '/poradniki/awaria-na-autostradzie/', ikona: 'awaria' },
         { nazwa: 'Korytarz życia i suwak', opis: 'Który pas w lewo, który w prawo', adres: '/poradniki/korytarz-zycia-jazda-na-suwak/', ikona: 'korytarz' },
         { nazwa: 'Jazda we mgle', opis: 'Jakie światła i kiedy tylne przeciwmgłowe', adres: '/poradniki/jazda-we-mgle/', ikona: 'mgla' },
         { nazwa: 'Odstęp na autostradzie', opis: 'Zasada „pół licznika”', adres: '/poradniki/odstep-na-autostradzie/', ikona: 'odstep' },

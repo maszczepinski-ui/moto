@@ -12,7 +12,7 @@ import { site } from '@/config/site';
 export const metadata: Metadata = {
   title: 'Poradniki kierowcy: kupno auta, kolizja, OC',
   description:
-    'Darmowe wzory do druku (umowa kupna-sprzedaży, oświadczenie sprawcy, wypowiedzenie OC) i poradniki: formalności po zakupie auta, kolizja, awaria, foteliki.',
+    'Darmowe wzory do druku (umowa kupna-sprzedaży, darowizny, oświadczenie sprawcy, wypowiedzenie OC) i poradniki: zakup auta, kolizja, przegląd, kontrola drogowa.',
   alternates: { canonical: '/poradniki/' },
   openGraph: { type: 'website', url: '/poradniki/', title: 'Poradniki kierowcy – formalności i bezpieczeństwo', description: 'Wzory do druku i proste poradniki: kupno i sprzedaż auta, kolizja, bezpieczna jazda.' }
 };
@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 const KOLORY: Record<KategoriaPoradnika, { akcent: string; tlo: string }> = {
   kupno: { akcent: 'text-sky-600 dark:text-sky-400', tlo: 'bg-sky-50 dark:bg-sky-950/40 text-sky-700 dark:text-sky-300' },
   kolizja: { akcent: 'text-rust-600 dark:text-rust-400', tlo: 'bg-rust-50 dark:bg-rust-900/40 text-rust-700 dark:text-rust-300' },
+  codzienne: { akcent: 'text-violet-700 dark:text-violet-400', tlo: 'bg-violet-50 dark:bg-violet-950/40 text-violet-700 dark:text-violet-300' },
   bezpieczenstwo: { akcent: 'text-emerald-700 dark:text-emerald-400', tlo: 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300' }
 };
 
@@ -80,7 +81,7 @@ export default function PoradnikiPage() {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">{KATEGORIE[k].nazwa}</h2>
             <p className="text-slate-500">{KATEGORIE[k].opis}</p>
           </div>
-          <ul className={`grid grid-cols-1 sm:grid-cols-2 gap-4 ${poradnikiKategorii(k).length === 5 ? 'lg:grid-cols-3 xl:grid-cols-5' : 'lg:grid-cols-4'}`}>
+          <ul className={`grid grid-cols-1 sm:grid-cols-2 gap-4 ${poradnikiKategorii(k).length % 4 === 0 ? 'lg:grid-cols-4' : 'lg:grid-cols-3'}`}>
             {poradnikiKategorii(k).map((p) => (
               <li key={p.slug}>
                 <Link
