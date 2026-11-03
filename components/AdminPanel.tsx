@@ -12,9 +12,11 @@ import { useEffect, useMemo, useState } from 'react';
 import Aktualizacje from '@/components/admin/Aktualizacje';
 import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
 import ProduktyRankingi from '@/components/admin/ProduktyRankingi';
+import OpisFilmu from '@/components/admin/OpisFilmu';
 import { site } from '@/config/site';
 import {
-  KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard
+  KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard,
+  Fuel
 } from 'lucide-react';
 
 type Linki = { vin: string; oc: string; ac: string; nnw: string };
@@ -38,6 +40,7 @@ type Dane = {
   kody: { head: string; body: string; strony: KodStrony[] };
   seo: { gsc: string; adsTxt: string; ga4: string };
   opisyZatwierdzone: string[];
+  ceny: { pb95: number; on: number; lpg: number; prad: number; data: string };
 };
 type ModelOpcja = { slug: string; nazwa: string; liczba: number; adres: string };
 type StronaOpcja = { sciezka: string; nazwa: string };
@@ -126,7 +129,8 @@ function uzupelnij(d: Partial<Dane>): Dane {
     reguly: d.reguly || [],
     kody: { head: '', body: '', strony: [], ...d.kody },
     seo: { gsc: '', adsTxt: '', ga4: '', ...d.seo },
-    opisyZatwierdzone: d.opisyZatwierdzone || []
+    opisyZatwierdzone: d.opisyZatwierdzone || [],
+    ceny: { pb95: 6.45, on: 8.09, lpg: 3.69, prad: 1.2, data: '2026-11-02', ...d.ceny }
   };
 }
 
@@ -366,7 +370,7 @@ export default function AdminPanel({
     ['artykuly', 'Artykuły z filmów', <Clapperboard key="i" className="w-4 h-4" />],
     ['produkty', 'Produkty i rankingi', <Package key="i" className="w-4 h-4" />],
     ['kody', 'Kody', <Code2 key="i" className="w-4 h-4" />],
-    ['seo', 'SEO i reklamy', <Megaphone key="i" className="w-4 h-4" />],
+    ['seo', 'SEO, reklamy i ceny', <Megaphone key="i" className="w-4 h-4" />],
     ['opisy', `Opisy (${szkice.length})`, <FileText key="i" className="w-4 h-4" />],
     ['aktualizacje', 'Aktualizacje danych', <Database key="i" className="w-4 h-4" />]
   ];
@@ -623,6 +627,7 @@ export default function AdminPanel({
           )}
 
           {/* ===================== FILMY ===================== */}
+          {zakladka === 'filmy' && <OpisFilmu modele={modele} />}
           {zakladka === 'filmy' && (
             <section className={karta}>
               <h2 className="flex items-center gap-2 text-lg font-bold text-slate-900 dark:text-white">
@@ -777,6 +782,47 @@ export default function AdminPanel({
           {/* ===================== SEO I REKLAMY ===================== */}
           {zakladka === 'seo' && (
             <>
+              <section className={karta}>
+                <h2 className="flex items-center gap-2 text-lg font-bold text-slate-900 dark:text-white">
+                  <Fuel className="w-5 h-5 text-rust-600" aria-hidden="true" /> Ceny paliw do kalkulatorów
+                </h2>
+                <p className="text-xs text-slate-500">
+                  Używają ich kalkulator kosztu trasy i kosztów utrzymania. Wpisuj średnie ceny w Polsce (np. z e-petrol.pl) raz na 2–4 tygodnie. Odwiedzający i tak mogą wpisać własną cenę.
+                </p>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  {(
+                    [
+                      ['pb95', 'Benzyna Pb95 (zł/l)'],
+                      ['on', 'Diesel (zł/l)'],
+                      ['lpg', 'LPG (zł/l)'],
+                      ['prad', 'Prąd (zł/kWh)']
+                    ] as const
+                  ).map(([k, n]) => (
+                    <div key={`${k}-${dane.ceny[k]}`}>
+                      <label htmlFor={`cena-${k}`} className={etykieta}>
+                        {n}
+                      </label>
+                      <input
+                        id={`cena-${k}`}
+                        inputMode="decimal"
+                        defaultValue={String(dane.ceny[k]).replace('.', ',')}
+                        onBlur={(e) => {
+                          const x = Number(e.target.value.replace(',', '.'));
+                          if (x > 0 && x !== dane.ceny[k]) zmien((d) => ({ ...d, ceny: { ...d.ceny, [k]: x, data: new Date().toISOString().slice(0, 10) } }));
+                        }}
+                        className={input}
+                      />
+                    </div>
+                  ))}
+                </div>
+                <p className="text-xs text-slate-500">Ceny z dnia: {new Date(dane.ceny.data).toLocaleDateString('pl-PL')} (zmienia się sama, gdy wpiszesz nową cenę).</p>
+                {Date.now() - Date.parse(dane.ceny.data) > 30 * 86400000 && (
+                  <p className="flex items-center gap-2 text-xs font-semibold text-amber-800 dark:text-amber-300 bg-amber-50 dark:bg-amber-950/40 rounded-lg p-3">
+                    <AlertTriangle className="w-4 h-4" aria-hidden="true" /> Ceny są starsze niż miesiąc – wpisz aktualne (np. z e-petrol.pl) i kliknij „Zapisz zmiany”.
+                  </p>
+                )}
+              </section>
+
               <section className={karta}>
                 <h2 className="flex items-center gap-2 text-lg font-bold text-slate-900 dark:text-white">
                   <Search className="w-5 h-5 text-steel-600" aria-hidden="true" /> Google Search Console i Analytics

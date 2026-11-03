@@ -221,3 +221,35 @@ Produkty pokazane w filmie zaznaczasz przy artykule (zakładka „Artykuły z fi
 **Żeby „Teraz na sezon” zmieniało się samo w dniu zmiany sezonu:** w Vercel → projekt → Settings → Git → **Deploy Hooks** → utwórz hook (nazwa np. „codziennie”, gałąź `main`) → skopiuj adres → w GitHubie dodaj sekret `VERCEL_DEPLOY_HOOK`. Automat `codzienna-przebudowa.yml` będzie co noc odświeżał stronę. Bez tego strona i tak odświeża się przy każdej zmianie w panelu.
 
 Cen nie zapisujemy na stronie – zmieniają się codziennie. Przycisk prowadzi do aktualnych ofert w Ceneo.
+
+## Narzędzia „W trasie” (koszt przejazdu, ładowarki, fotoradary, mandaty)
+
+- **/koszt-trasy/** – kalkulator kosztu paliwa + gotowe podstrony popularnych tras (`/koszt-trasy/warszawa-krakow/` itd., lista miast w `lib/miasta.ts`). Na każdej karcie modelu jest ten sam kalkulator ze spalaniem tego auta (a gdy kierowcy dodadzą raporty spalania „w trasie” – z ich średnią).
+- **Ceny paliw** wpisujesz w panelu admina → zakładka *SEO, reklamy i ceny* → „Ceny paliw do kalkulatorów” (panel ostrzeże, gdy ceny będą starsze niż miesiąc). Wystarczy raz na 2–4 tygodnie.
+- **/ladowarki/** i **/fotoradary/** – mapy z danymi z OpenStreetMap. Dane pobiera przeglądarka odwiedzającego, więc są zawsze aktualne i nic nie kosztują. Przy bardzo dużym ruchu warto przejść na płatny serwer map (np. MapTiler) – adresy są w `lib/osm.ts`.
+- **/mandaty/** – taryfikator, kalkulator mandatu i punktów. Kwoty są w `lib/mandaty.ts` – przy zmianie przepisów popraw je tam.
+- **Zdjęcia** na stronie głównej i w nagłówkach są w `config/zdjecia.ts` (darmowe zdjęcia z Unsplash). Najlepiej podmień je na kadry z własnych filmów: wrzuć JPG do `public/zdjecia/` i wpisz adres, np. `/zdjecia/hero.jpg`.
+- **Menu** strony ustawiasz w jednym pliku: `lib/menu.ts` (używa go menu u góry, menu na telefonie, stopka i kafelki na stronie głównej).
+- **Opłaty za autostrady** (A1, A2, A4) są w `lib/autostrady.ts`. Kalkulator trasy sam podpowiada odcinki dla popularnych tras.
+- **Mapy „wzdłuż trasy”** – na /ladowarki/ i /fotoradary/ zakładka „Wzdłuż trasy” (pas wokół linii prostej między miastami).
+- **Porównania „X czy Y?”** pokazują roczny koszt tankowania obu aut.
+
+## Przypomnienia o OC i przeglądzie (/przypomnienia/)
+
+Odwiedzający wpisuje e-mail i daty, potwierdza zapis linkiem z e-maila, a automat wysyła przypomnienia 21 i 3 dni przed terminem (co roku). Dopóki nie ustawisz poniższych rzeczy, strona pokazuje tylko napis „uruchomimy wkrótce”.
+
+1. **Baza danych** – ta sama co dla raportów spalania (Vercel → Storage → Upstash Redis, wybierz region w UE).
+2. **Wysyłka e-maili** – załóż darmowe konto na resend.com → Domains → dodaj `moto-raport.pl` → dopisz pokazane rekordy DNS w cyber_Folks (poczta na domenie działa dalej) → API Keys → Create.
+3. W Vercel → Settings → Environment Variables dodaj:
+   - `RESEND_API_KEY` – klucz z Resend,
+   - `PRZYPOMNIENIA_NADAWCA` – np. `MotoFormat <przypomnienia@moto-raport.pl>`,
+   - `CRON_SECRET` – dowolny długi ciąg liter i cyfr (np. 40 znaków).
+4. Deployments → ⋯ → **Redeploy**. Codzienną wysyłkę (ok. 7:17) uruchamia Vercel sam – ustawienie jest w `vercel.json`.
+5. W przypomnieniu o OC jest link z panelu (Linki i moduły → Ubezpieczenia → OC). Bez niego e-mail prowadzi na stronę główną.
+
+## Baner zgód, regulamin, aplikacja na telefon
+
+- **Baner zgód na cookies** pojawia się sam, gdy wpiszesz w panelu identyfikator Google Analytics. Gdy włączysz AdSense, zamiast niego używa się baneru Google (wymóg Google w UE).
+- **Regulamin** – /regulamin/; dane firmy wstawiają się z `config/site.ts`.
+- **Aplikacja na telefon** – stronę można dodać do ekranu głównego (plik `app/manifest.ts`, ikony w `public/ikony/`). W stopce pojawia się przycisk „Dodaj do ekranu głównego”.
+- **Opis pod film** – panel admina → zakładka *Filmy na kartach* → „Opis pod film na YouTube”: wybierasz model i kopiujesz gotowe linki do opisu.

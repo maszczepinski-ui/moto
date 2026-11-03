@@ -21,6 +21,12 @@ function lokalnie(p: Polecenie): unknown {
     case 'INCR': { const v = Number(pamiec.get(key) || 0) + 1; pamiec.set(key, v); return v; }
     case 'EXPIRE': return 1;
     case 'SET': if (a.includes('NX') && pamiec.has(key)) return null; pamiec.set(key, a[0]); return 'OK';
+    case 'GET': return pamiec.has(key) ? String(pamiec.get(key)) : null;
+    case 'DEL': return pamiec.delete(key) ? 1 : 0;
+    case 'PERSIST': return 1;
+    case 'SADD': { const z = new Set((pamiec.get(key) as string[]) || []); a.forEach((x) => z.add(x)); pamiec.set(key, [...z]); return 1; }
+    case 'SREM': { pamiec.set(key, lista().filter((x) => !a.includes(x))); return 1; }
+    case 'SMEMBERS': return lista();
     default: return null;
   }
 }

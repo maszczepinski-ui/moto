@@ -6,6 +6,8 @@ import { wszystkiePary } from '@/lib/porownania';
 import { KODY } from '@/lib/kody-bledow';
 import { opublikowane } from '@/lib/wpisy';
 import { rankingiZProduktami } from '@/lib/produkty';
+import { wszystkieTrasy } from '@/lib/miasta';
+import { PREDKOSC } from '@/lib/mandaty';
 
 const LIMIT = 5000;
 interface Adres {
@@ -45,6 +47,16 @@ function grupy(): Record<string, Adres[]> {
       { loc: '/asystent-zakupu/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/sprawdz-vin/', changefreq: 'monthly', priority: 0.7 },
       ...modele.map((m) => ({ loc: `${m.adres}zakup/`, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: 0.6 }))
+    ],
+    kierowca: [
+      { loc: '/koszt-trasy/', changefreq: 'weekly', priority: 0.8 },
+      { loc: '/ladowarki/', changefreq: 'monthly', priority: 0.8 },
+      { loc: '/fotoradary/', changefreq: 'monthly', priority: 0.8 },
+      { loc: '/mandaty/', changefreq: 'monthly', priority: 0.8 },
+      { loc: '/przypomnienia/', changefreq: 'monthly', priority: 0.6 },
+      { loc: '/regulamin/', changefreq: 'yearly', priority: 0.2 },
+      ...PREDKOSC.map((p) => ({ loc: `/mandaty/predkosc/${p.slug}/`, changefreq: 'yearly', priority: 0.6 })),
+      ...wszystkieTrasy().map((t) => ({ loc: `/koszt-trasy/${t.id}/`, changefreq: 'monthly', priority: 0.5 }))
     ],
     'kody-bledow': [{ loc: '/kody-bledow/', changefreq: 'monthly', priority: 0.6 }, ...KODY.map((k) => ({ loc: `/kody-bledow/${k.kod.toLowerCase()}/`, changefreq: 'yearly', priority: 0.5 }))]
   };

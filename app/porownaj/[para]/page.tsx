@@ -10,6 +10,9 @@ import { site } from '@/config/site';
 import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
+import PorownanieKosztow from '@/components/PorownanieKosztow';
+import { profilNapedu } from '@/components/KartaModelu';
+import { cenyPaliw } from '@/lib/panel';
 
 interface Props {
   params: Promise<{ para: string }>;
@@ -156,6 +159,8 @@ export default async function PorownaniePage({ params }: Props) {
           </tbody>
         </table>
       </section>
+
+      <PorownanieKosztow a={{ nazwa: A, ...profilNapedu(a) }} b={{ nazwa: B, ...profilNapedu(b) }} ceny={cenyPaliw()} />
 
       {(opisA || opisB) && (
         <section className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -4,7 +4,8 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { site } from '@/config/site';
 import { Analytics } from '@vercel/analytics/next';
-import { SkryptyHead, SkryptyBody } from '@/components/SkryptyGlobalne';
+import { SkryptyHead, SkryptyBody, wlasnyBanerZgod } from '@/components/SkryptyGlobalne';
+import BanerZgod from '@/components/BanerZgod';
 import { panelDane } from '@/lib/panel';
 
 // Kod weryfikacyjny Google Search Console: zmienna środowiskowa w Vercel albo pole w panelu admina (zakładka SEO)
@@ -56,6 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Statystyki odwiedzin Vercel – bez plików cookies; działają po włączeniu „Analytics” w panelu Vercel */}
         {process.env.NEXT_PUBLIC_STATYCZNA !== '1' && <Analytics />}
         <SkryptyBody />
+        {wlasnyBanerZgod && <BanerZgod />}
       </body>
     </html>
   );

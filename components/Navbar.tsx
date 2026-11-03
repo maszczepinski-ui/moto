@@ -1,11 +1,8 @@
 import Link from 'next/link';
 import { MapPinned } from 'lucide-react';
-import YouTubeIcon from '@/components/YouTubeIcon';
 import { site } from '@/config/site';
-import { opublikowane } from '@/lib/wpisy';
-import { rankingiZProduktami } from '@/lib/produkty';
-
-const link = 'text-slate-700 dark:text-slate-300 hover:text-steel-600 dark:hover:text-steel-300 transition-colors';
+import { menuGlowne } from '@/lib/menu';
+import MenuGlowne from '@/components/MenuGlowne';
 
 export default function Navbar() {
   return (
@@ -18,40 +15,7 @@ export default function Navbar() {
             <span className="hidden md:block text-[11px] font-semibold text-rust-600 dark:text-rust-500 tracking-wide truncate">{site.tagline}</span>
           </div>
         </Link>
-        <nav className="flex items-center gap-3 sm:gap-6 text-sm font-medium">
-          <Link href="/marki/" className={link}>
-            Marki
-          </Link>
-          <Link href="/wojewodztwa/" className={`${link} hidden sm:inline`}>
-            Województwa
-          </Link>
-          <Link href="/asystent-zakupu/" className="text-rust-600 dark:text-rust-500 font-semibold hover:text-rust-700 transition-colors">
-            Kupujesz?
-          </Link>
-          <Link href="/rankingi/" className={`${link} hidden sm:inline`}>
-            Rankingi
-          </Link>
-          {opublikowane().length > 0 && (
-            <Link href="/filmy/" className={`${link} hidden md:inline`}>
-              Filmy
-            </Link>
-          )}
-          {rankingiZProduktami().length > 0 && (
-            <Link href="/polecane/" className={`${link} hidden md:inline`}>
-              Polecane
-            </Link>
-          )}
-          <a
-            href={site.youtubeChannelUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-red-600 hover:text-red-700 font-semibold transition-colors"
-            aria-label={`Kanał ${site.youtubeChannelName} na YouTube`}
-          >
-            <YouTubeIcon className="w-5 h-5" />
-            <span className="hidden lg:inline">YouTube</span>
-          </a>
-        </nav>
+        <MenuGlowne grupy={menuGlowne()} youtube={site.youtubeChannelUrl} youtubeNazwa={site.youtubeChannelName} />
       </div>
     </header>
   );

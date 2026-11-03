@@ -1,11 +1,13 @@
 'use client';
 import { useMemo, useState } from 'react';
 import { Calculator } from 'lucide-react';
+import { domyslneSpalanie, cenaDla, RodzajNapedu } from '@/lib/paliwa';
+
+export type { RodzajNapedu };
 
 // Kalkulator kosztów utrzymania (TCO). Wszystkie wartości startowe to szacunki dla typowego egzemplarza
 // – każdą można zmienić. Liczymy: paliwo, OC, wymiany eksploatacyjne, hamulce, opony i przegląd.
 
-export type RodzajNapedu = 'benzyna' | 'diesel' | 'lpg' | 'hybryda' | 'elektryczny';
 
 interface Props {
   nazwa: string;
@@ -17,16 +19,6 @@ interface Props {
 
 const zl = (n: number, m = 0) => n.toLocaleString('pl-PL', { minimumFractionDigits: m, maximumFractionDigits: m }) + ' zł';
 
-function domyslneSpalanie(naped: RodzajNapedu, poj: number) {
-  const p = poj || 1.6;
-  if (naped === 'elektryczny') return 17;
-  if (naped === 'hybryda') return Math.round((3.6 + p * 1.0) * 10) / 10;
-  if (naped === 'diesel') return Math.round((3.4 + p * 1.6) * 10) / 10;
-  const benz = 5 + p * 2.1;
-  return Math.round((naped === 'lpg' ? benz * 1.2 : benz) * 10) / 10;
-}
-
-const CENY: Record<RodzajNapedu, number> = { benzyna: 6.2, diesel: 6.3, lpg: 3.1, hybryda: 6.2, elektryczny: 1.0 };
 
 function Suwak(p: { id: string; label: string; min: number; max: number; krok: number; wartosc: number; onChange: (v: number) => void; jednostka: string; miejsca?: number }) {
   return (
@@ -69,7 +61,7 @@ function Liczba(p: { id: string; label: string; wartosc: number; onChange: (v: n
 export default function KalkulatorTCO({ nazwa, naped, pojemnosc, premium }: Props) {
   const ev = naped === 'elektryczny';
   const [przebieg, setPrzebieg] = useState(15000);
-  const [cena, setCena] = useState(CENY[naped]);
+  const [cena, setCena] = useState(cenaDla(naped));
   const [spalanie, setSpalanie] = useState(domyslneSpalanie(naped, pojemnosc));
   const [oc, setOc] = useState(pojemnosc > 2 ? 1200 : pojemnosc > 1.4 ? 900 : 700);
   const [serwis, setSerwis] = useState(ev ? 300 : premium ? 550 : 380);

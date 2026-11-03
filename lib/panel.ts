@@ -54,9 +54,34 @@ export interface PanelDane {
   seo?: { gsc: string; adsTxt: string; ga4: string };
   /** slugi kart, których opisy (szkice z data/opisy) zostały przejrzane i zatwierdzone */
   opisyZatwierdzone?: string[];
+  /** ceny paliw i prądu do kalkulatorów (zł/l, prąd zł/kWh); data – kiedy je wpisano */
+  ceny?: Partial<CenyPaliw>;
 }
 
+export interface CenyPaliw {
+  pb95: number;
+  on: number;
+  lpg: number;
+  prad: number;
+  data: string;
+}
+
+const CENY_DOMYSLNE: CenyPaliw = { pb95: 6.45, on: 8.09, lpg: 3.69, prad: 1.2, data: '2026-11-02' };
+
 export const panelDane = panel as unknown as PanelDane;
+
+/** Ceny paliw do kalkulatorów – z panelu admina, a gdy pola są puste: wartości domyślne */
+export function cenyPaliw(): CenyPaliw {
+  const c = panelDane.ceny || {};
+  const liczba = (x: unknown, d: number) => (typeof x === 'number' && x > 0 ? x : d);
+  return {
+    pb95: liczba(c.pb95, CENY_DOMYSLNE.pb95),
+    on: liczba(c.on, CENY_DOMYSLNE.on),
+    lpg: liczba(c.lpg, CENY_DOMYSLNE.lpg),
+    prad: liczba(c.prad, CENY_DOMYSLNE.prad),
+    data: c.data || CENY_DOMYSLNE.data
+  };
+}
 
 /** Wyciąga numer filmu z linku YouTube (watch?v=, youtu.be/, shorts/, embed/, live/) */
 export function youtubeId(link: string): string {

@@ -1,6 +1,28 @@
 {
   "headers": [
-    { "source": "/opengraph-image", "headers": [{ "key": "Content-Type", "value": "image/png" }] },
-    { "source": "/:path*/opengraph-image", "headers": [{ "key": "Content-Type", "value": "image/png" }] }
+    {
+      "source": "/opengraph-image",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    },
+    {
+      "source": "/:path*/opengraph-image",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "image/png"
+        }
+      ]
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/przypomnienia/wyslij/",
+      "schedule": "17 6 * * *"
+    }
   ]
 }

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import { CarModel, RefKarty } from '@/types/car-model';
 import { getAllModels, getModelBySlug } from '@/lib/models';
-import { filmyDlaModelu, youtubeId, KontekstKarty, pokazModul } from '@/lib/panel';
+import { filmyDlaModelu, youtubeId, KontekstKarty, pokazModul, cenyPaliw } from '@/lib/panel';
 import { opisZatwierdzony, Markdown } from '@/lib/opisy';
 import { zajawkaRynkowa, profilKierowcy, faq, nazwaKarty, najwiecej } from '@/lib/opis';
 import { site } from '@/config/site';
@@ -24,6 +24,7 @@ import { uwagaUzupelnianie } from '@/lib/dane';
 import { kodyDlaKarty } from '@/lib/kody-bledow';
 import KalkulatorTCO, { RodzajNapedu } from '@/components/KalkulatorTCO';
 import RaportySpalania from '@/components/RaportySpalania';
+import KalkulatorTrasy from '@/components/KalkulatorTrasy';
 import { Calendar, Film, FlaskConical, MapPin, Gauge, Ruler, Info, Wrench, Users, HelpCircle, ArrowLeft, ArrowRight, Swords, Cog, Layers } from 'lucide-react';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
@@ -406,6 +407,9 @@ export default function KartaModelu({ m }: { m: CarModel }) {
 
       {/* Kalkulator kosztów utrzymania */}
       <KalkulatorTCO nazwa={name} {...profilNapedu(m)} premium={PREMIUM.has(m.marka)} />
+
+      {/* Koszt przejazdu tym autem (spalanie z raportów kierowców, gdy są) */}
+      <KalkulatorTrasy ceny={cenyPaliw()} auto={{ slug: m.slug, nazwa: name, ...profilNapedu(m) }} />
 
       {/* Realne spalanie od kierowców (pokazuje się po podłączeniu bazy danych) */}
       <RaportySpalania

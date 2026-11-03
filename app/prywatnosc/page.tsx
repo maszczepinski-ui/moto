@@ -2,12 +2,14 @@ import { Metadata } from 'next';
 import { site } from '@/config/site';
 import KodStrony from '@/components/KodStrony';
 import { panelDane } from '@/lib/panel';
+import { przypomnieniaWlaczone } from '@/lib/przypomnienia';
 
 // Tekst zmienia się sam, gdy w panelu admina włączysz reklamy AdSense albo Google Analytics
 const adsense = !!(panelDane.moduly?.adsense?.wlaczony && panelDane.moduly.adsense.klient);
 const ga4 = !!panelDane.seo?.ga4;
 // wersja na zwykły hosting (np. cyber_Folks): bez statystyk Vercel i bez raportów spalania
 const statyczna = process.env.NEXT_PUBLIC_STATYCZNA === '1';
+const przypomnienia = !statyczna && przypomnieniaWlaczone();
 
 export const metadata: Metadata = {
   title: 'Polityka prywatności i linki partnerskie',
@@ -15,7 +17,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/prywatnosc/' }
 };
 
-const AKTUALIZACJA = '1 listopada 2026';
+const AKTUALIZACJA = '2 listopada 2026';
 
 // Dane wydawcy (NIP, adres, e-mail) uzupełnia się w pliku config/site.ts.
 export default function PrywatnoscPage() {
@@ -53,7 +55,9 @@ export default function PrywatnoscPage() {
         <section className="space-y-2">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white">2. Jakie dane zbieramy</h2>
           <p>
-            Serwis nie ma formularzy, kont użytkowników ani newslettera i nie prosi Cię o żadne dane osobowe.{' '}
+            {przypomnienia
+              ? 'Serwis nie ma kont użytkowników. Jedyne dane osobowe, o które prosimy, to e-mail – i tylko jeśli sam zapiszesz się na przypomnienia o OC i przeglądzie (opis niżej).'
+              : 'Serwis nie ma kont użytkowników ani newslettera i nie prosi Cię o żadne dane osobowe.'}{' '}
             {adsense || ga4
               ? 'Pliki cookies Google (reklamowe i analityczne) zapisujemy wyłącznie po wyrażeniu przez Ciebie zgody w okienku, które pojawia się przy pierwszej wizycie.'
               : 'Strona nie ustawia plików cookies.'}
@@ -91,6 +95,30 @@ export default function PrywatnoscPage() {
           </p>
         </section>}
 
+        {przypomnienia && (
+          <section id="przypomnienia" className="space-y-2 scroll-mt-20">
+            <h2 className="text-lg font-bold text-slate-900 dark:text-white">Przypomnienia o OC i przeglądzie</h2>
+            <p>
+              Jeśli zapiszesz się na przypomnienia, przechowujemy Twój adres e-mail i podane daty (koniec OC, termin przeglądu). Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a
+              RODO). Celem jest wyłącznie wysłanie przypomnień – 3 tygodnie i 3 dni przed terminem, co roku. W przypomnieniu o OC jest link partnerski do porównywarki ubezpieczeń.
+            </p>
+            <p>
+              Zapis działa dopiero po kliknięciu linku potwierdzającego. Niepotwierdzone zapisy usuwamy automatycznie po 7 dniach. Każdy e-mail ma link „wypisz się” – jedno
+              kliknięcie cofa zgodę i od razu usuwa wszystkie Twoje dane. Dane przechowuje Upstash (baza danych w chmurze, serwery w UE), a e-maile wysyła Resend Inc. (USA) – na podstawie umowy powierzenia danych ze standardowymi klauzulami umownymi UE. Nie
+              przekazujemy adresów nikomu innemu, także partnerom.
+            </p>
+          </section>
+        )}
+
+        <section className="space-y-2">
+          <h2 className="text-lg font-bold text-slate-900 dark:text-white">Mapy: ładowarki i fotoradary</h2>
+          <p>
+            Mapy korzystają z OpenStreetMap. Gdy otwierasz mapę lub wyszukujesz miejscowość, Twoja przeglądarka łączy się z serwerami OpenStreetMap (podkład mapy i
+            wyszukiwarka) oraz Overpass API (lista ładowarek i fotoradarów) – tak jak przy każdej mapie w internecie, widzą one Twój adres IP. Swoją lokalizację udostępniasz tylko
+            po kliknięciu „Moja lokalizacja” i potwierdzeniu w przeglądarce. Nie zapisujemy jej.
+          </p>
+        </section>
+
         <section className="space-y-2">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white">4. Lista kontrolna (pamięć przeglądarki)</h2>
           <p>
@@ -115,7 +143,12 @@ export default function PrywatnoscPage() {
 
         <section className="space-y-2">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white">7. Twoje prawa</h2>
-          <p>Ponieważ nie zbieramy danych, po których da się Cię rozpoznać, zwykle nie mamy czego udostępnić ani usunąć. Jeśli masz pytania, napisz: {kontakt}.</p>
+          <p>
+            {przypomnienia
+              ? 'Masz prawo dostępu do swoich danych, ich poprawienia, usunięcia, ograniczenia przetwarzania i przeniesienia, a także cofnięcia zgody w każdej chwili (link „wypisz się” w każdym e-mailu). Możesz też złożyć skargę do Prezesa UODO.'
+              : 'Ponieważ nie zbieramy danych, po których da się Cię rozpoznać, zwykle nie mamy czego udostępnić ani usunąć.'}{' '}
+            Jeśli masz pytania, napisz: {kontakt}.
+          </p>
         </section>
       </div>
       <KodStrony sciezka={'/prywatnosc/'} />

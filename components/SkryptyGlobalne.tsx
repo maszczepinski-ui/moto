@@ -15,13 +15,18 @@ const consentDomyslny = `window.dataLayer=window.dataLayer||[];function gtag(){d
 gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});
 gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);`;
 
+/** Własny baner zgód działa tylko dla samego GA4 (przy AdSense zgodę zbiera baner Google) */
+export const wlasnyBanerZgod = !!ga4 && !adsense;
+// zgoda zapisana przy poprzedniej wizycie – stosujemy ją od razu, zanim wczyta się Analytics
+const zapisanaZgoda = `try{if(localStorage.getItem('zgoda-analityka')==='tak')gtag('consent','update',{analytics_storage:'granted'})}catch(e){}`;
+
 const leniweLadowanie = (src: string, dodatki = '') => `(function(){function z(){var s=document.createElement('script');s.async=true;s.src=${JSON.stringify(src)};${dodatki}document.head.appendChild(s);}
 if(document.readyState==='complete'){setTimeout(z,1)}else{window.addEventListener('load',function(){setTimeout(z,1)})}})();`;
 
 export function SkryptyHead() {
   return (
     <>
-      {(adsense || ga4) && <script dangerouslySetInnerHTML={{ __html: consentDomyslny }} />}
+      {(adsense || ga4) && <script dangerouslySetInnerHTML={{ __html: consentDomyslny + (wlasnyBanerZgod ? zapisanaZgoda : '') }} />}
       {ga4 && (
         <script
           dangerouslySetInnerHTML={{
