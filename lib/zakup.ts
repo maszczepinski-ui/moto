@@ -36,9 +36,19 @@ export function udzialSalonu(m: CarModel): number | null {
   return (p.find((x) => x.nazwa.startsWith('Nowy z polskiego'))?.liczba || 0) / suma;
 }
 
-/** Jak łatwo trafić na egzemplarz – progi liczone z liczby aut w Polsce */
+/**
+ * Jak łatwo trafić na egzemplarz. Liczymy z aut „w użyciu” (od 2017 r. zmieniły właściciela, sprowadzone albo nowe z salonu),
+ * bo w CEPiK zostają też auta dawno niejeżdżące – np. Fiat 126p ma 1,8 mln rejestracji, ale w użyciu kilka tysięcy.
+ */
+export function rzadkoscModelu(m: { cepik: { liczbaWPolsce: number; aktywne?: number } }) {
+  const a = m.cepik.aktywne;
+  if (a === undefined) return rzadkosc(m.cepik.liczbaWPolsce);
+  return rzadkosc(a >= 40000 ? 100000 : a >= 8000 ? 20000 : a >= 1500 ? 3000 : a >= 200 ? 500 : 0);
+}
+
+/** Progi liczone z liczby wszystkich rejestracji (używaj rzadkoscModelu, gdy masz dane karty) */
 export function rzadkosc(n: number): { poziom: string; opis: string } {
-  if (n >= 100000) return { poziom: 'Bardzo popularny', opis: 'W Polsce jeździ ich bardzo dużo – zwykle łatwo o wybór egzemplarzy i pole do negocjacji. Części i mechanicy znający ten model są wszędzie.' };
+  if (n >= 100000) return { poziom: 'Bardzo popularny', opis: 'W Polsce jest ich w użyciu bardzo dużo – zwykle łatwo o wybór egzemplarzy i pole do negocjacji. Części i mechanicy znający ten model są wszędzie.' };
   if (n >= 20000) return { poziom: 'Popularny', opis: 'Aut jest dużo, więc zwykle jest z czego wybierać, a części i warsztaty są łatwo dostępne.' };
   if (n >= 3000) return { poziom: 'Spotykany regularnie', opis: 'Aut jest umiarkowanie dużo – warto szukać w całej Polsce, nie tylko w swoim mieście.' };
   if (n >= 500) return { poziom: 'Rzadki', opis: 'Dobrych egzemplarzy jest niewiele – nastaw się na dłuższe szukanie i dalszy dojazd. Sprawdź wcześniej dostępność części.' };
@@ -53,7 +63,7 @@ export function faktyZakupu(m: CarModel) {
   const salon = udzialSalonu(m);
   const top = najwiecej(m);
   return {
-    rzadkosc: rzadkosc(m.cepik.liczbaWPolsce),
+    rzadkosc: rzadkoscModelu(m),
     import: imp,
     salon,
     gdzie: top ? nazwaWojewodztwa(top.teryt).toLowerCase() : null,

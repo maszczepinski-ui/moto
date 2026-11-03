@@ -45,6 +45,8 @@ export interface PanelDane {
     ogledziny?: { wlaczony: boolean; partner: string; url: string };
     /** asystent zakupu: kredyt / leasing */
     finansowanie?: { wlaczony: boolean; partner: string; url: string };
+    /** sklep z oponami: link ogólny + opcjonalnie osobne do opon zimowych i letnich */
+    opony?: { wlaczony: boolean; partner: string; url: string; zimowe?: string; letnie?: string };
   };
   /** kolejność boksów na karcie modelu */
   kolejnosc?: ModulId[];
@@ -187,4 +189,12 @@ export function linkiCzesci(k: KontekstKarty): { fraza: string; allegro: string;
 /** Kod wklejony w panelu dla danej podstrony */
 export function kodDlaStrony(sciezka: string): KodStrony | undefined {
   return panelDane.kody?.strony?.find((s) => s.sciezka === sciezka);
+}
+
+/** Sklep z oponami z panelu: link do opon na dany sezon (albo ogólny); null, gdy wyłączony lub pusty */
+export function sklepOpon(sezon?: 'zimowe' | 'letnie'): { nazwa: string; url: string } | null {
+  const o = panelDane.moduly?.opony;
+  if (!o || o.wlaczony === false) return null;
+  const url = ((sezon && o[sezon]) || o.url || '').trim();
+  return /^https:\/\//.test(url) ? { nazwa: o.partner || 'sklep z oponami', url } : null;
 }

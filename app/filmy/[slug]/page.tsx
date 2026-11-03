@@ -6,7 +6,7 @@ import { getModelBySlug } from '@/lib/models';
 import { nazwaKarty, najwiecej } from '@/lib/opis';
 import { fmt, formatDate } from '@/lib/format';
 import { nazwaWojewodztwa } from '@/lib/wojewodztwa';
-import { udzialImportu, PROCENT, rzadkosc } from '@/lib/zakup';
+import { udzialImportu, PROCENT, rzadkoscModelu } from '@/lib/zakup';
 import { produkt, produktyFilmu } from '@/lib/produkty';
 import { ArtykulMarkdown, AutoLink } from '@/lib/markdown';
 import { KontekstKarty } from '@/lib/panel';
@@ -147,7 +147,7 @@ export default async function WpisPage({ params }: Props) {
                     <Car className="w-5 h-5" aria-hidden="true" /> {nazwaKarty(m)}
                   </p>
                   <p className="text-3xl font-black tabular-nums">
-                    {fmt(m.cepik.liczbaWPolsce)} <span className="text-sm font-normal text-steel-100">aut w Polsce • {rzadkosc(m.cepik.liczbaWPolsce).poziom.toLowerCase()}</span>
+                    {fmt(m.cepik.liczbaWPolsce)} <span className="text-sm font-normal text-steel-100">aut w Polsce • {rzadkoscModelu(m).poziom.toLowerCase()}</span>
                   </p>
                   <ul className="text-sm text-steel-50 space-y-0.5">
                     {imp !== null && <li>{PROCENT(imp)} sprowadzonych jako używane</li>}

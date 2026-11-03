@@ -1,3 +1,4 @@
+import { PORADNIKI, AKTUALIZACJA } from '@/lib/poradniki';
 // Mapy strony dla Google: indeks (/sitemap.xml) + mapy tematyczne (/sitemaps/*.xml), max 5000 adresów w pliku
 import { getAllModels } from '@/lib/models';
 import { listaWojewodztw, rankingi, marki } from '@/lib/dane';
@@ -54,7 +55,10 @@ function grupy(): Record<string, Adres[]> {
       { loc: '/fotoradary/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/mandaty/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/przypomnienia/', changefreq: 'monthly', priority: 0.6 },
+      { loc: '/opony/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/regulamin/', changefreq: 'yearly', priority: 0.2 },
+      { loc: '/poradniki/', changefreq: 'monthly', priority: 0.8 },
+      ...PORADNIKI.map((p) => ({ loc: `/poradniki/${p.slug}/`, lastmod: AKTUALIZACJA, changefreq: 'monthly', priority: 0.7 })),
       ...PREDKOSC.map((p) => ({ loc: `/mandaty/predkosc/${p.slug}/`, changefreq: 'yearly', priority: 0.6 })),
       ...wszystkieTrasy().map((t) => ({ loc: `/koszt-trasy/${t.id}/`, changefreq: 'monthly', priority: 0.5 }))
     ],

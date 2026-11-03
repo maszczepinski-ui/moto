@@ -21,9 +21,10 @@ export async function POST(req: Request) {
   const email = String(d.email || '').trim().toLowerCase();
   const oc = String(d.oc || '');
   const przeglad = String(d.przeglad || '');
+  const opony = d.opony === true;
   if (!poprawnyEmail(email)) return json({ blad: 'Sprawdź adres e-mail' }, 400);
   if (!poprawnaData(oc) || !poprawnaData(przeglad)) return json({ blad: 'Nieprawidłowa data' }, 400);
-  if (!oc && !przeglad) return json({ blad: 'Podaj datę końca OC albo przeglądu' }, 400);
+  if (!oc && !przeglad && !opony) return json({ blad: 'Podaj datę końca OC, przeglądu albo zaznacz przypomnienie o oponach' }, 400);
   if (d.zgoda !== true) return json({ blad: 'Zaznacz zgodę na wysyłanie przypomnień' }, 400);
 
   const ip = (req.headers.get('x-forwarded-for') || '').split(',')[0].trim() || 'nieznany';
@@ -31,7 +32,7 @@ export async function POST(req: Request) {
   try {
     const [licznik] = await redis([['INCR', `limit-przyp:${skrot}`], ['EXPIRE', `limit-przyp:${skrot}`, 3600]]);
     if (Number(licznik) > 5) return json({ blad: 'Za dużo prób – spróbuj za godzinę' }, 429);
-    const t = await zapiszNowy(email, oc, przeglad);
+    const t = await zapiszNowy(email, oc, przeglad, opony);
     await wyslijPotwierdzenie(t, (await czytaj(t))!);
     return json({ ok: true });
   } catch {

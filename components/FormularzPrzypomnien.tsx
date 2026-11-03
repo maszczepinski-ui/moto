@@ -14,6 +14,7 @@ export default function FormularzPrzypomnien({ wlaczone, kompaktowy = false }: {
   const [oc, setOc] = useState('');
   const [przeglad, setPrzeglad] = useState('');
   const [zgoda, setZgoda] = useState(false);
+  const [opony, setOpony] = useState(true);
   const [pulapka, setPulapka] = useState('');
   const [stan, setStan] = useState<'' | 'wysylanie' | 'ok'>('');
   const [blad, setBlad] = useState('');
@@ -46,19 +47,19 @@ export default function FormularzPrzypomnien({ wlaczone, kompaktowy = false }: {
       onSubmit={async (e) => {
         e.preventDefault();
         setBlad('');
-        if (!oc && !przeglad) return setBlad('Podaj datę końca OC albo przeglądu (albo obie).');
+        if (!oc && !przeglad && !opony) return setBlad('Podaj datę końca OC, przeglądu albo zaznacz przypomnienie o oponach.');
         if (!zgoda) return setBlad('Zaznacz zgodę – bez niej nie możemy wysyłać przypomnień.');
         setStan('wysylanie');
         try {
           const r = await fetch('/api/przypomnienia/', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, oc, przeglad, zgoda, strona: pulapka, czas: Date.now() - start.current })
+            body: JSON.stringify({ email, oc, przeglad, opony, zgoda, strona: pulapka, czas: Date.now() - start.current })
           });
           const d = await r.json().catch(() => ({}));
           if (!r.ok) throw new Error(d.blad || 'Nie udało się zapisać');
           setStan('ok');
-          sledz('przypomnienie_zapis', { oc: oc ? 1 : 0, przeglad: przeglad ? 1 : 0 });
+          sledz('przypomnienie_zapis', { oc: oc ? 1 : 0, przeglad: przeglad ? 1 : 0, opony: opony ? 1 : 0 });
         } catch (er) {
           setStan('');
           setBlad((er as Error).message);
@@ -96,12 +97,16 @@ export default function FormularzPrzypomnien({ wlaczone, kompaktowy = false }: {
           </button>
         </div>
       </div>
+      <label className="flex items-center gap-2 text-sm text-slate-700 dark:text-slate-300 cursor-pointer">
+        <input type="checkbox" checked={opony} onChange={(e) => setOpony(e.target.checked)} className="w-4 h-4 accent-rust-600" />
+        Przypominaj też o zmianie opon (na początku października i w drugiej połowie marca)
+      </label>
       {/* pole-pułapka na boty – niewidoczne dla ludzi */}
       <input type="text" tabIndex={-1} autoComplete="off" value={pulapka} onChange={(e) => setPulapka(e.target.value)} className="hidden" aria-hidden="true" name="strona" />
       <label className="flex items-start gap-2 text-xs text-slate-600 dark:text-slate-400 cursor-pointer">
         <input type="checkbox" checked={zgoda} onChange={(e) => setZgoda(e.target.checked)} className="w-4 h-4 mt-0.5 accent-rust-600" />
         <span>
-          Zgadzam się na wysyłanie na mój e-mail przypomnień o tych terminach (razem z linkiem do porównania ofert OC). Mogę się wypisać w każdej chwili jednym kliknięciem – dane
+          Zgadzam się na wysyłanie na mój e-mail wybranych przypomnień (razem z linkami do porównania ofert OC i sklepu z oponami). Mogę się wypisać w każdej chwili jednym kliknięciem – dane
           usuwamy wtedy od razu.{' '}
           <Link href="/prywatnosc/#przypomnienia" className="underline">
             Jak przetwarzamy dane

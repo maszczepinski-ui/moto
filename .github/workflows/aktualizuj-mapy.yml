@@ -1,0 +1,40 @@
+# Ładowarki, fotoradary i odcinkowe pomiary z OpenStreetMap → pliki na stronie (public/mapy).
+# Raz w tygodniu (poniedziałek rano) i przyciskiem: GitHub → Actions → „Aktualizuj mapy” → Run workflow.
+# Gdy serwery OpenStreetMap nie odpowiadają, automat kończy się na czerwono, a strona zostaje z poprzednimi danymi.
+name: Aktualizuj mapy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aktualizuj-mapy
+  cancel-in-progress: false
+
+jobs:
+  mapy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pobierz ładowarki i fotoradary
+        run: node scripts/pobierz-mapy.mjs
+      - name: Zapisz na stronie
+        run: |
+          git config user.name "Aktualizacja map"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/mapy
+          if git diff --cached --quiet; then
+            echo "Bez zmian."
+          else
+            git commit -m "Mapy: ładowarki i fotoradary $(date +%F)"
+            git pull --rebase
+            git push
+          fi

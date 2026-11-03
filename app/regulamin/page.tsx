@@ -52,7 +52,9 @@ export default function RegulaminPage() {
             <li>kalkulatory: koszt przejazdu, koszty utrzymania, mandaty i punkty karne, orientacyjne koszty po zakupie auta,</li>
             <li>mapy ładowarek oraz fotoradarów i odcinkowych pomiarów prędkości (dane OpenStreetMap),</li>
             <li>dodawanie raportów realnego spalania,</li>
-            <li>przypomnienia e-mail o końcu ubezpieczenia OC i terminie przeglądu.</li>
+            <li>przypomnienia e-mail o końcu ubezpieczenia OC, terminie przeglądu i sezonowej zmianie opon,</li>
+            <li>informacje o oponach i narzędzia do sprawdzenia rozmiaru, wieku i bieżnika opony,</li>
+            <li>poradniki i wzory dokumentów (umowa kupna-sprzedaży, oświadczenie sprawcy kolizji, wypowiedzenie OC) wypełniane w przeglądarce – wpisane dane nie są wysyłane do Serwisu.</li>
           </ul>
           <p>Wszystkie usługi są bezpłatne. Korzystanie z Serwisu nie wymaga zakładania konta.</p>
         </R>
@@ -81,7 +83,7 @@ export default function RegulaminPage() {
         </R>
         <R n={6} t="Przypomnienia e-mail">
           <p>
-            Zapis wymaga podania adresu e-mail, co najmniej jednej daty i potwierdzenia zapisu linkiem z wiadomości. Przypomnienia wysyłamy 3 tygodnie i 3 dni przed terminem, co roku.
+            Zapis wymaga podania adresu e-mail, co najmniej jednej daty albo wyboru przypomnienia o oponach oraz potwierdzenia zapisu linkiem z wiadomości. Przypomnienia o OC i przeglądzie wysyłamy 3 tygodnie i 3 dni przed terminem, co roku; o zmianie opon – na początku października i w drugiej połowie marca.
             Umowa o tę usługę trwa do wypisania się – każda wiadomość zawiera link „wypisz się”, który kończy umowę i usuwa dane od razu. Szczegóły w{' '}
             <Link href="/prywatnosc/" className="underline">
               polityce prywatności

@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Czytelniejsze cyfry i litery w czcionce Inter */
+body {
+  font-feature-settings: 'cv11', 'ss01';
+  text-rendering: optimizeLegibility;
+}
+
 @media print {
   header, footer, .no-print {
     display: none !important;
@@ -10,6 +16,26 @@
     background-color: white !important;
     color: black !important;
   }
+  /* Generator dokumentów: drukujemy tylko kopię arkusza dołożoną do <body> na czas druku */
+  html.drukuj-dokument body > *:not(#druk-kopia) {
+    display: none !important;
+  }
+  html.drukuj-dokument #druk-kopia {
+    display: block !important;
+  }
+  #druk-kopia .druk-strona + .druk-strona {
+    break-before: page;
+  }
+  #druk-kopia .arkusz {
+    padding: 0 !important;
+  }
+}
+@page {
+  margin: 18mm 16mm;
+}
+#druk-dokumentu,
+#druk-kopia {
+  display: none;
 }
 
 /* Kolory infografik (sprawdzone pod kątem daltonizmu – osobne odcienie dla trybu jasnego i ciemnego) */

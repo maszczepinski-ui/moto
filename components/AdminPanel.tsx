@@ -34,6 +34,7 @@ type Dane = {
     adsense: { wlaczony: boolean; klient: string; slotGora: string; slotSpec: string; slotDol: string };
     ogledziny: { wlaczony: boolean; partner: string; url: string };
     finansowanie: { wlaczony: boolean; partner: string; url: string };
+    opony: { wlaczony: boolean; partner: string; url: string; zimowe: string; letnie: string };
   };
   kolejnosc: ModulId[];
   reguly: Regula[];
@@ -123,7 +124,8 @@ function uzupelnij(d: Partial<Dane>): Dane {
       czesci: { wlaczony: false, allegro: '', ceneo: '', frazy: 'filtr oleju, klocki hamulcowe, olej silnikowy, wycieraczki, akumulator', ...m.czesci },
       adsense: { wlaczony: false, klient: '', slotGora: '', slotSpec: '', slotDol: '', ...m.adsense },
       ogledziny: { wlaczony: true, partner: '', url: '', ...m.ogledziny },
-      finansowanie: { wlaczony: true, partner: '', url: '', ...m.finansowanie }
+      finansowanie: { wlaczony: true, partner: '', url: '', ...m.finansowanie },
+      opony: { wlaczony: true, partner: '', url: '', zimowe: '', letnie: '', ...m.opony }
     },
     kolejnosc: d.kolejnosc?.length ? d.kolejnosc : ['vin', 'ubezpieczenia', 'czesci'],
     reguly: d.reguly || [],
@@ -281,7 +283,10 @@ export default function AdminPanel({
       ['Allegro', d.moduly.czesci.allegro],
       ['Ceneo', d.moduly.czesci.ceneo],
       ['Oględziny', d.moduly.ogledziny.url],
-      ['Kredyt / leasing', d.moduly.finansowanie.url]
+      ['Kredyt / leasing', d.moduly.finansowanie.url],
+      ['Opony', d.moduly.opony.url],
+      ['Opony zimowe', d.moduly.opony.zimowe],
+      ['Opony letnie', d.moduly.opony.letnie]
     ];
     const zly = linki.find(([, v]) => v && !/^https:\/\//.test(v.trim()));
     if (zly) return `Link „${zly[0]}” musi zaczynać się od https://`;
@@ -542,6 +547,25 @@ export default function AdminPanel({
                   <Pole id="fi-p" label="Nazwa partnera" value={dane.moduly.finansowanie.partner} onChange={(v) => ustawModul('finansowanie', 'partner', v)} placeholder="np. porównywarka kredytów" />
                   <div className="sm:col-span-2">
                     <Pole id="fi-u" label="Link partnerski" value={dane.moduly.finansowanie.url} onChange={(v) => ustawModul('finansowanie', 'url', v)} placeholder="https://…" />
+                  </div>
+                </div>
+              </section>
+
+              <section className={karta}>
+                <h3 className="text-sm font-bold text-slate-900 dark:text-white">Opony (strona /opony/, sezonowy pasek „Czas wymienić opony” i przypomnienia e-mail)</h3>
+                <p className="text-xs text-slate-500">
+                  Np. Tirendo albo Oponytanio (programy partnerskie w sieci Awin). Linki do opon zimowych i letnich są opcjonalne – w sezonie strona pokaże właściwy, a gdy są puste,
+                  użyje linku ogólnego.
+                </p>
+                <Przelacznik label="Sklep z oponami" wlaczony={dane.moduly.opony.wlaczony} onChange={(v) => ustawModul('opony', 'wlaczony', v)} />
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <Pole id="op-p" label="Nazwa sklepu (widoczna na stronie)" value={dane.moduly.opony.partner} onChange={(v) => ustawModul('opony', 'partner', v)} placeholder="np. Tirendo" />
+                  <div className="sm:col-span-2">
+                    <Pole id="op-u" label="Link partnerski – ogólny" value={dane.moduly.opony.url} onChange={(v) => ustawModul('opony', 'url', v)} placeholder="https://…" />
+                  </div>
+                  <div className="sm:col-span-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    <Pole id="op-z" label="Link do opon zimowych (opcjonalnie)" value={dane.moduly.opony.zimowe} onChange={(v) => ustawModul('opony', 'zimowe', v)} placeholder="https://…" />
+                    <Pole id="op-l" label="Link do opon letnich (opcjonalnie)" value={dane.moduly.opony.letnie} onChange={(v) => ustawModul('opony', 'letnie', v)} placeholder="https://…" />
                   </div>
                 </div>
               </section>

@@ -15,7 +15,7 @@
 import { createHash, randomBytes } from 'crypto';
 import { redis } from '@/lib/magazyn';
 import { site } from '@/config/site';
-import { linkUbezpieczenia } from '@/lib/panel';
+import { linkUbezpieczenia, sklepOpon } from '@/lib/panel';
 
 export const przypomnieniaWlaczone = () =>
   !!(process.env.RESEND_API_KEY && process.env.PRZYPOMNIENIA_NADAWCA && (process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL));
@@ -26,6 +26,8 @@ export interface Wpis {
   email: string;
   oc: string;
   przeglad: string;
+  /** przypomnienie o zmianie opon (październik i marzec) */
+  opony?: boolean;
   potwierdzone: boolean;
   utworzono: string;
   /** które przypomnienia już wysłano, np. { "oc-21": "2027-03-01" } (klucz → data terminu, którego dotyczyło) */
@@ -46,12 +48,12 @@ export async function czytaj(t: string): Promise<Wpis | null> {
   return w ? (JSON.parse(String(w)) as Wpis) : null;
 }
 
-export async function zapiszNowy(email: string, oc: string, przeglad: string): Promise<string> {
+export async function zapiszNowy(email: string, oc: string, przeglad: string, opony = false): Promise<string> {
   // ten sam adres zapisany ponownie → stary wpis zastępujemy nowym (jeden adres = jeden wpis)
   const [stary] = await redis([['GET', K_EMAIL(email)]]);
   if (stary) await usun(String(stary));
   const t = nowyToken();
-  const w: Wpis = { email, oc, przeglad, potwierdzone: false, utworzono: new Date().toISOString().slice(0, 10), wyslane: {} };
+  const w: Wpis = { email, oc, przeglad, opony, potwierdzone: false, utworzono: new Date().toISOString().slice(0, 10), wyslane: {} };
   await redis([
     ['SET', K(t), JSON.stringify(w), 'EX', 7 * 86400],
     ['SET', K_EMAIL(email), t, 'EX', 7 * 86400]
@@ -114,13 +116,15 @@ async function wyslij(do_: string, temat: string, tresc: { html: string; text: s
 const adresWypisz = (t: string) => `${site.url}/api/przypomnienia/wypisz/?t=${t}`;
 
 export async function wyslijPotwierdzenie(t: string, w: Wpis) {
-  const terminy = [w.oc ? `koniec OC: ${dataPl(w.oc)}` : '', w.przeglad ? `przegląd: ${dataPl(w.przeglad)}` : ''].filter(Boolean).join(', ');
+  const terminy = [w.oc ? `koniec OC: ${dataPl(w.oc)}` : '', w.przeglad ? `przegląd: ${dataPl(w.przeglad)}` : '', w.opony ? 'zmiana opon w październiku i marcu' : '']
+    .filter(Boolean)
+    .join(', ');
   await wyslij(
     w.email,
     'Potwierdź przypomnienia o OC i przeglądzie',
     szablon(
       'Potwierdź zapis na przypomnienia',
-      [`Kliknij przycisk, a przypomnimy Ci o terminach (${terminy}) – 3 tygodnie i 3 dni wcześniej.`, 'Jeśli to nie Ty – po prostu zignoruj tę wiadomość. Bez potwierdzenia dane usuniemy same po 7 dniach.'],
+      [`Kliknij przycisk, a przypomnimy Ci o: ${terminy}. O OC i przeglądzie piszemy 3 tygodnie i 3 dni przed terminem.`, 'Jeśli to nie Ty – po prostu zignoruj tę wiadomość. Bez potwierdzenia dane usuniemy same po 7 dniach.'],
       { tekst: 'Potwierdzam', url: `${site.url}/api/przypomnienia/potwierdz/?t=${t}` },
       adresWypisz(t)
     )
@@ -154,6 +158,28 @@ function trescPrzypomnienia(rodzaj: Rodzaj, termin: string, dni: number, t: stri
         'Jazda bez ważnego przeglądu to mandat i ryzyko kłopotów z ubezpieczycielem przy szkodzie. Umów stację diagnostyczną z wyprzedzeniem.'
       ],
       { tekst: 'Sprawdź kody błędów i usterki', url: `${site.url}/kody-bledow/` },
+      adresWypisz(t)
+    )
+  };
+}
+
+function trescOpon(sezon: 'zimowe' | 'letnie', t: string) {
+  const sklep = sklepOpon(sezon);
+  const zima = sezon === 'zimowe';
+  return {
+    temat: zima ? 'Czas pomyśleć o oponach zimowych' : 'Czas na opony letnie',
+    tresc: szablon(
+      zima ? 'Zbliża się czas na opony zimowe' : 'Czas wrócić na opony letnie',
+      zima
+        ? [
+            'Gdy rano temperatura spada poniżej 7°C, opony letnie twardnieją i gorzej trzymają drogę. W październiku i listopadzie warsztaty mają najdłuższe kolejki – umów wymianę wcześniej.',
+            'Sprawdź bieżnik zimówek: minimum prawne to 1,6 mm, ale na śniegu opona poniżej 4 mm wyraźnie traci przyczepność.'
+          ]
+        : [
+            'Gdy przez kilka dni z rzędu jest powyżej 7°C, opony zimowe szybciej się zużywają i wydłużają drogę hamowania.',
+            'Przed zmianą sprawdź bieżnik i wiek letnich opon – narzędzia znajdziesz na naszej stronie.'
+          ],
+      sklep ? { tekst: zima ? 'Zobacz opony zimowe' : 'Zobacz opony letnie', url: sklep.url } : { tekst: 'Sprawdź swoje opony', url: `${site.url}/opony/` },
       adresWypisz(t)
     )
   };
@@ -204,6 +230,24 @@ export async function wyslijZalegle(): Promise<{ wyslane: number; bledy: number;
             bledy++;
           }
           break;
+        }
+      }
+    }
+    // opony: raz w sezonie – 1–14 października (zimowe) i 15–31 marca (letnie)
+    if (w.opony) {
+      const d = new Date();
+      const md = (d.getMonth() + 1) * 100 + d.getDate();
+      const sezon = md >= 1001 && md <= 1014 ? 'zimowe' : md >= 315 && md <= 331 ? 'letnie' : null;
+      const klucz = `opony-${sezon}`;
+      if (sezon && w.wyslane[klucz] !== String(d.getFullYear())) {
+        try {
+          const { temat, tresc } = trescOpon(sezon, t);
+          await wyslij(w.email, temat, tresc, adresWypisz(t));
+          w.wyslane[klucz] = String(d.getFullYear());
+          zmiana = true;
+          wyslane++;
+        } catch {
+          bledy++;
         }
       }
     }

@@ -8,7 +8,7 @@ import StatusPrzypomnien from '@/components/StatusPrzypomnien';
 import { przypomnieniaWlaczone } from '@/lib/przypomnienia';
 
 export const metadata: Metadata = {
-  title: 'Przypomnienie o końcu OC i przeglądzie – darmowe przypomnienie e-mail',
+  title: 'Przypomnienie o końcu OC, przeglądzie i zmianie opon – darmowe przypomnienie e-mail',
   description:
     'Nie przegap końca polisy OC ani terminu przeglądu. Wpisz daty, a 3 tygodnie i 3 dni wcześniej dostaniesz e-mail – z linkiem do porównania cen OC. Za darmo, wypisanie jednym kliknięciem.',
   alternates: { canonical: '/przypomnienia/' }
@@ -28,7 +28,7 @@ export default function PrzypomnieniaPage() {
       <NaglowekDzialu
         zdjecie="kupujesz"
         nadtytul="Za darmo"
-        tytul="Przypomnienie o końcu OC i przeglądzie"
+        tytul="Przypomnienie o OC, przeglądzie i oponach"
         opis="Automatyczne przedłużenie OC bywa nawet o kilkaset złotych droższe niż nowa oferta. Przypomnimy Ci zawczasu – zdążysz porównać ceny."
       />
       <StatusPrzypomnien />

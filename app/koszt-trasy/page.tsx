@@ -81,7 +81,7 @@ export default function KosztTrasyPage() {
       <section className="prose-sm max-w-none text-slate-700 dark:text-slate-300 space-y-3">
         <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Jak liczymy koszt przejazdu</h2>
         <p>
-          Koszt = odległość ÷ 100 × spalanie × cena paliwa. Odległość między miastami szacujemy na podstawie położenia miast (drogi są średnio o ok. 25% dłuższe niż linia
+          Koszt = odległość ÷ 100 × spalanie × cena paliwa. Odległość między miastami szacujemy na podstawie położenia miast (drogi są średnio o ok. 20% dłuższe niż linia
           prosta). Jeśli znasz dokładny dystans z nawigacji, wpisz go w pole „Odległość”.
         </p>
         <p>

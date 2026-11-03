@@ -18,6 +18,7 @@ import {
   KAFELKI_MAPY,
   ATRYBUCJA,
   Punkt,
+  zPlikow,
 } from "@/lib/osm";
 import {
   zapytanie,
@@ -106,6 +107,7 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
   const [laduje, setLaduje] = useState(false);
   const [blad, setBlad] = useState("");
   const [gotowa, setGotowa] = useState(false);
+  const [dataDanych, setDataDanych] = useState('');
   const [rodzaj, setRodzaj] = useState<"okolica" | "trasa">("okolica");
   const [skad, setSkad] = useState("");
   const [dokad, setDokad] = useState("");
@@ -143,7 +145,10 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
       setLaduje(true);
       setBlad("");
       try {
-        const el = await overpass(zapytanie(tryb, p.lat, p.lon, r), ac.signal);
+        const lok = await zPlikow(tryb, p, r);
+        if (ac.signal.aborted) return;
+        setDataDanych(lok?.data || '');
+        const el = lok ? lok.el : await overpass(zapytanie(tryb, p.lat, p.lon, r), ac.signal);
         const lista = przetworz(tryb, el).sort((a, b) => km(p, a) - km(p, b));
         setObiekty(lista);
         sledz(tryb === "ladowarki" ? "mapa_ladowarek" : "mapa_fotoradarow", {
@@ -153,7 +158,7 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
       } catch (e) {
         if ((e as Error).name !== "AbortError")
           setBlad(
-            "Serwer z danymi map chwilowo nie odpowiada. Spróbuj ponownie za minutę.",
+            "Serwery z danymi map chwilowo nie odpowiadają. Spróbuj ponownie za kilka minut.",
           );
       } finally {
         if (przerwij.current === ac) setLaduje(false);
@@ -178,7 +183,10 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
           { padding: [30, 30] },
         );
       try {
-        const el = await overpass(zapytanieTrasy(tryb, a, b, szer), ac.signal);
+        const lok = await zPlikow(tryb, a, szer, b);
+        if (ac.signal.aborted) return;
+        setDataDanych(lok?.data || '');
+        const el = lok ? lok.el : await overpass(zapytanieTrasy(tryb, a, b, szer), ac.signal);
         setObiekty(przetworz(tryb, el).sort((x, y) => km(a, x) - km(a, y)));
         sledz(tryb === "ladowarki" ? "trasa_ladowarki" : "trasa_fotoradary", {
           trasa: `${a.nazwa}-${b.nazwa}`,
@@ -618,6 +626,11 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
           {widoczne.length > 60 && (
             <p className="text-xs text-slate-500">
               Na liście pokazujemy pierwsze 60 – wszystkie są na mapie.
+            </p>
+          )}
+          {dataDanych && (
+            <p className="text-xs text-slate-500">
+              Dane z OpenStreetMap z {new Date(dataDanych).toLocaleDateString('pl-PL')} – odświeżane co tydzień.
             </p>
           )}
         </div>

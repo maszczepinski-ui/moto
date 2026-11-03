@@ -99,8 +99,8 @@ export default function PrywatnoscPage() {
           <section id="przypomnienia" className="space-y-2 scroll-mt-20">
             <h2 className="text-lg font-bold text-slate-900 dark:text-white">Przypomnienia o OC i przeglądzie</h2>
             <p>
-              Jeśli zapiszesz się na przypomnienia, przechowujemy Twój adres e-mail i podane daty (koniec OC, termin przeglądu). Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a
-              RODO). Celem jest wyłącznie wysłanie przypomnień – 3 tygodnie i 3 dni przed terminem, co roku. W przypomnieniu o OC jest link partnerski do porównywarki ubezpieczeń.
+              Jeśli zapiszesz się na przypomnienia, przechowujemy Twój adres e-mail, podane daty (koniec OC, termin przeglądu) i informację, czy chcesz przypomnienia o oponach. Podstawą jest Twoja zgoda (art. 6 ust. 1 lit. a
+              RODO). Celem jest wyłącznie wysłanie przypomnień – 3 tygodnie i 3 dni przed terminem, co roku, a o oponach w październiku i marcu. W przypomnieniach są linki partnerskie (porównywarka ubezpieczeń, sklep z oponami).
             </p>
             <p>
               Zapis działa dopiero po kliknięciu linku potwierdzającego. Niepotwierdzone zapisy usuwamy automatycznie po 7 dniach. Każdy e-mail ma link „wypisz się” – jedno

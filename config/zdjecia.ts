@@ -18,7 +18,8 @@ export const ZDJECIA = {
   elektryki: { src: unsplash('photo-1593941707882-a5bba14938c7'), alt: 'Ładowanie samochodu elektrycznego', autor: 'CHUTTERSNAP / Unsplash' },
   mandaty: { src: unsplash('photo-1603638725730-233a04d9dca4'), alt: 'Samochody na drodze nocą', autor: 'Brecht Denil / Unsplash' },
   atlas: { src: unsplash('photo-1521706887145-1c0edacadb25'), alt: 'Samochody na ruchliwej drodze', autor: 'CHUTTERSNAP / Unsplash' },
-  filmy: { src: unsplash('photo-1568605117036-5fe5e7bab0b7'), alt: 'Srebrne coupe na asfaltowej drodze', autor: 'Erik Mclean / Unsplash' }
+  filmy: { src: unsplash('photo-1568605117036-5fe5e7bab0b7'), alt: 'Srebrne coupe na asfaltowej drodze', autor: 'Erik Mclean / Unsplash' },
+  opony: { src: unsplash('photo-1578844251758-2f71da64c96f'), alt: 'Stosy opon samochodowych', autor: 'Robert Laursoo / Unsplash' }
 } satisfies Record<string, Zdjecie>;
 
 export type KluczZdjecia = keyof typeof ZDJECIA;

@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx,mdx}', './components/**/*.{js,ts,jsx,tsx,mdx}', './lib/**/*.{ts,tsx}'],
   // Tryb ciemny włącza się automatycznie według ustawień telefonu/komputera
   darkMode: 'media',
   theme: {
     extend: {
+      // Czcionka Inter – wgrana z paczki npm (bez pobierania z Google przy wejściu na stronę)
+      fontFamily: {
+        sans: ['"Inter Variable"', ...defaultTheme.fontFamily.sans]
+      },
       colors: {
         // Kolor główny: stalowy niebieski
         steel: {

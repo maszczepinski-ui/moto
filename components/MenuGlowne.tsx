@@ -69,9 +69,9 @@ export default function MenuGlowne({
     <div ref={pasek} className="flex items-center gap-1">
       <nav
         aria-label="Menu główne"
-        className="hidden lg:flex items-center gap-1 text-sm font-semibold"
+        className="hidden xl:flex items-center gap-0.5 text-sm font-semibold"
       >
-        {grupy.map((g) => (
+        {grupy.map((g, i) => (
           <div key={g.id} className="relative">
             <button
               type="button"
@@ -93,7 +93,7 @@ export default function MenuGlowne({
             {otwarta === g.id && (
               <div
                 id={`menu-${g.id}`}
-                className="absolute left-0 top-full pt-2 z-50"
+                className={`absolute ${i >= grupy.length - 2 ? "right-0" : "left-0"} top-full pt-2 z-50`}
               >
                 <ul
                   className={`grid ${g.pozycje.length > 4 ? "grid-cols-2 w-[34rem]" : "grid-cols-1 w-80"} gap-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-2`}
@@ -134,7 +134,7 @@ export default function MenuGlowne({
         aria-label={`Kanał ${youtubeNazwa} na YouTube`}
       >
         <YouTubeIcon className="w-5 h-5" />
-        <span className="hidden xl:inline text-sm">YouTube</span>
+        <span className="hidden 2xl:inline text-sm">YouTube</span>
       </a>
 
       <button
@@ -142,7 +142,7 @@ export default function MenuGlowne({
         onClick={() => setMobilne((m) => !m)}
         aria-expanded={mobilne}
         aria-controls="menu-mobilne"
-        className="lg:hidden inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 text-sm font-bold"
+        className="xl:hidden inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-slate-900 text-white dark:bg-white dark:text-slate-900 text-sm font-bold"
       >
         {mobilne ? (
           <X className="w-4 h-4" aria-hidden="true" />
@@ -156,7 +156,7 @@ export default function MenuGlowne({
         createPortal(
           <div
             id="menu-mobilne"
-            className="lg:hidden fixed inset-x-0 top-16 bottom-0 z-[60] overflow-y-auto bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800"
+            className="xl:hidden fixed inset-x-0 top-16 bottom-0 z-[60] overflow-y-auto bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800"
           >
             <nav
               aria-label="Menu główne"

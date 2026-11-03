@@ -253,3 +253,11 @@ Odwiedzający wpisuje e-mail i daty, potwierdza zapis linkiem z e-maila, a autom
 - **Regulamin** – /regulamin/; dane firmy wstawiają się z `config/site.ts`.
 - **Aplikacja na telefon** – stronę można dodać do ekranu głównego (plik `app/manifest.ts`, ikony w `public/ikony/`). W stopce pojawia się przycisk „Dodaj do ekranu głównego”.
 - **Opis pod film** – panel admina → zakładka *Filmy na kartach* → „Opis pod film na YouTube”: wybierasz model i kopiujesz gotowe linki do opisu.
+
+## Dane do map (ładowarki, fotoradary)
+
+Automat `.github/workflows/aktualizuj-mapy.yml` co poniedziałek pobiera z OpenStreetMap wszystkie ładowarki, fotoradary i odcinkowe pomiary w Polsce i zapisuje je w `public/mapy/`. Mapy na stronie czytają te pliki – są szybkie i nie zależą od przeciążonych publicznych serwerów. Pierwszy raz uruchom go ręcznie: GitHub → Actions → „Aktualizuj mapy” → Run workflow. Dopóki plików nie ma, mapy pytają serwery OpenStreetMap na żywo (po 40 s bez odpowiedzi pokazują komunikat).
+
+## Opony (/opony/)
+
+Strona z zasadami (7°C, przepisy, bieżnik, wiek opony) i trzema narzędziami: rozmiar opony, wiek z kodu DOT, ocena bieżnika. W sezonie (1.10–15.12 i 15.03–15.05) pod menu na całej stronie pojawia się pasek „Czas na opony zimowe/letnie” – można go zamknąć. Sklep partnerski ustawiasz w panelu: *Linki i moduły* → Opony (np. Tirendo albo Oponytanio – programy w sieci Awin). Przypomnienia e-mail o zmianie opon idą w dniach 1–14 października i 15–31 marca do osób, które je zaznaczyły.
