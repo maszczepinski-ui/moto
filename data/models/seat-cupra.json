@@ -13,88 +13,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Cupra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 297 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA ATECA, CUPRA FORMENTOR, CUPRA LEON SPORTSTOURER, CUPRA LEON).",
-  "liczbaWPolsce": 297,
-  "aktywne": 297,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Cupra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 385 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA ATECA, CUPRA FORMENTOR, CUPRA LEON SPORTSTOURER, CUPRA LEON).",
+  "liczbaWPolsce": 385,
+  "aktywne": 385,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 32
    },
    {
     "teryt": "04",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "06",
-    "liczba": 6
-   },
-   {
-    "teryt": "08",
-    "liczba": 10
-   },
-   {
-    "teryt": "10",
-    "liczba": 22
-   },
-   {
-    "teryt": "12",
-    "liczba": 38
-   },
-   {
-    "teryt": "14",
-    "liczba": 36
-   },
-   {
-    "teryt": "16",
-    "liczba": 8
-   },
-   {
-    "teryt": "18",
-    "liczba": 11
-   },
-   {
-    "teryt": "20",
-    "liczba": 1
-   },
-   {
-    "teryt": "22",
-    "liczba": 12
-   },
-   {
-    "teryt": "24",
-    "liczba": 30
-   },
-   {
-    "teryt": "26",
     "liczba": 7
    },
    {
-    "teryt": "28",
+    "teryt": "08",
     "liczba": 11
    },
    {
+    "teryt": "10",
+    "liczba": 25
+   },
+   {
+    "teryt": "12",
+    "liczba": 48
+   },
+   {
+    "teryt": "14",
+    "liczba": 58
+   },
+   {
+    "teryt": "16",
+    "liczba": 9
+   },
+   {
+    "teryt": "18",
+    "liczba": 13
+   },
+   {
+    "teryt": "20",
+    "liczba": 2
+   },
+   {
+    "teryt": "22",
+    "liczba": 17
+   },
+   {
+    "teryt": "24",
+    "liczba": 43
+   },
+   {
+    "teryt": "26",
+    "liczba": 8
+   },
+   {
+    "teryt": "28",
+    "liczba": 13
+   },
+   {
     "teryt": "30",
-    "liczba": 45
+    "liczba": 53
    },
    {
     "teryt": "32",
-    "liczba": 15
+    "liczba": 20
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2019,
-    "liczba": 70
+    "liczba": 81
    },
    {
     "rok": 2020,
-    "liczba": 103
+    "liczba": 179
    },
    {
     "rok": 2021,
@@ -124,11 +124,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 255
+    "liczba": 308
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 32
+    "liczba": 66
    },
    {
     "nazwa": "Diesel",
@@ -136,41 +136,41 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 213
+    "liczba": 267
+   },
+   {
+    "nazwa": "1,4 l",
+    "liczba": 66
    },
    {
     "nazwa": "1,5 l",
     "liczba": 52
-   },
-   {
-    "nazwa": "1,4 l",
-    "liczba": 32
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 201
+    "liczba": 203
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 94
+    "liczba": 151
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2
+    "liczba": 31
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 249
+    "liczba": 337
    },
    {
     "nazwa": "Hatchback",
@@ -185,13 +185,21 @@
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 297,
-  "hybrydy": 32,
+  "noweOdPaczki": 385,
+  "hybrydy": 66,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 58
+   },
+   {
     "rok": 2021,
-    "liczba": 13
+    "liczba": 42
    },
    {
     "rok": 2022,
@@ -215,6 +223,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -452,10 +512,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1128,
-  "miejsceWMarce": 18,
+  "miejsce": 1061,
+  "miejsceWMarce": 17,
   "modeliWMarce": 19,
-  "sredniRocznik": 2020.7
+  "sredniRocznik": 2020.5
  },
  "youtubeId": "",
  "zrodla": [
@@ -465,5 +525,32 @@
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "cupra",
- "adres": "/marki/seat/cupra/"
+ "adres": "/marki/seat/cupra/",
+ "konkurenci": [
+  {
+   "slug": "mercedes-benz-klasa-gla",
+   "nazwa": "Mercedes-Benz Klasa GLA",
+   "adres": "/marki/mercedes-benz/klasa-gla/"
+  },
+  {
+   "slug": "audi-q3",
+   "nazwa": "Audi Q3",
+   "adres": "/marki/audi/q3/"
+  },
+  {
+   "slug": "alfa-romeo-stelvio",
+   "nazwa": "Alfa Romeo Stelvio",
+   "adres": "/marki/alfa-romeo/stelvio/"
+  },
+  {
+   "slug": "mini-countryman",
+   "nazwa": "Mini Countryman",
+   "adres": "/marki/mini/countryman/"
+  },
+  {
+   "slug": "volvo-xc40",
+   "nazwa": "Volvo XC40",
+   "adres": "/marki/volvo/xc40/"
+  }
+ ]
 }

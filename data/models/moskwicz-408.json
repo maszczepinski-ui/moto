@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 408 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 408).",
-  "liczbaWPolsce": 1345,
-  "aktywne": 12,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 408 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 408).",
+  "liczbaWPolsce": 1347,
+  "aktywne": 14,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 302
+    "liczba": 303
    },
    {
     "teryt": "04",
@@ -69,7 +69,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "32",
@@ -116,11 +116,11 @@
    },
    {
     "rok": 1966,
-    "liczba": 274
+    "liczba": 275
    },
    {
     "rok": 1967,
-    "liczba": 264
+    "liczba": 265
    },
    {
     "rok": 1968,
@@ -210,7 +210,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 69
+    "liczba": 71
    },
    {
     "nazwa": "?+LPG",
@@ -224,7 +224,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1147
+    "liczba": 1149
    },
    {
     "nazwa": "1,3 l",
@@ -238,7 +238,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 937
+    "liczba": 938
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -246,7 +246,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
@@ -256,17 +256,25 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 240
+    "liczba": 242
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1105
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 2
@@ -289,6 +297,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -526,7 +586,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 705,
+  "miejsce": 714,
   "miejsceWMarce": 1,
   "modeliWMarce": 5,
   "sredniRocznik": 1968.4

@@ -12,100 +12,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 920 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q2, Q2 2.0 TDI QUATTRO).",
-  "liczbaWPolsce": 5241,
-  "aktywne": 5136,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 785 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q2, Q2 2.0 TDI QUATTRO).",
+  "liczbaWPolsce": 6106,
+  "aktywne": 6001,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 403
+    "liczba": 475
    },
    {
     "teryt": "04",
-    "liczba": 192
+    "liczba": 215
    },
    {
     "teryt": "06",
-    "liczba": 138
+    "liczba": 162
    },
    {
     "teryt": "08",
-    "liczba": 107
-   },
-   {
-    "teryt": "10",
-    "liczba": 230
-   },
-   {
-    "teryt": "12",
-    "liczba": 465
-   },
-   {
-    "teryt": "14",
-    "liczba": 954
-   },
-   {
-    "teryt": "16",
     "liczba": 115
    },
    {
+    "teryt": "10",
+    "liczba": 275
+   },
+   {
+    "teryt": "12",
+    "liczba": 562
+   },
+   {
+    "teryt": "14",
+    "liczba": 1138
+   },
+   {
+    "teryt": "16",
+    "liczba": 137
+   },
+   {
     "teryt": "18",
-    "liczba": 166
+    "liczba": 201
    },
    {
     "teryt": "20",
-    "liczba": 117
+    "liczba": 140
    },
    {
     "teryt": "22",
-    "liczba": 479
+    "liczba": 532
    },
    {
     "teryt": "24",
-    "liczba": 718
+    "liczba": 827
    },
    {
     "teryt": "26",
-    "liczba": 125
+    "liczba": 148
    },
    {
     "teryt": "28",
-    "liczba": 102
+    "liczba": 117
    },
    {
     "teryt": "30",
-    "liczba": 744
+    "liczba": 840
    },
    {
     "teryt": "32",
-    "liczba": 183
+    "liczba": 219
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 164
+    "liczba": 169
    },
    {
     "rok": 2017,
-    "liczba": 1172
+    "liczba": 1220
    },
    {
     "rok": 2018,
-    "liczba": 637
+    "liczba": 654
    },
    {
     "rok": 2019,
-    "liczba": 473
+    "liczba": 548
    },
    {
     "rok": 2020,
-    "liczba": 153
+    "liczba": 613
    },
    {
     "rok": 2021,
-    "liczba": 229
+    "liczba": 489
    },
    {
     "rok": 2022,
@@ -131,37 +131,37 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4359
+    "liczba": 5168
    },
    {
     "nazwa": "Diesel",
-    "liczba": 872
+    "liczba": 927
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 2348
+    "liczba": 2982
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1010
+    "liczba": 1027
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 722
+    "liczba": 863
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 665
+    "liczba": 696
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 494
+    "liczba": 536
    },
    {
     "nazwa": "Inne / brak danych",
@@ -171,46 +171,54 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2663
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1338
+    "liczba": 2980
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1229
+    "liczba": 1724
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1388
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 14
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 4843
+    "liczba": 5673
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 250
+    "liczba": 278
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 110
+    "liczba": 117
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 38
    }
   ],
-  "noweOdPaczki": 3920,
+  "noweOdPaczki": 4785,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 17
+   },
+   {
+    "rok": 2020,
+    "liczba": 447
+   },
+   {
     "rok": 2021,
-    "liczba": 178
+    "liczba": 579
    },
    {
     "rok": 2022,
@@ -234,6 +242,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 56
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 53
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 9
+   },
    {
     "miesiac": "2021-12",
     "liczba": 17
@@ -471,10 +531,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 420,
+  "miejsce": 404,
   "miejsceWMarce": 17,
-  "modeliWMarce": 52,
-  "sredniRocznik": 2020.5
+  "modeliWMarce": 54,
+  "sredniRocznik": 2020.4
  },
  "youtubeId": "",
  "zrodla": [
@@ -487,14 +547,14 @@
  "adres": "/marki/audi/q2/",
  "konkurenci": [
   {
-   "slug": "seat-ateca",
-   "nazwa": "Seat Ateca",
-   "adres": "/marki/seat/ateca/"
-  },
-  {
    "slug": "ssangyong-tivoli",
    "nazwa": "SsangYong (KGM) Tivoli",
    "adres": "/marki/ssangyong-kgm/tivoli/"
+  },
+  {
+   "slug": "seat-ateca",
+   "nazwa": "Seat Ateca",
+   "adres": "/marki/seat/ateca/"
   },
   {
    "slug": "dacia-duster",

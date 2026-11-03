@@ -13,25 +13,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Coupe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 141 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUPE, COUPE 2.3, COUPE QUATTRO, COUPE GT).",
-  "liczbaWPolsce": 732,
-  "aktywne": 209,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Coupe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 173 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUPE, COUPE 2.3, COUPE QUATTRO, COUPE GT).",
+  "liczbaWPolsce": 764,
+  "aktywne": 241,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 94
+    "liczba": 100
    },
    {
     "teryt": "04",
-    "liczba": 39
+    "liczba": 41
    },
    {
     "teryt": "06",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "teryt": "08",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "10",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 56
+    "liczba": 63
    },
    {
     "teryt": "14",
-    "liczba": 73
+    "liczba": 76
    },
    {
     "teryt": "16",
@@ -55,15 +55,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "22",
-    "liczba": 61
+    "liczba": 65
    },
    {
     "teryt": "24",
-    "liczba": 81
+    "liczba": 84
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "30",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "32",
-    "liczba": 28
+    "liczba": 29
    }
   ],
   "bezWojewodztwa": 2,
@@ -110,7 +110,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 37
+    "liczba": 38
    },
    {
     "rok": 1983,
@@ -118,7 +118,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 32
+    "liczba": 34
    },
    {
     "rok": 1985,
@@ -130,39 +130,39 @@
    },
    {
     "rok": 1987,
-    "liczba": 23
+    "liczba": 26
    },
    {
     "rok": 1988,
-    "liczba": 28
+    "liczba": 29
    },
    {
     "rok": 1989,
-    "liczba": 104
+    "liczba": 105
    },
    {
     "rok": 1990,
-    "liczba": 77
+    "liczba": 78
    },
    {
     "rok": 1991,
-    "liczba": 64
+    "liczba": 66
    },
    {
     "rok": 1992,
-    "liczba": 74
+    "liczba": 80
    },
    {
     "rok": 1993,
-    "liczba": 42
+    "liczba": 51
    },
    {
     "rok": 1994,
-    "liczba": 44
+    "liczba": 45
    },
    {
     "rok": 1995,
-    "liczba": 38
+    "liczba": 43
    },
    {
     "rok": 1996,
@@ -236,7 +236,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 459
+    "liczba": 491
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -254,31 +254,31 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 229
+    "liczba": 235
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 151
+    "liczba": 153
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 86
+    "liczba": 93
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 83
+    "liczba": 85
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 55
+    "liczba": 63
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 49
+    "liczba": 55
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "nazwa": "2,1 l",
@@ -292,11 +292,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 404
+    "liczba": 418
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 294
+    "liczba": 311
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -304,34 +304,38 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 546
+    "liczba": 576
    },
    {
     "nazwa": "Sedan",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 103
    }
   ],
-  "noweOdPaczki": 141,
+  "noweOdPaczki": 173,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 15
+   },
+   {
     "rok": 2021,
-    "liczba": 8
+    "liczba": 25
    },
    {
     "rok": 2022,
@@ -355,6 +359,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -592,10 +648,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 851,
+  "miejsce": 846,
   "miejsceWMarce": 38,
-  "modeliWMarce": 52,
-  "sredniRocznik": 1989.7
+  "modeliWMarce": 54,
+  "sredniRocznik": 1989.8
  },
  "youtubeId": "",
  "zrodla": [

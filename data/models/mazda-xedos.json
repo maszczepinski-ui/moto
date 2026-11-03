@@ -12,17 +12,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Xedos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XEDOS, XEDOS 6, XEDOS 9, XEDOS 6 2.0 KAT, XEDOS 2.0 KAT).",
-  "liczbaWPolsce": 2082,
-  "aktywne": 235,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Xedos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 91 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XEDOS, XEDOS 6, XEDOS 9, XEDOS 6 2.0 KAT, XEDOS 2.0 KAT).",
+  "liczbaWPolsce": 2105,
+  "aktywne": 258,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 218
+    "liczba": 221
    },
    {
     "teryt": "04",
-    "liczba": 110
+    "liczba": 111
    },
    {
     "teryt": "06",
@@ -30,11 +30,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 94
+    "liczba": 96
    },
    {
     "teryt": "10",
-    "liczba": 178
+    "liczba": 180
    },
    {
     "teryt": "12",
@@ -42,23 +42,23 @@
    },
    {
     "teryt": "14",
-    "liczba": 262
+    "liczba": 266
    },
    {
     "teryt": "16",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "18",
-    "liczba": 85
+    "liczba": 88
    },
    {
     "teryt": "20",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "teryt": "22",
-    "liczba": 141
+    "liczba": 142
    },
    {
     "teryt": "24",
@@ -74,38 +74,38 @@
    },
    {
     "teryt": "30",
-    "liczba": 160
+    "liczba": 163
    },
    {
     "teryt": "32",
-    "liczba": 97
+    "liczba": 99
    }
   ],
   "bezWojewodztwa": 11,
   "roczniki": [
    {
     "rok": 1992,
-    "liczba": 209
+    "liczba": 211
    },
    {
     "rok": 1993,
-    "liczba": 316
+    "liczba": 318
    },
    {
     "rok": 1994,
-    "liczba": 353
+    "liczba": 355
    },
    {
     "rok": 1995,
-    "liczba": 295
+    "liczba": 296
    },
    {
     "rok": 1996,
-    "liczba": 275
+    "liczba": 276
    },
    {
     "rok": 1997,
-    "liczba": 216
+    "liczba": 221
    },
    {
     "rok": 1998,
@@ -113,15 +113,15 @@
    },
    {
     "rok": 1999,
-    "liczba": 113
+    "liczba": 114
    },
    {
     "rok": 2000,
-    "liczba": 52
+    "liczba": 56
    },
    {
     "rok": 2001,
-    "liczba": 58
+    "liczba": 63
    },
    {
     "rok": 2002,
@@ -135,11 +135,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1250
+    "liczba": 1268
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 680
+    "liczba": 685
    },
    {
     "nazwa": "?+LPG",
@@ -153,19 +153,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1295
+    "liczba": 1305
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 387
+    "liczba": 388
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 333
+    "liczba": 344
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "nazwa": "Inne / brak danych",
@@ -175,15 +175,15 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1262
+    "liczba": 1271
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 774
+    "liczba": 787
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
@@ -193,7 +193,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1773
+    "liczba": 1796
    },
    {
     "nazwa": "Hatchback",
@@ -204,13 +204,17 @@
     "liczba": 176
    }
   ],
-  "noweOdPaczki": 68,
+  "noweOdPaczki": 91,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 11
+   },
+   {
     "rok": 2021,
-    "liczba": 9
+    "liczba": 21
    },
    {
     "rok": 2022,
@@ -234,6 +238,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -471,10 +527,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 597,
+  "miejsce": 602,
   "miejsceWMarce": 19,
-  "modeliWMarce": 32,
-  "sredniRocznik": 1995.4
+  "modeliWMarce": 33,
+  "sredniRocznik": 1995.5
  },
  "youtubeId": "",
  "zrodla": [

@@ -12,84 +12,84 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 803 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.3 PRO 150 KW, ID.3 PRO S 150 KW, ID.3 PURE 125 KW, ID.3 PRO 107 KW, ID.3 PURE 110 KW).",
-  "liczbaWPolsce": 1803,
-  "aktywne": 1803,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 037 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.3 PRO 150 KW, ID.3 PRO S 150 KW, ID.3 PURE 125 KW, ID.3 PRO 107 KW, ID.3 PURE 110 KW).",
+  "liczbaWPolsce": 2037,
+  "aktywne": 2037,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 122
+    "liczba": 134
    },
    {
     "teryt": "04",
-    "liczba": 76
+    "liczba": 83
    },
    {
     "teryt": "06",
-    "liczba": 31
+    "liczba": 36
    },
    {
     "teryt": "08",
-    "liczba": 23
+    "liczba": 30
    },
    {
     "teryt": "10",
-    "liczba": 98
+    "liczba": 122
    },
    {
     "teryt": "12",
-    "liczba": 155
+    "liczba": 181
    },
    {
     "teryt": "14",
-    "liczba": 496
+    "liczba": 555
    },
    {
     "teryt": "16",
-    "liczba": 46
+    "liczba": 56
    },
    {
     "teryt": "18",
-    "liczba": 46
+    "liczba": 48
    },
    {
     "teryt": "20",
-    "liczba": 21
+    "liczba": 28
    },
    {
     "teryt": "22",
-    "liczba": 115
+    "liczba": 128
    },
    {
     "teryt": "24",
-    "liczba": 174
+    "liczba": 194
    },
    {
     "teryt": "26",
-    "liczba": 24
+    "liczba": 33
    },
    {
     "teryt": "28",
-    "liczba": 21
+    "liczba": 25
    },
    {
     "teryt": "30",
-    "liczba": 301
+    "liczba": 322
    },
    {
     "teryt": "32",
-    "liczba": 54
+    "liczba": 62
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 107
+    "liczba": 265
    },
    {
     "rok": 2021,
-    "liczba": 224
+    "liczba": 300
    },
    {
     "rok": 2022,
@@ -115,27 +115,27 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1803
+    "liczba": 2037
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1803
+    "liczba": 2037
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1279
+    "liczba": 1416
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 348
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
     "liczba": 270
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 251
    },
    {
     "nazwa": "Inne / brak danych",
@@ -145,7 +145,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1695
+    "liczba": 1929
    },
    {
     "nazwa": "Hatchback",
@@ -156,13 +156,17 @@
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 1803,
+  "noweOdPaczki": 2037,
   "hybrydy": 0,
-  "elektryczne": 1803,
+  "elektryczne": 2037,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 132
+   },
+   {
     "rok": 2021,
-    "liczba": 99
+    "liczba": 201
    },
    {
     "rok": 2022,
@@ -186,6 +190,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 9
+   },
    {
     "miesiac": "2021-12",
     "liczba": 7
@@ -423,10 +479,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 635,
+  "miejsce": 615,
   "miejsceWMarce": 35,
-  "modeliWMarce": 60,
-  "sredniRocznik": 2023.3
+  "modeliWMarce": 61,
+  "sredniRocznik": 2023.0
  },
  "youtubeId": "",
  "zrodla": [

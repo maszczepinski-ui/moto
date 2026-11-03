@@ -13,122 +13,122 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Nemo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 535 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEMO, NEMO 1.4 HDI, NEMO 1.4I, NEMO 1 4I).",
-  "liczbaWPolsce": 1168,
-  "aktywne": 808,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Nemo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 655 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEMO, NEMO 1.4 HDI, NEMO 1.4I, NEMO 1 4I).",
+  "liczbaWPolsce": 1288,
+  "aktywne": 928,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 67
-   },
-   {
-    "teryt": "04",
-    "liczba": 58
-   },
-   {
-    "teryt": "06",
-    "liczba": 50
-   },
-   {
-    "teryt": "08",
-    "liczba": 22
-   },
-   {
-    "teryt": "10",
     "liczba": 73
    },
    {
+    "teryt": "04",
+    "liczba": 64
+   },
+   {
+    "teryt": "06",
+    "liczba": 55
+   },
+   {
+    "teryt": "08",
+    "liczba": 25
+   },
+   {
+    "teryt": "10",
+    "liczba": 79
+   },
+   {
     "teryt": "12",
-    "liczba": 121
+    "liczba": 142
    },
    {
     "teryt": "14",
-    "liczba": 155
+    "liczba": 168
    },
    {
     "teryt": "16",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "teryt": "18",
-    "liczba": 82
+    "liczba": 86
    },
    {
     "teryt": "20",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "22",
-    "liczba": 50
+    "liczba": 53
    },
    {
     "teryt": "24",
-    "liczba": 111
+    "liczba": 119
    },
    {
     "teryt": "26",
-    "liczba": 31
+    "liczba": 35
    },
    {
     "teryt": "28",
-    "liczba": 37
+    "liczba": 40
    },
    {
     "teryt": "30",
-    "liczba": 210
+    "liczba": 237
    },
    {
     "teryt": "32",
-    "liczba": 50
+    "liczba": 57
    }
   ],
   "bezWojewodztwa": 5,
   "roczniki": [
    {
     "rok": 2008,
-    "liczba": 214
+    "liczba": 219
    },
    {
     "rok": 2009,
-    "liczba": 526
+    "liczba": 595
    },
    {
     "rok": 2010,
-    "liczba": 174
+    "liczba": 188
    },
    {
     "rok": 2011,
-    "liczba": 120
+    "liczba": 131
    },
    {
     "rok": 2012,
-    "liczba": 51
+    "liczba": 61
    },
    {
     "rok": 2013,
-    "liczba": 35
+    "liczba": 37
    },
    {
     "rok": 2014,
-    "liczba": 18
+    "liczba": 24
    },
    {
     "rok": 2015,
-    "liczba": 8
+    "liczba": 11
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 751
+    "liczba": 822
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 329
+    "liczba": 363
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 87
+    "liczba": 102
    },
    {
     "nazwa": "Inne / brak danych",
@@ -138,11 +138,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 958
+    "liczba": 1049
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 207
+    "liczba": 236
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,11 +152,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 650
+    "liczba": 728
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 401
+    "liczba": 443
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -170,32 +170,40 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 732
+    "liczba": 801
    },
    {
     "nazwa": "Kombi",
-    "liczba": 200
+    "liczba": 229
    },
    {
     "nazwa": "Van",
-    "liczba": 131
+    "liczba": 146
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 91
+    "liczba": 97
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 15
    }
   ],
-  "noweOdPaczki": 535,
+  "noweOdPaczki": 655,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 64
+   },
+   {
     "rok": 2021,
-    "liczba": 58
+    "liczba": 112
    },
    {
     "rok": 2022,
@@ -219,6 +227,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2021-12",
     "liczba": 11
@@ -456,8 +516,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 738,
-  "miejsceWMarce": 29,
+  "miejsce": 727,
+  "miejsceWMarce": 27,
   "modeliWMarce": 42,
   "sredniRocznik": 2009.6
  },
@@ -471,6 +531,11 @@
  "modelSlug": "nemo",
  "adres": "/marki/citroen/nemo/",
  "konkurenci": [
+  {
+   "slug": "peugeot-bipper",
+   "nazwa": "Peugeot Bipper",
+   "adres": "/marki/peugeot/bipper/"
+  },
   {
    "slug": "opel-combo",
    "nazwa": "Opel Combo",
@@ -490,11 +555,6 @@
    "slug": "alfa-romeo-mito",
    "nazwa": "Alfa Romeo Mito",
    "adres": "/marki/alfa-romeo/mito/"
-  },
-  {
-   "slug": "fiat-tipo",
-   "nazwa": "Fiat Tipo",
-   "adres": "/marki/fiat/tipo/"
   }
  ]
 }

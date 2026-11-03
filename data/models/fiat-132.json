@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 132 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 45 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 132, 132 1600 GL, 132 1800 GLS, 132 A, 132 P).",
-  "liczbaWPolsce": 2902,
-  "aktywne": 62,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 132 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 62 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 132, 132 1600 GL, 132 1800 GLS, 132 A, 132 P).",
+  "liczbaWPolsce": 2919,
+  "aktywne": 79,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 204
+    "liczba": 205
    },
    {
     "teryt": "04",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 212
+    "liczba": 214
    },
    {
     "teryt": "08",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 161
+    "liczba": 162
    },
    {
     "teryt": "12",
-    "liczba": 279
+    "liczba": 281
    },
    {
     "teryt": "14",
-    "liczba": 510
+    "liczba": 517
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 236
+    "liczba": 239
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 331
+    "liczba": 332
    },
    {
     "teryt": "32",
@@ -84,23 +84,23 @@
   "roczniki": [
    {
     "rok": 1972,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 1973,
-    "liczba": 81
+    "liczba": 83
    },
    {
     "rok": 1974,
-    "liczba": 354
+    "liczba": 355
    },
    {
     "rok": 1975,
-    "liczba": 259
+    "liczba": 260
    },
    {
     "rok": 1976,
-    "liczba": 237
+    "liczba": 241
    },
    {
     "rok": 1977,
@@ -112,15 +112,15 @@
    },
    {
     "rok": 1979,
-    "liczba": 300
+    "liczba": 304
    },
    {
     "rok": 1980,
-    "liczba": 289
+    "liczba": 290
    },
    {
     "rok": 1981,
-    "liczba": 248
+    "liczba": 250
    },
    {
     "rok": 1982,
@@ -182,7 +182,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 374
+    "liczba": 391
    },
    {
     "nazwa": "Diesel",
@@ -200,15 +200,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1024
+    "liczba": 1032
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 694
+    "liczba": 698
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 686
+    "liczba": 689
    },
    {
     "nazwa": "1,5 l",
@@ -228,13 +228,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 154
+    "liczba": 156
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1931
+    "liczba": 1934
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -242,7 +242,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 98
+    "liczba": 112
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -256,20 +256,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 360
+    "liczba": 377
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2542
    }
   ],
-  "noweOdPaczki": 45,
+  "noweOdPaczki": 62,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 10
+   },
+   {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -293,6 +297,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -530,10 +586,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 520,
+  "miejsce": 533,
   "miejsceWMarce": 32,
-  "modeliWMarce": 60,
-  "sredniRocznik": 1978.7
+  "modeliWMarce": 61,
+  "sredniRocznik": 1978.6
  },
  "youtubeId": "",
  "zrodla": [
@@ -561,14 +617,14 @@
    "adres": "/marki/polski-fiat/132p/"
   },
   {
-   "slug": "opel-rekord",
-   "nazwa": "Opel Rekord",
-   "adres": "/marki/opel/rekord/"
-  },
-  {
    "slug": "polski-fiat-125p",
    "nazwa": "Polski Fiat 125p",
    "adres": "/marki/polski-fiat/125p/"
+  },
+  {
+   "slug": "opel-rekord",
+   "nazwa": "Opel Rekord",
+   "adres": "/marki/opel/rekord/"
   }
  ]
 }

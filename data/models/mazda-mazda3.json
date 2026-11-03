@@ -12,92 +12,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 531 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA3).",
-  "liczbaWPolsce": 3458,
-  "aktywne": 3392,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 934 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA3).",
+  "liczbaWPolsce": 3861,
+  "aktywne": 3795,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 278
+    "liczba": 310
    },
    {
     "teryt": "04",
-    "liczba": 157
+    "liczba": 172
    },
    {
     "teryt": "06",
-    "liczba": 99
+    "liczba": 115
    },
    {
     "teryt": "08",
-    "liczba": 66
+    "liczba": 79
    },
    {
     "teryt": "10",
-    "liczba": 189
-   },
-   {
-    "teryt": "12",
-    "liczba": 350
-   },
-   {
-    "teryt": "14",
-    "liczba": 729
-   },
-   {
-    "teryt": "16",
-    "liczba": 73
-   },
-   {
-    "teryt": "18",
-    "liczba": 124
-   },
-   {
-    "teryt": "20",
-    "liczba": 56
-   },
-   {
-    "teryt": "22",
     "liczba": 210
    },
    {
+    "teryt": "12",
+    "liczba": 384
+   },
+   {
+    "teryt": "14",
+    "liczba": 817
+   },
+   {
+    "teryt": "16",
+    "liczba": 81
+   },
+   {
+    "teryt": "18",
+    "liczba": 135
+   },
+   {
+    "teryt": "20",
+    "liczba": 63
+   },
+   {
+    "teryt": "22",
+    "liczba": 234
+   },
+   {
     "teryt": "24",
-    "liczba": 619
+    "liczba": 682
    },
    {
     "teryt": "26",
-    "liczba": 69
+    "liczba": 79
    },
    {
     "teryt": "28",
-    "liczba": 52
+    "liczba": 59
    },
    {
     "teryt": "30",
-    "liczba": 262
+    "liczba": 299
    },
    {
     "teryt": "32",
-    "liczba": 122
+    "liczba": 139
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
+    "rok": 2011,
+    "liczba": 8
+   },
+   {
+    "rok": 2012,
+    "liczba": 5
+   },
+   {
     "rok": 2013,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2014,
-    "liczba": 34
+    "liczba": 35
    },
    {
     "rok": 2015,
-    "liczba": 45
+    "liczba": 46
    },
    {
     "rok": 2016,
-    "liczba": 67
+    "liczba": 68
    },
    {
     "rok": 2017,
@@ -105,19 +113,19 @@
    },
    {
     "rok": 2018,
-    "liczba": 550
+    "liczba": 556
    },
    {
     "rok": 2019,
-    "liczba": 394
+    "liczba": 589
    },
    {
     "rok": 2020,
-    "liczba": 64
+    "liczba": 223
    },
    {
     "rok": 2021,
-    "liczba": 121
+    "liczba": 157
    },
    {
     "rok": 2022,
@@ -143,43 +151,43 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2419
+    "liczba": 2651
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 987
+    "liczba": 1153
    },
    {
     "nazwa": "Diesel",
-    "liczba": 45
+    "liczba": 48
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 9
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3381
+    "liczba": 3782
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 77
+    "liczba": 79
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2526
+    "liczba": 2684
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 540
+    "liczba": 773
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 364
+    "liczba": 376
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -193,24 +201,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2629
+    "liczba": 2892
    },
    {
     "nazwa": "Sedan",
-    "liczba": 819
+    "liczba": 959
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 2531,
-  "hybrydy": 968,
+  "noweOdPaczki": 2934,
+  "hybrydy": 1134,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 16
+   },
+   {
+    "rok": 2020,
+    "liczba": 248
+   },
+   {
     "rok": 2021,
-    "liczba": 54
+    "liczba": 193
    },
    {
     "rok": 2022,
@@ -234,6 +250,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 13
+   },
    {
     "miesiac": "2021-12",
     "liczba": 6
@@ -471,10 +539,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 492,
+  "miejsce": 490,
   "miejsceWMarce": 14,
-  "modeliWMarce": 32,
-  "sredniRocznik": 2021.6
+  "modeliWMarce": 33,
+  "sredniRocznik": 2021.4
  },
  "youtubeId": "",
  "zrodla": [
@@ -502,9 +570,9 @@
    "adres": "/marki/volkswagen/arteon/"
   },
   {
-   "slug": "bmw-x2",
-   "nazwa": "BMW X2",
-   "adres": "/marki/bmw/x2/"
+   "slug": "bmw-m1",
+   "nazwa": "BMW M1",
+   "adres": "/marki/bmw/m1/"
   },
   {
    "slug": "audi-s3",

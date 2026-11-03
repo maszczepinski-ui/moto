@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche 718 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 986 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 718 BOXSTER, 718 CAYMAN, 718 CAYMAN GT4 RS, 718 BOXSTER GTS, 718 CAYMAN GTS).",
-  "liczbaWPolsce": 986,
-  "aktywne": 986,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche 718 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 120 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 718 BOXSTER, 718 CAYMAN, 718 CAYMAN GT4 RS, 718 BOXSTER GTS, 718 CAYMAN GTS).",
+  "liczbaWPolsce": 1120,
+  "aktywne": 1120,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 77
+    "liczba": 94
    },
    {
     "teryt": "04",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "06",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "08",
@@ -34,78 +34,78 @@
    },
    {
     "teryt": "10",
-    "liczba": 64
+    "liczba": 72
    },
    {
     "teryt": "12",
-    "liczba": 114
+    "liczba": 130
    },
    {
     "teryt": "14",
-    "liczba": 279
+    "liczba": 310
    },
    {
     "teryt": "16",
-    "liczba": 17
+    "liczba": 21
    },
    {
     "teryt": "18",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "20",
-    "liczba": 9
-   },
-   {
-    "teryt": "22",
-    "liczba": 83
-   },
-   {
-    "teryt": "24",
-    "liczba": 129
-   },
-   {
-    "teryt": "26",
-    "liczba": 12
-   },
-   {
-    "teryt": "28",
     "liczba": 10
    },
    {
+    "teryt": "22",
+    "liczba": 87
+   },
+   {
+    "teryt": "24",
+    "liczba": 146
+   },
+   {
+    "teryt": "26",
+    "liczba": 16
+   },
+   {
+    "teryt": "28",
+    "liczba": 12
+   },
+   {
     "teryt": "30",
-    "liczba": 92
+    "liczba": 107
    },
    {
     "teryt": "32",
-    "liczba": 25
+    "liczba": 31
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2017,
-    "liczba": 22
+    "liczba": 24
    },
    {
     "rok": 2018,
-    "liczba": 22
+    "liczba": 25
    },
    {
     "rok": 2019,
-    "liczba": 16
+    "liczba": 33
    },
    {
     "rok": 2020,
-    "liczba": 18
+    "liczba": 72
    },
    {
     "rok": 2021,
-    "liczba": 50
+    "liczba": 106
    },
    {
     "rok": 2022,
@@ -127,39 +127,39 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 986
+    "liczba": 1120
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 578
+    "liczba": 652
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 353
+    "liczba": 405
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 53
+    "liczba": 60
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 525
+    "liczba": 563
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 324
+    "liczba": 415
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 134
+    "liczba": 139
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,24 +169,32 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 493
+    "liczba": 567
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 483
+    "liczba": 543
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 986,
+  "noweOdPaczki": 1120,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
+    "rok": 2020,
+    "liczba": 61
+   },
+   {
     "rok": 2021,
-    "liczba": 40
+    "liczba": 108
    },
    {
     "rok": 2022,
@@ -210,6 +218,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2021-12",
     "liczba": 4
@@ -447,10 +507,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 787,
+  "miejsce": 765,
   "miejsceWMarce": 6,
   "modeliWMarce": 12,
-  "sredniRocznik": 2022.7
+  "sredniRocznik": 2022.4
  },
  "youtubeId": "",
  "zrodla": [
@@ -478,14 +538,14 @@
    "adres": "/marki/mercedes-benz/amg/"
   },
   {
-   "slug": "lexus-nx",
-   "nazwa": "Lexus NX",
-   "adres": "/marki/lexus/nx/"
-  },
-  {
    "slug": "lexus-es",
    "nazwa": "Lexus ES",
    "adres": "/marki/lexus/es/"
+  },
+  {
+   "slug": "lexus-nx",
+   "nazwa": "Lexus NX",
+   "adres": "/marki/lexus/nx/"
   }
  ]
 }

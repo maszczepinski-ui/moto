@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Thalia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 28 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THALIA, THALIA 1.4 KAT, THALIA 1.4, THALIA LB, THALIA B).",
-  "liczbaWPolsce": 21952,
-  "aktywne": 4358,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Thalia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 41 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THALIA, THALIA 1.4 KAT, THALIA 1.4, THALIA LB, THALIA B).",
+  "liczbaWPolsce": 21965,
+  "aktywne": 4371,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1491
+    "liczba": 1492
    },
    {
     "teryt": "04",
-    "liczba": 792
+    "liczba": 793
    },
    {
     "teryt": "06",
-    "liczba": 1609
+    "liczba": 1610
    },
    {
     "teryt": "08",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 1632
+    "liczba": 1636
    },
    {
     "teryt": "14",
@@ -54,7 +54,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 757
+    "liczba": 759
    },
    {
     "teryt": "22",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 4024
+    "liczba": 4025
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 579
+    "liczba": 580
    },
    {
     "teryt": "30",
-    "liczba": 1523
+    "liczba": 1525
    },
    {
     "teryt": "32",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 2002,
-    "liczba": 3243
+    "liczba": 3244
    },
    {
     "rok": 2003,
@@ -101,19 +101,19 @@
    },
    {
     "rok": 2004,
-    "liczba": 3061
+    "liczba": 3062
    },
    {
     "rok": 2005,
-    "liczba": 1673
+    "liczba": 1675
    },
    {
     "rok": 2006,
-    "liczba": 976
+    "liczba": 977
    },
    {
     "rok": 2007,
-    "liczba": 1009
+    "liczba": 1010
    },
    {
     "rok": 2008,
@@ -121,33 +121,33 @@
    },
    {
     "rok": 2009,
-    "liczba": 619
+    "liczba": 620
    },
    {
     "rok": 2010,
-    "liczba": 562
+    "liczba": 563
    },
    {
     "rok": 2011,
-    "liczba": 532
+    "liczba": 534
    },
    {
     "rok": 2012,
-    "liczba": 390
+    "liczba": 393
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 15320
+    "liczba": 15328
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3903
+    "liczba": 3907
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2454
+    "liczba": 2455
    },
    {
     "nazwa": "Inne / brak danych",
@@ -157,15 +157,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 15297
+    "liczba": 15299
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 3693
+    "liczba": 3702
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 2642
+    "liczba": 2643
    },
    {
     "nazwa": "1,6 l",
@@ -173,13 +173,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 21
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 11866
+    "liczba": 11870
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -191,34 +191,38 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 164
+    "liczba": 171
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 49
+    "liczba": 51
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 18734
+    "liczba": 18746
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1993
+    "liczba": 1994
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1225
    }
   ],
-  "noweOdPaczki": 28,
+  "noweOdPaczki": 41,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 8
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -242,6 +246,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -479,7 +535,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 188,
+  "miejsce": 199,
   "miejsceWMarce": 11,
   "modeliWMarce": 48,
   "sredniRocznik": 2004.0
@@ -500,24 +556,24 @@
    "adres": "/marki/fiat/albea/"
   },
   {
-   "slug": "fiat-punto",
-   "nazwa": "Fiat Punto",
-   "adres": "/marki/fiat/punto/"
-  },
-  {
-   "slug": "mitsubishi-lancer",
-   "nazwa": "Mitsubishi Lancer",
-   "adres": "/marki/mitsubishi/lancer/"
-  },
-  {
    "slug": "ford-fiesta",
    "nazwa": "Ford Fiesta",
    "adres": "/marki/ford/fiesta/"
   },
   {
+   "slug": "fiat-punto",
+   "nazwa": "Fiat Punto",
+   "adres": "/marki/fiat/punto/"
+  },
+  {
    "slug": "volkswagen-polo",
    "nazwa": "Volkswagen Polo",
    "adres": "/marki/volkswagen/polo/"
+  },
+  {
+   "slug": "mitsubishi-lancer",
+   "nazwa": "Mitsubishi Lancer",
+   "adres": "/marki/mitsubishi/lancer/"
   }
  ]
 }

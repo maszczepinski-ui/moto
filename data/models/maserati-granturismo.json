@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Maserati Granturismo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 319 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANTURISMO, GRANTURISMO SPORT, GRANTURISMO S, GRANTURISMO MC, GRANTURISMO MC STRADALE).",
-  "liczbaWPolsce": 319,
-  "aktywne": 319,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Maserati Granturismo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 354 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANTURISMO, GRANTURISMO SPORT, GRANTURISMO S, GRANTURISMO MC, GRANTURISMO MC STRADALE).",
+  "liczbaWPolsce": 354,
+  "aktywne": 354,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "04",
@@ -32,19 +32,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "10",
-    "liczba": 14
+    "liczba": 19
    },
    {
     "teryt": "12",
-    "liczba": 38
+    "liczba": 42
    },
    {
     "teryt": "14",
-    "liczba": 58
+    "liczba": 63
    },
    {
     "teryt": "16",
@@ -56,15 +56,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "teryt": "22",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "teryt": "24",
-    "liczba": 31
+    "liczba": 35
    },
    {
     "teryt": "26",
@@ -72,15 +72,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 40
+    "liczba": 45
    },
    {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "bezWojewodztwa": 0,
@@ -107,51 +107,51 @@
    },
    {
     "rok": 2008,
-    "liczba": 26
-   },
-   {
-    "rok": 2009,
-    "liczba": 6
-   },
-   {
-    "rok": 2010,
-    "liczba": 18
-   },
-   {
-    "rok": 2011,
-    "liczba": 21
-   },
-   {
-    "rok": 2012,
-    "liczba": 32
-   },
-   {
-    "rok": 2013,
-    "liczba": 35
-   },
-   {
-    "rok": 2014,
-    "liczba": 33
-   },
-   {
-    "rok": 2015,
-    "liczba": 30
-   },
-   {
-    "rok": 2016,
-    "liczba": 26
-   },
-   {
-    "rok": 2017,
     "liczba": 27
    },
    {
+    "rok": 2009,
+    "liczba": 7
+   },
+   {
+    "rok": 2010,
+    "liczba": 22
+   },
+   {
+    "rok": 2011,
+    "liczba": 22
+   },
+   {
+    "rok": 2012,
+    "liczba": 38
+   },
+   {
+    "rok": 2013,
+    "liczba": 42
+   },
+   {
+    "rok": 2014,
+    "liczba": 36
+   },
+   {
+    "rok": 2015,
+    "liczba": 31
+   },
+   {
+    "rok": 2016,
+    "liczba": 29
+   },
+   {
+    "rok": 2017,
+    "liczba": 31
+   },
+   {
     "rok": 2018,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 2019,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2020,
@@ -185,7 +185,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 316
+    "liczba": 351
    },
    {
     "nazwa": "Inne / brak danych",
@@ -195,11 +195,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,7 l",
-    "liczba": 255
+    "liczba": 289
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "3,0 l",
@@ -213,11 +213,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 235
+    "liczba": 258
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 70
+    "liczba": 82
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -231,11 +231,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 226
+    "liczba": 249
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 50
+    "liczba": 60
    },
    {
     "nazwa": "Hatchback",
@@ -243,7 +243,7 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -251,16 +251,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 7
    }
   ],
-  "noweOdPaczki": 319,
+  "noweOdPaczki": 354,
   "hybrydy": 0,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 15
+   },
+   {
     "rok": 2021,
-    "liczba": 18
+    "liczba": 38
    },
    {
     "rok": 2022,
@@ -284,6 +288,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -521,10 +577,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1112,
+  "miejsce": 1097,
   "miejsceWMarce": 5,
   "modeliWMarce": 5,
-  "sredniRocznik": 2014.4
+  "sredniRocznik": 2014.3
  },
  "youtubeId": "",
  "zrodla": [

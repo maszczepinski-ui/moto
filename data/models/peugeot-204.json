@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 204 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 204).",
-  "liczbaWPolsce": 389,
-  "aktywne": 6,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 204 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 204).",
+  "liczbaWPolsce": 390,
+  "aktywne": 7,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "26",
@@ -168,7 +168,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 50
+    "liczba": 51
    },
    {
     "rok": 1976,
@@ -306,7 +306,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "nazwa": "Diesel",
@@ -324,7 +324,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 313
+    "liczba": 314
    },
    {
     "nazwa": "1,3 l",
@@ -354,7 +354,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
@@ -364,17 +364,21 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 334
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 1
@@ -397,6 +401,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -634,7 +690,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1038,
+  "miejsce": 1053,
   "miejsceWMarce": 43,
   "modeliWMarce": 45,
   "sredniRocznik": 1973.2

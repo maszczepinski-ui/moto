@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia K – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: K).",
-  "liczbaWPolsce": 223,
-  "aktywne": 26,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia K – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: K, K COUPE).",
+  "liczbaWPolsce": 227,
+  "aktywne": 30,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "32",
@@ -122,7 +122,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 49
+    "liczba": 51
    },
    {
     "rok": 1998,
@@ -130,11 +130,11 @@
    },
    {
     "rok": 1999,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 2000,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 2001,
@@ -144,7 +144,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 92
+    "liczba": 96
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -166,11 +166,11 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 96
+    "liczba": 97
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 15
+    "liczba": 18
    },
    {
     "nazwa": "Inne / brak danych",
@@ -180,11 +180,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 139
+    "liczba": 141
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 70
+    "liczba": 72
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -198,11 +198,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 152
+    "liczba": 153
    },
    {
     "nazwa": "Coupe",
-    "liczba": 18
+    "liczba": 21
    },
    {
     "nazwa": "Kombi",
@@ -217,13 +217,17 @@
     "liczba": 31
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 4
    },
    {
     "rok": 2022,
@@ -243,6 +247,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -480,7 +536,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1230,
+  "miejsce": 1235,
   "miejsceWMarce": 15,
   "modeliWMarce": 15,
   "sredniRocznik": 1997.3

@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche 928 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 102 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 928, 928 S, 928 S4, 928 GTS).",
-  "liczbaWPolsce": 226,
-  "aktywne": 123,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche 928 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 120 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 928, 928 S, 928 S4, 928 GTS).",
+  "liczbaWPolsce": 244,
+  "aktywne": 141,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "04",
@@ -35,19 +35,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "12",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "14",
-    "liczba": 54
+    "liczba": 56
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "18",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 23
+    "liczba": 28
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 21
+    "liczba": 24
    },
    {
     "teryt": "32",
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "bezWojewodztwa": 2,
@@ -102,31 +102,31 @@
    },
    {
     "rok": 1981,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 1982,
-    "liczba": 15
+    "liczba": 18
    },
    {
     "rok": 1983,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 1984,
-    "liczba": 18
+    "liczba": 21
    },
    {
     "rok": 1985,
-    "liczba": 17
-   },
-   {
-    "rok": 1986,
     "liczba": 20
    },
    {
+    "rok": 1986,
+    "liczba": 24
+   },
+   {
     "rok": 1987,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 1988,
@@ -134,7 +134,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 1990,
@@ -146,7 +146,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1993,
@@ -172,29 +172,29 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 186
+    "liczba": 203
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 40
+    "liczba": 41
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "5,0 l",
-    "liczba": 70
+    "liczba": 76
    },
    {
     "nazwa": "4,7 l",
-    "liczba": 42
+    "liczba": 48
    },
    {
     "nazwa": "4,5 l",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "nazwa": "4,6 l",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "4,9 l",
@@ -202,7 +202,7 @@
    },
    {
     "nazwa": "5,4 l",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "4,4 l",
@@ -210,17 +210,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 9
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 126
+    "liczba": 139
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 84
+    "liczba": 89
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -234,7 +234,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 162
+    "liczba": 177
    },
    {
     "nazwa": "Hatchback",
@@ -245,17 +245,25 @@
     "liczba": 10
    },
    {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 3
+   },
+   {
     "nazwa": "Inne / brak danych",
     "liczba": 34
    }
   ],
-  "noweOdPaczki": 102,
+  "noweOdPaczki": 120,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 8
+   },
+   {
     "rok": 2021,
-    "liczba": 9
+    "liczba": 19
    },
    {
     "rok": 2022,
@@ -279,6 +287,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -516,7 +576,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1224,
+  "miejsce": 1218,
   "miejsceWMarce": 12,
   "modeliWMarce": 12,
   "sredniRocznik": 1985.6

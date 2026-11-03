@@ -13,25 +13,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Probe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 101 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROBE, PROBE 2.2, PROBE 2.2 KAT, PROBE 2.5 KAT, PROBE 2.0 KAT).",
-  "liczbaWPolsce": 3200,
-  "aktywne": 244,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Probe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 128 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROBE, PROBE 2.2, PROBE 2.2 KAT, PROBE 2.5 KAT, PROBE 2.0 KAT).",
+  "liczbaWPolsce": 3227,
+  "aktywne": 271,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 358
+    "liczba": 364
    },
    {
     "teryt": "04",
-    "liczba": 181
+    "liczba": 183
    },
    {
     "teryt": "06",
-    "liczba": 188
+    "liczba": 189
    },
    {
     "teryt": "08",
-    "liczba": 92
+    "liczba": 93
    },
    {
     "teryt": "10",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 204
+    "liczba": 208
    },
    {
     "teryt": "14",
-    "liczba": 428
+    "liczba": 430
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 124
+    "liczba": 127
    },
    {
     "teryt": "20",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 196
+    "liczba": 197
    },
    {
     "teryt": "24",
-    "liczba": 350
+    "liczba": 351
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 141
+    "liczba": 143
    },
    {
     "teryt": "30",
-    "liczba": 261
+    "liczba": 264
    },
    {
     "teryt": "32",
-    "liczba": 202
+    "liczba": 203
    }
   ],
   "bezWojewodztwa": 7,
@@ -94,49 +94,49 @@
    },
    {
     "rok": 1990,
-    "liczba": 149
+    "liczba": 150
    },
    {
     "rok": 1991,
-    "liczba": 449
+    "liczba": 453
    },
    {
     "rok": 1992,
-    "liczba": 329
+    "liczba": 332
    },
    {
     "rok": 1993,
-    "liczba": 524
+    "liczba": 526
    },
    {
     "rok": 1994,
-    "liczba": 498
+    "liczba": 504
    },
    {
     "rok": 1995,
-    "liczba": 318
+    "liczba": 324
    },
    {
     "rok": 1996,
-    "liczba": 249
+    "liczba": 250
    },
    {
     "rok": 1997,
-    "liczba": 169
+    "liczba": 172
    },
    {
     "rok": 1998,
-    "liczba": 18
+    "liczba": 19
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1819
+    "liczba": 1843
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 719
+    "liczba": 722
    },
    {
     "nazwa": "?+LPG",
@@ -150,15 +150,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,2 l",
-    "liczba": 1488
+    "liczba": 1496
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 852
+    "liczba": 859
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 775
+    "liczba": 787
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,11 +168,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2103
+    "liczba": 2112
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 904
+    "liczba": 920
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -184,17 +184,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29
+    "liczba": 31
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1479
+    "liczba": 1502
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 670
+    "liczba": 674
    },
    {
     "nazwa": "Sedan",
@@ -205,13 +205,17 @@
     "liczba": 721
    }
   ],
-  "noweOdPaczki": 101,
+  "noweOdPaczki": 128,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 14
+   },
+   {
     "rok": 2021,
-    "liczba": 11
+    "liczba": 24
    },
    {
     "rok": 2022,
@@ -235,6 +239,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -472,8 +528,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 503,
-  "miejsceWMarce": 26,
+  "miejsce": 509,
+  "miejsceWMarce": 27,
   "modeliWMarce": 46,
   "sredniRocznik": 1992.7
  },
@@ -503,14 +559,14 @@
    "adres": "/marki/volkswagen/corrado/"
   },
   {
-   "slug": "toyota-celica",
-   "nazwa": "Toyota Celica",
-   "adres": "/marki/toyota/celica/"
-  },
-  {
    "slug": "saab-9000",
    "nazwa": "Saab 9000",
    "adres": "/marki/saab/9000/"
+  },
+  {
+   "slug": "toyota-celica",
+   "nazwa": "Toyota Celica",
+   "adres": "/marki/toyota/celica/"
   }
  ]
 }

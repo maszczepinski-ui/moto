@@ -12,88 +12,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi SQ8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 223 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SQ8, SQ8 E-TRON, SQ8 SPORTBACK E-TRON).",
-  "liczbaWPolsce": 1223,
-  "aktywne": 1223,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi SQ8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 528 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SQ8, SQ8 E-TRON, SQ8 SPORTBACK E-TRON).",
+  "liczbaWPolsce": 1528,
+  "aktywne": 1528,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 108
+    "liczba": 134
    },
    {
     "teryt": "04",
-    "liczba": 50
+    "liczba": 68
    },
    {
     "teryt": "06",
-    "liczba": 32
+    "liczba": 39
    },
    {
     "teryt": "08",
-    "liczba": 20
+    "liczba": 30
    },
    {
     "teryt": "10",
-    "liczba": 64
+    "liczba": 83
    },
    {
     "teryt": "12",
-    "liczba": 106
+    "liczba": 136
    },
    {
     "teryt": "14",
-    "liczba": 264
+    "liczba": 319
    },
    {
     "teryt": "16",
-    "liczba": 29
+    "liczba": 35
    },
    {
     "teryt": "18",
-    "liczba": 40
+    "liczba": 48
    },
    {
     "teryt": "20",
-    "liczba": 15
+    "liczba": 23
    },
    {
     "teryt": "22",
-    "liczba": 94
+    "liczba": 117
    },
    {
     "teryt": "24",
-    "liczba": 130
+    "liczba": 164
    },
    {
     "teryt": "26",
-    "liczba": 37
+    "liczba": 44
    },
    {
     "teryt": "28",
-    "liczba": 24
+    "liczba": 32
    },
    {
     "teryt": "30",
-    "liczba": 158
+    "liczba": 200
    },
    {
     "teryt": "32",
-    "liczba": 52
+    "liczba": 56
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 18
+    "liczba": 32
    },
    {
     "rok": 2020,
-    "liczba": 51
+    "liczba": 250
    },
    {
     "rok": 2021,
-    "liczba": 90
+    "liczba": 182
    },
    {
     "rok": 2022,
@@ -119,19 +119,19 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1120
+    "liczba": 1212
+   },
+   {
+    "nazwa": "Hybryda (diesel + elektryczny)",
+    "liczba": 162
+   },
+   {
+    "nazwa": "Diesel",
+    "liczba": 111
    },
    {
     "nazwa": "Elektryczny",
     "liczba": 42
-   },
-   {
-    "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 37
-   },
-   {
-    "nazwa": "Diesel",
-    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,7 +141,7 @@
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 1180
+    "liczba": 1485
    },
    {
     "nazwa": "Inne / brak danych",
@@ -151,29 +151,29 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 733
+    "liczba": 788
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 366
+    "liczba": 610
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 121
+    "liczba": 126
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1122
+    "liczba": 1424
    },
    {
     "nazwa": "Kombi",
-    "liczba": 59
+    "liczba": 61
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -181,16 +181,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 12
    }
   ],
-  "noweOdPaczki": 1223,
-  "hybrydy": 38,
+  "noweOdPaczki": 1528,
+  "hybrydy": 163,
   "elektryczne": 42,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 198
+   },
+   {
     "rok": 2021,
-    "liczba": 63
+    "liczba": 168
    },
    {
     "rok": 2022,
@@ -214,6 +222,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 8
+   },
    {
     "miesiac": "2021-12",
     "liczba": 13
@@ -451,10 +511,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 729,
+  "miejsce": 686,
   "miejsceWMarce": 29,
-  "modeliWMarce": 52,
-  "sredniRocznik": 2023.1
+  "modeliWMarce": 54,
+  "sredniRocznik": 2022.6
  },
  "youtubeId": "",
  "zrodla": [
@@ -477,14 +537,14 @@
    "adres": "/marki/bmw/x7/"
   },
   {
+   "slug": "bmw-m8",
+   "nazwa": "BMW M8",
+   "adres": "/marki/bmw/m8/"
+  },
+  {
    "slug": "lexus-ux",
    "nazwa": "Lexus UX",
    "adres": "/marki/lexus/ux/"
-  },
-  {
-   "slug": "mercedes-benz-amg",
-   "nazwa": "Mercedes-Benz Amg",
-   "adres": "/marki/mercedes-benz/amg/"
   },
   {
    "slug": "kia-stinger",

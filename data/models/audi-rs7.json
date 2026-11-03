@@ -13,57 +13,57 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 375 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS 7 SPORTBACK, RS7, RS7 SPORTBACK).",
-  "liczbaWPolsce": 375,
-  "aktywne": 375,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 462 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS 7 SPORTBACK, RS7, RS7 SPORTBACK).",
+  "liczbaWPolsce": 462,
+  "aktywne": 462,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 38
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "teryt": "06",
-    "liczba": 5
+    "liczba": 9
    },
    {
     "teryt": "08",
-    "liczba": 9
+    "liczba": 12
    },
    {
     "teryt": "10",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "12",
-    "liczba": 35
+    "liczba": 47
    },
    {
     "teryt": "14",
-    "liczba": 94
+    "liczba": 109
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "18",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "20",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "22",
-    "liczba": 31
+    "liczba": 39
    },
    {
     "teryt": "24",
-    "liczba": 42
+    "liczba": 54
    },
    {
     "teryt": "26",
@@ -71,38 +71,38 @@
    },
    {
     "teryt": "28",
-    "liczba": 3
+    "liczba": 6
    },
    {
     "teryt": "30",
-    "liczba": 42
+    "liczba": 52
    },
    {
     "teryt": "32",
-    "liczba": 13
+    "liczba": 18
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2014,
-    "liczba": 22
+    "liczba": 24
    },
    {
     "rok": 2015,
-    "liczba": 16
+    "liczba": 20
    },
    {
     "rok": 2016,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 2017,
-    "liczba": 9
+    "liczba": 12
    },
    {
     "rok": 2018,
@@ -114,11 +114,11 @@
    },
    {
     "rok": 2020,
-    "liczba": 10
+    "liczba": 52
    },
    {
     "rok": 2021,
-    "liczba": 56
+    "liczba": 89
    },
    {
     "rok": 2022,
@@ -144,17 +144,17 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 202
+    "liczba": 232
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 173
+    "liczba": 230
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 374
+    "liczba": 461
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,15 +164,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 163
+    "liczba": 185
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 121
+    "liczba": 184
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 90
+    "liczba": 92
    },
    {
     "nazwa": "Inne / brak danych",
@@ -182,11 +182,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 323
+    "liczba": 406
    },
    {
     "nazwa": "Coupe",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "nazwa": "Sedan",
@@ -201,13 +201,21 @@
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 375,
-  "hybrydy": 173,
+  "noweOdPaczki": 462,
+  "hybrydy": 230,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 37
+   },
+   {
     "rok": 2021,
-    "liczba": 36
+    "liczba": 85
    },
    {
     "rok": 2022,
@@ -231,6 +239,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2021-12",
     "liczba": 8
@@ -468,10 +528,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1052,
-  "miejsceWMarce": 47,
-  "modeliWMarce": 52,
-  "sredniRocznik": 2021.4
+  "miejsce": 1001,
+  "miejsceWMarce": 45,
+  "modeliWMarce": 54,
+  "sredniRocznik": 2021.1
  },
  "youtubeId": "",
  "zrodla": [
@@ -489,24 +549,24 @@
    "adres": "/marki/porsche/panamera/"
   },
   {
+   "slug": "bmw-m8",
+   "nazwa": "BMW M8",
+   "adres": "/marki/bmw/m8/"
+  },
+  {
    "slug": "kia-stinger",
    "nazwa": "Kia Stinger",
    "adres": "/marki/kia/stinger/"
   },
   {
+   "slug": "bmw-m1",
+   "nazwa": "BMW M1",
+   "adres": "/marki/bmw/m1/"
+  },
+  {
    "slug": "chrysler-pacifica",
    "nazwa": "Chrysler Pacifica",
    "adres": "/marki/chrysler/pacifica/"
-  },
-  {
-   "slug": "mazda-mazda3",
-   "nazwa": "Mazda MAZDA3",
-   "adres": "/marki/mazda/mazda3/"
-  },
-  {
-   "slug": "bmw-x7",
-   "nazwa": "BMW X7",
-   "adres": "/marki/bmw/x7/"
   }
  ]
 }

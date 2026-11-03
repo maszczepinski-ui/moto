@@ -11,112 +11,116 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Zoe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 263 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZOE).",
-  "liczbaWPolsce": 2263,
-  "aktywne": 2263,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Zoe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 668 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZOE).",
+  "liczbaWPolsce": 2668,
+  "aktywne": 2668,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 156
+    "liczba": 218
    },
    {
     "teryt": "04",
-    "liczba": 70
+    "liczba": 80
    },
    {
     "teryt": "06",
-    "liczba": 124
+    "liczba": 136
    },
    {
     "teryt": "08",
-    "liczba": 41
+    "liczba": 45
    },
    {
     "teryt": "10",
-    "liczba": 106
+    "liczba": 120
    },
    {
     "teryt": "12",
-    "liczba": 389
+    "liczba": 440
    },
    {
     "teryt": "14",
-    "liczba": 367
+    "liczba": 514
    },
    {
     "teryt": "16",
-    "liczba": 22
+    "liczba": 25
    },
    {
     "teryt": "18",
-    "liczba": 168
+    "liczba": 174
    },
    {
     "teryt": "20",
-    "liczba": 29
+    "liczba": 35
    },
    {
     "teryt": "22",
-    "liczba": 81
+    "liczba": 104
    },
    {
     "teryt": "24",
-    "liczba": 212
+    "liczba": 236
    },
    {
     "teryt": "26",
-    "liczba": 59
+    "liczba": 62
    },
    {
     "teryt": "28",
-    "liczba": 28
+    "liczba": 33
    },
    {
     "teryt": "30",
-    "liczba": 371
+    "liczba": 401
    },
    {
     "teryt": "32",
-    "liczba": 40
+    "liczba": 45
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2012,
+    "liczba": 6
+   },
+   {
     "rok": 2013,
-    "liczba": 141
+    "liczba": 151
    },
    {
     "rok": 2014,
-    "liczba": 111
+    "liczba": 122
    },
    {
     "rok": 2015,
-    "liczba": 160
+    "liczba": 170
    },
    {
     "rok": 2016,
-    "liczba": 146
-   },
-   {
-    "rok": 2017,
     "liczba": 164
    },
    {
+    "rok": 2017,
+    "liczba": 181
+   },
+   {
     "rok": 2018,
-    "liczba": 203
+    "liczba": 220
    },
    {
     "rok": 2019,
-    "liczba": 188
+    "liczba": 215
    },
    {
     "rok": 2020,
-    "liczba": 359
+    "liczba": 619
    },
    {
     "rok": 2021,
-    "liczba": 532
+    "liczba": 565
    },
    {
     "rok": 2022,
@@ -125,36 +129,32 @@
    {
     "rok": 2023,
     "liczba": 61
-   },
-   {
-    "rok": 2024,
-    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2263
+    "liczba": 2668
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2263
+    "liczba": 2668
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1201
+    "liczba": 1252
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 746
+    "liczba": 901
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 313
+    "liczba": 512
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,20 +164,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2245
+    "liczba": 2649
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 19
    }
   ],
-  "noweOdPaczki": 2263,
+  "noweOdPaczki": 2668,
   "hybrydy": 0,
-  "elektryczne": 2263,
+  "elektryczne": 2668,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 246
+   },
+   {
     "rok": 2021,
-    "liczba": 251
+    "liczba": 409
    },
    {
     "rok": 2022,
@@ -201,6 +209,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 56
+   },
    {
     "miesiac": "2021-12",
     "liczba": 127
@@ -438,7 +498,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 573,
+  "miejsce": 551,
   "miejsceWMarce": 26,
   "modeliWMarce": 48,
   "sredniRocznik": 2018.7
@@ -474,9 +534,9 @@
    "adres": "/marki/nissan/leaf/"
   },
   {
-   "slug": "audi-s3",
-   "nazwa": "Audi S3",
-   "adres": "/marki/audi/s3/"
+   "slug": "citroen-e-c3",
+   "nazwa": "Citroen E-C3",
+   "adres": "/marki/citroen/e-c3/"
   }
  ]
 }

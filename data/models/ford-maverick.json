@@ -8,107 +8,106 @@
   "kombi",
   "van",
   "suv",
-  "hatchback",
-  "sedan"
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Maverick – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 724 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAVERICK, MAVERICK 2.7 TD, MAVERICK 2.4 KAT, MAVERICK 2,7 TD, MAVERICK 2.7 D).",
-  "liczbaWPolsce": 3059,
-  "aktywne": 1420,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Maverick – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 986 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAVERICK, MAVERICK 2.7 TD, MAVERICK 2.4 KAT, MAVERICK 2,7 TD, MAVERICK 2.7 D).",
+  "liczbaWPolsce": 3321,
+  "aktywne": 1682,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 280
+    "liczba": 299
    },
    {
     "teryt": "04",
-    "liczba": 144
+    "liczba": 160
    },
    {
     "teryt": "06",
-    "liczba": 275
+    "liczba": 306
    },
    {
     "teryt": "08",
-    "liczba": 126
+    "liczba": 144
    },
    {
     "teryt": "10",
-    "liczba": 138
+    "liczba": 148
    },
    {
     "teryt": "12",
-    "liczba": 220
+    "liczba": 230
    },
    {
     "teryt": "14",
-    "liczba": 329
+    "liczba": 363
    },
    {
     "teryt": "16",
-    "liczba": 76
+    "liczba": 85
    },
    {
     "teryt": "18",
-    "liczba": 186
+    "liczba": 199
    },
    {
     "teryt": "20",
-    "liczba": 138
+    "liczba": 147
    },
    {
     "teryt": "22",
-    "liczba": 198
+    "liczba": 208
    },
    {
     "teryt": "24",
-    "liczba": 232
+    "liczba": 249
    },
    {
     "teryt": "26",
-    "liczba": 90
+    "liczba": 98
    },
    {
     "teryt": "28",
-    "liczba": 162
+    "liczba": 175
    },
    {
     "teryt": "30",
-    "liczba": 268
+    "liczba": 294
    },
    {
     "teryt": "32",
-    "liczba": 181
+    "liczba": 200
    }
   ],
   "bezWojewodztwa": 16,
   "roczniki": [
    {
     "rok": 1993,
-    "liczba": 180
+    "liczba": 181
    },
    {
     "rok": 1994,
-    "liczba": 416
+    "liczba": 420
    },
    {
     "rok": 1995,
-    "liczba": 400
+    "liczba": 403
    },
    {
     "rok": 1996,
-    "liczba": 260
+    "liczba": 261
    },
    {
     "rok": 1997,
-    "liczba": 169
+    "liczba": 171
    },
    {
     "rok": 1998,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 1999,
@@ -120,35 +119,35 @@
    },
    {
     "rok": 2001,
-    "liczba": 173
+    "liczba": 192
    },
    {
     "rok": 2002,
-    "liczba": 214
+    "liczba": 244
    },
    {
     "rok": 2003,
-    "liczba": 231
+    "liczba": 272
    },
    {
     "rok": 2004,
-    "liczba": 219
+    "liczba": 256
    },
    {
     "rok": 2005,
-    "liczba": 261
+    "liczba": 299
    },
    {
     "rok": 2006,
-    "liczba": 227
+    "liczba": 283
    },
    {
     "rok": 2007,
-    "liczba": 113
+    "liczba": 139
    },
    {
     "rok": 2008,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 2009,
@@ -222,15 +221,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1156
-   },
-   {
-    "nazwa": "Diesel",
-    "liczba": 946
+    "liczba": 1296
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 918
+    "liczba": 1036
+   },
+   {
+    "nazwa": "Diesel",
+    "liczba": 950
    },
    {
     "nazwa": "Inne / brak danych",
@@ -240,37 +239,37 @@
   "pojemnosci": [
    {
     "nazwa": "2,7 l",
-    "liczba": 949
-   },
-   {
-    "nazwa": "2,0 l",
-    "liczba": 632
+    "liczba": 953
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 618
+    "liczba": 737
+   },
+   {
+    "nazwa": "2,0 l",
+    "liczba": 709
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 508
+    "liczba": 516
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 299
+    "liczba": 352
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 53
+    "liczba": 54
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1642
+    "liczba": 1783
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1393
+    "liczba": 1514
    },
    {
     "nazwa": "Inne / brak danych",
@@ -280,40 +279,48 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1383
+    "liczba": 1513
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 455
+    "liczba": 518
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 443
+    "liczba": 495
    },
    {
     "nazwa": "Van",
-    "liczba": 227
+    "liczba": 234
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 219
+    "liczba": 225
    },
    {
     "nazwa": "Sedan",
-    "liczba": 92
+    "liczba": 93
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 240
+    "liczba": 243
    }
   ],
-  "noweOdPaczki": 724,
+  "noweOdPaczki": 986,
   "hybrydy": 16,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 102
+   },
+   {
     "rok": 2021,
-    "liczba": 100
+    "liczba": 258
    },
    {
     "rok": 2022,
@@ -337,6 +344,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 18
+   },
    {
     "miesiac": "2021-12",
     "liczba": 30
@@ -574,10 +633,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 506,
-  "miejsceWMarce": 27,
+  "miejsce": 504,
+  "miejsceWMarce": 26,
   "modeliWMarce": 46,
-  "sredniRocznik": 2000.0
+  "sredniRocznik": 2000.3
  },
  "youtubeId": "",
  "zrodla": [
@@ -600,14 +659,14 @@
    "adres": "/marki/mitsubishi/pajero/"
   },
   {
-   "slug": "hyundai-galloper",
-   "nazwa": "Hyundai Galloper",
-   "adres": "/marki/hyundai/galloper/"
-  },
-  {
    "slug": "volkswagen-passat-b5",
    "nazwa": "Volkswagen Passat B5",
    "adres": "/marki/volkswagen/passat/b5/"
+  },
+  {
+   "slug": "hyundai-galloper",
+   "nazwa": "Hyundai Galloper",
+   "adres": "/marki/hyundai/galloper/"
   },
   {
    "slug": "bmw-seria-5-e39",

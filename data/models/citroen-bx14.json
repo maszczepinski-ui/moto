@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen BX14 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BX 14, BX 14 KAT).",
-  "liczbaWPolsce": 1274,
-  "aktywne": 1,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen BX14 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BX 14, BX 14 KAT).",
+  "liczbaWPolsce": 1275,
+  "aktywne": 2,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 118
+    "liczba": 119
    }
   ],
   "bezWojewodztwa": 7,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 70
+    "liczba": 71
    },
    {
     "rok": 1991,
@@ -151,7 +151,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 331
+    "liczba": 332
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -173,7 +173,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1198
+    "liczba": 1199
    },
    {
     "nazwa": "1,9 l",
@@ -195,7 +195,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 70
+    "liczba": 71
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -209,7 +209,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 268
+    "liczba": 269
    },
    {
     "nazwa": "Sedan",
@@ -220,11 +220,68 @@
     "liczba": 890
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
+  "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   }
+  ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -462,8 +519,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 715,
-  "miejsceWMarce": 27,
+  "miejsce": 728,
+  "miejsceWMarce": 28,
   "modeliWMarce": 42,
   "sredniRocznik": 1988.2
  },

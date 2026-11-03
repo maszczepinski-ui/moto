@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Gsa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GSA, GSA 1.3).",
-  "liczbaWPolsce": 209,
-  "aktywne": 10,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Gsa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GSA, GSA 1.3).",
+  "liczbaWPolsce": 210,
+  "aktywne": 11,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "26",
@@ -125,7 +125,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 38
+    "liczba": 39
    },
    {
     "rok": 1984,
@@ -175,7 +175,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "nazwa": "Inne / brak danych",
@@ -185,7 +185,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 145
+    "liczba": 146
    },
    {
     "nazwa": "1,1 l",
@@ -219,7 +219,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "nazwa": "Inne / brak danych",
@@ -233,7 +233,7 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Kombi",
@@ -244,10 +244,14 @@
     "liczba": 155
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2023,
     "liczba": 1
@@ -266,6 +270,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -503,7 +559,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1249,
+  "miejsce": 1258,
   "miejsceWMarce": 42,
   "modeliWMarce": 42,
   "sredniRocznik": 1982.7

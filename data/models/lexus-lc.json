@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus LC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 321 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LC500, LC500H, LEXUS LC500, LEXUS LC500H).",
-  "liczbaWPolsce": 321,
-  "aktywne": 321,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus LC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 359 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LC500, LC500H, LEXUS LC500, LEXUS LC500H).",
+  "liczbaWPolsce": 359,
+  "aktywne": 359,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "04",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "06",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "08",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "10",
-    "liczba": 19
-   },
-   {
-    "teryt": "12",
     "liczba": 21
    },
    {
+    "teryt": "12",
+    "liczba": 26
+   },
+   {
     "teryt": "14",
-    "liczba": 87
+    "liczba": 97
    },
    {
     "teryt": "16",
@@ -50,19 +50,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 5
-   },
-   {
-    "teryt": "20",
     "liczba": 6
    },
    {
+    "teryt": "20",
+    "liczba": 8
+   },
+   {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "24",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "teryt": "26",
@@ -74,34 +74,34 @@
    },
    {
     "teryt": "30",
-    "liczba": 52
+    "liczba": 57
    },
    {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2018,
-    "liczba": 36
+    "liczba": 42
    },
    {
     "rok": 2019,
-    "liczba": 16
+    "liczba": 22
    },
    {
     "rok": 2020,
-    "liczba": 10
+    "liczba": 21
    },
    {
     "rok": 2021,
-    "liczba": 34
+    "liczba": 47
    },
    {
     "rok": 2022,
@@ -123,11 +123,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 280
+    "liczba": 311
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 40
+    "liczba": 47
    },
    {
     "nazwa": "Inne / brak danych",
@@ -137,11 +137,11 @@
   "pojemnosci": [
    {
     "nazwa": "5,0 l",
-    "liczba": 271
+    "liczba": 302
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 46
+    "liczba": 53
    },
    {
     "nazwa": "Inne / brak danych",
@@ -151,15 +151,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 132
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 100
+    "liczba": 137
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 88
+    "liczba": 115
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 106
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,24 +169,28 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 195
+    "liczba": 225
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 116
+    "liczba": 123
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 11
    }
   ],
-  "noweOdPaczki": 321,
-  "hybrydy": 40,
+  "noweOdPaczki": 359,
+  "hybrydy": 47,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 13
+   },
+   {
     "rok": 2021,
-    "liczba": 14
+    "liczba": 39
    },
    {
     "rok": 2022,
@@ -210,6 +214,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -447,10 +503,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1109,
+  "miejsce": 1088,
   "miejsceWMarce": 12,
-  "modeliWMarce": 12,
-  "sredniRocznik": 2021.8
+  "modeliWMarce": 13,
+  "sredniRocznik": 2021.6
  },
  "youtubeId": "",
  "zrodla": [
@@ -468,6 +524,11 @@
    "adres": "/marki/dodge/challenger/"
   },
   {
+   "slug": "bmw-m8",
+   "nazwa": "BMW M8",
+   "adres": "/marki/bmw/m8/"
+  },
+  {
    "slug": "bmw-m4",
    "nazwa": "BMW M4",
    "adres": "/marki/bmw/m4/"
@@ -481,11 +542,6 @@
    "slug": "dodge-durango",
    "nazwa": "Dodge Durango",
    "adres": "/marki/dodge/durango/"
-  },
-  {
-   "slug": "audi-sq8",
-   "nazwa": "Audi SQ8",
-   "adres": "/marki/audi/sq8/"
   }
  ]
 }

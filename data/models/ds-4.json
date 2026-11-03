@@ -12,45 +12,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 116 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 4, DS 4 CROSSBACK).",
-  "liczbaWPolsce": 1302,
-  "aktywne": 1253,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 155 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 4, DS 4 CROSSBACK).",
+  "liczbaWPolsce": 1341,
+  "aktywne": 1292,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 78
+    "liczba": 81
    },
    {
     "teryt": "04",
-    "liczba": 51
+    "liczba": 53
    },
    {
     "teryt": "06",
-    "liczba": 58
+    "liczba": 61
    },
    {
     "teryt": "08",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "10",
-    "liczba": 74
+    "liczba": 76
    },
    {
     "teryt": "12",
-    "liczba": 129
+    "liczba": 136
    },
    {
     "teryt": "14",
-    "liczba": 246
+    "liczba": 247
    },
    {
     "teryt": "16",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "18",
-    "liczba": 84
+    "liczba": 88
    },
    {
     "teryt": "20",
@@ -62,19 +62,19 @@
    },
    {
     "teryt": "24",
-    "liczba": 144
+    "liczba": 145
    },
    {
     "teryt": "26",
-    "liczba": 63
+    "liczba": 67
    },
    {
     "teryt": "28",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "30",
-    "liczba": 194
+    "liczba": 201
    },
    {
     "teryt": "32",
@@ -85,23 +85,23 @@
   "roczniki": [
    {
     "rok": 2015,
-    "liczba": 107
+    "liczba": 112
    },
    {
     "rok": 2016,
-    "liczba": 375
+    "liczba": 400
    },
    {
     "rok": 2017,
-    "liczba": 173
+    "liczba": 178
    },
    {
     "rok": 2018,
-    "liczba": 63
+    "liczba": 66
    },
    {
     "rok": 2019,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2020,
@@ -131,11 +131,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 637
+    "liczba": 649
    },
    {
     "nazwa": "Diesel",
-    "liczba": 533
+    "liczba": 560
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -149,11 +149,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 758
+    "liczba": 785
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 319
+    "liczba": 326
    },
    {
     "nazwa": "1,5 l",
@@ -161,7 +161,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 105
+    "liczba": 110
    },
    {
     "nazwa": "Inne / brak danych",
@@ -171,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 581
+    "liczba": 597
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 446
+    "liczba": 469
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -193,7 +193,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 789
+    "liczba": 828
    },
    {
     "nazwa": "Kombi",
@@ -204,13 +204,17 @@
     "liczba": 21
    }
   ],
-  "noweOdPaczki": 1116,
+  "noweOdPaczki": 1155,
   "hybrydy": 129,
   "elektryczne": 2,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 21
+   },
+   {
     "rok": 2021,
-    "liczba": 31
+    "liczba": 49
    },
    {
     "rok": 2022,
@@ -234,6 +238,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 13
@@ -471,8 +527,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 710,
-  "miejsceWMarce": 3,
+  "miejsce": 718,
+  "miejsceWMarce": 2,
   "modeliWMarce": 7,
   "sredniRocznik": 2018.8
  },

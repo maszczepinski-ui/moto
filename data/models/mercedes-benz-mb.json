@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz MB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MB 100, MB 100 D, MB 100 2.4D, MB 100 2.4 D, MB 100 D-KB).",
-  "liczbaWPolsce": 1120,
-  "aktywne": 44,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz MB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MB 100, MB 100 D, MB 100 2.4D, MB 100 2.4 D, MB 100 D-KB).",
+  "liczbaWPolsce": 1121,
+  "aktywne": 45,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -47,7 +47,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "teryt": "18",
@@ -114,7 +114,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 181
+    "liczba": 182
    },
    {
     "rok": 1995,
@@ -140,7 +140,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 993
+    "liczba": 994
    },
    {
     "nazwa": "Benzyna",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1087
+    "liczba": 1088
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,7 +164,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 623
+    "liczba": 624
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -186,7 +186,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 319
+    "liczba": 320
    },
    {
     "nazwa": "Van",
@@ -213,10 +213,14 @@
     "liczba": 289
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 9,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2021,
     "liczba": 1
@@ -239,6 +243,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -476,9 +532,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 752,
-  "miejsceWMarce": 38,
-  "modeliWMarce": 56,
+  "miejsce": 764,
+  "miejsceWMarce": 40,
+  "modeliWMarce": 57,
   "sredniRocznik": 1992.9
  },
  "youtubeId": "",

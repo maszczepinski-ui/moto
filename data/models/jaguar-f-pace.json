@@ -13,100 +13,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar F-Pace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 702 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: F-PACE, JAGUAR F-PACE, F-PACE S, F-PACE SVR).",
-  "liczbaWPolsce": 3415,
-  "aktywne": 3360,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar F-Pace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 079 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: F-PACE, JAGUAR F-PACE, F-PACE S, F-PACE SVR).",
+  "liczbaWPolsce": 3792,
+  "aktywne": 3737,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 283
+    "liczba": 305
    },
    {
     "teryt": "04",
-    "liczba": 108
+    "liczba": 122
    },
    {
     "teryt": "06",
-    "liczba": 105
+    "liczba": 120
    },
    {
     "teryt": "08",
-    "liczba": 66
+    "liczba": 74
    },
    {
     "teryt": "10",
-    "liczba": 200
+    "liczba": 224
    },
    {
     "teryt": "12",
-    "liczba": 435
+    "liczba": 474
    },
    {
     "teryt": "14",
-    "liczba": 750
+    "liczba": 817
    },
    {
     "teryt": "16",
-    "liczba": 39
+    "liczba": 44
    },
    {
     "teryt": "18",
-    "liczba": 149
+    "liczba": 166
    },
    {
     "teryt": "20",
-    "liczba": 136
+    "liczba": 149
    },
    {
     "teryt": "22",
-    "liczba": 207
+    "liczba": 242
    },
    {
     "teryt": "24",
-    "liczba": 292
+    "liczba": 330
    },
    {
     "teryt": "26",
-    "liczba": 84
+    "liczba": 96
    },
    {
     "teryt": "28",
-    "liczba": 67
+    "liczba": 76
    },
    {
     "teryt": "30",
-    "liczba": 376
+    "liczba": 421
    },
    {
     "teryt": "32",
-    "liczba": 106
+    "liczba": 120
    }
   ],
   "bezWojewodztwa": 12,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 456
+    "liczba": 496
    },
    {
     "rok": 2017,
-    "liczba": 727
+    "liczba": 794
    },
    {
     "rok": 2018,
-    "liczba": 728
+    "liczba": 764
    },
    {
     "rok": 2019,
-    "liczba": 337
+    "liczba": 458
    },
    {
     "rok": 2020,
-    "liczba": 172
+    "liczba": 205
    },
    {
     "rok": 2021,
-    "liczba": 236
+    "liczba": 316
    },
    {
     "rok": 2022,
@@ -128,37 +128,41 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1591
+    "liczba": 1764
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1544
+    "liczba": 1707
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 150
+    "liczba": 180
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 98
+    "liczba": 101
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 38
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 2
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 2694
+    "liczba": 3002
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 545
+    "liczba": 604
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 167
+    "liczba": 177
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,54 +172,62 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1539
+    "liczba": 1615
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1000
+    "liczba": 1248
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 857
+    "liczba": 909
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 19
+    "liczba": 20
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2584
+    "liczba": 2882
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 473
+    "liczba": 514
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 159
+    "liczba": 168
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 86
+    "liczba": 103
    },
    {
     "nazwa": "Van",
-    "liczba": 42
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 71
+    "liczba": 74
    }
   ],
-  "noweOdPaczki": 2702,
-  "hybrydy": 248,
+  "noweOdPaczki": 3079,
+  "hybrydy": 281,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 10
+   },
+   {
+    "rok": 2020,
+    "liczba": 183
+   },
+   {
     "rok": 2021,
-    "liczba": 161
+    "liczba": 345
    },
    {
     "rok": 2022,
@@ -239,6 +251,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 30
+   },
    {
     "miesiac": "2021-12",
     "liczba": 23
@@ -476,7 +540,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 495,
+  "miejsce": 492,
   "miejsceWMarce": 2,
   "modeliWMarce": 17,
   "sredniRocznik": 2018.9
@@ -512,9 +576,9 @@
    "adres": "/marki/audi/q5/"
   },
   {
-   "slug": "bmw-x1",
-   "nazwa": "BMW X1",
-   "adres": "/marki/bmw/x1/"
+   "slug": "volvo-v90",
+   "nazwa": "Volvo V90",
+   "adres": "/marki/volvo/v90/"
   }
  ]
 }

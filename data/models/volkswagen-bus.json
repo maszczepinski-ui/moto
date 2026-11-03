@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Bus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BUS).",
-  "liczbaWPolsce": 360,
-  "aktywne": 17,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Bus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BUS).",
+  "liczbaWPolsce": 361,
+  "aktywne": 18,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "26",
@@ -214,7 +214,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1991,
@@ -252,7 +252,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -302,7 +302,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 40
    }
   ],
   "pochodzenie": [
@@ -316,7 +316,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "Inne / brak danych",
@@ -338,7 +338,7 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "nazwa": "Furgon",
@@ -353,10 +353,14 @@
     "liczba": 232
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 1
@@ -375,6 +379,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -612,9 +668,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1068,
+  "miejsce": 1084,
   "miejsceWMarce": 52,
-  "modeliWMarce": 60,
+  "modeliWMarce": 61,
   "sredniRocznik": 1982.6
  },
  "youtubeId": "",

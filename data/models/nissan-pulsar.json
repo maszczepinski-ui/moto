@@ -12,85 +12,77 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Pulsar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 953 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PULSAR, NISSAN PULSAR, PULSAR 1.2).",
-  "liczbaWPolsce": 4021,
-  "aktywne": 2737,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Pulsar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 220 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PULSAR, NISSAN PULSAR, PULSAR 1.2).",
+  "liczbaWPolsce": 4288,
+  "aktywne": 3004,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 287
+    "liczba": 312
    },
    {
     "teryt": "04",
-    "liczba": 206
+    "liczba": 218
    },
    {
     "teryt": "06",
-    "liczba": 195
+    "liczba": 207
    },
    {
     "teryt": "08",
-    "liczba": 87
+    "liczba": 105
    },
    {
     "teryt": "10",
-    "liczba": 264
+    "liczba": 286
    },
    {
     "teryt": "12",
-    "liczba": 320
+    "liczba": 348
    },
    {
     "teryt": "14",
-    "liczba": 652
+    "liczba": 684
    },
    {
     "teryt": "16",
-    "liczba": 70
+    "liczba": 77
    },
    {
     "teryt": "18",
-    "liczba": 185
+    "liczba": 208
    },
    {
     "teryt": "20",
-    "liczba": 108
+    "liczba": 111
    },
    {
     "teryt": "22",
-    "liczba": 180
+    "liczba": 191
    },
    {
     "teryt": "24",
-    "liczba": 563
+    "liczba": 587
    },
    {
     "teryt": "26",
-    "liczba": 85
+    "liczba": 89
    },
    {
     "teryt": "28",
-    "liczba": 148
+    "liczba": 158
    },
    {
     "teryt": "30",
-    "liczba": 443
+    "liczba": 468
    },
    {
     "teryt": "32",
-    "liczba": 222
+    "liczba": 233
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
-   {
-    "rok": 1985,
-    "liczba": 8
-   },
-   {
-    "rok": 1986,
-    "liczba": 7
-   },
    {
     "rok": 1987,
     "liczba": 17
@@ -109,7 +101,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1992,
@@ -201,61 +193,61 @@
    },
    {
     "rok": 2014,
-    "liczba": 979
+    "liczba": 1024
    },
    {
     "rok": 2015,
-    "liczba": 1603
+    "liczba": 1712
    },
    {
     "rok": 2016,
-    "liczba": 805
+    "liczba": 871
    },
    {
     "rok": 2017,
-    "liczba": 367
+    "liczba": 403
    },
    {
     "rok": 2018,
-    "liczba": 147
+    "liczba": 157
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3168
+    "liczba": 3327
    },
    {
     "nazwa": "Diesel",
-    "liczba": 807
+    "liczba": 914
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 46
+    "liczba": 47
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 3010
+    "liczba": 3159
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 820
+    "liczba": 928
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 153
+    "liczba": 162
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 38
+    "liczba": 39
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1747
+    "liczba": 1910
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -263,7 +255,7 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1061
+    "liczba": 1165
    },
    {
     "nazwa": "Inne / brak danych",
@@ -273,24 +265,32 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3032
+    "liczba": 3155
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 881
+    "liczba": 1021
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 108
+    "liczba": 112
    }
   ],
-  "noweOdPaczki": 1953,
+  "noweOdPaczki": 2220,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 117
+   },
+   {
     "rok": 2021,
-    "liczba": 147
+    "liczba": 294
    },
    {
     "rok": 2022,
@@ -314,6 +314,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 22
+   },
    {
     "miesiac": "2021-12",
     "liczba": 28
@@ -551,10 +603,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 468,
-  "miejsceWMarce": 14,
+  "miejsce": 469,
+  "miejsceWMarce": 13,
   "modeliWMarce": 47,
-  "sredniRocznik": 2014.7
+  "sredniRocznik": 2014.8
  },
  "youtubeId": "",
  "zrodla": [

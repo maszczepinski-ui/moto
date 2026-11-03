@@ -12,162 +12,158 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Eos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 896 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EOS, EOS 2.0T, EOS 2.0 FSI, EOS 2.0 TDI).",
-  "liczbaWPolsce": 2859,
-  "aktywne": 2417,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Eos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 255 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EOS, EOS 2.0T, EOS 2.0 FSI, EOS 2.0 TDI).",
+  "liczbaWPolsce": 3218,
+  "aktywne": 2776,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 289
+    "liczba": 321
    },
    {
     "teryt": "04",
-    "liczba": 152
+    "liczba": 166
    },
    {
     "teryt": "06",
-    "liczba": 84
+    "liczba": 96
    },
    {
     "teryt": "08",
-    "liczba": 158
+    "liczba": 181
    },
    {
     "teryt": "10",
-    "liczba": 133
+    "liczba": 148
    },
    {
     "teryt": "12",
-    "liczba": 157
+    "liczba": 186
    },
    {
     "teryt": "14",
-    "liczba": 331
+    "liczba": 367
    },
    {
     "teryt": "16",
-    "liczba": 110
+    "liczba": 130
    },
    {
     "teryt": "18",
-    "liczba": 92
+    "liczba": 105
    },
    {
     "teryt": "20",
-    "liczba": 67
+    "liczba": 68
    },
    {
     "teryt": "22",
-    "liczba": 246
+    "liczba": 283
    },
    {
     "teryt": "24",
-    "liczba": 307
+    "liczba": 352
    },
    {
     "teryt": "26",
-    "liczba": 66
+    "liczba": 73
    },
    {
     "teryt": "28",
-    "liczba": 104
+    "liczba": 118
    },
    {
     "teryt": "30",
-    "liczba": 342
+    "liczba": 382
    },
    {
     "teryt": "32",
-    "liczba": 201
+    "liczba": 222
    }
   ],
   "bezWojewodztwa": 20,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 636
+    "liczba": 737
    },
    {
     "rok": 2007,
-    "liczba": 766
+    "liczba": 876
    },
    {
     "rok": 2008,
-    "liczba": 539
+    "liczba": 605
    },
    {
     "rok": 2009,
-    "liczba": 289
+    "liczba": 324
    },
    {
     "rok": 2010,
-    "liczba": 177
+    "liczba": 193
    },
    {
     "rok": 2011,
-    "liczba": 202
+    "liczba": 218
    },
    {
     "rok": 2012,
-    "liczba": 103
+    "liczba": 111
    },
    {
     "rok": 2013,
-    "liczba": 32
+    "liczba": 34
    },
    {
     "rok": 2014,
-    "liczba": 35
+    "liczba": 38
    },
    {
     "rok": 2015,
-    "liczba": 22
+    "liczba": 24
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1573
+    "liczba": 1758
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1251
-   },
-   {
-    "nazwa": "Benzyna + LPG",
-    "liczba": 31
+    "liczba": 1424
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 36
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 2121
+    "liczba": 2401
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 503
+    "liczba": 551
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 204
+    "liczba": 230
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 31
+    "liczba": 36
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1878
+    "liczba": 2058
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 922
+    "liczba": 1101
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,28 +177,36 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 2691
+    "liczba": 3019
    },
    {
     "nazwa": "Coupe",
-    "liczba": 95
+    "liczba": 116
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 30
+    "liczba": 37
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 43
+    "liczba": 46
    }
   ],
-  "noweOdPaczki": 1896,
+  "noweOdPaczki": 2255,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 6
+   },
+   {
+    "rok": 2020,
+    "liczba": 178
+   },
+   {
     "rok": 2021,
-    "liczba": 125
+    "liczba": 300
    },
    {
     "rok": 2022,
@@ -226,6 +230,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 17
+   },
    {
     "miesiac": "2021-12",
     "liczba": 18
@@ -463,10 +519,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 526,
-  "miejsceWMarce": 31,
-  "modeliWMarce": 60,
-  "sredniRocznik": 2008.1
+  "miejsce": 510,
+  "miejsceWMarce": 30,
+  "modeliWMarce": 61,
+  "sredniRocznik": 2008.0
  },
  "youtubeId": "",
  "zrodla": [
@@ -489,19 +545,19 @@
    "adres": "/marki/mazda/5/"
   },
   {
-   "slug": "toyota-avensis",
-   "nazwa": "Toyota Avensis",
-   "adres": "/marki/toyota/avensis/"
-  },
-  {
    "slug": "volvo-v40",
    "nazwa": "Volvo V40",
    "adres": "/marki/volvo/v40/"
   },
   {
-   "slug": "ford-focus",
-   "nazwa": "Ford Focus",
-   "adres": "/marki/ford/focus/"
+   "slug": "toyota-avensis",
+   "nazwa": "Toyota Avensis",
+   "adres": "/marki/toyota/avensis/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-c",
+   "nazwa": "Mercedes-Benz Klasa C",
+   "adres": "/marki/mercedes-benz/klasa-c/"
   }
  ]
 }

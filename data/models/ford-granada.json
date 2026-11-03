@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Granada – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANADA, GRANADA 2.0L, GRANADA 2.1D, GRANADA 2.3L, GRANADA 2.0).",
-  "liczbaWPolsce": 5903,
-  "aktywne": 72,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Granada – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANADA, GRANADA 2.0L, GRANADA 2.1D, GRANADA 2.3L, GRANADA 2.0).",
+  "liczbaWPolsce": 5907,
+  "aktywne": 76,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 466
+    "liczba": 467
    },
    {
     "teryt": "04",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 389
+    "liczba": 390
    },
    {
     "teryt": "12",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 985
+    "liczba": 986
    },
    {
     "teryt": "16",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 598
+    "liczba": 599
    },
    {
     "teryt": "32",
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 1975,
@@ -100,7 +100,7 @@
    },
    {
     "rok": 1976,
-    "liczba": 104
+    "liczba": 105
    },
    {
     "rok": 1977,
@@ -124,11 +124,11 @@
    },
    {
     "rok": 1982,
-    "liczba": 547
+    "liczba": 548
    },
    {
     "rok": 1983,
-    "liczba": 351
+    "liczba": 352
    },
    {
     "rok": 1984,
@@ -182,7 +182,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 841
+    "liczba": 845
    },
    {
     "nazwa": "Diesel",
@@ -204,11 +204,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 2670
+    "liczba": 2672
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 1197
+    "liczba": 1198
    },
    {
     "nazwa": "2,1 l",
@@ -236,13 +236,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 425
+    "liczba": 426
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4320
+    "liczba": 4321
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -250,7 +250,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 205
+    "liczba": 208
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -264,7 +264,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1064
+    "liczba": 1068
    },
    {
     "nazwa": "Kombi",
@@ -279,10 +279,18 @@
     "liczba": 4625
    }
   ],
-  "noweOdPaczki": 40,
+  "noweOdPaczki": 44,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
+    "rok": 2021,
+    "liczba": 2
+   },
    {
     "rok": 2022,
     "liczba": 6
@@ -305,6 +313,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -542,7 +602,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 398,
+  "miejsce": 409,
   "miejsceWMarce": 24,
   "modeliWMarce": 46,
   "sredniRocznik": 1980.6

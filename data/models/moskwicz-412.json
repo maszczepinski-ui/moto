@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 412 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 412).",
-  "liczbaWPolsce": 1056,
-  "aktywne": 5,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 412 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 412).",
+  "liczbaWPolsce": 1057,
+  "aktywne": 6,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 192
+    "liczba": 193
    },
    {
     "teryt": "18",
@@ -104,7 +104,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 1975,
@@ -178,7 +178,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "nazwa": "?+LPG",
@@ -192,7 +192,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 913
+    "liczba": 914
    },
    {
     "nazwa": "1,4 l",
@@ -206,7 +206,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 765
+    "liczba": 766
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -224,17 +224,21 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 178
+    "liczba": 179
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 878
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 2
@@ -253,6 +257,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -490,7 +546,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 767,
+  "miejsce": 778,
   "miejsceWMarce": 2,
   "modeliWMarce": 5,
   "sredniRocznik": 1972.5

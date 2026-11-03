@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 380 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 224 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 380 SE, 380 SL, 380 SEC, 380, 380 SLC).",
-  "liczbaWPolsce": 344,
-  "aktywne": 242,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 380 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 266 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 380 SE, 380 SL, 380 SEC, 380, 380 SLC).",
+  "liczbaWPolsce": 386,
+  "aktywne": 284,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,86 +27,86 @@
    },
    {
     "teryt": "06",
-    "liczba": 19
-   },
-   {
-    "teryt": "08",
-    "liczba": 13
-   },
-   {
-    "teryt": "10",
     "liczba": 20
    },
    {
+    "teryt": "08",
+    "liczba": 14
+   },
+   {
+    "teryt": "10",
+    "liczba": 25
+   },
+   {
     "teryt": "12",
-    "liczba": 27
-   },
-   {
-    "teryt": "14",
-    "liczba": 50
-   },
-   {
-    "teryt": "16",
-    "liczba": 12
-   },
-   {
-    "teryt": "18",
-    "liczba": 12
-   },
-   {
-    "teryt": "20",
-    "liczba": 16
-   },
-   {
-    "teryt": "22",
-    "liczba": 32
-   },
-   {
-    "teryt": "24",
     "liczba": 33
    },
    {
-    "teryt": "26",
-    "liczba": 6
+    "teryt": "14",
+    "liczba": 56
    },
    {
-    "teryt": "28",
-    "liczba": 16
+    "teryt": "16",
+    "liczba": 14
    },
    {
-    "teryt": "30",
+    "teryt": "18",
+    "liczba": 14
+   },
+   {
+    "teryt": "20",
+    "liczba": 20
+   },
+   {
+    "teryt": "22",
+    "liczba": 35
+   },
+   {
+    "teryt": "24",
     "liczba": 39
    },
    {
+    "teryt": "26",
+    "liczba": 7
+   },
+   {
+    "teryt": "28",
+    "liczba": 18
+   },
+   {
+    "teryt": "30",
+    "liczba": 41
+   },
+   {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 1980,
-    "liczba": 20
+    "liczba": 22
    },
    {
     "rok": 1981,
-    "liczba": 52
+    "liczba": 57
    },
    {
     "rok": 1982,
-    "liczba": 69
+    "liczba": 81
    },
    {
     "rok": 1983,
-    "liczba": 69
+    "liczba": 81
    },
    {
     "rok": 1984,
-    "liczba": 66
+    "liczba": 74
    },
    {
     "rok": 1985,
-    "liczba": 48
+    "liczba": 51
    },
    {
     "rok": 1986,
@@ -148,7 +148,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 288
+    "liczba": 330
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -170,7 +170,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,8 l",
-    "liczba": 316
+    "liczba": 358
    },
    {
     "nazwa": "3,0 l",
@@ -192,11 +192,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 212
+    "liczba": 245
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 120
+    "liczba": 129
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -210,28 +210,36 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 155
+    "liczba": 166
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 87
+    "liczba": 103
    },
    {
     "nazwa": "Coupe",
-    "liczba": 70
+    "liczba": 85
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 32
    }
   ],
-  "noweOdPaczki": 224,
+  "noweOdPaczki": 266,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 18
+   },
+   {
     "rok": 2021,
-    "liczba": 23
+    "liczba": 46
    },
    {
     "rok": 2022,
@@ -255,6 +263,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2021-12",
     "liczba": 5
@@ -492,9 +552,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1090,
-  "miejsceWMarce": 53,
-  "modeliWMarce": 56,
+  "miejsce": 1058,
+  "miejsceWMarce": 52,
+  "modeliWMarce": 57,
   "sredniRocznik": 1983.1
  },
  "youtubeId": "",

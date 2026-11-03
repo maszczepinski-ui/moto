@@ -13,92 +13,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 946 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M850I XDRIVE, M8 COMPETITION, M8, M850I, M850XI).",
-  "liczbaWPolsce": 946,
-  "aktywne": 946,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 197 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M850I XDRIVE, M8 COMPETITION, M8, M850I, M850XI).",
+  "liczbaWPolsce": 1197,
+  "aktywne": 1197,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 77
+    "liczba": 87
    },
    {
     "teryt": "04",
-    "liczba": 47
+    "liczba": 55
    },
    {
     "teryt": "06",
-    "liczba": 27
+    "liczba": 36
    },
    {
     "teryt": "08",
-    "liczba": 19
+    "liczba": 24
    },
    {
     "teryt": "10",
-    "liczba": 57
+    "liczba": 76
    },
    {
     "teryt": "12",
-    "liczba": 80
-   },
-   {
-    "teryt": "14",
-    "liczba": 256
-   },
-   {
-    "teryt": "16",
-    "liczba": 12
-   },
-   {
-    "teryt": "18",
-    "liczba": 16
-   },
-   {
-    "teryt": "20",
-    "liczba": 25
-   },
-   {
-    "teryt": "22",
-    "liczba": 53
-   },
-   {
-    "teryt": "24",
     "liczba": 108
    },
    {
+    "teryt": "14",
+    "liczba": 304
+   },
+   {
+    "teryt": "16",
+    "liczba": 13
+   },
+   {
+    "teryt": "18",
+    "liczba": 21
+   },
+   {
+    "teryt": "20",
+    "liczba": 29
+   },
+   {
+    "teryt": "22",
+    "liczba": 67
+   },
+   {
+    "teryt": "24",
+    "liczba": 143
+   },
+   {
     "teryt": "26",
-    "liczba": 18
+    "liczba": 28
    },
    {
     "teryt": "28",
-    "liczba": 17
+    "liczba": 21
    },
    {
     "teryt": "30",
-    "liczba": 102
+    "liczba": 142
    },
    {
     "teryt": "32",
-    "liczba": 32
+    "liczba": 43
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 10
+    "liczba": 13
    },
    {
     "rok": 2019,
-    "liczba": 85
+    "liczba": 139
    },
    {
     "rok": 2020,
-    "liczba": 122
+    "liczba": 265
    },
    {
     "rok": 2021,
-    "liczba": 124
+    "liczba": 175
    },
    {
     "rok": 2022,
@@ -120,7 +120,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 944
+    "liczba": 1195
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,7 +130,7 @@
   "pojemnosci": [
    {
     "nazwa": "4,4 l",
-    "liczba": 944
+    "liczba": 1195
    },
    {
     "nazwa": "Inne / brak danych",
@@ -139,47 +139,55 @@
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 367
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 541
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 348
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 417
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 229
+    "liczba": 236
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 480
+    "liczba": 640
    },
    {
     "nazwa": "Coupe",
-    "liczba": 282
+    "liczba": 344
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 167
+    "liczba": 196
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 946,
+  "noweOdPaczki": 1197,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
+    "rok": 2020,
+    "liczba": 120
+   },
+   {
     "rok": 2021,
-    "liczba": 93
+    "liczba": 219
    },
    {
     "rok": 2022,
@@ -203,6 +211,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2021-12",
     "liczba": 17
@@ -440,10 +500,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 798,
-  "miejsceWMarce": 28,
-  "modeliWMarce": 42,
-  "sredniRocznik": 2022.0
+  "miejsce": 747,
+  "miejsceWMarce": 27,
+  "modeliWMarce": 43,
+  "sredniRocznik": 2021.5
  },
  "youtubeId": "",
  "zrodla": [
@@ -456,24 +516,24 @@
  "adres": "/marki/bmw/m8/",
  "konkurenci": [
   {
-   "slug": "audi-sq8",
-   "nazwa": "Audi SQ8",
-   "adres": "/marki/audi/sq8/"
-  },
-  {
    "slug": "dodge-charger",
    "nazwa": "Dodge Charger",
    "adres": "/marki/dodge/charger/"
   },
   {
-   "slug": "lexus-es",
-   "nazwa": "Lexus ES",
-   "adres": "/marki/lexus/es/"
-  },
-  {
    "slug": "audi-rs6",
    "nazwa": "Audi RS6",
    "adres": "/marki/audi/rs6/"
+  },
+  {
+   "slug": "audi-sq8",
+   "nazwa": "Audi SQ8",
+   "adres": "/marki/audi/sq8/"
+  },
+  {
+   "slug": "lexus-es",
+   "nazwa": "Lexus ES",
+   "adres": "/marki/lexus/es/"
   },
   {
    "slug": "dodge-durango",

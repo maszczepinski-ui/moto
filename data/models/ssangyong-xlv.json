@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Xlv – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 190 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XLV, SSANGYONG XLV).",
-  "liczbaWPolsce": 497,
-  "aktywne": 464,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Xlv – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 215 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XLV, SSANGYONG XLV).",
+  "liczbaWPolsce": 522,
+  "aktywne": 489,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,35 +22,35 @@
    },
    {
     "teryt": "04",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "08",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "10",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "12",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "14",
-    "liczba": 95
+    "liczba": 101
    },
    {
     "teryt": "16",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "teryt": "18",
-    "liczba": 34
+    "liczba": 36
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "24",
-    "liczba": 91
+    "liczba": 93
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 36
+    "liczba": 42
    },
    {
     "teryt": "32",
@@ -85,19 +85,19 @@
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 132
+    "liczba": 136
    },
    {
     "rok": 2017,
-    "liczba": 167
+    "liczba": 173
    },
    {
     "rok": 2018,
-    "liczba": 142
+    "liczba": 148
    },
    {
     "rok": 2019,
-    "liczba": 39
+    "liczba": 48
    },
    {
     "rok": 2020,
@@ -106,34 +106,26 @@
    {
     "rok": 2021,
     "liczba": 3
-   },
-   {
-    "rok": 2022,
-    "liczba": 0
-   },
-   {
-    "rok": 2023,
-    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 200
+    "liczba": 212
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 195
+    "liczba": 201
    },
    {
     "nazwa": "Diesel",
-    "liczba": 102
+    "liczba": 109
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 493
+    "liczba": 518
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,15 +135,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 255
+    "liczba": 260
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 124
+    "liczba": 132
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 117
+    "liczba": 129
    },
    {
     "nazwa": "Inne / brak danych",
@@ -161,28 +153,36 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 466
+    "liczba": 487
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
-  "noweOdPaczki": 190,
+  "noweOdPaczki": 215,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 11
+   },
+   {
     "rok": 2021,
-    "liczba": 8
+    "liczba": 19
    },
    {
     "rok": 2022,
@@ -206,6 +206,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -443,10 +495,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 957,
+  "miejsce": 954,
   "miejsceWMarce": 7,
   "modeliWMarce": 10,
-  "sredniRocznik": 2017.2
+  "sredniRocznik": 2017.3
  },
  "youtubeId": "",
  "zrodla": [
@@ -469,6 +521,11 @@
    "adres": "/marki/dacia/lodgy/"
   },
   {
+   "slug": "mitsubishi-asx",
+   "nazwa": "Mitsubishi ASX",
+   "adres": "/marki/mitsubishi/asx/"
+  },
+  {
    "slug": "volkswagen-golf-sportsvan",
    "nazwa": "Volkswagen Golf Sportsvan",
    "adres": "/marki/volkswagen/golf-sportsvan/"
@@ -477,11 +534,6 @@
    "slug": "renault-talisman",
    "nazwa": "Renault Talisman",
    "adres": "/marki/renault/talisman/"
-  },
-  {
-   "slug": "kia-ceed",
-   "nazwa": "Kia Ceed",
-   "adres": "/marki/kia/ceed/"
   }
  ]
 }

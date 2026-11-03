@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler LE-Baron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 81 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LE BARON).",
-  "liczbaWPolsce": 413,
-  "aktywne": 133,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler LE-Baron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 102 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LE BARON).",
+  "liczbaWPolsce": 434,
+  "aktywne": 154,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 35
    },
    {
     "teryt": "04",
@@ -36,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 37
-   },
-   {
-    "teryt": "12",
     "liczba": 39
    },
    {
+    "teryt": "12",
+    "liczba": 42
+   },
+   {
     "teryt": "14",
-    "liczba": 60
+    "liczba": 62
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 11
+    "liczba": 14
    },
    {
     "teryt": "20",
@@ -60,11 +60,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "teryt": "24",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "teryt": "26",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 34
+    "liczba": 36
    },
    {
     "teryt": "32",
-    "liczba": 22
+    "liczba": 23
    }
   ],
   "bezWojewodztwa": 1,
@@ -147,7 +147,7 @@
    },
    {
     "rok": 1978,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1979,
@@ -175,7 +175,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1986,
@@ -183,35 +183,35 @@
    },
    {
     "rok": 1987,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 1988,
-    "liczba": 56
+    "liczba": 57
    },
    {
     "rok": 1989,
-    "liczba": 84
+    "liczba": 92
    },
    {
     "rok": 1990,
-    "liczba": 63
+    "liczba": 64
    },
    {
     "rok": 1991,
-    "liczba": 59
+    "liczba": 62
    },
    {
     "rok": 1992,
-    "liczba": 34
+    "liczba": 35
    },
    {
     "rok": 1993,
-    "liczba": 28
+    "liczba": 31
    },
    {
     "rok": 1994,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 1995,
@@ -229,7 +229,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 307
+    "liczba": 328
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -243,15 +243,15 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 182
+    "liczba": 192
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 114
+    "liczba": 122
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 88
+    "liczba": 90
    },
    {
     "nazwa": "2,0 l",
@@ -259,17 +259,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 24
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 195
+    "liczba": 206
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 191
+    "liczba": 201
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -287,15 +287,15 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 242
+    "liczba": 260
    },
    {
     "nazwa": "Sedan",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "nazwa": "Coupe",
-    "liczba": 31
+    "liczba": 33
    },
    {
     "nazwa": "Hatchback",
@@ -306,13 +306,17 @@
     "liczba": 68
    }
   ],
-  "noweOdPaczki": 81,
+  "noweOdPaczki": 102,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 10
+   },
+   {
     "rok": 2021,
-    "liczba": 7
+    "liczba": 18
    },
    {
     "rok": 2022,
@@ -336,6 +340,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -573,7 +629,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1019,
+  "miejsce": 1016,
   "miejsceWMarce": 16,
   "modeliWMarce": 21,
   "sredniRocznik": 1989.9

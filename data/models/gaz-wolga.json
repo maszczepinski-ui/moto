@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ Wolga – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 98 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WOLGA 24, WOLGA M 21, WOLGA 24-10, WOŁGA, WOŁGA 24).",
-  "liczbaWPolsce": 10878,
-  "aktywne": 197,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ Wolga – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 119 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WOLGA 24, WOLGA M 21, WOLGA 24-10, WOŁGA, WOŁGA 24).",
+  "liczbaWPolsce": 10899,
+  "aktywne": 218,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 81
+    "liczba": 85
    },
    {
     "teryt": "04",
-    "liczba": 954
+    "liczba": 955
    },
    {
     "teryt": "06",
-    "liczba": 1078
+    "liczba": 1080
    },
    {
     "teryt": "08",
@@ -33,19 +33,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 609
+    "liczba": 612
    },
    {
     "teryt": "12",
-    "liczba": 1578
+    "liczba": 1581
    },
    {
     "teryt": "14",
-    "liczba": 1438
+    "liczba": 1439
    },
    {
     "teryt": "16",
-    "liczba": 243
+    "liczba": 244
    },
    {
     "teryt": "18",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 194
+    "liczba": 196
    },
    {
     "teryt": "24",
@@ -65,19 +65,19 @@
    },
    {
     "teryt": "26",
-    "liczba": 559
+    "liczba": 560
    },
    {
     "teryt": "28",
-    "liczba": 241
+    "liczba": 242
    },
    {
     "teryt": "30",
-    "liczba": 1251
+    "liczba": 1252
    },
    {
     "teryt": "32",
-    "liczba": 458
+    "liczba": 459
    }
   ],
   "bezWojewodztwa": 219,
@@ -92,15 +92,15 @@
    },
    {
     "rok": 1960,
-    "liczba": 100
+    "liczba": 101
    },
    {
     "rok": 1961,
-    "liczba": 46
+    "liczba": 48
    },
    {
     "rok": 1962,
-    "liczba": 119
+    "liczba": 120
    },
    {
     "rok": 1963,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1964,
-    "liczba": 210
+    "liczba": 211
    },
    {
     "rok": 1965,
@@ -116,19 +116,19 @@
    },
    {
     "rok": 1966,
-    "liczba": 267
+    "liczba": 268
    },
    {
     "rok": 1967,
-    "liczba": 194
+    "liczba": 197
    },
    {
     "rok": 1968,
-    "liczba": 214
+    "liczba": 217
    },
    {
     "rok": 1969,
-    "liczba": 242
+    "liczba": 243
    },
    {
     "rok": 1970,
@@ -164,11 +164,11 @@
    },
    {
     "rok": 1978,
-    "liczba": 703
+    "liczba": 707
    },
    {
     "rok": 1979,
-    "liczba": 559
+    "liczba": 560
    },
    {
     "rok": 1980,
@@ -176,7 +176,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 569
+    "liczba": 570
    },
    {
     "rok": 1982,
@@ -192,7 +192,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 83
+    "liczba": 85
    },
    {
     "rok": 1986,
@@ -218,7 +218,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1110
+    "liczba": 1130
    },
    {
     "nazwa": "Diesel",
@@ -230,13 +230,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9420
+    "liczba": 9421
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 10219
+    "liczba": 10237
    },
    {
     "nazwa": "2,0 l",
@@ -244,13 +244,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 524
+    "liczba": 527
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5284
+    "liczba": 5289
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -258,7 +258,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 656
+    "liczba": 672
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -272,20 +272,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1093
+    "liczba": 1111
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9785
+    "liczba": 9788
    }
   ],
-  "noweOdPaczki": 98,
+  "noweOdPaczki": 119,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 9
+   },
+   {
     "rok": 2021,
-    "liczba": 16
+    "liczba": 27
    },
    {
     "rok": 2022,
@@ -309,6 +317,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -546,7 +606,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 303,
+  "miejsce": 314,
   "miejsceWMarce": 1,
   "modeliWMarce": 4,
   "sredniRocznik": 1975.0

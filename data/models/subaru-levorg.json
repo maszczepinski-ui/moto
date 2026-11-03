@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Levorg – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 158 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEVORG, LEVORG 1.6 GT-S).",
-  "liczbaWPolsce": 366,
-  "aktywne": 312,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Levorg – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 187 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEVORG, LEVORG 1.6 GT-S).",
+  "liczbaWPolsce": 395,
+  "aktywne": 341,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 34
    },
    {
     "teryt": "04",
@@ -25,55 +25,55 @@
    },
    {
     "teryt": "06",
-    "liczba": 11
+    "liczba": 15
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "10",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "12",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "teryt": "14",
-    "liczba": 92
+    "liczba": 96
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "20",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "22",
-    "liczba": 23
-   },
-   {
-    "teryt": "24",
-    "liczba": 34
-   },
-   {
-    "teryt": "26",
-    "liczba": 11
-   },
-   {
-    "teryt": "28",
-    "liczba": 9
-   },
-   {
-    "teryt": "30",
     "liczba": 24
    },
    {
+    "teryt": "24",
+    "liczba": 39
+   },
+   {
+    "teryt": "26",
+    "liczba": 12
+   },
+   {
+    "teryt": "28",
+    "liczba": 10
+   },
+   {
+    "teryt": "30",
+    "liczba": 27
+   },
+   {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 1,
@@ -116,23 +116,23 @@
    },
    {
     "rok": 2015,
-    "liczba": 98
+    "liczba": 112
    },
    {
     "rok": 2016,
-    "liczba": 117
+    "liczba": 126
    },
    {
     "rok": 2017,
-    "liczba": 91
+    "liczba": 94
    },
    {
     "rok": 2018,
-    "liczba": 34
+    "liczba": 36
    },
    {
     "rok": 2019,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2020,
@@ -150,17 +150,17 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 354
+    "liczba": 382
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 352
+    "liczba": 381
    },
    {
     "nazwa": "2,0 l",
@@ -173,16 +173,16 @@
   ],
   "pochodzenie": [
    {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 138
+   },
+   {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 137
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 122
-   },
-   {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 105
+    "liczba": 118
    },
    {
     "nazwa": "Inne / brak danych",
@@ -192,7 +192,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 356
+    "liczba": 384
    },
    {
     "nazwa": "Sedan",
@@ -200,16 +200,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
-  "noweOdPaczki": 158,
+  "noweOdPaczki": 187,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 14
+   },
+   {
+    "rok": 2021,
+    "liczba": 29
    },
    {
     "rok": 2022,
@@ -233,6 +237,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -470,9 +526,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1060,
+  "miejsce": 1048,
   "miejsceWMarce": 11,
-  "modeliWMarce": 12,
+  "modeliWMarce": 13,
   "sredniRocznik": 2016.3
  },
  "youtubeId": "",
@@ -486,6 +542,16 @@
  "adres": "/marki/subaru/levorg/",
  "konkurenci": [
   {
+   "slug": "mitsubishi-asx",
+   "nazwa": "Mitsubishi ASX",
+   "adres": "/marki/mitsubishi/asx/"
+  },
+  {
+   "slug": "volkswagen-golf-sportsvan",
+   "nazwa": "Volkswagen Golf Sportsvan",
+   "adres": "/marki/volkswagen/golf-sportsvan/"
+  },
+  {
    "slug": "dacia-dokker",
    "nazwa": "Dacia Dokker",
    "adres": "/marki/dacia/dokker/"
@@ -496,19 +562,9 @@
    "adres": "/marki/dacia/lodgy/"
   },
   {
-   "slug": "volkswagen-golf-sportsvan",
-   "nazwa": "Volkswagen Golf Sportsvan",
-   "adres": "/marki/volkswagen/golf-sportsvan/"
-  },
-  {
    "slug": "kia-ceed",
    "nazwa": "Kia Ceed",
    "adres": "/marki/kia/ceed/"
-  },
-  {
-   "slug": "volkswagen-tiguan",
-   "nazwa": "Volkswagen Tiguan",
-   "adres": "/marki/volkswagen/tiguan/"
   }
  ]
 }

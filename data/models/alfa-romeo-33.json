@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 33 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 33, 33 1.4 KAT, 33 1.4, 33 1.7 KAT, 33 1.7).",
-  "liczbaWPolsce": 825,
-  "aktywne": 28,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 33 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 33, 33 1.4 KAT, 33 1.4, 33 1.7 KAT, 33 1.7).",
+  "liczbaWPolsce": 827,
+  "aktywne": 30,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 83
+    "liczba": 84
    },
    {
     "teryt": "12",
@@ -47,7 +47,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "18",
@@ -130,7 +130,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 178
+    "liczba": 180
    },
    {
     "rok": 1994,
@@ -152,7 +152,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 490
+    "liczba": 492
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -170,11 +170,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 472
+    "liczba": 473
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 245
+    "liczba": 246
    },
    {
     "nazwa": "1,5 l",
@@ -192,7 +192,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 608
+    "liczba": 610
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -210,7 +210,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 510
+    "liczba": 512
    },
    {
     "nazwa": "Sedan",
@@ -225,10 +225,14 @@
     "liczba": 96
    }
   ],
-  "noweOdPaczki": 13,
+  "noweOdPaczki": 15,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 2
+   },
    {
     "rok": 2021,
     "liczba": 1
@@ -255,6 +259,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -492,7 +548,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 818,
+  "miejsce": 827,
   "miejsceWMarce": 15,
   "modeliWMarce": 20,
   "sredniRocznik": 1992.4

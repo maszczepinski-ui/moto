@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 404 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 404, 404 D).",
-  "liczbaWPolsce": 734,
-  "aktywne": 26,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 404 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 404, 404 D).",
+  "liczbaWPolsce": 736,
+  "aktywne": 28,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 250
+    "liczba": 251
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "24",
@@ -128,7 +128,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1972,
@@ -140,7 +140,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1975,
@@ -218,7 +218,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 92
+    "liczba": 94
    },
    {
     "nazwa": "Diesel",
@@ -236,7 +236,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 560
+    "liczba": 562
    },
    {
     "nazwa": "1,9 l",
@@ -266,7 +266,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 50
+    "liczba": 52
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -280,20 +280,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 138
+    "liczba": 140
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 596
    }
   ],
-  "noweOdPaczki": 16,
+  "noweOdPaczki": 18,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2022,
@@ -313,6 +317,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -550,7 +606,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 849,
+  "miejsce": 859,
   "miejsceWMarce": 38,
   "modeliWMarce": 45,
   "sredniRocznik": 1968.6

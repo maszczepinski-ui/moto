@@ -12,92 +12,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 091 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q8, Q8 60 TFSI E, Q8 55 TFSI E, Q8 SPORTBACK 55 E-TRON, Q8 55 E-TRON).",
-  "liczbaWPolsce": 7706,
-  "aktywne": 7706,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 727 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q8, Q8 60 TFSI E, Q8 55 TFSI E, Q8 SPORTBACK 55 E-TRON, Q8 55 E-TRON).",
+  "liczbaWPolsce": 8342,
+  "aktywne": 8342,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 616
+    "liczba": 660
    },
    {
     "teryt": "04",
-    "liczba": 406
+    "liczba": 455
    },
    {
     "teryt": "06",
-    "liczba": 224
+    "liczba": 252
    },
    {
     "teryt": "08",
-    "liczba": 89
+    "liczba": 107
    },
    {
     "teryt": "10",
-    "liczba": 373
+    "liczba": 425
    },
    {
     "teryt": "12",
-    "liczba": 677
-   },
-   {
-    "teryt": "14",
-    "liczba": 1786
-   },
-   {
-    "teryt": "16",
-    "liczba": 171
-   },
-   {
-    "teryt": "18",
-    "liczba": 260
-   },
-   {
-    "teryt": "20",
-    "liczba": 178
-   },
-   {
-    "teryt": "22",
-    "liczba": 753
-   },
-   {
-    "teryt": "24",
     "liczba": 718
    },
    {
+    "teryt": "14",
+    "liczba": 1901
+   },
+   {
+    "teryt": "16",
+    "liczba": 187
+   },
+   {
+    "teryt": "18",
+    "liczba": 281
+   },
+   {
+    "teryt": "20",
+    "liczba": 193
+   },
+   {
+    "teryt": "22",
+    "liczba": 801
+   },
+   {
+    "teryt": "24",
+    "liczba": 759
+   },
+   {
     "teryt": "26",
-    "liczba": 178
+    "liczba": 199
    },
    {
     "teryt": "28",
-    "liczba": 174
+    "liczba": 190
    },
    {
     "teryt": "30",
-    "liczba": 848
+    "liczba": 937
    },
    {
     "teryt": "32",
-    "liczba": 255
+    "liczba": 277
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 421
+    "liczba": 447
    },
    {
     "rok": 2019,
-    "liczba": 502
+    "liczba": 631
    },
    {
     "rok": 2020,
-    "liczba": 121
+    "liczba": 328
    },
    {
     "rok": 2021,
-    "liczba": 420
+    "liczba": 694
    },
    {
     "rok": 2022,
@@ -123,19 +123,19 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 2525
+    "liczba": 2872
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 2172
+    "liczba": 2244
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1966
+    "liczba": 2143
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 679
+    "liczba": 719
    },
    {
     "nazwa": "Elektryczny",
@@ -149,25 +149,25 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 7317
+    "liczba": 7952
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 389
+    "liczba": 390
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5190
+    "liczba": 5322
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1637
+    "liczba": 2116
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 849
+    "liczba": 874
    },
    {
     "nazwa": "Inne / brak danych",
@@ -177,28 +177,36 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6966
+    "liczba": 7546
    },
    {
     "nazwa": "Kombi",
-    "liczba": 406
+    "liczba": 438
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 229
+    "liczba": 237
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 105
+    "liczba": 121
    }
   ],
-  "noweOdPaczki": 7091,
-  "hybrydy": 4681,
+  "noweOdPaczki": 7727,
+  "hybrydy": 5100,
   "elektryczne": 363,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
+    "rok": 2020,
+    "liczba": 269
+   },
+   {
     "rok": 2021,
-    "liczba": 228
+    "liczba": 591
    },
    {
     "rok": 2022,
@@ -222,6 +230,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 63
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 51
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 41
+   },
    {
     "miesiac": "2021-12",
     "liczba": 71
@@ -459,10 +519,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 353,
+  "miejsce": 350,
   "miejsceWMarce": 13,
-  "modeliWMarce": 52,
-  "sredniRocznik": 2023.1
+  "modeliWMarce": 54,
+  "sredniRocznik": 2022.9
  },
  "youtubeId": "",
  "zrodla": [
@@ -490,14 +550,14 @@
    "adres": "/marki/mercedes-benz/klasa-gls/"
   },
   {
+   "slug": "kia-stinger",
+   "nazwa": "Kia Stinger",
+   "adres": "/marki/kia/stinger/"
+  },
+  {
    "slug": "mercedes-benz-amg",
    "nazwa": "Mercedes-Benz Amg",
    "adres": "/marki/mercedes-benz/amg/"
-  },
-  {
-   "slug": "bmw-m4",
-   "nazwa": "BMW M4",
-   "adres": "/marki/bmw/m4/"
   }
  ]
 }

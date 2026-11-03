@@ -15,13 +15,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti FX35 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 70 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FX35).",
-  "liczbaWPolsce": 431,
-  "aktywne": 231,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti FX35 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 98 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FX35).",
+  "liczbaWPolsce": 459,
+  "aktywne": 259,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "04",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "08",
@@ -37,15 +37,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 25
+    "liczba": 29
    },
    {
     "teryt": "12",
-    "liczba": 47
+    "liczba": 52
    },
    {
     "teryt": "14",
-    "liczba": 112
+    "liczba": 115
    },
    {
     "teryt": "16",
@@ -53,94 +53,94 @@
    },
    {
     "teryt": "18",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "20",
-    "liczba": 19
-   },
-   {
-    "teryt": "22",
     "liczba": 21
    },
    {
+    "teryt": "22",
+    "liczba": 23
+   },
+   {
     "teryt": "24",
-    "liczba": 47
+    "liczba": 49
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "28",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "30",
-    "liczba": 33
+    "liczba": 36
    },
    {
     "teryt": "32",
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2004,
-    "liczba": 49
+    "liczba": 50
    },
    {
     "rok": 2005,
-    "liczba": 71
+    "liczba": 76
    },
    {
     "rok": 2006,
-    "liczba": 59
+    "liczba": 62
    },
    {
     "rok": 2007,
-    "liczba": 55
+    "liczba": 58
    },
    {
     "rok": 2008,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 2009,
-    "liczba": 31
+    "liczba": 32
    },
    {
     "rok": 2010,
-    "liczba": 27
-   },
-   {
-    "rok": 2011,
     "liczba": 29
    },
    {
+    "rok": 2011,
+    "liczba": 33
+   },
+   {
     "rok": 2012,
-    "liczba": 26
+    "liczba": 33
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 230
+    "liczba": 250
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 201
+    "liczba": 209
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 426
+    "liczba": 454
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,11 +150,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 267
+    "liczba": 287
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 161
+    "liczba": 169
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,23 +164,23 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 193
+    "liczba": 201
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 77
+    "liczba": 87
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 74
+    "liczba": 76
    },
    {
     "nazwa": "Van",
-    "liczba": 32
+    "liczba": 37
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 25
+    "liczba": 28
    },
    {
     "nazwa": "Sedan",
@@ -191,13 +191,21 @@
     "liczba": 14
    }
   ],
-  "noweOdPaczki": 70,
+  "noweOdPaczki": 98,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 13
+   },
+   {
     "rok": 2021,
-    "liczba": 8
+    "liczba": 22
    },
    {
     "rok": 2022,
@@ -221,6 +229,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -458,10 +518,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1005,
+  "miejsce": 1002,
   "miejsceWMarce": 2,
   "modeliWMarce": 7,
-  "sredniRocznik": 2007.1
+  "sredniRocznik": 2007.2
  },
  "youtubeId": "",
  "zrodla": [
@@ -494,9 +554,9 @@
    "adres": "/marki/mercedes-benz/r/"
   },
   {
-   "slug": "bmw-seria-6",
-   "nazwa": "BMW Seria 6",
-   "adres": "/marki/bmw/seria-6/"
+   "slug": "lexus-gs",
+   "nazwa": "Lexus GS",
+   "adres": "/marki/lexus/gs/"
   }
  ]
 }

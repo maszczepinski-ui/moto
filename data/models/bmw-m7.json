@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 351 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M760E XDRIVE, M760LI XDRIVE, M760).",
-  "liczbaWPolsce": 351,
-  "aktywne": 351,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 391 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M760E XDRIVE, M760LI XDRIVE, M760).",
+  "liczbaWPolsce": 391,
+  "aktywne": 391,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "04",
@@ -25,47 +25,47 @@
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "teryt": "08",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "10",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "12",
-    "liczba": 16
+    "liczba": 19
    },
    {
     "teryt": "14",
-    "liczba": 88
+    "liczba": 91
    },
    {
     "teryt": "16",
-    "liczba": 7
-   },
-   {
-    "teryt": "18",
     "liczba": 9
    },
    {
+    "teryt": "18",
+    "liczba": 11
+   },
+   {
     "teryt": "20",
-    "liczba": 7
+    "liczba": 12
    },
    {
     "teryt": "22",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "teryt": "24",
-    "liczba": 43
+    "liczba": 47
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "28",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 43
+    "liczba": 49
    },
    {
     "teryt": "32",
-    "liczba": 19
+    "liczba": 21
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,15 +88,15 @@
    },
    {
     "rok": 2018,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2019,
-    "liczba": 5
+    "liczba": 13
    },
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 34
    },
    {
     "rok": 2021,
@@ -130,7 +130,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 30
+    "liczba": 70
    }
   ],
   "pojemnosci": [
@@ -140,7 +140,7 @@
    },
    {
     "nazwa": "6,6 l",
-    "liczba": 22
+    "liczba": 62
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,15 +150,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 256
+    "liczba": 270
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 67
+    "liczba": 92
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -172,20 +172,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 350
+    "liczba": 390
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 351,
+  "noweOdPaczki": 391,
   "hybrydy": 321,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2019,
     "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 32
+   },
+   {
+    "rok": 2021,
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -209,6 +217,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -446,10 +506,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1081,
-  "miejsceWMarce": 36,
-  "modeliWMarce": 42,
-  "sredniRocznik": 2023.7
+  "miejsce": 1052,
+  "miejsceWMarce": 35,
+  "modeliWMarce": 43,
+  "sredniRocznik": 2023.3
  },
  "youtubeId": "",
  "zrodla": [
@@ -477,14 +537,14 @@
    "adres": "/marki/mercedes-benz/amg/"
   },
   {
-   "slug": "lexus-nx",
-   "nazwa": "Lexus NX",
-   "adres": "/marki/lexus/nx/"
+   "slug": "audi-sq8",
+   "nazwa": "Audi SQ8",
+   "adres": "/marki/audi/sq8/"
   },
   {
-   "slug": "mazda-cx-60",
-   "nazwa": "Mazda CX-60",
-   "adres": "/marki/mazda/cx-60/"
+   "slug": "porsche-panamera",
+   "nazwa": "Porsche Panamera",
+   "adres": "/marki/porsche/panamera/"
   }
  ]
 }

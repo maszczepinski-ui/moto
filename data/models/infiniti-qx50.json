@@ -7,19 +7,20 @@
  "nadwozia": [
   "van",
   "kombi",
-  "hatchback"
+  "hatchback",
+  "suv"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti QX50 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 232 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QX50).",
-  "liczbaWPolsce": 232,
-  "aktywne": 232,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Infiniti QX50 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 268 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QX50).",
+  "liczbaWPolsce": 268,
+  "aktywne": 268,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "04",
@@ -31,19 +32,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "10",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "12",
-    "liczba": 24
+    "liczba": 28
    },
    {
     "teryt": "14",
-    "liczba": 61
+    "liczba": 75
    },
    {
     "teryt": "16",
@@ -55,27 +56,27 @@
    },
    {
     "teryt": "20",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "22",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "24",
-    "liczba": 8
-   },
-   {
-    "teryt": "26",
-    "liczba": 4
-   },
-   {
-    "teryt": "28",
     "liczba": 11
    },
    {
+    "teryt": "26",
+    "liczba": 5
+   },
+   {
+    "teryt": "28",
+    "liczba": 13
+   },
+   {
     "teryt": "30",
-    "liczba": 10
+    "liczba": 14
    },
    {
     "teryt": "32",
@@ -94,27 +95,27 @@
    },
    {
     "rok": 2015,
-    "liczba": 12
+    "liczba": 18
    },
    {
     "rok": 2016,
-    "liczba": 15
+    "liczba": 25
    },
    {
     "rok": 2017,
-    "liczba": 20
-   },
-   {
-    "rok": 2018,
     "liczba": 28
    },
    {
+    "rok": 2018,
+    "liczba": 31
+   },
+   {
     "rok": 2019,
-    "liczba": 60
+    "liczba": 68
    },
    {
     "rok": 2020,
-    "liczba": 31
+    "liczba": 32
    },
    {
     "rok": 2021,
@@ -140,29 +141,29 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 206
+    "liczba": 226
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 22
+    "liczba": 35
    },
    {
     "nazwa": "Diesel",
-    "liczba": 4
+    "liczba": 7
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 179
+    "liczba": 191
    },
    {
     "nazwa": "3,7 l",
-    "liczba": 48
+    "liczba": 69
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 3
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
@@ -172,36 +173,36 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 162
+    "liczba": 179
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 70
+    "liczba": 89
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 93
+    "liczba": 108
    },
    {
     "nazwa": "Kombi",
-    "liczba": 77
+    "liczba": 86
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 39
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 6
-   },
-   {
-    "nazwa": "Sedan",
-    "liczba": 5
+    "liczba": 46
    },
    {
     "nazwa": "Terenowy",
+    "liczba": 9
+   },
+   {
+    "nazwa": "Van",
+    "liczba": 7
+   },
+   {
+    "nazwa": "Sedan",
     "liczba": 5
    },
    {
@@ -209,13 +210,21 @@
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 232,
+  "noweOdPaczki": 268,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 21
+   },
+   {
     "rok": 2021,
-    "liczba": 14
+    "liczba": 28
    },
    {
     "rok": 2022,
@@ -239,6 +248,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -476,10 +537,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1218,
-  "miejsceWMarce": 7,
+  "miejsce": 1175,
+  "miejsceWMarce": 5,
   "modeliWMarce": 7,
-  "sredniRocznik": 2019.1
+  "sredniRocznik": 2018.8
  },
  "youtubeId": "",
  "zrodla": [

@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Prisma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRISMA, PRISMA 1.6).",
-  "liczbaWPolsce": 347,
-  "aktywne": 10,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Prisma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRISMA, PRISMA 1.6).",
+  "liczbaWPolsce": 348,
+  "aktywne": 11,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "26",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 29
+    "liczba": 30
    },
    {
     "rok": 1984,
@@ -150,7 +150,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 70
+    "liczba": 71
    },
    {
     "nazwa": "Diesel",
@@ -172,7 +172,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 159
+    "liczba": 160
    },
    {
     "nazwa": "1,9 l",
@@ -206,7 +206,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -220,7 +220,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 102
+    "liczba": 103
    },
    {
     "nazwa": "Hatchback",
@@ -231,10 +231,14 @@
     "liczba": 238
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 1
@@ -257,6 +261,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -494,7 +550,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1086,
+  "miejsce": 1098,
   "miejsceWMarce": 12,
   "modeliWMarce": 15,
   "sredniRocznik": 1987.1

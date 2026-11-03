@@ -16,9 +16,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Sidekick – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIDEKICK).",
-  "liczbaWPolsce": 217,
-  "aktywne": 38,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Sidekick – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIDEKICK).",
+  "liczbaWPolsce": 219,
+  "aktywne": 40,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -46,7 +46,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "16",
@@ -70,7 +70,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 20
+    "liczba": 21
    },
    {
     "rok": 1994,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 60
+    "liczba": 61
    },
    {
     "rok": 1996,
@@ -135,11 +135,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 100
+    "liczba": 101
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "nazwa": "?+LPG",
@@ -153,7 +153,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 201
+    "liczba": 203
    },
    {
     "nazwa": "1,8 l",
@@ -171,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 188
+    "liczba": 189
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -201,11 +201,11 @@
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Kombi",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "nazwa": "Kabriolet",
@@ -216,10 +216,18 @@
     "liczba": 82
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 1
@@ -238,6 +246,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -475,7 +535,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1237,
+  "miejsce": 1246,
   "miejsceWMarce": 21,
   "modeliWMarce": 21,
   "sredniRocznik": 1993.0

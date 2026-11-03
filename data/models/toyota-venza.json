@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Venza – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 118 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VENZA, VENZA HYBRID).",
-  "liczbaWPolsce": 235,
-  "aktywne": 172,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Venza – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 131 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VENZA, VENZA HYBRID).",
+  "liczbaWPolsce": 248,
+  "aktywne": 185,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -36,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "12",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "14",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "16",
@@ -52,11 +52,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "20",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "teryt": "22",
@@ -64,11 +64,15 @@
    },
    {
     "teryt": "24",
-    "liczba": 6
+    "liczba": 7
+   },
+   {
+    "teryt": "26",
+    "liczba": 2
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 12
    },
    {
     "teryt": "30",
@@ -76,7 +80,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 6
+    "liczba": 7
    }
   ],
   "bezWojewodztwa": 2,
@@ -147,11 +151,11 @@
    },
    {
     "rok": 2010,
-    "liczba": 25
+    "liczba": 29
    },
    {
     "rok": 2011,
-    "liczba": 19
+    "liczba": 21
    },
    {
     "rok": 2012,
@@ -159,19 +163,19 @@
    },
    {
     "rok": 2013,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2014,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2015,
-    "liczba": 15
+    "liczba": 17
    },
    {
     "rok": 2016,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 2017,
@@ -209,7 +213,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 106
+    "liczba": 113
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -217,7 +221,7 @@
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 53
+    "liczba": 59
    },
    {
     "nazwa": "Diesel",
@@ -230,12 +234,12 @@
     "liczba": 79
    },
    {
-    "nazwa": "2,7 l",
-    "liczba": 64
+    "nazwa": "3,5 l",
+    "liczba": 74
    },
    {
-    "nazwa": "3,5 l",
-    "liczba": 64
+    "nazwa": "2,7 l",
+    "liczba": 67
    },
    {
     "nazwa": "2,0 l",
@@ -257,11 +261,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 182
+    "liczba": 188
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 48
+    "liczba": 55
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -275,40 +279,44 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 82
+    "liczba": 87
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 54
+    "liczba": 56
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "nazwa": "Van",
-    "liczba": 30
+    "liczba": 33
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "Sedan",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 118,
+  "noweOdPaczki": 131,
   "hybrydy": 67,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 8
+   },
+   {
     "rok": 2021,
-    "liczba": 6
+    "liczba": 11
    },
    {
     "rok": 2022,
@@ -332,6 +340,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -569,10 +629,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1211,
-  "miejsceWMarce": 39,
+  "miejsce": 1216,
+  "miejsceWMarce": 41,
   "modeliWMarce": 43,
-  "sredniRocznik": 2014.5
+  "sredniRocznik": 2014.4
  },
  "youtubeId": "",
  "zrodla": [

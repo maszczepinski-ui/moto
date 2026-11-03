@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Brava – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRAVA, BRAVA 1.4 KAT, BRAVA 1.6 KAT, BRAVA 1.4KAT, BRAVA 1.4).",
-  "liczbaWPolsce": 13503,
-  "aktywne": 888,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Brava – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRAVA, BRAVA 1.4 KAT, BRAVA 1.6 KAT, BRAVA 1.4KAT, BRAVA 1.4).",
+  "liczbaWPolsce": 13513,
+  "aktywne": 898,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 649
+    "liczba": 652
    },
    {
     "teryt": "08",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 1193
+    "liczba": 1194
    },
    {
     "teryt": "14",
-    "liczba": 1592
+    "liczba": 1594
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 703
+    "liczba": 704
    },
    {
     "teryt": "20",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 650
+    "liczba": 651
    },
    {
     "teryt": "24",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 370
+    "liczba": 371
    },
    {
     "teryt": "28",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 687
+    "liczba": 688
    }
   ],
   "bezWojewodztwa": 21,
@@ -101,11 +101,11 @@
    },
    {
     "rok": 1999,
-    "liczba": 2192
+    "liczba": 2197
    },
    {
     "rok": 2000,
-    "liczba": 1565
+    "liczba": 1566
    },
    {
     "rok": 2001,
@@ -115,15 +115,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 7489
+    "liczba": 7495
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3828
+    "liczba": 3830
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1451
+    "liczba": 1453
    },
    {
     "nazwa": "Inne / brak danych",
@@ -133,23 +133,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 4544
+    "liczba": 4547
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 4213
+    "liczba": 4217
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 2944
+    "liczba": 2945
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 1485
+    "liczba": 1486
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 274
+    "liczba": 275
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,11 +159,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 9306
+    "liczba": 9308
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2232
+    "liczba": 2239
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -175,13 +175,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 67
+    "liczba": 68
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 10241
+    "liczba": 10251
    },
    {
     "nazwa": "Sedan",
@@ -192,13 +192,17 @@
     "liczba": 1703
    }
   ],
-  "noweOdPaczki": 23,
+  "noweOdPaczki": 33,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 7
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -218,6 +222,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -455,9 +511,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 263,
+  "miejsce": 274,
   "miejsceWMarce": 12,
-  "modeliWMarce": 60,
+  "modeliWMarce": 61,
   "sredniRocznik": 1997.8
  },
  "youtubeId": "",

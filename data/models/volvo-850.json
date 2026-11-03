@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 850 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 148 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 850, 850 2.4 KAT, 850 2.0 KAT, 850 2.5 TDI, 850 GLT).",
-  "liczbaWPolsce": 4142,
-  "aktywne": 598,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 850 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 194 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 850, 850 2.4 KAT, 850 2.0 KAT, 850 2.5 TDI, 850 GLT).",
+  "liczbaWPolsce": 4188,
+  "aktywne": 644,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 301
+    "liczba": 304
    },
    {
     "teryt": "04",
@@ -26,43 +26,43 @@
    },
    {
     "teryt": "06",
-    "liczba": 345
+    "liczba": 350
    },
    {
     "teryt": "08",
-    "liczba": 84
+    "liczba": 86
    },
    {
     "teryt": "10",
-    "liczba": 360
+    "liczba": 364
    },
    {
     "teryt": "12",
-    "liczba": 288
+    "liczba": 294
    },
    {
     "teryt": "14",
-    "liczba": 993
+    "liczba": 1002
    },
    {
     "teryt": "16",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "teryt": "18",
-    "liczba": 187
+    "liczba": 188
    },
    {
     "teryt": "20",
-    "liczba": 145
+    "liczba": 146
    },
    {
     "teryt": "22",
-    "liczba": 238
+    "liczba": 241
    },
    {
     "teryt": "24",
-    "liczba": 335
+    "liczba": 337
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 143
+    "liczba": 146
    },
    {
     "teryt": "30",
-    "liczba": 251
+    "liczba": 257
    },
    {
     "teryt": "32",
@@ -89,41 +89,41 @@
    },
    {
     "rok": 1992,
-    "liczba": 287
+    "liczba": 290
    },
    {
     "rok": 1993,
-    "liczba": 493
+    "liczba": 497
    },
    {
     "rok": 1994,
-    "liczba": 808
+    "liczba": 817
    },
    {
     "rok": 1995,
-    "liczba": 999
+    "liczba": 1014
    },
    {
     "rok": 1996,
-    "liczba": 1371
+    "liczba": 1384
    },
    {
     "rok": 1997,
-    "liczba": 93
+    "liczba": 95
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1590
+    "liczba": 1604
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1488
+    "liczba": 1519
    },
    {
     "nazwa": "Diesel",
-    "liczba": 784
+    "liczba": 785
    },
    {
     "nazwa": "?+LPG",
@@ -137,19 +137,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1968
+    "liczba": 1994
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1060
+    "liczba": 1065
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 814
+    "liczba": 816
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 283
+    "liczba": 296
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,11 +159,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2430
+    "liczba": 2449
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1580
+    "liczba": 1607
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -177,11 +177,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2224
+    "liczba": 2251
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1468
+    "liczba": 1487
    },
    {
     "nazwa": "Hatchback",
@@ -192,13 +192,21 @@
     "liczba": 369
    }
   ],
-  "noweOdPaczki": 148,
+  "noweOdPaczki": 194,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 22
+   },
+   {
     "rok": 2021,
-    "liczba": 23
+    "liczba": 45
    },
    {
     "rok": 2022,
@@ -222,6 +230,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 4
@@ -459,8 +519,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 463,
-  "miejsceWMarce": 16,
+  "miejsce": 476,
+  "miejsceWMarce": 17,
   "modeliWMarce": 34,
   "sredniRocznik": 1994.7
  },
@@ -495,9 +555,9 @@
    "adres": "/marki/mitsubishi/galant/"
   },
   {
-   "slug": "mitsubishi-l",
-   "nazwa": "Mitsubishi L",
-   "adres": "/marki/mitsubishi/l/"
+   "slug": "bmw-seria-3-e36",
+   "nazwa": "BMW Seria 3 E36",
+   "adres": "/marki/bmw/seria-3/e36/"
   }
  ]
 }

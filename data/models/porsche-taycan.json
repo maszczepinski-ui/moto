@@ -13,21 +13,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Taycan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 274 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAYCAN 4S, TAYCAN, TAYCAN GTS, TAYCAN 4, TAYCAN TURBO).",
-  "liczbaWPolsce": 1274,
-  "aktywne": 1274,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Taycan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 424 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAYCAN 4S, TAYCAN, TAYCAN TURBO, TAYCAN GTS, TAYCAN 4).",
+  "liczbaWPolsce": 1424,
+  "aktywne": 1424,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 89
+    "liczba": 98
    },
    {
     "teryt": "04",
-    "liczba": 36
+    "liczba": 42
    },
    {
     "teryt": "06",
-    "liczba": 31
+    "liczba": 36
    },
    {
     "teryt": "08",
@@ -35,62 +35,62 @@
    },
    {
     "teryt": "10",
-    "liczba": 77
-   },
-   {
-    "teryt": "12",
-    "liczba": 170
-   },
-   {
-    "teryt": "14",
-    "liczba": 354
-   },
-   {
-    "teryt": "16",
-    "liczba": 17
-   },
-   {
-    "teryt": "18",
-    "liczba": 29
-   },
-   {
-    "teryt": "20",
-    "liczba": 28
-   },
-   {
-    "teryt": "22",
     "liczba": 86
    },
    {
+    "teryt": "12",
+    "liczba": 199
+   },
+   {
+    "teryt": "14",
+    "liczba": 387
+   },
+   {
+    "teryt": "16",
+    "liczba": 18
+   },
+   {
+    "teryt": "18",
+    "liczba": 33
+   },
+   {
+    "teryt": "20",
+    "liczba": 29
+   },
+   {
+    "teryt": "22",
+    "liczba": 100
+   },
+   {
     "teryt": "24",
-    "liczba": 130
+    "liczba": 146
    },
    {
     "teryt": "26",
-    "liczba": 15
+    "liczba": 19
    },
    {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 144
+    "liczba": 159
    },
    {
     "teryt": "32",
-    "liczba": 41
+    "liczba": 44
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 63
+    "liczba": 145
    },
    {
     "rok": 2021,
-    "liczba": 256
+    "liczba": 324
    },
    {
     "rok": 2022,
@@ -116,7 +116,7 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1273
+    "liczba": 1423
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,25 +126,25 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1274
+    "liczba": 1424
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 546
+    "liczba": 599
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 391
+    "liczba": 482
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 327
+    "liczba": 332
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,15 +154,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 626
+    "liczba": 770
    },
    {
     "nazwa": "Kombi",
-    "liczba": 540
+    "liczba": 544
    },
    {
     "nazwa": "Sedan",
-    "liczba": 77
+    "liczba": 79
    },
    {
     "nazwa": "Coupe",
@@ -173,13 +173,17 @@
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 1274,
+  "noweOdPaczki": 1424,
   "hybrydy": 0,
-  "elektryczne": 1273,
+  "elektryczne": 1423,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 66
+   },
+   {
     "rok": 2021,
-    "liczba": 118
+    "liczba": 202
    },
    {
     "rok": 2022,
@@ -203,6 +207,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 21
+   },
    {
     "miesiac": "2021-12",
     "liczba": 36
@@ -440,10 +496,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 716,
+  "miejsce": 705,
   "miejsceWMarce": 5,
   "modeliWMarce": 12,
-  "sredniRocznik": 2022.5
+  "sredniRocznik": 2022.3
  },
  "youtubeId": "",
  "zrodla": [

@@ -11,134 +11,134 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen DS3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 576 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS3, DS 3, DS3 CABRIO, DS3 1.6I, DS3 RACING).",
-  "liczbaWPolsce": 5648,
-  "aktywne": 4865,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen DS3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 465 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS3, DS 3, DS3 CABRIO, DS3 1.6I, DS3 RACING).",
+  "liczbaWPolsce": 6537,
+  "aktywne": 5754,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 513
+    "liczba": 577
    },
    {
     "teryt": "04",
-    "liczba": 218
+    "liczba": 256
    },
    {
     "teryt": "06",
-    "liczba": 172
+    "liczba": 197
    },
    {
     "teryt": "08",
-    "liczba": 134
+    "liczba": 153
    },
    {
     "teryt": "10",
-    "liczba": 386
+    "liczba": 452
    },
    {
     "teryt": "12",
-    "liczba": 658
+    "liczba": 774
    },
    {
     "teryt": "14",
-    "liczba": 684
+    "liczba": 798
    },
    {
     "teryt": "16",
-    "liczba": 71
+    "liczba": 85
    },
    {
     "teryt": "18",
-    "liczba": 302
+    "liczba": 355
    },
    {
     "teryt": "20",
-    "liczba": 80
+    "liczba": 91
    },
    {
     "teryt": "22",
-    "liczba": 213
+    "liczba": 249
    },
    {
     "teryt": "24",
-    "liczba": 699
+    "liczba": 812
    },
    {
     "teryt": "26",
-    "liczba": 189
+    "liczba": 215
    },
    {
     "teryt": "28",
-    "liczba": 88
+    "liczba": 100
    },
    {
     "teryt": "30",
-    "liczba": 1025
+    "liczba": 1179
    },
    {
     "teryt": "32",
-    "liczba": 167
+    "liczba": 195
    }
   ],
   "bezWojewodztwa": 49,
   "roczniki": [
    {
     "rok": 2009,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 2010,
-    "liczba": 1234
+    "liczba": 1440
    },
    {
     "rok": 2011,
-    "liczba": 1274
+    "liczba": 1519
    },
    {
     "rok": 2012,
-    "liczba": 1020
+    "liczba": 1171
    },
    {
     "rok": 2013,
-    "liczba": 739
+    "liczba": 854
    },
    {
     "rok": 2014,
-    "liczba": 606
+    "liczba": 673
    },
    {
     "rok": 2015,
-    "liczba": 331
+    "liczba": 384
    },
    {
     "rok": 2016,
-    "liczba": 137
+    "liczba": 163
    },
    {
     "rok": 2017,
-    "liczba": 79
+    "liczba": 91
    },
    {
     "rok": 2018,
-    "liczba": 38
+    "liczba": 45
    },
    {
     "rok": 2019,
-    "liczba": 26
+    "liczba": 31
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3225
+    "liczba": 3703
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2320
+    "liczba": 2719
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 87
+    "liczba": 99
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,29 +148,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 4650
+    "liczba": 5383
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 595
+    "liczba": 680
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 388
+    "liczba": 458
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 15
+    "liczba": 16
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3473
+    "liczba": 3886
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1839
+    "liczba": 2314
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -178,30 +178,38 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 59
+    "liczba": 60
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 5406
+    "liczba": 6268
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 89
+    "liczba": 104
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 153
+    "liczba": 165
    }
   ],
-  "noweOdPaczki": 3576,
+  "noweOdPaczki": 4465,
   "hybrydy": 1,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 15
+   },
+   {
+    "rok": 2020,
+    "liczba": 407
+   },
+   {
     "rok": 2021,
-    "liczba": 385
+    "liczba": 852
    },
    {
     "rok": 2022,
@@ -225,6 +233,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 63
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 71
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 95
+   },
    {
     "miesiac": "2021-12",
     "liczba": 69
@@ -462,7 +522,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 406,
+  "miejsce": 391,
   "miejsceWMarce": 14,
   "modeliWMarce": 42,
   "sredniRocznik": 2012.1
@@ -493,14 +553,14 @@
    "adres": "/marki/mini/one-cooper/"
   },
   {
-   "slug": "peugeot-308",
-   "nazwa": "Peugeot 308",
-   "adres": "/marki/peugeot/308/"
-  },
-  {
    "slug": "seat-leon",
    "nazwa": "Seat Leon",
    "adres": "/marki/seat/leon/"
+  },
+  {
+   "slug": "peugeot-308",
+   "nazwa": "Peugeot 308",
+   "adres": "/marki/peugeot/308/"
   }
  ]
 }

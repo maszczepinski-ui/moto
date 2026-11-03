@@ -12,80 +12,80 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 502 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS Q8, RS Q3 SPORTBACK, RS E-TRON GT, RS Q3, RS E-TRON GT PERFORMANCE).",
-  "liczbaWPolsce": 1502,
-  "aktywne": 1502,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 854 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS Q8, RS Q3 SPORTBACK, RS E-TRON GT, RS Q3, RS E-TRON GT PERFORMANCE).",
+  "liczbaWPolsce": 1854,
+  "aktywne": 1854,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 135
+    "liczba": 172
    },
    {
     "teryt": "04",
-    "liczba": 62
+    "liczba": 81
    },
    {
     "teryt": "06",
-    "liczba": 33
+    "liczba": 41
    },
    {
     "teryt": "08",
-    "liczba": 19
+    "liczba": 26
    },
    {
     "teryt": "10",
-    "liczba": 79
+    "liczba": 97
    },
    {
     "teryt": "12",
-    "liczba": 122
+    "liczba": 149
    },
    {
     "teryt": "14",
-    "liczba": 447
+    "liczba": 536
    },
    {
     "teryt": "16",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "18",
-    "liczba": 33
+    "liczba": 42
    },
    {
     "teryt": "20",
-    "liczba": 17
+    "liczba": 22
    },
    {
     "teryt": "22",
-    "liczba": 134
+    "liczba": 161
    },
    {
     "teryt": "24",
-    "liczba": 155
+    "liczba": 196
    },
    {
     "teryt": "26",
-    "liczba": 28
+    "liczba": 35
    },
    {
     "teryt": "28",
-    "liczba": 18
+    "liczba": 25
    },
    {
     "teryt": "30",
-    "liczba": 174
+    "liczba": 210
    },
    {
     "teryt": "32",
-    "liczba": 26
+    "liczba": 38
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2015,
@@ -93,7 +93,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2017,
@@ -109,11 +109,11 @@
    },
    {
     "rok": 2020,
-    "liczba": 24
+    "liczba": 192
    },
    {
     "rok": 2021,
-    "liczba": 166
+    "liczba": 347
    },
    {
     "rok": 2022,
@@ -139,61 +139,57 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 953
+    "liczba": 1233
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 355
+    "liczba": 421
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 194
+    "liczba": 200
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 664
+    "liczba": 904
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 641
+    "liczba": 746
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 197
+    "liczba": 204
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 864
+    "liczba": 948
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 486
+    "liczba": 748
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 143
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 8
+    "liczba": 147
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 11
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1301
+    "liczba": 1614
    },
    {
     "nazwa": "Kombi",
-    "liczba": 145
+    "liczba": 181
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -201,16 +197,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 31
    }
   ],
-  "noweOdPaczki": 1502,
-  "hybrydy": 355,
-  "elektryczne": 194,
+  "noweOdPaczki": 1854,
+  "hybrydy": 421,
+  "elektryczne": 200,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 141
+   },
+   {
     "rok": 2021,
-    "liczba": 108
+    "liczba": 319
    },
    {
     "rok": 2022,
@@ -234,6 +234,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 49
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2021-12",
     "liczba": 18
@@ -471,10 +523,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 676,
-  "miejsceWMarce": 27,
-  "modeliWMarce": 52,
-  "sredniRocznik": 2022.9
+  "miejsce": 638,
+  "miejsceWMarce": 26,
+  "modeliWMarce": 54,
+  "sredniRocznik": 2022.5
  },
  "youtubeId": "",
  "zrodla": [
@@ -497,11 +549,6 @@
    "adres": "/marki/mercedes-benz/amg/"
   },
   {
-   "slug": "porsche-panamera",
-   "nazwa": "Porsche Panamera",
-   "adres": "/marki/porsche/panamera/"
-  },
-  {
    "slug": "kia-stinger",
    "nazwa": "Kia Stinger",
    "adres": "/marki/kia/stinger/"
@@ -510,6 +557,11 @@
    "slug": "bmw-m4",
    "nazwa": "BMW M4",
    "adres": "/marki/bmw/m4/"
+  },
+  {
+   "slug": "porsche-panamera",
+   "nazwa": "Porsche Panamera",
+   "adres": "/marki/porsche/panamera/"
   }
  ]
 }

@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen BX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BX, BX 19D, BX 1.4, BX 1.9 D, BX TURBO D).",
-  "liczbaWPolsce": 3879,
-  "aktywne": 66,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen BX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 49 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BX, BX 19D, BX 1.4, BX 1.9 D, BX TURBO D).",
+  "liczbaWPolsce": 3886,
+  "aktywne": 73,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 413
+    "liczba": 414
    },
    {
     "teryt": "04",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 202
+    "liczba": 203
    },
    {
     "teryt": "14",
@@ -47,11 +47,11 @@
    },
    {
     "teryt": "16",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "18",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "teryt": "20",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 471
+    "liczba": 472
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 218
+    "liczba": 219
    },
    {
     "teryt": "32",
-    "liczba": 664
+    "liczba": 665
    }
   ],
   "bezWojewodztwa": 5,
@@ -114,19 +114,19 @@
    },
    {
     "rok": 1989,
-    "liczba": 209
+    "liczba": 211
    },
    {
     "rok": 1990,
-    "liczba": 350
+    "liczba": 352
    },
    {
     "rok": 1991,
-    "liczba": 571
+    "liczba": 573
    },
    {
     "rok": 1992,
-    "liczba": 328
+    "liczba": 329
    },
    {
     "rok": 1993,
@@ -152,11 +152,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1330
+    "liczba": 1333
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 900
+    "liczba": 904
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -174,19 +174,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 1409
+    "liczba": 1411
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1079
+    "liczba": 1081
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 730
+    "liczba": 731
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 502
+    "liczba": 504
    },
    {
     "nazwa": "1,3 l",
@@ -204,7 +204,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 630
+    "liczba": 637
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -222,7 +222,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1509
+    "liczba": 1516
    },
    {
     "nazwa": "Sedan",
@@ -237,10 +237,18 @@
     "liczba": 1684
    }
   ],
-  "noweOdPaczki": 42,
+  "noweOdPaczki": 49,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 4
+   },
+   {
+    "rok": 2021,
+    "liczba": 3
+   },
    {
     "rok": 2022,
     "liczba": 13
@@ -263,6 +271,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -500,7 +560,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 479,
+  "miejsce": 489,
   "miejsceWMarce": 20,
   "modeliWMarce": 42,
   "sredniRocznik": 1989.9
@@ -526,14 +586,14 @@
    "adres": "/marki/fso/polonez/"
   },
   {
-   "slug": "peugeot-205",
-   "nazwa": "Peugeot 205",
-   "adres": "/marki/peugeot/205/"
-  },
-  {
    "slug": "opel-kadett",
    "nazwa": "Opel Kadett",
    "adres": "/marki/opel/kadett/"
+  },
+  {
+   "slug": "peugeot-205",
+   "nazwa": "Peugeot 205",
+   "adres": "/marki/peugeot/205/"
   },
   {
    "slug": "ford-escort",

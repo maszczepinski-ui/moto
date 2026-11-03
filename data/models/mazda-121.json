@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 121 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 121, 121 1.3 KAT, 121 1.3, 121 1,3 KAT, 121 1.1 KAT).",
-  "liczbaWPolsce": 3455,
-  "aktywne": 137,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 121 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 121, 121 1.3 KAT, 121 1.3, 121 1,3 KAT, 121 1.1 KAT).",
+  "liczbaWPolsce": 3458,
+  "aktywne": 140,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 181
+    "liczba": 182
    },
    {
     "teryt": "14",
@@ -46,7 +46,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 94
+    "liczba": 95
    },
    {
     "teryt": "18",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 377
+    "liczba": 378
    },
    {
     "teryt": "32",
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 431
+    "liczba": 432
    },
    {
     "rok": 1994,
@@ -129,7 +129,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 137
+    "liczba": 138
    },
    {
     "rok": 2000,
@@ -137,7 +137,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 2002,
@@ -147,11 +147,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2677
+    "liczba": 2679
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 364
+    "liczba": 365
    },
    {
     "nazwa": "Diesel",
@@ -165,7 +165,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 2876
+    "liczba": 2879
    },
    {
     "nazwa": "1,1 l",
@@ -191,7 +191,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1291
+    "liczba": 1294
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -209,24 +209,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1534
+    "liczba": 1535
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1396
+    "liczba": 1398
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 525
    }
   ],
-  "noweOdPaczki": 14,
+  "noweOdPaczki": 17,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2022,
@@ -250,6 +254,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -487,9 +543,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 493,
+  "miejsce": 499,
   "miejsceWMarce": 15,
-  "modeliWMarce": 32,
+  "modeliWMarce": 33,
   "sredniRocznik": 1993.7
  },
  "youtubeId": "",

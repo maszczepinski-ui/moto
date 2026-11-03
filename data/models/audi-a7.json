@@ -13,124 +13,124 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi A7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 266 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: A7 SPORTBACK, A7, A7 55 TFSI E, A7 50 TFSI E, A7 QUATTRO).",
-  "liczbaWPolsce": 7121,
-  "aktywne": 6681,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi A7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 448 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: A7 SPORTBACK, A7, A7 55 TFSI E, A7 50 TFSI E, A7 QUATTRO).",
+  "liczbaWPolsce": 8303,
+  "aktywne": 7863,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 563
+    "liczba": 650
    },
    {
     "teryt": "04",
-    "liczba": 293
+    "liczba": 360
    },
    {
     "teryt": "06",
-    "liczba": 314
+    "liczba": 372
    },
    {
     "teryt": "08",
-    "liczba": 181
+    "liczba": 211
    },
    {
     "teryt": "10",
-    "liczba": 377
+    "liczba": 458
    },
    {
     "teryt": "12",
-    "liczba": 657
+    "liczba": 755
    },
    {
     "teryt": "14",
-    "liczba": 1519
+    "liczba": 1731
    },
    {
     "teryt": "16",
-    "liczba": 131
+    "liczba": 149
    },
    {
     "teryt": "18",
-    "liczba": 312
+    "liczba": 355
    },
    {
     "teryt": "20",
-    "liczba": 180
+    "liczba": 207
    },
    {
     "teryt": "22",
-    "liczba": 509
+    "liczba": 594
    },
    {
     "teryt": "24",
-    "liczba": 701
+    "liczba": 831
    },
    {
     "teryt": "26",
-    "liczba": 197
+    "liczba": 254
    },
    {
     "teryt": "28",
-    "liczba": 175
+    "liczba": 205
    },
    {
     "teryt": "30",
-    "liczba": 718
+    "liczba": 833
    },
    {
     "teryt": "32",
-    "liczba": 259
+    "liczba": 303
    }
   ],
   "bezWojewodztwa": 35,
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 195
+    "liczba": 218
    },
    {
     "rok": 2011,
-    "liczba": 714
+    "liczba": 809
    },
    {
     "rok": 2012,
-    "liczba": 529
+    "liczba": 609
    },
    {
     "rok": 2013,
-    "liczba": 405
+    "liczba": 450
    },
    {
     "rok": 2014,
-    "liczba": 405
-   },
-   {
-    "rok": 2015,
-    "liczba": 373
-   },
-   {
-    "rok": 2016,
-    "liczba": 402
-   },
-   {
-    "rok": 2017,
-    "liczba": 239
-   },
-   {
-    "rok": 2018,
     "liczba": 458
    },
    {
+    "rok": 2015,
+    "liczba": 427
+   },
+   {
+    "rok": 2016,
+    "liczba": 453
+   },
+   {
+    "rok": 2017,
+    "liczba": 270
+   },
+   {
+    "rok": 2018,
+    "liczba": 543
+   },
+   {
     "rok": 2019,
-    "liczba": 347
+    "liczba": 519
    },
    {
     "rok": 2020,
-    "liczba": 127
+    "liczba": 394
    },
    {
     "rok": 2021,
-    "liczba": 314
+    "liczba": 540
    },
    {
     "rok": 2022,
@@ -152,86 +152,94 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 2459
+    "liczba": 2830
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2086
+    "liczba": 2320
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1686
+    "liczba": 1961
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 874
+    "liczba": 1175
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 16
+    "liczba": 17
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 4216
+    "liczba": 4966
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 2819
+    "liczba": 3247
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 86
+    "liczba": 90
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2702
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 3311
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2455
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 2925
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1921
+    "liczba": 2023
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 43
+    "liczba": 44
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 5957
+    "liczba": 6936
    },
    {
     "nazwa": "Sedan",
-    "liczba": 539
+    "liczba": 657
    },
    {
     "nazwa": "Coupe",
-    "liczba": 440
+    "liczba": 514
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 92
+    "liczba": 97
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 93
+    "liczba": 99
    }
   ],
-  "noweOdPaczki": 5266,
-  "hybrydy": 2539,
+  "noweOdPaczki": 6448,
+  "hybrydy": 3115,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 12
+   },
+   {
+    "rok": 2020,
+    "liczba": 541
+   },
+   {
     "rok": 2021,
-    "liczba": 417
+    "liczba": 1046
    },
    {
     "rok": 2022,
@@ -255,6 +263,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 86
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 65
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 90
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 110
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 88
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 94
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 136
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 58
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 60
+   },
    {
     "miesiac": "2021-12",
     "liczba": 90
@@ -492,10 +552,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 361,
+  "miejsce": 351,
   "miejsceWMarce": 14,
-  "modeliWMarce": 52,
-  "sredniRocznik": 2017.9
+  "modeliWMarce": 54,
+  "sredniRocznik": 2017.8
  },
  "youtubeId": "",
  "zrodla": [

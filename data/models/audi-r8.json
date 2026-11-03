@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi R8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 224 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R8 COUPE, R8, R8 SPYDER, R8 SPYDER QUATTRO).",
-  "liczbaWPolsce": 224,
-  "aktywne": 224,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi R8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 283 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R8 COUPE, R8, R8 SPYDER, R8 SPYDER QUATTRO).",
+  "liczbaWPolsce": 283,
+  "aktywne": 283,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 14
+    "liczba": 19
    },
    {
     "teryt": "04",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "06",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "08",
@@ -34,39 +34,39 @@
    },
    {
     "teryt": "10",
-    "liczba": 20
+    "liczba": 27
    },
    {
     "teryt": "12",
-    "liczba": 19
+    "liczba": 25
    },
    {
     "teryt": "14",
-    "liczba": 52
+    "liczba": 62
    },
    {
     "teryt": "16",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "22",
-    "liczba": 15
-   },
-   {
-    "teryt": "24",
     "liczba": 20
    },
    {
+    "teryt": "24",
+    "liczba": 32
+   },
+   {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
@@ -74,18 +74,18 @@
    },
    {
     "teryt": "30",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "teryt": "32",
-    "liczba": 8
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2007,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2008,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 2013,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2014,
@@ -125,23 +125,23 @@
    },
    {
     "rok": 2017,
-    "liczba": 8
+    "liczba": 12
    },
    {
     "rok": 2018,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 2019,
-    "liczba": 8
+    "liczba": 14
    },
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 26
    },
    {
     "rok": 2021,
-    "liczba": 23
+    "liczba": 43
    },
    {
     "rok": 2022,
@@ -159,17 +159,17 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 224
+    "liczba": 283
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "5,2 l",
-    "liczba": 205
+    "liczba": 263
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "nazwa": "Inne / brak danych",
@@ -178,39 +178,43 @@
   ],
   "pochodzenie": [
    {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 107
+   },
+   {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 80
+    "liczba": 89
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 77
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 67
+    "liczba": 87
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 166
+    "liczba": 217
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 53
+    "liczba": 61
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 224,
+  "noweOdPaczki": 283,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 23
+   },
+   {
     "rok": 2021,
-    "liczba": 18
+    "liczba": 54
    },
    {
     "rok": 2022,
@@ -234,6 +238,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 5
@@ -471,9 +527,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1228,
-  "miejsceWMarce": 51,
-  "modeliWMarce": 52,
+  "miejsce": 1161,
+  "miejsceWMarce": 48,
+  "modeliWMarce": 54,
   "sredniRocznik": 2019.7
  },
  "youtubeId": "",

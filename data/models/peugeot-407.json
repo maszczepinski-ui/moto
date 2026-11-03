@@ -13,158 +13,162 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 407 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 104 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 407, 407 SW, 407 2.0 HDI, 407 1.6 HDI, 407 SW 2.0 HDI).",
-  "liczbaWPolsce": 37041,
-  "aktywne": 17030,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 407 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 038 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 407, 407 SW, 407 2.0 HDI, 407 1.6 HDI, 407 SW 2.0 HDI).",
+  "liczbaWPolsce": 38975,
+  "aktywne": 18964,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2566
+    "liczba": 2681
    },
    {
     "teryt": "04",
-    "liczba": 1907
+    "liczba": 2008
    },
    {
     "teryt": "06",
-    "liczba": 2343
+    "liczba": 2523
    },
    {
     "teryt": "08",
-    "liczba": 1006
+    "liczba": 1046
    },
    {
     "teryt": "10",
-    "liczba": 2753
+    "liczba": 2948
    },
    {
     "teryt": "12",
-    "liczba": 2934
+    "liczba": 3058
    },
    {
     "teryt": "14",
-    "liczba": 5423
+    "liczba": 5750
    },
    {
     "teryt": "16",
-    "liczba": 631
+    "liczba": 653
    },
    {
     "teryt": "18",
-    "liczba": 2577
+    "liczba": 2713
    },
    {
     "teryt": "20",
-    "liczba": 789
+    "liczba": 838
    },
    {
     "teryt": "22",
-    "liczba": 1514
+    "liczba": 1576
    },
    {
     "teryt": "24",
-    "liczba": 3990
+    "liczba": 4178
    },
    {
     "teryt": "26",
-    "liczba": 1517
+    "liczba": 1609
    },
    {
     "teryt": "28",
-    "liczba": 886
+    "liczba": 938
    },
    {
     "teryt": "30",
-    "liczba": 4360
+    "liczba": 4555
    },
    {
     "teryt": "32",
-    "liczba": 1671
+    "liczba": 1727
    }
   ],
   "bezWojewodztwa": 174,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 5129
+    "liczba": 5332
    },
    {
     "rok": 2005,
-    "liczba": 10307
+    "liczba": 10823
    },
    {
     "rok": 2006,
-    "liczba": 7302
+    "liczba": 7726
    },
    {
     "rok": 2007,
-    "liczba": 6725
+    "liczba": 7031
    },
    {
     "rok": 2008,
-    "liczba": 3921
+    "liczba": 4164
    },
    {
     "rok": 2009,
-    "liczba": 1687
+    "liczba": 1845
    },
    {
     "rok": 2010,
-    "liczba": 947
+    "liczba": 1019
+   },
+   {
+    "rok": 2011,
+    "liczba": 80
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 26650
+    "liczba": 27671
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 5455
+    "liczba": 5954
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 4837
+    "liczba": 5246
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 99
+    "liczba": 104
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 23570
+    "liczba": 24874
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 7610
+    "liczba": 7800
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 3405
+    "liczba": 3625
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 1585
+    "liczba": 1732
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 482
+    "liczba": 517
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 389
+    "liczba": 427
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 20863
+    "liczba": 21981
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 14070
+    "liczba": 14880
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -172,38 +176,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 230
+    "liczba": 236
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 17483
+    "liczba": 18635
    },
    {
     "nazwa": "Sedan",
-    "liczba": 16848
+    "liczba": 17482
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1182
+    "liczba": 1218
    },
    {
     "nazwa": "Coupe",
-    "liczba": 901
+    "liczba": 1002
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 627
+    "liczba": 638
    }
   ],
-  "noweOdPaczki": 4104,
+  "noweOdPaczki": 6038,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 45
+   },
+   {
+    "rok": 2020,
+    "liczba": 936
+   },
+   {
     "rok": 2021,
-    "liczba": 662
+    "liczba": 1615
    },
    {
     "rok": 2022,
@@ -227,6 +239,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 122
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 118
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 130
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 153
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 143
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 142
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 143
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 142
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 135
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 146
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 128
+   },
    {
     "miesiac": "2021-12",
     "liczba": 109
@@ -464,7 +528,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 125,
+  "miejsce": 129,
   "miejsceWMarce": 9,
   "modeliWMarce": 45,
   "sredniRocznik": 2006.1
@@ -480,14 +544,14 @@
  "adres": "/marki/peugeot/407/",
  "konkurenci": [
   {
-   "slug": "audi-a4",
-   "nazwa": "Audi A4",
-   "adres": "/marki/audi/a4/"
-  },
-  {
    "slug": "ford-mondeo",
    "nazwa": "Ford Mondeo",
    "adres": "/marki/ford/mondeo/"
+  },
+  {
+   "slug": "audi-a4",
+   "nazwa": "Audi A4",
+   "adres": "/marki/audi/a4/"
   },
   {
    "slug": "toyota-avensis",

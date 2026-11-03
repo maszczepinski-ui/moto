@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart City – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 36 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITY, CITY COUPE).",
-  "liczbaWPolsce": 321,
-  "aktywne": 120,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart City – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITY, CITY COUPE).",
+  "liczbaWPolsce": 327,
+  "aktywne": 126,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "14",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 35
+    "liczba": 37
    },
    {
     "teryt": "20",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 60
+    "liczba": 61
    },
    {
     "rok": 2000,
@@ -98,19 +98,19 @@
    },
    {
     "rok": 2001,
-    "liczba": 80
+    "liczba": 81
    },
    {
     "rok": 2002,
-    "liczba": 41
+    "liczba": 43
    },
    {
     "rok": 2003,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 2004,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2005,
@@ -140,7 +140,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 262
+    "liczba": 268
    },
    {
     "nazwa": "Diesel",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 245
+    "liczba": 251
    },
    {
     "nazwa": "0,8 l",
@@ -172,11 +172,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 164
+    "liczba": 167
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 156
+    "liczba": 159
    },
    {
     "nazwa": "Inne / brak danych",
@@ -186,7 +186,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 154
+    "liczba": 159
    },
    {
     "nazwa": "Hatchback",
@@ -194,20 +194,24 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 36,
+  "noweOdPaczki": 42,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -231,6 +235,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -468,9 +524,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1107,
+  "miejsce": 1117,
   "miejsceWMarce": 7,
-  "modeliWMarce": 8,
+  "modeliWMarce": 9,
   "sredniRocznik": 2000.6
  },
  "youtubeId": "",

@@ -11,45 +11,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo S70 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 76 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S70, S70 2.5 TDI, S70 2.4 KAT, S70 2.5 KAT).",
-  "liczbaWPolsce": 1054,
-  "aktywne": 279,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo S70 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 113 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S70, S70 2.5 TDI, S70 2.4 KAT, S70 2.5 KAT).",
+  "liczbaWPolsce": 1091,
+  "aktywne": 316,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 56
+    "liczba": 63
    },
    {
     "teryt": "04",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "06",
-    "liczba": 117
+    "liczba": 121
    },
    {
     "teryt": "08",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "10",
-    "liczba": 87
+    "liczba": 90
    },
    {
     "teryt": "12",
-    "liczba": 70
+    "liczba": 71
    },
    {
     "teryt": "14",
-    "liczba": 304
+    "liczba": 312
    },
    {
     "teryt": "16",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "18",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "20",
@@ -57,15 +57,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 56
-   },
-   {
-    "teryt": "24",
     "liczba": 57
    },
    {
+    "teryt": "24",
+    "liczba": 59
+   },
+   {
     "teryt": "26",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "28",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 62
+    "liczba": 66
    },
    {
     "teryt": "32",
-    "liczba": 32
+    "liczba": 34
    }
   ],
   "bezWojewodztwa": 3,
@@ -88,33 +88,41 @@
    },
    {
     "rok": 1997,
-    "liczba": 411
+    "liczba": 424
    },
    {
     "rok": 1998,
-    "liczba": 359
+    "liczba": 372
    },
    {
     "rok": 1999,
-    "liczba": 180
+    "liczba": 188
    },
    {
     "rok": 2000,
-    "liczba": 71
+    "liczba": 72
+   },
+   {
+    "rok": 2001,
+    "liczba": 0
+   },
+   {
+    "rok": 2002,
+    "liczba": 3
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 379
+    "liczba": 397
    },
    {
     "nazwa": "Diesel",
-    "liczba": 359
+    "liczba": 366
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 289
+    "liczba": 301
    },
    {
     "nazwa": "Inne / brak danych",
@@ -124,19 +132,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 455
+    "liczba": 480
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 379
+    "liczba": 385
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 160
+    "liczba": 161
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 54
+    "liczba": 59
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,11 +154,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 600
+    "liczba": 617
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 437
+    "liczba": 457
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -164,7 +172,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 937
+    "liczba": 971
    },
    {
     "nazwa": "Hatchback",
@@ -172,20 +180,24 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 15
+    "liczba": 18
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 79
    }
   ],
-  "noweOdPaczki": 76,
+  "noweOdPaczki": 113,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 19
+   },
+   {
     "rok": 2021,
-    "liczba": 7
+    "liczba": 25
    },
    {
     "rok": 2022,
@@ -209,6 +221,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -446,7 +510,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 770,
+  "miejsce": 771,
   "miejsceWMarce": 24,
   "modeliWMarce": 34,
   "sredniRocznik": 1997.9

@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MX-3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 37 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MX-3, MX-3 1.6 KAT, MX-3 1.8 KAT, MX-3 1.6, MX-3 1.8KAT).",
-  "liczbaWPolsce": 2198,
-  "aktywne": 161,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MX-3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 48 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MX-3, MX-3 1.6 KAT, MX-3 1.8 KAT, MX-3 1.6, MX-3 1.8KAT).",
+  "liczbaWPolsce": 2209,
+  "aktywne": 172,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 246
+    "liczba": 248
    },
    {
     "teryt": "04",
-    "liczba": 149
+    "liczba": 151
    },
    {
     "teryt": "06",
@@ -39,15 +39,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 159
+    "liczba": 161
    },
    {
     "teryt": "14",
-    "liczba": 279
+    "liczba": 280
    },
    {
     "teryt": "16",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "18",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 227
+    "liczba": 228
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 169
+    "liczba": 171
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 537
+    "liczba": 538
    },
    {
     "rok": 1993,
@@ -98,29 +98,29 @@
    },
    {
     "rok": 1994,
-    "liczba": 358
+    "liczba": 359
    },
    {
     "rok": 1995,
-    "liczba": 255
+    "liczba": 256
    },
    {
     "rok": 1996,
-    "liczba": 184
+    "liczba": 188
    },
    {
     "rok": 1997,
-    "liczba": 185
+    "liczba": 187
    },
    {
     "rok": 1998,
-    "liczba": 83
+    "liczba": 84
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1593
+    "liczba": 1604
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -134,11 +134,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1395
+    "liczba": 1402
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 789
+    "liczba": 793
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,11 +148,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1492
+    "liczba": 1498
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 661
+    "liczba": 666
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -166,28 +166,32 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1204
+    "liczba": 1210
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 638
+    "liczba": 641
    },
    {
     "nazwa": "Sedan",
-    "liczba": 177
+    "liczba": 178
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 179
+    "liczba": 180
    }
   ],
-  "noweOdPaczki": 37,
+  "noweOdPaczki": 48,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 7
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -211,6 +215,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -448,9 +504,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 582,
+  "miejsce": 593,
   "miejsceWMarce": 18,
-  "modeliWMarce": 32,
+  "modeliWMarce": 33,
   "sredniRocznik": 1993.8
  },
  "youtubeId": "",

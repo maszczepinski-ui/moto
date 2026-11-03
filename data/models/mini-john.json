@@ -14,17 +14,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mini John – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 655 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JOHN COOPER WORKS, MINI JOHN COOPER WORKS, JOHN COOPER WORKS ROADSTER).",
-  "liczbaWPolsce": 847,
-  "aktywne": 782,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mini John – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 798 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JOHN COOPER WORKS, JOHN COOPER WORKS GP, MINI JOHN COOPER WORKS, JOHN COOPER WORKS ROADSTER).",
+  "liczbaWPolsce": 990,
+  "aktywne": 925,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 62
+    "liczba": 73
    },
    {
     "teryt": "04",
-    "liczba": 28
+    "liczba": 31
    },
    {
     "teryt": "06",
@@ -36,35 +36,35 @@
    },
    {
     "teryt": "10",
-    "liczba": 44
+    "liczba": 52
    },
    {
     "teryt": "12",
-    "liczba": 92
+    "liczba": 105
    },
    {
     "teryt": "14",
-    "liczba": 230
+    "liczba": 277
    },
    {
     "teryt": "16",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "18",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "teryt": "20",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "teryt": "22",
-    "liczba": 48
+    "liczba": 61
    },
    {
     "teryt": "24",
-    "liczba": 131
+    "liczba": 154
    },
    {
     "teryt": "26",
@@ -72,22 +72,22 @@
    },
    {
     "teryt": "28",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 112
+    "liczba": 124
    },
    {
     "teryt": "32",
-    "liczba": 27
+    "liczba": 29
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2009,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2010,
@@ -99,27 +99,27 @@
    },
    {
     "rok": 2012,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 2013,
-    "liczba": 44
+    "liczba": 47
    },
    {
     "rok": 2014,
-    "liczba": 29
+    "liczba": 31
    },
    {
     "rok": 2015,
-    "liczba": 44
+    "liczba": 47
    },
    {
     "rok": 2016,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 2017,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 2018,
@@ -127,15 +127,15 @@
    },
    {
     "rok": 2019,
-    "liczba": 32
+    "liczba": 42
    },
    {
     "rok": 2020,
-    "liczba": 12
+    "liczba": 76
    },
    {
     "rok": 2021,
-    "liczba": 86
+    "liczba": 143
    },
    {
     "rok": 2022,
@@ -153,7 +153,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 845
+    "liczba": 988
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,11 +163,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 697
+    "liczba": 832
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 149
+    "liczba": 157
    },
    {
     "nazwa": "Inne / brak danych",
@@ -177,19 +177,19 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 410
+    "liczba": 453
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 293
+    "liczba": 383
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 134
+    "liczba": 142
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "nazwa": "Inne / brak danych",
@@ -199,32 +199,40 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 529
+    "liczba": 644
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 223
+    "liczba": 247
    },
    {
     "nazwa": "Kombi",
-    "liczba": 56
+    "liczba": 58
    },
    {
     "nazwa": "Coupe",
-    "liczba": 36
+    "liczba": 38
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 655,
+  "noweOdPaczki": 798,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 66
+   },
+   {
     "rok": 2021,
-    "liczba": 74
+    "liczba": 150
    },
    {
     "rok": 2022,
@@ -248,6 +256,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 11
+   },
    {
     "miesiac": "2021-12",
     "liczba": 9
@@ -485,10 +545,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 813,
-  "miejsceWMarce": 5,
+  "miejsce": 793,
+  "miejsceWMarce": 4,
   "modeliWMarce": 6,
-  "sredniRocznik": 2019.6
+  "sredniRocznik": 2019.7
  },
  "youtubeId": "",
  "zrodla": [

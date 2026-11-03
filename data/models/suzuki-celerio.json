@@ -11,100 +11,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Celerio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 469 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CELERIO).",
-  "liczbaWPolsce": 2131,
-  "aktywne": 1536,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Celerio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 592 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CELERIO).",
+  "liczbaWPolsce": 2254,
+  "aktywne": 1659,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 143
+    "liczba": 149
    },
    {
     "teryt": "04",
-    "liczba": 75
+    "liczba": 77
    },
    {
     "teryt": "06",
-    "liczba": 75
+    "liczba": 82
    },
    {
     "teryt": "08",
-    "liczba": 63
+    "liczba": 67
    },
    {
     "teryt": "10",
-    "liczba": 101
+    "liczba": 108
    },
    {
     "teryt": "12",
-    "liczba": 265
+    "liczba": 279
    },
    {
     "teryt": "14",
-    "liczba": 268
+    "liczba": 276
    },
    {
     "teryt": "16",
-    "liczba": 53
-   },
-   {
-    "teryt": "18",
-    "liczba": 95
-   },
-   {
-    "teryt": "20",
-    "liczba": 86
-   },
-   {
-    "teryt": "22",
-    "liczba": 131
-   },
-   {
-    "teryt": "24",
-    "liczba": 363
-   },
-   {
-    "teryt": "26",
     "liczba": 58
    },
    {
+    "teryt": "18",
+    "liczba": 105
+   },
+   {
+    "teryt": "20",
+    "liczba": 89
+   },
+   {
+    "teryt": "22",
+    "liczba": 139
+   },
+   {
+    "teryt": "24",
+    "liczba": 385
+   },
+   {
+    "teryt": "26",
+    "liczba": 59
+   },
+   {
     "teryt": "28",
-    "liczba": 69
+    "liczba": 73
    },
    {
     "teryt": "30",
-    "liczba": 210
+    "liczba": 228
    },
    {
     "teryt": "32",
-    "liczba": 72
+    "liczba": 76
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 108
+    "liczba": 113
    },
    {
     "rok": 2015,
-    "liczba": 669
+    "liczba": 694
    },
    {
     "rok": 2016,
-    "liczba": 318
+    "liczba": 349
    },
    {
     "rok": 2017,
-    "liczba": 562
+    "liczba": 581
    },
    {
     "rok": 2018,
-    "liczba": 300
+    "liczba": 324
    },
    {
     "rok": 2019,
-    "liczba": 110
+    "liczba": 129
    },
    {
     "rok": 2020,
@@ -114,17 +114,17 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2105
+    "liczba": 2225
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 26
+    "liczba": 29
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 2130
+    "liczba": 2253
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,15 +134,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1378
+    "liczba": 1384
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 496
+    "liczba": 574
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 253
+    "liczba": 292
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,20 +152,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2120
+    "liczba": 2242
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 12
    }
   ],
-  "noweOdPaczki": 469,
+  "noweOdPaczki": 592,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
+    "rok": 2020,
+    "liczba": 62
+   },
+   {
     "rok": 2021,
-    "liczba": 53
+    "liczba": 110
    },
    {
     "rok": 2022,
@@ -189,6 +197,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 13
+   },
    {
     "miesiac": "2021-12",
     "liczba": 11
@@ -426,8 +486,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 590,
-  "miejsceWMarce": 15,
+  "miejsce": 587,
+  "miejsceWMarce": 16,
   "modeliWMarce": 21,
   "sredniRocznik": 2016.3
  },
@@ -442,14 +502,14 @@
  "adres": "/marki/suzuki/celerio/",
  "konkurenci": [
   {
-   "slug": "skoda-citigo",
-   "nazwa": "Skoda Citigo",
-   "adres": "/marki/skoda/citigo/"
-  },
-  {
    "slug": "volkswagen-up",
    "nazwa": "Volkswagen Up!",
    "adres": "/marki/volkswagen/up/"
+  },
+  {
+   "slug": "skoda-citigo",
+   "nazwa": "Skoda Citigo",
+   "adres": "/marki/skoda/citigo/"
   },
   {
    "slug": "opel-karl",
@@ -462,9 +522,9 @@
    "adres": "/marki/peugeot/108/"
   },
   {
-   "slug": "seat-mii",
-   "nazwa": "Seat Mii",
-   "adres": "/marki/seat/mii/"
+   "slug": "toyota-aygo",
+   "nazwa": "Toyota Aygo",
+   "adres": "/marki/toyota/aygo/"
   }
  ]
 }

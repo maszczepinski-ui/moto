@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Kappa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 38 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KAPPA, KAPPA 2.0 KAT, KAPPA 2.4 JTD, KAPPA 2.4 TD, KAPPA 2.4 KAT).",
-  "liczbaWPolsce": 1775,
-  "aktywne": 146,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Kappa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 47 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KAPPA, KAPPA 2.0 KAT, KAPPA 2.4 JTD, KAPPA 2.4 TD, KAPPA 2.4 KAT).",
+  "liczbaWPolsce": 1784,
+  "aktywne": 155,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 151
+    "liczba": 155
    },
    {
     "teryt": "04",
@@ -31,7 +31,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "10",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 143
+    "liczba": 144
    },
    {
     "teryt": "14",
-    "liczba": 371
+    "liczba": 372
    },
    {
     "teryt": "16",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 175
+    "liczba": 176
    },
    {
     "teryt": "26",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 57
+    "liczba": 58
    }
   ],
   "bezWojewodztwa": 5,
@@ -94,11 +94,11 @@
    },
    {
     "rok": 1996,
-    "liczba": 302
+    "liczba": 304
    },
    {
     "rok": 1997,
-    "liczba": 312
+    "liczba": 316
    },
    {
     "rok": 1998,
@@ -106,11 +106,11 @@
    },
    {
     "rok": 1999,
-    "liczba": 186
+    "liczba": 187
    },
    {
     "rok": 2000,
-    "liczba": 101
+    "liczba": 103
    },
    {
     "rok": 2001,
@@ -120,15 +120,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 614
+    "liczba": 619
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 579
+    "liczba": 580
    },
    {
     "nazwa": "Diesel",
-    "liczba": 467
+    "liczba": 470
    },
    {
     "nazwa": "?+LPG",
@@ -142,15 +142,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 866
+    "liczba": 869
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 787
+    "liczba": 790
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 117
+    "liczba": 120
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,11 +160,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 992
+    "liczba": 996
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 744
+    "liczba": 749
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -178,7 +178,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1338
+    "liczba": 1345
    },
    {
     "nazwa": "Kombi",
@@ -186,7 +186,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 65
+    "liczba": 67
    },
    {
     "nazwa": "Hatchback",
@@ -197,13 +197,17 @@
     "liczba": 153
    }
   ],
-  "noweOdPaczki": 38,
+  "noweOdPaczki": 47,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 3
+   },
+   {
+    "rok": 2021,
+    "liczba": 9
    },
    {
     "rok": 2022,
@@ -223,6 +227,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -460,7 +516,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 642,
+  "miejsce": 649,
   "miejsceWMarce": 5,
   "modeliWMarce": 15,
   "sredniRocznik": 1996.8

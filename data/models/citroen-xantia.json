@@ -13,25 +13,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Xantia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 61 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XANTIA, XANTIA 1.8 KAT, XANTIA 1.9 TD, XANTIA 2.0 KAT, XANTIA 1.8KAT).",
-  "liczbaWPolsce": 7516,
-  "aktywne": 351,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Xantia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 80 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XANTIA, XANTIA 1.8 KAT, XANTIA 1.9 TD, XANTIA 2.0 KAT, XANTIA 1.8KAT).",
+  "liczbaWPolsce": 7535,
+  "aktywne": 370,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 881
+    "liczba": 882
    },
    {
     "teryt": "04",
-    "liczba": 374
+    "liczba": 376
    },
    {
     "teryt": "06",
-    "liczba": 718
+    "liczba": 719
    },
    {
     "teryt": "08",
-    "liczba": 363
+    "liczba": 365
    },
    {
     "teryt": "10",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 390
+    "liczba": 392
    },
    {
     "teryt": "14",
-    "liczba": 1013
+    "liczba": 1016
    },
    {
     "teryt": "16",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 448
+    "liczba": 449
    },
    {
     "teryt": "24",
-    "liczba": 552
+    "liczba": 554
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 273
+    "liczba": 274
    },
    {
     "teryt": "30",
-    "liczba": 499
+    "liczba": 501
    },
    {
     "teryt": "32",
-    "liczba": 733
+    "liczba": 735
    }
   ],
   "bezWojewodztwa": 16,
@@ -94,7 +94,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 1314
+    "liczba": 1315
    },
    {
     "rok": 1996,
@@ -102,37 +102,37 @@
    },
    {
     "rok": 1997,
-    "liczba": 887
+    "liczba": 891
    },
    {
     "rok": 1998,
-    "liczba": 606
+    "liczba": 609
    },
    {
     "rok": 1999,
-    "liczba": 659
+    "liczba": 667
    },
    {
     "rok": 2000,
-    "liczba": 450
+    "liczba": 452
    },
    {
     "rok": 2001,
-    "liczba": 105
+    "liczba": 106
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2729
+    "liczba": 2744
    },
    {
     "nazwa": "Diesel",
-    "liczba": 2569
+    "liczba": 2571
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1658
+    "liczba": 1660
    },
    {
     "nazwa": "?+LPG",
@@ -146,11 +146,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 2710
+    "liczba": 2720
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1953
+    "liczba": 1959
    },
    {
     "nazwa": "1,9 l",
@@ -158,7 +158,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 733
+    "liczba": 735
    },
    {
     "nazwa": "2,1 l",
@@ -166,7 +166,7 @@
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 98
+    "liczba": 99
    },
    {
     "nazwa": "Inne / brak danych",
@@ -176,15 +176,15 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4133
+    "liczba": 4139
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3075
+    "liczba": 3087
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 236
+    "liczba": 237
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -198,28 +198,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 4202
+    "liczba": 4216
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1305
+    "liczba": 1306
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1172
+    "liczba": 1176
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 837
    }
   ],
-  "noweOdPaczki": 61,
+  "noweOdPaczki": 80,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 10
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 13
    },
    {
     "rok": 2022,
@@ -243,6 +247,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -480,7 +536,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 355,
+  "miejsce": 369,
   "miejsceWMarce": 12,
   "modeliWMarce": 42,
   "sredniRocznik": 1996.0

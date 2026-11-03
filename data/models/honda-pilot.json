@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda Pilot – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 114 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PILOT).",
-  "liczbaWPolsce": 234,
-  "aktywne": 155,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda Pilot – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 132 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PILOT).",
+  "liczbaWPolsce": 252,
+  "aktywne": 173,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "04",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "08",
@@ -36,19 +36,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "12",
-    "liczba": 34
+    "liczba": 37
    },
    {
     "teryt": "14",
-    "liczba": 58
+    "liczba": 65
    },
    {
     "teryt": "18",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "20",
@@ -68,11 +68,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "30",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "32",
@@ -83,7 +83,7 @@
   "roczniki": [
    {
     "rok": 2002,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2003,
@@ -99,7 +99,7 @@
    },
    {
     "rok": 2006,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2007,
@@ -111,7 +111,7 @@
    },
    {
     "rok": 2009,
-    "liczba": 8
+    "liczba": 11
    },
    {
     "rok": 2010,
@@ -123,11 +123,11 @@
    },
    {
     "rok": 2012,
-    "liczba": 8
+    "liczba": 10
    },
    {
     "rok": 2013,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 2014,
@@ -139,7 +139,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 13
+    "liczba": 16
    },
    {
     "rok": 2017,
@@ -147,15 +147,15 @@
    },
    {
     "rok": 2018,
-    "liczba": 8
-   },
-   {
-    "rok": 2019,
     "liczba": 9
    },
    {
+    "rok": 2019,
+    "liczba": 12
+   },
+   {
     "rok": 2020,
-    "liczba": 6
+    "liczba": 8
    },
    {
     "rok": 2021,
@@ -185,11 +185,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 133
+    "liczba": 146
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 98
+    "liczba": 103
    },
    {
     "nazwa": "Inne / brak danych",
@@ -199,7 +199,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 228
+    "liczba": 246
    },
    {
     "nazwa": "Inne / brak danych",
@@ -209,11 +209,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 162
+    "liczba": 168
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 70
+    "liczba": 82
    },
    {
     "nazwa": "Inne / brak danych",
@@ -223,19 +223,19 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 96
+    "liczba": 105
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 59
+    "liczba": 65
    },
    {
     "nazwa": "Van",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "nazwa": "Hatchback",
@@ -250,13 +250,17 @@
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 114,
+  "noweOdPaczki": 132,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 7
+   },
+   {
     "rok": 2021,
-    "liczba": 12
+    "liczba": 23
    },
    {
     "rok": 2022,
@@ -280,6 +284,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -517,10 +573,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1214,
+  "miejsce": 1205,
   "miejsceWMarce": 21,
   "modeliWMarce": 21,
-  "sredniRocznik": 2011.2
+  "sredniRocznik": 2011.4
  },
  "youtubeId": "",
  "zrodla": [

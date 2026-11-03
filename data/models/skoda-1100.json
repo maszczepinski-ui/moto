@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda 1100 – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100, 1100 MB).",
-  "liczbaWPolsce": 509,
-  "aktywne": 0,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100, 1100 MB).",
+  "liczbaWPolsce": 510,
+  "aktywne": 1,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "16",
@@ -168,7 +168,7 @@
    },
    {
     "rok": 1969,
-    "liczba": 82
+    "liczba": 83
    },
    {
     "rok": 1970,
@@ -258,7 +258,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "nazwa": "?+LPG",
@@ -272,7 +272,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 480
+    "liczba": 481
    },
    {
     "nazwa": "1,0 l",
@@ -294,7 +294,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -308,18 +308,75 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 469
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
+  "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   }
+  ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -557,7 +614,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 947,
+  "miejsce": 965,
   "miejsceWMarce": 23,
   "modeliWMarce": 27,
   "sredniRocznik": 1968.5

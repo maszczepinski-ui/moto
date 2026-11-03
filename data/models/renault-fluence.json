@@ -11,73 +11,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Fluence – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 296 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FLUENCE, FLUENCE Z.E.).",
-  "liczbaWPolsce": 5313,
-  "aktywne": 1750,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Fluence – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 382 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FLUENCE, FLUENCE Z.E.).",
+  "liczbaWPolsce": 5399,
+  "aktywne": 1836,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 436
+    "liczba": 446
    },
    {
     "teryt": "04",
-    "liczba": 252
+    "liczba": 256
    },
    {
     "teryt": "06",
-    "liczba": 299
+    "liczba": 302
    },
    {
     "teryt": "08",
-    "liczba": 87
+    "liczba": 90
    },
    {
     "teryt": "10",
-    "liczba": 323
+    "liczba": 332
    },
    {
     "teryt": "12",
-    "liczba": 367
-   },
-   {
-    "teryt": "14",
-    "liczba": 968
-   },
-   {
-    "teryt": "16",
-    "liczba": 144
-   },
-   {
-    "teryt": "18",
-    "liczba": 176
-   },
-   {
-    "teryt": "20",
-    "liczba": 163
-   },
-   {
-    "teryt": "22",
     "liczba": 371
    },
    {
+    "teryt": "14",
+    "liczba": 976
+   },
+   {
+    "teryt": "16",
+    "liczba": 147
+   },
+   {
+    "teryt": "18",
+    "liczba": 180
+   },
+   {
+    "teryt": "20",
+    "liczba": 165
+   },
+   {
+    "teryt": "22",
+    "liczba": 373
+   },
+   {
     "teryt": "24",
-    "liczba": 855
+    "liczba": 874
    },
    {
     "teryt": "26",
-    "liczba": 111
+    "liczba": 113
    },
    {
     "teryt": "28",
-    "liczba": 174
+    "liczba": 178
    },
    {
     "teryt": "30",
-    "liczba": 416
+    "liczba": 424
    },
    {
     "teryt": "32",
-    "liczba": 161
+    "liczba": 162
    }
   ],
   "bezWojewodztwa": 10,
@@ -88,67 +88,67 @@
    },
    {
     "rok": 2010,
-    "liczba": 1366
+    "liczba": 1400
    },
    {
     "rok": 2011,
-    "liczba": 999
+    "liczba": 1021
    },
    {
     "rok": 2012,
-    "liczba": 704
+    "liczba": 717
    },
    {
     "rok": 2013,
-    "liczba": 498
+    "liczba": 505
    },
    {
     "rok": 2014,
-    "liczba": 605
+    "liczba": 611
    },
    {
     "rok": 2015,
-    "liczba": 608
+    "liczba": 611
    },
    {
     "rok": 2016,
-    "liczba": 283
+    "liczba": 284
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2799
+    "liczba": 2837
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1510
+    "liczba": 1536
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 964
+    "liczba": 983
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 40
+    "liczba": 43
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 3527
+    "liczba": 3562
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1497
+    "liczba": 1524
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 253
+    "liczba": 274
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 36
+    "liczba": 39
    }
   ],
   "pochodzenie": [
@@ -158,11 +158,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2027
+    "liczba": 2060
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 451
+    "liczba": 504
    },
    {
     "nazwa": "Inne / brak danych",
@@ -172,20 +172,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 5231
+    "liczba": 5315
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 82
+    "liczba": 84
    }
   ],
-  "noweOdPaczki": 296,
+  "noweOdPaczki": 382,
   "hybrydy": 0,
-  "elektryczne": 34,
+  "elektryczne": 37,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 33
+   },
+   {
     "rok": 2021,
-    "liczba": 29
+    "liczba": 79
    },
    {
     "rok": 2022,
@@ -209,6 +217,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2021-12",
     "liczba": 4
@@ -446,7 +506,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 419,
+  "miejsce": 422,
   "miejsceWMarce": 20,
   "modeliWMarce": 48,
   "sredniRocznik": 2012.1

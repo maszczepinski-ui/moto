@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 460 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 460, 460 1.8 KAT, 460 1.9 TD, 460 1.7 KAT, 460 1.8KAT).",
-  "liczbaWPolsce": 2677,
-  "aktywne": 52,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 460 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 21 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 460, 460 1.8 KAT, 460 1.9 TD, 460 1.7 KAT, 460 1.8KAT).",
+  "liczbaWPolsce": 2681,
+  "aktywne": 56,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 130
+    "liczba": 131
    },
    {
     "teryt": "06",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 440
+    "liczba": 441
    },
    {
     "teryt": "16",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 243
+    "liczba": 244
    },
    {
     "teryt": "32",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 267
+    "liczba": 268
    },
    {
     "rok": 1993,
@@ -101,11 +101,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 627
+    "liczba": 629
    },
    {
     "rok": 1995,
-    "liczba": 654
+    "liczba": 655
    },
    {
     "rok": 1996,
@@ -119,11 +119,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 988
+    "liczba": 991
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 784
+    "liczba": 785
    },
    {
     "nazwa": "Diesel",
@@ -141,11 +141,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 855
+    "liczba": 857
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 769
+    "liczba": 770
    },
    {
     "nazwa": "1,9 l",
@@ -153,7 +153,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 473
+    "liczba": 474
    },
    {
     "nazwa": "1,6 l",
@@ -167,11 +167,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1457
+    "liczba": 1458
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1078
+    "liczba": 1081
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,7 +189,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2017
+    "liczba": 2021
    },
    {
     "nazwa": "Hatchback",
@@ -200,13 +200,17 @@
     "liczba": 571
    }
   ],
-  "noweOdPaczki": 17,
+  "noweOdPaczki": 21,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 2
+   },
+   {
+    "rok": 2021,
+    "liczba": 4
    },
    {
     "rok": 2022,
@@ -230,6 +234,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -467,7 +523,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 537,
+  "miejsce": 548,
   "miejsceWMarce": 18,
   "modeliWMarce": 34,
   "sredniRocznik": 1993.7

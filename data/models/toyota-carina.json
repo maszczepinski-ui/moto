@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Carina – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 36 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CARINA, CARINA 1.6 KAT, CARINA II 2.0D, CARINA 1.6, CARINA E).",
-  "liczbaWPolsce": 18250,
-  "aktywne": 521,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Carina – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CARINA, CARINA 1.6 KAT, CARINA II 2.0D, CARINA 1.6, CARINA E).",
+  "liczbaWPolsce": 18256,
+  "aktywne": 527,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 1249
+    "liczba": 1250
    },
    {
     "teryt": "08",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 1129
+    "liczba": 1131
    },
    {
     "teryt": "14",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 1081
+    "liczba": 1082
    },
    {
     "teryt": "24",
-    "liczba": 1194
+    "liczba": 1195
    },
    {
     "teryt": "26",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 916
+    "liczba": 917
    }
   ],
   "bezWojewodztwa": 21,
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 40
+    "liczba": 41
    },
    {
     "rok": 1982,
@@ -122,7 +122,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 547
+    "liczba": 548
    },
    {
     "rok": 1990,
@@ -138,15 +138,15 @@
    },
    {
     "rok": 1993,
-    "liczba": 1392
+    "liczba": 1394
    },
    {
     "rok": 1994,
-    "liczba": 2114
+    "liczba": 2115
    },
    {
     "rok": 1995,
-    "liczba": 2440
+    "liczba": 2441
    },
    {
     "rok": 1996,
@@ -164,7 +164,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6476
+    "liczba": 6480
    },
    {
     "nazwa": "Diesel",
@@ -172,7 +172,7 @@
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 4347
+    "liczba": 4349
    },
    {
     "nazwa": "?+LPG",
@@ -186,15 +186,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 9034
+    "liczba": 9035
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 7972
+    "liczba": 7975
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1076
+    "liczba": 1078
    },
    {
     "nazwa": "Inne / brak danych",
@@ -204,11 +204,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 13745
+    "liczba": 13746
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2248
+    "liczba": 2253
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -226,11 +226,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 7519
+    "liczba": 7521
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 3937
+    "liczba": 3941
    },
    {
     "nazwa": "Kombi",
@@ -241,13 +241,17 @@
     "liczba": 5416
    }
   ],
-  "noweOdPaczki": 36,
+  "noweOdPaczki": 42,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -271,6 +275,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -508,7 +564,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 216,
+  "miejsce": 226,
   "miejsceWMarce": 14,
   "modeliWMarce": 43,
   "sredniRocznik": 1993.1

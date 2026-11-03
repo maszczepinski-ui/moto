@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Leon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 071 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA LEON SP, CUPRA LEON, CUPRA LEON SP E-HYBRID150, CUPRA LEON SP E-HYBRID180, CUPRA LEON E-HYBRID180).",
-  "liczbaWPolsce": 8071,
-  "aktywne": 8071,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Leon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 097 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA LEON SP, CUPRA LEON, CUPRA LEON SP E-HYBRID150, CUPRA LEON SP E-HYBRID180, CUPRA LEON E-HYBRID180).",
+  "liczbaWPolsce": 8097,
+  "aktywne": 8097,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 555
+    "liczba": 559
    },
    {
     "teryt": "04",
@@ -25,23 +25,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 82
+    "liczba": 83
    },
    {
     "teryt": "08",
-    "liczba": 183
+    "liczba": 184
    },
    {
     "teryt": "10",
-    "liczba": 517
+    "liczba": 519
    },
    {
     "teryt": "12",
-    "liczba": 979
+    "liczba": 982
    },
    {
     "teryt": "14",
-    "liczba": 1871
+    "liczba": 1878
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 1251
+    "liczba": 1256
    },
    {
     "teryt": "26",
@@ -73,18 +73,18 @@
    },
    {
     "teryt": "30",
-    "liczba": 771
+    "liczba": 773
    },
    {
     "teryt": "32",
-    "liczba": 281
+    "liczba": 282
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 91
+    "liczba": 117
    },
    {
     "rok": 2022,
@@ -110,11 +110,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5640
+    "liczba": 5664
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1970
+    "liczba": 1971
    },
    {
     "nazwa": "Diesel",
@@ -122,7 +122,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "pojemnosci": [
@@ -132,21 +132,21 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 3154
+    "liczba": 3179
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 124
+    "liczba": 125
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6545
+    "liczba": 6551
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1144
+    "liczba": 1164
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -164,20 +164,20 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 8056
+    "liczba": 8082
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 15
    }
   ],
-  "noweOdPaczki": 8071,
-  "hybrydy": 1969,
+  "noweOdPaczki": 8097,
+  "hybrydy": 1970,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
-    "liczba": 40
+    "liczba": 66
    },
    {
     "rok": 2022,
@@ -201,6 +201,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -438,7 +490,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 345,
+  "miejsce": 355,
   "miejsceWMarce": 2,
   "modeliWMarce": 6,
   "sredniRocznik": 2024.4
@@ -464,14 +516,14 @@
    "adres": "/marki/volkswagen/t-roc/"
   },
   {
-   "slug": "skoda-karoq",
-   "nazwa": "Skoda Karoq",
-   "adres": "/marki/skoda/karoq/"
-  },
-  {
    "slug": "baic-x55",
    "nazwa": "BAIC X55",
    "adres": "/marki/baic/x55/"
+  },
+  {
+   "slug": "skoda-karoq",
+   "nazwa": "Skoda Karoq",
+   "adres": "/marki/skoda/karoq/"
   },
   {
    "slug": "baic-beijing-3",

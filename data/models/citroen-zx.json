@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen ZX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZX, ZX 1.4 KAT, ZX 1.4, ZX 1.9D, ZX 1.6 KAT).",
-  "liczbaWPolsce": 9504,
-  "aktywne": 161,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen ZX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZX, ZX 1.4 KAT, ZX 1.4, ZX 1.9D, ZX 1.6 KAT).",
+  "liczbaWPolsce": 9508,
+  "aktywne": 165,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 396
+    "liczba": 397
    },
    {
     "teryt": "08",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 564
+    "liczba": 565
    },
    {
     "teryt": "12",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 667
+    "liczba": 668
    },
    {
     "teryt": "24",
@@ -67,7 +67,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 161
+    "liczba": 162
    },
    {
     "teryt": "28",
@@ -94,7 +94,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 2100
+    "liczba": 2101
    },
    {
     "rok": 1994,
@@ -102,11 +102,11 @@
    },
    {
     "rok": 1995,
-    "liczba": 1376
+    "liczba": 1377
    },
    {
     "rok": 1996,
-    "liczba": 1300
+    "liczba": 1302
    },
    {
     "rok": 1997,
@@ -116,7 +116,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4619
+    "liczba": 4620
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -124,7 +124,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1772
+    "liczba": 1775
    },
    {
     "nazwa": "?+LPG",
@@ -142,7 +142,7 @@
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 2094
+    "liczba": 2097
    },
    {
     "nazwa": "1,6 l",
@@ -158,17 +158,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 92
+    "liczba": 93
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5667
+    "liczba": 5668
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3141
+    "liczba": 3144
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -186,7 +186,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6045
+    "liczba": 6048
    },
    {
     "nazwa": "Sedan",
@@ -194,20 +194,24 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 548
+    "liczba": 549
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2082
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 23,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2022,
@@ -231,6 +235,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -468,7 +524,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 322,
+  "miejsce": 328,
   "miejsceWMarce": 10,
   "modeliWMarce": 42,
   "sredniRocznik": 1993.9

@@ -12,45 +12,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Nubira – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 280 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NUBIRA).",
-  "liczbaWPolsce": 1841,
-  "aktywne": 1051,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Nubira – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 351 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NUBIRA).",
+  "liczbaWPolsce": 1912,
+  "aktywne": 1122,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 144
+    "liczba": 149
    },
    {
     "teryt": "04",
-    "liczba": 88
+    "liczba": 93
    },
    {
     "teryt": "06",
-    "liczba": 119
+    "liczba": 127
    },
    {
     "teryt": "08",
-    "liczba": 61
+    "liczba": 63
    },
    {
     "teryt": "10",
-    "liczba": 204
+    "liczba": 211
    },
    {
     "teryt": "12",
-    "liczba": 119
+    "liczba": 125
    },
    {
     "teryt": "14",
-    "liczba": 256
+    "liczba": 264
    },
    {
     "teryt": "16",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "teryt": "18",
-    "liczba": 82
+    "liczba": 86
    },
    {
     "teryt": "20",
@@ -58,15 +58,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 80
+    "liczba": 83
    },
    {
     "teryt": "24",
-    "liczba": 223
+    "liczba": 228
    },
    {
     "teryt": "26",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "teryt": "28",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 160
+    "liczba": 164
    },
    {
     "teryt": "32",
-    "liczba": 117
+    "liczba": 127
    }
   ],
   "bezWojewodztwa": 43,
@@ -89,49 +89,49 @@
    },
    {
     "rok": 2004,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 2005,
-    "liczba": 312
+    "liczba": 325
    },
    {
     "rok": 2006,
-    "liczba": 551
+    "liczba": 559
    },
    {
     "rok": 2007,
-    "liczba": 464
+    "liczba": 493
    },
    {
     "rok": 2008,
-    "liczba": 228
+    "liczba": 242
    },
    {
     "rok": 2009,
-    "liczba": 86
+    "liczba": 89
    },
    {
     "rok": 2010,
-    "liczba": 85
+    "liczba": 87
    },
    {
     "rok": 2011,
-    "liczba": 6
+    "liczba": 7
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1006
+    "liczba": 1031
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 548
+    "liczba": 567
    },
    {
     "nazwa": "Diesel",
-    "liczba": 273
+    "liczba": 300
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,15 +141,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 805
+    "liczba": 827
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 742
+    "liczba": 764
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 276
+    "liczba": 303
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,42 +159,50 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1494
+    "liczba": 1543
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 297
+    "liczba": 318
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 50
+    "liczba": 51
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1628
+    "liczba": 1689
    },
    {
     "nazwa": "Sedan",
-    "liczba": 134
+    "liczba": 143
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 49
    }
   ],
-  "noweOdPaczki": 280,
+  "noweOdPaczki": 351,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 28
+   },
+   {
     "rok": 2021,
-    "liczba": 24
+    "liczba": 66
    },
    {
     "rok": 2022,
@@ -218,6 +226,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -455,9 +515,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 626,
+  "miejsce": 630,
   "miejsceWMarce": 12,
-  "modeliWMarce": 23,
+  "modeliWMarce": 24,
   "sredniRocznik": 2006.6
  },
  "youtubeId": "",
@@ -481,9 +541,9 @@
    "adres": "/marki/ford/focus/"
   },
   {
-   "slug": "volvo-v40",
-   "nazwa": "Volvo V40",
-   "adres": "/marki/volvo/v40/"
+   "slug": "ford-mondeo",
+   "nazwa": "Ford Mondeo",
+   "adres": "/marki/ford/mondeo/"
   },
   {
    "slug": "suzuki-grand-vitara",
@@ -491,9 +551,9 @@
    "adres": "/marki/suzuki/grand-vitara/"
   },
   {
-   "slug": "ford-mondeo",
-   "nazwa": "Ford Mondeo",
-   "adres": "/marki/ford/mondeo/"
+   "slug": "audi-a4",
+   "nazwa": "Audi A4",
+   "adres": "/marki/audi/a4/"
   }
  ]
 }

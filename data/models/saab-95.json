@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Saab 95 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 95).",
-  "liczbaWPolsce": 537,
-  "aktywne": 148,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Saab 95 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 29 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 95).",
+  "liczbaWPolsce": 548,
+  "aktywne": 159,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "08",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 112
+    "liczba": 116
    },
    {
     "teryt": "16",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 40
+    "liczba": 44
    },
    {
     "teryt": "24",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "32",
@@ -122,7 +122,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1976,
@@ -214,7 +214,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 62
+    "liczba": 63
    },
    {
     "rok": 1999,
@@ -222,7 +222,7 @@
    },
    {
     "rok": 2000,
-    "liczba": 55
+    "liczba": 56
    },
    {
     "rok": 2001,
@@ -230,7 +230,7 @@
    },
    {
     "rok": 2002,
-    "liczba": 71
+    "liczba": 72
    },
    {
     "rok": 2003,
@@ -242,11 +242,11 @@
    },
    {
     "rok": 2005,
-    "liczba": 26
+    "liczba": 28
    },
    {
     "rok": 2006,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 2007,
@@ -254,7 +254,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2009,
@@ -262,25 +262,25 @@
    },
    {
     "rok": 2010,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2011,
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "paliwa": [
+   {
+    "nazwa": "Benzyna",
+    "liczba": 185
+   },
    {
     "nazwa": "Diesel",
     "liczba": 182
    },
    {
-    "nazwa": "Benzyna",
-    "liczba": 177
-   },
-   {
     "nazwa": "Benzyna + LPG",
-    "liczba": 170
+    "liczba": 173
    },
    {
     "nazwa": "Inne / brak danych",
@@ -290,11 +290,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 174
+    "liczba": 181
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 157
+    "liczba": 160
    },
    {
     "nazwa": "3,0 l",
@@ -310,17 +310,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 278
+    "liczba": 280
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 252
+    "liczba": 261
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -334,11 +334,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 270
+    "liczba": 277
    },
    {
     "nazwa": "Sedan",
-    "liczba": 230
+    "liczba": 234
    },
    {
     "nazwa": "Hatchback",
@@ -349,13 +349,17 @@
     "liczba": 16
    }
   ],
-  "noweOdPaczki": 18,
+  "noweOdPaczki": 29,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 6
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -379,6 +383,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -616,7 +672,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 933,
+  "miejsce": 936,
   "miejsceWMarce": 6,
   "modeliWMarce": 6,
   "sredniRocznik": 2001.2
@@ -647,9 +703,9 @@
    "adres": "/marki/ford/focus/i/"
   },
   {
-   "slug": "volkswagen-passat",
-   "nazwa": "Volkswagen Passat",
-   "adres": "/marki/volkswagen/passat/"
+   "slug": "mazda-tribute",
+   "nazwa": "Mazda Tribute",
+   "adres": "/marki/mazda/tribute/"
   },
   {
    "slug": "land-rover-freelander",

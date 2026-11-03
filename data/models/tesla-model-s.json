@@ -12,108 +12,108 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model S – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 918 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL S, MODEL S 85, MODEL S 90D, MODEL S 75D, MODEL S 85 D P).",
-  "liczbaWPolsce": 1918,
-  "aktywne": 1918,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model S – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 041 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL S, MODEL S 85, MODEL S 90D, MODEL S 75D, MODEL S 85 D P).",
+  "liczbaWPolsce": 2041,
+  "aktywne": 2041,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 100
+    "liczba": 105
    },
    {
     "teryt": "04",
-    "liczba": 56
-   },
-   {
-    "teryt": "06",
-    "liczba": 135
-   },
-   {
-    "teryt": "08",
-    "liczba": 19
-   },
-   {
-    "teryt": "10",
     "liczba": 64
    },
    {
+    "teryt": "06",
+    "liczba": 145
+   },
+   {
+    "teryt": "08",
+    "liczba": 20
+   },
+   {
+    "teryt": "10",
+    "liczba": 72
+   },
+   {
     "teryt": "12",
-    "liczba": 248
+    "liczba": 258
    },
    {
     "teryt": "14",
-    "liczba": 517
+    "liczba": 540
    },
    {
     "teryt": "16",
-    "liczba": 21
+    "liczba": 25
    },
    {
     "teryt": "18",
-    "liczba": 91
+    "liczba": 95
    },
    {
     "teryt": "20",
-    "liczba": 69
+    "liczba": 74
    },
    {
     "teryt": "22",
-    "liczba": 107
+    "liczba": 110
    },
    {
     "teryt": "24",
-    "liczba": 189
+    "liczba": 208
    },
    {
     "teryt": "26",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "28",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "teryt": "30",
-    "liczba": 199
+    "liczba": 214
    },
    {
     "teryt": "32",
-    "liczba": 61
+    "liczba": 64
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 106
+    "liczba": 110
    },
    {
     "rok": 2014,
-    "liczba": 207
+    "liczba": 221
    },
    {
     "rok": 2015,
-    "liczba": 273
+    "liczba": 304
    },
    {
     "rok": 2016,
-    "liczba": 273
+    "liczba": 303
    },
    {
     "rok": 2017,
-    "liczba": 264
+    "liczba": 280
    },
    {
     "rok": 2018,
-    "liczba": 244
+    "liczba": 255
    },
    {
     "rok": 2019,
-    "liczba": 85
+    "liczba": 93
    },
    {
     "rok": 2020,
-    "liczba": 78
+    "liczba": 87
    },
    {
     "rok": 2021,
@@ -143,23 +143,23 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1918
+    "liczba": 2041
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1918
+    "liczba": 2041
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1149
+    "liczba": 1206
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 592
+    "liczba": 656
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -167,38 +167,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1380
+    "liczba": 1468
    },
    {
     "nazwa": "Sedan",
-    "liczba": 425
+    "liczba": 452
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "nazwa": "Coupe",
-    "liczba": 42
+    "liczba": 47
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 22
+    "liczba": 24
    }
   ],
-  "noweOdPaczki": 1918,
+  "noweOdPaczki": 2041,
   "hybrydy": 0,
-  "elektryczne": 1918,
+  "elektryczne": 2041,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
+    "rok": 2020,
+    "liczba": 62
+   },
+   {
     "rok": 2021,
-    "liczba": 65
+    "liczba": 122
    },
    {
     "rok": 2022,
@@ -222,6 +230,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 14
+   },
    {
     "miesiac": "2021-12",
     "liczba": 10
@@ -459,10 +519,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 617,
+  "miejsce": 611,
   "miejsceWMarce": 3,
   "modeliWMarce": 4,
-  "sredniRocznik": 2017.5
+  "sredniRocznik": 2017.4
  },
  "youtubeId": "",
  "zrodla": [

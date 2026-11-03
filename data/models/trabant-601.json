@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Trabant 601 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 601, 601S, 601 KOMBI, 601 S, 601 /HYCOMAT/).",
-  "liczbaWPolsce": 81816,
-  "aktywne": 358,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Trabant 601 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 51 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 601, 601S, 601 KOMBI, 601 S, 601 /HYCOMAT/).",
+  "liczbaWPolsce": 81823,
+  "aktywne": 365,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5700
+    "liczba": 5701
    },
    {
     "teryt": "04",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 3839
+    "liczba": 3840
    },
    {
     "teryt": "10",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 12647
+    "liczba": 12648
    },
    {
     "teryt": "16",
-    "liczba": 2142
+    "liczba": 2143
    },
    {
     "teryt": "18",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 9342
+    "liczba": 9343
    },
    {
     "teryt": "26",
@@ -77,7 +77,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 4706
+    "liczba": 4708
    }
   ],
   "bezWojewodztwa": 806,
@@ -132,7 +132,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 3540
+    "liczba": 3541
    },
    {
     "rok": 1976,
@@ -148,7 +148,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 1522
+    "liczba": 1523
    },
    {
     "rok": 1980,
@@ -180,7 +180,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 3188
+    "liczba": 3191
    },
    {
     "rok": 1988,
@@ -188,17 +188,17 @@
    },
    {
     "rok": 1989,
-    "liczba": 2609
+    "liczba": 2610
    },
    {
     "rok": 1990,
-    "liczba": 2281
+    "liczba": 2282
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 11433
+    "liczba": 11439
    },
    {
     "nazwa": "?+LPG",
@@ -206,13 +206,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 68942
+    "liczba": 68943
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 79447
+    "liczba": 79454
    },
    {
     "nazwa": "Inne / brak danych",
@@ -222,7 +222,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 56436
+    "liczba": 56438
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -234,30 +234,34 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 902
+    "liczba": 906
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4040
+    "liczba": 4041
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 9181
+    "liczba": 9185
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 72635
+    "liczba": 72638
    }
   ],
-  "noweOdPaczki": 44,
+  "noweOdPaczki": 51,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -281,6 +285,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -518,7 +574,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 61,
+  "miejsce": 65,
   "miejsceWMarce": 1,
   "modeliWMarce": 8,
   "sredniRocznik": 1977.6

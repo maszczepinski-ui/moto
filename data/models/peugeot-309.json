@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 309 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 24 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 309, 309 1.9D, 309 1.4 KAT, 309 1.4, 309 1.6).",
-  "liczbaWPolsce": 8347,
-  "aktywne": 56,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 309 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 309, 309 1.9D, 309 1.4 KAT, 309 1.4, 309 1.6).",
+  "liczbaWPolsce": 8350,
+  "aktywne": 59,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 558
+    "liczba": 559
    },
    {
     "teryt": "06",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 455
+    "liczba": 456
    },
    {
     "teryt": "14",
-    "liczba": 767
+    "liczba": 768
    },
    {
     "teryt": "16",
@@ -105,11 +105,11 @@
    },
    {
     "rok": 1990,
-    "liczba": 699
+    "liczba": 700
    },
    {
     "rok": 1991,
-    "liczba": 1710
+    "liczba": 1711
    },
    {
     "rok": 1992,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 559
+    "liczba": 560
    },
    {
     "rok": 1994,
@@ -139,7 +139,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3140
+    "liczba": 3143
    },
    {
     "nazwa": "Diesel",
@@ -161,15 +161,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 2473
+    "liczba": 2474
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 2213
+    "liczba": 2214
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 1247
+    "liczba": 1248
    },
    {
     "nazwa": "1,6 l",
@@ -191,11 +191,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5721
+    "liczba": 5722
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1643
+    "liczba": 1645
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -213,24 +213,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3505
+    "liczba": 3507
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1256
+    "liczba": 1257
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3586
    }
   ],
-  "noweOdPaczki": 24,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -254,6 +258,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -491,7 +547,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 342,
+  "miejsce": 349,
   "miejsceWMarce": 18,
   "modeliWMarce": 45,
   "sredniRocznik": 1991.4

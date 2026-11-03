@@ -15,9 +15,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Monterey – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MONTEREY, MONTEREY 3.1 TD, MONTEREY 3.2 KAT, MONTEREY 3,1 TD, MONTEREY 3.1 D).",
-  "liczbaWPolsce": 1286,
-  "aktywne": 173,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Monterey – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 61 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MONTEREY, MONTEREY 3.1 TD, MONTEREY 3.2 KAT, MONTEREY 3,1 TD, MONTEREY 3.1 D).",
+  "liczbaWPolsce": 1305,
+  "aktywne": 192,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,27 +33,27 @@
    },
    {
     "teryt": "08",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "10",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "12",
-    "liczba": 81
+    "liczba": 83
    },
    {
     "teryt": "14",
-    "liczba": 155
+    "liczba": 159
    },
    {
     "teryt": "16",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "18",
-    "liczba": 95
+    "liczba": 96
    },
    {
     "teryt": "20",
@@ -65,11 +65,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 101
+    "liczba": 106
    },
    {
     "teryt": "26",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "teryt": "28",
@@ -77,7 +77,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 105
+    "liczba": 107
    },
    {
     "teryt": "32",
@@ -92,49 +92,49 @@
    },
    {
     "rok": 1993,
-    "liczba": 344
+    "liczba": 348
    },
    {
     "rok": 1994,
-    "liczba": 186
+    "liczba": 188
    },
    {
     "rok": 1995,
-    "liczba": 162
+    "liczba": 164
    },
    {
     "rok": 1996,
-    "liczba": 119
+    "liczba": 123
    },
    {
     "rok": 1997,
-    "liczba": 83
+    "liczba": 84
    },
    {
     "rok": 1998,
-    "liczba": 94
+    "liczba": 98
    },
    {
     "rok": 1999,
-    "liczba": 57
+    "liczba": 58
    },
    {
     "rok": 2000,
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 955
+    "liczba": 958
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 196
+    "liczba": 199
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 93
+    "liczba": 106
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,19 +144,19 @@
   "pojemnosci": [
    {
     "nazwa": "3,1 l",
-    "liczba": 872
+    "liczba": 874
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 283
+    "liczba": 294
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 105
+    "liczba": 106
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 19
+    "liczba": 24
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,11 +166,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 827
+    "liczba": 831
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 432
+    "liczba": 447
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -184,15 +184,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 618
+    "liczba": 621
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 119
+    "liczba": 124
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 92
+    "liczba": 102
    },
    {
     "nazwa": "Van",
@@ -204,20 +204,24 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 72
+    "liczba": 73
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 204
    }
   ],
-  "noweOdPaczki": 42,
+  "noweOdPaczki": 61,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 7
+   },
+   {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 13
    },
    {
     "rok": 2022,
@@ -241,6 +245,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -478,10 +534,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 713,
+  "miejsce": 724,
   "miejsceWMarce": 27,
   "modeliWMarce": 33,
-  "sredniRocznik": 1994.4
+  "sredniRocznik": 1994.5
  },
  "youtubeId": "",
  "zrodla": [

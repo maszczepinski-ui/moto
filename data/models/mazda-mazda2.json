@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 330 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA2 HYBRID, MAZDA2).",
-  "liczbaWPolsce": 1789,
-  "aktywne": 1778,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 338 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA2 HYBRID, MAZDA2).",
+  "liczbaWPolsce": 1797,
+  "aktywne": 1786,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 77
+    "liczba": 81
    },
    {
     "teryt": "06",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 69
+    "liczba": 70
    },
    {
     "teryt": "12",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 444
+    "liczba": 445
    },
    {
     "teryt": "16",
@@ -53,7 +53,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "22",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 162
+    "liczba": 163
    },
    {
     "teryt": "32",
@@ -96,11 +96,11 @@
    },
    {
     "rok": 2018,
-    "liczba": 267
+    "liczba": 270
    },
    {
     "rok": 2019,
-    "liczba": 148
+    "liczba": 153
    },
    {
     "rok": 2020,
@@ -138,7 +138,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 598
+    "liczba": 606
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,7 +148,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1780
+    "liczba": 1788
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,15 +158,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1192
+    "liczba": 1194
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 432
+    "liczba": 433
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 155
+    "liczba": 160
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -180,20 +180,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1786
+    "liczba": 1794
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 1330,
+  "noweOdPaczki": 1338,
   "hybrydy": 1185,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 9
    },
    {
     "rok": 2022,
@@ -217,6 +225,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -454,9 +514,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 639,
+  "miejsce": 647,
   "miejsceWMarce": 20,
-  "modeliWMarce": 32,
+  "modeliWMarce": 33,
   "sredniRocznik": 2021.6
  },
  "youtubeId": "",
@@ -485,14 +545,14 @@
    "adres": "/marki/renault/arkana/"
   },
   {
-   "slug": "mg-hs",
-   "nazwa": "MG HS",
-   "adres": "/marki/mg/hs/"
-  },
-  {
    "slug": "toyota-gr-yaris",
    "nazwa": "Toyota GR-Yaris",
    "adres": "/marki/toyota/gr-yaris/"
+  },
+  {
+   "slug": "mg-hs",
+   "nazwa": "MG HS",
+   "adres": "/marki/mg/hs/"
   }
  ]
 }

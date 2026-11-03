@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Sephia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEPHIA, SEPHIA 1.6 KAT, SEPHIA 1.5 KAT, SEPHIA 1.6KAT, SEPHIA 1.5).",
-  "liczbaWPolsce": 1978,
-  "aktywne": 71,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Sephia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEPHIA, SEPHIA 1.6 KAT, SEPHIA 1.5 KAT, SEPHIA 1.6KAT, SEPHIA 1.5).",
+  "liczbaWPolsce": 1980,
+  "aktywne": 73,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 127
+    "liczba": 128
    },
    {
     "teryt": "26",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 255
+    "liczba": 256
    }
   ],
   "bezWojewodztwa": 2,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 186
+    "liczba": 187
    },
    {
     "rok": 1998,
@@ -118,16 +118,24 @@
    {
     "rok": 2001,
     "liczba": 15
+   },
+   {
+    "rok": 2002,
+    "liczba": 1
+   },
+   {
+    "rok": 2003,
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1290
+    "liczba": 1291
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 523
+    "liczba": 524
    },
    {
     "nazwa": "?+LPG",
@@ -145,11 +153,11 @@
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 926
+    "liczba": 927
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,11 +167,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1002
+    "liczba": 1003
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 680
+    "liczba": 681
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -185,17 +193,25 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 293
+    "liczba": 295
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 308
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 3
@@ -214,6 +230,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -451,7 +519,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 607,
+  "miejsce": 622,
   "miejsceWMarce": 20,
   "modeliWMarce": 33,
   "sredniRocznik": 1996.5
@@ -487,9 +555,9 @@
    "adres": "/marki/hyundai/lantra/"
   },
   {
-   "slug": "volkswagen-jetta",
-   "nazwa": "Volkswagen Jetta",
-   "adres": "/marki/volkswagen/jetta/"
+   "slug": "fiat-siena",
+   "nazwa": "Fiat Siena",
+   "adres": "/marki/fiat/siena/"
   }
  ]
 }

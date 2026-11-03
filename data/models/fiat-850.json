@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 850 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 850, 850 SPORT, 850 SPIDER).",
-  "liczbaWPolsce": 1806,
-  "aktywne": 50,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 850 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 41 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 850, 850 SPORT, 850 SPIDER).",
+  "liczbaWPolsce": 1813,
+  "aktywne": 57,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 300
+    "liczba": 301
    },
    {
     "teryt": "14",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "20",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 275
+    "liczba": 280
    },
    {
     "teryt": "26",
@@ -100,7 +100,7 @@
    },
    {
     "rok": 1968,
-    "liczba": 234
+    "liczba": 235
    },
    {
     "rok": 1969,
@@ -108,15 +108,15 @@
    },
    {
     "rok": 1970,
-    "liczba": 255
+    "liczba": 256
    },
    {
     "rok": 1971,
-    "liczba": 151
+    "liczba": 153
    },
    {
     "rok": 1972,
-    "liczba": 73
+    "liczba": 76
    },
    {
     "rok": 1973,
@@ -170,7 +170,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 250
+    "liczba": 257
    },
    {
     "nazwa": "Inne / brak danych",
@@ -184,7 +184,7 @@
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 328
+    "liczba": 335
    },
    {
     "nazwa": "Inne / brak danych",
@@ -194,7 +194,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1097
+    "liczba": 1098
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -202,7 +202,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 91
+    "liczba": 97
    },
    {
     "nazwa": "Inne / brak danych",
@@ -216,11 +216,11 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 41
+    "liczba": 45
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 22
+    "liczba": 25
    },
    {
     "nazwa": "Hatchback",
@@ -231,13 +231,17 @@
     "liczba": 1571
    }
   ],
-  "noweOdPaczki": 34,
+  "noweOdPaczki": 41,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 4
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -261,6 +265,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -498,9 +554,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 634,
+  "miejsce": 643,
   "miejsceWMarce": 37,
-  "modeliWMarce": 60,
+  "modeliWMarce": 61,
   "sredniRocznik": 1969.8
  },
  "youtubeId": "",

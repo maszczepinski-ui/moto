@@ -14,122 +14,122 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 942 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-7, CX7).",
-  "liczbaWPolsce": 3577,
-  "aktywne": 2240,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 340 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-7, CX7, CX-7 2.2 D).",
+  "liczbaWPolsce": 3975,
+  "aktywne": 2638,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 302
+    "liczba": 353
    },
    {
     "teryt": "04",
-    "liczba": 139
+    "liczba": 161
    },
    {
     "teryt": "06",
-    "liczba": 256
+    "liczba": 282
    },
    {
     "teryt": "08",
-    "liczba": 121
+    "liczba": 133
    },
    {
     "teryt": "10",
-    "liczba": 249
+    "liczba": 270
    },
    {
     "teryt": "12",
-    "liczba": 318
+    "liczba": 355
    },
    {
     "teryt": "14",
-    "liczba": 550
+    "liczba": 593
    },
    {
     "teryt": "16",
-    "liczba": 83
+    "liczba": 106
    },
    {
     "teryt": "18",
-    "liczba": 249
+    "liczba": 269
    },
    {
     "teryt": "20",
-    "liczba": 141
+    "liczba": 159
    },
    {
     "teryt": "22",
-    "liczba": 184
+    "liczba": 205
    },
    {
     "teryt": "24",
-    "liczba": 351
+    "liczba": 380
    },
    {
     "teryt": "26",
-    "liczba": 111
+    "liczba": 128
    },
    {
     "teryt": "28",
-    "liczba": 121
+    "liczba": 130
    },
    {
     "teryt": "30",
-    "liczba": 248
+    "liczba": 278
    },
    {
     "teryt": "32",
-    "liczba": 138
+    "liczba": 157
    }
   ],
   "bezWojewodztwa": 16,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 94
+    "liczba": 96
    },
    {
     "rok": 2007,
-    "liczba": 656
+    "liczba": 729
    },
    {
     "rok": 2008,
-    "liczba": 725
+    "liczba": 787
    },
    {
     "rok": 2009,
-    "liczba": 446
+    "liczba": 499
    },
    {
     "rok": 2010,
-    "liczba": 819
+    "liczba": 921
    },
    {
     "rok": 2011,
-    "liczba": 585
+    "liczba": 667
    },
    {
     "rok": 2012,
-    "liczba": 128
+    "liczba": 149
    },
    {
     "rok": 2013,
-    "liczba": 27
+    "liczba": 30
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1713
+    "liczba": 1944
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1260
+    "liczba": 1366
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 599
+    "liczba": 660
    },
    {
     "nazwa": "Inne / brak danych",
@@ -139,15 +139,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 1792
+    "liczba": 1953
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 1711
+    "liczba": 1943
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 59
+    "liczba": 64
    },
    {
     "nazwa": "Inne / brak danych",
@@ -157,11 +157,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1788
+    "liczba": 1983
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1596
+    "liczba": 1799
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -175,36 +175,44 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2503
+    "liczba": 2797
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 329
+    "liczba": 364
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 264
+    "liczba": 289
    },
    {
     "nazwa": "Van",
-    "liczba": 259
+    "liczba": 274
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 125
+    "liczba": 147
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 97
+    "liczba": 104
    }
   ],
-  "noweOdPaczki": 942,
+  "noweOdPaczki": 1340,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 8
+   },
+   {
+    "rok": 2020,
+    "liczba": 197
+   },
+   {
     "rok": 2021,
-    "liczba": 128
+    "liczba": 321
    },
    {
     "rok": 2022,
@@ -228,6 +236,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 15
+   },
    {
     "miesiac": "2021-12",
     "liczba": 23
@@ -465,10 +525,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 489,
+  "miejsce": 482,
   "miejsceWMarce": 13,
-  "modeliWMarce": 32,
-  "sredniRocznik": 2009.0
+  "modeliWMarce": 33,
+  "sredniRocznik": 2009.1
  },
  "youtubeId": "",
  "zrodla": [

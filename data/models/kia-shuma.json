@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Shuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SHUMA, SHUMA 1.5 KAT, SHUMA II, SHUMA 1.5, SHUMA 1,5).",
-  "liczbaWPolsce": 1621,
-  "aktywne": 197,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Shuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SHUMA, SHUMA 1.5 KAT, SHUMA II, SHUMA 1.5, SHUMA 1,5).",
+  "liczbaWPolsce": 1630,
+  "aktywne": 206,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 159
+    "liczba": 162
    },
    {
     "teryt": "04",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 195
+    "liczba": 196
    },
    {
     "teryt": "12",
@@ -54,7 +54,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "teryt": "22",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 48
+    "liczba": 50
    },
    {
     "teryt": "30",
-    "liczba": 136
+    "liczba": 137
    },
    {
     "teryt": "32",
-    "liczba": 135
+    "liczba": 136
    }
   ],
   "bezWojewodztwa": 1,
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 556
+    "liczba": 557
    },
    {
     "rok": 2000,
@@ -97,15 +97,15 @@
    },
    {
     "rok": 2001,
-    "liczba": 124
+    "liczba": 127
    },
    {
     "rok": 2002,
-    "liczba": 109
+    "liczba": 111
    },
    {
     "rok": 2003,
-    "liczba": 157
+    "liczba": 160
    },
    {
     "rok": 2004,
@@ -115,11 +115,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 979
+    "liczba": 987
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 567
+    "liczba": 568
    },
    {
     "nazwa": "Inne / brak danych",
@@ -133,11 +133,11 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 312
+    "liczba": 318
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 184
+    "liczba": 187
    },
    {
     "nazwa": "Inne / brak danych",
@@ -147,11 +147,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 867
+    "liczba": 870
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 406
+    "liczba": 412
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -169,21 +169,33 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 980
+    "liczba": 987
    },
    {
     "nazwa": "Sedan",
-    "liczba": 443
+    "liczba": 445
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 198
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 19,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 4
+   },
+   {
+    "rok": 2021,
+    "liczba": 4
+   },
    {
     "rok": 2022,
     "liczba": 3
@@ -206,6 +218,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -443,7 +507,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 659,
+  "miejsce": 668,
   "miejsceWMarce": 21,
   "modeliWMarce": 33,
   "sredniRocznik": 1999.9

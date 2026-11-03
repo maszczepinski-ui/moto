@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 929 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 28 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 929, 929 3.0 KAT, 929 2.2).",
-  "liczbaWPolsce": 833,
-  "aktywne": 36,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 929 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 929, 929 3.0 KAT, 929 2.2).",
+  "liczbaWPolsce": 836,
+  "aktywne": 39,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -43,11 +43,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 123
+    "liczba": 124
    },
    {
     "teryt": "16",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "18",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "24",
@@ -114,7 +114,7 @@
    },
    {
     "rok": 1983,
-    "liczba": 85
+    "liczba": 86
    },
    {
     "rok": 1984,
@@ -122,7 +122,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 81
+    "liczba": 82
    },
    {
     "rok": 1986,
@@ -134,7 +134,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 1989,
@@ -176,7 +176,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 205
+    "liczba": 208
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -194,7 +194,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 411
+    "liczba": 413
    },
    {
     "nazwa": "1,8 l",
@@ -210,7 +210,7 @@
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "1,6 l",
@@ -224,7 +224,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 591
+    "liczba": 592
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -232,7 +232,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 73
+    "liczba": 75
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -246,28 +246,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 215
+    "liczba": 216
    },
    {
     "nazwa": "Coupe",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 550
    }
   ],
-  "noweOdPaczki": 28,
+  "noweOdPaczki": 31,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -291,6 +295,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -528,9 +584,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 816,
+  "miejsce": 825,
   "miejsceWMarce": 27,
-  "modeliWMarce": 32,
+  "modeliWMarce": 33,
   "sredniRocznik": 1985.9
  },
  "youtubeId": "",

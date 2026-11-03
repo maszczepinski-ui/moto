@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 115D – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 115D).",
-  "liczbaWPolsce": 557,
-  "aktywne": 10,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 115D – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 115D).",
+  "liczbaWPolsce": 559,
+  "aktywne": 12,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 116
+    "liczba": 118
    },
    {
     "teryt": "26",
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 147
+    "liczba": 148
    },
    {
     "rok": 1975,
@@ -116,7 +116,7 @@
    },
    {
     "rok": 1976,
-    "liczba": 114
+    "liczba": 115
    },
    {
     "rok": 1977,
@@ -202,7 +202,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 383
+    "liczba": 385
    },
    {
     "nazwa": "Benzyna",
@@ -220,7 +220,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 259
+    "liczba": 261
    },
    {
     "nazwa": "2,4 l",
@@ -242,7 +242,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 405
+    "liczba": 406
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -250,7 +250,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "Inne / brak danych",
@@ -260,17 +260,25 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 93
+    "liczba": 95
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 464
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 2
@@ -281,6 +289,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -518,9 +578,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 923,
-  "miejsceWMarce": 44,
-  "modeliWMarce": 56,
+  "miejsce": 931,
+  "miejsceWMarce": 46,
+  "modeliWMarce": 57,
   "sredniRocznik": 1975.6
  },
  "youtubeId": "",

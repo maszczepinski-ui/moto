@@ -11,96 +11,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Stonic – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 739 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STONIC, STONIC GPL).",
-  "liczbaWPolsce": 22884,
-  "aktywne": 22878,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Stonic – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 609 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STONIC, STONIC GPL).",
+  "liczbaWPolsce": 26754,
+  "aktywne": 26748,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1336
+    "liczba": 1585
    },
    {
     "teryt": "04",
-    "liczba": 924
+    "liczba": 1072
    },
    {
     "teryt": "06",
-    "liczba": 858
+    "liczba": 1023
    },
    {
     "teryt": "08",
-    "liczba": 368
+    "liczba": 431
    },
    {
     "teryt": "10",
-    "liczba": 1937
+    "liczba": 2241
    },
    {
     "teryt": "12",
-    "liczba": 2526
+    "liczba": 2986
    },
    {
     "teryt": "14",
-    "liczba": 3882
+    "liczba": 4467
    },
    {
     "teryt": "16",
-    "liczba": 376
+    "liczba": 457
    },
    {
     "teryt": "18",
-    "liczba": 1002
+    "liczba": 1179
    },
    {
     "teryt": "20",
-    "liczba": 608
+    "liczba": 722
    },
    {
     "teryt": "22",
-    "liczba": 1569
+    "liczba": 1867
    },
    {
     "teryt": "24",
-    "liczba": 3581
+    "liczba": 4161
    },
    {
     "teryt": "26",
-    "liczba": 592
+    "liczba": 675
    },
    {
     "teryt": "28",
-    "liczba": 594
+    "liczba": 687
    },
    {
     "teryt": "30",
-    "liczba": 2065
+    "liczba": 2404
    },
    {
     "teryt": "32",
-    "liczba": 660
+    "liczba": 791
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 854
+    "liczba": 883
    },
    {
     "rok": 2018,
-    "liczba": 2969
+    "liczba": 3044
    },
    {
     "rok": 2019,
-    "liczba": 1944
+    "liczba": 2636
    },
    {
     "rok": 2020,
-    "liczba": 797
+    "liczba": 2984
    },
    {
     "rok": 2021,
-    "liczba": 2177
+    "liczba": 3063
    },
    {
     "rok": 2022,
@@ -126,19 +126,19 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 21356
+    "liczba": 24784
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 547
-   },
-   {
-    "nazwa": "Benzyna + LPG",
-    "liczba": 491
+    "liczba": 837
    },
    {
     "nazwa": "Diesel",
-    "liczba": 487
+    "liczba": 581
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 549
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,19 +148,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 10312
+    "liczba": 12949
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 7855
+    "liczba": 8906
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 4232
+    "liczba": 4320
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 484
+    "liczba": 578
    },
    {
     "nazwa": "Inne / brak danych",
@@ -170,42 +170,50 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 16670
+    "liczba": 18781
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3991
+    "liczba": 5646
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2169
+    "liczba": 2260
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 54
+    "liczba": 67
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 22056
+    "liczba": 25853
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 683
+    "liczba": 745
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 145
+    "liczba": 156
    }
   ],
-  "noweOdPaczki": 18739,
-  "hybrydy": 547,
+  "noweOdPaczki": 22609,
+  "hybrydy": 837,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 55
+   },
+   {
+    "rok": 2020,
+    "liczba": 1580
+   },
+   {
     "rok": 2021,
-    "liczba": 1615
+    "liczba": 3850
    },
    {
     "rok": 2022,
@@ -229,6 +237,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 178
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 172
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 273
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 280
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 355
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 253
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 297
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 391
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 402
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 343
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 351
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 378
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 288
+   },
    {
     "miesiac": "2021-12",
     "liczba": 239
@@ -466,10 +526,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 185,
-  "miejsceWMarce": 7,
+  "miejsce": 179,
+  "miejsceWMarce": 6,
   "modeliWMarce": 33,
-  "sredniRocznik": 2021.9
+  "sredniRocznik": 2021.6
  },
  "youtubeId": "",
  "zrodla": [

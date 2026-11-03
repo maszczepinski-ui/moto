@@ -11,100 +11,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota C-HR – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 830 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOYOTA C-HR, C-HR, C-HR HYBRID, C-HR 1,8 HYBRID, C-HR 1.8 HYBRID).",
-  "liczbaWPolsce": 80000,
-  "aktywne": 79005,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota C-HR – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 78 987 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C-HR, TOYOTA C-HR, C-HR HYBRID, C-HR 1,8 HYBRID, C-HR 1.8 HYBRID).",
+  "liczbaWPolsce": 90157,
+  "aktywne": 89162,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 6803
+    "liczba": 7593
    },
    {
     "teryt": "04",
-    "liczba": 3686
+    "liczba": 4082
    },
    {
     "teryt": "06",
-    "liczba": 2659
+    "liczba": 3043
    },
    {
     "teryt": "08",
-    "liczba": 1771
+    "liczba": 1960
    },
    {
     "teryt": "10",
-    "liczba": 4142
+    "liczba": 4688
    },
    {
     "teryt": "12",
-    "liczba": 7781
+    "liczba": 8672
    },
    {
     "teryt": "14",
-    "liczba": 18134
+    "liczba": 20886
    },
    {
     "teryt": "16",
-    "liczba": 1131
+    "liczba": 1301
    },
    {
     "teryt": "18",
-    "liczba": 3474
+    "liczba": 3952
    },
    {
     "teryt": "20",
-    "liczba": 2304
+    "liczba": 2575
    },
    {
     "teryt": "22",
-    "liczba": 5195
+    "liczba": 5807
    },
    {
     "teryt": "24",
-    "liczba": 9421
+    "liczba": 10462
    },
    {
     "teryt": "26",
-    "liczba": 1962
+    "liczba": 2201
    },
    {
     "teryt": "28",
-    "liczba": 2486
+    "liczba": 2760
    },
    {
     "teryt": "30",
-    "liczba": 6588
+    "liczba": 7363
    },
    {
     "teryt": "32",
-    "liczba": 2453
+    "liczba": 2802
    }
   ],
   "bezWojewodztwa": 10,
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 1406
+    "liczba": 1433
    },
    {
     "rok": 2017,
-    "liczba": 4815
+    "liczba": 4958
    },
    {
     "rok": 2018,
-    "liczba": 6563
+    "liczba": 6688
    },
    {
     "rok": 2019,
-    "liczba": 2304
+    "liczba": 3790
    },
    {
     "rok": 2020,
-    "liczba": 1079
+    "liczba": 6646
    },
    {
     "rok": 2021,
-    "liczba": 5056
+    "liczba": 7864
    },
    {
     "rok": 2022,
@@ -130,33 +130,33 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 67292
+    "liczba": 75035
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 11057
+    "liczba": 13355
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 900
+    "liczba": 1014
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 751
+    "liczba": 753
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 52963
+    "liczba": 58431
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 21478
+    "liczba": 24520
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 4810
+    "liczba": 6457
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,46 +166,54 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 58765
+    "liczba": 63443
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 15249
+    "liczba": 20498
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5457
+    "liczba": 5675
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 484
+    "liczba": 491
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 45
+    "liczba": 50
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 78439
+    "liczba": 88516
    },
    {
     "nazwa": "Kombi",
-    "liczba": 921
+    "liczba": 939
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 640
+    "liczba": 702
    }
   ],
-  "noweOdPaczki": 68830,
-  "hybrydy": 66974,
-  "elektryczne": 746,
+  "noweOdPaczki": 78987,
+  "hybrydy": 74718,
+  "elektryczne": 747,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 163
+   },
+   {
+    "rok": 2020,
+    "liczba": 4694
+   },
+   {
     "rok": 2021,
-    "liczba": 3970
+    "liczba": 9270
    },
    {
     "rok": 2022,
@@ -229,6 +237,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 685
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 738
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 670
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 899
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 923
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 720
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 596
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 803
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 739
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 853
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 606
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 356
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1067
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1038
@@ -466,10 +526,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 63,
+  "miejsce": 61,
   "miejsceWMarce": 6,
   "modeliWMarce": 43,
-  "sredniRocznik": 2022.4
+  "sredniRocznik": 2022.2
  },
  "youtubeId": "",
  "zrodla": [
@@ -481,11 +541,6 @@
  "modelSlug": "c-hr",
  "adres": "/marki/toyota/c-hr/",
  "konkurenci": [
-  {
-   "slug": "bmw-x2",
-   "nazwa": "BMW X2",
-   "adres": "/marki/bmw/x2/"
-  },
   {
    "slug": "lexus-ux",
    "nazwa": "Lexus UX",
@@ -505,6 +560,11 @@
    "slug": "kia-proceed",
    "nazwa": "Kia ProCeed",
    "adres": "/marki/kia/proceed/"
+  },
+  {
+   "slug": "mazda-mazda2",
+   "nazwa": "Mazda MAZDA2",
+   "adres": "/marki/mazda/mazda2/"
   }
  ]
 }

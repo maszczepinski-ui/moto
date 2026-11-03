@@ -11,88 +11,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 410 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQC 400 4MATIC).",
-  "liczbaWPolsce": 410,
-  "aktywne": 410,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 632 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQC 400 4MATIC).",
+  "liczbaWPolsce": 632,
+  "aktywne": 632,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 25
+    "liczba": 39
    },
    {
     "teryt": "04",
-    "liczba": 6
-   },
-   {
-    "teryt": "06",
-    "liczba": 9
-   },
-   {
-    "teryt": "08",
-    "liczba": 8
-   },
-   {
-    "teryt": "10",
     "liczba": 16
    },
    {
+    "teryt": "06",
+    "liczba": 12
+   },
+   {
+    "teryt": "08",
+    "liczba": 9
+   },
+   {
+    "teryt": "10",
+    "liczba": 27
+   },
+   {
     "teryt": "12",
-    "liczba": 30
+    "liczba": 48
    },
    {
     "teryt": "14",
-    "liczba": 140
+    "liczba": 230
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "18",
-    "liczba": 11
+    "liczba": 18
    },
    {
     "teryt": "20",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "teryt": "22",
-    "liczba": 30
+    "liczba": 46
    },
    {
     "teryt": "24",
-    "liczba": 38
+    "liczba": 56
    },
    {
     "teryt": "26",
-    "liczba": 3
-   },
-   {
-    "teryt": "28",
     "liczba": 6
    },
    {
+    "teryt": "28",
+    "liczba": 10
+   },
+   {
     "teryt": "30",
-    "liczba": 53
+    "liczba": 71
    },
    {
     "teryt": "32",
-    "liczba": 15
+    "liczba": 19
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 5
+    "liczba": 11
    },
    {
     "rok": 2020,
-    "liczba": 23
+    "liczba": 171
    },
    {
     "rok": 2021,
-    "liczba": 147
+    "liczba": 215
    },
    {
     "rok": 2022,
@@ -106,23 +106,23 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 410
+    "liczba": 632
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 410
+    "liczba": 632
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 198
+    "liczba": 326
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 163
+    "liczba": 257
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -136,24 +136,28 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 400
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5
+    "liczba": 622
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 410,
+  "noweOdPaczki": 632,
   "hybrydy": 0,
-  "elektryczne": 410,
+  "elektryczne": 632,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 127
+   },
+   {
     "rok": 2021,
-    "liczba": 112
+    "liczba": 205
    },
    {
     "rok": 2022,
@@ -177,6 +181,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 13
+   },
    {
     "miesiac": "2021-12",
     "liczba": 25
@@ -414,10 +470,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1024,
-  "miejsceWMarce": 51,
-  "modeliWMarce": 56,
-  "sredniRocznik": 2021.6
+  "miejsce": 902,
+  "miejsceWMarce": 44,
+  "modeliWMarce": 57,
+  "sredniRocznik": 2021.1
  },
  "youtubeId": "",
  "zrodla": [

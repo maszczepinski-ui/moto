@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Commodore – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COMMODORE 2.5, COMMODORE).",
-  "liczbaWPolsce": 484,
-  "aktywne": 15,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Commodore – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COMMODORE 2.5, COMMODORE).",
+  "liczbaWPolsce": 488,
+  "aktywne": 19,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "04",
@@ -33,11 +33,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "12",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "14",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "24",
@@ -156,11 +156,11 @@
    },
    {
     "rok": 1969,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1970,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1971,
@@ -188,11 +188,11 @@
    },
    {
     "rok": 1977,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1978,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 1979,
@@ -274,7 +274,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 81
+    "liczba": 85
    },
    {
     "nazwa": "?+LPG",
@@ -296,7 +296,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 384
+    "liczba": 387
    },
    {
     "nazwa": "2,0 l",
@@ -328,13 +328,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 29
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 324
+    "liczba": 326
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -342,7 +342,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 35
+    "liczba": 37
    },
    {
     "nazwa": "Inne / brak danych",
@@ -352,24 +352,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "nazwa": "Coupe",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 420
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 2
+   },
+   {
+    "rok": 2021,
+    "liczba": 4
    },
    {
     "rok": 2022,
@@ -393,6 +397,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -630,8 +686,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 967,
-  "miejsceWMarce": 30,
+  "miejsce": 982,
+  "miejsceWMarce": 31,
   "modeliWMarce": 33,
   "sredniRocznik": 1979.1
  },

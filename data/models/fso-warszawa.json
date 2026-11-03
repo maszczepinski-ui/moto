@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Warszawa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 35 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WARSZAWA 223, 223, WARSZAWA 224, WARSZAWA M20, WARSZAWA 204).",
-  "liczbaWPolsce": 32486,
-  "aktywne": 176,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Warszawa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WARSZAWA 223, 223, WARSZAWA 224, WARSZAWA M20, WARSZAWA 204).",
+  "liczbaWPolsce": 32493,
+  "aktywne": 183,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2027
+    "liczba": 2028
    },
    {
     "teryt": "04",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 2496
+    "liczba": 2497
    },
    {
     "teryt": "08",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 2737
+    "liczba": 2738
    },
    {
     "teryt": "14",
-    "liczba": 5150
+    "liczba": 5152
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 1304
+    "liczba": 1305
    },
    {
     "teryt": "20",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 1644
+    "liczba": 1645
    },
    {
     "teryt": "24",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 1956,
-    "liczba": 235
+    "liczba": 236
    },
    {
     "rok": 1957,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1961,
-    "liczba": 767
+    "liczba": 768
    },
    {
     "rok": 1962,
@@ -124,7 +124,7 @@
    },
    {
     "rok": 1965,
-    "liczba": 1782
+    "liczba": 1783
    },
    {
     "rok": 1966,
@@ -132,11 +132,11 @@
    },
    {
     "rok": 1967,
-    "liczba": 1828
+    "liczba": 1829
    },
    {
     "rok": 1968,
-    "liczba": 2700
+    "liczba": 2701
    },
    {
     "rok": 1969,
@@ -152,7 +152,7 @@
    },
    {
     "rok": 1972,
-    "liczba": 3978
+    "liczba": 3979
    },
    {
     "rok": 1973,
@@ -202,7 +202,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3494
+    "liczba": 3501
    },
    {
     "nazwa": "?+LPG",
@@ -216,7 +216,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 30490
+    "liczba": 30497
    },
    {
     "nazwa": "Inne / brak danych",
@@ -234,30 +234,34 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1204
+    "liczba": 1207
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2017
+    "liczba": 2021
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2978
+    "liczba": 2984
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29508
+    "liczba": 29509
    }
   ],
-  "noweOdPaczki": 35,
+  "noweOdPaczki": 42,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 9
    },
    {
     "rok": 2022,
@@ -281,6 +285,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -518,7 +574,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 150,
+  "miejsce": 158,
   "miejsceWMarce": 3,
   "modeliWMarce": 13,
   "sredniRocznik": 1967.8

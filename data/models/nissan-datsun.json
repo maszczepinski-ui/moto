@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Datsun – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DATSUN, DATSUN B 11, DATSUN B 11 SF-Q, DATSUN 1.7D).",
-  "liczbaWPolsce": 1018,
-  "aktywne": 15,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Datsun – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DATSUN, DATSUN B 11, DATSUN B 11 SF-Q, DATSUN 1.7D).",
+  "liczbaWPolsce": 1020,
+  "aktywne": 17,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "06",
@@ -46,7 +46,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "18",
@@ -89,11 +89,11 @@
    },
    {
     "rok": 1976,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1977,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 1978,
@@ -167,7 +167,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 177
+    "liczba": 179
    },
    {
     "nazwa": "?+LPG",
@@ -217,7 +217,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 138
+    "liczba": 140
    }
   ],
   "pochodzenie": [
@@ -231,7 +231,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
@@ -249,7 +249,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "nazwa": "Kombi",
@@ -260,13 +260,17 @@
     "liczba": 735
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 11,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 2
    },
    {
     "rok": 2023,
@@ -282,6 +286,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -519,7 +575,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 779,
+  "miejsce": 786,
   "miejsceWMarce": 27,
   "modeliWMarce": 47,
   "sredniRocznik": 1982.8

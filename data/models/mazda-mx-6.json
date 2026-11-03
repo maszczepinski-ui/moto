@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MX-6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MX-6, MX-6 2.5 KAT, MX-6 2.0 KAT).",
-  "liczbaWPolsce": 491,
-  "aktywne": 47,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MX-6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 21 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MX-6, MX-6 2.5 KAT, MX-6 2.0 KAT).",
+  "liczbaWPolsce": 497,
+  "aktywne": 53,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "08",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "22",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "30",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "teryt": "32",
@@ -102,11 +102,11 @@
    },
    {
     "rok": 1992,
-    "liczba": 166
+    "liczba": 168
    },
    {
     "rok": 1993,
-    "liczba": 149
+    "liczba": 150
    },
    {
     "rok": 1994,
@@ -114,11 +114,11 @@
    },
    {
     "rok": 1995,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 1996,
-    "liczba": 14
+    "liczba": 16
    },
    {
     "rok": 1997,
@@ -168,11 +168,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 297
+    "liczba": 302
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "nazwa": "Inne / brak danych",
@@ -182,11 +182,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 244
+    "liczba": 246
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 219
+    "liczba": 223
    },
    {
     "nazwa": "2,2 l",
@@ -200,11 +200,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 336
+    "liczba": 338
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 140
+    "liczba": 144
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -222,7 +222,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 258
+    "liczba": 263
    },
    {
     "nazwa": "Sedan",
@@ -230,20 +230,24 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 72
+    "liczba": 73
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 71
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 21,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
     "rok": 2021,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -263,6 +267,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -500,9 +556,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 959,
+  "miejsce": 974,
   "miejsceWMarce": 28,
-  "modeliWMarce": 32,
+  "modeliWMarce": 33,
   "sredniRocznik": 1992.8
  },
  "youtubeId": "",

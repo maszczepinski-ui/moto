@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 405 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 36 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 405, 405 1.6, 405 1.9D, 405 1.6 KAT, 405 1.9).",
-  "liczbaWPolsce": 17359,
-  "aktywne": 109,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 405 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 39 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 405, 405 1.6, 405 1.9D, 405 1.6 KAT, 405 1.9).",
+  "liczbaWPolsce": 17362,
+  "aktywne": 112,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 1071
+    "liczba": 1072
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 2598
+    "liczba": 2599
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 486
+    "liczba": 487
    },
    {
     "teryt": "20",
@@ -94,7 +94,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 1180
+    "liczba": 1181
    },
    {
     "rok": 1990,
@@ -102,7 +102,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 2951
+    "liczba": 2953
    },
    {
     "rok": 1992,
@@ -140,7 +140,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 4197
+    "liczba": 4200
    },
    {
     "nazwa": "?+LPG",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 7426
+    "liczba": 7429
    },
    {
     "nazwa": "1,6 l",
@@ -180,11 +180,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 12725
+    "liczba": 12726
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2703
+    "liczba": 2705
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -202,7 +202,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 7456
+    "liczba": 7459
    },
    {
     "nazwa": "Kombi",
@@ -217,13 +217,17 @@
     "liczba": 6650
    }
   ],
-  "noweOdPaczki": 36,
+  "noweOdPaczki": 39,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2022,
@@ -247,6 +251,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -484,7 +540,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 225,
+  "miejsce": 234,
   "miejsceWMarce": 13,
   "modeliWMarce": 45,
   "sredniRocznik": 1992.5

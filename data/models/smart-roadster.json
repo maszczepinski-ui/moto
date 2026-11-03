@@ -13,25 +13,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart Roadster – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 96 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ROADSTER, ROADSTER-COUPE).",
-  "liczbaWPolsce": 359,
-  "aktywne": 176,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart Roadster – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 125 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ROADSTER, ROADSTER-COUPE).",
+  "liczbaWPolsce": 388,
+  "aktywne": 205,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 35
+    "liczba": 38
    },
    {
     "teryt": "04",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "08",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "10",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 30
+    "liczba": 33
    },
    {
     "teryt": "14",
-    "liczba": 52
+    "liczba": 59
    },
    {
     "teryt": "16",
@@ -51,19 +51,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "20",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "22",
-    "liczba": 16
+    "liczba": 19
    },
    {
     "teryt": "24",
-    "liczba": 46
+    "liczba": 49
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 42
+    "liczba": 44
    },
    {
     "teryt": "32",
@@ -210,19 +210,19 @@
    },
    {
     "rok": 2003,
-    "liczba": 149
+    "liczba": 154
    },
    {
     "rok": 2004,
-    "liczba": 135
+    "liczba": 147
    },
    {
     "rok": 2005,
-    "liczba": 40
+    "liczba": 47
    },
    {
     "rok": 2006,
-    "liczba": 17
+    "liczba": 22
    },
    {
     "rok": 2007,
@@ -276,7 +276,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 350
+    "liczba": 379
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -290,7 +290,7 @@
   "pojemnosci": [
    {
     "nazwa": "0,7 l",
-    "liczba": 349
+    "liczba": 378
    },
    {
     "nazwa": "Inne / brak danych",
@@ -300,11 +300,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 182
+    "liczba": 193
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 171
+    "liczba": 189
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -318,28 +318,32 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 204
+    "liczba": 228
    },
    {
     "nazwa": "Coupe",
-    "liczba": 101
+    "liczba": 105
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 25
    }
   ],
-  "noweOdPaczki": 96,
+  "noweOdPaczki": 125,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 12
+   },
+   {
     "rok": 2021,
-    "liczba": 6
+    "liczba": 23
    },
    {
     "rok": 2022,
@@ -363,6 +367,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -600,10 +656,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1070,
+  "miejsce": 1054,
   "miejsceWMarce": 6,
-  "modeliWMarce": 8,
-  "sredniRocznik": 2003.6
+  "modeliWMarce": 9,
+  "sredniRocznik": 2003.7
  },
  "youtubeId": "",
  "zrodla": [
@@ -631,14 +687,14 @@
    "adres": "/marki/fiat/seicento/"
   },
   {
-   "slug": "suzuki-alto",
-   "nazwa": "Suzuki Alto",
-   "adres": "/marki/suzuki/alto/"
-  },
-  {
    "slug": "chevrolet-matiz",
    "nazwa": "Chevrolet Matiz",
    "adres": "/marki/chevrolet/matiz/"
+  },
+  {
+   "slug": "suzuki-alto",
+   "nazwa": "Suzuki Alto",
+   "adres": "/marki/suzuki/alto/"
   }
  ]
 }

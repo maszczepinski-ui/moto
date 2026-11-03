@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe ZAZ Zaporożec – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZAPOROŻEC 968, ZAPOROŻEC, ZAPOROŻEC 968 M).",
-  "liczbaWPolsce": 260,
-  "aktywne": 17,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe ZAZ Zaporożec – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZAPOROŻEC 968, ZAPOROŻEC, ZAPOROŻEC 968 M).",
+  "liczbaWPolsce": 262,
+  "aktywne": 19,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "teryt": "18",
@@ -70,7 +70,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "32",
@@ -137,7 +137,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 20
+    "liczba": 21
    },
    {
     "rok": 1980,
@@ -165,7 +165,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1987,
@@ -231,7 +231,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 84
+    "liczba": 86
    },
    {
     "nazwa": "?+LPG",
@@ -245,7 +245,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 208
+    "liczba": 210
    },
    {
     "nazwa": "1,1 l",
@@ -279,13 +279,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 9
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "nazwa": "Hatchback",
@@ -293,16 +293,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 126
+    "liczba": 127
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 9,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2022,
@@ -318,6 +322,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -555,7 +611,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1168,
+  "miejsce": 1183,
   "miejsceWMarce": 7,
   "modeliWMarce": 8,
   "sredniRocznik": 1981.3

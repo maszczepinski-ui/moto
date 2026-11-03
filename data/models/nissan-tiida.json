@@ -13,110 +13,110 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Tiida – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 476 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIIDA).",
-  "liczbaWPolsce": 3047,
-  "aktywne": 1221,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Tiida – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 640 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIIDA, TIIDA 1.6 KAT).",
+  "liczbaWPolsce": 3211,
+  "aktywne": 1385,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 242
+    "liczba": 269
    },
    {
     "teryt": "04",
-    "liczba": 149
+    "liczba": 158
    },
    {
     "teryt": "06",
-    "liczba": 218
+    "liczba": 223
    },
    {
     "teryt": "08",
-    "liczba": 127
+    "liczba": 136
    },
    {
     "teryt": "10",
-    "liczba": 160
+    "liczba": 167
    },
    {
     "teryt": "12",
-    "liczba": 170
+    "liczba": 177
    },
    {
     "teryt": "14",
-    "liczba": 593
+    "liczba": 618
    },
    {
     "teryt": "16",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "teryt": "18",
-    "liczba": 131
+    "liczba": 135
    },
    {
     "teryt": "20",
-    "liczba": 121
+    "liczba": 130
    },
    {
     "teryt": "22",
-    "liczba": 184
+    "liczba": 189
    },
    {
     "teryt": "24",
-    "liczba": 281
+    "liczba": 295
    },
    {
     "teryt": "26",
-    "liczba": 74
+    "liczba": 81
    },
    {
     "teryt": "28",
-    "liczba": 144
+    "liczba": 154
    },
    {
     "teryt": "30",
-    "liczba": 200
+    "liczba": 211
    },
    {
     "teryt": "32",
-    "liczba": 217
+    "liczba": 229
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2007,
-    "liczba": 1127
+    "liczba": 1153
    },
    {
     "rok": 2008,
-    "liczba": 1097
+    "liczba": 1179
    },
    {
     "rok": 2009,
-    "liczba": 314
+    "liczba": 335
    },
    {
     "rok": 2010,
-    "liczba": 351
+    "liczba": 377
    },
    {
     "rok": 2011,
-    "liczba": 93
+    "liczba": 102
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2434
+    "liczba": 2570
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 376
+    "liczba": 398
    },
    {
     "nazwa": "Diesel",
-    "liczba": 236
+    "liczba": 242
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,15 +126,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2419
+    "liczba": 2539
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 390
+    "liczba": 428
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 237
+    "liczba": 243
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,11 +148,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 959
+    "liczba": 1000
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 863
+    "liczba": 986
    },
    {
     "nazwa": "Inne / brak danych",
@@ -162,28 +162,36 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2032
+    "liczba": 2170
    },
    {
     "nazwa": "Sedan",
-    "liczba": 586
+    "liczba": 598
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 395
+    "liczba": 408
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 34
+    "liczba": 35
    }
   ],
-  "noweOdPaczki": 476,
+  "noweOdPaczki": 640,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 65
+   },
+   {
     "rok": 2021,
-    "liczba": 53
+    "liczba": 149
    },
    {
     "rok": 2022,
@@ -207,6 +215,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 9
+   },
    {
     "miesiac": "2021-12",
     "liczba": 9
@@ -444,7 +504,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 507,
+  "miejsce": 511,
   "miejsceWMarce": 15,
   "modeliWMarce": 47,
   "sredniRocznik": 2008.1

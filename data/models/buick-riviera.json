@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Buick Riviera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 96 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RIVIERA, RIVIERA GS).",
-  "liczbaWPolsce": 231,
-  "aktywne": 150,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Buick Riviera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 126 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RIVIERA, RIVIERA GS).",
+  "liczbaWPolsce": 261,
+  "aktywne": 180,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,11 +22,11 @@
    },
    {
     "teryt": "04",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "06",
-    "liczba": 4
+    "liczba": 7
    },
    {
     "teryt": "08",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 12
+    "liczba": 16
    },
    {
     "teryt": "14",
-    "liczba": 35
+    "liczba": 42
    },
    {
     "teryt": "16",
@@ -50,19 +50,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "teryt": "20",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "22",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "24",
-    "liczba": 29
+    "liczba": 33
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 27
+    "liczba": 33
    },
    {
     "teryt": "32",
@@ -137,15 +137,15 @@
    },
    {
     "rok": 1965,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1966,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1967,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1968,
@@ -153,23 +153,23 @@
    },
    {
     "rok": 1969,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 1970,
-    "liczba": 6
+    "liczba": 9
    },
    {
     "rok": 1971,
-    "liczba": 35
+    "liczba": 37
    },
    {
     "rok": 1972,
-    "liczba": 47
+    "liczba": 58
    },
    {
     "rok": 1973,
-    "liczba": 37
+    "liczba": 42
    },
    {
     "rok": 1974,
@@ -189,11 +189,11 @@
    },
    {
     "rok": 1978,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1979,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1980,
@@ -213,7 +213,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1985,
@@ -237,7 +237,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1991,
@@ -266,12 +266,16 @@
    {
     "rok": 1997,
     "liczba": 1
+   },
+   {
+    "rok": 1998,
+    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 221
+    "liczba": 251
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -285,27 +289,27 @@
   "pojemnosci": [
    {
     "nazwa": "7,5 l",
-    "liczba": 127
+    "liczba": 147
    },
    {
     "nazwa": "7,0 l",
-    "liczba": 46
+    "liczba": 50
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "nazwa": "6,6 l",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "nazwa": "5,7 l",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
@@ -315,11 +319,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 155
+    "liczba": 178
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 65
+    "liczba": 72
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -333,11 +337,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 181
+    "liczba": 208
    },
    {
     "nazwa": "Sedan",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Hatchback",
@@ -349,16 +353,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 12
    }
   ],
-  "noweOdPaczki": 96,
+  "noweOdPaczki": 126,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 16
+   },
+   {
     "rok": 2021,
-    "liczba": 9
+    "liczba": 23
    },
    {
     "rok": 2022,
@@ -382,6 +390,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -619,7 +679,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1219,
+  "miejsce": 1186,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
   "sredniRocznik": 1973.5

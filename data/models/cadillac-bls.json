@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Bls – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 78 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BLS).",
-  "liczbaWPolsce": 259,
-  "aktywne": 155,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Bls – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 110 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BLS).",
+  "liczbaWPolsce": 291,
+  "aktywne": 187,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 21
+    "liczba": 24
    },
    {
     "teryt": "04",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 25
    },
    {
     "teryt": "08",
@@ -34,19 +34,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "12",
-    "liczba": 29
+    "liczba": 33
    },
    {
     "teryt": "14",
-    "liczba": 31
+    "liczba": 34
    },
    {
     "teryt": "16",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "18",
@@ -54,15 +54,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "teryt": "22",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "24",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 28
+    "liczba": 33
    },
    {
     "teryt": "32",
@@ -85,19 +85,19 @@
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 104
+    "liczba": 114
    },
    {
     "rok": 2007,
-    "liczba": 54
+    "liczba": 60
    },
    {
     "rok": 2008,
-    "liczba": 57
+    "liczba": 68
    },
    {
     "rok": 2009,
-    "liczba": 22
+    "liczba": 27
    },
    {
     "rok": 2010,
@@ -115,39 +115,39 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 163
+    "liczba": 178
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 65
+    "liczba": 75
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 31
+    "liczba": 38
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 163
+    "liczba": 178
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 83
+    "liczba": 96
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 13
+    "liczba": 17
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 154
+    "liczba": 175
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 93
+    "liczba": 104
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -161,24 +161,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 194
+    "liczba": 214
    },
    {
     "nazwa": "Kombi",
-    "liczba": 64
+    "liczba": 76
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 78,
+  "noweOdPaczki": 110,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 18
+   },
+   {
     "rok": 2021,
-    "liczba": 8
+    "liczba": 22
    },
    {
     "rok": 2022,
@@ -202,6 +206,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -439,7 +495,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1171,
+  "miejsce": 1149,
   "miejsceWMarce": 6,
   "modeliWMarce": 8,
   "sredniRocznik": 2007.2

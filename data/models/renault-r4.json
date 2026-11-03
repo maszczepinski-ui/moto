@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault R4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 4, R 4 0.8, R 4 1.1, R4, R4 GTL).",
-  "liczbaWPolsce": 410,
-  "aktywne": 33,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault R4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 29 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 4, R 4 0.8, R 4 1.1, R4, R4 GTL).",
+  "liczbaWPolsce": 417,
+  "aktywne": 40,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "14",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "26",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "30",
-    "liczba": 74
+    "liczba": 77
    },
    {
     "teryt": "32",
@@ -174,7 +174,7 @@
    },
    {
     "rok": 1972,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1973,
@@ -234,23 +234,23 @@
    },
    {
     "rok": 1987,
-    "liczba": 6
-   },
-   {
-    "rok": 1988,
     "liczba": 7
    },
    {
+    "rok": 1988,
+    "liczba": 8
+   },
+   {
     "rok": 1989,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 1990,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1991,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1992,
@@ -272,7 +272,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 122
+    "liczba": 129
    },
    {
     "nazwa": "?+LPG",
@@ -290,11 +290,11 @@
   "pojemnosci": [
    {
     "nazwa": "0,8 l",
-    "liczba": 226
+    "liczba": 228
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 135
+    "liczba": 140
    },
    {
     "nazwa": "0,7 l",
@@ -316,7 +316,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 263
+    "liczba": 264
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -324,7 +324,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 50
+    "liczba": 56
    },
    {
     "nazwa": "Inne / brak danych",
@@ -334,7 +334,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 68
+    "liczba": 74
    },
    {
     "nazwa": "Sedan",
@@ -342,20 +342,24 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 300
    }
   ],
-  "noweOdPaczki": 22,
+  "noweOdPaczki": 29,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 7
    },
    {
     "rok": 2022,
@@ -379,6 +383,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -616,10 +672,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1023,
+  "miejsce": 1033,
   "miejsceWMarce": 43,
   "modeliWMarce": 48,
-  "sredniRocznik": 1977.8
+  "sredniRocznik": 1977.9
  },
  "youtubeId": "",
  "zrodla": [
@@ -637,14 +693,14 @@
    "adres": "/marki/fiat/127/"
   },
   {
-   "slug": "polski-fiat-127p",
-   "nazwa": "Polski Fiat 127p",
-   "adres": "/marki/polski-fiat/127p/"
-  },
-  {
    "slug": "wartburg-353",
    "nazwa": "Wartburg 353",
    "adres": "/marki/wartburg/353/"
+  },
+  {
+   "slug": "polski-fiat-127p",
+   "nazwa": "Polski Fiat 127p",
+   "adres": "/marki/polski-fiat/127p/"
   },
   {
    "slug": "fso-syrena",

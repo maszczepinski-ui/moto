@@ -12,96 +12,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 1007 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 830 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1007, 1007 1.4 HDI).",
-  "liczbaWPolsce": 2872,
-  "aktywne": 1737,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 1007 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 102 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1007, 1007 1.4 HDI).",
+  "liczbaWPolsce": 3144,
+  "aktywne": 2009,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 222
+    "liczba": 243
    },
    {
     "teryt": "04",
-    "liczba": 110
+    "liczba": 124
    },
    {
     "teryt": "06",
-    "liczba": 130
-   },
-   {
-    "teryt": "08",
-    "liczba": 115
-   },
-   {
-    "teryt": "10",
-    "liczba": 192
-   },
-   {
-    "teryt": "12",
-    "liczba": 227
-   },
-   {
-    "teryt": "14",
-    "liczba": 375
-   },
-   {
-    "teryt": "16",
-    "liczba": 65
-   },
-   {
-    "teryt": "18",
-    "liczba": 147
-   },
-   {
-    "teryt": "20",
-    "liczba": 55
-   },
-   {
-    "teryt": "22",
     "liczba": 143
    },
    {
+    "teryt": "08",
+    "liczba": 126
+   },
+   {
+    "teryt": "10",
+    "liczba": 203
+   },
+   {
+    "teryt": "12",
+    "liczba": 256
+   },
+   {
+    "teryt": "14",
+    "liczba": 412
+   },
+   {
+    "teryt": "16",
+    "liczba": 72
+   },
+   {
+    "teryt": "18",
+    "liczba": 162
+   },
+   {
+    "teryt": "20",
+    "liczba": 62
+   },
+   {
+    "teryt": "22",
+    "liczba": 155
+   },
+   {
     "teryt": "24",
-    "liczba": 363
+    "liczba": 397
    },
    {
     "teryt": "26",
-    "liczba": 69
+    "liczba": 78
    },
    {
     "teryt": "28",
-    "liczba": 67
+    "liczba": 74
    },
    {
     "teryt": "30",
-    "liczba": 405
+    "liczba": 431
    },
    {
     "teryt": "32",
-    "liczba": 162
+    "liczba": 181
    }
   ],
   "bezWojewodztwa": 25,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 1311
+    "liczba": 1417
    },
    {
     "rok": 2006,
-    "liczba": 933
+    "liczba": 1034
    },
    {
     "rok": 2007,
-    "liczba": 323
+    "liczba": 358
    },
    {
     "rok": 2008,
-    "liczba": 159
+    "liczba": 184
    },
    {
     "rok": 2009,
-    "liczba": 61
+    "liczba": 66
    },
    {
     "rok": 2010,
@@ -111,15 +111,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1940
+    "liczba": 2142
    },
    {
     "nazwa": "Diesel",
-    "liczba": 696
+    "liczba": 742
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 232
+    "liczba": 256
    },
    {
     "nazwa": "Inne / brak danych",
@@ -129,25 +129,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 2033
+    "liczba": 2202
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 834
+    "liczba": 936
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1615
+    "liczba": 1762
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1089
+    "liczba": 1214
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -161,32 +161,40 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2581
+    "liczba": 2834
    },
    {
     "nazwa": "Van",
-    "liczba": 125
+    "liczba": 131
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 59
+    "liczba": 67
    },
    {
     "nazwa": "Kombi",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 64
+    "liczba": 67
    }
   ],
-  "noweOdPaczki": 830,
+  "noweOdPaczki": 1102,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
+    "rok": 2020,
+    "liczba": 137
+   },
+   {
     "rok": 2021,
-    "liczba": 102
+    "liczba": 233
    },
    {
     "rok": 2022,
@@ -210,6 +218,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 18
+   },
    {
     "miesiac": "2021-12",
     "liczba": 9
@@ -447,8 +507,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 522,
-  "miejsceWMarce": 26,
+  "miejsce": 516,
+  "miejsceWMarce": 27,
   "modeliWMarce": 45,
   "sredniRocznik": 2005.8
  },
@@ -483,9 +543,9 @@
    "adres": "/marki/fiat/bravo/"
   },
   {
-   "slug": "renault-megane",
-   "nazwa": "Renault Megane",
-   "adres": "/marki/renault/megane/"
+   "slug": "opel-corsa",
+   "nazwa": "Opel Corsa",
+   "adres": "/marki/opel/corsa/"
   }
  ]
 }

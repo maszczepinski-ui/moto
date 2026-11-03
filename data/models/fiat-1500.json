@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 1500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1500).",
-  "liczbaWPolsce": 775,
-  "aktywne": 19,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 1500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1500).",
+  "liczbaWPolsce": 779,
+  "aktywne": 23,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 116
+    "liczba": 117
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 101
+    "liczba": 102
    },
    {
     "teryt": "24",
@@ -69,11 +69,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "30",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "teryt": "32",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 1963,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1964,
@@ -100,11 +100,11 @@
    },
    {
     "rok": 1966,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1967,
-    "liczba": 8
+    "liczba": 10
    },
    {
     "rok": 1968,
@@ -206,7 +206,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 132
+    "liczba": 136
    },
    {
     "nazwa": "?+LPG",
@@ -224,7 +224,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 744
+    "liczba": 748
    },
    {
     "nazwa": "Inne / brak danych",
@@ -234,7 +234,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 453
+    "liczba": 454
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -242,7 +242,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -256,24 +256,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 114
+    "liczba": 117
    },
    {
     "nazwa": "Hatchback",
     "liczba": 10
    },
    {
+    "nazwa": "Kabriolet",
+    "liczba": 8
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 651
+    "liczba": 644
    }
   ],
-  "noweOdPaczki": 13,
+  "noweOdPaczki": 17,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 4
    },
    {
     "rok": 2023,
@@ -293,6 +301,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -530,9 +590,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 833,
+  "miejsce": 842,
   "miejsceWMarce": 45,
-  "modeliWMarce": 60,
+  "modeliWMarce": 61,
   "sredniRocznik": 1980.4
  },
  "youtubeId": "",

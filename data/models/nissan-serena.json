@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Serena – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SERENA, SERENA 1.6 KAT, SERENA 2.0 KAT, SERENA 2.3 D, SERENA 2.0 D).",
-  "liczbaWPolsce": 1419,
-  "aktywne": 52,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Serena – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SERENA, SERENA 1.6 KAT, SERENA 2.0 KAT, SERENA 2.3 D, SERENA 2.0 D).",
+  "liczbaWPolsce": 1423,
+  "aktywne": 56,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -36,7 +36,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 97
+    "liczba": 98
    },
    {
     "teryt": "12",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 231
+    "liczba": 232
    },
    {
     "teryt": "16",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 100
+    "liczba": 101
    },
    {
     "teryt": "24",
@@ -68,7 +68,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "28",
@@ -95,11 +95,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 219
+    "liczba": 220
    },
    {
     "rok": 1995,
-    "liczba": 263
+    "liczba": 264
    },
    {
     "rok": 1996,
@@ -107,7 +107,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 188
+    "liczba": 189
    },
    {
     "rok": 1998,
@@ -129,15 +129,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 463
+    "liczba": 465
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 458
+    "liczba": 459
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 405
+    "liczba": 406
    },
    {
     "nazwa": "Inne / brak danych",
@@ -151,11 +151,11 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 508
+    "liczba": 511
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 311
+    "liczba": 312
    },
    {
     "nazwa": "Inne / brak danych",
@@ -165,11 +165,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 866
+    "liczba": 867
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 517
+    "liczba": 520
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -183,11 +183,11 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 790
+    "liczba": 793
    },
    {
     "nazwa": "Kombi",
-    "liczba": 250
+    "liczba": 251
    },
    {
     "nazwa": "Sedan",
@@ -206,10 +206,18 @@
     "liczba": 177
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 13,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 3
+   },
    {
     "rok": 2022,
     "liczba": 2
@@ -232,6 +240,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -469,8 +529,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 694,
-  "miejsceWMarce": 22,
+  "miejsce": 706,
+  "miejsceWMarce": 23,
   "modeliWMarce": 47,
   "sredniRocznik": 1995.7
  },

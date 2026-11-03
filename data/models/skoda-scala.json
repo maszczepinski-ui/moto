@@ -11,88 +11,88 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Scala – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 539 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCALA, SCALA VAN).",
-  "liczbaWPolsce": 28104,
-  "aktywne": 28104,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Scala – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 626 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCALA, SCALA VAN).",
+  "liczbaWPolsce": 33191,
+  "aktywne": 33191,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2176
+    "liczba": 2663
    },
    {
     "teryt": "04",
-    "liczba": 1239
+    "liczba": 1539
    },
    {
     "teryt": "06",
-    "liczba": 630
+    "liczba": 754
    },
    {
     "teryt": "08",
-    "liczba": 336
+    "liczba": 417
    },
    {
     "teryt": "10",
-    "liczba": 1190
+    "liczba": 1567
    },
    {
     "teryt": "12",
-    "liczba": 1820
+    "liczba": 2209
    },
    {
     "teryt": "14",
-    "liczba": 10107
+    "liczba": 11144
    },
    {
     "teryt": "16",
-    "liczba": 492
+    "liczba": 612
    },
    {
     "teryt": "18",
-    "liczba": 742
+    "liczba": 923
    },
    {
     "teryt": "20",
-    "liczba": 196
+    "liczba": 280
    },
    {
     "teryt": "22",
-    "liczba": 2091
+    "liczba": 2449
    },
    {
     "teryt": "24",
-    "liczba": 3143
+    "liczba": 3786
    },
    {
     "teryt": "26",
-    "liczba": 332
+    "liczba": 434
    },
    {
     "teryt": "28",
-    "liczba": 382
+    "liczba": 532
    },
    {
     "teryt": "30",
-    "liczba": 2699
+    "liczba": 3237
    },
    {
     "teryt": "32",
-    "liczba": 529
+    "liczba": 645
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 1194
+    "liczba": 1736
    },
    {
     "rok": 2020,
-    "liczba": 249
+    "liczba": 3013
    },
    {
     "rok": 2021,
-    "liczba": 1715
+    "liczba": 3496
    },
    {
     "rok": 2022,
@@ -118,15 +118,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 27303
-   },
-   {
-    "nazwa": "Benzyna + LPG",
-    "liczba": 464
+    "liczba": 31674
    },
    {
     "nazwa": "Diesel",
-    "liczba": 326
+    "liczba": 958
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 548
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,52 +136,60 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 19059
+    "liczba": 22501
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 8716
+    "liczba": 9729
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 329
+    "liczba": 961
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 22932
+    "liczba": 24761
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4545
+    "liczba": 7792
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 492
+    "liczba": 500
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 135
+    "liczba": 138
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 28024
+    "liczba": 33106
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 80
+    "liczba": 85
    }
   ],
-  "noweOdPaczki": 26539,
+  "noweOdPaczki": 31626,
   "hybrydy": 9,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 161
+   },
+   {
+    "rok": 2020,
+    "liczba": 2688
+   },
+   {
     "rok": 2021,
-    "liczba": 1286
+    "liczba": 3524
    },
    {
     "rok": 2022,
@@ -205,6 +213,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 473
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 492
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 266
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 310
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 452
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 371
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 343
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 494
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 330
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 196
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 207
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 145
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 158
+   },
    {
     "miesiac": "2021-12",
     "liczba": 252
@@ -442,10 +502,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 163,
+  "miejsce": 154,
   "miejsceWMarce": 12,
   "modeliWMarce": 27,
-  "sredniRocznik": 2023.7
+  "sredniRocznik": 2023.1
  },
  "youtubeId": "",
  "zrodla": [
@@ -473,9 +533,9 @@
    "adres": "/marki/seat/arona/"
   },
   {
-   "slug": "suzuki-s-cross",
-   "nazwa": "Suzuki S-Cross",
-   "adres": "/marki/suzuki/s-cross/"
+   "slug": "renault-captur",
+   "nazwa": "Renault Captur",
+   "adres": "/marki/renault/captur/"
   },
   {
    "slug": "volkswagen-t-cross",

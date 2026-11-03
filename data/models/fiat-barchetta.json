@@ -12,45 +12,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Barchetta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 211 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BARCHETTA, BARCHETTA 1.8 KAT).",
-  "liczbaWPolsce": 1030,
-  "aktywne": 389,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Barchetta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 243 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BARCHETTA, BARCHETTA 1.8 KAT).",
+  "liczbaWPolsce": 1062,
+  "aktywne": 421,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 85
+    "liczba": 88
    },
    {
     "teryt": "04",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "06",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "08",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "10",
-    "liczba": 52
+    "liczba": 56
    },
    {
     "teryt": "12",
-    "liczba": 96
+    "liczba": 98
    },
    {
     "teryt": "14",
-    "liczba": 169
+    "liczba": 170
    },
    {
     "teryt": "16",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "18",
-    "liczba": 48
+    "liczba": 50
    },
    {
     "teryt": "20",
@@ -58,15 +58,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 63
+    "liczba": 65
    },
    {
     "teryt": "24",
-    "liczba": 160
+    "liczba": 166
    },
    {
     "teryt": "26",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 108
+    "liczba": 112
    },
    {
     "teryt": "32",
@@ -85,35 +85,35 @@
   "roczniki": [
    {
     "rok": 1995,
-    "liczba": 207
+    "liczba": 216
    },
    {
     "rok": 1996,
-    "liczba": 227
+    "liczba": 233
    },
    {
     "rok": 1997,
-    "liczba": 163
+    "liczba": 165
    },
    {
     "rok": 1998,
-    "liczba": 137
+    "liczba": 141
    },
    {
     "rok": 1999,
-    "liczba": 97
+    "liczba": 101
    },
    {
     "rok": 2000,
-    "liczba": 87
+    "liczba": 91
    },
    {
     "rok": 2001,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 2002,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 2003,
@@ -125,13 +125,13 @@
    },
    {
     "rok": 2005,
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 952
+    "liczba": 984
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -145,7 +145,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 1025
+    "liczba": 1057
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,11 +155,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 544
+    "liczba": 557
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 467
+    "liczba": 486
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -173,32 +173,36 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 854
+    "liczba": 883
    },
    {
     "nazwa": "Coupe",
-    "liczba": 95
+    "liczba": 96
+   },
+   {
+    "nazwa": "Hatchback",
+    "liczba": 26
    },
    {
     "nazwa": "Sedan",
     "liczba": 26
    },
    {
-    "nazwa": "Hatchback",
-    "liczba": 24
-   },
-   {
     "nazwa": "Inne / brak danych",
     "liczba": 31
    }
   ],
-  "noweOdPaczki": 211,
+  "noweOdPaczki": 243,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 18
+   },
+   {
     "rok": 2021,
-    "liczba": 14
+    "liczba": 28
    },
    {
     "rok": 2022,
@@ -222,6 +226,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -459,9 +515,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 774,
-  "miejsceWMarce": 41,
-  "modeliWMarce": 60,
+  "miejsce": 776,
+  "miejsceWMarce": 42,
+  "modeliWMarce": 61,
   "sredniRocznik": 1997.5
  },
  "youtubeId": "",

@@ -13,104 +13,104 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Grandis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 927 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANDIS, GRANDIS 2.0 DI-D, GRANDIS 2.0 DID, GRANDIS 2.4).",
-  "liczbaWPolsce": 2453,
-  "aktywne": 1709,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Grandis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 189 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANDIS, GRANDIS 2.0 DI-D, GRANDIS 2.0 DID, GRANDIS 2.4).",
+  "liczbaWPolsce": 2715,
+  "aktywne": 1971,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 228
+    "liczba": 256
    },
    {
     "teryt": "04",
-    "liczba": 124
-   },
-   {
-    "teryt": "06",
-    "liczba": 167
-   },
-   {
-    "teryt": "08",
-    "liczba": 113
-   },
-   {
-    "teryt": "10",
-    "liczba": 203
-   },
-   {
-    "teryt": "12",
     "liczba": 140
    },
    {
+    "teryt": "06",
+    "liczba": 185
+   },
+   {
+    "teryt": "08",
+    "liczba": 127
+   },
+   {
+    "teryt": "10",
+    "liczba": 227
+   },
+   {
+    "teryt": "12",
+    "liczba": 147
+   },
+   {
     "teryt": "14",
-    "liczba": 341
+    "liczba": 382
    },
    {
     "teryt": "16",
-    "liczba": 50
+    "liczba": 55
    },
    {
     "teryt": "18",
-    "liczba": 157
+    "liczba": 168
    },
    {
     "teryt": "20",
-    "liczba": 71
+    "liczba": 82
    },
    {
     "teryt": "22",
-    "liczba": 124
+    "liczba": 138
    },
    {
     "teryt": "24",
-    "liczba": 200
+    "liczba": 214
    },
    {
     "teryt": "26",
-    "liczba": 53
+    "liczba": 59
    },
    {
     "teryt": "28",
-    "liczba": 80
+    "liczba": 86
    },
    {
     "teryt": "30",
-    "liczba": 247
+    "liczba": 274
    },
    {
     "teryt": "32",
-    "liczba": 130
+    "liczba": 150
    }
   ],
   "bezWojewodztwa": 25,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 347
+    "liczba": 417
    },
    {
     "rok": 2005,
-    "liczba": 464
+    "liczba": 519
    },
    {
     "rok": 2006,
-    "liczba": 691
+    "liczba": 760
    },
    {
     "rok": 2007,
-    "liczba": 273
+    "liczba": 303
    },
    {
     "rok": 2008,
-    "liczba": 223
+    "liczba": 244
    },
    {
     "rok": 2009,
-    "liczba": 82
+    "liczba": 93
    },
    {
     "rok": 2010,
-    "liczba": 43
+    "liczba": 49
    },
    {
     "rok": 2011,
@@ -180,15 +180,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1311
+    "liczba": 1438
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 556
+    "liczba": 645
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 481
+    "liczba": 527
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -202,11 +202,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1314
+    "liczba": 1442
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 881
+    "liczba": 1015
    },
    {
     "nazwa": "1,3 l",
@@ -224,11 +224,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1511
+    "liczba": 1674
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 650
+    "liczba": 748
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -236,38 +236,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 38
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 967
+    "liczba": 1094
    },
    {
     "nazwa": "Van",
-    "liczba": 903
+    "liczba": 995
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 302
+    "liczba": 307
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 226
+    "liczba": 263
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 55
+    "liczba": 56
    }
   ],
-  "noweOdPaczki": 927,
+  "noweOdPaczki": 1189,
   "hybrydy": 96,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
+    "rok": 2020,
+    "liczba": 105
+   },
+   {
     "rok": 2021,
-    "liczba": 90
+    "liczba": 242
    },
    {
     "rok": 2022,
@@ -291,6 +299,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 16
+   },
    {
     "miesiac": "2021-12",
     "liczba": 10
@@ -528,10 +588,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 556,
+  "miejsce": 544,
   "miejsceWMarce": 10,
-  "modeliWMarce": 19,
-  "sredniRocznik": 2008.1
+  "modeliWMarce": 20,
+  "sredniRocznik": 2007.9
  },
  "youtubeId": "",
  "zrodla": [
@@ -559,14 +619,14 @@
    "adres": "/marki/audi/a6/"
   },
   {
-   "slug": "opel-antara",
-   "nazwa": "Opel Antara",
-   "adres": "/marki/opel/antara/"
-  },
-  {
    "slug": "volvo-v40",
    "nazwa": "Volvo V40",
    "adres": "/marki/volvo/v40/"
+  },
+  {
+   "slug": "audi-a4",
+   "nazwa": "Audi A4",
+   "adres": "/marki/audi/a4/"
   }
  ]
 }

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Marbella – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 21 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MARBELLA, MARBELLA 0.8, MARBELLA 0.9 KAT, MARBELLA 0.9, MARBELLA 0.8 KAT).",
-  "liczbaWPolsce": 1881,
-  "aktywne": 56,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Marbella – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MARBELLA, MARBELLA 0.8, MARBELLA 0.9 KAT, MARBELLA 0.9, MARBELLA 0.8 KAT).",
+  "liczbaWPolsce": 1885,
+  "aktywne": 60,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 128
+    "liczba": 131
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 247
+    "liczba": 248
    },
    {
     "teryt": "32",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 83
+    "liczba": 84
    },
    {
     "rok": 1990,
@@ -113,15 +113,15 @@
    },
    {
     "rok": 1994,
-    "liczba": 147
+    "liczba": 148
    },
    {
     "rok": 1995,
-    "liczba": 107
+    "liczba": 108
    },
    {
     "rok": 1996,
-    "liczba": 111
+    "liczba": 112
    },
    {
     "rok": 1997,
@@ -131,7 +131,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1259
+    "liczba": 1263
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -149,11 +149,11 @@
   "pojemnosci": [
    {
     "nazwa": "0,9 l",
-    "liczba": 1058
+    "liczba": 1061
    },
    {
     "nazwa": "0,8 l",
-    "liczba": 805
+    "liczba": 806
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,11 +163,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 924
+    "liczba": 925
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 791
+    "liczba": 794
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -185,7 +185,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1096
+    "liczba": 1100
    },
    {
     "nazwa": "Sedan",
@@ -196,10 +196,18 @@
     "liczba": 605
    }
   ],
-  "noweOdPaczki": 21,
+  "noweOdPaczki": 25,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 3
+   },
    {
     "rok": 2022,
     "liczba": 4
@@ -218,6 +226,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -455,7 +515,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 620,
+  "miejsce": 634,
   "miejsceWMarce": 13,
   "modeliWMarce": 19,
   "sredniRocznik": 1992.2

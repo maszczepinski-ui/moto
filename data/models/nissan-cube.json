@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Cube – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 133 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUBE).",
-  "liczbaWPolsce": 290,
-  "aktywne": 202,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Cube – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 158 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUBE).",
+  "liczbaWPolsce": 315,
+  "aktywne": 227,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "06",
@@ -31,19 +31,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "10",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "12",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "14",
-    "liczba": 50
+    "liczba": 53
    },
    {
     "teryt": "16",
@@ -51,35 +51,35 @@
    },
    {
     "teryt": "18",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "22",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "teryt": "24",
-    "liczba": 35
+    "liczba": 41
    },
    {
     "teryt": "26",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "30",
-    "liczba": 33
+    "liczba": 37
    },
    {
     "teryt": "32",
-    "liczba": 13
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 3,
@@ -126,15 +126,15 @@
    },
    {
     "rok": 2009,
-    "liczba": 20
+    "liczba": 23
    },
    {
     "rok": 2010,
-    "liczba": 239
+    "liczba": 257
    },
    {
     "rok": 2011,
-    "liczba": 16
+    "liczba": 19
    },
    {
     "rok": 2012,
@@ -146,7 +146,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2015,
@@ -164,15 +164,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 221
+    "liczba": 239
    },
    {
     "nazwa": "Diesel",
-    "liczba": 39
+    "liczba": 44
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
@@ -182,15 +182,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 234
+    "liczba": 253
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 38
+    "liczba": 43
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "1,4 l",
@@ -204,11 +204,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 151
+    "liczba": 168
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 105
+    "liczba": 113
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -222,19 +222,19 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 185
+    "liczba": 197
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 46
+    "liczba": 53
    },
    {
     "nazwa": "Kombi",
-    "liczba": 30
+    "liczba": 34
    },
    {
     "nazwa": "Van",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "nazwa": "Sedan",
@@ -245,13 +245,17 @@
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 133,
+  "noweOdPaczki": 158,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 13
+   },
+   {
+    "rok": 2021,
+    "liczba": 25
    },
    {
     "rok": 2022,
@@ -275,6 +279,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -512,7 +568,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1134,
+  "miejsce": 1127,
   "miejsceWMarce": 41,
   "modeliWMarce": 47,
   "sredniRocznik": 2009.9
@@ -525,5 +581,32 @@
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "cube",
- "adres": "/marki/nissan/cube/"
+ "adres": "/marki/nissan/cube/",
+ "konkurenci": [
+  {
+   "slug": "opel-meriva",
+   "nazwa": "Opel Meriva",
+   "adres": "/marki/opel/meriva/"
+  },
+  {
+   "slug": "toyota-auris",
+   "nazwa": "Toyota Auris",
+   "adres": "/marki/toyota/auris/"
+  },
+  {
+   "slug": "skoda-roomster",
+   "nazwa": "Skoda Roomster",
+   "adres": "/marki/skoda/roomster/"
+  },
+  {
+   "slug": "fiat-tipo",
+   "nazwa": "Fiat Tipo",
+   "adres": "/marki/fiat/tipo/"
+  },
+  {
+   "slug": "alfa-romeo-mito",
+   "nazwa": "Alfa Romeo Mito",
+   "adres": "/marki/alfa-romeo/mito/"
+  }
+ ]
 }

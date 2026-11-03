@@ -13,57 +13,57 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Demio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 79 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEMIO, DEMIO 1.3 KAT, DEMIO 1.3, DEMIO 1,3 KAT).",
-  "liczbaWPolsce": 1416,
-  "aktywne": 505,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda Demio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 118 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEMIO, DEMIO 1.3 KAT, DEMIO 1.3, DEMIO 1,3 KAT).",
+  "liczbaWPolsce": 1455,
+  "aktywne": 544,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 132
+    "liczba": 135
    },
    {
     "teryt": "04",
-    "liczba": 75
+    "liczba": 79
    },
    {
     "teryt": "06",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "teryt": "08",
-    "liczba": 67
+    "liczba": 68
    },
    {
     "teryt": "10",
-    "liczba": 121
+    "liczba": 126
    },
    {
     "teryt": "12",
-    "liczba": 113
+    "liczba": 115
    },
    {
     "teryt": "14",
-    "liczba": 162
+    "liczba": 164
    },
    {
     "teryt": "16",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "teryt": "18",
-    "liczba": 82
+    "liczba": 86
    },
    {
     "teryt": "20",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "teryt": "22",
-    "liczba": 46
+    "liczba": 48
    },
    {
     "teryt": "24",
-    "liczba": 102
+    "liczba": 105
    },
    {
     "teryt": "26",
@@ -71,42 +71,42 @@
    },
    {
     "teryt": "28",
-    "liczba": 46
+    "liczba": 48
    },
    {
     "teryt": "30",
-    "liczba": 178
+    "liczba": 181
    },
    {
     "teryt": "32",
-    "liczba": 77
+    "liczba": 81
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 1998,
-    "liczba": 141
+    "liczba": 143
    },
    {
     "rok": 1999,
-    "liczba": 306
+    "liczba": 315
    },
    {
     "rok": 2000,
-    "liczba": 403
+    "liczba": 412
    },
    {
     "rok": 2001,
-    "liczba": 283
+    "liczba": 293
    },
    {
     "rok": 2002,
-    "liczba": 228
+    "liczba": 234
    },
    {
     "rok": 2003,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 2004,
@@ -122,11 +122,11 @@
    },
    {
     "rok": 2007,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2008,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2009,
@@ -136,39 +136,39 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1257
+    "liczba": 1293
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 153
+    "liczba": 155
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 7
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 991
+    "liczba": 1020
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 420
+    "liczba": 428
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 7
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1094
+    "liczba": 1126
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 313
+    "liczba": 320
    },
    {
     "nazwa": "Inne / brak danych",
@@ -178,15 +178,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 941
+    "liczba": 970
    },
    {
     "nazwa": "Kombi",
-    "liczba": 244
+    "liczba": 250
    },
    {
     "nazwa": "Van",
-    "liczba": 167
+    "liczba": 171
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -201,13 +201,21 @@
     "liczba": 25
    }
   ],
-  "noweOdPaczki": 79,
+  "noweOdPaczki": 118,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 19
+   },
+   {
     "rok": 2021,
-    "liczba": 6
+    "liczba": 23
    },
    {
     "rok": 2022,
@@ -231,6 +239,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -468,9 +528,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 695,
-  "miejsceWMarce": 21,
-  "modeliWMarce": 32,
+  "miejsce": 704,
+  "miejsceWMarce": 22,
+  "modeliWMarce": 33,
   "sredniRocznik": 2000.2
  },
  "youtubeId": "",
@@ -504,9 +564,9 @@
    "adres": "/marki/volkswagen/lupo/"
   },
   {
-   "slug": "volkswagen-polo",
-   "nazwa": "Volkswagen Polo",
-   "adres": "/marki/volkswagen/polo/"
+   "slug": "seat-arosa",
+   "nazwa": "Seat Arosa",
+   "adres": "/marki/seat/arosa/"
   }
  ]
 }

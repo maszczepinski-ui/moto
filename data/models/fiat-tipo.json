@@ -13,84 +13,84 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Tipo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 065 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIPO, TIPO 1.4, FIAT TIPO, TIPO 1.4 KAT, TIPO 1.6 KAT).",
-  "liczbaWPolsce": 45156,
-  "aktywne": 26357,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Tipo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 318 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIPO, TIPO 1.4, FIAT TIPO, TIPO 1.4 KAT, TIPO 1.6 KAT).",
+  "liczbaWPolsce": 54409,
+  "aktywne": 35610,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 3897
+    "liczba": 4470
    },
    {
     "teryt": "04",
-    "liczba": 2121
+    "liczba": 2428
    },
    {
     "teryt": "06",
-    "liczba": 1529
+    "liczba": 1764
    },
    {
     "teryt": "08",
-    "liczba": 1386
+    "liczba": 1536
    },
    {
     "teryt": "10",
-    "liczba": 2829
+    "liczba": 3386
    },
    {
     "teryt": "12",
-    "liczba": 4723
+    "liczba": 5949
    },
    {
     "teryt": "14",
-    "liczba": 5569
+    "liczba": 6932
    },
    {
     "teryt": "16",
-    "liczba": 1205
+    "liczba": 1427
    },
    {
     "teryt": "18",
-    "liczba": 1953
+    "liczba": 2420
    },
    {
     "teryt": "20",
-    "liczba": 840
+    "liczba": 1054
    },
    {
     "teryt": "22",
-    "liczba": 2436
+    "liczba": 2864
    },
    {
     "teryt": "24",
-    "liczba": 7939
+    "liczba": 9863
    },
    {
     "teryt": "26",
-    "liczba": 1153
+    "liczba": 1435
    },
    {
     "teryt": "28",
-    "liczba": 1320
+    "liczba": 1599
    },
    {
     "teryt": "30",
-    "liczba": 4557
+    "liczba": 5367
    },
    {
     "teryt": "32",
-    "liczba": 1654
+    "liczba": 1870
    }
   ],
   "bezWojewodztwa": 45,
   "roczniki": [
    {
     "rok": 1988,
-    "liczba": 371
+    "liczba": 372
    },
    {
     "rok": 1989,
-    "liczba": 1294
+    "liczba": 1295
    },
    {
     "rok": 1990,
@@ -110,11 +110,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 2101
+    "liczba": 2103
    },
    {
     "rok": 1995,
-    "liczba": 2172
+    "liczba": 2173
    },
    {
     "rok": 1996,
@@ -194,31 +194,31 @@
    },
    {
     "rok": 2015,
-    "liczba": 10
+    "liczba": 12
    },
    {
     "rok": 2016,
-    "liczba": 3983
+    "liczba": 4148
    },
    {
     "rok": 2017,
-    "liczba": 8580
+    "liczba": 8819
    },
    {
     "rok": 2018,
-    "liczba": 7159
+    "liczba": 7309
    },
    {
     "rok": 2019,
-    "liczba": 2883
+    "liczba": 4001
    },
    {
     "rok": 2020,
-    "liczba": 655
+    "liczba": 6117
    },
    {
     "rok": 2021,
-    "liczba": 2263
+    "liczba": 4375
    },
    {
     "rok": 2022,
@@ -236,15 +236,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 27638
+    "liczba": 34426
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 9106
+    "liczba": 11245
    },
    {
     "nazwa": "Diesel",
-    "liczba": 4208
+    "liczba": 4534
    },
    {
     "nazwa": "?+LPG",
@@ -258,15 +258,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 32768
+    "liczba": 40599
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 6016
+    "liczba": 6274
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 2859
+    "liczba": 3939
    },
    {
     "nazwa": "1,9 l",
@@ -277,65 +277,69 @@
     "liczba": 791
    },
    {
-    "nazwa": "2,0 l",
-    "liczba": 534
-   },
-   {
     "nazwa": "1,2 l",
-    "liczba": 534
+    "liczba": 617
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 664
+    "liczba": 1199
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 19539
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 23660
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 17904
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 22662
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 7317
+    "liczba": 7681
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 396
+    "liczba": 406
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 14796
+    "liczba": 19379
    },
    {
     "nazwa": "Sedan",
-    "liczba": 13178
+    "liczba": 17561
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 10313
+    "liczba": 10494
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1014
+    "liczba": 1118
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5855
+    "liczba": 5857
    }
   ],
-  "noweOdPaczki": 11065,
+  "noweOdPaczki": 20318,
   "hybrydy": 142,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 243
+   },
+   {
+    "rok": 2020,
+    "liczba": 6227
+   },
+   {
     "rok": 2021,
-    "liczba": 2482
+    "liczba": 5265
    },
    {
     "rok": 2022,
@@ -359,6 +363,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1136
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1891
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 117
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 289
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 269
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 507
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 743
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 798
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 911
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 458
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 536
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 348
+   },
    {
     "miesiac": "2021-12",
     "liczba": 211
@@ -596,10 +652,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 105,
+  "miejsce": 93,
   "miejsceWMarce": 6,
-  "modeliWMarce": 60,
-  "sredniRocznik": 2008.9
+  "modeliWMarce": 61,
+  "sredniRocznik": 2010.8
  },
  "youtubeId": "",
  "zrodla": [
@@ -617,24 +673,24 @@
    "adres": "/marki/nissan/note/"
   },
   {
-   "slug": "skoda-roomster",
-   "nazwa": "Skoda Roomster",
-   "adres": "/marki/skoda/roomster/"
-  },
-  {
-   "slug": "opel-meriva",
-   "nazwa": "Opel Meriva",
-   "adres": "/marki/opel/meriva/"
-  },
-  {
    "slug": "alfa-romeo-mito",
    "nazwa": "Alfa Romeo Mito",
    "adres": "/marki/alfa-romeo/mito/"
   },
   {
-   "slug": "opel-combo",
-   "nazwa": "Opel Combo",
-   "adres": "/marki/opel/combo/"
+   "slug": "skoda-roomster",
+   "nazwa": "Skoda Roomster",
+   "adres": "/marki/skoda/roomster/"
+  },
+  {
+   "slug": "kia-venga",
+   "nazwa": "Kia Venga",
+   "adres": "/marki/kia/venga/"
+  },
+  {
+   "slug": "toyota-auris",
+   "nazwa": "Toyota Auris",
+   "adres": "/marki/toyota/auris/"
   }
  ]
 }

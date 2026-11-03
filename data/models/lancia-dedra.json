@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Dedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEDRA, DEDRA 1.6 KAT, DEDRA 2.0 KAT, DEDRA 1.8 KAT, DEDRA 1.6).",
-  "liczbaWPolsce": 1504,
-  "aktywne": 24,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Dedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEDRA, DEDRA 1.6 KAT, DEDRA 2.0 KAT, DEDRA 1.8 KAT, DEDRA 1.6).",
+  "liczbaWPolsce": 1507,
+  "aktywne": 27,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 126
+    "liczba": 127
    },
    {
     "teryt": "08",
@@ -35,11 +35,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 74
+    "liczba": 75
    },
    {
     "teryt": "12",
-    "liczba": 108
+    "liczba": 109
    },
    {
     "teryt": "14",
@@ -102,11 +102,11 @@
    },
    {
     "rok": 1991,
-    "liczba": 298
+    "liczba": 299
    },
    {
     "rok": 1992,
-    "liczba": 211
+    "liczba": 212
    },
    {
     "rok": 1993,
@@ -114,7 +114,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 187
+    "liczba": 188
    },
    {
     "rok": 1995,
@@ -136,7 +136,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 510
+    "liczba": 513
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -158,15 +158,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 527
+    "liczba": 528
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 340
+    "liczba": 341
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 292
+    "liczba": 293
    },
    {
     "nazwa": "1,9 l",
@@ -188,7 +188,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 613
+    "liczba": 616
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -206,11 +206,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 835
+    "liczba": 837
    },
    {
     "nazwa": "Kombi",
-    "liczba": 175
+    "liczba": 176
    },
    {
     "nazwa": "Hatchback",
@@ -221,10 +221,18 @@
     "liczba": 422
    }
   ],
-  "noweOdPaczki": 10,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 2
+   },
    {
     "rok": 2022,
     "liczba": 3
@@ -243,6 +251,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -480,7 +540,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 675,
+  "miejsce": 690,
   "miejsceWMarce": 6,
   "modeliWMarce": 15,
   "sredniRocznik": 1993.1

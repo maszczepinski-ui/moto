@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nsu Prinz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRINZ 1000, PRINZ).",
-  "liczbaWPolsce": 274,
-  "aktywne": 11,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nsu Prinz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRINZ 1000, PRINZ).",
+  "liczbaWPolsce": 275,
+  "aktywne": 12,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "06",
@@ -140,7 +140,7 @@
    },
    {
     "rok": 1972,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1973,
@@ -214,7 +214,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "nazwa": "Inne / brak danych",
@@ -232,7 +232,7 @@
    },
    {
     "nazwa": "0,6 l",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "0,7 l",
@@ -246,7 +246,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 143
+    "liczba": 144
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -264,17 +264,21 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 248
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 9,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2023,
     "liczba": 1
@@ -293,6 +297,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -530,7 +586,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1150,
+  "miejsce": 1167,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
   "sredniRocznik": 1967.7

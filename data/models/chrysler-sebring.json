@@ -13,61 +13,61 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Sebring – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 344 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEBRING).",
-  "liczbaWPolsce": 1528,
-  "aktywne": 715,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Sebring – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 447 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEBRING, SEBRING 2.7).",
+  "liczbaWPolsce": 1631,
+  "aktywne": 818,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 87
+    "liczba": 96
    },
    {
     "teryt": "04",
-    "liczba": 91
+    "liczba": 100
    },
    {
     "teryt": "06",
-    "liczba": 90
-   },
-   {
-    "teryt": "08",
-    "liczba": 63
-   },
-   {
-    "teryt": "10",
-    "liczba": 112
-   },
-   {
-    "teryt": "12",
-    "liczba": 90
-   },
-   {
-    "teryt": "14",
-    "liczba": 303
-   },
-   {
-    "teryt": "16",
-    "liczba": 34
-   },
-   {
-    "teryt": "18",
-    "liczba": 61
-   },
-   {
-    "teryt": "20",
-    "liczba": 45
-   },
-   {
-    "teryt": "22",
     "liczba": 99
    },
    {
-    "teryt": "24",
+    "teryt": "08",
+    "liczba": 64
+   },
+   {
+    "teryt": "10",
     "liczba": 122
    },
    {
-    "teryt": "26",
+    "teryt": "12",
+    "liczba": 95
+   },
+   {
+    "teryt": "14",
+    "liczba": 318
+   },
+   {
+    "teryt": "16",
     "liczba": 35
+   },
+   {
+    "teryt": "18",
+    "liczba": 66
+   },
+   {
+    "teryt": "20",
+    "liczba": 47
+   },
+   {
+    "teryt": "22",
+    "liczba": 107
+   },
+   {
+    "teryt": "24",
+    "liczba": 134
+   },
+   {
+    "teryt": "26",
+    "liczba": 37
    },
    {
     "teryt": "28",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 152
+    "liczba": 161
    },
    {
     "teryt": "32",
-    "liczba": 75
+    "liczba": 81
    }
   ],
   "bezWojewodztwa": 11,
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 1997,
@@ -110,61 +110,57 @@
    },
    {
     "rok": 2001,
-    "liczba": 190
+    "liczba": 197
    },
    {
     "rok": 2002,
-    "liczba": 174
+    "liczba": 184
    },
    {
     "rok": 2003,
-    "liczba": 88
+    "liczba": 93
    },
    {
     "rok": 2004,
-    "liczba": 175
+    "liczba": 183
    },
    {
     "rok": 2005,
-    "liczba": 86
+    "liczba": 90
    },
    {
     "rok": 2006,
-    "liczba": 63
+    "liczba": 66
    },
    {
     "rok": 2007,
-    "liczba": 276
+    "liczba": 299
    },
    {
     "rok": 2008,
-    "liczba": 223
+    "liczba": 254
    },
    {
     "rok": 2009,
-    "liczba": 65
+    "liczba": 71
    },
    {
     "rok": 2010,
-    "liczba": 30
-   },
-   {
-    "rok": 2011,
-    "liczba": 3
+    "liczba": 35
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 755
+    "liczba": 802
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 425
+    "liczba": 439
    },
    {
     "nazwa": "Diesel",
-    "liczba": 332
+    "liczba": 374
    },
    {
     "nazwa": "Inne / brak danych",
@@ -174,19 +170,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 705
+    "liczba": 778
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 529
+    "liczba": 552
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 164
+    "liczba": 170
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 102
+    "liczba": 103
    },
    {
     "nazwa": "3,0 l",
@@ -200,11 +196,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 753
+    "liczba": 800
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 724
+    "liczba": 780
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -218,32 +214,40 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 824
+    "liczba": 880
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 581
+    "liczba": 625
    },
    {
     "nazwa": "Coupe",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 53
    }
   ],
-  "noweOdPaczki": 344,
+  "noweOdPaczki": 447,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 43
+   },
+   {
     "rok": 2021,
-    "liczba": 28
+    "liczba": 86
    },
    {
     "rok": 2022,
@@ -267,6 +271,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2021-12",
     "liczba": 4
@@ -504,10 +560,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 669,
+  "miejsce": 667,
   "miejsceWMarce": 6,
   "modeliWMarce": 21,
-  "sredniRocznik": 2004.4
+  "sredniRocznik": 2004.5
  },
  "youtubeId": "",
  "zrodla": [
@@ -520,11 +576,6 @@
  "adres": "/marki/chrysler/sebring/",
  "konkurenci": [
   {
-   "slug": "bmw-seria-5",
-   "nazwa": "BMW Seria 5",
-   "adres": "/marki/bmw/seria-5/"
-  },
-  {
    "slug": "jaguar-x-type",
    "nazwa": "Jaguar X-Type",
    "adres": "/marki/jaguar/x-type/"
@@ -535,14 +586,19 @@
    "adres": "/marki/saab/9-5/"
   },
   {
+   "slug": "bmw-seria-5",
+   "nazwa": "BMW Seria 5",
+   "adres": "/marki/bmw/seria-5/"
+  },
+  {
    "slug": "volvo-s80",
    "nazwa": "Volvo S80",
    "adres": "/marki/volvo/s80/"
   },
   {
-   "slug": "subaru-impreza",
-   "nazwa": "Subaru Impreza",
-   "adres": "/marki/subaru/impreza/"
+   "slug": "bmw-seria-3",
+   "nazwa": "BMW Seria 3",
+   "adres": "/marki/bmw/seria-3/"
   }
  ]
 }

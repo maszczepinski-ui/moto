@@ -12,96 +12,96 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Crossland – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 018 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSLAND X, CROSSLAND).",
-  "liczbaWPolsce": 12649,
-  "aktywne": 12647,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Crossland – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 305 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSLAND X, CROSSLAND).",
+  "liczbaWPolsce": 15936,
+  "aktywne": 15934,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 688
+    "liczba": 874
    },
    {
     "teryt": "04",
-    "liczba": 883
+    "liczba": 1122
    },
    {
     "teryt": "06",
-    "liczba": 340
+    "liczba": 423
    },
    {
     "teryt": "08",
-    "liczba": 341
+    "liczba": 446
    },
    {
     "teryt": "10",
-    "liczba": 671
+    "liczba": 832
    },
    {
     "teryt": "12",
-    "liczba": 1114
+    "liczba": 1401
    },
    {
     "teryt": "14",
-    "liczba": 1666
+    "liczba": 2149
    },
    {
     "teryt": "16",
-    "liczba": 309
+    "liczba": 373
    },
    {
     "teryt": "18",
-    "liczba": 814
+    "liczba": 1013
    },
    {
     "teryt": "20",
-    "liczba": 244
+    "liczba": 313
    },
    {
     "teryt": "22",
-    "liczba": 697
+    "liczba": 880
    },
    {
     "teryt": "24",
-    "liczba": 2173
+    "liczba": 2742
    },
    {
     "teryt": "26",
-    "liczba": 243
+    "liczba": 296
    },
    {
     "teryt": "28",
-    "liczba": 391
+    "liczba": 496
    },
    {
     "teryt": "30",
-    "liczba": 1657
+    "liczba": 2038
    },
    {
     "teryt": "32",
-    "liczba": 416
+    "liczba": 536
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2017,
-    "liczba": 1487
+    "liczba": 1575
    },
    {
     "rok": 2018,
-    "liczba": 2457
+    "liczba": 2558
    },
    {
     "rok": 2019,
-    "liczba": 1913
+    "liczba": 2385
    },
    {
     "rok": 2020,
-    "liczba": 772
+    "liczba": 2457
    },
    {
     "rok": 2021,
-    "liczba": 1332
+    "liczba": 2273
    },
    {
     "rok": 2022,
@@ -119,15 +119,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 11477
+    "liczba": 14607
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1009
+    "liczba": 1136
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 159
+    "liczba": 189
    },
    {
     "nazwa": "Inne / brak danych",
@@ -137,15 +137,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 11631
+    "liczba": 14791
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 620
+    "liczba": 703
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 396
+    "liczba": 440
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,46 +155,54 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5219
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3882
+    "liczba": 6359
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3530
+    "liczba": 5509
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 4049
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 19
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 11455
+    "liczba": 14637
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 719
+    "liczba": 781
    },
    {
     "nazwa": "Kombi",
-    "liczba": 341
+    "liczba": 369
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 134
+    "liczba": 149
    }
   ],
-  "noweOdPaczki": 10018,
+  "noweOdPaczki": 13305,
   "hybrydy": 2,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 64
+   },
+   {
+    "rok": 2020,
+    "liczba": 1493
+   },
+   {
     "rok": 2021,
-    "liczba": 980
+    "liczba": 2710
    },
    {
     "rok": 2022,
@@ -218,6 +226,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 259
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 243
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 238
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 379
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 331
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 269
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 251
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 221
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 109
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 251
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 294
+   },
    {
     "miesiac": "2021-12",
     "liczba": 136
@@ -455,10 +515,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 273,
-  "miejsceWMarce": 16,
+  "miejsce": 248,
+  "miejsceWMarce": 13,
   "modeliWMarce": 33,
-  "sredniRocznik": 2020.3
+  "sredniRocznik": 2020.2
  },
  "youtubeId": "",
  "zrodla": [

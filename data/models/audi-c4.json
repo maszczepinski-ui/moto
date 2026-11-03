@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi C4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C4, C4 2.5 TDI).",
-  "liczbaWPolsce": 877,
-  "aktywne": 111,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi C4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C4, C4 2.5 TDI).",
+  "liczbaWPolsce": 884,
+  "aktywne": 118,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,15 +22,15 @@
    },
    {
     "teryt": "04",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "06",
-    "liczba": 170
+    "liczba": 171
    },
    {
     "teryt": "08",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "10",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "14",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "30",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "32",
@@ -89,11 +89,11 @@
    },
    {
     "rok": 1991,
-    "liczba": 97
+    "liczba": 98
    },
    {
     "rok": 1992,
-    "liczba": 123
+    "liczba": 125
    },
    {
     "rok": 1993,
@@ -101,11 +101,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 209
+    "liczba": 210
    },
    {
     "rok": 1995,
-    "liczba": 117
+    "liczba": 120
    },
    {
     "rok": 1996,
@@ -119,15 +119,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 391
+    "liczba": 392
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 268
+    "liczba": 269
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 167
+    "liczba": 172
    },
    {
     "nazwa": "Inne / brak danych",
@@ -137,19 +137,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 386
+    "liczba": 387
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 148
+    "liczba": 151
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 107
+    "liczba": 108
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 91
+    "liczba": 92
    },
    {
     "nazwa": "2,3 l",
@@ -157,7 +157,7 @@
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "2,2 l",
@@ -175,11 +175,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 532
+    "liczba": 533
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 330
+    "liczba": 336
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -193,11 +193,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 406
+    "liczba": 409
    },
    {
     "nazwa": "Kombi",
-    "liczba": 353
+    "liczba": 357
    },
    {
     "nazwa": "Hatchback",
@@ -208,13 +208,17 @@
     "liczba": 93
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 26,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 5
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 2022,
@@ -238,6 +242,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -475,9 +531,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 805,
+  "miejsce": 812,
   "miejsceWMarce": 34,
-  "modeliWMarce": 52,
+  "modeliWMarce": 54,
   "sredniRocznik": 1993.7
  },
  "youtubeId": "",

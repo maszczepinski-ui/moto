@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG ZS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 383 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG ZS, ZS, MG ZS EV, ZS HYBRID, ZS EV).",
-  "liczbaWPolsce": 13383,
-  "aktywne": 13383,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG ZS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 386 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG ZS, ZS, MG ZS EV, ZS HYBRID, ZS EV).",
+  "liczbaWPolsce": 13386,
+  "aktywne": 13386,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 2421
+    "liczba": 2422
    },
    {
     "teryt": "16",
@@ -65,7 +65,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 268
+    "liczba": 269
    },
    {
     "teryt": "28",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1510
+    "liczba": 1511
    },
    {
     "teryt": "32",
@@ -114,11 +114,11 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 4084
+    "liczba": 4085
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 156
+    "liczba": 158
    }
   ],
   "pojemnosci": [
@@ -132,7 +132,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 81
+    "liczba": 84
    }
   ],
   "pochodzenie": [
@@ -142,11 +142,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 840
+    "liczba": 842
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 333
+    "liczba": 334
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,17 +156,25 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 13321
+    "liczba": 13324
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 62
    }
   ],
-  "noweOdPaczki": 13383,
+  "noweOdPaczki": 13386,
   "hybrydy": 9143,
-  "elektryczne": 76,
+  "elektryczne": 78,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 2
+   },
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 3
@@ -189,6 +197,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -426,9 +486,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 265,
+  "miejsce": 277,
   "miejsceWMarce": 2,
-  "modeliWMarce": 7,
+  "modeliWMarce": 8,
   "sredniRocznik": 2024.8
  },
  "youtubeId": "",

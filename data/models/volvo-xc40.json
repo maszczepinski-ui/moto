@@ -12,92 +12,92 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo XC40 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 543 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XC40, XC40 T5 TWIN ENGINE, XC40 RECHARGE, XC40 HYBRID).",
-  "liczbaWPolsce": 28038,
-  "aktywne": 28036,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo XC40 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 29 930 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XC40, XC40 T5 TWIN ENGINE, XC40 RECHARGE, XC40 HYBRID).",
+  "liczbaWPolsce": 31425,
+  "aktywne": 31423,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2050
+    "liczba": 2326
    },
    {
     "teryt": "04",
-    "liczba": 1134
+    "liczba": 1269
    },
    {
     "teryt": "06",
-    "liczba": 1118
+    "liczba": 1263
    },
    {
     "teryt": "08",
-    "liczba": 404
+    "liczba": 452
    },
    {
     "teryt": "10",
-    "liczba": 1553
+    "liczba": 1720
    },
    {
     "teryt": "12",
-    "liczba": 2487
+    "liczba": 2777
    },
    {
     "teryt": "14",
-    "liczba": 7084
+    "liczba": 7914
    },
    {
     "teryt": "16",
-    "liczba": 358
+    "liczba": 412
    },
    {
     "teryt": "18",
-    "liczba": 1034
+    "liczba": 1139
    },
    {
     "teryt": "20",
-    "liczba": 687
+    "liczba": 757
    },
    {
     "teryt": "22",
-    "liczba": 2010
+    "liczba": 2282
    },
    {
     "teryt": "24",
-    "liczba": 2822
+    "liczba": 3205
    },
    {
     "teryt": "26",
-    "liczba": 690
+    "liczba": 768
    },
    {
     "teryt": "28",
-    "liczba": 679
+    "liczba": 774
    },
    {
     "teryt": "30",
-    "liczba": 2866
+    "liczba": 3181
    },
    {
     "teryt": "32",
-    "liczba": 1060
+    "liczba": 1184
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2018,
-    "liczba": 1630
+    "liczba": 1662
    },
    {
     "rok": 2019,
-    "liczba": 3101
+    "liczba": 3256
    },
    {
     "rok": 2020,
-    "liczba": 1873
+    "liczba": 3206
    },
    {
     "rok": 2021,
-    "liczba": 2459
+    "liczba": 4326
    },
    {
     "rok": 2022,
@@ -123,82 +123,90 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 14565
+    "liczba": 17174
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 9585
+    "liczba": 10135
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3176
+    "liczba": 3384
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 633
+    "liczba": 640
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 79
+    "liczba": 92
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 22859
+    "liczba": 23904
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 4538
+    "liczba": 6873
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 641
+    "liczba": 648
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 15544
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 6504
+    "liczba": 16777
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5924
+    "liczba": 8013
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 6564
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 66
+    "liczba": 71
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 25672
+    "liczba": 29004
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1501
+    "liczba": 1528
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 504
+    "liczba": 519
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 361
+    "liczba": 374
    }
   ],
-  "noweOdPaczki": 26543,
-  "hybrydy": 9588,
-  "elektryczne": 633,
+  "noweOdPaczki": 29930,
+  "hybrydy": 10138,
+  "elektryczne": 640,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 35
+   },
+   {
+    "rok": 2020,
+    "liczba": 1331
+   },
+   {
     "rok": 2021,
-    "liczba": 1069
+    "liczba": 3090
    },
    {
     "rok": 2022,
@@ -222,6 +230,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 153
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 162
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 110
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 453
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 439
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 267
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 269
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 303
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 306
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 156
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 170
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 217
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 237
+   },
    {
     "miesiac": "2021-12",
     "liczba": 163
@@ -459,10 +519,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 164,
+  "miejsce": 162,
   "miejsceWMarce": 6,
   "modeliWMarce": 34,
-  "sredniRocznik": 2022.6
+  "sredniRocznik": 2022.4
  },
  "youtubeId": "",
  "zrodla": [
@@ -475,14 +535,14 @@
  "adres": "/marki/volvo/xc40/",
  "konkurenci": [
   {
-   "slug": "mazda-cx-30",
-   "nazwa": "Mazda CX-30",
-   "adres": "/marki/mazda/cx-30/"
-  },
-  {
    "slug": "skoda-kodiaq",
    "nazwa": "Skoda Kodiaq",
    "adres": "/marki/skoda/kodiaq/"
+  },
+  {
+   "slug": "mazda-cx-30",
+   "nazwa": "Mazda CX-30",
+   "adres": "/marki/mazda/cx-30/"
   },
   {
    "slug": "suzuki-swace",
@@ -490,9 +550,9 @@
    "adres": "/marki/suzuki/swace/"
   },
   {
-   "slug": "mercedes-benz-klasa-glc",
-   "nazwa": "Mercedes-Benz Klasa GLC",
-   "adres": "/marki/mercedes-benz/klasa-glc/"
+   "slug": "bmw-x2",
+   "nazwa": "BMW X2",
+   "adres": "/marki/bmw/x2/"
   },
   {
    "slug": "skoda-karoq",

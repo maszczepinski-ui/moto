@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Applause – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: APPLAUSE, APPLAUSE 1.6 KAT, APPLAUSE 1.6, APPLAUSE 1,6).",
-  "liczbaWPolsce": 991,
-  "aktywne": 20,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Applause – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: APPLAUSE, APPLAUSE 1.6 KAT, APPLAUSE 1.6, APPLAUSE 1,6).",
+  "liczbaWPolsce": 993,
+  "aktywne": 22,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 60
+    "liczba": 62
    },
    {
     "teryt": "24",
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 1990,
@@ -149,7 +149,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 1999,
@@ -163,7 +163,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 568
+    "liczba": 570
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -181,7 +181,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 983
+    "liczba": 985
    },
    {
     "nazwa": "Inne / brak danych",
@@ -191,7 +191,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 542
+    "liczba": 544
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -213,27 +213,83 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 370
+    "liczba": 371
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 327
+    "liczba": 328
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 294
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 3,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 2
+   },
    {
     "rok": 2022,
     "liczba": 1
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -471,7 +527,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 783,
+  "miejsce": 791,
   "miejsceWMarce": 6,
   "modeliWMarce": 10,
   "sredniRocznik": 1992.9

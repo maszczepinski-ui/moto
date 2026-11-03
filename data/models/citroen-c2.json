@@ -11,122 +11,122 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen C2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 884 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C2, C2 1.4I, C2 1.4 HDI, C2 1.1 KAT, C2 1.1).",
-  "liczbaWPolsce": 13820,
-  "aktywne": 7739,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen C2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 104 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C2, C2 1.4I, C2 1.4 HDI, C2 1.1 KAT, C2 1.1).",
+  "liczbaWPolsce": 15040,
+  "aktywne": 8959,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1250
+    "liczba": 1383
    },
    {
     "teryt": "04",
-    "liczba": 669
+    "liczba": 740
    },
    {
     "teryt": "06",
-    "liczba": 429
+    "liczba": 479
    },
    {
     "teryt": "08",
-    "liczba": 422
+    "liczba": 468
    },
    {
     "teryt": "10",
-    "liczba": 919
+    "liczba": 1006
    },
    {
     "teryt": "12",
-    "liczba": 1501
+    "liczba": 1633
    },
    {
     "teryt": "14",
-    "liczba": 1244
+    "liczba": 1346
    },
    {
     "teryt": "16",
-    "liczba": 258
+    "liczba": 285
    },
    {
     "teryt": "18",
-    "liczba": 754
+    "liczba": 842
    },
    {
     "teryt": "20",
-    "liczba": 209
+    "liczba": 222
    },
    {
     "teryt": "22",
-    "liczba": 552
+    "liczba": 600
    },
    {
     "teryt": "24",
-    "liczba": 2112
+    "liczba": 2262
    },
    {
     "teryt": "26",
-    "liczba": 298
+    "liczba": 322
    },
    {
     "teryt": "28",
-    "liczba": 319
+    "liczba": 344
    },
    {
     "teryt": "30",
-    "liczba": 2280
+    "liczba": 2455
    },
    {
     "teryt": "32",
-    "liczba": 516
+    "liczba": 565
    }
   ],
   "bezWojewodztwa": 88,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 918
+    "liczba": 992
    },
    {
     "rok": 2004,
-    "liczba": 3144
+    "liczba": 3364
    },
    {
     "rok": 2005,
-    "liczba": 2852
+    "liczba": 3101
    },
    {
     "rok": 2006,
-    "liczba": 2324
+    "liczba": 2526
    },
    {
     "rok": 2007,
-    "liczba": 1850
+    "liczba": 2056
    },
    {
     "rok": 2008,
-    "liczba": 1375
+    "liczba": 1518
    },
    {
     "rok": 2009,
-    "liczba": 914
+    "liczba": 1037
    },
    {
     "rok": 2010,
-    "liczba": 30
+    "liczba": 32
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 10110
+    "liczba": 11166
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3077
+    "liczba": 3206
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 587
+    "liczba": 622
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,29 +136,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 7609
+    "liczba": 8136
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 5276
+    "liczba": 5876
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 907
+    "liczba": 999
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 29
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 8442
+    "liczba": 9176
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4654
+    "liczba": 5139
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -166,26 +166,34 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 104
+    "liczba": 105
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 13468
+    "liczba": 14676
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 352
+    "liczba": 364
    }
   ],
-  "noweOdPaczki": 2884,
+  "noweOdPaczki": 4104,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 17
+   },
+   {
+    "rok": 2020,
+    "liczba": 565
+   },
+   {
     "rok": 2021,
-    "liczba": 472
+    "liczba": 1110
    },
    {
     "rok": 2022,
@@ -209,6 +217,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 76
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 100
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 97
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 81
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 97
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 120
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 99
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 88
+   },
    {
     "miesiac": "2021-12",
     "liczba": 76
@@ -482,9 +542,9 @@
    "adres": "/marki/seat/ibiza/"
   },
   {
-   "slug": "hyundai-getz",
-   "nazwa": "Hyundai Getz",
-   "adres": "/marki/hyundai/getz/"
+   "slug": "ford-fiesta",
+   "nazwa": "Ford Fiesta",
+   "adres": "/marki/ford/fiesta/"
   }
  ]
 }

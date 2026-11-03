@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Astro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 65 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASTRO, ASTRO 4.3 KAT, ASTRO VAN, ASTRO 4X4).",
-  "liczbaWPolsce": 244,
-  "aktywne": 106,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Astro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 78 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASTRO, ASTRO 4.3 KAT, ASTRO VAN, ASTRO 4X4).",
+  "liczbaWPolsce": 257,
+  "aktywne": 119,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "04",
@@ -28,11 +28,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "08",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "10",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 55
+    "liczba": 59
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "20",
@@ -60,11 +60,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "teryt": "24",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "26",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "32",
@@ -99,7 +99,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 8
+    "liczba": 10
    },
    {
     "rok": 1990,
@@ -119,23 +119,23 @@
    },
    {
     "rok": 1994,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 1995,
-    "liczba": 34
+    "liczba": 38
    },
    {
     "rok": 1996,
-    "liczba": 30
+    "liczba": 33
    },
    {
     "rok": 1997,
-    "liczba": 21
+    "liczba": 23
    },
    {
     "rok": 1998,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1999,
@@ -169,11 +169,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 115
+    "liczba": 120
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 101
+    "liczba": 109
    },
    {
     "nazwa": "?+LPG",
@@ -187,11 +187,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,3 l",
-    "liczba": 226
+    "liczba": 238
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
@@ -201,11 +201,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 135
+    "liczba": 144
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 94
+    "liczba": 98
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -223,15 +223,15 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 126
+    "liczba": 136
    },
    {
     "nazwa": "Kombi",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "Sedan",
@@ -243,20 +243,24 @@
    },
    {
     "nazwa": "Furgon",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 35
    }
   ],
-  "noweOdPaczki": 65,
+  "noweOdPaczki": 78,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 5
+   },
+   {
     "rok": 2021,
-    "liczba": 10
+    "liczba": 18
    },
    {
     "rok": 2022,
@@ -280,6 +284,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -517,9 +573,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1200,
+  "miejsce": 1195,
   "miejsceWMarce": 22,
-  "modeliWMarce": 23,
+  "modeliWMarce": 24,
   "sredniRocznik": 1995.0
  },
  "youtubeId": "",

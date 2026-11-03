@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 311 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 311).",
-  "liczbaWPolsce": 1844,
-  "aktywne": 21,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 311 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 311).",
+  "liczbaWPolsce": 1846,
+  "aktywne": 23,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 200
+    "liczba": 201
    },
    {
     "teryt": "14",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 178
+    "liczba": 179
    },
    {
     "teryt": "32",
@@ -104,7 +104,7 @@
    },
    {
     "rok": 1961,
-    "liczba": 393
+    "liczba": 394
    },
    {
     "rok": 1962,
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1963,
-    "liczba": 109
+    "liczba": 110
    },
    {
     "rok": 1964,
@@ -218,7 +218,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 184
+    "liczba": 186
    },
    {
     "nazwa": "Inne / brak danych",
@@ -228,7 +228,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 1194
+    "liczba": 1196
    },
    {
     "nazwa": "0,9 l",
@@ -250,7 +250,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 60
+    "liczba": 62
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -264,17 +264,25 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 167
+    "liczba": 169
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1677
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 1
@@ -293,6 +301,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -530,7 +590,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 624,
+  "miejsce": 640,
   "miejsceWMarce": 5,
   "modeliWMarce": 11,
   "sredniRocznik": 1963.0

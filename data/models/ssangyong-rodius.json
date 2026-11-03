@@ -12,17 +12,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Rodius – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RODIUS).",
-  "liczbaWPolsce": 236,
-  "aktywne": 146,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Rodius – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 89 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RODIUS).",
+  "liczbaWPolsce": 257,
+  "aktywne": 167,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "04",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "06",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "10",
@@ -46,11 +46,11 @@
    },
    {
     "teryt": "16",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "18",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "teryt": "26",
@@ -70,34 +70,34 @@
    },
    {
     "teryt": "28",
-    "liczba": 6
+    "liczba": 11
    },
    {
     "teryt": "30",
-    "liczba": 25
+    "liczba": 28
    },
    {
     "teryt": "32",
-    "liczba": 13
+    "liczba": 16
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 54
+    "liczba": 56
    },
    {
     "rok": 2006,
-    "liczba": 71
+    "liczba": 75
    },
    {
     "rok": 2007,
-    "liczba": 24
+    "liczba": 26
    },
    {
     "rok": 2008,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2009,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2012,
@@ -117,19 +117,19 @@
    },
    {
     "rok": 2013,
-    "liczba": 11
-   },
-   {
-    "rok": 2014,
-    "liczba": 15
-   },
-   {
-    "rok": 2015,
     "liczba": 13
    },
    {
+    "rok": 2014,
+    "liczba": 16
+   },
+   {
+    "rok": 2015,
+    "liczba": 15
+   },
+   {
     "rok": 2016,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2017,
@@ -137,27 +137,31 @@
    },
    {
     "rok": 2018,
-    "liczba": 6
+    "liczba": 9
+   },
+   {
+    "rok": 2019,
+    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 236
+    "liczba": 257
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,7 l",
-    "liczba": 171
+    "liczba": 182
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 40
+    "liczba": 45
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 23
+    "liczba": 28
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 114
+    "liczba": 127
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 98
+    "liczba": 106
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -185,15 +189,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 138
+    "liczba": 147
    },
    {
     "nazwa": "Van",
-    "liczba": 66
+    "liczba": 74
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "nazwa": "Hatchback",
@@ -201,20 +205,24 @@
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 68,
+  "noweOdPaczki": 89,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 9
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 17
    },
    {
     "rok": 2022,
@@ -238,6 +246,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -475,10 +535,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1210,
+  "miejsce": 1191,
   "miejsceWMarce": 10,
   "modeliWMarce": 10,
-  "sredniRocznik": 2008.7
+  "sredniRocznik": 2008.9
  },
  "youtubeId": "",
  "zrodla": [

@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Escalade – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 446 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ESCALADE, ESCALADE ESV, ESCALADE 6.2).",
-  "liczbaWPolsce": 606,
-  "aktywne": 512,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Escalade – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 511 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ESCALADE, ESCALADE 6.2, ESCALADE ESV).",
+  "liczbaWPolsce": 671,
+  "aktywne": 577,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 44
+    "liczba": 52
    },
    {
     "teryt": "04",
@@ -27,70 +27,74 @@
    },
    {
     "teryt": "06",
-    "liczba": 38
-   },
-   {
-    "teryt": "08",
-    "liczba": 10
-   },
-   {
-    "teryt": "10",
     "liczba": 39
    },
    {
+    "teryt": "08",
+    "liczba": 12
+   },
+   {
+    "teryt": "10",
+    "liczba": 45
+   },
+   {
     "teryt": "12",
-    "liczba": 36
+    "liczba": 42
    },
    {
     "teryt": "14",
-    "liczba": 123
+    "liczba": 136
    },
    {
     "teryt": "16",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "18",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "20",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "teryt": "22",
-    "liczba": 44
+    "liczba": 49
    },
    {
     "teryt": "24",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "teryt": "26",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "28",
-    "liczba": 20
+    "liczba": 24
    },
    {
     "teryt": "30",
-    "liczba": 59
+    "liczba": 64
    },
    {
     "teryt": "32",
-    "liczba": 23
+    "liczba": 27
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
+   {
+    "rok": 1999,
+    "liczba": 2
+   },
    {
     "rok": 2000,
     "liczba": 2
    },
    {
     "rok": 2001,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2002,
@@ -98,71 +102,71 @@
    },
    {
     "rok": 2003,
-    "liczba": 18
+    "liczba": 20
    },
    {
     "rok": 2004,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 2005,
-    "liczba": 14
-   },
-   {
-    "rok": 2006,
-    "liczba": 27
-   },
-   {
-    "rok": 2007,
-    "liczba": 72
-   },
-   {
-    "rok": 2008,
-    "liczba": 36
-   },
-   {
-    "rok": 2009,
     "liczba": 16
    },
    {
+    "rok": 2006,
+    "liczba": 28
+   },
+   {
+    "rok": 2007,
+    "liczba": 76
+   },
+   {
+    "rok": 2008,
+    "liczba": 43
+   },
+   {
+    "rok": 2009,
+    "liczba": 20
+   },
+   {
     "rok": 2010,
-    "liczba": 18
+    "liczba": 23
    },
    {
     "rok": 2011,
-    "liczba": 18
-   },
-   {
-    "rok": 2012,
-    "liczba": 17
-   },
-   {
-    "rok": 2013,
-    "liczba": 15
-   },
-   {
-    "rok": 2014,
-    "liczba": 5
-   },
-   {
-    "rok": 2015,
-    "liczba": 38
-   },
-   {
-    "rok": 2016,
-    "liczba": 52
-   },
-   {
-    "rok": 2017,
-    "liczba": 29
-   },
-   {
-    "rok": 2018,
     "liczba": 24
    },
    {
+    "rok": 2012,
+    "liczba": 21
+   },
+   {
+    "rok": 2013,
+    "liczba": 17
+   },
+   {
+    "rok": 2014,
+    "liczba": 7
+   },
+   {
+    "rok": 2015,
+    "liczba": 45
+   },
+   {
+    "rok": 2016,
+    "liczba": 61
+   },
+   {
+    "rok": 2017,
+    "liczba": 32
+   },
+   {
+    "rok": 2018,
+    "liczba": 26
+   },
+   {
     "rok": 2019,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2020,
@@ -196,43 +200,47 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 413
+    "liczba": 449
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 179
+    "liczba": 204
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 8
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "6,2 l",
-    "liczba": 495
+    "liczba": 550
    },
    {
     "nazwa": "6,0 l",
-    "liczba": 83
+    "liczba": 91
+   },
+   {
+    "nazwa": "5,7 l",
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 23
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 367
+    "liczba": 392
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 225
+    "liczba": 265
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -250,19 +258,19 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 221
+    "liczba": 238
    },
    {
     "nazwa": "Kombi",
-    "liczba": 190
+    "liczba": 212
    },
    {
     "nazwa": "Van",
-    "liczba": 94
+    "liczba": 105
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 42
+    "liczba": 52
    },
    {
     "nazwa": "Hatchback",
@@ -270,20 +278,28 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 31
    }
   ],
-  "noweOdPaczki": 446,
-  "hybrydy": 8,
+  "noweOdPaczki": 511,
+  "hybrydy": 10,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 29
+   },
+   {
     "rok": 2021,
-    "liczba": 28
+    "liczba": 63
    },
    {
     "rok": 2022,
@@ -307,6 +323,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 7
+   },
    {
     "miesiac": "2021-12",
     "liczba": 8
@@ -544,10 +612,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 902,
+  "miejsce": 882,
   "miejsceWMarce": 1,
   "modeliWMarce": 8,
-  "sredniRocznik": 2013.5
+  "sredniRocznik": 2013.3
  },
  "youtubeId": "",
  "zrodla": [
@@ -565,6 +633,11 @@
    "adres": "/marki/dodge/ram/"
   },
   {
+   "slug": "dodge-grand-caravan",
+   "nazwa": "Dodge Grand Caravan",
+   "adres": "/marki/dodge/grand-caravan/"
+  },
+  {
    "slug": "dodge-durango",
    "nazwa": "Dodge Durango",
    "adres": "/marki/dodge/durango/"
@@ -575,14 +648,9 @@
    "adres": "/marki/mazda/cx-9/"
   },
   {
-   "slug": "dodge-grand-caravan",
-   "nazwa": "Dodge Grand Caravan",
-   "adres": "/marki/dodge/grand-caravan/"
-  },
-  {
-   "slug": "toyota-sienna",
-   "nazwa": "Toyota Sienna",
-   "adres": "/marki/toyota/sienna/"
+   "slug": "chrysler-town-country",
+   "nazwa": "Chrysler Town & Country",
+   "adres": "/marki/chrysler/town-country/"
   }
  ]
 }

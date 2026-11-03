@@ -13,37 +13,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda Stream – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 93 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREAM).",
-  "liczbaWPolsce": 758,
-  "aktywne": 403,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda Stream – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 140 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREAM).",
+  "liczbaWPolsce": 805,
+  "aktywne": 450,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 57
+    "liczba": 64
    },
    {
     "teryt": "04",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "teryt": "06",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "08",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "10",
-    "liczba": 55
+    "liczba": 57
    },
    {
     "teryt": "12",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "14",
-    "liczba": 90
+    "liczba": 99
    },
    {
     "teryt": "16",
@@ -59,50 +59,50 @@
    },
    {
     "teryt": "22",
-    "liczba": 34
+    "liczba": 37
    },
    {
     "teryt": "24",
-    "liczba": 57
+    "liczba": 64
    },
    {
     "teryt": "26",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "28",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "30",
-    "liczba": 86
+    "liczba": 95
    },
    {
     "teryt": "32",
-    "liczba": 42
+    "liczba": 45
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2001,
-    "liczba": 343
+    "liczba": 362
    },
    {
     "rok": 2002,
-    "liczba": 165
+    "liczba": 176
    },
    {
     "rok": 2003,
-    "liczba": 66
+    "liczba": 68
    },
    {
     "rok": 2004,
-    "liczba": 123
+    "liczba": 133
    },
    {
     "rok": 2005,
-    "liczba": 29
+    "liczba": 33
    },
    {
     "rok": 2006,
@@ -112,11 +112,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 401
+    "liczba": 437
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 356
+    "liczba": 367
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,25 +126,25 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 403
+    "liczba": 428
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 352
+    "liczba": 373
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 573
+    "liczba": 604
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 178
+    "liczba": 194
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,32 +154,36 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 332
+    "liczba": 342
    },
    {
     "nazwa": "Kombi",
-    "liczba": 302
+    "liczba": 328
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 62
+    "liczba": 72
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 14
    }
   ],
-  "noweOdPaczki": 93,
+  "noweOdPaczki": 140,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 19
+   },
+   {
     "rok": 2021,
-    "liczba": 10
+    "liczba": 38
    },
    {
     "rok": 2022,
@@ -203,6 +207,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -440,7 +496,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 839,
+  "miejsce": 833,
   "miejsceWMarce": 15,
   "modeliWMarce": 21,
   "sredniRocznik": 2002.1

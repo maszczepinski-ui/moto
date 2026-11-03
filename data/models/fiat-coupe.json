@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Coupe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 65 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUPE, COUPE 2.0 KAT, COUPE 16V, COUPE 2.0 16V, COUPE 2.0).",
-  "liczbaWPolsce": 1121,
-  "aktywne": 182,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Coupe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 78 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUPE, COUPE 2.0 KAT, COUPE 16V, COUPE 2.0 16V, COUPE 2.0).",
+  "liczbaWPolsce": 1134,
+  "aktywne": 195,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 94
+    "liczba": 95
    },
    {
     "teryt": "04",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "teryt": "06",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 94
+    "liczba": 98
    },
    {
     "teryt": "14",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 86
+    "liczba": 87
    },
    {
     "teryt": "20",
@@ -63,19 +63,19 @@
    },
    {
     "teryt": "24",
-    "liczba": 184
+    "liczba": 185
    },
    {
     "teryt": "26",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "28",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "30",
-    "liczba": 90
+    "liczba": 92
    },
    {
     "teryt": "32",
@@ -86,27 +86,27 @@
   "roczniki": [
    {
     "rok": 1994,
-    "liczba": 209
+    "liczba": 213
    },
    {
     "rok": 1995,
-    "liczba": 313
+    "liczba": 315
    },
    {
     "rok": 1996,
-    "liczba": 168
+    "liczba": 170
    },
    {
     "rok": 1997,
-    "liczba": 139
+    "liczba": 140
    },
    {
     "rok": 1998,
-    "liczba": 117
+    "liczba": 120
    },
    {
     "rok": 1999,
-    "liczba": 98
+    "liczba": 99
    },
    {
     "rok": 2000,
@@ -116,11 +116,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 797
+    "liczba": 809
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 269
+    "liczba": 270
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,11 +130,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 867
+    "liczba": 877
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 244
+    "liczba": 247
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,11 +144,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 736
+    "liczba": 742
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 366
+    "liczba": 373
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -162,7 +162,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 966
+    "liczba": 978
    },
    {
     "nazwa": "Sedan",
@@ -170,20 +170,24 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 69
    }
   ],
-  "noweOdPaczki": 65,
+  "noweOdPaczki": 78,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 9
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -207,6 +211,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -444,9 +500,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 750,
-  "miejsceWMarce": 39,
-  "modeliWMarce": 60,
+  "miejsce": 759,
+  "miejsceWMarce": 41,
+  "modeliWMarce": 61,
   "sredniRocznik": 1996.1
  },
  "youtubeId": "",

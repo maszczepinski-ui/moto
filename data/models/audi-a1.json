@@ -12,124 +12,124 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi A1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 323 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: A1 SPORTBACK, A1, A1 1.4 TFSI, A1 1.6 TDI, A1 ALLSTREET).",
-  "liczbaWPolsce": 10082,
-  "aktywne": 8855,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi A1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 680 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: A1 SPORTBACK, A1, A1 1.4 TFSI, A1 1.6 TDI, A1 1.2 TFSI).",
+  "liczbaWPolsce": 11439,
+  "aktywne": 10212,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 855
+    "liczba": 986
    },
    {
     "teryt": "04",
-    "liczba": 409
+    "liczba": 446
    },
    {
     "teryt": "06",
-    "liczba": 273
+    "liczba": 318
    },
    {
     "teryt": "08",
-    "liczba": 242
+    "liczba": 269
    },
    {
     "teryt": "10",
-    "liczba": 429
+    "liczba": 487
    },
    {
     "teryt": "12",
-    "liczba": 1182
+    "liczba": 1332
    },
    {
     "teryt": "14",
-    "liczba": 1333
+    "liczba": 1541
    },
    {
     "teryt": "16",
-    "liczba": 299
+    "liczba": 350
    },
    {
     "teryt": "18",
-    "liczba": 558
+    "liczba": 639
    },
    {
     "teryt": "20",
-    "liczba": 139
+    "liczba": 155
    },
    {
     "teryt": "22",
-    "liczba": 730
+    "liczba": 844
    },
    {
     "teryt": "24",
-    "liczba": 1364
+    "liczba": 1548
    },
    {
     "teryt": "26",
-    "liczba": 242
+    "liczba": 271
    },
    {
     "teryt": "28",
-    "liczba": 205
+    "liczba": 228
    },
    {
     "teryt": "30",
-    "liczba": 1474
+    "liczba": 1624
    },
    {
     "teryt": "32",
-    "liczba": 313
+    "liczba": 366
    }
   ],
   "bezWojewodztwa": 35,
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 741
+    "liczba": 836
    },
    {
     "rok": 2011,
-    "liczba": 1613
+    "liczba": 1861
    },
    {
     "rok": 2012,
-    "liczba": 1432
+    "liczba": 1624
    },
    {
     "rok": 2013,
-    "liczba": 1243
+    "liczba": 1370
    },
    {
     "rok": 2014,
-    "liczba": 935
+    "liczba": 1019
    },
    {
     "rok": 2015,
-    "liczba": 694
+    "liczba": 751
    },
    {
     "rok": 2016,
-    "liczba": 653
+    "liczba": 699
    },
    {
     "rok": 2017,
-    "liczba": 474
+    "liczba": 501
    },
    {
     "rok": 2018,
-    "liczba": 316
+    "liczba": 334
    },
    {
     "rok": 2019,
-    "liczba": 270
+    "liczba": 301
    },
    {
     "rok": 2020,
-    "liczba": 116
+    "liczba": 326
    },
    {
     "rok": 2021,
-    "liczba": 245
+    "liczba": 467
    },
    {
     "rok": 2022,
@@ -151,86 +151,94 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6874
+    "liczba": 7761
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3187
+    "liczba": 3655
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 23
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2664
+    "liczba": 3055
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 2272
-   },
-   {
-    "nazwa": "1,2 l",
-    "liczba": 2122
+    "liczba": 2494
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 1919
+    "liczba": 2336
+   },
+   {
+    "nazwa": "1,2 l",
+    "liczba": 2318
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 748
+    "liczba": 836
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 322
+    "liczba": 364
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5315
+    "liczba": 5755
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2724
+    "liczba": 3394
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2002
+    "liczba": 2243
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 41
+    "liczba": 47
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 8046
+    "liczba": 9204
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1880
+    "liczba": 2063
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 156
+    "liczba": 172
    }
   ],
-  "noweOdPaczki": 7323,
+  "noweOdPaczki": 8680,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 27
+   },
+   {
+    "rok": 2020,
+    "liczba": 616
+   },
+   {
     "rok": 2021,
-    "liczba": 503
+    "liczba": 1217
    },
    {
     "rok": 2022,
@@ -254,6 +262,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 85
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 104
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 94
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 116
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 84
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 107
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 87
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 99
+   },
    {
     "miesiac": "2021-12",
     "liczba": 101
@@ -491,10 +551,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 313,
+  "miejsce": 305,
   "miejsceWMarce": 11,
-  "modeliWMarce": 52,
-  "sredniRocznik": 2014.8
+  "modeliWMarce": 54,
+  "sredniRocznik": 2014.9
  },
  "youtubeId": "",
  "zrodla": [

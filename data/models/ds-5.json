@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 487 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 5).",
-  "liczbaWPolsce": 601,
-  "aktywne": 583,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 554 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 5).",
+  "liczbaWPolsce": 668,
+  "aktywne": 650,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 27
+    "liczba": 30
    },
    {
     "teryt": "04",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 34
+    "liczba": 36
    },
    {
     "teryt": "08",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "teryt": "10",
-    "liczba": 53
+    "liczba": 62
    },
    {
     "teryt": "12",
-    "liczba": 76
+    "liczba": 83
    },
    {
     "teryt": "14",
-    "liczba": 96
+    "liczba": 102
    },
    {
     "teryt": "16",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "18",
-    "liczba": 37
+    "liczba": 43
    },
    {
     "teryt": "20",
-    "liczba": 15
+    "liczba": 18
    },
    {
     "teryt": "22",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "24",
-    "liczba": 70
+    "liczba": 78
    },
    {
     "teryt": "26",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "teryt": "28",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "30",
-    "liczba": 76
+    "liczba": 83
    },
    {
     "teryt": "32",
-    "liczba": 15
+    "liczba": 17
    }
   ],
   "bezWojewodztwa": 0,
@@ -89,43 +89,43 @@
    },
    {
     "rok": 2015,
-    "liczba": 178
+    "liczba": 201
    },
    {
     "rok": 2016,
-    "liczba": 233
+    "liczba": 263
    },
    {
     "rok": 2017,
-    "liczba": 121
+    "liczba": 132
    },
    {
     "rok": 2018,
-    "liczba": 53
+    "liczba": 56
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 529
+    "liczba": 590
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 43
+    "liczba": 46
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 29
+    "liczba": 32
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 476
+    "liczba": 530
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 123
+    "liczba": 136
    },
    {
     "nazwa": "Inne / brak danych",
@@ -135,11 +135,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 338
+    "liczba": 365
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 201
+    "liczba": 241
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -153,28 +153,36 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 401
+    "liczba": 436
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 181
+    "liczba": 210
    },
    {
     "nazwa": "Kombi",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
-  "noweOdPaczki": 487,
-  "hybrydy": 29,
+  "noweOdPaczki": 554,
+  "hybrydy": 32,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 22
+   },
+   {
     "rok": 2021,
-    "liczba": 30
+    "liczba": 73
    },
    {
     "rok": 2022,
@@ -198,6 +206,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2021-12",
     "liczba": 4
@@ -435,10 +495,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 904,
+  "miejsce": 883,
   "miejsceWMarce": 6,
   "modeliWMarce": 7,
-  "sredniRocznik": 2016.1
+  "sredniRocznik": 2016.0
  },
  "youtubeId": "",
  "zrodla": [

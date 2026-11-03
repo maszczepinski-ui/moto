@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen BX19 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BX 19 D, BX 19, BX 19 KAT).",
-  "liczbaWPolsce": 1153,
-  "aktywne": 10,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen BX19 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BX 19 D, BX 19, BX 19 KAT).",
+  "liczbaWPolsce": 1155,
+  "aktywne": 12,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 98
+    "liczba": 99
    },
    {
     "teryt": "08",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 92
+    "liczba": 93
    },
    {
     "teryt": "14",
@@ -113,11 +113,11 @@
    },
    {
     "rok": 1990,
-    "liczba": 91
+    "liczba": 92
    },
    {
     "rok": 1991,
-    "liczba": 87
+    "liczba": 88
    },
    {
     "rok": 1992,
@@ -151,11 +151,11 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 99
+    "liczba": 100
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "nazwa": "?+LPG",
@@ -169,7 +169,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 1080
+    "liczba": 1082
    },
    {
     "nazwa": "1,8 l",
@@ -191,7 +191,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 78
+    "liczba": 80
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -205,7 +205,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 209
+    "liczba": 211
    },
    {
     "nazwa": "Sedan",
@@ -220,10 +220,14 @@
     "liczba": 794
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 6,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 2
+   },
    {
     "rok": 2023,
     "liczba": 1
@@ -234,6 +238,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -471,7 +527,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 743,
+  "miejsce": 756,
   "miejsceWMarce": 30,
   "modeliWMarce": 42,
   "sredniRocznik": 1988.7

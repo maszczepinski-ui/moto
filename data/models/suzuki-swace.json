@@ -11,84 +11,84 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Swace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 012 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SWACE, SUZUKI SWACE, SWACE 1.8 HYBRID).",
-  "liczbaWPolsce": 2012,
-  "aktywne": 2012,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Swace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 308 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SWACE, SUZUKI SWACE, SWACE 1.8 HYBRID).",
+  "liczbaWPolsce": 2308,
+  "aktywne": 2308,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 149
+    "liczba": 179
    },
    {
     "teryt": "04",
-    "liczba": 69
+    "liczba": 75
    },
    {
     "teryt": "06",
-    "liczba": 66
+    "liczba": 73
    },
    {
     "teryt": "08",
-    "liczba": 43
+    "liczba": 54
    },
    {
     "teryt": "10",
-    "liczba": 144
+    "liczba": 159
    },
    {
     "teryt": "12",
-    "liczba": 172
+    "liczba": 198
    },
    {
     "teryt": "14",
-    "liczba": 584
+    "liczba": 653
    },
    {
     "teryt": "16",
-    "liczba": 28
+    "liczba": 31
    },
    {
     "teryt": "18",
-    "liczba": 52
+    "liczba": 61
    },
    {
     "teryt": "20",
-    "liczba": 30
+    "liczba": 33
    },
    {
     "teryt": "22",
-    "liczba": 161
+    "liczba": 192
    },
    {
     "teryt": "24",
-    "liczba": 239
+    "liczba": 289
    },
    {
     "teryt": "26",
-    "liczba": 30
+    "liczba": 36
    },
    {
     "teryt": "28",
-    "liczba": 34
+    "liczba": 38
    },
    {
     "teryt": "30",
-    "liczba": 158
+    "liczba": 170
    },
    {
     "teryt": "32",
-    "liczba": 53
+    "liczba": 67
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 38
+    "liczba": 194
    },
    {
     "rok": 2021,
-    "liczba": 420
+    "liczba": 560
    },
    {
     "rok": 2022,
@@ -110,31 +110,31 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1574
+    "liczba": 1788
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 370
+    "liczba": 435
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 68
+    "liczba": 85
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 2012
+    "liczba": 2308
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1087
+    "liczba": 1169
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 680
+    "liczba": 894
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -152,20 +152,24 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1999
+    "liczba": 2295
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 13
    }
   ],
-  "noweOdPaczki": 2012,
-  "hybrydy": 1574,
+  "noweOdPaczki": 2308,
+  "hybrydy": 1788,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 154
+   },
+   {
     "rok": 2021,
-    "liczba": 241
+    "liczba": 383
    },
    {
     "rok": 2022,
@@ -189,6 +193,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 126
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 46
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 59
+   },
    {
     "miesiac": "2021-12",
     "liczba": 66
@@ -426,10 +482,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 601,
-  "miejsceWMarce": 16,
+  "miejsce": 582,
+  "miejsceWMarce": 15,
   "modeliWMarce": 21,
-  "sredniRocznik": 2022.7
+  "sredniRocznik": 2022.5
  },
  "youtubeId": "",
  "zrodla": [
@@ -457,14 +513,14 @@
    "adres": "/marki/mazda/cx-30/"
   },
   {
+   "slug": "bmw-x2",
+   "nazwa": "BMW X2",
+   "adres": "/marki/bmw/x2/"
+  },
+  {
    "slug": "skoda-kodiaq",
    "nazwa": "Skoda Kodiaq",
    "adres": "/marki/skoda/kodiaq/"
-  },
-  {
-   "slug": "skoda-karoq",
-   "nazwa": "Skoda Karoq",
-   "adres": "/marki/skoda/karoq/"
   }
  ]
 }

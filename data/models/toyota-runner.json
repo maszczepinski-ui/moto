@@ -15,13 +15,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Runner – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RUNNER).",
-  "liczbaWPolsce": 204,
-  "aktywne": 49,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Runner – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RUNNER).",
+  "liczbaWPolsce": 207,
+  "aktywne": 52,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "04",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "08",
@@ -53,7 +53,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "20",
@@ -140,7 +140,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 1993,
@@ -152,7 +152,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 1996,
@@ -192,7 +192,7 @@
    },
    {
     "rok": 2005,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2006,
@@ -278,7 +278,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 74
+    "liczba": 76
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -286,7 +286,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 47
+    "liczba": 48
    },
    {
     "nazwa": "Inne / brak danych",
@@ -300,7 +300,7 @@
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 54
+    "liczba": 56
    },
    {
     "nazwa": "4,0 l",
@@ -312,7 +312,7 @@
    },
    {
     "nazwa": "4,7 l",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
@@ -322,11 +322,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 146
+    "liczba": 147
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 53
+    "liczba": 55
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -344,7 +344,7 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "nazwa": "Hatchback",
@@ -352,7 +352,7 @@
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Van",
@@ -367,10 +367,18 @@
     "liczba": 48
    }
   ],
-  "noweOdPaczki": 16,
+  "noweOdPaczki": 19,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 2
+   },
    {
     "rok": 2022,
     "liczba": 4
@@ -393,6 +401,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -630,10 +690,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1254,
+  "miejsce": 1263,
   "miejsceWMarce": 43,
   "modeliWMarce": 43,
-  "sredniRocznik": 1995.1
+  "sredniRocznik": 1995.2
  },
  "youtubeId": "",
  "zrodla": [

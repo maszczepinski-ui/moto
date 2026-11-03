@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Neon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEON, NEON 2.0 KAT, NEON 2.0).",
-  "liczbaWPolsce": 930,
-  "aktywne": 108,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Neon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEON, NEON 2.0 KAT, NEON 2.0).",
+  "liczbaWPolsce": 938,
+  "aktywne": 116,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "06",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 139
+    "liczba": 141
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "teryt": "26",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "30",
-    "liczba": 96
+    "liczba": 97
    },
    {
     "teryt": "32",
-    "liczba": 52
+    "liczba": 53
    }
   ],
   "bezWojewodztwa": 4,
@@ -109,11 +109,11 @@
    },
    {
     "rok": 2000,
-    "liczba": 232
+    "liczba": 238
    },
    {
     "rok": 2001,
-    "liczba": 70
+    "liczba": 71
    },
    {
     "rok": 2002,
@@ -121,7 +121,7 @@
    },
    {
     "rok": 2003,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2004,
@@ -139,11 +139,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 616
+    "liczba": 623
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 263
+    "liczba": 264
    },
    {
     "nazwa": "Inne / brak danych",
@@ -153,11 +153,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 868
+    "liczba": 875
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "1,8 l",
@@ -171,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 467
+    "liczba": 472
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 445
+    "liczba": 448
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,7 +189,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 811
+    "liczba": 819
    },
    {
     "nazwa": "Hatchback",
@@ -200,13 +200,17 @@
     "liczba": 69
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 5
+   },
+   {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 4
    },
    {
     "rok": 2022,
@@ -226,6 +230,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -463,10 +519,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 801,
+  "miejsce": 806,
   "miejsceWMarce": 10,
   "modeliWMarce": 21,
-  "sredniRocznik": 1997.7
+  "sredniRocznik": 1997.8
  },
  "youtubeId": "",
  "zrodla": [

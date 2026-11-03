@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Opirus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 45 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OPIRUS).",
-  "liczbaWPolsce": 234,
-  "aktywne": 113,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Opirus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 61 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OPIRUS).",
+  "liczbaWPolsce": 250,
+  "aktywne": 129,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "04",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "06",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "08",
@@ -33,19 +33,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "12",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "14",
-    "liczba": 46
+    "liczba": 50
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "18",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "24",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "26",
@@ -69,42 +69,42 @@
    },
    {
     "teryt": "28",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "30",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 16
+    "liczba": 18
    },
    {
     "rok": 2004,
-    "liczba": 85
+    "liczba": 88
    },
    {
     "rok": 2005,
-    "liczba": 46
+    "liczba": 48
    },
    {
     "rok": 2006,
-    "liczba": 55
+    "liczba": 61
    },
    {
     "rok": 2007,
-    "liczba": 17
+    "liczba": 19
    },
    {
     "rok": 2008,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2009,
@@ -114,31 +114,31 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 158
+    "liczba": 171
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 76
+    "liczba": 79
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 211
+    "liczba": 224
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 23
+    "liczba": 26
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 110
+    "liczba": 122
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 104
+    "liczba": 108
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -152,20 +152,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 225
+    "liczba": 241
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 45,
+  "noweOdPaczki": 61,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 10
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 11
    },
    {
     "rok": 2022,
@@ -189,6 +193,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -426,7 +482,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1215,
+  "miejsce": 1210,
   "miejsceWMarce": 32,
   "modeliWMarce": 33,
   "sredniRocznik": 2005.0

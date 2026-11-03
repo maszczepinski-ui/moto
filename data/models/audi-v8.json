@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi V8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 60 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V8, V8 3.6 KAT, V8 4.2 KAT, V8 3.6 QUATTRO).",
-  "liczbaWPolsce": 580,
-  "aktywne": 101,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi V8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V8, V8 3.6 KAT, V8 4.2 KAT, V8 3.6 QUATTRO).",
+  "liczbaWPolsce": 588,
+  "aktywne": 109,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 52
+    "liczba": 54
    },
    {
     "teryt": "04",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "06",
-    "liczba": 65
+    "liczba": 66
    },
    {
     "teryt": "08",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 80
+    "liczba": 82
    },
    {
     "teryt": "16",
@@ -62,11 +62,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
@@ -85,11 +85,11 @@
   "roczniki": [
    {
     "rok": 1988,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 1989,
-    "liczba": 98
+    "liczba": 100
    },
    {
     "rok": 1990,
@@ -97,15 +97,15 @@
    },
    {
     "rok": 1991,
-    "liczba": 123
+    "liczba": 124
    },
    {
     "rok": 1992,
-    "liczba": 104
+    "liczba": 107
    },
    {
     "rok": 1993,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 1994,
@@ -127,7 +127,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 266
+    "liczba": 274
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -149,15 +149,15 @@
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 297
+    "liczba": 300
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 168
+    "liczba": 171
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 91
+    "liczba": 93
    },
    {
     "nazwa": "2,0 l",
@@ -171,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 324
+    "liczba": 329
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 200
+    "liczba": 203
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -193,24 +193,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 404
+    "liczba": 411
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 154
    }
   ],
-  "noweOdPaczki": 60,
+  "noweOdPaczki": 68,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 5
+   },
+   {
     "rok": 2021,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2022,
@@ -234,6 +238,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -471,9 +527,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 914,
-  "miejsceWMarce": 43,
-  "modeliWMarce": 52,
+  "miejsce": 918,
+  "miejsceWMarce": 44,
+  "modeliWMarce": 54,
   "sredniRocznik": 1991.6
  },
  "youtubeId": "",
@@ -497,11 +553,6 @@
    "adres": "/marki/ford/scorpio/"
   },
   {
-   "slug": "mercedes-benz-500",
-   "nazwa": "Mercedes-Benz 500",
-   "adres": "/marki/mercedes-benz/500/"
-  },
-  {
    "slug": "mercedes-benz-w124",
    "nazwa": "Mercedes-Benz W124",
    "adres": "/marki/mercedes-benz/w124/"
@@ -510,6 +561,11 @@
    "slug": "opel-senator",
    "nazwa": "Opel Senator",
    "adres": "/marki/opel/senator/"
+  },
+  {
+   "slug": "pontiac-trans",
+   "nazwa": "Pontiac Trans",
+   "adres": "/marki/pontiac/trans/"
   }
  ]
 }

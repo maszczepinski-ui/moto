@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Vision – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VISION, VISION 3.5 KAT).",
-  "liczbaWPolsce": 211,
-  "aktywne": 16,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Vision – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VISION, VISION 3.5 KAT).",
+  "liczbaWPolsce": 212,
+  "aktywne": 17,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "26",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 91
+    "liczba": 92
    },
    {
     "rok": 1995,
@@ -151,7 +151,7 @@
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 68
+    "liczba": 69
    },
    {
     "nazwa": "?+LPG",
@@ -165,7 +165,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 200
+    "liczba": 201
    },
    {
     "nazwa": "3,3 l",
@@ -183,7 +183,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 112
+    "liczba": 113
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -197,7 +197,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 161
+    "liczba": 162
    },
    {
     "nazwa": "Hatchback",
@@ -212,10 +212,14 @@
     "liczba": 38
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 2
@@ -234,6 +238,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -471,7 +527,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1246,
+  "miejsce": 1255,
   "miejsceWMarce": 21,
   "modeliWMarce": 21,
   "sredniRocznik": 1994.8

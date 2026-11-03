@@ -13,136 +13,136 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 300C – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 912 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 300C, 300C TOURING, 300C SRT8, 300C AWD, 300C CRD).",
-  "liczbaWPolsce": 2616,
-  "aktywne": 1683,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 300C – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 217 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 300C, 300C TOURING, 300C CRD, 300C SRT8, 300C AWD).",
+  "liczbaWPolsce": 2921,
+  "aktywne": 1988,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 214
+    "liczba": 239
    },
    {
     "teryt": "04",
-    "liczba": 150
+    "liczba": 165
    },
    {
     "teryt": "06",
-    "liczba": 137
+    "liczba": 162
    },
    {
     "teryt": "08",
-    "liczba": 90
+    "liczba": 101
    },
    {
     "teryt": "10",
-    "liczba": 177
+    "liczba": 204
    },
    {
     "teryt": "12",
-    "liczba": 167
+    "liczba": 194
    },
    {
     "teryt": "14",
-    "liczba": 394
+    "liczba": 428
    },
    {
     "teryt": "16",
-    "liczba": 60
+    "liczba": 63
    },
    {
     "teryt": "18",
-    "liczba": 98
+    "liczba": 116
    },
    {
     "teryt": "20",
-    "liczba": 67
+    "liczba": 73
    },
    {
     "teryt": "22",
-    "liczba": 163
+    "liczba": 187
    },
    {
     "teryt": "24",
-    "liczba": 270
+    "liczba": 292
    },
    {
     "teryt": "26",
-    "liczba": 79
+    "liczba": 90
    },
    {
     "teryt": "28",
-    "liczba": 83
+    "liczba": 97
    },
    {
     "teryt": "30",
-    "liczba": 330
+    "liczba": 362
    },
    {
     "teryt": "32",
-    "liczba": 120
+    "liczba": 131
    }
   ],
   "bezWojewodztwa": 17,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 175
+    "liczba": 187
    },
    {
     "rok": 2005,
-    "liczba": 538
+    "liczba": 571
    },
    {
     "rok": 2006,
-    "liczba": 561
+    "liczba": 620
    },
    {
     "rok": 2007,
-    "liczba": 500
+    "liczba": 563
    },
    {
     "rok": 2008,
-    "liczba": 253
+    "liczba": 285
    },
    {
     "rok": 2009,
-    "liczba": 110
+    "liczba": 121
    },
    {
     "rok": 2010,
-    "liczba": 91
+    "liczba": 105
    },
    {
     "rok": 2011,
-    "liczba": 32
-   },
-   {
-    "rok": 2012,
     "liczba": 37
    },
    {
+    "rok": 2012,
+    "liczba": 49
+   },
+   {
     "rok": 2013,
-    "liczba": 56
+    "liczba": 71
    },
    {
     "rok": 2014,
-    "liczba": 46
+    "liczba": 56
    },
    {
     "rok": 2015,
-    "liczba": 39
+    "liczba": 47
    },
    {
     "rok": 2016,
-    "liczba": 48
+    "liczba": 64
    },
    {
     "rok": 2017,
-    "liczba": 35
+    "liczba": 45
    },
    {
     "rok": 2018,
-    "liczba": 17
+    "liczba": 22
    },
    {
     "rok": 2019,
@@ -152,15 +152,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1154
+    "liczba": 1284
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 740
+    "liczba": 851
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 714
+    "liczba": 778
    },
    {
     "nazwa": "Inne / brak danych",
@@ -170,27 +170,27 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 1159
+    "liczba": 1289
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 528
+    "liczba": 576
    },
    {
     "nazwa": "5,7 l",
-    "liczba": 494
+    "liczba": 559
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 213
+    "liczba": 264
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 164
+    "liczba": 171
    },
    {
     "nazwa": "6,1 l",
-    "liczba": 37
+    "liczba": 41
    },
    {
     "nazwa": "Inne / brak danych",
@@ -200,11 +200,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1272
+    "liczba": 1433
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1270
+    "liczba": 1413
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -212,38 +212,46 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 25
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1762
+    "liczba": 1955
    },
    {
     "nazwa": "Kombi",
-    "liczba": 542
+    "liczba": 633
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 214
+    "liczba": 228
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 33
+    "liczba": 37
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 65
+    "liczba": 68
    }
   ],
-  "noweOdPaczki": 912,
+  "noweOdPaczki": 1217,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
+    "rok": 2020,
+    "liczba": 138
+   },
+   {
     "rok": 2021,
-    "liczba": 119
+    "liczba": 282
    },
    {
     "rok": 2022,
@@ -267,6 +275,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 16
+   },
    {
     "miesiac": "2021-12",
     "liczba": 23
@@ -504,10 +564,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 543,
+  "miejsce": 532,
   "miejsceWMarce": 5,
   "modeliWMarce": 21,
-  "sredniRocznik": 2007.4
+  "sredniRocznik": 2007.6
  },
  "youtubeId": "",
  "zrodla": [

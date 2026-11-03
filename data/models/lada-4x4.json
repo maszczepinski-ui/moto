@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Łada 4X4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LADA 4X4, 4X4).",
-  "liczbaWPolsce": 248,
-  "aktywne": 98,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Łada 4X4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LADA 4X4, 4X4).",
+  "liczbaWPolsce": 261,
+  "aktywne": 111,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "08",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "12",
@@ -42,11 +42,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 48
+    "liczba": 51
    },
    {
     "teryt": "16",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "18",
@@ -62,15 +62,15 @@
    },
    {
     "teryt": "24",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "30",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "bezWojewodztwa": 2,
@@ -97,15 +97,15 @@
    },
    {
     "rok": 2006,
-    "liczba": 29
+    "liczba": 30
    },
    {
     "rok": 2007,
-    "liczba": 17
+    "liczba": 19
    },
    {
     "rok": 2008,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 2009,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 2011,
@@ -129,11 +129,11 @@
    },
    {
     "rok": 2014,
-    "liczba": 12
+    "liczba": 15
    },
    {
     "rok": 2015,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2016,
@@ -149,11 +149,11 @@
    },
    {
     "rok": 2019,
-    "liczba": 6
+    "liczba": 8
    },
    {
     "rok": 2020,
-    "liczba": 0
+    "liczba": 2
    },
    {
     "rok": 2021,
@@ -167,11 +167,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 160
+    "liczba": 170
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 87
+    "liczba": 90
    },
    {
     "nazwa": "Inne / brak danych",
@@ -181,7 +181,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 247
+    "liczba": 260
    },
    {
     "nazwa": "Inne / brak danych",
@@ -191,7 +191,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 118
+    "liczba": 124
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -199,7 +199,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 32
+    "liczba": 39
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -213,28 +213,32 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 227
+    "liczba": 234
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 9
+    "liczba": 14
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 7
    },
    {
     "nazwa": "Hatchback",
     "liczba": 6
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 6
    }
   ],
-  "noweOdPaczki": 20,
+  "noweOdPaczki": 33,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 7
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 9
    },
    {
     "rok": 2022,
@@ -258,6 +262,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -495,10 +551,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1193,
+  "miejsce": 1185,
   "miejsceWMarce": 6,
   "modeliWMarce": 6,
-  "sredniRocznik": 2010.5
+  "sredniRocznik": 2010.6
  },
  "youtubeId": "",
  "zrodla": [

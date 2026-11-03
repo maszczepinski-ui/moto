@@ -13,118 +13,118 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan QASHQAI2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 465 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QASHQAI2, NISSAN QASHQAI2, QASHQAI2 2.0).",
-  "liczbaWPolsce": 5465,
-  "aktywne": 5465,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan QASHQAI2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 888 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: QASHQAI2, NISSAN QASHQAI2, QASHQAI2 2.0).",
+  "liczbaWPolsce": 6888,
+  "aktywne": 6888,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 320
+    "liczba": 387
    },
    {
     "teryt": "04",
-    "liczba": 337
+    "liczba": 444
    },
    {
     "teryt": "06",
-    "liczba": 347
+    "liczba": 436
    },
    {
     "teryt": "08",
-    "liczba": 160
+    "liczba": 195
    },
    {
     "teryt": "10",
-    "liczba": 345
+    "liczba": 455
    },
    {
     "teryt": "12",
-    "liczba": 442
+    "liczba": 550
    },
    {
     "teryt": "14",
-    "liczba": 869
+    "liczba": 1056
    },
    {
     "teryt": "16",
-    "liczba": 87
+    "liczba": 115
    },
    {
     "teryt": "18",
-    "liczba": 426
+    "liczba": 527
    },
    {
     "teryt": "20",
-    "liczba": 259
+    "liczba": 308
    },
    {
     "teryt": "22",
-    "liczba": 317
+    "liczba": 402
    },
    {
     "teryt": "24",
-    "liczba": 351
+    "liczba": 481
    },
    {
     "teryt": "26",
-    "liczba": 204
+    "liczba": 247
    },
    {
     "teryt": "28",
-    "liczba": 291
+    "liczba": 359
    },
    {
     "teryt": "30",
-    "liczba": 493
+    "liczba": 653
    },
    {
     "teryt": "32",
-    "liczba": 217
+    "liczba": 273
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2008,
-    "liczba": 246
+    "liczba": 321
    },
    {
     "rok": 2009,
-    "liczba": 935
+    "liczba": 1260
    },
    {
     "rok": 2010,
-    "liczba": 1274
+    "liczba": 1650
    },
    {
     "rok": 2011,
-    "liczba": 1191
+    "liczba": 1469
    },
    {
     "rok": 2012,
-    "liczba": 1013
+    "liczba": 1214
    },
    {
     "rok": 2013,
-    "liczba": 734
+    "liczba": 893
    },
    {
     "rok": 2014,
-    "liczba": 70
+    "liczba": 79
    }
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna",
-    "liczba": 2432
+    "nazwa": "Diesel",
+    "liczba": 2986
    },
    {
-    "nazwa": "Diesel",
-    "liczba": 2284
+    "nazwa": "Benzyna",
+    "liczba": 2892
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 746
+    "liczba": 1007
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,15 +134,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3455
+    "liczba": 4357
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1512
+    "liczba": 1890
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 497
+    "liczba": 640
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,46 +152,58 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3945
+    "liczba": 4912
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1520
+    "liczba": 1974
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 2
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 4069
+    "liczba": 4980
    },
    {
     "nazwa": "Kombi",
-    "liczba": 711
+    "liczba": 926
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 400
+    "liczba": 547
    },
    {
     "nazwa": "Van",
-    "liczba": 205
+    "liczba": 315
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 57
+    "liczba": 90
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 30
    }
   ],
-  "noweOdPaczki": 5465,
+  "noweOdPaczki": 6888,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 28
+   },
+   {
+    "rok": 2020,
+    "liczba": 662
+   },
+   {
     "rok": 2021,
-    "liczba": 524
+    "liczba": 1257
    },
    {
     "rok": 2022,
@@ -215,6 +227,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 77
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 113
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 121
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 105
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 115
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 133
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 108
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 103
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 91
+   },
    {
     "miesiac": "2021-12",
     "liczba": 90
@@ -452,10 +516,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 412,
-  "miejsceWMarce": 11,
+  "miejsce": 382,
+  "miejsceWMarce": 10,
   "modeliWMarce": 47,
-  "sredniRocznik": 2010.8
+  "sredniRocznik": 2010.7
  },
  "youtubeId": "",
  "zrodla": [
@@ -468,14 +532,14 @@
  "adres": "/marki/nissan/qashqai2/",
  "konkurenci": [
   {
-   "slug": "honda-cr-v",
-   "nazwa": "Honda CR-V",
-   "adres": "/marki/honda/cr-v/"
-  },
-  {
    "slug": "hyundai-ix35",
    "nazwa": "Hyundai ix35",
    "adres": "/marki/hyundai/ix35/"
+  },
+  {
+   "slug": "honda-cr-v",
+   "nazwa": "Honda CR-V",
+   "adres": "/marki/honda/cr-v/"
   },
   {
    "slug": "ford-c-max",

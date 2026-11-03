@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Stratus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 108 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STRATUS, STRATUS 2.0 KAT, STRATUS 2.5 KAT, STRATUS 2.0KAT, STRATUS 2.0).",
-  "liczbaWPolsce": 1056,
-  "aktywne": 197,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Stratus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 133 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STRATUS, STRATUS 2.0 KAT, STRATUS 2.5 KAT, STRATUS 2.0KAT, STRATUS 2.0).",
+  "liczbaWPolsce": 1081,
+  "aktywne": 222,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 97
+    "liczba": 102
    },
    {
     "teryt": "04",
@@ -26,23 +26,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 84
+    "liczba": 86
    },
    {
     "teryt": "08",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "teryt": "10",
-    "liczba": 64
+    "liczba": 67
    },
    {
     "teryt": "12",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "teryt": "14",
-    "liczba": 196
+    "liczba": 200
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "24",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 90
+    "liczba": 93
    },
    {
     "teryt": "32",
-    "liczba": 66
+    "liczba": 69
    }
   ],
   "bezWojewodztwa": 6,
@@ -89,37 +89,37 @@
    },
    {
     "rok": 1996,
-    "liczba": 240
+    "liczba": 242
    },
    {
     "rok": 1997,
-    "liczba": 237
+    "liczba": 240
    },
    {
     "rok": 1998,
-    "liczba": 162
+    "liczba": 170
    },
    {
     "rok": 1999,
-    "liczba": 140
+    "liczba": 146
    },
    {
     "rok": 2000,
-    "liczba": 81
+    "liczba": 86
    },
    {
     "rok": 2001,
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 618
+    "liczba": 641
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 385
+    "liczba": 387
    },
    {
     "nazwa": "Inne / brak danych",
@@ -129,11 +129,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 673
+    "liczba": 685
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 377
+    "liczba": 390
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,11 +143,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 592
+    "liczba": 606
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 430
+    "liczba": 441
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -169,24 +169,32 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 304
+    "liczba": 328
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 110
    }
   ],
-  "noweOdPaczki": 108,
+  "noweOdPaczki": 133,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 9
+   },
+   {
     "rok": 2021,
-    "liczba": 8
+    "liczba": 23
    },
    {
     "rok": 2022,
@@ -210,6 +218,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -447,7 +507,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 768,
+  "miejsce": 775,
   "miejsceWMarce": 9,
   "modeliWMarce": 21,
   "sredniRocznik": 1997.1

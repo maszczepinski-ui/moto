@@ -12,61 +12,61 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Phedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 182 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PHEDRA, PHEDRA 2.0 I).",
-  "liczbaWPolsce": 794,
-  "aktywne": 448,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Phedra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 246 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PHEDRA, PHEDRA 2.0 I).",
+  "liczbaWPolsce": 858,
+  "aktywne": 512,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 88
+    "liczba": 90
    },
    {
     "teryt": "04",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "06",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "teryt": "08",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "teryt": "10",
-    "liczba": 55
+    "liczba": 64
    },
    {
     "teryt": "12",
-    "liczba": 107
+    "liczba": 111
    },
    {
     "teryt": "14",
-    "liczba": 124
+    "liczba": 134
    },
    {
     "teryt": "16",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "18",
-    "liczba": 57
+    "liczba": 67
    },
    {
     "teryt": "20",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 30
    },
    {
     "teryt": "24",
-    "liczba": 73
+    "liczba": 78
    },
    {
     "teryt": "26",
-    "liczba": 15
+    "liczba": 19
    },
    {
     "teryt": "28",
@@ -74,64 +74,64 @@
    },
    {
     "teryt": "30",
-    "liczba": 73
+    "liczba": 78
    },
    {
     "teryt": "32",
-    "liczba": 28
+    "liczba": 30
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2002,
-    "liczba": 59
+    "liczba": 60
    },
    {
     "rok": 2003,
-    "liczba": 145
+    "liczba": 158
    },
    {
     "rok": 2004,
-    "liczba": 138
+    "liczba": 148
    },
    {
     "rok": 2005,
-    "liczba": 106
+    "liczba": 113
    },
    {
     "rok": 2006,
-    "liczba": 84
-   },
-   {
-    "rok": 2007,
     "liczba": 87
    },
    {
+    "rok": 2007,
+    "liczba": 97
+   },
+   {
     "rok": 2008,
-    "liczba": 83
+    "liczba": 89
    },
    {
     "rok": 2009,
-    "liczba": 37
+    "liczba": 48
    },
    {
     "rok": 2010,
-    "liczba": 28
+    "liczba": 31
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 645
+    "liczba": 698
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 91
+    "liczba": 93
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 56
+    "liczba": 65
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,15 +141,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 435
+    "liczba": 463
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 321
+    "liczba": 351
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 31
+    "liczba": 37
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,11 +159,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 573
+    "liczba": 611
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 214
+    "liczba": 240
    },
    {
     "nazwa": "Inne / brak danych",
@@ -173,19 +173,19 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 421
+    "liczba": 441
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 225
+    "liczba": 258
    },
    {
     "nazwa": "Kombi",
-    "liczba": 103
+    "liczba": 113
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Sedan",
@@ -196,13 +196,21 @@
     "liczba": 12
    }
   ],
-  "noweOdPaczki": 182,
+  "noweOdPaczki": 246,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 28
+   },
+   {
     "rok": 2021,
-    "liczba": 37
+    "liczba": 72
    },
    {
     "rok": 2022,
@@ -226,6 +234,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2021-12",
     "liczba": 8
@@ -463,10 +523,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 826,
+  "miejsce": 820,
   "miejsceWMarce": 9,
   "modeliWMarce": 15,
-  "sredniRocznik": 2005.2
+  "sredniRocznik": 2005.3
  },
  "youtubeId": "",
  "zrodla": [

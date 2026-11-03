@@ -12,69 +12,69 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda CR-Z – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 249 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CR-Z, CR-Z 1.5 HYBRID).",
-  "liczbaWPolsce": 547,
-  "aktywne": 389,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda CR-Z – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 295 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CR-Z, CR-Z 1.5 HYBRID).",
+  "liczbaWPolsce": 593,
+  "aktywne": 435,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 41
+    "liczba": 44
    },
    {
     "teryt": "04",
-    "liczba": 20
-   },
-   {
-    "teryt": "06",
-    "liczba": 20
-   },
-   {
-    "teryt": "08",
-    "liczba": 15
-   },
-   {
-    "teryt": "10",
-    "liczba": 30
-   },
-   {
-    "teryt": "12",
-    "liczba": 66
-   },
-   {
-    "teryt": "14",
-    "liczba": 115
-   },
-   {
-    "teryt": "16",
-    "liczba": 12
-   },
-   {
-    "teryt": "18",
-    "liczba": 24
-   },
-   {
-    "teryt": "20",
-    "liczba": 10
-   },
-   {
-    "teryt": "22",
     "liczba": 21
    },
    {
+    "teryt": "06",
+    "liczba": 21
+   },
+   {
+    "teryt": "08",
+    "liczba": 16
+   },
+   {
+    "teryt": "10",
+    "liczba": 32
+   },
+   {
+    "teryt": "12",
+    "liczba": 70
+   },
+   {
+    "teryt": "14",
+    "liczba": 127
+   },
+   {
+    "teryt": "16",
+    "liczba": 13
+   },
+   {
+    "teryt": "18",
+    "liczba": 27
+   },
+   {
+    "teryt": "20",
+    "liczba": 12
+   },
+   {
+    "teryt": "22",
+    "liczba": 24
+   },
+   {
     "teryt": "24",
-    "liczba": 80
+    "liczba": 85
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 48
+    "liczba": 53
    },
    {
     "teryt": "32",
@@ -133,23 +133,23 @@
    },
    {
     "rok": 2010,
-    "liczba": 312
+    "liczba": 336
    },
    {
     "rok": 2011,
-    "liczba": 114
+    "liczba": 130
    },
    {
     "rok": 2012,
-    "liczba": 52
+    "liczba": 55
    },
    {
     "rok": 2013,
-    "liczba": 17
+    "liczba": 19
    },
    {
     "rok": 2014,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2015,
@@ -163,15 +163,15 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 279
+    "liczba": 315
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 245
+    "liczba": 252
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 18
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
@@ -181,7 +181,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 519
+    "liczba": 564
    },
    {
     "nazwa": "2,0 l",
@@ -189,17 +189,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 18
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 258
+    "liczba": 270
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 232
+    "liczba": 265
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -207,38 +207,42 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 405
+    "liczba": 441
    },
    {
     "nazwa": "Coupe",
-    "liczba": 114
+    "liczba": 123
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 7
    },
    {
     "nazwa": "Sedan",
     "liczba": 7
    },
    {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 6
-   },
-   {
     "nazwa": "Inne / brak danych",
     "liczba": 15
    }
   ],
-  "noweOdPaczki": 249,
-  "hybrydy": 277,
+  "noweOdPaczki": 295,
+  "hybrydy": 313,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 21
+   },
+   {
     "rok": 2021,
-    "liczba": 25
+    "liczba": 50
    },
    {
     "rok": 2022,
@@ -262,6 +266,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2021-12",
     "liczba": 4
@@ -499,7 +555,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 929,
+  "miejsce": 916,
   "miejsceWMarce": 16,
   "modeliWMarce": 21,
   "sredniRocznik": 2010.4
@@ -515,11 +571,6 @@
  "adres": "/marki/honda/cr-z/",
  "konkurenci": [
   {
-   "slug": "mitsubishi-space-star",
-   "nazwa": "Mitsubishi Space Star",
-   "adres": "/marki/mitsubishi/space-star/"
-  },
-  {
    "slug": "skoda-fabia",
    "nazwa": "Skoda Fabia",
    "adres": "/marki/skoda/fabia/"
@@ -528,6 +579,11 @@
    "slug": "toyota-prius",
    "nazwa": "Toyota Prius",
    "adres": "/marki/toyota/prius/"
+  },
+  {
+   "slug": "mitsubishi-space-star",
+   "nazwa": "Mitsubishi Space Star",
+   "adres": "/marki/mitsubishi/space-star/"
   },
   {
    "slug": "suzuki-sx4",

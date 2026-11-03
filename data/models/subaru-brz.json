@@ -12,37 +12,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Brz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 520 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRZ).",
-  "liczbaWPolsce": 652,
-  "aktywne": 612,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Brz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 561 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRZ).",
+  "liczbaWPolsce": 693,
+  "aktywne": 653,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 46
+    "liczba": 49
    },
    {
     "teryt": "04",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "06",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "08",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "teryt": "10",
-    "liczba": 34
+    "liczba": 39
    },
    {
     "teryt": "12",
-    "liczba": 97
+    "liczba": 100
    },
    {
     "teryt": "14",
-    "liczba": 140
+    "liczba": 147
    },
    {
     "teryt": "16",
@@ -50,19 +50,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 37
+    "liczba": 42
    },
    {
     "teryt": "20",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "22",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "teryt": "24",
-    "liczba": 69
+    "liczba": 73
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 54
+    "liczba": 59
    },
    {
     "teryt": "32",
@@ -85,39 +85,39 @@
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 18
+    "liczba": 21
    },
    {
     "rok": 2013,
-    "liczba": 117
+    "liczba": 120
    },
    {
     "rok": 2014,
-    "liczba": 46
-   },
-   {
-    "rok": 2015,
-    "liczba": 58
-   },
-   {
-    "rok": 2016,
     "liczba": 48
    },
    {
+    "rok": 2015,
+    "liczba": 59
+   },
+   {
+    "rok": 2016,
+    "liczba": 51
+   },
+   {
     "rok": 2017,
-    "liczba": 71
+    "liczba": 78
    },
    {
     "rok": 2018,
-    "liczba": 56
+    "liczba": 65
    },
    {
     "rok": 2019,
-    "liczba": 20
+    "liczba": 22
    },
    {
     "rok": 2020,
-    "liczba": 60
+    "liczba": 71
    },
    {
     "rok": 2021,
@@ -143,7 +143,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 650
+    "liczba": 691
    },
    {
     "nazwa": "Inne / brak danych",
@@ -153,7 +153,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 499
+    "liczba": 540
    },
    {
     "nazwa": "2,4 l",
@@ -167,15 +167,15 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 332
+    "liczba": 352
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 263
+    "liczba": 283
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -189,28 +189,36 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 605
+    "liczba": 643
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
     "liczba": 14
    },
    {
+    "nazwa": "Sedan",
+    "liczba": 7
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 8
    }
   ],
-  "noweOdPaczki": 520,
+  "noweOdPaczki": 561,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 21
+   },
+   {
     "rok": 2021,
-    "liczba": 27
+    "liczba": 47
    },
    {
     "rok": 2022,
@@ -234,6 +242,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 4
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -471,9 +531,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 876,
+  "miejsce": 875,
   "miejsceWMarce": 9,
-  "modeliWMarce": 12,
+  "modeliWMarce": 13,
   "sredniRocznik": 2017.4
  },
  "youtubeId": "",
@@ -497,11 +557,6 @@
    "adres": "/marki/audi/s3/"
   },
   {
-   "slug": "audi-a5",
-   "nazwa": "Audi A5",
-   "adres": "/marki/audi/a5/"
-  },
-  {
    "slug": "mazda-cx-5",
    "nazwa": "Mazda CX-5",
    "adres": "/marki/mazda/cx-5/"
@@ -510,6 +565,11 @@
    "slug": "ford-escape",
    "nazwa": "Ford Escape",
    "adres": "/marki/ford/escape/"
+  },
+  {
+   "slug": "alfa-romeo-giulia",
+   "nazwa": "Alfa Romeo Giulia",
+   "adres": "/marki/alfa-romeo/giulia/"
   }
  ]
 }

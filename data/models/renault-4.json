@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 247 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 4, 4 E-TECH ELECTRIC, 4 GTL).",
-  "liczbaWPolsce": 487,
-  "aktywne": 261,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 252 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 4, 4 E-TECH ELECTRIC, 4 GTL).",
+  "liczbaWPolsce": 492,
+  "aktywne": 266,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,11 +34,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "12",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "14",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "32",
-    "liczba": 31
+    "liczba": 32
    }
   ],
   "bezWojewodztwa": 1,
@@ -229,7 +229,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 6
+    "liczba": 9
    },
    {
     "rok": 1990,
@@ -241,7 +241,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 1993,
@@ -387,7 +387,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 107
+    "liczba": 112
    },
    {
     "nazwa": "Inne / brak danych",
@@ -401,7 +401,7 @@
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 71
+    "liczba": 75
    },
    {
     "nazwa": "0,9 l",
@@ -413,7 +413,7 @@
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
@@ -427,11 +427,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 197
+    "liczba": 198
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 37
+    "liczba": 41
    },
    {
     "nazwa": "Inne / brak danych",
@@ -441,7 +441,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 288
+    "liczba": 292
    },
    {
     "nazwa": "Sedan",
@@ -453,16 +453,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 153
+    "liczba": 154
    }
   ],
-  "noweOdPaczki": 247,
+  "noweOdPaczki": 252,
   "hybrydy": 0,
   "elektryczne": 222,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2022,
@@ -486,6 +490,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -723,10 +779,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 964,
-  "miejsceWMarce": 41,
+  "miejsce": 977,
+  "miejsceWMarce": 40,
   "modeliWMarce": 48,
-  "sredniRocznik": 1999.0
+  "sredniRocznik": 1998.9
  },
  "youtubeId": "",
  "zrodla": [
@@ -738,11 +794,6 @@
  "modelSlug": "4",
  "adres": "/marki/renault/4/",
  "konkurenci": [
-  {
-   "slug": "daihatsu-cuore",
-   "nazwa": "Daihatsu Cuore",
-   "adres": "/marki/daihatsu/cuore/"
-  },
   {
    "slug": "daewoo-matiz",
    "nazwa": "Daewoo Matiz",
@@ -757,6 +808,11 @@
    "slug": "daewoo-tico",
    "nazwa": "Daewoo Tico",
    "adres": "/marki/daewoo/tico/"
+  },
+  {
+   "slug": "daihatsu-cuore",
+   "nazwa": "Daihatsu Cuore",
+   "adres": "/marki/daihatsu/cuore/"
   },
   {
    "slug": "hyundai-atos",

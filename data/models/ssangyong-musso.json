@@ -7,17 +7,16 @@
  "nadwozia": [
   "kombi",
   "van",
-  "hatchback",
   "suv",
-  "sedan"
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Musso – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MUSSO).",
-  "liczbaWPolsce": 432,
-  "aktywne": 70,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Musso – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MUSSO).",
+  "liczbaWPolsce": 438,
+  "aktywne": 76,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -29,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "teryt": "08",
@@ -53,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "20",
@@ -61,11 +60,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "24",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "26",
@@ -96,15 +95,15 @@
    },
    {
     "rok": 1996,
-    "liczba": 144
+    "liczba": 145
    },
    {
     "rok": 1997,
-    "liczba": 85
+    "liczba": 86
    },
    {
     "rok": 1998,
-    "liczba": 90
+    "liczba": 91
    },
    {
     "rok": 1999,
@@ -116,7 +115,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2002,
@@ -132,25 +131,25 @@
    },
    {
     "rok": 2005,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2006,
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 352
+    "liczba": 355
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,15 +159,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,9 l",
-    "liczba": 330
+    "liczba": 333
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 56
+    "liczba": 58
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "nazwa": "Inne / brak danych",
@@ -178,11 +177,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 271
+    "liczba": 273
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 152
+    "liczba": 156
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -200,19 +199,19 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "nazwa": "Van",
     "liczba": 44
    },
    {
-    "nazwa": "Hatchback",
-    "liczba": 42
+    "nazwa": "Terenowy",
+    "liczba": 43
    },
    {
-    "nazwa": "Terenowy",
-    "liczba": 39
+    "nazwa": "Hatchback",
+    "liczba": 42
    },
    {
     "nazwa": "Sedan",
@@ -223,13 +222,17 @@
     "liczba": 61
    }
   ],
-  "noweOdPaczki": 16,
+  "noweOdPaczki": 22,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
     "rok": 2021,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -253,6 +256,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -490,7 +545,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1004,
+  "miejsce": 1014,
   "miejsceWMarce": 8,
   "modeliWMarce": 10,
   "sredniRocznik": 1997.6

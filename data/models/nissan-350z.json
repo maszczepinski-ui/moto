@@ -13,45 +13,45 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan 350Z – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 198 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 350Z).",
-  "liczbaWPolsce": 425,
-  "aktywne": 305,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan 350Z – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 244 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 350Z).",
+  "liczbaWPolsce": 471,
+  "aktywne": 351,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "04",
-    "liczba": 19
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "teryt": "08",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "10",
-    "liczba": 20
+    "liczba": 24
    },
    {
     "teryt": "12",
-    "liczba": 40
+    "liczba": 49
    },
    {
     "teryt": "14",
-    "liczba": 66
+    "liczba": 71
    },
    {
     "teryt": "16",
-    "liczba": 6
+    "liczba": 9
    },
    {
     "teryt": "18",
-    "liczba": 28
+    "liczba": 32
    },
    {
     "teryt": "20",
@@ -59,23 +59,23 @@
    },
    {
     "teryt": "22",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "24",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "28",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "30",
-    "liczba": 53
+    "liczba": 56
    },
    {
     "teryt": "32",
@@ -90,27 +90,27 @@
    },
    {
     "rok": 2003,
-    "liczba": 72
+    "liczba": 85
    },
    {
     "rok": 2004,
-    "liczba": 93
+    "liczba": 107
    },
    {
     "rok": 2005,
-    "liczba": 68
+    "liczba": 79
    },
    {
     "rok": 2006,
-    "liczba": 74
+    "liczba": 78
    },
    {
     "rok": 2007,
-    "liczba": 66
+    "liczba": 67
    },
    {
     "rok": 2008,
-    "liczba": 34
+    "liczba": 37
    },
    {
     "rok": 2009,
@@ -132,11 +132,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 401
+    "liczba": 444
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,7 +146,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 420
+    "liczba": 466
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,11 +156,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 232
+    "liczba": 251
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 183
+    "liczba": 210
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -174,22 +174,22 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 324
+    "liczba": 360
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 64
+    "liczba": 72
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 18
-   },
-   {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5
+    "liczba": 19
    },
    {
     "nazwa": "Sedan",
+    "liczba": 6
+   },
+   {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
     "liczba": 5
    },
    {
@@ -197,13 +197,21 @@
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 198,
+  "noweOdPaczki": 244,
   "hybrydy": 0,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 21
+   },
+   {
     "rok": 2021,
-    "liczba": 15
+    "liczba": 39
    },
    {
     "rok": 2022,
@@ -227,6 +235,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -464,10 +524,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1012,
+  "miejsce": 994,
   "miejsceWMarce": 39,
   "modeliWMarce": 47,
-  "sredniRocznik": 2005.2
+  "sredniRocznik": 2005.1
  },
  "youtubeId": "",
  "zrodla": [
@@ -485,9 +545,9 @@
    "adres": "/marki/bmw/seria-6/"
   },
   {
-   "slug": "jeep-liberty",
-   "nazwa": "Jeep Liberty",
-   "adres": "/marki/jeep/liberty/"
+   "slug": "toyota-supra",
+   "nazwa": "Toyota Supra",
+   "adres": "/marki/toyota/supra/"
   },
   {
    "slug": "porsche-911",
@@ -495,14 +555,14 @@
    "adres": "/marki/porsche/911/"
   },
   {
-   "slug": "toyota-supra",
-   "nazwa": "Toyota Supra",
-   "adres": "/marki/toyota/supra/"
-  },
-  {
    "slug": "jaguar-xj",
    "nazwa": "Jaguar XJ",
    "adres": "/marki/jaguar/xj/"
+  },
+  {
+   "slug": "jeep-liberty",
+   "nazwa": "Jeep Liberty",
+   "adres": "/marki/jeep/liberty/"
   }
  ]
 }

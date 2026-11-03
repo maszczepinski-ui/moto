@@ -7,20 +7,20 @@
  "nadwozia": [
   "coupe",
   "sedan",
-  "hatchback",
-  "kabriolet"
+  "kabriolet",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda RX-7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 79 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RX-7).",
-  "liczbaWPolsce": 228,
-  "aktywne": 107,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda RX-7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 94 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RX-7).",
+  "liczbaWPolsce": 243,
+  "aktywne": 122,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "04",
@@ -36,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "12",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "14",
-    "liczba": 57
+    "liczba": 61
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "20",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "teryt": "24",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "32",
-    "liczba": 3
+    "liczba": 5
    }
   ],
   "bezWojewodztwa": 3,
@@ -111,7 +111,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 1986,
@@ -123,11 +123,11 @@
    },
    {
     "rok": 1988,
-    "liczba": 9
+    "liczba": 12
    },
    {
     "rok": 1989,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1990,
@@ -135,19 +135,19 @@
    },
    {
     "rok": 1991,
-    "liczba": 17
-   },
-   {
-    "rok": 1992,
-    "liczba": 22
-   },
-   {
-    "rok": 1993,
     "liczba": 18
    },
    {
+    "rok": 1992,
+    "liczba": 26
+   },
+   {
+    "rok": 1993,
+    "liczba": 19
+   },
+   {
     "rok": 1994,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 1995,
@@ -163,7 +163,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 1999,
@@ -189,7 +189,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 163
+    "liczba": 178
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -203,15 +203,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 146
+    "liczba": 158
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "nazwa": "1,6 l",
@@ -227,17 +227,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 111
+    "liczba": 114
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 100
+    "liczba": 112
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -255,10 +255,14 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 124
+    "liczba": 136
    },
    {
     "nazwa": "Sedan",
+    "liczba": 16
+   },
+   {
+    "nazwa": "Kabriolet",
     "liczba": 15
    },
    {
@@ -266,21 +270,21 @@
     "liczba": 14
    },
    {
-    "nazwa": "Kabriolet",
-    "liczba": 14
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 61
+    "liczba": 62
    }
   ],
-  "noweOdPaczki": 79,
+  "noweOdPaczki": 94,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 8
+   },
+   {
     "rok": 2021,
-    "liczba": 6
+    "liczba": 13
    },
    {
     "rok": 2022,
@@ -304,6 +308,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -541,10 +597,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1222,
+  "miejsce": 1220,
   "miejsceWMarce": 31,
-  "modeliWMarce": 32,
-  "sredniRocznik": 1988.4
+  "modeliWMarce": 33,
+  "sredniRocznik": 1988.6
  },
  "youtubeId": "",
  "zrodla": [

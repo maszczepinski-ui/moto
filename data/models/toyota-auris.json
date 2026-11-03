@@ -13,176 +13,180 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Auris – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 339 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AURIS, TOYOTA AURIS, AURIS HYBRID, AURIS-TMPL, AURIS 1.6).",
-  "liczbaWPolsce": 92451,
-  "aktywne": 59021,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Auris – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 250 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AURIS, TOYOTA AURIS, AURIS HYBRID, AURIS-TMPL, AURIS 1.6).",
+  "liczbaWPolsce": 97362,
+  "aktywne": 63932,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 7071
+    "liczba": 7384
    },
    {
     "teryt": "04",
-    "liczba": 3451
+    "liczba": 3610
    },
    {
     "teryt": "06",
-    "liczba": 4846
+    "liczba": 5285
    },
    {
     "teryt": "08",
-    "liczba": 1559
+    "liczba": 1654
    },
    {
     "teryt": "10",
-    "liczba": 5292
+    "liczba": 5597
    },
    {
     "teryt": "12",
-    "liczba": 7230
+    "liczba": 7645
    },
    {
     "teryt": "14",
-    "liczba": 24735
+    "liczba": 25855
    },
    {
     "teryt": "16",
-    "liczba": 1581
+    "liczba": 1658
    },
    {
     "teryt": "18",
-    "liczba": 4769
+    "liczba": 5091
    },
    {
     "teryt": "20",
-    "liczba": 3039
+    "liczba": 3292
    },
    {
     "teryt": "22",
-    "liczba": 4749
+    "liczba": 4923
    },
    {
     "teryt": "24",
-    "liczba": 8889
+    "liczba": 9227
    },
    {
     "teryt": "26",
-    "liczba": 2773
+    "liczba": 2977
    },
    {
     "teryt": "28",
-    "liczba": 2959
+    "liczba": 3191
    },
    {
     "teryt": "30",
-    "liczba": 6339
+    "liczba": 6636
    },
    {
     "teryt": "32",
-    "liczba": 2878
+    "liczba": 3046
    }
   ],
   "bezWojewodztwa": 291,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 269
+    "liczba": 301
    },
    {
     "rok": 2007,
-    "liczba": 10316
+    "liczba": 11166
    },
    {
     "rok": 2008,
-    "liczba": 10032
+    "liczba": 10790
    },
    {
     "rok": 2009,
-    "liczba": 6409
+    "liczba": 6957
    },
    {
     "rok": 2010,
-    "liczba": 5246
+    "liczba": 5723
    },
    {
     "rok": 2011,
-    "liczba": 4766
+    "liczba": 5115
    },
    {
     "rok": 2012,
-    "liczba": 3882
+    "liczba": 4173
    },
    {
     "rok": 2013,
-    "liczba": 9415
+    "liczba": 9863
    },
    {
     "rok": 2014,
-    "liczba": 8353
+    "liczba": 8684
    },
    {
     "rok": 2015,
-    "liczba": 8355
+    "liczba": 8670
    },
    {
     "rok": 2016,
-    "liczba": 7553
+    "liczba": 7789
    },
    {
     "rok": 2017,
-    "liczba": 6514
+    "liczba": 6660
    },
    {
     "rok": 2018,
-    "liczba": 9099
+    "liczba": 9218
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 53064
+    "liczba": 55556
    },
    {
     "nazwa": "Diesel",
-    "liczba": 20151
+    "liczba": 21098
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 11730
+    "liczba": 12453
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 7400
+    "liczba": 8146
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 106
+    "liczba": 109
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 32960
+    "liczba": 34847
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 20010
+    "liczba": 21108
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 18487
+    "liczba": 19234
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 14600
+    "liczba": 15146
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 5103
+    "liczba": 5601
+   },
+   {
+    "nazwa": "1,2 l",
+    "liczba": 1019
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1291
+    "liczba": 407
    }
   ],
   "pochodzenie": [
@@ -192,42 +196,50 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 28352
+    "liczba": 31539
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 26283
+    "liczba": 28002
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 396
+    "liczba": 401
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 42054
+    "liczba": 43091
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 37355
+    "liczba": 40736
    },
    {
     "nazwa": "Kombi",
-    "liczba": 12346
+    "liczba": 12822
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 696
+    "liczba": 713
    }
   ],
-  "noweOdPaczki": 22339,
-  "hybrydy": 11543,
+  "noweOdPaczki": 27250,
+  "hybrydy": 12266,
   "elektryczne": 18,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 52
+   },
+   {
+    "rok": 2020,
+    "liczba": 2312
+   },
+   {
     "rok": 2021,
-    "liczba": 1961
+    "liczba": 4508
    },
    {
     "rok": 2022,
@@ -251,6 +263,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 275
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 314
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 274
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 309
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 410
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 391
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 412
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 413
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 443
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 410
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 406
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 385
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 371
+   },
    {
     "miesiac": "2021-12",
     "liczba": 284
@@ -491,7 +555,7 @@
   "miejsce": 56,
   "miejsceWMarce": 5,
   "modeliWMarce": 43,
-  "sredniRocznik": 2012.5
+  "sredniRocznik": 2012.4
  },
  "youtubeId": "",
  "zrodla": [

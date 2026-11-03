@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Zastava 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100, ZASTAVA 1100P GT55, 1100 P, 1100P, ZASTAVA 1100P).",
-  "liczbaWPolsce": 30974,
-  "aktywne": 64,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Zastava 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100, ZASTAVA 1100P GT55, 1100 P, 1100P, ZASTAVA 1100P).",
+  "liczbaWPolsce": 30976,
+  "aktywne": 66,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 5205
+    "liczba": 5206
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 872
+    "liczba": 873
    },
    {
     "teryt": "26",
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 1906
+    "liczba": 1907
    },
    {
     "rok": 1983,
@@ -128,7 +128,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 43
+    "liczba": 44
    },
    {
     "rok": 1987,
@@ -150,7 +150,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3450
+    "liczba": 3452
    },
    {
     "nazwa": "?+LPG",
@@ -164,7 +164,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 29731
+    "liczba": 29733
    },
    {
     "nazwa": "Inne / brak danych",
@@ -174,7 +174,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 19131
+    "liczba": 19132
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -182,7 +182,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 389
+    "liczba": 390
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -200,17 +200,21 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 649
+    "liczba": 651
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 27594
    }
   ],
-  "noweOdPaczki": 11,
+  "noweOdPaczki": 13,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 2
+   },
    {
     "rok": 2021,
     "liczba": 2
@@ -233,6 +237,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -470,7 +526,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 155,
+  "miejsce": 166,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 1979.1

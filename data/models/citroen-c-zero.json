@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen C-Zero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 273 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C-ZERO).",
-  "liczbaWPolsce": 273,
-  "aktywne": 273,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen C-Zero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 321 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C-ZERO).",
+  "liczbaWPolsce": 321,
+  "aktywne": 321,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "04",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "06",
-    "liczba": 35
+    "liczba": 40
    },
    {
     "teryt": "08",
@@ -34,35 +34,35 @@
    },
    {
     "teryt": "10",
-    "liczba": 17
+    "liczba": 20
    },
    {
     "teryt": "12",
-    "liczba": 32
-   },
-   {
-    "teryt": "14",
     "liczba": 38
    },
    {
+    "teryt": "14",
+    "liczba": 44
+   },
+   {
     "teryt": "16",
-    "liczba": 6
-   },
-   {
-    "teryt": "18",
-    "liczba": 15
-   },
-   {
-    "teryt": "20",
-    "liczba": 11
-   },
-   {
-    "teryt": "22",
     "liczba": 9
    },
    {
+    "teryt": "18",
+    "liczba": 17
+   },
+   {
+    "teryt": "20",
+    "liczba": 13
+   },
+   {
+    "teryt": "22",
+    "liczba": 12
+   },
+   {
     "teryt": "24",
-    "liczba": 19
+    "liczba": 23
    },
    {
     "teryt": "26",
@@ -70,54 +70,78 @@
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "teryt": "30",
-    "liczba": 38
+    "liczba": 46
    },
    {
     "teryt": "32",
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
+    "rok": 2005,
+    "liczba": 1
+   },
+   {
+    "rok": 2006,
+    "liczba": 0
+   },
+   {
+    "rok": 2007,
+    "liczba": 0
+   },
+   {
+    "rok": 2008,
+    "liczba": 0
+   },
+   {
+    "rok": 2009,
+    "liczba": 0
+   },
+   {
+    "rok": 2010,
+    "liczba": 1
+   },
+   {
     "rok": 2011,
-    "liczba": 50
+    "liczba": 61
    },
    {
     "rok": 2012,
-    "liczba": 72
+    "liczba": 84
    },
    {
     "rok": 2013,
-    "liczba": 13
-   },
-   {
-    "rok": 2014,
-    "liczba": 9
-   },
-   {
-    "rok": 2015,
-    "liczba": 21
-   },
-   {
-    "rok": 2016,
-    "liczba": 28
-   },
-   {
-    "rok": 2017,
     "liczba": 15
    },
    {
+    "rok": 2014,
+    "liczba": 12
+   },
+   {
+    "rok": 2015,
+    "liczba": 24
+   },
+   {
+    "rok": 2016,
+    "liczba": 37
+   },
+   {
+    "rok": 2017,
+    "liczba": 17
+   },
+   {
     "rok": 2018,
-    "liczba": 33
+    "liczba": 36
    },
    {
     "rok": 2019,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2020,
@@ -131,23 +155,27 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 273
+    "liczba": 320
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 273
+    "liczba": 321
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 159
+    "liczba": 180
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 113
+    "liczba": 140
    },
    {
     "nazwa": "Inne / brak danych",
@@ -157,24 +185,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 161
+    "liczba": 196
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 109
+    "liczba": 121
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
-  "noweOdPaczki": 273,
+  "noweOdPaczki": 321,
   "hybrydy": 0,
-  "elektryczne": 273,
+  "elektryczne": 320,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 18
+   },
+   {
     "rok": 2021,
-    "liczba": 36
+    "liczba": 64
    },
    {
     "rok": 2022,
@@ -198,6 +234,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 9
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -435,10 +523,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1152,
+  "miejsce": 1122,
   "miejsceWMarce": 40,
   "modeliWMarce": 42,
-  "sredniRocznik": 2014.5
+  "sredniRocznik": 2014.3
  },
  "youtubeId": "",
  "zrodla": [
@@ -448,5 +536,32 @@
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "c-zero",
- "adres": "/marki/citroen/c-zero/"
+ "adres": "/marki/citroen/c-zero/",
+ "konkurenci": [
+  {
+   "slug": "tesla-model-s",
+   "nazwa": "Tesla Model S",
+   "adres": "/marki/tesla/model-s/"
+  },
+  {
+   "slug": "audi-e-tron",
+   "nazwa": "Audi E-Tron",
+   "adres": "/marki/audi/e-tron/"
+  },
+  {
+   "slug": "renault-zoe",
+   "nazwa": "Renault Zoe",
+   "adres": "/marki/renault/zoe/"
+  },
+  {
+   "slug": "suzuki-vitara",
+   "nazwa": "Suzuki Vitara",
+   "adres": "/marki/suzuki/vitara/"
+  },
+  {
+   "slug": "mini-one-cooper",
+   "nazwa": "Mini One / Cooper",
+   "adres": "/marki/mini/one-cooper/"
+  }
+ ]
 }

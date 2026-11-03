@@ -13,108 +13,108 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 560 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M440I XDRIVE, M4 COMPETITION M XDRIVE, M4, M440D XDRIVE, M440I).",
-  "liczbaWPolsce": 3703,
-  "aktywne": 3679,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 826 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M440I XDRIVE, M4 COMPETITION M XDRIVE, M4, M440D XDRIVE, M4 COMPETITION).",
+  "liczbaWPolsce": 3969,
+  "aktywne": 3945,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 284
+    "liczba": 298
    },
    {
     "teryt": "04",
-    "liczba": 144
+    "liczba": 151
    },
    {
     "teryt": "06",
-    "liczba": 132
+    "liczba": 144
    },
    {
     "teryt": "08",
-    "liczba": 72
+    "liczba": 76
    },
    {
     "teryt": "10",
-    "liczba": 166
+    "liczba": 184
    },
    {
     "teryt": "12",
-    "liczba": 491
+    "liczba": 521
    },
    {
     "teryt": "14",
-    "liczba": 866
+    "liczba": 925
    },
    {
     "teryt": "16",
-    "liczba": 63
+    "liczba": 66
    },
    {
     "teryt": "18",
-    "liczba": 111
+    "liczba": 119
    },
    {
     "teryt": "20",
-    "liczba": 44
+    "liczba": 48
    },
    {
     "teryt": "22",
-    "liczba": 195
+    "liczba": 208
    },
    {
     "teryt": "24",
-    "liczba": 441
+    "liczba": 479
    },
    {
     "teryt": "26",
-    "liczba": 81
+    "liczba": 87
    },
    {
     "teryt": "28",
-    "liczba": 55
+    "liczba": 62
    },
    {
     "teryt": "30",
-    "liczba": 439
+    "liczba": 472
    },
    {
     "teryt": "32",
-    "liczba": 115
+    "liczba": 125
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 63
+    "liczba": 64
    },
    {
     "rok": 2015,
-    "liczba": 157
+    "liczba": 176
    },
    {
     "rok": 2016,
-    "liczba": 124
+    "liczba": 133
    },
    {
     "rok": 2017,
-    "liczba": 97
+    "liczba": 102
    },
    {
     "rok": 2018,
-    "liczba": 80
+    "liczba": 96
    },
    {
     "rok": 2019,
-    "liczba": 41
+    "liczba": 48
    },
    {
     "rok": 2020,
-    "liczba": 46
+    "liczba": 134
    },
    {
     "rok": 2021,
-    "liczba": 313
+    "liczba": 434
    },
    {
     "rok": 2022,
@@ -140,19 +140,19 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2722
+    "liczba": 2926
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 822
+    "liczba": 878
    },
    {
     "nazwa": "Diesel",
-    "liczba": 87
+    "liczba": 89
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 71
+    "liczba": 75
    },
    {
     "nazwa": "Inne / brak danych",
@@ -162,29 +162,29 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 3690
+    "liczba": 3955
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 14
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1927
+    "liczba": 1977
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1054
+    "liczba": 1246
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 695
+    "liczba": 718
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
@@ -194,28 +194,36 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 2289
+    "liczba": 2527
    },
    {
     "nazwa": "Sedan",
-    "liczba": 826
+    "liczba": 834
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 518
+    "liczba": 536
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 70
+    "liczba": 72
    }
   ],
-  "noweOdPaczki": 3560,
-  "hybrydy": 893,
+  "noweOdPaczki": 3826,
+  "hybrydy": 953,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 86
+   },
+   {
     "rok": 2021,
-    "liczba": 171
+    "liczba": 349
    },
    {
     "rok": 2022,
@@ -239,6 +247,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 53
+   },
    {
     "miesiac": "2021-12",
     "liczba": 43
@@ -476,10 +536,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 484,
+  "miejsce": 483,
   "miejsceWMarce": 15,
-  "modeliWMarce": 42,
-  "sredniRocznik": 2022.3
+  "modeliWMarce": 43,
+  "sredniRocznik": 2022.1
  },
  "youtubeId": "",
  "zrodla": [
@@ -492,14 +552,19 @@
  "adres": "/marki/bmw/m4/",
  "konkurenci": [
   {
+   "slug": "porsche-718",
+   "nazwa": "Porsche 718",
+   "adres": "/marki/porsche/718/"
+  },
+  {
    "slug": "mercedes-benz-amg",
    "nazwa": "Mercedes-Benz Amg",
    "adres": "/marki/mercedes-benz/amg/"
   },
   {
-   "slug": "lexus-nx",
-   "nazwa": "Lexus NX",
-   "adres": "/marki/lexus/nx/"
+   "slug": "audi-rs",
+   "nazwa": "Audi RS",
+   "adres": "/marki/audi/rs/"
   },
   {
    "slug": "lexus-es",
@@ -507,14 +572,9 @@
    "adres": "/marki/lexus/es/"
   },
   {
-   "slug": "toyota-highlander",
-   "nazwa": "Toyota Highlander",
-   "adres": "/marki/toyota/highlander/"
-  },
-  {
-   "slug": "audi-rs",
-   "nazwa": "Audi RS",
-   "adres": "/marki/audi/rs/"
+   "slug": "lexus-nx",
+   "nazwa": "Lexus NX",
+   "adres": "/marki/lexus/nx/"
   }
  ]
 }

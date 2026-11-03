@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Evasion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVASION, EVASION 2.0 HDI, EVASION 2.0 KAT, EVASION 1.9 TD, EVASION 2.0).",
-  "liczbaWPolsce": 1278,
-  "aktywne": 214,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen Evasion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 46 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVASION, EVASION 2.0 HDI, EVASION 2.0 KAT, EVASION 1.9 TD, EVASION 2.0).",
+  "liczbaWPolsce": 1293,
+  "aktywne": 229,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -28,23 +28,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 128
+    "liczba": 129
    },
    {
     "teryt": "08",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "10",
-    "liczba": 65
+    "liczba": 67
    },
    {
     "teryt": "12",
-    "liczba": 103
+    "liczba": 104
    },
    {
     "teryt": "14",
-    "liczba": 204
+    "liczba": 206
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 110
+    "liczba": 111
    },
    {
     "teryt": "20",
@@ -64,11 +64,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 69
+    "liczba": 72
    },
    {
     "teryt": "26",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "teryt": "28",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 120
+    "liczba": 122
    },
    {
     "teryt": "32",
-    "liczba": 80
+    "liczba": 81
    }
   ],
   "bezWojewodztwa": 3,
@@ -99,23 +99,23 @@
    },
    {
     "rok": 1997,
-    "liczba": 121
+    "liczba": 123
    },
    {
     "rok": 1998,
-    "liczba": 157
+    "liczba": 158
    },
    {
     "rok": 1999,
-    "liczba": 166
+    "liczba": 169
    },
    {
     "rok": 2000,
-    "liczba": 179
+    "liczba": 182
    },
    {
     "rok": 2001,
-    "liczba": 165
+    "liczba": 171
    },
    {
     "rok": 2002,
@@ -125,15 +125,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 672
+    "liczba": 677
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 345
+    "liczba": 348
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 229
+    "liczba": 236
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,7 +143,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 817
+    "liczba": 831
    },
    {
     "nazwa": "1,9 l",
@@ -151,7 +151,7 @@
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 108
+    "liczba": 109
    },
    {
     "nazwa": "1,8 l",
@@ -165,11 +165,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 637
+    "liczba": 648
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 615
+    "liczba": 618
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -177,21 +177,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 867
+    "liczba": 874
    },
    {
     "nazwa": "Kombi",
-    "liczba": 167
+    "liczba": 174
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 69
+    "liczba": 70
    },
    {
     "nazwa": "Hatchback",
@@ -206,13 +206,17 @@
     "liczba": 79
    }
   ],
-  "noweOdPaczki": 31,
+  "noweOdPaczki": 46,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 7
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 11
    },
    {
     "rok": 2022,
@@ -236,6 +240,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -473,7 +529,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 714,
+  "miejsce": 726,
   "miejsceWMarce": 26,
   "modeliWMarce": 42,
   "sredniRocznik": 1997.9

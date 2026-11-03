@@ -11,17 +11,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Rekord – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REKORD 2.0, REKORD, RECORD, REKORD 2.3D, REKORD 1.9).",
-  "liczbaWPolsce": 15384,
-  "aktywne": 103,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Rekord – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 78 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REKORD 2.0, REKORD, RECORD, REKORD 2.3D, REKORD 1.9).",
+  "liczbaWPolsce": 15394,
+  "aktywne": 113,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1284
+    "liczba": 1285
    },
    {
     "teryt": "04",
-    "liczba": 950
+    "liczba": 952
    },
    {
     "teryt": "06",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 2049
+    "liczba": 2050
    },
    {
     "teryt": "16",
-    "liczba": 436
+    "liczba": 437
    },
    {
     "teryt": "18",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 1139
+    "liczba": 1140
    },
    {
     "teryt": "24",
-    "liczba": 1345
+    "liczba": 1346
    },
    {
     "teryt": "26",
@@ -69,11 +69,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 702
+    "liczba": 703
    },
    {
     "teryt": "30",
-    "liczba": 1679
+    "liczba": 1681
    },
    {
     "teryt": "32",
@@ -84,11 +84,11 @@
   "roczniki": [
    {
     "rok": 1959,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 1960,
-    "liczba": 57
+    "liczba": 58
    },
    {
     "rok": 1961,
@@ -96,7 +96,7 @@
    },
    {
     "rok": 1962,
-    "liczba": 65
+    "liczba": 67
    },
    {
     "rok": 1963,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1965,
-    "liczba": 138
+    "liczba": 139
    },
    {
     "rok": 1966,
@@ -124,7 +124,7 @@
    },
    {
     "rok": 1969,
-    "liczba": 111
+    "liczba": 112
    },
    {
     "rok": 1970,
@@ -136,7 +136,7 @@
    },
    {
     "rok": 1972,
-    "liczba": 120
+    "liczba": 121
    },
    {
     "rok": 1973,
@@ -144,7 +144,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 110
+    "liczba": 111
    },
    {
     "rok": 1975,
@@ -156,7 +156,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 466
+    "liczba": 467
    },
    {
     "rok": 1978,
@@ -172,7 +172,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 1455
+    "liczba": 1456
    },
    {
     "rok": 1982,
@@ -238,7 +238,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2320
+    "liczba": 2330
    },
    {
     "nazwa": "Diesel",
@@ -260,7 +260,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 6561
+    "liczba": 6563
    },
    {
     "nazwa": "2,3 l",
@@ -268,15 +268,15 @@
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 1864
+    "liczba": 1865
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 987
+    "liczba": 993
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 959
+    "liczba": 960
    },
    {
     "nazwa": "2,2 l",
@@ -298,7 +298,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 11505
+    "liczba": 11507
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -306,7 +306,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 500
+    "liczba": 507
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -314,13 +314,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 531
+    "liczba": 532
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2653
+    "liczba": 2663
    },
    {
     "nazwa": "Hatchback",
@@ -335,13 +335,17 @@
     "liczba": 12299
    }
   ],
-  "noweOdPaczki": 68,
+  "noweOdPaczki": 78,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 4
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 11
    },
    {
     "rok": 2022,
@@ -365,6 +369,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -602,8 +658,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 245,
-  "miejsceWMarce": 13,
+  "miejsce": 255,
+  "miejsceWMarce": 14,
   "modeliWMarce": 33,
   "sredniRocznik": 1980.2
  },

@@ -13,114 +13,114 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford B-Max – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 680 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B-MAX).",
-  "liczbaWPolsce": 8504,
-  "aktywne": 6029,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford B-Max – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 326 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B-MAX).",
+  "liczbaWPolsce": 9150,
+  "aktywne": 6675,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 625
+    "liczba": 674
    },
    {
     "teryt": "04",
-    "liczba": 365
+    "liczba": 401
    },
    {
     "teryt": "06",
-    "liczba": 321
+    "liczba": 355
    },
    {
     "teryt": "08",
-    "liczba": 272
+    "liczba": 297
    },
    {
     "teryt": "10",
-    "liczba": 406
+    "liczba": 440
    },
    {
     "teryt": "12",
-    "liczba": 793
+    "liczba": 858
    },
    {
     "teryt": "14",
-    "liczba": 848
+    "liczba": 897
    },
    {
     "teryt": "16",
-    "liczba": 264
+    "liczba": 281
    },
    {
     "teryt": "18",
-    "liczba": 356
+    "liczba": 391
    },
    {
     "teryt": "20",
-    "liczba": 174
+    "liczba": 188
    },
    {
     "teryt": "22",
-    "liczba": 688
+    "liczba": 725
    },
    {
     "teryt": "24",
-    "liczba": 1503
+    "liczba": 1573
    },
    {
     "teryt": "26",
-    "liczba": 151
+    "liczba": 164
    },
    {
     "teryt": "28",
-    "liczba": 190
+    "liczba": 207
    },
    {
     "teryt": "30",
-    "liczba": 1212
+    "liczba": 1329
    },
    {
     "teryt": "32",
-    "liczba": 312
+    "liczba": 346
    }
   ],
   "bezWojewodztwa": 24,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 910
+    "liczba": 1001
    },
    {
     "rok": 2013,
-    "liczba": 2492
+    "liczba": 2734
    },
    {
     "rok": 2014,
-    "liczba": 1582
+    "liczba": 1710
    },
    {
     "rok": 2015,
-    "liczba": 1357
+    "liczba": 1437
    },
    {
     "rok": 2016,
-    "liczba": 1273
+    "liczba": 1328
    },
    {
     "rok": 2017,
-    "liczba": 799
+    "liczba": 848
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6826
+    "liczba": 7228
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1506
+    "liczba": 1724
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 167
+    "liczba": 193
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,19 +130,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 5604
+    "liczba": 5917
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1431
+    "liczba": 1601
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 839
+    "liczba": 906
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 619
+    "liczba": 715
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,7 +152,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 4256
+    "liczba": 4659
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -160,42 +160,50 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1573
+    "liczba": 1815
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 38
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 6582
+    "liczba": 6950
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1227
+    "liczba": 1394
    },
    {
     "nazwa": "Kombi",
-    "liczba": 379
+    "liczba": 430
    },
    {
     "nazwa": "Van",
-    "liczba": 279
+    "liczba": 333
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 43
    }
   ],
-  "noweOdPaczki": 4680,
+  "noweOdPaczki": 5326,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 12
+   },
+   {
+    "rok": 2020,
+    "liczba": 251
+   },
+   {
     "rok": 2021,
-    "liczba": 308
+    "liczba": 691
    },
    {
     "rok": 2022,
@@ -219,6 +227,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 69
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 65
+   },
    {
     "miesiac": "2021-12",
     "liczba": 54
@@ -456,7 +516,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 339,
+  "miejsce": 336,
   "miejsceWMarce": 23,
   "modeliWMarce": 46,
   "sredniRocznik": 2014.2

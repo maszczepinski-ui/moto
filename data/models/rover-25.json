@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 25 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 25, 25 1.4 KAT, 25 2.0 TD, 25 1,4 KAT, 25 2.0 TDI).",
-  "liczbaWPolsce": 1954,
-  "aktywne": 464,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 25 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 35 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 25, 25 1.4 KAT, 25 2.0 TD, 25 1,4 KAT, 25 2.0 TDI).",
+  "liczbaWPolsce": 1963,
+  "aktywne": 473,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 180
+    "liczba": 181
    },
    {
     "teryt": "04",
-    "liczba": 104
+    "liczba": 106
    },
    {
     "teryt": "06",
-    "liczba": 155
+    "liczba": 157
    },
    {
     "teryt": "08",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 225
+    "liczba": 226
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 143
+    "liczba": 144
    },
    {
     "teryt": "26",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 311
+    "liczba": 312
    },
    {
     "teryt": "32",
-    "liczba": 86
+    "liczba": 87
    }
   ],
   "bezWojewodztwa": 4,
@@ -92,7 +92,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 377
+    "liczba": 378
    },
    {
     "rok": 2002,
@@ -100,25 +100,25 @@
    },
    {
     "rok": 2003,
-    "liczba": 253
+    "liczba": 254
    },
    {
     "rok": 2004,
-    "liczba": 198
+    "liczba": 202
    },
    {
     "rok": 2005,
-    "liczba": 109
+    "liczba": 111
    },
    {
     "rok": 2006,
-    "liczba": 15
+    "liczba": 16
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1101
+    "liczba": 1109
    },
    {
     "nazwa": "Diesel",
@@ -126,7 +126,7 @@
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 236
+    "liczba": 237
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,7 +136,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1087
+    "liczba": 1092
    },
    {
     "nazwa": "2,0 l",
@@ -144,11 +144,11 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 173
+    "liczba": 176
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "nazwa": "1,8 l",
@@ -162,11 +162,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 976
+    "liczba": 981
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 963
+    "liczba": 967
    },
    {
     "nazwa": "Inne / brak danych",
@@ -176,7 +176,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1862
+    "liczba": 1871
    },
    {
     "nazwa": "Sedan",
@@ -187,13 +187,21 @@
     "liczba": 38
    }
   ],
-  "noweOdPaczki": 26,
+  "noweOdPaczki": 35,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 9
    },
    {
     "rok": 2022,
@@ -217,6 +225,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -454,7 +514,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 612,
+  "miejsce": 626,
   "miejsceWMarce": 5,
   "modeliWMarce": 9,
   "sredniRocznik": 2001.5
@@ -470,6 +530,11 @@
  "adres": "/marki/rover/25/",
  "konkurenci": [
   {
+   "slug": "volkswagen-golf",
+   "nazwa": "Volkswagen Golf",
+   "adres": "/marki/volkswagen/golf/"
+  },
+  {
    "slug": "opel-astra-g",
    "nazwa": "Opel Astra G",
    "adres": "/marki/opel/astra/g/"
@@ -478,11 +543,6 @@
    "slug": "nissan-almera",
    "nazwa": "Nissan Almera",
    "adres": "/marki/nissan/almera/"
-  },
-  {
-   "slug": "volkswagen-golf",
-   "nazwa": "Volkswagen Golf",
-   "adres": "/marki/volkswagen/golf/"
   },
   {
    "slug": "citroen-xsara",

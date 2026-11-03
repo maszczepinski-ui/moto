@@ -12,73 +12,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Spark – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 759 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPARK, SPARK 1.0, SPARK 1.2 KAT, SPARK 1.2, SPARK 1.0 KAT).",
-  "liczbaWPolsce": 12914,
-  "aktywne": 6626,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Spark – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 673 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPARK, SPARK 1.0, SPARK 1.2 KAT, SPARK 1.2, SPARK 1.0 KAT).",
+  "liczbaWPolsce": 13828,
+  "aktywne": 7540,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 685
+    "liczba": 742
    },
    {
     "teryt": "04",
-    "liczba": 581
+    "liczba": 624
    },
    {
     "teryt": "06",
-    "liczba": 461
+    "liczba": 500
    },
    {
     "teryt": "08",
-    "liczba": 271
+    "liczba": 302
    },
    {
     "teryt": "10",
-    "liczba": 1026
+    "liczba": 1091
    },
    {
     "teryt": "12",
-    "liczba": 1323
+    "liczba": 1409
    },
    {
     "teryt": "14",
-    "liczba": 1502
+    "liczba": 1591
    },
    {
     "teryt": "16",
-    "liczba": 252
+    "liczba": 270
    },
    {
     "teryt": "18",
-    "liczba": 814
+    "liczba": 876
    },
    {
     "teryt": "20",
-    "liczba": 333
+    "liczba": 361
    },
    {
     "teryt": "22",
-    "liczba": 517
+    "liczba": 556
    },
    {
     "teryt": "24",
-    "liczba": 2854
+    "liczba": 3005
    },
    {
     "teryt": "26",
-    "liczba": 274
+    "liczba": 313
    },
    {
     "teryt": "28",
-    "liczba": 303
+    "liczba": 331
    },
    {
     "teryt": "30",
-    "liczba": 1182
+    "liczba": 1288
    },
    {
     "teryt": "32",
-    "liczba": 481
+    "liczba": 514
    }
   ],
   "bezWojewodztwa": 55,
@@ -89,77 +89,77 @@
    },
    {
     "rok": 2006,
-    "liczba": 487
+    "liczba": 488
    },
    {
     "rok": 2007,
-    "liczba": 525
+    "liczba": 527
    },
    {
     "rok": 2008,
-    "liczba": 346
+    "liczba": 349
    },
    {
     "rok": 2009,
-    "liczba": 394
+    "liczba": 419
    },
    {
     "rok": 2010,
-    "liczba": 2662
+    "liczba": 2979
    },
    {
     "rok": 2011,
-    "liczba": 3432
+    "liczba": 3749
    },
    {
     "rok": 2012,
-    "liczba": 2201
+    "liczba": 2347
    },
    {
     "rok": 2013,
-    "liczba": 1966
+    "liczba": 2051
    },
    {
     "rok": 2014,
-    "liczba": 109
+    "liczba": 121
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 11421
+    "liczba": 12242
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1458
+    "liczba": 1547
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 35
+    "liczba": 39
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 7466
+    "liczba": 7972
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 3353
+    "liczba": 3746
    },
    {
     "nazwa": "0,8 l",
-    "liczba": 2049
+    "liczba": 2057
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 46
+    "liczba": 53
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5097
+    "liczba": 5720
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -167,7 +167,7 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3292
+    "liczba": 3583
    },
    {
     "nazwa": "Inne / brak danych",
@@ -177,24 +177,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 10192
+    "liczba": 11083
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2593
+    "liczba": 2611
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 129
+    "liczba": 134
    }
   ],
-  "noweOdPaczki": 3759,
+  "noweOdPaczki": 4673,
   "hybrydy": 0,
-  "elektryczne": 9,
+  "elektryczne": 12,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 12
+   },
+   {
+    "rok": 2020,
+    "liczba": 431
+   },
+   {
     "rok": 2021,
-    "liczba": 399
+    "liczba": 870
    },
    {
     "rok": 2022,
@@ -218,6 +226,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 63
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 50
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 54
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 72
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 74
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 82
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 87
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 74
+   },
    {
     "miesiac": "2021-12",
     "liczba": 66
@@ -455,9 +515,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 268,
+  "miejsce": 270,
   "miejsceWMarce": 3,
-  "modeliWMarce": 23,
+  "modeliWMarce": 24,
   "sredniRocznik": 2010.6
  },
  "youtubeId": "",
@@ -481,19 +541,19 @@
    "adres": "/marki/nissan/pixo/"
   },
   {
-   "slug": "toyota-aygo",
-   "nazwa": "Toyota Aygo",
-   "adres": "/marki/toyota/aygo/"
-  },
-  {
    "slug": "peugeot-107",
    "nazwa": "Peugeot 107",
    "adres": "/marki/peugeot/107/"
   },
   {
-   "slug": "hyundai-i10",
-   "nazwa": "Hyundai i10",
-   "adres": "/marki/hyundai/i10/"
+   "slug": "toyota-aygo",
+   "nazwa": "Toyota Aygo",
+   "adres": "/marki/toyota/aygo/"
+  },
+  {
+   "slug": "skoda-fabia",
+   "nazwa": "Skoda Fabia",
+   "adres": "/marki/skoda/fabia/"
   }
  ]
 }

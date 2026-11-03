@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Marea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAREA, MAREA WEEKEND, MAREA 1.6 KAT, MAREA 1.6KAT, MAREA WEEKEND 1.9 JTD).",
-  "liczbaWPolsce": 6393,
-  "aktywne": 363,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Marea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAREA, MAREA WEEKEND, MAREA 1.6 KAT, MAREA 1.6KAT, MAREA WEEKEND 1.9 JTD).",
+  "liczbaWPolsce": 6403,
+  "aktywne": 373,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 704
+    "liczba": 705
    },
    {
     "teryt": "04",
@@ -31,19 +31,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 310
+    "liczba": 312
    },
    {
     "teryt": "10",
-    "liczba": 494
+    "liczba": 495
    },
    {
     "teryt": "12",
-    "liczba": 491
+    "liczba": 492
    },
    {
     "teryt": "14",
-    "liczba": 779
+    "liczba": 780
    },
    {
     "teryt": "16",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 312
+    "liczba": 313
    },
    {
     "teryt": "24",
-    "liczba": 674
+    "liczba": 675
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 629
+    "liczba": 631
    },
    {
     "teryt": "32",
@@ -86,7 +86,7 @@
   "roczniki": [
    {
     "rok": 1996,
-    "liczba": 486
+    "liczba": 487
    },
    {
     "rok": 1997,
@@ -94,37 +94,37 @@
    },
    {
     "rok": 1998,
-    "liczba": 1046
+    "liczba": 1047
    },
    {
     "rok": 1999,
-    "liczba": 918
+    "liczba": 920
    },
    {
     "rok": 2000,
-    "liczba": 851
+    "liczba": 853
    },
    {
     "rok": 2001,
-    "liczba": 423
+    "liczba": 426
    },
    {
     "rok": 2002,
-    "liczba": 205
+    "liczba": 206
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 2316
+    "liczba": 2319
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2304
+    "liczba": 2310
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1469
+    "liczba": 1470
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,15 +134,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 3051
+    "liczba": 3056
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 2031
+    "liczba": 2033
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 595
+    "liczba": 598
    },
    {
     "nazwa": "2,4 l",
@@ -160,11 +160,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3877
+    "liczba": 3879
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2098
+    "liczba": 2106
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -178,11 +178,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 3743
+    "liczba": 3752
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1720
+    "liczba": 1721
    },
    {
     "nazwa": "Hatchback",
@@ -193,13 +193,17 @@
     "liczba": 585
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 22,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 4
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 9
    },
    {
     "rok": 2022,
@@ -223,6 +227,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -460,9 +516,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 384,
+  "miejsce": 395,
   "miejsceWMarce": 20,
-  "modeliWMarce": 60,
+  "modeliWMarce": 61,
   "sredniRocznik": 1998.2
  },
  "youtubeId": "",

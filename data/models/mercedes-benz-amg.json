@@ -8,111 +8,111 @@
   "kombi",
   "sedan",
   "coupe",
-  "kabriolet",
-  "hatchback"
+  "hatchback",
+  "kabriolet"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Amg – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 453 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AMG G 63, AMG CLE 53 4MATIC, AMG CLA 35 4MATIC, AMG GLE 53 4MATIC COUPE, AMG GLE 53 4MATIC).",
-  "liczbaWPolsce": 14495,
-  "aktywne": 14403,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Amg – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 748 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AMG G 63, AMG GLE 53 4MATIC COUPE, AMG CLE 53 4MATIC, AMG GLE 53 4MATIC, AMG CLA 35 4MATIC).",
+  "liczbaWPolsce": 16790,
+  "aktywne": 16698,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1314
+    "liczba": 1530
    },
    {
     "teryt": "04",
-    "liczba": 507
+    "liczba": 606
    },
    {
     "teryt": "06",
-    "liczba": 313
+    "liczba": 366
    },
    {
     "teryt": "08",
-    "liczba": 368
+    "liczba": 413
    },
    {
     "teryt": "10",
-    "liczba": 583
+    "liczba": 680
    },
    {
     "teryt": "12",
-    "liczba": 1406
+    "liczba": 1665
    },
    {
     "teryt": "14",
-    "liczba": 3950
+    "liczba": 4487
    },
    {
     "teryt": "16",
-    "liczba": 185
+    "liczba": 216
    },
    {
     "teryt": "18",
-    "liczba": 416
+    "liczba": 487
    },
    {
     "teryt": "20",
-    "liczba": 260
+    "liczba": 292
    },
    {
     "teryt": "22",
-    "liczba": 1161
+    "liczba": 1344
    },
    {
     "teryt": "24",
-    "liczba": 1264
+    "liczba": 1483
    },
    {
     "teryt": "26",
-    "liczba": 214
+    "liczba": 267
    },
    {
     "teryt": "28",
-    "liczba": 203
+    "liczba": 254
    },
    {
     "teryt": "30",
-    "liczba": 1806
+    "liczba": 2060
    },
    {
     "teryt": "32",
-    "liczba": 542
+    "liczba": 637
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 2015,
-    "liczba": 96
+    "liczba": 106
    },
    {
     "rok": 2016,
-    "liczba": 352
+    "liczba": 374
    },
    {
     "rok": 2017,
-    "liczba": 521
+    "liczba": 558
    },
    {
     "rok": 2018,
-    "liczba": 564
+    "liczba": 618
    },
    {
     "rok": 2019,
-    "liczba": 398
+    "liczba": 703
    },
    {
     "rok": 2020,
-    "liczba": 246
+    "liczba": 1372
    },
    {
     "rok": 2021,
-    "liczba": 1189
+    "liczba": 1912
    },
    {
     "rok": 2022,
@@ -138,11 +138,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 8955
+    "liczba": 10753
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 5170
+    "liczba": 5661
    },
    {
     "nazwa": "Elektryczny",
@@ -150,86 +150,94 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 18
+    "liczba": 24
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 5579
+    "liczba": 6486
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 4744
+    "liczba": 5625
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 3576
+    "liczba": 4040
    },
    {
     "nazwa": "5,5 l",
-    "liczba": 180
+    "liczba": 208
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 416
+    "liczba": 431
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 9041
+    "liczba": 9554
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3878
+    "liczba": 5563
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1442
+    "liczba": 1532
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 124
+    "liczba": 126
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 15
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 8160
+    "liczba": 9672
    },
    {
     "nazwa": "Sedan",
-    "liczba": 3394
+    "liczba": 3866
    },
    {
     "nazwa": "Coupe",
-    "liczba": 1651
-   },
-   {
-    "nazwa": "Kabriolet",
-    "liczba": 603
+    "liczba": 1818
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 581
+    "liczba": 691
+   },
+   {
+    "nazwa": "Kabriolet",
+    "liczba": 628
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 106
+    "liczba": 115
    }
   ],
-  "noweOdPaczki": 13453,
-  "hybrydy": 5175,
+  "noweOdPaczki": 15748,
+  "hybrydy": 5666,
   "elektryczne": 352,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 55
+   },
+   {
+    "rok": 2020,
+    "liczba": 1022
+   },
+   {
     "rok": 2021,
-    "liczba": 856
+    "liczba": 2074
    },
    {
     "rok": 2022,
@@ -253,6 +261,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 147
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 152
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 166
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 183
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 204
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 211
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 203
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 150
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 173
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 164
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 131
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 121
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 161
+   },
    {
     "miesiac": "2021-12",
     "liczba": 207
@@ -490,10 +550,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 252,
-  "miejsceWMarce": 15,
-  "modeliWMarce": 56,
-  "sredniRocznik": 2022.6
+  "miejsce": 239,
+  "miejsceWMarce": 14,
+  "modeliWMarce": 57,
+  "sredniRocznik": 2022.2
  },
  "youtubeId": "",
  "zrodla": [
@@ -511,11 +571,6 @@
    "adres": "/marki/toyota/highlander/"
   },
   {
-   "slug": "mazda-cx-60",
-   "nazwa": "Mazda CX-60",
-   "adres": "/marki/mazda/cx-60/"
-  },
-  {
    "slug": "mazda-cx-30",
    "nazwa": "Mazda CX-30",
    "adres": "/marki/mazda/cx-30/"
@@ -526,9 +581,14 @@
    "adres": "/marki/bmw/m4/"
   },
   {
-   "slug": "bmw-m2",
-   "nazwa": "BMW M2",
-   "adres": "/marki/bmw/m2/"
+   "slug": "mazda-cx-60",
+   "nazwa": "Mazda CX-60",
+   "adres": "/marki/mazda/cx-60/"
+  },
+  {
+   "slug": "porsche-macan",
+   "nazwa": "Porsche Macan",
+   "adres": "/marki/porsche/macan/"
   }
  ]
 }

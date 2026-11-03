@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Bronco – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 767 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRONCO, BRONCO BADLANDS, BRONCO OUTER BANKS, BRONCO SPORT, BRONCO RAPTOR).",
-  "liczbaWPolsce": 767,
-  "aktywne": 767,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Bronco – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 776 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRONCO, BRONCO BADLANDS, BRONCO OUTER BANKS, BRONCO SPORT, BRONCO RAPTOR).",
+  "liczbaWPolsce": 776,
+  "aktywne": 776,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -24,7 +24,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "06",
@@ -32,7 +32,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "10",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 144
+    "liczba": 147
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "teryt": "20",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 79
+    "liczba": 81
    },
    {
     "teryt": "24",
@@ -72,7 +72,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "30",
@@ -87,11 +87,11 @@
   "roczniki": [
    {
     "rok": 1979,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1980,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1981,
@@ -107,7 +107,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1985,
@@ -115,11 +115,11 @@
    },
    {
     "rok": 1986,
-    "liczba": 8
+    "liczba": 11
    },
    {
     "rok": 1987,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1988,
@@ -127,7 +127,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1990,
@@ -139,7 +139,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1993,
@@ -281,7 +281,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 754
+    "liczba": 762
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -289,7 +289,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "pojemnosci": [
@@ -311,11 +311,11 @@
    },
    {
     "nazwa": "5,8 l",
-    "liczba": 22
+    "liczba": 26
    },
    {
     "nazwa": "4,9 l",
-    "liczba": 18
+    "liczba": 21
    },
    {
     "nazwa": "3,0 l",
@@ -323,7 +323,7 @@
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "nazwa": "Inne / brak danych",
@@ -333,7 +333,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 358
+    "liczba": 365
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -341,7 +341,7 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 153
+    "liczba": 155
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -351,15 +351,15 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 470
+    "liczba": 473
    },
    {
     "nazwa": "Kombi",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 97
+    "liczba": 102
    },
    {
     "nazwa": "Hatchback",
@@ -374,13 +374,21 @@
     "liczba": 30
    }
   ],
-  "noweOdPaczki": 767,
+  "noweOdPaczki": 776,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 5
+   },
+   {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -404,6 +412,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -641,10 +701,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 836,
+  "miejsce": 843,
   "miejsceWMarce": 33,
   "modeliWMarce": 46,
-  "sredniRocznik": 2020.4
+  "sredniRocznik": 2020.0
  },
  "youtubeId": "",
  "zrodla": [
@@ -667,19 +727,19 @@
    "adres": "/marki/lexus/rx/"
   },
   {
-   "slug": "toyota-highlander",
-   "nazwa": "Toyota Highlander",
-   "adres": "/marki/toyota/highlander/"
-  },
-  {
    "slug": "nissan-rogue",
    "nazwa": "Nissan Rogue",
    "adres": "/marki/nissan/rogue/"
   },
   {
-   "slug": "porsche-macan",
-   "nazwa": "Porsche Macan",
-   "adres": "/marki/porsche/macan/"
+   "slug": "toyota-highlander",
+   "nazwa": "Toyota Highlander",
+   "adres": "/marki/toyota/highlander/"
+  },
+  {
+   "slug": "lexus-es",
+   "nazwa": "Lexus ES",
+   "adres": "/marki/lexus/es/"
   }
  ]
 }

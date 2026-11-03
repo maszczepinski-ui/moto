@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 19 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 72 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 19, 19, R 19 1.7 KAT, R 19 1.4 KAT, R 19 1.4).",
-  "liczbaWPolsce": 43559,
-  "aktywne": 299,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 19 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 91 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 19, 19, R 19 1.7 KAT, R 19 1.4 KAT, R 19 1.4).",
+  "liczbaWPolsce": 43578,
+  "aktywne": 318,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5494
+    "liczba": 5498
    },
    {
     "teryt": "04",
-    "liczba": 3076
+    "liczba": 3077
    },
    {
     "teryt": "06",
-    "liczba": 2740
+    "liczba": 2741
    },
    {
     "teryt": "08",
@@ -34,19 +34,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 2885
+    "liczba": 2886
    },
    {
     "teryt": "12",
-    "liczba": 2228
+    "liczba": 2229
    },
    {
     "teryt": "14",
-    "liczba": 3792
+    "liczba": 3795
    },
    {
     "teryt": "16",
-    "liczba": 1008
+    "liczba": 1009
    },
    {
     "teryt": "18",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 2571
+    "liczba": 2572
    },
    {
     "teryt": "24",
-    "liczba": 3113
+    "liczba": 3115
    },
    {
     "teryt": "26",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 1769
+    "liczba": 1770
    },
    {
     "teryt": "30",
-    "liczba": 4932
+    "liczba": 4934
    },
    {
     "teryt": "32",
-    "liczba": 3985
+    "liczba": 3986
    }
   ],
   "bezWojewodztwa": 14,
@@ -89,27 +89,27 @@
    },
    {
     "rok": 1990,
-    "liczba": 3475
+    "liczba": 3477
    },
    {
     "rok": 1991,
-    "liczba": 6829
+    "liczba": 6832
    },
    {
     "rok": 1992,
-    "liczba": 7353
+    "liczba": 7359
    },
    {
     "rok": 1993,
-    "liczba": 7274
+    "liczba": 7277
    },
    {
     "rok": 1994,
-    "liczba": 5915
+    "liczba": 5918
    },
    {
     "rok": 1995,
-    "liczba": 4704
+    "liczba": 4706
    },
    {
     "rok": 1996,
@@ -123,11 +123,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 18910
+    "liczba": 18928
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 12504
+    "liczba": 12505
    },
    {
     "nazwa": "Diesel",
@@ -145,11 +145,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 21603
+    "liczba": 21609
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 13109
+    "liczba": 13111
    },
    {
     "nazwa": "1,9 l",
@@ -157,7 +157,7 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 3650
+    "liczba": 3661
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,11 +167,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 27639
+    "liczba": 27647
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 12431
+    "liczba": 12442
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,7 +189,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 21218
+    "liczba": 21226
    },
    {
     "nazwa": "Sedan",
@@ -197,16 +197,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12856
+    "liczba": 12867
    }
   ],
-  "noweOdPaczki": 72,
+  "noweOdPaczki": 91,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 5
+   },
+   {
+    "rok": 2021,
+    "liczba": 19
    },
    {
     "rok": 2022,
@@ -230,6 +234,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -467,7 +523,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 107,
+  "miejsce": 118,
   "miejsceWMarce": 6,
   "modeliWMarce": 48,
   "sredniRocznik": 1992.9

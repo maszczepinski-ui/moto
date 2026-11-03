@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe UAZ 469 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 469 B, 469 B CABRIO, 469).",
-  "liczbaWPolsce": 2231,
-  "aktywne": 141,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe UAZ 469 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 469 B, 469 B CABRIO, 469).",
+  "liczbaWPolsce": 2237,
+  "aktywne": 147,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 163
+    "liczba": 164
    },
    {
     "teryt": "04",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 372
+    "liczba": 373
    },
    {
     "teryt": "16",
@@ -60,11 +60,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 146
+    "liczba": 148
    },
    {
     "teryt": "24",
-    "liczba": 166
+    "liczba": 168
    },
    {
     "teryt": "26",
@@ -99,7 +99,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 142
+    "liczba": 144
    },
    {
     "rok": 1978,
@@ -131,7 +131,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 110
+    "liczba": 111
    },
    {
     "rok": 1986,
@@ -139,7 +139,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 98
+    "liczba": 99
    },
    {
     "rok": 1988,
@@ -147,7 +147,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 215
+    "liczba": 216
    },
    {
     "rok": 1990,
@@ -160,12 +160,20 @@
    {
     "rok": 1992,
     "liczba": 5
+   },
+   {
+    "rok": 1993,
+    "liczba": 2
+   },
+   {
+    "rok": 1994,
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 636
+    "liczba": 642
    },
    {
     "nazwa": "Diesel",
@@ -187,7 +195,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1869
+    "liczba": 1873
    },
    {
     "nazwa": "2,0 l",
@@ -195,7 +203,7 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "nazwa": "2,1 l",
@@ -215,13 +223,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 119
+    "liczba": 120
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1698
+    "liczba": 1699
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -229,7 +237,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -237,17 +245,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 150
+    "liczba": 154
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Terenowy",
-    "liczba": 168
+    "liczba": 172
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 158
+    "liczba": 159
    },
    {
     "nazwa": "Kabriolet",
@@ -267,16 +275,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1470
+    "liczba": 1471
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 25,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
     "rok": 2021,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -300,6 +312,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -537,7 +601,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 577,
+  "miejsce": 589,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 1981.8

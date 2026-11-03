@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 214, 200, 214 KAT, 216, 200 1.4 KAT).",
-  "liczbaWPolsce": 6516,
-  "aktywne": 472,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 214, 200, 214 KAT, 216, 200 1.4 KAT).",
+  "liczbaWPolsce": 6522,
+  "aktywne": 478,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 877
+    "liczba": 878
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 296
+    "liczba": 298
    },
    {
     "teryt": "24",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 962
+    "liczba": 965
    },
    {
     "teryt": "32",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 89
+    "liczba": 90
    },
    {
     "rok": 1992,
@@ -97,11 +97,11 @@
    },
    {
     "rok": 1993,
-    "liczba": 239
+    "liczba": 240
    },
    {
     "rok": 1994,
-    "liczba": 385
+    "liczba": 386
    },
    {
     "rok": 1995,
@@ -121,7 +121,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 1057
+    "liczba": 1059
    },
    {
     "rok": 2000,
@@ -131,7 +131,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4114
+    "liczba": 4120
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -149,7 +149,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 4444
+    "liczba": 4447
    },
    {
     "nazwa": "2,0 l",
@@ -157,7 +157,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 797
+    "liczba": 800
    },
    {
     "nazwa": "1,8 l",
@@ -179,11 +179,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 4057
+    "liczba": 4059
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2194
+    "liczba": 2198
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -197,18 +197,18 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 5056
+    "liczba": 5060
    },
    {
     "nazwa": "Sedan",
     "liczba": 564
    },
    {
-    "nazwa": "Coupe",
-    "liczba": 119
+    "nazwa": "Kabriolet",
+    "liczba": 121
    },
    {
-    "nazwa": "Kabriolet",
+    "nazwa": "Coupe",
     "liczba": 119
    },
    {
@@ -216,13 +216,17 @@
     "liczba": 658
    }
   ],
-  "noweOdPaczki": 25,
+  "noweOdPaczki": 31,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 2
+   },
+   {
+    "rok": 2021,
+    "liczba": 6
    },
    {
     "rok": 2022,
@@ -246,6 +250,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -483,7 +539,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 380,
+  "miejsce": 392,
   "miejsceWMarce": 1,
   "modeliWMarce": 9,
   "sredniRocznik": 1996.9

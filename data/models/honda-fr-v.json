@@ -13,100 +13,100 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda FR-V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 952 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FR-V, FR-V 2.0, FR-V 1.8).",
-  "liczbaWPolsce": 4178,
-  "aktywne": 2550,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda FR-V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 415 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FR-V, FR-V 2.0, FR-V 1.8).",
+  "liczbaWPolsce": 4641,
+  "aktywne": 3013,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 232
+    "liczba": 269
    },
    {
     "teryt": "04",
-    "liczba": 239
+    "liczba": 258
    },
    {
     "teryt": "06",
-    "liczba": 307
+    "liczba": 336
    },
    {
     "teryt": "08",
-    "liczba": 101
+    "liczba": 117
    },
    {
     "teryt": "10",
-    "liczba": 308
+    "liczba": 335
    },
    {
     "teryt": "12",
-    "liczba": 433
+    "liczba": 472
    },
    {
     "teryt": "14",
-    "liczba": 680
+    "liczba": 748
    },
    {
     "teryt": "16",
-    "liczba": 68
+    "liczba": 79
    },
    {
     "teryt": "18",
-    "liczba": 344
+    "liczba": 387
    },
    {
     "teryt": "20",
-    "liczba": 134
+    "liczba": 146
    },
    {
     "teryt": "22",
-    "liczba": 159
+    "liczba": 189
    },
    {
     "teryt": "24",
-    "liczba": 341
+    "liczba": 373
    },
    {
     "teryt": "26",
-    "liczba": 125
+    "liczba": 138
    },
    {
     "teryt": "28",
-    "liczba": 102
+    "liczba": 121
    },
    {
     "teryt": "30",
-    "liczba": 379
+    "liczba": 427
    },
    {
     "teryt": "32",
-    "liczba": 183
+    "liczba": 203
    }
   ],
   "bezWojewodztwa": 43,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 413
+    "liczba": 441
    },
    {
     "rok": 2005,
-    "liczba": 1275
+    "liczba": 1408
    },
    {
     "rok": 2006,
-    "liczba": 872
+    "liczba": 980
    },
    {
     "rok": 2007,
-    "liczba": 881
+    "liczba": 980
    },
    {
     "rok": 2008,
-    "liczba": 400
+    "liczba": 460
    },
    {
     "rok": 2009,
-    "liczba": 198
+    "liczba": 232
    },
    {
     "rok": 2010,
@@ -116,15 +116,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1829
+    "liczba": 2046
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1410
+    "liczba": 1553
    },
    {
     "nazwa": "Diesel",
-    "liczba": 931
+    "liczba": 1034
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,19 +134,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1294
+    "liczba": 1419
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1072
+    "liczba": 1217
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 928
+    "liczba": 1031
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 868
+    "liczba": 958
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,11 +156,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2707
+    "liczba": 2996
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1254
+    "liczba": 1428
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -174,32 +174,40 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1586
+    "liczba": 1776
    },
    {
     "nazwa": "Van",
-    "liczba": 1005
+    "liczba": 1101
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 878
+    "liczba": 979
    },
    {
     "nazwa": "Kombi",
-    "liczba": 590
+    "liczba": 661
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 119
+    "liczba": 124
    }
   ],
-  "noweOdPaczki": 952,
+  "noweOdPaczki": 1415,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 10
+   },
+   {
+    "rok": 2020,
+    "liczba": 214
+   },
+   {
     "rok": 2021,
-    "liczba": 164
+    "liczba": 403
    },
    {
     "rok": 2022,
@@ -223,6 +231,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 30
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 27
+   },
    {
     "miesiac": "2021-12",
     "liczba": 26
@@ -460,10 +520,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 462,
-  "miejsceWMarce": 8,
+  "miejsce": 452,
+  "miejsceWMarce": 7,
   "modeliWMarce": 21,
-  "sredniRocznik": 2006.0
+  "sredniRocznik": 2006.1
  },
  "youtubeId": "",
  "zrodla": [
@@ -496,9 +556,9 @@
    "adres": "/marki/opel/frontera/"
   },
   {
-   "slug": "renault-scenic",
-   "nazwa": "Renault Scenic",
-   "adres": "/marki/renault/scenic/"
+   "slug": "seat-alhambra",
+   "nazwa": "Seat Alhambra",
+   "adres": "/marki/seat/alhambra/"
   }
  ]
 }

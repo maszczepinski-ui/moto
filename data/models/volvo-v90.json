@@ -11,73 +11,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo V90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 797 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V90, V90 CROSS COUNTRY, V90 T8 TWIN ENGINE).",
-  "liczbaWPolsce": 6771,
-  "aktywne": 6711,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo V90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 837 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V90, V90 CROSS COUNTRY, V90 T8 TWIN ENGINE).",
+  "liczbaWPolsce": 7811,
+  "aktywne": 7751,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 522
+    "liczba": 607
    },
    {
     "teryt": "04",
-    "liczba": 223
+    "liczba": 263
    },
    {
     "teryt": "06",
-    "liczba": 264
+    "liczba": 301
    },
    {
     "teryt": "08",
-    "liczba": 137
+    "liczba": 154
    },
    {
     "teryt": "10",
-    "liczba": 369
+    "liczba": 428
    },
    {
     "teryt": "12",
-    "liczba": 518
+    "liczba": 601
    },
    {
     "teryt": "14",
-    "liczba": 1698
+    "liczba": 1928
    },
    {
     "teryt": "16",
-    "liczba": 94
+    "liczba": 112
    },
    {
     "teryt": "18",
-    "liczba": 220
+    "liczba": 247
    },
    {
     "teryt": "20",
-    "liczba": 139
+    "liczba": 164
    },
    {
     "teryt": "22",
-    "liczba": 473
+    "liczba": 560
    },
    {
     "teryt": "24",
-    "liczba": 829
+    "liczba": 962
    },
    {
     "teryt": "26",
-    "liczba": 123
+    "liczba": 139
    },
    {
     "teryt": "28",
-    "liczba": 173
+    "liczba": 205
    },
    {
     "teryt": "30",
-    "liczba": 651
+    "liczba": 748
    },
    {
     "teryt": "32",
-    "liczba": 330
+    "liczba": 384
    }
   ],
   "bezWojewodztwa": 8,
@@ -88,7 +88,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 10
+    "liczba": 12
    },
    {
     "rok": 1999,
@@ -160,27 +160,27 @@
    },
    {
     "rok": 2016,
-    "liczba": 307
+    "liczba": 351
    },
    {
     "rok": 2017,
-    "liczba": 1267
+    "liczba": 1503
    },
    {
     "rok": 2018,
-    "liczba": 1285
+    "liczba": 1421
    },
    {
     "rok": 2019,
-    "liczba": 1005
+    "liczba": 1074
    },
    {
     "rok": 2020,
-    "liczba": 509
+    "liczba": 842
    },
    {
     "rok": 2021,
-    "liczba": 451
+    "liczba": 671
    },
    {
     "rok": 2022,
@@ -202,70 +202,78 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 3894
+    "liczba": 4619
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1200
+    "liczba": 1262
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 863
+    "liczba": 965
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 754
+    "liczba": 901
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 60
+    "liczba": 64
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 6726
+    "liczba": 7764
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 45
+    "liczba": 47
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2786
+    "liczba": 2963
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2131
+    "liczba": 2844
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1840
+    "liczba": 1989
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 6665
+    "liczba": 7696
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 106
+    "liczba": 115
    }
   ],
-  "noweOdPaczki": 5797,
-  "hybrydy": 1954,
+  "noweOdPaczki": 6837,
+  "hybrydy": 2163,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 8
+   },
+   {
+    "rok": 2020,
+    "liczba": 459
+   },
+   {
     "rok": 2021,
-    "liczba": 389
+    "liczba": 962
    },
    {
     "rok": 2022,
@@ -289,6 +297,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 61
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 47
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 96
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 117
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 92
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 70
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 78
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 57
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 89
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 93
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 67
+   },
    {
     "miesiac": "2021-12",
     "liczba": 73
@@ -526,10 +586,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 371,
+  "miejsce": 358,
   "miejsceWMarce": 12,
   "modeliWMarce": 34,
-  "sredniRocznik": 2019.6
+  "sredniRocznik": 2019.5
  },
  "youtubeId": "",
  "zrodla": [

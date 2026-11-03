@@ -13,73 +13,73 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Wrx – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 547 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WRX, WRX STI).",
-  "liczbaWPolsce": 724,
-  "aktywne": 680,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Wrx – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 596 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WRX, WRX STI).",
+  "liczbaWPolsce": 773,
+  "aktywne": 729,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 64
+    "liczba": 68
    },
    {
     "teryt": "04",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "06",
-    "liczba": 47
+    "liczba": 50
    },
    {
     "teryt": "08",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "10",
-    "liczba": 34
+    "liczba": 38
    },
    {
     "teryt": "12",
-    "liczba": 129
+    "liczba": 134
    },
    {
     "teryt": "14",
-    "liczba": 136
+    "liczba": 148
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "18",
-    "liczba": 54
+    "liczba": 57
    },
    {
     "teryt": "20",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "24",
-    "liczba": 64
+    "liczba": 71
    },
    {
     "teryt": "26",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "28",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "30",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "32",
-    "liczba": 22
+    "liczba": 23
    }
   ],
   "bezWojewodztwa": 9,
@@ -122,43 +122,43 @@
    },
    {
     "rok": 2011,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2012,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2013,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2014,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 2015,
-    "liczba": 93
+    "liczba": 101
    },
    {
     "rok": 2016,
-    "liczba": 90
+    "liczba": 98
    },
    {
     "rok": 2017,
-    "liczba": 93
+    "liczba": 105
    },
    {
     "rok": 2018,
-    "liczba": 95
+    "liczba": 101
    },
    {
     "rok": 2019,
-    "liczba": 58
+    "liczba": 64
    },
    {
     "rok": 2020,
-    "liczba": 61
+    "liczba": 66
    },
    {
     "rok": 2021,
@@ -184,11 +184,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 711
+    "liczba": 757
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 9
+    "liczba": 12
    },
    {
     "nazwa": "Inne / brak danych",
@@ -198,11 +198,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 337
+    "liczba": 354
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 299
+    "liczba": 331
    },
    {
     "nazwa": "2,4 l",
@@ -216,11 +216,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 428
+    "liczba": 441
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 220
+    "liczba": 256
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -234,28 +234,36 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 628
+    "liczba": 668
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 43
+    "liczba": 47
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 27
    }
   ],
-  "noweOdPaczki": 547,
+  "noweOdPaczki": 596,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
     "liczba": 23
+   },
+   {
+    "rok": 2021,
+    "liczba": 46
    },
    {
     "rok": 2022,
@@ -279,6 +287,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -516,9 +576,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 856,
+  "miejsce": 844,
   "miejsceWMarce": 8,
-  "modeliWMarce": 12,
+  "modeliWMarce": 13,
   "sredniRocznik": 2017.7
  },
  "youtubeId": "",
@@ -547,14 +607,14 @@
    "adres": "/marki/bmw/seria-4/"
   },
   {
-   "slug": "nissan-rogue",
-   "nazwa": "Nissan Rogue",
-   "adres": "/marki/nissan/rogue/"
-  },
-  {
    "slug": "jaguar-xe",
    "nazwa": "Jaguar XE",
    "adres": "/marki/jaguar/xe/"
+  },
+  {
+   "slug": "nissan-rogue",
+   "nazwa": "Nissan Rogue",
+   "adres": "/marki/nissan/rogue/"
   }
  ]
 }

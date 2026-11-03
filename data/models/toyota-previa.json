@@ -14,61 +14,61 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Previa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 190 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PREVIA, PREVIA 2.4 KAT, PREVIA 2.0 D-4D, PREVIA 2.4, PREVIA 2,4 KAT).",
-  "liczbaWPolsce": 2143,
-  "aktywne": 587,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Previa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 257 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PREVIA, PREVIA 2.4 KAT, PREVIA 2.0 D-4D, PREVIA 2.4, PREVIA 2,4 KAT).",
+  "liczbaWPolsce": 2210,
+  "aktywne": 654,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 164
+    "liczba": 169
    },
    {
     "teryt": "04",
-    "liczba": 68
+    "liczba": 74
    },
    {
     "teryt": "06",
-    "liczba": 155
+    "liczba": 160
    },
    {
     "teryt": "08",
-    "liczba": 54
+    "liczba": 57
    },
    {
     "teryt": "10",
-    "liczba": 149
+    "liczba": 158
    },
    {
     "teryt": "12",
-    "liczba": 207
+    "liczba": 210
    },
    {
     "teryt": "14",
-    "liczba": 468
+    "liczba": 478
    },
    {
     "teryt": "16",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "teryt": "18",
-    "liczba": 99
+    "liczba": 104
    },
    {
     "teryt": "20",
-    "liczba": 85
+    "liczba": 89
    },
    {
     "teryt": "22",
-    "liczba": 100
+    "liczba": 105
    },
    {
     "teryt": "24",
-    "liczba": 159
+    "liczba": 163
    },
    {
     "teryt": "26",
-    "liczba": 47
+    "liczba": 50
    },
    {
     "teryt": "28",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 157
+    "liczba": 161
    },
    {
     "teryt": "32",
@@ -95,7 +95,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 177
+    "liczba": 178
    },
    {
     "rok": 1993,
@@ -127,31 +127,31 @@
    },
    {
     "rok": 2000,
-    "liczba": 85
+    "liczba": 86
    },
    {
     "rok": 2001,
-    "liczba": 291
+    "liczba": 300
    },
    {
     "rok": 2002,
-    "liczba": 217
+    "liczba": 222
    },
    {
     "rok": 2003,
-    "liczba": 172
+    "liczba": 180
    },
    {
     "rok": 2004,
-    "liczba": 159
+    "liczba": 179
    },
    {
     "rok": 2005,
-    "liczba": 193
+    "liczba": 209
    },
    {
     "rok": 2006,
-    "liczba": 46
+    "liczba": 51
    },
    {
     "rok": 2007,
@@ -161,15 +161,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 814
+    "liczba": 847
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 725
+    "liczba": 745
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 450
+    "liczba": 464
    },
    {
     "nazwa": "?+LPG",
@@ -183,25 +183,25 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1298
+    "liczba": 1331
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 816
+    "liczba": 849
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29
+    "liczba": 30
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1073
+    "liczba": 1095
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 999
+    "liczba": 1044
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -215,15 +215,15 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 1210
+    "liczba": 1244
    },
    {
     "nazwa": "Kombi",
-    "liczba": 383
+    "liczba": 401
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 124
+    "liczba": 139
    },
    {
     "nazwa": "Sedan",
@@ -238,13 +238,17 @@
     "liczba": 244
    }
   ],
-  "noweOdPaczki": 190,
+  "noweOdPaczki": 257,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 35
+   },
+   {
     "rok": 2021,
-    "liczba": 28
+    "liczba": 60
    },
    {
     "rok": 2022,
@@ -268,6 +272,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 8
@@ -505,10 +561,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 588,
+  "miejsce": 592,
   "miejsceWMarce": 20,
   "modeliWMarce": 43,
-  "sredniRocznik": 1998.6
+  "sredniRocznik": 1998.8
  },
  "youtubeId": "",
  "zrodla": [

@@ -13,84 +13,84 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart Forfour – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 815 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FORFOUR, FORFOUR 1.1, FORFOUR 1.3, FORFOUR CDI, FORFOUR 1.5).",
-  "liczbaWPolsce": 4257,
-  "aktywne": 3061,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart Forfour – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 313 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FORFOUR, FORFOUR 1.1, FORFOUR 1.3, FORFOUR CDI, FORFOUR 1.5).",
+  "liczbaWPolsce": 4755,
+  "aktywne": 3559,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 380
+    "liczba": 419
    },
    {
     "teryt": "04",
-    "liczba": 180
+    "liczba": 205
    },
    {
     "teryt": "06",
-    "liczba": 163
+    "liczba": 182
    },
    {
     "teryt": "08",
-    "liczba": 175
+    "liczba": 197
    },
    {
     "teryt": "10",
-    "liczba": 224
+    "liczba": 255
    },
    {
     "teryt": "12",
-    "liczba": 370
+    "liczba": 428
    },
    {
     "teryt": "14",
-    "liczba": 548
+    "liczba": 622
    },
    {
     "teryt": "16",
-    "liczba": 80
+    "liczba": 93
    },
    {
     "teryt": "18",
-    "liczba": 257
+    "liczba": 284
    },
    {
     "teryt": "20",
-    "liczba": 83
+    "liczba": 94
    },
    {
     "teryt": "22",
-    "liczba": 261
+    "liczba": 284
    },
    {
     "teryt": "24",
-    "liczba": 524
+    "liczba": 578
    },
    {
     "teryt": "26",
-    "liczba": 121
+    "liczba": 136
    },
    {
     "teryt": "28",
-    "liczba": 95
+    "liczba": 104
    },
    {
     "teryt": "30",
-    "liczba": 514
+    "liczba": 571
    },
    {
     "teryt": "32",
-    "liczba": 229
+    "liczba": 250
    }
   ],
   "bezWojewodztwa": 53,
   "roczniki": [
    {
     "rok": 2001,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2002,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2003,
@@ -98,23 +98,23 @@
    },
    {
     "rok": 2004,
-    "liczba": 1301
+    "liczba": 1465
    },
    {
     "rok": 2005,
-    "liczba": 1330
+    "liczba": 1474
    },
    {
     "rok": 2006,
-    "liczba": 653
+    "liczba": 731
    },
    {
     "rok": 2007,
-    "liczba": 24
+    "liczba": 33
    },
    {
     "rok": 2008,
-    "liczba": 3
+    "liczba": 6
    },
    {
     "rok": 2009,
@@ -138,45 +138,45 @@
    },
    {
     "rok": 2014,
-    "liczba": 57
+    "liczba": 61
    },
    {
     "rok": 2015,
-    "liczba": 250
+    "liczba": 275
    },
    {
     "rok": 2016,
-    "liczba": 154
+    "liczba": 171
    },
    {
     "rok": 2017,
-    "liczba": 120
+    "liczba": 137
    },
    {
     "rok": 2018,
-    "liczba": 132
+    "liczba": 149
    },
    {
     "rok": 2019,
-    "liczba": 78
+    "liczba": 96
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3287
+    "liczba": 3691
    },
    {
     "nazwa": "Diesel",
-    "liczba": 745
+    "liczba": 804
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 127
+    "liczba": 146
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 79
+    "liczba": 95
    },
    {
     "nazwa": "Inne / brak danych",
@@ -186,41 +186,41 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 1216
+    "liczba": 1373
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 1122
+    "liczba": 1251
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 1066
+    "liczba": 1176
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 531
+    "liczba": 589
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 211
+    "liczba": 236
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 111
+    "liczba": 130
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2844
+    "liczba": 3146
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1175
+    "liczba": 1369
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 179
+    "liczba": 181
    },
    {
     "nazwa": "Inne / brak danych",
@@ -230,32 +230,40 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3256
+    "liczba": 3678
    },
    {
     "nazwa": "Sedan",
-    "liczba": 490
+    "liczba": 530
    },
    {
     "nazwa": "Kombi",
-    "liczba": 357
+    "liczba": 382
    },
    {
     "nazwa": "Coupe",
-    "liczba": 45
+    "liczba": 48
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 109
+    "liczba": 117
    }
   ],
-  "noweOdPaczki": 1815,
+  "noweOdPaczki": 2313,
   "hybrydy": 0,
-  "elektryczne": 79,
+  "elektryczne": 95,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 14
+   },
+   {
+    "rok": 2020,
+    "liczba": 241
+   },
+   {
     "rok": 2021,
-    "liczba": 218
+    "liczba": 461
    },
    {
     "rok": 2022,
@@ -279,6 +287,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 25
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 40
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 43
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 49
+   },
    {
     "miesiac": "2021-12",
     "liczba": 51
@@ -516,10 +576,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 456,
+  "miejsce": 446,
   "miejsceWMarce": 2,
-  "modeliWMarce": 8,
-  "sredniRocznik": 2007.0
+  "modeliWMarce": 9,
+  "sredniRocznik": 2007.1
  },
  "youtubeId": "",
  "zrodla": [
@@ -532,14 +592,14 @@
  "adres": "/marki/smart/forfour/",
  "konkurenci": [
   {
-   "slug": "renault-clio",
-   "nazwa": "Renault Clio",
-   "adres": "/marki/renault/clio/"
-  },
-  {
    "slug": "opel-corsa",
    "nazwa": "Opel Corsa",
    "adres": "/marki/opel/corsa/"
+  },
+  {
+   "slug": "renault-clio",
+   "nazwa": "Renault Clio",
+   "adres": "/marki/renault/clio/"
   },
   {
    "slug": "ford-ka",

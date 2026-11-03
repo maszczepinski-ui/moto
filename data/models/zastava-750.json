@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Zastava 750 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 750).",
-  "liczbaWPolsce": 3639,
-  "aktywne": 28,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Zastava 750 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 750).",
+  "liczbaWPolsce": 3641,
+  "aktywne": 30,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 161
+    "liczba": 162
    },
    {
     "teryt": "26",
@@ -69,7 +69,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 97
+    "liczba": 98
    },
    {
     "teryt": "30",
@@ -148,7 +148,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1980,
@@ -158,7 +158,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 339
+    "liczba": 341
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,7 +168,7 @@
   "pojemnosci": [
    {
     "nazwa": "0,8 l",
-    "liczba": 3543
+    "liczba": 3545
    },
    {
     "nazwa": "Inne / brak danych",
@@ -178,7 +178,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2001
+    "liczba": 2002
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -186,7 +186,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 157
+    "liczba": 158
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -204,20 +204,24 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 62
+    "liczba": 64
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3459
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 2
    },
    {
     "rok": 2022,
@@ -237,6 +241,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -474,7 +530,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 485,
+  "miejsce": 494,
   "miejsceWMarce": 2,
   "modeliWMarce": 2,
   "sredniRocznik": 1966.3

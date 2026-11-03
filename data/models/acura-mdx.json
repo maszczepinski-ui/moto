@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Acura Mdx – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 123 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MDX).",
-  "liczbaWPolsce": 227,
-  "aktywne": 171,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Acura Mdx – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 154 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MDX).",
+  "liczbaWPolsce": 258,
+  "aktywne": 202,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 9
+    "liczba": 13
    },
    {
     "teryt": "04",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "08",
@@ -40,11 +40,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 47
+    "liczba": 51
    },
    {
     "teryt": "14",
-    "liczba": 27
+    "liczba": 31
    },
    {
     "teryt": "16",
@@ -52,19 +52,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 36
+    "liczba": 43
    },
    {
     "teryt": "20",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "teryt": "22",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "teryt": "24",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "26",
@@ -72,15 +72,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "32",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "bezWojewodztwa": 2,
@@ -103,7 +103,7 @@
    },
    {
     "rok": 2005,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2006,
@@ -111,59 +111,59 @@
    },
    {
     "rok": 2007,
-    "liczba": 18
+    "liczba": 22
    },
    {
     "rok": 2008,
-    "liczba": 19
+    "liczba": 23
    },
    {
     "rok": 2009,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2010,
-    "liczba": 2
-   },
-   {
-    "rok": 2011,
-    "liczba": 8
-   },
-   {
-    "rok": 2012,
-    "liczba": 21
-   },
-   {
-    "rok": 2013,
     "liczba": 4
    },
    {
-    "rok": 2014,
-    "liczba": 12
+    "rok": 2011,
+    "liczba": 9
    },
    {
-    "rok": 2015,
+    "rok": 2012,
+    "liczba": 22
+   },
+   {
+    "rok": 2013,
+    "liczba": 5
+   },
+   {
+    "rok": 2014,
     "liczba": 14
    },
    {
+    "rok": 2015,
+    "liczba": 15
+   },
+   {
     "rok": 2016,
-    "liczba": 11
+    "liczba": 14
    },
    {
     "rok": 2017,
-    "liczba": 11
+    "liczba": 14
    },
    {
     "rok": 2018,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2019,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2020,
-    "liczba": 8
+    "liczba": 11
    },
    {
     "rok": 2021,
@@ -185,15 +185,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 138
+    "liczba": 152
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 82
+    "liczba": 98
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
@@ -203,19 +203,19 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 124
+    "liczba": 140
    },
    {
     "nazwa": "3,7 l",
-    "liczba": 81
+    "liczba": 94
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
@@ -225,11 +225,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 160
+    "liczba": 181
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 63
+    "liczba": 73
    },
    {
     "nazwa": "Inne / brak danych",
@@ -239,23 +239,23 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 84
+    "liczba": 97
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 61
+    "liczba": 70
    },
    {
     "nazwa": "Van",
-    "liczba": 40
+    "liczba": 46
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "nazwa": "Sedan",
@@ -266,13 +266,21 @@
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 123,
-  "hybrydy": 6,
+  "noweOdPaczki": 154,
+  "hybrydy": 7,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 16
+   },
+   {
     "rok": 2021,
-    "liczba": 11
+    "liczba": 25
    },
    {
     "rok": 2022,
@@ -296,6 +304,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -533,10 +593,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1223,
+  "miejsce": 1189,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
-  "sredniRocznik": 2012.1
+  "sredniRocznik": 2012.2
  },
  "youtubeId": "",
  "zrodla": [

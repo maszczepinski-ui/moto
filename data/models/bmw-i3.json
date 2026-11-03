@@ -12,112 +12,112 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW i3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 857 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I3, I3S, I3 REX, I3 50 XDRIVE).",
-  "liczbaWPolsce": 2263,
-  "aktywne": 2233,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW i3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 355 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I3, I3S, I3 REX, I3 50 XDRIVE).",
+  "liczbaWPolsce": 2761,
+  "aktywne": 2731,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 113
+    "liczba": 130
    },
    {
     "teryt": "04",
-    "liczba": 44
+    "liczba": 50
    },
    {
     "teryt": "06",
-    "liczba": 85
+    "liczba": 100
    },
    {
     "teryt": "08",
-    "liczba": 37
+    "liczba": 41
    },
    {
     "teryt": "10",
-    "liczba": 105
+    "liczba": 126
    },
    {
     "teryt": "12",
-    "liczba": 282
+    "liczba": 377
    },
    {
     "teryt": "14",
-    "liczba": 739
+    "liczba": 872
    },
    {
     "teryt": "16",
-    "liczba": 18
+    "liczba": 23
    },
    {
     "teryt": "18",
-    "liczba": 96
+    "liczba": 118
    },
    {
     "teryt": "20",
-    "liczba": 80
+    "liczba": 97
    },
    {
     "teryt": "22",
-    "liczba": 98
+    "liczba": 118
    },
    {
     "teryt": "24",
-    "liczba": 206
+    "liczba": 262
    },
    {
     "teryt": "26",
-    "liczba": 58
+    "liczba": 68
    },
    {
     "teryt": "28",
-    "liczba": 22
+    "liczba": 29
    },
    {
     "teryt": "30",
-    "liczba": 201
+    "liczba": 257
    },
    {
     "teryt": "32",
-    "liczba": 66
+    "liczba": 80
    }
   ],
   "bezWojewodztwa": 13,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 35
+    "liczba": 39
    },
    {
     "rok": 2014,
-    "liczba": 199
+    "liczba": 229
    },
    {
     "rok": 2015,
-    "liczba": 208
+    "liczba": 247
    },
    {
     "rok": 2016,
-    "liczba": 196
+    "liczba": 235
    },
    {
     "rok": 2017,
-    "liczba": 240
+    "liczba": 289
    },
    {
     "rok": 2018,
-    "liczba": 427
+    "liczba": 491
    },
    {
     "rok": 2019,
-    "liczba": 285
+    "liczba": 410
    },
    {
     "rok": 2020,
-    "liczba": 158
+    "liczba": 262
    },
    {
     "rok": 2021,
-    "liczba": 268
+    "liczba": 312
    },
    {
     "rok": 2022,
@@ -143,43 +143,43 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2058
+    "liczba": 2522
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 192
+    "liczba": 225
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 14
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 267
+    "liczba": 302
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1996
+    "liczba": 2459
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1116
+    "liczba": 1231
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 768
+    "liczba": 1077
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 354
+    "liczba": 426
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
@@ -189,32 +189,40 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1108
+    "liczba": 1438
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1050
+    "liczba": 1209
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "nazwa": "Kombi",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 31
+    "liczba": 36
    }
   ],
-  "noweOdPaczki": 1857,
-  "hybrydy": 190,
-  "elektryczne": 2033,
+  "noweOdPaczki": 2355,
+  "hybrydy": 223,
+  "elektryczne": 2497,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 13
+   },
+   {
+    "rok": 2020,
+    "liczba": 254
+   },
+   {
     "rok": 2021,
-    "liczba": 214
+    "liczba": 445
    },
    {
     "rok": 2022,
@@ -238,6 +246,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 48
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 32
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 35
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 31
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 33
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 41
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 32
+   },
    {
     "miesiac": "2021-12",
     "liczba": 76
@@ -475,9 +535,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 572,
-  "miejsceWMarce": 21,
-  "modeliWMarce": 42,
+  "miejsce": 542,
+  "miejsceWMarce": 18,
+  "modeliWMarce": 43,
   "sredniRocznik": 2018.0
  },
  "youtubeId": "",

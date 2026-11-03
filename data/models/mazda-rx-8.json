@@ -13,57 +13,57 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda RX-8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 221 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RX-8).",
-  "liczbaWPolsce": 1136,
-  "aktywne": 536,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda RX-8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 310 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RX-8, RX-8 1.3 KAT).",
+  "liczbaWPolsce": 1225,
+  "aktywne": 625,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 88
+    "liczba": 98
    },
    {
     "teryt": "04",
-    "liczba": 44
-   },
-   {
-    "teryt": "06",
     "liczba": 51
    },
    {
+    "teryt": "06",
+    "liczba": 54
+   },
+   {
     "teryt": "08",
-    "liczba": 20
+    "liczba": 24
    },
    {
     "teryt": "10",
-    "liczba": 66
+    "liczba": 75
    },
    {
     "teryt": "12",
-    "liczba": 135
+    "liczba": 147
    },
    {
     "teryt": "14",
-    "liczba": 203
+    "liczba": 211
    },
    {
     "teryt": "16",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "18",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "teryt": "20",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "teryt": "22",
-    "liczba": 53
+    "liczba": 55
    },
    {
     "teryt": "24",
-    "liczba": 135
+    "liczba": 148
    },
    {
     "teryt": "26",
@@ -75,56 +75,56 @@
    },
    {
     "teryt": "30",
-    "liczba": 108
+    "liczba": 119
    },
    {
     "teryt": "32",
-    "liczba": 43
+    "liczba": 47
    }
   ],
   "bezWojewodztwa": 10,
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 176
+    "liczba": 196
    },
    {
     "rok": 2004,
-    "liczba": 392
+    "liczba": 412
    },
    {
     "rok": 2005,
-    "liczba": 194
+    "liczba": 212
    },
    {
     "rok": 2006,
-    "liczba": 159
+    "liczba": 171
    },
    {
     "rok": 2007,
-    "liczba": 110
+    "liczba": 124
    },
    {
     "rok": 2008,
-    "liczba": 40
+    "liczba": 41
    },
    {
     "rok": 2009,
-    "liczba": 30
+    "liczba": 32
    },
    {
     "rok": 2010,
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1100
+    "liczba": 1188
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,60 +134,68 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 1063
+    "liczba": 1146
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 27
+    "liczba": 31
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 34
+    "liczba": 35
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 570
+    "liczba": 607
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 555
+    "liczba": 606
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 757
+    "liczba": 814
    },
    {
     "nazwa": "Sedan",
-    "liczba": 259
+    "liczba": 285
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 94
+    "liczba": 100
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 26
    }
   ],
-  "noweOdPaczki": 221,
+  "noweOdPaczki": 310,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 44
+   },
+   {
     "rok": 2021,
-    "liczba": 37
+    "liczba": 79
    },
    {
     "rok": 2022,
@@ -211,6 +219,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 7
+   },
    {
     "miesiac": "2021-12",
     "liczba": 4
@@ -448,9 +508,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 745,
-  "miejsceWMarce": 25,
-  "modeliWMarce": 32,
+  "miejsce": 739,
+  "miejsceWMarce": 26,
+  "modeliWMarce": 33,
   "sredniRocznik": 2004.9
  },
  "youtubeId": "",
@@ -464,24 +524,24 @@
  "adres": "/marki/mazda/rx-8/",
  "konkurenci": [
   {
-   "slug": "seat-ibiza",
-   "nazwa": "Seat Ibiza",
-   "adres": "/marki/seat/ibiza/"
-  },
-  {
    "slug": "volkswagen-polo-iv",
    "nazwa": "Volkswagen Polo IV (9N)",
    "adres": "/marki/volkswagen/polo/iv-9n/"
   },
   {
-   "slug": "renault-thalia",
-   "nazwa": "Renault Thalia",
-   "adres": "/marki/renault/thalia/"
+   "slug": "seat-ibiza",
+   "nazwa": "Seat Ibiza",
+   "adres": "/marki/seat/ibiza/"
   },
   {
    "slug": "fiat-punto",
    "nazwa": "Fiat Punto",
    "adres": "/marki/fiat/punto/"
+  },
+  {
+   "slug": "renault-thalia",
+   "nazwa": "Renault Thalia",
+   "adres": "/marki/renault/thalia/"
   },
   {
    "slug": "daihatsu-terios",

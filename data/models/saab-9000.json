@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Saab 9000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 9000, 9000 2.0, 9000 2.3 KAT, 9000 CS, 9000 2.0 KAT).",
-  "liczbaWPolsce": 1691,
-  "aktywne": 108,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Saab 9000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 54 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 9000, 9000 2.0, 9000 2.3 KAT, 9000 CS, 9000 2.0 KAT).",
+  "liczbaWPolsce": 1701,
+  "aktywne": 118,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 147
+    "liczba": 148
    },
    {
     "teryt": "08",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 96
+    "liczba": 97
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 450
+    "liczba": 453
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "teryt": "24",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "30",
-    "liczba": 121
+    "liczba": 123
    },
    {
     "teryt": "32",
-    "liczba": 95
+    "liczba": 96
    }
   ],
   "bezWojewodztwa": 4,
@@ -109,41 +109,41 @@
    },
    {
     "rok": 1991,
-    "liczba": 152
+    "liczba": 153
    },
    {
     "rok": 1992,
-    "liczba": 195
+    "liczba": 196
    },
    {
     "rok": 1993,
-    "liczba": 176
+    "liczba": 177
    },
    {
     "rok": 1994,
-    "liczba": 134
+    "liczba": 136
    },
    {
     "rok": 1995,
-    "liczba": 186
+    "liczba": 187
    },
    {
     "rok": 1996,
-    "liczba": 185
+    "liczba": 186
    },
    {
     "rok": 1997,
-    "liczba": 176
+    "liczba": 178
    },
    {
     "rok": 1998,
-    "liczba": 13
+    "liczba": 14
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 863
+    "liczba": 873
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -161,11 +161,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 897
+    "liczba": 900
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 751
+    "liczba": 758
    },
    {
     "nazwa": "3,0 l",
@@ -179,11 +179,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 946
+    "liczba": 950
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 627
+    "liczba": 633
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -201,24 +201,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 755
+    "liczba": 762
    },
    {
     "nazwa": "Sedan",
-    "liczba": 537
+    "liczba": 540
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 399
    }
   ],
-  "noweOdPaczki": 44,
+  "noweOdPaczki": 54,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 4
+   },
+   {
     "rok": 2021,
-    "liczba": 6
+    "liczba": 12
    },
    {
     "rok": 2022,
@@ -242,6 +246,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -479,7 +535,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 655,
+  "miejsce": 662,
   "miejsceWMarce": 4,
   "modeliWMarce": 6,
   "sredniRocznik": 1992.6

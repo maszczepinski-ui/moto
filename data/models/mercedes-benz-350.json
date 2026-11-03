@@ -6,8 +6,8 @@
  "lataProdukcji": "1971–2015",
  "nadwozia": [
   "sedan",
-  "coupe",
   "kombi",
+  "coupe",
   "kabriolet",
   "hatchback",
   "van"
@@ -16,9 +16,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 350 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 185 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 350, 350 SLC, 350 TD, 350 SL, 350 SE).",
-  "liczbaWPolsce": 435,
-  "aktywne": 234,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 350 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 215 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 350, 350 SL, 350 SLC, 350 TD, 350 SE).",
+  "liczbaWPolsce": 465,
+  "aktywne": 264,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,27 +34,27 @@
    },
    {
     "teryt": "08",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "10",
-    "liczba": 39
+    "liczba": 41
    },
    {
     "teryt": "12",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "14",
-    "liczba": 63
+    "liczba": 71
    },
    {
     "teryt": "16",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "18",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "teryt": "20",
@@ -62,15 +62,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "24",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "28",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 55
+    "liczba": 67
    },
    {
     "teryt": "32",
@@ -89,11 +89,11 @@
   "roczniki": [
    {
     "rok": 1971,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 1972,
-    "liczba": 23
+    "liczba": 28
    },
    {
     "rok": 1973,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 1975,
@@ -121,7 +121,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1980,
@@ -165,11 +165,11 @@
    },
    {
     "rok": 1990,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 1991,
-    "liczba": 23
+    "liczba": 25
    },
    {
     "rok": 1992,
@@ -181,7 +181,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 1995,
@@ -217,7 +217,7 @@
    },
    {
     "rok": 2003,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2004,
@@ -237,7 +237,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2009,
@@ -245,19 +245,19 @@
    },
    {
     "rok": 2010,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2011,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2012,
-    "liczba": 10
+    "liczba": 13
    },
    {
     "rok": 2013,
-    "liczba": 15
+    "liczba": 24
    },
    {
     "rok": 2014,
@@ -307,15 +307,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 228
+    "liczba": 245
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 149
+    "liczba": 160
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -329,15 +329,15 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 216
+    "liczba": 227
    },
    {
     "nazwa": "3,4 l",
-    "liczba": 128
+    "liczba": 133
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 57
+    "liczba": 69
    },
    {
     "nazwa": "2,0 l",
@@ -345,21 +345,25 @@
    },
    {
     "nazwa": "3,7 l",
+    "liczba": 6
+   },
+   {
+    "nazwa": "4,5 l",
     "liczba": 5
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 10
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 214
+    "liczba": 224
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 194
+    "liczba": 214
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -373,23 +377,23 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 223
-   },
-   {
-    "nazwa": "Coupe",
-    "liczba": 44
+    "liczba": 232
    },
    {
     "nazwa": "Kombi",
-    "liczba": 36
+    "liczba": 46
+   },
+   {
+    "nazwa": "Coupe",
+    "liczba": 46
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 26
+    "liczba": 32
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -397,16 +401,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 68
+    "liczba": 69
    }
   ],
-  "noweOdPaczki": 185,
+  "noweOdPaczki": 215,
   "hybrydy": 5,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 16
+   },
+   {
     "rok": 2021,
-    "liczba": 12
+    "liczba": 25
    },
    {
     "rok": 2022,
@@ -430,6 +442,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -667,10 +731,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1000,
-  "miejsceWMarce": 48,
-  "modeliWMarce": 56,
-  "sredniRocznik": 1993.5
+  "miejsce": 998,
+  "miejsceWMarce": 49,
+  "modeliWMarce": 57,
+  "sredniRocznik": 1993.7
  },
  "youtubeId": "",
  "zrodla": [
@@ -693,14 +757,14 @@
    "adres": "/marki/opel/monterey/"
   },
   {
-   "slug": "ford-taurus",
-   "nazwa": "Ford Taurus",
-   "adres": "/marki/ford/taurus/"
-  },
-  {
    "slug": "opel-omega",
    "nazwa": "Opel Omega",
    "adres": "/marki/opel/omega/"
+  },
+  {
+   "slug": "ford-taurus",
+   "nazwa": "Ford Taurus",
+   "adres": "/marki/ford/taurus/"
   },
   {
    "slug": "volkswagen-vento",

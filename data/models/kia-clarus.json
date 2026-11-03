@@ -13,17 +13,17 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Clarus – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLARUS, CLARUS 1.8 KAT, CLARUS 2.0 KAT, CLARUS 1.8, CLARUS 1.8KAT).",
-  "liczbaWPolsce": 1034,
-  "aktywne": 41,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Clarus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLARUS, CLARUS 1.8 KAT, CLARUS 2.0 KAT, CLARUS 1.8, CLARUS 1.8KAT).",
+  "liczbaWPolsce": 1036,
+  "aktywne": 43,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 111
+    "liczba": 112
    },
    {
     "teryt": "04",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "teryt": "06",
@@ -94,11 +94,11 @@
    },
    {
     "rok": 1998,
-    "liczba": 280
+    "liczba": 281
    },
    {
     "rok": 1999,
-    "liczba": 274
+    "liczba": 275
    },
    {
     "rok": 2000,
@@ -112,11 +112,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 522
+    "liczba": 523
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 437
+    "liczba": 438
    },
    {
     "nazwa": "?+LPG",
@@ -130,11 +130,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 690
+    "liczba": 691
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 339
+    "liczba": 340
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,7 +148,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 293
+    "liczba": 295
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -166,7 +166,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 711
+    "liczba": 713
    },
    {
     "nazwa": "Kombi",
@@ -181,11 +181,72 @@
     "liczba": 152
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 2,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
+  "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 1
+   }
+  ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -423,7 +484,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 773,
+  "miejsce": 780,
   "miejsceWMarce": 24,
   "modeliWMarce": 33,
   "sredniRocznik": 1998.2

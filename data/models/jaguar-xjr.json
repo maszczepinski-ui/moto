@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar Xjr – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 63 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XJR).",
-  "liczbaWPolsce": 246,
-  "aktywne": 106,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar Xjr – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 80 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XJR).",
+  "liczbaWPolsce": 263,
+  "aktywne": 123,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "08",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 26
+    "liczba": 29
    },
    {
     "teryt": "14",
-    "liczba": 63
+    "liczba": 68
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "20",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 24
+    "liczba": 29
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "32",
@@ -100,15 +100,15 @@
    },
    {
     "rok": 1994,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 1995,
-    "liczba": 44
+    "liczba": 45
    },
    {
     "rok": 1996,
-    "liczba": 17
+    "liczba": 19
    },
    {
     "rok": 1997,
@@ -116,11 +116,11 @@
    },
    {
     "rok": 1998,
-    "liczba": 33
+    "liczba": 35
    },
    {
     "rok": 1999,
-    "liczba": 23
+    "liczba": 26
    },
    {
     "rok": 2000,
@@ -128,19 +128,19 @@
    },
    {
     "rok": 2001,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 2002,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2003,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 2004,
-    "liczba": 19
+    "liczba": 21
    },
    {
     "rok": 2005,
@@ -152,11 +152,11 @@
    },
    {
     "rok": 2007,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2008,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2009,
@@ -206,7 +206,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 212
+    "liczba": 229
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -220,11 +220,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 165
+    "liczba": 177
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 55
+    "liczba": 60
    },
    {
     "nazwa": "5,0 l",
@@ -242,11 +242,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 117
+    "liczba": 127
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 116
+    "liczba": 123
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -260,11 +260,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 218
+    "liczba": 233
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -272,16 +272,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 21
    }
   ],
-  "noweOdPaczki": 63,
+  "noweOdPaczki": 80,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 8
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 13
    },
    {
     "rok": 2022,
@@ -305,6 +309,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -542,7 +598,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1197,
+  "miejsce": 1180,
   "miejsceWMarce": 16,
   "modeliWMarce": 17,
   "sredniRocznik": 2000.1

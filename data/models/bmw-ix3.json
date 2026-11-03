@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 851 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX3, IX3 50 XDRIVE, IX3 40).",
-  "liczbaWPolsce": 851,
-  "aktywne": 851,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 902 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX3, IX3 50 XDRIVE, IX3 40).",
+  "liczbaWPolsce": 902,
+  "aktywne": 902,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 65
+    "liczba": 70
    },
    {
     "teryt": "04",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 24
    },
    {
     "teryt": "08",
@@ -37,19 +37,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 67
+    "liczba": 70
    },
    {
     "teryt": "14",
-    "liczba": 270
+    "liczba": 291
    },
    {
     "teryt": "16",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "18",
-    "liczba": 16
+    "liczba": 19
    },
    {
     "teryt": "20",
@@ -57,15 +57,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 50
+    "liczba": 52
    },
    {
     "teryt": "24",
-    "liczba": 86
+    "liczba": 91
    },
    {
     "teryt": "26",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "28",
@@ -73,22 +73,22 @@
    },
    {
     "teryt": "30",
-    "liczba": 84
+    "liczba": 89
    },
    {
     "teryt": "32",
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 7
    },
    {
     "rok": 2021,
-    "liczba": 168
+    "liczba": 215
    },
    {
     "rok": 2022,
@@ -114,23 +114,23 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 851
+    "liczba": 902
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 851
+    "liczba": 902
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 579
+    "liczba": 599
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 221
+    "liczba": 251
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -138,26 +138,26 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 840
+    "liczba": 891
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 11
    }
   ],
-  "noweOdPaczki": 851,
+  "noweOdPaczki": 902,
   "hybrydy": 0,
-  "elektryczne": 851,
+  "elektryczne": 902,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
-    "liczba": 108
+    "liczba": 159
    },
    {
     "rok": 2022,
@@ -181,6 +181,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 34
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 19
+   },
    {
     "miesiac": "2021-12",
     "liczba": 40
@@ -418,10 +470,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 812,
-  "miejsceWMarce": 30,
-  "modeliWMarce": 42,
-  "sredniRocznik": 2023.4
+  "miejsce": 810,
+  "miejsceWMarce": 31,
+  "modeliWMarce": 43,
+  "sredniRocznik": 2023.3
  },
  "youtubeId": "",
  "zrodla": [
@@ -434,11 +486,6 @@
  "adres": "/marki/bmw/ix3/",
  "konkurenci": [
   {
-   "slug": "volkswagen-id-3",
-   "nazwa": "Volkswagen ID.3",
-   "adres": "/marki/volkswagen/id-3/"
-  },
-  {
    "slug": "volkswagen-id-4",
    "nazwa": "Volkswagen ID.4",
    "adres": "/marki/volkswagen/id-4/"
@@ -447,6 +494,11 @@
    "slug": "skoda-enyaq",
    "nazwa": "Skoda Enyaq",
    "adres": "/marki/skoda/enyaq/"
+  },
+  {
+   "slug": "volkswagen-id-3",
+   "nazwa": "Volkswagen ID.3",
+   "adres": "/marki/volkswagen/id-3/"
   },
   {
    "slug": "audi-q4",

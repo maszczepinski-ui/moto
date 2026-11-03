@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 245 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 245, 245 2.1 KOMBI).",
-  "liczbaWPolsce": 385,
-  "aktywne": 19,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 245 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 245, 245 2.1 KOMBI).",
+  "liczbaWPolsce": 387,
+  "aktywne": 21,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "teryt": "08",
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 1980,
@@ -169,7 +169,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 1993,
@@ -191,7 +191,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 99
+    "liczba": 101
    },
    {
     "nazwa": "Diesel",
@@ -221,11 +221,11 @@
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 78
+    "liczba": 79
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "nazwa": "1,8 l",
@@ -247,7 +247,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 51
+    "liczba": 53
    },
    {
     "nazwa": "Inne / brak danych",
@@ -257,7 +257,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 127
+    "liczba": 129
    },
    {
     "nazwa": "Sedan",
@@ -272,13 +272,17 @@
     "liczba": 219
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
     "rok": 2021,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2022,
@@ -298,6 +302,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -535,7 +591,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1041,
+  "miejsce": 1057,
   "miejsceWMarce": 31,
   "modeliWMarce": 34,
   "sredniRocznik": 1982.8

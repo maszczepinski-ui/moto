@@ -12,110 +12,110 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Exeo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 202 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EXEO, EXEO ST, EXEO 2.0 TDI, EXEO ST 1.8 TSI, EXEO ST 2.0 TDI).",
-  "liczbaWPolsce": 5747,
-  "aktywne": 4653,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Exeo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 135 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EXEO, EXEO ST, EXEO 2.0 TDI, EXEO ST 1.8 TSI, EXEO ST 2.0 TDI).",
+  "liczbaWPolsce": 6680,
+  "aktywne": 5586,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 633
+    "liczba": 721
    },
    {
     "teryt": "04",
-    "liczba": 262
+    "liczba": 300
    },
    {
     "teryt": "06",
-    "liczba": 351
+    "liczba": 412
    },
    {
     "teryt": "08",
-    "liczba": 222
+    "liczba": 247
    },
    {
     "teryt": "10",
-    "liczba": 359
-   },
-   {
-    "teryt": "12",
-    "liczba": 448
-   },
-   {
-    "teryt": "14",
-    "liczba": 823
-   },
-   {
-    "teryt": "16",
-    "liczba": 194
-   },
-   {
-    "teryt": "18",
-    "liczba": 361
-   },
-   {
-    "teryt": "20",
-    "liczba": 166
-   },
-   {
-    "teryt": "22",
-    "liczba": 272
-   },
-   {
-    "teryt": "24",
-    "liczba": 622
-   },
-   {
-    "teryt": "26",
-    "liczba": 206
-   },
-   {
-    "teryt": "28",
-    "liczba": 177
-   },
-   {
-    "teryt": "30",
     "liczba": 397
    },
    {
+    "teryt": "12",
+    "liczba": 529
+   },
+   {
+    "teryt": "14",
+    "liczba": 951
+   },
+   {
+    "teryt": "16",
+    "liczba": 230
+   },
+   {
+    "teryt": "18",
+    "liczba": 440
+   },
+   {
+    "teryt": "20",
+    "liczba": 203
+   },
+   {
+    "teryt": "22",
+    "liczba": 320
+   },
+   {
+    "teryt": "24",
+    "liczba": 728
+   },
+   {
+    "teryt": "26",
+    "liczba": 252
+   },
+   {
+    "teryt": "28",
+    "liczba": 207
+   },
+   {
+    "teryt": "30",
+    "liczba": 461
+   },
+   {
     "teryt": "32",
-    "liczba": 217
+    "liczba": 245
    }
   ],
   "bezWojewodztwa": 37,
   "roczniki": [
    {
     "rok": 2009,
-    "liczba": 1807
+    "liczba": 2096
    },
    {
     "rok": 2010,
-    "liczba": 1546
+    "liczba": 1799
    },
    {
     "rok": 2011,
-    "liczba": 1285
+    "liczba": 1523
    },
    {
     "rok": 2012,
-    "liczba": 700
+    "liczba": 813
    },
    {
     "rok": 2013,
-    "liczba": 275
+    "liczba": 315
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 3940
+    "liczba": 4557
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1143
+    "liczba": 1310
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 651
+    "liczba": 800
    },
    {
     "nazwa": "Inne / brak danych",
@@ -125,29 +125,29 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 4187
+    "liczba": 4838
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1266
+    "liczba": 1516
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 283
+    "liczba": 313
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 13
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3867
+    "liczba": 4436
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1546
+    "liczba": 1910
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -161,24 +161,32 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 3908
+    "liczba": 4577
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1723
+    "liczba": 1970
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 116
+    "liczba": 133
    }
   ],
-  "noweOdPaczki": 3202,
+  "noweOdPaczki": 4135,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 15
+   },
+   {
+    "rok": 2020,
+    "liczba": 443
+   },
+   {
     "rok": 2021,
-    "liczba": 339
+    "liczba": 814
    },
    {
     "rok": 2022,
@@ -202,6 +210,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 44
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 79
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 66
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 55
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 75
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 65
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 83
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 77
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 68
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 80
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 59
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 73
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 60
+   },
    {
     "miesiac": "2021-12",
     "liczba": 53
@@ -439,8 +499,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 404,
-  "miejsceWMarce": 10,
+  "miejsce": 385,
+  "miejsceWMarce": 9,
   "modeliWMarce": 19,
   "sredniRocznik": 2010.3
  },
@@ -465,14 +525,14 @@
    "adres": "/marki/mercedes-benz/klasa-b/"
   },
   {
-   "slug": "kia-carens",
-   "nazwa": "Kia Carens",
-   "adres": "/marki/kia/carens/"
-  },
-  {
    "slug": "volkswagen-touran",
    "nazwa": "Volkswagen Touran",
    "adres": "/marki/volkswagen/touran/"
+  },
+  {
+   "slug": "kia-carens",
+   "nazwa": "Kia Carens",
+   "adres": "/marki/kia/carens/"
   },
   {
    "slug": "opel-insignia",

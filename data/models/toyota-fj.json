@@ -14,21 +14,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota FJ – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 201 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FJ CRUISER, FJ CRUISER 4.0 L).",
-  "liczbaWPolsce": 355,
-  "aktywne": 250,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota FJ – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 226 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FJ CRUISER, FJ CRUISER 4.0 L).",
+  "liczbaWPolsce": 380,
+  "aktywne": 275,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "04",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "06",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "08",
@@ -40,35 +40,35 @@
    },
    {
     "teryt": "12",
-    "liczba": 52
+    "liczba": 57
    },
    {
     "teryt": "14",
-    "liczba": 66
+    "liczba": 72
    },
    {
     "teryt": "16",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "teryt": "18",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "20",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "22",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "24",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "teryt": "26",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "28",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "32",
-    "liczba": 16
+    "liczba": 17
    }
   ],
   "bezWojewodztwa": 2,
@@ -135,35 +135,35 @@
    },
    {
     "rok": 2006,
-    "liczba": 34
+    "liczba": 36
    },
    {
     "rok": 2007,
-    "liczba": 125
+    "liczba": 135
    },
    {
     "rok": 2008,
-    "liczba": 53
+    "liczba": 57
    },
    {
     "rok": 2009,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2010,
-    "liczba": 15
+    "liczba": 18
    },
    {
     "rok": 2011,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 2012,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 2013,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 2014,
@@ -179,7 +179,7 @@
    },
    {
     "rok": 2017,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2018,
@@ -191,7 +191,7 @@
    },
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2021,
@@ -209,17 +209,17 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 218
+    "liczba": 231
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 137
+    "liczba": 149
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 351
+    "liczba": 376
    },
    {
     "nazwa": "Inne / brak danych",
@@ -229,11 +229,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 224
+    "liczba": 238
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 126
+    "liczba": 137
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -247,15 +247,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 114
+    "liczba": 120
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 95
+    "liczba": 104
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 88
+    "liczba": 95
    },
    {
     "nazwa": "Van",
@@ -271,16 +271,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 24
    }
   ],
-  "noweOdPaczki": 201,
+  "noweOdPaczki": 226,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 10
+   },
+   {
+    "rok": 2021,
+    "liczba": 25
    },
    {
     "rok": 2022,
@@ -304,6 +308,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -541,10 +597,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1076,
+  "miejsce": 1069,
   "miejsceWMarce": 36,
   "modeliWMarce": 43,
-  "sredniRocznik": 2009.5
+  "sredniRocznik": 2009.4
  },
  "youtubeId": "",
  "zrodla": [
@@ -572,14 +628,14 @@
    "adres": "/marki/mercedes-benz/klasa-gl/"
   },
   {
-   "slug": "audi-s6",
-   "nazwa": "Audi S6",
-   "adres": "/marki/audi/s6/"
-  },
-  {
    "slug": "jeep-liberty",
    "nazwa": "Jeep Liberty",
    "adres": "/marki/jeep/liberty/"
+  },
+  {
+   "slug": "audi-s6",
+   "nazwa": "Audi S6",
+   "adres": "/marki/audi/s6/"
   }
  ]
 }

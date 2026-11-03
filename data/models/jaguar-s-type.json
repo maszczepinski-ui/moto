@@ -11,80 +11,80 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar S-Type – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 339 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S-TYPE, S-TYPE 3.0, S-TYPE 3.0 KAT, S-TYPE 2.7D, S-TYPE 3.0 V6).",
-  "liczbaWPolsce": 2091,
-  "aktywne": 876,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar S-Type – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 452 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S-TYPE, S-TYPE 3.0, S-TYPE 3.0 KAT, S-TYPE 2.7D, S-TYPE 3.0 V6).",
+  "liczbaWPolsce": 2204,
+  "aktywne": 989,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 181
+    "liczba": 197
    },
    {
     "teryt": "04",
-    "liczba": 96
+    "liczba": 100
    },
    {
     "teryt": "06",
-    "liczba": 118
-   },
-   {
-    "teryt": "08",
-    "liczba": 61
-   },
-   {
-    "teryt": "10",
     "liczba": 122
    },
    {
+    "teryt": "08",
+    "liczba": 66
+   },
+   {
+    "teryt": "10",
+    "liczba": 127
+   },
+   {
     "teryt": "12",
-    "liczba": 139
+    "liczba": 147
    },
    {
     "teryt": "14",
-    "liczba": 416
+    "liczba": 437
    },
    {
     "teryt": "16",
-    "liczba": 48
+    "liczba": 50
    },
    {
     "teryt": "18",
-    "liczba": 87
+    "liczba": 92
    },
    {
     "teryt": "20",
-    "liczba": 52
+    "liczba": 54
    },
    {
     "teryt": "22",
-    "liczba": 119
+    "liczba": 129
    },
    {
     "teryt": "24",
-    "liczba": 173
+    "liczba": 181
    },
    {
     "teryt": "26",
-    "liczba": 55
+    "liczba": 60
    },
    {
     "teryt": "28",
-    "liczba": 82
+    "liczba": 87
    },
    {
     "teryt": "30",
-    "liczba": 237
+    "liczba": 247
    },
    {
     "teryt": "32",
-    "liczba": 82
+    "liczba": 85
    }
   ],
   "bezWojewodztwa": 23,
   "roczniki": [
    {
     "rok": 1967,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1968,
@@ -212,57 +212,57 @@
    },
    {
     "rok": 1999,
-    "liczba": 288
+    "liczba": 297
    },
    {
     "rok": 2000,
-    "liczba": 373
+    "liczba": 386
    },
    {
     "rok": 2001,
-    "liczba": 244
+    "liczba": 254
    },
    {
     "rok": 2002,
-    "liczba": 236
+    "liczba": 247
    },
    {
     "rok": 2003,
-    "liczba": 181
+    "liczba": 196
    },
    {
     "rok": 2004,
-    "liczba": 213
+    "liczba": 226
    },
    {
     "rok": 2005,
-    "liczba": 198
+    "liczba": 211
    },
    {
     "rok": 2006,
-    "liczba": 145
+    "liczba": 162
    },
    {
     "rok": 2007,
-    "liczba": 127
+    "liczba": 136
    },
    {
     "rok": 2008,
-    "liczba": 14
+    "liczba": 16
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1228
-   },
-   {
-    "nazwa": "Benzyna + LPG",
-    "liczba": 429
+    "liczba": 1291
    },
    {
     "nazwa": "Diesel",
-    "liczba": 427
+    "liczba": 460
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 446
    },
    {
     "nazwa": "Inne / brak danych",
@@ -272,37 +272,37 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 1114
+    "liczba": 1159
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 432
-   },
-   {
-    "nazwa": "4,0 l",
-    "liczba": 183
+    "liczba": 464
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 179
+    "liczba": 196
+   },
+   {
+    "nazwa": "4,0 l",
+    "liczba": 190
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 157
+    "liczba": 168
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26
+    "liczba": 27
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1067
+    "liczba": 1136
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 970
+    "liczba": 1014
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -316,24 +316,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1988
+    "liczba": 2098
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 59
+    "liczba": 61
    }
   ],
-  "noweOdPaczki": 339,
+  "noweOdPaczki": 452,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 64
+   },
+   {
     "rok": 2021,
-    "liczba": 34
+    "liczba": 81
    },
    {
     "rok": 2022,
@@ -357,6 +365,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2021-12",
     "liczba": 7
@@ -594,7 +654,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 596,
+  "miejsce": 594,
   "miejsceWMarce": 4,
   "modeliWMarce": 17,
   "sredniRocznik": 2002.1
@@ -625,14 +685,14 @@
    "adres": "/marki/mercedes-benz/320/"
   },
   {
-   "slug": "honda-accord",
-   "nazwa": "Honda Accord",
-   "adres": "/marki/honda/accord/"
-  },
-  {
    "slug": "hyundai-sonata",
    "nazwa": "Hyundai Sonata",
    "adres": "/marki/hyundai/sonata/"
+  },
+  {
+   "slug": "honda-accord",
+   "nazwa": "Honda Accord",
+   "adres": "/marki/honda/accord/"
   }
  ]
 }

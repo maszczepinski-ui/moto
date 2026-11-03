@@ -11,9 +11,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Senator – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SENATOR, SENATOR 3.0, SENATOR 3.0 KAT, SENATOR 2.6 KAT, SENATOR 2.5).",
-  "liczbaWPolsce": 1610,
-  "aktywne": 48,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Senator – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SENATOR, SENATOR 3.0, SENATOR 3.0 KAT, SENATOR 2.6 KAT, SENATOR 2.5).",
+  "liczbaWPolsce": 1612,
+  "aktywne": 50,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 219
+    "liczba": 220
    },
    {
     "teryt": "16",
@@ -69,7 +69,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 104
+    "liczba": 105
    },
    {
     "teryt": "30",
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 72
+    "liczba": 73
    },
    {
     "rok": 1985,
@@ -140,7 +140,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 114
+    "liczba": 115
    },
    {
     "rok": 1993,
@@ -166,11 +166,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 419
+    "liczba": 420
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 401
+    "liczba": 402
    },
    {
     "nazwa": "?+LPG",
@@ -196,11 +196,11 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 160
+    "liczba": 161
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 133
+    "liczba": 134
    },
    {
     "nazwa": "2,8 l",
@@ -230,7 +230,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 269
+    "liczba": 271
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -248,7 +248,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 753
+    "liczba": 755
    },
    {
     "nazwa": "Hatchback",
@@ -259,13 +259,17 @@
     "liczba": 817
    }
   ],
-  "noweOdPaczki": 31,
+  "noweOdPaczki": 33,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2019,
     "liczba": 1
+   },
+   {
+    "rok": 2021,
+    "liczba": 2
    },
    {
     "rok": 2022,
@@ -289,6 +293,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -526,7 +582,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 662,
+  "miejsce": 672,
   "miejsceWMarce": 25,
   "modeliWMarce": 33,
   "sredniRocznik": 1987.9

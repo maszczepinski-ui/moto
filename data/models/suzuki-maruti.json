@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Maruti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MARUTI 800, MARUTI, MARUTI 0.8, MARUTI 0,8).",
-  "liczbaWPolsce": 2518,
-  "aktywne": 86,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Maruti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 38 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MARUTI 800, MARUTI, MARUTI 0.8, MARUTI 0,8).",
+  "liczbaWPolsce": 2525,
+  "aktywne": 93,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,15 +22,15 @@
    },
    {
     "teryt": "04",
-    "liczba": 242
+    "liczba": 243
    },
    {
     "teryt": "06",
-    "liczba": 81
+    "liczba": 82
    },
    {
     "teryt": "08",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "teryt": "10",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 69
+    "liczba": 70
    },
    {
     "teryt": "20",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 190
+    "liczba": 193
    },
    {
     "teryt": "24",
@@ -137,7 +137,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 21
+    "liczba": 23
    },
    {
     "rok": 2005,
@@ -157,13 +157,13 @@
    },
    {
     "rok": 2009,
-    "liczba": 13
+    "liczba": 16
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1669
+    "liczba": 1676
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -185,11 +185,11 @@
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 80
+    "liczba": 85
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "nazwa": "Inne / brak danych",
@@ -199,7 +199,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2057
+    "liczba": 2058
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -207,7 +207,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 120
+    "liczba": 126
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -221,7 +221,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1202
+    "liczba": 1209
    },
    {
     "nazwa": "Sedan",
@@ -232,10 +232,14 @@
     "liczba": 996
    }
   ],
-  "noweOdPaczki": 31,
+  "noweOdPaczki": 38,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 7
+   },
    {
     "rok": 2021,
     "liczba": 3
@@ -262,6 +266,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -499,10 +555,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 549,
+  "miejsce": 564,
   "miejsceWMarce": 14,
   "modeliWMarce": 21,
-  "sredniRocznik": 1992.8
+  "sredniRocznik": 1992.9
  },
  "youtubeId": "",
  "zrodla": [

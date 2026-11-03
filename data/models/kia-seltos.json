@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Seltos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 378 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SELTOS).",
-  "liczbaWPolsce": 378,
-  "aktywne": 378,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Seltos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 380 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SELTOS).",
+  "liczbaWPolsce": 380,
+  "aktywne": 380,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "26",
@@ -89,11 +89,11 @@
    },
    {
     "rok": 2020,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2021,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2022,
@@ -119,7 +119,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 376
+    "liczba": 378
    },
    {
     "nazwa": "Inne / brak danych",
@@ -133,7 +133,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "nazwa": "Inne / brak danych",
@@ -151,7 +151,7 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -165,24 +165,24 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 378,
+  "noweOdPaczki": 380,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -206,6 +206,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -443,10 +495,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1048,
-  "miejsceWMarce": 26,
+  "miejsce": 1070,
+  "miejsceWMarce": 27,
   "modeliWMarce": 33,
-  "sredniRocznik": 2025.6
+  "sredniRocznik": 2025.5
  },
  "youtubeId": "",
  "zrodla": [
@@ -459,9 +511,9 @@
  "adres": "/marki/kia/seltos/",
  "konkurenci": [
   {
-   "slug": "cupra-formentor",
-   "nazwa": "Cupra Formentor",
-   "adres": "/marki/cupra/formentor/"
+   "slug": "cupra-leon",
+   "nazwa": "Cupra Leon",
+   "adres": "/marki/cupra/leon/"
   },
   {
    "slug": "baic-x55",
@@ -469,19 +521,19 @@
    "adres": "/marki/baic/x55/"
   },
   {
-   "slug": "cupra-leon",
-   "nazwa": "Cupra Leon",
-   "adres": "/marki/cupra/leon/"
-  },
-  {
-   "slug": "baic-beijing-3",
-   "nazwa": "BAIC Beijing 3",
-   "adres": "/marki/baic/beijing-3/"
+   "slug": "cupra-formentor",
+   "nazwa": "Cupra Formentor",
+   "adres": "/marki/cupra/formentor/"
   },
   {
    "slug": "cupra-terramar",
    "nazwa": "Cupra Terramar",
    "adres": "/marki/cupra/terramar/"
+  },
+  {
+   "slug": "baic-beijing-3",
+   "nazwa": "BAIC Beijing 3",
+   "adres": "/marki/baic/beijing-3/"
   }
  ]
 }

@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 146 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 146, 146 1.6 KAT, 146 1.4 KAT, 146 1.6, 146 1.9 TD).",
-  "liczbaWPolsce": 2178,
-  "aktywne": 91,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 146 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 146, 146 1.6 KAT, 146 1.4 KAT, 146 1.6, 146 1.9 TD).",
+  "liczbaWPolsce": 2182,
+  "aktywne": 95,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 137
+    "liczba": 138
    },
    {
     "teryt": "06",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 95
+    "liczba": 96
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 208
+    "liczba": 209
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 208
+    "liczba": 209
    },
    {
     "teryt": "32",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 255
+    "liczba": 256
    },
    {
     "rok": 1996,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 460
+    "liczba": 461
    },
    {
     "rok": 1998,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 2000,
-    "liczba": 262
+    "liczba": 263
    },
    {
     "rok": 2001,
@@ -119,15 +119,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1278
+    "liczba": 1280
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 527
+    "liczba": 528
    },
    {
     "nazwa": "Diesel",
-    "liczba": 329
+    "liczba": 330
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,11 +141,11 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 777
+    "liczba": 780
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 331
+    "liczba": 332
    },
    {
     "nazwa": "1,7 l",
@@ -167,7 +167,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 662
+    "liczba": 666
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,21 +181,29 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1699
+    "liczba": 1702
    },
    {
     "nazwa": "Sedan",
-    "liczba": 399
+    "liczba": 400
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 80
    }
   ],
-  "noweOdPaczki": 16,
+  "noweOdPaczki": 20,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 5
@@ -218,6 +226,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -455,7 +515,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 583,
+  "miejsce": 595,
   "miejsceWMarce": 9,
   "modeliWMarce": 20,
   "sredniRocznik": 1997.5

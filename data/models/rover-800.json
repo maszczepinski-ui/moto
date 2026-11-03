@@ -13,13 +13,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 800 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 820, 820 KAT, 827 KAT, 827, 825).",
-  "liczbaWPolsce": 569,
-  "aktywne": 18,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 800 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 820, 820 KAT, 827 KAT, 827, 825).",
+  "liczbaWPolsce": 570,
+  "aktywne": 19,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 47
+    "liczba": 48
    },
    {
     "teryt": "04",
@@ -114,7 +114,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 89
+    "liczba": 90
    },
    {
     "rok": 1995,
@@ -140,7 +140,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 181
+    "liczba": 182
    },
    {
     "nazwa": "Diesel",
@@ -162,7 +162,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 207
+    "liczba": 208
    },
    {
     "nazwa": "2,5 l",
@@ -180,7 +180,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 356
+    "liczba": 357
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -202,7 +202,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 329
+    "liczba": 330
    },
    {
     "nazwa": "Hatchback",
@@ -217,10 +217,14 @@
     "liczba": 142
    }
   ],
-  "noweOdPaczki": 7,
+  "noweOdPaczki": 8,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2021,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 1
@@ -243,6 +247,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -480,7 +536,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 918,
+  "miejsce": 925,
   "miejsceWMarce": 7,
   "modeliWMarce": 9,
   "sredniRocznik": 1993.9
@@ -511,14 +567,14 @@
    "adres": "/marki/mitsubishi/galant/"
   },
   {
-   "slug": "lancia-thema",
-   "nazwa": "Lancia Thema",
-   "adres": "/marki/lancia/thema/"
-  },
-  {
    "slug": "ford-scorpio",
    "nazwa": "Ford Scorpio",
    "adres": "/marki/ford/scorpio/"
+  },
+  {
+   "slug": "lancia-thema",
+   "nazwa": "Lancia Thema",
+   "adres": "/marki/lancia/thema/"
   }
  ]
 }

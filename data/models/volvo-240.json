@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 240 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 60 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 240, 240 GL, 240 2.4D, 240 2.3, 240 2.4D KOMBI).",
-  "liczbaWPolsce": 746,
-  "aktywne": 101,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 240 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 71 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 240, 240 GL, 240 2.4D, 240 2.3, 240 2.4D KOMBI).",
+  "liczbaWPolsce": 757,
+  "aktywne": 112,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 42
+    "liczba": 45
    },
    {
     "teryt": "04",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "12",
@@ -42,15 +42,15 @@
    },
    {
     "teryt": "14",
-    "liczba": 258
+    "liczba": 260
    },
    {
     "teryt": "16",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "18",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "20",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "28",
@@ -121,11 +121,11 @@
    },
    {
     "rok": 1984,
-    "liczba": 58
+    "liczba": 59
    },
    {
     "rok": 1985,
-    "liczba": 53
+    "liczba": 54
    },
    {
     "rok": 1986,
@@ -133,11 +133,11 @@
    },
    {
     "rok": 1987,
-    "liczba": 45
+    "liczba": 47
    },
    {
     "rok": 1988,
-    "liczba": 70
+    "liczba": 72
    },
    {
     "rok": 1989,
@@ -149,7 +149,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 78
+    "liczba": 79
    },
    {
     "rok": 1992,
@@ -157,7 +157,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 34
+    "liczba": 38
    },
    {
     "rok": 1994,
@@ -179,15 +179,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 239
+    "liczba": 240
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 199
+    "liczba": 205
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 95
+    "liczba": 99
    },
    {
     "nazwa": "?+LPG",
@@ -201,15 +201,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 339
+    "liczba": 348
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 292
+    "liczba": 293
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "nazwa": "2,1 l",
@@ -223,11 +223,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 493
+    "liczba": 497
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 161
+    "liczba": 168
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -241,11 +241,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 240
+    "liczba": 246
    },
    {
     "nazwa": "Sedan",
-    "liczba": 232
+    "liczba": 237
    },
    {
     "nazwa": "Hatchback",
@@ -256,13 +256,21 @@
     "liczba": 259
    }
   ],
-  "noweOdPaczki": 60,
+  "noweOdPaczki": 71,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 6
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 8
    },
    {
     "rok": 2022,
@@ -286,6 +294,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -523,7 +583,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 845,
+  "miejsce": 849,
   "miejsceWMarce": 25,
   "modeliWMarce": 34,
   "sredniRocznik": 1988.0

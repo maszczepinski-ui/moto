@@ -13,25 +13,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart Mcc – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 274 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MCC, SMART MCC, MCC SMART).",
-  "liczbaWPolsce": 798,
-  "aktywne": 467,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart Mcc – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 337 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MCC, SMART MCC, MCC SMART).",
+  "liczbaWPolsce": 861,
+  "aktywne": 530,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 83
+    "liczba": 88
    },
    {
     "teryt": "04",
-    "liczba": 40
+    "liczba": 44
    },
    {
     "teryt": "06",
-    "liczba": 34
+    "liczba": 38
    },
    {
     "teryt": "08",
-    "liczba": 43
+    "liczba": 48
    },
    {
     "teryt": "10",
@@ -39,19 +39,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "14",
-    "liczba": 84
+    "liczba": 92
    },
    {
     "teryt": "16",
-    "liczba": 26
+    "liczba": 31
    },
    {
     "teryt": "18",
-    "liczba": 43
+    "liczba": 47
    },
    {
     "teryt": "20",
@@ -59,54 +59,54 @@
    },
    {
     "teryt": "22",
-    "liczba": 59
+    "liczba": 66
    },
    {
     "teryt": "24",
-    "liczba": 84
+    "liczba": 86
    },
    {
     "teryt": "26",
-    "liczba": 19
-   },
-   {
-    "teryt": "28",
     "liczba": 21
    },
    {
+    "teryt": "28",
+    "liczba": 22
+   },
+   {
     "teryt": "30",
-    "liczba": 114
+    "liczba": 125
    },
    {
     "teryt": "32",
-    "liczba": 34
+    "liczba": 38
    }
   ],
   "bezWojewodztwa": 8,
   "roczniki": [
    {
     "rok": 1998,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 1999,
-    "liczba": 152
+    "liczba": 165
    },
    {
     "rok": 2000,
-    "liczba": 203
+    "liczba": 215
    },
    {
     "rok": 2001,
-    "liczba": 211
+    "liczba": 225
    },
    {
     "rok": 2002,
-    "liczba": 163
+    "liczba": 181
    },
    {
     "rok": 2003,
-    "liczba": 28
+    "liczba": 33
    },
    {
     "rok": 2004,
@@ -124,11 +124,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 578
+    "liczba": 631
    },
    {
     "nazwa": "Diesel",
-    "liczba": 217
+    "liczba": 227
    },
    {
     "nazwa": "Inne / brak danych",
@@ -138,25 +138,25 @@
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 572
+    "liczba": 623
    },
    {
     "nazwa": "0,8 l",
-    "liczba": 221
+    "liczba": 232
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 520
+    "liczba": 553
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 269
+    "liczba": 299
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,28 +166,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 594
+    "liczba": 643
    },
    {
     "nazwa": "Coupe",
-    "liczba": 110
+    "liczba": 116
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 58
+    "liczba": 63
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 36
+    "liczba": 39
    }
   ],
-  "noweOdPaczki": 274,
+  "noweOdPaczki": 337,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 34
+   },
+   {
     "rok": 2021,
-    "liczba": 27
+    "liczba": 56
    },
    {
     "rok": 2022,
@@ -211,6 +215,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 8
+   },
    {
     "miesiac": "2021-12",
     "liczba": 8
@@ -448,9 +504,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 825,
+  "miejsce": 817,
   "miejsceWMarce": 4,
-  "modeliWMarce": 8,
+  "modeliWMarce": 9,
   "sredniRocznik": 2000.6
  },
  "youtubeId": "",

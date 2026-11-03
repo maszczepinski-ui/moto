@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Cinquecento – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 187 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CINQUECENTO, POLSKI FIAT 170/700, CINQUECENTO 704, CINQUECENTO 0.7KAT, POLSKI FIAT 170/900).",
-  "liczbaWPolsce": 93591,
-  "aktywne": 2735,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Cinquecento – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 204 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CINQUECENTO, POLSKI FIAT 170/700, CINQUECENTO 704, CINQUECENTO 0.7KAT, POLSKI FIAT 170/900).",
+  "liczbaWPolsce": 93608,
+  "aktywne": 2752,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5606
+    "liczba": 5607
    },
    {
     "teryt": "04",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 9435
+    "liczba": 9439
    },
    {
     "teryt": "14",
-    "liczba": 13375
+    "liczba": 13380
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 2715
+    "liczba": 2716
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 14576
+    "liczba": 14579
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 9625
+    "liczba": 9628
    },
    {
     "teryt": "32",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 4372
+    "liczba": 4373
    },
    {
     "rok": 1993,
@@ -101,25 +101,25 @@
    },
    {
     "rok": 1995,
-    "liczba": 16329
+    "liczba": 16332
    },
    {
     "rok": 1996,
-    "liczba": 16874
+    "liczba": 16878
    },
    {
     "rok": 1997,
-    "liczba": 16562
+    "liczba": 16570
    },
    {
     "rok": 1998,
-    "liczba": 5347
+    "liczba": 5348
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 69576
+    "liczba": 69593
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -141,11 +141,11 @@
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 19330
+    "liczba": 19334
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 2166
+    "liczba": 2179
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,7 +155,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 77093
+    "liczba": 77101
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -163,7 +163,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1152
+    "liczba": 1161
    },
    {
     "nazwa": "Inne / brak danych",
@@ -173,7 +173,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 62695
+    "liczba": 62712
    },
    {
     "nazwa": "Sedan",
@@ -184,13 +184,21 @@
     "liczba": 25999
    }
   ],
-  "noweOdPaczki": 187,
+  "noweOdPaczki": 204,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 10
+   },
+   {
     "rok": 2021,
-    "liczba": 11
+    "liczba": 17
    },
    {
     "rok": 2022,
@@ -214,6 +222,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -451,9 +511,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 54,
+  "miejsce": 58,
   "miejsceWMarce": 4,
-  "modeliWMarce": 60,
+  "modeliWMarce": 61,
   "sredniRocznik": 1995.0
  },
  "youtubeId": "",
@@ -487,9 +547,9 @@
    "adres": "/marki/seat/marbella/"
   },
   {
-   "slug": "daihatsu-cuore",
-   "nazwa": "Daihatsu Cuore",
-   "adres": "/marki/daihatsu/cuore/"
+   "slug": "peugeot-106",
+   "nazwa": "Peugeot 106",
+   "adres": "/marki/peugeot/106/"
   }
  ]
 }

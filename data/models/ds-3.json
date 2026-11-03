@@ -12,21 +12,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 611 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 3, DS 3 CROSSBACK).",
-  "liczbaWPolsce": 611,
-  "aktywne": 611,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 678 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 3, DS 3 CROSSBACK).",
+  "liczbaWPolsce": 678,
+  "aktywne": 678,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 26
+    "liczba": 31
    },
    {
     "teryt": "04",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "06",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "08",
@@ -34,47 +34,47 @@
    },
    {
     "teryt": "10",
-    "liczba": 59
+    "liczba": 66
    },
    {
     "teryt": "12",
-    "liczba": 73
+    "liczba": 85
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 73
    },
    {
     "teryt": "16",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "18",
-    "liczba": 51
+    "liczba": 55
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "22",
-    "liczba": 27
+    "liczba": 32
    },
    {
     "teryt": "24",
-    "liczba": 50
+    "liczba": 59
    },
    {
     "teryt": "26",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "teryt": "28",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 150
+    "liczba": 156
    },
    {
     "teryt": "32",
@@ -89,31 +89,31 @@
    },
    {
     "rok": 2015,
-    "liczba": 61
+    "liczba": 70
    },
    {
     "rok": 2016,
-    "liczba": 131
+    "liczba": 142
    },
    {
     "rok": 2017,
-    "liczba": 81
+    "liczba": 90
    },
    {
     "rok": 2018,
-    "liczba": 52
+    "liczba": 57
    },
    {
     "rok": 2019,
-    "liczba": 101
+    "liczba": 113
    },
    {
     "rok": 2020,
-    "liczba": 87
+    "liczba": 102
    },
    {
     "rok": 2021,
-    "liczba": 51
+    "liczba": 57
    },
    {
     "rok": 2022,
@@ -131,11 +131,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 404
+    "liczba": 455
    },
    {
     "nazwa": "Diesel",
-    "liczba": 181
+    "liczba": 196
    },
    {
     "nazwa": "Elektryczny",
@@ -143,21 +143,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 383
+    "liczba": 431
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 129
+    "liczba": 145
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 75
+    "liczba": 78
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,25 +167,25 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 399
+    "liczba": 423
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 211
+    "liczba": 249
    },
    {
-    "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 403
+    "liczba": 444
    },
    {
     "nazwa": "Kombi",
-    "liczba": 182
+    "liczba": 207
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -193,20 +193,24 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 611,
+  "noweOdPaczki": 678,
   "hybrydy": 0,
   "elektryczne": 24,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 24
+   },
+   {
     "rok": 2021,
-    "liczba": 30
+    "liczba": 73
    },
    {
     "rok": 2022,
@@ -230,6 +234,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 6
+   },
    {
     "miesiac": "2021-12",
     "liczba": 3
@@ -467,7 +523,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 900,
+  "miejsce": 879,
   "miejsceWMarce": 5,
   "modeliWMarce": 7,
   "sredniRocznik": 2018.1
@@ -488,14 +544,9 @@
    "adres": "/marki/peugeot/208/"
   },
   {
-   "slug": "ford-ecosport",
-   "nazwa": "Ford Ecosport",
-   "adres": "/marki/ford/ecosport/"
-  },
-  {
-   "slug": "peugeot-2008",
-   "nazwa": "Peugeot 2008",
-   "adres": "/marki/peugeot/2008/"
+   "slug": "renault-captur",
+   "nazwa": "Renault Captur",
+   "adres": "/marki/renault/captur/"
   },
   {
    "slug": "dacia-sandero",
@@ -503,9 +554,14 @@
    "adres": "/marki/dacia/sandero/"
   },
   {
-   "slug": "renault-captur",
-   "nazwa": "Renault Captur",
-   "adres": "/marki/renault/captur/"
+   "slug": "peugeot-2008",
+   "nazwa": "Peugeot 2008",
+   "adres": "/marki/peugeot/2008/"
+  },
+  {
+   "slug": "ford-ecosport",
+   "nazwa": "Ford Ecosport",
+   "adres": "/marki/ford/ecosport/"
   }
  ]
 }

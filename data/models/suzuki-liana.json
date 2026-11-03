@@ -13,108 +13,108 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Liana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 487 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LIANA, LIANA 1.6 KAT, LIANA 1.6, LIANA 1.6I, LIANA 1.6 I).",
-  "liczbaWPolsce": 3473,
-  "aktywne": 1655,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Suzuki Liana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 688 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LIANA, LIANA 1.6 KAT, LIANA 1.6, LIANA 1.6I, LIANA 1.6 I).",
+  "liczbaWPolsce": 3674,
+  "aktywne": 1856,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 343
+    "liczba": 378
    },
    {
     "teryt": "04",
-    "liczba": 128
+    "liczba": 141
    },
    {
     "teryt": "06",
-    "liczba": 188
+    "liczba": 195
    },
    {
     "teryt": "08",
-    "liczba": 162
+    "liczba": 178
    },
    {
     "teryt": "10",
-    "liczba": 274
+    "liczba": 283
    },
    {
     "teryt": "12",
-    "liczba": 298
+    "liczba": 310
    },
    {
     "teryt": "14",
-    "liczba": 489
+    "liczba": 508
    },
    {
     "teryt": "16",
-    "liczba": 47
+    "liczba": 48
    },
    {
     "teryt": "18",
-    "liczba": 161
+    "liczba": 171
    },
    {
     "teryt": "20",
-    "liczba": 112
+    "liczba": 118
    },
    {
     "teryt": "22",
-    "liczba": 139
+    "liczba": 146
    },
    {
     "teryt": "24",
-    "liczba": 317
+    "liczba": 332
    },
    {
     "teryt": "26",
-    "liczba": 85
+    "liczba": 90
    },
    {
     "teryt": "28",
-    "liczba": 164
+    "liczba": 170
    },
    {
     "teryt": "30",
-    "liczba": 333
+    "liczba": 356
    },
    {
     "teryt": "32",
-    "liczba": 209
+    "liczba": 226
    }
   ],
   "bezWojewodztwa": 24,
   "roczniki": [
    {
     "rok": 2001,
-    "liczba": 204
+    "liczba": 214
    },
    {
     "rok": 2002,
-    "liczba": 333
+    "liczba": 359
    },
    {
     "rok": 2003,
-    "liczba": 306
+    "liczba": 332
    },
    {
     "rok": 2004,
-    "liczba": 1100
+    "liczba": 1133
    },
    {
     "rok": 2005,
-    "liczba": 736
+    "liczba": 785
    },
    {
     "rok": 2006,
-    "liczba": 428
+    "liczba": 450
    },
    {
     "rok": 2007,
-    "liczba": 213
+    "liczba": 245
    },
    {
     "rok": 2008,
-    "liczba": 38
+    "liczba": 41
    },
    {
     "rok": 2009,
@@ -124,15 +124,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2362
+    "liczba": 2530
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 616
+    "liczba": 643
    },
    {
     "nazwa": "Diesel",
-    "liczba": 476
+    "liczba": 482
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,15 +142,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2809
+    "liczba": 2995
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 485
+    "liczba": 491
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 175
+    "liczba": 184
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,11 +160,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2094
+    "liczba": 2239
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 986
+    "liczba": 1042
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -178,36 +178,44 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1864
+    "liczba": 1970
    },
    {
     "nazwa": "Kombi",
-    "liczba": 821
+    "liczba": 877
    },
    {
     "nazwa": "Sedan",
-    "liczba": 588
+    "liczba": 616
    },
    {
     "nazwa": "Van",
-    "liczba": 68
+    "liczba": 73
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 39
+    "liczba": 44
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 93
+    "liczba": 94
    }
   ],
-  "noweOdPaczki": 487,
+  "noweOdPaczki": 688,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 95
+   },
+   {
     "rok": 2021,
-    "liczba": 65
+    "liczba": 168
    },
    {
     "rok": 2022,
@@ -231,6 +239,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 23
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 16
+   },
    {
     "miesiac": "2021-12",
     "liczba": 13
@@ -468,7 +528,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 491,
+  "miejsce": 493,
   "miejsceWMarce": 12,
   "modeliWMarce": 21,
   "sredniRocznik": 2004.3
@@ -484,19 +544,14 @@
  "adres": "/marki/suzuki/liana/",
  "konkurenci": [
   {
-   "slug": "opel-astra",
-   "nazwa": "Opel Astra",
-   "adres": "/marki/opel/astra/"
-  },
-  {
    "slug": "honda-civic",
    "nazwa": "Honda Civic",
    "adres": "/marki/honda/civic/"
   },
   {
-   "slug": "seat-ibiza",
-   "nazwa": "Seat Ibiza",
-   "adres": "/marki/seat/ibiza/"
+   "slug": "opel-astra",
+   "nazwa": "Opel Astra",
+   "adres": "/marki/opel/astra/"
   },
   {
    "slug": "skoda-fabia-i",
@@ -507,6 +562,11 @@
    "slug": "hyundai-matrix",
    "nazwa": "Hyundai Matrix",
    "adres": "/marki/hyundai/matrix/"
+  },
+  {
+   "slug": "seat-ibiza",
+   "nazwa": "Seat Ibiza",
+   "adres": "/marki/seat/ibiza/"
   }
  ]
 }

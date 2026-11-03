@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 440 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 440, 440 1.8 KAT, 440 1.7, 440 1.7 KAT, 440 1.8KAT).",
-  "liczbaWPolsce": 4203,
-  "aktywne": 52,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 440 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 440, 440 1.8 KAT, 440 1.7, 440 1.7 KAT, 440 1.8KAT).",
+  "liczbaWPolsce": 4208,
+  "aktywne": 57,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 319
+    "liczba": 320
    },
    {
     "teryt": "04",
@@ -42,11 +42,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 657
+    "liczba": 658
    },
    {
     "teryt": "16",
-    "liczba": 72
+    "liczba": 73
    },
    {
     "teryt": "18",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 226
+    "liczba": 227
    },
    {
     "teryt": "24",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 110
+    "liczba": 111
    },
    {
     "teryt": "28",
@@ -89,11 +89,11 @@
    },
    {
     "rok": 1989,
-    "liczba": 275
+    "liczba": 276
    },
    {
     "rok": 1990,
-    "liczba": 303
+    "liczba": 304
    },
    {
     "rok": 1991,
@@ -113,21 +113,21 @@
    },
    {
     "rok": 1995,
-    "liczba": 698
+    "liczba": 699
    },
    {
     "rok": 1996,
-    "liczba": 403
+    "liczba": 404
    },
    {
     "rok": 1997,
-    "liczba": 146
+    "liczba": 147
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1531
+    "liczba": 1536
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -149,11 +149,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 1628
+    "liczba": 1630
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1513
+    "liczba": 1515
    },
    {
     "nazwa": "1,9 l",
@@ -165,7 +165,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 189
+    "liczba": 190
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,7 +179,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1551
+    "liczba": 1556
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -197,24 +197,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1759
+    "liczba": 1763
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1371
+    "liczba": 1372
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1073
    }
   ],
-  "noweOdPaczki": 17,
+  "noweOdPaczki": 22,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 2
+   },
+   {
+    "rok": 2021,
+    "liczba": 5
    },
    {
     "rok": 2022,
@@ -234,6 +238,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -471,8 +527,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 461,
-  "miejsceWMarce": 15,
+  "miejsce": 474,
+  "miejsceWMarce": 16,
   "modeliWMarce": 34,
   "sredniRocznik": 1993.1
  },

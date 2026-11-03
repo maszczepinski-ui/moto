@@ -11,21 +11,21 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Cabrio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 212 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CABRIO, CABRIO 2.3 KAT).",
-  "liczbaWPolsce": 631,
-  "aktywne": 338,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Cabrio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 260 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CABRIO, CABRIO 2.3 KAT).",
+  "liczbaWPolsce": 679,
+  "aktywne": 386,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 48
+    "liczba": 52
    },
    {
     "teryt": "04",
-    "liczba": 33
+    "liczba": 37
    },
    {
     "teryt": "06",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "08",
@@ -33,104 +33,104 @@
    },
    {
     "teryt": "10",
-    "liczba": 29
-   },
-   {
-    "teryt": "12",
-    "liczba": 64
-   },
-   {
-    "teryt": "14",
-    "liczba": 95
-   },
-   {
-    "teryt": "16",
     "liczba": 30
    },
    {
+    "teryt": "12",
+    "liczba": 67
+   },
+   {
+    "teryt": "14",
+    "liczba": 104
+   },
+   {
+    "teryt": "16",
+    "liczba": 32
+   },
+   {
     "teryt": "18",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "20",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "22",
-    "liczba": 42
+    "liczba": 45
    },
    {
     "teryt": "24",
-    "liczba": 47
+    "liczba": 51
    },
    {
     "teryt": "26",
-    "liczba": 21
+    "liczba": 26
    },
    {
     "teryt": "28",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "30",
-    "liczba": 59
+    "liczba": 63
    },
    {
     "teryt": "32",
-    "liczba": 25
+    "liczba": 26
    }
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
    {
     "rok": 1991,
-    "liczba": 32
+    "liczba": 34
    },
    {
     "rok": 1992,
-    "liczba": 76
+    "liczba": 79
    },
    {
     "rok": 1993,
-    "liczba": 48
+    "liczba": 51
    },
    {
     "rok": 1994,
-    "liczba": 50
+    "liczba": 56
    },
    {
     "rok": 1995,
-    "liczba": 63
+    "liczba": 66
    },
    {
     "rok": 1996,
-    "liczba": 61
+    "liczba": 64
    },
    {
     "rok": 1997,
-    "liczba": 98
+    "liczba": 107
    },
    {
     "rok": 1998,
-    "liczba": 86
+    "liczba": 96
    },
    {
     "rok": 1999,
-    "liczba": 62
+    "liczba": 67
    },
    {
     "rok": 2000,
-    "liczba": 39
+    "liczba": 42
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 482
+    "liczba": 522
    },
    {
     "nazwa": "Diesel",
-    "liczba": 86
+    "liczba": 94
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -144,27 +144,27 @@
   "pojemnosci": [
    {
     "nazwa": "2,6 l",
-    "liczba": 139
+    "liczba": 149
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 134
+    "liczba": 140
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 102
+    "liczba": 106
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 86
+    "liczba": 97
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 83
+    "liczba": 91
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 79
+    "liczba": 88
    },
    {
     "nazwa": "Inne / brak danych",
@@ -174,21 +174,21 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 405
+    "liczba": 440
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 219
+    "liczba": 231
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 590
+    "liczba": 638
    },
    {
     "nazwa": "Coupe",
@@ -203,13 +203,21 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 212,
+  "noweOdPaczki": 260,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 15
+   },
+   {
     "rok": 2021,
-    "liczba": 12
+    "liczba": 44
    },
    {
     "rok": 2022,
@@ -233,6 +241,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -470,9 +530,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 889,
-  "miejsceWMarce": 39,
-  "modeliWMarce": 52,
+  "miejsce": 878,
+  "miejsceWMarce": 40,
+  "modeliWMarce": 54,
   "sredniRocznik": 1995.8
  },
  "youtubeId": "",

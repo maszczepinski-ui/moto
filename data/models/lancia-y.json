@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 115 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Y, Y 1.2, Y 1.2 KAT, Y 1,2, Y 1.2 LE).",
-  "liczbaWPolsce": 1155,
-  "aktywne": 355,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 145 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Y, Y 1.2, Y 1.2 KAT, Y 1,2, Y 1.2 LE).",
+  "liczbaWPolsce": 1185,
+  "aktywne": 385,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 117
+    "liczba": 118
    },
    {
     "teryt": "04",
@@ -26,11 +26,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "08",
-    "liczba": 47
+    "liczba": 48
    },
    {
     "teryt": "10",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 132
+    "liczba": 142
    },
    {
     "teryt": "14",
-    "liczba": 158
+    "liczba": 161
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 120
+    "liczba": 127
    },
    {
     "teryt": "20",
@@ -58,15 +58,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "24",
-    "liczba": 122
+    "liczba": 125
    },
    {
     "teryt": "26",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 107
+    "liczba": 109
    },
    {
     "teryt": "32",
@@ -113,39 +113,39 @@
    },
    {
     "rok": 1998,
-    "liczba": 218
+    "liczba": 219
    },
    {
     "rok": 1999,
-    "liczba": 118
+    "liczba": 120
    },
    {
     "rok": 2000,
-    "liczba": 95
+    "liczba": 99
    },
    {
     "rok": 2001,
-    "liczba": 108
+    "liczba": 113
    },
    {
     "rok": 2002,
-    "liczba": 74
+    "liczba": 76
    },
    {
     "rok": 2003,
-    "liczba": 88
+    "liczba": 91
    },
    {
     "rok": 2004,
-    "liczba": 55
+    "liczba": 59
    },
    {
     "rok": 2005,
-    "liczba": 22
+    "liczba": 25
    },
    {
     "rok": 2006,
-    "liczba": 20
+    "liczba": 24
    },
    {
     "rok": 2007,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 2
+    "liczba": 4
    },
    {
     "rok": 2011,
@@ -179,15 +179,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 993
+    "liczba": 1018
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 104
+    "liczba": 108
    },
    {
     "nazwa": "Diesel",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
@@ -197,15 +197,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 878
+    "liczba": 903
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 167
+    "liczba": 170
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 102
+    "liczba": 104
    },
    {
     "nazwa": "Inne / brak danych",
@@ -215,11 +215,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 617
+    "liczba": 635
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 479
+    "liczba": 491
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -233,7 +233,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1026
+    "liczba": 1056
    },
    {
     "nazwa": "Sedan",
@@ -244,13 +244,21 @@
     "liczba": 61
    }
   ],
-  "noweOdPaczki": 115,
+  "noweOdPaczki": 145,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 15
+   },
+   {
     "rok": 2021,
-    "liczba": 12
+    "liczba": 26
    },
    {
     "rok": 2022,
@@ -274,6 +282,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 6
@@ -511,10 +571,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 742,
+  "miejsce": 749,
   "miejsceWMarce": 8,
   "modeliWMarce": 15,
-  "sredniRocznik": 1999.6
+  "sredniRocznik": 1999.7
  },
  "youtubeId": "",
  "zrodla": [
@@ -542,14 +602,14 @@
    "adres": "/marki/seat/arosa/"
   },
   {
-   "slug": "subaru-justy",
-   "nazwa": "Subaru Justy",
-   "adres": "/marki/subaru/justy/"
-  },
-  {
    "slug": "hyundai-accent",
    "nazwa": "Hyundai Accent",
    "adres": "/marki/hyundai/accent/"
+  },
+  {
+   "slug": "subaru-justy",
+   "nazwa": "Subaru Justy",
+   "adres": "/marki/subaru/justy/"
   }
  ]
 }

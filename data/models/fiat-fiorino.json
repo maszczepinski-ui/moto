@@ -13,81 +13,77 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Fiorino – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 862 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FIORINO QUBO, FIORINO, FIORINO 1.7 D, FIORINO 1.7D KOMBI).",
-  "liczbaWPolsce": 2456,
-  "aktywne": 1270,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Fiorino – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 042 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FIORINO QUBO, FIORINO, FIORINO 1.7 D, FIORINO 1.7D KOMBI).",
+  "liczbaWPolsce": 2636,
+  "aktywne": 1450,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 191
+    "liczba": 202
    },
    {
     "teryt": "04",
-    "liczba": 129
+    "liczba": 133
    },
    {
     "teryt": "06",
-    "liczba": 70
+    "liczba": 78
    },
    {
     "teryt": "08",
-    "liczba": 75
+    "liczba": 80
    },
    {
     "teryt": "10",
-    "liczba": 142
+    "liczba": 155
    },
    {
     "teryt": "12",
-    "liczba": 232
+    "liczba": 254
    },
    {
     "teryt": "14",
-    "liczba": 241
+    "liczba": 263
    },
    {
     "teryt": "16",
-    "liczba": 65
+    "liczba": 69
    },
    {
     "teryt": "18",
-    "liczba": 143
+    "liczba": 157
    },
    {
     "teryt": "20",
-    "liczba": 53
+    "liczba": 59
    },
    {
     "teryt": "22",
-    "liczba": 154
+    "liczba": 161
    },
    {
     "teryt": "24",
-    "liczba": 344
+    "liczba": 368
    },
    {
     "teryt": "26",
-    "liczba": 65
+    "liczba": 71
    },
    {
     "teryt": "28",
-    "liczba": 74
+    "liczba": 82
    },
    {
     "teryt": "30",
-    "liczba": 351
+    "liczba": 375
    },
    {
     "teryt": "32",
-    "liczba": 113
+    "liczba": 115
    }
   ],
   "bezWojewodztwa": 14,
   "roczniki": [
-   {
-    "rok": 1981,
-    "liczba": 5
-   },
    {
     "rok": 1982,
     "liczba": 6
@@ -194,39 +190,39 @@
    },
    {
     "rok": 2008,
-    "liczba": 692
+    "liczba": 740
    },
    {
     "rok": 2009,
-    "liczba": 570
+    "liczba": 640
    },
    {
     "rok": 2010,
-    "liczba": 347
+    "liczba": 372
    },
    {
     "rok": 2011,
-    "liczba": 142
+    "liczba": 158
    },
    {
     "rok": 2012,
-    "liczba": 71
+    "liczba": 82
    },
    {
     "rok": 2013,
-    "liczba": 52
+    "liczba": 54
    },
    {
     "rok": 2014,
-    "liczba": 19
+    "liczba": 21
    },
    {
     "rok": 2015,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2016,
-    "liczba": 10
+    "liczba": 13
    },
    {
     "rok": 2017,
@@ -236,15 +232,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1085
+    "liczba": 1178
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 916
+    "liczba": 980
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 314
+    "liczba": 337
    },
    {
     "nazwa": "Inne / brak danych",
@@ -254,11 +250,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1095
+    "liczba": 1181
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 931
+    "liczba": 1025
    },
    {
     "nazwa": "1,7 l",
@@ -284,41 +280,37 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1122
+    "liczba": 1223
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 916
+    "liczba": 995
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 386
    },
    {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 13
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 19
+    "liczba": 32
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1388
+    "liczba": 1499
    },
    {
     "nazwa": "Kombi",
-    "liczba": 441
+    "liczba": 472
    },
    {
     "nazwa": "Van",
-    "liczba": 230
+    "liczba": 251
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 108
+    "liczba": 124
    },
    {
     "nazwa": "Sedan",
@@ -326,16 +318,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 254
+    "liczba": 255
    }
   ],
-  "noweOdPaczki": 862,
+  "noweOdPaczki": 1042,
   "hybrydy": 0,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 82
+   },
+   {
     "rok": 2021,
-    "liczba": 91
+    "liczba": 187
    },
    {
     "rok": 2022,
@@ -359,6 +359,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 16
+   },
    {
     "miesiac": "2021-12",
     "liczba": 16
@@ -596,10 +648,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 555,
+  "miejsce": 554,
   "miejsceWMarce": 35,
-  "modeliWMarce": 60,
-  "sredniRocznik": 2005.9
+  "modeliWMarce": 61,
+  "sredniRocznik": 2006.2
  },
  "youtubeId": "",
  "zrodla": [
@@ -617,24 +669,24 @@
    "adres": "/marki/renault/kangoo/"
   },
   {
-   "slug": "renault-scenic",
-   "nazwa": "Renault Scenic",
-   "adres": "/marki/renault/scenic/"
-  },
-  {
    "slug": "opel-meriva",
    "nazwa": "Opel Meriva",
    "adres": "/marki/opel/meriva/"
   },
   {
-   "slug": "volkswagen-polo-iv",
-   "nazwa": "Volkswagen Polo IV (9N)",
-   "adres": "/marki/volkswagen/polo/iv-9n/"
+   "slug": "renault-modus",
+   "nazwa": "Renault Modus",
+   "adres": "/marki/renault/modus/"
   },
   {
-   "slug": "citroen-c2",
-   "nazwa": "Citroen C2",
-   "adres": "/marki/citroen/c2/"
+   "slug": "skoda-roomster",
+   "nazwa": "Skoda Roomster",
+   "adres": "/marki/skoda/roomster/"
+  },
+  {
+   "slug": "citroen-nemo",
+   "nazwa": "Citroen Nemo",
+   "adres": "/marki/citroen/nemo/"
   }
  ]
 }

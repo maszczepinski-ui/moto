@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 25 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 25, 25, R 25 2.0 KAT, R 25 2.2, R 25 2.0).",
-  "liczbaWPolsce": 1983,
-  "aktywne": 18,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 25 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 25, 25, R 25 2.0 KAT, R 25 2.2, R 25 2.0).",
+  "liczbaWPolsce": 1985,
+  "aktywne": 20,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 313
+    "liczba": 314
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "20",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 142
+    "liczba": 143
    },
    {
     "rok": 1988,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 174
+    "liczba": 175
    },
    {
     "rok": 1991,
@@ -143,7 +143,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 408
+    "liczba": 410
    },
    {
     "nazwa": "Diesel",
@@ -165,11 +165,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 692
+    "liczba": 693
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 483
+    "liczba": 484
    },
    {
     "nazwa": "2,1 l",
@@ -203,7 +203,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1425
+    "liczba": 1426
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -211,7 +211,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 208
+    "liczba": 209
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -225,24 +225,24 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 516
+    "liczba": 517
    },
    {
     "nazwa": "Sedan",
-    "liczba": 357
+    "liczba": 358
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1110
    }
   ],
-  "noweOdPaczki": 5,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2022,
@@ -254,6 +254,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -491,8 +543,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 606,
-  "miejsceWMarce": 28,
+  "miejsce": 621,
+  "miejsceWMarce": 29,
   "modeliWMarce": 48,
   "sredniRocznik": 1989.2
  },

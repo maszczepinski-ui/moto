@@ -11,57 +11,57 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Trevis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 155 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TREVIS).",
-  "liczbaWPolsce": 331,
-  "aktywne": 241,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Trevis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 211 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TREVIS).",
+  "liczbaWPolsce": 387,
+  "aktywne": 297,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 32
+    "liczba": 40
    },
    {
     "teryt": "04",
-    "liczba": 15
-   },
-   {
-    "teryt": "06",
-    "liczba": 14
-   },
-   {
-    "teryt": "08",
-    "liczba": 11
-   },
-   {
-    "teryt": "10",
-    "liczba": 27
-   },
-   {
-    "teryt": "12",
-    "liczba": 26
-   },
-   {
-    "teryt": "14",
-    "liczba": 38
-   },
-   {
-    "teryt": "16",
-    "liczba": 6
-   },
-   {
-    "teryt": "18",
     "liczba": 17
    },
    {
-    "teryt": "20",
-    "liczba": 9
+    "teryt": "06",
+    "liczba": 15
    },
    {
-    "teryt": "22",
+    "teryt": "08",
     "liczba": 13
    },
    {
+    "teryt": "10",
+    "liczba": 43
+   },
+   {
+    "teryt": "12",
+    "liczba": 28
+   },
+   {
+    "teryt": "14",
+    "liczba": 45
+   },
+   {
+    "teryt": "16",
+    "liczba": 8
+   },
+   {
+    "teryt": "18",
+    "liczba": 18
+   },
+   {
+    "teryt": "20",
+    "liczba": 10
+   },
+   {
+    "teryt": "22",
+    "liczba": 15
+   },
+   {
     "teryt": "24",
-    "liczba": 42
+    "liczba": 45
    },
    {
     "teryt": "26",
@@ -69,30 +69,30 @@
    },
    {
     "teryt": "28",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "30",
-    "liczba": 49
+    "liczba": 56
    },
    {
     "teryt": "32",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 106
+    "liczba": 126
    },
    {
     "rok": 2007,
-    "liczba": 132
+    "liczba": 160
    },
    {
     "rok": 2008,
-    "liczba": 55
+    "liczba": 63
    },
    {
     "rok": 2009,
@@ -106,11 +106,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 317
+    "liczba": 372
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,17 +120,17 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 331
+    "liczba": 387
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 255
+    "liczba": 293
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 72
+    "liczba": 90
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,20 +140,24 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 323
+    "liczba": 379
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 155,
+  "noweOdPaczki": 211,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 20
+   },
+   {
     "rok": 2021,
-    "liczba": 18
+    "liczba": 54
    },
    {
     "rok": 2022,
@@ -177,6 +181,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -414,8 +470,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1099,
-  "miejsceWMarce": 10,
+  "miejsce": 1055,
+  "miejsceWMarce": 9,
   "modeliWMarce": 10,
   "sredniRocznik": 2007.0
  },
@@ -430,14 +486,14 @@
  "adres": "/marki/daihatsu/trevis/",
  "konkurenci": [
   {
-   "slug": "peugeot-107",
-   "nazwa": "Peugeot 107",
-   "adres": "/marki/peugeot/107/"
-  },
-  {
    "slug": "suzuki-alto",
    "nazwa": "Suzuki Alto",
    "adres": "/marki/suzuki/alto/"
+  },
+  {
+   "slug": "peugeot-107",
+   "nazwa": "Peugeot 107",
+   "adres": "/marki/peugeot/107/"
   },
   {
    "slug": "chevrolet-matiz",

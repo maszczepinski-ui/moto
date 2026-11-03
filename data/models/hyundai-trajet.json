@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Trajet – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAJET, TRAJET 2.0 CRDI, TRAJET 2,0 CRDI).",
-  "liczbaWPolsce": 1185,
-  "aktywne": 370,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Trajet – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 64 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAJET, TRAJET 2.0 CRDI, TRAJET 2,0 CRDI).",
+  "liczbaWPolsce": 1205,
+  "aktywne": 390,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 98
+    "liczba": 99
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 93
+    "liczba": 94
    },
    {
     "teryt": "08",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 57
+    "liczba": 59
    },
    {
     "teryt": "14",
-    "liczba": 164
+    "liczba": 171
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 80
+    "liczba": 82
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 81
+    "liczba": 82
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 121
+    "liczba": 126
    },
    {
     "teryt": "32",
-    "liczba": 69
+    "liczba": 70
    }
   ],
   "bezWojewodztwa": 4,
@@ -89,31 +89,31 @@
    },
    {
     "rok": 2001,
-    "liczba": 157
+    "liczba": 160
    },
    {
     "rok": 2002,
-    "liczba": 118
+    "liczba": 119
    },
    {
     "rok": 2003,
-    "liczba": 154
+    "liczba": 156
    },
    {
     "rok": 2004,
-    "liczba": 238
+    "liczba": 243
    },
    {
     "rok": 2005,
-    "liczba": 189
+    "liczba": 191
    },
    {
     "rok": 2006,
-    "liczba": 152
+    "liczba": 157
    },
    {
     "rok": 2007,
-    "liczba": 60
+    "liczba": 62
    },
    {
     "rok": 2008,
@@ -123,15 +123,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 827
+    "liczba": 845
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 238
+    "liczba": 239
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 116
+    "liczba": 117
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,7 +141,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1151
+    "liczba": 1169
    },
    {
     "nazwa": "2,7 l",
@@ -149,17 +149,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 8
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 810
+    "liczba": 824
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 370
+    "liczba": 376
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,32 +169,36 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 823
+    "liczba": 834
    },
    {
     "nazwa": "Kombi",
-    "liczba": 175
+    "liczba": 178
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 125
+    "liczba": 129
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 30
    }
   ],
-  "noweOdPaczki": 44,
+  "noweOdPaczki": 64,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 11
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 13
    },
    {
     "rok": 2022,
@@ -214,6 +218,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -451,9 +507,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 735,
-  "miejsceWMarce": 25,
-  "modeliWMarce": 34,
+  "miejsce": 745,
+  "miejsceWMarce": 26,
+  "modeliWMarce": 35,
   "sredniRocznik": 2003.6
  },
  "youtubeId": "",

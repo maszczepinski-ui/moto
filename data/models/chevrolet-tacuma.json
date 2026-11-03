@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Tacuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TACUMA).",
-  "liczbaWPolsce": 239,
-  "aktywne": 132,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Tacuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TACUMA).",
+  "liczbaWPolsce": 246,
+  "aktywne": 139,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "06",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "12",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "14",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "20",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "24",
@@ -86,19 +86,19 @@
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2005,
-    "liczba": 96
+    "liczba": 99
    },
    {
     "rok": 2006,
-    "liczba": 70
+    "liczba": 72
    },
    {
     "rok": 2007,
-    "liczba": 42
+    "liczba": 43
    },
    {
     "rok": 2008,
@@ -112,11 +112,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 154
+    "liczba": 158
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 84
+    "liczba": 87
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,11 +126,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 185
+    "liczba": 191
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,11 +140,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 187
+    "liczba": 191
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 51
+    "liczba": 54
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,11 +154,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 97
+    "liczba": 100
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 67
+    "liczba": 71
    },
    {
     "nazwa": "Van",
@@ -173,13 +173,17 @@
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 20,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 9
    },
    {
     "rok": 2022,
@@ -203,6 +207,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -440,9 +496,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1206,
+  "miejsce": 1217,
   "miejsceWMarce": 23,
-  "modeliWMarce": 23,
+  "modeliWMarce": 24,
   "sredniRocznik": 2005.9
  },
  "youtubeId": "",

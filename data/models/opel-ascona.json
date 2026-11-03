@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Ascona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASCONA, ASCONA 1.6, ASCONA 1.6D, ASCONA 1.3, ASCONA 1.9).",
-  "liczbaWPolsce": 19841,
-  "aktywne": 83,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Ascona – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 49 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASCONA, ASCONA 1.6, ASCONA 1.6D, ASCONA 1.3, ASCONA 1.9).",
+  "liczbaWPolsce": 19846,
+  "aktywne": 88,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 1005
+    "liczba": 1006
    },
    {
     "teryt": "14",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 1713
+    "liczba": 1714
    },
    {
     "teryt": "24",
-    "liczba": 1661
+    "liczba": 1663
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1750
+    "liczba": 1751
    },
    {
     "teryt": "32",
@@ -105,11 +105,11 @@
    },
    {
     "rok": 1978,
-    "liczba": 587
+    "liczba": 588
    },
    {
     "rok": 1979,
-    "liczba": 875
+    "liczba": 876
    },
    {
     "rok": 1980,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 1129
+    "liczba": 1130
    },
    {
     "rok": 1982,
@@ -133,7 +133,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 1761
+    "liczba": 1763
    },
    {
     "rok": 1986,
@@ -187,7 +187,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4038
+    "liczba": 4043
    },
    {
     "nazwa": "Diesel",
@@ -213,11 +213,11 @@
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 3334
+    "liczba": 3337
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1087
+    "liczba": 1088
    },
    {
     "nazwa": "2,0 l",
@@ -229,7 +229,7 @@
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 434
+    "liczba": 435
    },
    {
     "nazwa": "Inne / brak danych",
@@ -247,7 +247,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 893
+    "liczba": 898
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -261,24 +261,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 4881
+    "liczba": 4884
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1234
+    "liczba": 1235
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13726
+    "liczba": 13727
    }
   ],
-  "noweOdPaczki": 44,
+  "noweOdPaczki": 49,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 9
    },
    {
     "rok": 2022,
@@ -302,6 +306,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -539,7 +595,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 205,
+  "miejsce": 214,
   "miejsceWMarce": 11,
   "modeliWMarce": 33,
   "sredniRocznik": 1983.9
@@ -575,9 +631,9 @@
    "adres": "/marki/peugeot/305/"
   },
   {
-   "slug": "nissan-datsun",
-   "nazwa": "Nissan Datsun",
-   "adres": "/marki/nissan/datsun/"
+   "slug": "volvo-340-343",
+   "nazwa": "Volvo 340 / 343",
+   "adres": "/marki/volvo/340-343/"
   }
  ]
 }

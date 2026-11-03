@@ -14,9 +14,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Windstar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WINDSTAR, WINDSTAR 3.8 KAT, WINDSTAR 3.0 KAT, WINDSTAR 3.8, WINDSTAR 3.0).",
-  "liczbaWPolsce": 1470,
-  "aktywne": 90,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Windstar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WINDSTAR, WINDSTAR 3.8 KAT, WINDSTAR 3.0 KAT, WINDSTAR 3.8, WINDSTAR 3.0).",
+  "liczbaWPolsce": 1475,
+  "aktywne": 95,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -24,7 +24,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 68
+    "liczba": 69
    },
    {
     "teryt": "06",
@@ -32,11 +32,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "10",
-    "liczba": 106
+    "liczba": 108
    },
    {
     "teryt": "12",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 273
+    "liczba": 274
    },
    {
     "teryt": "16",
@@ -107,19 +107,19 @@
    },
    {
     "rok": 1999,
-    "liczba": 85
+    "liczba": 86
    },
    {
     "rok": 2000,
-    "liczba": 109
+    "liczba": 111
    },
    {
     "rok": 2001,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 2002,
-    "liczba": 47
+    "liczba": 48
    },
    {
     "rok": 2003,
@@ -133,7 +133,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 454
+    "liczba": 459
    },
    {
     "nazwa": "?+LPG",
@@ -147,11 +147,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,8 l",
-    "liczba": 857
+    "liczba": 858
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 586
+    "liczba": 590
    },
    {
     "nazwa": "Inne / brak danych",
@@ -161,11 +161,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1001
+    "liczba": 1002
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 391
+    "liczba": 395
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -183,7 +183,7 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 836
+    "liczba": 839
    },
    {
     "nazwa": "Kombi",
@@ -199,7 +199,7 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 57
+    "liczba": 59
    },
    {
     "nazwa": "Furgon",
@@ -210,10 +210,18 @@
     "liczba": 270
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 3
+   },
+   {
+    "rok": 2021,
+    "liczba": 2
+   },
    {
     "rok": 2022,
     "liczba": 2
@@ -232,6 +240,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -469,7 +529,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 683,
+  "miejsce": 698,
   "miejsceWMarce": 29,
   "modeliWMarce": 46,
   "sredniRocznik": 1996.8

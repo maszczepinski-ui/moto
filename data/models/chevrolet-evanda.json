@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Evanda – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVANDA).",
-  "liczbaWPolsce": 409,
-  "aktywne": 143,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Evanda – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 38 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVANDA).",
+  "liczbaWPolsce": 420,
+  "aktywne": 154,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "teryt": "08",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "12",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "14",
-    "liczba": 97
+    "liczba": 100
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "teryt": "32",
@@ -85,19 +85,19 @@
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 6
+    "liczba": 8
    },
    {
     "rok": 2004,
-    "liczba": 175
+    "liczba": 176
    },
    {
     "rok": 2005,
-    "liczba": 178
+    "liczba": 183
    },
    {
     "rok": 2006,
-    "liczba": 38
+    "liczba": 41
    },
    {
     "rok": 2007,
@@ -111,11 +111,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 282
+    "liczba": 288
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 121
+    "liczba": 126
    },
    {
     "nazwa": "Inne / brak danych",
@@ -125,17 +125,17 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 409
+    "liczba": 420
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 225
+    "liczba": 228
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 133
+    "liczba": 141
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -145,11 +145,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 371
+    "liczba": 381
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -160,13 +160,21 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 27,
+  "noweOdPaczki": 38,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 7
+   },
+   {
     "rok": 2021,
-    "liczba": 4
+    "liczba": 7
    },
    {
     "rok": 2022,
@@ -190,6 +198,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -427,9 +487,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1025,
+  "miejsce": 1030,
   "miejsceWMarce": 18,
-  "modeliWMarce": 23,
+  "modeliWMarce": 24,
   "sredniRocznik": 2004.6
  },
  "youtubeId": "",
@@ -453,6 +513,11 @@
    "adres": "/marki/honda/accord/"
   },
   {
+   "slug": "bmw-seria-3",
+   "nazwa": "BMW Seria 3",
+   "adres": "/marki/bmw/seria-3/"
+  },
+  {
    "slug": "mitsubishi-lancer",
    "nazwa": "Mitsubishi Lancer",
    "adres": "/marki/mitsubishi/lancer/"
@@ -461,11 +526,6 @@
    "slug": "saab-9-3",
    "nazwa": "Saab 9-3",
    "adres": "/marki/saab/9-3/"
-  },
-  {
-   "slug": "bmw-seria-3",
-   "nazwa": "BMW Seria 3",
-   "adres": "/marki/bmw/seria-3/"
   }
  ]
 }

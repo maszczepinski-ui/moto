@@ -14,37 +14,37 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Buick Regal – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 96 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REGAL).",
-  "liczbaWPolsce": 202,
-  "aktywne": 137,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Buick Regal – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 136 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REGAL).",
+  "liczbaWPolsce": 242,
+  "aktywne": 177,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 9
-   },
-   {
-    "teryt": "04",
-    "liczba": 7
-   },
-   {
-    "teryt": "06",
-    "liczba": 5
-   },
-   {
-    "teryt": "08",
-    "liczba": 8
-   },
-   {
-    "teryt": "10",
     "liczba": 12
    },
    {
+    "teryt": "04",
+    "liczba": 9
+   },
+   {
+    "teryt": "06",
+    "liczba": 7
+   },
+   {
+    "teryt": "08",
+    "liczba": 11
+   },
+   {
+    "teryt": "10",
+    "liczba": 14
+   },
+   {
     "teryt": "12",
-    "liczba": 15
+    "liczba": 18
    },
    {
     "teryt": "14",
-    "liczba": 46
+    "liczba": 54
    },
    {
     "teryt": "16",
@@ -52,19 +52,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "20",
-    "liczba": 19
+    "liczba": 27
    },
    {
     "teryt": "22",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "24",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "26",
@@ -72,11 +72,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "teryt": "30",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "32",
@@ -139,7 +139,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1978,
@@ -179,11 +179,11 @@
    },
    {
     "rok": 1987,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1988,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1989,
@@ -275,7 +275,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2012,
@@ -287,27 +287,27 @@
    },
    {
     "rok": 2014,
-    "liczba": 8
+    "liczba": 11
    },
    {
     "rok": 2015,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2016,
-    "liczba": 14
+    "liczba": 18
    },
    {
     "rok": 2017,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 2018,
-    "liczba": 41
+    "liczba": 55
    },
    {
     "rok": 2019,
-    "liczba": 31
+    "liczba": 42
    },
    {
     "rok": 2020,
@@ -317,11 +317,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 166
+    "liczba": 205
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "nazwa": "?+LPG",
@@ -335,11 +335,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 118
+    "liczba": 154
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "nazwa": "3,1 l",
@@ -347,7 +347,7 @@
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "3,6 l",
@@ -355,17 +355,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 14
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 98
+    "liczba": 120
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 95
+    "liczba": 113
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -379,36 +379,44 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 106
+    "liczba": 119
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 37
+    "liczba": 56
    },
    {
     "nazwa": "Kombi",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "nazwa": "Coupe",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 22
+    "liczba": 23
    }
   ],
-  "noweOdPaczki": 96,
+  "noweOdPaczki": 136,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 19
+   },
+   {
     "rok": 2021,
-    "liczba": 15
+    "liczba": 35
    },
    {
     "rok": 2022,
@@ -432,6 +440,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 6
@@ -669,10 +729,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1260,
+  "miejsce": 1222,
   "miejsceWMarce": 3,
   "modeliWMarce": 3,
-  "sredniRocznik": 2007.2
+  "sredniRocznik": 2008.5
  },
  "youtubeId": "",
  "zrodla": [

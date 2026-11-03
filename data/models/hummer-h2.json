@@ -6,20 +6,20 @@
  "lataProdukcji": "2002–2009",
  "nadwozia": [
   "suv",
-  "kombi",
-  "van"
+  "van",
+  "kombi"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hummer H2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 164 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: H2).",
-  "liczbaWPolsce": 340,
-  "aktywne": 218,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hummer H2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 200 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: H2).",
+  "liczbaWPolsce": 376,
+  "aktywne": 254,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "04",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "08",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 15
+    "liczba": 18
    },
    {
     "teryt": "12",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "14",
-    "liczba": 49
+    "liczba": 60
    },
    {
     "teryt": "16",
@@ -51,19 +51,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "22",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "24",
-    "liczba": 49
+    "liczba": 54
    },
    {
     "teryt": "26",
@@ -75,42 +75,42 @@
    },
    {
     "teryt": "30",
-    "liczba": 33
+    "liczba": 37
    },
    {
     "teryt": "32",
-    "liczba": 12
+    "liczba": 14
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2002,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2003,
-    "liczba": 85
+    "liczba": 94
    },
    {
     "rok": 2004,
-    "liczba": 58
+    "liczba": 60
    },
    {
     "rok": 2005,
-    "liczba": 59
+    "liczba": 67
    },
    {
     "rok": 2006,
-    "liczba": 39
+    "liczba": 48
    },
    {
     "rok": 2007,
-    "liczba": 43
+    "liczba": 46
    },
    {
     "rok": 2008,
-    "liczba": 35
+    "liczba": 39
    },
    {
     "rok": 2009,
@@ -128,11 +128,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 210
+    "liczba": 233
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 126
+    "liczba": 139
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,11 +142,11 @@
   "pojemnosci": [
    {
     "nazwa": "6,0 l",
-    "liczba": 276
+    "liczba": 306
    },
    {
     "nazwa": "6,2 l",
-    "liczba": 52
+    "liczba": 57
    },
    {
     "nazwa": "5,9 l",
@@ -154,35 +154,35 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 173
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 192
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 167
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 184
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Terenowy",
-    "liczba": 98
-   },
-   {
-    "nazwa": "Kombi",
-    "liczba": 89
+    "liczba": 113
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 83
+    "liczba": 97
+   },
+   {
+    "nazwa": "Kombi",
+    "liczba": 92
    },
    {
     "nazwa": "Van",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "nazwa": "Furgon",
@@ -190,20 +190,24 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29
+    "liczba": 31
    }
   ],
-  "noweOdPaczki": 164,
+  "noweOdPaczki": 200,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 13
+   },
+   {
+    "rok": 2021,
+    "liczba": 36
    },
    {
     "rok": 2022,
@@ -227,6 +231,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 5
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -464,7 +520,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1094,
+  "miejsce": 1073,
   "miejsceWMarce": 2,
   "modeliWMarce": 2,
   "sredniRocznik": 2005.0
@@ -500,9 +556,9 @@
    "adres": "/marki/mercedes-benz/klasa-sl/"
   },
   {
-   "slug": "jeep-liberty",
-   "nazwa": "Jeep Liberty",
-   "adres": "/marki/jeep/liberty/"
+   "slug": "jaguar-xj",
+   "nazwa": "Jaguar XJ",
+   "adres": "/marki/jaguar/xj/"
   }
  ]
 }

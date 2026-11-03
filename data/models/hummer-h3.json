@@ -14,25 +14,25 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hummer H3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 173 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: H3).",
-  "liczbaWPolsce": 387,
-  "aktywne": 238,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hummer H3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 212 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: H3).",
+  "liczbaWPolsce": 426,
+  "aktywne": 277,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "04",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "06",
-    "liczba": 17
+    "liczba": 22
    },
    {
     "teryt": "08",
-    "liczba": 5
+    "liczba": 8
    },
    {
     "teryt": "10",
@@ -40,11 +40,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 43
+    "liczba": 47
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 65
    },
    {
     "teryt": "16",
@@ -52,62 +52,62 @@
    },
    {
     "teryt": "18",
-    "liczba": 25
+    "liczba": 28
    },
    {
     "teryt": "20",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "22",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "teryt": "24",
-    "liczba": 41
+    "liczba": 46
    },
    {
     "teryt": "26",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "teryt": "30",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "32",
-    "liczba": 17
+    "liczba": 20
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 31
+    "liczba": 34
    },
    {
     "rok": 2006,
-    "liczba": 169
+    "liczba": 183
    },
    {
     "rok": 2007,
-    "liczba": 110
+    "liczba": 120
    },
    {
     "rok": 2008,
-    "liczba": 49
+    "liczba": 58
    },
    {
     "rok": 2009,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2010,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2011,
@@ -117,11 +117,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 237
+    "liczba": 258
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 149
+    "liczba": 167
    },
    {
     "nazwa": "Inne / brak danych",
@@ -131,33 +131,33 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 190
+    "liczba": 206
    },
    {
     "nazwa": "3,7 l",
-    "liczba": 164
+    "liczba": 181
    },
    {
     "nazwa": "5,3 l",
-    "liczba": 19
+    "liczba": 23
    },
    {
     "nazwa": "3,4 l",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 7
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 211
+    "liczba": 229
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 173
+    "liczba": 194
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,15 +167,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 143
+    "liczba": 161
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 101
+    "liczba": 110
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 74
+    "liczba": 86
    },
    {
     "nazwa": "Van",
@@ -194,13 +194,17 @@
     "liczba": 19
    }
   ],
-  "noweOdPaczki": 173,
+  "noweOdPaczki": 212,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 10
+   },
+   {
     "rok": 2021,
-    "liczba": 8
+    "liczba": 37
    },
    {
     "rok": 2022,
@@ -224,6 +228,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 2
@@ -461,7 +517,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1039,
+  "miejsce": 1024,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 2006.7
@@ -487,14 +543,14 @@
    "adres": "/marki/nissan/murano/"
   },
   {
-   "slug": "jeep-cherokee",
-   "nazwa": "Jeep Cherokee",
-   "adres": "/marki/jeep/cherokee/"
-  },
-  {
    "slug": "jeep-grand-cherokee",
    "nazwa": "Jeep Grand Cherokee",
    "adres": "/marki/jeep/grand-cherokee/"
+  },
+  {
+   "slug": "jeep-cherokee",
+   "nazwa": "Jeep Cherokee",
+   "adres": "/marki/jeep/cherokee/"
   },
   {
    "slug": "audi-a8",

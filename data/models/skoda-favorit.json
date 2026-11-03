@@ -12,9 +12,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Favorit – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FAVORIT, FAVORIT 135L 1.3, FAVORIT 1.3, FAVORIT 135L, FAVORIT 136L 1.3).",
-  "liczbaWPolsce": 40087,
-  "aktywne": 267,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Favorit – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FAVORIT, FAVORIT 135L 1.3, FAVORIT 1.3, FAVORIT 135L, FAVORIT 136L 1.3).",
+  "liczbaWPolsce": 40088,
+  "aktywne": 268,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 5285
+    "liczba": 5286
    },
    {
     "teryt": "16",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 984
+    "liczba": 985
    },
    {
     "rok": 1990,
@@ -127,7 +127,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 17709
+    "liczba": 17710
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -145,7 +145,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 39686
+    "liczba": 39687
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,7 +163,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 688
+    "liczba": 689
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -177,7 +177,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 17459
+    "liczba": 17460
    },
    {
     "nazwa": "Sedan",
@@ -188,10 +188,14 @@
     "liczba": 18427
    }
   ],
-  "noweOdPaczki": 15,
+  "noweOdPaczki": 16,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2021,
     "liczba": 1
@@ -218,6 +222,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -455,8 +511,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 117,
-  "miejsceWMarce": 7,
+  "miejsce": 128,
+  "miejsceWMarce": 8,
   "modeliWMarce": 27,
   "sredniRocznik": 1991.3
  },

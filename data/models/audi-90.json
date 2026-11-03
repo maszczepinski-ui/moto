@@ -13,9 +13,9 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 35 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 90, 90 2.3, 90 2.3 KAT, 90 2.0 KAT, 90 2.0).",
-  "liczbaWPolsce": 2945,
-  "aktywne": 121,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 90, 90 2.3, 90 2.3 KAT, 90 2.0 KAT, 90 2.0).",
+  "liczbaWPolsce": 2950,
+  "aktywne": 126,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 276
+    "liczba": 277
    },
    {
     "teryt": "26",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 181
+    "liczba": 183
    },
    {
     "teryt": "30",
-    "liczba": 203
+    "liczba": 205
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 122
+    "liczba": 123
    },
    {
     "rok": 1986,
@@ -106,15 +106,15 @@
    },
    {
     "rok": 1989,
-    "liczba": 493
+    "liczba": 495
    },
    {
     "rok": 1990,
-    "liczba": 440
+    "liczba": 441
    },
    {
     "rok": 1991,
-    "liczba": 186
+    "liczba": 187
    },
    {
     "rok": 1992,
@@ -148,7 +148,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1009
+    "liczba": 1014
    },
    {
     "nazwa": "?+LPG",
@@ -166,15 +166,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 1542
+    "liczba": 1545
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 818
+    "liczba": 819
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 291
+    "liczba": 292
    },
    {
     "nazwa": "1,6 l",
@@ -200,7 +200,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 593
+    "liczba": 598
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -218,7 +218,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1714
+    "liczba": 1719
    },
    {
     "nazwa": "Coupe",
@@ -233,13 +233,17 @@
     "liczba": 934
    }
   ],
-  "noweOdPaczki": 35,
+  "noweOdPaczki": 40,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2020,
+    "liczba": 1
+   },
+   {
     "rok": 2021,
-    "liczba": 7
+    "liczba": 11
    },
    {
     "rok": 2022,
@@ -263,6 +267,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -500,9 +556,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 513,
+  "miejsce": 530,
   "miejsceWMarce": 19,
-  "modeliWMarce": 52,
+  "modeliWMarce": 54,
   "sredniRocznik": 1990.4
  },
  "youtubeId": "",

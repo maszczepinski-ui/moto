@@ -11,126 +11,126 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Arosa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 417 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AROSA, AROSA 1.0 KAT, AROSA 1.7 SDI, AROSA 1.0, AROSA 1,0 KAT).",
-  "liczbaWPolsce": 5878,
-  "aktywne": 2256,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Arosa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 594 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AROSA, AROSA 1.0 KAT, AROSA 1.7 SDI, AROSA 1.0, AROSA 1,0 KAT).",
+  "liczbaWPolsce": 6055,
+  "aktywne": 2433,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 460
+    "liczba": 476
    },
    {
     "teryt": "04",
-    "liczba": 368
+    "liczba": 376
    },
    {
     "teryt": "06",
-    "liczba": 231
+    "liczba": 240
    },
    {
     "teryt": "08",
-    "liczba": 195
+    "liczba": 203
    },
    {
     "teryt": "10",
-    "liczba": 410
+    "liczba": 421
    },
    {
     "teryt": "12",
-    "liczba": 460
+    "liczba": 470
    },
    {
     "teryt": "14",
-    "liczba": 497
+    "liczba": 510
    },
    {
     "teryt": "16",
-    "liczba": 207
+    "liczba": 212
    },
    {
     "teryt": "18",
-    "liczba": 250
+    "liczba": 258
    },
    {
     "teryt": "20",
-    "liczba": 101
+    "liczba": 106
    },
    {
     "teryt": "22",
-    "liczba": 479
+    "liczba": 498
    },
    {
     "teryt": "24",
-    "liczba": 852
+    "liczba": 867
    },
    {
     "teryt": "26",
-    "liczba": 107
+    "liczba": 112
    },
    {
     "teryt": "28",
-    "liczba": 210
+    "liczba": 218
    },
    {
     "teryt": "30",
-    "liczba": 726
+    "liczba": 754
    },
    {
     "teryt": "32",
-    "liczba": 286
+    "liczba": 295
    }
   ],
   "bezWojewodztwa": 39,
   "roczniki": [
    {
     "rok": 1997,
-    "liczba": 631
+    "liczba": 634
    },
    {
     "rok": 1998,
-    "liczba": 991
+    "liczba": 1001
    },
    {
     "rok": 1999,
-    "liczba": 1134
+    "liczba": 1149
    },
    {
     "rok": 2000,
-    "liczba": 756
+    "liczba": 779
    },
    {
     "rok": 2001,
-    "liczba": 711
+    "liczba": 751
    },
    {
     "rok": 2002,
-    "liczba": 600
+    "liczba": 637
    },
    {
     "rok": 2003,
-    "liczba": 476
+    "liczba": 495
    },
    {
     "rok": 2004,
-    "liczba": 407
+    "liczba": 435
    },
    {
     "rok": 2005,
-    "liczba": 18
+    "liczba": 20
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3970
+    "liczba": 4134
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1615
+    "liczba": 1624
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 255
+    "liczba": 259
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,29 +140,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3430
+    "liczba": 3553
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 1399
+    "liczba": 1405
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1033
+    "liczba": 1080
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 16
+    "liczba": 17
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3355
+    "liczba": 3458
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2399
+    "liczba": 2473
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -176,7 +176,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 5577
+    "liczba": 5753
    },
    {
     "nazwa": "Sedan",
@@ -184,16 +184,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 187
+    "liczba": 188
    }
   ],
-  "noweOdPaczki": 417,
+  "noweOdPaczki": 594,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 79
+   },
+   {
     "rok": 2021,
-    "liczba": 53
+    "liczba": 148
    },
    {
     "rok": 2022,
@@ -217,6 +225,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 9
+   },
    {
     "miesiac": "2021-12",
     "liczba": 8
@@ -454,10 +514,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 400,
-  "miejsceWMarce": 9,
+  "miejsce": 407,
+  "miejsceWMarce": 10,
   "modeliWMarce": 19,
-  "sredniRocznik": 2000.0
+  "sredniRocznik": 2000.1
  },
  "youtubeId": "",
  "zrodla": [
@@ -485,14 +545,14 @@
    "adres": "/marki/lancia/y/"
   },
   {
-   "slug": "volkswagen-polo",
-   "nazwa": "Volkswagen Polo",
-   "adres": "/marki/volkswagen/polo/"
-  },
-  {
    "slug": "opel-corsa-c",
    "nazwa": "Opel Corsa C",
    "adres": "/marki/opel/corsa/c/"
+  },
+  {
+   "slug": "volkswagen-polo",
+   "nazwa": "Volkswagen Polo",
+   "adres": "/marki/volkswagen/polo/"
   }
  ]
 }

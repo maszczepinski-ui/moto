@@ -12,124 +12,124 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Juke – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 589 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JUKE, NISSAN JUKE, JUKE 1.6, JUKE 1.5 DCI, JUKE 1.5D).",
-  "liczbaWPolsce": 37426,
-  "aktywne": 29419,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Juke – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 531 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JUKE, NISSAN JUKE, JUKE 1.6, JUKE 1.5 DCI, JUKE 1.5D).",
+  "liczbaWPolsce": 42368,
+  "aktywne": 34361,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2520
+    "liczba": 2896
    },
    {
     "teryt": "04",
-    "liczba": 1773
+    "liczba": 2013
    },
    {
     "teryt": "06",
-    "liczba": 1557
+    "liczba": 1748
    },
    {
     "teryt": "08",
-    "liczba": 892
+    "liczba": 1016
    },
    {
     "teryt": "10",
-    "liczba": 2211
+    "liczba": 2512
    },
    {
     "teryt": "12",
-    "liczba": 3073
+    "liczba": 3556
    },
    {
     "teryt": "14",
-    "liczba": 7352
+    "liczba": 8077
    },
    {
     "teryt": "16",
-    "liczba": 605
+    "liczba": 721
    },
    {
     "teryt": "18",
-    "liczba": 2309
+    "liczba": 2605
    },
    {
     "teryt": "20",
-    "liczba": 876
+    "liczba": 1003
    },
    {
     "teryt": "22",
-    "liczba": 1807
+    "liczba": 2056
    },
    {
     "teryt": "24",
-    "liczba": 4417
+    "liczba": 5069
    },
    {
     "teryt": "26",
-    "liczba": 987
+    "liczba": 1137
    },
    {
     "teryt": "28",
-    "liczba": 1157
+    "liczba": 1339
    },
    {
     "teryt": "30",
-    "liczba": 4478
+    "liczba": 5001
    },
    {
     "teryt": "32",
-    "liczba": 1280
+    "liczba": 1487
    }
   ],
   "bezWojewodztwa": 132,
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 1790
+    "liczba": 2096
    },
    {
     "rok": 2011,
-    "liczba": 5547
+    "liczba": 6184
    },
    {
     "rok": 2012,
-    "liczba": 4741
+    "liczba": 5193
    },
    {
     "rok": 2013,
-    "liczba": 3981
+    "liczba": 4449
    },
    {
     "rok": 2014,
-    "liczba": 3336
+    "liczba": 3644
    },
    {
     "rok": 2015,
-    "liczba": 2716
+    "liczba": 2951
    },
    {
     "rok": 2016,
-    "liczba": 2580
+    "liczba": 2757
    },
    {
     "rok": 2017,
-    "liczba": 2151
+    "liczba": 2264
    },
    {
     "rok": 2018,
-    "liczba": 1928
+    "liczba": 1993
    },
    {
     "rok": 2019,
-    "liczba": 762
+    "liczba": 880
    },
    {
     "rok": 2020,
-    "liczba": 422
+    "liczba": 2110
    },
    {
     "rok": 2021,
-    "liczba": 850
+    "liczba": 1225
    },
    {
     "rok": 2022,
@@ -155,90 +155,98 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 28506
+    "liczba": 32341
    },
    {
     "nazwa": "Diesel",
-    "liczba": 6783
+    "liczba": 7656
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 1278
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
     "liczba": 1058
    },
    {
-    "nazwa": "Benzyna + LPG",
-    "liczba": 1046
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 33
+    "liczba": 35
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 18914
-   },
-   {
-    "nazwa": "1,5 l",
-    "liczba": 6808
-   },
-   {
-    "nazwa": "1,2 l",
-    "liczba": 5861
+    "liczba": 20513
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 5795
+    "liczba": 7936
+   },
+   {
+    "nazwa": "1,5 l",
+    "liczba": 7681
+   },
+   {
+    "nazwa": "1,2 l",
+    "liczba": 6189
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 48
+    "liczba": 49
    }
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 14283
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 15309
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 13649
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 15241
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 9299
+    "liczba": 11621
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 195
+    "liczba": 197
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 30066
+    "liczba": 33728
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 6343
+    "liczba": 7473
    },
    {
     "nazwa": "Kombi",
-    "liczba": 518
+    "liczba": 594
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 499
+    "liczba": 573
    }
   ],
-  "noweOdPaczki": 20589,
+  "noweOdPaczki": 25531,
   "hybrydy": 1058,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 80
+   },
+   {
+    "rok": 2020,
+    "liczba": 2450
+   },
+   {
     "rok": 2021,
-    "liczba": 1636
+    "liczba": 4048
    },
    {
     "rok": 2022,
@@ -262,6 +270,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 366
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 470
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 277
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 339
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 455
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 352
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 376
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 363
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 335
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 335
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 346
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 312
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 298
+   },
    {
     "miesiac": "2021-12",
     "liczba": 260
@@ -499,10 +559,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 124,
+  "miejsce": 119,
   "miejsceWMarce": 3,
   "modeliWMarce": 47,
-  "sredniRocznik": 2015.5
+  "sredniRocznik": 2015.6
  },
  "youtubeId": "",
  "zrodla": [

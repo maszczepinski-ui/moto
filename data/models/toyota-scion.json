@@ -14,13 +14,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Scion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 68 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCION, SCION FR-S).",
-  "liczbaWPolsce": 237,
-  "aktywne": 122,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Scion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 85 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCION, SCION FR-S, SCION XB).",
+  "liczbaWPolsce": 254,
+  "aktywne": 139,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "04",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "teryt": "08",
@@ -40,15 +40,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 28
+    "liczba": 31
    },
    {
     "teryt": "14",
-    "liczba": 35
+    "liczba": 39
    },
    {
     "teryt": "16",
-    "liczba": 1
+    "liczba": 3
    },
    {
     "teryt": "18",
@@ -56,7 +56,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "22",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 11
+    "liczba": 14
    },
    {
     "teryt": "32",
@@ -87,7 +87,7 @@
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 2005,
@@ -111,41 +111,45 @@
    },
    {
     "rok": 2010,
-    "liczba": 2
-   },
-   {
-    "rok": 2011,
     "liczba": 3
    },
    {
+    "rok": 2011,
+    "liczba": 4
+   },
+   {
     "rok": 2012,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2013,
-    "liczba": 25
+    "liczba": 28
    },
    {
     "rok": 2014,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 2015,
-    "liczba": 17
+    "liczba": 20
    },
    {
     "rok": 2016,
-    "liczba": 16
+    "liczba": 20
+   },
+   {
+    "rok": 2017,
+    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 169
+    "liczba": 181
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 65
+    "liczba": 70
    },
    {
     "nazwa": "Inne / brak danych",
@@ -155,23 +159,23 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 90
+    "liczba": 93
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 60
+    "liczba": 62
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 55
+    "liczba": 62
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 22
+    "liczba": 26
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
@@ -181,11 +185,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 129
+    "liczba": 137
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 107
+    "liczba": 116
    },
    {
     "nazwa": "Inne / brak danych",
@@ -195,11 +199,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 115
+    "liczba": 122
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 87
+    "liczba": 93
    },
    {
     "nazwa": "Sedan",
@@ -214,17 +218,29 @@
     "liczba": 4
    },
    {
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 4
+   },
+   {
     "nazwa": "Inne / brak danych",
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 68,
+  "noweOdPaczki": 85,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 9
+   },
+   {
     "rok": 2021,
-    "liczba": 5
+    "liczba": 12
    },
    {
     "rok": 2022,
@@ -248,6 +264,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 1
@@ -485,10 +553,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1209,
-  "miejsceWMarce": 38,
+  "miejsce": 1198,
+  "miejsceWMarce": 39,
   "modeliWMarce": 43,
-  "sredniRocznik": 2008.7
+  "sredniRocznik": 2009.1
  },
  "youtubeId": "",
  "zrodla": [

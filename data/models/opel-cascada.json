@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Cascada – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 348 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CASCADA).",
-  "liczbaWPolsce": 348,
-  "aktywne": 348,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Cascada – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 375 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CASCADA).",
+  "liczbaWPolsce": 375,
+  "aktywne": 375,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 36
+    "liczba": 38
    },
    {
     "teryt": "04",
@@ -33,19 +33,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 32
+    "liczba": 36
    },
    {
     "teryt": "12",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "14",
-    "liczba": 46
+    "liczba": 51
    },
    {
     "teryt": "16",
-    "liczba": 3
+    "liczba": 5
    },
    {
     "teryt": "18",
@@ -57,15 +57,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "24",
-    "liczba": 69
+    "liczba": 72
    },
    {
     "teryt": "26",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "28",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 50
+    "liczba": 57
    },
    {
     "teryt": "32",
@@ -84,27 +84,27 @@
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 124
+    "liczba": 135
    },
    {
     "rok": 2014,
-    "liczba": 86
+    "liczba": 92
    },
    {
     "rok": 2015,
-    "liczba": 54
+    "liczba": 58
    },
    {
     "rok": 2016,
-    "liczba": 40
+    "liczba": 43
    },
    {
     "rok": 2017,
-    "liczba": 27
+    "liczba": 29
    },
    {
     "rok": 2018,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2019,
@@ -114,11 +114,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 219
+    "liczba": 228
    },
    {
     "nazwa": "Diesel",
-    "liczba": 118
+    "liczba": 136
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -128,15 +128,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 139
+    "liczba": 141
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 117
+    "liczba": 135
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 91
+    "liczba": 98
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,30 +146,34 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 213
+    "liczba": 222
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 135
+    "liczba": 153
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 344
+    "liczba": 370
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
-  "noweOdPaczki": 348,
+  "noweOdPaczki": 375,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 12
+   },
+   {
+    "rok": 2021,
+    "liczba": 27
    },
    {
     "rok": 2022,
@@ -193,6 +197,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 2
+   },
    {
     "miesiac": "2021-12",
     "liczba": 4
@@ -430,8 +486,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1084,
-  "miejsceWMarce": 33,
+  "miejsce": 1075,
+  "miejsceWMarce": 32,
   "modeliWMarce": 33,
   "sredniRocznik": 2014.5
  },
@@ -451,14 +507,14 @@
    "adres": "/marki/mitsubishi/asx/"
   },
   {
-   "slug": "kia-ceed",
-   "nazwa": "Kia Ceed",
-   "adres": "/marki/kia/ceed/"
-  },
-  {
    "slug": "nissan-qashqai",
    "nazwa": "Nissan Qashqai",
    "adres": "/marki/nissan/qashqai/"
+  },
+  {
+   "slug": "kia-ceed",
+   "nazwa": "Kia Ceed",
+   "adres": "/marki/kia/ceed/"
   },
   {
    "slug": "toyota-corolla",
@@ -466,9 +522,9 @@
    "adres": "/marki/toyota/corolla/"
   },
   {
-   "slug": "hyundai-i30",
-   "nazwa": "Hyundai i30",
-   "adres": "/marki/hyundai/i30/"
+   "slug": "skoda-octavia",
+   "nazwa": "Skoda Octavia",
+   "adres": "/marki/skoda/octavia/"
   }
  ]
 }

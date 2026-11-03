@@ -8,80 +8,80 @@
   "kombi",
   "van",
   "sedan",
-  "hatchback",
-  "suv"
+  "suv",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 864 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X REIHE, X).",
-  "liczbaWPolsce": 1057,
-  "aktywne": 1019,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 033 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X REIHE, X).",
+  "liczbaWPolsce": 1226,
+  "aktywne": 1188,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 113
+    "liczba": 126
    },
    {
     "teryt": "04",
-    "liczba": 69
+    "liczba": 75
    },
    {
     "teryt": "06",
-    "liczba": 39
+    "liczba": 46
    },
    {
     "teryt": "08",
-    "liczba": 43
+    "liczba": 46
    },
    {
     "teryt": "10",
-    "liczba": 81
+    "liczba": 93
    },
    {
     "teryt": "12",
-    "liczba": 82
+    "liczba": 102
    },
    {
     "teryt": "14",
-    "liczba": 156
+    "liczba": 174
    },
    {
     "teryt": "16",
-    "liczba": 69
+    "liczba": 85
    },
    {
     "teryt": "18",
-    "liczba": 52
+    "liczba": 59
    },
    {
     "teryt": "20",
-    "liczba": 26
+    "liczba": 29
    },
    {
     "teryt": "22",
-    "liczba": 49
+    "liczba": 59
    },
    {
     "teryt": "24",
-    "liczba": 81
+    "liczba": 91
    },
    {
     "teryt": "26",
-    "liczba": 39
+    "liczba": 45
    },
    {
     "teryt": "28",
-    "liczba": 37
+    "liczba": 47
    },
    {
     "teryt": "30",
-    "liczba": 65
+    "liczba": 82
    },
    {
     "teryt": "32",
-    "liczba": 50
+    "liczba": 61
    }
   ],
   "bezWojewodztwa": 6,
@@ -92,55 +92,55 @@
    },
    {
     "rok": 2002,
-    "liczba": 4
+    "liczba": 8
    },
    {
     "rok": 2003,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2004,
-    "liczba": 24
+    "liczba": 28
    },
    {
     "rok": 2005,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2006,
-    "liczba": 87
+    "liczba": 100
    },
    {
     "rok": 2007,
-    "liczba": 147
+    "liczba": 181
    },
    {
     "rok": 2008,
-    "liczba": 124
+    "liczba": 146
    },
    {
     "rok": 2009,
-    "liczba": 96
+    "liczba": 111
    },
    {
     "rok": 2010,
-    "liczba": 166
+    "liczba": 195
    },
    {
     "rok": 2011,
-    "liczba": 274
+    "liczba": 311
    },
    {
     "rok": 2012,
-    "liczba": 68
+    "liczba": 73
    },
    {
     "rok": 2013,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2014,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2015,
@@ -156,25 +156,25 @@
    },
    {
     "rok": 2018,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2019,
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 925
+    "liczba": 1073
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 98
+    "liczba": 109
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 32
+    "liczba": 42
    },
    {
     "nazwa": "Inne / brak danych",
@@ -184,29 +184,29 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 724
+    "liczba": 836
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 299
+    "liczba": 346
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 28
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 780
+    "liczba": 884
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 271
+    "liczba": 336
    },
    {
     "nazwa": "Inne / brak danych",
@@ -216,40 +216,48 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 733
+    "liczba": 849
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 96
+    "liczba": 104
    },
    {
     "nazwa": "Sedan",
-    "liczba": 78
-   },
-   {
-    "nazwa": "Hatchback",
-    "liczba": 59
+    "liczba": 94
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 57
+    "liczba": 72
+   },
+   {
+    "nazwa": "Hatchback",
+    "liczba": 66
    },
    {
     "nazwa": "Van",
-    "liczba": 25
+    "liczba": 31
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 864,
+  "noweOdPaczki": 1033,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 76
+   },
+   {
     "rok": 2021,
-    "liczba": 91
+    "liczba": 183
    },
    {
     "rok": 2022,
@@ -273,6 +281,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 22
+   },
    {
     "miesiac": "2021-12",
     "liczba": 18
@@ -510,9 +570,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 766,
+  "miejsce": 738,
   "miejsceWMarce": 26,
-  "modeliWMarce": 42,
+  "modeliWMarce": 43,
   "sredniRocznik": 2009.1
  },
  "youtubeId": "",

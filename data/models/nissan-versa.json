@@ -12,13 +12,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Versa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 64 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VERSA, VERSA 1.8 KAT, VERSA NOTE, VERSA NOTE S).",
-  "liczbaWPolsce": 518,
-  "aktywne": 171,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Versa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 79 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VERSA, VERSA 1.8 KAT, VERSA NOTE S, VERSA NOTE).",
+  "liczbaWPolsce": 533,
+  "aktywne": 186,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 38
+    "liczba": 40
    },
    {
     "teryt": "08",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 107
+    "liczba": 110
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 64
    },
    {
     "teryt": "16",
@@ -50,11 +50,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 107
+    "liczba": 109
    },
    {
     "teryt": "20",
-    "liczba": 64
+    "liczba": 68
    },
    {
     "teryt": "22",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 8
+    "liczba": 9
    }
   ],
   "bezWojewodztwa": 1,
@@ -105,35 +105,35 @@
    },
    {
     "rok": 2011,
-    "liczba": 17
+    "liczba": 19
    },
    {
     "rok": 2012,
-    "liczba": 24
+    "liczba": 26
    },
    {
     "rok": 2013,
-    "liczba": 6
+    "liczba": 8
    },
    {
     "rok": 2014,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2015,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2016,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2017,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2018,
-    "liczba": 8
+    "liczba": 11
    },
    {
     "rok": 2019,
@@ -151,11 +151,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 415
+    "liczba": 429
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 102
+    "liczba": 103
    },
    {
     "nazwa": "Inne / brak danych",
@@ -165,11 +165,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 433
+    "liczba": 436
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 80
+    "liczba": 92
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,11 +179,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 390
+    "liczba": 404
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 123
+    "liczba": 124
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -197,28 +197,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 388
+    "liczba": 395
    },
    {
     "nazwa": "Sedan",
-    "liczba": 114
+    "liczba": 119
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 64,
+  "noweOdPaczki": 79,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 9
+   },
+   {
+    "rok": 2021,
+    "liczba": 15
    },
    {
     "rok": 2022,
@@ -242,6 +246,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 1
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -479,10 +535,10 @@
     "liczba": 0
    }
   ],
-  "miejsce": 942,
+  "miejsce": 948,
   "miejsceWMarce": 37,
   "modeliWMarce": 47,
-  "sredniRocznik": 2008.9
+  "sredniRocznik": 2009.1
  },
  "youtubeId": "",
  "zrodla": [

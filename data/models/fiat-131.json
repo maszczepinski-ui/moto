@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 131 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 32 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 131, 131 S, 131 SUPER MIRAFIORI, 131 A, 131 SPECIAL 1600).",
-  "liczbaWPolsce": 5094,
-  "aktywne": 49,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 131 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 36 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 131, 131 S, 131 SUPER MIRAFIORI, 131 A, 131 SPECIAL 1600).",
+  "liczbaWPolsce": 5098,
+  "aktywne": 53,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 389
+    "liczba": 390
    },
    {
     "teryt": "04",
@@ -33,11 +33,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 302
+    "liczba": 303
    },
    {
     "teryt": "12",
-    "liczba": 521
+    "liczba": 522
    },
    {
     "teryt": "14",
@@ -65,7 +65,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 169
+    "liczba": 170
    },
    {
     "teryt": "28",
@@ -88,11 +88,11 @@
    },
    {
     "rok": 1976,
-    "liczba": 755
+    "liczba": 756
    },
    {
     "rok": 1977,
-    "liczba": 655
+    "liczba": 656
    },
    {
     "rok": 1978,
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 475
+    "liczba": 477
    },
    {
     "rok": 1983,
@@ -158,7 +158,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 597
+    "liczba": 601
    },
    {
     "nazwa": "Diesel",
@@ -176,7 +176,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2435
+    "liczba": 2438
    },
    {
     "nazwa": "1,3 l",
@@ -200,13 +200,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 254
+    "liczba": 255
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3514
+    "liczba": 3515
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -214,7 +214,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 125
+    "liczba": 128
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -228,20 +228,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 566
+    "liczba": 570
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4528
    }
   ],
-  "noweOdPaczki": 32,
+  "noweOdPaczki": 36,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2021,
+    "rok": 2020,
     "liczba": 2
+   },
+   {
+    "rok": 2021,
+    "liczba": 4
    },
    {
     "rok": 2022,
@@ -265,6 +269,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 0
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -502,9 +558,9 @@
     "liczba": 0
    }
   ],
-  "miejsce": 427,
-  "miejsceWMarce": 24,
-  "modeliWMarce": 60,
+  "miejsce": 433,
+  "miejsceWMarce": 25,
+  "modeliWMarce": 61,
   "sredniRocznik": 1979.4
  },
  "youtubeId": "",

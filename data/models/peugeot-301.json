@@ -11,13 +11,13 @@
  "daneTestowe": false,
  "cepik": {
   "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 301 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 301).",
-  "liczbaWPolsce": 3611,
-  "aktywne": 1507,
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 301 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 50 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 301).",
+  "liczbaWPolsce": 3619,
+  "aktywne": 1515,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 294
+    "liczba": 295
    },
    {
     "teryt": "04",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 76
+    "liczba": 77
    },
    {
     "teryt": "08",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 196
+    "liczba": 197
    },
    {
     "teryt": "12",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 535
+    "liczba": 537
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 296
+    "liczba": 299
    },
    {
     "teryt": "32",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2013,
-    "liczba": 1161
+    "liczba": 1163
    },
    {
     "rok": 2014,
@@ -96,29 +96,29 @@
    },
    {
     "rok": 2015,
-    "liczba": 652
+    "liczba": 653
    },
    {
     "rok": 2016,
-    "liczba": 361
+    "liczba": 362
    },
    {
     "rok": 2017,
-    "liczba": 295
+    "liczba": 296
    },
    {
     "rok": 2018,
-    "liczba": 297
+    "liczba": 298
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2250
+    "liczba": 2253
    },
    {
     "nazwa": "Diesel",
-    "liczba": 840
+    "liczba": 845
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -132,52 +132,52 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2370
+    "liczba": 2374
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 1207
+    "liczba": 1209
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 34
+    "liczba": 36
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2360
+    "liczba": 2361
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1182
+    "liczba": 1184
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 47
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 22
+    "liczba": 23
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3563
+    "liczba": 3570
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 48
+    "liczba": 49
    }
   ],
-  "noweOdPaczki": 42,
+  "noweOdPaczki": 50,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
-    "liczba": 8
+    "liczba": 16
    },
    {
     "rok": 2022,
@@ -201,6 +201,58 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2020-11",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2021-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2021-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2021-10",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2021-11",
+    "liczba": 3
+   },
    {
     "miesiac": "2021-12",
     "liczba": 0
@@ -438,8 +490,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 487,
-  "miejsceWMarce": 24,
+  "miejsce": 495,
+  "miejsceWMarce": 25,
   "modeliWMarce": 45,
   "sredniRocznik": 2014.6
  },
@@ -459,6 +511,11 @@
    "adres": "/marki/citroen/c-elysee/"
   },
   {
+   "slug": "toyota-corolla",
+   "nazwa": "Toyota Corolla",
+   "adres": "/marki/toyota/corolla/"
+  },
+  {
    "slug": "hyundai-i30",
    "nazwa": "Hyundai i30",
    "adres": "/marki/hyundai/i30/"
@@ -467,11 +524,6 @@
    "slug": "skoda-rapid",
    "nazwa": "Skoda Rapid",
    "adres": "/marki/skoda/rapid/"
-  },
-  {
-   "slug": "toyota-corolla",
-   "nazwa": "Toyota Corolla",
-   "adres": "/marki/toyota/corolla/"
   },
   {
    "slug": "kia-ceed",
