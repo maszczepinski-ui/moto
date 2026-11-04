@@ -18,12 +18,16 @@ export const metadata: Metadata = {
 };
 
 const KOLORY: Record<KategoriaPoradnika, { akcent: string; tlo: string }> = {
+  ubezpieczenie: { akcent: 'text-indigo-600 dark:text-indigo-400', tlo: 'bg-indigo-50 dark:bg-indigo-950/40 text-indigo-700 dark:text-indigo-300' },
+  eksploatacja: { akcent: 'text-teal-700 dark:text-teal-400', tlo: 'bg-teal-50 dark:bg-teal-950/40 text-teal-700 dark:text-teal-300' },
   kupno: { akcent: 'text-sky-600 dark:text-sky-400', tlo: 'bg-sky-50 dark:bg-sky-950/40 text-sky-700 dark:text-sky-300' },
   kolizja: { akcent: 'text-rust-600 dark:text-rust-400', tlo: 'bg-rust-50 dark:bg-rust-900/40 text-rust-700 dark:text-rust-300' },
   sprawdzenie: { akcent: 'text-amber-700 dark:text-amber-400', tlo: 'bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300' },
   codzienne: { akcent: 'text-violet-700 dark:text-violet-400', tlo: 'bg-violet-50 dark:bg-violet-950/40 text-violet-700 dark:text-violet-300' },
   bezpieczenstwo: { akcent: 'text-emerald-700 dark:text-emerald-400', tlo: 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300' }
 };
+
+const KAT = (Object.keys(KATEGORIE) as KategoriaPoradnika[]).filter((k) => poradnikiKategorii(k).length > 0);
 
 export default function PoradnikiPage() {
   return (
@@ -68,7 +72,7 @@ export default function PoradnikiPage() {
       </section>
 
       <nav aria-label="Działy poradników" className="flex flex-wrap gap-2 -mt-4">
-        {(Object.keys(KATEGORIE) as KategoriaPoradnika[]).map((k) => (
+        {KAT.map((k) => (
           <a key={k} href={`#${k}`} className="inline-flex items-center gap-2 rounded-full bg-white dark:bg-slate-900 ring-1 ring-slate-200 dark:ring-slate-800 hover:ring-slate-400 px-4 py-2 text-sm font-bold text-slate-800 dark:text-slate-200">
             {KATEGORIE[k].nazwa}
             <span className="rounded-full bg-slate-100 dark:bg-slate-800 px-2 text-xs text-slate-500">{poradnikiKategorii(k).length}</span>
@@ -76,7 +80,7 @@ export default function PoradnikiPage() {
         ))}
       </nav>
 
-      {(Object.keys(KATEGORIE) as KategoriaPoradnika[]).map((k) => (
+      {KAT.map((k) => (
         <section key={k} id={k} className="space-y-4 scroll-mt-24">
           <div>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">{KATEGORIE[k].nazwa}</h2>

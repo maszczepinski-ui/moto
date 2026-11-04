@@ -2,18 +2,23 @@
 // Każdy poradnik ma źródła i datę „stan na”. Przy zmianie przepisów popraw treść i datę STAN_PORADNIKOW.
 // To nie jest porada prawna – w nietypowej sytuacji kierowca powinien zapytać urząd, ubezpieczyciela lub prawnika.
 
+import { NOWE, NOWE_DODATKI } from '@/lib/poradniki-nowe';
+import HARMONOGRAM from '@/data/harmonogram-poradnikow.json';
+
 export const STAN_PORADNIKOW = 'listopad 2026';
 
-export type KategoriaPoradnika = 'kupno' | 'sprawdzenie' | 'kolizja' | 'bezpieczenstwo' | 'codzienne';
+export type KategoriaPoradnika = 'kupno' | 'sprawdzenie' | 'ubezpieczenie' | 'kolizja' | 'bezpieczenstwo' | 'codzienne' | 'eksploatacja';
 export type Generator = 'umowa' | 'oswiadczenie' | 'wypowiedzenie' | 'darowizna' | 'dziura';
-export type IkonaPoradnika = 'umowa' | 'kluczyk' | 'sprzedaz' | 'oc' | 'kolizja' | 'ranni' | 'ucieczka' | 'zwierze' | 'korytarz' | 'odstep' | 'fotelik' | 'awaria' | 'mgla' | 'import' | 'darowizna' | 'szkoda' | 'dziura' | 'przeglad' | 'dokumenty' | 'kontrola' | 'granica' | 'zima' | 'kradziez' | 'vin' | 'licznik' | 'oszustwo' | 'cena';
+export type IkonaPoradnika = 'umowa' | 'kluczyk' | 'sprzedaz' | 'oc' | 'kolizja' | 'ranni' | 'ucieczka' | 'zwierze' | 'korytarz' | 'odstep' | 'fotelik' | 'awaria' | 'mgla' | 'import' | 'darowizna' | 'szkoda' | 'dziura' | 'przeglad' | 'dokumenty' | 'kontrola' | 'granica' | 'zima' | 'kradziez' | 'vin' | 'licznik' | 'oszustwo' | 'cena' | 'cenaOc' | 'mlody' | 'znizka' | 'ac' | 'calkowita' | 'kontrolka' | 'lista' | 'powodz' | 'jazda' | 'punkty' | 'fotoradar' | 'opona' | 'akumulator' | 'pierwsze' | 'kredyt' | 'paliwo' | 'strefa' | 'elektryk';
 
 export type Blok =
   | { typ: 'p'; t: string }
   | { typ: 'lista'; elementy: string[] }
   | { typ: 'kroki'; elementy: { t: string; o: string }[] }
   | { typ: 'uwaga'; t: string; ton?: 'info' | 'ostrzezenie' }
-  | { typ: 'liczby'; elementy: { w: string; o: string }[] };
+  | { typ: 'liczby'; elementy: { w: string; o: string }[] }
+  /** Odnośnik do narzędzia lub strony w serwisie (tylko adresy wewnętrzne, np. /mandaty/) */
+  | { typ: 'link'; t: string; o: string; href: string };
 
 export interface Sekcja {
   id: string;
@@ -36,14 +41,18 @@ export interface Poradnik {
   generator?: Generator;
   powiazane?: string[];
   zrodla: { n: string; url: string }[];
+  /** Data publikacji (RRRR-MM-DD). Poradnik pojawi się na stronie dopiero tego dnia – patrz data/harmonogram-poradnikow.json */
+  publikacja?: string;
 }
 
 export const KATEGORIE: Record<KategoriaPoradnika, { nazwa: string; opis: string }> = {
   kupno: { nazwa: 'Kupno i sprzedaż auta', opis: 'Umowa, podatek, rejestracja, OC – terminy i kary w jednym miejscu.' },
   sprawdzenie: { nazwa: 'Sprawdzanie auta przed zakupem', opis: 'VIN, przebieg, kradzież, oszustwa i uczciwa cena – zanim zapłacisz za używane auto.' },
+  ubezpieczenie: { nazwa: 'Ubezpieczenie auta', opis: 'Cena OC, zniżki, AC i szkoda całkowita – jak płacić mniej i nie stracić przy szkodzie.' },
   kolizja: { nazwa: 'Kolizja, wypadek i szkody', opis: 'Co zrobić na miejscu, kiedy wezwać policję i jak dostać odszkodowanie.' },
   bezpieczenstwo: { nazwa: 'Bezpieczeństwo na drodze', opis: 'Jak się zachować w trudnych sytuacjach – przepisy i proste zasady, które ratują życie.' },
-  codzienne: { nazwa: 'Kierowca na co dzień', opis: 'Przegląd, dokumenty, kontrola drogowa i wyjazd za granicę – sprawy, które prędzej czy później dotyczą każdego.' }
+  codzienne: { nazwa: 'Kierowca na co dzień', opis: 'Przegląd, dokumenty, kontrola drogowa i wyjazd za granicę – sprawy, które prędzej czy później dotyczą każdego.' },
+  eksploatacja: { nazwa: 'Eksploatacja i koszty', opis: 'Kontrolki, akumulator, opony, paliwo i auto elektryczne – jak dbać o auto i ile to naprawdę kosztuje.' }
 };
 
 const Z = {
@@ -98,7 +107,7 @@ const Z = {
   mgla: { n: 'Interia Motoryzacja – kiedy włączać światła przeciwmgłowe z przodu i z tyłu', url: 'https://motoryzacja.interia.pl/porady/news-kiedy-wlaczac-swiatla-przeciwmgielne-z-przodu-a-kiedy-z-tylu,nId,7154932' }
 };
 
-export const PORADNIKI: Poradnik[] = [
+const STALE: Poradnik[] = [
   // ───────────── KUPNO I SPRZEDAŻ ─────────────
   {
     slug: 'umowa-kupna-sprzedazy-samochodu',
@@ -2068,6 +2077,20 @@ export const PORADNIKI: Poradnik[] = [
   }
 ];
 
+// ───────────── Publikacja co tydzień ─────────────
+// Nowe poradniki mają datę publikacji z pliku data/harmonogram-poradnikow.json.
+// Strona buduje się co najmniej raz w tygodniu (automat „Publikacja poradników” w GitHubie) i wtedy pokazuje te, których dzień już nadszedł.
+export function dzisWarszawa(): string {
+  return new Date().toLocaleDateString('sv-SE', { timeZone: 'Europe/Warsaw' });
+}
+const NOWE_Z_DATA: Poradnik[] = NOWE.map((p) => ({ ...p, publikacja: (HARMONOGRAM as Record<string, string>)[p.slug] || '2099-01-01' }));
+
+/** Wszystkie poradniki, także zaplanowane na przyszłość (tylko do podglądu i automatów) */
+export const WSZYSTKIE_PORADNIKI: Poradnik[] = [...STALE, ...NOWE_Z_DATA];
+
+/** Poradniki widoczne na stronie – opublikowane do dziś */
+export const PORADNIKI: Poradnik[] = WSZYSTKIE_PORADNIKI.filter((p) => !p.publikacja || p.publikacja <= dzisWarszawa());
+
 export function poradnik(slug: string): Poradnik | undefined {
   return PORADNIKI.find((p) => p.slug === slug);
 }
@@ -2082,7 +2105,19 @@ export function poradnikiKategorii(k: KategoriaPoradnika): Poradnik[] {
 export const AKTUALIZACJA = '2026-11-04';
 export const OPUBLIKOWANO = '2026-11-03';
 
+export function dataPublikacji(p: Poradnik): string {
+  return p.publikacja || OPUBLIKOWANO;
+}
+export function dataAktualizacji(p: Poradnik): string {
+  return p.publikacja && p.publikacja > AKTUALIZACJA ? p.publikacja : AKTUALIZACJA;
+}
+/** Najnowsze opublikowane poradniki (od najnowszego) */
+export function najnowszePoradniki(ile = 3): Poradnik[] {
+  return [...PORADNIKI].map((p, i) => ({ p, i })).sort((a, b) => dataPublikacji(b.p).localeCompare(dataPublikacji(a.p)) || b.i - a.i).slice(0, ile).map((x) => x.p);
+}
+
 const DODATKI: Record<string, { seoTytul: string; seoOpis: string; skrot: string[] }> = {
+  ...NOWE_DODATKI,
   'umowa-kupna-sprzedazy-samochodu': {
     seoTytul: 'Umowa kupna-sprzedaży auta – wzór PDF do druku',
     seoOpis: 'Darmowy wzór umowy kupna-sprzedaży samochodu: wypełnij w przeglądarce, wydrukuj albo zapisz PDF. Co musi zawierać umowa, rękojmia i podatek PCC.',

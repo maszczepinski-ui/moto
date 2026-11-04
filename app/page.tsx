@@ -20,6 +20,7 @@ import SekcjaVinGlowna from '@/components/SekcjaVinGlowna';
 import SekcjaOponGlowna from '@/components/SekcjaOponGlowna';
 import SekcjaPoradnikowGlowna from '@/components/SekcjaPoradnikowGlowna';
 import SekcjaOcGlowna from '@/components/SekcjaOcGlowna';
+import SekcjaNajnowszyPoradnik from '@/components/SekcjaNajnowszyPoradnik';
 import { NAZWY_KATEGORII } from '@/lib/wpisy';
 import { PlayCircle } from 'lucide-react';
 
@@ -261,6 +262,9 @@ export default function HomePage() {
 
         {/* Porównanie OC/AC + przypomnienie o OC */}
         <SekcjaOcGlowna />
+
+        {/* Najnowszy poradnik (nowy co tydzień) */}
+        <SekcjaNajnowszyPoradnik />
 
         {/* Poradniki: kolizja i wzory dokumentów */}
         <SekcjaPoradnikowGlowna />

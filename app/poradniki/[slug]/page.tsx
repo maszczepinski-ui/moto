@@ -13,8 +13,8 @@ import {
   poradnik,
   KATEGORIE,
   STAN_PORADNIKOW,
-  AKTUALIZACJA,
-  OPUBLIKOWANO,
+  dataPublikacji,
+  dataAktualizacji,
   seoPoradnika,
   czasCzytania,
   nastepnyPoradnik,
@@ -50,8 +50,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       description: seo.opis,
       siteName: site.name,
       locale: 'pl_PL',
-      publishedTime: OPUBLIKOWANO,
-      modifiedTime: AKTUALIZACJA,
+      publishedTime: dataPublikacji(p),
+      modifiedTime: dataAktualizacji(p),
       section: KATEGORIE[p.kategoria].nazwa
     },
     twitter: { card: 'summary_large_image', title: seo.tytul, description: seo.opis }
@@ -60,6 +60,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 
 // Kolory akcentu dla każdej kategorii
 const AKCENT: Record<KategoriaPoradnika, { tlo: string; etykieta: string; skrot: string; ikona: string; pasek: string }> = {
+  ubezpieczenie: {
+    tlo: 'from-slate-950 via-slate-900 to-indigo-900',
+    etykieta: 'text-indigo-300',
+    skrot: 'bg-indigo-50 ring-indigo-200 dark:bg-indigo-950/40 dark:ring-indigo-900',
+    ikona: 'text-indigo-600 dark:text-indigo-400',
+    pasek: 'bg-indigo-500'
+  },
+  eksploatacja: {
+    tlo: 'from-slate-950 via-slate-900 to-teal-900',
+    etykieta: 'text-teal-300',
+    skrot: 'bg-teal-50 ring-teal-200 dark:bg-teal-950/40 dark:ring-teal-900',
+    ikona: 'text-teal-600 dark:text-teal-400',
+    pasek: 'bg-teal-500'
+  },
   kupno: {
     tlo: 'from-slate-950 via-slate-900 to-sky-900',
     etykieta: 'text-sky-300',
@@ -106,6 +120,21 @@ function Bloki({ bloki, kat }: { bloki: Blok[]; kat: KategoriaPoradnika }) {
     <>
       {bloki.map((b, i) => {
         if (b.typ === 'p') return <p key={i}>{typo(b.t)}</p>;
+        if (b.typ === 'link') {
+          // link do poradnika, który jeszcze nie jest opublikowany – nie pokazujemy (uniknięcie błędu 404)
+          const m = b.href.match(/^\/poradniki\/([^/]+)\/?/);
+          if (m && !poradnik(m[1])) return null;
+          return (
+            <Link key={i} href={b.href} className="not-prose group flex items-center gap-4 rounded-2xl bg-slate-950 dark:bg-slate-900 text-white ring-1 ring-slate-800 px-5 py-4 hover:bg-slate-900 dark:hover:bg-slate-800 transition">
+              <span className={`w-2 self-stretch rounded-full flex-shrink-0 ${AKCENT[kat].pasek}`} aria-hidden="true" />
+              <span className="flex-1">
+                <span className="block font-extrabold leading-snug">{typo(b.t)}</span>
+                <span className="block text-sm text-white/70">{typo(b.o)}</span>
+              </span>
+              <ArrowRight className="w-5 h-5 flex-shrink-0 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+            </Link>
+          );
+        }
         if (b.typ === 'lista')
           return (
             <ul key={i} className="space-y-2.5">
@@ -197,8 +226,8 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
       headline: p.tytul,
       description: seo.opis,
       inLanguage: 'pl-PL',
-      datePublished: OPUBLIKOWANO,
-      dateModified: AKTUALIZACJA,
+      datePublished: dataPublikacji(p),
+      dateModified: dataAktualizacji(p),
       articleSection: kat.nazwa,
       mainEntityOfPage: { '@type': 'WebPage', '@id': adres },
       image: `${adres}opengraph-image`,
@@ -249,7 +278,7 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
                 {site.author} · {site.name}
               </span>
               <span className="inline-flex items-center gap-1.5">
-                <CalendarCheck className="w-4 h-4" aria-hidden="true" /> Aktualizacja: <time dateTime={AKTUALIZACJA}>{dataPl(AKTUALIZACJA)}</time>
+                <CalendarCheck className="w-4 h-4" aria-hidden="true" /> Aktualizacja: <time dateTime={dataAktualizacji(p)}>{dataPl(dataAktualizacji(p))}</time>
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <Clock className="w-4 h-4" aria-hidden="true" /> {minuty} min czytania

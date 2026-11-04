@@ -1,0 +1,52 @@
+# Publikacja poradników co tydzień.
+# Daty publikacji są w pliku data/harmonogram-poradnikow.json (adres poradnika → dzień publikacji).
+# Strona pokazuje poradnik dopiero od jego dnia publikacji, ale musi się wtedy przebudować.
+# Ten automat w każdy czwartek rano sprawdza, czy jakiś poradnik ma dziś premierę, i jeśli tak –
+# zapisuje to w data/publikacja.json. Taki zapis uruchamia przebudowę strony na Vercel (bez żadnych dodatkowych kluczy).
+# Możesz go też uruchomić ręcznie: GitHub → Actions → „Publikacja poradników” → Run workflow.
+name: Publikacja poradników
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 5 * * 4'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publikacja-poradnikow
+  cancel-in-progress: false
+
+jobs:
+  publikuj:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sprawdź harmonogram
+        run: |
+          node -e '
+            const fs = require("fs");
+            const dzis = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Warsaw" });
+            const h = JSON.parse(fs.readFileSync("data/harmonogram-poradnikow.json", "utf8"));
+            const plik = "data/publikacja.json";
+            const stary = fs.existsSync(plik) ? JSON.parse(fs.readFileSync(plik, "utf8")) : { opublikowane: [] };
+            const doDzis = Object.entries(h).filter(([, d]) => d <= dzis).map(([s]) => s);
+            const nowe = doDzis.filter((s) => !(stary.opublikowane || []).includes(s));
+            if (!nowe.length && process.env.GITHUB_EVENT_NAME !== "workflow_dispatch") { console.log("Dziś brak nowych poradników."); process.exit(0); }
+            fs.writeFileSync(plik, JSON.stringify({ ostatniaPublikacja: dzis, nowe, opublikowane: doDzis }, null, 2) + "\n");
+            console.log("Publikuję:", nowe.join(", ") || "(przebudowa ręczna)");
+          '
+      - name: Zapisz i uruchom przebudowę
+        run: |
+          git config user.name "Publikacja poradników"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/publikacja.json
+          if git diff --cached --quiet; then
+            echo "Nic do zapisania."
+          else
+            git commit -m "Publikacja poradników: $(date +%F)"
+            git pull --rebase
+            git push
+          fi
