@@ -16,7 +16,7 @@ async function doSchowka(t: string) {
   }
 }
 
-export default function VinHero({ szablon, partner, kod = '', rabat = '' }: { szablon: string; partner: string; kod?: string; rabat?: string }) {
+export default function VinHero({ szablon, ogolny = '', partner, kod = '', rabat = '' }: { szablon: string; ogolny?: string; partner: string; kod?: string; rabat?: string }) {
   const [vin, setVin] = useState('');
   const [info, setInfo] = useState('');
   const [kodOk, setKodOk] = useState(false);
@@ -24,7 +24,7 @@ export default function VinHero({ szablon, partner, kod = '', rabat = '' }: { sz
   const poprawny = WZOR.test(czysty);
   const zleZnaki = /[IOQ]/.test(czysty);
   const maVin = szablon.includes('{vin}');
-  const link = maVin ? szablon.replaceAll('{vin}', poprawny ? encodeURIComponent(czysty) : '') : szablon;
+  const link = maVin ? (poprawny ? szablon.replaceAll('{vin}', encodeURIComponent(czysty)) : ogolny || szablon.replaceAll('{vin}', '')) : szablon;
   const nazwa = partner === 'carvertical' ? 'carVertical' : 'partnera';
 
   return (

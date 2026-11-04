@@ -1,6 +1,6 @@
 import { AlertTriangle, CheckCircle2, Gauge, ImageIcon, ShieldAlert, FileSearch } from 'lucide-react';
 import VinHero from '@/components/VinHero';
-import { panelDane, linkVin } from '@/lib/panel';
+import { panelDane, linkVin, linkVinOgolny } from '@/lib/panel';
 
 // Wyróżniona sekcja „Sprawdź VIN” na stronie głównej: ciemne tło z poświatą, duża typografia,
 // pole VIN i ilustracja raportu (wyraźnie opisana jako przykład – to nie są prawdziwe dane żadnego auta).
@@ -105,7 +105,7 @@ export default function SekcjaVinGlowna({ sprowadzone }: { sprowadzone: number }
             Według CEPiK <strong className="text-white">{sprowadzone}% aut w Polsce</strong> sprowadzono z zagranicy jako używane. Ich historia jest w bazach innych krajów –
             sprawdź ją po numerze VIN, zanim pojedziesz oglądać auto.
           </p>
-          <VinHero szablon={linkVin(k)} partner={v?.partner || 'vin'} kod={v?.kod || ''} rabat={v?.rabat || ''} />
+          <VinHero szablon={linkVin(k)} ogolny={linkVinOgolny(k)} partner={v?.partner || 'vin'} kod={v?.kod || ''} rabat={v?.rabat || ''} />
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 pt-2 text-sm text-white/80">
             {ZAWIERA.map((z) => (
               <li key={z} className="flex items-center gap-2">

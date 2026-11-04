@@ -2,7 +2,7 @@ import { ExternalLink, ShieldCheck, FileSearch, Wrench, CheckCircle2, ClipboardL
 import LinkPartnerski from '@/components/LinkPartnerski';
 import VinWidget from '@/components/VinWidget';
 import CzesciWidget, { ZNACZNIK_FRAZY } from '@/components/CzesciWidget';
-import { KontekstKarty, ModulId, kolejnoscModulow, linkVin, linkUbezpieczenia, panelDane, pokazModul, wypelnij } from '@/lib/panel';
+import { KontekstKarty, ModulId, kolejnoscModulow, linkVin, linkVinOgolny, linkUbezpieczenia, panelDane, pokazModul, wypelnij } from '@/lib/panel';
 
 // Narzędzia z linkami partnerskimi: VIN, OC/AC, części. Które się pokazują i w jakiej kolejności – ustawiasz w panelu admina.
 // Na karcie modelu są: skrót na górze (kafelki), pełne narzędzia w środku strony i pasek na dole ekranu w telefonie.
@@ -42,6 +42,7 @@ function Vin({ k }: { k: KontekstKarty }) {
       </p>
       <VinWidget
         szablon={linkVin(k)}
+        ogolny={linkVinOgolny(k)}
         partner={v?.partner || 'vin'}
         karta={k.slug}
         przycisk={cv ? 'Sprawdź auto w carVertical' : 'Sprawdź historię VIN'}

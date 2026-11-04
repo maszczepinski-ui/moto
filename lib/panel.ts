@@ -37,7 +37,8 @@ export interface PanelDane {
   filmy: Film[];
   moduly?: {
     /** kod / rabat – opcjonalnie, pokazywane przy polu VIN (np. kod rabatowy carVertical) */
-    vin?: { wlaczony: boolean; partner: string; url: string; kod?: string; rabat?: string };
+    /** url – link z {vin} (numer z pola VIN); urlOgolny – link bez VIN (przyciski bez wpisanego numeru) */
+    vin?: { wlaczony: boolean; partner: string; url: string; urlOgolny?: string; kod?: string; rabat?: string };
     ubezpieczenia?: { wlaczony: boolean; siec: string; oc: string; ac: string; nnw: string };
     czesci?: { wlaczony: boolean; allegro: string; ceneo: string; frazy: string };
     adsense?: { wlaczony: boolean; klient: string; slotGora: string; slotSpec: string; slotDol: string };
@@ -166,6 +167,12 @@ export function linkFinansowanie(k: KontekstKarty): string {
 
 export function linkVin(k: KontekstKarty): string {
   return wypelnij(panelDane.moduly?.vin?.url || panelDane.linki.vin, k);
+}
+
+/** Link partnera bez numeru VIN – gdy ktoś kliknie bez wpisania VIN albo w miejscach bez pola VIN */
+export function linkVinOgolny(k: KontekstKarty): string {
+  const ogolny = panelDane.moduly?.vin?.urlOgolny?.trim();
+  return ogolny ? wypelnij(ogolny, k) : linkVin(k).replaceAll('{vin}', '');
 }
 
 export function linkUbezpieczenia(rodzaj: 'oc' | 'ac' | 'nnw', k: KontekstKarty): string {

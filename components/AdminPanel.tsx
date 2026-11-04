@@ -30,7 +30,7 @@ type Dane = {
   linki: Linki;
   filmy: FilmT[];
   moduly: {
-    vin: { wlaczony: boolean; partner: string; url: string; kod: string; rabat: string };
+    vin: { wlaczony: boolean; partner: string; url: string; urlOgolny: string; kod: string; rabat: string };
     ubezpieczenia: { wlaczony: boolean; siec: string; oc: string; ac: string; nnw: string };
     czesci: { wlaczony: boolean; allegro: string; ceneo: string; frazy: string };
     adsense: { wlaczony: boolean; klient: string; slotGora: string; slotSpec: string; slotDol: string };
@@ -122,7 +122,7 @@ function uzupelnij(d: Partial<Dane>): Dane {
     linki: { vin: l.vin ?? '', oc: l.oc ?? '', ac: l.ac ?? '', nnw: l.nnw ?? '' },
     filmy: d.filmy || [],
     moduly: {
-      vin: { wlaczony: true, partner: '', url: l.vin ?? '', kod: '', rabat: '', ...m.vin },
+      vin: { wlaczony: true, partner: '', url: l.vin ?? '', urlOgolny: '', kod: '', rabat: '', ...m.vin },
       ubezpieczenia: { wlaczony: true, siec: '', oc: l.oc ?? '', ac: l.ac ?? '', nnw: l.nnw ?? '', ...m.ubezpieczenia },
       czesci: { wlaczony: false, allegro: '', ceneo: '', frazy: 'filtr oleju, klocki hamulcowe, olej silnikowy, wycieraczki, akumulator', ...m.czesci },
       adsense: { wlaczony: false, klient: '', slotGora: '', slotSpec: '', slotDol: '', ...m.adsense },
@@ -281,6 +281,7 @@ export default function AdminPanel({
   function bledy(d: Dane): string | null {
     const linki: [string, string][] = [
       ['VIN', d.moduly.vin.url],
+      ['VIN (bez numeru)', d.moduly.vin.urlOgolny],
       ['OC', d.moduly.ubezpieczenia.oc],
       ['AC', d.moduly.ubezpieczenia.ac],
       ['NNW', d.moduly.ubezpieczenia.nnw],
@@ -482,11 +483,14 @@ export default function AdminPanel({
                     </select>
                   </div>
                   <div className="sm:col-span-2">
-                    <Pole id="vin-u" label="Link partnerski" value={dane.moduly.vin.url} onChange={(v) => ustawModul('vin', 'url', v)} placeholder="https://…" />
+                    <Pole id="vin-u" label="Link partnerski z numerem VIN (z {vin})" value={dane.moduly.vin.url} onChange={(v) => ustawModul('vin', 'url', v)} placeholder="https://…&sub3={vin}" />
+                  </div>
+                  <div className="sm:col-span-3">
+                    <Pole id="vin-o" label="Link partnerski bez VIN (gdy ktoś nie wpisze numeru)" value={dane.moduly.vin.urlOgolny} onChange={(v) => ustawModul('vin', 'urlOgolny', v)} placeholder="https://…" />
                   </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                  <Pole id="vin-k" label="Kod rabatowy (opcjonalnie)" value={dane.moduly.vin.kod} onChange={(v) => ustawModul('vin', 'kod', v.toUpperCase())} placeholder="np. MOTOFORMAT" />
+                  <Pole id="vin-k" label="Kod rabatowy (opcjonalnie)" value={dane.moduly.vin.kod} onChange={(v) => ustawModul('vin', 'kod', v.trim())} placeholder="np. motoraport" />
                   <Pole id="vin-r" label="Rabat (opcjonalnie)" value={dane.moduly.vin.rabat} onChange={(v) => ustawModul('vin', 'rabat', v)} placeholder="np. -15%" />
                 </div>
                 {dane.moduly.vin.partner === 'carvertical' && (
@@ -496,7 +500,7 @@ export default function AdminPanel({
                       Na stronie pojawi się boks „Kompleksowe sprawdzenie auta” z listą tego, co zawiera raport.
                     </p>
                     <p>
-                      Jeśli carVertical podał Ci link, do którego da się dopisać numer VIN, wstaw w tym miejscu <code>{'{vin}'}</code>. Jeśli nie – nic nie szkodzi: strona sama skopiuje
+                      W linku „z VIN” z maila carVertical zamień końcówkę <code>sub3=vin</code> na <code>{'sub3={vin}'}</code> – strona wstawi tam numer wpisany przez klienta. Link „bez VIN” wklej w drugie pole. Gdy pola z VIN nie wypełnisz – strona sama skopiuje
                       wpisany VIN do schowka, a klient wklei go u carVertical. Kod rabatowy (jeśli dostaniesz własny) wpisz w polu obok – kod ma pierwszeństwo przed kliknięciem przy
                       naliczaniu prowizji.
                     </p>

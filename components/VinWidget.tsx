@@ -19,6 +19,7 @@ async function doSchowka(t: string) {
 
 export default function VinWidget({
   szablon,
+  ogolny = '',
   partner,
   karta,
   przycisk = 'Sprawdź historię VIN',
@@ -26,6 +27,8 @@ export default function VinWidget({
   rabat = ''
 }: {
   szablon: string;
+  /** link partnera bez VIN – gdy numer nie został wpisany */
+  ogolny?: string;
   partner: string;
   karta: string;
   przycisk?: string;
@@ -40,7 +43,7 @@ export default function VinWidget({
   const czysty = vin.toUpperCase().replace(/[^A-Z0-9]/g, '');
   const poprawny = WZOR_VIN.test(czysty);
   const maVin = szablon.includes('{vin}');
-  const link = maVin ? szablon.replaceAll('{vin}', poprawny ? encodeURIComponent(czysty) : '') : szablon;
+  const link = maVin ? (poprawny ? szablon.replaceAll('{vin}', encodeURIComponent(czysty)) : ogolny || szablon.replaceAll('{vin}', '')) : szablon;
   const nazwaPartnera = partner === 'carvertical' ? 'carVertical' : partner === 'autodna' ? 'autoDNA' : 'partnera';
 
   return (
