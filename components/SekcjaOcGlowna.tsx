@@ -63,7 +63,7 @@ export function IlustracjaOfertOc() {
             Różnica w przykładzie: <strong>{(max - min).toLocaleString('pl-PL')} zł</strong> za tę samą polisę
           </span>
         </div>
-        <p className="mt-3 text-[10px] text-slate-400">Ilustracja MotoFormat – przykładowe ceny, nie są ofertą żadnego ubezpieczyciela.</p>
+        <p className="mt-3 text-[10px] text-slate-400">Ilustracja MotoRaport – przykładowe ceny, nie są ofertą żadnego ubezpieczyciela.</p>
       </div>
       <div className="relative mt-4 ml-auto w-fit flex items-center gap-2 rounded-2xl bg-slate-950 dark:bg-slate-800 text-white px-4 py-3 shadow-xl ring-1 ring-white/10">
         <TriangleAlert className="w-5 h-5 text-amber-300" aria-hidden="true" />

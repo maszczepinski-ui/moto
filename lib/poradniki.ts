@@ -2053,7 +2053,7 @@ export const PORADNIKI: Poradnik[] = [
           },
           {
             typ: 'uwaga',
-            t: 'W atlasie MotoFormat sprawdzisz, ile egzemplarzy danego modelu jeździ w Polsce według CEPiK – popularny model łatwiej później sprzedać.'
+            t: 'W atlasie MotoRaport sprawdzisz, ile egzemplarzy danego modelu jeździ w Polsce według CEPiK – popularny model łatwiej później sprzedać.'
           }
         ]
       }
@@ -2077,7 +2077,7 @@ export function poradnikiKategorii(k: KategoriaPoradnika): Poradnik[] {
 }
 
 // ───────────── SEO i podsumowania ─────────────
-// seoTytul: krótszy tytuł do Google (z dopiskiem „| MotoFormat” mieści się w ok. 60 znakach).
+// seoTytul: krótszy tytuł do Google (z dopiskiem „| MotoRaport” mieści się w ok. 60 znakach).
 // seoOpis: opis w wynikach wyszukiwania (ok. 140–160 znaków). skrot: 3 zdania „W skrócie” na górze strony.
 export const AKTUALIZACJA = '2026-11-04';
 export const OPUBLIKOWANO = '2026-11-03';

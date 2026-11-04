@@ -69,7 +69,7 @@ function PrzykladRaportu() {
             <div className="text-white/50">z dawnych ogłoszeń</div>
           </div>
         </div>
-        <p className="mt-4 text-[10px] text-white/40">Ilustracja MotoFormat z przykładowymi danymi – to nie jest zrzut raportu carVertical i nie dotyczy żadnego auta.</p>
+        <p className="mt-4 text-[10px] text-white/40">Ilustracja MotoRaport z przykładowymi danymi – to nie jest zrzut raportu carVertical i nie dotyczy żadnego auta.</p>
       </div>
     </div>
   );

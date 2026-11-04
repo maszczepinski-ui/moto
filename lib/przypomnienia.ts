@@ -8,7 +8,7 @@
 //
 // Potrzebne zmienne w Vercel (Settings → Environment Variables):
 //   RESEND_API_KEY            – klucz z resend.com (darmowo do 3000 e-maili miesięcznie)
-//   PRZYPOMNIENIA_NADAWCA     – np. "MotoFormat <przypomnienia@moto-raport.pl>" (domena zweryfikowana w Resend)
+//   PRZYPOMNIENIA_NADAWCA     – np. "MotoRaport <przypomnienia@moto-raport.pl>" (domena zweryfikowana w Resend)
 //   CRON_SECRET               – dowolny długi ciąg znaków; Vercel sam dołącza go do wywołań automatu
 //   + baza Upstash Redis (ta sama co dla raportów spalania)
 
@@ -144,7 +144,7 @@ function trescPrzypomnienia(rodzaj: Rodzaj, termin: string, dni: number, t: stri
           'Jeśli nic nie zrobisz, ubezpieczyciel zwykle sam przedłuży polisę – często drożej. Porównanie ofert zajmuje kilka minut i potrafi obniżyć cenę o kilkaset złotych.',
           'Pamiętaj: jeśli zmieniasz ubezpieczyciela, starą polisę wypowiedz najpóźniej w ostatnim dniu jej ważności.'
         ],
-        partner ? { tekst: 'Porównaj ceny OC', url: partner } : { tekst: 'Przejdź do MotoFormat', url: site.url },
+        partner ? { tekst: 'Porównaj ceny OC', url: partner } : { tekst: 'Przejdź do MotoRaport', url: site.url },
         adresWypisz(t)
       )
     };

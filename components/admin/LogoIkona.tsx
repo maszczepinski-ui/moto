@@ -311,7 +311,7 @@ export default function LogoIkona({ api, branch, marka, zmiany, onZapisano }: { 
               ) : (
                 <span className="text-xs text-slate-400">(brak logo – jest pinezka)</span>
               )}
-              {(!src || tryb === 'obok') && <span className={`font-bold ${tekst}`}>MotoFormat</span>}
+              {(!src || tryb === 'obok') && <span className={`font-bold ${tekst}`}>MotoRaport</span>}
             </div>
           ))}
         </div>
@@ -366,7 +366,7 @@ export default function LogoIkona({ api, branch, marka, zmiany, onZapisano }: { 
               <div className="mx-auto flex items-center gap-2 rounded-t-lg bg-slate-200 dark:bg-slate-700 px-3 py-2 w-full max-w-[11rem]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={podglad.fav} alt="" className="w-4 h-4" />
-                <span className="truncate text-[11px] text-slate-700 dark:text-slate-200">MotoFormat</span>
+                <span className="truncate text-[11px] text-slate-700 dark:text-slate-200">MotoRaport</span>
               </div>
               <div className="inline-flex items-center gap-1">
                 <Globe className="w-3.5 h-3.5" aria-hidden="true" /> Karta przeglądarki

@@ -1,4 +1,4 @@
-// Service worker MotoFormat – dzięki niemu stronę można zainstalować jak aplikację,
+// Service worker MotoRaport – dzięki niemu stronę można zainstalować jak aplikację,
 // a bez internetu zamiast błędu przeglądarki pokazuje się nasza strona „Brak internetu”.
 // Strony zawsze pobieramy z sieci (żeby dane były aktualne); z pamięci bierzemy tylko pliki stylów i skryptów.
 const WERSJA = 'mf-v1';

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Smartphone, X, Share, SquarePlus } from 'lucide-react';
 
 // 1) Rejestracja service workera (potrzebny, żeby stronę dało się zainstalować jak aplikację na każdym telefonie).
-// 2) Baner „Dodaj MotoFormat do ekranu głównego” na telefonie – raz na jakiś czas, łatwo go zamknąć.
+// 2) Baner „Dodaj MotoRaport do ekranu głównego” na telefonie – raz na jakiś czas, łatwo go zamknąć.
 
 type Zdarzenie = Event & { prompt: () => Promise<void>; userChoice: Promise<{ outcome: string }> };
 const KLUCZ = 'mf-baner-aplikacji';
@@ -73,7 +73,7 @@ export default function Aplikacja() {
             <img src="/ikony/ikona-192.png" alt="" className="w-9 h-9" />
           </span>
           <div className="flex-1 min-w-0">
-            <div className="font-extrabold">Miej MotoFormat pod ręką</div>
+            <div className="font-extrabold">Miej MotoRaport pod ręką</div>
             <p className="text-sm text-white/70">Dodaj stronę do ekranu głównego – otworzy się jak aplikacja, bez paska przeglądarki.</p>
           </div>
           <button type="button" onClick={zamknij} aria-label="Zamknij" className="p-1 -m-1 text-white/60 hover:text-white">

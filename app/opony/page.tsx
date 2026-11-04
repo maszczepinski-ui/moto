@@ -123,7 +123,7 @@ export default function OponyPage() {
                 <span className="inline-flex items-center gap-1.5">
                   <Clock className="w-4 h-4" aria-hidden="true" /> 7 min czytania
                 </span>
-                <Udostepnij tytul="Opony pod kontrolą – MotoFormat" />
+                <Udostepnij tytul="Opony pod kontrolą – MotoRaport" />
               </div>
               <nav aria-label="Na tej stronie" className="flex flex-wrap gap-2 text-sm font-bold">
                 {[

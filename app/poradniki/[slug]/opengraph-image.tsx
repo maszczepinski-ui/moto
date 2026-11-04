@@ -3,7 +3,7 @@ import { site } from '@/config/site';
 import { PORADNIKI, poradnik, KATEGORIE, czasCzytania } from '@/lib/poradniki';
 
 // Obrazek do udostępniania poradnika (Facebook, Messenger, X, wyniki Google Discover)
-export const alt = 'Poradnik MotoFormat';
+export const alt = 'Poradnik MotoRaport';
 export const size = { width: 1200, height: 630 };
 export const contentType = 'image/png';
 export const dynamicParams = false;

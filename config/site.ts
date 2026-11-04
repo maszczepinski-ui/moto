@@ -4,7 +4,7 @@
 
 export const site = {
   // Nazwa strony i krótki podpis pod logo
-  name: 'MotoFormat',
+  name: 'MotoRaport',
   tagline: 'Atlas aut – ile ich jeździ w Polsce i gdzie',
 
   // Adres strony (bez ukośnika na końcu).
