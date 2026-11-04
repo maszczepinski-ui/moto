@@ -4,7 +4,7 @@ import { ShieldCheck, ExternalLink, CheckCircle2, CalendarClock, BellRing, FileT
 import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
 import LinkPartnerski from '@/components/LinkPartnerski';
-import { IlustracjaOfertOc } from '@/components/SekcjaOcGlowna';
+import SekcjaOcGlowna from '@/components/SekcjaOcGlowna';
 import { pokazModul, linkUbezpieczenia, panelDane } from '@/lib/panel';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import { site } from '@/config/site';
@@ -60,37 +60,10 @@ export default function UbezpieczenieOcPage() {
 
   return (
     <div className="pb-12">
-      <section className="relative overflow-hidden bg-gradient-to-br from-sky-700 via-sky-800 to-indigo-900 text-white">
-        <ShieldCheck className="absolute -right-16 -bottom-16 w-[26rem] h-[26rem] text-white/[0.07]" aria-hidden="true" />
-        <div className="relative max-w-5xl mx-auto px-4 pt-6 pb-12 sm:pb-16">
-          <div className="[&_a]:text-white/70 [&_span]:text-white/70">
-            <Okruszki sciezka={[{ nazwa: 'Porównaj OC i AC', adres: '/ubezpieczenie-oc/' }]} />
-          </div>
-          <div className="mt-8 grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-12 items-center">
-          <div className="space-y-5">
-            <span className="text-[11px] font-black tracking-[0.25em] uppercase text-sky-200">Ubezpieczenie auta</span>
-            <h1 className="text-4xl sm:text-5xl font-black tracking-tight leading-[1.03]">Porównaj ceny OC i AC</h1>
-            <p className="text-lg text-white/80 leading-relaxed">
-              Ta sama polisa u różnych ubezpieczycieli potrafi kosztować wyraźnie inaczej. Kalkulator pokaże oferty wielu firm naraz – w kilka minut, bez dzwonienia do agentów.
-            </p>
-            {oc ? (
-              <div className="space-y-2">
-                <div className="flex flex-wrap gap-3">
-                  <Przycisk href={oc} tekst="Oblicz OC" karta="ubezpieczenie-oc-gora" jasny />
-                  {ac && ac !== oc && <Przycisk href={ac} tekst="Oblicz OC + AC" karta="ubezpieczenie-oc-gora-ac" jasny />}
-                </div>
-                <p className="text-xs text-white/60">Link partnerski{partner === 'rankomat' ? ' – kalkulator Rankomat.pl' : ''}. Nie płacisz więcej.</p>
-              </div>
-            ) : (
-              <p className="text-sm text-white/70">Kalkulator uruchomimy wkrótce.</p>
-            )}
-          </div>
-          <div className="hidden md:block">
-            <IlustracjaOfertOc />
-          </div>
-          </div>
-        </div>
-      </section>
+      <div className="max-w-6xl mx-auto px-4 pt-6 space-y-6">
+        <Okruszki sciezka={[{ nazwa: 'Porównaj OC i AC', adres: '/ubezpieczenie-oc/' }]} />
+        <SekcjaOcGlowna jakoH1 karta="ubezpieczenie-oc-gora" slug="ubezpieczenie-oc" linkPoradnik={false} />
+      </div>
 
       <div className="max-w-5xl mx-auto px-4 space-y-14 pt-10">
         <section className="grid grid-cols-1 md:grid-cols-3 gap-4">

@@ -46,7 +46,7 @@ export function IlustracjaOfertOc() {
                 <div className="flex items-center justify-between gap-3 text-sm">
                   <span className="font-semibold text-slate-700 dark:text-slate-200">{o.n}</span>
                   <span className="flex items-center gap-2">
-                    {naj && <span className="text-[10px] font-black uppercase tracking-wider bg-emerald-600 text-white rounded-full px-2 py-0.5">najtaniej</span>}
+                    {naj && <span className="hidden min-[400px]:inline text-[10px] font-black uppercase tracking-wider bg-emerald-600 text-white rounded-full px-2 py-0.5">najtaniej</span>}
                     <span className={`font-black tabular-nums whitespace-nowrap ${naj ? 'text-emerald-700 dark:text-emerald-300' : 'text-slate-900 dark:text-white'}`}>{o.cena.toLocaleString('pl-PL')} zł</span>
                   </span>
                 </div>
@@ -77,10 +77,21 @@ export function IlustracjaOfertOc() {
   );
 }
 
-const K = { slug: 'strona-glowna', marka: '', model: '' };
+type Props = {
+  /** Na podstronie /ubezpieczenie-oc/ nagłówek banera jest głównym H1 strony. */
+  jakoH1?: boolean;
+  /** Etykieta kliknięcia (statystyki linku partnerskiego). */
+  karta?: string;
+  slug?: string;
+  /** Link „Jak wybrać OC" – ukryty na samej stronie poradnika OC. */
+  linkPoradnik?: boolean;
+};
 
-export default function SekcjaOcGlowna() {
+export default function SekcjaOcGlowna({ jakoH1 = false, karta = 'strona-glowna', slug = 'strona-glowna', linkPoradnik = true }: Props = {}) {
+  const K = { slug, marka: '', model: '' };
   const oc = pokazModul('ubezpieczenia', K) ? linkUbezpieczenia('oc', K) : '';
+  const ac = pokazModul('ubezpieczenia', K) ? linkUbezpieczenia('ac', K) : '';
+  const Naglowek = jakoH1 ? 'h1' : 'h2';
   const partner = panelDane.moduly?.ubezpieczenia?.siec || 'ubezpieczenia';
   const przypomnienie = (
     <Link
@@ -100,7 +111,13 @@ export default function SekcjaOcGlowna() {
     </Link>
   );
 
-  if (!oc) return <section>{przypomnienie}</section>;
+  if (!oc)
+    return (
+      <section className="space-y-4">
+        {jakoH1 && <h1 className="text-4xl sm:text-5xl font-black tracking-tight text-slate-900 dark:text-white">Porównaj ceny OC i AC</h1>}
+        {przypomnienie}
+      </section>
+    );
 
   return (
     <section aria-labelledby="oc-naglowek" className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-sky-50 via-white to-indigo-50 dark:from-slate-900 dark:via-slate-950 dark:to-indigo-950/60 ring-1 ring-sky-100 dark:ring-slate-800">
@@ -111,11 +128,12 @@ export default function SekcjaOcGlowna() {
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" aria-hidden="true" />
             Kalkulator OC/AC{partner === 'rankomat' ? ' · Rankomat.pl' : ''}
           </span>
-          <h2 id="oc-naglowek" className="text-4xl sm:text-5xl font-black tracking-tight leading-[1.02] text-slate-900 dark:text-white">
+          <Naglowek id="oc-naglowek" className="text-4xl sm:text-5xl font-black tracking-tight leading-[1.02] text-slate-900 dark:text-white">
+            {jakoH1 && <span className="block mb-3 text-lg sm:text-xl font-extrabold tracking-normal text-sky-700 dark:text-sky-300">Porównaj ceny OC i AC</span>}
             Ta sama polisa.
             <br />
             <span className="bg-gradient-to-r from-sky-600 via-indigo-600 to-emerald-600 dark:from-sky-300 dark:via-indigo-300 dark:to-emerald-300 bg-clip-text text-transparent">Różne ceny.</span>
-          </h2>
+          </Naglowek>
           <p className="text-lg text-slate-600 dark:text-slate-300 max-w-xl leading-relaxed">
             OC przedłuża się samo – często drożej niż rok wcześniej. Porównaj oferty wielu ubezpieczycieli w kilka minut, zanim zapłacisz za kolejny rok.
           </p>
@@ -137,15 +155,28 @@ export default function SekcjaOcGlowna() {
               href={oc}
               modul="ubezpieczenia"
               partner={partner}
-              karta="strona-glowna"
+              karta={karta}
               className="group inline-flex items-center gap-2 bg-sky-600 hover:bg-sky-700 text-white text-lg font-extrabold px-7 py-4 rounded-2xl shadow-[0_16px_32px_-14px_rgba(2,132,199,0.8)] transition"
             >
               <ShieldCheck className="w-5 h-5" aria-hidden="true" /> Porównaj ceny OC
               <ExternalLink className="w-4 h-4 opacity-80" aria-hidden="true" />
             </LinkPartnerski>
-            <Link href="/ubezpieczenie-oc/" className="inline-flex items-center gap-1 font-bold text-sky-800 dark:text-sky-300 hover:underline">
-              Jak wybrać OC <ArrowRight className="w-4 h-4" aria-hidden="true" />
-            </Link>
+            {jakoH1 && ac && ac !== oc && (
+              <LinkPartnerski
+                href={ac}
+                modul="ubezpieczenia"
+                partner={partner}
+                karta={`${karta}-ac`}
+                className="inline-flex items-center gap-2 bg-white dark:bg-slate-800 text-sky-800 dark:text-sky-200 ring-1 ring-sky-200 dark:ring-slate-700 hover:ring-sky-400 font-extrabold px-6 py-4 rounded-2xl"
+              >
+                OC + AC <ExternalLink className="w-4 h-4 opacity-80" aria-hidden="true" />
+              </LinkPartnerski>
+            )}
+            {linkPoradnik && (
+              <Link href="/ubezpieczenie-oc/" className="inline-flex items-center gap-1 font-bold text-sky-800 dark:text-sky-300 hover:underline">
+                Jak wybrać OC <ArrowRight className="w-4 h-4" aria-hidden="true" />
+              </Link>
+            )}
           </div>
 
           <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-slate-600 dark:text-slate-400">
