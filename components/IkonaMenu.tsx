@@ -1,4 +1,4 @@
-import { Car, Trophy, Map, TrendingUp, Swords, TriangleAlert, ClipboardList, ScanLine, ShoppingBag, Route, Camera, Gauge, PlugZap, Film, Info, BellRing, Disc3, FileText, CarFront, HeartPulse, UserX, PawPrint, KeyRound, HandCoins, ShieldX, Siren, MoveHorizontal, Baby, TriangleAlert as Trojkat, CloudFog, Wrench, ClipboardCheck, Ship, BadgeCheck, Snowflake, LibraryBig, ShieldAlert } from 'lucide-react';
+import { Car, Trophy, Map, TrendingUp, Swords, TriangleAlert, ClipboardList, ScanLine, ShoppingBag, Route, Camera, Gauge, PlugZap, Film, Info, BellRing, Disc3, FileText, CarFront, HeartPulse, UserX, PawPrint, KeyRound, HandCoins, ShieldX, Siren, MoveHorizontal, Baby, TriangleAlert as Trojkat, CloudFog, Wrench, ClipboardCheck, Ship, BadgeCheck, Snowflake, LibraryBig, ShieldAlert, ShieldCheck } from 'lucide-react';
 import type { Ikona } from '@/lib/menu';
 
 const IKONY = {
@@ -39,7 +39,8 @@ const IKONY = {
   zima: Snowflake,
   wszystkie: LibraryBig,
   licznik: Gauge,
-  kradziez: ShieldAlert
+  kradziez: ShieldAlert,
+  ubezpieczenie: ShieldCheck
 } satisfies Record<Ikona, typeof Car>;
 
 export default function IkonaMenu({ ikona, className = 'w-5 h-5' }: { ikona: Ikona; className?: string }) {

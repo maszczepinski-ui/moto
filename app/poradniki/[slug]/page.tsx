@@ -349,7 +349,17 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
         <div className="space-y-14 pt-14">
           {p.generator && <GeneratorDokumentu rodzaj={p.generator} />}
 
-          {/* Na telefonie przypomnienie pokazujemy pod treścią */}
+          {/* Na telefonie porównanie OC i przypomnienie pokazujemy pod treścią */}
+          {oc && (
+            <LinkPartnerski href={oc} modul="ubezpieczenia" partner="oc" karta={`poradnik-${p.slug}-mobile`} className="lg:hidden flex items-center gap-4 rounded-2xl bg-sky-700 text-white p-5">
+              <ShieldCheck className="w-7 h-7 text-sky-100 flex-shrink-0" aria-hidden="true" />
+              <span className="flex-1">
+                <span className="block font-extrabold">Porównaj ceny OC i AC</span>
+                <span className="block text-sm text-white/75">Kalkulator partnera – link partnerski</span>
+              </span>
+              <ExternalLink className="w-5 h-5" aria-hidden="true" />
+            </LinkPartnerski>
+          )}
           <Link href="/przypomnienia/" className="lg:hidden flex items-center gap-4 rounded-2xl bg-steel-700 text-white p-5">
             <BellRing className="w-7 h-7 text-rust-300 flex-shrink-0" aria-hidden="true" />
             <span className="flex-1">

@@ -47,6 +47,7 @@ function grupy(): Record<string, Adres[]> {
     zakup: [
       { loc: '/asystent-zakupu/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/sprawdz-vin/', changefreq: 'monthly', priority: 0.7 },
+      { loc: '/ubezpieczenie-oc/', changefreq: 'monthly', priority: 0.8 },
       ...modele.map((m) => ({ loc: `${m.adres}zakup/`, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: 0.6 }))
     ],
     kierowca: [

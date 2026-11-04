@@ -1,7 +1,7 @@
 import { getModelSummaries } from '@/lib/models';
 import ModelFilters from '@/components/ModelFilters';
 import YouTubeIcon from '@/components/YouTubeIcon';
-import { Database, MapPin, ArrowRight, Trophy, Search, BellRing } from 'lucide-react';
+import { Database, MapPin, ArrowRight, Trophy, Search } from 'lucide-react';
 import ZdjecieTla from '@/components/ZdjecieTla';
 import IkonaMenu from '@/components/IkonaMenu';
 import { menuGlowne } from '@/lib/menu';
@@ -19,6 +19,7 @@ import { pokazModul } from '@/lib/panel';
 import SekcjaVinGlowna from '@/components/SekcjaVinGlowna';
 import SekcjaOponGlowna from '@/components/SekcjaOponGlowna';
 import SekcjaPoradnikowGlowna from '@/components/SekcjaPoradnikowGlowna';
+import SekcjaOcGlowna from '@/components/SekcjaOcGlowna';
 import { NAZWY_KATEGORII } from '@/lib/wpisy';
 import { PlayCircle } from 'lucide-react';
 
@@ -258,17 +259,8 @@ export default function HomePage() {
           </ul>
         </section>
 
-        {/* Przypomnienie o OC */}
-        <section className="flex flex-col md:flex-row md:items-center gap-4 bg-steel-700 text-white rounded-3xl p-6 sm:p-8">
-          <BellRing className="w-10 h-10 text-rust-300 flex-shrink-0" aria-hidden="true" />
-          <div className="flex-1 space-y-1">
-            <h2 className="text-2xl font-extrabold">Nie przepłacaj za OC przy automatycznym przedłużeniu</h2>
-            <p className="text-steel-100">Wpisz datę końca polisy i przeglądu – przypomnimy Ci e-mailem 3 tygodnie wcześniej. Za darmo, wypisanie jednym kliknięciem.</p>
-          </div>
-          <Link href="/przypomnienia/" className="inline-flex items-center justify-center gap-2 bg-white text-steel-800 font-bold px-5 py-3 rounded-xl hover:bg-steel-50 flex-shrink-0">
-            Ustaw przypomnienie <ArrowRight className="w-4 h-4" aria-hidden="true" />
-          </Link>
-        </section>
+        {/* Porównanie OC/AC + przypomnienie o OC */}
+        <SekcjaOcGlowna />
 
         {/* Poradniki: kolizja i wzory dokumentów */}
         <SekcjaPoradnikowGlowna />

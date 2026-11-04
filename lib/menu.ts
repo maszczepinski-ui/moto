@@ -41,7 +41,8 @@ export type Ikona =
   | 'zima'
   | 'wszystkie'
   | 'licznik'
-  | 'kradziez';
+  | 'kradziez'
+  | 'ubezpieczenie';
 
 export interface PozycjaMenu {
   nazwa: string;
@@ -79,6 +80,7 @@ export function menuGlowne(): GrupaMenu[] {
       pozycje: [
         { nazwa: 'Asystent zakupu', opis: 'Usterki, oględziny, formalności', adres: '/asystent-zakupu/', ikona: 'clipboard' },
         { nazwa: 'Sprawdź VIN', opis: 'Przebieg, szkody, historia auta', adres: '/sprawdz-vin/', ikona: 'scan' },
+        { nazwa: 'Porównaj OC i AC', opis: 'Kalkulator cen ubezpieczenia auta', adres: '/ubezpieczenie-oc/', ikona: 'ubezpieczenie', nowe: true },
         { nazwa: 'Opony', opis: 'Kiedy wymienić, bieżnik, wiek opony', adres: '/opony/', ikona: 'opony', nowe: true },
         { nazwa: 'Przypomnienie o OC i oponach', opis: 'E-mail przed końcem polisy, przeglądu i sezonem', adres: '/przypomnienia/', ikona: 'bell', nowe: true },
         ...(polecane ? [{ nazwa: 'Polecane produkty', opis: 'Sprawdzone akcesoria i chemia', adres: '/polecane/', ikona: 'shopping' as const }] : [])
