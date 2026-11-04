@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, BadgePercent } from 'lucide-react';
 import { sledz } from '@/lib/sledz';
 import { zKanalem, kanalDla } from '@/lib/kanal';
 
@@ -52,7 +52,16 @@ export default function VinWidget({
   return (
     <div className="mt-auto space-y-3">
       {rabat && (
-        <p className="text-sm font-bold text-amber-300">Rabat {rabat} naliczy się automatycznie po kliknięciu.</p>
+        <div className="inline-flex items-center gap-2.5 rounded-xl border border-amber-300/40 bg-amber-300/10 pl-1.5 pr-3.5 py-1.5 select-none">
+          <span className="inline-flex items-center gap-1 rounded-lg bg-amber-300 text-slate-900 px-2 py-1 text-sm font-black tabular-nums">
+            <BadgePercent className="w-4 h-4" aria-hidden="true" />
+            {rabat}
+          </span>
+          <span className="text-sm leading-tight text-white">
+            <span className="font-bold">Rabat już w linku</span>
+            <span className="block text-xs text-white/70">nalicza się sam, bez kodu</span>
+          </span>
+        </div>
       )}
       <form
         className="flex flex-wrap gap-2"

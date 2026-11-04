@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { ArrowRight, ScanLine } from 'lucide-react';
+import { ArrowRight, BadgePercent, ScanLine } from 'lucide-react';
 import { sledz } from '@/lib/sledz';
 import { zKanalem } from '@/lib/kanal';
 
@@ -80,7 +80,18 @@ export default function VinHero({ szablon, ogolny = '', partner, kod = '', rabat
       </form>
 
       <div className="flex flex-wrap items-center gap-3">
-        {rabat && <span className="text-sm font-bold text-amber-300">Rabat {rabat} naliczy się automatycznie</span>}
+        {rabat && (
+          <div className="inline-flex items-center gap-2.5 rounded-xl border border-amber-300/40 bg-amber-300/10 pl-1.5 pr-3.5 py-1.5 select-none">
+            <span className="inline-flex items-center gap-1 rounded-lg bg-amber-300 text-slate-900 px-2 py-1 text-sm font-black tabular-nums">
+              <BadgePercent className="w-4 h-4" aria-hidden="true" />
+              {rabat}
+            </span>
+            <span className="text-sm leading-tight text-white">
+              <span className="font-bold">Rabat już w linku</span>
+              <span className="block text-xs text-white/70">nalicza się sam, bez kodu</span>
+            </span>
+          </div>
+        )}
         <span className="text-xs text-white/60">Link partnerski {nazwa} – nie płacisz więcej.</span>
       </div>
       {info && (
