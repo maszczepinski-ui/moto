@@ -4,6 +4,7 @@ import { ShieldCheck, ExternalLink, CheckCircle2, CalendarClock, BellRing, FileT
 import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
 import LinkPartnerski from '@/components/LinkPartnerski';
+import { IlustracjaOfertOc } from '@/components/SekcjaOcGlowna';
 import { pokazModul, linkUbezpieczenia, panelDane } from '@/lib/panel';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import { site } from '@/config/site';
@@ -65,7 +66,8 @@ export default function UbezpieczenieOcPage() {
           <div className="[&_a]:text-white/70 [&_span]:text-white/70">
             <Okruszki sciezka={[{ nazwa: 'Porównaj OC i AC', adres: '/ubezpieczenie-oc/' }]} />
           </div>
-          <div className="mt-8 max-w-2xl space-y-5">
+          <div className="mt-8 grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-12 items-center">
+          <div className="space-y-5">
             <span className="text-[11px] font-black tracking-[0.25em] uppercase text-sky-200">Ubezpieczenie auta</span>
             <h1 className="text-4xl sm:text-5xl font-black tracking-tight leading-[1.03]">Porównaj ceny OC i AC</h1>
             <p className="text-lg text-white/80 leading-relaxed">
@@ -82,6 +84,10 @@ export default function UbezpieczenieOcPage() {
             ) : (
               <p className="text-sm text-white/70">Kalkulator uruchomimy wkrótce.</p>
             )}
+          </div>
+          <div className="hidden md:block">
+            <IlustracjaOfertOc />
+          </div>
           </div>
         </div>
       </section>
