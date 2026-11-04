@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { ExternalLink, Copy, Check } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { sledz } from '@/lib/sledz';
 import { zKanalem, kanalDla } from '@/lib/kanal';
 
@@ -33,7 +33,7 @@ export default function VinWidget({
   partner: string;
   karta: string;
   przycisk?: string;
-  /** kod rabatowy partnera – pokazujemy go z przyciskiem „kopiuj” */
+  /** kod rabatowy partnera – nie jest już pokazywany (rabat jest w linku partnerskim) */
   kod?: string;
   /** opis rabatu, np. „-10%” */
   rabat?: string;
@@ -43,7 +43,6 @@ export default function VinWidget({
   ogolny = zKanalem(ogolny, kanalDla(karta));
   const [vin, setVin] = useState('');
   const [info, setInfo] = useState('');
-  const [skopiowanyKod, setSkopiowanyKod] = useState(false);
   const czysty = vin.toUpperCase().replace(/[^A-Z0-9]/g, '');
   const poprawny = WZOR_VIN.test(czysty);
   const maVin = szablon.includes('{vin}');
@@ -52,22 +51,8 @@ export default function VinWidget({
 
   return (
     <div className="mt-auto space-y-3">
-      {kod && (
-        <div className="flex flex-wrap items-center gap-2 bg-amber-300 text-slate-900 rounded-xl px-3 py-2">
-          <span className="text-sm font-bold">{rabat ? `${rabat} z kodem` : 'Kod rabatowy'}</span>
-          <code className="font-mono font-black tracking-wider bg-white/70 rounded px-2 py-0.5">{kod}</code>
-          <button
-            type="button"
-            onClick={async () => {
-              if (await doSchowka(kod)) setSkopiowanyKod(true);
-              sledz('kod_rabatowy', { partner, karta });
-            }}
-            className="ml-auto inline-flex items-center gap-1 text-xs font-bold underline"
-          >
-            {skopiowanyKod ? <Check className="w-3.5 h-3.5" aria-hidden="true" /> : <Copy className="w-3.5 h-3.5" aria-hidden="true" />}
-            {skopiowanyKod ? 'skopiowano' : 'kopiuj'}
-          </button>
-        </div>
+      {rabat && (
+        <p className="text-sm font-bold text-amber-300">Rabat {rabat} naliczy się automatycznie po kliknięciu.</p>
       )}
       <form
         className="flex flex-wrap gap-2"

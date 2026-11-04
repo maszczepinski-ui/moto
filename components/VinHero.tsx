@@ -1,6 +1,6 @@
 'use client';
 import { useState } from 'react';
-import { ArrowRight, Copy, Check, ScanLine } from 'lucide-react';
+import { ArrowRight, ScanLine } from 'lucide-react';
 import { sledz } from '@/lib/sledz';
 import { zKanalem } from '@/lib/kanal';
 
@@ -22,7 +22,6 @@ export default function VinHero({ szablon, ogolny = '', partner, kod = '', rabat
   ogolny = zKanalem(ogolny, 'strona-glowna');
   const [vin, setVin] = useState('');
   const [info, setInfo] = useState('');
-  const [kodOk, setKodOk] = useState(false);
   const czysty = vin.toUpperCase().replace(/[^A-Z0-9]/g, '').slice(0, 17);
   const poprawny = WZOR.test(czysty);
   const zleZnaki = /[IOQ]/.test(czysty);
@@ -81,21 +80,7 @@ export default function VinHero({ szablon, ogolny = '', partner, kod = '', rabat
       </form>
 
       <div className="flex flex-wrap items-center gap-3">
-        {kod && (
-          <button
-            type="button"
-            onClick={async () => {
-              if (await doSchowka(kod)) setKodOk(true);
-              sledz('kod_rabatowy', { partner, karta: 'strona-glowna' });
-            }}
-            className="group inline-flex items-center gap-2 rounded-full bg-amber-300 text-slate-900 pl-3 pr-2 py-1.5 text-sm font-bold"
-          >
-            {rabat ? `${rabat} z kodem` : 'Kod rabatowy'}
-            <code className="font-mono tracking-wider bg-white/70 rounded-full px-2 py-0.5">{kod}</code>
-            {kodOk ? <Check className="w-4 h-4" aria-hidden="true" /> : <Copy className="w-4 h-4 opacity-70 group-hover:opacity-100" aria-hidden="true" />}
-            <span className="sr-only">{kodOk ? 'skopiowano' : 'kopiuj kod'}</span>
-          </button>
-        )}
+        {rabat && <span className="text-sm font-bold text-amber-300">Rabat {rabat} naliczy się automatycznie</span>}
         <span className="text-xs text-white/60">Link partnerski {nazwa} – nie płacisz więcej.</span>
       </div>
       {info && (
