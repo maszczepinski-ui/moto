@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ExternalLink, ShieldCheck, FileSearch, Trophy, MapPin, Search } from 'lucide-react';
 import YouTubeIcon from '@/components/YouTubeIcon';
+import { zKanalem } from '@/lib/kanal';
 import { panelDane, youtubeId, linkVinOgolny, linkUbezpieczenia, KontekstKarty } from '@/lib/panel';
 import { getModelSummaries } from '@/lib/models';
 import { formatDate } from '@/lib/format';
@@ -38,7 +39,7 @@ export default function LinkiPage() {
       ['nnw', 'Porównaj ceny NNW', ShieldCheck]
     ] as const
   )
-    .map(([k, e, I]) => [k, e, I, k === 'vin' ? linkVinOgolny(ogolny) : linkUbezpieczenia(k, ogolny)] as const)
+    .map(([k, e, I]) => [k, e, I, k === 'vin' ? zKanalem(linkVinOgolny(ogolny), 'linki') : linkUbezpieczenia(k, ogolny)] as const)
     .filter(([, , , l]) => l);
 
   return (

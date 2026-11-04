@@ -78,7 +78,7 @@ export default function OponyPage() {
       dateModified: AKTUALIZACJA_OPON,
       mainEntityOfPage: { '@type': 'WebPage', '@id': `${site.url}/opony/` },
       image: `${site.url}/opony/opengraph-image`,
-      author: { '@type': 'Organization', name: `Redakcja ${site.name}`, url: site.url },
+      author: { '@type': 'Person', name: site.author, url: site.youtubeChannelUrl, description: site.authorBio },
       publisher: { '@type': 'Organization', name: site.name, url: site.url, logo: { '@type': 'ImageObject', url: `${site.url}/apple-icon.png` } },
       citation: ZRODLA_OPONY.map((z) => z.url)
     },
@@ -304,7 +304,7 @@ export default function OponyPage() {
         </div>
         <div className="md:col-span-2 rounded-3xl bg-slate-100 dark:bg-slate-900/60 p-6 space-y-2 text-slate-600 dark:text-slate-400">
           <h2 className="font-black text-lg text-slate-900 dark:text-white">Jak powstała ta strona</h2>
-          <p>Tekst i grafiki przygotowała redakcja {site.name} – własnymi słowami, na podstawie przepisów i źródeł obok. Stan przepisów: listopad 2026.</p>
+          <p>Opracował <strong className="text-slate-800 dark:text-slate-200">{site.author}</strong>, twórca kanału {site.name} – własnymi słowami, na podstawie przepisów i źródeł obok. Stan przepisów: listopad 2026.</p>
           <p className="text-xs">To informacja poglądowa, nie porada prawna ani techniczna.</p>
         </div>
       </section>

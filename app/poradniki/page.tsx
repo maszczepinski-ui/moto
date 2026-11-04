@@ -20,6 +20,7 @@ export const metadata: Metadata = {
 const KOLORY: Record<KategoriaPoradnika, { akcent: string; tlo: string }> = {
   kupno: { akcent: 'text-sky-600 dark:text-sky-400', tlo: 'bg-sky-50 dark:bg-sky-950/40 text-sky-700 dark:text-sky-300' },
   kolizja: { akcent: 'text-rust-600 dark:text-rust-400', tlo: 'bg-rust-50 dark:bg-rust-900/40 text-rust-700 dark:text-rust-300' },
+  sprawdzenie: { akcent: 'text-amber-700 dark:text-amber-400', tlo: 'bg-amber-50 dark:bg-amber-950/40 text-amber-700 dark:text-amber-300' },
   codzienne: { akcent: 'text-violet-700 dark:text-violet-400', tlo: 'bg-violet-50 dark:bg-violet-950/40 text-violet-700 dark:text-violet-300' },
   bezpieczenstwo: { akcent: 'text-emerald-700 dark:text-emerald-400', tlo: 'bg-emerald-50 dark:bg-emerald-950/40 text-emerald-700 dark:text-emerald-300' }
 };

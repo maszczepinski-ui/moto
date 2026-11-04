@@ -23,6 +23,7 @@ import {
   type KategoriaPoradnika
 } from '@/lib/poradniki';
 import { pokazModul, linkUbezpieczenia } from '@/lib/panel';
+import { BoksVin } from '@/components/Monetyzacja';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import { site } from '@/config/site';
 
@@ -72,6 +73,13 @@ const AKCENT: Record<KategoriaPoradnika, { tlo: string; etykieta: string; skrot:
     skrot: 'bg-rust-50 ring-rust-200 dark:bg-rust-900/30 dark:ring-rust-900',
     ikona: 'text-rust-600 dark:text-rust-400',
     pasek: 'bg-rust-500'
+  },
+  sprawdzenie: {
+    tlo: 'from-slate-950 via-slate-900 to-amber-900',
+    etykieta: 'text-amber-300',
+    skrot: 'bg-amber-50 ring-amber-200 dark:bg-amber-950/40 dark:ring-amber-900',
+    ikona: 'text-amber-600 dark:text-amber-400',
+    pasek: 'bg-amber-500'
   },
   codzienne: {
     tlo: 'from-slate-950 via-slate-900 to-violet-900',
@@ -174,6 +182,7 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
   const nastepny = nastepnyPoradnik(p);
   const K = { slug: `poradnik-${p.slug}`, marka: '', model: '' };
   const oc = pokazModul('ubezpieczenia', K) ? linkUbezpieczenia('oc', K) : '';
+  const pokazVin = (p.kategoria === 'kupno' || p.kategoria === 'sprawdzenie') && pokazModul('vin', K);
   const powiazane = (p.powiazane || [])
     .map(poradnik)
     .filter((x): x is NonNullable<typeof x> => Boolean(x))
@@ -193,7 +202,7 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
       articleSection: kat.nazwa,
       mainEntityOfPage: { '@type': 'WebPage', '@id': adres },
       image: `${adres}opengraph-image`,
-      author: { '@type': 'Organization', name: `Redakcja ${site.name}`, url: site.url },
+      author: { '@type': 'Person', name: site.author, url: site.youtubeChannelUrl, description: site.authorBio },
       publisher: { '@type': 'Organization', name: site.name, url: site.url, logo: { '@type': 'ImageObject', url: `${site.url}/apple-icon.png` } },
       citation: p.zrodla.map((z) => z.url)
     },
@@ -235,9 +244,9 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
             <div className="flex flex-wrap items-center gap-x-5 gap-y-3 pt-1 text-sm text-white/70">
               <span className="inline-flex items-center gap-2">
                 <span className="w-7 h-7 rounded-full bg-white text-slate-900 text-[10px] font-black flex items-center justify-center" aria-hidden="true">
-                  MF
+                  MS
                 </span>
-                Redakcja {site.name}
+                {site.author} · {site.name}
               </span>
               <span className="inline-flex items-center gap-1.5">
                 <CalendarCheck className="w-4 h-4" aria-hidden="true" /> Aktualizacja: <time dateTime={AKTUALIZACJA}>{dataPl(AKTUALIZACJA)}</time>
@@ -288,6 +297,9 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
 
             <SpisTresciMobilny pozycje={spis} />
 
+            {/* Pole VIN w poradnikach o kupnie i sprawdzaniu auta – czytelnik jest tu najbliżej decyzji */}
+            {pokazVin && <BoksVin k={K} />}
+
             <div className="max-w-[68ch] space-y-14 text-[1.075rem] leading-8 text-slate-700 dark:text-slate-300">
               {p.sekcje.map((s, i) => (
                 <section key={s.id} id={s.id} className="scroll-mt-24 space-y-5">
@@ -305,7 +317,7 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
           <aside className="hidden lg:block">
             <div className="sticky top-24 space-y-5">
               <SpisTresci pozycje={spis} />
-              {p.kategoria === 'kupno' && (
+              {(p.kategoria === 'kupno' || p.kategoria === 'sprawdzenie') && (
                 <Link href="/sprawdz-vin/" className="group block rounded-2xl bg-slate-950 text-white p-4 hover:bg-slate-900">
                   <ScanLine className="w-6 h-6 text-emerald-400" aria-hidden="true" />
                   <div className="mt-2 font-extrabold">Sprawdź auto po VIN</div>
@@ -416,7 +428,10 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
             <div className="md:col-span-2 rounded-3xl bg-slate-100 dark:bg-slate-900/60 p-6 space-y-2 text-slate-600 dark:text-slate-400">
               <h2 className="font-black text-lg text-slate-900 dark:text-white">Jak powstał ten poradnik</h2>
               <p>
-                Tekst napisała redakcja {site.name} na podstawie przepisów i źródeł obok – własnymi słowami, z myślą o kierowcach, a nie prawnikach. Stan prawny: {STAN_PORADNIKOW}.
+                Opracował <strong className="text-slate-800 dark:text-slate-200">{site.author}</strong> – {site.authorBio.charAt(0).toLowerCase() + site.authorBio.slice(1)}
+              </p>
+              <p>
+                Poradnik powstał na podstawie przepisów i źródeł obok – własnymi słowami, z myślą o kierowcach, a nie prawnikach. Stan prawny: {STAN_PORADNIKOW}.
               </p>
               <p className="text-xs">To informacja, nie porada prawna. W nietypowej sprawie zapytaj w urzędzie, u ubezpieczyciela albo u prawnika.</p>
             </div>

@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { ArrowRight, Copy, Check, ScanLine } from 'lucide-react';
 import { sledz } from '@/lib/sledz';
+import { zKanalem } from '@/lib/kanal';
 
 // Duże pole VIN do sekcji na stronie głównej. Ta sama logika co VinWidget:
 // link z {vin} → numer trafia prosto do raportu; bez {vin} → kopiujemy VIN do schowka i otwieramy stronę partnera.
@@ -17,6 +18,8 @@ async function doSchowka(t: string) {
 }
 
 export default function VinHero({ szablon, ogolny = '', partner, kod = '', rabat = '' }: { szablon: string; ogolny?: string; partner: string; kod?: string; rabat?: string }) {
+  szablon = zKanalem(szablon, 'strona-glowna');
+  ogolny = zKanalem(ogolny, 'strona-glowna');
   const [vin, setVin] = useState('');
   const [info, setInfo] = useState('');
   const [kodOk, setKodOk] = useState(false);

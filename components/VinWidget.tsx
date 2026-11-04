@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { ExternalLink, Copy, Check } from 'lucide-react';
 import { sledz } from '@/lib/sledz';
+import { zKanalem, kanalDla } from '@/lib/kanal';
 
 // Pole na numer VIN + przejście do raportu partnera (np. carVertical).
 // • Jeśli link partnera zawiera {vin} – numer trafia prosto do raportu.
@@ -37,6 +38,9 @@ export default function VinWidget({
   /** opis rabatu, np. „-10%” */
   rabat?: string;
 }) {
+  // kanał (sub2) – żeby w panelu carVertical było widać, skąd przyszło kliknięcie
+  szablon = zKanalem(szablon, kanalDla(karta));
+  ogolny = zKanalem(ogolny, kanalDla(karta));
   const [vin, setVin] = useState('');
   const [info, setInfo] = useState('');
   const [skopiowanyKod, setSkopiowanyKod] = useState(false);

@@ -28,5 +28,7 @@ export const site = {
   publisherNip: '',
   publisherAddress: '',
   contactEmail: '',
-  author: 'Marcin Szczepiński'
+  author: 'Marcin Szczepiński',
+  // Krótki opis autora – pokazywany pod poradnikami (Google i czaty AI lubią podpisane artykuły)
+  authorBio: 'Twórca kanału MotoFormat na YouTube i serwisu moto-raport.pl. Na co dzień filmuje i testuje samochody, a tutaj zbiera w jednym miejscu dane i formalności, które przydają się każdemu kierowcy.'
 };

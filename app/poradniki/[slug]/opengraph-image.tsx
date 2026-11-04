@@ -12,7 +12,7 @@ export function generateStaticParams() {
   return PORADNIKI.map((p) => ({ slug: p.slug }));
 }
 
-const KOLOR = { kupno: '#38bdf8', kolizja: '#fb923c', bezpieczenstwo: '#34d399', codzienne: '#a78bfa' } as const;
+const KOLOR = { kupno: '#38bdf8', kolizja: '#fb923c', bezpieczenstwo: '#34d399', codzienne: '#a78bfa', sprawdzenie: '#fbbf24' } as const;
 
 export default async function Obrazek({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

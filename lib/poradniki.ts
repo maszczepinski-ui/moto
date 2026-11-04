@@ -4,9 +4,9 @@
 
 export const STAN_PORADNIKOW = 'listopad 2026';
 
-export type KategoriaPoradnika = 'kupno' | 'kolizja' | 'bezpieczenstwo' | 'codzienne';
+export type KategoriaPoradnika = 'kupno' | 'sprawdzenie' | 'kolizja' | 'bezpieczenstwo' | 'codzienne';
 export type Generator = 'umowa' | 'oswiadczenie' | 'wypowiedzenie' | 'darowizna' | 'dziura';
-export type IkonaPoradnika = 'umowa' | 'kluczyk' | 'sprzedaz' | 'oc' | 'kolizja' | 'ranni' | 'ucieczka' | 'zwierze' | 'korytarz' | 'odstep' | 'fotelik' | 'awaria' | 'mgla' | 'import' | 'darowizna' | 'szkoda' | 'dziura' | 'przeglad' | 'dokumenty' | 'kontrola' | 'granica' | 'zima';
+export type IkonaPoradnika = 'umowa' | 'kluczyk' | 'sprzedaz' | 'oc' | 'kolizja' | 'ranni' | 'ucieczka' | 'zwierze' | 'korytarz' | 'odstep' | 'fotelik' | 'awaria' | 'mgla' | 'import' | 'darowizna' | 'szkoda' | 'dziura' | 'przeglad' | 'dokumenty' | 'kontrola' | 'granica' | 'zima' | 'kradziez' | 'vin' | 'licznik' | 'oszustwo' | 'cena';
 
 export type Blok =
   | { typ: 'p'; t: string }
@@ -40,6 +40,7 @@ export interface Poradnik {
 
 export const KATEGORIE: Record<KategoriaPoradnika, { nazwa: string; opis: string }> = {
   kupno: { nazwa: 'Kupno i sprzedaż auta', opis: 'Umowa, podatek, rejestracja, OC – terminy i kary w jednym miejscu.' },
+  sprawdzenie: { nazwa: 'Sprawdzanie auta przed zakupem', opis: 'VIN, przebieg, kradzież, oszustwa i uczciwa cena – zanim zapłacisz za używane auto.' },
   kolizja: { nazwa: 'Kolizja, wypadek i szkody', opis: 'Co zrobić na miejscu, kiedy wezwać policję i jak dostać odszkodowanie.' },
   bezpieczenstwo: { nazwa: 'Bezpieczeństwo na drodze', opis: 'Jak się zachować w trudnych sytuacjach – przepisy i proste zasady, które ratują życie.' },
   codzienne: { nazwa: 'Kierowca na co dzień', opis: 'Przegląd, dokumenty, kontrola drogowa i wyjazd za granicę – sprawy, które prędzej czy później dotyczą każdego.' }
@@ -87,6 +88,12 @@ const Z = {
   zielonaKarta: { n: 'Rankomat – kiedy i gdzie kierowca potrzebuje Zielonej Karty', url: 'https://rankomat.pl/samochod/kiedy-gdzie-kierowca-potrzebuje-zielonej-karty-za-granica' },
   wakacjeAutem: { n: 'CarLease Polska – wakacje autem po Europie 2026: dokumenty, winiety', url: 'https://carleasepolska.pl/blog/556/wakacje-autem-po-europie-2026-jakie-dokumenty-winiety-i-ubezpieczenia-musisz-miec' },
   zimaInteria: { n: 'Interia Motoryzacja – mandat za nieodśnieżony samochód (art. 60 i 66)', url: 'https://motoryzacja.interia.pl/porady/przepisy-drogowe/news-zima-kierowcy-musza-szczegolnie-uwazac-na-art-60-i-66-inacze,nId,7253172' },
+  kradzioneLink4: { n: 'Link4 – jak sprawdzić, czy auto nie jest kradzione', url: 'https://www.link4.pl/blog/jak-sprawdzic-czy-auto-nie-jest-kradzione' },
+  vinWiki: { n: 'Wikipedia – Vehicle identification number (budowa VIN, kody WMI, rok modelowy)', url: 'https://en.wikipedia.org/wiki/Vehicle_identification_number' },
+  vinRankomat: { n: 'Rankomat – tabela kodów VIN', url: 'https://rankomat.pl/samochod/tabela-kodow-vin' },
+  licznikMubi: { n: 'Mubi – zaniżony przebieg samochodu: kary i co zrobić', url: 'https://mubi.pl/poradniki/zanizony-przebieg-samochodu/' },
+  oszustwaAutoSwiat: { n: 'Auto Świat – triki handlarzy, jak się nie nabrać', url: 'https://www.auto-swiat.pl/porady/oszustwa-przy-handlu-samochodami-oto-12-trikow-handlarzy-jak-sie-nie-nabrac/ty3cmqv' },
+  eurotax: { n: 'CUK – baza Eurotax i Info-Ekspert', url: 'https://cuk.pl/porady/baza-eurotax-baza-info-ekspert' },
   kable: { n: 'CUK – jak uruchomić samochód za pomocą kabli rozruchowych', url: 'https://cuk.pl/porady/samochod-kable-rozruchowe' },
   mgla: { n: 'Interia Motoryzacja – kiedy włączać światła przeciwmgłowe z przodu i z tyłu', url: 'https://motoryzacja.interia.pl/porady/news-kiedy-wlaczac-swiatla-przeciwmgielne-z-przodu-a-kiedy-z-tylu,nId,7154932' }
 };
@@ -1666,6 +1673,398 @@ export const PORADNIKI: Poradnik[] = [
     ],
     powiazane: ['jazda-we-mgle', 'awaria-na-autostradzie', 'przeglad-techniczny-terminy-koszt'],
     zrodla: [Z.zimaInteria, Z.kable, Z.prd]
+  },
+  // ───────────── SPRAWDZANIE AUTA PRZED ZAKUPEM ─────────────
+  {
+    slug: 'jak-sprawdzic-czy-auto-jest-kradzione',
+    kategoria: 'sprawdzenie',
+    ikona: 'kradziez',
+    tytul: 'Jak sprawdzić, czy auto nie jest kradzione – 6 kroków przed zakupem',
+    krotko: 'Czy auto nie jest kradzione',
+    opis: 'Zanim zapłacisz za używane auto, sprawdź w kilku miejscach jego numer VIN i dokumenty. Pokazujemy, gdzie patrzeć, jakie sygnały powinny zapalić czerwoną lampkę i co zrobić, gdy coś się nie zgadza.',
+    liczby: [
+      { w: '17 znaków', o: 'numer VIN – musi być wszędzie taki sam' },
+      { w: '0 zł', o: 'sprawdzenie w Historii Pojazdu (gov.pl)' },
+      { w: '2 komplety', o: 'kluczyków – brak jednego to sygnał ostrzegawczy' }
+    ],
+    sekcje: [
+      {
+        id: 'kroki',
+        t: 'Jak sprawdzić auto krok po kroku?',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Porównaj VIN w kilku miejscach', o: 'Numer pod przednią szybą, na tabliczce znamionowej (często na słupku drzwi), na nadwoziu i w dowodzie rejestracyjnym (pole E) musi być identyczny. Każda różnica, ślady szlifowania czy przyklejona tabliczka to powód, żeby odpuścić.' },
+              { t: 'Sprawdź auto w Historii Pojazdu', o: 'Na historiapojazdu.gov.pl wpisz numer rejestracyjny, VIN i datę pierwszej rejestracji. Porównaj markę, model, silnik i kolor z autem, które oglądasz.' },
+              { t: 'Sprawdź OC w bazie UFG', o: 'Na ufg.pl sprawdzisz po numerze rejestracyjnym lub VIN, czy auto ma ważne OC. Brak polisy przy aucie „na co dzień jeżdżonym” jest dziwny.' },
+              { t: 'Obejrzyj dokumenty', o: 'Szukaj skreśleń, przeróbek i poprawek w dowodzie rejestracyjnym. Gdy właścicieli jest dwóch, umowę muszą podpisać obaj – pełnomocnictwo łatwo podrobić.' },
+              { t: 'Policz kluczyki', o: 'Brak drugiego oryginalnego kluczyka nie musi oznaczać kradzieży, ale zapytaj, co się z nim stało, i uwzględnij to w cenie.' },
+              { t: 'Sprawdź historię auta za granicą', o: 'Auta sprowadzone mają historię w bazach innych krajów – płatny raport po VIN pokaże m.in. zgłoszenia kradzieży, szkody i przebiegi spoza Polski.' }
+            ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'Masz wątpliwości? Pojedź z autem i dokumentami na komisariat policji. Policjanci sprawdzą, czy pojazd nie jest poszukiwany w Polsce lub innym kraju UE, i mogą obejrzeć auto pod kątem śladów włamania.'
+          }
+        ]
+      },
+      {
+        id: 'sygnaly',
+        t: 'Jakie sygnały powinny Cię zaniepokoić?',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'cena wyraźnie niższa niż za podobne auta – sprzedawcy zależy na szybkiej transakcji,',
+              'sprzedawca nie chce pokazać dowodu osobistego albo dane w umowie nie zgadzają się z dowodem rejestracyjnym,',
+              'spotkanie „na parkingu pod marketem”, a nie pod adresem sprzedawcy,',
+              'nowe lub nieoryginalne stacyjka, zamki, szyby – ślady wymiany po włamaniu,',
+              'brak karty pojazdu, gdy auto powinno ją mieć – wtórnik łatwo zdobyć.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'kupiles',
+        t: 'Co zrobić, gdy okaże się, że kupiłeś kradzione auto?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Zgłoś to od razu na policji. Auto wraca do prawowitego właściciela – albo do ubezpieczyciela, jeśli ten wypłacił już odszkodowanie z AC. Pieniądze możesz próbować odzyskać od sprzedawcy, ale musisz wykazać, że kupiłeś auto w dobrej wierze. Dlatego zachowaj umowę, potwierdzenie przelewu i korespondencję ze sprzedawcą.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Jak za darmo sprawdzić, czy auto nie jest kradzione?', a: 'Porównaj VIN na aucie i w dokumentach, sprawdź auto na historiapojazdu.gov.pl i OC na ufg.pl. W razie wątpliwości policja na komisariacie sprawdzi, czy pojazd nie jest poszukiwany.' },
+      { q: 'Gdzie znaleźć numer VIN w samochodzie?', a: 'Zwykle pod przednią szybą od strony kierowcy, na tabliczce znamionowej (najczęściej na słupku drzwi) i na nadwoziu w komorze silnika. W dowodzie rejestracyjnym to pole E.' },
+      { q: 'Co się dzieje z kradzionym autem kupionym w dobrej wierze?', a: 'Wraca do właściciela lub ubezpieczyciela. Kupujący może dochodzić zwrotu pieniędzy od sprzedawcy – najlepiej z umową i potwierdzeniem przelewu.' }
+    ],
+    powiazane: ['numer-vin-co-oznacza', 'oszustwa-przy-zakupie-auta', 'umowa-kupna-sprzedazy-samochodu'],
+    zrodla: [Z.kradzioneLink4, Z.historia, Z.ufgStrona]
+  },
+  {
+    slug: 'numer-vin-co-oznacza',
+    kategoria: 'sprawdzenie',
+    ikona: 'vin',
+    tytul: 'Numer VIN – co oznacza 17 znaków i jak go odczytać',
+    krotko: 'Co kryje numer VIN',
+    opis: 'VIN to „PESEL” auta: 17 znaków, z których odczytasz producenta, a często też model i rok. Wyjaśniamy budowę numeru, gdzie go szukać i dlaczego litery I, O i Q nigdy się w nim nie pojawiają.',
+    liczby: [
+      { w: '17', o: 'znaków – litery i cyfry' },
+      { w: '3 części', o: 'WMI, VDS i VIS' },
+      { w: 'bez I, O, Q', o: 'żeby nie mylić ich z 1 i 0' }
+    ],
+    sekcje: [
+      {
+        id: 'budowa',
+        t: 'Z czego składa się numer VIN?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'VIN (Vehicle Identification Number) ma 17 znaków. W Europie jego budowę opisuje norma ISO 3779. Numer dzieli się na trzy części – przykład poniżej to numer zmyślony, służący tylko do pokazania budowy.'
+          },
+          {
+            typ: 'liczby',
+            elementy: [
+              { w: 'WVW', o: 'znaki 1–3 (WMI): producent i kraj' },
+              { w: 'ZZZ1J', o: 'znaki 4–8 (VDS): opis auta' },
+              { w: 'Z', o: 'znak 9: u wielu marek z Europy wypełniacz' },
+              { w: 'XW000001', o: 'znaki 10–17 (VIS): rocznik i numer seryjny' }
+            ]
+          },
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'WMI – znaki 1–3', o: 'Kod producenta nadawany międzynarodowo. Pierwszy znak zwykle wskazuje region: W – Niemcy, V – Francja, Z – Włochy, T – m.in. Czechy, S – m.in. Wielka Brytania i Polska, Y – Szwecja.' },
+              { t: 'VDS – znaki 4–9', o: 'Opis pojazdu według tabel producenta: model, nadwozie, silnik. Każda marka koduje to po swojemu – dlatego darmowe dekodery bywają niedokładne.' },
+              { t: 'VIS – znaki 10–17', o: '10. znak to często rok modelowy, a dalej numer seryjny konkretnego egzemplarza. W autach z Europy 10. znak nie zawsze oznacza rok.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'wmi',
+        t: 'Jakie kody mają popularne marki?',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'WVW – Volkswagen (osobowe),',
+              'WBA – BMW (osobowe),',
+              'WDB – Mercedes-Benz,',
+              'TMB – Škoda,',
+              'VF1 – Renault, VF3 – Peugeot,',
+              'ZFA – Fiat (osobowe),',
+              'YV1 – Volvo (osobowe),',
+              'SAL – Land Rover,',
+              'SUP – FSO (Polska).'
+            ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'Kod producenta zależy od kraju rejestracji marki, nie zawsze od miejsca produkcji. Przykład: Opel przez lata miał niemiecki kod W0L, także w autach produkowanych poza Niemcami.'
+          }
+        ]
+      },
+      {
+        id: 'rok',
+        t: 'Jak odczytać rok z numeru VIN?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Jeśli producent koduje rok na 10. pozycji, obowiązuje cykl: od 2001 do 2009 cyfry 1–9, od 2010 litery – A (2010), B (2011), C (2012), D (2013), E (2014), F (2015), G (2016), H (2017), J (2018), K (2019), L (2020), M (2021), N (2022), P (2023), R (2024), S (2025), T (2026). Litery U, Z i cyfra 0 nie są używane na tej pozycji. Kod powtarza się co 30 lat – T oznacza 1996 albo 2026 – więc rok zawsze potwierdź w dokumentach.'
+          }
+        ]
+      },
+      {
+        id: 'gdzie',
+        t: 'Gdzie znaleźć VIN?',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'pod przednią szybą, od strony kierowcy,',
+              'na tabliczce znamionowej – najczęściej na słupku drzwi lub w komorze silnika,',
+              'na nadwoziu (wybity w blasze),',
+              'w dowodzie rejestracyjnym – pole E, oraz w karcie pojazdu i polisie OC.'
+            ]
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'VIN we wszystkich tych miejscach musi być identyczny. Różnice albo ślady przerabiania numeru to sygnał, że z autem może być coś nie tak – zobacz poradnik o sprawdzaniu, czy auto nie jest kradzione.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Ile znaków ma numer VIN?', a: '17 – wielkie litery i cyfry. Litery I, O i Q nie są używane, żeby nie mylić ich z cyframi 1 i 0.' },
+      { q: 'Jak sprawdzić rocznik auta po VIN?', a: 'U wielu producentów rok modelowy koduje 10. znak, np. L to 2020, R to 2024. Kod powtarza się co 30 lat, a część marek z Europy w ogóle go nie używa – rok potwierdź w dokumentach.' },
+      { q: 'Czy dekoder VIN pokaże historię auta?', a: 'Nie. Dekoder odczytuje tylko dane z budowy numeru (producent, czasem model i rok). Historię – przebiegi, szkody, kradzieże – pokazuje Historia Pojazdu w gov.pl i płatne raporty.' }
+    ],
+    powiazane: ['jak-sprawdzic-czy-auto-jest-kradzione', 'cofniety-licznik-jak-sprawdzic-przebieg', 'sprowadzenie-auta-z-zagranicy'],
+    zrodla: [Z.vinWiki, Z.vinRankomat, Z.historia]
+  },
+  {
+    slug: 'cofniety-licznik-jak-sprawdzic-przebieg',
+    kategoria: 'sprawdzenie',
+    ikona: 'licznik',
+    tytul: 'Cofnięty licznik – jak sprawdzić prawdziwy przebieg auta',
+    krotko: 'Jak rozpoznać cofnięty licznik',
+    opis: 'Cofanie licznika to w Polsce przestępstwo, ale nadal się zdarza. Gdzie sprawdzić historię przebiegu, po czym poznać, że coś się nie zgadza, i co zrobić, gdy wyjdzie to po zakupie.',
+    liczby: [
+      { w: 'do 5 lat', o: 'więzienia za cofnięcie licznika' },
+      { w: '2 miejsca', o: 'gdzie spisuje się licznik: przegląd i kontrola drogowa' },
+      { w: '1 rok', o: 'od wykrycia wady na reakcję wobec sprzedawcy' }
+    ],
+    sekcje: [
+      {
+        id: 'prawo',
+        t: 'Czy cofanie licznika jest karalne?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Tak. Zmiana wskazań licznika to przestępstwo z art. 306a Kodeksu karnego – grozi za nie od 3 miesięcy do 5 lat więzienia. Tak samo odpowiada osoba, która to zleca. Licznik wolno wymienić tylko wtedy, gdy się zepsuł, i trzeba to zgłosić na stacji kontroli pojazdów.'
+          }
+        ]
+      },
+      {
+        id: 'gdzie-sprawdzic',
+        t: 'Gdzie sprawdzić historię przebiegu?',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Historia Pojazdu (gov.pl)', o: 'Stan licznika spisuje diagnosta przy każdym przeglądzie (i fotografuje licznik), a od 2020 r. także policja przy kontroli drogowej. Na historiapojazdu.gov.pl zobaczysz te odczyty – przebieg powinien tylko rosnąć.' },
+              { t: 'Książka serwisowa i faktury', o: 'Porównaj przebiegi z wpisów. Zadzwoń do serwisu z pieczątki i zapytaj, czy auto faktycznie tam było – pieczątki łatwo podrobić.' },
+              { t: 'Raport historii z zagranicy', o: 'Auto sprowadzone ma odczyty z innych krajów. Raport po VIN pokaże przebiegi zapisane np. w niemieckich bazach – tam najczęściej widać „zjazd” licznika przed sprzedażą do Polski.' },
+              { t: 'Diagnostyka komputerowa', o: 'Przy droższych i nowszych autach mechanik może odczytać przebieg zapisany w kilku sterownikach – nie zawsze da się go wszędzie „skorygować”.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'objawy',
+        t: 'Po czym poznać, że przebieg się nie zgadza?',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'wytarta kierownica, gałka zmiany biegów i nakładki pedałów przy „niskim” przebiegu,',
+              'nowe elementy wnętrza w aucie, które ma rzekomo mało kilometrów – mogą zakrywać zużycie,',
+              'zapadnięty fotel kierowcy i wytarte boczki,',
+              'brak historii serwisowej albo książka „wypełniona jednym długopisem”,',
+              'przebieg w ogłoszeniu wyraźnie niższy niż średnia dla tego rocznika – kilka–kilkanaście tysięcy km rocznie to norma.'
+            ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'Żaden z tych objawów osobno niczego nie przesądza – ale kilka naraz to mocny sygnał, żeby sprawdzić auto dokładniej albo zrezygnować.'
+          }
+        ]
+      },
+      {
+        id: 'po-zakupie',
+        t: 'Kupiłeś auto z cofniętym licznikiem – co teraz?',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Zbierz dowody', o: 'Wydruk z Historii Pojazdu, raport po VIN, zdjęcia licznika, ogłoszenie z deklarowanym przebiegiem i umowę.' },
+              { t: 'Złóż oświadczenie sprzedawcy', o: 'Na piśmie: odstąpienie od umowy albo obniżenie ceny. Masz na to rok od wykrycia oszustwa, nie od zakupu.' },
+              { t: 'Zgłoś sprawę policji', o: 'Cofnięcie licznika to przestępstwo – zawiadomienie pomaga też w sporze cywilnym.' },
+              { t: 'Sąd', o: 'Gdy sprzedawca nie zwróci pieniędzy ani nie obniży ceny, możesz dochodzić roszczeń w sądzie.' }
+            ]
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Jaka jest kara za cofnięcie licznika?', a: 'Od 3 miesięcy do 5 lat więzienia (art. 306a Kodeksu karnego). Tak samo odpowiada zlecający. W wypadku mniejszej wagi sąd może orzec grzywnę lub łagodniejszą karę.' },
+      { q: 'Jak sprawdzić przebieg auta za darmo?', a: 'Na historiapojazdu.gov.pl – po numerze rejestracyjnym, VIN i dacie pierwszej rejestracji. Widać tam odczyty licznika z przeglądów i kontroli drogowych.' },
+      { q: 'Co zrobić, gdy po zakupie wyjdzie cofnięty licznik?', a: 'W ciągu roku od wykrycia złożyć sprzedawcy oświadczenie o odstąpieniu od umowy albo obniżeniu ceny, zgłosić sprawę policji, a w razie odmowy – iść do sądu.' }
+    ],
+    powiazane: ['numer-vin-co-oznacza', 'oszustwa-przy-zakupie-auta', 'ile-jest-warte-uzywane-auto'],
+    zrodla: [Z.licznikMubi, Z.kk, Z.historia]
+  },
+  {
+    slug: 'oszustwa-przy-zakupie-auta',
+    kategoria: 'sprawdzenie',
+    ikona: 'oszustwo',
+    tytul: 'Oszustwa przy zakupie używanego auta – 10 trików i jak się nie dać',
+    krotko: 'Oszustwa przy zakupie auta',
+    opis: 'Od fałszywych ogłoszeń z zaliczką, przez „kupno na Niemca”, po podmianę opon przed odbiorem. Najczęstsze triki sprzedawców i proste sposoby, żeby się przed nimi obronić.',
+    liczby: [
+      { w: '0 zł', o: 'zaliczki za auto, którego nie widziałeś' },
+      { w: '1 telefon', o: 'do serwisu z pieczątki wystarczy, by sprawdzić książkę' },
+      { w: 'umowa', o: 'zawsze z osobą, z którą naprawdę rozmawiasz' }
+    ],
+    sekcje: [
+      {
+        id: 'ogloszenia',
+        t: 'Jakie oszustwa zdarzają się w ogłoszeniach?',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Auto widmo z zaliczką', o: 'Bardzo atrakcyjna cena, kontakt tylko mailowy, sprzedawca „za granicą” i prośba o kaucję albo opłatę dla „firmy transportowej”. Auto nie istnieje. Nigdy nie wpłacaj pieniędzy za auto, którego nie widziałeś.' },
+              { t: 'Handlarz udający osobę prywatną', o: 'Zdjęcia pod ładnym domem, opowieść o „aucie żony”. Zadzwoń i nie mów, o które auto chodzi – jeśli sprzedawca dopytuje, ma ich wiele. Wpisz numer telefonu w wyszukiwarkę.' },
+              { t: 'Fałszywe linki do płatności', o: 'Oszuści podsyłają linki do „bezpiecznej płatności” czy „kuriera”, które wyglądają jak strona serwisu ogłoszeniowego. Płać dopiero po obejrzeniu auta i podpisaniu umowy – najlepiej przelewem na konto sprzedawcy, którego dane są w umowie.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'przy-ogladaniu',
+        t: 'Na co uważać przy oglądaniu i podpisywaniu umowy?',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Cofnięty licznik i podrobiona książka', o: 'Porównaj przebieg z Historią Pojazdu i zadzwoń do serwisu z pieczątki.' },
+              { t: '„Drobna usterka” za 200 zł', o: 'Kontrolka silnika, airbag, klimatyzacja „do nabicia”. Gdyby naprawa była tania, sprzedawca by ją zrobił. Zleć diagnozę przed zakupem.' },
+              { t: '„Kupno na Niemca”', o: 'Umowa z danymi poprzedniego właściciela, którego nigdy nie widziałeś. W razie problemów nie masz kogo pozwać. Podpisuj umowę tylko z osobą, która faktycznie sprzedaje.' },
+              { t: 'Zaniżona cena w umowie', o: '„Wpiszmy mniej, zapłacisz mniejszy podatek”. Ryzykujesz kłopoty w urzędzie skarbowym, a przy szkodzie i sporze ze sprzedawcą liczy się kwota z umowy.' },
+              { t: 'Podmiana części przed odbiorem', o: 'Nowe opony czy akumulator przy oglądaniu, zużyte przy odbiorze. Zrób zdjęcia przy oględzinach i porównaj je w dniu zakupu.' },
+              { t: 'Sztuczny tłok', o: '„Ktoś już dzwonił, jutro przyjeżdża”. Presja czasu ma wyłączyć ostrożność – nie decyduj w pośpiechu.' },
+              { t: 'Nieopłacone OC', o: 'Polisa ważna, ale opłacona w jednej racie. Po zakupie zadzwoń do ubezpieczyciela i zapytaj o płatności.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'slownik',
+        t: 'Co naprawdę znaczą zwroty z ogłoszeń?',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              '„bezwypadkowy” – nie widać śladów wypadku na pierwszy rzut oka, to nie gwarancja,',
+              '„garażowany” – ozdobnik, nic nie mówi o stanie auta,',
+              '„klima do nabicia” – klimatyzacja nie działa, a gaz zwykle ucieka przez nieszczelność,',
+              '„serwisowany w ASO” – dopytaj, czy tylko w okresie gwarancji.'
+            ]
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Czy wpłacać zaliczkę za używane auto?', a: 'Nie za auto, którego nie widziałeś. Fałszywe ogłoszenia z prośbą o zaliczkę lub opłatę za transport to jedno z najczęstszych oszustw.' },
+      { q: 'Co to jest kupno „na Niemca”?', a: 'Umowa z danymi poprzedniego właściciela zamiast faktycznego sprzedawcy. Kupujący traci możliwość dochodzenia roszczeń wobec osoby, która naprawdę sprzedała auto.' },
+      { q: 'Jak sprawdzić, czy sprzedawca to handlarz?', a: 'Zadzwoń i nie podawaj, o które auto chodzi – handlarz dopyta. Wpisz numer telefonu w wyszukiwarkę i sprawdź inne ogłoszenia z tym numerem.' }
+    ],
+    powiazane: ['jak-sprawdzic-czy-auto-jest-kradzione', 'cofniety-licznik-jak-sprawdzic-przebieg', 'umowa-kupna-sprzedazy-samochodu'],
+    zrodla: [Z.oszustwaAutoSwiat, Z.historia]
+  },
+  {
+    slug: 'ile-jest-warte-uzywane-auto',
+    kategoria: 'sprawdzenie',
+    ikona: 'cena',
+    tytul: 'Ile jest warte używane auto? Jak sprawdzić, czy cena jest uczciwa',
+    krotko: 'Uczciwa cena używanego auta',
+    opis: 'Jak porównać ogłoszenia, kiedy warto zapłacić za wycenę z bazy Eurotax lub Info-Ekspert i które cechy auta najbardziej zmieniają jego wartość.',
+    liczby: [
+      { w: '20–30', o: 'podobnych ogłoszeń warto porównać' },
+      { w: '2 bazy', o: 'wycen używane przez ubezpieczycieli' },
+      { w: 'płatne', o: 'wyceny z Eurotax i Info-Ekspert dla osób prywatnych' }
+    ],
+    sekcje: [
+      {
+        id: 'porownanie',
+        t: 'Jak samodzielnie oszacować cenę?',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Zawęź porównanie', o: 'Ten sam model, generacja, silnik, skrzynia i rocznik ±1 rok. Porównuj kilkanaście–kilkadziesiąt ogłoszeń, nie trzy.' },
+              { t: 'Odrzuć skrajności', o: 'Najtańsze oferty bywają rozbite lub „z niespodzianką”, najdroższe – życzeniowe. Patrz na środek stawki.' },
+              { t: 'Pamiętaj, że ogłoszenie to nie cena sprzedaży', o: 'Ceny w ogłoszeniach zwykle zostawiają miejsce na negocjacje.' },
+              { t: 'Skoryguj o stan i historię', o: 'Wyższy przebieg, szkody, brak historii serwisowej i braki w wyposażeniu obniżają wartość. Udokumentowana historia i jeden właściciel w Polsce – podnoszą.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'bazy',
+        t: 'Eurotax i Info-Ekspert – czy warto?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'To bazy wartości aut, z których korzystają ubezpieczyciele i rzeczoznawcy – m.in. przy szkodzie całkowitej czy ustalaniu sumy ubezpieczenia AC. Osoba prywatna też może zamówić wycenę, ale jest płatna. Podajesz w niej m.in. VIN lub numer rejestracyjny, datę pierwszej rejestracji i przebieg. Przy droższym aucie albo sporze z ubezpieczycielem taka wycena bywa warta swojej ceny.'
+          }
+        ]
+      },
+      {
+        id: 'co-wplywa',
+        t: 'Co najbardziej wpływa na wartość auta?',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'rocznik i data pierwszej rejestracji,',
+              'przebieg – zgodny z historią, nie tylko z licznikiem,',
+              'wersja silnika i wyposażenia,',
+              'stan techniczny i lakieru,',
+              'historia szkód i napraw – sprawdzona w raporcie, nie tylko „na słowo”,',
+              'popularność modelu – im więcej aut na rynku, tym łatwiej o części i kupca.'
+            ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'W atlasie MotoFormat sprawdzisz, ile egzemplarzy danego modelu jeździ w Polsce według CEPiK – popularny model łatwiej później sprzedać.'
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Jak sprawdzić, czy cena używanego auta jest uczciwa?', a: 'Porównaj kilkanaście–kilkadziesiąt ogłoszeń tego samego modelu, silnika i rocznika, odrzuć skrajne oferty i skoryguj cenę o przebieg, historię szkód i wyposażenie.' },
+      { q: 'Czy można za darmo wycenić auto w Eurotax?', a: 'Nie. Wycena z baz Eurotax i Info-Ekspert dla osób prywatnych jest płatna.' },
+      { q: 'Co obniża wartość używanego auta?', a: 'Wysoki lub niepewny przebieg, historia szkód, brak dokumentacji serwisowej, braki w wyposażeniu i zły stan techniczny lub lakieru.' }
+    ],
+    powiazane: ['cofniety-licznik-jak-sprawdzic-przebieg', 'oszustwa-przy-zakupie-auta', 'kupilem-auto-co-dalej'],
+    zrodla: [Z.eurotax, Z.oszustwaAutoSwiat]
   }
 ];
 
@@ -1871,6 +2270,51 @@ const DODATKI: Record<string, { seoTytul: string; seoOpis: string; skrot: string
       'Odśnieżasz szyby, dach, światła i tablice – za nieodśnieżone auto grozi nawet 3000 zł.',
       'Kable: czerwony plus–plus, czarny minus–masa. Odłączasz w odwrotnej kolejności.',
       'W mieście silnik na postoju może pracować najwyżej minutę – auta nie grzejemy na postoju.'
+    ]
+  },
+  'jak-sprawdzic-czy-auto-jest-kradzione': {
+    seoTytul: 'Jak sprawdzić, czy auto nie jest kradzione',
+    seoOpis: 'Sprawdź auto przed zakupem: VIN w kilku miejscach, Historia Pojazdu i UFG za darmo, dokumenty, kluczyki. Sygnały ostrzegawcze i co zrobić, gdy auto jest kradzione.',
+    skrot: [
+      'Numer VIN na szybie, tabliczce, nadwoziu i w dowodzie musi być identyczny – każda różnica to powód, żeby odpuścić.',
+      'Za darmo sprawdzisz auto na historiapojazdu.gov.pl i OC na ufg.pl. W razie wątpliwości – komisariat policji.',
+      'Zbyt niska cena, spotkanie „pod marketem” i brak drugiego kluczyka to sygnały ostrzegawcze.'
+    ]
+  },
+  'numer-vin-co-oznacza': {
+    seoTytul: 'Numer VIN – co oznacza i jak go odczytać',
+    seoOpis: 'Budowa numeru VIN: 17 znaków, kod producenta (WMI), opis auta (VDS) i numer seryjny (VIS). Jak odczytać rok z 10. znaku, kody popularnych marek i gdzie szukać VIN.',
+    skrot: [
+      'VIN ma 17 znaków: kod producenta (1–3), opis auta (4–9) i numer egzemplarza (10–17).',
+      '10. znak często oznacza rok modelowy (np. L – 2020, R – 2024), ale kod powtarza się co 30 lat.',
+      'Litery I, O i Q nigdy nie występują w VIN – to częsty sposób, by wyłapać pomyłkę lub fałszerstwo.'
+    ]
+  },
+  'cofniety-licznik-jak-sprawdzic-przebieg': {
+    seoTytul: 'Cofnięty licznik – jak sprawdzić przebieg auta',
+    seoOpis: 'Jak rozpoznać cofnięty licznik i sprawdzić prawdziwy przebieg: Historia Pojazdu, książka serwisowa, raport po VIN. Kara do 5 lat i co zrobić po zakupie takiego auta.',
+    skrot: [
+      'Cofanie licznika to przestępstwo – grozi do 5 lat więzienia, także zlecającemu.',
+      'Odczyty licznika z przeglądów i kontroli drogowych sprawdzisz za darmo na historiapojazdu.gov.pl.',
+      'Po zakupie masz rok od wykrycia oszustwa, by odstąpić od umowy albo żądać obniżenia ceny.'
+    ]
+  },
+  'oszustwa-przy-zakupie-auta': {
+    seoTytul: 'Oszustwa przy zakupie auta – jak się nie dać',
+    seoOpis: 'Najczęstsze oszustwa przy zakupie używanego auta: fałszywe ogłoszenia z zaliczką, kupno „na Niemca”, cofnięty licznik, podmiana części. Jak się bronić krok po kroku.',
+    skrot: [
+      'Nie wpłacaj zaliczki za auto, którego nie widziałeś – „auta widmo” to częsta pułapka.',
+      'Umowę podpisuj tylko z osobą, która faktycznie sprzedaje – nie „na Niemca”.',
+      'Sfotografuj auto przy oględzinach i porównaj w dniu odbioru – opony i akumulator potrafią „zniknąć”.'
+    ]
+  },
+  'ile-jest-warte-uzywane-auto': {
+    seoTytul: 'Ile jest warte używane auto – uczciwa cena',
+    seoOpis: 'Czy cena używanego auta jest uczciwa? Porównanie ogłoszeń krok po kroku, wycena Eurotax i Info-Ekspert oraz cechy, które najbardziej zmieniają wartość auta.',
+    skrot: [
+      'Porównaj kilkanaście–kilkadziesiąt ogłoszeń tego samego modelu, silnika i rocznika – i patrz na środek stawki.',
+      'Cena z ogłoszenia to nie cena sprzedaży – zwykle jest w niej miejsce na negocjacje.',
+      'Eurotax i Info-Ekspert to bazy ubezpieczycieli – wycena dla osoby prywatnej jest płatna.'
     ]
   },
   'jazda-we-mgle': {

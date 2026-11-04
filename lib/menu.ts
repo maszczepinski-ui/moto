@@ -39,7 +39,9 @@ export type Ikona =
   | 'import'
   | 'kontrola'
   | 'zima'
-  | 'wszystkie';
+  | 'wszystkie'
+  | 'licznik'
+  | 'kradziez';
 
 export interface PozycjaMenu {
   nazwa: string;
@@ -99,10 +101,10 @@ export function menuGlowne(): GrupaMenu[] {
         { nazwa: 'Umowa kupna-sprzedaży', opis: 'Wzór do wypełnienia i wydruku', adres: '/poradniki/umowa-kupna-sprzedazy-samochodu/', ikona: 'dokument' },
         { nazwa: 'Kolizja – co zrobić', opis: 'Bez policji? Oświadczenie sprawcy', adres: '/poradniki/kolizja-bez-policji/', ikona: 'kolizja' },
         { nazwa: 'Szkoda z OC sprawcy', opis: 'Terminy, auto zastępcze, wycena', adres: '/poradniki/odszkodowanie-z-oc-sprawcy/', ikona: 'szkoda', nowe: true },
-        { nazwa: 'Przegląd techniczny', opis: 'Cena 2026, terminy, kary', adres: '/poradniki/przeglad-techniczny-terminy-koszt/', ikona: 'przeglad', nowe: true },
+        { nazwa: 'Przegląd techniczny', opis: 'Cena 2026, terminy, kary', adres: '/poradniki/przeglad-techniczny-terminy-koszt/', ikona: 'przeglad' },
         { nazwa: 'Auto z zagranicy', opis: 'Akcyza, tłumaczenia, rejestracja', adres: '/poradniki/sprowadzenie-auta-z-zagranicy/', ikona: 'import', nowe: true },
-        { nazwa: 'Kontrola drogowa', opis: 'Prawa i obowiązki kierowcy', adres: '/poradniki/kontrola-drogowa-prawa-kierowcy/', ikona: 'kontrola', nowe: true },
-        { nazwa: 'Kupiłem auto', opis: 'PCC, rejestracja, OC – terminy i kary', adres: '/poradniki/kupilem-auto-co-dalej/', ikona: 'kluczyk' },
+        { nazwa: 'Cofnięty licznik', opis: 'Jak sprawdzić prawdziwy przebieg', adres: '/poradniki/cofniety-licznik-jak-sprawdzic-przebieg/', ikona: 'licznik', nowe: true },
+        { nazwa: 'Czy auto nie jest kradzione', opis: '6 kroków przed zakupem', adres: '/poradniki/jak-sprawdzic-czy-auto-jest-kradzione/', ikona: 'kradziez', nowe: true },
         { nazwa: 'Wszystkie poradniki', opis: `${PORADNIKI.length} poradników i 5 wzorów do druku`, adres: '/poradniki/', ikona: 'wszystkie' }
       ]
     },
