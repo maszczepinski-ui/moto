@@ -7,6 +7,8 @@
 //     Jeden szkic na tydzień: wszystkie wezwania aut osobowych z danego tygodnia, przetłumaczone na polski.
 //  2. Komunikaty – strony urzędów na gov.pl (treści na licencji CC BY-SA 4.0). Tylko tematy ważne dla kierowców.
 //  3. Premiery – kanały RSS biur prasowych producentów. Tylko nowe modele, wersje, ceny i wejścia na rynek.
+//     Zdjęcie prasowe pobieramy TYLKO ze źródeł oznaczonych w konfiguracji "zdjecia": true – czyli tam, gdzie regulamin
+//     biura prasowego pozwala mediom internetowym używać zdjęć w wiadomościach. Zdjęcie jest podpisane jako materiał prasowy producenta.
 //
 // Teksty pisze model językowy (Claude, klucz ANTHROPIC_API_KEY) – WŁASNYMI słowami, wyłącznie na podstawie faktów ze źródła,
 // ze źródłem podanym pod wpisem. Bez klucza powstają tylko surowe szkice akcji serwisowych (do uzupełnienia w panelu).
@@ -114,6 +116,49 @@ const dataZTekstu = (t) => {
   const m = (t || '').match(/\b(\d{2})\.(\d{2})\.(20\d{2})\b/);
   return m ? `${m[3]}-${m[2]}-${m[1]}` : '';
 };
+
+// ───────────── zdjęcia prasowe ─────────────
+const PUBLICZNE = process.env.KATALOG_ZDJEC || path.join(ROOT, 'public', 'aktualnosci');
+async function sharpModul() {
+  try {
+    return (await import('sharp')).default;
+  } catch {
+    if (!process.env.SHARP_DIR) return null;
+    const { createRequire } = await import('module');
+    return createRequire(path.join(process.env.SHARP_DIR, 'x.js'))('sharp');
+  }
+}
+/** Adres głównego zdjęcia z informacji prasowej: og:image strony, a gdy go brak – załącznik z RSS */
+function adresZdjecia(html, rssXml) {
+  const og = meta(html || '', 'og:image') || meta(html || '', 'twitter:image');
+  const rss = (rssXml || '').match(/<(?:enclosure|media:content)[^>]+url=["']([^"']+\.(?:jpe?g|png|webp)[^"']*)["']/i)?.[1] || '';
+  return og || rss;
+}
+/** Pobiera zdjęcie, zmniejsza do 1600 i 800 px (JPG) i zapisuje w public/aktualnosci/ */
+async function zapiszZdjecie(url, slug, alt, podpis) {
+  if (!url || !(await dozwolone(url))) return undefined;
+  await czekaj(800);
+  const r = await fetch(url, { headers: { 'user-agent': UA }, redirect: 'follow' });
+  const typ = r.headers.get('content-type') || '';
+  if (!r.ok || !/image\/(jpeg|png|webp)/.test(typ)) return undefined;
+  const bufor = Buffer.from(await r.arrayBuffer());
+  if (bufor.length > 15e6) return undefined;
+  const sharp = await sharpModul();
+  if (!sharp) {
+    log('  (brak biblioteki sharp – pomijam zdjęcie)');
+    return undefined;
+  }
+  const info = await sharp(bufor).metadata();
+  if (!info.width || info.width < 800) return undefined;
+  const duze = await sharp(bufor).rotate().resize({ width: 1600, withoutEnlargement: true }).jpeg({ quality: 80, mozjpeg: true }).toBuffer({ resolveWithObject: true });
+  const male = await sharp(bufor).rotate().resize({ width: 800, withoutEnlargement: true }).jpeg({ quality: 78, mozjpeg: true }).toBuffer();
+  if (!SUCHY) {
+    fs.mkdirSync(PUBLICZNE, { recursive: true });
+    fs.writeFileSync(path.join(PUBLICZNE, `${slug}.jpg`), duze.data);
+    fs.writeFileSync(path.join(PUBLICZNE, `${slug}-m.jpg`), male);
+  }
+  return { duze: `/aktualnosci/${slug}.jpg`, male: `/aktualnosci/${slug}-m.jpg`, szerokosc: duze.info.width, wysokosc: duze.info.height, alt, podpis, zrodlo: url };
+}
 
 // ───────────── stan ─────────────
 const stan = fs.existsSync(PRZETWORZONE) ? JSON.parse(fs.readFileSync(PRZETWORZONE, 'utf8')) : { klucze: [] };
@@ -282,7 +327,7 @@ Tłumacz wiernie sens, ale prostym językiem. Nie dopisuj niczego, czego nie ma 
 }
 
 // ───────────── wspólne: artykuł z jednego źródła ─────────────
-async function napiszZeZrodla({ typ, zrodlo, tytulZrodla, url, tekst, data }) {
+async function napiszZeZrodla({ typ, zrodlo, tytulZrodla, url, tekst, data, zdjecieUrl }) {
   const kand = kandydaci(`${tytulZrodla} ${tekst.slice(0, 4000)}`);
   const system =
     typ === 'komunikaty'
@@ -305,8 +350,17 @@ Format: {"istotne": true|false, "powod": "krótko", "tytul": "do 70 znaków, z m
     return false;
   }
   const dozwoloneKarty = new Set(kand.map((k) => k.slug));
+  const slug = wolnySlug(wynik.tytul || tytulZrodla);
+  let zdjecie;
+  if (zrodlo.zdjecia && zdjecieUrl) {
+    try {
+      zdjecie = await zapiszZdjecie(zdjecieUrl, slug, przytnij(wynik.tytul || tytulZrodla, 120), `Fot. ${zrodlo.podpisZdjec || zrodlo.nazwa} – materiały prasowe`);
+    } catch (e) {
+      log(`  (zdjęcie nie pobrane: ${e.message})`);
+    }
+  }
   zapisz({
-    slug: wolnySlug(wynik.tytul || tytulZrodla),
+    slug,
     typ,
     tytul: przytnij(wynik.tytul, 90) || tytulZrodla,
     lead: przytnij(wynik.lead, 260),
@@ -315,6 +369,7 @@ Format: {"istotne": true|false, "powod": "krótko", "tytul": "do 70 znaków, z m
     zrodla: [{ nazwa: `${zrodlo.nazwa}: ${przytnij(tytulZrodla, 120)}`, url }],
     ...(zrodlo.licencja ? { licencja: zrodlo.licencja } : {}),
     modele: (wynik.modele || []).filter((s) => dozwoloneKarty.has(s)),
+    ...(zdjecie ? { zdjecie } : {}),
     status: 'szkic',
     wygenerowano: new Date().toISOString()
   });
@@ -373,7 +428,7 @@ async function komunikaty() {
 
 // ───────────── 3. Premiery z RSS biur prasowych ─────────────
 function elementyRss(xml) {
-  const rss = [...xml.matchAll(/<item[\s>]([\s\S]*?)<\/item>/g)].map((m) => ({ tytul: tag(m[1], 'title'), link: tag(m[1], 'link') || tag(m[1], 'guid'), data: tag(m[1], 'pubDate') || tag(m[1], 'dc:date'), opis: tag(m[1], 'description') }));
+  const rss = [...xml.matchAll(/<item[\s>]([\s\S]*?)<\/item>/g)].map((m) => ({ tytul: tag(m[1], 'title'), link: tag(m[1], 'link') || tag(m[1], 'guid'), data: tag(m[1], 'pubDate') || tag(m[1], 'dc:date'), opis: tag(m[1], 'description'), surowy: m[1] }));
   const atom = [...xml.matchAll(/<entry[\s>]([\s\S]*?)<\/entry>/g)].map((m) => ({
     tytul: tag(m[1], 'title'),
     link: m[1].match(/<link[^>]*href=["']([^"']+)["']/)?.[1] || '',
@@ -414,16 +469,18 @@ async function premiery() {
     if (szkice >= KONFIG.limity.premiery) break;
     oznacz(`url:${e.link}`);
     let tekst = bezTagow(e.opis);
+    let zdjecieUrl = e.z.zdjecia ? adresZdjecia('', e.surowy) : '';
     try {
       const strona = await pobierz(e.link);
       const t = trescStrony(strona);
       if (t.length > tekst.length) tekst = t;
+      if (e.z.zdjecia) zdjecieUrl = adresZdjecia(strona, e.surowy);
     } catch (err) {
       log(`  (nie pobrano pełnej treści: ${err.message})`);
     }
     if (tekst.length < 300) continue;
     try {
-      if (await napiszZeZrodla({ typ: 'premiery', zrodlo: e.z, tytulZrodla: e.tytul, url: e.link, tekst, data: e.iso })) {
+      if (await napiszZeZrodla({ typ: 'premiery', zrodlo: e.z, tytulZrodla: e.tytul, url: e.link, tekst, data: e.iso, zdjecieUrl: zdjecieUrl ? new URL(zdjecieUrl, e.link).toString() : '' })) {
         szkice++;
         e.r.szkice++;
       }

@@ -22,7 +22,7 @@ type Wpis = {
   wygenerowano?: string;
   bezAI?: boolean;
 };
-type Zdjecie = { duze: string; male: string; szerokosc: number; wysokosc: number; alt: string; podpis: string };
+type Zdjecie = { duze: string; male: string; szerokosc: number; wysokosc: number; alt: string; podpis: string; zrodlo?: string };
 type Plik = { wpis: Wpis; sha: string };
 type Raport = { data: string; ai: boolean; zrodla: { nazwa: string; ok: boolean; nowe: number; szkice: number; blad?: string }[] };
 
@@ -75,6 +75,28 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
     }
   }
   const sciezkaPliku = (adres: string) => `public${adres.split('?')[0]}`;
+  /** Usuwa zdjęcie prasowe z wpisu (np. gdy nie pasuje do treści) */
+  async function usunZdjecie() {
+    if (!w?.zdjecie || !pliki || !window.confirm('Usunąć zdjęcie z tego wpisu? Zostanie automatyczna grafika.')) return;
+    setPraca(true);
+    try {
+      const stare = w.zdjecie;
+      const bez = { ...w };
+      delete bez.zdjecie;
+      const p = pliki.find((x) => x.wpis.slug === bez.slug);
+      const sha = await zapiszPlik(api, `data/aktualnosci/${bez.slug}.json`, JSON.stringify(bez, null, 2) + '\n', `Panel: usunięto zdjęcie z „${bez.tytul}”`, branch, p?.sha);
+      setPliki(pliki.map((x) => (x.wpis.slug === bez.slug ? { wpis: bez, sha } : x)));
+      setW(bez);
+      await usunPlik(sciezkaPliku(stare.duze), 'Panel: usunięto zdjęcie');
+      await usunPlik(sciezkaPliku(stare.male), 'Panel: usunięto miniaturę');
+      setKom({ ok: true, tekst: 'Zdjęcie usunięte.' });
+    } catch (e) {
+      setKom({ ok: false, tekst: `Nie udało się: ${(e as Error).message}` });
+    } finally {
+      setPraca(false);
+    }
+  }
+
   const ustaw = (zm: Partial<Wpis>) => w && setW({ ...w, ...zm });
   const ustawPozycje = (i: number, zm: Partial<Pozycja>) => w?.pozycje && setW({ ...w, pozycje: w.pozycje.map((p, j) => (j === i ? { ...p, ...zm } : p)) });
 
@@ -235,6 +257,29 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
             <textarea id="a-tr" className={`${input} min-h-[260px] leading-relaxed`} value={w.tresc} onChange={(e) => ustaw({ tresc: e.target.value })} />
             <p className="text-[11px] text-slate-500 mt-1">{w.tresc.split(/\s+/).filter(Boolean).length} słów</p>
           </div>
+
+          {w.zdjecie && (
+            <div className="rounded-xl border border-slate-200 dark:border-slate-800 p-4 space-y-3">
+              <span className={etykieta}>Zdjęcie prasowe producenta (pobrane automatycznie – sprawdź, czy pasuje do tekstu)</span>
+              {/* zdjęcie jest w repozytorium, a na stronie pojawi się po publikacji – w panelu pokazujemy oryginał z biura prasowego */}
+              {w.zdjecie.zrodlo && (
+                <a href={w.zdjecie.zrodlo} target="_blank" rel="noopener" className="inline-flex items-center gap-1 text-xs underline">
+                  zobacz zdjęcie w biurze prasowym <ExternalLink className="w-3 h-3" aria-hidden="true" />
+                </a>
+              )}
+              <div>
+                <label className={etykieta} htmlFor="z-alt">Opis zdjęcia (dla Google i osób niewidomych)</label>
+                <input id="z-alt" className={input} value={w.zdjecie.alt} onChange={(e) => ustaw({ zdjecie: { ...w.zdjecie!, alt: e.target.value } })} />
+              </div>
+              <div>
+                <label className={etykieta} htmlFor="z-pod">Podpis (zostaw informację, że to materiał prasowy)</label>
+                <input id="z-pod" className={input} value={w.zdjecie.podpis} onChange={(e) => ustaw({ zdjecie: { ...w.zdjecie!, podpis: e.target.value } })} />
+              </div>
+              <button type="button" onClick={usunZdjecie} disabled={praca} className={`${przyciskD} text-rose-700`}>
+                <Trash2 className="w-4 h-4" aria-hidden="true" /> Usuń zdjęcie
+              </button>
+            </div>
+          )}
 
           {w.pozycje && w.pozycje.length > 0 && (
             <div className="space-y-3">

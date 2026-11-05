@@ -32,8 +32,10 @@ export interface ZdjecieAktualnosci {
   wysokosc: number;
   /** opis dla niewidomych i Google */
   alt: string;
-  /** podpis pod zdjęciem, np. „Fot. Marcin Szczepiński / MotoRaport” */
+  /** podpis pod zdjęciem, np. „Fot. Škoda Auto – materiały prasowe” */
   podpis: string;
+  /** adres oryginalnego zdjęcia prasowego */
+  zrodlo?: string;
 }
 
 export interface Aktualnosc {

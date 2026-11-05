@@ -12,19 +12,97 @@
     "lista": "https://ec.europa.eu/safety-gate-alerts/api/download/weeklyReport/list/xml/en"
   },
   "komunikaty": [
-    { "nazwa": "Ministerstwo Infrastruktury", "lista": "https://www.gov.pl/web/infrastruktura/aktualnosci", "prefiks": "https://www.gov.pl/web/infrastruktura/", "licencja": "CC BY-SA 4.0" },
-    { "nazwa": "Ministerstwo Cyfryzacji", "lista": "https://www.gov.pl/web/cyfryzacja/aktualnosci", "prefiks": "https://www.gov.pl/web/cyfryzacja/", "licencja": "CC BY-SA 4.0" },
-    { "nazwa": "Główny Inspektorat Transportu Drogowego", "lista": "https://www.gov.pl/web/gitd/aktualnosci", "prefiks": "https://www.gov.pl/web/gitd/", "licencja": "CC BY-SA 4.0" },
-    { "nazwa": "GDDKiA", "lista": "https://www.gov.pl/web/gddkia/wiadomosci", "prefiks": "https://www.gov.pl/web/gddkia/", "licencja": "CC BY-SA 4.0" }
+    {
+      "nazwa": "Ministerstwo Infrastruktury",
+      "lista": "https://www.gov.pl/web/infrastruktura/aktualnosci",
+      "prefiks": "https://www.gov.pl/web/infrastruktura/",
+      "licencja": "CC BY-SA 4.0"
+    },
+    {
+      "nazwa": "Ministerstwo Cyfryzacji",
+      "lista": "https://www.gov.pl/web/cyfryzacja/aktualnosci",
+      "prefiks": "https://www.gov.pl/web/cyfryzacja/",
+      "licencja": "CC BY-SA 4.0"
+    },
+    {
+      "nazwa": "Główny Inspektorat Transportu Drogowego",
+      "lista": "https://www.gov.pl/web/gitd/aktualnosci",
+      "prefiks": "https://www.gov.pl/web/gitd/",
+      "licencja": "CC BY-SA 4.0"
+    },
+    {
+      "nazwa": "GDDKiA",
+      "lista": "https://www.gov.pl/web/gddkia/wiadomosci",
+      "prefiks": "https://www.gov.pl/web/gddkia/",
+      "licencja": "CC BY-SA 4.0"
+    }
   ],
-  "slowaKomunikaty": ["kierow", "samoch", "pojazd", "prawo jazdy", "prawa jazdy", "drog", "autostrad", "ekspresow", "mandat", "fotoradar", "rejestr", "cepik", "mobywatel", "przegląd", "badani", "ubezpiecz", "parkow", "opłat", "winiet", "elektromobil", "ładowar", "egzamin", "punkt", "tablic", "prędkoś", "ruchu drogowego"],
+  "slowaKomunikaty": [
+    "kierow",
+    "samoch",
+    "pojazd",
+    "prawo jazdy",
+    "prawa jazdy",
+    "drog",
+    "autostrad",
+    "ekspresow",
+    "mandat",
+    "fotoradar",
+    "rejestr",
+    "cepik",
+    "mobywatel",
+    "przegląd",
+    "badani",
+    "ubezpiecz",
+    "parkow",
+    "opłat",
+    "winiet",
+    "elektromobil",
+    "ładowar",
+    "egzamin",
+    "punkt",
+    "tablic",
+    "prędkoś",
+    "ruchu drogowego"
+  ],
   "prasa": [
-    { "nazwa": "Stellantis Polska – Peugeot", "rss": "https://www.media.stellantis.com/pl-pl/peugeot/rss" },
-    { "nazwa": "Stellantis Polska – Opel", "rss": "https://www.media.stellantis.com/pl-pl/opel/rss" },
-    { "nazwa": "Stellantis Polska – Citroën", "rss": "https://www.media.stellantis.com/pl-pl/citroen/rss" },
-    { "nazwa": "Stellantis Polska – Fiat", "rss": "https://www.media.stellantis.com/pl-pl/fiat/rss" },
-    { "nazwa": "Stellantis Polska – Jeep", "rss": "https://www.media.stellantis.com/pl-pl/jeep/rss" },
-    { "nazwa": "Škoda Storyboard", "rss": "https://www.skoda-storyboard.com/en/feed/" },
-    { "nazwa": "Toyota – biuro prasowe (Wielka Brytania)", "rss": "https://media.toyota.co.uk/feed/" }
-  ]
+    {
+      "nazwa": "Stellantis Polska – Peugeot",
+      "rss": "https://www.media.stellantis.com/pl-pl/peugeot/rss",
+      "zdjecia": false
+    },
+    {
+      "nazwa": "Stellantis Polska – Opel",
+      "rss": "https://www.media.stellantis.com/pl-pl/opel/rss",
+      "zdjecia": false
+    },
+    {
+      "nazwa": "Stellantis Polska – Citroën",
+      "rss": "https://www.media.stellantis.com/pl-pl/citroen/rss",
+      "zdjecia": false
+    },
+    {
+      "nazwa": "Stellantis Polska – Fiat",
+      "rss": "https://www.media.stellantis.com/pl-pl/fiat/rss",
+      "zdjecia": false
+    },
+    {
+      "nazwa": "Stellantis Polska – Jeep",
+      "rss": "https://www.media.stellantis.com/pl-pl/jeep/rss",
+      "zdjecia": false
+    },
+    {
+      "nazwa": "Škoda Storyboard",
+      "rss": "https://www.skoda-storyboard.com/en/press-releases/feed/",
+      "zdjecia": true,
+      "podpisZdjec": "Škoda Auto",
+      "zasadyZdjec": "Regulamin Škoda Storyboard: bez zgody wolno używać opublikowanych treści w odpowiednim zakresie w wiadomościach prasowych, internetowych, filmowych, radiowych i TV (sprawdzone 5.11.2026)."
+    },
+    {
+      "nazwa": "Toyota – biuro prasowe (Wielka Brytania)",
+      "rss": "https://media.toyota.co.uk/feed/",
+      "zdjecia": false
+    }
+  ],
+  "_zdjecia": "Zdjęcia prasowe pobieramy tylko ze źródeł z \"zdjecia\": true – po sprawdzeniu regulaminu biura prasowego. Stellantis i Toyota (Wielka Brytania) nie pozwalają używać swoich materiałów bez zgody, więc wpisy z nich są bez zdjęć (z automatyczną grafiką)."
 }

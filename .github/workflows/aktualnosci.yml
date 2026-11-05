@@ -26,8 +26,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Biblioteka do zdjęć (zmniejszanie zdjęć prasowych)
+        run: npm install --prefix "$RUNNER_TEMP/obrazy" --no-audit --no-fund sharp@0.35.5
       - name: Pobierz aktualności i napisz szkice
         env:
+          SHARP_DIR: ${{ runner.temp }}/obrazy
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MODEL: ${{ vars.MODEL_AI }}
         run: node scripts/aktualnosci.mjs
@@ -35,7 +38,7 @@ jobs:
         run: |
           git config user.name "Szkice aktualności"
           git config user.email "actions@users.noreply.github.com"
-          git add data/aktualnosci
+          git add data/aktualnosci public/aktualnosci
           if git diff --cached --quiet; then
             echo "Brak zmian."
           else
