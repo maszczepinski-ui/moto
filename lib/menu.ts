@@ -42,7 +42,11 @@ export type Ikona =
   | 'wszystkie'
   | 'licznik'
   | 'kradziez'
-  | 'ubezpieczenie';
+  | 'ubezpieczenie'
+  | 'serwis'
+  | 'urzad'
+  | 'premiera'
+  | 'aktualnosci';
 
 export interface PozycjaMenu {
   nazwa: string;
@@ -108,6 +112,16 @@ export function menuGlowne(): GrupaMenu[] {
         { nazwa: 'Cofnięty licznik', opis: 'Jak sprawdzić prawdziwy przebieg', adres: '/poradniki/cofniety-licznik-jak-sprawdzic-przebieg/', ikona: 'licznik', nowe: true },
         { nazwa: 'Czy auto nie jest kradzione', opis: '6 kroków przed zakupem', adres: '/poradniki/jak-sprawdzic-czy-auto-jest-kradzione/', ikona: 'kradziez', nowe: true },
         { nazwa: 'Wszystkie poradniki', opis: `${PORADNIKI.length} poradników i 5 wzorów do druku`, adres: '/poradniki/', ikona: 'wszystkie' }
+      ]
+    },
+    {
+      id: 'aktualnosci',
+      nazwa: 'Aktualności',
+      pozycje: [
+        { nazwa: 'Akcje serwisowe', opis: 'Wezwania aut do serwisu w UE', adres: '/aktualnosci/akcje-serwisowe/', ikona: 'serwis', nowe: true },
+        { nazwa: 'Komunikaty dla kierowców', opis: 'Nowe przepisy i zmiany w urzędach', adres: '/aktualnosci/komunikaty/', ikona: 'urzad', nowe: true },
+        { nazwa: 'Premiery i nowości', opis: 'Nowe modele i ceny w Polsce', adres: '/aktualnosci/premiery/', ikona: 'premiera', nowe: true },
+        { nazwa: 'Wszystkie aktualności', opis: 'Najnowsze wpisy ze wszystkich działów', adres: '/aktualnosci/', ikona: 'aktualnosci' }
       ]
     },
     {

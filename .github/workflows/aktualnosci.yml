@@ -1,0 +1,45 @@
+# Aktualności → szkice wpisów (data/aktualnosci). Szkice NIE są widoczne na stronie, dopóki nie zatwierdzisz ich w panelu admina (zakładka „Aktualności”).
+# Źródła: config/zrodla-aktualnosci.json (Safety Gate, gov.pl, biura prasowe producentów).
+# Uruchamia się codziennie rano i przyciskiem w panelu.
+# Potrzebny sekret w GitHubie (Settings → Secrets and variables → Actions): ANTHROPIC_API_KEY (ten sam co do artykułów z filmów).
+# Bez niego powstają tylko surowe szkice akcji serwisowych.
+name: Aktualności → szkice
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aktualnosci
+  cancel-in-progress: false
+
+jobs:
+  szkice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Pobierz aktualności i napisz szkice
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MODEL: ${{ vars.MODEL_AI }}
+        run: node scripts/aktualnosci.mjs
+      - name: Zapisz szkice
+        run: |
+          git config user.name "Szkice aktualności"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/aktualnosci
+          if git diff --cached --quiet; then
+            echo "Brak zmian."
+          else
+            git commit -m "Szkice aktualności $(date +%F)"
+            git pull --rebase
+            git push
+          fi

@@ -21,6 +21,7 @@ import SekcjaOponGlowna from '@/components/SekcjaOponGlowna';
 import SekcjaPoradnikowGlowna from '@/components/SekcjaPoradnikowGlowna';
 import SekcjaOcGlowna from '@/components/SekcjaOcGlowna';
 import SekcjaNajnowszyPoradnik from '@/components/SekcjaNajnowszyPoradnik';
+import SekcjaAktualnosciGlowna from '@/components/SekcjaAktualnosciGlowna';
 import { NAZWY_KATEGORII } from '@/lib/wpisy';
 import { PlayCircle } from 'lucide-react';
 
@@ -265,6 +266,9 @@ export default function HomePage() {
 
         {/* Najnowszy poradnik (nowy co tydzień) */}
         <SekcjaNajnowszyPoradnik />
+
+        {/* Aktualności: akcje serwisowe, komunikaty, premiery (tylko opublikowane) */}
+        <SekcjaAktualnosciGlowna />
 
         {/* Poradniki: kolizja i wzory dokumentów */}
         <SekcjaPoradnikowGlowna />

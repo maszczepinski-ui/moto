@@ -1,0 +1,30 @@
+{
+  "_opis": "Źródła aktualności. Automat (scripts/aktualnosci.mjs) codziennie sprawdza te adresy i tworzy SZKICE. Na stronie pojawiają się dopiero po zatwierdzeniu w panelu admina. Dodawaj tylko źródła, z których wolno korzystać: oficjalne dane (Safety Gate), strony urzędów (gov.pl – licencja CC BY-SA 4.0) i biura prasowe producentów. Nie dodawaj portali z newsami innych redakcji.",
+  "limity": {
+    "akcjeTygodni": 2,
+    "komunikaty": 3,
+    "premiery": 3,
+    "maksWiekDni": 21
+  },
+  "safetyGate": {
+    "wlaczony": true,
+    "nazwa": "Safety Gate – unijny system ostrzegania o niebezpiecznych produktach (Komisja Europejska)",
+    "lista": "https://ec.europa.eu/safety-gate-alerts/api/download/weeklyReport/list/xml/en"
+  },
+  "komunikaty": [
+    { "nazwa": "Ministerstwo Infrastruktury", "lista": "https://www.gov.pl/web/infrastruktura/aktualnosci", "prefiks": "https://www.gov.pl/web/infrastruktura/", "licencja": "CC BY-SA 4.0" },
+    { "nazwa": "Ministerstwo Cyfryzacji", "lista": "https://www.gov.pl/web/cyfryzacja/aktualnosci", "prefiks": "https://www.gov.pl/web/cyfryzacja/", "licencja": "CC BY-SA 4.0" },
+    { "nazwa": "Główny Inspektorat Transportu Drogowego", "lista": "https://www.gov.pl/web/gitd/aktualnosci", "prefiks": "https://www.gov.pl/web/gitd/", "licencja": "CC BY-SA 4.0" },
+    { "nazwa": "GDDKiA", "lista": "https://www.gov.pl/web/gddkia/wiadomosci", "prefiks": "https://www.gov.pl/web/gddkia/", "licencja": "CC BY-SA 4.0" }
+  ],
+  "slowaKomunikaty": ["kierow", "samoch", "pojazd", "prawo jazdy", "prawa jazdy", "drog", "autostrad", "ekspresow", "mandat", "fotoradar", "rejestr", "cepik", "mobywatel", "przegląd", "badani", "ubezpiecz", "parkow", "opłat", "winiet", "elektromobil", "ładowar", "egzamin", "punkt", "tablic", "prędkoś", "ruchu drogowego"],
+  "prasa": [
+    { "nazwa": "Stellantis Polska – Peugeot", "rss": "https://www.media.stellantis.com/pl-pl/peugeot/rss" },
+    { "nazwa": "Stellantis Polska – Opel", "rss": "https://www.media.stellantis.com/pl-pl/opel/rss" },
+    { "nazwa": "Stellantis Polska – Citroën", "rss": "https://www.media.stellantis.com/pl-pl/citroen/rss" },
+    { "nazwa": "Stellantis Polska – Fiat", "rss": "https://www.media.stellantis.com/pl-pl/fiat/rss" },
+    { "nazwa": "Stellantis Polska – Jeep", "rss": "https://www.media.stellantis.com/pl-pl/jeep/rss" },
+    { "nazwa": "Škoda Storyboard", "rss": "https://www.skoda-storyboard.com/en/feed/" },
+    { "nazwa": "Toyota – biuro prasowe (Wielka Brytania)", "rss": "https://media.toyota.co.uk/feed/" }
+  ]
+}

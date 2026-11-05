@@ -1,4 +1,5 @@
 import { PORADNIKI, dataAktualizacji } from '@/lib/poradniki';
+import { opublikowaneAktualnosci, aktualnosciTypu, TYPY, type TypAktualnosci } from '@/lib/aktualnosci';
 // Mapy strony dla Google: indeks (/sitemap.xml) + mapy tematyczne (/sitemaps/*.xml), max 5000 adresów w pliku
 import { getAllModels } from '@/lib/models';
 import { listaWojewodztw, rankingi, marki } from '@/lib/dane';
@@ -63,6 +64,15 @@ function grupy(): Record<string, Adres[]> {
       ...PREDKOSC.map((p) => ({ loc: `/mandaty/predkosc/${p.slug}/`, changefreq: 'yearly', priority: 0.6 })),
       ...wszystkieTrasy().map((t) => ({ loc: `/koszt-trasy/${t.id}/`, changefreq: 'monthly', priority: 0.5 }))
     ],
+    aktualnosci: opublikowaneAktualnosci().length
+      ? [
+          { loc: '/aktualnosci/', lastmod: opublikowaneAktualnosci()[0].data, changefreq: 'daily', priority: 0.8 },
+          ...(Object.keys(TYPY) as TypAktualnosci[])
+            .filter((t) => aktualnosciTypu(t).length)
+            .map((t) => ({ loc: `/aktualnosci/${t}/`, lastmod: aktualnosciTypu(t)[0].data, changefreq: 'daily', priority: 0.7 })),
+          ...opublikowaneAktualnosci().map((a) => ({ loc: `/aktualnosci/${a.slug}/`, lastmod: a.data, changefreq: 'monthly', priority: 0.6 }))
+        ]
+      : [],
     'kody-bledow': [{ loc: '/kody-bledow/', changefreq: 'monthly', priority: 0.6 }, ...KODY.map((k) => ({ loc: `/kody-bledow/${k.kod.toLowerCase()}/`, changefreq: 'yearly', priority: 0.5 }))]
   };
   const pary = wszystkiePary().map((p) => ({ loc: `/porownaj/${p.id}/`, changefreq: 'monthly', priority: 0.5 }));

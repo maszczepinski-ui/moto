@@ -11,12 +11,13 @@
 import { useEffect, useMemo, useState } from 'react';
 import Aktualizacje from '@/components/admin/Aktualizacje';
 import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
+import AktualnosciAdmin from '@/components/admin/Aktualnosci';
 import ProduktyRankingi from '@/components/admin/ProduktyRankingi';
 import OpisFilmu from '@/components/admin/OpisFilmu';
 import LogoIkona, { type Marka } from '@/components/admin/LogoIkona';
 import { site } from '@/config/site';
 import {
-  KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard,
+  KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard, Newspaper,
   Fuel,
   Palette
 } from 'lucide-react';
@@ -164,7 +165,7 @@ function Przelacznik({ wlaczony, onChange, label }: { wlaczony: boolean; onChang
   );
 }
 
-type Zakladka = 'linki' | 'filmy' | 'artykuly' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
+type Zakladka = 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
 
 export default function AdminPanel({
   modele,
@@ -378,6 +379,7 @@ export default function AdminPanel({
     ['linki', 'Linki i moduły', <Link2 key="i" className="w-4 h-4" />],
     ['filmy', 'Filmy na kartach', <Film key="i" className="w-4 h-4" />],
     ['artykuly', 'Artykuły z filmów', <Clapperboard key="i" className="w-4 h-4" />],
+    ['aktualnosci', 'Aktualności', <Newspaper key="i" className="w-4 h-4" />],
     ['produkty', 'Produkty i rankingi', <Package key="i" className="w-4 h-4" />],
     ['kody', 'Kody', <Code2 key="i" className="w-4 h-4" />],
     ['seo', 'SEO, reklamy i ceny', <Megaphone key="i" className="w-4 h-4" />],
@@ -908,6 +910,7 @@ export default function AdminPanel({
           {/* ===================== AKTUALIZACJE ===================== */}
           {zakladka === 'aktualizacje' && <Aktualizacje api={api} branch={branch} stanDanych={stanDanych} />}
           {zakladka === 'artykuly' && <ArtykulyFilmow api={api} branch={branch} modele={modele} />}
+          {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} />}
           {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
           {zakladka === 'wyglad' && <LogoIkona api={api} branch={branch} marka={dane.marka} zmiany={zmiany} onZapisano={wczytaj} />}
 
@@ -969,7 +972,7 @@ export default function AdminPanel({
           )}
 
           {/* przycisk zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje) mają własne przyciski */}
-          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'produkty', 'aktualizacje', 'wyglad'].includes(zakladka) ? 'hidden' : ''}`}>
+          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'aktualnosci', 'produkty', 'aktualizacje', 'wyglad'].includes(zakladka) ? 'hidden' : ''}`}>
             <button
               type="button"
               onClick={zapisz}
