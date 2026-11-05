@@ -66,10 +66,10 @@ export default function MenuGlowne({
     g.pozycje.some((p) => sciezka?.startsWith(p.adres));
 
   return (
-    <div ref={pasek} className="flex items-center gap-1">
+    <div ref={pasek} className="flex flex-shrink-0 items-center gap-1">
       <nav
         aria-label="Menu główne"
-        className="hidden xl:flex items-center gap-0.5 text-sm font-semibold"
+        className="hidden xl:flex items-center gap-0.5 text-sm font-semibold whitespace-nowrap"
       >
         {grupy.map((g, i) => (
           <div key={g.id} className="relative">
@@ -78,7 +78,7 @@ export default function MenuGlowne({
               aria-expanded={otwarta === g.id}
               aria-controls={`menu-${g.id}`}
               onClick={() => setOtwarta((o) => (o === g.id ? null : g.id))}
-              className={`inline-flex items-center gap-1 px-3 py-2 rounded-lg transition-colors ${
+              className={`inline-flex items-center gap-1 px-2.5 py-2 rounded-lg whitespace-nowrap transition-colors ${
                 otwarta === g.id || aktywna(g)
                   ? "text-steel-700 dark:text-steel-300 bg-steel-50 dark:bg-slate-800"
                   : "text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800"
@@ -134,7 +134,7 @@ export default function MenuGlowne({
         aria-label={`Kanał ${youtubeNazwa} na YouTube`}
       >
         <YouTubeIcon className="w-5 h-5" />
-        <span className="hidden 2xl:inline text-sm">YouTube</span>
+        <span className="sr-only">YouTube</span>
       </a>
 
       <button

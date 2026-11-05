@@ -27,7 +27,7 @@ export default function Navbar() {
           )}
           <div className={`flex flex-col min-w-0 ${m.logo ? (m.logoTryb === 'zamiast' ? 'sr-only' : 'max-sm:sr-only') : ''}`}>
             <span className="font-bold text-slate-900 dark:text-white leading-tight">{site.name}</span>
-            <span className="hidden md:block text-[11px] font-semibold text-rust-600 dark:text-rust-500 tracking-wide truncate">{site.tagline}</span>
+            <span className="hidden md:block xl:hidden text-[11px] font-semibold text-rust-600 dark:text-rust-500 tracking-wide truncate">{site.tagline}</span>
           </div>
         </Link>
         <MenuGlowne grupy={menuGlowne()} youtube={site.youtubeChannelUrl} youtubeNazwa={site.youtubeChannelName} />
