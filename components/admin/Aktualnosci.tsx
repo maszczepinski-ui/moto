@@ -1,7 +1,7 @@
 'use client';
 // Zakładka „Aktualności”: szkice z automatu (akcje serwisowe, komunikaty, premiery) – czytasz, poprawiasz i publikujesz.
 import { useEffect, useState } from 'react';
-import { RefreshCw, Play, Save, Send, Trash2, X, ExternalLink, Newspaper, Undo2, CircleCheck, CircleAlert, ImagePlus } from 'lucide-react';
+import { RefreshCw, Play, Save, Send, Trash2, X, ExternalLink, Newspaper, Undo2, CircleCheck, CircleAlert } from 'lucide-react';
 import { ApiPelne, input, etykieta, karta, przyciskG, przyciskD, czytajJson, zapiszPlik } from '@/components/admin/wspolne';
 
 type Pozycja = { marka: string; model: string; problem: string; zalecenie: string; produkcja?: string; kodAkcji?: string; poziom?: string; kraj?: string; link: string; karta?: string };
@@ -23,38 +23,6 @@ type Wpis = {
   bezAI?: boolean;
 };
 type Zdjecie = { duze: string; male: string; szerokosc: number; wysokosc: number; alt: string; podpis: string };
-type Przygotowane = { duze: string; male: string; szerokosc: number; wysokosc: number; zrodloSzer: number; podglad: string };
-
-const PODPIS_DOMYSLNY = 'Fot. Marcin Szczepiński / MotoRaport';
-
-/** Plik → data URL (blob: jest zablokowany przez zabezpieczenia strony, data: jest dozwolone) */
-const czytajPlik = (f: File) =>
-  new Promise<string>((ok, zle) => {
-    const r = new FileReader();
-    r.onload = () => ok(String(r.result));
-    r.onerror = () => zle(new Error('Nie mogę odczytać pliku'));
-    r.readAsDataURL(f);
-  });
-const wczytajObraz = (src: string) =>
-  new Promise<HTMLImageElement>((ok, zle) => {
-    const i = new Image();
-    i.onload = () => ok(i);
-    i.onerror = () => zle(new Error('To nie jest obsługiwany obraz (użyj JPG, PNG lub WebP)'));
-    i.src = src;
-  });
-/** Zmniejsza zdjęcie do podanej szerokości i zapisuje jako JPG (base64 bez nagłówka) */
-function zmniejsz(img: HTMLImageElement, maxW: number): { b64: string; w: number; h: number; dataUrl: string } {
-  const w = Math.min(maxW, img.naturalWidth);
-  const h = Math.round((img.naturalHeight * w) / img.naturalWidth);
-  const c = document.createElement('canvas');
-  c.width = w;
-  c.height = h;
-  const ctx = c.getContext('2d')!;
-  ctx.imageSmoothingQuality = 'high';
-  ctx.drawImage(img, 0, 0, w, h);
-  const dataUrl = c.toDataURL('image/jpeg', 0.82);
-  return { b64: dataUrl.split(',')[1], w, h, dataUrl };
-}
 type Plik = { wpis: Wpis; sha: string };
 type Raport = { data: string; ai: boolean; zrodla: { nazwa: string; ok: boolean; nowe: number; szkice: number; blad?: string }[] };
 
@@ -69,10 +37,6 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
   const [w, setW] = useState<Wpis | null>(null);
   const [kom, setKom] = useState<{ ok: boolean; tekst: string } | null>(null);
   const [praca, setPraca] = useState(false);
-  const [foto, setFoto] = useState<Przygotowane | null>(null);
-  const [fotoAlt, setFotoAlt] = useState('');
-  const [fotoPodpis, setFotoPodpis] = useState(PODPIS_DOMYSLNY);
-  const [fotoPrawa, setFotoPrawa] = useState(false);
 
   async function wczytaj() {
     try {
@@ -100,23 +64,6 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
     setOtwarty(p.wpis.slug);
     setW(JSON.parse(JSON.stringify(p.wpis)));
     setKom(null);
-    setFoto(null);
-    setFotoAlt(p.wpis.zdjecie?.alt || '');
-    setFotoPodpis(p.wpis.zdjecie?.podpis || PODPIS_DOMYSLNY);
-    setFotoPrawa(false);
-  }
-
-  async function wybierzZdjecie(f?: File) {
-    if (!f) return;
-    try {
-      const img = await wczytajObraz(await czytajPlik(f));
-      const duze = zmniejsz(img, 1600);
-      const male = zmniejsz(img, 800);
-      setFoto({ duze: duze.b64, male: male.b64, szerokosc: duze.w, wysokosc: duze.h, zrodloSzer: img.naturalWidth, podglad: male.dataUrl });
-      setKom(null);
-    } catch (e) {
-      setKom({ ok: false, tekst: (e as Error).message });
-    }
   }
 
   async function usunPlik(sciezka: string, opis: string) {
@@ -128,92 +75,6 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
     }
   }
   const sciezkaPliku = (adres: string) => `public${adres.split('?')[0]}`;
-  const b64Tekst = (t: string) => {
-    const b = new TextEncoder().encode(t);
-    let x = '';
-    b.forEach((c) => (x += String.fromCharCode(c)));
-    return btoa(x);
-  };
-
-  /** Jeden commit: zdjęcia + plik wpisu (+ usunięcie starych zdjęć) – strona przebudowuje się tylko raz */
-  async function jedenCommit(zmiany: { sciezka: string; b64: string | null }[], opis: string) {
-    const apiX = api as unknown as (s: string, m?: string, b?: object) => Promise<any>; // eslint-disable-line @typescript-eslint/no-explicit-any
-    const ref = await apiX(`/git/ref/heads/${branch}`);
-    const rodzic = ref.object.sha as string;
-    const commit = await apiX(`/git/commits/${rodzic}`);
-    const drzewo = [];
-    for (const z of zmiany) {
-      if (z.b64 === null) drzewo.push({ path: z.sciezka, mode: '100644', type: 'blob', sha: null });
-      else {
-        const blob = await apiX('/git/blobs', 'POST', { content: z.b64, encoding: 'base64' });
-        drzewo.push({ path: z.sciezka, mode: '100644', type: 'blob', sha: blob.sha });
-      }
-    }
-    const nowe = await apiX('/git/trees', 'POST', { base_tree: commit.tree.sha, tree: drzewo });
-    const nowyC = await apiX('/git/commits', 'POST', { message: `Panel: ${opis}`, tree: nowe.sha, parents: [rodzic] });
-    await apiX(`/git/refs/heads/${branch}`, 'PATCH', { sha: nowyC.sha });
-  }
-  /** Po commicie przez Git API – odśwież sha pliku wpisu, żeby kolejne zapisy działały */
-  async function poZapisie(nowy: Wpis, komunikat: string) {
-    const { sha } = await api(`/contents/data/aktualnosci/${nowy.slug}.json?ref=${branch}`);
-    setPliki((pl) => (pl || []).map((x) => (x.wpis.slug === nowy.slug ? { wpis: nowy, sha } : x)));
-    setW(nowy);
-    setKom({ ok: true, tekst: `${komunikat}${nowy.status === 'opublikowany' ? ' Na stronie zmiana pojawi się po przebudowie (kilka minut).' : ''}` });
-  }
-  /** Czy plik istnieje w repozytorium (usuwanie nieistniejącego pliku w drzewie kończy się błędem) */
-  async function istnieje(sciezka: string) {
-    try {
-      await api(`/contents/${sciezka}?ref=${branch}`);
-      return true;
-    } catch {
-      return false;
-    }
-  }
-
-  /** Wgrywa zdjęcie (2 rozmiary) i zapisuje wpis z nowym zdjęciem – jednym commitem */
-  async function wgrajZdjecie() {
-    if (!w || !foto) return;
-    if (!fotoPrawa) return setKom({ ok: false, tekst: 'Potwierdź, że to Twoje zdjęcie albo masz prawo go użyć.' });
-    if (fotoAlt.trim().length < 10) return setKom({ ok: false, tekst: 'Opisz, co jest na zdjęciu (np. „Nowy Peugeot 208 w kolorze czerwonym, widok z przodu”) – to ważne dla Google i osób niewidomych.' });
-    setPraca(true);
-    try {
-      const znak = Date.now().toString(36);
-      const duze = `/aktualnosci/${w.slug}-${znak}.jpg`;
-      const male = `/aktualnosci/${w.slug}-${znak}-m.jpg`;
-      const nowy: Wpis = { ...w, zdjecie: { duze, male, szerokosc: foto.szerokosc, wysokosc: foto.wysokosc, alt: fotoAlt.trim(), podpis: fotoPodpis.trim() } };
-      const zmiany: { sciezka: string; b64: string | null }[] = [
-        { sciezka: sciezkaPliku(duze), b64: foto.duze },
-        { sciezka: sciezkaPliku(male), b64: foto.male },
-        { sciezka: `data/aktualnosci/${w.slug}.json`, b64: b64Tekst(JSON.stringify(nowy, null, 2) + '\n') }
-      ];
-      for (const stary of w.zdjecie ? [w.zdjecie.duze, w.zdjecie.male] : []) if (await istnieje(sciezkaPliku(stary))) zmiany.push({ sciezka: sciezkaPliku(stary), b64: null });
-      await jedenCommit(zmiany, `zdjęcie do „${w.tytul}”`);
-      await poZapisie(nowy, 'Zdjęcie zapisane.');
-      setFoto(null);
-    } catch (e) {
-      setKom({ ok: false, tekst: `Nie udało się wgrać zdjęcia: ${(e as Error).message}` });
-    } finally {
-      setPraca(false);
-    }
-  }
-
-  async function usunZdjecie() {
-    if (!w?.zdjecie || !window.confirm('Usunąć zdjęcie z tego wpisu?')) return;
-    setPraca(true);
-    try {
-      const bez = { ...w };
-      delete bez.zdjecie;
-      const zmiany: { sciezka: string; b64: string | null }[] = [{ sciezka: `data/aktualnosci/${w.slug}.json`, b64: b64Tekst(JSON.stringify(bez, null, 2) + '\n') }];
-      for (const stary of [w.zdjecie.duze, w.zdjecie.male]) if (await istnieje(sciezkaPliku(stary))) zmiany.push({ sciezka: sciezkaPliku(stary), b64: null });
-      await jedenCommit(zmiany, `usunięto zdjęcie z „${w.tytul}”`);
-      await poZapisie(bez, 'Zdjęcie usunięte.');
-    } catch (e) {
-      setKom({ ok: false, tekst: `Nie udało się: ${(e as Error).message}` });
-    } finally {
-      setPraca(false);
-    }
-  }
-
   const ustaw = (zm: Partial<Wpis>) => w && setW({ ...w, ...zm });
   const ustawPozycje = (i: number, zm: Partial<Pozycja>) => w?.pozycje && setW({ ...w, pozycje: w.pozycje.map((p, j) => (j === i ? { ...p, ...zm } : p)) });
 
@@ -373,55 +234,6 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
             <label className={etykieta} htmlFor="a-tr">Treść – „## Nagłówek”, „- punkt”, **pogrubienie**</label>
             <textarea id="a-tr" className={`${input} min-h-[260px] leading-relaxed`} value={w.tresc} onChange={(e) => ustaw({ tresc: e.target.value })} />
             <p className="text-[11px] text-slate-500 mt-1">{w.tresc.split(/\s+/).filter(Boolean).length} słów</p>
-          </div>
-
-          <div className="rounded-xl border border-slate-200 dark:border-slate-800 p-4 space-y-3">
-            <span className={etykieta}>Zdjęcie (opcjonalnie) – tylko Twoje własne, np. kadr z filmu albo zdjęcie z prezentacji auta</span>
-            {w.zdjecie && !foto && (
-              <div className="space-y-2">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={w.zdjecie.male} alt={w.zdjecie.alt} className="w-full max-w-sm rounded-lg" />
-                <p className="text-xs text-slate-500">{w.zdjecie.podpis} · {w.zdjecie.szerokosc}×{w.zdjecie.wysokosc} px</p>
-                <button type="button" onClick={usunZdjecie} disabled={praca} className={`${przyciskD} text-rose-700`}>
-                  <Trash2 className="w-4 h-4" aria-hidden="true" /> Usuń zdjęcie
-                </button>
-              </div>
-            )}
-            <label className={`${przyciskD} cursor-pointer`}>
-              <ImagePlus className="w-4 h-4" aria-hidden="true" /> {w.zdjecie ? 'Zmień zdjęcie' : 'Wybierz zdjęcie'}
-              <input type="file" accept="image/jpeg,image/png,image/webp" className="sr-only" onChange={(e) => wybierzZdjecie(e.target.files?.[0])} />
-            </label>
-            {foto && (
-              <div className="space-y-3">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={foto.podglad} alt="Podgląd" className="w-full max-w-sm rounded-lg" />
-                {foto.zrodloSzer < 1200 && (
-                  <p className="text-xs text-amber-800 bg-amber-50 rounded-lg px-3 py-2">
-                    Zdjęcie ma tylko {foto.zrodloSzer} px szerokości. Google Discover pokazuje zdjęcia od 1200 px – jeśli możesz, użyj większego.
-                  </p>
-                )}
-                <div>
-                  <label className={etykieta} htmlFor="z-alt">Co jest na zdjęciu? (opis dla Google i osób niewidomych)</label>
-                  <input id="z-alt" className={input} value={fotoAlt} onChange={(e) => setFotoAlt(e.target.value)} placeholder="np. Nowy Peugeot 208 w kolorze czerwonym, widok z przodu" />
-                </div>
-                <div>
-                  <label className={etykieta} htmlFor="z-pod">Podpis pod zdjęciem</label>
-                  <input id="z-pod" className={input} value={fotoPodpis} onChange={(e) => setFotoPodpis(e.target.value)} />
-                </div>
-                <label className="flex items-start gap-2 text-sm">
-                  <input type="checkbox" checked={fotoPrawa} onChange={(e) => setFotoPrawa(e.target.checked)} className="mt-1" />
-                  <span>To moje zdjęcie albo mam pisemną zgodę na jego użycie. Nie wgrywam zdjęć z internetu ani z biur prasowych.</span>
-                </label>
-                <div className="flex flex-wrap gap-2">
-                  <button type="button" onClick={wgrajZdjecie} disabled={praca} className={przyciskG}>
-                    <ImagePlus className="w-4 h-4" aria-hidden="true" /> Wgraj zdjęcie
-                  </button>
-                  <button type="button" onClick={() => setFoto(null)} disabled={praca} className={przyciskD}>
-                    Anuluj
-                  </button>
-                </div>
-              </div>
-            )}
           </div>
 
           {w.pozycje && w.pozycje.length > 0 && (
