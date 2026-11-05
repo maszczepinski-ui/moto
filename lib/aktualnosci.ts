@@ -23,6 +23,19 @@ export interface PozycjaAkcji {
   karta?: string;
 }
 
+export interface ZdjecieAktualnosci {
+  /** ok. 1600 px szerokości, np. /aktualnosci/nowy-peugeot-208.jpg */
+  duze: string;
+  /** ok. 800 px – do kafelków */
+  male: string;
+  szerokosc: number;
+  wysokosc: number;
+  /** opis dla niewidomych i Google */
+  alt: string;
+  /** podpis pod zdjęciem, np. „Fot. Marcin Szczepiński / MotoRaport” */
+  podpis: string;
+}
+
 export interface Aktualnosc {
   slug: string;
   typ: TypAktualnosci;
@@ -41,6 +54,8 @@ export interface Aktualnosc {
   marki?: string[];
   /** tylko akcje serwisowe: lista wezwań z tygodnia */
   pozycje?: PozycjaAkcji[];
+  /** własne zdjęcie (wgrane w panelu) – pliki w public/aktualnosci/ */
+  zdjecie?: ZdjecieAktualnosci;
   status: 'szkic' | 'opublikowany';
   wygenerowano?: string;
   /** szkic bez tekstu od modelu językowego (brak klucza) – wymaga uzupełnienia */
@@ -92,3 +107,6 @@ export const opublikowaneAktualnosci = () => wszystkieAktualnosci().filter((a) =
 export const aktualnoscPoSlugu = (s: string) => opublikowaneAktualnosci().find((a) => a.slug === s);
 export const aktualnosciTypu = (t: TypAktualnosci) => opublikowaneAktualnosci().filter((a) => a.typ === t);
 export const najnowszeAktualnosci = (ile = 3) => opublikowaneAktualnosci().slice(0, ile);
+
+/** Liczby i jednostki nie łamią się na końcu linii (79 900 zł, 150 km) */
+export const bezLamania = (t: string) => t.replace(/(\d) (?=\d{3}\b)/g, '$1\u00a0').replace(/(\d) (zł|km|KM|kWh|l|r\.)/g, '$1\u00a0$2');

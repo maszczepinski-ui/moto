@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ExternalLink, Car, ArrowRight, ShieldAlert, CalendarDays, Factory } from 'lucide-react';
 import Okruszki from '@/components/Okruszki';
-import { TYPY, jestTypem, aktualnoscPoSlugu, aktualnosciTypu, opublikowaneAktualnosci, type Aktualnosc, type TypAktualnosci } from '@/lib/aktualnosci';
+import { bezLamania, TYPY, jestTypem, aktualnoscPoSlugu, aktualnosciTypu, opublikowaneAktualnosci, type Aktualnosc, type TypAktualnosci } from '@/lib/aktualnosci';
 import { SiatkaAktualnosci, ZakladkiTypow, PustaLista, ChipTypu, STYL_TYPU } from '@/components/aktualnosci/ListaAktualnosci';
 import { getModelBySlug } from '@/lib/models';
 import { nazwaKarty } from '@/lib/opis';
@@ -39,6 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: a.tytul,
     description: a.lead,
     alternates: { canonical: `/aktualnosci/${a.slug}/` },
+    robots: { index: true, follow: true, 'max-image-preview': 'large' },
     openGraph: { type: 'article', url: `/aktualnosci/${a.slug}/`, title: a.tytul, description: a.lead, publishedTime: a.data, siteName: site.name, locale: 'pl_PL' }
   };
 }
@@ -146,7 +147,8 @@ function Wpis({ a }: { a: Aktualnosc }) {
     mainEntityOfPage: adres,
     author: { '@type': 'Person', name: site.author, url: site.youtubeChannelUrl },
     publisher: { '@type': 'Organization', name: site.name, url: site.url, logo: { '@type': 'ImageObject', url: `${site.url}/apple-icon.png` } },
-    isBasedOn: a.zrodla.map((z) => z.url)
+    isBasedOn: a.zrodla.map((z) => z.url),
+    image: [a.zdjecie ? `${site.url}${a.zdjecie.duze}` : `${adres}opengraph-image`]
   };
   return (
     <article className="max-w-3xl mx-auto px-4 py-8 space-y-8">
@@ -163,10 +165,25 @@ function Wpis({ a }: { a: Aktualnosc }) {
           <time dateTime={a.data}>{formatDate(a.data)}</time>
           <span>· {site.author}</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-slate-900 dark:text-white leading-tight">{a.tytul}</h1>
+        <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-slate-900 dark:text-white leading-tight">{bezLamania(a.tytul)}</h1>
         <p className="text-lg text-slate-600 dark:text-slate-400">{a.lead}</p>
         <div className={`h-1 w-16 rounded-full ${STYL_TYPU[a.typ].pasek}`} aria-hidden="true" />
       </header>
+
+      {a.zdjecie && (
+        <figure className="-mx-4 sm:mx-0 space-y-2">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={a.zdjecie.duze}
+            alt={a.zdjecie.alt}
+            width={a.zdjecie.szerokosc}
+            height={a.zdjecie.wysokosc}
+            fetchPriority="high"
+            className="w-full h-auto sm:rounded-3xl bg-slate-200 dark:bg-slate-800"
+          />
+          {a.zdjecie.podpis && <figcaption className="px-4 sm:px-0 text-xs text-slate-500">{a.zdjecie.podpis}</figcaption>}
+        </figure>
+      )}
 
       <ArtykulMarkdown tekst={a.tresc} linki={linki} />
 
