@@ -106,7 +106,9 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
     const nowy: Wpis = { ...w, ...(status ? { status } : {}) };
     if (nowy.status === 'opublikowany') {
       if (!nowy.tytul.trim() || !nowy.lead.trim() || !nowy.tresc.trim()) return setKom({ ok: false, tekst: 'Przed publikacją uzupełnij tytuł, wstęp i treść.' });
-      if (nowy.bezAI || /Do uzupełnienia/.test(nowy.tresc)) return setKom({ ok: false, tekst: 'Ten szkic powstał bez modelu językowego – najpierw napisz treść i przetłumacz opisy usterek.' });
+      // Blokujemy tylko, gdy w treści został automatyczny napis „Do uzupełnienia”.
+      // Jeśli treść jest już napisana ręcznie, szkic bez AI można normalnie opublikować.
+      if (/Do uzupełnienia/.test(nowy.tresc)) return setKom({ ok: false, tekst: 'W treści został napis „Do uzupełnienia” – napisz własny tekst i sprawdź opisy usterek, potem opublikuj.' });
       delete nowy.bezAI;
     }
     setPraca(true);
@@ -210,7 +212,7 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
                     <span className="flex items-center gap-2 text-xs text-slate-500">
                       <span className={`rounded-full px-2 py-0.5 font-semibold ${KOLORY[p.wpis.typ]}`}>{NAZWY[p.wpis.typ]}</span>
                       {p.wpis.data}
-                      {p.wpis.bezAI ? ' • bez tekstu – do uzupełnienia' : ''}
+                      {/Do uzupełnienia/.test(p.wpis.tresc) ? ' • bez tekstu – do uzupełnienia' : ''}
                     </span>
                   </span>
                   <span className={`flex-shrink-0 text-xs font-bold px-2 py-0.5 rounded-full ${p.wpis.status === 'opublikowany' ? 'bg-emerald-100 text-emerald-800' : 'bg-amber-100 text-amber-800'}`}>
