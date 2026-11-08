@@ -54,6 +54,12 @@ export default async function RankingPage({ params }: Props) {
         <p className="text-slate-600 dark:text-slate-300">{r.opis}</p>
       </header>
 
+      {r.id === 'chinskie' && (
+        <Link href="/chinskie-samochody/" className="flex items-center justify-between gap-3 bg-rust-600 hover:bg-rust-700 text-white rounded-2xl p-5 font-bold">
+          <span>Ranking {new Date(tlo.stanNa).getFullYear()}: które chińskie modele Polacy rejestrują teraz najczęściej (z cenami i trendami)</span>
+          <span aria-hidden="true">→</span>
+        </Link>
+      )}
       <section className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6">
         <ListaModeli
           pozycje={r.pozycje.map((p) => ({

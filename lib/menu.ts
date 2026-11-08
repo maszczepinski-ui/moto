@@ -75,6 +75,7 @@ export function menuGlowne(): GrupaMenu[] {
         { nazwa: 'Marki i modele', opis: 'Ile jeździ w Polsce, roczniki, silniki', adres: '/marki/', ikona: 'car' },
         { nazwa: 'Rankingi', opis: 'Najpopularniejsze auta w Polsce', adres: '/rankingi/', ikona: 'trophy' },
         { nazwa: 'Województwa', opis: 'Co jeździ w Twojej okolicy', adres: '/wojewodztwa/', ikona: 'map' },
+        { nazwa: 'Chińskie auta – ranking', opis: 'MG, BYD, Omoda, Chery: co jeździ najczęściej', adres: '/chinskie-samochody/', ikona: 'trophy', nowe: true },
         { nazwa: 'Rynek nowych aut', opis: 'Co Polacy kupują w salonach', adres: '/rynek/', ikona: 'trending' },
         { nazwa: 'Porównaj modele', opis: 'Dwa auta obok siebie', adres: '/porownaj/', ikona: 'swords' },
         { nazwa: 'Kody błędów OBD', opis: 'Co znaczy kontrolka i kod P0…', adres: '/kody-bledow/', ikona: 'alert' }

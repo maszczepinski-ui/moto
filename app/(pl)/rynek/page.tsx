@@ -88,6 +88,10 @@ export default function RynekPage() {
 
       <p className="text-sm text-slate-600 dark:text-slate-400">
         Chcesz zobaczyć, ile danego modelu jeździ w Polsce i w których województwach? Sprawdź{' '}
+<Link href="/chinskie-samochody/" className="underline font-semibold">
+          ranking chińskich samochodów {new Date().getFullYear()}
+        </Link>
+        ,{' '}
         <Link href="/rankingi/chinskie/" className="underline font-semibold">
           ranking chińskich marek
         </Link>

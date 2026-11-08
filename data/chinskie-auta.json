@@ -1,0 +1,286 @@
+{
+  "_instrukcja": [
+    "Ranking liczy się sam z danych CEPiK (pierwsze rejestracje w Polsce). Tu wpisujesz tylko rzeczy ręczne:",
+    "cenaOd – cena 'od' w zł brutto z cennika producenta (sama liczba, np. 89900). null = nie pokazuj ceny.",
+    "zdjecie – ścieżka do pliku w folderze public, np. '/chinskie/mg-hs.webp'. Puste = estetyczny placeholder.",
+    "publikuj – false ukrywa model w rankingu.",
+    "Nowe modele pojawią się w rankingu same (gdy w CEPiK przekroczą 200 aut) – nie musisz ich tu dopisywać.",
+    "marki – które marki liczymy jako chińskie (slug marki z atlasu)."
+  ],
+  "marki": [
+    "mg",
+    "omoda",
+    "jaecoo",
+    "byd",
+    "chery",
+    "baic",
+    "leapmotor",
+    "geely",
+    "jetour",
+    "bestune",
+    "jac",
+    "forthing",
+    "hongqi",
+    "dongfeng",
+    "xpeng",
+    "gac",
+    "dfsk"
+  ],
+  "modele": {
+    "baic-beijing-3": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "baic-beijing-5": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "baic-beijing-7": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "baic-x55": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "bestune-b70": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "bestune-t77": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "byd-atto-2": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "byd-dolphin": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "byd-seal-5": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "byd-seal-6": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "byd-seal-u": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "byd-seal": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "byd-sealion-5": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "byd-sealion-7": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "chery-tiggo-4": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "chery-tiggo-7": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "chery-tiggo-8": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "chery-tiggo-9": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "dfsk-seres": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "dongfeng-mage": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "forthing-u-tour": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "gac-aion": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "geely-ex5": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "geely-starray": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "hongqi-hs3": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "hongqi-hs5": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jac-j7": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jac-js6": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jac-js8": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jaecoo-5": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jaecoo-7": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jaecoo-8": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jetour-dashing": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jetour-t2": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "jetour-x70": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "leapmotor-b10": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "leapmotor-c10": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "leapmotor-t03": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "mg-3": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "mg-4": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "mg-ehs": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "mg-hs": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "mg-s5": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "mg-s9": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "mg-zr": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": false
+    },
+    "mg-zs": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "omoda-5": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "omoda-7": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "omoda-9": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "xpeng-g6": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    },
+    "xpeng-g9": {
+      "cenaOd": null,
+      "zdjecie": "",
+      "publikuj": true
+    }
+  }
+}

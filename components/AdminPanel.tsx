@@ -567,6 +567,10 @@ export default function AdminPanel({
                     <Pole id="fi-u" label="Link partnerski" value={dane.moduly.finansowanie.url} onChange={(v) => ustawModul('finansowanie', 'url', v)} placeholder="https://…" />
                   </div>
                 </div>
+                <p className="text-xs text-slate-500">
+                  W linku możesz wstawić <code>{'{subid}'}</code> – w rankingu chińskich aut zamieni się na model (np. <code>mg-hs</code>) – oraz <code>{'{zrodlo}'}</code> (= <code>ranking-chinskie</code>). Wstaw je
+                  w miejsce parametru SubID, które wskazuje panel partnera (np. ComperiaLead). Pusty link = przyciski „Oblicz ratę” się nie pokazują.
+                </p>
               </section>
 
               <section className={karta}>

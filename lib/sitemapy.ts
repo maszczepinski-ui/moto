@@ -63,6 +63,7 @@ function grupy(): Record<string, Adres[]> {
       { loc: '/opony/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/strefy-czystego-transportu/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/kalkulator-akcyzy/', changefreq: 'monthly', priority: 0.8 },
+      { loc: '/chinskie-samochody/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/regulamin/', changefreq: 'yearly', priority: 0.2 },
       { loc: '/poradniki/', changefreq: 'monthly', priority: 0.8 },
       ...PORADNIKI.map((p) => ({ loc: `/poradniki/${p.slug}/`, lastmod: dataAktualizacji(p), changefreq: 'monthly', priority: 0.7 })),
