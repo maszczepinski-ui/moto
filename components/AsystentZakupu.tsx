@@ -7,7 +7,7 @@ import { kodyDlaKarty } from '@/lib/kody-bledow';
 import { fmt, sztuk } from '@/lib/format';
 import { slugWojewodztwa } from '@/lib/wojewodztwa';
 import { KontekstKarty, pokazModul, linkOgledziny, linkFinansowanie, linkUbezpieczenia, panelDane } from '@/lib/panel';
-import { faktyZakupu, radaHistoria, listaOgledzin, FORMALNOSCI, ZRODLA_FORMALNOSCI, PROCENT, adresZakupu } from '@/lib/zakup';
+import { faktyZakupu, radaHistoria, listaWarstwowa, vinModelu, FORMALNOSCI, ZRODLA_FORMALNOSCI, PROCENT, adresZakupu } from '@/lib/zakup';
 import Okruszki from '@/components/Okruszki';
 import InspectionChecklist from '@/components/InspectionChecklist';
 import KalkulatorTCO from '@/components/KalkulatorTCO';
@@ -65,7 +65,8 @@ export default function AsystentZakupu({ m }: { m: CarModel }) {
     .flatMap((s) => kodyDlaKarty(s, m.rodzic))
     .filter((x, i, arr) => arr.findIndex((y) => y.kod.kod === x.kod.kod) === i)
     .slice(0, 8);
-  const lista = [...(m.listaKontrolna || []).map((x) => `${m.model}: ${x}`), ...listaOgledzin(m)];
+  const grupy = listaWarstwowa(m);
+  const vinTu = vinModelu(m);
   const vin = pokazModul('vin', k);
   const ogl = pokazModul('ogledziny', k);
   const fin = pokazModul('finansowanie', k);
@@ -161,6 +162,35 @@ export default function AsystentZakupu({ m }: { m: CarModel }) {
             </a>
           </div>
         </div>
+        <div id="gdzie-vin" className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 space-y-3 scroll-mt-20">
+          <h3 className="font-bold text-slate-900 dark:text-white">Gdzie znaleźć numer VIN w {name}</h3>
+          <p className="text-sm text-slate-600 dark:text-slate-400">
+            VIN ma 17 znaków. Musi być identyczny we wszystkich miejscach – każda różnica, ślady spawania albo przeklejona tabliczka to powód, żeby zrezygnować z zakupu.
+          </p>
+          {vinTu && (
+            <ul className="text-sm text-slate-800 dark:text-slate-200 list-disc pl-5 space-y-1">
+              {vinTu.miejsca.map((x) => (
+                <li key={x}>{x}</li>
+              ))}
+            </ul>
+          )}
+          <ul className="text-sm text-slate-700 dark:text-slate-300 list-disc pl-5 space-y-1">
+            <li>Dowód rejestracyjny – pole E (i karta pojazdu, jeśli była wydana).</li>
+            <li>Tabliczka znamionowa producenta – zwykle w komorze silnika albo na słupku drzwi.</li>
+            <li>Numer wybity na nadwoziu{vinTu ? '' : ' – miejsce zależy od modelu, najczęściej ściana grodziowa w komorze silnika albo podłoga przy przednim fotelu'}.</li>
+            <li>W nowszych autach także tabliczka pod przednią szybą, widoczna z zewnątrz.</li>
+          </ul>
+          {vinTu && (
+            <p className="text-xs text-slate-500">
+              Źródło:{' '}
+              {vinTu.zrodla.map((z) => (
+                <a key={z.url} href={z.url} target="_blank" rel="noopener nofollow" className="underline mr-2">
+                  {z.tytul}
+                </a>
+              ))}
+            </p>
+          )}
+        </div>
       </Krok>
 
       {/* 2. Usterki */}
@@ -203,8 +233,8 @@ export default function AsystentZakupu({ m }: { m: CarModel }) {
 
       {/* 3. Oględziny */}
       <Krok nr={3} id="ogledziny" ikona={<ClipboardCheck className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />} tytul="Oględziny i jazda próbna">
-        <p className="text-slate-700 dark:text-slate-300">Zaznaczaj punkty w trakcie oglądania auta – lista zapamięta się w tym telefonie. Możesz ją też wydrukować.</p>
-        <InspectionChecklist modelSlug={`zakup-${m.slug}`} items={lista} />
+        <p className="text-slate-700 dark:text-slate-300">Zaznaczaj punkty w trakcie oglądania auta – lista zapamięta się w tym telefonie. Możesz ją też wydrukować albo zapisać jako PDF (w oknie drukowania wybierz „Zapisz jako PDF”).</p>
+        <InspectionChecklist modelSlug={`zakup-${m.slug}`} grupy={grupy} tytulDruku={name} />
         {ogl && (
           <div className="bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900 rounded-2xl p-5 flex flex-col sm:flex-row sm:items-center gap-3 justify-between">
             <div>

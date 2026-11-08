@@ -72,6 +72,7 @@ export default function Silniki({ api, branch, uzycia, nazwy }: { api: ApiPelne;
 
   return (
     <div className="space-y-4">
+      <LokalizacjeVin api={api} branch={branch} nazwy={nazwy} />
       <div className={karta}>
         <h2 className="text-lg font-bold text-slate-900 dark:text-white">Biblioteka silników</h2>
         <p className="text-sm text-slate-600 dark:text-slate-300">
@@ -154,6 +155,83 @@ export default function Silniki({ api, branch, uzycia, nazwy }: { api: ApiPelne;
           </div>
         );
       })}
+    </div>
+  );
+}
+
+// ——— Gdzie jest VIN w modelu (data/techniczne/vin.json) – pokazywane w asystencie zakupu po zatwierdzeniu ———
+const PLIK_VIN = 'data/techniczne/vin.json';
+type WpisVin = { miejsca: string[]; zrodla: { tytul: string; url: string }[]; zatwierdzony: boolean };
+type DaneVin = { _instrukcja?: string[]; modele: Record<string, WpisVin> };
+
+function LokalizacjeVin({ api, branch, nazwy }: { api: ApiPelne; branch: string; nazwy: Map<string, string> }) {
+  const [dane, setDane] = useState<DaneVin | null>(null);
+  const [sha, setSha] = useState('');
+  const [oryginal, setOryginal] = useState('');
+  const [status, setStatus] = useState('');
+
+  useEffect(() => {
+    api(`/contents/${PLIK_VIN}?ref=${branch}`)
+      .then((j) => {
+        const d = JSON.parse(z64(j.content));
+        setDane(d);
+        setOryginal(JSON.stringify(d));
+        setSha(j.sha);
+      })
+      .catch((e) => setStatus((e as Error).message));
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  async function zapisz() {
+    if (!dane) return;
+    setStatus('Zapisuję…');
+    try {
+      setSha(await zapiszPlik(api, PLIK_VIN, JSON.stringify(dane, null, 1) + '\n', 'Panel admina: lokalizacje VIN (zatwierdzenia)', branch, sha));
+      setOryginal(JSON.stringify(dane));
+      setStatus('Zapisano. Strona przebuduje się za kilka minut.');
+    } catch (e) {
+      setStatus((e as Error).message);
+    }
+  }
+
+  if (!dane) return status ? <p className="text-sm text-rose-600">{status}</p> : null;
+  return (
+    <div className={karta}>
+      <div className="flex flex-wrap items-center gap-3">
+        <h2 className="flex-1 text-lg font-bold text-slate-900 dark:text-white">Gdzie jest VIN w modelu</h2>
+        <button type="button" onClick={zapisz} disabled={JSON.stringify(dane) === oryginal} className={przyciskG}>
+          <Save className="w-4 h-4" /> Zapisz
+        </button>
+      </div>
+      <p className="text-sm text-slate-600 dark:text-slate-300">Pokazuje się w asystencie zakupu danego modelu (krok 1). Ogólne miejsca (dowód, tabliczka, szyba) są tam zawsze.</p>
+      {status && <p className="text-sm font-semibold text-slate-500">{status}</p>}
+      {Object.entries(dane.modele).map(([slug, w]) => (
+        <div key={slug} className="border-t border-slate-100 dark:border-slate-800 pt-3 space-y-1">
+          <div className="flex flex-wrap items-center gap-3">
+            <b className="flex-1 text-slate-900 dark:text-white">{nazwy.get(slug) || slug}</b>
+            <label className="inline-flex items-center gap-2 text-sm font-semibold cursor-pointer">
+              <input
+                type="checkbox"
+                checked={w.zatwierdzony}
+                onChange={(e) => setDane({ ...dane, modele: { ...dane.modele, [slug]: { ...w, zatwierdzony: e.target.checked } } })}
+                className="w-5 h-5 accent-emerald-600"
+              />
+              {w.zatwierdzony ? 'Zatwierdzony' : 'Zatwierdzam'}
+            </label>
+          </div>
+          <ul className="text-sm list-disc pl-5 text-slate-700 dark:text-slate-300">
+            {w.miejsca.map((x) => (
+              <li key={x}>{x}</li>
+            ))}
+          </ul>
+          <p className="text-xs text-slate-500">
+            {w.zrodla.map((z) => (
+              <a key={z.url} href={z.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 underline mr-3">
+                {z.tytul} <ExternalLink className="w-3 h-3" />
+              </a>
+            ))}
+          </p>
+        </div>
+      ))}
     </div>
   );
 }

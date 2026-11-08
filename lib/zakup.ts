@@ -3,6 +3,8 @@
 import { CarModel } from '@/types/car-model';
 import { najwiecej } from '@/lib/opis';
 import { nazwaWojewodztwa } from '@/lib/wojewodztwa';
+import { silnikiKarty } from '@/lib/silniki';
+import vinDane from '@/data/techniczne/vin.json';
 
 export type Naped = 'benzyna' | 'diesel' | 'lpg' | 'hybryda' | 'elektryczny';
 
@@ -115,6 +117,49 @@ export function listaOgledzin(m: CarModel): string[] {
   if (rocznik && rocznik < 2008)
     lista.push('Starsze auto: obejrzyj dokładnie przewody hamulcowe i paliwowe pod podwoziem oraz gumowe elementy zawieszenia – po latach to częste i kosztowne naprawy.');
   return lista;
+}
+
+export interface GrupaListy {
+  id: string;
+  tytul: string;
+  punkty: string[];
+}
+
+/** Punkty zależne od silników tego modelu – tylko z silników zatwierdzonych w bibliotece (panel → Silniki) */
+export function punktySilnikow(m: CarModel): string[] {
+  const w = silnikiKarty(m).filter((x) => x.tech);
+  const wersje = (f: (r: string, wt: string) => boolean) => [...new Set(w.filter((x) => f(x.tech!.rozrzad, x.tech!.wtrysk)).map((x) => `${x.nazwa} ${x.mocKm} KM`))];
+  const pasek = wersje((r) => r.startsWith('pasek'));
+  const lancuch = wersje((r) => r.includes('łańcuch'));
+  const bezp = wersje((_, wt) => /bezpośredni/.test(wt));
+  const pd = wersje((_, wt) => /pompowtryskiwacze/.test(wt));
+  const lista: string[] = [];
+  if (pasek.length) lista.push(`Pasek rozrządu (${pasek.join(', ')}): poproś o fakturę za ostatnią wymianę z datą i przebiegiem. Bez dowodu wymiany wlicz ją w cenę auta.`);
+  if (lancuch.length) lista.push(`Łańcuch rozrządu (${lancuch.join(', ')}): posłuchaj silnika tuż po zimnym rozruchu – grzechotanie to znak rozciągniętego łańcucha albo napinacza.`);
+  if (bezp.length) lista.push(`Wtrysk bezpośredni (${bezp.join(', ')}): zapytaj o czyszczenie dolotu z nagaru i sprawdź, czy silnik równo pracuje na wolnych obrotach.`);
+  if (pd.length) lista.push(`Pompowtryskiwacze (${pd.join(', ')}): nierówna praca na zimno i dymienie mogą oznaczać zużyte wtryskiwacze – to kosztowna naprawa.`);
+  return lista;
+}
+
+/** Lista kontrolna w warstwach: dokumenty → nadwozie → silnik i napęd → jazda próbna → ten model */
+export function listaWarstwowa(m: CarModel): GrupaListy[] {
+  const ogolne = listaOgledzin(m);
+  const [vin, wlasciciel, lakier, szczeliny, korozja, zimny, kontrolki, wycieki, przebieg, jazda, wyposazenie, opony, ...reszta] = ogolne;
+  const model = [...(m.listaKontrolna || []), ...(m.usterki || []).map((u) => `Typowa usterka – ${u.tytul.replace(/\.$/, '')}: zapytaj, czy była naprawiana.`)];
+  return [
+    { id: 'dokumenty', tytul: 'Dokumenty i VIN', punkty: [vin, wlasciciel, przebieg] },
+    { id: 'nadwozie', tytul: 'Nadwozie', punkty: [lakier, szczeliny, korozja, opony] },
+    { id: 'silnik', tytul: 'Silnik i napęd', punkty: [zimny, kontrolki, wycieki, ...punktySilnikow(m), ...reszta] },
+    { id: 'jazda', tytul: 'Jazda próbna i wyposażenie', punkty: [jazda, wyposazenie] },
+    ...(model.length ? [{ id: 'model', tytul: `${m.marka} ${m.model}${m.generacja ? ` ${m.generacja}` : ''} – na co uważać`, punkty: model }] : [])
+  ].filter((g) => g.punkty.length);
+}
+
+type WpisVin = { miejsca: string[]; zrodla: { tytul: string; url: string }[]; zatwierdzony: boolean };
+/** Gdzie jest VIN w tym modelu – tylko wpis zatwierdzony w panelu */
+export function vinModelu(m: CarModel): WpisVin | null {
+  const w = (vinDane as unknown as { modele: Record<string, WpisVin> }).modele[m.slug];
+  return w?.zatwierdzony ? w : null;
 }
 
 /** Formalności po zakupie auta zarejestrowanego w Polsce, kupionego od osoby prywatnej */

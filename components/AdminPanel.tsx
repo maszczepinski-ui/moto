@@ -390,7 +390,7 @@ export default function AdminPanel({
   const zakladki: [Zakladka, string, React.ReactNode][] = [
     ['statystyki', 'Statystyki', <BarChart3 key="i" className="w-4 h-4" />],
     ['chinskie', 'Chińskie auta', <Trophy key="i" className="w-4 h-4" />],
-    ['silniki', 'Silniki', <Cog key="i" className="w-4 h-4" />],
+    ['silniki', 'Dane techniczne', <Cog key="i" className="w-4 h-4" />],
     ['linki', 'Linki i moduły', <Link2 key="i" className="w-4 h-4" />],
     ['filmy', 'Filmy na kartach', <Film key="i" className="w-4 h-4" />],
     ['artykuly', 'Artykuły z filmów', <Clapperboard key="i" className="w-4 h-4" />],

@@ -1,0 +1,48 @@
+{
+ "_instrukcja": [
+  "Gdzie jest numer VIN w konkretnym modelu. Klucz = slug karty (np. volkswagen-golf-iv).",
+  "Na stronie /zakup/ pokazuje się tylko wpis z \"zatwierdzony\": true (panel → Dane techniczne).",
+  "Ogólne miejsca (dowód, tabliczka, szyba) strona pokazuje zawsze – tu tylko to, co specyficzne dla modelu."
+ ],
+ "modele": {
+  "volkswagen-golf-iv": {
+   "miejsca": [
+    "Numer wybity na ścianie grodziowej w komorze silnika, po prawej stronie (patrząc w kierunku jazdy)",
+    "Tabliczka znamionowa na kielichu zawieszenia, po lewej stronie"
+   ],
+   "zrodla": [
+    {
+     "tytul": "Automoli: VW Golf IV – VIN i tabliczka znamionowa",
+     "url": "https://www.automoli.com/en/page/vin-number-identification-plate-location/volkswagen/golf/golf-iv-1876"
+    }
+   ],
+   "zatwierdzony": false
+  },
+  "opel-astra-g": {
+   "miejsca": [
+    "Numer na podłodze obok prawego przedniego fotela",
+    "Tabliczka znamionowa z numerem VIN"
+   ],
+   "zrodla": [
+    {
+     "tytul": "Vauxhall Astra G – instrukcja warsztatowa: Vehicle Identification Number",
+     "url": "https://workshop-manuals.com/vauxhall/astra-g/general_vehicle_information/other_information/vehicle_identification_number/"
+    }
+   ],
+   "zatwierdzony": false
+  },
+  "skoda-octavia-i": {
+   "miejsca": [
+    "Numer wybity na poprzecznej ścianie nadwozia w komorze silnika",
+    "Tabliczka z numerem VIN naklejona na desce rozdzielczej (widoczna przez przednią szybę)"
+   ],
+   "zrodla": [
+    {
+     "tytul": "Skodabook: Octavia (1U) – numery identyfikacyjne",
+     "url": "https://www.skodabook.ru/en/Octavia/1U/main/data/identifikacionnye-nomera-avtomobilya"
+    }
+   ],
+   "zatwierdzony": false
+  }
+ }
+}
