@@ -27,6 +27,8 @@ import RaportySpalania from '@/components/RaportySpalania';
 import KalkulatorTrasy from '@/components/KalkulatorTrasy';
 import { Calendar, Film, FlaskConical, MapPin, Gauge, Ruler, Info, Wrench, Users, HelpCircle, ArrowLeft, ArrowRight, Swords, Cog, Layers } from 'lucide-react';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
+import SctModelu, { PlakietkaSct } from '@/components/SctModelu';
+import { sctModelu } from '@/lib/sct-modelu';
 
 const PALIWO_SCHEMA: Record<string, string> = {
   Benzyna: 'Gasoline',
@@ -127,7 +129,9 @@ export default function KartaModelu({ m }: { m: CarModel }) {
   const opisAI = opisZatwierdzony(m.slug);
   const zajawka = zajawkaRynkowa(m);
   const profil = profilKierowcy(m);
-  const pytania = faq(m, pokazModul('ubezpieczenia', k));
+  const sct = sctModelu(m);
+  // pytanie o strefy czystego transportu – liczone automatycznie dla każdego modelu
+  const pytania = [...faq(m, pokazModul('ubezpieczenia', k)), ...(sct ? [sct.faq] : [])];
   const silnikiWspolne = tenSamSilnik(m);
   const kody = [m.slug, ...(m.generacjeLista || []).map((g) => g.slug)]
     .flatMap((s) => kodyDlaKarty(s, m.rodzic))
@@ -239,6 +243,7 @@ export default function KartaModelu({ m }: { m: CarModel }) {
               {m.wszystkieGeneracje ? `Wszystkie generacje • roczniki ${m.lataProdukcji}` : m.lataProdukcji} • {m.nadwozia.map((n) => NADWOZIE_NAZWY[n]).join(', ')}
             </p>
             {m.opisModelu && <p className="text-base text-slate-700 dark:text-slate-300 leading-relaxed">{m.opisModelu}</p>}
+            {sct && <PlakietkaSct d={sct} />}
             {/* Zajawka rynkowa – zdania składane z danych CEPiK */}
             <p className="text-base text-slate-700 dark:text-slate-300 leading-relaxed">{zajawka.join(' ')}</p>
             {generacje.length > 0 && (
@@ -337,6 +342,9 @@ export default function KartaModelu({ m }: { m: CarModel }) {
           )}
         </section>
       )}
+
+      {/* Strefy czystego transportu – które roczniki wjadą do SCT */}
+      {sct && <SctModelu d={sct} nazwa={name} />}
 
       {/* Eksploatacja i usterki */}
       {(opisAI || (m.usterki && m.usterki.length > 0)) && (
