@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+import { hreflang } from '@/lib/tlumaczenia';
 import { getModelSummaries } from '@/lib/models';
 import ModelFilters from '@/components/ModelFilters';
 import YouTubeIcon from '@/components/YouTubeIcon';
@@ -79,6 +81,11 @@ const KAFLE: { zdjecie: KluczZdjecia; nadtytul: string; tytul: string; opis: str
 ];
 
 const K_GLOWNA = { slug: 'strona-glowna', marka: '', model: '' };
+
+// Strona główna ma wersje /uk/ i /en/ – informujemy o nich Google (hreflang)
+export const metadata: Metadata = {
+  alternates: { canonical: '/', languages: hreflang('/') }
+};
 
 export default function HomePage() {
   const models = getModelSummaries();

@@ -4,6 +4,8 @@ import { menuGlowne } from '@/lib/menu';
 import { UstawieniaCookies } from '@/components/BanerZgod';
 import { wlasnyBanerZgod } from '@/components/SkryptyGlobalne';
 import ZainstalujAplikacje from '@/components/ZainstalujAplikacje';
+import PrzelacznikJezyka from '@/components/obce/PrzelacznikJezyka';
+import { wszystkieOdpowiedniki } from '@/lib/tlumaczenia';
 
 const link = 'hover:text-steel-600 dark:hover:text-steel-300 transition-colors';
 
@@ -82,7 +84,11 @@ export default function Footer() {
               </>
             )}
           </p>
-          <p className="text-xs">Zdjęcia w nagłówkach: Unsplash. Mapy: © autorzy OpenStreetMap.</p>
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="text-xs">Zdjęcia w nagłówkach: Unsplash. Mapy: © autorzy OpenStreetMap.</p>
+            {/* Wersje językowe – na telefonie przełącznika nie ma w nagłówku */}
+            <PrzelacznikJezyka jezyk="pl" zestawy={wszystkieOdpowiedniki()} />
+          </div>
         </div>
       </div>
     </footer>

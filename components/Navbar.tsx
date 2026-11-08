@@ -4,6 +4,8 @@ import { site } from '@/config/site';
 import { menuGlowne } from '@/lib/menu';
 import MenuGlowne from '@/components/MenuGlowne';
 import { marka } from '@/lib/panel';
+import PrzelacznikJezyka from '@/components/obce/PrzelacznikJezyka';
+import { wszystkieOdpowiedniki } from '@/lib/tlumaczenia';
 
 export default function Navbar() {
   const m = marka();
@@ -30,7 +32,12 @@ export default function Navbar() {
             <span className="hidden md:block xl:hidden text-[11px] font-semibold text-rust-600 dark:text-rust-500 tracking-wide truncate">{site.tagline}</span>
           </div>
         </Link>
-        <MenuGlowne grupy={menuGlowne()} youtube={site.youtubeChannelUrl} youtubeNazwa={site.youtubeChannelName} />
+        <div className="flex items-center gap-3">
+          <div className="hidden sm:block">
+            <PrzelacznikJezyka jezyk="pl" zestawy={wszystkieOdpowiedniki()} />
+          </div>
+          <MenuGlowne grupy={menuGlowne()} youtube={site.youtubeChannelUrl} youtubeNazwa={site.youtubeChannelName} />
+        </div>
       </div>
     </header>
   );

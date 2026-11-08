@@ -40,6 +40,8 @@ const nextConfig = {
   },
   trailingSlash: true,
   poweredByHeader: false,
+  // Strona ma kilka układów głównych (polski oraz /uk/ i /en/), więc wspólna strona 404 jest w app/global-not-found.tsx
+  experimental: { globalNotFound: true },
   ...(statyczna
     ? {}
     : {

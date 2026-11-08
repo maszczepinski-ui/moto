@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { hreflang } from '@/lib/tlumaczenia';
 import Link from 'next/link';
 import { ArrowRight, Phone, Printer, Clock } from 'lucide-react';
 import Okruszki from '@/components/Okruszki';
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: 'Poradniki kierowcy: kupno auta, kolizja, OC',
   description:
     'Darmowe wzory do druku (umowa kupna-sprzedaży, darowizny, oświadczenie sprawcy, wypowiedzenie OC) i poradniki: zakup auta, kolizja, przegląd, kontrola drogowa.',
-  alternates: { canonical: '/poradniki/' },
+  alternates: { canonical: '/poradniki/', languages: hreflang('/poradniki/') },
   openGraph: { type: 'website', url: '/poradniki/', title: 'Poradniki kierowcy – formalności i bezpieczeństwo', description: 'Wzory do druku i proste poradniki: kupno i sprzedaż auta, kolizja, bezpieczna jazda.' }
 };
 

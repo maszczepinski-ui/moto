@@ -10,6 +10,8 @@ import { opublikowane } from '@/lib/wpisy';
 import { rankingiZProduktami } from '@/lib/produkty';
 import { wszystkieTrasy } from '@/lib/miasta';
 import { PREDKOSC } from '@/lib/mandaty';
+import { JEZYKI_OBCE, PORADNIKI_ADRES } from '@/lib/jezyki';
+import { adresPoradnika, hreflang, poradnikiObce } from '@/lib/tlumaczenia';
 
 const LIMIT = 5000;
 interface Adres {
@@ -75,6 +77,12 @@ function grupy(): Record<string, Adres[]> {
       : [],
     'kody-bledow': [{ loc: '/kody-bledow/', changefreq: 'monthly', priority: 0.6 }, ...KODY.map((k) => ({ loc: `/kody-bledow/${k.kod.toLowerCase()}/`, changefreq: 'yearly', priority: 0.5 }))]
   };
+  // wersje językowe /uk/ i /en/ (tylko przetłumaczone strony)
+  out['tlumaczenia'] = JEZYKI_OBCE.flatMap((j) => [
+    { loc: `/${j}/`, changefreq: 'weekly', priority: 0.8 },
+    { loc: PORADNIKI_ADRES[j], changefreq: 'monthly', priority: 0.7 },
+    ...poradnikiObce(j).map((p) => ({ loc: adresPoradnika(j, p.slug), lastmod: p.aktualizacja, changefreq: 'monthly', priority: 0.7 }))
+  ]);
   const pary = wszystkiePary().map((p) => ({ loc: `/porownaj/${p.id}/`, changefreq: 'monthly', priority: 0.5 }));
   for (let i = 0; i * LIMIT < pary.length; i++) out[`porownania-${i + 1}`] = pary.slice(i * LIMIT, (i + 1) * LIMIT);
   const rodzinne = karty(modele.filter((m) => m.wszystkieGeneracje), 0.7);
@@ -90,6 +98,15 @@ export function plikiMap(): string[] {
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+/** Wersje językowe adresu (hreflang) – Google odczytuje je także z mapy strony */
+function alternatywy(loc: string): string {
+  const h = hreflang(loc);
+  if (!h) return '';
+  return Object.entries(h)
+    .map(([j, url]) => `<xhtml:link rel="alternate" hreflang="${j}" href="${esc(url)}"/>`)
+    .join('');
+}
+
 export function mapaXml(plik: string): string | null {
   const lista = grupy()[plik.replace(/\.xml$/, '')];
   if (!lista) return null;
@@ -98,10 +115,10 @@ export function mapaXml(plik: string): string | null {
       (a) =>
         `<url><loc>${esc(site.url + a.loc)}</loc>${a.lastmod ? `<lastmod>${a.lastmod}</lastmod>` : ''}${a.changefreq ? `<changefreq>${a.changefreq}</changefreq>` : ''}${
           a.priority !== undefined ? `<priority>${a.priority.toFixed(1)}</priority>` : ''
-        }</url>`
+        }${alternatywy(a.loc)}</url>`
     )
     .join('\n');
-  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${wpisy}\n</urlset>\n`;
+  return `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${wpisy}\n</urlset>\n`;
 }
 
 export function indeksXml(): string {

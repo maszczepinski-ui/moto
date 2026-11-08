@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import '@fontsource-variable/inter';
-import './globals.css';
+import '../globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { site } from '@/config/site';
@@ -9,6 +9,8 @@ import { SkryptyHead, SkryptyBody, wlasnyBanerZgod } from '@/components/SkryptyG
 import BanerZgod from '@/components/BanerZgod';
 import Aplikacja from '@/components/Aplikacja';
 import PasekSezonowy from '@/components/PasekSezonowy';
+import PodpowiedzJezyka from '@/components/obce/PodpowiedzJezyka';
+import { wszystkieOdpowiedniki } from '@/lib/tlumaczenia';
 import { panelDane } from '@/lib/panel';
 
 // Kod weryfikacyjny Google Search Console: zmienna środowiskowa w Vercel albo pole w panelu admina (zakładka SEO)
@@ -56,6 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Przejdź do treści
         </a>
         <Navbar />
+        <PodpowiedzJezyka zestawy={wszystkieOdpowiedniki()} />
         <PasekSezonowy />
         <main id="tresc" className="flex-1">
           {children}
