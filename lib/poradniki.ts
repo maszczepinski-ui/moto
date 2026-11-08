@@ -996,10 +996,10 @@ const STALE: Poradnik[] = [
           {
             typ: 'kroki',
             elementy: [
-              { t: 'Zaświadczenie o VAT', o: 'Przy aucie z Unii Europejskiej urząd skarbowy wydaje zaświadczenie VAT-25 (składasz wniosek VAT-24, opłata 160 zł). Urząd ma na to do 7 dni roboczych.' },
+              { t: 'VAT', o: 'Przy używanym aucie z Unii Europejskiej nie potrzebujesz zaświadczenia o VAT – VAT-25 zniesiono w 2015 r. Wyjątek to nowy samochód (do 6 miesięcy od pierwszego użycia albo do 6000 km): wtedy składasz w urzędzie skarbowym informację VAT-23 i płacisz VAT w Polsce w ciągu 14 dni.' },
               { t: 'Tłumaczenia przysięgłe', o: 'Umowę lub fakturę i inne dokumenty w obcym języku przetłumacz u tłumacza przysięgłego. Jedna strona umowy to zwykle koszt rzędu 70–100 zł.' },
               { t: 'Badanie techniczne w Polsce', o: 'Przed pierwszą rejestracją auto musi przejść badanie w polskiej stacji kontroli pojazdów – nawet jeśli ma ważny przegląd z zagranicy.' },
-              { t: 'Wniosek w wydziale komunikacji', o: 'Masz 30 dni od wprowadzenia auta do Polski. Zabierz: umowę z tłumaczeniem, dokumenty pojazdu (z tłumaczeniem), tablice albo oświadczenie o ich braku, potwierdzenie akcyzy, VAT-25, badanie techniczne, dowód osobisty i polisę OC.' }
+              { t: 'Wniosek w wydziale komunikacji', o: 'Masz 30 dni od wprowadzenia auta do Polski. Zabierz: umowę z tłumaczeniem, dokumenty pojazdu (z tłumaczeniem), tablice albo oświadczenie o ich braku, potwierdzenie zapłaty akcyzy, badanie techniczne, dowód osobisty i polisę OC.' }
             ]
           },
           {
@@ -2229,10 +2229,10 @@ const DODATKI: Record<string, { seoTytul: string; seoOpis: string; skrot: string
   },
   'sprowadzenie-auta-z-zagranicy': {
     seoTytul: 'Auto z Niemiec – akcyza, rejestracja, koszty',
-    seoOpis: 'Jak sprowadzić auto z Niemiec i UE: akcyza 3,1% lub 18,6% (deklaracja w 14 dni), VAT-25, tłumaczenia, badanie i rejestracja w 30 dni. Koszty i terminy.',
+    seoOpis: 'Jak sprowadzić auto z Niemiec i UE: akcyza 3,1% lub 18,6% (deklaracja w 14 dni), tłumaczenia, badanie i rejestracja w 30 dni. Koszty i terminy.',
     skrot: [
       'Akcyzę deklarujesz w 14 dni od zakupu: 3,1% przy silniku do 2,0 l, 18,6% powyżej, hybrydy mniej, elektryki 0%.',
-      'Do rejestracji potrzebujesz tłumaczeń przysięgłych, VAT-25, potwierdzenia akcyzy i polskiego przeglądu.',
+      'Do rejestracji potrzebujesz tłumaczeń przysięgłych, potwierdzenia zapłaty akcyzy i polskiego przeglądu.',
       'Na rejestrację masz 30 dni od wjazdu do Polski – spóźnienie kosztuje 500 zł.'
     ]
   },

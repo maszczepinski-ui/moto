@@ -30,7 +30,7 @@ const FAQ = [
   },
   {
     q: 'Ile kosztuje rejestracja auta sprowadzonego z zagranicy?',
-    a: `Opłaty w wydziale komunikacji to ${zl(rejestracja)} (dowód, tablice, znaki legalizacyjne i pozwolenie czasowe). Do tego badanie techniczne ${zl(OPLATY.badanie)} (z LPG ${zl(OPLATY.badanie + OPLATY.badanieLpg)}) i – przy aucie z UE – zaświadczenie VAT-25 za ${zl(OPLATY.vat25)}.`
+    a: `Opłaty w wydziale komunikacji to ${zl(rejestracja)} (dowód, tablice, znaki legalizacyjne i pozwolenie czasowe). Do tego badanie techniczne ${zl(OPLATY.badanie)} (z LPG ${zl(OPLATY.badanie + OPLATY.badanieLpg)}). Zaświadczenia VAT-25 nie trzeba już mieć – zniesiono je w 2015 r.`
   },
   {
     q: 'Czy za auto z USA płaci się cło?',

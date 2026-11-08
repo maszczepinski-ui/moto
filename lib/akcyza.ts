@@ -37,8 +37,6 @@ export const OPLATY = {
   tabliceIndywidualne: 1000,
   znakiLegalizacyjne: 12.5,
   pozwolenieCzasowe: 13.5,
-  /** opłata skarbowa za zaświadczenie VAT-25 (auto z UE) */
-  vat25: 160,
   /** cło na samochody osobowe spoza UE */
   clo: 10,
   /** cło na auta wyprodukowane w USA (od 1.07.2026, porozumienie UE–USA) */
@@ -137,7 +135,6 @@ export function policzImport(d: DaneImportu): WynikImportu {
     { nazwa: 'Znaki legalizacyjne', kwota: OPLATY.znakiLegalizacyjne },
     { nazwa: 'Pozwolenie czasowe', kwota: OPLATY.pozwolenieCzasowe }
   ];
-  if (d.skad === 'ue') urzedowe.push({ nazwa: 'Zaświadczenie VAT-25', kwota: OPLATY.vat25, opis: 'opłata skarbowa w urzędzie skarbowym' });
 
   const inne: Pozycja[] = [];
   if (d.tlumaczenia > 0) inne.push({ nazwa: 'Tłumaczenia przysięgłe', kwota: d.tlumaczenia });

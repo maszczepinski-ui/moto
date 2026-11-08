@@ -564,10 +564,10 @@ export const PORADNIKI_EN: Tlumaczenie[] = [
     krotko: 'Importing a car',
     opis: 'From the contract abroad to Polish plates: how to bring the car over, how much excise duty is, which documents to translate and which deadlines to meet.',
     seoTytul: 'Importing a car to Poland – excise, registration',
-    seoOpis: 'How to import a car from Germany or the EU to Poland: excise 3.1% or 18.6% (declaration within 14 days), VAT-25, translations, inspection and registration within 30 days.',
+    seoOpis: 'How to import a car from Germany or the EU to Poland: excise 3.1% or 18.6% (declaration within 14 days), translations, inspection and registration within 30 days.',
     skrot: [
       'Declare excise within 14 days of purchase: 3.1% for engines up to 2.0 l, 18.6% above, less for hybrids, 0% for EVs.',
-      'To register you need sworn translations, VAT-25, proof of excise and a Polish roadworthiness test.',
+      'To register you need sworn translations, proof of excise payment and a Polish roadworthiness test.',
       'You have 30 days from bringing the car into Poland to register it – being late costs 500 zł.'
     ],
     liczby: [
@@ -636,12 +636,12 @@ export const PORADNIKI_EN: Tlumaczenie[] = [
           {
             typ: 'kroki',
             elementy: [
-              { t: 'VAT certificate', o: 'For a car from the European Union, the tax office issues a VAT-25 certificate (you file a VAT-24 application, fee 160 zł). The office has up to 7 working days.' },
+              { t: 'VAT', o: 'For a used car from the European Union you no longer need a VAT certificate – VAT-25 was abolished in 2015. The exception is a new car (up to 6 months since first use or up to 6,000 km): then you file a VAT-23 notice with the tax office and pay VAT in Poland within 14 days.' },
               { t: 'Sworn translations', o: 'Have the contract or invoice and other foreign-language documents translated by a sworn translator (tłumacz przysięgły). One page of a contract usually costs around 70–100 zł.' },
               { t: 'Roadworthiness test in Poland', o: 'Before its first registration the car must pass a test at a Polish vehicle inspection station – even if it has a valid test from abroad.' },
               {
                 t: 'Application at the registration office',
-                o: 'You have 30 days from bringing the car into Poland. Take: the contract with translation, vehicle documents (with translation), the plates or a statement that there are none, proof of excise, VAT-25, the test certificate, your ID and the OC policy.'
+                o: 'You have 30 days from bringing the car into Poland. Take: the contract with translation, vehicle documents (with translation), the plates or a statement that there are none, proof of excise payment, the test certificate, your ID and the OC policy.'
               }
             ]
           },
