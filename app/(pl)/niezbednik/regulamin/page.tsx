@@ -8,7 +8,7 @@ export const metadata: Metadata = { title: 'Regulamin sklepu – Niezbędnik', r
 
 export default function RegulaminPage() {
   const sekcje: [string, string[]][] = [
-    ['Sprzedawca', [`Sprzedawcą jest ${FIRMA.nazwa}, ${FIRMA.adres}, NIP ${FIRMA.nip}, e-mail: ${FIRMA.email}.`, `Sklep działa pod adresem ${site.url}/niezbednik/.`]],
+    ['Sprzedawca', [`Sprzedawcą jest ${FIRMA.nazwa}, ${FIRMA.adres}, NIP ${FIRMA.nip}${FIRMA.regon ? `, REGON ${FIRMA.regon}` : ''}, e-mail: ${FIRMA.email}.`, `Sklep działa pod adresem ${site.url}/niezbednik/.`]],
     [
       'Produkt i cena',
       [
