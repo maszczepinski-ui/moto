@@ -131,3 +131,27 @@ export async function pobierzStatystyki(dni: number): Promise<Statystyki> {
   pamiecRaportow.set(dni, { kiedy: Date.now(), dane });
   return dane;
 }
+
+/** Odsłony kart modeli (adresy /marki/…) – do raportu „Gdzie uzupełnić dane” w zakładce Dane techniczne */
+const pamiecKart = new Map<number, { kiedy: number; dane: Wiersz[] }>();
+export async function pobierzOdslonyKart(dni: number): Promise<Wiersz[]> {
+  const zPamieci = pamiecKart.get(dni);
+  if (zPamieci && Date.now() - zPamieci.kiedy < 10 * 60_000) return zPamieci.dane;
+  const r = await fetch(`https://analyticsdata.googleapis.com/v1beta/properties/${process.env.GA4_PROPERTY_ID}:runReport`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${await tokenGoogle()}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      dateRanges: [{ startDate: `${dni}daysAgo`, endDate: 'today' }],
+      dimensions: [{ name: 'pagePath' }],
+      metrics: [{ name: 'screenPageViews' }],
+      dimensionFilter: { filter: { fieldName: 'pagePath', stringFilter: { matchType: 'BEGINS_WITH', value: '/marki/' } } },
+      orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }],
+      limit: 300
+    }),
+    cache: 'no-store'
+  });
+  if (!r.ok) throw new Error(bladGoogle(r.status, await r.text()));
+  const dane = lista((await r.json()) as Raport);
+  pamiecKart.set(dni, { kiedy: Date.now(), dane });
+  return dane;
+}

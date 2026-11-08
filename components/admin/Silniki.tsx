@@ -5,7 +5,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { AlertTriangle, CheckCircle2, ExternalLink, RotateCcw, Save } from 'lucide-react';
 import type { ApiPelne } from './wspolne';
 import { input, karta, przyciskD, przyciskG, zapiszPlik, z64 } from './wspolne';
-import type { OcenaLpg, SilnikTech } from '@/lib/silniki';
+import type { OcenaLpg, Pokrycie, SilnikTech } from '@/lib/silniki';
 
 const PLIK = 'data/techniczne/silniki.json';
 type Dane = { _instrukcja?: string[]; silniki: Record<string, SilnikTech> };
@@ -17,7 +17,25 @@ const OCENY: { v: OcenaLpg; t: string }[] = [
 ];
 const NAZWY_POL: Record<string, string> = { kody: 'kody silnika', wtrysk: 'wtrysk', rozrzad: 'rozrząd', lpg: 'ocena LPG' };
 
-export default function Silniki({ api, branch, uzycia, nazwy }: { api: ApiPelne; branch: string; uzycia: Record<string, string[]>; nazwy: Map<string, string> }) {
+type ModelOpcja = { slug: string; nazwa: string; liczba: number; adres: string };
+
+export default function Silniki({
+  api,
+  branch,
+  uzycia,
+  nazwy,
+  token,
+  modele,
+  pokrycie
+}: {
+  api: ApiPelne;
+  branch: string;
+  uzycia: Record<string, string[]>;
+  nazwy: Map<string, string>;
+  token: string;
+  modele: ModelOpcja[];
+  pokrycie: Pokrycie;
+}) {
   const [dane, setDane] = useState<Dane | null>(null);
   const [sha, setSha] = useState('');
   const [oryginal, setOryginal] = useState('');
@@ -72,6 +90,7 @@ export default function Silniki({ api, branch, uzycia, nazwy }: { api: ApiPelne;
 
   return (
     <div className="space-y-4">
+      <GdzieUzupelnic token={token} modele={modele} pokrycie={pokrycie} />
       <LokalizacjeVin api={api} branch={branch} nazwy={nazwy} />
       <div className={karta}>
         <h2 className="text-lg font-bold text-slate-900 dark:text-white">Biblioteka silników</h2>
@@ -233,5 +252,95 @@ function LokalizacjeVin({ api, branch, nazwy }: { api: ApiPelne; branch: string;
         </div>
       ))}
     </div>
+  );
+}
+
+// ——— Raport „Gdzie uzupełnić dane”: najczęściej odwiedzane karty (GA4) i stan ich danych technicznych ———
+function GdzieUzupelnic({ token, modele, pokrycie }: { token: string; modele: ModelOpcja[]; pokrycie: Pokrycie }) {
+  const [wiersze, setWiersze] = useState<{ m: ModelOpcja; odslony: number | null }[] | null>(null);
+  const [zrodlo, setZrodlo] = useState<'ga4' | 'cepik'>('ga4');
+  const [info, setInfo] = useState('');
+
+  useEffect(() => {
+    const poAdresie = new Map(modele.map((m) => [m.adres, m]));
+    // gdy GA4 nie odpowie – zastępczo najpopularniejsze auta w Polsce (CEPiK)
+    const zastepczo = () => {
+      setZrodlo('cepik');
+      setWiersze([...modele].sort((a, b) => b.liczba - a.liczba).slice(0, 30).map((m) => ({ m, odslony: null })));
+    };
+    fetch('/api/statystyki/?dni=28&raport=karty', { headers: { Authorization: `Bearer ${token.trim()}` }, cache: 'no-store' })
+      .then(async (r) => {
+        const j = await r.json();
+        if (!r.ok) {
+          setInfo(j.blad === 'brak-konfiguracji' ? 'Statystyki GA4 nie są podłączone.' : j.blad || `Błąd ${r.status}`);
+          return zastepczo();
+        }
+        // sumujemy kartę i jej asystenta zakupu (…/zakup/)
+        const suma = new Map<string, number>();
+        for (const w of j.strony as { nazwa: string; wartosc: number }[]) {
+          const adres = w.nazwa.split('?')[0].replace(/zakup\/$/, '');
+          if (poAdresie.has(adres)) suma.set(adres, (suma.get(adres) || 0) + w.wartosc);
+        }
+        if (!suma.size) {
+          setInfo('GA4 nie ma jeszcze odsłon kart modeli.');
+          return zastepczo();
+        }
+        setWiersze([...suma].sort((a, b) => b[1] - a[1]).slice(0, 30).map(([adres, odslony]) => ({ m: poAdresie.get(adres)!, odslony })));
+      })
+      .catch(() => {
+        setInfo('Brak połączenia ze statystykami.');
+        zastepczo();
+      });
+  }, [token, modele]);
+
+  const stan = (slug: string) => {
+    const p = pokrycie[slug];
+    if (!p || !p.wersji) return { tekst: 'brak tabeli silników', kolor: 'text-slate-500' };
+    if (!p.opisane) return { tekst: `0 z ${p.wersji} wersji opisanych`, kolor: 'text-rose-600' };
+    if (p.zatwierdzone < p.opisane) return { tekst: `${p.opisane} z ${p.wersji} opisanych · ${p.opisane - p.zatwierdzone} czeka na zatwierdzenie`, kolor: 'text-amber-600' };
+    return { tekst: `${p.opisane} z ${p.wersji} opisanych i zatwierdzonych`, kolor: p.opisane === p.wersji ? 'text-emerald-600' : 'text-amber-600' };
+  };
+
+  return (
+    <details className={karta} open>
+      <summary className="cursor-pointer text-lg font-bold text-slate-900 dark:text-white">Gdzie uzupełnić dane – najczęściej odwiedzane karty</summary>
+      <p className="text-sm text-slate-600 dark:text-slate-300">
+        {zrodlo === 'ga4'
+          ? 'Karty modeli z największą liczbą odsłon w ostatnich 28 dniach (z asystentem zakupu). Najpierw uzupełniaj i zatwierdzaj dane tam, gdzie jest najwięcej czytelników.'
+          : `${info} Na razie pokazuję najpopularniejsze auta w Polsce według CEPiK.`}
+      </p>
+      {!wiersze ? (
+        <p className="text-sm text-slate-500">Wczytuję…</p>
+      ) : (
+        <div className="overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead className="text-xs text-slate-500 text-left">
+              <tr>
+                <th className="py-1.5 pr-3">Karta</th>
+                <th className="py-1.5 pr-3 text-right">{zrodlo === 'ga4' ? 'Odsłony' : 'Aut w Polsce'}</th>
+                <th className="py-1.5">Dane techniczne</th>
+              </tr>
+            </thead>
+            <tbody>
+              {wiersze.map(({ m, odslony }) => {
+                const s = stan(m.slug);
+                return (
+                  <tr key={m.slug} className="border-t border-slate-100 dark:border-slate-800">
+                    <td className="py-1.5 pr-3">
+                      <a href={m.adres} target="_blank" rel="noopener noreferrer" className="font-semibold underline">
+                        {m.nazwa}
+                      </a>
+                    </td>
+                    <td className="py-1.5 pr-3 text-right tabular-nums">{(odslony ?? m.liczba).toLocaleString('pl-PL')}</td>
+                    <td className={`py-1.5 font-semibold ${s.kolor}`}>{s.tekst}</td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      )}
+      <p className="text-xs text-slate-500">„Brak tabeli silników” – tę kartę trzeba najpierw uzupełnić o listę wersji. Napisz do mnie w czacie, które modele dodać.</p>
+    </details>
   );
 }

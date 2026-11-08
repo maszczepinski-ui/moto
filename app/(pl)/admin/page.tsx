@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
-import { getModelSummaries } from '@/lib/models';
+import { getAllModels, getModelSummaries } from '@/lib/models';
+import { pokrycieSilnikow } from '@/lib/silniki';
 import { listaWojewodztw, rankingi, marki, tlo } from '@/lib/dane';
 import { formatDate } from '@/lib/format';
 import { wszystkieSzkice } from '@/lib/opisy';
@@ -48,5 +49,7 @@ export default function AdminPage() {
     .filter((s) => poSlugu.has(s.slug))
     .map((s) => ({ ...s, nazwa: poSlugu.get(s.slug)!.nazwa, adres: poSlugu.get(s.slug)!.adres }))
     .sort((a, b) => (poSlugu.get(b.slug)!.liczba || 0) - (poSlugu.get(a.slug)!.liczba || 0));
-  return <AdminPanel modele={modele} strony={strony} szkice={szkice} stanDanych={formatDate(tlo.stanNa)} repo={site.githubRepo} branch={site.githubBranch} />;
+  // ile wersji z tabel silników ma opis w bibliotece – do raportu „Gdzie uzupełnić dane”
+  const pokrycie = pokrycieSilnikow(getAllModels());
+  return <AdminPanel modele={modele} pokrycie={pokrycie} strony={strony} szkice={szkice} stanDanych={formatDate(tlo.stanNa)} repo={site.githubRepo} branch={site.githubBranch} />;
 }

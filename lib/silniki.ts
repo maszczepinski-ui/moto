@@ -73,3 +73,16 @@ export function uzyciaSilnikow(): Record<string, string[]> {
   for (const [slug, mapa] of Object.entries(PRZYPISANIA)) for (const id of Object.values(mapa)) (u[id] ||= []).includes(slug) || u[id].push(slug);
   return u;
 }
+
+export type Pokrycie = Record<string, { wersji: number; opisane: number; zatwierdzone: number }>;
+/** Do panelu: na każdej karcie z tabelą silników – ile wersji jest, ile ma opis w bibliotece, ile już zatwierdzonych */
+export function pokrycieSilnikow(modele: CarModel[]): Pokrycie {
+  const wynik: Pokrycie = {};
+  for (const m of modele) {
+    const mapa = PRZYPISANIA[m.slug] || {};
+    const w = m.silniki || [];
+    const ids = w.map((s) => mapa[`${s.nazwa}|${s.mocKm}`]).filter(Boolean);
+    wynik[m.slug] = { wersji: w.length, opisane: ids.length, zatwierdzone: ids.filter((id) => SILNIKI[id]?.zatwierdzony).length };
+  }
+  return wynik;
+}

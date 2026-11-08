@@ -23,11 +23,7 @@ export default function PrzelacznikTabeli({ children, techniczne, ukryteWiersze 
           {techniczne && (
             <button type="button" className={przycisk} aria-expanded={pelne} onClick={() => setPelne(!pelne)}>
               <SlidersHorizontal className="w-4 h-4" aria-hidden="true" />
-              {pelne ? 'Ukryj szczegóły techniczne' : (
-                <>
-                  Szczegóły techniczne<span className="hidden sm:inline">: kod silnika, wtrysk, rozrząd</span>
-                </>
-              )}
+              {pelne ? 'Ukryj szczegóły techniczne' : <span>Szczegóły techniczne<span className="hidden sm:inline">: kod silnika, wtrysk, rozrząd</span></span>}
             </button>
           )}
         </div>

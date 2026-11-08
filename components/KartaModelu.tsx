@@ -29,6 +29,7 @@ import KalkulatorTrasy from '@/components/KalkulatorTrasy';
 import { Calendar, Film, FlaskConical, MapPin, Gauge, Ruler, Info, Wrench, Users, HelpCircle, ArrowLeft, ArrowRight, Swords, Cog, Layers } from 'lucide-react';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import SctModelu, { PlakietkaSct } from '@/components/SctModelu';
+import { WSkrocie, SpisKarty, type Fakt, type PozycjaSpisu } from '@/components/KartaNawigacja';
 import { sctModelu } from '@/lib/sct-modelu';
 
 const PALIWO_SCHEMA: Record<string, string> = {
@@ -220,6 +221,47 @@ export default function KartaModelu({ m }: { m: CarModel }) {
     }))
   ];
 
+  // „W skrócie” – najważniejsze fakty na start, każdy prowadzi do swojej sekcji
+  const odmiana = (n: number, j: string, d: string, w: string) => (n === 1 ? j : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? d : w);
+  const sumaPaliw = c.paliwa.reduce((s, p) => s + p.liczba, 0) || 1;
+  const lpgDobrze = [...new Set(wierszeSilnikow.filter((x) => x.tech?.lpg === 'dobrze').map((x) => `${x.nazwa} ${x.mocKm} KM`))];
+  const sctKrotko = (() => {
+    if (!sct) return null;
+    if (sct.elektryczny) return { tekst: 'wjedzie bez ograniczeń', kolor: 'zielony' as const };
+    const czesci = sct.grupy.map((g) => {
+      const waw = g.miasta.find((x) => x.id === 'warszawa') || g.miasta[0];
+      const dzis = waw?.odcinki.find((o) => o.kolor !== 'czerwony');
+      return { tekst: `${g.paliwo === 'benzyna' ? 'benzyna' : 'diesel'}: ${dzis ? `od rocznika ${dzis.od}` : 'nie wjedzie'}`, ok: !!dzis };
+    });
+    return { tekst: czesci.map((x) => x.tekst).join(' · '), kolor: czesci.every((x) => x.ok) ? ('zielony' as const) : czesci.some((x) => x.ok) ? ('zolty' as const) : ('czerwony' as const) };
+  })();
+  const fakty: Fakt[] = [
+    ...(m.lataProdukcji ? [{ etykieta: 'Lata produkcji', wartosc: m.lataProdukcji }] : []),
+    { etykieta: 'Zarejestrowanych w Polsce', wartosc: `${fmt(c.liczbaWPolsce)} ${sztuk(c.liczbaWPolsce)}`, href: '#statystyki' },
+    ...(pal ? [{ etykieta: 'Najczęstsze paliwo', wartosc: `${pal.nazwa} (${Math.round((pal.liczba / sumaPaliw) * 100)}%)`, href: '#statystyki' }] : []),
+    ...(m.usterki?.length
+      ? [{ etykieta: 'Typowe usterki', wartosc: `${m.usterki.length} ${odmiana(m.usterki.length, 'opisana', 'opisane', 'opisanych')} – zobacz`, href: '#usterki' }]
+      : []),
+    ...(lpgDobrze.length
+      ? [{ etykieta: 'Pod LPG', wartosc: `${lpgDobrze.length} ${odmiana(lpgDobrze.length, 'wersja dobrze znosi', 'wersje dobrze znoszą', 'wersji dobrze znosi')} gaz`, href: '#silniki', kolor: 'zielony' as const }]
+      : []),
+    ...(sctKrotko ? [{ etykieta: 'Strefa czystego transportu (Warszawa)', wartosc: sctKrotko.tekst, href: '#sct', kolor: sctKrotko.kolor }] : [])
+  ];
+  // przypięty spis treści – tylko sekcje, które na tej karcie są
+  const spis: PozycjaSpisu[] = [
+    ...(opisAI || m.usterki?.length ? [{ id: 'usterki', nazwa: 'Usterki' }] : []),
+    ...(m.silniki?.length ? [{ id: 'silniki', nazwa: 'Silniki' }] : []),
+    ...(kody.length ? [{ id: 'kody', nazwa: 'Kody błędów' }] : []),
+    ...(m.listaKontrolna?.length ? [{ id: 'na-ogledziny', nazwa: 'Na oględziny' }] : []),
+    ...(sct ? [{ id: 'sct', nazwa: 'Strefy SCT' }] : []),
+    { id: 'koszty', nazwa: 'Koszty' },
+    ...(m.wymiary ? [{ id: 'wymiary', nazwa: 'Wymiary' }] : []),
+    ...(filmy.length ? [{ id: 'film', nazwa: 'Film' }] : []),
+    { id: 'statystyki', nazwa: 'Statystyki' },
+    { id: 'mapa', nazwa: 'Mapa' },
+    { id: 'pytania', nazwa: 'Pytania' }
+  ];
+
   return (
     <article className="max-w-5xl mx-auto px-4 py-8 space-y-14">
       <div className="space-y-6">
@@ -307,49 +349,16 @@ export default function KartaModelu({ m }: { m: CarModel }) {
         </header>
       </div>
 
+      {/* W skrócie + przypięty spis treści */}
+      <WSkrocie fakty={fakty} />
+      <SpisKarty pozycje={spis} />
+
       {/* Szybkie narzędzia: asystent zakupu, VIN, OC/AC, części */}
       <SkrotNarzedzi k={k} adresZakupu={`${m.adres}zakup/`} />
 
       {reklamaGora && <AdSlot {...reklamaGora} className="hidden md:block" wysokosc={250} />}
 
-      {/* Dane techniczne */}
-      {(m.wymiary || (m.silniki && m.silniki.length > 0)) && (
-        <section className="space-y-6">
-          {m.wymiary && (
-            <div className="space-y-4">
-              <Naglowek ikona={<Ruler className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Wymiary</Naglowek>
-              <CarBlueprint nadwozie={m.nadwozia[0]} wymiary={m.wymiary} podpis={name} />
-              <dl className={`grid grid-cols-2 gap-3 text-sm ${m.wymiary.bagaznik ? 'sm:grid-cols-5' : 'sm:grid-cols-4'}`}>
-                {[
-                  ['Długość', `${fmt(m.wymiary.dlugoscMm)} mm`],
-                  ['Szerokość', `${fmt(m.wymiary.szerokoscMm)} mm`],
-                  ['Wysokość', `${fmt(m.wymiary.wysokoscMm)} mm`],
-                  ['Rozstaw osi', `${fmt(m.wymiary.rozstawOsiMm)} mm`],
-                  ['Bagażnik', m.wymiary.bagaznik ?? '']
-                ]
-                  .filter(([, v]) => v)
-                  .map(([kl, v]) => (
-                    <div key={kl} className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-3 py-2">
-                      <dt className="text-xs text-slate-500">{kl}</dt>
-                      <dd className="font-semibold text-slate-900 dark:text-white">{v}</dd>
-                    </div>
-                  ))}
-              </dl>
-            </div>
-          )}
-          {reklamaSpec && <AdSlot {...reklamaSpec} wysokosc={250} />}
-          {m.silniki && m.silniki.length > 0 && (
-            <div className="space-y-4">
-              <Naglowek ikona={<Gauge className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Silniki</Naglowek>
-              <EngineTable silniki={wierszeSilnikow} />
-            </div>
-          )}
-        </section>
-      )}
-
-      {/* Strefy czystego transportu – które roczniki wjadą do SCT */}
-      {sct && <SctModelu d={sct} nazwa={name} />}
-
+      <div id="usterki" className="scroll-mt-32 empty:hidden">
       {/* Eksploatacja i usterki */}
       {(opisAI || (m.usterki && m.usterki.length > 0)) && (
         <section className="space-y-4">
@@ -370,7 +379,18 @@ export default function KartaModelu({ m }: { m: CarModel }) {
           )}
         </section>
       )}
+      </div>
 
+      {/* Silniki */}
+      {reklamaSpec && <AdSlot {...reklamaSpec} wysokosc={250} />}
+      {m.silniki && m.silniki.length > 0 && (
+        <section id="silniki" className="space-y-4 scroll-mt-32">
+          <Naglowek ikona={<Gauge className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Silniki</Naglowek>
+          <EngineTable silniki={wierszeSilnikow} />
+        </section>
+      )}
+
+      <div id="kody" className="scroll-mt-32 empty:hidden">
       {kody.length > 0 && (
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white">Najczęstsze kody błędów – objawy i przyczyny</h2>
@@ -386,16 +406,23 @@ export default function KartaModelu({ m }: { m: CarModel }) {
           </ul>
         </section>
       )}
+      </div>
 
+      <div id="na-ogledziny" className="scroll-mt-32 empty:hidden">
       {m.listaKontrolna && m.listaKontrolna.length > 0 && (
         <section>
           <InspectionChecklist modelSlug={m.slug} items={m.listaKontrolna} />
         </section>
       )}
+      </div>
+
+      {/* Strefy czystego transportu – które roczniki wjadą do SCT */}
+      {sct && <SctModelu d={sct} nazwa={name} />}
 
       {/* Narzędzia partnerskie: VIN, OC/AC, części (kolejność i widoczność z panelu admina) */}
       <Monetyzacja k={k} silniki={[...new Set((m.silniki || []).map((x) => x.nazwa))]} />
 
+      <div id="koszty" className="scroll-mt-32 empty:hidden space-y-14">
       {/* Profil kierowcy i koszty */}
       {(profil.length > 0 || opisAI) && (
         <section className="space-y-4">
@@ -430,16 +457,62 @@ export default function KartaModelu({ m }: { m: CarModel }) {
         elektryczny={profilNapedu(m).naped === 'elektryczny'}
         wersje={[...new Set((m.silniki || []).map((s) => `${s.nazwa} ${s.mocKm} KM`))]}
       />
+      </div>
 
-      {/* Mapa */}
+      {/* Wymiary */}
+      {m.wymiary && (
+        <section id="wymiary" className="space-y-4 scroll-mt-32">
+              <Naglowek ikona={<Ruler className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Wymiary</Naglowek>
+              <CarBlueprint nadwozie={m.nadwozia[0]} wymiary={m.wymiary} podpis={name} />
+              <dl className={`grid grid-cols-2 gap-3 text-sm ${m.wymiary.bagaznik ? 'sm:grid-cols-5' : 'sm:grid-cols-4'}`}>
+                {[
+                  ['Długość', `${fmt(m.wymiary.dlugoscMm)} mm`],
+                  ['Szerokość', `${fmt(m.wymiary.szerokoscMm)} mm`],
+                  ['Wysokość', `${fmt(m.wymiary.wysokoscMm)} mm`],
+                  ['Rozstaw osi', `${fmt(m.wymiary.rozstawOsiMm)} mm`],
+                  ['Bagażnik', m.wymiary.bagaznik ?? '']
+                ]
+                  .filter(([, v]) => v)
+                  .map(([kl, v]) => (
+                    <div key={kl} className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-lg px-3 py-2">
+                      <dt className="text-xs text-slate-500">{kl}</dt>
+                      <dd className="font-semibold text-slate-900 dark:text-white">{v}</dd>
+                    </div>
+                  ))}
+              </dl>
+        </section>
+      )}
+
+      <div id="film" className="scroll-mt-32 empty:hidden">
+      {/* Film */}
       <section className="space-y-4">
-        <Naglowek ikona={<MapPin className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Gdzie jeżdżą w Polsce</Naglowek>
-        <p className="text-sm text-slate-500 -mt-2">
-          Województwo to miejsce rejestracji auta. Przełącz mapę, żeby zobaczyć samą liczbę aut albo to, gdzie model jest popularniejszy niż średnio.
-        </p>
-        <PolandMap dane={c.wojewodztwa} nazwaModelu={name} />
+        <Naglowek ikona={<Film className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>
+          {filmy.length > 1 ? 'Filmy o tym modelu' : 'Film o tym modelu'}
+        </Naglowek>
+        {filmy.length === 0 && <YouTubeLazyEmbed videoId="" title={name} />}
+        {filmy.map((f, i) => (
+          <div key={`${f.id}-${i}`} className="space-y-2">
+            {i === 0 ? <YouTubeLazyEmbed videoId={f.id} title={f.tytul} /> : null}
+            <p className="text-sm">
+              <a href={`https://www.youtube.com/watch?v=${f.id}`} target="_blank" rel="noopener" className="font-semibold text-red-600 hover:underline">
+                {i === 0 ? `Obejrzyj na YouTube: ${f.tytul}` : `▶ ${f.tytul}`}
+              </a>
+              <span className="text-slate-500">
+                {' '}
+                • {site.youtubeChannelName} • {formatDate(f.data)}
+              </span>
+              {f.artykul && (
+                <a href={f.artykul} className="ml-2 font-semibold text-steel-700 dark:text-steel-300 hover:underline">
+                  Przeczytaj artykuł →
+                </a>
+              )}
+            </p>
+          </div>
+        ))}
       </section>
+      </div>
 
+      <div id="statystyki" className="scroll-mt-32 empty:hidden">
       {/* Statystyki */}
       <section className="space-y-4">
         <Naglowek ikona={<Info className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Co jeździ po polskich drogach</Naglowek>
@@ -468,37 +541,21 @@ export default function KartaModelu({ m }: { m: CarModel }) {
           {c.bezWojewodztwa ? ` Na mapie pominięto ${fmt(c.bezWojewodztwa)} ${sztuk(c.bezWojewodztwa)} bez przypisanego województwa.` : ''}
         </p>
       </section>
+      </div>
 
-      {/* Film */}
+      <div id="mapa" className="scroll-mt-32 empty:hidden">
+      {/* Mapa */}
       <section className="space-y-4">
-        <Naglowek ikona={<Film className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>
-          {filmy.length > 1 ? 'Filmy o tym modelu' : 'Film o tym modelu'}
-        </Naglowek>
-        {filmy.length === 0 && <YouTubeLazyEmbed videoId="" title={name} />}
-        {filmy.map((f, i) => (
-          <div key={`${f.id}-${i}`} className="space-y-2">
-            {i === 0 ? <YouTubeLazyEmbed videoId={f.id} title={f.tytul} /> : null}
-            <p className="text-sm">
-              <a href={`https://www.youtube.com/watch?v=${f.id}`} target="_blank" rel="noopener" className="font-semibold text-red-600 hover:underline">
-                {i === 0 ? `Obejrzyj na YouTube: ${f.tytul}` : `▶ ${f.tytul}`}
-              </a>
-              <span className="text-slate-500">
-                {' '}
-                • {site.youtubeChannelName} • {formatDate(f.data)}
-              </span>
-              {f.artykul && (
-                <a href={f.artykul} className="ml-2 font-semibold text-steel-700 dark:text-steel-300 hover:underline">
-                  Przeczytaj artykuł →
-                </a>
-              )}
-            </p>
-          </div>
-        ))}
+        <Naglowek ikona={<MapPin className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Gdzie jeżdżą w Polsce</Naglowek>
+        <p className="text-sm text-slate-500 -mt-2">
+          Województwo to miejsce rejestracji auta. Przełącz mapę, żeby zobaczyć samą liczbę aut albo to, gdzie model jest popularniejszy niż średnio.
+        </p>
+        <PolandMap dane={c.wojewodztwa} nazwaModelu={name} />
       </section>
-
+      </div>
 
       {/* FAQ */}
-      <section className="space-y-4">
+      <section id="pytania" className="space-y-4 scroll-mt-32">
         <Naglowek ikona={<HelpCircle className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Najczęstsze pytania</Naglowek>
         <div className="divide-y divide-slate-200 dark:divide-slate-800 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-xl">
           {pytania.map((p) => (

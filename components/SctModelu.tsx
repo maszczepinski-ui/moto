@@ -25,7 +25,7 @@ export function PlakietkaSct({ d }: { d: Dane }) {
 
 export default function SctModelu({ d, nazwa }: { d: Dane; nazwa: string }) {
   return (
-    <section id="sct" className="scroll-mt-20 space-y-4">
+    <section id="sct" className="scroll-mt-32 space-y-4">
       <h2 className="flex items-center gap-2 text-2xl font-bold text-slate-900 dark:text-white">
         <Leaf className="w-6 h-6 text-emerald-600" aria-hidden="true" />
         Czy {nazwa} wjedzie do strefy czystego transportu?

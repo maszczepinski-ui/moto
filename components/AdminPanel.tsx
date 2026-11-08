@@ -13,7 +13,7 @@ import Aktualizacje from '@/components/admin/Aktualizacje';
 import Statystyki from '@/components/admin/Statystyki';
 import ChinskieAuta from '@/components/admin/ChinskieAuta';
 import Silniki from '@/components/admin/Silniki';
-import { uzyciaSilnikow } from '@/lib/silniki';
+import { uzyciaSilnikow, type Pokrycie } from '@/lib/silniki';
 import { oznaczPrzyPierwszymWejsciu } from '@/lib/admin-urzadzenie';
 import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
 import AktualnosciAdmin from '@/components/admin/Aktualnosci';
@@ -177,6 +177,7 @@ type Zakladka = 'statystyki' | 'chinskie' | 'silniki' | 'linki' | 'filmy' | 'art
 
 export default function AdminPanel({
   modele,
+  pokrycie,
   strony,
   szkice,
   stanDanych,
@@ -184,6 +185,7 @@ export default function AdminPanel({
   branch
 }: {
   modele: ModelOpcja[];
+  pokrycie: Pokrycie;
   strony: StronaOpcja[];
   szkice: Szkic[];
   stanDanych: string;
@@ -933,7 +935,7 @@ export default function AdminPanel({
           {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} />}
           {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
           {zakladka === 'chinskie' && <ChinskieAuta api={api} branch={branch} nazwy={nazwyModeli} />}
-          {zakladka === 'silniki' && <Silniki api={api} branch={branch} nazwy={nazwyModeli} uzycia={uzyciaSilnikow()} />}
+          {zakladka === 'silniki' && <Silniki api={api} branch={branch} nazwy={nazwyModeli} uzycia={uzyciaSilnikow()} token={token} modele={modele} pokrycie={pokrycie} />}
           {zakladka === 'wyglad' && <LogoIkona api={api} branch={branch} marka={dane.marka} zmiany={zmiany} onZapisano={wczytaj} />}
 
           {/* ===================== OPISY ===================== */}
