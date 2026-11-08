@@ -36,7 +36,29 @@ export default function SctModelu({ d, nazwa }: { d: Dane; nazwa: string }) {
         </p>
       ) : (
         <>
-          <p className="text-slate-600 dark:text-slate-300">
+          {/* Na start krótko: od którego rocznika auto wjedzie dziś do warszawskiej strefy. Rozpiska rok po roku – po kliknięciu. */}
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {d.grupy.map((g) => {
+              const waw = g.miasta.find((x) => x.id === 'warszawa') || g.miasta[0];
+              const dzis = waw?.odcinki.find((o) => o.kolor !== 'czerwony');
+              const zawsze = waw?.odcinki.find((o) => o.kolor === 'zielony');
+              const k = KOLOR[dzis ? (zawsze && zawsze.od === dzis.od ? 'zielony' : 'zolty') : 'czerwony'];
+              return (
+                <li key={g.paliwo} className={`rounded-xl ring-1 p-4 ${k.tlo}`}>
+                  <p className="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                    {g.nazwa} · {Math.round(g.udzial * 100)}% aut
+                  </p>
+                  <p className={`mt-1 font-bold ${k.tekst}`}>{dzis ? `Wjedzie do SCT w Warszawie od rocznika ${dzis.od}` : 'Żaden rocznik nie wjedzie dziś do SCT w Warszawie'}</p>
+                  {dzis && zawsze && zawsze.od !== dzis.od && <p className="text-sm text-slate-600 dark:text-slate-300">bez ograniczeń czasowych od rocznika {zawsze.od}</p>}
+                </li>
+              );
+            })}
+          </ul>
+          <details className="group/sct">
+            <summary className="cursor-pointer inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-semibold text-steel-700 dark:text-steel-300 bg-steel-50 dark:bg-slate-800 hover:bg-steel-100 dark:hover:bg-slate-700">
+              Rozpiska rok po roku – Warszawa i Kraków
+            </summary>
+          <p className="mt-4 mb-4 text-slate-600 dark:text-slate-300">
             Roczniki {d.od}–{d.do} według zasad stref w Warszawie i Krakowie. Liczymy po roku produkcji – auto z wyższą normą Euro, niż wynika z rocznika, może wjechać wcześniej.
           </p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -62,10 +84,11 @@ export default function SctModelu({ d, nazwa }: { d: Dane; nazwa: string }) {
               </div>
             ))}
           </div>
-          <p className="text-xs text-slate-500">
+          <p className="mt-3 text-xs text-slate-500">
             „Bez ograniczeń” – według wszystkich zapowiedzianych etapów (Warszawa do 2032 r.). Mieszkańcy obu miast, seniorzy, posiadacze karty parkingowej i auta zabytkowe mogą mieć
             zwolnienia. Stan przepisów: {STAN_SCT}.
           </p>
+          </details>
         </>
       )}
       <Link href="/strefy-czystego-transportu/" className="flex items-center justify-between gap-3 bg-slate-900 hover:bg-slate-800 text-white rounded-xl p-4 font-semibold">

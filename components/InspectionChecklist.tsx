@@ -29,6 +29,8 @@ function drukujListe(zrodlo: HTMLElement | null) {
   // zaznaczenia są właściwością pola, a nie atrybutem – przenosimy je do kopii ręcznie
   const pola = zrodlo.querySelectorAll('input[type=checkbox]');
   klon.querySelectorAll('input[type=checkbox]').forEach((x, i) => (x as HTMLInputElement).toggleAttribute('checked', (pola[i] as HTMLInputElement).checked));
+  // w wydruku wszystkie części listy rozwinięte
+  klon.querySelectorAll('details').forEach((x) => x.setAttribute('open', ''));
   kopia.appendChild(klon);
   document.body.appendChild(kopia);
   html.classList.add('drukuj-dokument');
@@ -90,7 +92,7 @@ export default function InspectionChecklist({ modelSlug, items, grupy, tytulDruk
             Sprawdzone: {zrobione} z {wszystkie}
           </p>
         </div>
-        <div className="no-print flex gap-2">
+        <div className="no-print flex gap-2 flex-shrink-0">
           <button
             type="button"
             onClick={() => save({})}
@@ -106,19 +108,15 @@ export default function InspectionChecklist({ modelSlug, items, grupy, tytulDruk
             className="inline-flex items-center gap-2 px-3 py-2 text-sm font-semibold text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 rounded-lg transition-colors"
           >
             <Printer className="w-4 h-4" aria-hidden="true" />
-            Drukuj / PDF
+            <span className="whitespace-nowrap">Drukuj / PDF</span>
           </button>
         </div>
       </div>
 
-      {lista.map((g) => (
-        <div key={g.id} className="mt-4">
-          {g.tytul && (
-            <h3 className="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 print:text-black mb-2 break-after-avoid">
-              {g.tytul} <span className="font-normal normal-case print:hidden">({g.punkty.filter((_, i) => checked[klucz(g, i)]).length}/{g.punkty.length})</span>
-            </h3>
-          )}
-          <ul className="space-y-2 print:space-y-0">
+      {lista.map((g, gi) => {
+        const zrobioneG = g.punkty.filter((_, i) => checked[klucz(g, i)]).length;
+        const punkty = (
+          <ul className="space-y-2 print:space-y-0 mt-2">
             {g.punkty.map((item, index) => {
               const k = klucz(g, index);
               const isChecked = !!checked[k];
@@ -142,8 +140,25 @@ export default function InspectionChecklist({ modelSlug, items, grupy, tytulDruk
               );
             })}
           </ul>
-        </div>
-      ))}
+        );
+        // prosta lista (karta modelu) – bez zwijania
+        if (!g.tytul) return <div key={g.id} className="mt-2">{punkty}</div>;
+        // lista w częściach (asystent zakupu) – każdą część można zwinąć; na start otwarta tylko pierwsza
+        return (
+          <details key={g.id} open={gi === 0} className={`group/cz ${gi === 0 ? 'mt-4' : 'mt-3 border-t border-slate-100 dark:border-slate-800 pt-3'} print:border-0`}>
+            <summary className="flex items-center justify-between gap-3 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+              <span className="font-bold text-slate-900 dark:text-white print:text-black">{g.tytul}</span>
+              <span className="flex items-center gap-2 text-xs font-semibold text-slate-500 print:hidden">
+                <span className={zrobioneG === g.punkty.length ? 'text-emerald-600' : ''}>
+                  {zrobioneG}/{g.punkty.length}
+                </span>
+                <span className="transition-transform group-open/cz:rotate-180" aria-hidden="true">▾</span>
+              </span>
+            </summary>
+            {punkty}
+          </details>
+        );
+      })}
     </div>
   );
 }
