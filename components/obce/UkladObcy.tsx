@@ -149,7 +149,17 @@ export default function UkladObcy({ j, children }: { j: JezykObcy; children: Rea
             </div>
             <p className="rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 px-4 py-3 text-xs">{t.stopka.partnerzy}</p>
             <p className="text-xs">
-              © {new Date().getFullYear()} {site.name}. {t.stopka.wydawca}: <strong className="text-slate-800 dark:text-slate-200">{site.publisher}</strong>.
+              © {new Date().getFullYear()} {site.name}. {t.stopka.wydawca}: <strong className="text-slate-800 dark:text-slate-200">{site.publisher}</strong>
+              {site.publisherAddress ? `, ${site.publisherAddress}` : ''}
+              {site.publisherNip ? `, NIP ${site.publisherNip}` : ''}.
+              {site.contactEmail && (
+                <>
+                  {' '}
+                  <a href={`mailto:${site.contactEmail}`} className="underline">
+                    {site.contactEmail}
+                  </a>
+                </>
+              )}
             </p>
           </div>
         </footer>

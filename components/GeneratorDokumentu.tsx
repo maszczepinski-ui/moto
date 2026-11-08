@@ -447,6 +447,10 @@ export default function GeneratorDokumentu({ rodzaj }: { rodzaj: Generator }) {
         </div>
       </div>
 
+      <p className="rounded-xl bg-amber-50 dark:bg-amber-950/40 ring-1 ring-amber-200 dark:ring-amber-900 px-4 py-2.5 text-sm text-amber-900 dark:text-amber-200 print:hidden">
+        <strong>Wzór ma charakter informacyjny i pomocniczy.</strong> Nie stanowi porady prawnej i nie zastąpi oceny konkretnej sytuacji przez prawnika. Przed podpisaniem sprawdź, czy treść pasuje do Twojej transakcji.
+      </p>
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 items-start">
         <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
           {grupy.map((g) => (
@@ -482,7 +486,7 @@ export default function GeneratorDokumentu({ rodzaj }: { rodzaj: Generator }) {
               </div>
             </fieldset>
           ))}
-          <p className="text-xs text-slate-500">Puste pola zostaną na wydruku jako miejsce do wpisania ręcznie. Wzór ma charakter pomocniczy i nie zastępuje porady prawnej.</p>
+          <p className="text-xs text-slate-500">Puste pola zostaną na wydruku jako miejsce do wpisania ręcznie.</p>
         </form>
 
         <div className="lg:sticky lg:top-24 space-y-2">

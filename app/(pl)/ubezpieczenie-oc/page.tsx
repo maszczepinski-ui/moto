@@ -134,7 +134,7 @@ export default function UbezpieczenieOcPage() {
         )}
 
         <p className="text-xs text-slate-500">
-          Informacje poglądowe. {site.name} nie jest pośrednikiem ubezpieczeniowym i nie doradza w wyborze polisy – ofertę zawierasz bezpośrednio z ubezpieczycielem. Kwoty opłat karnych:{' '}
+          Informacje poglądowe. {site.name} nie jest pośrednikiem ubezpieczeniowym i nie doradza w wyborze polisy – ofertę zawierasz bezpośrednio z ubezpieczycielem. Dane do kalkulacji OC podajesz w serwisie partnera – {site.name} ich nie zbiera ani nie przechowuje (szczegóły w <Link href="/prywatnosc/" className="underline">polityce prywatności</Link>). Kwoty opłat karnych:{' '}
           <a href="https://cuk.pl/porady/czy-trzeba-miec-przy-sobie-prawo-jazdy-jakie-dokumenty-musi-miec-kierowca" target="_blank" rel="noopener noreferrer" className="underline">
             CUK
           </a>

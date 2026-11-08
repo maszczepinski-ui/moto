@@ -1,3 +1,7 @@
+import firma from '@/data/sklep/firma.json';
+
+const daneFirmy = (v: string) => (v && !v.includes('[') ? v : '');
+
 // =====================================================================
 // USTAWIENIA STRONY – wszystko, co możesz zmienić, jest w tym jednym pliku
 // =====================================================================
@@ -23,11 +27,11 @@ export const site = {
   // Dane wydawcy (stopka i polityka prywatności)
   publisher: 'EAST VISION Marcin Szczepiński',
   publisherCity: 'Lublin',
-  // Uzupełnij przed publikacją – pojawią się w polityce prywatności.
-  // Puste pole = ta informacja nie jest pokazywana.
-  publisherNip: '',
-  publisherAddress: '',
-  contactEmail: '',
+  // NIP, adres i e-mail kontaktowy – jedno miejsce: data/sklep/firma.json (stopka, polityka prywatności, regulamin sklepu).
+  // Pole z [nawiasem] = jeszcze nieuzupełnione, więc się nie pokazuje.
+  publisherNip: daneFirmy(firma.nip),
+  publisherAddress: daneFirmy(firma.adres),
+  contactEmail: daneFirmy(firma.email),
   author: 'Marcin Szczepiński',
   // Krótki opis autora – pokazywany pod poradnikami (Google i czaty AI lubią podpisane artykuły)
   authorBio: 'Twórca kanału MotoFormat na YouTube i serwisu moto-raport.pl. Na co dzień filmuje i testuje samochody, a tutaj zbiera w jednym miejscu dane i formalności, które przydają się każdemu kierowcy.'

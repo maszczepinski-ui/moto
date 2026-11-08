@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import { site } from '@/config/site';
 import { BellRing, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 import { sledz } from '@/lib/sledz';
 
@@ -107,9 +108,9 @@ export default function FormularzPrzypomnien({ wlaczone, kompaktowy = false }: {
         <input type="checkbox" checked={zgoda} onChange={(e) => setZgoda(e.target.checked)} className="w-4 h-4 mt-0.5 accent-rust-600" />
         <span>
           Zgadzam się na wysyłanie na mój e-mail wybranych przypomnień (razem z linkami do porównania ofert OC i sklepu z oponami). Mogę się wypisać w każdej chwili jednym kliknięciem – dane
-          usuwamy wtedy od razu.{' '}
+          usuwamy wtedy od razu. Administratorem danych jest {site.publisher}; e-mail wykorzystujemy wyłącznie do wysyłki przypomnień, na podstawie Twojej zgody (art. 6 ust. 1 lit. a RODO).{' '}
           <Link href="/prywatnosc/#przypomnienia" className="underline">
-            Jak przetwarzamy dane
+            Polityka prywatności
           </Link>
         </span>
       </label>

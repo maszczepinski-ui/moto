@@ -72,7 +72,7 @@ export default function Footer() {
         <div className="border-t border-slate-200 dark:border-slate-800 pt-6 space-y-1 text-center md:text-left">
           <p>
             © {new Date().getFullYear()} {site.name}. Wydawca: <strong className="text-slate-800 dark:text-slate-200">{site.publisher}</strong>
-            {site.publisherAddress ? `, ${site.publisherAddress}` : ''}
+            {site.publisherAddress ? `, ${site.publisherAddress}` : `, ${site.publisherCity}`}
             {site.publisherNip ? `, NIP ${site.publisherNip}` : ''}.
             {site.contactEmail && (
               <>
