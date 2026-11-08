@@ -58,6 +58,22 @@ type Raport = { rows?: { dimensionValues?: { value: string }[]; metricValues: { 
 const liczba = (v?: string) => Number(v || 0);
 const lista = (r: Raport): Wiersz[] => (r.rows || []).map((w) => ({ nazwa: w.dimensionValues?.[0]?.value || '(brak)', wartosc: liczba(w.metricValues[0]?.value) }));
 
+/** Zamienia odpowiedź Google na zrozumiałą wskazówkę (Google zwraca 403 z kilku różnych powodów) */
+function bladGoogle(status: number, tekst: string): string {
+  let komunikat = '';
+  try {
+    komunikat = (JSON.parse(tekst) as { error?: { message?: string } }).error?.message || '';
+  } catch {
+    komunikat = tekst;
+  }
+  if (/has not been used|is disabled|SERVICE_DISABLED|API has not been enabled/i.test(komunikat))
+    return 'W projekcie Google Cloud nie jest włączone „Google Analytics Data API”. Włącz je (console.cloud.google.com → Interfejsy API i usługi → Biblioteka) i odczekaj kilka minut.';
+  if (status === 403)
+    return `Google odmawia dostępu. Sprawdź, czy adres konta technicznego (client_email z pliku JSON) jest dodany w GA4 → Administracja → Zarządzanie dostępem do usługi z rolą „Przeglądający”, i czy GA4_PROPERTY_ID to identyfikator tej samej usługi. Odpowiedź Google: ${komunikat.slice(0, 200)}`;
+  if (status === 400 && /property/i.test(komunikat)) return `Nieprawidłowy GA4_PROPERTY_ID – wpisz same cyfry z „Szczegółów usługi”. Odpowiedź Google: ${komunikat.slice(0, 200)}`;
+  return `Błąd Google ${status}: ${komunikat.slice(0, 200)}`;
+}
+
 const pamiecRaportow = new Map<number, { kiedy: number; dane: Statystyki }>();
 
 /** Zestaw statystyk z ostatnich `dni` dni (wynik trzymany 10 minut, żeby nie zużywać limitów Google) */
@@ -87,10 +103,7 @@ export async function pobierzStatystyki(dni: number): Promise<Statystyki> {
     }),
     cache: 'no-store'
   });
-  if (!r.ok) {
-    const tekst = await r.text();
-    throw new Error(r.status === 403 ? 'Konto techniczne nie ma dostępu do usługi GA4 – dodaj je w GA4 jako „Przeglądający”.' : `Błąd Google ${r.status}: ${tekst.slice(0, 200)}`);
-  }
+  if (!r.ok) throw new Error(bladGoogle(r.status, await r.text()));
   const { reports } = (await r.json()) as { reports: Raport[] };
 
   // kraje osobnym zapytaniem (batchRunReports przyjmuje najwyżej 5 raportów)

@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { BarChart3, Monitor, RefreshCw } from 'lucide-react';
 import { karta, przyciskD } from './wspolne';
-import { toUrzadzenieAdmina, ustawUrzadzenieAdmina } from '@/lib/admin-urzadzenie';
+import { oznaczPrzyPierwszymWejsciu, toUrzadzenieAdmina, ustawUrzadzenieAdmina } from '@/lib/admin-urzadzenie';
 import type { Statystyki as Dane, Wiersz } from '@/lib/ga4';
 
 const ZRODLA: Record<string, string> = {
@@ -50,7 +50,11 @@ export default function Statystyki({ token }: { token: string }) {
   const [praca, setPraca] = useState(false);
   const [admin, setAdmin] = useState(false);
 
-  useEffect(() => setAdmin(toUrzadzenieAdmina()), []);
+  // najpierw oznaczamy urządzenie (pierwsze wejście do panelu), dopiero potem odczytujemy stan
+  useEffect(() => {
+    oznaczPrzyPierwszymWejsciu();
+    setAdmin(toUrzadzenieAdmina());
+  }, []);
 
   const wczytaj = useCallback(async () => {
     setPraca(true);
