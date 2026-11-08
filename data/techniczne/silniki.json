@@ -4,7 +4,7 @@
   "kodyWgMocy (opcjonalnie): które kody pasują do danej mocy w KM – wtedy tabela pokazuje tylko je.",
   "Na stronie pokazują się tylko silniki z \"zatwierdzony\": true (zatwierdzasz w panelu → zakładka Silniki).",
   "doSprawdzenia = pola, których podane źródło nie potwierdza wprost.",
-  "lpg: dobrze | warunkowo | trudno | nie-dotyczy"
+  "lpg: dobrze | warunkowo | trudno | nie-dotyczy; pojemnoscCm3 = 0 gdy wpis obejmuje kilka pojemności."
  ],
  "silniki": {
   "vw-1-4-16v": {
@@ -705,6 +705,442 @@
     }
    ],
    "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "bmw-m40-m43": {
+   "nazwa": "BMW M40 / M43 (R4)",
+   "kody": [
+    "M40B16",
+    "M40B18",
+    "M43B16",
+    "M43B18"
+   ],
+   "pojemnoscCm3": 0,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek (M40) albo łańcuch (M43)",
+   "lpg": "dobrze",
+   "uwagi": "Ta sama wersja (316i, 318i) miała różne silniki – starsze M40 z paskiem, nowsze M43 z łańcuchem.",
+   "zrodla": [
+    {
+     "tytul": "unixnerd.co.uk: BMW M40 i M43",
+     "url": "https://www.unixnerd.co.uk/m40.html"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "bmw-m43tu": {
+   "nazwa": "BMW M43TU (R4)",
+   "kody": [
+    "M43B19"
+   ],
+   "pojemnoscCm3": 1895,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "unixnerd.co.uk: BMW M40 i M43",
+     "url": "https://www.unixnerd.co.uk/m40.html"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "bmw-m50-m52": {
+   "nazwa": "BMW M50 / M52 (R6)",
+   "kody": [
+    "M50B20",
+    "M52B20",
+    "M52B25",
+    "M50B25",
+    "M52B28"
+   ],
+   "kodyWgMocy": {
+    "150": [
+     "M50B20",
+     "M52B20"
+    ],
+    "170": [
+     "M52B25"
+    ],
+    "192": [
+     "M50B25"
+    ],
+    "193": [
+     "M52B28"
+    ]
+   },
+   "pojemnoscCm3": 0,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "unixnerd.co.uk: BMW M50, M52 i M54",
+     "url": "https://www.unixnerd.co.uk/m50.html"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "bmw-m54": {
+   "nazwa": "BMW M54 (R6)",
+   "kody": [
+    "M54B22",
+    "M54B25",
+    "M54B30"
+   ],
+   "kodyWgMocy": {
+    "170": [
+     "M54B22"
+    ],
+    "192": [
+     "M54B25"
+    ],
+    "231": [
+     "M54B30"
+    ]
+   },
+   "pojemnoscCm3": 0,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: BMW M54",
+     "url": "https://en.wikipedia.org/wiki/BMW_M54"
+    },
+    {
+     "tytul": "unixnerd.co.uk: BMW M50, M52 i M54",
+     "url": "https://www.unixnerd.co.uk/m50.html"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "bmw-m47": {
+   "nazwa": "BMW M47 (R4 diesel)",
+   "kody": [
+    "M47D20",
+    "M47TUD20"
+   ],
+   "pojemnoscCm3": 0,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (M47) / common rail (M47TU)",
+   "rozrzad": "łańcuch",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "unixnerd.co.uk: BMW M47, M57 i M67",
+     "url": "https://www.unixnerd.co.uk/m57.html"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk",
+    "kody"
+   ],
+   "zatwierdzony": false
+  },
+  "bmw-m57": {
+   "nazwa": "BMW M57 (R6 diesel)",
+   "kody": [
+    "M57D25",
+    "M57D30"
+   ],
+   "kodyWgMocy": {
+    "163": [
+     "M57D25"
+    ],
+    "184": [
+     "M57D30"
+    ],
+    "193": [
+     "M57D30"
+    ],
+    "204": [
+     "M57D30"
+    ]
+   },
+   "pojemnoscCm3": 0,
+   "paliwo": "diesel",
+   "wtrysk": "common rail",
+   "rozrzad": "łańcuch",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "unixnerd.co.uk: BMW M47, M57 i M67",
+     "url": "https://www.unixnerd.co.uk/m57.html"
+    }
+   ],
+   "doSprawdzenia": [
+    "kody"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-duratec-he": {
+   "nazwa": "Ford Duratec HE 1.8 / 2.0",
+   "kody": [],
+   "pojemnoscCm3": 0,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Duratec engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Duratec_engine"
+    },
+    {
+     "tytul": "Fordbook: wymiana łańcucha rozrządu Duratec-HE (Mondeo IV)",
+     "url": "https://www.fordbook.ru/en/mondeo/4/power/engine/zamena-cepi-privoda-gazoraspredelitelnogo-mehanizma-dvigateley-duratec"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-duratec-sci": {
+   "nazwa": "Ford 1.8 Duratec SCi",
+   "kody": [],
+   "pojemnoscCm3": 1798,
+   "paliwo": "benzyna",
+   "wtrysk": "bezpośredni (GDI)",
+   "rozrzad": "łańcuch",
+   "lpg": "trudno",
+   "lpgUwagi": "Wtrysk bezpośredni – potrzebna droższa instalacja (z dotryskiem benzyny), opłacalność dużo mniejsza.",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Duratec engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Duratec_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-1-6-tdci": {
+   "nazwa": "Ford/PSA 1.6 TDCi (DV6, DLD-416)",
+   "kody": [
+    "DV6"
+   ],
+   "pojemnoscCm3": 1560,
+   "paliwo": "diesel",
+   "wtrysk": "common rail",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford DLD engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_DLD_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-1-8-tdci": {
+   "nazwa": "Ford 1.8 TDCi (DLD-418 Lynx)",
+   "kody": [],
+   "pojemnoscCm3": 1753,
+   "paliwo": "diesel",
+   "wtrysk": "common rail",
+   "rozrzad": "pasek + łańcuch napędu pompy",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford DLD engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_DLD_engine"
+    },
+    {
+     "tytul": "Wikipedia: Ford Endura-D engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Endura-D_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk",
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-2-0-tddi-puma": {
+   "nazwa": "Ford 2.0 TDDi (Duratorq ZSD-420)",
+   "kody": [],
+   "pojemnoscCm3": 1998,
+   "paliwo": "diesel",
+   "wtrysk": "bezpośredni, bez common rail",
+   "rozrzad": "łańcuch",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Duratorq engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Duratorq_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-2-0-tdci-puma": {
+   "nazwa": "Ford 2.0 TDCi (Duratorq ZSD-420)",
+   "kody": [],
+   "pojemnoscCm3": 1998,
+   "paliwo": "diesel",
+   "wtrysk": "common rail (Delphi)",
+   "rozrzad": "łańcuch",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Duratorq engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Duratorq_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "ford-2-0-tdci-dw10": {
+   "nazwa": "Ford/PSA 2.0 TDCi (DW10)",
+   "kody": [],
+   "pojemnoscCm3": 1997,
+   "paliwo": "diesel",
+   "wtrysk": "common rail (Siemens)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Duratorq engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Duratorq_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "renault-k4j": {
+   "nazwa": "Renault 1.4 16V (K4J)",
+   "kody": [
+    "K4J"
+   ],
+   "pojemnoscCm3": 1390,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Renault K-Type engine",
+     "url": "https://en.wikipedia.org/wiki/Renault_K-Type_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "renault-k4m": {
+   "nazwa": "Renault 1.6 16V (K4M)",
+   "kody": [
+    "K4M"
+   ],
+   "pojemnoscCm3": 1598,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Renault K-Type engine",
+     "url": "https://en.wikipedia.org/wiki/Renault_K-Type_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "renault-k9k": {
+   "nazwa": "Renault 1.5 dCi (K9K)",
+   "kody": [
+    "K9K"
+   ],
+   "pojemnoscCm3": 1461,
+   "paliwo": "diesel",
+   "wtrysk": "common rail (Delphi / Continental)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Renault K-Type engine",
+     "url": "https://en.wikipedia.org/wiki/Renault_K-Type_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "opel-1-7-dti": {
+   "nazwa": "Opel 1.7 DTI / DI (Isuzu Y17DT, Y17DTL)",
+   "kody": [
+    "Y17DT",
+    "Y17DTL"
+   ],
+   "kodyWgMocy": {
+    "75": [
+     "Y17DT"
+    ],
+    "65": [
+     "Y17DTL"
+    ]
+   },
+   "pojemnoscCm3": 1686,
+   "paliwo": "diesel",
+   "wtrysk": "bezpośredni, bez common rail",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Circle L engine (Isuzu/Opel 1.7)",
+     "url": "https://en.wikipedia.org/wiki/Circle_L_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "opel-1-7-cdti": {
+   "nazwa": "Opel 1.7 CDTI (Isuzu Z17DTL)",
+   "kody": [
+    "Z17DTL"
+   ],
+   "pojemnoscCm3": 1686,
+   "paliwo": "diesel",
+   "wtrysk": "common rail",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Circle L engine (Isuzu/Opel 1.7)",
+     "url": "https://en.wikipedia.org/wiki/Circle_L_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
    "zatwierdzony": false
   }
  }

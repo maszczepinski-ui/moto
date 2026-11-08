@@ -105,7 +105,7 @@ export default function Silniki({ api, branch, uzycia, nazwy }: { api: ApiPelne;
               <div className="flex-1 min-w-0">
                 <h3 className="font-bold text-slate-900 dark:text-white">{s.nazwa}</h3>
                 <p className="text-xs text-slate-500">
-                  {s.pojemnoscCm3} cm³ · {s.paliwo} · na kartach: {(uzycia[id] || []).map((x) => nazwy.get(x) || x).join(', ') || '—'}
+                  {s.pojemnoscCm3 ? `${s.pojemnoscCm3} cm³ · ` : 'kilka pojemności · '}{s.paliwo} · na kartach: {(uzycia[id] || []).map((x) => nazwy.get(x) || x).join(', ') || '—'}
                 </p>
               </div>
               <label className="inline-flex items-center gap-2 text-sm font-semibold cursor-pointer">
