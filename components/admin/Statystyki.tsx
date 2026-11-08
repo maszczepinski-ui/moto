@@ -138,7 +138,7 @@ export default function Statystyki({ token }: { token: string }) {
               </li>
               <li>
                 W <strong>Google Analytics → Administracja → Zarządzanie dostępem do usługi</strong> dodaj adres konta usługi (kończy się na „iam.gserviceaccount.com”) z rolą{' '}
-                <strong>Wyświetlający</strong>.
+                <strong>Przeglądający</strong>.
               </li>
               <li>
                 Tam też, w <strong>Szczegóły usługi</strong>, skopiuj <strong>identyfikator usługi</strong> (same cyfry, np. 412345678 – to nie jest kod G-…).

@@ -89,7 +89,7 @@ export async function pobierzStatystyki(dni: number): Promise<Statystyki> {
   });
   if (!r.ok) {
     const tekst = await r.text();
-    throw new Error(r.status === 403 ? 'Konto techniczne nie ma dostępu do usługi GA4 – dodaj je w GA4 jako „Wyświetlający”.' : `Błąd Google ${r.status}: ${tekst.slice(0, 200)}`);
+    throw new Error(r.status === 403 ? 'Konto techniczne nie ma dostępu do usługi GA4 – dodaj je w GA4 jako „Przeglądający”.' : `Błąd Google ${r.status}: ${tekst.slice(0, 200)}`);
   }
   const { reports } = (await r.json()) as { reports: Raport[] };
 
