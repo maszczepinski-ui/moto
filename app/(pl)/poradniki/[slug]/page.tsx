@@ -9,6 +9,7 @@ import { AKCENT } from '@/lib/poradniki-wyglad';
 import { hreflang } from '@/lib/tlumaczenia';
 import IkonaPoradnika from '@/components/IkonaPoradnika';
 import GeneratorDokumentu from '@/components/GeneratorDokumentu';
+import BoksNiezbednika from '@/components/sklep/BoksNiezbednika';
 import LinkPartnerski from '@/components/LinkPartnerski';
 import { PostepCzytania, SpisTresci, SpisTresciMobilny, Udostepnij } from '@/components/Czytanie';
 import {
@@ -250,6 +251,7 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
 
         <div className="space-y-14 pt-14">
           {p.generator && <GeneratorDokumentu rodzaj={p.generator} />}
+          {p.generator === 'umowa' && <BoksNiezbednika miejsce="umowa" />}
 
           {/* Na telefonie porównanie OC i przypomnienie pokazujemy pod treścią */}
           {oc && (

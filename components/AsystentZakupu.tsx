@@ -9,6 +9,7 @@ import { slugWojewodztwa } from '@/lib/wojewodztwa';
 import { KontekstKarty, pokazModul, linkOgledziny, linkFinansowanie, linkUbezpieczenia, panelDane } from '@/lib/panel';
 import { faktyZakupu, radaHistoria, listaWarstwowa, vinModelu, FORMALNOSCI, ZRODLA_FORMALNOSCI, PROCENT, adresZakupu } from '@/lib/zakup';
 import Okruszki from '@/components/Okruszki';
+import BoksNiezbednika from '@/components/sklep/BoksNiezbednika';
 import InspectionChecklist from '@/components/InspectionChecklist';
 import KalkulatorTCO from '@/components/KalkulatorTCO';
 import LinkPartnerski from '@/components/LinkPartnerski';
@@ -235,6 +236,7 @@ export default function AsystentZakupu({ m }: { m: CarModel }) {
       <Krok nr={3} id="ogledziny" ikona={<ClipboardCheck className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />} tytul="Oględziny i jazda próbna">
         <p className="text-slate-700 dark:text-slate-300">Zaznaczaj punkty w trakcie oglądania auta – lista zapamięta się w tym telefonie. Możesz ją też wydrukować albo zapisać jako PDF (w oknie drukowania wybierz „Zapisz jako PDF”).</p>
         <InspectionChecklist modelSlug={`zakup-${m.slug}`} grupy={grupy} tytulDruku={name} />
+        <BoksNiezbednika miejsce="zakup" />
         {ogl && (
           <div className="bg-amber-50 dark:bg-amber-950/30 border border-amber-200 dark:border-amber-900 rounded-2xl p-5 flex flex-col sm:flex-row sm:items-center gap-3 justify-between">
             <div>

@@ -29,6 +29,7 @@ import KalkulatorTrasy from '@/components/KalkulatorTrasy';
 import { Calendar, Film, FlaskConical, MapPin, Gauge, Ruler, Info, Wrench, Users, HelpCircle, ArrowLeft, ArrowRight, Swords, Cog, Layers } from 'lucide-react';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import SctModelu, { PlakietkaSct } from '@/components/SctModelu';
+import BoksNiezbednika from '@/components/sklep/BoksNiezbednika';
 import { WSkrocie, SpisKarty, type Fakt, type PozycjaSpisu } from '@/components/KartaNawigacja';
 import { sctModelu } from '@/lib/sct-modelu';
 
@@ -418,6 +419,9 @@ export default function KartaModelu({ m }: { m: CarModel }) {
 
       {/* Strefy czystego transportu – które roczniki wjadą do SCT */}
       {sct && <SctModelu d={sct} nazwa={name} />}
+
+      {/* Płatny Niezbędnik – widoczny dopiero po włączeniu sklepu */}
+      <BoksNiezbednika miejsce="karta" model={`${m.marka} ${m.model}${m.generacja ? ` ${m.generacja}` : ''}`} />
 
       {/* Narzędzia partnerskie: VIN, OC/AC, części (kolejność i widoczność z panelu admina) */}
       <Monetyzacja k={k} silniki={[...new Set((m.silniki || []).map((x) => x.nazwa))]} />
