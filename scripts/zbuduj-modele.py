@@ -584,8 +584,11 @@ def main():
         s = zsumuj(ws)
         if s['n'] < MIN_AUT_RODZINA:
             continue
-        lata = [y for y, n in s['lata'].items() if n / s['n'] >= 0.01 and y > 1946]
-        lata_txt = f'{min(lata)}–{max(lata)}' if lata else ''
+        # „lata produkcji”: początek – pierwszy rocznik z ≥1% aut rodziny (pojedyncze starsze wpisy to zwykle błędy/importy),
+        # koniec – ostatni rocznik z ≥0,1% aut i ≥200 sztuk (sam próg 1% ucinał końcówkę, np. Golf wychodził „1978–2018”)
+        poczatek = [y for y, n in s['lata'].items() if n / s['n'] >= 0.01 and y > 1946]
+        koniec = [y for y, n in s['lata'].items() if n / s['n'] >= 0.001 and n >= 200 and y > 1946] + poczatek
+        lata_txt = f'{min(poczatek)}–{max(koniec)}' if poczatek else ''
         sl = slug(f'{marka} {ladna_rodzina(rod.rstrip("+"))}')
         nazwy = sorted(surowe[(marka, rod)].items(), key=lambda x: -x[1])[:5]
         jak = (f'Wszystkie zarejestrowane samochody osobowe {ladna_marka(marka)} {ladna_rodzina(rod)} – wszystkie generacje razem. '
