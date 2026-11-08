@@ -6,6 +6,7 @@ import { site } from '@/config/site';
 import { marka } from '@/lib/panel';
 import { META, PORADNIKI_ADRES, SLOWNIK, type JezykObcy } from '@/lib/jezyki';
 import { wszystkieOdpowiedniki } from '@/lib/tlumaczenia';
+import { ADRESY_NARZEDZI } from '@/lib/tlumaczenia/narzedzia';
 import { SkryptyHead, SkryptyBody, wlasnyBanerZgod } from '@/components/SkryptyGlobalne';
 import BanerZgod, { UstawieniaCookies } from '@/components/BanerZgod';
 import AnalitykaVercel from '@/components/AnalitykaVercel';
@@ -64,11 +65,14 @@ export default function UkladObcy({ j, children }: { j: JezykObcy; children: Rea
                 <Link href={PORADNIKI_ADRES[j]} className={link}>
                   {t.menu.poradniki}
                 </Link>
-                <Link href="/sprawdz-vin/" hrefLang="pl" className={link}>
-                  {t.menu.vin} <span className="text-[10px] font-bold text-slate-400">PL</span>
+                <Link href={ADRESY_NARZEDZI.vin[j]} className={link}>
+                  {t.menu.vin}
                 </Link>
-                <Link href="/ubezpieczenie-oc/" hrefLang="pl" className={`${link} hidden md:inline`}>
-                  {t.menu.oc} <span className="text-[10px] font-bold text-slate-400">PL</span>
+                <Link href={ADRESY_NARZEDZI.oc[j]} className={link}>
+                  {t.menu.oc}
+                </Link>
+                <Link href={ADRESY_NARZEDZI.mandaty[j]} className={`${link} hidden md:inline`}>
+                  {t.menu.mandaty}
                 </Link>
               </nav>
               <PrzelacznikJezyka jezyk={j} zestawy={zestawy} />
@@ -77,12 +81,9 @@ export default function UkladObcy({ j, children }: { j: JezykObcy; children: Rea
           <nav aria-label={t.menu.poradniki} className="sm:hidden border-t border-slate-100 dark:border-slate-800">
             <div className="max-w-6xl mx-auto px-4 h-10 flex items-center gap-5 text-sm font-semibold text-slate-700 dark:text-slate-200 overflow-x-auto whitespace-nowrap">
               <Link href={PORADNIKI_ADRES[j]}>{t.menu.poradniki}</Link>
-              <Link href="/sprawdz-vin/" hrefLang="pl">
-                {t.menu.vin} <span className="text-[10px] text-slate-400">PL</span>
-              </Link>
-              <Link href="/ubezpieczenie-oc/" hrefLang="pl">
-                {t.menu.oc} <span className="text-[10px] text-slate-400">PL</span>
-              </Link>
+              <Link href={ADRESY_NARZEDZI.vin[j]}>{t.menu.vin}</Link>
+              <Link href={ADRESY_NARZEDZI.oc[j]}>{t.menu.oc}</Link>
+              <Link href={ADRESY_NARZEDZI.mandaty[j]}>{t.menu.mandaty}</Link>
             </div>
           </nav>
         </header>
@@ -102,6 +103,21 @@ export default function UkladObcy({ j, children }: { j: JezykObcy; children: Rea
                 <li>
                   <Link href={PORADNIKI_ADRES[j]} className={link}>
                     {t.menu.poradniki}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={ADRESY_NARZEDZI.vin[j]} className={link}>
+                    {t.menu.vin}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={ADRESY_NARZEDZI.oc[j]} className={link}>
+                    {t.menu.oc}
+                  </Link>
+                </li>
+                <li>
+                  <Link href={ADRESY_NARZEDZI.mandaty[j]} className={link}>
+                    {t.menu.mandaty}
                   </Link>
                 </li>
                 <li>

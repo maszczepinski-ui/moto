@@ -19,7 +19,7 @@ export const PORADNIKI_ADRES: Record<Jezyk, string> = { pl: '/poradniki/', uk: '
 export type Slownik = {
   skok: string;
   stronaGlowna: string;
-  menu: { poradniki: string; vin: string; oc: string; polski: string };
+  menu: { poradniki: string; vin: string; oc: string; mandaty: string; polski: string };
   hasloStrony: string;
   stopka: { onas: string; zrodla: string; prywatnosc: string; cookies: string; partnerzy: string; wydawca: string };
   zgoda: { tekst: string; szczegoly: string; nie: string; tak: string };
@@ -59,6 +59,8 @@ export type Slownik = {
     vinOpis: string;
     ocTytul: string;
     ocOpis: string;
+    mandatyTytul: string;
+    mandatyOpis: string;
     poPolskuNarzedzie: string;
   };
   podpowiedz: { tekst: string; przejdz: string; zamknij: string };
@@ -69,7 +71,7 @@ export const SLOWNIK: Record<JezykObcy, Slownik> = {
   uk: {
     skok: 'Перейти до змісту',
     stronaGlowna: 'Головна',
-    menu: { poradniki: 'Поради', vin: 'Перевірка VIN', oc: 'Страхування OC', polski: 'Польська версія' },
+    menu: { poradniki: 'Поради', vin: 'Перевірка VIN', oc: 'Страхування OC', mandaty: 'Штрафи', polski: 'Польська версія' },
     hasloStrony: 'Авто в Польщі – просто і зрозуміло',
     stopka: {
       onas: 'Сайт про автомобілі в Польщі: офіційні дані, поради та інструменти. Повна версія сайту – польською мовою.',
@@ -126,11 +128,13 @@ export const SLOWNIK: Record<JezykObcy, Slownik> = {
       poradnikiTytul: 'Найважливіші поради',
       wszystkie: 'Усі поради',
       narzedziaTytul: 'Корисні інструменти',
-      narzedziaOpis: 'Інструменти поки що працюють польською мовою – ми поступово їх перекладаємо.',
+      narzedziaOpis: 'Перевірка авто, страхування і штрафи – українською. Сторінки партнерів (звіт VIN, калькулятор OC) можуть відкриватися польською.',
       vinTytul: 'Перевірка авто за VIN',
       vinOpis: 'Пробіг, пошкодження та історія авто – перед купівлею.',
       ocTytul: 'Порівняння цін OC',
       ocOpis: 'Обов’язкове страхування авто в Польщі – пропозиції багатьох страховиків.',
+      mandatyTytul: 'Калькулятор штрафів',
+      mandatyOpis: 'Скільки коштує перевищення швидкості і скільки балів ви отримаєте.',
       poPolskuNarzedzie: 'польською'
     },
     podpowiedz: { tekst: 'Ця сторінка є українською мовою.', przejdz: 'Перейти', zamknij: 'Закрити' },
@@ -139,7 +143,7 @@ export const SLOWNIK: Record<JezykObcy, Slownik> = {
   en: {
     skok: 'Skip to content',
     stronaGlowna: 'Home',
-    menu: { poradniki: 'Guides', vin: 'VIN check', oc: 'Car insurance (OC)', polski: 'Polish version' },
+    menu: { poradniki: 'Guides', vin: 'VIN check', oc: 'Car insurance', mandaty: 'Fines', polski: 'Polish version' },
     hasloStrony: 'Driving in Poland, made simple',
     stopka: {
       onas: 'A website about cars in Poland: official data, guides and tools. The full website is in Polish.',
@@ -193,11 +197,13 @@ export const SLOWNIK: Record<JezykObcy, Slownik> = {
       poradnikiTytul: 'Most important guides',
       wszystkie: 'All guides',
       narzedziaTytul: 'Useful tools',
-      narzedziaOpis: 'Our tools are in Polish for now – we are translating them step by step.',
+      narzedziaOpis: 'Car checks, insurance and fines – in English. Partner pages (VIN report, OC calculator) may open in Polish.',
       vinTytul: 'Check a car by VIN',
       vinOpis: 'Mileage, damage and history – before you buy.',
       ocTytul: 'Compare OC prices',
       ocOpis: 'Mandatory car insurance in Poland – offers from many insurers.',
+      mandatyTytul: 'Traffic fine calculator',
+      mandatyOpis: 'How much speeding costs and how many points you get.',
       poPolskuNarzedzie: 'in Polish'
     },
     podpowiedz: { tekst: 'This page is available in English.', przejdz: 'Go', zamknij: 'Close' },

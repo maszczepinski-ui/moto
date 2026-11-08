@@ -12,6 +12,7 @@ import { wszystkieTrasy } from '@/lib/miasta';
 import { PREDKOSC } from '@/lib/mandaty';
 import { JEZYKI_OBCE, PORADNIKI_ADRES } from '@/lib/jezyki';
 import { adresPoradnika, hreflang, poradnikiObce } from '@/lib/tlumaczenia';
+import { ADRESY_NARZEDZI } from '@/lib/tlumaczenia/narzedzia';
 
 const LIMIT = 5000;
 interface Adres {
@@ -81,6 +82,7 @@ function grupy(): Record<string, Adres[]> {
   out['tlumaczenia'] = JEZYKI_OBCE.flatMap((j) => [
     { loc: `/${j}/`, changefreq: 'weekly', priority: 0.8 },
     { loc: PORADNIKI_ADRES[j], changefreq: 'monthly', priority: 0.7 },
+    ...Object.values(ADRESY_NARZEDZI).map((a) => ({ loc: a[j], changefreq: 'monthly', priority: 0.8 })),
     ...poradnikiObce(j).map((p) => ({ loc: adresPoradnika(j, p.slug), lastmod: p.aktualizacja, changefreq: 'monthly', priority: 0.7 }))
   ]);
   const pary = wszystkiePary().map((p) => ({ loc: `/porownaj/${p.id}/`, changefreq: 'monthly', priority: 0.5 }));

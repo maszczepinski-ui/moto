@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { hreflang } from '@/lib/tlumaczenia';
 import Link from 'next/link';
 import { ShieldCheck, ExternalLink, CheckCircle2, CalendarClock, BellRing, FileText, TriangleAlert, ArrowRight, Plus } from 'lucide-react';
 import Okruszki from '@/components/Okruszki';
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: 'Porównaj ceny OC i AC – kalkulator ubezpieczenia auta',
   description:
     'Porównaj ceny OC i AC u wielu ubezpieczycieli. Co przygotować do kalkulatora, kiedy zmienić ubezpieczyciela, jak nie przegapić końca polisy i ile kosztuje brak OC.',
-  alternates: { canonical: '/ubezpieczenie-oc/' }
+  alternates: { canonical: '/ubezpieczenie-oc/', languages: hreflang('/ubezpieczenie-oc/') }
 };
 
 const K = { slug: 'ubezpieczenie-oc', marka: '', model: '' };

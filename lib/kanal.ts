@@ -17,6 +17,9 @@ export function zKanalem(url: string, kanal: string): string {
 export function kanalDla(karta: string): string {
   if (karta === 'strona-glowna') return 'strona-glowna';
   if (karta === 'sprawdz-vin') return 'sprawdz-vin';
+  // wersje językowe: osobny kanał, żeby widzieć ruch z /uk/ i /en/ (np. „uk-sprawdz-vin”, „en-poradnik”)
+  const obcy = karta.match(/^(uk|en)-(.+)$/);
+  if (obcy) return `${obcy[1]}-${kanalDla(obcy[2])}`;
   if (karta.startsWith('poradnik')) return 'poradnik';
   if (karta === 'linki') return 'linki';
   return 'karta-modelu';

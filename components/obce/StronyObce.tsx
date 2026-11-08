@@ -1,7 +1,7 @@
 // Strona główna i lista poradników w wersjach /uk/ i /en/.
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { ArrowRight, ScanLine, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Gauge, ScanLine, ShieldCheck } from 'lucide-react';
 import IkonaPoradnika from '@/components/IkonaPoradnika';
 import Okruszki from '@/components/Okruszki';
 import { AKCENT } from '@/lib/poradniki-wyglad';
@@ -9,6 +9,7 @@ import { czasCzytania } from '@/lib/poradniki';
 import { META, PORADNIKI_ADRES, SLOWNIK, type JezykObcy } from '@/lib/jezyki';
 import { adresPoradnika, hreflang, poradnikiObce, type PoradnikObcy } from '@/lib/tlumaczenia';
 import { typoObce } from '@/lib/typografia';
+import { ADRESY_NARZEDZI } from '@/lib/tlumaczenia/narzedzia';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import { site } from '@/config/site';
 
@@ -114,25 +115,21 @@ export function GlownaObca({ j }: { j: JezykObcy }) {
             </h2>
             <p className="mt-1 text-slate-600 dark:text-slate-400">{g.narzedziaOpis}</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <Link href="/sprawdz-vin/" hrefLang="pl" className="group flex items-start gap-4 rounded-3xl bg-slate-950 text-white p-6 hover:bg-slate-900">
-              <ScanLine className="w-8 h-8 text-emerald-400 flex-shrink-0" aria-hidden="true" />
-              <span className="flex-1">
-                <span className="block text-lg font-extrabold">{g.vinTytul}</span>
-                <span className="block text-sm text-white/70">{g.vinOpis}</span>
-                <span className="mt-2 inline-block text-[10px] font-bold uppercase tracking-wider text-white/50">{g.poPolskuNarzedzie}</span>
-              </span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-            </Link>
-            <Link href="/ubezpieczenie-oc/" hrefLang="pl" className="group flex items-start gap-4 rounded-3xl bg-sky-700 text-white p-6 hover:bg-sky-800">
-              <ShieldCheck className="w-8 h-8 text-sky-100 flex-shrink-0" aria-hidden="true" />
-              <span className="flex-1">
-                <span className="block text-lg font-extrabold">{g.ocTytul}</span>
-                <span className="block text-sm text-white/75">{g.ocOpis}</span>
-                <span className="mt-2 inline-block text-[10px] font-bold uppercase tracking-wider text-white/60">{g.poPolskuNarzedzie}</span>
-              </span>
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
-            </Link>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { href: ADRESY_NARZEDZI.vin[j], I: ScanLine, tytul: g.vinTytul, opis: g.vinOpis, kolor: 'bg-slate-950 hover:bg-slate-900', ikona: 'text-emerald-400' },
+              { href: ADRESY_NARZEDZI.oc[j], I: ShieldCheck, tytul: g.ocTytul, opis: g.ocOpis, kolor: 'bg-sky-700 hover:bg-sky-800', ikona: 'text-sky-100' },
+              { href: ADRESY_NARZEDZI.mandaty[j], I: Gauge, tytul: g.mandatyTytul, opis: g.mandatyOpis, kolor: 'bg-rust-700 hover:bg-rust-800', ikona: 'text-rust-100' }
+            ].map(({ href, I, tytul, opis, kolor, ikona }) => (
+              <Link key={href} href={href} className={`group flex items-start gap-4 rounded-3xl text-white p-6 ${kolor}`}>
+                <I className={`w-8 h-8 flex-shrink-0 ${ikona}`} aria-hidden="true" />
+                <span className="flex-1">
+                  <span className="block text-lg font-extrabold">{tytul}</span>
+                  <span className="block text-sm text-white/75">{opis}</span>
+                </span>
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+              </Link>
+            ))}
           </div>
         </section>
       </div>

@@ -11,6 +11,7 @@ import { czasCzytania, dataPublikacji } from '@/lib/poradniki';
 import { META, PORADNIKI_ADRES, SLOWNIK, type JezykObcy } from '@/lib/jezyki';
 import { adresPoradnika, hreflang, lokalnyLink, poradnikiObce, type PoradnikObcy } from '@/lib/tlumaczenia';
 import { typoObce } from '@/lib/typografia';
+import { ADRESY_NARZEDZI } from '@/lib/tlumaczenia/narzedzia';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import { site } from '@/config/site';
 
@@ -205,12 +206,12 @@ export default function PoradnikObcyStrona({ j, p }: { j: JezykObcy; p: Poradnik
                 </ol>
               </nav>
               {pokazVin && (
-                <Link href="/sprawdz-vin/" hrefLang="pl" className="group block rounded-2xl bg-slate-950 text-white p-4 hover:bg-slate-900">
+                <Link href={ADRESY_NARZEDZI.vin[j]} className="group block rounded-2xl bg-slate-950 text-white p-4 hover:bg-slate-900">
                   <ScanLine className="w-6 h-6 text-emerald-400" aria-hidden="true" />
                   <div className="mt-2 font-extrabold">{t.glowna.vinTytul}</div>
                   <div className="text-sm text-white/70">{t.glowna.vinOpis}</div>
                   <span className="mt-2 inline-flex items-center gap-1 text-sm font-bold text-emerald-300">
-                    {t.glowna.poPolskuNarzedzie} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
+                    {t.menu.vin} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" aria-hidden="true" />
                   </span>
                 </Link>
               )}

@@ -5,6 +5,7 @@ import { site } from '@/config/site';
 import { JEZYKI_OBCE, META, PORADNIKI_ADRES, type Jezyk, type JezykObcy } from '@/lib/jezyki';
 import type { Tlumaczenie } from './typy';
 import { PORADNIKI_UK } from './poradniki-uk';
+import { ADRESY_NARZEDZI } from './narzedzia';
 import { PORADNIKI_EN } from './poradniki-en';
 
 export type { Tlumaczenie } from './typy';
@@ -33,7 +34,9 @@ export type Odpowiedniki = Partial<Record<Jezyk, string>> & { pl: string };
 export function wszystkieOdpowiedniki(): Odpowiedniki[] {
   const zestawy: Odpowiedniki[] = [
     { pl: '/', uk: '/uk/', en: '/en/' },
-    { pl: PORADNIKI_ADRES.pl, uk: PORADNIKI_ADRES.uk, en: PORADNIKI_ADRES.en }
+    { pl: PORADNIKI_ADRES.pl, uk: PORADNIKI_ADRES.uk, en: PORADNIKI_ADRES.en },
+    // przetłumaczone narzędzia: mandaty, VIN, OC
+    ...Object.values(ADRESY_NARZEDZI)
   ];
   const poPl = new Map<string, Odpowiedniki>();
   for (const j of JEZYKI_OBCE) {

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { hreflang } from '@/lib/tlumaczenia';
 import { ExternalLink, ScanLine, FileText, Car, ArrowRight } from 'lucide-react';
 import { BoksVin } from '@/components/Monetyzacja';
 import { pokazModul } from '@/lib/panel';
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   title: 'Sprawdź auto po numerze VIN – historia, przebieg, szkody',
   description:
     'Gdzie znaleźć numer VIN, jak darmowo sprawdzić auto zarejestrowane w Polsce i kiedy warto kupić pełny raport z zagranicznych baz (przebieg, szkody, zdjęcia).',
-  alternates: { canonical: '/sprawdz-vin/' }
+  alternates: { canonical: '/sprawdz-vin/', languages: hreflang('/sprawdz-vin/') }
 };
 
 const K = { slug: 'sprawdz-vin', marka: '', model: '' };

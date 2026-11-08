@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { hreflang } from '@/lib/tlumaczenia';
 import Link from 'next/link';
 import { Camera, ArrowRight } from 'lucide-react';
 import NaglowekDzialu from '@/components/NaglowekDzialu';
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
   title: `Taryfikator mandatów ${STAN_PRZEPISOW.split(' ')[1]} – kalkulator mandatu i punktów karnych`,
   description:
     'Ile zapłacisz za przekroczenie prędkości i ile dostaniesz punktów karnych? Kalkulator mandatu, kalkulator punktów, recydywa i zatrzymanie prawa jazdy – aktualne przepisy.',
-  alternates: { canonical: '/mandaty/' }
+  alternates: { canonical: '/mandaty/', languages: hreflang('/mandaty/') }
 };
 
 const FAQ = [
