@@ -22,10 +22,10 @@ export default function EngineTable({ silniki }: { silniki: WierszSilnika[] }) {
               <th scope="col" className="hidden sm:table-cell text-left font-semibold px-4 py-2.5">Kod silnika</th>
               <th scope="col" className="text-right font-semibold px-4 py-2.5">Pojemność</th>
               <th scope="col" className="text-right font-semibold px-4 py-2.5">Moc</th>
-              <th scope="col" className="text-left font-semibold px-4 py-2.5">Paliwo</th>
+              <th scope="col" className={`${tech ? 'hidden sm:table-cell ' : ''}text-left font-semibold px-4 py-2.5`}>Paliwo</th>
               {tech && <th scope="col" className="hidden md:table-cell text-left font-semibold px-4 py-2.5">Wtrysk</th>}
               {tech && <th scope="col" className="hidden md:table-cell text-left font-semibold px-4 py-2.5">Rozrząd</th>}
-              {tech && <th scope="col" className="text-left font-semibold px-4 py-2.5">LPG</th>}
+              {tech && <th scope="col" className="text-left font-semibold px-3 sm:px-4 py-2.5">LPG</th>}
               <th scope="col" className="hidden sm:table-cell text-left font-semibold px-4 py-2.5">Lata</th>
             </tr>
           </thead>
@@ -41,14 +41,15 @@ export default function EngineTable({ silniki }: { silniki: WierszSilnika[] }) {
                   <td className="hidden sm:table-cell px-4 py-2 font-mono text-xs text-slate-600 dark:text-slate-400">{kod ?? '—'}</td>
                   <td className="px-3 sm:px-4 py-2 text-right tabular-nums whitespace-nowrap">{fmt(s.pojemnoscCm3)} cm³</td>
                   <td className="px-3 sm:px-4 py-2 text-right tabular-nums whitespace-nowrap">{s.mocKm} KM</td>
-                  <td className="px-4 py-2">{s.paliwo}</td>
+                  <td className={`${tech ? 'hidden sm:table-cell ' : ''}px-4 py-2`}>{s.paliwo}</td>
                   {tech && <td className="hidden md:table-cell px-4 py-2 text-slate-600 dark:text-slate-400">{t?.wtrysk ?? '—'}</td>}
                   {tech && <td className="hidden md:table-cell px-4 py-2 text-slate-600 dark:text-slate-400">{t?.rozrzad ?? '—'}</td>}
                   {tech && (
-                    <td className="px-4 py-2">
+                    <td className="px-3 sm:px-4 py-2">
                       {lpg ? (
                         <span title={t?.lpgUwagi} className={`inline-block rounded-full ring-1 px-2 py-0.5 text-[11px] font-semibold whitespace-nowrap ${KOLOR_LPG[lpg.kolor]}`}>
-                          {lpg.tekst}
+                          <span className="sm:hidden">{lpg.krotko}</span>
+                          <span className="hidden sm:inline">{lpg.tekst}</span>
                         </span>
                       ) : (
                         '—'

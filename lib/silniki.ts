@@ -25,11 +25,11 @@ export interface SilnikTech {
 const SILNIKI = (biblioteka as unknown as { silniki: Record<string, SilnikTech> }).silniki;
 const PRZYPISANIA = (przypisania as unknown as { modele: Record<string, Record<string, string>> }).modele;
 
-export const LPG: Record<OcenaLpg, { tekst: string; kolor: 'zielony' | 'zolty' | 'pomaranczowy' | 'szary' }> = {
-  dobrze: { tekst: 'Dobrze znosi LPG', kolor: 'zielony' },
-  warunkowo: { tekst: 'LPG z zastrzeżeniami', kolor: 'zolty' },
-  trudno: { tekst: 'LPG drogie i mało opłacalne', kolor: 'pomaranczowy' },
-  'nie-dotyczy': { tekst: 'Diesel – LPG nie dotyczy', kolor: 'szary' }
+export const LPG: Record<OcenaLpg, { tekst: string; krotko: string; kolor: 'zielony' | 'zolty' | 'pomaranczowy' | 'szary' }> = {
+  dobrze: { tekst: 'Dobrze znosi LPG', krotko: 'Dobrze', kolor: 'zielony' },
+  warunkowo: { tekst: 'LPG z zastrzeżeniami', krotko: 'Z zastrzeż.', kolor: 'zolty' },
+  trudno: { tekst: 'LPG drogie i mało opłacalne', krotko: 'Drogo', kolor: 'pomaranczowy' },
+  'nie-dotyczy': { tekst: 'Diesel – LPG nie dotyczy', krotko: 'Diesel', kolor: 'szary' }
 };
 
 export type WierszSilnika = Silnik & { tech?: SilnikTech & { id: string } };
