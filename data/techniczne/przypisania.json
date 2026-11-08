@@ -24,7 +24,9 @@
    "GTI 2.0 TFSI|200": "vw-2-0-tfsi-ea113",
    "R32 3.2 V6|250": "vw-3-2-vr6",
    "1.9 TDI|105": "vw-1-9-tdi-pd",
-   "2.0 TDI|140": "vw-2-0-tdi-pd"
+   "2.0 TDI|140": "vw-2-0-tdi-pd",
+   "2.0 SDI|75": "vw-2-0-sdi",
+   "1.9 TDI|90": "vw-1-9-tdi-pd"
   },
   "skoda-octavia-i": {
    "1.4 16V|75": "vw-1-4-16v",
@@ -46,14 +48,20 @@
    "1.9 TDI|90": "vw-1-9-tdi-vp",
    "1.9 TDI|110": "vw-1-9-tdi-vp",
    "1.9 TDI|101": "vw-1-9-tdi-pd",
-   "1.9 TDI|130": "vw-1-9-tdi-pd"
+   "1.9 TDI|130": "vw-1-9-tdi-pd",
+   "2.8 V6|193": "audi-v6-30v",
+   "2.5 TDI V6|150": "vw-2-5-tdi-v6",
+   "2.0 TDI|136": "vw-2-0-tdi-pd-8v"
   },
   "volkswagen-passat-b6": {
    "1.4 TSI|122": "vw-1-4-tsi",
    "1.6|102": "vw-1-6-8v",
    "1.6 FSI|115": "vw-1-6-fsi",
    "2.0 FSI|150": "vw-2-0-fsi",
-   "1.9 TDI|105": "vw-1-9-tdi-pd"
+   "1.9 TDI|105": "vw-1-9-tdi-pd",
+   "2.0 TDI|140": "vw-2-0-tdi-pd-16v",
+   "2.0 TDI|170": "vw-2-0-tdi-pd-16v",
+   "1.8 TSI|160": "vw-1-8-tsi-ea888"
   },
   "skoda-fabia-i": {
    "1.2 HTP 6V|54": "vw-1-2-r3",
@@ -63,7 +71,8 @@
    "1.4 TDI|75": "vw-1-4-tdi",
    "1.4 TDI|80": "vw-1-4-tdi",
    "1.9 TDI|100": "vw-1-9-tdi-pd",
-   "1.9 TDI RS|130": "vw-1-9-tdi-pd"
+   "1.9 TDI RS|130": "vw-1-9-tdi-pd",
+   "1.9 SDI|64": "vw-1-9-sdi-64"
   },
   "volkswagen-polo-iv": {
    "1.2|54": "vw-1-2-r3",
@@ -71,7 +80,8 @@
    "1.4 16V|75": "vw-1-4-16v",
    "1.4 TDI|75": "vw-1-4-tdi",
    "1.9 TDI|101": "vw-1-9-tdi-pd",
-   "1.9 TDI|130": "vw-1-9-tdi-pd"
+   "1.9 TDI|130": "vw-1-9-tdi-pd",
+   "1.9 SDI|64": "vw-1-9-sdi-64"
   },
   "opel-astra-g": {
    "1.2 16V|65": "opel-1-2-16v",
@@ -79,7 +89,10 @@
    "1.6 16V|100": "opel-1-6-16v",
    "1.8 16V|125": "opel-1-8-16v",
    "1.7 DTI|75": "opel-1-7-dti",
-   "1.7 CDTI|80": "opel-1-7-cdti"
+   "1.7 CDTI|80": "opel-1-7-cdti",
+   "2.0 16V|136": "opel-x20xev",
+   "2.0 DI 16V|82": "opel-2-0-dti",
+   "2.0 DTI 16V|100": "opel-2-0-dti"
   },
   "opel-corsa-c": {
    "1.0 12V|58": "opel-1-0-12v",
@@ -96,7 +109,11 @@
   },
   "opel-astra-f": {
    "1.4 16V|90": "opel-1-4-16v",
-   "1.6 16V|101": "opel-1-6-16v"
+   "1.6 16V|101": "opel-1-6-16v",
+   "1.6|75": "opel-1-6-8v-spi",
+   "1.8 16V|116": "opel-1-8-16v",
+   "2.0 16V|136": "opel-x20xev",
+   "2.0 GSi 16V|150": "opel-c20xe"
   },
   "ford-focus-i": {
    "1.4 Zetec|75": "ford-1-4-sigma",
@@ -167,13 +184,52 @@
    "1.5 dCi|101": "renault-k9k"
   },
   "audi-a4-b5": {
-   "1.8 T 20V|150": "vw-1-8t-20v"
+   "1.8 T 20V|150": "vw-1-8t-20v",
+   "1.6|101": "vw-1-6-8v-starszy",
+   "2.8 V6 30V|193": "audi-v6-30v",
+   "1.9 TDI|90": "vw-1-9-tdi-vp-starszy",
+   "1.9 TDI|110": "vw-1-9-tdi-vp-starszy",
+   "2.5 TDI V6|150": "vw-2-5-tdi-v6"
   },
   "audi-a4-b6": {
-   "1.8 T|150": "vw-1-8t-20v"
+   "1.8 T|150": "vw-1-8t-20v",
+   "1.6|102": "vw-1-6-8v-starszy",
+   "2.0|131": "audi-2-0-20v",
+   "2.4 V6|170": "audi-v6-30v",
+   "1.9 TDI|101": "audi-1-9-tdi-pd",
+   "1.9 TDI|130": "audi-1-9-tdi-pd",
+   "2.5 TDI V6|163": "vw-2-5-tdi-v6",
+   "2.5 TDI V6|180": "vw-2-5-tdi-v6"
   },
   "audi-a6-c5": {
-   "1.8 T|150": "vw-1-8t-20v"
+   "1.8 T|150": "vw-1-8t-20v",
+   "2.8 V6|193": "audi-v6-30v",
+   "1.9 TDI|110": "vw-1-9-tdi-vp-starszy",
+   "2.5 TDI V6|150": "vw-2-5-tdi-v6",
+   "2.5 TDI V6|180": "vw-2-5-tdi-v6"
+  },
+  "volkswagen-golf-iii": {
+   "1.6|101": "vw-1-6-8v-starszy",
+   "1.8|75": "vw-1-8-8v-spi",
+   "1.8|90": "vw-1-8-8v-spi",
+   "2.0 GTI 16V|150": "vw-2-0-16v-abf",
+   "2.8 VR6|174": "vw-2-8-vr6",
+   "1.9 D|65": "vw-1-9-d",
+   "1.9 TD|75": "vw-1-9-td",
+   "1.9 TDI|90": "vw-1-9-tdi-vp-starszy",
+   "1.9 TDI|110": "vw-1-9-tdi-vp-starszy"
+  },
+  "opel-vectra-b": {
+   "1.6 16V|100": "opel-1-6-16v",
+   "1.8 16V|116": "opel-1-8-16v",
+   "2.0 16V|136": "opel-x20xev",
+   "2.0 DI 16V|82": "opel-2-0-dti",
+   "2.0 DTI 16V|101": "opel-2-0-dti"
+  },
+  "opel-vectra-c": {
+   "1.8 16V|122": "opel-1-8-16v",
+   "2.0 DTI|100": "opel-2-0-dti",
+   "2.2 DTI|125": "opel-2-2-dti"
   }
  }
 }

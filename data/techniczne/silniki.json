@@ -398,7 +398,10 @@
     "ASZ",
     "ARL",
     "BKC",
-    "BXE"
+    "BXE",
+    "BRU",
+    "BXF",
+    "BXJ"
    ],
    "kodyWgMocy": {
     "100": [
@@ -418,6 +421,11 @@
     ],
     "150": [
      "ARL"
+    ],
+    "90": [
+     "BRU",
+     "BXF",
+     "BXJ"
     ]
    },
    "pojemnoscCm3": 1896,
@@ -581,8 +589,20 @@
   "opel-1-8-16v": {
    "nazwa": "Opel 1.8 16V (Family 1)",
    "kody": [
+    "X18XE1",
     "Z18XE"
    ],
+   "kodyWgMocy": {
+    "116": [
+     "X18XE1"
+    ],
+    "122": [
+     "Z18XE"
+    ],
+    "125": [
+     "Z18XE"
+    ]
+   },
    "pojemnoscCm3": 1796,
    "paliwo": "benzyna",
    "wtrysk": "MPI",
@@ -1140,6 +1160,534 @@
    ],
    "doSprawdzenia": [
     "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-6-8v-starszy": {
+   "nazwa": "VW/Audi 1.6 8V (starsze kody)",
+   "kody": [
+    "AFT",
+    "AEK",
+    "ADP",
+    "AHL",
+    "ANA",
+    "ALZ"
+   ],
+   "kodyWgMocy": {
+    "101": [
+     "AFT",
+     "AEK",
+     "ADP",
+     "AHL",
+     "ANA"
+    ],
+    "102": [
+     "ALZ"
+    ]
+   },
+   "pojemnoscCm3": 1595,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-8-8v-spi": {
+   "nazwa": "VW 1.8 8V (wtrysk jednopunktowy)",
+   "kody": [
+    "AAM",
+    "ABS",
+    "ADZ"
+   ],
+   "kodyWgMocy": {
+    "75": [
+     "AAM"
+    ],
+    "90": [
+     "ABS",
+     "ADZ"
+    ]
+   },
+   "pojemnoscCm3": 1781,
+   "paliwo": "benzyna",
+   "wtrysk": "jednopunktowy (SPI)",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-2-0-16v-abf": {
+   "nazwa": "VW 2.0 16V GTI (ABF)",
+   "kody": [
+    "ABF"
+   ],
+   "pojemnoscCm3": 1984,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk",
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-2-8-vr6": {
+   "nazwa": "VW 2.8 VR6 12V (AAA)",
+   "kody": [
+    "AAA"
+   ],
+   "pojemnoscCm3": 2792,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "audi-2-0-20v": {
+   "nazwa": "Audi 2.0 20V (ALT)",
+   "kody": [
+    "ALT"
+   ],
+   "pojemnoscCm3": 1984,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "audi-v6-30v": {
+   "nazwa": "Audi 2.4 / 2.8 V6 30V",
+   "kody": [
+    "AMM",
+    "BDV",
+    "ACK"
+   ],
+   "kodyWgMocy": {
+    "170": [
+     "AMM",
+     "BDV"
+    ],
+    "193": [
+     "ACK"
+    ]
+   },
+   "pojemnoscCm3": 0,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-9-d": {
+   "nazwa": "VW 1.9 D (1Y)",
+   "kody": [
+    "1Y"
+   ],
+   "pojemnoscCm3": 1896,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Lucas), wtrysk pośredni",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-9-td": {
+   "nazwa": "VW 1.9 TD (AAZ)",
+   "kody": [
+    "AAZ"
+   ],
+   "pojemnoscCm3": 1896,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch), wtrysk pośredni",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-9-tdi-vp-starszy": {
+   "nazwa": "VW/Audi 1.9 TDI (pompa VP37, starsze kody)",
+   "kody": [
+    "1Z",
+    "AHU",
+    "AFN",
+    "AVG"
+   ],
+   "kodyWgMocy": {
+    "90": [
+     "1Z",
+     "AHU"
+    ],
+    "110": [
+     "AFN",
+     "AVG"
+    ]
+   },
+   "pojemnoscCm3": 1896,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch VP37)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "audi-1-9-tdi-pd": {
+   "nazwa": "Audi 1.9 TDI PD",
+   "kody": [
+    "AVB",
+    "AVF",
+    "AWX"
+   ],
+   "kodyWgMocy": {
+    "101": [
+     "AVB"
+    ],
+    "130": [
+     "AVF",
+     "AWX"
+    ]
+   },
+   "pojemnoscCm3": 1896,
+   "paliwo": "diesel",
+   "wtrysk": "pompowtryskiwacze (Pumpe-Düse)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-2-0-tdi-pd-16v": {
+   "nazwa": "VW 2.0 TDI PD 16V (Passat B6)",
+   "kody": [
+    "BKP",
+    "BMP",
+    "BMR"
+   ],
+   "kodyWgMocy": {
+    "140": [
+     "BKP",
+     "BMP"
+    ],
+    "170": [
+     "BMR"
+    ]
+   },
+   "pojemnoscCm3": 1968,
+   "paliwo": "diesel",
+   "wtrysk": "pompowtryskiwacze (Pumpe-Düse; BMR – piezo)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-2-5-tdi-v6": {
+   "nazwa": "VW/Audi 2.5 TDI V6",
+   "kody": [
+    "AFB",
+    "AKN",
+    "BDG",
+    "BFC",
+    "AKE",
+    "BAU"
+   ],
+   "kodyWgMocy": {
+    "150": [
+     "AFB",
+     "AKN"
+    ],
+    "163": [
+     "BDG",
+     "BFC"
+    ],
+    "180": [
+     "AKE",
+     "BAU"
+    ]
+   },
+   "pojemnoscCm3": 2496,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch VP44)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "opel-1-6-8v-spi": {
+   "nazwa": "Opel 1.6 8V (wtrysk jednopunktowy)",
+   "kody": [
+    "C16NZ",
+    "X16SZ"
+   ],
+   "pojemnoscCm3": 1598,
+   "paliwo": "benzyna",
+   "wtrysk": "jednopunktowy",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Family 1 engine",
+     "url": "https://en.wikipedia.org/wiki/GM_Family_1_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "opel-x20xev": {
+   "nazwa": "Opel 2.0 16V (X20XEV)",
+   "kody": [
+    "X20XEV"
+   ],
+   "pojemnoscCm3": 1998,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Family II engine",
+     "url": "https://en.wikipedia.org/wiki/GM_Family_II_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "opel-c20xe": {
+   "nazwa": "Opel 2.0 16V GSi (C20XE)",
+   "kody": [
+    "C20XE"
+   ],
+   "pojemnoscCm3": 1998,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Family II engine",
+     "url": "https://en.wikipedia.org/wiki/GM_Family_II_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "opel-2-0-dti": {
+   "nazwa": "Opel 2.0 DI / DTI 16V (Ecotec Diesel)",
+   "kody": [
+    "X20DTL",
+    "X20DTH",
+    "Y20DTH"
+   ],
+   "kodyWgMocy": {
+    "82": [
+     "X20DTL"
+    ],
+    "101": [
+     "X20DTH"
+    ],
+    "100": [
+     "X20DTH",
+     "Y20DTH"
+    ]
+   },
+   "pojemnoscCm3": 1995,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch), wtrysk bezpośredni",
+   "rozrzad": "łańcuch",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Ecotec Diesel (1997)",
+     "url": "https://en.wikipedia.org/wiki/GM_Ecotec_Diesel_(1997)"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "opel-2-2-dti": {
+   "nazwa": "Opel 2.2 DTI 16V (Y22DTR)",
+   "kody": [
+    "Y22DTR"
+   ],
+   "pojemnoscCm3": 2171,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch), wtrysk bezpośredni",
+   "rozrzad": "łańcuch",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Ecotec Diesel (1997)",
+     "url": "https://en.wikipedia.org/wiki/GM_Ecotec_Diesel_(1997)"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-9-sdi-64": {
+   "nazwa": "VW 1.9 SDI 64 KM (ASY)",
+   "kody": [
+    "ASY"
+   ],
+   "pojemnoscCm3": 1896,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch VP37)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-2-0-tdi-pd-8v": {
+   "nazwa": "VW 2.0 TDI PD 8V (BGW, BHW)",
+   "kody": [
+    "BGW",
+    "BHW"
+   ],
+   "pojemnoscCm3": 1968,
+   "paliwo": "diesel",
+   "wtrysk": "pompowtryskiwacze (Pumpe-Düse)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-2-0-sdi": {
+   "nazwa": "VW 2.0 SDI (BDK)",
+   "kody": [
+    "BDK"
+   ],
+   "pojemnoscCm3": 1968,
+   "paliwo": "diesel",
+   "wtrysk": "pompowtryskiwacze (Pumpe-Düse)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-8-tsi-ea888": {
+   "nazwa": "VW 1.8 TSI (EA888)",
+   "kody": [
+    "CDAA"
+   ],
+   "pojemnoscCm3": 1798,
+   "paliwo": "benzyna",
+   "wtrysk": "TSI (bezpośredni)",
+   "rozrzad": "łańcuch",
+   "lpg": "trudno",
+   "lpgUwagi": "Wtrysk bezpośredni – potrzebna droższa instalacja (z dotryskiem benzyny), opłacalność dużo mniejsza.",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "kody"
    ],
    "zatwierdzony": false
   }
