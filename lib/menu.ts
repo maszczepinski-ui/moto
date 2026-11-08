@@ -46,7 +46,9 @@ export type Ikona =
   | 'serwis'
   | 'urzad'
   | 'premiera'
-  | 'aktualnosci';
+  | 'aktualnosci'
+  | 'strefa'
+  | 'kalkulator';
 
 export interface PozycjaMenu {
   nazwa: string;
@@ -84,6 +86,7 @@ export function menuGlowne(): GrupaMenu[] {
       pozycje: [
         { nazwa: 'Asystent zakupu', opis: 'Usterki, oględziny, formalności', adres: '/asystent-zakupu/', ikona: 'clipboard' },
         { nazwa: 'Sprawdź VIN', opis: 'Przebieg, szkody, historia auta', adres: '/sprawdz-vin/', ikona: 'scan' },
+        { nazwa: 'Kalkulator akcyzy', opis: 'Auto z zagranicy: akcyza, cło, opłaty', adres: '/kalkulator-akcyzy/', ikona: 'kalkulator', nowe: true },
         { nazwa: 'Porównaj OC i AC', opis: 'Kalkulator cen ubezpieczenia auta', adres: '/ubezpieczenie-oc/', ikona: 'ubezpieczenie', nowe: true },
         { nazwa: 'Opony', opis: 'Kiedy wymienić, bieżnik, wiek opony', adres: '/opony/', ikona: 'opony', nowe: true },
         { nazwa: 'Przypomnienie o OC i oponach', opis: 'E-mail przed końcem polisy, przeglądu i sezonem', adres: '/przypomnienia/', ikona: 'bell', nowe: true },
@@ -97,6 +100,7 @@ export function menuGlowne(): GrupaMenu[] {
         { nazwa: 'Koszt przejazdu', opis: 'Ile za paliwo na trasie', adres: '/koszt-trasy/', ikona: 'route', nowe: true },
         { nazwa: 'Mapa ładowarek', opis: 'Ładowarki do aut elektrycznych', adres: '/ladowarki/', ikona: 'plug', nowe: true },
         { nazwa: 'Fotoradary i odcinkowe pomiary', opis: 'Mapa urządzeń w okolicy', adres: '/fotoradary/', ikona: 'camera', nowe: true },
+        { nazwa: 'Strefy czystego transportu', opis: 'Czy Twoje auto wjedzie do SCT', adres: '/strefy-czystego-transportu/', ikona: 'strefa', nowe: true },
         { nazwa: 'Mandaty i punkty karne', opis: 'Kalkulator mandatu i punktów', adres: '/mandaty/', ikona: 'gauge', nowe: true }
       ]
     },

@@ -985,7 +985,8 @@ const STALE: Poradnik[] = [
             typ: 'uwaga',
             ton: 'ostrzezenie',
             t: 'Zwolnienie z akcyzy (np. dla elektryka) też trzeba potwierdzić w urzędzie skarbowym – bez tego dokumentu wydział komunikacji nie zarejestruje auta.'
-          }
+          },
+          { typ: 'link', t: 'Kalkulator akcyzy i kosztów sprowadzenia', o: 'Wpisz cenę i pojemność – policzymy akcyzę, cło, VAT i opłaty rejestracyjne.', href: '/kalkulator-akcyzy/' }
         ]
       },
       {
