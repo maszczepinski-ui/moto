@@ -4,7 +4,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { site } from '@/config/site';
-import { Analytics } from '@vercel/analytics/next';
+import AnalitykaVercel from '@/components/AnalitykaVercel';
 import { SkryptyHead, SkryptyBody, wlasnyBanerZgod } from '@/components/SkryptyGlobalne';
 import BanerZgod from '@/components/BanerZgod';
 import Aplikacja from '@/components/Aplikacja';
@@ -62,7 +62,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
         <Footer />
         {/* Statystyki odwiedzin Vercel – bez plików cookies; działają po włączeniu „Analytics” w panelu Vercel */}
-        {process.env.NEXT_PUBLIC_STATYCZNA !== '1' && <Analytics />}
+        {process.env.NEXT_PUBLIC_STATYCZNA !== '1' && <AnalitykaVercel />}
         <SkryptyBody />
         {wlasnyBanerZgod && <BanerZgod />}
         <Aplikacja />

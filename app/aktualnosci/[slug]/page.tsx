@@ -65,6 +65,18 @@ function Kategoria({ typ }: { typ: TypAktualnosci }) {
   );
 }
 
+/** Safety Gate podaje zalecenie jak formularz („Rodzaj podmiotu…: Producent Kategoria środka…: … Data wejścia w życie: …”).
+ *  Zamieniamy to na jedno zwykłe zdanie. Inny tekst zostawiamy bez zmian. */
+function czytelneZalecenie(t: string) {
+  const kto = t.match(/zgłoszone środki:\s*(.+?)\s+Kategoria środka/i)?.[1];
+  const co = t.match(/Kategoria środka \/ środków:\s*(.+?)(?:\s+Data wejścia|$)/i)?.[1];
+  const od = t.match(/Data wejścia w życie:\s*([\d.]+\s*r\.?)/i)?.[1];
+  if (!co) return t;
+  const zdanie = co.charAt(0).toUpperCase() + co.slice(1).toLowerCase();
+  const data = od ? od.replace(/\s*r\.?$/, '') : '';
+  return `${zdanie}${kto ? ` (zgłasza: ${kto.toLowerCase()})` : ''}${data ? `, obowiązuje od ${data} r.` : '.'}`;
+}
+
 function Pozycje({ a }: { a: Aktualnosc }) {
   if (!a.pozycje?.length) return null;
   return (
@@ -105,7 +117,7 @@ function Pozycje({ a }: { a: Aktualnosc }) {
                 <strong>Problem:</strong> {p.problem}
               </p>
               <p className="text-slate-700 dark:text-slate-300">
-                <strong>Co robi producent:</strong> {p.zalecenie}
+                <strong>Co robi producent:</strong> {czytelneZalecenie(p.zalecenie)}
               </p>
               <div className="flex flex-wrap gap-3 pt-1">
                 {m && (

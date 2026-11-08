@@ -1,5 +1,6 @@
 import { panelDane } from '@/lib/panel';
 import { kodDoHead, KodWTresci } from '@/lib/kod';
+import { KLUCZ_ADMIN } from '@/lib/admin-urzadzenie';
 
 // Skrypty wspólne dla całej strony – wszystko sterowane z panelu admina:
 // • Google Consent Mode v2: domyślnie brak zgody na ciasteczka reklamowe i analityczne. Zgodę zbiera certyfikowany baner Google
@@ -30,7 +31,12 @@ export function SkryptyHead() {
       {ga4 && (
         <script
           dangerouslySetInnerHTML={{
-            __html: `gtag('js',new Date());gtag('config',${JSON.stringify(ga4)});` + leniweLadowanie(`https://www.googletagmanager.com/gtag/js?id=${ga4}`)
+            // Na urządzeniu admina (po wejściu na /admin/) Analytics w ogóle się nie wczytuje – Twoje wizyty nie psują statystyk.
+            __html:
+              `var admin=false;try{admin=localStorage.getItem(${JSON.stringify(KLUCZ_ADMIN)})==='tak'}catch(e){}` +
+              `if(admin){window[${JSON.stringify('ga-disable-' + ga4)}]=true}else{gtag('js',new Date());gtag('config',${JSON.stringify(ga4)});` +
+              leniweLadowanie(`https://www.googletagmanager.com/gtag/js?id=${ga4}`) +
+              '}'
           }}
         />
       )}

@@ -1,6 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { toUrzadzenieAdmina } from '@/lib/admin-urzadzenie';
 
 // Baner zgody na pliki cookies Google Analytics (wymóg art. 399 Prawa komunikacji elektronicznej).
 // Pokazuje się tylko, gdy w panelu jest wpisany identyfikator GA4, a reklamy AdSense są wyłączone
@@ -25,7 +26,8 @@ export default function BanerZgod() {
     } catch {
       /* brak dostępu do pamięci – pokażemy baner */
     }
-    if (!zapisana) setWidoczny(true);
+    // na urządzeniu admina Analytics się nie wczytuje, więc baner też jest zbędny
+    if (!zapisana && !toUrzadzenieAdmina()) setWidoczny(true);
     const pokaz = () => setWidoczny(true);
     window.addEventListener(ZDARZENIE_ZGODY, pokaz);
     return () => window.removeEventListener(ZDARZENIE_ZGODY, pokaz);

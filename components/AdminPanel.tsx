@@ -10,6 +10,8 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import Aktualizacje from '@/components/admin/Aktualizacje';
+import Statystyki from '@/components/admin/Statystyki';
+import { oznaczPrzyPierwszymWejsciu } from '@/lib/admin-urzadzenie';
 import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
 import AktualnosciAdmin from '@/components/admin/Aktualnosci';
 import ProduktyRankingi from '@/components/admin/ProduktyRankingi';
@@ -19,7 +21,8 @@ import { site } from '@/config/site';
 import {
   KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard, Newspaper,
   Fuel,
-  Palette
+  Palette,
+  BarChart3
 } from 'lucide-react';
 
 type Linki = { vin: string; oc: string; ac: string; nnw: string };
@@ -165,7 +168,7 @@ function Przelacznik({ wlaczony, onChange, label }: { wlaczony: boolean; onChang
   );
 }
 
-type Zakladka = 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
+type Zakladka = 'statystyki' | 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
 
 export default function AdminPanel({
   modele,
@@ -209,6 +212,9 @@ export default function AdminPanel({
   const wybranyModel = poNazwie.get(modelTekst.trim());
   const wybranaStrona = stronyPoEtykiecie.get(stronaTekst.trim()) || stronyPoSciezce.get(stronaTekst.trim());
   const id = ytId(link);
+
+  // wejście do panelu = to urządzenie admina → nie liczymy go w statystykach
+  useEffect(() => oznaczPrzyPierwszymWejsciu(), []);
 
   useEffect(() => {
     setToken(pamiec.get(K_TOKEN));
@@ -376,6 +382,7 @@ export default function AdminPanel({
   }
 
   const zakladki: [Zakladka, string, React.ReactNode][] = [
+    ['statystyki', 'Statystyki', <BarChart3 key="i" className="w-4 h-4" />],
     ['linki', 'Linki i moduły', <Link2 key="i" className="w-4 h-4" />],
     ['filmy', 'Filmy na kartach', <Film key="i" className="w-4 h-4" />],
     ['artykuly', 'Artykuły z filmów', <Clapperboard key="i" className="w-4 h-4" />],
@@ -908,6 +915,7 @@ export default function AdminPanel({
           )}
 
           {/* ===================== AKTUALIZACJE ===================== */}
+          {zakladka === 'statystyki' && <Statystyki token={token} />}
           {zakladka === 'aktualizacje' && <Aktualizacje api={api} branch={branch} stanDanych={stanDanych} />}
           {zakladka === 'artykuly' && <ArtykulyFilmow api={api} branch={branch} modele={modele} />}
           {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} />}
@@ -972,7 +980,7 @@ export default function AdminPanel({
           )}
 
           {/* przycisk zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje) mają własne przyciski */}
-          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'aktualnosci', 'produkty', 'aktualizacje', 'wyglad'].includes(zakladka) ? 'hidden' : ''}`}>
+          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'aktualnosci', 'produkty', 'aktualizacje', 'wyglad', 'statystyki'].includes(zakladka) ? 'hidden' : ''}`}>
             <button
               type="button"
               onClick={zapisz}
