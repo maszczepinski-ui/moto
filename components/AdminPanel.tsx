@@ -11,6 +11,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import Aktualizacje from '@/components/admin/Aktualizacje';
 import Statystyki from '@/components/admin/Statystyki';
+import ChinskieAuta from '@/components/admin/ChinskieAuta';
 import { oznaczPrzyPierwszymWejsciu } from '@/lib/admin-urzadzenie';
 import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
 import AktualnosciAdmin from '@/components/admin/Aktualnosci';
@@ -22,7 +23,8 @@ import {
   KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard, Newspaper,
   Fuel,
   Palette,
-  BarChart3
+  BarChart3,
+  Trophy
 } from 'lucide-react';
 
 type Linki = { vin: string; oc: string; ac: string; nnw: string };
@@ -168,7 +170,7 @@ function Przelacznik({ wlaczony, onChange, label }: { wlaczony: boolean; onChang
   );
 }
 
-type Zakladka = 'statystyki' | 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
+type Zakladka = 'statystyki' | 'chinskie' | 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
 
 export default function AdminPanel({
   modele,
@@ -207,6 +209,7 @@ export default function AdminPanel({
 
   const poNazwie = useMemo(() => new Map(modele.map((m) => [m.nazwa, m])), [modele]);
   const poSlugu = useMemo(() => new Map(modele.map((m) => [m.slug, m])), [modele]);
+  const nazwyModeli = useMemo(() => new Map(modele.map((m) => [m.slug, m.nazwa])), [modele]);
   const stronyPoEtykiecie = useMemo(() => new Map(strony.map((s) => [`${s.nazwa} (${s.sciezka})`, s])), [strony]);
   const stronyPoSciezce = useMemo(() => new Map(strony.map((s) => [s.sciezka, s])), [strony]);
   const wybranyModel = poNazwie.get(modelTekst.trim());
@@ -383,6 +386,7 @@ export default function AdminPanel({
 
   const zakladki: [Zakladka, string, React.ReactNode][] = [
     ['statystyki', 'Statystyki', <BarChart3 key="i" className="w-4 h-4" />],
+    ['chinskie', 'Chińskie auta', <Trophy key="i" className="w-4 h-4" />],
     ['linki', 'Linki i moduły', <Link2 key="i" className="w-4 h-4" />],
     ['filmy', 'Filmy na kartach', <Film key="i" className="w-4 h-4" />],
     ['artykuly', 'Artykuły z filmów', <Clapperboard key="i" className="w-4 h-4" />],
@@ -924,6 +928,7 @@ export default function AdminPanel({
           {zakladka === 'artykuly' && <ArtykulyFilmow api={api} branch={branch} modele={modele} />}
           {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} />}
           {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
+          {zakladka === 'chinskie' && <ChinskieAuta api={api} branch={branch} nazwy={nazwyModeli} />}
           {zakladka === 'wyglad' && <LogoIkona api={api} branch={branch} marka={dane.marka} zmiany={zmiany} onZapisano={wczytaj} />}
 
           {/* ===================== OPISY ===================== */}
@@ -984,7 +989,7 @@ export default function AdminPanel({
           )}
 
           {/* przycisk zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje) mają własne przyciski */}
-          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'aktualnosci', 'produkty', 'aktualizacje', 'wyglad', 'statystyki'].includes(zakladka) ? 'hidden' : ''}`}>
+          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'aktualnosci', 'produkty', 'aktualizacje', 'wyglad', 'statystyki', 'chinskie'].includes(zakladka) ? 'hidden' : ''}`}>
             <button
               type="button"
               onClick={zapisz}

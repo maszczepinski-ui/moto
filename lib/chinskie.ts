@@ -56,7 +56,8 @@ export interface RankingChinskich {
   sumaYtd: number;
 }
 
-const istniejePlik = (adres: string) => !!adres && fs.existsSync(path.join(process.cwd(), 'public', adres.replace(/^\//, '')));
+// zdjęcia z panelu mają dopisek ?v=… (żeby przeglądarki nie trzymały starej wersji) – przy sprawdzaniu pliku go pomijamy
+const istniejePlik = (adres: string) => !!adres && fs.existsSync(path.join(process.cwd(), 'public', adres.replace(/^\//, '').split('?')[0]));
 
 function napedy(paliwa: { nazwa: string; liczba: number }[]): { typ: Naped; udzial: number }[] {
   const suma = paliwa.reduce((s, p) => s + p.liczba, 0) || 1;

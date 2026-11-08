@@ -96,7 +96,7 @@ export default function MenuGlowne({
                 className={`absolute ${i >= grupy.length - 2 ? "right-0" : "left-0"} top-full pt-2 z-50`}
               >
                 <ul
-                  className={`grid ${g.pozycje.length > 4 ? "grid-cols-2 w-[34rem]" : "grid-cols-1 w-80"} gap-1 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-2`}
+                  className={`grid ${g.pozycje.length > 4 ? "grid-cols-2 w-[34rem]" : "grid-cols-1 w-80"} gap-1 whitespace-normal text-left bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-xl p-2`}
                 >
                   {g.pozycje.map((p) => (
                     <li key={p.adres}>
