@@ -1,0 +1,111 @@
+{
+ "_instrukcja": "Karta modelu → wersja z tabeli silników („nazwa|moc KM”) → id silnika z silniki.json",
+ "modele": {
+  "volkswagen-golf-iv": {
+   "1.4 16V|75": "vw-1-4-16v",
+   "1.6|101": "vw-1-6-8v",
+   "1.6 16V|105": "vw-1-6-16v",
+   "1.8|125": "vw-1-8-20v",
+   "1.8 T 20V|150": "vw-1-8t-20v",
+   "2.0|115": "vw-2-0-8v",
+   "2.3 V5|150": "vw-2-3-v5",
+   "R32 3.2 VR6|240": "vw-3-2-vr6",
+   "1.9 SDI|68": "vw-1-9-sdi",
+   "1.9 TDI|90": "vw-1-9-tdi-vp",
+   "1.9 TDI|110": "vw-1-9-tdi-vp",
+   "1.9 TDI|130": "vw-1-9-tdi-pd",
+   "1.9 TDI|150": "vw-1-9-tdi-pd"
+  },
+  "volkswagen-golf-v": {
+   "1.4 16V|75": "vw-1-4-16v",
+   "1.6|102": "vw-1-6-8v",
+   "1.6 FSI|115": "vw-1-6-fsi",
+   "2.0 FSI|150": "vw-2-0-fsi",
+   "GTI 2.0 TFSI|200": "vw-2-0-tfsi-ea113",
+   "R32 3.2 V6|250": "vw-3-2-vr6",
+   "1.9 TDI|105": "vw-1-9-tdi-pd",
+   "2.0 TDI|140": "vw-2-0-tdi-pd"
+  },
+  "skoda-octavia-i": {
+   "1.4 16V|75": "vw-1-4-16v",
+   "1.6|101": "vw-1-6-8v",
+   "1.8 20V|125": "vw-1-8-20v",
+   "1.8 T|150": "vw-1-8t-20v",
+   "2.0|115": "vw-2-0-8v",
+   "1.9 SDI|68": "vw-1-9-sdi",
+   "1.9 TDI|90": "vw-1-9-tdi-vp",
+   "1.9 TDI|110": "vw-1-9-tdi-vp",
+   "1.9 TDI|101": "vw-1-9-tdi-pd"
+  },
+  "volkswagen-passat-b5": {
+   "1.6|101": "vw-1-6-8v",
+   "1.8|125": "vw-1-8-20v",
+   "1.8 T|150": "vw-1-8t-20v",
+   "2.0|115": "vw-2-0-8v",
+   "2.3 V5|150": "vw-2-3-v5",
+   "1.9 TDI|90": "vw-1-9-tdi-vp",
+   "1.9 TDI|110": "vw-1-9-tdi-vp",
+   "1.9 TDI|101": "vw-1-9-tdi-pd",
+   "1.9 TDI|130": "vw-1-9-tdi-pd"
+  },
+  "volkswagen-passat-b6": {
+   "1.4 TSI|122": "vw-1-4-tsi",
+   "1.6|102": "vw-1-6-8v",
+   "1.6 FSI|115": "vw-1-6-fsi",
+   "2.0 FSI|150": "vw-2-0-fsi",
+   "1.9 TDI|105": "vw-1-9-tdi-pd"
+  },
+  "skoda-fabia-i": {
+   "1.2 HTP 6V|54": "vw-1-2-r3",
+   "1.2 HTP 12V|64": "vw-1-2-r3",
+   "1.4 16V|75": "vw-1-4-16v",
+   "2.0|115": "vw-2-0-8v",
+   "1.4 TDI|75": "vw-1-4-tdi",
+   "1.4 TDI|80": "vw-1-4-tdi",
+   "1.9 TDI|100": "vw-1-9-tdi-pd",
+   "1.9 TDI RS|130": "vw-1-9-tdi-pd"
+  },
+  "volkswagen-polo-iv": {
+   "1.2|54": "vw-1-2-r3",
+   "1.2 12V|64": "vw-1-2-r3",
+   "1.4 16V|75": "vw-1-4-16v",
+   "1.4 TDI|75": "vw-1-4-tdi",
+   "1.9 TDI|101": "vw-1-9-tdi-pd",
+   "1.9 TDI|130": "vw-1-9-tdi-pd"
+  },
+  "opel-astra-g": {
+   "1.2 16V|65": "opel-1-2-16v",
+   "1.4 16V|90": "opel-1-4-16v",
+   "1.6 16V|100": "opel-1-6-16v",
+   "1.8 16V|125": "opel-1-8-16v"
+  },
+  "opel-corsa-c": {
+   "1.0 12V|58": "opel-1-0-12v",
+   "1.2 16V|75": "opel-1-2-16v",
+   "1.4 16V|90": "opel-1-4-16v",
+   "1.8 16V GSi|125": "opel-1-8-16v"
+  },
+  "opel-corsa-b": {
+   "1.0 12V|54": "opel-1-0-12v",
+   "1.2 16V|65": "opel-1-2-16v",
+   "1.4 16V|90": "opel-1-4-16v"
+  },
+  "opel-astra-f": {
+   "1.4 16V|90": "opel-1-4-16v",
+   "1.6 16V|101": "opel-1-6-16v"
+  },
+  "ford-focus-i": {
+   "1.4 Zetec|75": "ford-1-4-sigma",
+   "1.6 Zetec|101": "ford-1-6-sigma",
+   "1.8 Zetec|115": "ford-1-8-zetec",
+   "2.0 Zetec|131": "ford-2-0-zetec",
+   "1.8 TDDi|75": "ford-1-8-tddi",
+   "1.8 TDDi|90": "ford-1-8-tddi"
+  },
+  "ford-focus-ii": {
+   "1.4 Duratec|80": "ford-1-4-sigma",
+   "1.6 Duratec|100": "ford-1-6-sigma",
+   "1.6 Ti-VCT|115": "ford-1-6-tivct"
+  }
+ }
+}

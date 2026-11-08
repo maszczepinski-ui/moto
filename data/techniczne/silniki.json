@@ -1,0 +1,711 @@
+{
+ "_instrukcja": [
+  "Biblioteka silników: jeden silnik opisany raz, karty modeli łączą się z nim w przypisania.json.",
+  "kodyWgMocy (opcjonalnie): które kody pasują do danej mocy w KM – wtedy tabela pokazuje tylko je.",
+  "Na stronie pokazują się tylko silniki z \"zatwierdzony\": true (zatwierdzasz w panelu → zakładka Silniki).",
+  "doSprawdzenia = pola, których podane źródło nie potwierdza wprost.",
+  "lpg: dobrze | warunkowo | trudno | nie-dotyczy"
+ ],
+ "silniki": {
+  "vw-1-4-16v": {
+   "nazwa": "VW 1.4 16V (EA111)",
+   "kody": [
+    "AHW",
+    "AKQ",
+    "AXP",
+    "BCA",
+    "BUD"
+   ],
+   "kodyWgMocy": {
+    "75": [
+     "AHW",
+     "AKQ",
+     "AXP",
+     "BCA"
+    ],
+    "80": [
+     "BUD"
+    ]
+   },
+   "pojemnoscCm3": 1390,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-6-8v": {
+   "nazwa": "VW 1.6 8V",
+   "kody": [
+    "AEH",
+    "AKL",
+    "APF",
+    "AVU",
+    "BFQ",
+    "BGU",
+    "BSE"
+   ],
+   "kodyWgMocy": {
+    "101": [
+     "AEH",
+     "AKL",
+     "APF"
+    ],
+    "102": [
+     "AVU",
+     "BFQ",
+     "BGU",
+     "BSE"
+    ]
+   },
+   "pojemnoscCm3": 1595,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-6-16v": {
+   "nazwa": "VW 1.6 16V",
+   "kody": [
+    "ATN",
+    "AUS",
+    "AZD",
+    "BCB",
+    "BTS"
+   ],
+   "pojemnoscCm3": 1598,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-8-20v": {
+   "nazwa": "VW 1.8 20V",
+   "kody": [
+    "AGN"
+   ],
+   "pojemnoscCm3": 1781,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-8t-20v": {
+   "nazwa": "VW 1.8 T 20V",
+   "kody": [
+    "AGU",
+    "AEB",
+    "ARZ",
+    "AUM",
+    "ARX",
+    "AWT",
+    "APH"
+   ],
+   "pojemnoscCm3": 1781,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI turbo",
+   "rozrzad": "pasek",
+   "lpg": "warunkowo",
+   "lpgUwagi": "Turbo z wtryskiem pośrednim – instalacja możliwa, ale wymaga dobrego dostrojenia i kontroli temperatur.",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-2-0-8v": {
+   "nazwa": "VW 2.0 8V",
+   "kody": [
+    "APK",
+    "AQY",
+    "AZJ"
+   ],
+   "pojemnoscCm3": 1984,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "uwagi": "Brak tego silnika w sprawdzonych źródłach – wszystkie pola do potwierdzenia.",
+   "zrodla": [],
+   "doSprawdzenia": [
+    "kody",
+    "wtrysk",
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-2-3-v5": {
+   "nazwa": "VW 2.3 V5 (VR5)",
+   "kody": [
+    "AGZ"
+   ],
+   "pojemnoscCm3": 2324,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-3-2-vr6": {
+   "nazwa": "VW 3.2 VR6",
+   "kody": [
+    "BFH",
+    "BUB"
+   ],
+   "pojemnoscCm3": 3189,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk",
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-2-r3": {
+   "nazwa": "VW 1.2 R3 6V/12V",
+   "kody": [
+    "AWY",
+    "AZQ",
+    "BME"
+   ],
+   "pojemnoscCm3": 1198,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "warunkowo",
+   "uwagi": "Brak tego silnika w sprawdzonych źródłach – wszystkie pola do potwierdzenia.",
+   "zrodla": [],
+   "doSprawdzenia": [
+    "kody",
+    "wtrysk",
+    "rozrzad",
+    "lpg"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-1-6-fsi": {
+   "nazwa": "VW 1.6 FSI",
+   "kody": [
+    "BAG",
+    "BLF",
+    "BLP"
+   ],
+   "pojemnoscCm3": 1598,
+   "paliwo": "benzyna",
+   "wtrysk": "FSI (bezpośredni)",
+   "rozrzad": "pasek (BLF: łańcuch)",
+   "lpg": "trudno",
+   "lpgUwagi": "Wtrysk bezpośredni – potrzebna droższa instalacja (z dotryskiem benzyny), opłacalność dużo mniejsza.",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-2-0-fsi": {
+   "nazwa": "VW 2.0 FSI",
+   "kody": [
+    "AXW",
+    "BLR",
+    "BVY"
+   ],
+   "pojemnoscCm3": 1984,
+   "paliwo": "benzyna",
+   "wtrysk": "FSI (bezpośredni)",
+   "rozrzad": "pasek",
+   "lpg": "trudno",
+   "lpgUwagi": "Wtrysk bezpośredni – potrzebna droższa instalacja (z dotryskiem benzyny), opłacalność dużo mniejsza.",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "kody",
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "vw-2-0-tfsi-ea113": {
+   "nazwa": "VW 2.0 TFSI (EA113)",
+   "kody": [
+    "AXX",
+    "BWA"
+   ],
+   "pojemnoscCm3": 1984,
+   "paliwo": "benzyna",
+   "wtrysk": "FSI turbo (bezpośredni)",
+   "rozrzad": "pasek + łańcuch",
+   "lpg": "trudno",
+   "lpgUwagi": "Wtrysk bezpośredni – potrzebna droższa instalacja (z dotryskiem benzyny), opłacalność dużo mniejsza.",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-4-tsi": {
+   "nazwa": "VW 1.4 TSI (EA111)",
+   "kody": [
+    "CAXA",
+    "BMY",
+    "BLG"
+   ],
+   "kodyWgMocy": {
+    "122": [
+     "CAXA"
+    ],
+    "140": [
+     "BMY"
+    ],
+    "170": [
+     "BLG"
+    ]
+   },
+   "pojemnoscCm3": 1390,
+   "paliwo": "benzyna",
+   "wtrysk": "TSI (bezpośredni)",
+   "rozrzad": "łańcuch",
+   "lpg": "trudno",
+   "lpgUwagi": "Wtrysk bezpośredni – potrzebna droższa instalacja (z dotryskiem benzyny), opłacalność dużo mniejsza.",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of Volkswagen Group petrol engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_Volkswagen_Group_petrol_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-9-sdi": {
+   "nazwa": "VW 1.9 SDI",
+   "kody": [
+    "AQM"
+   ],
+   "pojemnoscCm3": 1896,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch VP37)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-9-tdi-vp": {
+   "nazwa": "VW 1.9 TDI (pompa VP37)",
+   "kody": [
+    "ALH",
+    "AHF",
+    "ASV"
+   ],
+   "kodyWgMocy": {
+    "90": [
+     "ALH"
+    ],
+    "110": [
+     "AHF",
+     "ASV"
+    ]
+   },
+   "pojemnoscCm3": 1896,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch VP37)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-9-tdi-pd": {
+   "nazwa": "VW 1.9 TDI PD",
+   "kody": [
+    "ATD",
+    "AXR",
+    "ASZ",
+    "ARL",
+    "BKC",
+    "BXE"
+   ],
+   "kodyWgMocy": {
+    "100": [
+     "ATD",
+     "AXR"
+    ],
+    "101": [
+     "ATD",
+     "AXR"
+    ],
+    "105": [
+     "BKC",
+     "BXE"
+    ],
+    "130": [
+     "ASZ"
+    ],
+    "150": [
+     "ARL"
+    ]
+   },
+   "pojemnoscCm3": 1896,
+   "paliwo": "diesel",
+   "wtrysk": "pompowtryskiwacze (Pumpe-Düse)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-2-0-tdi-pd": {
+   "nazwa": "VW 2.0 TDI PD",
+   "kody": [
+    "BKD"
+   ],
+   "pojemnoscCm3": 1968,
+   "paliwo": "diesel",
+   "wtrysk": "pompowtryskiwacze (Pumpe-Düse)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "vw-1-4-tdi": {
+   "nazwa": "VW 1.4 TDI R3",
+   "kody": [
+    "AMF",
+    "BNM",
+    "BNV"
+   ],
+   "kodyWgMocy": {
+    "75": [
+     "AMF"
+    ]
+   },
+   "pojemnoscCm3": 1422,
+   "paliwo": "diesel",
+   "wtrysk": "pompowtryskiwacze (Pumpe-Düse)",
+   "rozrzad": "pasek",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: List of discontinued Volkswagen Group diesel engines",
+     "url": "https://en.wikipedia.org/wiki/List_of_discontinued_Volkswagen_Group_diesel_engines"
+    }
+   ],
+   "doSprawdzenia": [
+    "kody",
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "opel-1-0-12v": {
+   "nazwa": "Opel 1.0 12V (Family 0)",
+   "kody": [
+    "X10XE",
+    "Z10XE"
+   ],
+   "kodyWgMocy": {
+    "54": [
+     "X10XE"
+    ],
+    "58": [
+     "Z10XE"
+    ]
+   },
+   "pojemnoscCm3": 973,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Family 0 engine",
+     "url": "https://en.wikipedia.org/wiki/GM_Family_0_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "opel-1-2-16v": {
+   "nazwa": "Opel 1.2 16V (Family 0)",
+   "kody": [
+    "X12XE",
+    "Z12XE"
+   ],
+   "kodyWgMocy": {
+    "65": [
+     "X12XE"
+    ],
+    "75": [
+     "Z12XE"
+    ]
+   },
+   "pojemnoscCm3": 1199,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "łańcuch",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Family 0 engine",
+     "url": "https://en.wikipedia.org/wiki/GM_Family_0_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "opel-1-4-16v": {
+   "nazwa": "Opel 1.4 16V (Family 1)",
+   "kody": [
+    "X14XE",
+    "Z14XE"
+   ],
+   "pojemnoscCm3": 1389,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Family 1 engine",
+     "url": "https://en.wikipedia.org/wiki/GM_Family_1_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "opel-1-6-16v": {
+   "nazwa": "Opel 1.6 16V (Family 1)",
+   "kody": [
+    "X16XEL",
+    "Z16XE"
+   ],
+   "pojemnoscCm3": 1598,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Family 1 engine",
+     "url": "https://en.wikipedia.org/wiki/GM_Family_1_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "opel-1-8-16v": {
+   "nazwa": "Opel 1.8 16V (Family 1)",
+   "kody": [
+    "Z18XE"
+   ],
+   "pojemnoscCm3": 1796,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: GM Family 1 engine",
+     "url": "https://en.wikipedia.org/wiki/GM_Family_1_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-1-4-sigma": {
+   "nazwa": "Ford 1.4 Zetec-SE / Duratec (Sigma)",
+   "kody": [],
+   "pojemnoscCm3": 1388,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Sigma engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Sigma_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "ford-1-6-sigma": {
+   "nazwa": "Ford 1.6 Zetec-SE / Duratec 16V (Sigma)",
+   "kody": [],
+   "pojemnoscCm3": 1596,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Sigma engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Sigma_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "ford-1-6-tivct": {
+   "nazwa": "Ford 1.6 Duratec Ti-VCT (Sigma)",
+   "kody": [],
+   "pojemnoscCm3": 1596,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Sigma engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Sigma_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  },
+  "ford-1-8-zetec": {
+   "nazwa": "Ford 1.8 Zetec-E",
+   "kody": [],
+   "pojemnoscCm3": 1796,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Zetec engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Zetec_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk",
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-2-0-zetec": {
+   "nazwa": "Ford 2.0 Zetec-E",
+   "kody": [],
+   "pojemnoscCm3": 1988,
+   "paliwo": "benzyna",
+   "wtrysk": "MPI",
+   "rozrzad": "pasek",
+   "lpg": "dobrze",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Zetec engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Zetec_engine"
+    }
+   ],
+   "doSprawdzenia": [
+    "wtrysk",
+    "rozrzad"
+   ],
+   "zatwierdzony": false
+  },
+  "ford-1-8-tddi": {
+   "nazwa": "Ford 1.8 TDDi (Endura-DI)",
+   "kody": [],
+   "pojemnoscCm3": 1753,
+   "paliwo": "diesel",
+   "wtrysk": "pompa rozdzielaczowa (Bosch)",
+   "rozrzad": "pasek + łańcuch napędu pompy",
+   "lpg": "nie-dotyczy",
+   "zrodla": [
+    {
+     "tytul": "Wikipedia: Ford Endura-D engine",
+     "url": "https://en.wikipedia.org/wiki/Ford_Endura-D_engine"
+    }
+   ],
+   "doSprawdzenia": [],
+   "zatwierdzony": false
+  }
+ }
+}

@@ -12,6 +12,7 @@ import CarBlueprint from '@/components/CarBlueprint';
 import BarList from '@/components/BarList';
 import YearChart from '@/components/YearChart';
 import EngineTable from '@/components/EngineTable';
+import { faqLpg, silnikiKarty } from '@/lib/silniki';
 import YouTubeLazyEmbed from '@/components/YouTubeLazyEmbed';
 import InspectionChecklist from '@/components/InspectionChecklist';
 import Okruszki from '@/components/Okruszki';
@@ -131,7 +132,10 @@ export default function KartaModelu({ m }: { m: CarModel }) {
   const profil = profilKierowcy(m);
   const sct = sctModelu(m);
   // pytanie o strefy czystego transportu – liczone automatycznie dla każdego modelu
-  const pytania = [...faq(m, pokazModul('ubezpieczenia', k)), ...(sct ? [sct.faq] : [])];
+  // tabela silników z biblioteki technicznej (tylko silniki zatwierdzone w panelu) + pytanie o LPG
+  const wierszeSilnikow = silnikiKarty(m);
+  const lpg = faqLpg(wierszeSilnikow, `${m.marka} ${m.model}${m.generacja ? ` ${m.generacja}` : ''}`);
+  const pytania = [...faq(m, pokazModul('ubezpieczenia', k)), ...(sct ? [sct.faq] : []), ...(lpg ? [lpg] : [])];
   const silnikiWspolne = tenSamSilnik(m);
   const kody = [m.slug, ...(m.generacjeLista || []).map((g) => g.slug)]
     .flatMap((s) => kodyDlaKarty(s, m.rodzic))
@@ -337,7 +341,7 @@ export default function KartaModelu({ m }: { m: CarModel }) {
           {m.silniki && m.silniki.length > 0 && (
             <div className="space-y-4">
               <Naglowek ikona={<Gauge className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />}>Silniki</Naglowek>
-              <EngineTable silniki={m.silniki} />
+              <EngineTable silniki={wierszeSilnikow} />
             </div>
           )}
         </section>
