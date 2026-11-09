@@ -2,14 +2,26 @@
 import type { Metadata } from 'next';
 import { FIRMA, regulaminGotowy } from '@/lib/sklep/firma';
 import { PRODUKT, zlotowki } from '@/lib/sklep/konfiguracja';
+import { PRODUKTY, sprzedazWlaczona } from '@/lib/sklep/produkty';
 import { site } from '@/config/site';
 
-export const metadata: Metadata = { title: 'Regulamin sklepu – Niezbędnik', robots: { index: false, follow: true }, alternates: { canonical: '/niezbednik/regulamin/' } };
+export const metadata: Metadata = { title: 'Regulamin sklepu – Niezbędniki MotoRaport', robots: { index: false, follow: true }, alternates: { canonical: '/niezbednik/regulamin/' } };
 
 export default function RegulaminPage() {
+  // Postanowienia o pakiecie po szkodzie wchodzą do regulaminu dopiero razem z jego sprzedażą (po akceptacji prawnika).
+  // Do tego czasu kupujący Niezbędnik widzą dotychczasową treść (wersja 1).
+  const szkoda = sprzedazWlaczona('szkoda');
   const sekcje: [string, string[]][] = [
-    ['Sprzedawca', [`Sprzedawcą jest ${FIRMA.nazwa}, ${FIRMA.adres}, NIP ${FIRMA.nip}${FIRMA.regon ? `, REGON ${FIRMA.regon}` : ''}, e-mail: ${FIRMA.email}.`, `Sklep działa pod adresem ${site.url}/niezbednik/.`]],
-    [
+    ['Sprzedawca', [`Sprzedawcą jest ${FIRMA.nazwa}, ${FIRMA.adres}, NIP ${FIRMA.nip}${FIRMA.regon ? `, REGON ${FIRMA.regon}` : ''}, e-mail: ${FIRMA.email}.`, szkoda ? `Sklep działa pod adresami ${site.url}/niezbednik/ i ${site.url}/po-szkodzie/.` : `Sklep działa pod adresem ${site.url}/niezbednik/.`]],
+    szkoda ? [
+      'Produkty i ceny',
+      [
+        `„${PRODUKT.nazwa}” – pakiet treści cyfrowych (pliki PDF i DOCX) oraz, gdy jest dostępny, kalkulator kosztów i negocjacji na stronie. Cena: ${zlotowki(PRODUKT.cenaGr)} brutto.`,
+        `„${PRODUKTY.szkoda.nazwa}” – pakiet treści cyfrowych (pliki PDF, DOCX i arkusz) oraz dostęp do Sprawdzacza kosztorysu na stronie, który na podstawie danych wpisanych przez kupującego przygotowuje wzory pism do ubezpieczyciela. Cena: ${zlotowki(PRODUKTY.szkoda.cenaGr)} brutto.`,
+        'Produkty są dostarczane wyłącznie przez internet, bez nośnika materialnego. Sprzedawca korzysta ze zwolnienia z VAT (art. 113 ust. 1 ustawy o VAT).',
+        'Produkty mają charakter informacyjny i nie stanowią porady prawnej, oceny stanu technicznego konkretnego pojazdu ani reprezentacji kupującego przed ubezpieczycielem. Sprzedawca nie gwarantuje uzyskania odszkodowania ani dopłaty w określonej wysokości.'
+      ]
+    ] : [
       'Produkt i cena',
       [
         `Przedmiotem sprzedaży jest pakiet treści cyfrowych „${PRODUKT.nazwa}” (pliki PDF i DOCX), dostarczany wyłącznie przez internet, bez nośnika materialnego.`,
@@ -17,11 +29,18 @@ export default function RegulaminPage() {
         'Pakiet ma charakter informacyjny i nie stanowi porady prawnej ani oceny stanu technicznego konkretnego pojazdu.'
       ]
     ],
+    ...(szkoda ? [[
+      'Narzędzia na stronie',
+      [
+        'Dostęp do kalkulatora i Sprawdzacza kupujący otrzymuje po zalogowaniu kodem wysłanym na e-mail podany w zamówieniu, na maksymalnie 3 urządzeniach, przez co najmniej 12 miesięcy od zakupu.',
+        'Dane wpisywane do Sprawdzacza (kwoty z kosztorysu, dane do pism) są przetwarzane wyłącznie w przeglądarce kupującego i nie są przesyłane do sprzedawcy.'
+      ]
+    ] as [string, string[]]] : []),
     [
       'Zamówienie, płatność i dostarczenie',
       [
         'Umowa zostaje zawarta z chwilą opłacenia zamówienia. Płatności obsługuje PayPro S.A. (Przelewy24): BLIK, szybki przelew lub karta.',
-        'Po zaksięgowaniu płatności kupujący otrzymuje link do pobrania plików na stronie i mailem. Link jest ważny 7 dni.',
+        `Po zaksięgowaniu płatności kupujący otrzymuje link do pobrania plików na stronie i mailem. Link jest ważny 7 dni.${szkoda ? ' Dostęp do narzędzia na stronie działa od razu po płatności.' : ''}`,
         'Potwierdzenie zawarcia umowy, wraz z treścią złożonych oświadczeń, kupujący otrzymuje mailem.'
       ]
     ],
@@ -50,6 +69,7 @@ export default function RegulaminPage() {
         </p>
       )}
       <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white">Regulamin sklepu</h1>
+      <p className="text-sm text-slate-500">Wersja {PRODUKT.wersjaZgod}</p>
       {sekcje.map(([t, akapity], i) => (
         <section key={t} className="space-y-2">
           <h2 className="text-lg font-bold text-slate-900 dark:text-white">

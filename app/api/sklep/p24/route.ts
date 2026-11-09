@@ -2,13 +2,17 @@
 // 1) sprawdzamy podpis, 2) potwierdzamy płatność w P24 (verify), 3) odpowiadamy 200,
 // 4) dopiero potem, w tle: mail z linkiem do pobrania i faktura „zw” w inFakt.
 import { after } from 'next/server';
-import { PRODUKT, sklepAktywny, zlotowki, ADRES_SKLEPU } from '@/lib/sklep/konfiguracja';
+import { produktAktywny, zlotowki } from '@/lib/sklep/konfiguracja';
+import { site } from '@/config/site';
 import { poprawnePowiadomienie, weryfikuj, znajdz, type Powiadomienie } from '@/lib/sklep/p24';
 import { odczytajNumer } from '@/lib/sklep/zamowienie';
 import { linkPobrania } from '@/lib/sklep/link';
 import { mailZakupu, wyslijMail } from '@/lib/sklep/mail';
 import { wystawFakture } from '@/lib/sklep/infakt';
-import { pierwszaObsluga, zapiszKupujacego, kalkulatorAktywny } from '@/lib/sklep/kalkulator';
+import { pierwszaObsluga, zapiszKupujacego, narzedzieAktywne } from '@/lib/sklep/kalkulator';
+
+/** Opis narzędzia w mailu po zakupie */
+const OPIS_NARZEDZIA = { niezbednik: 'koszty po zakupie i argumenty do negocjacji', szkoda: 'sprawdzenie kosztorysu i gotowe pisma do ubezpieczyciela' } as const;
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -19,28 +23,29 @@ const obsluzone = new Set<string>();
 
 async function poOplaceniu(sessionId: string) {
   const numer = odczytajNumer(sessionId)!;
+  const produkt = numer.produkt;
   const t = await znajdz(sessionId);
   // gdy jest baza: zapamiętujemy obsłużone płatności – P24 może wysłać powiadomienie drugi raz (bez tego: podwójna faktura)
   if (!(await pierwszaObsluga(sessionId))) return;
-  await zapiszKupujacego(t.clientEmail, sessionId).catch((e) => console.error('[sklep] zapis kupującego', e));
+  await zapiszKupujacego(t.clientEmail, sessionId, produkt.id).catch((e) => console.error('[sklep] zapis kupującego', e));
   const { url, wazneDo } = linkPobrania(sessionId);
   // najpierw mail z plikami – kupujący nie czeka na fakturę
   const m = mailZakupu({
-    produkt: PRODUKT.nazwa,
+    produkt: produkt.nazwa,
     kwota: zlotowki(t.amount),
     numer: sessionId,
     link: url,
     wazneDo,
     czasZgod: numer.czasZgod,
     wersjaZgod: numer.wersjaZgod,
-    regulamin: `${ADRES_SKLEPU}regulamin/`,
-    kalkulator: kalkulatorAktywny() ? `${ADRES_SKLEPU}kalkulator/` : undefined
+    regulamin: `${site.url}/niezbednik/regulamin/`,
+    narzedzie: narzedzieAktywne(produkt.id) ? { nazwa: produkt.narzedzie.nazwa, opis: OPIS_NARZEDZIA[produkt.id], url: `${site.url}${produkt.narzedzie.sciezka}` } : undefined
   });
-  await wyslijMail(t.clientEmail, 'Twój Niezbędnik – link do pobrania', m.html, m.tekst);
+  await wyslijMail(t.clientEmail, produkt.tematMaila, m.html, m.tekst);
   try {
     const f = await wystawFakture({
       numerZamowienia: sessionId,
-      nazwaPozycji: PRODUKT.pozycja,
+      nazwaPozycji: produkt.pozycja,
       kwotaGr: t.amount,
       email: t.clientEmail,
       klient: t.clientName,
@@ -60,18 +65,20 @@ async function poOplaceniu(sessionId: string) {
 }
 
 export async function POST(req: Request) {
-  if (!sklepAktywny()) return new Response('sklep wyłączony', { status: 503 });
   let p: Powiadomienie;
   try {
     p = await req.json();
   } catch {
     return new Response('zły format', { status: 400 });
   }
-  if (!poprawnePowiadomienie(p)) {
-    console.warn('[sklep] powiadomienie z błędnym podpisem', p?.sessionId, req.headers.get('x-forwarded-for'));
+  // produkt rozpoznajemy po początku numeru zamówienia (NB… / NS…)
+  const numer = odczytajNumer(typeof p?.sessionId === 'string' ? p.sessionId : '');
+  if (numer && !produktAktywny(numer.produkt.id)) return new Response('sklep wyłączony', { status: 503 });
+  if (!numer || !poprawnePowiadomienie(p)) {
+    console.warn('[sklep] powiadomienie z błędnym podpisem albo numerem', p?.sessionId, req.headers.get('x-forwarded-for'));
     return new Response('zły podpis', { status: 400 });
   }
-  if (!odczytajNumer(p.sessionId) || p.currency !== 'PLN' || p.amount !== PRODUKT.cenaGr) {
+  if (p.currency !== 'PLN' || p.amount !== numer.produkt.cenaGr) {
     console.error('[sklep] nieznane zamówienie albo kwota', p.sessionId, p.amount);
     return new Response('nieznane zamówienie', { status: 400 });
   }

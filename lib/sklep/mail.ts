@@ -14,7 +14,7 @@ export async function wyslijMail(do_: string, temat: string, html: string, tekst
 
 const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
 
-export function mailZakupu(d: { produkt: string; kwota: string; numer: string; link: string; wazneDo: Date; czasZgod: Date; wersjaZgod: string; regulamin: string; kalkulator?: string }) {
+export function mailZakupu(d: { produkt: string; kwota: string; numer: string; link: string; wazneDo: Date; czasZgod: Date; wersjaZgod: string; regulamin: string; narzedzie?: { nazwa: string; opis: string; url: string } }) {
   const kiedy = (x: Date) => x.toLocaleString('pl-PL', { timeZone: 'Europe/Warsaw', dateStyle: 'long', timeStyle: 'short' });
   const zgody = [
     `Akceptacja regulaminu sklepu (wersja ${d.wersjaZgod}): ${d.regulamin}`,
@@ -27,7 +27,7 @@ export function mailZakupu(d: { produkt: string; kwota: string; numer: string; l
     `Pobierz pakiet (link ważny do ${kiedy(d.wazneDo)}):`,
     d.link,
     '',
-    ...(d.kalkulator ? [`Kalkulator kosztów i argumentów do negocjacji (logujesz się tym adresem e-mail): ${d.kalkulator}`, ''] : []),
+    ...(d.narzedzie ? [`${d.narzedzie.nazwa} – ${d.narzedzie.opis} (logujesz się tym adresem e-mail): ${d.narzedzie.url}`, ''] : []),
     'Potwierdzenie zawarcia umowy i złożonych oświadczeń',
     `Data i godzina: ${kiedy(d.czasZgod)}`,
     ...zgody.map((z) => `– ${z}`),
@@ -39,7 +39,7 @@ export function mailZakupu(d: { produkt: string; kwota: string; numer: string; l
 <p>${esc(d.produkt)}<br>Zamówienie <b>${esc(d.numer)}</b>, kwota <b>${esc(d.kwota)}</b>.</p>
 <p><a href="${esc(d.link)}" style="display:inline-block;background:#0f172a;color:#fff;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:600">Pobierz pakiet</a></p>
 <p style="font-size:13px;color:#475569">Link jest ważny do ${esc(kiedy(d.wazneDo))}. Zapisz pliki na telefonie i komputerze.</p>
-${d.kalkulator ? `<p><b>Kalkulator kosztów i argumentów do negocjacji:</b> <a href="${esc(d.kalkulator)}">${esc(d.kalkulator)}</a><br><span style="font-size:13px;color:#475569">Zalogujesz się tym adresem e-mail – wyślemy Ci kod.</span></p>` : ''}
+${d.narzedzie ? `<p><b>${esc(d.narzedzie.nazwa)}</b> – ${esc(d.narzedzie.opis)}: <a href="${esc(d.narzedzie.url)}">${esc(d.narzedzie.url)}</a><br><span style="font-size:13px;color:#475569">Zalogujesz się tym adresem e-mail – wyślemy Ci kod.</span></p>` : ''}
 <hr style="border:0;border-top:1px solid #e2e8f0;margin:20px 0">
 <p style="font-size:13px"><b>Potwierdzenie zawarcia umowy i złożonych oświadczeń</b><br>Data i godzina: ${esc(kiedy(d.czasZgod))}</p>
 <ul style="font-size:13px;padding-left:18px">${zgody.map((z) => `<li>${esc(z)}</li>`).join('')}</ul>

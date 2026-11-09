@@ -1,11 +1,11 @@
 'use client';
-// Formularz zamówienia Niezbędnika: e-mail, dane do faktury, dwie obowiązkowe zgody → przekierowanie do Przelewy24.
+// Formularz zamówienia (Niezbędnik, pakiet po szkodzie): e-mail, dane do faktury, dwie obowiązkowe zgody → przekierowanie do Przelewy24.
 import { useState } from 'react';
 import { Loader2, Lock } from 'lucide-react';
 
 const pole = 'w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-3 py-2.5 text-sm';
 
-export default function FormularzZamowienia({ aktywny, cena, regulamin }: { aktywny: boolean; cena: string; regulamin: string }) {
+export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt = 'niezbednik', dopisek }: { aktywny: boolean; cena: string; regulamin: string; produkt?: 'niezbednik' | 'szkoda'; dopisek?: string }) {
   const [email, setEmail] = useState('');
   const [imieNazwisko, setImieNazwisko] = useState('');
   const [naFirme, setNaFirme] = useState(false);
@@ -23,7 +23,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin }: { akty
       const r = await fetch('/api/sklep/zamow/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, imieNazwisko, naFirme, ...firma, zgodaRegulamin, zgodaTresci })
+        body: JSON.stringify({ produkt, email, imieNazwisko, naFirme, ...firma, zgodaRegulamin, zgodaTresci })
       });
       const j = await r.json();
       if (!r.ok || !j.url) throw new Error(j.blad || 'Coś poszło nie tak. Spróbuj ponownie.');
@@ -115,7 +115,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin }: { akty
         </span>
       </button>
       {aktywny && !gotowe && !praca && <p className="text-xs text-slate-500 text-center -mt-2">Uzupełnij dane i zaznacz obie zgody, aby przejść do płatności.</p>}
-      <p className="text-xs text-slate-500 text-center">Płatność obsługuje Przelewy24. Pakiet dostaniesz od razu po zapłacie, a fakturę mailem.</p>
+      <p className="text-xs text-slate-500 text-center">{dopisek || 'Płatność obsługuje Przelewy24. Pakiet dostaniesz od razu po zapłacie, a fakturę mailem.'}</p>
     </form>
   );
 }

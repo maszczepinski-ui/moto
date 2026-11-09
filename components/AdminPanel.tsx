@@ -48,6 +48,7 @@ type Dane = {
     ogledziny: { wlaczony: boolean; partner: string; url: string };
     finansowanie: { wlaczony: boolean; partner: string; url: string };
     opony: { wlaczony: boolean; partner: string; url: string; zimowe: string; letnie: string };
+    kancelaria: { wlaczony: boolean; partner: string; url: string };
   };
   kolejnosc: ModulId[];
   reguly: Regula[];
@@ -139,7 +140,8 @@ function uzupelnij(d: Partial<Dane>): Dane {
       adsense: { wlaczony: false, klient: '', slotGora: '', slotSpec: '', slotDol: '', ...m.adsense },
       ogledziny: { wlaczony: true, partner: '', url: '', ...m.ogledziny },
       finansowanie: { wlaczony: true, partner: '', url: '', ...m.finansowanie },
-      opony: { wlaczony: true, partner: '', url: '', zimowe: '', letnie: '', ...m.opony }
+      opony: { wlaczony: true, partner: '', url: '', zimowe: '', letnie: '', ...m.opony },
+      kancelaria: { wlaczony: true, partner: '', url: '', ...m.kancelaria }
     },
     kolejnosc: d.kolejnosc?.length ? d.kolejnosc : ['vin', 'ubezpieczenia', 'czesci'],
     reguly: d.reguly || [],
@@ -308,7 +310,8 @@ export default function AdminPanel({
       ['Kredyt / leasing', d.moduly.finansowanie.url],
       ['Opony', d.moduly.opony.url],
       ['Opony zimowe', d.moduly.opony.zimowe],
-      ['Opony letnie', d.moduly.opony.letnie]
+      ['Opony letnie', d.moduly.opony.letnie],
+      ['Kancelaria (po szkodzie)', d.moduly.kancelaria.url]
     ];
     const zly = linki.find(([, v]) => v && !/^https:\/\//.test(v.trim()));
     if (zly) return `Link „${zly[0]}” musi zaczynać się od https://`;
@@ -579,6 +582,16 @@ export default function AdminPanel({
                     <Pole id="fi-u" label="Link partnerski" value={dane.moduly.finansowanie.url} onChange={(v) => ustawModul('finansowanie', 'url', v)} placeholder="https://…" />
                   </div>
                 </div>
+                <Przelacznik label="Kancelaria odszkodowawcza (pakiet po szkodzie)" wlaczony={dane.moduly.kancelaria.wlaczony} onChange={(v) => ustawModul('kancelaria', 'wlaczony', v)} />
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                  <Pole id="ka-p" label="Nazwa partnera" value={dane.moduly.kancelaria.partner} onChange={(v) => ustawModul('kancelaria', 'partner', v)} placeholder="np. Kancelaria XYZ" />
+                  <div className="sm:col-span-2">
+                    <Pole id="ka-u" label="Link partnerski (formularz po stronie partnera)" value={dane.moduly.kancelaria.url} onChange={(v) => ustawModul('kancelaria', 'url', v)} placeholder="https://…" />
+                  </div>
+                </div>
+                <p className="text-xs text-slate-500">
+                  Kancelaria pokazuje się na stronie /po-szkodzie/ (porównanie dróg), przy szkodzie całkowitej i po odmowie ubezpieczyciela w Sprawdzaczu. Wybieraj partnera bez opłat z góry, z jawną prowizją w umowie i wypłatą odszkodowania prosto na konto klienta. Pusty link = boks się nie pokazuje.
+                </p>
                 <p className="text-xs text-slate-500">
                   W linku możesz wstawić <code>{'{subid}'}</code> – w rankingu chińskich aut zamieni się na model (np. <code>mg-hs</code>) – oraz <code>{'{zrodlo}'}</code> (= <code>ranking-chinskie</code>). Wstaw je
                   w miejsce parametru SubID, które wskazuje panel partnera (np. ComperiaLead). Pusty link = przyciski „Oblicz ratę” się nie pokazują.

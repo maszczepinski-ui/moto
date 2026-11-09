@@ -48,6 +48,8 @@ export interface PanelDane {
     finansowanie?: { wlaczony: boolean; partner: string; url: string };
     /** sklep z oponami: link ogólny + opcjonalnie osobne do opon zimowych i letnich */
     opony?: { wlaczony: boolean; partner: string; url: string; zimowe?: string; letnie?: string };
+    /** pakiet po szkodzie: kancelaria odszkodowawcza dla osób, które nie chcą pisać same */
+    kancelaria?: { wlaczony: boolean; partner: string; url: string };
   };
   /** kolejność boksów na karcie modelu */
   kolejnosc?: ModulId[];
@@ -213,4 +215,10 @@ export function marka() {
   const m = panelDane.marka || {};
   const bezpieczny = (u?: string) => (u && /^\/marka\/[\w.-]+\.png(\?v=\d+)?$/.test(u) ? u : '');
   return { logo: bezpieczny(m.logo), logoCiemne: bezpieczny(m.logoCiemne), logoTryb: m.logoTryb === 'zamiast' ? 'zamiast' : 'obok', ikonaWersja: /^\d+$/.test(m.ikonaWersja || '') ? m.ikonaWersja! : '' } as const;
+}
+
+/** Partner „Zleć sprawę kancelarii” (pakiet po szkodzie) – null, gdy wyłączony albo bez linku */
+export function partnerKancelaria(): { partner: string; url: string } | null {
+  const k = panelDane.moduly?.kancelaria;
+  return k?.wlaczony && k.url ? { partner: k.partner || 'kancelaria partnerska', url: k.url } : null;
 }

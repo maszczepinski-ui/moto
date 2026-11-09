@@ -1,5 +1,5 @@
 // Strona „Dziękujemy” pyta tutaj, czy płatność już przeszła. Gdy tak – od razu daje link do pobrania (mail idzie równolegle).
-import { sklepAktywny } from '@/lib/sklep/konfiguracja';
+import { produktAktywny } from '@/lib/sklep/konfiguracja';
 import { znajdz } from '@/lib/sklep/p24';
 import { odczytajNumer } from '@/lib/sklep/zamowienie';
 import { linkPobrania } from '@/lib/sklep/link';
@@ -9,7 +9,8 @@ export const dynamic = 'force-dynamic';
 
 export async function GET(req: Request) {
   const s = new URL(req.url).searchParams.get('s') || '';
-  if (!sklepAktywny() || !odczytajNumer(s)) return Response.json({ stan: 'nieznane' }, { status: 400 });
+  const numer = odczytajNumer(s);
+  if (!numer || !produktAktywny(numer.produkt.id)) return Response.json({ stan: 'nieznane' }, { status: 400 });
   try {
     const t = await znajdz(s);
     // 2 = płatność dokonana i zweryfikowana

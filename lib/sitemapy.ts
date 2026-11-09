@@ -62,6 +62,8 @@ function grupy(): Record<string, Adres[]> {
       { loc: '/ubezpieczenie-oc/', changefreq: 'monthly', priority: 0.8 },
       // strona Niezbędnika trafia do mapy dopiero, gdy sklep działa (wcześniej ma „noindex”)
       ...(sklepAktywny() ? [{ loc: '/niezbednik/', changefreq: 'monthly', priority: 0.8 }] : []),
+      // darmowy test kosztorysu działa zawsze, więc strona po szkodzie jest w mapie od razu
+      { loc: '/po-szkodzie/', changefreq: 'monthly', priority: 0.8 },
       ...modele.map((m) => ({ loc: `${m.adres}zakup/`, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: 0.6 }))
     ],
     kierowca: [

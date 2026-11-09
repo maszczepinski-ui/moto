@@ -1,5 +1,3 @@
-import { ciasteczko } from '@/lib/sklep/kalkulator';
+import { obsluzWylogowanie } from '@/lib/sklep/trasy-narzedzia';
 export const dynamic = 'force-dynamic';
-export function POST() {
-  return new Response(JSON.stringify({ ok: true }), { headers: { 'Content-Type': 'application/json', 'Set-Cookie': ciasteczko('', true) } });
-}
+export const POST = () => obsluzWylogowanie('niezbednik');
