@@ -13,6 +13,7 @@ import { PREDKOSC } from '@/lib/mandaty';
 import { JEZYKI_OBCE, PORADNIKI_ADRES } from '@/lib/jezyki';
 import { adresPoradnika, hreflang, poradnikiObce } from '@/lib/tlumaczenia';
 import { ADRESY_NARZEDZI } from '@/lib/tlumaczenia/narzedzia';
+import { sklepAktywny } from '@/lib/sklep/konfiguracja';
 
 const LIMIT = 5000;
 interface Adres {
@@ -52,6 +53,8 @@ function grupy(): Record<string, Adres[]> {
       { loc: '/asystent-zakupu/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/sprawdz-vin/', changefreq: 'monthly', priority: 0.7 },
       { loc: '/ubezpieczenie-oc/', changefreq: 'monthly', priority: 0.8 },
+      // strona Niezbędnika trafia do mapy dopiero, gdy sklep działa (wcześniej ma „noindex”)
+      ...(sklepAktywny() ? [{ loc: '/niezbednik/', changefreq: 'monthly', priority: 0.8 }] : []),
       ...modele.map((m) => ({ loc: `${m.adres}zakup/`, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: 0.6 }))
     ],
     kierowca: [
