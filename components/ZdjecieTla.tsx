@@ -12,12 +12,13 @@ export default function ZdjecieTla({ klucz, priorytet = false, className = '' }:
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={z.src}
+      srcSet={z.srcMaly ? `${z.srcMaly} 800w, ${z.src} 1600w` : undefined}
+      sizes="100vw"
       alt=""
       aria-hidden="true"
       loading={priorytet ? 'eager' : 'lazy'}
       fetchPriority={priorytet ? 'high' : 'auto'}
       decoding="async"
-      referrerPolicy="no-referrer"
       onError={() => setBlad(true)}
       className={`absolute inset-0 w-full h-full object-cover ${className}`}
     />

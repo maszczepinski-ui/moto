@@ -5,21 +5,25 @@
 
 export interface Zdjecie {
   src: string;
+  /** mniejsza wersja (800 px) dla telefonów */
+  srcMaly?: string;
   alt: string;
   autor: string;
 }
 
-const unsplash = (id: string, szer = 1600) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${szer}&q=70`;
+// Pliki leżą na naszym serwerze (public/zdjecia/) – szybciej niż z cudzego serwera i lepiej dla PageSpeed Insights.
+// Pobrał je automat .github/workflows/pobierz-zdjecia.yml (zdjęcia z Unsplash), potem zostały przycięte i skompresowane do WebP.
+const lokalne = (klucz: string) => ({ src: `/zdjecia/${klucz}.webp`, srcMaly: `/zdjecia/${klucz}-800.webp` });
 
 export const ZDJECIA = {
-  glowne: { src: unsplash('photo-1551952237-954a0e68786c', 2000), alt: 'Samochód na pustej drodze', autor: 'Raivis Razgals / Unsplash' },
-  kupujesz: { src: unsplash('photo-1574023240744-64c47c8c0676'), alt: 'Rząd zaparkowanych samochodów', autor: 'Erik Mclean / Unsplash' },
-  trasa: { src: unsplash('photo-1516319915504-015b432d407c'), alt: 'Autostrada nocą – smugi świateł samochodów', autor: 'Florian Steciuk / Unsplash' },
-  elektryki: { src: unsplash('photo-1593941707882-a5bba14938c7'), alt: 'Ładowanie samochodu elektrycznego', autor: 'CHUTTERSNAP / Unsplash' },
-  mandaty: { src: unsplash('photo-1603638725730-233a04d9dca4'), alt: 'Samochody na drodze nocą', autor: 'Brecht Denil / Unsplash' },
-  atlas: { src: unsplash('photo-1521706887145-1c0edacadb25'), alt: 'Samochody na ruchliwej drodze', autor: 'CHUTTERSNAP / Unsplash' },
-  filmy: { src: unsplash('photo-1568605117036-5fe5e7bab0b7'), alt: 'Srebrne coupe na asfaltowej drodze', autor: 'Erik Mclean / Unsplash' },
-  opony: { src: unsplash('photo-1578844251758-2f71da64c96f'), alt: 'Stosy opon samochodowych', autor: 'Robert Laursoo / Unsplash' }
+  glowne: { ...lokalne('glowne'), alt: 'Samochód na pustej drodze', autor: 'Raivis Razgals / Unsplash' },
+  kupujesz: { ...lokalne('kupujesz'), alt: 'Rząd zaparkowanych samochodów', autor: 'Erik Mclean / Unsplash' },
+  trasa: { ...lokalne('trasa'), alt: 'Autostrada nocą – smugi świateł samochodów', autor: 'Florian Steciuk / Unsplash' },
+  elektryki: { ...lokalne('elektryki'), alt: 'Ładowanie samochodu elektrycznego', autor: 'CHUTTERSNAP / Unsplash' },
+  mandaty: { ...lokalne('mandaty'), alt: 'Samochody na drodze nocą', autor: 'Brecht Denil / Unsplash' },
+  atlas: { ...lokalne('atlas'), alt: 'Samochody na ruchliwej drodze', autor: 'CHUTTERSNAP / Unsplash' },
+  filmy: { ...lokalne('filmy'), alt: 'Srebrne coupe na asfaltowej drodze', autor: 'Erik Mclean / Unsplash' },
+  opony: { ...lokalne('opony'), alt: 'Stosy opon samochodowych', autor: 'Robert Laursoo / Unsplash' }
 } satisfies Record<string, Zdjecie>;
 
 export type KluczZdjecia = keyof typeof ZDJECIA;
