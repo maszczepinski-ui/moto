@@ -13,15 +13,15 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur border-b border-slate-200 dark:border-slate-800">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
-        <Link href="/" className="flex items-center gap-2 group min-w-0" aria-label={`${site.name} – strona główna`}>
+        <Link href="/" className="flex items-center gap-2 group min-w-0 flex-shrink-0" aria-label={`${site.name} – strona główna`}>
           {m.logo ? (
             <>
               {/* Logo z panelu admina (zakładka „Logo i ikona”) */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={m.logo} alt={m.logoTryb === 'zamiast' ? site.name : ''} className={`h-8 sm:h-9 w-auto max-w-[150px] sm:max-w-[200px] object-contain flex-shrink-0 ${ciemne !== m.logo ? 'dark:hidden' : ''}`} />
+              <img src={m.logo} alt={m.logoTryb === 'zamiast' ? site.name : ''} className={`h-8 w-auto max-w-[210px] object-contain flex-shrink-0 ${ciemne !== m.logo ? 'dark:hidden' : ''}`} />
               {ciemne !== m.logo && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={ciemne} alt={m.logoTryb === 'zamiast' ? site.name : ''} className="hidden dark:block h-8 sm:h-9 w-auto max-w-[150px] sm:max-w-[200px] object-contain flex-shrink-0" />
+                <img src={ciemne} alt={m.logoTryb === 'zamiast' ? site.name : ''} className="hidden dark:block h-8 w-auto max-w-[210px] object-contain flex-shrink-0" />
               )}
             </>
           ) : (
