@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bentley Bentayga – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 240 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BENTAYGA, BENTAYGA V8, BENTAYGA S V8, BENTAYGA AZURE V8, BENTAYGA SPEED).",
-  "liczbaWPolsce": 240,
-  "aktywne": 240,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bentley Bentayga – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 249 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BENTAYGA, BENTAYGA V8, BENTAYGA S V8, BENTAYGA AZURE V8, BENTAYGA SPEED).",
+  "liczbaWPolsce": 249,
+  "aktywne": 249,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,11 +39,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "14",
-    "liczba": 87
+    "liczba": 91
+   },
+   {
+    "teryt": "16",
+    "liczba": 1
    },
    {
     "teryt": "18",
@@ -59,15 +63,15 @@
    },
    {
     "teryt": "24",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "26",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "teryt": "30",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "32",
@@ -86,15 +90,15 @@
    },
    {
     "rok": 2018,
-    "liczba": 22
+    "liczba": 25
    },
    {
     "rok": 2019,
-    "liczba": 19
+    "liczba": 23
    },
    {
     "rok": 2020,
-    "liczba": 9
+    "liczba": 11
    },
    {
     "rok": 2021,
@@ -124,7 +128,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 220
+    "liczba": 228
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -132,7 +136,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,11 +146,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 185
+    "liczba": 190
    },
    {
     "nazwa": "6,0 l",
-    "liczba": 41
+    "liczba": 45
    },
    {
     "nazwa": "3,0 l",
@@ -164,7 +168,7 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 66
+    "liczba": 75
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -174,7 +178,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 188
+    "liczba": 197
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -201,13 +205,17 @@
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 240,
+  "noweOdPaczki": 249,
   "hybrydy": 14,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
     "rok": 2020,
-    "liczba": 8
+    "liczba": 14
    },
    {
     "rok": 2021,
@@ -235,6 +243,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -485,55 +537,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 2
+    "liczba": 4
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 12
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 6
    }
   ],
-  "miejsce": 1225,
+  "miejsce": 1222,
   "miejsceWMarce": 2,
   "modeliWMarce": 2,
-  "sredniRocznik": 2021.6
+  "sredniRocznik": 2021.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "bentley",
  "modelSlug": "bentayga",

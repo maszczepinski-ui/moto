@@ -11,38 +11,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan NV200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 643 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NV200).",
-  "liczbaWPolsce": 1139,
-  "aktywne": 878,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan NV200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 683 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NV200).",
+  "liczbaWPolsce": 1179,
+  "aktywne": 918,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 110
+    "liczba": 113
    },
    {
     "teryt": "04",
-    "liczba": 52
-   },
-   {
-    "teryt": "06",
     "liczba": 54
    },
    {
+    "teryt": "06",
+    "liczba": 55
+   },
+   {
     "teryt": "08",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "10",
-    "liczba": 44
+    "liczba": 46
    },
    {
     "teryt": "12",
-    "liczba": 101
+    "liczba": 106
    },
    {
     "teryt": "14",
-    "liczba": 204
+    "liczba": 215
    },
    {
     "teryt": "16",
@@ -50,35 +50,35 @@
    },
    {
     "teryt": "18",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "teryt": "20",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "22",
-    "liczba": 65
+    "liczba": 67
    },
    {
     "teryt": "24",
-    "liczba": 123
-   },
-   {
-    "teryt": "26",
-    "liczba": 29
-   },
-   {
-    "teryt": "28",
-    "liczba": 29
-   },
-   {
-    "teryt": "30",
     "liczba": 124
    },
    {
+    "teryt": "26",
+    "liczba": 30
+   },
+   {
+    "teryt": "28",
+    "liczba": 30
+   },
+   {
+    "teryt": "30",
+    "liczba": 130
+   },
+   {
     "teryt": "32",
-    "liczba": 52
+    "liczba": 54
    }
   ],
   "bezWojewodztwa": 5,
@@ -89,53 +89,53 @@
    },
    {
     "rok": 2010,
-    "liczba": 156
+    "liczba": 161
    },
    {
     "rok": 2011,
-    "liczba": 220
+    "liczba": 229
    },
    {
     "rok": 2012,
-    "liczba": 249
+    "liczba": 254
    },
    {
     "rok": 2013,
-    "liczba": 136
+    "liczba": 141
    },
    {
     "rok": 2014,
-    "liczba": 103
+    "liczba": 106
    },
    {
     "rok": 2015,
-    "liczba": 85
+    "liczba": 87
    },
    {
     "rok": 2016,
-    "liczba": 75
+    "liczba": 77
    },
    {
     "rok": 2017,
-    "liczba": 47
+    "liczba": 48
    },
    {
     "rok": 2018,
-    "liczba": 42
+    "liczba": 49
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 879
+    "liczba": 910
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 179
+    "liczba": 185
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 76
+    "liczba": 79
    },
    {
     "nazwa": "Inne / brak danych",
@@ -145,15 +145,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 877
+    "liczba": 908
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 237
+    "liczba": 244
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,11 +163,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 578
+    "liczba": 606
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 347
+    "liczba": 359
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,32 +181,32 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 523
+    "liczba": 540
    },
    {
     "nazwa": "Kombi",
-    "liczba": 417
+    "liczba": 432
    },
    {
     "nazwa": "Van",
-    "liczba": 171
+    "liczba": 178
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 28
+    "liczba": 29
    }
   ],
-  "noweOdPaczki": 643,
+  "noweOdPaczki": 683,
   "hybrydy": 0,
   "elektryczne": 3,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 8
    },
    {
     "rok": 2020,
-    "liczba": 42
+    "liczba": 75
    },
    {
     "rok": 2021,
@@ -234,6 +234,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 7
@@ -484,69 +528,69 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 2
+    "liczba": 4
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 11
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 12
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 9
    }
   ],
-  "miejsce": 758,
-  "miejsceWMarce": 25,
+  "miejsce": 753,
+  "miejsceWMarce": 24,
   "modeliWMarce": 47,
-  "sredniRocznik": 2012.7
+  "sredniRocznik": 2012.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "nv200",
  "adres": "/marki/nissan/nv200/",
  "konkurenci": [
   {
-   "slug": "toyota-auris",
-   "nazwa": "Toyota Auris",
-   "adres": "/marki/toyota/auris/"
-  },
-  {
    "slug": "alfa-romeo-giulietta",
    "nazwa": "Alfa Romeo Giulietta",
    "adres": "/marki/alfa-romeo/giulietta/"
+  },
+  {
+   "slug": "toyota-auris",
+   "nazwa": "Toyota Auris",
+   "adres": "/marki/toyota/auris/"
   },
   {
    "slug": "ford-c-max",

@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 440 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 440, 440 1.8 KAT, 440 1.7, 440 1.7 KAT, 440 1.8KAT).",
-  "liczbaWPolsce": 4208,
-  "aktywne": 57,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 440 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 440, 440 1.8 KAT, 440 1.7, 440 1.7 KAT, 440 1.8KAT).",
+  "liczbaWPolsce": 4211,
+  "aktywne": 60,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 227
+    "liczba": 228
    },
    {
     "teryt": "14",
-    "liczba": 658
+    "liczba": 660
    },
    {
     "teryt": "16",
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 490
+    "liczba": 491
    },
    {
     "rok": 1993,
@@ -109,11 +109,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 863
+    "liczba": 864
    },
    {
     "rok": 1995,
-    "liczba": 699
+    "liczba": 700
    },
    {
     "rok": 1996,
@@ -127,7 +127,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1536
+    "liczba": 1539
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -153,7 +153,7 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1515
+    "liczba": 1518
    },
    {
     "nazwa": "1,9 l",
@@ -175,11 +175,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2364
+    "liczba": 2366
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1556
+    "liczba": 1557
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -197,7 +197,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1763
+    "liczba": 1766
    },
    {
     "nazwa": "Sedan",
@@ -208,13 +208,13 @@
     "liczba": 1073
    }
   ],
-  "noweOdPaczki": 22,
+  "noweOdPaczki": 25,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2021,
@@ -238,6 +238,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -504,7 +548,7 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -512,7 +556,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -524,11 +568,11 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 474,
-  "miejsceWMarce": 16,
+  "miejsce": 478,
+  "miejsceWMarce": 17,
   "modeliWMarce": 34,
   "sredniRocznik": 1993.1
  },
@@ -536,7 +580,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "440",

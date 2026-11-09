@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 626 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 205 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 626, 626 2.0, 626 2.0 KAT, 626 2.0D, 626 1.8 KAT).",
-  "liczbaWPolsce": 32281,
-  "aktywne": 2047,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda 626 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 224 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 626, 626 2.0, 626 2.0 KAT, 626 2.0D, 626 1.8 KAT).",
+  "liczbaWPolsce": 32300,
+  "aktywne": 2066,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,19 +23,19 @@
    },
    {
     "teryt": "04",
-    "liczba": 1727
+    "liczba": 1730
    },
    {
     "teryt": "06",
-    "liczba": 2752
+    "liczba": 2754
    },
    {
     "teryt": "08",
-    "liczba": 1114
+    "liczba": 1115
    },
    {
     "teryt": "10",
-    "liczba": 2709
+    "liczba": 2710
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 5340
+    "liczba": 5342
    },
    {
     "teryt": "16",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 946
+    "liczba": 948
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 2542
+    "liczba": 2544
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 2575
+    "liczba": 2579
    },
    {
     "teryt": "32",
-    "liczba": 1662
+    "liczba": 1664
    }
   ],
   "bezWojewodztwa": 75,
@@ -130,7 +130,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 1424
+    "liczba": 1425
    },
    {
     "rok": 1991,
@@ -150,19 +150,19 @@
    },
    {
     "rok": 1995,
-    "liczba": 2226
+    "liczba": 2229
    },
    {
     "rok": 1996,
-    "liczba": 2205
+    "liczba": 2206
    },
    {
     "rok": 1997,
-    "liczba": 2202
+    "liczba": 2203
    },
    {
     "rok": 1998,
-    "liczba": 2380
+    "liczba": 2384
    },
    {
     "rok": 1999,
@@ -170,11 +170,11 @@
    },
    {
     "rok": 2000,
-    "liczba": 1882
+    "liczba": 1885
    },
    {
     "rok": 2001,
-    "liczba": 1045
+    "liczba": 1049
    },
    {
     "rok": 2002,
@@ -184,15 +184,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 9615
+    "liczba": 9630
    },
    {
     "nazwa": "Diesel",
-    "liczba": 8669
+    "liczba": 8672
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 7751
+    "liczba": 7752
    },
    {
     "nazwa": "?+LPG",
@@ -206,11 +206,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 22852
+    "liczba": 22863
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 6372
+    "liczba": 6379
    },
    {
     "nazwa": "1,6 l",
@@ -218,7 +218,7 @@
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 960
+    "liczba": 961
    },
    {
     "nazwa": "2,5 l",
@@ -232,11 +232,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 20422
+    "liczba": 20425
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 9321
+    "liczba": 9337
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -254,28 +254,32 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 10557
+    "liczba": 10567
    },
    {
     "nazwa": "Sedan",
-    "liczba": 9178
+    "liczba": 9182
    },
    {
     "nazwa": "Kombi",
-    "liczba": 3430
+    "liczba": 3434
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9116
+    "liczba": 9117
    }
   ],
-  "noweOdPaczki": 205,
+  "noweOdPaczki": 224,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 8
+   },
+   {
     "rok": 2020,
-    "liczba": 23
+    "liczba": 34
    },
    {
     "rok": 2021,
@@ -303,6 +307,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 6
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -557,7 +605,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-03",
@@ -565,19 +613,19 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -589,10 +637,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 3
    }
   ],
-  "miejsce": 159,
+  "miejsce": 163,
   "miejsceWMarce": 5,
   "modeliWMarce": 33,
   "sredniRocznik": 1993.3
@@ -601,7 +649,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "626",

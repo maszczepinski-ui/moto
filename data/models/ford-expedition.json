@@ -13,22 +13,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Expedition – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 203 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EXPEDITION).",
-  "liczbaWPolsce": 313,
-  "aktywne": 240,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Expedition – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 218 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EXPEDITION).",
+  "liczbaWPolsce": 328,
+  "aktywne": 255,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "04",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "06",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "08",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 61
+    "liczba": 65
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 17
+    "liczba": 20
    },
    {
     "teryt": "20",
@@ -64,7 +64,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "26",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 21
+    "liczba": 24
    },
    {
     "teryt": "32",
@@ -107,7 +107,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2002,
@@ -115,15 +115,15 @@
    },
    {
     "rok": 2003,
-    "liczba": 25
+    "liczba": 27
    },
    {
     "rok": 2004,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2005,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2006,
@@ -131,7 +131,7 @@
    },
    {
     "rok": 2007,
-    "liczba": 18
+    "liczba": 20
    },
    {
     "rok": 2008,
@@ -147,7 +147,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 14
+    "liczba": 16
    },
    {
     "rok": 2012,
@@ -155,11 +155,11 @@
    },
    {
     "rok": 2013,
-    "liczba": 18
+    "liczba": 20
    },
    {
     "rok": 2014,
-    "liczba": 16
+    "liczba": 19
    },
    {
     "rok": 2015,
@@ -167,7 +167,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2017,
@@ -209,11 +209,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 173
+    "liczba": 180
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 138
+    "liczba": 146
    },
    {
     "nazwa": "Inne / brak danych",
@@ -223,11 +223,11 @@
   "pojemnosci": [
    {
     "nazwa": "5,4 l",
-    "liczba": 193
+    "liczba": 206
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "nazwa": "4,6 l",
@@ -235,39 +235,39 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 173
+    "liczba": 182
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 140
+    "liczba": 146
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 101
+    "liczba": 103
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 94
+    "liczba": 100
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 42
+    "liczba": 45
    },
    {
     "nazwa": "Van",
-    "liczba": 41
+    "liczba": 44
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "Furgon",
@@ -278,17 +278,17 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 203,
+  "noweOdPaczki": 218,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 9
    },
    {
     "rok": 2020,
-    "liczba": 18
+    "liczba": 25
    },
    {
     "rok": 2021,
@@ -316,6 +316,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 3
@@ -570,15 +614,15 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-05",
@@ -586,35 +630,35 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 7
    }
   ],
-  "miejsce": 1129,
+  "miejsce": 1122,
   "miejsceWMarce": 42,
-  "modeliWMarce": 46,
+  "modeliWMarce": 47,
   "sredniRocznik": 2009.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "expedition",
@@ -631,14 +675,14 @@
    "adres": "/marki/jeep/grand-cherokee/"
   },
   {
-   "slug": "chevrolet-camaro",
-   "nazwa": "Chevrolet Camaro",
-   "adres": "/marki/chevrolet/camaro/"
-  },
-  {
    "slug": "mercedes-benz-klasa-gl",
    "nazwa": "Mercedes-Benz Klasa GL",
    "adres": "/marki/mercedes-benz/klasa-gl/"
+  },
+  {
+   "slug": "chevrolet-camaro",
+   "nazwa": "Chevrolet Camaro",
+   "adres": "/marki/chevrolet/camaro/"
   },
   {
    "slug": "audi-s8",

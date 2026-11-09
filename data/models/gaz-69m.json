@@ -7,20 +7,20 @@
  "nadwozia": [
   "sedan",
   "kabriolet",
-  "van",
-  "suv"
+  "suv",
+  "van"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 69M – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 69M).",
-  "liczbaWPolsce": 266,
-  "aktywne": 24,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 69M – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 69M).",
+  "liczbaWPolsce": 270,
+  "aktywne": 28,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "04",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "24",
@@ -72,7 +72,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "32",
@@ -147,7 +147,7 @@
    },
    {
     "rok": 1965,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 1966,
@@ -155,11 +155,11 @@
    },
    {
     "rok": 1967,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1968,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 1969,
@@ -171,7 +171,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 34
+    "liczba": 35
    },
    {
     "rok": 1972,
@@ -253,7 +253,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 65
+    "liczba": 69
    },
    {
     "nazwa": "Diesel",
@@ -275,7 +275,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 107
+    "liczba": 110
    },
    {
     "nazwa": "2,3 l",
@@ -307,13 +307,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 25
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 161
+    "liczba": 162
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -321,7 +321,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 7
+    "liczba": 10
    },
    {
     "nazwa": "Inne / brak danych",
@@ -335,15 +335,15 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 22
+    "liczba": 24
+   },
+   {
+    "nazwa": "Terenowy",
+    "liczba": 19
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
     "liczba": 19
-   },
-   {
-    "nazwa": "Terenowy",
-    "liczba": 17
    },
    {
     "nazwa": "Hatchback",
@@ -358,10 +358,18 @@
     "liczba": 160
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 12,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 3
+   },
    {
     "rok": 2022,
     "liczba": 1
@@ -380,6 +388,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -669,7 +721,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1178,
+  "miejsce": 1179,
   "miejsceWMarce": 4,
   "modeliWMarce": 4,
   "sredniRocznik": 1967.7
@@ -678,7 +730,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "gaz",
  "modelSlug": "69m",

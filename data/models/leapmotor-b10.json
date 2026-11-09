@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Leapmotor B10 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 165 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B10).",
-  "liczbaWPolsce": 1165,
-  "aktywne": 1165,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Leapmotor B10 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 170 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B10).",
+  "liczbaWPolsce": 1170,
+  "aktywne": 1170,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "06",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "10",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 97
+    "liczba": 98
    },
    {
     "teryt": "14",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 176
+    "liczba": 177
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 166
+    "liczba": 167
    },
    {
     "teryt": "32",
@@ -88,13 +88,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 601
+    "liczba": 606
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1027
+    "liczba": 1032
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -112,13 +112,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 935
+    "liczba": 940
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1080
+    "liczba": 1085
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -136,16 +136,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1160
+    "liczba": 1165
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 1165,
+  "noweOdPaczki": 1170,
   "hybrydy": 130,
-  "elektryczne": 1027,
+  "elektryczne": 1032,
   "pierwszeRejestracje": [
    {
     "rok": 2022,
@@ -161,10 +161,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 832
+    "liczba": 837
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -415,46 +459,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 88
+    "liczba": 93
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 32
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 75
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 18
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 85
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 160
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 82
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 90
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 90
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 131
    }
   ],
-  "miejsce": 751,
+  "miejsce": 758,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
   "sredniRocznik": 2025.4
@@ -463,7 +507,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "leapmotor",
  "modelSlug": "b10",

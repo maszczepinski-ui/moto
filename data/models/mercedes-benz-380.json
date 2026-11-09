@@ -12,22 +12,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 380 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 266 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 380 SE, 380 SL, 380 SEC, 380, 380 SLC).",
-  "liczbaWPolsce": 386,
-  "aktywne": 284,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 380 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 286 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 380 SE, 380 SL, 380 SEC, 380, 380 SLC).",
+  "liczbaWPolsce": 406,
+  "aktywne": 304,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "04",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "06",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "08",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 25
+    "liczba": 28
    },
    {
     "teryt": "12",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "teryt": "14",
-    "liczba": 56
+    "liczba": 57
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "20",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 35
+    "liczba": 38
    },
    {
     "teryt": "24",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 18
+    "liczba": 21
    },
    {
     "teryt": "30",
-    "liczba": 41
+    "liczba": 44
    },
    {
     "teryt": "32",
@@ -86,27 +86,27 @@
   "roczniki": [
    {
     "rok": 1980,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 1981,
-    "liczba": 57
+    "liczba": 58
    },
    {
     "rok": 1982,
-    "liczba": 81
+    "liczba": 90
    },
    {
     "rok": 1983,
-    "liczba": 81
+    "liczba": 87
    },
    {
     "rok": 1984,
-    "liczba": 74
+    "liczba": 75
    },
    {
     "rok": 1985,
-    "liczba": 51
+    "liczba": 53
    },
    {
     "rok": 1986,
@@ -148,11 +148,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 330
+    "liczba": 349
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "Diesel",
@@ -170,33 +170,25 @@
   "pojemnosci": [
    {
     "nazwa": "3,8 l",
-    "liczba": 358
+    "liczba": 378
    },
    {
     "nazwa": "3,0 l",
     "liczba": 10
    },
    {
-    "nazwa": "5,0 l",
-    "liczba": 4
-   },
-   {
-    "nazwa": "3,9 l",
-    "liczba": 4
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 18
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 245
+    "liczba": 261
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 129
+    "liczba": 133
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -210,32 +202,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 166
+    "liczba": 170
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 103
+    "liczba": 112
    },
    {
     "nazwa": "Coupe",
-    "liczba": 85
+    "liczba": 92
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 32
    }
   ],
-  "noweOdPaczki": 266,
+  "noweOdPaczki": 286,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2020,
-    "liczba": 18
+    "liczba": 36
    },
    {
     "rok": 2021,
@@ -263,6 +255,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 7
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -513,55 +549,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 1058,
+  "miejsce": 1050,
   "miejsceWMarce": 52,
-  "modeliWMarce": 57,
-  "sredniRocznik": 1983.1
+  "modeliWMarce": 58,
+  "sredniRocznik": 1983.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "380",

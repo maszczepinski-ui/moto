@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 286 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV2).",
-  "liczbaWPolsce": 286,
-  "aktywne": 286,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 288 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV2).",
+  "liczbaWPolsce": 288,
+  "aktywne": 288,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "14",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "32",
@@ -84,25 +84,25 @@
   "roczniki": [
    {
     "rok": 2026,
-    "liczba": 286
+    "liczba": 288
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 286
+    "liczba": 288
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 286
+    "liczba": 288
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 255
+    "liczba": 257
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -116,19 +116,63 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 286
+    "liczba": 288
    }
   ],
-  "noweOdPaczki": 286,
+  "noweOdPaczki": 288,
   "hybrydy": 0,
-  "elektryczne": 286,
+  "elektryczne": 288,
   "pierwszeRejestracje": [
    {
     "rok": 2026,
-    "liczba": 286
+    "liczba": 288
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -391,34 +435,34 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 54
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 20
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 15
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 47
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 36
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 66
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 93
    }
   ],
-  "miejsce": 1157,
+  "miejsce": 1158,
   "miejsceWMarce": 30,
   "modeliWMarce": 33,
   "sredniRocznik": 2026.0
@@ -427,7 +471,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "ev2",

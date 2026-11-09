@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Thesis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 65 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THESIS).",
-  "liczbaWPolsce": 487,
-  "aktywne": 180,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Thesis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 75 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THESIS).",
+  "liczbaWPolsce": 497,
+  "aktywne": 190,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "teryt": "04",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 86
+    "liczba": 87
    },
    {
     "teryt": "16",
@@ -57,23 +57,23 @@
    },
    {
     "teryt": "22",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "24",
-    "liczba": 72
+    "liczba": 75
    },
    {
     "teryt": "26",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "30",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "32",
@@ -88,15 +88,15 @@
    },
    {
     "rok": 2002,
-    "liczba": 124
+    "liczba": 127
    },
    {
     "rok": 2003,
-    "liczba": 173
+    "liczba": 175
    },
    {
     "rok": 2004,
-    "liczba": 75
+    "liczba": 77
    },
    {
     "rok": 2005,
@@ -104,15 +104,15 @@
    },
    {
     "rok": 2006,
-    "liczba": 33
+    "liczba": 34
    },
    {
     "rok": 2007,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 2008,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2009,
@@ -122,15 +122,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 259
+    "liczba": 263
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 148
+    "liczba": 153
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 78
+    "liczba": 79
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,15 +140,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 307
+    "liczba": 313
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 86
+    "liczba": 88
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "nazwa": "3,2 l",
@@ -158,11 +158,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 261
+    "liczba": 267
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 214
+    "liczba": 218
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -176,7 +176,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 468
+    "liczba": 478
    },
    {
     "nazwa": "Hatchback",
@@ -187,13 +187,17 @@
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 65,
+  "noweOdPaczki": 75,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 6
+    "liczba": 14
    },
    {
     "rok": 2021,
@@ -221,6 +225,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -475,7 +523,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
@@ -487,7 +535,7 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
@@ -510,7 +558,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 984,
+  "miejsce": 980,
   "miejsceWMarce": 11,
   "modeliWMarce": 15,
   "sredniRocznik": 2003.6
@@ -519,7 +567,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "thesis",
@@ -541,14 +589,14 @@
    "adres": "/marki/jaguar/x-type/"
   },
   {
-   "slug": "peugeot-607",
-   "nazwa": "Peugeot 607",
-   "adres": "/marki/peugeot/607/"
-  },
-  {
    "slug": "bmw-seria-3",
    "nazwa": "BMW Seria 3",
    "adres": "/marki/bmw/seria-3/"
+  },
+  {
+   "slug": "peugeot-607",
+   "nazwa": "Peugeot 607",
+   "adres": "/marki/peugeot/607/"
   }
  ]
 }

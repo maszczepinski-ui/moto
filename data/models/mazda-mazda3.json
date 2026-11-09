@@ -11,86 +11,78 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 934 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA3).",
-  "liczbaWPolsce": 3861,
-  "aktywne": 3795,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 225 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA3).",
+  "liczbaWPolsce": 4152,
+  "aktywne": 4086,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 310
+    "liczba": 344
    },
    {
     "teryt": "04",
-    "liczba": 172
+    "liczba": 181
    },
    {
     "teryt": "06",
-    "liczba": 115
+    "liczba": 133
    },
    {
     "teryt": "08",
-    "liczba": 79
+    "liczba": 87
    },
    {
     "teryt": "10",
-    "liczba": 210
+    "liczba": 231
    },
    {
     "teryt": "12",
-    "liczba": 384
+    "liczba": 409
    },
    {
     "teryt": "14",
-    "liczba": 817
+    "liczba": 871
    },
    {
     "teryt": "16",
-    "liczba": 81
+    "liczba": 85
    },
    {
     "teryt": "18",
-    "liczba": 135
+    "liczba": 143
    },
    {
     "teryt": "20",
-    "liczba": 63
+    "liczba": 69
    },
    {
     "teryt": "22",
-    "liczba": 234
+    "liczba": 251
    },
    {
     "teryt": "24",
-    "liczba": 682
+    "liczba": 724
    },
    {
     "teryt": "26",
-    "liczba": 79
+    "liczba": 82
    },
    {
     "teryt": "28",
-    "liczba": 59
+    "liczba": 63
    },
    {
     "teryt": "30",
-    "liczba": 299
+    "liczba": 328
    },
    {
     "teryt": "32",
-    "liczba": 139
+    "liczba": 148
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
-   {
-    "rok": 2011,
-    "liczba": 8
-   },
-   {
-    "rok": 2012,
-    "liczba": 5
-   },
    {
     "rok": 2013,
     "liczba": 15
@@ -109,19 +101,19 @@
    },
    {
     "rok": 2017,
-    "liczba": 133
+    "liczba": 134
    },
    {
     "rok": 2018,
-    "liczba": 556
+    "liczba": 560
    },
    {
     "rok": 2019,
-    "liczba": 589
+    "liczba": 866
    },
    {
     "rok": 2020,
-    "liczba": 223
+    "liczba": 232
    },
    {
     "rok": 2021,
@@ -151,11 +143,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2651
+    "liczba": 2862
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1153
+    "liczba": 1232
    },
    {
     "nazwa": "Diesel",
@@ -163,13 +155,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3782
+    "liczba": 4073
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,15 +171,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2684
+    "liczba": 2793
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 773
+    "liczba": 953
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 376
+    "liczba": 378
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -201,28 +193,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2892
+    "liczba": 3103
    },
    {
     "nazwa": "Sedan",
-    "liczba": 959
+    "liczba": 1039
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 2934,
-  "hybrydy": 1134,
+  "noweOdPaczki": 3225,
+  "hybrydy": 1213,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 16
+    "liczba": 114
    },
    {
     "rok": 2020,
-    "liczba": 248
+    "liczba": 440
    },
    {
     "rok": 2021,
@@ -246,10 +238,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 713
+    "liczba": 714
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 69
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 52
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 60
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 42
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 24
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 36
+   },
    {
     "miesiac": "2020-11",
     "liczba": 33
@@ -500,55 +536,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 20
+    "liczba": 25
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 32
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 76
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 100
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 105
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 240
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 45
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 44
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 33
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 25
    }
   ],
-  "miejsce": 490,
-  "miejsceWMarce": 14,
+  "miejsce": 481,
+  "miejsceWMarce": 13,
   "modeliWMarce": 33,
-  "sredniRocznik": 2021.4
+  "sredniRocznik": 2021.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "mazda3",
@@ -575,9 +611,9 @@
    "adres": "/marki/bmw/m1/"
   },
   {
-   "slug": "audi-s3",
-   "nazwa": "Audi S3",
-   "adres": "/marki/audi/s3/"
+   "slug": "mini-john",
+   "nazwa": "Mini John",
+   "adres": "/marki/mini/john/"
   }
  ]
 }

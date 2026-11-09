@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Linea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 215 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LINEA).",
-  "liczbaWPolsce": 4974,
-  "aktywne": 1390,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Linea – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 249 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LINEA).",
+  "liczbaWPolsce": 5008,
+  "aktywne": 1424,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 376
+    "liczba": 381
    },
    {
     "teryt": "04",
@@ -33,47 +33,47 @@
    },
    {
     "teryt": "10",
-    "liczba": 421
+    "liczba": 425
    },
    {
     "teryt": "12",
-    "liczba": 395
+    "liczba": 397
    },
    {
     "teryt": "14",
-    "liczba": 603
+    "liczba": 607
    },
    {
     "teryt": "16",
-    "liczba": 114
+    "liczba": 115
    },
    {
     "teryt": "18",
-    "liczba": 301
+    "liczba": 303
    },
    {
     "teryt": "20",
-    "liczba": 139
+    "liczba": 142
    },
    {
     "teryt": "22",
-    "liczba": 210
+    "liczba": 211
    },
    {
     "teryt": "24",
-    "liczba": 1027
+    "liczba": 1032
    },
    {
     "teryt": "26",
-    "liczba": 145
+    "liczba": 147
    },
    {
     "teryt": "28",
-    "liczba": 153
+    "liczba": 156
    },
    {
     "teryt": "30",
-    "liczba": 457
+    "liczba": 459
    },
    {
     "teryt": "32",
@@ -84,15 +84,15 @@
   "roczniki": [
    {
     "rok": 2007,
-    "liczba": 1835
+    "liczba": 1845
    },
    {
     "rok": 2008,
-    "liczba": 1457
+    "liczba": 1469
    },
    {
     "rok": 2009,
-    "liczba": 652
+    "liczba": 663
    },
    {
     "rok": 2010,
@@ -114,29 +114,29 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3033
+    "liczba": 3052
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1051
+    "liczba": 1057
    },
    {
     "nazwa": "Diesel",
-    "liczba": 890
+    "liczba": 899
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 4080
+    "liczba": 4105
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 800
+    "liczba": 807
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 92
+    "liczba": 94
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,11 +150,11 @@
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1980
+    "liczba": 1992
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 359
+    "liczba": 381
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,20 +164,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 4915
+    "liczba": 4949
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 59
    }
   ],
-  "noweOdPaczki": 215,
+  "noweOdPaczki": 249,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
     "rok": 2020,
-    "liczba": 26
+    "liczba": 55
    },
    {
     "rok": 2021,
@@ -205,6 +209,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 5
@@ -459,31 +507,31 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -491,10 +539,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 440,
+  "miejsce": 441,
   "miejsceWMarce": 26,
   "modeliWMarce": 61,
   "sredniRocznik": 2008.4
@@ -503,7 +551,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "linea",

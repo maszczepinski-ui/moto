@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 90, 90 2.3, 90 2.3 KAT, 90 2.0 KAT, 90 2.0).",
-  "liczbaWPolsce": 2950,
-  "aktywne": 126,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 46 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 90, 90 2.3, 90 2.3 KAT, 90 2.0 KAT, 90 2.0).",
+  "liczbaWPolsce": 2956,
+  "aktywne": 132,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 292
+    "liczba": 293
    },
    {
     "teryt": "04",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 284
+    "liczba": 286
    },
    {
     "teryt": "08",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 373
+    "liczba": 374
    },
    {
     "teryt": "16",
@@ -67,7 +67,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 86
+    "liczba": 87
    },
    {
     "teryt": "28",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 205
+    "liczba": 206
    },
    {
     "teryt": "32",
@@ -98,19 +98,19 @@
    },
    {
     "rok": 1987,
-    "liczba": 282
+    "liczba": 283
    },
    {
     "rok": 1988,
-    "liczba": 427
+    "liczba": 429
    },
    {
     "rok": 1989,
-    "liczba": 495
+    "liczba": 496
    },
    {
     "rok": 1990,
-    "liczba": 441
+    "liczba": 442
    },
    {
     "rok": 1991,
@@ -122,7 +122,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 68
+    "liczba": 69
    },
    {
     "rok": 1994,
@@ -144,11 +144,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1087
+    "liczba": 1088
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1014
+    "liczba": 1019
    },
    {
     "nazwa": "?+LPG",
@@ -166,15 +166,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 1545
+    "liczba": 1547
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 819
+    "liczba": 821
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 292
+    "liczba": 293
    },
    {
     "nazwa": "1,6 l",
@@ -189,18 +189,22 @@
     "liczba": 30
    },
    {
+    "nazwa": "2,8 l",
+    "liczba": 30
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 88
+    "liczba": 59
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2078
+    "liczba": 2080
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 598
+    "liczba": 602
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -218,7 +222,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1719
+    "liczba": 1725
    },
    {
     "nazwa": "Coupe",
@@ -233,13 +237,17 @@
     "liczba": 934
    }
   ],
-  "noweOdPaczki": 40,
+  "noweOdPaczki": 46,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 1
+    "liczba": 5
    },
    {
     "rok": 2021,
@@ -267,6 +275,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -525,11 +577,11 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -545,7 +597,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -556,7 +608,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 530,
+  "miejsce": 534,
   "miejsceWMarce": 19,
   "modeliWMarce": 54,
   "sredniRocznik": 1990.4
@@ -565,7 +617,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "90",

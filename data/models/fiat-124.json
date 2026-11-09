@@ -12,18 +12,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 124 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 304 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 124, 124 SPIDER, 124 S, 124 SPORT SPIDER, 124 SPORT COUPE).",
-  "liczbaWPolsce": 1150,
-  "aktywne": 329,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 124 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 326 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 124, 124 SPIDER, 124 S, 124 SPORT SPIDER, 124 SPORT COUPE).",
+  "liczbaWPolsce": 1172,
+  "aktywne": 351,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 83
+    "liczba": 85
    },
    {
     "teryt": "04",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "06",
@@ -35,19 +35,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 75
+    "liczba": 80
    },
    {
     "teryt": "12",
-    "liczba": 150
+    "liczba": 152
    },
    {
     "teryt": "14",
-    "liczba": 236
+    "liczba": 241
    },
    {
     "teryt": "16",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "18",
@@ -63,11 +63,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 131
+    "liczba": 135
    },
    {
     "teryt": "26",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "28",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 41
+    "liczba": 42
    }
   ],
   "bezWojewodztwa": 5,
@@ -98,7 +98,7 @@
    },
    {
     "rok": 1968,
-    "liczba": 139
+    "liczba": 140
    },
    {
     "rok": 1969,
@@ -118,11 +118,11 @@
    },
    {
     "rok": 1973,
-    "liczba": 45
+    "liczba": 46
    },
    {
     "rok": 1974,
-    "liczba": 63
+    "liczba": 65
    },
    {
     "rok": 1975,
@@ -142,11 +142,11 @@
    },
    {
     "rok": 1979,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 1980,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 1981,
@@ -290,19 +290,19 @@
    },
    {
     "rok": 2016,
-    "liczba": 28
+    "liczba": 29
    },
    {
     "rok": 2017,
-    "liczba": 72
+    "liczba": 78
    },
    {
     "rok": 2018,
-    "liczba": 39
+    "liczba": 46
    },
    {
     "rok": 2019,
-    "liczba": 20
+    "liczba": 22
    },
    {
     "rok": 2020,
@@ -312,7 +312,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 445
+    "liczba": 467
    },
    {
     "nazwa": "Inne / brak danych",
@@ -322,19 +322,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 543
+    "liczba": 544
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 325
+    "liczba": 342
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 71
+    "liczba": 73
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 69
+    "liczba": 71
    },
    {
     "nazwa": "1,6 l",
@@ -356,11 +356,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 556
+    "liczba": 569
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 282
+    "liczba": 291
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -378,32 +378,36 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 286
+    "liczba": 304
    },
    {
     "nazwa": "Sedan",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "nazwa": "Coupe",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 717
+    "liczba": 718
    }
   ],
-  "noweOdPaczki": 304,
+  "noweOdPaczki": 326,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 10
+   },
+   {
     "rok": 2020,
-    "liczba": 19
+    "liczba": 31
    },
    {
     "rok": 2021,
@@ -431,6 +435,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 6
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -685,51 +733,51 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 757,
+  "miejsce": 756,
   "miejsceWMarce": 40,
   "modeliWMarce": 61,
-  "sredniRocznik": 1978.0
+  "sredniRocznik": 1978.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "124",
@@ -746,19 +794,19 @@
    "adres": "/marki/zaz/968/"
   },
   {
-   "slug": "ford-taunus",
-   "nazwa": "Ford Taunus",
-   "adres": "/marki/ford/taunus/"
-  },
-  {
-   "slug": "zaz-zaz968",
-   "nazwa": "ZAZ ZAZ968",
-   "adres": "/marki/zaz/zaz968/"
-  },
-  {
    "slug": "lada-21012106",
    "nazwa": "Łada 2101–2106",
    "adres": "/marki/lada/21012106/"
+  },
+  {
+   "slug": "zastava-1100",
+   "nazwa": "Zastava 1100",
+   "adres": "/marki/zastava/1100/"
+  },
+  {
+   "slug": "ford-taunus",
+   "nazwa": "Ford Taunus",
+   "adres": "/marki/ford/taunus/"
   }
  ]
 }

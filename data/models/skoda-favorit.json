@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Favorit – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 16 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FAVORIT, FAVORIT 135L 1.3, FAVORIT 1.3, FAVORIT 135L, FAVORIT 136L 1.3).",
-  "liczbaWPolsce": 40088,
-  "aktywne": 268,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Favorit – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FAVORIT, FAVORIT 135L 1.3, FAVORIT 1.3, FAVORIT 135L, FAVORIT 136L 1.3).",
+  "liczbaWPolsce": 40091,
+  "aktywne": 271,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 3389
+    "liczba": 3391
    },
    {
     "teryt": "04",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 777
+    "liczba": 778
    },
    {
     "teryt": "20",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 23930
+    "liczba": 23931
    },
    {
     "rok": 1992,
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 1544
+    "liczba": 1545
    },
    {
     "rok": 1994,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 81
+    "liczba": 82
    },
    {
     "rok": 1996,
@@ -127,7 +127,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 17710
+    "liczba": 17713
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -145,7 +145,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 39687
+    "liczba": 39690
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,7 +163,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 689
+    "liczba": 692
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -177,7 +177,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 17460
+    "liczba": 17463
    },
    {
     "nazwa": "Sedan",
@@ -188,13 +188,13 @@
     "liczba": 18427
    }
   ],
-  "noweOdPaczki": 16,
+  "noweOdPaczki": 19,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 1
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -222,6 +222,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -476,15 +520,15 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -511,7 +555,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 128,
+  "miejsce": 129,
   "miejsceWMarce": 8,
   "modeliWMarce": 27,
   "sredniRocznik": 1991.3
@@ -520,7 +564,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "favorit",

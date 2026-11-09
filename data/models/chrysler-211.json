@@ -11,18 +11,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 211 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 142 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 211).",
-  "liczbaWPolsce": 415,
-  "aktywne": 259,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 211 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 164 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 211).",
+  "liczbaWPolsce": 437,
+  "aktywne": 281,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "04",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "06",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "teryt": "12",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "14",
-    "liczba": 49
+    "liczba": 52
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "20",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 45
+    "liczba": 48
    },
    {
     "teryt": "24",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "28",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 35
+    "liczba": 38
    },
    {
     "teryt": "32",
-    "liczba": 35
+    "liczba": 39
    }
   ],
   "bezWojewodztwa": 5,
@@ -93,23 +93,23 @@
    },
    {
     "rok": 2002,
-    "liczba": 83
+    "liczba": 90
    },
    {
     "rok": 2003,
-    "liczba": 116
+    "liczba": 121
    },
    {
     "rok": 2004,
-    "liczba": 103
+    "liczba": 109
    },
    {
     "rok": 2005,
-    "liczba": 76
+    "liczba": 78
    },
    {
     "rok": 2006,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2007,
@@ -123,45 +123,45 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 302
+    "liczba": 316
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 77
+    "liczba": 80
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 36
+    "liczba": 41
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 140
+    "liczba": 149
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 82
+    "liczba": 84
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 74
+    "liczba": 78
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "nazwa": "4,0 l",
@@ -169,17 +169,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 243
+    "liczba": 255
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 165
+    "liczba": 175
    },
    {
     "nazwa": "Inne / brak danych",
@@ -189,32 +189,36 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 322
+    "liczba": 338
    },
    {
     "nazwa": "Kombi",
-    "liczba": 71
+    "liczba": 76
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
     "liczba": 8
    },
    {
+    "nazwa": "Van",
+    "liczba": 5
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 142,
+  "noweOdPaczki": 164,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 4
    },
    {
     "rok": 2020,
-    "liczba": 23
+    "liczba": 42
    },
    {
     "rok": 2021,
@@ -242,6 +246,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 4
@@ -500,38 +548,38 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 1034,
+  "miejsce": 1020,
   "miejsceWMarce": 17,
   "modeliWMarce": 21,
   "sredniRocznik": 2003.5
@@ -540,7 +588,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "211",
@@ -562,14 +610,14 @@
    "adres": "/marki/volvo/s80/"
   },
   {
+   "slug": "bmw-seria-3",
+   "nazwa": "BMW Seria 3",
+   "adres": "/marki/bmw/seria-3/"
+  },
+  {
    "slug": "jaguar-x-type",
    "nazwa": "Jaguar X-Type",
    "adres": "/marki/jaguar/x-type/"
-  },
-  {
-   "slug": "mercedes-benz-klasa-e",
-   "nazwa": "Mercedes-Benz Klasa E",
-   "adres": "/marki/mercedes-benz/klasa-e/"
   }
  ]
 }

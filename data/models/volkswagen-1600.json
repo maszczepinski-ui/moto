@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 1600 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1600, 1600 TL).",
-  "liczbaWPolsce": 1409,
-  "aktywne": 49,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 1600 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1600, 1600 TL).",
+  "liczbaWPolsce": 1411,
+  "aktywne": 51,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "teryt": "14",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "teryt": "26",
@@ -129,7 +129,7 @@
    },
    {
     "rok": 1973,
-    "liczba": 67
+    "liczba": 68
    },
    {
     "rok": 1974,
@@ -217,7 +217,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1996,
@@ -231,7 +231,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 297
+    "liczba": 299
    },
    {
     "nazwa": "Diesel",
@@ -253,7 +253,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1193
+    "liczba": 1195
    },
    {
     "nazwa": "1,5 l",
@@ -275,7 +275,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 959
+    "liczba": 960
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -291,17 +291,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 42
+    "liczba": 43
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 196
+    "liczba": 197
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 79
+    "liczba": 80
    },
    {
     "nazwa": "Coupe",
@@ -312,10 +312,14 @@
     "liczba": 1117
    }
   ],
-  "noweOdPaczki": 25,
+  "noweOdPaczki": 27,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 2
+   },
    {
     "rok": 2021,
     "liczba": 4
@@ -342,6 +346,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -616,7 +664,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -624,23 +672,23 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 708,
+  "miejsce": 710,
   "miejsceWMarce": 41,
   "modeliWMarce": 61,
-  "sredniRocznik": 1974.4
+  "sredniRocznik": 1974.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "1600",

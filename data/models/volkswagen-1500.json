@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 1500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 36 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1500).",
-  "liczbaWPolsce": 1608,
-  "aktywne": 56,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 1500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1500).",
+  "liczbaWPolsce": 1612,
+  "aktywne": 60,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,11 +42,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 339
+    "liczba": 341
    },
    {
     "teryt": "16",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "teryt": "18",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 135
+    "liczba": 136
    },
    {
     "teryt": "32",
@@ -113,11 +113,11 @@
    },
    {
     "rok": 1969,
-    "liczba": 186
+    "liczba": 189
    },
    {
     "rok": 1970,
-    "liczba": 99
+    "liczba": 100
    },
    {
     "rok": 1971,
@@ -219,7 +219,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 340
+    "liczba": 344
    },
    {
     "nazwa": "Diesel",
@@ -233,7 +233,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1442
+    "liczba": 1444
    },
    {
     "nazwa": "1,2 l",
@@ -241,11 +241,11 @@
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
@@ -255,7 +255,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1098
+    "liczba": 1099
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -263,7 +263,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 62
+    "liczba": 65
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -281,11 +281,11 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 26
+    "liczba": 29
    },
    {
     "nazwa": "Coupe",
@@ -296,13 +296,17 @@
     "liczba": 1288
    }
   ],
-  "noweOdPaczki": 36,
+  "noweOdPaczki": 40,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 4
+    "liczba": 7
    },
    {
     "rok": 2021,
@@ -330,6 +334,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -600,7 +648,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -612,14 +660,14 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 674,
+  "miejsce": 681,
   "miejsceWMarce": 37,
   "modeliWMarce": 61,
   "sredniRocznik": 1970.0
@@ -628,7 +676,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "1500",

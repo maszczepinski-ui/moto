@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Arkana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 494 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARKANA, ARKANA E-TECH).",
-  "liczbaWPolsce": 12494,
-  "aktywne": 12494,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Arkana – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 496 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ARKANA, ARKANA E-TECH).",
+  "liczbaWPolsce": 12496,
+  "aktywne": 12496,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 3711
+    "liczba": 3712
    },
    {
     "teryt": "16",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1229
+    "liczba": 1230
    },
    {
     "teryt": "32",
@@ -84,11 +84,11 @@
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 2929
+    "liczba": 2930
    },
    {
     "rok": 2022,
-    "liczba": 3077
+    "liczba": 3078
    },
    {
     "rok": 2023,
@@ -110,7 +110,7 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 8402
+    "liczba": 8404
    },
    {
     "nazwa": "Benzyna",
@@ -128,7 +128,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 4905
+    "liczba": 4907
    }
   ],
   "pochodzenie": [
@@ -142,7 +142,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 836
+    "liczba": 838
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,15 +152,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 12385
+    "liczba": 12387
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 109
    }
   ],
-  "noweOdPaczki": 12494,
-  "hybrydy": 8403,
+  "noweOdPaczki": 12496,
+  "hybrydy": 8405,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -185,10 +185,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 1310
+    "liczba": 1312
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -439,47 +483,47 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 45
+    "liczba": 60
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 72
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 139
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 117
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 157
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 255
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 195
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 146
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 110
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 91
    }
   ],
-  "miejsce": 291,
-  "miejsceWMarce": 14,
+  "miejsce": 298,
+  "miejsceWMarce": 15,
   "modeliWMarce": 48,
   "sredniRocznik": 2022.8
  },
@@ -487,7 +531,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "arkana",

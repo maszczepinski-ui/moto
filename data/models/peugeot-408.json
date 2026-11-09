@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 408 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 142 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 408).",
-  "liczbaWPolsce": 7142,
-  "aktywne": 7142,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 408 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 147 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 408).",
+  "liczbaWPolsce": 7147,
+  "aktywne": 7147,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 3674
+    "liczba": 3677
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 666
+    "liczba": 668
    },
    {
     "teryt": "26",
@@ -100,7 +100,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 2094
+    "liczba": 2099
    }
   ],
   "paliwa": [
@@ -110,7 +110,7 @@
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 2585
+    "liczba": 2590
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,7 +120,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 6493
+    "liczba": 6498
    },
    {
     "nazwa": "1,6 l",
@@ -134,7 +134,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5770
+    "liczba": 5775
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -156,15 +156,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 7136
+    "liczba": 7141
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 7142,
-  "hybrydy": 2585,
+  "noweOdPaczki": 7147,
+  "hybrydy": 2590,
   "elektryczne": 6,
   "pierwszeRejestracje": [
    {
@@ -185,10 +185,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 2519
+    "liczba": 2524
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -439,46 +483,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 46
+    "liczba": 84
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 139
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 523
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 272
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 173
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 324
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 367
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 241
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 248
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 213
    }
   ],
-  "miejsce": 377,
+  "miejsce": 380,
   "miejsceWMarce": 19,
   "modeliWMarce": 45,
   "sredniRocznik": 2024.7
@@ -487,7 +531,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "408",

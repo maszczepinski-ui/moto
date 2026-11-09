@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Austral – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 429 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AUSTRAL).",
-  "liczbaWPolsce": 8429,
-  "aktywne": 8429,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Austral – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 434 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AUSTRAL).",
+  "liczbaWPolsce": 8434,
+  "aktywne": 8434,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 525
+    "liczba": 527
    },
    {
     "teryt": "04",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 3277
+    "liczba": 3278
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 644
+    "liczba": 646
    },
    {
     "teryt": "24",
@@ -100,17 +100,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 1356
+    "liczba": 1361
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 4369
+    "liczba": 4373
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 4057
+    "liczba": 4058
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,17 +120,17 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 5736
+    "liczba": 5738
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 2693
+    "liczba": 2696
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6484
+    "liczba": 6489
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -152,15 +152,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 8371
+    "liczba": 8376
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 58
    }
   ],
-  "noweOdPaczki": 8429,
-  "hybrydy": 4368,
+  "noweOdPaczki": 8434,
+  "hybrydy": 4372,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
@@ -181,10 +181,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 1805
+    "liczba": 1810
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -435,46 +479,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 42
+    "liczba": 62
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 116
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 267
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 216
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 211
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 236
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 203
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 173
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 228
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 133
    }
   ],
-  "miejsce": 347,
+  "miejsce": 353,
   "miejsceWMarce": 17,
   "modeliWMarce": 48,
   "sredniRocznik": 2024.3
@@ -483,7 +527,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "austral",

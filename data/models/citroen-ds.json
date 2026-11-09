@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen DS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 91 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS).",
-  "liczbaWPolsce": 226,
-  "aktywne": 184,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen DS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 95 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS).",
+  "liczbaWPolsce": 230,
+  "aktywne": 188,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -28,15 +28,15 @@
    },
    {
     "teryt": "06",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "08",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "10",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "12",
@@ -127,7 +127,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1972,
@@ -139,7 +139,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 1975,
@@ -303,11 +303,11 @@
    },
    {
     "rok": 2015,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2016,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 2017,
@@ -337,11 +337,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 125
+    "liczba": 127
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 84
+    "liczba": 86
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -359,11 +359,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 107
+    "liczba": 108
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 79
+    "liczba": 80
    },
    {
     "nazwa": "1,2 l",
@@ -371,11 +371,11 @@
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "nazwa": "1,5 l",
@@ -389,11 +389,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 142
+    "liczba": 144
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 76
+    "liczba": 78
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -407,11 +407,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 144
+    "liczba": 146
    },
    {
     "nazwa": "Sedan",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -423,16 +423,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 30
+    "liczba": 31
    }
   ],
-  "noweOdPaczki": 91,
+  "noweOdPaczki": 95,
   "hybrydy": 4,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 4
+    "liczba": 7
    },
    {
     "rok": 2021,
@@ -460,6 +464,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -718,27 +766,27 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -752,13 +800,13 @@
   "miejsce": 1236,
   "miejsceWMarce": 41,
   "modeliWMarce": 42,
-  "sredniRocznik": 2005.2
+  "sredniRocznik": 2005.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "ds",

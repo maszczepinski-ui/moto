@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 413 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q4 40 E-TRON, Q4 45 E-TRON, Q4 SPORTBACK 45 E-TRON, Q4 SPORTBACK 40 E-TRON, Q4 35 E-TRON).",
-  "liczbaWPolsce": 4413,
-  "aktywne": 4413,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 415 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q4 40 E-TRON, Q4 45 E-TRON, Q4 SPORTBACK 45 E-TRON, Q4 SPORTBACK 40 E-TRON, Q4 35 E-TRON).",
+  "liczbaWPolsce": 4415,
+  "aktywne": 4415,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 1219
+    "liczba": 1220
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 433
+    "liczba": 434
    },
    {
     "teryt": "26",
@@ -105,13 +105,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 568
+    "liczba": 570
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 4412
+    "liczba": 4414
    },
    {
     "nazwa": "Inne / brak danych",
@@ -121,13 +121,13 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4413
+    "liczba": 4415
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 3646
+    "liczba": 3648
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -145,7 +145,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2606
+    "liczba": 2608
    },
    {
     "nazwa": "Hatchback",
@@ -156,9 +156,9 @@
     "liczba": 44
    }
   ],
-  "noweOdPaczki": 4413,
+  "noweOdPaczki": 4415,
   "hybrydy": 0,
-  "elektryczne": 4412,
+  "elektryczne": 4414,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -182,10 +182,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 810
+    "liczba": 812
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -436,46 +480,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 87
+    "liczba": 99
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 58
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 71
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 75
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 64
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 57
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 90
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 68
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 112
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 132
    }
   ],
-  "miejsce": 463,
+  "miejsce": 467,
   "miejsceWMarce": 18,
   "modeliWMarce": 54,
   "sredniRocznik": 2024.1
@@ -484,7 +528,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "q4",

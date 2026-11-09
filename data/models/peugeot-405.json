@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 405 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 39 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 405, 405 1.6, 405 1.9D, 405 1.6 KAT, 405 1.9).",
-  "liczbaWPolsce": 17362,
-  "aktywne": 112,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 405 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 405, 405 1.6, 405 1.9D, 405 1.6 KAT, 405 1.9).",
+  "liczbaWPolsce": 17363,
+  "aktywne": 113,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1743
+    "liczba": 1744
    },
    {
     "teryt": "04",
@@ -102,7 +102,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 2953
+    "liczba": 2954
    },
    {
     "rok": 1992,
@@ -140,7 +140,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 4200
+    "liczba": 4201
    },
    {
     "nazwa": "?+LPG",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 7429
+    "liczba": 7430
    },
    {
     "nazwa": "1,6 l",
@@ -180,7 +180,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 12726
+    "liczba": 12727
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -202,7 +202,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 7459
+    "liczba": 7460
    },
    {
     "nazwa": "Kombi",
@@ -217,13 +217,13 @@
     "liczba": 6650
    }
   ],
-  "noweOdPaczki": 39,
+  "noweOdPaczki": 40,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2021,
@@ -251,6 +251,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -509,7 +553,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -529,7 +573,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -537,10 +581,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 234,
+  "miejsce": 239,
   "miejsceWMarce": 13,
   "modeliWMarce": 45,
   "sredniRocznik": 1992.5
@@ -549,7 +593,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "405",

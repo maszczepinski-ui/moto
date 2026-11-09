@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Rezzo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 53 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REZZO).",
-  "liczbaWPolsce": 417,
-  "aktywne": 194,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Rezzo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 64 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REZZO).",
+  "liczbaWPolsce": 428,
+  "aktywne": 205,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 44
+    "liczba": 46
    },
    {
     "teryt": "04",
@@ -31,11 +31,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "10",
-    "liczba": 56
+    "liczba": 58
    },
    {
     "teryt": "12",
@@ -51,11 +51,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "20",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "22",
@@ -67,11 +67,11 @@
    },
    {
     "teryt": "26",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "28",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "30",
@@ -90,23 +90,23 @@
    },
    {
     "rok": 2001,
-    "liczba": 60
+    "liczba": 62
    },
    {
     "rok": 2002,
-    "liczba": 76
+    "liczba": 77
    },
    {
     "rok": 2003,
-    "liczba": 114
+    "liczba": 120
    },
    {
     "rok": 2004,
-    "liczba": 107
+    "liczba": 108
    },
    {
     "rok": 2005,
-    "liczba": 29
+    "liczba": 30
    },
    {
     "rok": 2006,
@@ -120,25 +120,25 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 227
+    "liczba": 231
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 188
+    "liczba": 194
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 305
+    "liczba": 314
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 107
+    "liczba": 109
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,11 +148,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 326
+    "liczba": 334
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 85
+    "liczba": 88
    },
    {
     "nazwa": "Inne / brak danych",
@@ -162,32 +162,36 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 156
+    "liczba": 162
    },
    {
     "nazwa": "Van",
-    "liczba": 134
+    "liczba": 136
    },
    {
     "nazwa": "Kombi",
-    "liczba": 79
+    "liczba": 81
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 13
    }
   ],
-  "noweOdPaczki": 53,
+  "noweOdPaczki": 64,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 10
+    "liczba": 20
    },
    {
     "rok": 2021,
@@ -215,6 +219,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -477,7 +525,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -501,10 +549,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1031,
+  "miejsce": 1027,
   "miejsceWMarce": 10,
   "modeliWMarce": 15,
   "sredniRocznik": 2003.0
@@ -513,7 +561,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "rezzo",
@@ -525,14 +573,14 @@
    "adres": "/marki/chrysler/pt-cruiser/"
   },
   {
-   "slug": "honda-civic",
-   "nazwa": "Honda Civic",
-   "adres": "/marki/honda/civic/"
-  },
-  {
    "slug": "volkswagen-new-beetle",
    "nazwa": "Volkswagen New Beetle",
    "adres": "/marki/volkswagen/new-beetle/"
+  },
+  {
+   "slug": "honda-civic",
+   "nazwa": "Honda Civic",
+   "adres": "/marki/honda/civic/"
   },
   {
    "slug": "fiat-stilo",

@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lamborghini Urus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 337 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: URUS).",
-  "liczbaWPolsce": 337,
-  "aktywne": 337,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lamborghini Urus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 353 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: URUS).",
+  "liczbaWPolsce": 353,
+  "aktywne": 353,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "08",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 44
+    "liczba": 46
    },
    {
     "teryt": "14",
-    "liczba": 88
+    "liczba": 93
    },
    {
     "teryt": "16",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "24",
-    "liczba": 26
+    "liczba": 28
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 38
+    "liczba": 42
    },
    {
     "teryt": "32",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "bezWojewodztwa": 0,
@@ -90,11 +90,11 @@
    },
    {
     "rok": 2019,
-    "liczba": 31
+    "liczba": 36
    },
    {
     "rok": 2020,
-    "liczba": 33
+    "liczba": 44
    },
    {
     "rok": 2021,
@@ -124,7 +124,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 260
+    "liczba": 276
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -138,7 +138,7 @@
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 336
+    "liczba": 352
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,15 +148,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 150
+    "liczba": 155
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 100
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
     "liczba": 95
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 89
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -166,7 +166,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 258
+    "liczba": 274
    },
    {
     "nazwa": "Hatchback",
@@ -193,13 +193,17 @@
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 337,
+  "noweOdPaczki": 353,
   "hybrydy": 76,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
     "rok": 2020,
-    "liczba": 16
+    "liczba": 28
    },
    {
     "rok": 2021,
@@ -227,6 +231,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 4
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -477,69 +525,69 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 15
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 11
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 11
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 7
    }
   ],
-  "miejsce": 1106,
+  "miejsce": 1099,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
-  "sredniRocznik": 2022.6
+  "sredniRocznik": 2022.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "lamborghini",
  "modelSlug": "urus",
  "adres": "/marki/lamborghini/urus/",
  "konkurenci": [
   {
-   "slug": "audi-sq8",
-   "nazwa": "Audi SQ8",
-   "adres": "/marki/audi/sq8/"
-  },
-  {
    "slug": "lexus-nx",
    "nazwa": "Lexus NX",
    "adres": "/marki/lexus/nx/"
+  },
+  {
+   "slug": "audi-sq8",
+   "nazwa": "Audi SQ8",
+   "adres": "/marki/audi/sq8/"
   },
   {
    "slug": "chrysler-pacifica",

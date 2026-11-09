@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz MB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MB 100, MB 100 D, MB 100 2.4D, MB 100 2.4 D, MB 100 D-KB).",
-  "liczbaWPolsce": 1121,
-  "aktywne": 45,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz MB – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MB 100, MB 100 D, MB 100 2.4D, MB 100 2.4 D, MB 100 D-KB).",
+  "liczbaWPolsce": 1122,
+  "aktywne": 46,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "22",
@@ -118,7 +118,7 @@
    },
    {
     "rok": 1995,
-    "liczba": 144
+    "liczba": 145
    },
    {
     "rok": 1996,
@@ -140,7 +140,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 994
+    "liczba": 995
    },
    {
     "nazwa": "Benzyna",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1088
+    "liczba": 1089
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,7 +164,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 624
+    "liczba": 625
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -186,7 +186,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 320
+    "liczba": 321
    },
    {
     "nazwa": "Van",
@@ -213,13 +213,13 @@
     "liczba": 289
    }
   ],
-  "noweOdPaczki": 9,
+  "noweOdPaczki": 10,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2021,
@@ -243,6 +243,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -509,7 +553,7 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -532,16 +576,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 764,
+  "miejsce": 765,
   "miejsceWMarce": 40,
-  "modeliWMarce": 57,
+  "modeliWMarce": 58,
   "sredniRocznik": 1992.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "mb",

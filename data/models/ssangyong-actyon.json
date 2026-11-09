@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Actyon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 576 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ACTYON, ACTYON SPORTS, ACTYON HEV).",
-  "liczbaWPolsce": 753,
-  "aktywne": 645,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Actyon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 584 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ACTYON, ACTYON SPORTS, ACTYON HEV).",
+  "liczbaWPolsce": 761,
+  "aktywne": 653,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "04",
@@ -32,7 +32,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "10",
@@ -40,11 +40,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "14",
-    "liczba": 115
+    "liczba": 116
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "20",
@@ -68,11 +68,11 @@
    },
    {
     "teryt": "26",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "28",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "30",
@@ -87,11 +87,11 @@
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 42
+    "liczba": 43
    },
    {
     "rok": 2007,
-    "liczba": 132
+    "liczba": 137
    },
    {
     "rok": 2008,
@@ -103,7 +103,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2011,
@@ -167,21 +167,21 @@
    },
    {
     "rok": 2026,
-    "liczba": 128
+    "liczba": 129
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 286
+    "liczba": 287
    },
    {
     "nazwa": "Diesel",
-    "liczba": 242
+    "liczba": 248
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 196
+    "liczba": 197
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -191,29 +191,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 489
+    "liczba": 490
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 244
+    "liczba": 250
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 20
+    "liczba": 21
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 449
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 150
+    "liczba": 450
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 148
+    "liczba": 154
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 151
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -227,19 +227,19 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 612
+    "liczba": 617
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 47
+    "liczba": 48
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "nazwa": "Van",
@@ -250,13 +250,17 @@
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 576,
+  "noweOdPaczki": 584,
   "hybrydy": 29,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
     "rok": 2020,
-    "liczba": 13
+    "liczba": 17
    },
    {
     "rok": 2021,
@@ -280,10 +284,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 284
+    "liczba": 285
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 3
@@ -534,55 +582,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 1
+    "liczba": 5
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 32
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 82
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 21
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 18
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 10
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 37
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 59
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 37
    }
   ],
-  "miejsce": 850,
-  "miejsceWMarce": 5,
+  "miejsce": 853,
+  "miejsceWMarce": 6,
   "modeliWMarce": 10,
-  "sredniRocznik": 2019.0
+  "sredniRocznik": 2018.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "ssangyong-kgm",
  "modelSlug": "actyon",

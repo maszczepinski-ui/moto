@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Rezzo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 86 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REZZO).",
-  "liczbaWPolsce": 728,
-  "aktywne": 373,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Rezzo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 100 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: REZZO).",
+  "liczbaWPolsce": 742,
+  "aktywne": 387,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "teryt": "08",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 107
+    "liczba": 108
    },
    {
     "teryt": "12",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "14",
-    "liczba": 90
+    "liczba": 92
    },
    {
     "teryt": "16",
@@ -51,11 +51,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "20",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 84
+    "liczba": 85
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 78
+    "liczba": 81
    },
    {
     "teryt": "32",
-    "liczba": 33
+    "liczba": 36
    }
   ],
   "bezWojewodztwa": 9,
@@ -94,29 +94,29 @@
    },
    {
     "rok": 2005,
-    "liczba": 176
+    "liczba": 180
    },
    {
     "rok": 2006,
-    "liczba": 182
+    "liczba": 185
    },
    {
     "rok": 2007,
-    "liczba": 142
+    "liczba": 146
    },
    {
     "rok": 2008,
-    "liczba": 102
+    "liczba": 105
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 497
+    "liczba": 506
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 228
+    "liczba": 233
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,11 +126,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 457
+    "liczba": 464
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 268
+    "liczba": 275
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,11 +140,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 487
+    "liczba": 496
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 186
+    "liczba": 191
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -158,11 +158,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 349
+    "liczba": 358
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 188
+    "liczba": 192
    },
    {
     "nazwa": "Van",
@@ -170,7 +170,7 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Sedan",
@@ -181,13 +181,17 @@
     "liczba": 18
    }
   ],
-  "noweOdPaczki": 86,
+  "noweOdPaczki": 100,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
     "rok": 2020,
-    "liczba": 15
+    "liczba": 25
    },
    {
     "rok": 2021,
@@ -215,6 +219,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 4
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -481,7 +529,7 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -489,7 +537,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -507,13 +555,13 @@
   "miejsce": 864,
   "miejsceWMarce": 14,
   "modeliWMarce": 24,
-  "sredniRocznik": 2005.9
+  "sredniRocznik": 2006.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "rezzo",
@@ -525,24 +573,24 @@
    "adres": "/marki/ford/mondeo/"
   },
   {
-   "slug": "suzuki-grand-vitara",
-   "nazwa": "Suzuki Grand Vitara",
-   "adres": "/marki/suzuki/grand-vitara/"
-  },
-  {
-   "slug": "mazda-mx-5",
-   "nazwa": "Mazda MX-5",
-   "adres": "/marki/mazda/mx-5/"
-  },
-  {
    "slug": "toyota-avensis",
    "nazwa": "Toyota Avensis",
    "adres": "/marki/toyota/avensis/"
   },
   {
+   "slug": "suzuki-grand-vitara",
+   "nazwa": "Suzuki Grand Vitara",
+   "adres": "/marki/suzuki/grand-vitara/"
+  },
+  {
    "slug": "audi-a4",
    "nazwa": "Audi A4",
    "adres": "/marki/audi/a4/"
+  },
+  {
+   "slug": "mazda-mx-5",
+   "nazwa": "Mazda MX-5",
+   "adres": "/marki/mazda/mx-5/"
   }
  ]
 }

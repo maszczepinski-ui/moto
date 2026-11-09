@@ -10,7 +10,7 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
+  "stanNa": "2026-11-02",
   "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS DS4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 711 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS4).",
   "liczbaWPolsce": 711,
   "aktywne": 711,
@@ -185,6 +185,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -435,47 +479,47 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 14
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 12
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 6
    }
   ],
-  "miejsce": 869,
-  "miejsceWMarce": 4,
+  "miejsce": 872,
+  "miejsceWMarce": 5,
   "modeliWMarce": 7,
   "sredniRocznik": 2023.6
  },
@@ -483,7 +527,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "ds",
  "modelSlug": "ds4",
@@ -495,14 +539,14 @@
    "adres": "/marki/renault/austral/"
   },
   {
-   "slug": "volkswagen-t-cross",
-   "nazwa": "Volkswagen T-Cross",
-   "adres": "/marki/volkswagen/t-cross/"
-  },
-  {
    "slug": "volkswagen-t-roc",
    "nazwa": "Volkswagen T-Roc",
    "adres": "/marki/volkswagen/t-roc/"
+  },
+  {
+   "slug": "volkswagen-t-cross",
+   "nazwa": "Volkswagen T-Cross",
+   "adres": "/marki/volkswagen/t-cross/"
   },
   {
    "slug": "volkswagen-taigo",

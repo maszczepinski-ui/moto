@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Buick Riviera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 126 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RIVIERA, RIVIERA GS).",
-  "liczbaWPolsce": 261,
-  "aktywne": 180,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Buick Riviera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 130 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RIVIERA, RIVIERA GS).",
+  "liczbaWPolsce": 265,
+  "aktywne": 184,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "06",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "14",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "32",
-    "liczba": 15
+    "liczba": 16
    }
   ],
   "bezWojewodztwa": 4,
@@ -149,7 +149,7 @@
    },
    {
     "rok": 1968,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 1969,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 37
+    "liczba": 38
    },
    {
     "rok": 1972,
@@ -173,7 +173,7 @@
    },
    {
     "rok": 1974,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1975,
@@ -217,7 +217,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1986,
@@ -275,7 +275,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 251
+    "liczba": 255
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -289,11 +289,11 @@
   "pojemnosci": [
    {
     "nazwa": "7,5 l",
-    "liczba": 147
+    "liczba": 149
    },
    {
     "nazwa": "7,0 l",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "nazwa": "3,8 l",
@@ -305,7 +305,7 @@
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "5,7 l",
@@ -319,7 +319,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 178
+    "liczba": 182
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -337,7 +337,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 208
+    "liczba": 211
    },
    {
     "nazwa": "Sedan",
@@ -345,7 +345,7 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Kabriolet",
@@ -356,13 +356,17 @@
     "liczba": 12
    }
   ],
-  "noweOdPaczki": 126,
+  "noweOdPaczki": 130,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 16
+    "liczba": 19
    },
    {
     "rok": 2021,
@@ -390,6 +394,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -640,7 +688,7 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-02",
@@ -652,19 +700,19 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -672,15 +720,15 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1186,
-  "miejsceWMarce": 2,
+  "miejsce": 1189,
+  "miejsceWMarce": 3,
   "modeliWMarce": 3,
   "sredniRocznik": 1973.5
  },
@@ -688,7 +736,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "buick",
  "modelSlug": "riviera",

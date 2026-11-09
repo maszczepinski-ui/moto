@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Sealion 7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 084 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEALION 7, SEALION 7).",
-  "liczbaWPolsce": 1084,
-  "aktywne": 1084,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Sealion 7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 086 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEALION 7, SEALION 7).",
+  "liczbaWPolsce": 1086,
+  "aktywne": 1086,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "12",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "20",
@@ -92,25 +92,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 143
+    "liczba": 145
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1084
+    "liczba": 1086
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1084
+    "liczba": 1086
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1034
+    "liczba": 1036
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -128,12 +128,12 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1084
+    "liczba": 1086
    }
   ],
-  "noweOdPaczki": 1084,
+  "noweOdPaczki": 1086,
   "hybrydy": 0,
-  "elektryczne": 1084,
+  "elektryczne": 1086,
   "pierwszeRejestracje": [
    {
     "rok": 2025,
@@ -141,10 +141,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 493
+    "liczba": 495
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -395,46 +439,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 50
+    "liczba": 63
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 43
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 52
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 75
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 54
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 35
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 32
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 34
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 44
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 65
    }
   ],
-  "miejsce": 774,
+  "miejsce": 776,
   "miejsceWMarce": 5,
   "modeliWMarce": 8,
   "sredniRocznik": 2025.1
@@ -443,7 +487,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "sealion-7",

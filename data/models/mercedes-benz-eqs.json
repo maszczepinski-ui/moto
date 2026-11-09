@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 758 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQS 450 4MATIC, EQS 580 4MATIC, EQS 450, EQS 500 4MATIC, EQS 350).",
-  "liczbaWPolsce": 758,
-  "aktywne": 758,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 759 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQS 450 4MATIC, EQS 580 4MATIC, EQS 450, EQS 500 4MATIC, EQS 350).",
+  "liczbaWPolsce": 759,
+  "aktywne": 759,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "10",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 2022,
-    "liczba": 267
+    "liczba": 268
    },
    {
     "rok": 2023,
@@ -111,13 +111,13 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 758
+    "liczba": 759
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 758
+    "liczba": 759
    }
   ],
   "pochodzenie": [
@@ -131,7 +131,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -145,7 +145,7 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 363
+    "liczba": 364
    },
    {
     "nazwa": "Hatchback",
@@ -160,9 +160,9 @@
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 758,
+  "noweOdPaczki": 759,
   "hybrydy": 0,
-  "elektryczne": 758,
+  "elektryczne": 759,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -186,10 +186,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 64
+    "liczba": 65
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -444,65 +488,65 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 10
    }
   ],
-  "miejsce": 848,
+  "miejsce": 855,
   "miejsceWMarce": 42,
-  "modeliWMarce": 57,
+  "modeliWMarce": 58,
   "sredniRocznik": 2022.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "eqs",
  "adres": "/marki/mercedes-benz/eqs/",
  "konkurenci": [
   {
-   "slug": "skoda-enyaq",
-   "nazwa": "Skoda Enyaq",
-   "adres": "/marki/skoda/enyaq/"
-  },
-  {
    "slug": "volkswagen-id-3",
    "nazwa": "Volkswagen ID.3",
    "adres": "/marki/volkswagen/id-3/"
+  },
+  {
+   "slug": "skoda-enyaq",
+   "nazwa": "Skoda Enyaq",
+   "adres": "/marki/skoda/enyaq/"
   },
   {
    "slug": "volkswagen-id-4",

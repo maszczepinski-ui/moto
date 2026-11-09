@@ -12,38 +12,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan 370Z – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 462 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 370Z, 370Z NISMO, 370Z ROADSTER, 370Z 3.7).",
-  "liczbaWPolsce": 612,
-  "aktywne": 550,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan 370Z – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 490 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 370Z, 370Z NISMO, 370Z 3.7, 370Z ROADSTER).",
+  "liczbaWPolsce": 640,
+  "aktywne": 578,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 50
+    "liczba": 53
    },
    {
     "teryt": "04",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "06",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "08",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "10",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "12",
-    "liczba": 72
+    "liczba": 76
    },
    {
     "teryt": "14",
-    "liczba": 114
+    "liczba": 115
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "20",
@@ -63,19 +63,19 @@
    },
    {
     "teryt": "24",
-    "liczba": 69
+    "liczba": 75
    },
    {
     "teryt": "26",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "28",
-    "liczba": 13
+    "liczba": 16
    },
    {
     "teryt": "30",
-    "liczba": 73
+    "liczba": 76
    },
    {
     "teryt": "32",
@@ -90,23 +90,23 @@
    },
    {
     "rok": 2009,
-    "liczba": 60
+    "liczba": 63
    },
    {
     "rok": 2010,
-    "liczba": 53
+    "liczba": 56
    },
    {
     "rok": 2011,
-    "liczba": 48
+    "liczba": 49
    },
    {
     "rok": 2012,
-    "liczba": 52
+    "liczba": 55
    },
    {
     "rok": 2013,
-    "liczba": 39
+    "liczba": 42
    },
    {
     "rok": 2014,
@@ -114,7 +114,7 @@
    },
    {
     "rok": 2015,
-    "liczba": 68
+    "liczba": 72
    },
    {
     "rok": 2016,
@@ -122,7 +122,7 @@
    },
    {
     "rok": 2017,
-    "liczba": 63
+    "liczba": 68
    },
    {
     "rok": 2018,
@@ -130,17 +130,17 @@
    },
    {
     "rok": 2019,
-    "liczba": 36
+    "liczba": 41
    },
    {
     "rok": 2020,
-    "liczba": 19
+    "liczba": 20
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 603
+    "liczba": 631
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,7 l",
-    "liczba": 604
+    "liczba": 632
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,11 +164,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 321
+    "liczba": 328
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 261
+    "liczba": 282
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -182,11 +182,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 540
+    "liczba": 567
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "nazwa": "Hatchback",
@@ -201,13 +201,17 @@
     "liczba": 12
    }
   ],
-  "noweOdPaczki": 462,
+  "noweOdPaczki": 490,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
     "rok": 2020,
-    "liczba": 18
+    "liczba": 40
    },
    {
     "rok": 2021,
@@ -231,10 +235,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 73
+    "liczba": 74
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -489,43 +537,43 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 11
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 11
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 10
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 7
    }
   ],
-  "miejsce": 911,
-  "miejsceWMarce": 34,
+  "miejsce": 901,
+  "miejsceWMarce": 32,
   "modeliWMarce": 47,
   "sredniRocznik": 2014.1
  },
@@ -533,7 +581,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "370z",
@@ -550,14 +598,14 @@
    "adres": "/marki/ford/mustang/"
   },
   {
-   "slug": "mazda-cx-9",
-   "nazwa": "Mazda CX-9",
-   "adres": "/marki/mazda/cx-9/"
-  },
-  {
    "slug": "chevrolet-camaro",
    "nazwa": "Chevrolet Camaro",
    "adres": "/marki/chevrolet/camaro/"
+  },
+  {
+   "slug": "mazda-cx-9",
+   "nazwa": "Mazda CX-9",
+   "adres": "/marki/mazda/cx-9/"
   },
   {
    "slug": "dodge-grand-caravan",

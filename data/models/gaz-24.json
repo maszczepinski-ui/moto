@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 24 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 37 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 24, 24 02).",
-  "liczbaWPolsce": 751,
-  "aktywne": 44,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 24 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 24, 24 02).",
+  "liczbaWPolsce": 754,
+  "aktywne": 47,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 96
+    "liczba": 97
    },
    {
     "teryt": "12",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "18",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "26",
@@ -144,7 +144,7 @@
    },
    {
     "rok": 1978,
-    "liczba": 42
+    "liczba": 44
    },
    {
     "rok": 1979,
@@ -172,7 +172,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1986,
@@ -206,21 +206,21 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 569
+    "liczba": 570
    },
    {
     "nazwa": "Diesel",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 162
+    "liczba": 163
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 709
+    "liczba": 712
    },
    {
     "nazwa": "2,2 l",
@@ -238,7 +238,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 580
+    "liczba": 581
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -246,7 +246,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 36
+    "liczba": 38
    },
    {
     "nazwa": "Inne / brak danych",
@@ -256,20 +256,20 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 67
+    "liczba": 70
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 684
    }
   ],
-  "noweOdPaczki": 37,
+  "noweOdPaczki": 40,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2021,
@@ -297,6 +297,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -559,7 +603,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -567,7 +611,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -583,10 +627,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 854,
+  "miejsce": 858,
   "miejsceWMarce": 3,
   "modeliWMarce": 4,
   "sredniRocznik": 1977.2
@@ -595,7 +639,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "gaz",
  "modelSlug": "24",

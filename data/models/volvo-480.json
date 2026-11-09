@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 480 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 69 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 480, 480 1.7 KAT, 480 1.7, 480 S, 480 ES).",
-  "liczbaWPolsce": 357,
-  "aktywne": 93,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 480 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 76 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 480, 480 1.7 KAT, 480 1.7, 480 S, 480 ES).",
+  "liczbaWPolsce": 364,
+  "aktywne": 100,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -31,7 +31,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "10",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 64
    },
    {
     "teryt": "16",
@@ -51,11 +51,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "20",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "22",
@@ -71,11 +71,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "30",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 1988,
@@ -102,19 +102,19 @@
    },
    {
     "rok": 1990,
-    "liczba": 43
+    "liczba": 44
    },
    {
     "rok": 1991,
-    "liczba": 40
+    "liczba": 43
    },
    {
     "rok": 1992,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 1993,
-    "liczba": 40
+    "liczba": 41
    },
    {
     "rok": 1994,
@@ -136,7 +136,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 255
+    "liczba": 262
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -154,11 +154,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 277
+    "liczba": 282
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 70
+    "liczba": 72
    },
    {
     "nazwa": "1,8 l",
@@ -176,7 +176,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 127
+    "liczba": 133
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -184,13 +184,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 178
+    "liczba": 183
    },
    {
     "nazwa": "Sedan",
@@ -198,7 +198,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 55
+    "liczba": 57
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -209,13 +209,17 @@
     "liczba": 62
    }
   ],
-  "noweOdPaczki": 69,
+  "noweOdPaczki": 76,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
     "rok": 2020,
-    "liczba": 5
+    "liczba": 9
    },
    {
     "rok": 2021,
@@ -243,6 +247,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -505,7 +553,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -517,11 +565,11 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
@@ -529,10 +577,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1091,
+  "miejsce": 1088,
   "miejsceWMarce": 32,
   "modeliWMarce": 34,
   "sredniRocznik": 1991.6
@@ -541,7 +589,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "480",

@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Sephia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEPHIA, SEPHIA 1.6 KAT, SEPHIA 1.5 KAT, SEPHIA 1.6KAT, SEPHIA 1.5).",
-  "liczbaWPolsce": 1980,
-  "aktywne": 73,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Sephia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEPHIA, SEPHIA 1.6 KAT, SEPHIA 1.5 KAT, SEPHIA 1.6KAT, SEPHIA 1.5).",
+  "liczbaWPolsce": 1981,
+  "aktywne": 74,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 256
+    "liczba": 257
    }
   ],
   "bezWojewodztwa": 2,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 208
+    "liczba": 209
    },
    {
     "rok": 1997,
@@ -131,7 +131,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1291
+    "liczba": 1292
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -149,7 +149,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 1006
+    "liczba": 1007
    },
    {
     "nazwa": "1,5 l",
@@ -171,7 +171,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 681
+    "liczba": 682
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -193,17 +193,21 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 295
+    "liczba": 296
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 308
    }
   ],
-  "noweOdPaczki": 8,
+  "noweOdPaczki": 9,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2020,
     "liczba": 1
@@ -230,6 +234,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -519,7 +567,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 622,
+  "miejsce": 625,
   "miejsceWMarce": 20,
   "modeliWMarce": 33,
   "sredniRocznik": 1996.5
@@ -528,7 +576,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "sephia",

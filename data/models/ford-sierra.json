@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Sierra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 135 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIERRA, SIERRA 2.0, SIERRA 1.6, SIERRA 2.3D, SIERRA 2.0 KAT).",
-  "liczbaWPolsce": 49308,
-  "aktywne": 279,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Sierra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 155 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIERRA, SIERRA 2.0, SIERRA 1.6, SIERRA 2.3D, SIERRA 2.0 KAT).",
+  "liczbaWPolsce": 49328,
+  "aktywne": 299,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5360
+    "liczba": 5362
    },
    {
     "teryt": "04",
@@ -31,19 +31,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 1907
+    "liczba": 1908
    },
    {
     "teryt": "10",
-    "liczba": 3185
+    "liczba": 3186
    },
    {
     "teryt": "12",
-    "liczba": 3833
+    "liczba": 3835
    },
    {
     "teryt": "14",
-    "liczba": 6100
+    "liczba": 6103
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 1235
+    "liczba": 1236
    },
    {
     "teryt": "20",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 2851
+    "liczba": 2854
    },
    {
     "teryt": "24",
-    "liczba": 4591
+    "liczba": 4594
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 2315
+    "liczba": 2316
    },
    {
     "teryt": "30",
-    "liczba": 4382
+    "liczba": 4384
    },
    {
     "teryt": "32",
-    "liczba": 3381
+    "liczba": 3382
    }
   ],
   "bezWojewodztwa": 60,
@@ -102,7 +102,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 3273
+    "liczba": 3275
    },
    {
     "rok": 1987,
@@ -110,27 +110,27 @@
    },
    {
     "rok": 1988,
-    "liczba": 3087
+    "liczba": 3088
    },
    {
     "rok": 1989,
-    "liczba": 2764
+    "liczba": 2768
    },
    {
     "rok": 1990,
-    "liczba": 3290
+    "liczba": 3294
    },
    {
     "rok": 1991,
-    "liczba": 5319
+    "liczba": 5323
    },
    {
     "rok": 1992,
-    "liczba": 4280
+    "liczba": 4284
    },
    {
     "rok": 1993,
-    "liczba": 1000
+    "liczba": 1001
    },
    {
     "rok": 1994,
@@ -152,15 +152,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 10406
+    "liczba": 10424
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 9514
+    "liczba": 9515
    },
    {
     "nazwa": "Diesel",
-    "liczba": 9299
+    "liczba": 9300
    },
    {
     "nazwa": "?+LPG",
@@ -174,11 +174,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 20321
+    "liczba": 20338
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 11656
+    "liczba": 11658
    },
    {
     "nazwa": "2,3 l",
@@ -190,17 +190,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1010
+    "liczba": 1011
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 36028
+    "liczba": 36036
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 5883
+    "liczba": 5893
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -212,34 +212,38 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1120
+    "liczba": 1122
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 12444
+    "liczba": 12454
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 6769
+    "liczba": 6777
    },
    {
     "nazwa": "Kombi",
-    "liczba": 3957
+    "liczba": 3958
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 26138
+    "liczba": 26139
    }
   ],
-  "noweOdPaczki": 135,
+  "noweOdPaczki": 155,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
     "rok": 2020,
-    "liczba": 4
+    "liczba": 19
    },
    {
     "rok": 2021,
@@ -267,6 +271,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -521,7 +569,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-03",
@@ -529,43 +577,43 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 100,
+  "miejsce": 105,
   "miejsceWMarce": 8,
-  "modeliWMarce": 46,
+  "modeliWMarce": 47,
   "sredniRocznik": 1989.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "sierra",

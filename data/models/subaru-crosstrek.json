@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Crosstrek – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 849 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSTREK).",
-  "liczbaWPolsce": 1849,
-  "aktywne": 1849,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Crosstrek – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 888 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSTREK).",
+  "liczbaWPolsce": 1888,
+  "aktywne": 1888,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "teryt": "04",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 117
+    "liczba": 122
    },
    {
     "teryt": "08",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "teryt": "12",
-    "liczba": 445
+    "liczba": 451
    },
    {
     "teryt": "14",
-    "liczba": 238
+    "liczba": 245
    },
    {
     "teryt": "16",
@@ -51,27 +51,27 @@
    },
    {
     "teryt": "18",
-    "liczba": 185
+    "liczba": 192
    },
    {
     "teryt": "20",
-    "liczba": 116
+    "liczba": 121
    },
    {
     "teryt": "22",
-    "liczba": 123
+    "liczba": 125
    },
    {
     "teryt": "24",
-    "liczba": 159
+    "liczba": 162
    },
    {
     "teryt": "26",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "teryt": "28",
-    "liczba": 67
+    "liczba": 68
    },
    {
     "teryt": "30",
@@ -90,27 +90,27 @@
    },
    {
     "rok": 2014,
-    "liczba": 10
+    "liczba": 14
    },
    {
     "rok": 2015,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2016,
-    "liczba": 37
+    "liczba": 41
    },
    {
     "rok": 2017,
-    "liczba": 34
+    "liczba": 39
    },
    {
     "rok": 2018,
-    "liczba": 88
+    "liczba": 102
    },
    {
     "rok": 2019,
-    "liczba": 119
+    "liczba": 130
    },
    {
     "rok": 2020,
@@ -144,7 +144,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1127
+    "liczba": 1158
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -152,13 +152,17 @@
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 55
+    "liczba": 62
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1726
+    "liczba": 1765
    },
    {
     "nazwa": "2,5 l",
@@ -176,11 +180,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 529
+    "liczba": 554
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 400
+    "liczba": 414
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -190,36 +194,40 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1347
+    "liczba": 1358
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 232
+    "liczba": 243
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 199
+    "liczba": 209
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 24
+    "liczba": 27
    },
    {
     "nazwa": "Van",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 28
    }
   ],
-  "noweOdPaczki": 1849,
+  "noweOdPaczki": 1888,
   "hybrydy": 667,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 12
+   },
+   {
     "rok": 2020,
-    "liczba": 47
+    "liczba": 74
    },
    {
     "rok": 2021,
@@ -247,6 +255,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 10
+   },
    {
     "miesiac": "2020-11",
     "liczba": 5
@@ -497,55 +549,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 8
+    "liczba": 11
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 54
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 31
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 81
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 158
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 44
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 66
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 33
    }
   ],
-  "miejsce": 639,
+  "miejsce": 638,
   "miejsceWMarce": 7,
   "modeliWMarce": 13,
-  "sredniRocznik": 2023.1
+  "sredniRocznik": 2023.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "crosstrek",
@@ -567,14 +619,14 @@
    "adres": "/marki/alfa-romeo/stelvio/"
   },
   {
-   "slug": "mercedes-benz-klasa-glc",
-   "nazwa": "Mercedes-Benz Klasa GLC",
-   "adres": "/marki/mercedes-benz/klasa-glc/"
-  },
-  {
    "slug": "suzuki-swace",
    "nazwa": "Suzuki Swace",
    "adres": "/marki/suzuki/swace/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-glc",
+   "nazwa": "Mercedes-Benz Klasa GLC",
+   "adres": "/marki/mercedes-benz/klasa-glc/"
   }
  ]
 }

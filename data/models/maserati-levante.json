@@ -13,38 +13,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Maserati Levante – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 960 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEVANTE, LEVANTE S, LEVANTE GT HYBRID, LEVANTE DIESEL, LEVANTE TROFEO).",
-  "liczbaWPolsce": 960,
-  "aktywne": 960,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Maserati Levante – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 005 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEVANTE, LEVANTE S, LEVANTE DIESEL, LEVANTE GT HYBRID, LEVANTE TROFEO).",
+  "liczbaWPolsce": 1005,
+  "aktywne": 1005,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 66
+    "liczba": 69
    },
    {
     "teryt": "04",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "06",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "teryt": "08",
-    "liczba": 11
+    "liczba": 14
    },
    {
     "teryt": "10",
-    "liczba": 54
+    "liczba": 56
    },
    {
     "teryt": "12",
-    "liczba": 117
+    "liczba": 122
    },
    {
     "teryt": "14",
-    "liczba": 218
+    "liczba": 227
    },
    {
     "teryt": "16",
@@ -52,23 +52,23 @@
    },
    {
     "teryt": "18",
-    "liczba": 47
+    "liczba": 48
    },
    {
     "teryt": "20",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "22",
-    "liczba": 49
+    "liczba": 52
    },
    {
     "teryt": "24",
-    "liczba": 94
+    "liczba": 100
    },
    {
     "teryt": "26",
-    "liczba": 37
+    "liczba": 40
    },
    {
     "teryt": "28",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 101
+    "liczba": 108
    },
    {
     "teryt": "32",
@@ -87,23 +87,23 @@
   "roczniki": [
    {
     "rok": 2016,
-    "liczba": 59
+    "liczba": 62
    },
    {
     "rok": 2017,
-    "liczba": 219
+    "liczba": 229
    },
    {
     "rok": 2018,
-    "liczba": 149
+    "liczba": 167
    },
    {
     "rok": 2019,
-    "liczba": 138
+    "liczba": 150
    },
    {
     "rok": 2020,
-    "liczba": 77
+    "liczba": 79
    },
    {
     "rok": 2021,
@@ -125,11 +125,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 799
+    "liczba": 833
    },
    {
     "nazwa": "Diesel",
-    "liczba": 101
+    "liczba": 112
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -143,33 +143,33 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 802
+    "liczba": 843
+   },
+   {
+    "nazwa": "3,8 l",
+    "liczba": 77
    },
    {
     "nazwa": "2,0 l",
     "liczba": 75
    },
    {
-    "nazwa": "3,8 l",
-    "liczba": 74
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 598
+    "liczba": 610
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 310
+    "liczba": 341
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 48
+    "liczba": 50
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,40 +179,44 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 495
+    "liczba": 524
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 245
+    "liczba": 253
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 113
+    "liczba": 116
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "Sedan",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "nazwa": "Van",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 37
+    "liczba": 39
    }
   ],
-  "noweOdPaczki": 960,
+  "noweOdPaczki": 1005,
   "hybrydy": 56,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 8
+   },
+   {
     "rok": 2020,
-    "liczba": 36
+    "liczba": 71
    },
    {
     "rok": 2021,
@@ -236,10 +240,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 195
+    "liczba": 197
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 3
@@ -490,55 +538,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 9
+    "liczba": 13
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 25
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 19
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 27
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 19
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 16
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 18
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 23
    }
   ],
-  "miejsce": 800,
+  "miejsce": 793,
   "miejsceWMarce": 2,
   "modeliWMarce": 5,
-  "sredniRocznik": 2019.2
+  "sredniRocznik": 2019.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "maserati",
  "modelSlug": "levante",
@@ -560,14 +608,14 @@
    "adres": "/marki/porsche/cayenne/"
   },
   {
-   "slug": "subaru-outback",
-   "nazwa": "Subaru Outback",
-   "adres": "/marki/subaru/outback/"
-  },
-  {
    "slug": "mazda-cx-5",
    "nazwa": "Mazda CX-5",
    "adres": "/marki/mazda/cx-5/"
+  },
+  {
+   "slug": "subaru-outback",
+   "nazwa": "Subaru Outback",
+   "adres": "/marki/subaru/outback/"
   }
  ]
 }

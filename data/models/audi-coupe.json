@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Coupe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 173 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUPE, COUPE 2.3, COUPE QUATTRO, COUPE GT).",
-  "liczbaWPolsce": 764,
-  "aktywne": 241,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Coupe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 177 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: COUPE, COUPE 2.3, COUPE QUATTRO, COUPE GT).",
+  "liczbaWPolsce": 768,
+  "aktywne": 245,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 100
+    "liczba": 101
    },
    {
     "teryt": "04",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "12",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "20",
@@ -67,7 +67,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "28",
@@ -118,7 +118,7 @@
    },
    {
     "rok": 1984,
-    "liczba": 34
+    "liczba": 35
    },
    {
     "rok": 1985,
@@ -126,7 +126,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 1987,
@@ -142,7 +142,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 78
+    "liczba": 79
    },
    {
     "rok": 1991,
@@ -218,7 +218,7 @@
    },
    {
     "rok": 2009,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2010,
@@ -236,7 +236,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 491
+    "liczba": 495
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -254,19 +254,19 @@
   "pojemnosci": [
    {
     "nazwa": "2,3 l",
-    "liczba": 235
+    "liczba": 236
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 153
+    "liczba": 154
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 93
+    "liczba": 94
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "nazwa": "2,8 l",
@@ -292,11 +292,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 418
+    "liczba": 419
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 311
+    "liczba": 314
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -310,7 +310,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 576
+    "liczba": 580
    },
    {
     "nazwa": "Sedan",
@@ -325,13 +325,17 @@
     "liczba": 103
    }
   ],
-  "noweOdPaczki": 173,
+  "noweOdPaczki": 177,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 15
+    "liczba": 18
    },
    {
     "rok": 2021,
@@ -359,6 +363,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -613,11 +661,11 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -625,31 +673,31 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 4
    }
   ],
-  "miejsce": 846,
-  "miejsceWMarce": 38,
+  "miejsce": 850,
+  "miejsceWMarce": 39,
   "modeliWMarce": 54,
   "sredniRocznik": 1989.8
  },
@@ -657,7 +705,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "coupe",

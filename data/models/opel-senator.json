@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Senator – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SENATOR, SENATOR 3.0, SENATOR 3.0 KAT, SENATOR 2.6 KAT, SENATOR 2.5).",
-  "liczbaWPolsce": 1612,
-  "aktywne": 50,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Senator – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SENATOR, SENATOR 3.0, SENATOR 3.0 KAT, SENATOR 2.6 KAT, SENATOR 2.5).",
+  "liczbaWPolsce": 1613,
+  "aktywne": 51,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 114
+    "liczba": 115
    },
    {
     "teryt": "26",
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 64
+    "liczba": 65
    },
    {
     "rok": 1986,
@@ -170,7 +170,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 402
+    "liczba": 403
    },
    {
     "nazwa": "?+LPG",
@@ -188,7 +188,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 727
+    "liczba": 728
    },
    {
     "nazwa": "2,9 l",
@@ -230,7 +230,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 271
+    "liczba": 272
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -248,7 +248,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 755
+    "liczba": 756
    },
    {
     "nazwa": "Hatchback",
@@ -259,13 +259,13 @@
     "liczba": 817
    }
   ],
-  "noweOdPaczki": 33,
+  "noweOdPaczki": 34,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2021,
@@ -293,6 +293,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -559,7 +603,7 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
@@ -567,7 +611,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -575,14 +619,14 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 672,
+  "miejsce": 680,
   "miejsceWMarce": 25,
   "modeliWMarce": 33,
   "sredniRocznik": 1987.9
@@ -591,7 +635,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "senator",

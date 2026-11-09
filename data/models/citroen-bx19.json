@@ -6,15 +6,16 @@
  "lataProdukcji": "1983–1997",
  "nadwozia": [
   "hatchback",
-  "sedan"
+  "sedan",
+  "kombi"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen BX19 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BX 19 D, BX 19, BX 19 KAT).",
-  "liczbaWPolsce": 1155,
-  "aktywne": 12,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen BX19 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BX 19 D, BX 19, BX 19 KAT).",
+  "liczbaWPolsce": 1156,
+  "aktywne": 13,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -78,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 92
+    "liczba": 93
    }
   ],
   "bezWojewodztwa": 1,
@@ -109,7 +110,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 68
+    "liczba": 69
    },
    {
     "rok": 1990,
@@ -151,7 +152,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 100
+    "liczba": 101
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -169,7 +170,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 1082
+    "liczba": 1083
    },
    {
     "nazwa": "1,8 l",
@@ -199,7 +200,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 41
+    "liczba": 42
    }
   ],
   "nadwozia": [
@@ -213,17 +214,21 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 794
    }
   ],
-  "noweOdPaczki": 6,
+  "noweOdPaczki": 7,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2020,
     "liczba": 2
@@ -238,6 +243,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -527,7 +576,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 756,
+  "miejsce": 761,
   "miejsceWMarce": 30,
   "modeliWMarce": 42,
   "sredniRocznik": 1988.7
@@ -536,7 +585,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "bx19",

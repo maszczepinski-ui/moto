@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Tonale – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 146 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TONALE).",
-  "liczbaWPolsce": 2146,
-  "aktywne": 2146,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Tonale – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 147 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TONALE).",
+  "liczbaWPolsce": 2147,
+  "aktywne": 2147,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 189
+    "liczba": 190
    },
    {
     "teryt": "14",
@@ -100,13 +100,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 356
+    "liczba": 357
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1101
+    "liczba": 1102
    },
    {
     "nazwa": "Benzyna",
@@ -124,7 +124,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1677
+    "liczba": 1678
    },
    {
     "nazwa": "1,6 l",
@@ -142,7 +142,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1400
+    "liczba": 1401
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -164,15 +164,15 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2116
+    "liczba": 2117
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 30
    }
   ],
-  "noweOdPaczki": 2146,
-  "hybrydy": 1101,
+  "noweOdPaczki": 2147,
+  "hybrydy": 1102,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -193,10 +193,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 524
+    "liczba": 525
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -447,46 +491,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 7
+    "liczba": 19
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 38
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 46
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 50
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 70
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 66
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 94
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 50
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 53
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 50
    }
   ],
-  "miejsce": 599,
+  "miejsce": 602,
   "miejsceWMarce": 10,
   "modeliWMarce": 20,
   "sredniRocznik": 2023.7
@@ -495,7 +539,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "tonale",

@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 360 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 360 2.0, 360).",
-  "liczbaWPolsce": 516,
-  "aktywne": 3,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 360 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 360 2.0, 360).",
+  "liczbaWPolsce": 517,
+  "aktywne": 4,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "28",
@@ -121,7 +121,7 @@
    },
    {
     "rok": 1986,
-    "liczba": 74
+    "liczba": 75
    },
    {
     "rok": 1987,
@@ -171,7 +171,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 117
+    "liczba": 118
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -189,7 +189,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 424
+    "liczba": 425
    },
    {
     "nazwa": "1,4 l",
@@ -223,7 +223,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -241,23 +241,71 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 335
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 2,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2024,
     "liczba": 1
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -544,10 +592,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 961,
+  "miejsce": 967,
   "miejsceWMarce": 28,
   "modeliWMarce": 34,
   "sredniRocznik": 1985.6
@@ -556,7 +604,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "360",

@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 605 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 605, 605 2.0, 605 2.0 KAT, 605 3.0 KAT, 605 3.0).",
-  "liczbaWPolsce": 3356,
-  "aktywne": 73,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 605 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 605, 605 2.0, 605 2.0 KAT, 605 3.0 KAT, 605 3.0).",
+  "liczbaWPolsce": 3358,
+  "aktywne": 75,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 350
+    "liczba": 351
    },
    {
     "teryt": "08",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 249
+    "liczba": 250
    },
    {
     "teryt": "14",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 438
+    "liczba": 439
    },
    {
     "rok": 1991,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 355
+    "liczba": 356
    },
    {
     "rok": 1998,
@@ -131,7 +131,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 906
+    "liczba": 907
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -139,7 +139,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 594
+    "liczba": 595
    },
    {
     "nazwa": "?+LPG",
@@ -153,7 +153,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1323
+    "liczba": 1324
    },
    {
     "nazwa": "3,0 l",
@@ -165,7 +165,7 @@
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 147
+    "liczba": 148
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,7 +179,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 603
+    "liczba": 605
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -197,7 +197,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1928
+    "liczba": 1930
    },
    {
     "nazwa": "Hatchback",
@@ -208,13 +208,17 @@
     "liczba": 1216
    }
   ],
-  "noweOdPaczki": 23,
+  "noweOdPaczki": 25,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -242,6 +246,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -504,7 +552,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -531,7 +579,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 501,
+  "miejsce": 503,
   "miejsceWMarce": 26,
   "modeliWMarce": 45,
   "sredniRocznik": 1993.4
@@ -540,7 +588,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "605",

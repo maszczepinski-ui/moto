@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda ZR-V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 082 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZR-V).",
-  "liczbaWPolsce": 2082,
-  "aktywne": 2082,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Honda ZR-V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 085 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZR-V).",
+  "liczbaWPolsce": 2085,
+  "aktywne": 2085,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "10",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 509
+    "liczba": 510
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 249
+    "liczba": 250
    },
    {
     "teryt": "26",
@@ -96,13 +96,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 164
+    "liczba": 167
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 2048
+    "liczba": 2051
    },
    {
     "nazwa": "Benzyna",
@@ -116,13 +116,13 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 2082
+    "liczba": 2085
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1780
+    "liczba": 1782
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -134,21 +134,21 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 28
+    "liczba": 29
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2075
+    "liczba": 2078
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 2082,
-  "hybrydy": 2048,
+  "noweOdPaczki": 2085,
+  "hybrydy": 2051,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -165,10 +165,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 514
+    "liczba": 517
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -419,46 +463,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 34
+    "liczba": 47
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 48
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 71
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 64
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 57
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 53
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 14
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 31
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 41
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 92
    }
   ],
-  "miejsce": 606,
+  "miejsce": 615,
   "miejsceWMarce": 11,
   "modeliWMarce": 21,
   "sredniRocznik": 2024.1
@@ -467,7 +511,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "honda",
  "modelSlug": "zr-v",

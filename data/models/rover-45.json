@@ -3,7 +3,7 @@
  "marka": "Rover",
  "model": "45",
  "generacja": "",
- "lataProdukcji": "1999–2005",
+ "lataProdukcji": "1999–2006",
  "nadwozia": [
   "sedan",
   "hatchback"
@@ -11,18 +11,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 45 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 48 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 45, 45 2.0 TD, 45 2.0 TDI, 45 1.6 KAT, 45 1.8 KAT).",
-  "liczbaWPolsce": 1793,
-  "aktywne": 433,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 45 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 54 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 45, 45 2.0 TD, 45 2.0 TDI, 45 1.6 KAT, 45 1.8 KAT).",
+  "liczbaWPolsce": 1799,
+  "aktywne": 439,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 147
+    "liczba": 148
    },
    {
     "teryt": "04",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "teryt": "06",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 135
+    "liczba": 137
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 253
+    "liczba": 255
    },
    {
     "teryt": "16",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 375
+    "liczba": 377
    },
    {
     "rok": 2002,
@@ -109,25 +109,25 @@
    },
    {
     "rok": 2004,
-    "liczba": 152
+    "liczba": 153
    },
    {
     "rok": 2005,
-    "liczba": 120
+    "liczba": 122
    },
    {
     "rok": 2006,
-    "liczba": 17
+    "liczba": 18
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 792
+    "liczba": 793
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 704
+    "liczba": 709
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -141,15 +141,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 828
+    "liczba": 829
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 443
+    "liczba": 445
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 337
+    "liczba": 340
    },
    {
     "nazwa": "1,4 l",
@@ -163,11 +163,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 928
+    "liczba": 931
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 846
+    "liczba": 849
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,24 +181,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1023
+    "liczba": 1026
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 732
+    "liczba": 735
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 38
    }
   ],
-  "noweOdPaczki": 48,
+  "noweOdPaczki": 54,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
     "rok": 2020,
-    "liczba": 5
+    "liczba": 8
    },
    {
     "rok": 2021,
@@ -226,6 +230,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -504,7 +552,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -515,7 +563,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 648,
+  "miejsce": 652,
   "miejsceWMarce": 6,
   "modeliWMarce": 9,
   "sredniRocznik": 2001.6
@@ -524,7 +572,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "rover",
  "modelSlug": "45",

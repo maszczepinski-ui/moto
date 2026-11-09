@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus RZ – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 552 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS RZ450E, RZ450E, LEXUS RZ500E, RZ300E, RZ500E).",
-  "liczbaWPolsce": 552,
-  "aktywne": 552,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus RZ – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 553 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS RZ450E, RZ450E, LEXUS RZ500E, RZ300E, RZ500E).",
+  "liczbaWPolsce": 553,
+  "aktywne": 553,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "teryt": "26",
@@ -96,25 +96,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 146
+    "liczba": 147
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 552
+    "liczba": 553
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 552
+    "liczba": 553
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 460
+    "liczba": 461
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -132,16 +132,16 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 544
+    "liczba": 545
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 552,
+  "noweOdPaczki": 553,
   "hybrydy": 0,
-  "elektryczne": 552,
+  "elektryczne": 553,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
@@ -157,10 +157,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 239
+    "liczba": 240
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -411,46 +455,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 43
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 15
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 38
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 12
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 15
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 45
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 27
    }
   ],
-  "miejsce": 933,
+  "miejsce": 942,
   "miejsceWMarce": 10,
   "modeliWMarce": 13,
   "sredniRocznik": 2024.7
@@ -459,7 +503,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "rz",

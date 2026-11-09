@@ -11,38 +11,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Pulsar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 220 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PULSAR, NISSAN PULSAR, PULSAR 1.2).",
-  "liczbaWPolsce": 4288,
-  "aktywne": 3004,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Pulsar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 323 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PULSAR, NISSAN PULSAR, PULSAR 1.2).",
+  "liczbaWPolsce": 4391,
+  "aktywne": 3107,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 312
+    "liczba": 319
    },
    {
     "teryt": "04",
-    "liczba": 218
+    "liczba": 223
    },
    {
     "teryt": "06",
-    "liczba": 207
+    "liczba": 213
    },
    {
     "teryt": "08",
-    "liczba": 105
+    "liczba": 107
    },
    {
     "teryt": "10",
-    "liczba": 286
+    "liczba": 295
    },
    {
     "teryt": "12",
-    "liczba": 348
+    "liczba": 353
    },
    {
     "teryt": "14",
-    "liczba": 684
+    "liczba": 699
    },
    {
     "teryt": "16",
@@ -50,35 +50,35 @@
    },
    {
     "teryt": "18",
-    "liczba": 208
+    "liczba": 212
    },
    {
     "teryt": "20",
-    "liczba": 111
+    "liczba": 114
    },
    {
     "teryt": "22",
-    "liczba": 191
+    "liczba": 197
    },
    {
     "teryt": "24",
-    "liczba": 587
+    "liczba": 595
    },
    {
     "teryt": "26",
-    "liczba": 89
+    "liczba": 92
    },
    {
     "teryt": "28",
-    "liczba": 158
+    "liczba": 160
    },
    {
     "teryt": "30",
-    "liczba": 468
+    "liczba": 492
    },
    {
     "teryt": "32",
-    "liczba": 233
+    "liczba": 237
    }
   ],
   "bezWojewodztwa": 6,
@@ -169,7 +169,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 2009,
@@ -193,33 +193,33 @@
    },
    {
     "rok": 2014,
-    "liczba": 1024
+    "liczba": 1042
    },
    {
     "rok": 2015,
-    "liczba": 1712
+    "liczba": 1761
    },
    {
     "rok": 2016,
-    "liczba": 871
+    "liczba": 893
    },
    {
     "rok": 2017,
-    "liczba": 403
+    "liczba": 408
    },
    {
     "rok": 2018,
-    "liczba": 157
+    "liczba": 165
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3327
+    "liczba": 3389
    },
    {
     "nazwa": "Diesel",
-    "liczba": 914
+    "liczba": 955
    },
    {
     "nazwa": "Inne / brak danych",
@@ -229,15 +229,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 3159
+    "liczba": 3215
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 928
+    "liczba": 969
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 162
+    "liczba": 168
    },
    {
     "nazwa": "Inne / brak danych",
@@ -247,15 +247,15 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1910
+    "liczba": 1968
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 1210
    },
    {
     "nazwa": "Nowy z polskiego salonu",
     "liczba": 1202
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1165
    },
    {
     "nazwa": "Inne / brak danych",
@@ -265,28 +265,28 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3155
+    "liczba": 3200
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1021
+    "liczba": 1076
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 112
+    "liczba": 115
    }
   ],
-  "noweOdPaczki": 2220,
+  "noweOdPaczki": 2323,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 3
+    "liczba": 25
    },
    {
     "rok": 2020,
-    "liczba": 117
+    "liczba": 198
    },
    {
     "rok": 2021,
@@ -314,6 +314,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 19
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 19
+   },
    {
     "miesiac": "2020-11",
     "liczba": 16
@@ -564,46 +608,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 36
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 44
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 52
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 38
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 42
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 46
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 31
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 38
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 36
    }
   ],
-  "miejsce": 469,
+  "miejsce": 470,
   "miejsceWMarce": 13,
   "modeliWMarce": 47,
   "sredniRocznik": 2014.8
@@ -612,7 +656,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "pulsar",

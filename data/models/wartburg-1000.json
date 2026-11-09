@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 1000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1000).",
-  "liczbaWPolsce": 4798,
-  "aktywne": 5,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Wartburg 1000 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1000).",
+  "liczbaWPolsce": 4799,
+  "aktywne": 6,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 690
+    "liczba": 691
    },
    {
     "teryt": "16",
@@ -100,7 +100,7 @@
    },
    {
     "rok": 1964,
-    "liczba": 388
+    "liczba": 389
    },
    {
     "rok": 1965,
@@ -210,7 +210,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 383
+    "liczba": 384
    },
    {
     "nazwa": "?+LPG",
@@ -224,7 +224,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 4612
+    "liczba": 4613
    },
    {
     "nazwa": "Inne / brak danych",
@@ -242,7 +242,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 148
+    "liczba": 149
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -260,19 +260,67 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4331
+    "liczba": 4332
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 2,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2025,
     "liczba": 1
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -562,7 +610,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 445,
+  "miejsce": 455,
   "miejsceWMarce": 3,
   "modeliWMarce": 11,
   "sredniRocznik": 1970.0
@@ -571,7 +619,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "wartburg",
  "modelSlug": "1000",

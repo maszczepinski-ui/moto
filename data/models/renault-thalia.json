@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Thalia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 41 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THALIA, THALIA 1.4 KAT, THALIA 1.4, THALIA LB, THALIA B).",
-  "liczbaWPolsce": 21965,
-  "aktywne": 4371,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Thalia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 43 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: THALIA, THALIA 1.4 KAT, THALIA 1.4, THALIA LB, THALIA B).",
+  "liczbaWPolsce": 21967,
+  "aktywne": 4373,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 1610
+    "liczba": 1611
    },
    {
     "teryt": "08",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1525
+    "liczba": 1526
    },
    {
     "teryt": "32",
@@ -89,7 +89,7 @@
    },
    {
     "rok": 2001,
-    "liczba": 4110
+    "liczba": 4111
    },
    {
     "rok": 2002,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 2003,
-    "liczba": 3944
+    "liczba": 3945
    },
    {
     "rok": 2004,
@@ -139,7 +139,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 15328
+    "liczba": 15330
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -157,7 +157,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 15299
+    "liczba": 15301
    },
    {
     "nazwa": "1,1 l",
@@ -191,17 +191,17 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 171
+    "liczba": 172
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 51
+    "liczba": 52
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 18746
+    "liczba": 18748
    },
    {
     "nazwa": "Hatchback",
@@ -212,13 +212,13 @@
     "liczba": 1225
    }
   ],
-  "noweOdPaczki": 41,
+  "noweOdPaczki": 43,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 8
+    "liczba": 10
    },
    {
     "rok": 2021,
@@ -246,6 +246,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -512,7 +556,7 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -520,7 +564,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -532,11 +576,11 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 199,
-  "miejsceWMarce": 11,
+  "miejsce": 202,
+  "miejsceWMarce": 12,
   "modeliWMarce": 48,
   "sredniRocznik": 2004.0
  },
@@ -544,7 +588,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "thalia",
@@ -561,19 +605,19 @@
    "adres": "/marki/ford/fiesta/"
   },
   {
-   "slug": "fiat-punto",
-   "nazwa": "Fiat Punto",
-   "adres": "/marki/fiat/punto/"
-  },
-  {
    "slug": "volkswagen-polo",
    "nazwa": "Volkswagen Polo",
    "adres": "/marki/volkswagen/polo/"
   },
   {
-   "slug": "mitsubishi-lancer",
-   "nazwa": "Mitsubishi Lancer",
-   "adres": "/marki/mitsubishi/lancer/"
+   "slug": "fiat-punto",
+   "nazwa": "Fiat Punto",
+   "adres": "/marki/fiat/punto/"
+  },
+  {
+   "slug": "mitsubishi-colt",
+   "nazwa": "Mitsubishi Colt",
+   "adres": "/marki/mitsubishi/colt/"
   }
  ]
 }

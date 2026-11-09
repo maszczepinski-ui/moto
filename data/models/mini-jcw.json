@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mini Jcw – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 958 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JCW, JCW COUNTRYMAN ALL4, JCW E, JCW ACEMAN E).",
-  "liczbaWPolsce": 958,
-  "aktywne": 958,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mini Jcw – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 959 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JCW, JCW COUNTRYMAN ALL4, JCW E, JCW ACEMAN E).",
+  "liczbaWPolsce": 959,
+  "aktywne": 959,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "teryt": "14",
@@ -138,13 +138,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 242
+    "liczba": 243
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 831
+    "liczba": 832
    },
    {
     "nazwa": "Elektryczny",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 829
+    "liczba": 830
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,7 +164,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 816
+    "liczba": 817
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -182,7 +182,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 443
+    "liczba": 444
    },
    {
     "nazwa": "Kombi",
@@ -193,7 +193,7 @@
     "liczba": 121
    }
   ],
-  "noweOdPaczki": 958,
+  "noweOdPaczki": 959,
   "hybrydy": 0,
   "elektryczne": 127,
   "pierwszeRejestracje": [
@@ -207,10 +207,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 354
+    "liczba": 355
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -461,46 +505,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 20
+    "liczba": 37
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 33
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 46
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 33
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 34
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 30
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 62
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 25
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 25
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 28
    }
   ],
-  "miejsce": 801,
+  "miejsce": 802,
   "miejsceWMarce": 5,
   "modeliWMarce": 6,
   "sredniRocznik": 2025.0
@@ -509,7 +553,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mini",
  "modelSlug": "jcw",

@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen LT – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 49 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LT).",
-  "liczbaWPolsce": 420,
-  "aktywne": 173,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen LT – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 53 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LT).",
+  "liczbaWPolsce": 424,
+  "aktywne": 177,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "06",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "12",
@@ -70,7 +70,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "30",
@@ -173,11 +173,11 @@
    },
    {
     "rok": 2001,
-    "liczba": 36
+    "liczba": 37
    },
    {
     "rok": 2002,
-    "liczba": 37
+    "liczba": 38
    },
    {
     "rok": 2003,
@@ -189,7 +189,7 @@
    },
    {
     "rok": 2005,
-    "liczba": 42
+    "liczba": 44
    },
    {
     "rok": 2006,
@@ -199,7 +199,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 405
+    "liczba": 409
    },
    {
     "nazwa": "Benzyna",
@@ -213,7 +213,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 339
+    "liczba": 343
    },
    {
     "nazwa": "2,4 l",
@@ -235,11 +235,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 228
+    "liczba": 229
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 177
+    "liczba": 180
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -261,24 +261,28 @@
    },
    {
     "nazwa": "Furgon",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "nazwa": "Kombi",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 43
+    "liczba": 44
    }
   ],
-  "noweOdPaczki": 49,
+  "noweOdPaczki": 53,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 6
+    "liczba": 9
    },
    {
     "rok": 2021,
@@ -306,6 +310,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -564,11 +612,11 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -580,7 +628,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -595,7 +643,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1029,
+  "miejsce": 1034,
   "miejsceWMarce": 50,
   "modeliWMarce": 61,
   "sredniRocznik": 1999.8
@@ -604,7 +652,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "lt",
@@ -626,14 +674,14 @@
    "adres": "/marki/hyundai/galloper/"
   },
   {
-   "slug": "mazda-mpv",
-   "nazwa": "Mazda MPV",
-   "adres": "/marki/mazda/mpv/"
-  },
-  {
    "slug": "toyota-previa",
    "nazwa": "Toyota Previa",
    "adres": "/marki/toyota/previa/"
+  },
+  {
+   "slug": "mazda-mpv",
+   "nazwa": "Mazda MPV",
+   "adres": "/marki/mazda/mpv/"
   }
  ]
 }

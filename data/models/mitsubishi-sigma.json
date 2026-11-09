@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Sigma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIGMA, SIGMA 3.0 KAT, SIGMA 3000 V6).",
-  "liczbaWPolsce": 558,
-  "aktywne": 40,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Sigma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIGMA, SIGMA 3.0 KAT, SIGMA 3000 V6).",
+  "liczbaWPolsce": 559,
+  "aktywne": 41,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "22",
@@ -98,7 +98,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 111
+    "liczba": 112
    },
    {
     "rok": 1995,
@@ -120,7 +120,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 193
+    "liczba": 194
    },
    {
     "nazwa": "?+LPG",
@@ -134,7 +134,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 552
+    "liczba": 553
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,7 +148,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 184
+    "liczba": 185
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -166,7 +166,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 257
+    "liczba": 258
    },
    {
     "nazwa": "Kombi",
@@ -181,13 +181,13 @@
     "liczba": 115
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 20,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2021,
@@ -211,6 +211,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -497,19 +541,19 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 932,
+  "miejsce": 936,
   "miejsceWMarce": 14,
-  "modeliWMarce": 20,
+  "modeliWMarce": 21,
   "sredniRocznik": 1993.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "sigma",
@@ -531,14 +575,14 @@
    "adres": "/marki/peugeot/605/"
   },
   {
-   "slug": "nissan-maxima",
-   "nazwa": "Nissan Maxima",
-   "adres": "/marki/nissan/maxima/"
-  },
-  {
    "slug": "opel-omega",
    "nazwa": "Opel Omega",
    "adres": "/marki/opel/omega/"
+  },
+  {
+   "slug": "nissan-maxima",
+   "nazwa": "Nissan Maxima",
+   "adres": "/marki/nissan/maxima/"
   }
  ]
 }

@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Townstar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 650 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOWNSTAR).",
-  "liczbaWPolsce": 650,
-  "aktywne": 650,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Townstar – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 651 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOWNSTAR).",
+  "liczbaWPolsce": 651,
+  "aktywne": 651,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 209
+    "liczba": 210
    },
    {
     "teryt": "16",
@@ -100,7 +100,7 @@
    },
    {
     "rok": 2025,
-    "liczba": 106
+    "liczba": 107
    },
    {
     "rok": 2026,
@@ -110,7 +110,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 642
+    "liczba": 643
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,7 +120,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 647
+    "liczba": 648
    },
    {
     "nazwa": "Inne / brak danych",
@@ -130,7 +130,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 398
+    "liczba": 399
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -144,14 +144,14 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 645
+    "liczba": 646
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 650,
+  "noweOdPaczki": 651,
   "hybrydy": 0,
   "elektryczne": 4,
   "pierwszeRejestracje": [
@@ -173,10 +173,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 72
+    "liczba": 73
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -431,42 +475,42 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 16
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 10
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 9
    }
   ],
-  "miejsce": 894,
+  "miejsce": 897,
   "miejsceWMarce": 31,
   "modeliWMarce": 47,
   "sredniRocznik": 2023.1
@@ -475,7 +519,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "townstar",
@@ -492,14 +536,14 @@
    "adres": "/marki/hyundai/kona/"
   },
   {
-   "slug": "opel-crossland",
-   "nazwa": "Opel Crossland",
-   "adres": "/marki/opel/crossland/"
-  },
-  {
    "slug": "skoda-kamiq",
    "nazwa": "Skoda Kamiq",
    "adres": "/marki/skoda/kamiq/"
+  },
+  {
+   "slug": "opel-crossland",
+   "nazwa": "Opel Crossland",
+   "adres": "/marki/opel/crossland/"
   },
   {
    "slug": "alfa-romeo-tonale",

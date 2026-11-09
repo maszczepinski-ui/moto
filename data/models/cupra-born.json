@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Born – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 585 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BORN 170 KW 58/62 KWH, BORN 170 KW 77/82 KWH, BORN 150 KW 58/62 KWH, BORN 150 KW 60/63 KWH, BORN).",
-  "liczbaWPolsce": 585,
-  "aktywne": 585,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Born – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 586 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BORN 170 KW 58/62 KWH, BORN 170 KW 77/82 KWH, BORN 150 KW 58/62 KWH, BORN 150 KW 60/63 KWH, BORN).",
+  "liczbaWPolsce": 586,
+  "aktywne": 586,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 80
+    "liczba": 81
    },
    {
     "teryt": "32",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 2024,
-    "liczba": 77
+    "liczba": 78
    },
    {
     "rok": 2025,
@@ -111,13 +111,13 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 585
+    "liczba": 586
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 585
+    "liczba": 586
    }
   ],
   "pochodzenie": [
@@ -131,7 +131,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 86
+    "liczba": 87
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -145,7 +145,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 557
+    "liczba": 558
    },
    {
     "nazwa": "Hatchback",
@@ -156,9 +156,9 @@
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 585,
+  "noweOdPaczki": 586,
   "hybrydy": 0,
-  "elektryczne": 585,
+  "elektryczne": 586,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -182,10 +182,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 115
+    "liczba": 116
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -440,42 +484,42 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 38
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 36
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 12
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 8
    }
   ],
-  "miejsce": 920,
+  "miejsce": 921,
   "miejsceWMarce": 6,
   "modeliWMarce": 6,
   "sredniRocznik": 2023.2
@@ -484,7 +528,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "cupra",
  "modelSlug": "born",

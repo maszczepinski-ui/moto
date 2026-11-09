@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Granada – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANADA, GRANADA 2.0L, GRANADA 2.1D, GRANADA 2.3L, GRANADA 2.0).",
-  "liczbaWPolsce": 5907,
-  "aktywne": 76,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Granada – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 49 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GRANADA, GRANADA 2.0L, GRANADA 2.1D, GRANADA 2.3L, GRANADA 2.0).",
+  "liczbaWPolsce": 5912,
+  "aktywne": 81,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,15 +37,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 348
+    "liczba": 349
    },
    {
     "teryt": "14",
-    "liczba": 986
+    "liczba": 987
    },
    {
     "teryt": "16",
-    "liczba": 153
+    "liczba": 154
    },
    {
     "teryt": "18",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 495
+    "liczba": 496
    },
    {
     "teryt": "26",
@@ -77,7 +77,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 500
+    "liczba": 501
    }
   ],
   "bezWojewodztwa": 16,
@@ -96,7 +96,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 93
+    "liczba": 94
    },
    {
     "rok": 1976,
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1979,
-    "liczba": 1127
+    "liczba": 1128
    },
    {
     "rok": 1980,
@@ -120,7 +120,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 698
+    "liczba": 699
    },
    {
     "rok": 1982,
@@ -128,11 +128,11 @@
    },
    {
     "rok": 1983,
-    "liczba": 352
+    "liczba": 353
    },
    {
     "rok": 1984,
-    "liczba": 302
+    "liczba": 303
    },
    {
     "rok": 1985,
@@ -182,7 +182,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 845
+    "liczba": 850
    },
    {
     "nazwa": "Diesel",
@@ -204,11 +204,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 2672
+    "liczba": 2674
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 1198
+    "liczba": 1200
    },
    {
     "nazwa": "2,1 l",
@@ -220,7 +220,7 @@
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 209
+    "liczba": 210
    },
    {
     "nazwa": "1,6 l",
@@ -250,7 +250,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 208
+    "liczba": 213
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -264,28 +264,32 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1068
+    "liczba": 1070
    },
    {
     "nazwa": "Kombi",
-    "liczba": 129
+    "liczba": 131
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4625
    }
   ],
-  "noweOdPaczki": 44,
+  "noweOdPaczki": 49,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2020,
+    "rok": 2019,
     "liczba": 2
+   },
+   {
+    "rok": 2020,
+    "liczba": 5
    },
    {
     "rok": 2021,
@@ -313,6 +317,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -567,7 +615,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-03",
@@ -579,11 +627,11 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -595,23 +643,23 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 409,
+  "miejsce": 410,
   "miejsceWMarce": 24,
-  "modeliWMarce": 46,
+  "modeliWMarce": 47,
   "sredniRocznik": 1980.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "granada",

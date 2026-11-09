@@ -11,22 +11,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Brera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 283 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRERA, ALFA BRERA).",
-  "liczbaWPolsce": 715,
-  "aktywne": 495,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Brera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 331 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRERA, ALFA BRERA).",
+  "liczbaWPolsce": 763,
+  "aktywne": 543,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 60
+    "liczba": 67
    },
    {
     "teryt": "04",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "teryt": "06",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "teryt": "08",
@@ -34,78 +34,78 @@
    },
    {
     "teryt": "10",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "teryt": "12",
-    "liczba": 101
+    "liczba": 105
    },
    {
     "teryt": "14",
-    "liczba": 108
+    "liczba": 114
    },
    {
     "teryt": "16",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "18",
-    "liczba": 41
+    "liczba": 45
    },
    {
     "teryt": "20",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "22",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "24",
-    "liczba": 99
+    "liczba": 111
    },
    {
     "teryt": "26",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 64
+    "liczba": 67
    },
    {
     "teryt": "32",
-    "liczba": 15
+    "liczba": 16
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2006,
-    "liczba": 270
+    "liczba": 289
    },
    {
     "rok": 2007,
-    "liczba": 136
+    "liczba": 145
    },
    {
     "rok": 2008,
-    "liczba": 95
+    "liczba": 103
    },
    {
     "rok": 2009,
-    "liczba": 107
+    "liczba": 112
    },
    {
     "rok": 2010,
-    "liczba": 74
+    "liczba": 80
    },
    {
     "rok": 2011,
@@ -115,29 +115,33 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 391
+    "liczba": 422
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 316
+    "liczba": 331
+   },
+   {
+    "nazwa": "Benzyna + LPG",
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 2
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 343
+    "liczba": 369
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 135
+    "liczba": 144
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 112
+    "liczba": 119
    },
    {
     "nazwa": "1,7 l",
@@ -145,7 +149,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 50
+    "liczba": 56
    },
    {
     "nazwa": "Inne / brak danych",
@@ -154,12 +158,12 @@
   ],
   "pochodzenie": [
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 337
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 366
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 335
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 354
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -173,28 +177,28 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 638
+    "liczba": 683
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 63
+    "liczba": 66
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 14
    }
   ],
-  "noweOdPaczki": 283,
+  "noweOdPaczki": 331,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 5
+    "liczba": 18
    },
    {
     "rok": 2020,
-    "liczba": 42
+    "liczba": 77
    },
    {
     "rok": 2021,
@@ -222,6 +226,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 5
+   },
    {
     "miesiac": "2020-11",
     "liczba": 4
@@ -476,42 +524,42 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 3
    }
   ],
-  "miejsce": 868,
+  "miejsce": 852,
   "miejsceWMarce": 17,
   "modeliWMarce": 20,
   "sredniRocznik": 2007.3
@@ -520,7 +568,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "brera",
@@ -547,9 +595,9 @@
    "adres": "/marki/mercedes-benz/klasa-c/"
   },
   {
-   "slug": "volvo-s80",
-   "nazwa": "Volvo S80",
-   "adres": "/marki/volvo/s80/"
+   "slug": "volvo-xc70",
+   "nazwa": "Volvo XC70",
+   "adres": "/marki/volvo/xc70/"
   }
  ]
 }

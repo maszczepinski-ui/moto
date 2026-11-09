@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Warszawa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WARSZAWA 223, 223, WARSZAWA 224, WARSZAWA M20, WARSZAWA 204).",
-  "liczbaWPolsce": 32493,
-  "aktywne": 183,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe FSO Warszawa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: WARSZAWA 223, 223, WARSZAWA 224, WARSZAWA M20, WARSZAWA 204).",
+  "liczbaWPolsce": 32495,
+  "aktywne": 185,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 5152
+    "liczba": 5153
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 3110
+    "liczba": 3111
    },
    {
     "teryt": "26",
@@ -104,7 +104,7 @@
    },
    {
     "rok": 1960,
-    "liczba": 770
+    "liczba": 771
    },
    {
     "rok": 1961,
@@ -128,7 +128,7 @@
    },
    {
     "rok": 1966,
-    "liczba": 2095
+    "liczba": 2096
    },
    {
     "rok": 1967,
@@ -202,7 +202,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3501
+    "liczba": 3503
    },
    {
     "nazwa": "?+LPG",
@@ -216,7 +216,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 30497
+    "liczba": 30499
    },
    {
     "nazwa": "Inne / brak danych",
@@ -226,7 +226,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 18332
+    "liczba": 18333
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -234,7 +234,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1207
+    "liczba": 1208
    },
    {
     "nazwa": "Inne / brak danych",
@@ -244,20 +244,20 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2984
+    "liczba": 2985
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 29509
+    "liczba": 29510
    }
   ],
-  "noweOdPaczki": 42,
+  "noweOdPaczki": 44,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -285,6 +285,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -543,23 +587,23 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -571,10 +615,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 158,
+  "miejsce": 161,
   "miejsceWMarce": 3,
   "modeliWMarce": 13,
   "sredniRocznik": 1967.8
@@ -583,7 +627,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "fso",
  "modelSlug": "warszawa",

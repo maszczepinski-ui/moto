@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Classe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 561 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLASSE B, CLASSE A, CLASSE C, CLASSE E).",
-  "liczbaWPolsce": 561,
-  "aktywne": 561,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Classe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 566 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLASSE B, CLASSE A, CLASSE C, CLASSE E).",
+  "liczbaWPolsce": 566,
+  "aktywne": 566,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "teryt": "04",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "08",
@@ -64,7 +64,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "26",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "teryt": "32",
@@ -143,15 +143,15 @@
    },
    {
     "rok": 2017,
-    "liczba": 33
+    "liczba": 34
    },
    {
     "rok": 2018,
-    "liczba": 50
+    "liczba": 51
    },
    {
     "rok": 2019,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 2020,
@@ -160,16 +160,24 @@
    {
     "rok": 2021,
     "liczba": 3
+   },
+   {
+    "rok": 2022,
+    "liczba": 0
+   },
+   {
+    "rok": 2023,
+    "liczba": 2
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 443
+    "liczba": 447
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 107
+    "liczba": 108
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,11 +187,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 154
+    "liczba": 156
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 109
+    "liczba": 111
    },
    {
     "nazwa": "1,8 l",
@@ -195,7 +203,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 49
+    "liczba": 50
    },
    {
     "nazwa": "1,3 l",
@@ -217,11 +225,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 400
+    "liczba": 404
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 160
+    "liczba": 161
    },
    {
     "nazwa": "Inne / brak danych",
@@ -231,7 +239,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 224
+    "liczba": 226
    },
    {
     "nazwa": "Hatchback",
@@ -239,7 +247,7 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 78
+    "liczba": 81
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -258,13 +266,13 @@
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 561,
+  "noweOdPaczki": 566,
   "hybrydy": 5,
   "elektryczne": 2,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 7
    },
    {
     "rok": 2021,
@@ -288,10 +296,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 119
+    "liczba": 120
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -546,51 +598,51 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 21
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 11
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 15
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 10
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 11
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 16
    }
   ],
-  "miejsce": 929,
+  "miejsce": 931,
   "miejsceWMarce": 45,
-  "modeliWMarce": 57,
+  "modeliWMarce": 58,
   "sredniRocznik": 2013.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "classe",
@@ -612,14 +664,14 @@
    "adres": "/marki/peugeot/508/"
   },
   {
-   "slug": "renault-koleos",
-   "nazwa": "Renault Koleos",
-   "adres": "/marki/renault/koleos/"
-  },
-  {
    "slug": "skoda-octavia",
    "nazwa": "Skoda Octavia",
    "adres": "/marki/skoda/octavia/"
+  },
+  {
+   "slug": "renault-koleos",
+   "nazwa": "Renault Koleos",
+   "adres": "/marki/renault/koleos/"
   }
  ]
 }

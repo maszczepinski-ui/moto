@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 253 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV4).",
-  "liczbaWPolsce": 253,
-  "aktywne": 253,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 256 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV4).",
+  "liczbaWPolsce": 256,
+  "aktywne": 256,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -46,7 +46,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "18",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "26",
@@ -78,14 +78,14 @@
    },
    {
     "teryt": "32",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 251
+    "liczba": 254
    },
    {
     "rok": 2026,
@@ -95,19 +95,19 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 253
+    "liczba": 256
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 253
+    "liczba": 256
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 235
+    "liczba": 238
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -125,16 +125,16 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 236
+    "liczba": 239
    },
    {
     "nazwa": "Sedan",
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 253,
+  "noweOdPaczki": 256,
   "hybrydy": 0,
-  "elektryczne": 253,
+  "elektryczne": 256,
   "pierwszeRejestracje": [
    {
     "rok": 2025,
@@ -142,10 +142,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 223
+    "liczba": 226
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -400,43 +444,43 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 59
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 72
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 58
    }
   ],
-  "miejsce": 1202,
-  "miejsceWMarce": 31,
+  "miejsce": 1205,
+  "miejsceWMarce": 32,
   "modeliWMarce": 33,
   "sredniRocznik": 2025.0
  },
@@ -444,7 +488,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "ev4",

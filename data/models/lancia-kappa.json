@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Kappa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 47 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KAPPA, KAPPA 2.0 KAT, KAPPA 2.4 JTD, KAPPA 2.4 TD, KAPPA 2.4 KAT).",
-  "liczbaWPolsce": 1784,
-  "aktywne": 155,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lancia Kappa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 54 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KAPPA, KAPPA 2.0 KAT, KAPPA 2.4 JTD, KAPPA 2.4 TD, KAPPA 2.4 KAT).",
+  "liczbaWPolsce": 1791,
+  "aktywne": 162,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 188
+    "liczba": 189
    },
    {
     "teryt": "08",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 372
+    "liczba": 375
    },
    {
     "teryt": "16",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 176
+    "liczba": 177
    },
    {
     "teryt": "26",
@@ -79,22 +79,22 @@
    },
    {
     "teryt": "32",
-    "liczba": 58
+    "liczba": 60
    }
   ],
   "bezWojewodztwa": 5,
   "roczniki": [
    {
     "rok": 1994,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 1995,
-    "liczba": 528
+    "liczba": 529
    },
    {
     "rok": 1996,
-    "liczba": 304
+    "liczba": 305
    },
    {
     "rok": 1997,
@@ -102,15 +102,15 @@
    },
    {
     "rok": 1998,
-    "liczba": 295
+    "liczba": 297
    },
    {
     "rok": 1999,
-    "liczba": 187
+    "liczba": 188
    },
    {
     "rok": 2000,
-    "liczba": 103
+    "liczba": 104
    },
    {
     "rok": 2001,
@@ -120,7 +120,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 619
+    "liczba": 625
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -128,7 +128,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 470
+    "liczba": 471
    },
    {
     "nazwa": "?+LPG",
@@ -142,15 +142,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 869
+    "liczba": 872
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 790
+    "liczba": 792
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 120
+    "liczba": 122
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,11 +160,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 996
+    "liczba": 998
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 749
+    "liczba": 754
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -178,15 +178,15 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1345
+    "liczba": 1349
    },
    {
     "nazwa": "Kombi",
-    "liczba": 167
+    "liczba": 168
    },
    {
     "nazwa": "Coupe",
-    "liczba": 67
+    "liczba": 69
    },
    {
     "nazwa": "Hatchback",
@@ -197,13 +197,17 @@
     "liczba": 153
    }
   ],
-  "noweOdPaczki": 47,
+  "noweOdPaczki": 54,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
-    "rok": 2020,
+    "rok": 2019,
     "liczba": 3
+   },
+   {
+    "rok": 2020,
+    "liczba": 7
    },
    {
     "rok": 2021,
@@ -227,6 +231,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -516,7 +564,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 649,
+  "miejsce": 653,
   "miejsceWMarce": 5,
   "modeliWMarce": 15,
   "sredniRocznik": 1996.8
@@ -525,7 +573,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "lancia",
  "modelSlug": "kappa",

@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Manta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 32 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MANTA, MANTA 2.0, MANTA 1.9, MANTA 1.6, MANTA 1.2).",
-  "liczbaWPolsce": 1516,
-  "aktywne": 46,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Manta – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MANTA, MANTA 2.0, MANTA 1.9, MANTA 1.6, MANTA 1.2).",
+  "liczbaWPolsce": 1517,
+  "aktywne": 47,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 238
+    "liczba": 239
    },
    {
     "teryt": "16",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1971,
-    "liczba": 53
+    "liczba": 54
    },
    {
     "rok": 1972,
@@ -192,7 +192,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 380
+    "liczba": 381
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -214,7 +214,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 349
+    "liczba": 350
    },
    {
     "nazwa": "1,9 l",
@@ -252,7 +252,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "nazwa": "Inne / brak danych",
@@ -266,7 +266,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "nazwa": "Hatchback",
@@ -277,10 +277,14 @@
     "liczba": 1054
    }
   ],
-  "noweOdPaczki": 32,
+  "noweOdPaczki": 33,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2020,
     "liczba": 4
@@ -311,6 +315,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -573,7 +621,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -581,7 +629,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -600,7 +648,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 688,
+  "miejsce": 692,
   "miejsceWMarce": 26,
   "modeliWMarce": 33,
   "sredniRocznik": 1979.2
@@ -609,7 +657,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "manta",

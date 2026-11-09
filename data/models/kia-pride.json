@@ -12,18 +12,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Pride – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRIDE, PRIDE 1.3 KAT, PRIDE 1.3KAT, PRIDE 1.3, PRIDE 1.3 GLXI).",
-  "liczbaWPolsce": 2047,
-  "aktywne": 74,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Pride – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PRIDE, PRIDE 1.3 KAT, PRIDE 1.3KAT, PRIDE 1.3, PRIDE 1.3 GLXI).",
+  "liczbaWPolsce": 2052,
+  "aktywne": 79,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 150
+    "liczba": 151
    },
    {
     "teryt": "04",
-    "liczba": 91
+    "liczba": 92
    },
    {
     "teryt": "06",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 187
+    "liczba": 189
    },
    {
     "teryt": "24",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "teryt": "32",
@@ -102,7 +102,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 926
+    "liczba": 927
    },
    {
     "rok": 2000,
@@ -112,11 +112,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1529
+    "liczba": 1531
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 237
+    "liczba": 239
    },
    {
     "nazwa": "?+LPG",
@@ -124,17 +124,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 257
+    "liczba": 258
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 2035
+    "liczba": 2036
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 16
    }
   ],
   "pochodzenie": [
@@ -148,7 +148,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 188
+    "liczba": 193
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -162,7 +162,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1022
+    "liczba": 1025
    },
    {
     "nazwa": "Kombi",
@@ -170,14 +170,14 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 222
+    "liczba": 223
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 559
+    "liczba": 560
    }
   ],
-  "noweOdPaczki": 14,
+  "noweOdPaczki": 19,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -187,7 +187,7 @@
    },
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 8
    },
    {
     "rok": 2021,
@@ -211,6 +211,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -469,7 +513,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -489,7 +533,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -500,7 +544,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 609,
+  "miejsce": 618,
   "miejsceWMarce": 19,
   "modeliWMarce": 33,
   "sredniRocznik": 1998.8
@@ -509,7 +553,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "pride",

@@ -7,16 +7,16 @@
  "nadwozia": [
   "coupe",
   "hatchback",
-  "sedan",
-  "kombi"
+  "kombi",
+  "sedan"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Scion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 85 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCION, SCION FR-S, SCION XB).",
-  "liczbaWPolsce": 254,
-  "aktywne": 139,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Scion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 93 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCION, SCION FR-S, SCION XB).",
+  "liczbaWPolsce": 262,
+  "aktywne": 147,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -36,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "12",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "14",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "16",
@@ -52,11 +52,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "20",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "22",
@@ -64,7 +64,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "26",
@@ -72,7 +72,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "30",
@@ -80,14 +80,14 @@
    },
    {
     "teryt": "32",
-    "liczba": 6
+    "liczba": 7
    }
   ],
   "bezWojewodztwa": 1,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 2005,
@@ -111,7 +111,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2011,
@@ -127,15 +127,15 @@
    },
    {
     "rok": 2014,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2015,
-    "liczba": 20
+    "liczba": 21
    },
    {
     "rok": 2016,
-    "liczba": 20
+    "liczba": 22
    },
    {
     "rok": 2017,
@@ -145,11 +145,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 181
+    "liczba": 187
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 70
+    "liczba": 72
    },
    {
     "nazwa": "Inne / brak danych",
@@ -159,23 +159,23 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 93
-   },
-   {
-    "nazwa": "1,5 l",
-    "liczba": 62
+    "liczba": 95
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 62
+    "liczba": 65
+   },
+   {
+    "nazwa": "1,5 l",
+    "liczba": 63
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
@@ -185,11 +185,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 137
+    "liczba": 141
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 116
+    "liczba": 120
    },
    {
     "nazwa": "Inne / brak danych",
@@ -199,19 +199,19 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 122
+    "liczba": 126
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 93
+    "liczba": 95
+   },
+   {
+    "nazwa": "Kombi",
+    "liczba": 12
    },
    {
     "nazwa": "Sedan",
     "liczba": 11
-   },
-   {
-    "nazwa": "Kombi",
-    "liczba": 10
    },
    {
     "nazwa": "Van",
@@ -226,17 +226,17 @@
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 85,
+  "noweOdPaczki": 93,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2020,
-    "liczba": 9
+    "liczba": 16
    },
    {
     "rok": 2021,
@@ -264,6 +264,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -518,19 +562,19 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -538,7 +582,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -550,19 +594,19 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1198,
+  "miejsce": 1192,
   "miejsceWMarce": 39,
   "modeliWMarce": 43,
-  "sredniRocznik": 2009.1
+  "sredniRocznik": 2009.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "scion",

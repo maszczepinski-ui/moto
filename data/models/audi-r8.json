@@ -11,18 +11,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi R8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 283 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R8 COUPE, R8, R8 SPYDER, R8 SPYDER QUATTRO).",
-  "liczbaWPolsce": 283,
-  "aktywne": 283,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi R8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 299 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R8 COUPE, R8, R8 SPYDER, R8 SPYDER QUATTRO).",
+  "liczbaWPolsce": 299,
+  "aktywne": 299,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "teryt": "04",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "06",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "10",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 66
    },
    {
     "teryt": "16",
@@ -54,7 +54,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "22",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 32
+    "liczba": 35
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 30
+    "liczba": 33
    },
    {
     "teryt": "32",
@@ -89,11 +89,11 @@
    },
    {
     "rok": 2008,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2009,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2010,
@@ -105,11 +105,11 @@
    },
    {
     "rok": 2012,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 2013,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2014,
@@ -117,11 +117,11 @@
    },
    {
     "rok": 2015,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2016,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2017,
@@ -129,15 +129,15 @@
    },
    {
     "rok": 2018,
-    "liczba": 13
-   },
-   {
-    "rok": 2019,
     "liczba": 14
    },
    {
+    "rok": 2019,
+    "liczba": 18
+   },
+   {
     "rok": 2020,
-    "liczba": 26
+    "liczba": 29
    },
    {
     "rok": 2021,
@@ -159,17 +159,17 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 283
+    "liczba": 299
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "5,2 l",
-    "liczba": 263
+    "liczba": 277
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,38 +179,42 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 107
+    "liczba": 115
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 89
+    "liczba": 96
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 87
+    "liczba": 88
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 217
+    "liczba": 230
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 61
+    "liczba": 64
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 283,
+  "noweOdPaczki": 299,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
     "rok": 2020,
-    "liczba": 23
+    "liczba": 35
    },
    {
     "rok": 2021,
@@ -238,6 +242,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 6
@@ -492,19 +540,19 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -512,31 +560,31 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1161,
+  "miejsce": 1149,
   "miejsceWMarce": 48,
   "modeliWMarce": 54,
-  "sredniRocznik": 2019.7
+  "sredniRocznik": 2019.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "r8",

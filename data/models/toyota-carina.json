@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Carina – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CARINA, CARINA 1.6 KAT, CARINA II 2.0D, CARINA 1.6, CARINA E).",
-  "liczbaWPolsce": 18256,
-  "aktywne": 527,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Carina – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 46 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CARINA, CARINA 1.6 KAT, CARINA II 2.0D, CARINA 1.6, CARINA E).",
+  "liczbaWPolsce": 18260,
+  "aktywne": 531,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,11 +27,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 1250
+    "liczba": 1251
    },
    {
     "teryt": "08",
-    "liczba": 408
+    "liczba": 409
    },
    {
     "teryt": "10",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 1131
+    "liczba": 1133
    },
    {
     "teryt": "14",
@@ -138,7 +138,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 1394
+    "liczba": 1395
    },
    {
     "rok": 1994,
@@ -146,11 +146,11 @@
    },
    {
     "rok": 1995,
-    "liczba": 2441
+    "liczba": 2443
    },
    {
     "rok": 1996,
-    "liczba": 3193
+    "liczba": 3194
    },
    {
     "rok": 1997,
@@ -164,11 +164,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 6480
+    "liczba": 6483
    },
    {
     "nazwa": "Diesel",
-    "liczba": 4678
+    "liczba": 4679
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -186,15 +186,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 9035
+    "liczba": 9037
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 7975
+    "liczba": 7976
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 1078
+    "liczba": 1079
    },
    {
     "nazwa": "Inne / brak danych",
@@ -204,11 +204,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 13746
+    "liczba": 13747
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2253
+    "liczba": 2256
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -226,7 +226,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 7521
+    "liczba": 7524
    },
    {
     "nazwa": "Hatchback",
@@ -234,20 +234,24 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1378
+    "liczba": 1379
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5416
    }
   ],
-  "noweOdPaczki": 42,
+  "noweOdPaczki": 46,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2021,
@@ -275,6 +279,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -533,7 +581,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -541,11 +589,11 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -553,7 +601,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -564,7 +612,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 226,
+  "miejsce": 230,
   "miejsceWMarce": 14,
   "modeliWMarce": 43,
   "sredniRocznik": 1993.1
@@ -573,7 +621,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "carina",

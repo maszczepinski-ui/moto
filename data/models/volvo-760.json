@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 760 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 760, 760 2.4D TURBO, 760 2.4D, 760 2.8 KAT, 760 GLE).",
-  "liczbaWPolsce": 518,
-  "aktywne": 50,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 760 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 36 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 760, 760 2.4D TURBO, 760 2.4D, 760 2.8 KAT, 760 GLE).",
+  "liczbaWPolsce": 520,
+  "aktywne": 52,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,7 +38,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "14",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "26",
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 44
+    "liczba": 45
    },
    {
     "rok": 1988,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 55
+    "liczba": 56
    },
    {
     "rok": 1990,
@@ -155,7 +155,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 103
+    "liczba": 105
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -177,11 +177,11 @@
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 115
+    "liczba": 116
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 109
+    "liczba": 110
    },
    {
     "nazwa": "2,0 l",
@@ -199,7 +199,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 346
+    "liczba": 348
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -217,7 +217,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 236
+    "liczba": 238
    },
    {
     "nazwa": "Kombi",
@@ -232,10 +232,18 @@
     "liczba": 197
    }
   ],
-  "noweOdPaczki": 34,
+  "noweOdPaczki": 36,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2021,
     "liczba": 8
@@ -262,6 +270,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -532,11 +584,11 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -551,7 +603,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 957,
+  "miejsce": 965,
   "miejsceWMarce": 27,
   "modeliWMarce": 34,
   "sredniRocznik": 1987.1
@@ -560,7 +612,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "760",

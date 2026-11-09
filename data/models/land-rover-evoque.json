@@ -13,38 +13,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Land Rover Evoque – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 773 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVOQUE, EVOQUE 4WD).",
-  "liczbaWPolsce": 881,
-  "aktywne": 862,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Land Rover Evoque – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 817 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EVOQUE, EVOQUE 4WD).",
+  "liczbaWPolsce": 925,
+  "aktywne": 906,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 58
-   },
-   {
-    "teryt": "04",
-    "liczba": 27
-   },
-   {
-    "teryt": "06",
     "liczba": 62
    },
    {
+    "teryt": "04",
+    "liczba": 29
+   },
+   {
+    "teryt": "06",
+    "liczba": 64
+   },
+   {
     "teryt": "08",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "10",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "12",
-    "liczba": 125
+    "liczba": 127
    },
    {
     "teryt": "14",
-    "liczba": 151
+    "liczba": 157
    },
    {
     "teryt": "16",
@@ -52,11 +52,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 50
+    "liczba": 54
    },
    {
     "teryt": "20",
-    "liczba": 24
+    "liczba": 27
    },
    {
     "teryt": "22",
@@ -64,11 +64,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 72
+    "liczba": 75
    },
    {
     "teryt": "26",
-    "liczba": 32
+    "liczba": 37
    },
    {
     "teryt": "28",
@@ -76,50 +76,50 @@
    },
    {
     "teryt": "30",
-    "liczba": 73
+    "liczba": 80
    },
    {
     "teryt": "32",
-    "liczba": 33
+    "liczba": 36
    }
   ],
   "bezWojewodztwa": 7,
   "roczniki": [
    {
     "rok": 2011,
-    "liczba": 31
+    "liczba": 35
    },
    {
     "rok": 2012,
-    "liczba": 104
+    "liczba": 112
    },
    {
     "rok": 2013,
-    "liczba": 74
+    "liczba": 82
    },
    {
     "rok": 2014,
-    "liczba": 79
+    "liczba": 83
    },
    {
     "rok": 2015,
-    "liczba": 109
+    "liczba": 115
    },
    {
     "rok": 2016,
-    "liczba": 162
+    "liczba": 166
    },
    {
     "rok": 2017,
-    "liczba": 110
+    "liczba": 117
    },
    {
     "rok": 2018,
-    "liczba": 60
+    "liczba": 62
    },
    {
     "rok": 2019,
-    "liczba": 43
+    "liczba": 44
    },
    {
     "rok": 2020,
@@ -149,19 +149,19 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 415
+    "liczba": 442
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 407
+    "liczba": 422
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -175,11 +175,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 694
+    "liczba": 720
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 177
+    "liczba": 195
    },
    {
     "nazwa": "Inne / brak danych",
@@ -189,11 +189,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 590
+    "liczba": 609
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 283
+    "liczba": 308
    },
    {
     "nazwa": "Inne / brak danych",
@@ -203,40 +203,44 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 411
+    "liczba": 433
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 226
+    "liczba": 233
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 96
+    "liczba": 104
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 78
+    "liczba": 81
    },
    {
     "nazwa": "Van",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Coupe",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 38
+    "liczba": 40
    }
   ],
-  "noweOdPaczki": 773,
-  "hybrydy": 28,
+  "noweOdPaczki": 817,
+  "hybrydy": 29,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 8
+   },
+   {
     "rok": 2020,
-    "liczba": 34
+    "liczba": 70
    },
    {
     "rok": 2021,
@@ -264,6 +268,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 11
@@ -514,65 +562,60 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 15
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 12
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 15
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 16
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 14
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 10
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 13
    }
   ],
-  "miejsce": 813,
+  "miejsce": 811,
   "miejsceWMarce": 5,
   "modeliWMarce": 6,
-  "sredniRocznik": 2015.8
+  "sredniRocznik": 2015.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "land-rover",
  "modelSlug": "evoque",
  "adres": "/marki/land-rover/evoque/",
  "konkurenci": [
-  {
-   "slug": "skoda-superb",
-   "nazwa": "Skoda Superb",
-   "adres": "/marki/skoda/superb/"
-  },
   {
    "slug": "audi-q5",
    "nazwa": "Audi Q5",
@@ -587,6 +630,11 @@
    "slug": "bmw-x3",
    "nazwa": "BMW X3",
    "adres": "/marki/bmw/x3/"
+  },
+  {
+   "slug": "skoda-superb",
+   "nazwa": "Skoda Superb",
+   "adres": "/marki/skoda/superb/"
   },
   {
    "slug": "volvo-v60",

@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Space – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 71 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPACE WAGON, SPACE, SPACE WAGON 2.0 KAT, SPACE WAGON 2.0, SPACE WAGON 2.0 TD).",
-  "liczbaWPolsce": 1858,
-  "aktywne": 290,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Space – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 84 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPACE WAGON, SPACE, SPACE WAGON 2.0 KAT, SPACE WAGON 2.0, SPACE WAGON 2.0 TD).",
+  "liczbaWPolsce": 1871,
+  "aktywne": 303,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 156
+    "liczba": 157
    },
    {
     "teryt": "04",
@@ -32,11 +32,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "teryt": "10",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "teryt": "12",
@@ -48,7 +48,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "18",
@@ -56,15 +56,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "teryt": "22",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "teryt": "24",
-    "liczba": 153
+    "liczba": 155
    },
    {
     "teryt": "26",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 146
+    "liczba": 151
    },
    {
     "teryt": "32",
@@ -151,31 +151,31 @@
    },
    {
     "rok": 1999,
-    "liczba": 192
+    "liczba": 194
    },
    {
     "rok": 2000,
-    "liczba": 125
+    "liczba": 128
    },
    {
     "rok": 2001,
-    "liczba": 73
+    "liczba": 74
    },
    {
     "rok": 2002,
-    "liczba": 90
+    "liczba": 92
    },
    {
     "rok": 2003,
-    "liczba": 64
+    "liczba": 66
    },
    {
     "rok": 2004,
-    "liczba": 56
+    "liczba": 58
    },
    {
     "rok": 2005,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 2006,
@@ -241,11 +241,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 788
+    "liczba": 798
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 482
+    "liczba": 485
    },
    {
     "nazwa": "Diesel",
@@ -263,11 +263,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1054
+    "liczba": 1056
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 370
+    "liczba": 380
    },
    {
     "nazwa": "1,8 l",
@@ -279,7 +279,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "nazwa": "1,9 l",
@@ -297,11 +297,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 975
+    "liczba": 976
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 800
+    "liczba": 810
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -309,21 +309,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 29
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 768
+    "liczba": 774
    },
    {
     "nazwa": "Kombi",
-    "liczba": 498
+    "liczba": 500
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 168
+    "liczba": 169
    },
    {
     "nazwa": "Sedan",
@@ -331,20 +331,24 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 70
+    "liczba": 74
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 258
    }
   ],
-  "noweOdPaczki": 71,
+  "noweOdPaczki": 84,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
     "rok": 2020,
-    "liczba": 13
+    "liczba": 21
    },
    {
     "rok": 2021,
@@ -372,6 +376,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -626,11 +674,11 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -654,23 +702,23 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 637,
+  "miejsce": 640,
   "miejsceWMarce": 11,
-  "modeliWMarce": 20,
+  "modeliWMarce": 21,
   "sredniRocznik": 1996.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "space",

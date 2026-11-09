@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 500E – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 231 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 500E).",
-  "liczbaWPolsce": 231,
-  "aktywne": 231,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 500E – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 287 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 500E).",
+  "liczbaWPolsce": 287,
+  "aktywne": 287,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "04",
@@ -25,27 +25,27 @@
    },
    {
     "teryt": "06",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "08",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "teryt": "10",
-    "liczba": 10
+    "liczba": 14
    },
    {
     "teryt": "12",
-    "liczba": 42
+    "liczba": 62
    },
    {
     "teryt": "14",
-    "liczba": 68
+    "liczba": 79
    },
    {
     "teryt": "16",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "18",
@@ -53,15 +53,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 4
+    "liczba": 6
    },
    {
     "teryt": "22",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "24",
-    "liczba": 18
+    "liczba": 25
    },
    {
     "teryt": "26",
@@ -69,11 +69,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "30",
-    "liczba": 18
+    "liczba": 22
    },
    {
     "teryt": "32",
@@ -104,31 +104,31 @@
    },
    {
     "rok": 2013,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2014,
-    "liczba": 21
+    "liczba": 23
    },
    {
     "rok": 2015,
-    "liczba": 47
+    "liczba": 54
    },
    {
     "rok": 2016,
-    "liczba": 37
+    "liczba": 72
    },
    {
     "rok": 2017,
-    "liczba": 64
+    "liczba": 72
    },
    {
     "rok": 2018,
-    "liczba": 2
+    "liczba": 4
    },
    {
     "rok": 2019,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2020,
@@ -158,7 +158,7 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 230
+    "liczba": 286
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,44 +168,48 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 231
+    "liczba": 287
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 145
+    "liczba": 163
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 86
+    "liczba": 124
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 218
+    "liczba": 271
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
     "liczba": 5
    },
    {
+    "nazwa": "Coupe",
+    "liczba": 4
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 7
    }
   ],
-  "noweOdPaczki": 231,
+  "noweOdPaczki": 287,
   "hybrydy": 0,
-  "elektryczne": 230,
+  "elektryczne": 286,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 2
+    "liczba": 16
    },
    {
     "rok": 2020,
-    "liczba": 41
+    "liczba": 83
    },
    {
     "rok": 2021,
@@ -233,6 +237,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 10
@@ -487,51 +535,51 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 1232,
-  "miejsceWMarce": 60,
+  "miejsce": 1162,
+  "miejsceWMarce": 57,
   "modeliWMarce": 61,
-  "sredniRocznik": 2017.0
+  "sredniRocznik": 2016.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "500e",

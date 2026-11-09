@@ -11,22 +11,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Cts – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 211 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CTS).",
-  "liczbaWPolsce": 387,
-  "aktywne": 292,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Cts – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 229 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CTS).",
+  "liczbaWPolsce": 405,
+  "aktywne": 310,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "04",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "06",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "08",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "12",
@@ -42,31 +42,31 @@
    },
    {
     "teryt": "14",
-    "liczba": 66
+    "liczba": 71
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "18",
-    "liczba": 25
-   },
-   {
-    "teryt": "20",
-    "liczba": 13
-   },
-   {
-    "teryt": "22",
     "liczba": 26
    },
    {
+    "teryt": "20",
+    "liczba": 14
+   },
+   {
+    "teryt": "22",
+    "liczba": 27
+   },
+   {
     "teryt": "24",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "26",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "28",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 6,
@@ -93,15 +93,15 @@
    },
    {
     "rok": 2004,
-    "liczba": 44
+    "liczba": 45
    },
    {
     "rok": 2005,
-    "liczba": 37
+    "liczba": 38
    },
    {
     "rok": 2006,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 2007,
@@ -109,15 +109,15 @@
    },
    {
     "rok": 2008,
-    "liczba": 42
+    "liczba": 45
    },
    {
     "rok": 2009,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 2010,
-    "liczba": 22
+    "liczba": 24
    },
    {
     "rok": 2011,
@@ -125,23 +125,23 @@
    },
    {
     "rok": 2012,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2013,
-    "liczba": 15
+    "liczba": 19
    },
    {
     "rok": 2014,
-    "liczba": 48
+    "liczba": 49
    },
    {
     "rok": 2015,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2016,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2017,
@@ -159,11 +159,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 315
+    "liczba": 330
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 69
+    "liczba": 72
    },
    {
     "nazwa": "Inne / brak danych",
@@ -173,15 +173,15 @@
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 182
+    "liczba": 193
+   },
+   {
+    "nazwa": "2,0 l",
+    "liczba": 68
    },
    {
     "nazwa": "3,2 l",
     "liczba": 67
-   },
-   {
-    "nazwa": "2,0 l",
-    "liczba": 62
    },
    {
     "nazwa": "2,8 l",
@@ -193,7 +193,7 @@
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "nazwa": "6,2 l",
@@ -207,11 +207,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 216
+    "liczba": 222
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 159
+    "liczba": 171
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -225,7 +225,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 338
+    "liczba": 355
    },
    {
     "nazwa": "Coupe",
@@ -236,11 +236,11 @@
     "liczba": 7
    },
    {
-    "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5
+    "nazwa": "Kombi",
+    "liczba": 6
    },
    {
-    "nazwa": "Kombi",
+    "nazwa": "Wielozadaniowy (SUV, minivan)",
     "liczba": 5
    },
    {
@@ -248,17 +248,17 @@
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 211,
+  "noweOdPaczki": 229,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 8
    },
    {
     "rok": 2020,
-    "liczba": 19
+    "liczba": 30
    },
    {
     "rok": 2021,
@@ -286,6 +286,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 5
@@ -536,11 +580,11 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
@@ -548,11 +592,11 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
@@ -560,31 +604,31 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 1056,
+  "miejsce": 1052,
   "miejsceWMarce": 3,
   "modeliWMarce": 8,
-  "sredniRocznik": 2008.9
+  "sredniRocznik": 2009.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "cadillac",
  "modelSlug": "cts",

@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 224 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV3).",
-  "liczbaWPolsce": 1224,
-  "aktywne": 1224,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 225 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV3).",
+  "liczbaWPolsce": 1225,
+  "aktywne": 1225,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 540
+    "liczba": 541
    },
    {
     "teryt": "16",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2025,
-    "liczba": 643
+    "liczba": 644
    },
    {
     "rok": 2026,
@@ -98,19 +98,19 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1224
+    "liczba": 1225
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1224
+    "liczba": 1225
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1152
+    "liczba": 1153
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -128,12 +128,12 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1224
+    "liczba": 1225
    }
   ],
-  "noweOdPaczki": 1224,
+  "noweOdPaczki": 1225,
   "hybrydy": 0,
-  "elektryczne": 1224,
+  "elektryczne": 1225,
   "pierwszeRejestracje": [
    {
     "rok": 2024,
@@ -145,10 +145,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 252
+    "liczba": 253
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -399,47 +443,47 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 28
+    "liczba": 36
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 18
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 20
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 24
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 19
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 26
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 25
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 15
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 58
    }
   ],
-  "miejsce": 741,
-  "miejsceWMarce": 22,
+  "miejsce": 743,
+  "miejsceWMarce": 23,
   "modeliWMarce": 33,
   "sredniRocznik": 2024.6
  },
@@ -447,7 +491,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "ev3",

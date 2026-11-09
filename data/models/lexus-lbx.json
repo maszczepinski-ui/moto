@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus LBX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 075 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS LBX, LBX).",
-  "liczbaWPolsce": 7075,
-  "aktywne": 7075,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus LBX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 078 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS LBX, LBX).",
+  "liczbaWPolsce": 7078,
+  "aktywne": 7078,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 898
+    "liczba": 900
    },
    {
     "teryt": "14",
-    "liczba": 1681
+    "liczba": 1682
    },
    {
     "teryt": "16",
@@ -96,13 +96,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 732
+    "liczba": 735
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 6745
+    "liczba": 6748
    },
    {
     "nazwa": "Benzyna",
@@ -116,13 +116,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 7075
+    "liczba": 7078
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6438
+    "liczba": 6441
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -140,15 +140,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 7066
+    "liczba": 7069
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 7075,
-  "hybrydy": 6745,
+  "noweOdPaczki": 7078,
+  "hybrydy": 6748,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -161,10 +161,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 1837
+    "liczba": 1840
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -415,46 +459,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 150
+    "liczba": 177
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 195
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 239
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 187
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 185
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 178
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 158
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 152
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 207
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 187
    }
   ],
-  "miejsce": 379,
+  "miejsce": 381,
   "miejsceWMarce": 6,
   "modeliWMarce": 13,
   "sredniRocznik": 2024.6
@@ -463,7 +507,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "lbx",
@@ -480,14 +524,14 @@
    "adres": "/marki/baic/beijing-3/"
   },
   {
-   "slug": "volkswagen-t-roc",
-   "nazwa": "Volkswagen T-Roc",
-   "adres": "/marki/volkswagen/t-roc/"
-  },
-  {
    "slug": "ssangyong-torres",
    "nazwa": "SsangYong (KGM) Torres",
    "adres": "/marki/ssangyong-kgm/torres/"
+  },
+  {
+   "slug": "volkswagen-t-roc",
+   "nazwa": "Volkswagen T-Roc",
+   "adres": "/marki/volkswagen/t-roc/"
   },
   {
    "slug": "cupra-leon",

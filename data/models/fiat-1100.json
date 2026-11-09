@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100).",
-  "liczbaWPolsce": 440,
-  "aktywne": 28,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 21 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100).",
+  "liczbaWPolsce": 443,
+  "aktywne": 31,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,11 +42,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 102
+    "liczba": 103
    },
    {
     "teryt": "16",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "18",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "26",
@@ -145,11 +145,11 @@
    },
    {
     "rok": 1962,
-    "liczba": 31
+    "liczba": 32
    },
    {
     "rok": 1963,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 1964,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 1966,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 1967,
@@ -343,7 +343,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 117
+    "liczba": 120
    },
    {
     "nazwa": "?+LPG",
@@ -357,11 +357,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 349
+    "liczba": 351
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "nazwa": "0,9 l",
@@ -387,7 +387,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 28
+    "liczba": 31
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -405,14 +405,14 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 346
+    "liczba": 348
    }
   ],
-  "noweOdPaczki": 18,
+  "noweOdPaczki": 21,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -422,7 +422,7 @@
    },
    {
     "rok": 2020,
-    "liczba": 1
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -450,6 +450,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -708,7 +752,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -716,7 +760,7 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -724,22 +768,22 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 1013,
+  "miejsce": 1018,
   "miejsceWMarce": 50,
   "modeliWMarce": 61,
   "sredniRocznik": 1968.5
@@ -748,7 +792,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "1100",

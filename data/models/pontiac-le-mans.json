@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac LE-Mans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LE MANS, LE MANS 1.6).",
-  "liczbaWPolsce": 544,
-  "aktywne": 25,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac LE-Mans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LE MANS, LE MANS 1.6).",
+  "liczbaWPolsce": 545,
+  "aktywne": 26,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 41
+    "liczba": 42
    }
   ],
   "bezWojewodztwa": 0,
@@ -130,7 +130,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1978,
@@ -212,7 +212,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 207
+    "liczba": 208
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -254,7 +254,7 @@
    },
    {
     "nazwa": "6,6 l",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "nazwa": "5,7 l",
@@ -268,7 +268,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 432
+    "liczba": 433
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -298,17 +298,21 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 272
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 20,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2020,
     "liczba": 1
@@ -339,6 +343,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -628,7 +676,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 942,
+  "miejsce": 949,
   "miejsceWMarce": 3,
   "modeliWMarce": 3,
   "sredniRocznik": 1987.8
@@ -637,7 +685,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "pontiac",
  "modelSlug": "le-mans",
@@ -659,14 +707,14 @@
    "adres": "/marki/saab/900/"
   },
   {
-   "slug": "opel-kadett",
-   "nazwa": "Opel Kadett",
-   "adres": "/marki/opel/kadett/"
-  },
-  {
    "slug": "audi-100",
    "nazwa": "Audi 100",
    "adres": "/marki/audi/100/"
+  },
+  {
+   "slug": "opel-kadett",
+   "nazwa": "Opel Kadett",
+   "adres": "/marki/opel/kadett/"
   }
  ]
 }

@@ -7,15 +7,16 @@
  "nadwozia": [
   "kombi",
   "sedan",
-  "coupe"
+  "coupe",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 236 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M 550D XDRIVE, M 235I, M 550, M).",
-  "liczbaWPolsce": 236,
-  "aktywne": 236,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 249 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M 550D XDRIVE, M 235I, M 550, M).",
+  "liczbaWPolsce": 249,
+  "aktywne": 249,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -43,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 46
+    "liczba": 50
    },
    {
     "teryt": "16",
@@ -55,27 +56,27 @@
    },
    {
     "teryt": "20",
-    "liczba": 3
-   },
-   {
-    "teryt": "22",
-    "liczba": 13
-   },
-   {
-    "teryt": "24",
-    "liczba": 18
-   },
-   {
-    "teryt": "26",
     "liczba": 4
    },
    {
-    "teryt": "28",
+    "teryt": "22",
+    "liczba": 16
+   },
+   {
+    "teryt": "24",
+    "liczba": 19
+   },
+   {
+    "teryt": "26",
     "liczba": 5
    },
    {
+    "teryt": "28",
+    "liczba": 6
+   },
+   {
     "teryt": "30",
-    "liczba": 35
+    "liczba": 37
    },
    {
     "teryt": "32",
@@ -86,7 +87,7 @@
   "roczniki": [
    {
     "rok": 1985,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1986,
@@ -94,7 +95,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1988,
@@ -142,7 +143,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2000,
@@ -198,19 +199,19 @@
    },
    {
     "rok": 2013,
-    "liczba": 30
-   },
-   {
-    "rok": 2014,
     "liczba": 34
    },
    {
+    "rok": 2014,
+    "liczba": 38
+   },
+   {
     "rok": 2015,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 2016,
-    "liczba": 29
+    "liczba": 30
    },
    {
     "rok": 2017,
@@ -244,17 +245,17 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 128
+    "liczba": 138
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 108
+    "liczba": 111
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 189
+    "liczba": 199
    },
    {
     "nazwa": "4,4 l",
@@ -266,35 +267,39 @@
    },
    {
     "nazwa": "3,4 l",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "nazwa": "3,5 l",
     "liczba": 3
    },
    {
+    "nazwa": "3,2 l",
+    "liczba": 3
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 3
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 158
+    "liczba": 162
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 78
+    "liczba": 87
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 86
+    "liczba": 93
    },
    {
     "nazwa": "Sedan",
-    "liczba": 81
+    "liczba": 85
    },
    {
     "nazwa": "Coupe",
@@ -302,24 +307,28 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 236,
+  "noweOdPaczki": 249,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 6
+   },
+   {
     "rok": 2020,
-    "liczba": 13
+    "liczba": 20
    },
    {
     "rok": 2021,
@@ -347,6 +356,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 3
@@ -597,11 +650,11 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 1
+    "liczba": 2
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-03",
@@ -609,43 +662,43 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 1227,
+  "miejsce": 1224,
   "miejsceWMarce": 41,
   "modeliWMarce": 43,
-  "sredniRocznik": 2014.0
+  "sredniRocznik": 2013.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "m",

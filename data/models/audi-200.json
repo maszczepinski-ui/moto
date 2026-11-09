@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 200, 200 2.1, 200 2.2 TURBO).",
-  "liczbaWPolsce": 786,
-  "aktywne": 38,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 200 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 24 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 200, 200 2.1, 200 2.2 TURBO).",
+  "liczbaWPolsce": 787,
+  "aktywne": 39,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 93
+    "liczba": 94
    },
    {
     "teryt": "16",
@@ -124,7 +124,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 42
+    "liczba": 43
    },
    {
     "rok": 1989,
@@ -166,7 +166,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 209
+    "liczba": 210
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -192,7 +192,7 @@
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 227
+    "liczba": 228
    },
    {
     "nazwa": "2,0 l",
@@ -226,7 +226,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 77
+    "liczba": 78
    },
    {
     "nazwa": "Inne / brak danych",
@@ -236,7 +236,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 313
+    "liczba": 314
    },
    {
     "nazwa": "Hatchback",
@@ -251,10 +251,14 @@
     "liczba": 447
    }
   ],
-  "noweOdPaczki": 23,
+  "noweOdPaczki": 24,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2021,
     "liczba": 3
@@ -281,6 +285,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -543,7 +591,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -551,27 +599,27 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 838,
-  "miejsceWMarce": 37,
+  "miejsce": 843,
+  "miejsceWMarce": 38,
   "modeliWMarce": 54,
   "sredniRocznik": 1986.4
  },
@@ -579,7 +627,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "200",

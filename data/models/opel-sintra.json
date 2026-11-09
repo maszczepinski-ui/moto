@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Sintra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SINTRA, SINTRA 2.2 KAT, SINTRA 2.2 16V, SINTRA 2.2 TD, SINTRA 2.2).",
-  "liczbaWPolsce": 2105,
-  "aktywne": 216,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Sintra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SINTRA, SINTRA 2.2 KAT, SINTRA 2.2 16V, SINTRA 2.2 TD, SINTRA 2.2).",
+  "liczbaWPolsce": 2108,
+  "aktywne": 219,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 174
+    "liczba": 175
    },
    {
     "teryt": "04",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 92
+    "liczba": 93
    },
    {
     "teryt": "14",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 117
+    "liczba": 118
    }
   ],
   "bezWojewodztwa": 5,
@@ -94,25 +94,25 @@
    },
    {
     "rok": 1998,
-    "liczba": 585
+    "liczba": 586
    },
    {
     "rok": 1999,
-    "liczba": 559
+    "liczba": 560
    },
    {
     "rok": 2000,
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1122
+    "liczba": 1124
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 501
+    "liczba": 502
    },
    {
     "nazwa": "Diesel",
@@ -126,7 +126,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,2 l",
-    "liczba": 1834
+    "liczba": 1837
    },
    {
     "nazwa": "3,0 l",
@@ -140,11 +140,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1152
+    "liczba": 1153
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 936
+    "liczba": 938
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,7 +158,7 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 313
+    "liczba": 315
    },
    {
     "nazwa": "Hatchback",
@@ -170,20 +170,20 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 60
    }
   ],
-  "noweOdPaczki": 12,
+  "noweOdPaczki": 15,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 6
    },
    {
     "rok": 2021,
@@ -203,6 +203,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -481,7 +525,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -492,7 +536,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 603,
+  "miejsce": 612,
   "miejsceWMarce": 24,
   "modeliWMarce": 33,
   "sredniRocznik": 1997.8
@@ -501,7 +545,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "sintra",

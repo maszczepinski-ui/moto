@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi S7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 605 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S7 SPORTBACK, S7).",
-  "liczbaWPolsce": 605,
-  "aktywne": 605,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi S7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 640 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S7 SPORTBACK, S7).",
+  "liczbaWPolsce": 640,
+  "aktywne": 640,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 41
+    "liczba": 44
    },
    {
     "teryt": "04",
@@ -35,23 +35,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "12",
-    "liczba": 56
+    "liczba": 59
    },
    {
     "teryt": "14",
-    "liczba": 118
+    "liczba": 125
    },
    {
     "teryt": "16",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "18",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "teryt": "20",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 47
+    "liczba": 49
    },
    {
     "teryt": "24",
-    "liczba": 75
+    "liczba": 78
    },
    {
     "teryt": "26",
@@ -71,30 +71,30 @@
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 14
    },
    {
     "teryt": "30",
-    "liczba": 70
+    "liczba": 76
    },
    {
     "teryt": "32",
-    "liczba": 28
+    "liczba": 30
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 2013,
-    "liczba": 32
+    "liczba": 35
    },
    {
     "rok": 2014,
-    "liczba": 25
+    "liczba": 28
    },
    {
     "rok": 2015,
@@ -102,11 +102,11 @@
    },
    {
     "rok": 2016,
-    "liczba": 36
+    "liczba": 43
    },
    {
     "rok": 2017,
-    "liczba": 31
+    "liczba": 32
    },
    {
     "rok": 2018,
@@ -114,11 +114,11 @@
    },
    {
     "rok": 2019,
-    "liczba": 44
+    "liczba": 57
    },
    {
     "rok": 2020,
-    "liczba": 47
+    "liczba": 54
    },
    {
     "rok": 2021,
@@ -144,29 +144,29 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 277
+    "liczba": 293
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 201
+    "liczba": 216
    },
    {
     "nazwa": "Diesel",
-    "liczba": 124
+    "liczba": 127
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 404
+    "liczba": 424
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 179
+    "liczba": 194
    },
    {
     "nazwa": "2,9 l",
@@ -180,11 +180,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 242
+    "liczba": 271
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 188
+    "liczba": 194
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -198,15 +198,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 496
+    "liczba": 522
    },
    {
     "nazwa": "Coupe",
-    "liczba": 51
+    "liczba": 53
    },
    {
     "nazwa": "Sedan",
-    "liczba": 43
+    "liczba": 48
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -214,16 +214,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 7
    }
   ],
-  "noweOdPaczki": 605,
-  "hybrydy": 280,
+  "noweOdPaczki": 640,
+  "hybrydy": 297,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 36
+    "liczba": 69
    },
    {
     "rok": 2021,
@@ -251,6 +255,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 7
+   },
    {
     "miesiac": "2020-11",
     "liczba": 6
@@ -501,55 +549,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 5
+    "liczba": 7
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 914,
-  "miejsceWMarce": 43,
+  "miejsce": 903,
+  "miejsceWMarce": 42,
   "modeliWMarce": 54,
-  "sredniRocznik": 2019.9
+  "sredniRocznik": 2019.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "s7",

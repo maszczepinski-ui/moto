@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Traveller – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 657 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAVELLER).",
-  "liczbaWPolsce": 657,
-  "aktywne": 657,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Traveller – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 658 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAVELLER).",
+  "liczbaWPolsce": 658,
+  "aktywne": 658,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 147
+    "liczba": 148
    },
    {
     "teryt": "16",
@@ -124,13 +124,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 171
+    "liczba": 172
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 640
+    "liczba": 641
    },
    {
     "nazwa": "Benzyna",
@@ -148,7 +148,7 @@
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 144
+    "liczba": 145
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,7 +158,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 529
+    "liczba": 530
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -176,7 +176,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 636
+    "liczba": 637
    },
    {
     "nazwa": "Van",
@@ -187,7 +187,7 @@
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 657,
+  "noweOdPaczki": 658,
   "hybrydy": 2,
   "elektryczne": 2,
   "pierwszeRejestracje": [
@@ -209,10 +209,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 247
+    "liczba": 248
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -463,46 +507,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 6
+    "liczba": 19
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 30
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 33
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 14
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 37
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 20
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 44
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 12
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 16
    }
   ],
-  "miejsce": 889,
+  "miejsce": 894,
   "miejsceWMarce": 40,
   "modeliWMarce": 45,
   "sredniRocznik": 2024.7
@@ -511,7 +555,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "traveller",

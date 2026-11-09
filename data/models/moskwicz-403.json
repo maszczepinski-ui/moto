@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 403 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 403).",
-  "liczbaWPolsce": 317,
-  "aktywne": 3,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Moskwicz 403 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 403).",
+  "liczbaWPolsce": 318,
+  "aktywne": 4,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "24",
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1965,
-    "liczba": 90
+    "liczba": 91
    },
    {
     "rok": 1966,
@@ -226,7 +226,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "?+LPG",
@@ -240,7 +240,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 268
+    "liczba": 269
    },
    {
     "nazwa": "1,2 l",
@@ -270,23 +270,27 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 255
    }
   ],
-  "noweOdPaczki": 3,
+  "noweOdPaczki": 4,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2021,
     "liczba": 1
@@ -301,6 +305,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -590,7 +638,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1125,
+  "miejsce": 1130,
   "miejsceWMarce": 5,
   "modeliWMarce": 5,
   "sredniRocznik": 1965.7
@@ -599,7 +647,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "moskwicz",
  "modelSlug": "403",

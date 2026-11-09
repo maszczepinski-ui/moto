@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Safrane – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 39 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SAFRANE, SAFRANE 2.2 KAT, SAFRANE 3.0 KAT, SAFRANE 2.0 KAT, SAFRANE 2.2).",
-  "liczbaWPolsce": 3247,
-  "aktywne": 143,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Safrane – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 45 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SAFRANE, SAFRANE 2.2 KAT, SAFRANE 3.0 KAT, SAFRANE 2.0 KAT, SAFRANE 2.2).",
+  "liczbaWPolsce": 3253,
+  "aktywne": 149,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 200
+    "liczba": 202
    },
    {
     "teryt": "12",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 137
+    "liczba": 138
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "teryt": "24",
-    "liczba": 274
+    "liczba": 276
    },
    {
     "teryt": "26",
@@ -85,7 +85,7 @@
   "roczniki": [
    {
     "rok": 1992,
-    "liczba": 190
+    "liczba": 191
    },
    {
     "rok": 1993,
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 292
+    "liczba": 293
    },
    {
     "rok": 1997,
@@ -109,29 +109,29 @@
    },
    {
     "rok": 1998,
-    "liczba": 196
+    "liczba": 198
    },
    {
     "rok": 1999,
-    "liczba": 177
+    "liczba": 178
    },
    {
     "rok": 2000,
-    "liczba": 111
+    "liczba": 112
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1255
+    "liczba": 1258
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 926
+    "liczba": 928
    },
    {
     "nazwa": "Diesel",
-    "liczba": 599
+    "liczba": 600
    },
    {
     "nazwa": "?+LPG",
@@ -145,11 +145,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,2 l",
-    "liczba": 1224
+    "liczba": 1225
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 520
+    "liczba": 521
    },
    {
     "nazwa": "2,0 l",
@@ -161,7 +161,7 @@
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 260
+    "liczba": 264
    },
    {
     "nazwa": "2,1 l",
@@ -183,11 +183,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2070
+    "liczba": 2072
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1003
+    "liczba": 1007
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -205,24 +205,24 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1874
+    "liczba": 1878
    },
    {
     "nazwa": "Sedan",
-    "liczba": 701
+    "liczba": 703
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 672
    }
   ],
-  "noweOdPaczki": 39,
+  "noweOdPaczki": 45,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 4
+    "liczba": 10
    },
    {
     "rok": 2021,
@@ -250,6 +250,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -512,7 +556,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -536,11 +580,11 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 508,
-  "miejsceWMarce": 24,
+  "miejsce": 517,
+  "miejsceWMarce": 25,
   "modeliWMarce": 48,
   "sredniRocznik": 1995.0
  },
@@ -548,7 +592,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "safrane",

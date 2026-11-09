@@ -14,10 +14,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Monterey – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 61 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MONTEREY, MONTEREY 3.1 TD, MONTEREY 3.2 KAT, MONTEREY 3,1 TD, MONTEREY 3.1 D).",
-  "liczbaWPolsce": 1305,
-  "aktywne": 192,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Monterey – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 63 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MONTEREY, MONTEREY 3.1 TD, MONTEREY 3.2 KAT, MONTEREY 3,1 TD, MONTEREY 3.1 D).",
+  "liczbaWPolsce": 1307,
+  "aktywne": 194,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,11 +25,11 @@
    },
    {
     "teryt": "04",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "06",
-    "liczba": 113
+    "liczba": 114
    },
    {
     "teryt": "08",
@@ -92,7 +92,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 348
+    "liczba": 349
    },
    {
     "rok": 1994,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 84
+    "liczba": 85
    },
    {
     "rok": 1998,
@@ -130,11 +130,11 @@
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 199
+    "liczba": 200
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 106
+    "liczba": 107
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,7 +148,7 @@
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 294
+    "liczba": 296
    },
    {
     "nazwa": "3,0 l",
@@ -170,7 +170,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 447
+    "liczba": 449
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -188,11 +188,11 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 102
+    "liczba": 103
    },
    {
     "nazwa": "Van",
@@ -211,13 +211,13 @@
     "liczba": 204
    }
   ],
-  "noweOdPaczki": 61,
+  "noweOdPaczki": 63,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2021,
@@ -245,6 +245,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -503,7 +547,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -534,7 +578,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 724,
+  "miejsce": 729,
   "miejsceWMarce": 27,
   "modeliWMarce": 33,
   "sredniRocznik": 1994.5
@@ -543,7 +587,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "monterey",

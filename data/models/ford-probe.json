@@ -12,22 +12,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Probe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 128 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROBE, PROBE 2.2, PROBE 2.2 KAT, PROBE 2.5 KAT, PROBE 2.0 KAT).",
-  "liczbaWPolsce": 3227,
-  "aktywne": 271,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Probe – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 144 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PROBE, PROBE 2.2, PROBE 2.2 KAT, PROBE 2.5 KAT, PROBE 2.0 KAT).",
+  "liczbaWPolsce": 3243,
+  "aktywne": 287,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 364
+    "liczba": 368
    },
    {
     "teryt": "04",
-    "liczba": 183
+    "liczba": 184
    },
    {
     "teryt": "06",
-    "liczba": 189
+    "liczba": 192
    },
    {
     "teryt": "08",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 202
+    "liczba": 203
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 430
+    "liczba": 431
    },
    {
     "teryt": "16",
@@ -51,11 +51,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 127
+    "liczba": 128
    },
    {
     "teryt": "20",
-    "liczba": 92
+    "liczba": 93
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 351
+    "liczba": 354
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 264
+    "liczba": 265
    },
    {
     "teryt": "32",
@@ -98,31 +98,31 @@
    },
    {
     "rok": 1991,
-    "liczba": 453
+    "liczba": 454
    },
    {
     "rok": 1992,
-    "liczba": 332
+    "liczba": 334
    },
    {
     "rok": 1993,
-    "liczba": 526
+    "liczba": 527
    },
    {
     "rok": 1994,
-    "liczba": 504
+    "liczba": 508
    },
    {
     "rok": 1995,
-    "liczba": 324
+    "liczba": 326
    },
    {
     "rok": 1996,
-    "liczba": 250
+    "liczba": 253
    },
    {
     "rok": 1997,
-    "liczba": 172
+    "liczba": 175
    },
    {
     "rok": 1998,
@@ -132,11 +132,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1843
+    "liczba": 1857
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 722
+    "liczba": 724
    },
    {
     "nazwa": "?+LPG",
@@ -150,15 +150,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,2 l",
-    "liczba": 1496
+    "liczba": 1498
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 859
+    "liczba": 866
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 787
+    "liczba": 794
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,11 +168,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 2112
+    "liczba": 2118
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 920
+    "liczba": 930
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -190,28 +190,32 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1502
+    "liczba": 1514
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 674
+    "liczba": 677
    },
    {
     "nazwa": "Sedan",
-    "liczba": 330
+    "liczba": 331
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 721
    }
   ],
-  "noweOdPaczki": 128,
+  "noweOdPaczki": 144,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
     "rok": 2020,
-    "liczba": 14
+    "liczba": 25
    },
    {
     "rok": 2021,
@@ -235,10 +239,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 15
+    "liczba": 16
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 4
@@ -497,7 +545,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -505,15 +553,15 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-08",
@@ -521,23 +569,23 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 509,
+  "miejsce": 520,
   "miejsceWMarce": 27,
-  "modeliWMarce": 46,
+  "modeliWMarce": 47,
   "sredniRocznik": 1992.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "probe",

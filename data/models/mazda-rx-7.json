@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda RX-7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 94 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RX-7).",
-  "liczbaWPolsce": 243,
-  "aktywne": 122,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda RX-7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 98 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RX-7).",
+  "liczbaWPolsce": 247,
+  "aktywne": 126,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "04",
@@ -40,7 +40,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "14",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "24",
@@ -91,7 +91,7 @@
    },
    {
     "rok": 1980,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 1981,
@@ -111,7 +111,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 1986,
@@ -135,7 +135,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 1992,
@@ -143,7 +143,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 1994,
@@ -189,7 +189,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 178
+    "liczba": 182
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -203,11 +203,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,3 l",
-    "liczba": 158
+    "liczba": 161
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "nazwa": "2,0 l",
@@ -232,12 +232,12 @@
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 114
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 115
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 112
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 115
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -255,7 +255,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 136
+    "liczba": 140
    },
    {
     "nazwa": "Sedan",
@@ -274,13 +274,17 @@
     "liczba": 62
    }
   ],
-  "noweOdPaczki": 94,
+  "noweOdPaczki": 98,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 8
+    "liczba": 10
    },
    {
     "rok": 2021,
@@ -304,10 +308,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 17
+    "liczba": 18
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -562,15 +610,15 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -578,26 +626,26 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 1220,
+  "miejsce": 1227,
   "miejsceWMarce": 31,
   "modeliWMarce": 33,
   "sredniRocznik": 1988.6
@@ -606,7 +654,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "rx-7",

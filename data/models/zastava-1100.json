@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Zastava 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100, ZASTAVA 1100P GT55, 1100 P, 1100P, ZASTAVA 1100P).",
-  "liczbaWPolsce": 30976,
-  "aktywne": 66,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Zastava 1100 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 15 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1100, ZASTAVA 1100P GT55, 1100 P, 1100P, ZASTAVA 1100P).",
+  "liczbaWPolsce": 30978,
+  "aktywne": 68,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 300
+    "liczba": 301
    },
    {
     "teryt": "04",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 5206
+    "liczba": 5207
    },
    {
     "teryt": "16",
@@ -136,11 +136,11 @@
    },
    {
     "rok": 1988,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 1989,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 1990,
@@ -150,7 +150,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3452
+    "liczba": 3454
    },
    {
     "nazwa": "?+LPG",
@@ -164,7 +164,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 29733
+    "liczba": 29735
    },
    {
     "nazwa": "Inne / brak danych",
@@ -182,7 +182,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 390
+    "liczba": 392
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -196,24 +196,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2731
+    "liczba": 2732
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 651
+    "liczba": 652
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 27594
    }
   ],
-  "noweOdPaczki": 13,
+  "noweOdPaczki": 15,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -237,6 +237,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -519,14 +563,14 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 166,
+  "miejsce": 167,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 1979.1
@@ -535,7 +579,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "zastava",
  "modelSlug": "1100",

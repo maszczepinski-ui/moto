@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Aygo X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 187 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOYOTA AYGO X, AYGO X).",
-  "liczbaWPolsce": 19187,
-  "aktywne": 19187,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Aygo X – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 198 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOYOTA AYGO X, AYGO X).",
+  "liczbaWPolsce": 19198,
+  "aktywne": 19198,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1551
+    "liczba": 1552
    },
    {
     "teryt": "04",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 2083
+    "liczba": 2085
    },
    {
     "teryt": "14",
@@ -45,7 +45,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 385
+    "liczba": 386
    },
    {
     "teryt": "18",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 3621
+    "liczba": 3628
    },
    {
     "teryt": "26",
@@ -100,17 +100,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 2165
+    "liczba": 2176
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 16367
+    "liczba": 16368
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 2712
+    "liczba": 2722
    },
    {
     "nazwa": "Inne / brak danych",
@@ -124,7 +124,7 @@
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 2799
+    "liczba": 2810
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,7 +134,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 16290
+    "liczba": 16301
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -152,15 +152,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 19180
+    "liczba": 19191
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 19187,
-  "hybrydy": 2712,
+  "noweOdPaczki": 19198,
+  "hybrydy": 2722,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -181,10 +181,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 3949
+    "liczba": 3960
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -435,46 +479,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 382
+    "liczba": 500
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 691
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 674
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 305
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 308
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 310
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 237
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 246
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 279
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 313
    }
   ],
-  "miejsce": 219,
+  "miejsce": 224,
   "miejsceWMarce": 13,
   "modeliWMarce": 43,
   "sredniRocznik": 2024.0
@@ -483,7 +527,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "aygo-x",

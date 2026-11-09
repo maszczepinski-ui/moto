@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hongqi HS3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 239 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: HONGQI HS3, HS3).",
-  "liczbaWPolsce": 239,
-  "aktywne": 239,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hongqi HS3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 240 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: HONGQI HS3, HS3).",
+  "liczbaWPolsce": 240,
+  "aktywne": 240,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "24",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2025,
-    "liczba": 206
+    "liczba": 207
    },
    {
     "rok": 2026,
@@ -98,7 +98,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 238
+    "liczba": 239
    },
    {
     "nazwa": "Inne / brak danych",
@@ -108,7 +108,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 180
+    "liczba": 181
    },
    {
     "nazwa": "2,0 l",
@@ -118,7 +118,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 205
+    "liczba": 206
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -136,14 +136,14 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 238
+    "liczba": 239
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 239,
+  "noweOdPaczki": 240,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -153,10 +153,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 179
+    "liczba": 180
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -407,46 +451,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 33
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 21
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 19
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 16
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 11
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 14
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 42
    }
   ],
-  "miejsce": 1226,
+  "miejsce": 1233,
   "miejsceWMarce": 2,
   "modeliWMarce": 2,
   "sredniRocznik": 2025.1
@@ -455,7 +499,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "hongqi",
  "modelSlug": "hs3",

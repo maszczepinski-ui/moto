@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MX-6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 21 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MX-6, MX-6 2.5 KAT, MX-6 2.0 KAT).",
-  "liczbaWPolsce": 497,
-  "aktywne": 53,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MX-6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 22 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MX-6, MX-6 2.5 KAT, MX-6 2.0 KAT).",
+  "liczbaWPolsce": 498,
+  "aktywne": 54,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "04",
@@ -102,7 +102,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 168
+    "liczba": 169
    },
    {
     "rok": 1993,
@@ -168,7 +168,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 302
+    "liczba": 303
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -186,7 +186,7 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 223
+    "liczba": 224
    },
    {
     "nazwa": "2,2 l",
@@ -204,7 +204,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 144
+    "liczba": 145
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -222,7 +222,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 263
+    "liczba": 264
    },
    {
     "nazwa": "Sedan",
@@ -237,13 +237,13 @@
     "liczba": 71
    }
   ],
-  "noweOdPaczki": 21,
+  "noweOdPaczki": 22,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -267,6 +267,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -521,7 +565,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
@@ -545,7 +589,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -556,8 +600,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 974,
-  "miejsceWMarce": 28,
+  "miejsce": 979,
+  "miejsceWMarce": 29,
   "modeliWMarce": 33,
   "sredniRocznik": 1992.8
  },
@@ -565,7 +609,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "mx-6",

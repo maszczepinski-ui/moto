@@ -10,62 +10,62 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Kalos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 925 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KALOS, KALOS 1.2, KALOS 1.2 KAT, KALOS 1.4).",
-  "liczbaWPolsce": 3200,
-  "aktywne": 2092,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Kalos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 064 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: KALOS, KALOS 1.2, KALOS 1.2 KAT, KALOS 1.4).",
+  "liczbaWPolsce": 3339,
+  "aktywne": 2231,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 221
+    "liczba": 240
    },
    {
     "teryt": "04",
-    "liczba": 189
+    "liczba": 195
    },
    {
     "teryt": "06",
-    "liczba": 125
+    "liczba": 126
    },
    {
     "teryt": "08",
-    "liczba": 113
+    "liczba": 117
    },
    {
     "teryt": "10",
-    "liczba": 278
+    "liczba": 285
    },
    {
     "teryt": "12",
-    "liczba": 328
+    "liczba": 346
    },
    {
     "teryt": "14",
-    "liczba": 288
+    "liczba": 300
    },
    {
     "teryt": "16",
-    "liczba": 69
+    "liczba": 70
    },
    {
     "teryt": "18",
-    "liczba": 199
+    "liczba": 211
    },
    {
     "teryt": "20",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "22",
-    "liczba": 105
+    "liczba": 107
    },
    {
     "teryt": "24",
-    "liczba": 422
+    "liczba": 448
    },
    {
     "teryt": "26",
-    "liczba": 84
+    "liczba": 88
    },
    {
     "teryt": "28",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 466
+    "liczba": 479
    },
    {
     "teryt": "32",
-    "liczba": 134
+    "liczba": 147
    }
   ],
   "bezWojewodztwa": 30,
@@ -88,23 +88,23 @@
    },
    {
     "rok": 2004,
-    "liczba": 66
+    "liczba": 68
    },
    {
     "rok": 2005,
-    "liczba": 992
+    "liczba": 1016
    },
    {
     "rok": 2006,
-    "liczba": 866
+    "liczba": 923
    },
    {
     "rok": 2007,
-    "liczba": 842
+    "liczba": 889
    },
    {
     "rok": 2008,
-    "liczba": 298
+    "liczba": 307
    },
    {
     "rok": 2009,
@@ -114,11 +114,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2423
+    "liczba": 2536
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 768
+    "liczba": 794
    },
    {
     "nazwa": "Inne / brak danych",
@@ -128,25 +128,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 1798
+    "liczba": 1874
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1395
+    "liczba": 1457
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2608
+    "liczba": 2699
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 553
+    "liczba": 601
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,28 +156,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3075
+    "liczba": 3208
    },
    {
     "nazwa": "Sedan",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 61
+    "liczba": 66
    }
   ],
-  "noweOdPaczki": 925,
+  "noweOdPaczki": 1064,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 10
+    "liczba": 34
    },
    {
     "rok": 2020,
-    "liczba": 146
+    "liczba": 260
    },
    {
     "rok": 2021,
@@ -201,10 +201,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 36
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 10
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 26
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 27
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 31
+   },
    {
     "miesiac": "2020-11",
     "liczba": 20
@@ -455,46 +499,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 512,
+  "miejsce": 508,
   "miejsceWMarce": 11,
   "modeliWMarce": 24,
   "sredniRocznik": 2006.1
@@ -503,7 +547,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "kalos",
@@ -515,14 +559,14 @@
    "adres": "/marki/opel/corsa/"
   },
   {
-   "slug": "renault-modus",
-   "nazwa": "Renault Modus",
-   "adres": "/marki/renault/modus/"
-  },
-  {
    "slug": "fiat-punto",
    "nazwa": "Fiat Punto",
    "adres": "/marki/fiat/punto/"
+  },
+  {
+   "slug": "renault-modus",
+   "nazwa": "Renault Modus",
+   "adres": "/marki/renault/modus/"
   },
   {
    "slug": "volkswagen-fox",

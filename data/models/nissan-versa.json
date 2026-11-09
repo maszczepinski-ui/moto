@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Versa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 79 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VERSA, VERSA 1.8 KAT, VERSA NOTE S, VERSA NOTE).",
-  "liczbaWPolsce": 533,
-  "aktywne": 186,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Versa – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 89 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VERSA, VERSA 1.8 KAT, VERSA NOTE S, VERSA NOTE).",
+  "liczbaWPolsce": 543,
+  "aktywne": 196,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "08",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 64
+    "liczba": 68
    },
    {
     "teryt": "16",
@@ -50,11 +50,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 109
+    "liczba": 111
    },
    {
     "teryt": "20",
-    "liczba": 68
+    "liczba": 71
    },
    {
     "teryt": "22",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 116
+    "liczba": 117
    },
    {
     "rok": 2009,
@@ -105,11 +105,11 @@
    },
    {
     "rok": 2011,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 2012,
-    "liczba": 26
+    "liczba": 28
    },
    {
     "rok": 2013,
@@ -117,11 +117,11 @@
    },
    {
     "rok": 2014,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2015,
-    "liczba": 9
+    "liczba": 12
    },
    {
     "rok": 2016,
@@ -129,11 +129,11 @@
    },
    {
     "rok": 2017,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2018,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2019,
@@ -151,7 +151,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 429
+    "liczba": 439
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -165,11 +165,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 436
+    "liczba": 438
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 92
+    "liczba": 100
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,11 +179,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 404
+    "liczba": 410
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 124
+    "liczba": 128
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -197,11 +197,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 395
+    "liczba": 402
    },
    {
     "nazwa": "Sedan",
-    "liczba": 119
+    "liczba": 122
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -212,13 +212,17 @@
     "liczba": 10
    }
   ],
-  "noweOdPaczki": 79,
+  "noweOdPaczki": 89,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 9
+    "liczba": 18
    },
    {
     "rok": 2021,
@@ -246,6 +250,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -508,7 +556,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -516,7 +564,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
@@ -524,41 +572,41 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 948,
+  "miejsce": 951,
   "miejsceWMarce": 37,
   "modeliWMarce": 47,
-  "sredniRocznik": 2009.1
+  "sredniRocznik": 2009.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "versa",
  "adres": "/marki/nissan/versa/",
  "konkurenci": [
   {
-   "slug": "fiat-sedici",
-   "nazwa": "Fiat Sedici",
-   "adres": "/marki/fiat/sedici/"
-  },
-  {
    "slug": "toyota-prius",
    "nazwa": "Toyota Prius",
    "adres": "/marki/toyota/prius/"
+  },
+  {
+   "slug": "fiat-sedici",
+   "nazwa": "Fiat Sedici",
+   "adres": "/marki/fiat/sedici/"
   },
   {
    "slug": "volkswagen-beetle",
@@ -566,14 +614,14 @@
    "adres": "/marki/volkswagen/beetle/"
   },
   {
-   "slug": "audi-a3",
-   "nazwa": "Audi A3",
-   "adres": "/marki/audi/a3/"
-  },
-  {
    "slug": "seat-leon",
    "nazwa": "Seat Leon",
    "adres": "/marki/seat/leon/"
+  },
+  {
+   "slug": "mazda-3",
+   "nazwa": "Mazda 3",
+   "adres": "/marki/mazda/3/"
   }
  ]
 }

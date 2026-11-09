@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Tacuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TACUMA).",
-  "liczbaWPolsce": 246,
-  "aktywne": 139,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Tacuma – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 30 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TACUMA).",
+  "liczbaWPolsce": 249,
+  "aktywne": 142,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "teryt": "08",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "20",
@@ -98,11 +98,11 @@
    },
    {
     "rok": 2007,
-    "liczba": 43
+    "liczba": 44
    },
    {
     "rok": 2008,
-    "liczba": 18
+    "liczba": 20
    },
    {
     "rok": 2009,
@@ -112,11 +112,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 158
+    "liczba": 159
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 87
+    "liczba": 89
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,11 +126,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 191
+    "liczba": 193
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,7 +140,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 191
+    "liczba": 194
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -154,15 +154,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 100
+    "liczba": 101
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "nazwa": "Van",
-    "liczba": 51
+    "liczba": 52
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -173,13 +173,17 @@
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 27,
+  "noweOdPaczki": 30,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 5
    },
    {
     "rok": 2021,
@@ -207,6 +211,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -477,7 +525,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -496,8 +544,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1217,
-  "miejsceWMarce": 23,
+  "miejsce": 1221,
+  "miejsceWMarce": 24,
   "modeliWMarce": 24,
   "sredniRocznik": 2005.9
  },
@@ -505,7 +553,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "tacuma",

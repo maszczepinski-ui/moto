@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Cabrio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 260 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CABRIO, CABRIO 2.3 KAT).",
-  "liczbaWPolsce": 679,
-  "aktywne": 386,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Cabrio – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 281 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CABRIO, CABRIO 2.3 KAT).",
+  "liczbaWPolsce": 700,
+  "aktywne": 407,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 52
+    "liczba": 55
    },
    {
     "teryt": "04",
@@ -25,11 +25,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "08",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "10",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 104
+    "liczba": 108
    },
    {
     "teryt": "16",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "18",
@@ -57,27 +57,27 @@
    },
    {
     "teryt": "22",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "teryt": "24",
-    "liczba": 51
+    "liczba": 53
    },
    {
     "teryt": "26",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "28",
-    "liczba": 21
+    "liczba": 25
    },
    {
     "teryt": "30",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "32",
-    "liczba": 26
+    "liczba": 27
    }
   ],
   "bezWojewodztwa": 6,
@@ -92,49 +92,49 @@
    },
    {
     "rok": 1993,
-    "liczba": 51
+    "liczba": 53
    },
    {
     "rok": 1994,
-    "liczba": 56
+    "liczba": 57
    },
    {
     "rok": 1995,
-    "liczba": 66
+    "liczba": 71
    },
    {
     "rok": 1996,
-    "liczba": 64
-   },
-   {
-    "rok": 1997,
-    "liczba": 107
-   },
-   {
-    "rok": 1998,
-    "liczba": 96
-   },
-   {
-    "rok": 1999,
     "liczba": 67
    },
    {
+    "rok": 1997,
+    "liczba": 111
+   },
+   {
+    "rok": 1998,
+    "liczba": 99
+   },
+   {
+    "rok": 1999,
+    "liczba": 69
+   },
+   {
     "rok": 2000,
-    "liczba": 42
+    "liczba": 43
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 522
+    "liczba": 538
    },
    {
     "nazwa": "Diesel",
-    "liczba": 94
+    "liczba": 98
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,27 +144,27 @@
   "pojemnosci": [
    {
     "nazwa": "2,6 l",
-    "liczba": 149
+    "liczba": 155
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 140
+    "liczba": 141
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 106
+    "liczba": 112
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 97
+    "liczba": 98
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 91
+    "liczba": 95
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 88
+    "liczba": 91
    },
    {
     "nazwa": "Inne / brak danych",
@@ -174,11 +174,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 440
+    "liczba": 456
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 231
+    "liczba": 236
    },
    {
     "nazwa": "Inne / brak danych",
@@ -188,7 +188,7 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 638
+    "liczba": 659
    },
    {
     "nazwa": "Coupe",
@@ -203,17 +203,17 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 260,
+  "noweOdPaczki": 281,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2020,
-    "liczba": 15
+    "liczba": 34
    },
    {
     "rok": 2021,
@@ -241,6 +241,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 4
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -495,42 +539,42 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 878,
+  "miejsce": 877,
   "miejsceWMarce": 40,
   "modeliWMarce": 54,
   "sredniRocznik": 1995.8
@@ -539,7 +583,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "cabrio",

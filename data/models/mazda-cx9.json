@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 209 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX9).",
-  "liczbaWPolsce": 488,
-  "aktywne": 339,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 237 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX9).",
+  "liczbaWPolsce": 516,
+  "aktywne": 367,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "04",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "08",
@@ -36,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "teryt": "12",
-    "liczba": 40
+    "liczba": 43
    },
    {
     "teryt": "14",
-    "liczba": 120
+    "liczba": 129
    },
    {
     "teryt": "16",
@@ -52,23 +52,23 @@
    },
    {
     "teryt": "18",
-    "liczba": 34
+    "liczba": 37
    },
    {
     "teryt": "20",
-    "liczba": 27
-   },
-   {
-    "teryt": "22",
     "liczba": 28
    },
    {
+    "teryt": "22",
+    "liczba": 32
+   },
+   {
     "teryt": "24",
-    "liczba": 45
+    "liczba": 46
    },
    {
     "teryt": "26",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "teryt": "28",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "32",
@@ -85,58 +85,6 @@
   ],
   "bezWojewodztwa": 6,
   "roczniki": [
-   {
-    "rok": 1994,
-    "liczba": 1
-   },
-   {
-    "rok": 1995,
-    "liczba": 0
-   },
-   {
-    "rok": 1996,
-    "liczba": 0
-   },
-   {
-    "rok": 1997,
-    "liczba": 0
-   },
-   {
-    "rok": 1998,
-    "liczba": 0
-   },
-   {
-    "rok": 1999,
-    "liczba": 0
-   },
-   {
-    "rok": 2000,
-    "liczba": 0
-   },
-   {
-    "rok": 2001,
-    "liczba": 0
-   },
-   {
-    "rok": 2002,
-    "liczba": 0
-   },
-   {
-    "rok": 2003,
-    "liczba": 0
-   },
-   {
-    "rok": 2004,
-    "liczba": 0
-   },
-   {
-    "rok": 2005,
-    "liczba": 0
-   },
-   {
-    "rok": 2006,
-    "liczba": 1
-   },
    {
     "rok": 2007,
     "liczba": 59
@@ -151,23 +99,23 @@
    },
    {
     "rok": 2010,
-    "liczba": 26
+    "liczba": 28
    },
    {
     "rok": 2011,
-    "liczba": 14
+    "liczba": 17
    },
    {
     "rok": 2012,
-    "liczba": 18
+    "liczba": 19
    },
    {
     "rok": 2013,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 2014,
-    "liczba": 26
+    "liczba": 30
    },
    {
     "rok": 2015,
@@ -175,19 +123,19 @@
    },
    {
     "rok": 2016,
-    "liczba": 31
+    "liczba": 34
    },
    {
     "rok": 2017,
-    "liczba": 21
+    "liczba": 23
    },
    {
     "rok": 2018,
-    "liczba": 25
+    "liczba": 35
    },
    {
     "rok": 2019,
-    "liczba": 27
+    "liczba": 29
    },
    {
     "rok": 2020,
@@ -204,20 +152,16 @@
    {
     "rok": 2023,
     "liczba": 8
-   },
-   {
-    "rok": 2024,
-    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 244
+    "liczba": 259
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 240
+    "liczba": 253
    },
    {
     "nazwa": "Inne / brak danych",
@@ -227,11 +171,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,7 l",
-    "liczba": 263
+    "liczba": 274
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 170
+    "liczba": 187
    },
    {
     "nazwa": "3,5 l",
@@ -245,11 +189,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 268
+    "liczba": 289
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 212
+    "liczba": 219
    },
    {
     "nazwa": "Inne / brak danych",
@@ -259,36 +203,40 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 154
+    "liczba": 160
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 125
+    "liczba": 136
    },
    {
     "nazwa": "Van",
-    "liczba": 118
+    "liczba": 122
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 47
+    "liczba": 51
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 26
+    "liczba": 29
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 18
    }
   ],
-  "noweOdPaczki": 209,
+  "noweOdPaczki": 237,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 8
+   },
+   {
     "rok": 2020,
-    "liczba": 25
+    "liczba": 45
    },
    {
     "rok": 2021,
@@ -316,6 +264,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 4
@@ -570,31 +562,31 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
@@ -602,19 +594,19 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 3
    }
   ],
-  "miejsce": 981,
-  "miejsceWMarce": 29,
+  "miejsce": 970,
+  "miejsceWMarce": 28,
   "modeliWMarce": 33,
-  "sredniRocznik": 2013.4
+  "sredniRocznik": 2013.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "cx9",
@@ -624,6 +616,11 @@
    "slug": "toyota-sienna",
    "nazwa": "Toyota Sienna",
    "adres": "/marki/toyota/sienna/"
+  },
+  {
+   "slug": "porsche-cayenne",
+   "nazwa": "Porsche Cayenne",
+   "adres": "/marki/porsche/cayenne/"
   },
   {
    "slug": "nissan-murano",
@@ -636,14 +633,9 @@
    "adres": "/marki/jeep/grand-cherokee/"
   },
   {
-   "slug": "porsche-cayenne",
-   "nazwa": "Porsche Cayenne",
-   "adres": "/marki/porsche/cayenne/"
-  },
-  {
-   "slug": "porsche-911",
-   "nazwa": "Porsche 911",
-   "adres": "/marki/porsche/911/"
+   "slug": "bmw-x5",
+   "nazwa": "BMW X5",
+   "adres": "/marki/bmw/x5/"
   }
  ]
 }

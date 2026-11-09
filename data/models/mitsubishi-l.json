@@ -14,14 +14,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi L – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 90 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: L 300, L 200, L 300 2.0 KAT BUS, L 300 2.5D BUS, L 400).",
-  "liczbaWPolsce": 1273,
-  "aktywne": 159,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi L – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 104 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: L 300, L 200, L 300 2.0 KAT BUS, L 300 2.5D BUS, L 400).",
+  "liczbaWPolsce": 1287,
+  "aktywne": 173,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 93
+    "liczba": 96
    },
    {
     "teryt": "04",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 52
+    "liczba": 55
    },
    {
     "teryt": "08",
@@ -45,15 +45,15 @@
    },
    {
     "teryt": "14",
-    "liczba": 173
+    "liczba": 174
    },
    {
     "teryt": "16",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "18",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "teryt": "20",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 82
+    "liczba": 83
    },
    {
     "teryt": "24",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "teryt": "30",
-    "liczba": 175
+    "liczba": 177
    },
    {
     "teryt": "32",
@@ -152,11 +152,11 @@
    },
    {
     "rok": 1996,
-    "liczba": 157
+    "liczba": 158
    },
    {
     "rok": 1997,
-    "liczba": 156
+    "liczba": 157
    },
    {
     "rok": 1998,
@@ -172,19 +172,19 @@
    },
    {
     "rok": 2001,
-    "liczba": 8
+    "liczba": 10
    },
    {
     "rok": 2002,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 2003,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 2004,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2005,
@@ -196,7 +196,7 @@
    },
    {
     "rok": 2007,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2008,
@@ -204,25 +204,25 @@
    },
    {
     "rok": 2009,
-    "liczba": 6
+    "liczba": 8
    },
    {
     "rok": 2010,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2011,
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 578
+    "liczba": 591
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 214
+    "liczba": 215
    },
    {
     "nazwa": "Benzyna",
@@ -240,7 +240,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 642
+    "liczba": 653
    },
    {
     "nazwa": "2,0 l",
@@ -248,7 +248,7 @@
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 130
+    "liczba": 131
    },
    {
     "nazwa": "1,6 l",
@@ -260,17 +260,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 26
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 758
+    "liczba": 761
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 390
+    "liczba": 401
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -292,11 +292,11 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 143
+    "liczba": 145
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 112
+    "liczba": 116
    },
    {
     "nazwa": "Sedan",
@@ -308,20 +308,24 @@
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 54
+    "liczba": 61
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 525
+    "liczba": 526
    }
   ],
-  "noweOdPaczki": 90,
+  "noweOdPaczki": 104,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
     "rok": 2020,
-    "liczba": 7
+    "liczba": 16
    },
    {
     "rok": 2021,
@@ -349,6 +353,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -607,11 +655,11 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -627,27 +675,27 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 729,
+  "miejsce": 733,
   "miejsceWMarce": 12,
-  "modeliWMarce": 20,
-  "sredniRocznik": 1994.5
+  "modeliWMarce": 21,
+  "sredniRocznik": 1994.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "l",
@@ -659,24 +707,24 @@
    "adres": "/marki/opel/omega/"
   },
   {
-   "slug": "nissan-serena",
-   "nazwa": "Nissan Serena",
-   "adres": "/marki/nissan/serena/"
-  },
-  {
    "slug": "opel-sintra",
    "nazwa": "Opel Sintra",
    "adres": "/marki/opel/sintra/"
   },
   {
-   "slug": "citroen-xm",
-   "nazwa": "Citroen XM",
-   "adres": "/marki/citroen/xm/"
+   "slug": "nissan-serena",
+   "nazwa": "Nissan Serena",
+   "adres": "/marki/nissan/serena/"
   },
   {
    "slug": "peugeot-806",
    "nazwa": "Peugeot 806",
    "adres": "/marki/peugeot/806/"
+  },
+  {
+   "slug": "toyota-previa",
+   "nazwa": "Toyota Previa",
+   "adres": "/marki/toyota/previa/"
   }
  ]
 }

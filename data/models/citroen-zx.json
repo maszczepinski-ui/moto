@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen ZX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 23 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZX, ZX 1.4 KAT, ZX 1.4, ZX 1.9D, ZX 1.6 KAT).",
-  "liczbaWPolsce": 9508,
-  "aktywne": 165,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen ZX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ZX, ZX 1.4 KAT, ZX 1.4, ZX 1.9D, ZX 1.6 KAT).",
+  "liczbaWPolsce": 9510,
+  "aktywne": 167,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 873
+    "liczba": 874
    },
    {
     "teryt": "16",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 661
+    "liczba": 662
    },
    {
     "teryt": "26",
@@ -110,13 +110,13 @@
    },
    {
     "rok": 1997,
-    "liczba": 733
+    "liczba": 735
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4620
+    "liczba": 4621
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -124,7 +124,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1775
+    "liczba": 1776
    },
    {
     "nazwa": "?+LPG",
@@ -138,11 +138,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 5830
+    "liczba": 5831
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 2097
+    "liczba": 2098
    },
    {
     "nazwa": "1,6 l",
@@ -168,7 +168,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3144
+    "liczba": 3146
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -186,7 +186,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6048
+    "liczba": 6049
    },
    {
     "nazwa": "Sedan",
@@ -194,20 +194,20 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 549
+    "liczba": 550
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2082
    }
   ],
-  "noweOdPaczki": 23,
+  "noweOdPaczki": 25,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -235,6 +235,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -493,7 +537,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-04",
@@ -505,7 +549,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -513,18 +557,18 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 328,
+  "miejsce": 330,
   "miejsceWMarce": 10,
   "modeliWMarce": 42,
   "sredniRocznik": 1993.9
@@ -533,7 +577,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "zx",

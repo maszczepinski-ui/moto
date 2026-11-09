@@ -12,38 +12,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi SQ5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 460 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SQ5, SQ5 SPORTBACK, SQ5 TDI, SQ5 SB, AUDI SQ5).",
-  "liczbaWPolsce": 2657,
-  "aktywne": 2615,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi SQ5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 555 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SQ5, SQ5 SPORTBACK, SQ5 TDI, SQ5 SB, AUDI SQ5).",
+  "liczbaWPolsce": 2752,
+  "aktywne": 2710,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 200
+    "liczba": 207
    },
    {
     "teryt": "04",
-    "liczba": 93
+    "liczba": 97
    },
    {
     "teryt": "06",
-    "liczba": 112
+    "liczba": 116
    },
    {
     "teryt": "08",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "teryt": "10",
-    "liczba": 144
+    "liczba": 149
    },
    {
     "teryt": "12",
-    "liczba": 274
+    "liczba": 283
    },
    {
     "teryt": "14",
-    "liczba": 536
+    "liczba": 551
    },
    {
     "teryt": "16",
@@ -51,23 +51,23 @@
    },
    {
     "teryt": "18",
-    "liczba": 132
+    "liczba": 134
    },
    {
     "teryt": "20",
-    "liczba": 90
+    "liczba": 96
    },
    {
     "teryt": "22",
-    "liczba": 176
+    "liczba": 186
    },
    {
     "teryt": "24",
-    "liczba": 224
+    "liczba": 235
    },
    {
     "teryt": "26",
-    "liczba": 78
+    "liczba": 79
    },
    {
     "teryt": "28",
@@ -75,54 +75,54 @@
    },
    {
     "teryt": "30",
-    "liczba": 325
+    "liczba": 340
    },
    {
     "teryt": "32",
-    "liczba": 99
+    "liczba": 103
    }
   ],
   "bezWojewodztwa": 15,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 108
+    "liczba": 115
    },
    {
     "rok": 2014,
-    "liczba": 249
+    "liczba": 261
    },
    {
     "rok": 2015,
-    "liczba": 221
+    "liczba": 233
    },
    {
     "rok": 2016,
-    "liczba": 168
+    "liczba": 182
    },
    {
     "rok": 2017,
-    "liczba": 129
+    "liczba": 135
    },
    {
     "rok": 2018,
-    "liczba": 306
+    "liczba": 315
    },
    {
     "rok": 2019,
-    "liczba": 174
+    "liczba": 204
    },
    {
     "rok": 2020,
-    "liczba": 137
+    "liczba": 139
    },
    {
     "rok": 2021,
-    "liczba": 217
+    "liczba": 218
    },
    {
     "rok": 2022,
-    "liczba": 246
+    "liczba": 247
    },
    {
     "rok": 2023,
@@ -130,7 +130,7 @@
    },
    {
     "rok": 2024,
-    "liczba": 158
+    "liczba": 159
    },
    {
     "rok": 2025,
@@ -144,15 +144,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1226
+    "liczba": 1246
    },
    {
     "nazwa": "Diesel",
-    "liczba": 832
+    "liczba": 882
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 367
+    "liczba": 391
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -160,74 +160,74 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 13
+    "liczba": 14
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 2635
+    "liczba": 2728
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 24
+   }
+  ],
+  "pochodzenie": [
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 1181
+   },
+   {
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 871
+   },
+   {
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 678
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 22
    }
   ],
-  "pochodzenie": [
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1147
-   },
-   {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 820
-   },
-   {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 669
-   },
-   {
-    "nazwa": "Inne / brak danych",
-    "liczba": 21
-   }
-  ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1414
+    "liczba": 1483
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 637
+    "liczba": 643
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 449
+    "liczba": 461
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 59
+    "liczba": 63
    },
    {
     "nazwa": "Van",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 49
+    "liczba": 51
    }
   ],
-  "noweOdPaczki": 2460,
-  "hybrydy": 581,
+  "noweOdPaczki": 2555,
+  "hybrydy": 605,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 2
+    "liczba": 23
    },
    {
     "rok": 2020,
-    "liczba": 90
+    "liczba": 161
    },
    {
     "rok": 2021,
@@ -251,10 +251,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 476
+    "liczba": 479
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 20
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 18
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 12
+   },
    {
     "miesiac": "2020-11",
     "liczba": 17
@@ -505,60 +549,65 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 22
+    "liczba": 32
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 37
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 48
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 99
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 43
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 47
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 45
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 41
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 56
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 39
    }
   ],
-  "miejsce": 552,
+  "miejsce": 549,
   "miejsceWMarce": 21,
   "modeliWMarce": 54,
-  "sredniRocznik": 2019.4
+  "sredniRocznik": 2019.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "sq5",
  "adres": "/marki/audi/sq5/",
  "konkurenci": [
+  {
+   "slug": "maserati-levante",
+   "nazwa": "Maserati Levante",
+   "adres": "/marki/maserati/levante/"
+  },
   {
    "slug": "land-rover-defender",
    "nazwa": "Land Rover Defender",
@@ -573,11 +622,6 @@
    "slug": "bmw-x5",
    "nazwa": "BMW X5",
    "adres": "/marki/bmw/x5/"
-  },
-  {
-   "slug": "volvo-xc60",
-   "nazwa": "Volvo XC60",
-   "adres": "/marki/volvo/xc60/"
   },
   {
    "slug": "mercedes-benz-klasa-gls",

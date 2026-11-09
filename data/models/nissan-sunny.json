@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Sunny – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 55 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SUNNY, SUNNY 1.7D, SUNNY 1.4 KAT, SUNNY 1.4, SUNNY 1.6 KAT).",
-  "liczbaWPolsce": 23954,
-  "aktywne": 247,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Sunny – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 58 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SUNNY, SUNNY 1.7D, SUNNY 1.4 KAT, SUNNY 1.4, SUNNY 1.6 KAT).",
+  "liczbaWPolsce": 23957,
+  "aktywne": 250,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -31,7 +31,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 1004
+    "liczba": 1005
    },
    {
     "teryt": "10",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 1934
+    "liczba": 1935
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 2292
+    "liczba": 2293
    },
    {
     "teryt": "32",
@@ -114,7 +114,7 @@
    },
    {
     "rok": 1987,
-    "liczba": 954
+    "liczba": 956
    },
    {
     "rok": 1988,
@@ -122,7 +122,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 1588
+    "liczba": 1589
    },
    {
     "rok": 1990,
@@ -164,7 +164,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 7140
+    "liczba": 7143
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -190,7 +190,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 4482
+    "liczba": 4485
    },
    {
     "nazwa": "2,0 l",
@@ -212,7 +212,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 16506
+    "liczba": 16509
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -234,7 +234,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6819
+    "liczba": 6820
    },
    {
     "nazwa": "Sedan",
@@ -246,16 +246,16 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9535
+    "liczba": 9537
    }
   ],
-  "noweOdPaczki": 55,
+  "noweOdPaczki": 58,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2021,
@@ -283,6 +283,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -537,7 +581,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
@@ -553,7 +597,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -565,14 +609,14 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 188,
+  "miejsce": 190,
   "miejsceWMarce": 8,
   "modeliWMarce": 47,
   "sredniRocznik": 1990.7
@@ -581,7 +625,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "sunny",

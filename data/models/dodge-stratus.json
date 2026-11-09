@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Stratus – wszystkie generacje razem. W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STRATUS).",
-  "liczbaWPolsce": 225,
-  "aktywne": 15,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Stratus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STRATUS).",
+  "liczbaWPolsce": 226,
+  "aktywne": 16,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "20",
@@ -122,7 +122,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 2005,
@@ -136,7 +136,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 115
+    "liczba": 116
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -150,7 +150,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "nazwa": "2,0 l",
@@ -180,7 +180,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -198,7 +198,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 139
+    "liczba": 140
    },
    {
     "nazwa": "Coupe",
@@ -217,11 +217,60 @@
     "liczba": 44
    }
   ],
-  "noweOdPaczki": 0,
+  "noweOdPaczki": 1,
   "hybrydy": 0,
   "elektryczne": 0,
-  "pierwszeRejestracje": [],
+  "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   }
+  ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -511,7 +560,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1237,
+  "miejsce": 1242,
   "miejsceWMarce": 12,
   "modeliWMarce": 12,
   "sredniRocznik": 1999.4
@@ -520,7 +569,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "dodge",
  "modelSlug": "stratus",

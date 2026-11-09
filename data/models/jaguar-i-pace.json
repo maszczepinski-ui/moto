@@ -12,22 +12,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar I-Pace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 306 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I-PACE).",
-  "liczbaWPolsce": 306,
-  "aktywne": 306,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar I-Pace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 354 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I-PACE).",
+  "liczbaWPolsce": 354,
+  "aktywne": 354,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "04",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "06",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "08",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "teryt": "12",
-    "liczba": 42
+    "liczba": 47
    },
    {
     "teryt": "14",
-    "liczba": 72
+    "liczba": 95
    },
    {
     "teryt": "16",
@@ -51,19 +51,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 17
-   },
-   {
-    "teryt": "20",
-    "liczba": 4
-   },
-   {
-    "teryt": "22",
     "liczba": 18
    },
    {
+    "teryt": "20",
+    "liczba": 6
+   },
+   {
+    "teryt": "22",
+    "liczba": 20
+   },
+   {
     "teryt": "24",
-    "liczba": 34
+    "liczba": 37
    },
    {
     "teryt": "26",
@@ -71,15 +71,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "30",
-    "liczba": 35
+    "liczba": 39
    },
    {
     "teryt": "32",
-    "liczba": 9
+    "liczba": 10
    }
   ],
   "bezWojewodztwa": 0,
@@ -90,11 +90,11 @@
    },
    {
     "rok": 2019,
-    "liczba": 67
+    "liczba": 108
    },
    {
     "rok": 2020,
-    "liczba": 46
+    "liczba": 53
    },
    {
     "rok": 2021,
@@ -120,27 +120,27 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 306
+    "liczba": 354
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 306
+    "liczba": 354
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 131
+    "liczba": 170
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 127
+    "liczba": 129
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 45
+    "liczba": 52
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -154,15 +154,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 239
+    "liczba": 283
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 15
+    "liczba": 17
    },
    {
     "nazwa": "Sedan",
@@ -173,13 +173,17 @@
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 306,
+  "noweOdPaczki": 354,
   "hybrydy": 0,
-  "elektryczne": 306,
+  "elektryczne": 354,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 10
+   },
+   {
     "rok": 2020,
-    "liczba": 13
+    "liczba": 51
    },
    {
     "rok": 2021,
@@ -207,6 +211,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 7
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 21
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -461,51 +509,51 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 11
    }
   ],
-  "miejsce": 1133,
-  "miejsceWMarce": 14,
-  "modeliWMarce": 17,
-  "sredniRocznik": 2020.4
+  "miejsce": 1098,
+  "miejsceWMarce": 13,
+  "modeliWMarce": 18,
+  "sredniRocznik": 2020.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "i-pace",
@@ -517,14 +565,14 @@
    "adres": "/marki/mazda/mx-30/"
   },
   {
-   "slug": "skoda-enyaq",
-   "nazwa": "Skoda Enyaq",
-   "adres": "/marki/skoda/enyaq/"
-  },
-  {
    "slug": "volkswagen-id-3",
    "nazwa": "Volkswagen ID.3",
    "adres": "/marki/volkswagen/id-3/"
+  },
+  {
+   "slug": "skoda-enyaq",
+   "nazwa": "Skoda Enyaq",
+   "adres": "/marki/skoda/enyaq/"
   },
   {
    "slug": "volkswagen-id-4",

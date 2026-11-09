@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 600 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV6, EV6 GT).",
-  "liczbaWPolsce": 2600,
-  "aktywne": 2600,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 601 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV6, EV6 GT).",
+  "liczbaWPolsce": 2601,
+  "aktywne": 2601,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "teryt": "08",
@@ -100,7 +100,7 @@
    },
    {
     "rok": 2025,
-    "liczba": 238
+    "liczba": 239
    },
    {
     "rok": 2026,
@@ -110,19 +110,19 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2600
+    "liczba": 2601
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2600
+    "liczba": 2601
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1842
+    "liczba": 1843
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -140,7 +140,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2513
+    "liczba": 2514
    },
    {
     "nazwa": "Hatchback",
@@ -151,9 +151,9 @@
     "liczba": 24
    }
   ],
-  "noweOdPaczki": 2600,
+  "noweOdPaczki": 2601,
   "hybrydy": 0,
-  "elektryczne": 2600,
+  "elektryczne": 2601,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -177,10 +177,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 226
+    "liczba": 227
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -431,46 +475,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 11
+    "liczba": 13
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 19
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 18
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 21
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 20
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 33
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 28
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 40
    }
   ],
-  "miejsce": 558,
+  "miejsce": 563,
   "miejsceWMarce": 17,
   "modeliWMarce": 33,
   "sredniRocznik": 2022.9
@@ -479,7 +523,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "ev6",

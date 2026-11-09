@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hummer H3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 212 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: H3).",
-  "liczbaWPolsce": 426,
-  "aktywne": 277,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hummer H3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 232 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: H3).",
+  "liczbaWPolsce": 446,
+  "aktywne": 297,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "04",
@@ -28,23 +28,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "08",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "10",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "12",
-    "liczba": 47
+    "liczba": 48
    },
    {
     "teryt": "14",
-    "liczba": 65
+    "liczba": 69
    },
    {
     "teryt": "16",
@@ -52,23 +52,23 @@
    },
    {
     "teryt": "18",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "20",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "22",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "24",
-    "liczba": 46
+    "liczba": 48
    },
    {
     "teryt": "26",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "28",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "teryt": "32",
@@ -87,19 +87,19 @@
   "roczniki": [
    {
     "rok": 2005,
-    "liczba": 34
+    "liczba": 36
    },
    {
     "rok": 2006,
-    "liczba": 183
+    "liczba": 189
    },
    {
     "rok": 2007,
-    "liczba": 120
+    "liczba": 128
    },
    {
     "rok": 2008,
-    "liczba": 58
+    "liczba": 62
    },
    {
     "rok": 2009,
@@ -117,11 +117,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 258
+    "liczba": 271
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 167
+    "liczba": 174
    },
    {
     "nazwa": "Inne / brak danych",
@@ -131,19 +131,19 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 206
+    "liczba": 213
    },
    {
     "nazwa": "3,7 l",
-    "liczba": 181
+    "liczba": 191
    },
    {
     "nazwa": "5,3 l",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "3,4 l",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "nazwa": "Inne / brak danych",
@@ -153,11 +153,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 229
+    "liczba": 242
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 194
+    "liczba": 201
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,19 +167,19 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 161
+    "liczba": 168
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 110
+    "liczba": 116
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 86
+    "liczba": 91
    },
    {
     "nazwa": "Van",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "nazwa": "Hatchback",
@@ -191,16 +191,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 19
+    "liczba": 20
    }
   ],
-  "noweOdPaczki": 212,
+  "noweOdPaczki": 232,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
     "rok": 2020,
-    "liczba": 10
+    "liczba": 27
    },
    {
     "rok": 2021,
@@ -228,6 +232,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -482,42 +530,42 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 3
    }
   ],
-  "miejsce": 1024,
+  "miejsce": 1014,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 2006.7
@@ -526,7 +574,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "hummer",
  "modelSlug": "h3",

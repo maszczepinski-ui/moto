@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Magentis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 153 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAGENTIS).",
-  "liczbaWPolsce": 1219,
-  "aktywne": 527,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Magentis – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 169 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAGENTIS).",
+  "liczbaWPolsce": 1235,
+  "aktywne": 543,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 128
+    "liczba": 130
    },
    {
     "teryt": "12",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "teryt": "14",
-    "liczba": 182
+    "liczba": 185
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 78
+    "liczba": 80
    },
    {
     "teryt": "24",
-    "liczba": 105
+    "liczba": 107
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 125
+    "liczba": 130
    },
    {
     "teryt": "32",
@@ -88,23 +88,23 @@
    },
    {
     "rok": 2002,
-    "liczba": 75
+    "liczba": 76
    },
    {
     "rok": 2003,
-    "liczba": 67
+    "liczba": 68
    },
    {
     "rok": 2004,
-    "liczba": 69
+    "liczba": 75
    },
    {
     "rok": 2005,
-    "liczba": 117
+    "liczba": 119
    },
    {
     "rok": 2006,
-    "liczba": 288
+    "liczba": 292
    },
    {
     "rok": 2007,
@@ -116,25 +116,25 @@
    },
    {
     "rok": 2009,
-    "liczba": 248
+    "liczba": 249
    },
    {
     "rok": 2010,
-    "liczba": 45
+    "liczba": 46
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 521
+    "liczba": 525
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 355
+    "liczba": 362
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 337
+    "liczba": 342
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,11 +144,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1111
+    "liczba": 1123
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 95
+    "liczba": 99
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,11 +158,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 588
+    "liczba": 595
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 424
+    "liczba": 433
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -176,24 +176,28 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1172
+    "liczba": 1186
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 33
    }
   ],
-  "noweOdPaczki": 153,
+  "noweOdPaczki": 169,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 7
+   },
+   {
     "rok": 2020,
-    "liczba": 14
+    "liczba": 23
    },
    {
     "rok": 2021,
@@ -221,6 +225,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 3
@@ -475,11 +523,11 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -491,7 +539,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -507,11 +555,11 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
   "miejsce": 742,
-  "miejsceWMarce": 23,
+  "miejsceWMarce": 22,
   "modeliWMarce": 33,
   "sredniRocznik": 2006.2
  },
@@ -519,7 +567,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "magentis",

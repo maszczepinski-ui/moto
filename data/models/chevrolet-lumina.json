@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Lumina – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LUMINA, LUMINA 3.1 KAT, LUMINA 3.1).",
-  "liczbaWPolsce": 442,
-  "aktywne": 8,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Lumina – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LUMINA, LUMINA 3.1 KAT, LUMINA 3.1).",
+  "liczbaWPolsce": 443,
+  "aktywne": 9,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -56,7 +56,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "22",
@@ -183,7 +183,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1998,
@@ -193,7 +193,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 181
+    "liczba": 182
    },
    {
     "nazwa": "Benzyna",
@@ -211,7 +211,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,1 l",
-    "liczba": 324
+    "liczba": 325
    },
    {
     "nazwa": "3,8 l",
@@ -241,7 +241,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 335
+    "liczba": 336
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -267,7 +267,7 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "nazwa": "Kombi",
@@ -286,10 +286,14 @@
     "liczba": 171
    }
   ],
-  "noweOdPaczki": 2,
+  "noweOdPaczki": 3,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2021,
     "liczba": 1
@@ -300,6 +304,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -589,7 +637,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1012,
+  "miejsce": 1017,
   "miejsceWMarce": 17,
   "modeliWMarce": 24,
   "sredniRocznik": 1992.8
@@ -598,7 +646,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "lumina",

@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 155 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 17 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 155, 155 1.8 KAT, 155 2.0 KAT).",
-  "liczbaWPolsce": 837,
-  "aktywne": 47,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo 155 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 18 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 155, 155 1.8 KAT, 155 2.0 KAT).",
+  "liczbaWPolsce": 838,
+  "aktywne": 48,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 123
+    "liczba": 124
    },
    {
     "teryt": "16",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 217
+    "liczba": 218
    },
    {
     "rok": 1995,
@@ -119,7 +119,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 473
+    "liczba": 474
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -141,7 +141,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 216
+    "liczba": 217
    },
    {
     "nazwa": "2,0 l",
@@ -171,7 +171,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 518
+    "liczba": 519
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -189,7 +189,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 733
+    "liczba": 734
    },
    {
     "nazwa": "Hatchback",
@@ -200,10 +200,14 @@
     "liczba": 36
    }
   ],
-  "noweOdPaczki": 17,
+  "noweOdPaczki": 18,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2020,
     "liczba": 1
@@ -234,6 +238,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -508,7 +556,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -523,7 +571,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 824,
+  "miejsce": 826,
   "miejsceWMarce": 14,
   "modeliWMarce": 20,
   "sredniRocznik": 1994.5
@@ -532,7 +580,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "155",

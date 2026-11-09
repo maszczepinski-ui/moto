@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG S9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 572 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG S9 PHEV, S9 PHEV).",
-  "liczbaWPolsce": 572,
-  "aktywne": 572,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG S9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 578 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG S9 PHEV, S9 PHEV).",
+  "liczbaWPolsce": 578,
+  "aktywne": 578,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,11 +25,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "08",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "10",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 107
+    "liczba": 108
    },
    {
     "teryt": "16",
@@ -69,7 +69,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "30",
@@ -77,7 +77,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 45
+    "liczba": 47
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,25 +88,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 561
+    "liczba": 567
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 572
+    "liczba": 578
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 572
+    "liczba": 578
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 566
+    "liczba": 572
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -116,19 +116,63 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 572
+    "liczba": 578
    }
   ],
-  "noweOdPaczki": 572,
-  "hybrydy": 572,
+  "noweOdPaczki": 578,
+  "hybrydy": 578,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2026,
-    "liczba": 572
+    "liczba": 578
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -391,34 +435,34 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 48
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 77
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 110
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 115
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 124
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 122
    }
   ],
-  "miejsce": 924,
+  "miejsce": 927,
   "miejsceWMarce": 5,
   "modeliWMarce": 8,
   "sredniRocznik": 2026.0
@@ -427,7 +471,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "s9",

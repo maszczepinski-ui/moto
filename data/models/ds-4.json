@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 155 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 4, DS 4 CROSSBACK).",
-  "liczbaWPolsce": 1341,
-  "aktywne": 1292,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 173 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 4, DS 4 CROSSBACK).",
+  "liczbaWPolsce": 1359,
+  "aktywne": 1310,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 81
+    "liczba": 82
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 61
+    "liczba": 62
    },
    {
     "teryt": "08",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 76
+    "liczba": 79
    },
    {
     "teryt": "12",
-    "liczba": 136
+    "liczba": 140
    },
    {
     "teryt": "14",
-    "liczba": 247
+    "liczba": 251
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 88
+    "liczba": 89
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 145
+    "liczba": 146
    },
    {
     "teryt": "26",
@@ -70,34 +70,34 @@
    },
    {
     "teryt": "28",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "30",
-    "liczba": 201
+    "liczba": 202
    },
    {
     "teryt": "32",
-    "liczba": 27
+    "liczba": 28
    }
   ],
   "bezWojewodztwa": 3,
   "roczniki": [
    {
     "rok": 2015,
-    "liczba": 112
+    "liczba": 113
    },
    {
     "rok": 2016,
-    "liczba": 400
+    "liczba": 412
    },
    {
     "rok": 2017,
-    "liczba": 178
+    "liczba": 179
    },
    {
     "rok": 2018,
-    "liczba": 66
+    "liczba": 70
    },
    {
     "rok": 2019,
@@ -131,11 +131,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 649
+    "liczba": 651
    },
    {
     "nazwa": "Diesel",
-    "liczba": 560
+    "liczba": 576
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -149,11 +149,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 785
+    "liczba": 797
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 326
+    "liczba": 328
    },
    {
     "nazwa": "1,5 l",
@@ -161,7 +161,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 110
+    "liczba": 114
    },
    {
     "nazwa": "Inne / brak danych",
@@ -171,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 597
+    "liczba": 605
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 469
+    "liczba": 479
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -193,7 +193,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 828
+    "liczba": 844
    },
    {
     "nazwa": "Kombi",
@@ -201,16 +201,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 23
    }
   ],
-  "noweOdPaczki": 1155,
+  "noweOdPaczki": 1173,
   "hybrydy": 129,
   "elektryczne": 2,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 5
+   },
+   {
     "rok": 2020,
-    "liczba": 21
+    "liczba": 34
    },
    {
     "rok": 2021,
@@ -238,6 +242,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -488,55 +536,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 7
+    "liczba": 9
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 14
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 29
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 32
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 18
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 35
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 17
    }
   ],
-  "miejsce": 718,
+  "miejsce": 719,
   "miejsceWMarce": 2,
   "modeliWMarce": 7,
-  "sredniRocznik": 2018.8
+  "sredniRocznik": 2018.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "ds",
  "modelSlug": "4",
@@ -558,14 +606,14 @@
    "adres": "/marki/kia/proceed/"
   },
   {
-   "slug": "renault-captur",
-   "nazwa": "Renault Captur",
-   "adres": "/marki/renault/captur/"
-  },
-  {
    "slug": "hyundai-ioniq",
    "nazwa": "Hyundai Ioniq",
    "adres": "/marki/hyundai/ioniq/"
+  },
+  {
+   "slug": "peugeot-308",
+   "nazwa": "Peugeot 308",
+   "adres": "/marki/peugeot/308/"
   }
  ]
 }

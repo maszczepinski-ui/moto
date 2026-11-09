@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 11 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 11, 11, R 11 1.6D, R 11 1.4, 11 GTD).",
-  "liczbaWPolsce": 4915,
-  "aktywne": 22,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 11 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 11, 11, R 11 1.6D, R 11 1.4, 11 GTD).",
+  "liczbaWPolsce": 4916,
+  "aktywne": 23,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 341
+    "liczba": 342
    },
    {
     "teryt": "24",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1985,
-    "liczba": 944
+    "liczba": 945
    },
    {
     "rok": 1986,
@@ -151,7 +151,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1145
+    "liczba": 1146
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -177,7 +177,7 @@
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 565
+    "liczba": 566
    },
    {
     "nazwa": "1,1 l",
@@ -203,7 +203,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 3944
+    "liczba": 3945
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -225,7 +225,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1134
+    "liczba": 1135
    },
    {
     "nazwa": "Sedan",
@@ -236,10 +236,14 @@
     "liczba": 3156
    }
   ],
-  "noweOdPaczki": 13,
+  "noweOdPaczki": 14,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2020,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 4
@@ -262,6 +266,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -532,7 +580,7 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -548,10 +596,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 443,
+  "miejsce": 447,
   "miejsceWMarce": 22,
   "modeliWMarce": 48,
   "sredniRocznik": 1986.3
@@ -560,7 +608,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "11",

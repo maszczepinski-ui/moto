@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart City – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITY, CITY COUPE).",
-  "liczbaWPolsce": 327,
-  "aktywne": 126,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart City – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 48 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITY, CITY COUPE).",
+  "liczbaWPolsce": 333,
+  "aktywne": 132,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,11 +27,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "10",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "14",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 50
+    "liczba": 52
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 61
+    "liczba": 62
    },
    {
     "rok": 2000,
@@ -98,11 +98,11 @@
    },
    {
     "rok": 2001,
-    "liczba": 81
+    "liczba": 85
    },
    {
     "rok": 2002,
-    "liczba": 43
+    "liczba": 44
    },
    {
     "rok": 2003,
@@ -140,7 +140,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 268
+    "liczba": 274
    },
    {
     "nazwa": "Diesel",
@@ -154,7 +154,7 @@
   "pojemnosci": [
    {
     "nazwa": "0,6 l",
-    "liczba": 251
+    "liczba": 257
    },
    {
     "nazwa": "0,8 l",
@@ -172,11 +172,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 167
+    "liczba": 171
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 159
+    "liczba": 161
    },
    {
     "nazwa": "Inne / brak danych",
@@ -186,11 +186,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 159
+    "liczba": 161
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 145
+    "liczba": 149
    },
    {
     "nazwa": "Kabriolet",
@@ -201,13 +201,13 @@
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 42,
+  "noweOdPaczki": 48,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 8
    },
    {
     "rok": 2021,
@@ -235,6 +235,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -489,7 +533,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
@@ -497,7 +541,7 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
@@ -509,7 +553,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -524,7 +568,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1117,
+  "miejsce": 1116,
   "miejsceWMarce": 7,
   "modeliWMarce": 9,
   "sredniRocznik": 2000.6
@@ -533,7 +577,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "smart",
  "modelSlug": "city",

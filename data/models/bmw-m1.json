@@ -11,22 +11,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 028 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M135I XDRIVE, M135 XDRIVE, M135I, M140I XDRIVE, M140I).",
-  "liczbaWPolsce": 1028,
-  "aktywne": 1028,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 100 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M135I XDRIVE, M135 XDRIVE, M135I, M140I XDRIVE, M140I).",
+  "liczbaWPolsce": 1100,
+  "aktywne": 1100,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 93
+    "liczba": 103
    },
    {
     "teryt": "04",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "06",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "08",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 47
+    "liczba": 53
    },
    {
     "teryt": "12",
-    "liczba": 164
+    "liczba": 176
    },
    {
     "teryt": "14",
-    "liczba": 222
+    "liczba": 239
    },
    {
     "teryt": "16",
@@ -58,27 +58,27 @@
    },
    {
     "teryt": "22",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "24",
-    "liczba": 147
+    "liczba": 153
    },
    {
     "teryt": "26",
-    "liczba": 38
+    "liczba": 41
    },
    {
     "teryt": "28",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "30",
-    "liczba": 106
+    "liczba": 116
    },
    {
     "teryt": "32",
-    "liczba": 26
+    "liczba": 28
    }
   ],
   "bezWojewodztwa": 0,
@@ -89,11 +89,11 @@
    },
    {
     "rok": 2012,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2013,
-    "liczba": 40
+    "liczba": 42
    },
    {
     "rok": 2014,
@@ -105,7 +105,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 16
+    "liczba": 19
    },
    {
     "rok": 2017,
@@ -117,11 +117,11 @@
    },
    {
     "rok": 2019,
-    "liczba": 29
+    "liczba": 61
    },
    {
     "rok": 2020,
-    "liczba": 160
+    "liczba": 194
    },
    {
     "rok": 2021,
@@ -151,7 +151,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1020
+    "liczba": 1092
    },
    {
     "nazwa": "Inne / brak danych",
@@ -161,11 +161,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 847
+    "liczba": 913
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 179
+    "liczba": 185
    },
    {
     "nazwa": "Inne / brak danych",
@@ -175,15 +175,15 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 452
+    "liczba": 505
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 354
+    "liczba": 370
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 218
+    "liczba": 221
    },
    {
     "nazwa": "Inne / brak danych",
@@ -193,28 +193,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 946
+    "liczba": 1014
    },
    {
     "nazwa": "Kombi",
-    "liczba": 64
+    "liczba": 68
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 18
    }
   ],
-  "noweOdPaczki": 1028,
+  "noweOdPaczki": 1100,
   "hybrydy": 3,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 2
+    "liczba": 17
    },
    {
     "rok": 2020,
-    "liczba": 93
+    "liczba": 150
    },
    {
     "rok": 2021,
@@ -242,6 +242,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 15
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 16
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 17
+   },
    {
     "miesiac": "2020-11",
     "liczba": 7
@@ -492,55 +536,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 16
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 19
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 12
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 10
    }
   ],
-  "miejsce": 783,
+  "miejsce": 771,
   "miejsceWMarce": 28,
   "modeliWMarce": 43,
-  "sredniRocznik": 2021.0
+  "sredniRocznik": 2020.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "m1",
@@ -567,9 +611,9 @@
    "adres": "/marki/volkswagen/arteon/"
   },
   {
-   "slug": "audi-s3",
-   "nazwa": "Audi S3",
-   "adres": "/marki/audi/s3/"
+   "slug": "mini-john",
+   "nazwa": "Mini John",
+   "adres": "/marki/mini/john/"
   }
  ]
 }

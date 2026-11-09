@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 909 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M2, M240I XDRIVE, M235I XDRIVE, M240I, M235I).",
-  "liczbaWPolsce": 3018,
-  "aktywne": 3000,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 044 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M2, M240I XDRIVE, M235I XDRIVE, M2 COMPETITION, M240I).",
+  "liczbaWPolsce": 3153,
+  "aktywne": 3135,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 234
+    "liczba": 247
    },
    {
     "teryt": "04",
@@ -26,90 +26,90 @@
    },
    {
     "teryt": "06",
-    "liczba": 109
+    "liczba": 117
    },
    {
     "teryt": "08",
-    "liczba": 46
+    "liczba": 49
    },
    {
     "teryt": "10",
-    "liczba": 148
+    "liczba": 153
    },
    {
     "teryt": "12",
-    "liczba": 413
+    "liczba": 433
    },
    {
     "teryt": "14",
-    "liczba": 683
+    "liczba": 712
    },
    {
     "teryt": "16",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "18",
-    "liczba": 111
+    "liczba": 115
    },
    {
     "teryt": "20",
-    "liczba": 59
+    "liczba": 63
    },
    {
     "teryt": "22",
-    "liczba": 163
+    "liczba": 174
    },
    {
     "teryt": "24",
-    "liczba": 374
+    "liczba": 390
    },
    {
     "teryt": "26",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "teryt": "28",
-    "liczba": 53
+    "liczba": 56
    },
    {
     "teryt": "30",
-    "liczba": 311
+    "liczba": 322
    },
    {
     "teryt": "32",
-    "liczba": 119
+    "liczba": 124
    }
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 71
+    "liczba": 73
    },
    {
     "rok": 2015,
-    "liczba": 122
+    "liczba": 127
    },
    {
     "rok": 2016,
-    "liczba": 125
+    "liczba": 127
    },
    {
     "rok": 2017,
-    "liczba": 188
+    "liczba": 191
    },
    {
     "rok": 2018,
-    "liczba": 129
+    "liczba": 134
    },
    {
     "rok": 2019,
-    "liczba": 109
+    "liczba": 160
    },
    {
     "rok": 2020,
-    "liczba": 297
+    "liczba": 359
    },
    {
     "rok": 2021,
@@ -129,17 +129,17 @@
    },
    {
     "rok": 2025,
-    "liczba": 493
+    "liczba": 494
    },
    {
     "rok": 2026,
-    "liczba": 166
+    "liczba": 170
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2980
+    "liczba": 3115
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -153,11 +153,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 2409
+    "liczba": 2503
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 604
+    "liczba": 645
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,15 +167,15 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1430
+    "liczba": 1452
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 948
+    "liczba": 1053
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 623
+    "liczba": 631
    },
    {
     "nazwa": "Inne / brak danych",
@@ -185,36 +185,36 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 2281
+    "liczba": 2369
    },
    {
     "nazwa": "Sedan",
-    "liczba": 611
+    "liczba": 654
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 60
+    "liczba": 62
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 33
    }
   ],
-  "noweOdPaczki": 2909,
+  "noweOdPaczki": 3044,
   "hybrydy": 34,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 5
+    "liczba": 27
    },
    {
     "rok": 2020,
-    "liczba": 197
+    "liczba": 303
    },
    {
     "rok": 2021,
@@ -238,10 +238,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 557
+    "liczba": 564
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 22
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 14
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 29
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 17
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 38
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 37
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 28
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 39
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 35
+   },
    {
     "miesiac": "2020-11",
     "liczba": 20
@@ -492,55 +536,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 22
+    "liczba": 31
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 59
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 87
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 57
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 67
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 60
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 47
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 34
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 51
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 79
    }
   ],
-  "miejsce": 527,
+  "miejsce": 522,
   "miejsceWMarce": 17,
   "modeliWMarce": 43,
-  "sredniRocznik": 2021.6
+  "sredniRocznik": 2021.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "m2",

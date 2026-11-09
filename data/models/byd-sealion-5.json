@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Sealion 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 613 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEALION 5 DM-I).",
-  "liczbaWPolsce": 613,
-  "aktywne": 613,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Sealion 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 614 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEALION 5 DM-I).",
+  "liczbaWPolsce": 614,
+  "aktywne": 614,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "32",
@@ -84,25 +84,25 @@
   "roczniki": [
    {
     "rok": 2026,
-    "liczba": 612
+    "liczba": 613
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 613
+    "liczba": 614
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 613
+    "liczba": 614
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 438
+    "liczba": 439
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -116,19 +116,63 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 613
+    "liczba": 614
    }
   ],
-  "noweOdPaczki": 613,
-  "hybrydy": 613,
+  "noweOdPaczki": 614,
+  "hybrydy": 614,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2026,
-    "liczba": 613
+    "liczba": 614
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -395,30 +439,30 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 115
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 62
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 459
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 11
    }
   ],
-  "miejsce": 910,
+  "miejsce": 917,
   "miejsceWMarce": 8,
   "modeliWMarce": 8,
   "sredniRocznik": 2026.0
@@ -427,7 +471,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "sealion-5",

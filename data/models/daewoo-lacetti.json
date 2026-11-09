@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Lacetti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 42 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LACETTI).",
-  "liczbaWPolsce": 382,
-  "aktywne": 194,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Lacetti – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 53 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LACETTI).",
+  "liczbaWPolsce": 393,
+  "aktywne": 205,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "04",
-    "liczba": 28
+    "liczba": 30
    },
    {
     "teryt": "06",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 65
    },
    {
     "teryt": "16",
@@ -61,11 +61,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 31
+    "liczba": 34
    },
    {
     "teryt": "26",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "28",
@@ -88,15 +88,15 @@
    },
    {
     "rok": 2004,
-    "liczba": 250
+    "liczba": 259
    },
    {
     "rok": 2005,
-    "liczba": 99
+    "liczba": 100
    },
    {
     "rok": 2006,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2007,
@@ -110,11 +110,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 221
+    "liczba": 231
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 159
+    "liczba": 160
    },
    {
     "nazwa": "Inne / brak danych",
@@ -124,25 +124,25 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 158
+    "liczba": 161
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 124
+    "liczba": 126
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 100
+    "liczba": 106
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 313
+    "liczba": 320
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 61
+    "liczba": 65
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,7 +152,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 359
+    "liczba": 370
    },
    {
     "nazwa": "Sedan",
@@ -163,13 +163,17 @@
     "liczba": 15
    }
   ],
-  "noweOdPaczki": 42,
+  "noweOdPaczki": 53,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 7
+    "liczba": 15
    },
    {
     "rok": 2021,
@@ -190,9 +194,57 @@
    {
     "rok": 2025,
     "liczba": 4
+   },
+   {
+    "rok": 2026,
+    "liczba": 1
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -482,7 +534,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1066,
+  "miejsce": 1062,
   "miejsceWMarce": 11,
   "modeliWMarce": 15,
   "sredniRocznik": 2004.4
@@ -491,7 +543,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "lacetti",

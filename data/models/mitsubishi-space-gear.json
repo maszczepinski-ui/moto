@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Space Gear – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 29 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPACE GEAR).",
-  "liczbaWPolsce": 288,
-  "aktywne": 65,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Space Gear – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 35 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SPACE GEAR).",
+  "liczbaWPolsce": 294,
+  "aktywne": 71,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "04",
@@ -40,7 +40,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 13
+    "liczba": 15
    },
    {
     "teryt": "14",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "20",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "24",
@@ -72,7 +72,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "30",
@@ -127,11 +127,11 @@
    },
    {
     "rok": 1994,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1995,
-    "liczba": 98
+    "liczba": 100
    },
    {
     "rok": 1996,
@@ -139,7 +139,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 37
+    "liczba": 38
    },
    {
     "rok": 1998,
@@ -147,11 +147,11 @@
    },
    {
     "rok": 1999,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 2000,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 2001,
@@ -173,15 +173,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 130
+    "liczba": 132
    },
    {
     "nazwa": "Diesel",
-    "liczba": 83
+    "liczba": 86
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 65
+    "liczba": 66
    },
    {
     "nazwa": "Inne / brak danych",
@@ -191,33 +191,37 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 136
-   },
-   {
-    "nazwa": "2,4 l",
-    "liczba": 64
+    "liczba": 137
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 64
+    "liczba": 66
+   },
+   {
+    "nazwa": "2,4 l",
+    "liczba": 65
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 18
+    "liczba": 19
+   },
+   {
+    "nazwa": "2,3 l",
+    "liczba": 3
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 6
+    "liczba": 4
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 162
+    "liczba": 164
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 119
+    "liczba": 123
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -231,18 +235,18 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 184
+    "liczba": 186
    },
    {
     "nazwa": "Kombi",
-    "liczba": 39
-   },
-   {
-    "nazwa": "Sedan",
-    "liczba": 17
+    "liczba": 40
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 20
+   },
+   {
+    "nazwa": "Sedan",
     "liczba": 17
    },
    {
@@ -254,13 +258,17 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 29,
+  "noweOdPaczki": 35,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 7
    },
    {
     "rok": 2021,
@@ -288,6 +296,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -574,19 +626,19 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1152,
+  "miejsce": 1153,
   "miejsceWMarce": 16,
-  "modeliWMarce": 20,
+  "modeliWMarce": 21,
   "sredniRocznik": 1996.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "space-gear",

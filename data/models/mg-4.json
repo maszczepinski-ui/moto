@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 971 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG4 ELECTRIC).",
-  "liczbaWPolsce": 971,
-  "aktywne": 971,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 972 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG4 ELECTRIC).",
+  "liczbaWPolsce": 972,
+  "aktywne": 972,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "teryt": "08",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 382
+    "liczba": 383
    },
    {
     "rok": 2024,
@@ -102,13 +102,13 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 971
+    "liczba": 972
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 971
+    "liczba": 972
    }
   ],
   "pochodzenie": [
@@ -122,7 +122,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 137
+    "liczba": 138
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -132,16 +132,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 965
+    "liczba": 966
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 971,
+  "noweOdPaczki": 972,
   "hybrydy": 0,
-  "elektryczne": 970,
+  "elektryczne": 971,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
@@ -157,10 +157,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 250
+    "liczba": 251
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -411,46 +455,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 11
+    "liczba": 19
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 13
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 35
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 21
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 24
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 19
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 62
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 19
    }
   ],
-  "miejsce": 799,
+  "miejsce": 801,
   "miejsceWMarce": 4,
   "modeliWMarce": 8,
   "sredniRocznik": 2023.7
@@ -459,7 +503,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "4",

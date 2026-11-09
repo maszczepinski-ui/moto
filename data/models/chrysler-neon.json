@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Neon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 27 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEON, NEON 2.0 KAT, NEON 2.0).",
-  "liczbaWPolsce": 938,
-  "aktywne": 116,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Neon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 30 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEON, NEON 2.0 KAT, NEON 2.0).",
+  "liczbaWPolsce": 941,
+  "aktywne": 119,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "10",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "14",
-    "liczba": 141
+    "liczba": 142
    },
    {
     "teryt": "16",
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 51
+    "liczba": 52
    },
    {
     "rok": 1999,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 2000,
-    "liczba": 238
+    "liczba": 239
    },
    {
     "rok": 2001,
@@ -117,7 +117,7 @@
    },
    {
     "rok": 2002,
-    "liczba": 33
+    "liczba": 34
    },
    {
     "rok": 2003,
@@ -139,7 +139,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 623
+    "liczba": 626
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -153,11 +153,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 875
+    "liczba": 877
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "nazwa": "1,8 l",
@@ -171,11 +171,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 472
+    "liczba": 474
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 448
+    "liczba": 449
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,24 +189,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 819
+    "liczba": 821
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 69
    }
   ],
-  "noweOdPaczki": 27,
+  "noweOdPaczki": 30,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 5
+    "liczba": 8
    },
    {
     "rok": 2021,
@@ -230,6 +230,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -516,10 +560,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 806,
+  "miejsce": 807,
   "miejsceWMarce": 10,
   "modeliWMarce": 21,
   "sredniRocznik": 1997.8
@@ -528,7 +572,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "neon",
@@ -555,9 +599,9 @@
    "adres": "/marki/nissan/primera/"
   },
   {
-   "slug": "mazda-xedos",
-   "nazwa": "Mazda Xedos",
-   "adres": "/marki/mazda/xedos/"
+   "slug": "peugeot-406",
+   "nazwa": "Peugeot 406",
+   "adres": "/marki/peugeot/406/"
   }
  ]
 }

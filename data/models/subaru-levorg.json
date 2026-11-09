@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Levorg – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 187 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEVORG, LEVORG 1.6 GT-S).",
-  "liczbaWPolsce": 395,
-  "aktywne": 341,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Levorg – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 198 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEVORG, LEVORG 1.6 GT-S).",
+  "liczbaWPolsce": 406,
+  "aktywne": 352,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "12",
-    "liczba": 53
+    "liczba": 57
    },
    {
     "teryt": "14",
-    "liczba": 96
+    "liczba": 98
    },
    {
     "teryt": "18",
@@ -53,19 +53,19 @@
    },
    {
     "teryt": "22",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "24",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "26",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "28",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "30",
@@ -116,19 +116,19 @@
    },
    {
     "rok": 2015,
-    "liczba": 112
+    "liczba": 118
    },
    {
     "rok": 2016,
-    "liczba": 126
+    "liczba": 127
    },
    {
     "rok": 2017,
-    "liczba": 94
+    "liczba": 97
    },
    {
     "rok": 2018,
-    "liczba": 36
+    "liczba": 37
    },
    {
     "rok": 2019,
@@ -150,17 +150,17 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 382
+    "liczba": 392
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 13
+    "liczba": 14
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 381
+    "liczba": 392
    },
    {
     "nazwa": "2,0 l",
@@ -174,7 +174,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 138
+    "liczba": 145
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -182,7 +182,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 118
+    "liczba": 122
    },
    {
     "nazwa": "Inne / brak danych",
@@ -192,7 +192,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 384
+    "liczba": 395
    },
    {
     "nazwa": "Sedan",
@@ -203,13 +203,17 @@
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 187,
+  "noweOdPaczki": 198,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 14
+    "liczba": 23
    },
    {
     "rok": 2021,
@@ -237,6 +241,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -491,42 +539,42 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 5
    }
   ],
-  "miejsce": 1048,
+  "miejsce": 1049,
   "miejsceWMarce": 11,
   "modeliWMarce": 13,
   "sredniRocznik": 2016.3
@@ -535,7 +583,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "levorg",
@@ -552,9 +600,9 @@
    "adres": "/marki/volkswagen/golf-sportsvan/"
   },
   {
-   "slug": "dacia-dokker",
-   "nazwa": "Dacia Dokker",
-   "adres": "/marki/dacia/dokker/"
+   "slug": "kia-ceed",
+   "nazwa": "Kia Ceed",
+   "adres": "/marki/kia/ceed/"
   },
   {
    "slug": "dacia-lodgy",
@@ -562,9 +610,9 @@
    "adres": "/marki/dacia/lodgy/"
   },
   {
-   "slug": "kia-ceed",
-   "nazwa": "Kia Ceed",
-   "adres": "/marki/kia/ceed/"
+   "slug": "dacia-dokker",
+   "nazwa": "Dacia Dokker",
+   "adres": "/marki/dacia/dokker/"
   }
  ]
 }

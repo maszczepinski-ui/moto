@@ -7,43 +7,44 @@
  "nadwozia": [
   "van",
   "kombi",
-  "hatchback"
+  "hatchback",
+  "suv"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia New Sportage – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 502 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEW SPORTAGE).",
-  "liczbaWPolsce": 502,
-  "aktywne": 502,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia New Sportage – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 548 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: NEW SPORTAGE).",
+  "liczbaWPolsce": 548,
+  "aktywne": 548,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 21
+    "liczba": 23
    },
    {
     "teryt": "04",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "06",
-    "liczba": 26
+    "liczba": 32
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 8
    },
    {
     "teryt": "10",
-    "liczba": 38
+    "liczba": 41
    },
    {
     "teryt": "12",
-    "liczba": 40
+    "liczba": 46
    },
    {
     "teryt": "14",
-    "liczba": 96
+    "liczba": 100
    },
    {
     "teryt": "16",
@@ -51,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 56
+    "liczba": 58
    },
    {
     "teryt": "20",
@@ -59,23 +60,23 @@
    },
    {
     "teryt": "22",
-    "liczba": 21
-   },
-   {
-    "teryt": "24",
     "liczba": 25
    },
    {
+    "teryt": "24",
+    "liczba": 31
+   },
+   {
     "teryt": "26",
-    "liczba": 56
+    "liczba": 59
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 13
    },
    {
     "teryt": "30",
-    "liczba": 34
+    "liczba": 37
    },
    {
     "teryt": "32",
@@ -86,33 +87,33 @@
   "roczniki": [
    {
     "rok": 2010,
-    "liczba": 20
+    "liczba": 21
    },
    {
     "rok": 2011,
-    "liczba": 107
+    "liczba": 123
    },
    {
     "rok": 2012,
-    "liczba": 162
+    "liczba": 173
    },
    {
     "rok": 2013,
-    "liczba": 183
+    "liczba": 197
    },
    {
     "rok": 2014,
-    "liczba": 29
+    "liczba": 33
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 421
+    "liczba": 463
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 76
+    "liczba": 80
    },
    {
     "nazwa": "Inne / brak danych",
@@ -122,60 +123,64 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 364
-   },
-   {
-    "nazwa": "1,6 l",
-    "liczba": 70
+    "liczba": 397
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 68
+    "liczba": 77
+   },
+   {
+    "nazwa": "1,6 l",
+    "liczba": 74
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 360
+    "liczba": 383
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 142
+    "liczba": 165
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 329
+    "liczba": 347
    },
    {
     "nazwa": "Kombi",
-    "liczba": 85
+    "liczba": 99
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 45
+    "liczba": 51
    },
    {
     "nazwa": "Van",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 13
+    "liczba": 17
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
-  "noweOdPaczki": 502,
+  "noweOdPaczki": 548,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 14
+   },
+   {
     "rok": 2020,
-    "liczba": 72
+    "liczba": 104
    },
    {
     "rok": 2021,
@@ -203,6 +208,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 11
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 12
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 15
+   },
    {
     "miesiac": "2020-11",
     "liczba": 12
@@ -457,11 +506,11 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -469,30 +518,30 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 971,
+  "miejsce": 945,
   "miejsceWMarce": 26,
   "modeliWMarce": 33,
   "sredniRocznik": 2012.2
@@ -501,7 +550,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "new-sportage",
@@ -523,14 +572,14 @@
    "adres": "/marki/ford/s-max/"
   },
   {
-   "slug": "peugeot-expert",
-   "nazwa": "Peugeot Expert",
-   "adres": "/marki/peugeot/expert/"
-  },
-  {
    "slug": "citroen-jumpy",
    "nazwa": "Citroen Jumpy",
    "adres": "/marki/citroen/jumpy/"
+  },
+  {
+   "slug": "peugeot-expert",
+   "nazwa": "Peugeot Expert",
+   "adres": "/marki/peugeot/expert/"
   }
  ]
 }

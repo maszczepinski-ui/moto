@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac Trans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 51 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRANS SPORT, TRANS SPORT 2.3 KAT, TRANS SPORT SE, TRANS SPORT 3.1, TRANS SPORT 3.8 KAT).",
-  "liczbaWPolsce": 1810,
-  "aktywne": 93,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Pontiac Trans – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 53 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRANS SPORT, TRANS SPORT 2.3 KAT, TRANS SPORT SE, TRANS SPORT 3.1, TRANS SPORT 3.8 KAT).",
+  "liczbaWPolsce": 1812,
+  "aktywne": 95,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -44,7 +44,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 318
+    "liczba": 319
    },
    {
     "teryt": "16",
@@ -64,7 +64,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 152
+    "liczba": 153
    },
    {
     "teryt": "26",
@@ -85,6 +85,10 @@
   ],
   "bezWojewodztwa": 2,
   "roczniki": [
+   {
+    "rok": 1978,
+    "liczba": 4
+   },
    {
     "rok": 1979,
     "liczba": 6
@@ -127,7 +131,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1990,
@@ -177,7 +181,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 687
+    "liczba": 689
    },
    {
     "nazwa": "?+LPG",
@@ -199,7 +203,7 @@
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 550
+    "liczba": 551
    },
    {
     "nazwa": "3,1 l",
@@ -223,13 +227,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 73
+    "liczba": 74
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1051
+    "liczba": 1053
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -271,20 +275,20 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 363
    }
   ],
-  "noweOdPaczki": 51,
+  "noweOdPaczki": 53,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 6
+    "liczba": 8
    },
    {
     "rok": 2021,
@@ -312,6 +316,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 3
@@ -570,15 +618,15 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -601,7 +649,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 645,
+  "miejsce": 648,
   "miejsceWMarce": 1,
   "modeliWMarce": 3,
   "sredniRocznik": 1993.3
@@ -610,7 +658,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "pontiac",
  "modelSlug": "trans",
@@ -632,14 +680,14 @@
    "adres": "/marki/dodge/caravan/"
   },
   {
-   "slug": "mitsubishi-l",
-   "nazwa": "Mitsubishi L",
-   "adres": "/marki/mitsubishi/l/"
-  },
-  {
    "slug": "ford-probe",
    "nazwa": "Ford Probe",
    "adres": "/marki/ford/probe/"
+  },
+  {
+   "slug": "mitsubishi-l",
+   "nazwa": "Mitsubishi L",
+   "adres": "/marki/mitsubishi/l/"
   }
  ]
 }

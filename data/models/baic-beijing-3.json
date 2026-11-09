@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BAIC Beijing 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 262 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BEIJING 3).",
-  "liczbaWPolsce": 3262,
-  "aktywne": 3262,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BAIC Beijing 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 267 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BEIJING 3).",
+  "liczbaWPolsce": 3267,
+  "aktywne": 3267,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 283
+    "liczba": 284
    },
    {
     "teryt": "04",
@@ -29,11 +29,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 148
+    "liczba": 149
    },
    {
     "teryt": "10",
-    "liczba": 195
+    "liczba": 196
    },
    {
     "teryt": "12",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 125
+    "liczba": 126
    },
    {
     "teryt": "24",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 309
+    "liczba": 310
    },
    {
     "teryt": "32",
@@ -92,13 +92,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 891
+    "liczba": 896
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3018
+    "liczba": 3023
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -112,13 +112,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 3262
+    "liczba": 3267
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 3131
+    "liczba": 3136
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -132,14 +132,14 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 3260
+    "liczba": 3265
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 3262,
+  "noweOdPaczki": 3267,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -153,10 +153,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 1380
+    "liczba": 1385
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -407,46 +451,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 159
+    "liczba": 195
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 159
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 54
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 16
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 116
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 318
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 236
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 169
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 102
    }
   ],
-  "miejsce": 505,
+  "miejsce": 513,
   "miejsceWMarce": 2,
   "modeliWMarce": 4,
   "sredniRocznik": 2025.0
@@ -455,7 +499,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "baic",
  "modelSlug": "beijing-3",
@@ -467,14 +511,14 @@
    "adres": "/marki/lexus/lbx/"
   },
   {
-   "slug": "volkswagen-t-roc",
-   "nazwa": "Volkswagen T-Roc",
-   "adres": "/marki/volkswagen/t-roc/"
-  },
-  {
    "slug": "ssangyong-torres",
    "nazwa": "SsangYong (KGM) Torres",
    "adres": "/marki/ssangyong-kgm/torres/"
+  },
+  {
+   "slug": "volkswagen-t-roc",
+   "nazwa": "Volkswagen T-Roc",
+   "adres": "/marki/volkswagen/t-roc/"
   },
   {
    "slug": "cupra-leon",

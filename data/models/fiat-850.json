@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 850 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 41 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 850, 850 SPORT, 850 SPIDER).",
-  "liczbaWPolsce": 1813,
-  "aktywne": 57,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 850 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 43 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 850, 850 SPORT, 850 SPIDER).",
+  "liczbaWPolsce": 1815,
+  "aktywne": 59,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 132
+    "liczba": 133
    },
    {
     "teryt": "04",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 168
+    "liczba": 169
    },
    {
     "teryt": "32",
@@ -100,7 +100,7 @@
    },
    {
     "rok": 1968,
-    "liczba": 235
+    "liczba": 236
    },
    {
     "rok": 1969,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 1970,
-    "liczba": 256
+    "liczba": 257
    },
    {
     "rok": 1971,
@@ -170,7 +170,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 257
+    "liczba": 259
    },
    {
     "nazwa": "Inne / brak danych",
@@ -184,7 +184,7 @@
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 335
+    "liczba": 337
    },
    {
     "nazwa": "Inne / brak danych",
@@ -202,11 +202,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 97
+    "liczba": 98
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 72
+    "liczba": 73
    }
   ],
   "nadwozia": [
@@ -216,7 +216,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "nazwa": "Kabriolet",
@@ -231,13 +231,13 @@
     "liczba": 1571
    }
   ],
-  "noweOdPaczki": 41,
+  "noweOdPaczki": 43,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 4
+    "liczba": 6
    },
    {
     "rok": 2021,
@@ -265,6 +265,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -519,7 +563,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
@@ -535,11 +579,11 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
@@ -547,14 +591,14 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 643,
+  "miejsce": 647,
   "miejsceWMarce": 37,
   "modeliWMarce": 61,
   "sredniRocznik": 1969.8
@@ -563,7 +607,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "850",

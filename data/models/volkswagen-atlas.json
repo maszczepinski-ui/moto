@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Atlas – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 732 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ATLAS, ATLAS CROSS SPORT, ATLAS CROSS SPORT SEL, ATLAS CROSS SPORT SE).",
-  "liczbaWPolsce": 732,
-  "aktywne": 732,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Atlas – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 743 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ATLAS, ATLAS CROSS SPORT, ATLAS CROSS SPORT SEL, ATLAS CROSS SPORT SE).",
+  "liczbaWPolsce": 743,
+  "aktywne": 743,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "04",
@@ -40,19 +40,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 59
+    "liczba": 61
    },
    {
     "teryt": "14",
-    "liczba": 107
+    "liczba": 108
    },
    {
     "teryt": "16",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "18",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "20",
@@ -60,11 +60,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 76
+    "liczba": 77
    },
    {
     "teryt": "24",
-    "liczba": 109
+    "liczba": 111
    },
    {
     "teryt": "26",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 77
+    "liczba": 78
    },
    {
     "teryt": "32",
-    "liczba": 26
+    "liczba": 27
    }
   ],
   "bezWojewodztwa": 0,
@@ -91,11 +91,11 @@
    },
    {
     "rok": 2018,
-    "liczba": 126
+    "liczba": 134
    },
    {
     "rok": 2019,
-    "liczba": 125
+    "liczba": 127
    },
    {
     "rok": 2020,
@@ -103,7 +103,7 @@
    },
    {
     "rok": 2021,
-    "liczba": 142
+    "liczba": 143
    },
    {
     "rok": 2022,
@@ -129,11 +129,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 636
+    "liczba": 646
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 95
+    "liczba": 96
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,11 +143,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 534
+    "liczba": 542
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 191
+    "liczba": 194
    },
    {
     "nazwa": "Inne / brak danych",
@@ -157,29 +157,29 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 527
+    "liczba": 534
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 205
+    "liczba": 209
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 329
+    "liczba": 334
    },
    {
     "nazwa": "Kombi",
-    "liczba": 258
+    "liczba": 260
+   },
+   {
+    "nazwa": "Van",
+    "liczba": 46
    },
    {
     "nazwa": "Hatchback",
     "liczba": 45
-   },
-   {
-    "nazwa": "Van",
-    "liczba": 42
    },
    {
     "nazwa": "Terenowy",
@@ -194,17 +194,17 @@
     "liczba": 25
    }
   ],
-  "noweOdPaczki": 732,
+  "noweOdPaczki": 743,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2020,
-    "liczba": 16
+    "liczba": 24
    },
    {
     "rok": 2021,
@@ -228,10 +228,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 234
+    "liczba": 235
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -486,42 +530,42 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 25
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 21
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 14
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 30
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 34
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 25
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 24
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 40
    }
   ],
-  "miejsce": 861,
+  "miejsce": 862,
   "miejsceWMarce": 44,
   "modeliWMarce": 61,
   "sredniRocznik": 2020.5
@@ -530,7 +574,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "atlas",
@@ -557,9 +601,9 @@
    "adres": "/marki/toyota/sienna/"
   },
   {
-   "slug": "bmw-m4",
-   "nazwa": "BMW M4",
-   "adres": "/marki/bmw/m4/"
+   "slug": "mercedes-benz-amg",
+   "nazwa": "Mercedes-Benz Amg",
+   "adres": "/marki/mercedes-benz/amg/"
   }
  ]
 }

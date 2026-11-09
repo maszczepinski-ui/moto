@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Charade – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 40 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CHARADE, CHARADE 1.0, CHARADE 1.0D, CHARADE 1.0 KAT, CHARADE 1.0 D).",
-  "liczbaWPolsce": 6756,
-  "aktywne": 96,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daihatsu Charade – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 45 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CHARADE, CHARADE 1.0, CHARADE 1.0D, CHARADE 1.0 KAT, CHARADE 1.0 D).",
+  "liczbaWPolsce": 6761,
+  "aktywne": 101,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 227
+    "liczba": 228
    },
    {
     "teryt": "10",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 1277
+    "liczba": 1278
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 601
+    "liczba": 602
    },
    {
     "teryt": "24",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 192
+    "liczba": 193
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 583
+    "liczba": 584
    },
    {
     "teryt": "32",
@@ -129,7 +129,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 774
+    "liczba": 775
    },
    {
     "rok": 1992,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2000,
@@ -197,7 +197,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2009,
@@ -210,12 +210,16 @@
    {
     "rok": 2011,
     "liczba": 19
+   },
+   {
+    "rok": 2012,
+    "liczba": 14
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2143
+    "liczba": 2148
    },
    {
     "nazwa": "Diesel",
@@ -237,11 +241,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 5842
+    "liczba": 5843
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 618
+    "liczba": 622
    },
    {
     "nazwa": "Inne / brak danych",
@@ -251,7 +255,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 5083
+    "liczba": 5085
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -259,7 +263,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 618
+    "liczba": 621
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -273,24 +277,28 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2169
+    "liczba": 2172
    },
    {
     "nazwa": "Sedan",
-    "liczba": 764
+    "liczba": 765
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3823
+    "liczba": 3824
    }
   ],
-  "noweOdPaczki": 40,
+  "noweOdPaczki": 45,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 6
    },
    {
     "rok": 2021,
@@ -318,6 +326,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -576,7 +628,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -596,7 +648,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -607,7 +659,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 384,
+  "miejsce": 389,
   "miejsceWMarce": 1,
   "modeliWMarce": 10,
   "sredniRocznik": 1987.8
@@ -616,7 +668,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "daihatsu",
  "modelSlug": "charade",

@@ -14,22 +14,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW Alpina – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 329 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALPINA, ALPINA B7, BMW ALPINA XB7, ALPINA B5, ALPINA B3).",
-  "liczbaWPolsce": 329,
-  "aktywne": 329,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW Alpina – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 351 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALPINA, ALPINA B7, BMW ALPINA XB7, ALPINA B3, ALPINA B5).",
+  "liczbaWPolsce": 351,
+  "aktywne": 351,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "04",
-    "liczba": 9
+    "liczba": 13
    },
    {
     "teryt": "06",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "08",
@@ -37,15 +37,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "12",
-    "liczba": 35
+    "liczba": 38
    },
    {
     "teryt": "14",
-    "liczba": 83
+    "liczba": 86
    },
    {
     "teryt": "16",
@@ -53,11 +53,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "22",
@@ -73,15 +73,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "30",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "32",
-    "liczba": 14
+    "liczba": 15
    }
   ],
   "bezWojewodztwa": 0,
@@ -160,11 +160,11 @@
    },
    {
     "rok": 2001,
-    "liczba": 4
+    "liczba": 8
    },
    {
     "rok": 2002,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2003,
@@ -180,11 +180,11 @@
    },
    {
     "rok": 2006,
-    "liczba": 21
+    "liczba": 23
    },
    {
     "rok": 2007,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 2008,
@@ -196,7 +196,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 2011,
@@ -204,7 +204,7 @@
    },
    {
     "rok": 2012,
-    "liczba": 15
+    "liczba": 16
    },
    {
     "rok": 2013,
@@ -216,7 +216,7 @@
    },
    {
     "rok": 2015,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 2016,
@@ -224,19 +224,19 @@
    },
    {
     "rok": 2017,
-    "liczba": 19
+    "liczba": 20
    },
    {
     "rok": 2018,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2019,
-    "liczba": 17
+    "liczba": 25
    },
    {
     "rok": 2020,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2021,
@@ -262,11 +262,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 244
+    "liczba": 257
    },
    {
     "nazwa": "Diesel",
-    "liczba": 69
+    "liczba": 77
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -278,47 +278,47 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "4,4 l",
-    "liczba": 176
+    "liczba": 184
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 81
+    "liczba": 87
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 28
+    "liczba": 31
+   },
+   {
+    "nazwa": "3,3 l",
+    "liczba": 14
    },
    {
     "nazwa": "3,4 l",
     "liczba": 13
    },
    {
-    "nazwa": "3,3 l",
+    "nazwa": "4,6 l",
     "liczba": 11
    },
    {
-    "nazwa": "4,6 l",
-    "liczba": 10
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 195
+    "liczba": 203
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 97
+    "liczba": 111
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -332,15 +332,15 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 190
+    "liczba": 202
    },
    {
     "nazwa": "Kombi",
-    "liczba": 81
+    "liczba": 88
    },
    {
     "nazwa": "Coupe",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "nazwa": "Hatchback",
@@ -348,7 +348,7 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -359,17 +359,17 @@
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 329,
+  "noweOdPaczki": 351,
   "hybrydy": 15,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 6
    },
    {
     "rok": 2020,
-    "liczba": 20
+    "liczba": 36
    },
    {
     "rok": 2021,
@@ -393,10 +393,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 41
+    "liczba": 42
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 13
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 3
@@ -651,42 +695,42 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 4
    }
   ],
-  "miejsce": 1113,
+  "miejsce": 1100,
   "miejsceWMarce": 37,
   "modeliWMarce": 43,
   "sredniRocznik": 2012.1
@@ -695,7 +739,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "alpina",
@@ -722,9 +766,9 @@
    "adres": "/marki/audi/s8/"
   },
   {
-   "slug": "audi-s6",
-   "nazwa": "Audi S6",
-   "adres": "/marki/audi/s6/"
+   "slug": "dodge-grand-caravan",
+   "nazwa": "Dodge Grand Caravan",
+   "adres": "/marki/dodge/grand-caravan/"
   }
  ]
 }

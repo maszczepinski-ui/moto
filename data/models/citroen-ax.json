@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen AX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 19 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AX, AX 1.0 KAT, AX 1.1 KAT, AX 1.1, AX 1.1KAT).",
-  "liczbaWPolsce": 9544,
-  "aktywne": 162,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Citroen AX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AX, AX 1.0 KAT, AX 1.1 KAT, AX 1.1, AX 1.1KAT).",
+  "liczbaWPolsce": 9545,
+  "aktywne": 163,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 532
+    "liczba": 533
    },
    {
     "teryt": "12",
@@ -105,7 +105,7 @@
    },
    {
     "rok": 1992,
-    "liczba": 1096
+    "liczba": 1097
    },
    {
     "rok": 1993,
@@ -135,7 +135,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5347
+    "liczba": 5348
    },
    {
     "nazwa": "Diesel",
@@ -157,7 +157,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 3619
+    "liczba": 3620
    },
    {
     "nazwa": "1,1 l",
@@ -183,7 +183,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2372
+    "liczba": 2373
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -201,7 +201,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 6323
+    "liczba": 6324
    },
    {
     "nazwa": "Sedan",
@@ -212,7 +212,7 @@
     "liczba": 2448
    }
   ],
-  "noweOdPaczki": 19,
+  "noweOdPaczki": 20,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -238,10 +238,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -496,7 +540,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
@@ -520,7 +564,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -531,7 +575,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 326,
+  "miejsce": 328,
   "miejsceWMarce": 9,
   "modeliWMarce": 42,
   "sredniRocznik": 1993.2
@@ -540,7 +584,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "citroen",
  "modelSlug": "ax",

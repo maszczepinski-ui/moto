@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 411 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 411, 411 KOMBI).",
-  "liczbaWPolsce": 324,
-  "aktywne": 1,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 411 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 411, 411 KOMBI).",
+  "liczbaWPolsce": 325,
+  "aktywne": 2,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "32",
@@ -136,7 +136,7 @@
    },
    {
     "rok": 1972,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1973,
@@ -226,7 +226,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "nazwa": "Diesel",
@@ -240,7 +240,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 258
+    "liczba": 259
    },
    {
     "nazwa": "1,6 l",
@@ -270,7 +270,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -288,23 +288,71 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 292
    }
   ],
-  "noweOdPaczki": 1,
+  "noweOdPaczki": 2,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
     "liczba": 1
+   },
+   {
+    "rok": 2026,
+    "liczba": 1
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -594,16 +642,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1120,
+  "miejsce": 1127,
   "miejsceWMarce": 55,
   "modeliWMarce": 61,
-  "sredniRocznik": 1973.8
+  "sredniRocznik": 1973.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "411",

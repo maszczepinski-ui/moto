@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 69 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 44 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 69, 69 A, 69 AM, 69 M, 69 M CABRIO).",
-  "liczbaWPolsce": 1191,
-  "aktywne": 83,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAZ 69 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 45 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 69, 69 A, 69 AM, 69 M, 69 M CABRIO).",
+  "liczbaWPolsce": 1192,
+  "aktywne": 84,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -28,7 +28,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 82
+    "liczba": 83
    },
    {
     "teryt": "08",
@@ -103,7 +103,7 @@
    },
    {
     "rok": 1955,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 1956,
@@ -249,7 +249,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 359
+    "liczba": 360
    },
    {
     "nazwa": "Diesel",
@@ -271,7 +271,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,1 l",
-    "liczba": 503
+    "liczba": 504
    },
    {
     "nazwa": "2,4 l",
@@ -297,7 +297,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 790
+    "liczba": 791
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -319,7 +319,7 @@
   "nadwozia": [
    {
     "nazwa": "Terenowy",
-    "liczba": 100
+    "liczba": 101
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -346,10 +346,14 @@
     "liczba": 880
    }
   ],
-  "noweOdPaczki": 44,
+  "noweOdPaczki": 45,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2020,
     "liczba": 1
@@ -380,6 +384,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -654,7 +702,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -662,14 +710,14 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 748,
+  "miejsce": 751,
   "miejsceWMarce": 2,
   "modeliWMarce": 4,
   "sredniRocznik": 1965.5
@@ -678,7 +726,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "gaz",
  "modelSlug": "69",

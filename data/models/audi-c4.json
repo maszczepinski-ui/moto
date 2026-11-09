@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi C4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C4, C4 2.5 TDI).",
-  "liczbaWPolsce": 884,
-  "aktywne": 118,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi C4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 28 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C4, C4 2.5 TDI).",
+  "liczbaWPolsce": 886,
+  "aktywne": 120,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "teryt": "16",
@@ -70,7 +70,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "teryt": "30",
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 210
+    "liczba": 211
    },
    {
     "rok": 1995,
@@ -109,7 +109,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 112
+    "liczba": 113
    },
    {
     "rok": 1997,
@@ -123,7 +123,7 @@
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 269
+    "liczba": 271
    },
    {
     "nazwa": "Benzyna",
@@ -145,11 +145,11 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 108
+    "liczba": 109
    },
    {
     "nazwa": "2,8 l",
-    "liczba": 92
+    "liczba": 93
    },
    {
     "nazwa": "2,3 l",
@@ -175,11 +175,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 533
+    "liczba": 534
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 336
+    "liczba": 337
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -193,7 +193,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 409
+    "liczba": 411
    },
    {
     "nazwa": "Kombi",
@@ -208,13 +208,13 @@
     "liczba": 93
    }
   ],
-  "noweOdPaczki": 26,
+  "noweOdPaczki": 28,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2021,
@@ -242,6 +242,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -500,7 +544,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -531,7 +575,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 812,
+  "miejsce": 817,
   "miejsceWMarce": 34,
   "modeliWMarce": 54,
   "sredniRocznik": 1993.7
@@ -540,7 +584,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "c4",

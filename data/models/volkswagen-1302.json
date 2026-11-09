@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 1302 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 70 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1302, 1302 (2), 1302 S, 1302 LS).",
-  "liczbaWPolsce": 1459,
-  "aktywne": 122,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen 1302 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 72 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 1302, 1302 (2), 1302 S, 1302 LS).",
+  "liczbaWPolsce": 1461,
+  "aktywne": 124,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,11 +34,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 84
+    "liczba": 85
    },
    {
     "teryt": "12",
-    "liczba": 147
+    "liczba": 148
    },
    {
     "teryt": "14",
@@ -129,11 +129,11 @@
    },
    {
     "rok": 1971,
-    "liczba": 430
+    "liczba": 431
    },
    {
     "rok": 1972,
-    "liczba": 342
+    "liczba": 343
    },
    {
     "rok": 1973,
@@ -215,7 +215,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 531
+    "liczba": 533
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -237,7 +237,7 @@
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 65
+    "liczba": 67
    },
    {
     "nazwa": "Inne / brak danych",
@@ -247,7 +247,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 1068
+    "liczba": 1069
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -259,7 +259,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 39
+    "liczba": 40
    }
   ],
   "nadwozia": [
@@ -277,20 +277,24 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 23
+    "liczba": 25
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1032
    }
   ],
-  "noweOdPaczki": 70,
+  "noweOdPaczki": 72,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -318,6 +322,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -576,7 +624,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -584,30 +632,30 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-10",
     "liczba": 0
    }
   ],
-  "miejsce": 703,
+  "miejsce": 704,
   "miejsceWMarce": 40,
   "modeliWMarce": 61,
   "sredniRocznik": 1971.9
@@ -616,7 +664,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "1302",

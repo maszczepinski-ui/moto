@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 244 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 31 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 244, 244 2.1, 244 DL, 244 2.4D, 244 D).",
-  "liczbaWPolsce": 1218,
-  "aktywne": 45,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 244 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 244, 244 2.1, 244 DL, 244 2.4D, 244 D).",
+  "liczbaWPolsce": 1221,
+  "aktywne": 48,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "08",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 327
+    "liczba": 328
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 91
+    "liczba": 92
    },
    {
     "teryt": "24",
@@ -112,7 +112,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 121
+    "liczba": 122
    },
    {
     "rok": 1982,
@@ -140,7 +140,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 12
+    "liczba": 14
    },
    {
     "rok": 1989,
@@ -182,7 +182,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 206
+    "liczba": 209
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -212,7 +212,7 @@
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 123
+    "liczba": 126
    },
    {
     "nazwa": "1,8 l",
@@ -230,7 +230,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 876
+    "liczba": 878
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -238,7 +238,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 69
+    "liczba": 70
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -252,7 +252,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 361
+    "liczba": 364
    },
    {
     "nazwa": "Hatchback",
@@ -263,13 +263,17 @@
     "liczba": 837
    }
   ],
-  "noweOdPaczki": 31,
+  "noweOdPaczki": 34,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 2021,
@@ -297,6 +301,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -563,15 +611,15 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -583,10 +631,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 743,
+  "miejsce": 746,
   "miejsceWMarce": 23,
   "modeliWMarce": 34,
   "sredniRocznik": 1980.3
@@ -595,7 +643,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "244",

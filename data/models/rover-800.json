@@ -12,7 +12,7 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
+  "stanNa": "2026-11-02",
   "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Rover 800 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 820, 820 KAT, 827 KAT, 827, 825).",
   "liczbaWPolsce": 570,
   "aktywne": 19,
@@ -247,6 +247,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -521,7 +565,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -536,8 +580,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 925,
-  "miejsceWMarce": 7,
+  "miejsce": 930,
+  "miejsceWMarce": 8,
   "modeliWMarce": 9,
   "sredniRocznik": 1993.9
  },
@@ -545,7 +589,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "rover",
  "modelSlug": "800",
@@ -572,9 +616,9 @@
    "adres": "/marki/ford/scorpio/"
   },
   {
-   "slug": "lancia-thema",
-   "nazwa": "Lancia Thema",
-   "adres": "/marki/lancia/thema/"
+   "slug": "mercedes-benz-w124",
+   "nazwa": "Mercedes-Benz W124",
+   "adres": "/marki/mercedes-benz/w124/"
   }
  ]
 }

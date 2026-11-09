@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 252 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 4, 4 E-TECH ELECTRIC, 4 GTL).",
-  "liczbaWPolsce": 492,
-  "aktywne": 266,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 255 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 4, 4 E-TECH ELECTRIC, 4 GTL).",
+  "liczbaWPolsce": 495,
+  "aktywne": 269,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "12",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "32",
@@ -233,7 +233,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 4
+    "liczba": 5
    },
    {
     "rok": 1991,
@@ -377,17 +377,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 31
+    "liczba": 33
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 222
+    "liczba": 224
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 112
+    "liczba": 113
    },
    {
     "nazwa": "Inne / brak danych",
@@ -401,7 +401,7 @@
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "nazwa": "0,9 l",
@@ -417,13 +417,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 234
+    "liczba": 236
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 247
+    "liczba": 249
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -431,7 +431,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 41
+    "liczba": 42
    },
    {
     "nazwa": "Inne / brak danych",
@@ -441,7 +441,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 292
+    "liczba": 295
    },
    {
     "nazwa": "Sedan",
@@ -456,10 +456,14 @@
     "liczba": 154
    }
   ],
-  "noweOdPaczki": 252,
+  "noweOdPaczki": 255,
   "hybrydy": 0,
-  "elektryczne": 222,
+  "elektryczne": 224,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2020,
     "liczba": 3
@@ -486,10 +490,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 114
+    "liczba": 116
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -740,79 +788,79 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 18
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 14
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 20
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 11
    }
   ],
-  "miejsce": 977,
+  "miejsce": 983,
   "miejsceWMarce": 40,
   "modeliWMarce": 48,
-  "sredniRocznik": 1998.9
+  "sredniRocznik": 1999.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "4",
  "adres": "/marki/renault/4/",
  "konkurenci": [
   {
-   "slug": "daewoo-matiz",
-   "nazwa": "Daewoo Matiz",
-   "adres": "/marki/daewoo/matiz/"
-  },
-  {
    "slug": "fiat-seicento",
    "nazwa": "Fiat Seicento",
    "adres": "/marki/fiat/seicento/"
   },
   {
-   "slug": "daewoo-tico",
-   "nazwa": "Daewoo Tico",
-   "adres": "/marki/daewoo/tico/"
+   "slug": "daewoo-matiz",
+   "nazwa": "Daewoo Matiz",
+   "adres": "/marki/daewoo/matiz/"
   },
   {
    "slug": "daihatsu-cuore",
    "nazwa": "Daihatsu Cuore",
    "adres": "/marki/daihatsu/cuore/"
+  },
+  {
+   "slug": "daewoo-tico",
+   "nazwa": "Daewoo Tico",
+   "adres": "/marki/daewoo/tico/"
   },
   {
    "slug": "hyundai-atos",

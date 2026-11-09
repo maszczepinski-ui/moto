@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe UAZ 469 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 469 B, 469 B CABRIO, 469).",
-  "liczbaWPolsce": 2237,
-  "aktywne": 147,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe UAZ 469 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 469 B, 469 B CABRIO, 469).",
+  "liczbaWPolsce": 2238,
+  "aktywne": 148,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 199
+    "liczba": 200
    },
    {
     "teryt": "32",
@@ -91,7 +91,7 @@
    },
    {
     "rok": 1975,
-    "liczba": 96
+    "liczba": 97
    },
    {
     "rok": 1976,
@@ -173,7 +173,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 642
+    "liczba": 643
    },
    {
     "nazwa": "Diesel",
@@ -195,7 +195,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,4 l",
-    "liczba": 1873
+    "liczba": 1874
    },
    {
     "nazwa": "2,0 l",
@@ -245,13 +245,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 154
+    "liczba": 155
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Terenowy",
-    "liczba": 172
+    "liczba": 173
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -278,13 +278,13 @@
     "liczba": 1471
    }
   ],
-  "noweOdPaczki": 25,
+  "noweOdPaczki": 26,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2021,
@@ -312,6 +312,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -586,22 +630,22 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 589,
+  "miejsce": 593,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 1981.8
@@ -610,7 +654,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "uaz",
  "modelSlug": "469",

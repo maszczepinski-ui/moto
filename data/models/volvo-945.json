@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 945 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 945).",
-  "liczbaWPolsce": 243,
-  "aktywne": 51,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 945 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 26 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 945).",
+  "liczbaWPolsce": 244,
+  "aktywne": 52,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "teryt": "16",
@@ -97,7 +97,7 @@
    },
    {
     "rok": 1994,
-    "liczba": 36
+    "liczba": 37
    },
    {
     "rok": 1995,
@@ -131,7 +131,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 68
+    "liczba": 69
    },
    {
     "nazwa": "Inne / brak danych",
@@ -149,13 +149,13 @@
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 65
+    "liczba": 66
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 125
+    "liczba": 126
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -177,7 +177,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 198
+    "liczba": 199
    },
    {
     "nazwa": "Sedan",
@@ -192,10 +192,14 @@
     "liczba": 21
    }
   ],
-  "noweOdPaczki": 25,
+  "noweOdPaczki": 26,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2020,
     "liczba": 3
@@ -226,6 +230,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -504,18 +552,18 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1219,
+  "miejsce": 1228,
   "miejsceWMarce": 34,
   "modeliWMarce": 34,
   "sredniRocznik": 1994.0
@@ -524,7 +572,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "945",

@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal 6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 663 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEAL 6 DM-I TOURING, SEAL 6 DM-I).",
-  "liczbaWPolsce": 663,
-  "aktywne": 663,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal 6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 664 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEAL 6 DM-I TOURING, SEAL 6 DM-I).",
+  "liczbaWPolsce": 664,
+  "aktywne": 664,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "teryt": "28",
@@ -93,13 +93,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 191
+    "liczba": 192
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 655
+    "liczba": 656
    },
    {
     "nazwa": "Benzyna",
@@ -109,13 +109,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 663
+    "liczba": 664
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 612
+    "liczba": 613
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -133,7 +133,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 476
+    "liczba": 477
    },
    {
     "nazwa": "Sedan",
@@ -144,8 +144,8 @@
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 663,
-  "hybrydy": 654,
+  "noweOdPaczki": 664,
+  "hybrydy": 655,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -154,10 +154,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 499
+    "liczba": 500
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -408,46 +452,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 12
+    "liczba": 15
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 19
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 78
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 123
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 74
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 39
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 22
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 60
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 83
    }
   ],
-  "miejsce": 886,
+  "miejsce": 892,
   "miejsceWMarce": 6,
   "modeliWMarce": 8,
   "sredniRocznik": 2025.3
@@ -456,7 +500,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "seal-6",

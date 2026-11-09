@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe XPeng G6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 219 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: G6).",
-  "liczbaWPolsce": 219,
-  "aktywne": 219,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe XPeng G6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 241 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: G6).",
+  "liczbaWPolsce": 241,
+  "aktywne": 241,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 109
+    "liczba": 131
    },
    {
     "teryt": "16",
@@ -88,25 +88,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 64
+    "liczba": 86
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 219
+    "liczba": 241
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 219
+    "liczba": 241
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 189
+    "liczba": 211
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -124,16 +124,16 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 217
+    "liczba": 239
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 219,
+  "noweOdPaczki": 241,
   "hybrydy": 0,
-  "elektryczne": 219,
+  "elektryczne": 241,
   "pierwszeRejestracje": [
    {
     "rok": 2025,
@@ -141,10 +141,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 172
+    "liczba": 194
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -395,55 +439,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 22
+    "liczba": 25
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 25
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 7
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 9
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 10
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 25
    }
   ],
-  "miejsce": 1247,
+  "miejsce": 1230,
   "miejsceWMarce": 2,
   "modeliWMarce": 2,
-  "sredniRocznik": 2025.2
+  "sredniRocznik": 2025.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "xpeng",
  "modelSlug": "g6",

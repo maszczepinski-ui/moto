@@ -12,22 +12,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 462 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS 7 SPORTBACK, RS7, RS7 SPORTBACK).",
-  "liczbaWPolsce": 462,
-  "aktywne": 462,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 489 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS 7 SPORTBACK, RS7, RS7 SPORTBACK).",
+  "liczbaWPolsce": 489,
+  "aktywne": 489,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "04",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "06",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "08",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "12",
-    "liczba": 47
+    "liczba": 51
    },
    {
     "teryt": "14",
-    "liczba": 109
+    "liczba": 114
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 16
+    "liczba": 21
    },
    {
     "teryt": "20",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 39
+    "liczba": 43
    },
    {
     "teryt": "24",
@@ -67,7 +67,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "28",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 52
+    "liczba": 55
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 24
+    "liczba": 26
    },
    {
     "rok": 2015,
@@ -98,7 +98,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 18
+    "liczba": 21
    },
    {
     "rok": 2017,
@@ -110,11 +110,11 @@
    },
    {
     "rok": 2019,
-    "liczba": 2
+    "liczba": 5
    },
    {
     "rok": 2020,
-    "liczba": 52
+    "liczba": 71
    },
    {
     "rok": 2021,
@@ -143,18 +143,18 @@
   ],
   "paliwa": [
    {
-    "nazwa": "Benzyna",
-    "liczba": 232
+    "nazwa": "Hybryda (benzyna + elektryczny)",
+    "liczba": 249
    },
    {
-    "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 230
+    "nazwa": "Benzyna",
+    "liczba": 240
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "4,0 l",
-    "liczba": 461
+    "liczba": 488
    },
    {
     "nazwa": "Inne / brak danych",
@@ -163,16 +163,16 @@
   ],
   "pochodzenie": [
    {
-    "nazwa": "Nowy z polskiego salonu",
-    "liczba": 185
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 206
    },
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 184
+    "nazwa": "Nowy z polskiego salonu",
+    "liczba": 188
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 92
+    "liczba": 94
    },
    {
     "nazwa": "Inne / brak danych",
@@ -182,15 +182,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 406
+    "liczba": 430
    },
    {
     "nazwa": "Coupe",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "nazwa": "Sedan",
-    "liczba": 19
+    "liczba": 21
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -201,17 +201,17 @@
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 462,
-  "hybrydy": 230,
+  "noweOdPaczki": 489,
+  "hybrydy": 249,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 4
    },
    {
     "rok": 2020,
-    "liczba": 37
+    "liczba": 61
    },
    {
     "rok": 2021,
@@ -239,6 +239,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 8
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 6
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 9
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 5
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -489,55 +533,55 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 4
    }
   ],
-  "miejsce": 1001,
+  "miejsce": 987,
   "miejsceWMarce": 45,
   "modeliWMarce": 54,
-  "sredniRocznik": 2021.1
+  "sredniRocznik": 2021.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "rs7",
@@ -559,14 +603,14 @@
    "adres": "/marki/kia/stinger/"
   },
   {
-   "slug": "bmw-m1",
-   "nazwa": "BMW M1",
-   "adres": "/marki/bmw/m1/"
-  },
-  {
    "slug": "chrysler-pacifica",
    "nazwa": "Chrysler Pacifica",
    "adres": "/marki/chrysler/pacifica/"
+  },
+  {
+   "slug": "bmw-m1",
+   "nazwa": "BMW M1",
+   "adres": "/marki/bmw/m1/"
   }
  ]
 }

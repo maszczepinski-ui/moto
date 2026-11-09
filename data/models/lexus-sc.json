@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus SC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 251 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SC 430, SC 400, SC430, SC 300, SC).",
-  "liczbaWPolsce": 406,
-  "aktywne": 301,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus SC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 261 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SC 430, SC 400, SC430, SC 300, SC).",
+  "liczbaWPolsce": 416,
+  "aktywne": 311,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 16
+    "liczba": 18
    },
    {
     "teryt": "08",
@@ -43,15 +43,15 @@
    },
    {
     "teryt": "14",
-    "liczba": 107
+    "liczba": 109
    },
    {
     "teryt": "16",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "18",
-    "liczba": 14
+    "liczba": 17
    },
    {
     "teryt": "20",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "teryt": "26",
@@ -94,11 +94,11 @@
    },
    {
     "rok": 1993,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 1994,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1995,
@@ -106,7 +106,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 1997,
@@ -118,7 +118,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 7
+    "liczba": 8
    },
    {
     "rok": 2000,
@@ -134,23 +134,23 @@
    },
    {
     "rok": 2003,
-    "liczba": 31
+    "liczba": 32
    },
    {
     "rok": 2004,
-    "liczba": 48
+    "liczba": 49
    },
    {
     "rok": 2005,
-    "liczba": 35
+    "liczba": 37
    },
    {
     "rok": 2006,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 2007,
-    "liczba": 24
+    "liczba": 25
    },
    {
     "rok": 2008,
@@ -176,7 +176,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 385
+    "liczba": 395
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -190,15 +190,15 @@
   "pojemnosci": [
    {
     "nazwa": "4,3 l",
-    "liczba": 305
+    "liczba": 311
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 68
+    "liczba": 70
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "nazwa": "Inne / brak danych",
@@ -208,11 +208,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 231
+    "liczba": 235
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 167
+    "liczba": 173
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -226,11 +226,11 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 253
+    "liczba": 258
    },
    {
     "nazwa": "Coupe",
-    "liczba": 116
+    "liczba": 121
    },
    {
     "nazwa": "Sedan",
@@ -241,13 +241,13 @@
     "liczba": 18
    }
   ],
-  "noweOdPaczki": 251,
+  "noweOdPaczki": 261,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
-    "liczba": 21
+    "liczba": 31
    },
    {
     "rok": 2021,
@@ -275,6 +275,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -525,46 +569,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 2
+    "liczba": 4
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 5
    }
   ],
-  "miejsce": 1043,
+  "miejsce": 1040,
   "miejsceWMarce": 11,
   "modeliWMarce": 13,
   "sredniRocznik": 2001.9
@@ -573,7 +617,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "sc",
@@ -590,9 +634,9 @@
    "adres": "/marki/porsche/boxster/"
   },
   {
-   "slug": "bmw-seria-7",
-   "nazwa": "BMW Seria 7",
-   "adres": "/marki/bmw/seria-7/"
+   "slug": "dodge-caravan",
+   "nazwa": "Dodge Caravan",
+   "adres": "/marki/dodge/caravan/"
   },
   {
    "slug": "mercedes-benz-klasa-slk",
@@ -600,9 +644,9 @@
    "adres": "/marki/mercedes-benz/klasa-slk/"
   },
   {
-   "slug": "chrysler-300m",
-   "nazwa": "Chrysler 300M",
-   "adres": "/marki/chrysler/300m/"
+   "slug": "bmw-seria-7",
+   "nazwa": "BMW Seria 7",
+   "adres": "/marki/bmw/seria-7/"
   }
  ]
 }

@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Tts – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 209 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TTS COUPE, TTS, TTS ROADSTER).",
-  "liczbaWPolsce": 209,
-  "aktywne": 209,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Tts – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 221 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TTS COUPE, TTS, TTS ROADSTER).",
+  "liczbaWPolsce": 221,
+  "aktywne": 221,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "04",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "14",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "24",
-    "liczba": 17
+    "liczba": 20
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 4
+    "liczba": 5
    },
    {
     "teryt": "30",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "32",
@@ -121,15 +121,15 @@
    },
    {
     "rok": 2008,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 2009,
-    "liczba": 13
+    "liczba": 15
    },
    {
     "rok": 2010,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2011,
@@ -149,23 +149,23 @@
    },
    {
     "rok": 2015,
-    "liczba": 17
+    "liczba": 20
    },
    {
     "rok": 2016,
-    "liczba": 36
+    "liczba": 37
    },
    {
     "rok": 2017,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 2018,
-    "liczba": 7
+    "liczba": 9
    },
    {
     "rok": 2019,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 2020,
@@ -187,7 +187,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 207
+    "liczba": 219
    },
    {
     "nazwa": "Inne / brak danych",
@@ -197,21 +197,21 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 204
+    "liczba": 215
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 108
+    "liczba": 112
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 79
+    "liczba": 87
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -225,11 +225,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 184
+    "liczba": 195
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "nazwa": "Hatchback",
@@ -240,17 +240,17 @@
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 209,
+  "noweOdPaczki": 221,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 5
    },
    {
     "rok": 2020,
-    "liczba": 13
+    "liczba": 21
    },
    {
     "rok": 2021,
@@ -278,6 +278,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -536,39 +580,39 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 5
    }
   ],
-  "miejsce": 1260,
-  "miejsceWMarce": 54,
+  "miejsce": 1252,
+  "miejsceWMarce": 53,
   "modeliWMarce": 54,
   "sredniRocznik": 2015.3
  },
@@ -576,7 +620,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "tts",

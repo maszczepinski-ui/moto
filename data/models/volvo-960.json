@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 960 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 101 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 960, 960 3.0 KAT, 960 3.0).",
-  "liczbaWPolsce": 700,
-  "aktywne": 179,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo 960 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 111 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 960, 960 3.0 KAT, 960 3.0).",
+  "liczbaWPolsce": 710,
+  "aktywne": 189,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "08",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 185
+    "liczba": 188
    },
    {
     "teryt": "16",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 51
+    "liczba": 54
    },
    {
     "teryt": "24",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "26",
@@ -71,7 +71,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "teryt": "30",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 88
+    "liczba": 90
    },
    {
     "rok": 1992,
@@ -98,7 +98,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 1994,
@@ -106,11 +106,11 @@
    },
    {
     "rok": 1995,
-    "liczba": 222
+    "liczba": 226
    },
    {
     "rok": 1996,
-    "liczba": 145
+    "liczba": 148
    },
    {
     "rok": 1997,
@@ -128,11 +128,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 341
+    "liczba": 349
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 280
+    "liczba": 282
    },
    {
     "nazwa": "Diesel",
@@ -150,15 +150,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,9 l",
-    "liczba": 394
+    "liczba": 399
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 226
+    "liczba": 229
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "nazwa": "2,4 l",
@@ -176,11 +176,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 414
+    "liczba": 419
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 263
+    "liczba": 267
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -192,17 +192,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 400
+    "liczba": 408
    },
    {
     "nazwa": "Kombi",
-    "liczba": 195
+    "liczba": 197
    },
    {
     "nazwa": "Hatchback",
@@ -213,13 +213,17 @@
     "liczba": 82
    }
   ],
-  "noweOdPaczki": 101,
+  "noweOdPaczki": 111,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 1
+   },
+   {
     "rok": 2020,
-    "liczba": 9
+    "liczba": 18
    },
    {
     "rok": 2021,
@@ -247,6 +251,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -505,38 +553,38 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 872,
+  "miejsce": 873,
   "miejsceWMarce": 26,
   "modeliWMarce": 34,
   "sredniRocznik": 1994.1
@@ -545,7 +593,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "960",

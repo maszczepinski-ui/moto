@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Tribeca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 97 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRIBECA).",
-  "liczbaWPolsce": 544,
-  "aktywne": 264,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Tribeca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 106 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRIBECA).",
+  "liczbaWPolsce": 553,
+  "aktywne": 273,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "04",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 37
+    "liczba": 39
    },
    {
     "teryt": "08",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "24",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 25
+    "liczba": 29
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 2006,
-    "liczba": 120
+    "liczba": 125
    },
    {
     "rok": 2007,
@@ -98,15 +98,15 @@
    },
    {
     "rok": 2008,
-    "liczba": 188
+    "liczba": 189
    },
    {
     "rok": 2009,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 2010,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 2011,
@@ -118,7 +118,7 @@
    },
    {
     "rok": 2013,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2014,
@@ -128,11 +128,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 275
+    "liczba": 277
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 268
+    "liczba": 275
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,11 +142,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 327
+    "liczba": 330
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 211
+    "liczba": 217
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,11 +156,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 373
+    "liczba": 379
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 155
+    "liczba": 158
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -178,19 +178,19 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 326
+    "liczba": 331
    },
    {
     "nazwa": "Van",
-    "liczba": 86
+    "liczba": 87
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "nazwa": "Terenowy",
@@ -202,16 +202,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 20
+    "liczba": 21
    }
   ],
-  "noweOdPaczki": 97,
+  "noweOdPaczki": 106,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 14
+    "liczba": 21
    },
    {
     "rok": 2021,
@@ -239,6 +243,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 5
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -497,7 +545,7 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -509,15 +557,15 @@
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
@@ -528,30 +576,30 @@
     "liczba": 0
    }
   ],
-  "miejsce": 943,
+  "miejsce": 941,
   "miejsceWMarce": 10,
   "modeliWMarce": 13,
-  "sredniRocznik": 2007.4
+  "sredniRocznik": 2007.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "tribeca",
  "adres": "/marki/subaru/tribeca/",
  "konkurenci": [
   {
-   "slug": "jeep-liberty",
-   "nazwa": "Jeep Liberty",
-   "adres": "/marki/jeep/liberty/"
-  },
-  {
    "slug": "nissan-murano",
    "nazwa": "Nissan Murano",
    "adres": "/marki/nissan/murano/"
+  },
+  {
+   "slug": "jeep-liberty",
+   "nazwa": "Jeep Liberty",
+   "adres": "/marki/jeep/liberty/"
   },
   {
    "slug": "jeep-cherokee",

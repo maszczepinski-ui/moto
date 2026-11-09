@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar XJ-S – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 52 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XJ-S, XJ-S V12).",
-  "liczbaWPolsce": 224,
-  "aktywne": 106,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar XJ-S – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 57 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XJ-S, XJ-S V12).",
+  "liczbaWPolsce": 229,
+  "aktywne": 111,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "04",
@@ -43,11 +43,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "16",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "teryt": "18",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 36
+    "liczba": 38
    },
    {
     "teryt": "32",
@@ -126,11 +126,11 @@
    },
    {
     "rok": 1986,
-    "liczba": 11
+    "liczba": 14
    },
    {
     "rok": 1987,
-    "liczba": 8
+    "liczba": 9
    },
    {
     "rok": 1988,
@@ -142,7 +142,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 31
+    "liczba": 32
    },
    {
     "rok": 1991,
@@ -228,7 +228,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 208
+    "liczba": 213
    },
    {
     "nazwa": "Inne / brak danych",
@@ -238,7 +238,7 @@
   "pojemnosci": [
    {
     "nazwa": "5,3 l",
-    "liczba": 127
+    "liczba": 132
    },
    {
     "nazwa": "4,0 l",
@@ -264,11 +264,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 146
+    "liczba": 149
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 66
+    "liczba": 68
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -282,11 +282,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 101
+    "liczba": 105
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 72
+    "liczba": 73
    },
    {
     "nazwa": "Sedan",
@@ -301,13 +301,17 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 52,
+  "noweOdPaczki": 57,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 7
+    "liczba": 10
    },
    {
     "rok": 2021,
@@ -335,6 +339,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -589,7 +637,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
@@ -597,11 +645,11 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -617,23 +665,23 @@
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1240,
+  "miejsce": 1237,
   "miejsceWMarce": 17,
-  "modeliWMarce": 17,
-  "sredniRocznik": 1989.7
+  "modeliWMarce": 18,
+  "sredniRocznik": 1989.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "xj-s",

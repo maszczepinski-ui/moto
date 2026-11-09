@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 420 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 155 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 420 SE, 420, 420 SEL, 420 SEC).",
-  "liczbaWPolsce": 381,
-  "aktywne": 205,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 420 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 169 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 420 SE, 420, 420 SEL, 420 SEC).",
+  "liczbaWPolsce": 395,
+  "aktywne": 219,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "08",
@@ -34,27 +34,27 @@
    },
    {
     "teryt": "10",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "12",
-    "liczba": 25
+    "liczba": 28
    },
    {
     "teryt": "14",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "teryt": "16",
-    "liczba": 10
-   },
-   {
-    "teryt": "18",
     "liczba": 11
    },
    {
-    "teryt": "20",
+    "teryt": "18",
     "liczba": 12
+   },
+   {
+    "teryt": "20",
+    "liczba": 13
    },
    {
     "teryt": "22",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "28",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 45
+    "liczba": 48
    },
    {
     "teryt": "32",
@@ -113,23 +113,23 @@
    },
    {
     "rok": 1986,
-    "liczba": 60
+    "liczba": 61
    },
    {
     "rok": 1987,
-    "liczba": 50
+    "liczba": 53
    },
    {
     "rok": 1988,
-    "liczba": 47
+    "liczba": 53
    },
    {
     "rok": 1989,
-    "liczba": 62
+    "liczba": 65
    },
    {
     "rok": 1990,
-    "liczba": 47
+    "liczba": 48
    },
    {
     "rok": 1991,
@@ -211,7 +211,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 271
+    "liczba": 285
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -233,11 +233,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,2 l",
-    "liczba": 261
+    "liczba": 271
    },
    {
     "nazwa": "4,1 l",
-    "liczba": 89
+    "liczba": 93
    },
    {
     "nazwa": "3,0 l",
@@ -255,11 +255,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 189
+    "liczba": 196
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 177
+    "liczba": 184
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -273,11 +273,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 275
+    "liczba": 286
    },
    {
     "nazwa": "Coupe",
-    "liczba": 49
+    "liczba": 52
    },
    {
     "nazwa": "Hatchback",
@@ -292,13 +292,17 @@
     "liczba": 41
    }
   ],
-  "noweOdPaczki": 155,
+  "noweOdPaczki": 169,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
     "rok": 2020,
-    "liczba": 12
+    "liczba": 23
    },
    {
     "rok": 2021,
@@ -326,6 +330,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 3
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -580,65 +628,65 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 2
    }
   ],
-  "miejsce": 1067,
+  "miejsce": 1058,
   "miejsceWMarce": 53,
-  "modeliWMarce": 57,
-  "sredniRocznik": 1989.7
+  "modeliWMarce": 58,
+  "sredniRocznik": 1989.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "420",
  "adres": "/marki/mercedes-benz/420/",
  "konkurenci": [
   {
-   "slug": "ford-taurus",
-   "nazwa": "Ford Taurus",
-   "adres": "/marki/ford/taurus/"
-  },
-  {
    "slug": "opel-senator",
    "nazwa": "Opel Senator",
    "adres": "/marki/opel/senator/"
+  },
+  {
+   "slug": "ford-taurus",
+   "nazwa": "Ford Taurus",
+   "adres": "/marki/ford/taurus/"
   },
   {
    "slug": "audi-90",
@@ -646,14 +694,14 @@
    "adres": "/marki/audi/90/"
   },
   {
-   "slug": "lincoln-town-country",
-   "nazwa": "Lincoln Town & Country",
-   "adres": "/marki/lincoln/town-country/"
-  },
-  {
    "slug": "audi-80",
    "nazwa": "Audi 80",
    "adres": "/marki/audi/80/"
+  },
+  {
+   "slug": "lincoln-town-country",
+   "nazwa": "Lincoln Town & Country",
+   "adres": "/marki/lincoln/town-country/"
   }
  ]
 }

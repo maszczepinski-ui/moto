@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler LE-Baron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 102 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LE BARON).",
-  "liczbaWPolsce": 434,
-  "aktywne": 154,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler LE-Baron – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 109 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LE BARON).",
+  "liczbaWPolsce": 441,
+  "aktywne": 161,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 35
+    "liczba": 36
    },
    {
     "teryt": "04",
@@ -44,11 +44,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 64
    },
    {
     "teryt": "16",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "18",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "32",
-    "liczba": 23
+    "liczba": 25
    }
   ],
   "bezWojewodztwa": 1,
@@ -143,7 +143,7 @@
    },
    {
     "rok": 1977,
-    "liczba": 0
+    "liczba": 1
    },
    {
     "rok": 1978,
@@ -159,7 +159,7 @@
    },
    {
     "rok": 1981,
-    "liczba": 1
+    "liczba": 2
    },
    {
     "rok": 1982,
@@ -191,7 +191,7 @@
    },
    {
     "rok": 1989,
-    "liczba": 92
+    "liczba": 94
    },
    {
     "rok": 1990,
@@ -199,11 +199,11 @@
    },
    {
     "rok": 1991,
-    "liczba": 62
+    "liczba": 64
    },
    {
     "rok": 1992,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 1993,
@@ -229,7 +229,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 328
+    "liczba": 335
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -243,11 +243,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 192
+    "liczba": 195
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 122
+    "liczba": 124
    },
    {
     "nazwa": "2,2 l",
@@ -258,18 +258,22 @@
     "liczba": 6
    },
    {
+    "nazwa": "3,7 l",
+    "liczba": 5
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 21
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 206
+    "liczba": 210
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 201
+    "liczba": 202
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -281,21 +285,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 260
+    "liczba": 264
    },
    {
     "nazwa": "Sedan",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "nazwa": "Coupe",
-    "liczba": 33
+    "liczba": 34
    },
    {
     "nazwa": "Hatchback",
@@ -303,16 +307,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 68
+    "liczba": 69
    }
   ],
-  "noweOdPaczki": 102,
+  "noweOdPaczki": 109,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 10
+    "liczba": 15
    },
    {
     "rok": 2021,
@@ -340,6 +348,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -594,7 +646,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
@@ -602,19 +654,19 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-08",
@@ -626,19 +678,19 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1016,
+  "miejsce": 1019,
   "miejsceWMarce": 16,
   "modeliWMarce": 21,
-  "sredniRocznik": 1989.9
+  "sredniRocznik": 1989.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "le-baron",

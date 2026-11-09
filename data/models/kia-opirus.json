@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Opirus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 61 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OPIRUS).",
-  "liczbaWPolsce": 250,
-  "aktywne": 129,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Opirus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 70 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OPIRUS).",
+  "liczbaWPolsce": 259,
+  "aktywne": 138,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "04",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "06",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "20",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 23
+    "liczba": 27
    },
    {
     "teryt": "32",
@@ -84,7 +84,7 @@
   "roczniki": [
    {
     "rok": 2003,
-    "liczba": 18
+    "liczba": 20
    },
    {
     "rok": 2004,
@@ -92,11 +92,11 @@
    },
    {
     "rok": 2005,
-    "liczba": 48
+    "liczba": 50
    },
    {
     "rok": 2006,
-    "liczba": 61
+    "liczba": 63
    },
    {
     "rok": 2007,
@@ -104,7 +104,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 9
+    "liczba": 12
    },
    {
     "rok": 2009,
@@ -114,31 +114,31 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 171
+    "liczba": 179
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 79
+    "liczba": 80
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 224
+    "liczba": 230
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 26
+    "liczba": 29
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 122
+    "liczba": 128
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 108
+    "liczba": 111
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -152,20 +152,24 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 241
+    "liczba": 249
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 61,
+  "noweOdPaczki": 70,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
     "rok": 2020,
-    "liczba": 10
+    "liczba": 15
    },
    {
     "rok": 2021,
@@ -193,6 +197,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -455,11 +503,11 @@
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -467,7 +515,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -482,16 +530,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1210,
-  "miejsceWMarce": 32,
+  "miejsce": 1199,
+  "miejsceWMarce": 31,
   "modeliWMarce": 33,
-  "sredniRocznik": 2005.0
+  "sredniRocznik": 2005.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "opirus",

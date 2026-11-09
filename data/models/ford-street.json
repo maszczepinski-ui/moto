@@ -11,22 +11,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Street – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 205 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREET KA).",
-  "liczbaWPolsce": 396,
-  "aktywne": 301,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford Street – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 222 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STREET KA).",
+  "liczbaWPolsce": 413,
+  "aktywne": 318,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 35
+    "liczba": 37
    },
    {
     "teryt": "04",
-    "liczba": 24
+    "liczba": 27
    },
    {
     "teryt": "06",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "08",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "12",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 65
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "teryt": "26",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "30",
-    "liczba": 53
+    "liczba": 55
    },
    {
     "teryt": "32",
-    "liczba": 18
+    "liczba": 19
    }
   ],
   "bezWojewodztwa": 9,
@@ -229,15 +229,15 @@
    },
    {
     "rok": 2003,
-    "liczba": 206
+    "liczba": 216
    },
    {
     "rok": 2004,
-    "liczba": 128
+    "liczba": 133
    },
    {
     "rok": 2005,
-    "liczba": 47
+    "liczba": 49
    },
    {
     "rok": 2006,
@@ -247,7 +247,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 375
+    "liczba": 392
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -261,7 +261,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 391
+    "liczba": 408
    },
    {
     "nazwa": "Inne / brak danych",
@@ -271,25 +271,21 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 212
+    "liczba": 217
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 168
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 2
+    "liczba": 180
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 16
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 351
+    "liczba": 368
    },
    {
     "nazwa": "Hatchback",
@@ -300,25 +296,21 @@
     "liczba": 11
    },
    {
-    "nazwa": "Sedan",
-    "liczba": 4
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 11
    }
   ],
-  "noweOdPaczki": 205,
+  "noweOdPaczki": 222,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2020,
-    "liczba": 17
+    "liczba": 32
    },
    {
     "rok": 2021,
@@ -346,6 +338,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 5
@@ -600,51 +636,51 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 8
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 3
    }
   ],
-  "miejsce": 1047,
+  "miejsce": 1041,
   "miejsceWMarce": 38,
-  "modeliWMarce": 46,
+  "modeliWMarce": 47,
   "sredniRocznik": 2003.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "street",
@@ -666,14 +702,14 @@
    "adres": "/marki/opel/astra/"
   },
   {
-   "slug": "skoda-fabia-i",
-   "nazwa": "Skoda Fabia I",
-   "adres": "/marki/skoda/fabia/i/"
-  },
-  {
    "slug": "suzuki-liana",
    "nazwa": "Suzuki Liana",
    "adres": "/marki/suzuki/liana/"
+  },
+  {
+   "slug": "skoda-fabia-i",
+   "nazwa": "Skoda Fabia I",
+   "adres": "/marki/skoda/fabia/i/"
   }
  ]
 }

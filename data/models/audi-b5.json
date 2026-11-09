@@ -12,22 +12,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi B5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 51 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B5, B5 1.9 TDI, B5 A4, B5 1.6 KAT, B5 A4 1.9 TDI).",
-  "liczbaWPolsce": 1966,
-  "aktywne": 471,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi B5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 61 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B5, B5 1.9 TDI, B5 A4, B5 1.6 KAT, B5 A4 1.9 TDI).",
+  "liczbaWPolsce": 1976,
+  "aktywne": 481,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 153
+    "liczba": 154
    },
    {
     "teryt": "04",
-    "liczba": 126
+    "liczba": 128
    },
    {
     "teryt": "06",
-    "liczba": 159
+    "liczba": 160
    },
    {
     "teryt": "08",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "12",
@@ -43,11 +43,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 216
+    "liczba": 217
    },
    {
     "teryt": "16",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "teryt": "18",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 150
+    "liczba": 153
    },
    {
     "teryt": "24",
@@ -98,7 +98,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 334
+    "liczba": 335
    },
    {
     "rok": 1998,
@@ -106,29 +106,29 @@
    },
    {
     "rok": 1999,
-    "liczba": 290
+    "liczba": 294
    },
    {
     "rok": 2000,
-    "liczba": 197
+    "liczba": 199
    },
    {
     "rok": 2001,
-    "liczba": 53
+    "liczba": 55
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 929
+    "liczba": 932
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 555
+    "liczba": 561
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 474
+    "liczba": 475
    },
    {
     "nazwa": "Inne / brak danych",
@@ -138,15 +138,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,9 l",
-    "liczba": 852
+    "liczba": 855
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 501
+    "liczba": 506
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 458
+    "liczba": 459
    },
    {
     "nazwa": "2,5 l",
@@ -158,17 +158,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 46
+    "liczba": 47
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1045
+    "liczba": 1054
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 907
+    "liczba": 908
    },
    {
     "nazwa": "Inne / brak danych",
@@ -178,11 +178,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1174
+    "liczba": 1175
    },
    {
     "nazwa": "Kombi",
-    "liczba": 678
+    "liczba": 686
    },
    {
     "nazwa": "Hatchback",
@@ -190,16 +190,20 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 54
+    "liczba": 55
    }
   ],
-  "noweOdPaczki": 51,
+  "noweOdPaczki": 61,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
     "rok": 2020,
-    "liczba": 7
+    "liczba": 14
    },
    {
     "rok": 2021,
@@ -227,6 +231,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -505,7 +553,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -513,10 +561,10 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 624,
+  "miejsce": 627,
   "miejsceWMarce": 25,
   "modeliWMarce": 54,
   "sredniRocznik": 1997.2
@@ -525,26 +573,26 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "b5",
  "adres": "/marki/audi/b5/",
  "konkurenci": [
   {
-   "slug": "opel-vectra",
-   "nazwa": "Opel Vectra",
-   "adres": "/marki/opel/vectra/"
-  },
-  {
-   "slug": "volkswagen-jetta",
-   "nazwa": "Volkswagen Jetta",
-   "adres": "/marki/volkswagen/jetta/"
+   "slug": "opel-vectra-b",
+   "nazwa": "Opel Vectra B",
+   "adres": "/marki/opel/vectra/b/"
   },
   {
    "slug": "nissan-primera",
    "nazwa": "Nissan Primera",
    "adres": "/marki/nissan/primera/"
+  },
+  {
+   "slug": "volkswagen-jetta",
+   "nazwa": "Volkswagen Jetta",
+   "adres": "/marki/volkswagen/jetta/"
   },
   {
    "slug": "seat-toledo",

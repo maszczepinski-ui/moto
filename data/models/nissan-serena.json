@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Serena – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SERENA, SERENA 1.6 KAT, SERENA 2.0 KAT, SERENA 2.3 D, SERENA 2.0 D).",
-  "liczbaWPolsce": 1423,
-  "aktywne": 56,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Serena – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SERENA, SERENA 1.6 KAT, SERENA 2.0 KAT, SERENA 2.3 D, SERENA 2.0 D).",
+  "liczbaWPolsce": 1424,
+  "aktywne": 57,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 125
+    "liczba": 126
    },
    {
     "teryt": "04",
@@ -91,7 +91,7 @@
    },
    {
     "rok": 1993,
-    "liczba": 171
+    "liczba": 172
    },
    {
     "rok": 1994,
@@ -133,7 +133,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 459
+    "liczba": 460
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -151,7 +151,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 511
+    "liczba": 512
    },
    {
     "nazwa": "2,3 l",
@@ -169,7 +169,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 520
+    "liczba": 521
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -183,7 +183,7 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 793
+    "liczba": 794
    },
    {
     "nazwa": "Kombi",
@@ -206,12 +206,16 @@
     "liczba": 177
    }
   ],
-  "noweOdPaczki": 13,
+  "noweOdPaczki": 14,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
+    "liczba": 1
+   },
+   {
+    "rok": 2020,
     "liczba": 1
    },
    {
@@ -240,6 +244,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 1
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -506,11 +554,11 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-07",
@@ -518,7 +566,7 @@
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-09",
@@ -529,7 +577,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 706,
+  "miejsce": 709,
   "miejsceWMarce": 23,
   "modeliWMarce": 47,
   "sredniRocznik": 1995.7
@@ -538,7 +586,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "serena",

@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BAIC X55 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 049 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X55).",
-  "liczbaWPolsce": 5049,
-  "aktywne": 5049,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BAIC X55 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 056 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: X55).",
+  "liczbaWPolsce": 5056,
+  "aktywne": 5056,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,11 +33,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 249
+    "liczba": 250
    },
    {
     "teryt": "12",
-    "liczba": 399
+    "liczba": 401
    },
    {
     "teryt": "14",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 224
+    "liczba": 225
    },
    {
     "teryt": "24",
-    "liczba": 781
+    "liczba": 783
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 645
+    "liczba": 646
    },
    {
     "teryt": "32",
@@ -92,13 +92,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 1138
+    "liczba": 1144
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2883
+    "liczba": 2890
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -108,17 +108,17 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 5049
+    "liczba": 5056
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 4393
+    "liczba": 4399
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 546
+    "liczba": 547
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -132,17 +132,21 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 5040
+    "liczba": 5047
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 5049,
+  "noweOdPaczki": 5056,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
+   {
+    "rok": 2019,
+    "liczba": 1
+   },
    {
     "rok": 2022,
     "liczba": 3
@@ -161,10 +165,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 2269
+    "liczba": 2275
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -415,46 +463,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 262
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 344
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 161
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 324
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 440
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 555
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 28
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 76
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 159
    }
   ],
-  "miejsce": 436,
+  "miejsce": 440,
   "miejsceWMarce": 1,
   "modeliWMarce": 4,
   "sredniRocznik": 2024.9
@@ -463,7 +511,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "baic",
  "modelSlug": "x55",
@@ -475,14 +523,14 @@
    "adres": "/marki/lexus/lbx/"
   },
   {
-   "slug": "volkswagen-t-roc",
-   "nazwa": "Volkswagen T-Roc",
-   "adres": "/marki/volkswagen/t-roc/"
-  },
-  {
    "slug": "ssangyong-torres",
    "nazwa": "SsangYong (KGM) Torres",
    "adres": "/marki/ssangyong-kgm/torres/"
+  },
+  {
+   "slug": "volkswagen-t-roc",
+   "nazwa": "Volkswagen T-Roc",
+   "adres": "/marki/volkswagen/t-roc/"
   },
   {
    "slug": "cupra-leon",

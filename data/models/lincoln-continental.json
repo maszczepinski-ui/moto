@@ -12,18 +12,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lincoln Continental – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 224 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CONTINENTAL, CONTINENTAL MARK V, CONTINENTAL MARK IV, CONTINENTAL TOWN CAR, CONTINENTAL MARK III).",
-  "liczbaWPolsce": 425,
-  "aktywne": 270,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lincoln Continental – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 235 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CONTINENTAL, CONTINENTAL MARK V, CONTINENTAL MARK IV, CONTINENTAL TOWN CAR, CONTINENTAL MARK III).",
+  "liczbaWPolsce": 436,
+  "aktywne": 281,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 29
+    "liczba": 31
    },
    {
     "teryt": "04",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "teryt": "06",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 83
+    "liczba": 86
    },
    {
     "teryt": "16",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 35
+    "liczba": 38
    },
    {
     "teryt": "32",
@@ -142,7 +142,7 @@
    },
    {
     "rok": 1961,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1962,
@@ -162,7 +162,7 @@
    },
    {
     "rok": 1966,
-    "liczba": 10
+    "liczba": 11
    },
    {
     "rok": 1967,
@@ -206,15 +206,15 @@
    },
    {
     "rok": 1977,
-    "liczba": 40
+    "liczba": 42
    },
    {
     "rok": 1978,
-    "liczba": 35
+    "liczba": 38
    },
    {
     "rok": 1979,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 1980,
@@ -270,11 +270,11 @@
    },
    {
     "rok": 1993,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1994,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1995,
@@ -282,7 +282,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 1997,
@@ -384,7 +384,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 358
+    "liczba": 369
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -398,19 +398,19 @@
   "pojemnosci": [
    {
     "nazwa": "7,5 l",
-    "liczba": 152
+    "liczba": 156
    },
    {
     "nazwa": "6,6 l",
-    "liczba": 61
+    "liczba": 63
    },
    {
     "nazwa": "3,8 l",
-    "liczba": 56
+    "liczba": 58
    },
    {
     "nazwa": "4,6 l",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "3,7 l",
@@ -418,11 +418,11 @@
    },
    {
     "nazwa": "7,0 l",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "nazwa": "7,6 l",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "4,9 l",
@@ -436,11 +436,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 281
+    "liczba": 288
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 124
+    "liczba": 128
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -454,15 +454,15 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 244
+    "liczba": 251
    },
    {
     "nazwa": "Coupe",
-    "liczba": 109
+    "liczba": 111
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -470,20 +470,24 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 5
+    "liczba": 6
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 40
    }
   ],
-  "noweOdPaczki": 224,
+  "noweOdPaczki": 235,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 9
+    "liczba": 18
    },
    {
     "rok": 2021,
@@ -511,6 +515,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 4
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 2
+   },
    {
     "miesiac": "2020-11",
     "liczba": 2
@@ -769,47 +817,47 @@
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 6
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 3
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 5
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 4
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 2
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 3
    }
   ],
-  "miejsce": 1026,
+  "miejsce": 1021,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
-  "sredniRocznik": 1982.7
+  "sredniRocznik": 1982.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "lincoln",
  "modelSlug": "continental",

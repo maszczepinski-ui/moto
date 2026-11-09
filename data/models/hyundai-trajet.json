@@ -11,18 +11,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Trajet – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 64 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAJET, TRAJET 2.0 CRDI, TRAJET 2,0 CRDI).",
-  "liczbaWPolsce": 1205,
-  "aktywne": 390,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Trajet – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 77 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRAJET, TRAJET 2.0 CRDI, TRAJET 2,0 CRDI).",
+  "liczbaWPolsce": 1218,
+  "aktywne": 403,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 99
+    "liczba": 102
    },
    {
     "teryt": "04",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "06",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 105
+    "liczba": 106
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 171
+    "liczba": 172
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 82
+    "liczba": 83
    },
    {
     "teryt": "20",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 73
+    "liczba": 75
    },
    {
     "teryt": "24",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 58
+    "liczba": 59
    },
    {
     "teryt": "30",
-    "liczba": 126
+    "liczba": 127
    },
    {
     "teryt": "32",
-    "liczba": 70
+    "liczba": 72
    }
   ],
   "bezWojewodztwa": 4,
@@ -93,7 +93,7 @@
    },
    {
     "rok": 2002,
-    "liczba": 119
+    "liczba": 120
    },
    {
     "rok": 2003,
@@ -101,19 +101,19 @@
    },
    {
     "rok": 2004,
-    "liczba": 243
+    "liczba": 247
    },
    {
     "rok": 2005,
-    "liczba": 191
+    "liczba": 194
    },
    {
     "rok": 2006,
-    "liczba": 157
+    "liczba": 160
    },
    {
     "rok": 2007,
-    "liczba": 62
+    "liczba": 64
    },
    {
     "rok": 2008,
@@ -123,15 +123,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 845
+    "liczba": 855
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 239
+    "liczba": 240
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 117
+    "liczba": 119
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,7 +141,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1169
+    "liczba": 1182
    },
    {
     "nazwa": "2,7 l",
@@ -155,25 +155,25 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 824
+    "liczba": 834
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 376
+    "liczba": 378
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 834
+    "liczba": 842
    },
    {
     "nazwa": "Kombi",
-    "liczba": 178
+    "liczba": 182
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -181,20 +181,24 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 30
    }
   ],
-  "noweOdPaczki": 64,
+  "noweOdPaczki": 77,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 4
+   },
+   {
     "rok": 2020,
-    "liczba": 11
+    "liczba": 20
    },
    {
     "rok": 2021,
@@ -218,6 +222,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 3
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 5
+   },
    {
     "miesiac": "2020-11",
     "liczba": 1
@@ -507,16 +555,16 @@
     "liczba": 0
    }
   ],
-  "miejsce": 745,
+  "miejsce": 747,
   "miejsceWMarce": 26,
-  "modeliWMarce": 35,
+  "modeliWMarce": 36,
   "sredniRocznik": 2003.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "trajet",
@@ -538,14 +586,14 @@
    "adres": "/marki/fiat/ulysse/"
   },
   {
+   "slug": "volkswagen-caravelle",
+   "nazwa": "Volkswagen Caravelle",
+   "adres": "/marki/volkswagen/caravelle/"
+  },
+  {
    "slug": "seat-alhambra",
    "nazwa": "Seat Alhambra",
    "adres": "/marki/seat/alhambra/"
-  },
-  {
-   "slug": "renault-espace",
-   "nazwa": "Renault Espace",
-   "adres": "/marki/renault/espace/"
   }
  ]
 }

@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 600 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 919 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 600, 600 D).",
-  "liczbaWPolsce": 3910,
-  "aktywne": 2933,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 600 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 920 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 600, 600 D).",
+  "liczbaWPolsce": 3911,
+  "aktywne": 2934,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 477
+    "liczba": 478
    },
    {
     "teryt": "32",
@@ -364,13 +364,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 715
+    "liczba": 716
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1831
+    "liczba": 1832
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -392,7 +392,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 2637
+    "liczba": 2638
    },
    {
     "nazwa": "0,6 l",
@@ -410,7 +410,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2841
+    "liczba": 2842
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -432,7 +432,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2886
+    "liczba": 2887
    },
    {
     "nazwa": "Sedan",
@@ -447,7 +447,7 @@
     "liczba": 877
    }
   ],
-  "noweOdPaczki": 2919,
+  "noweOdPaczki": 2920,
   "hybrydy": 964,
   "elektryczne": 251,
   "pierwszeRejestracje": [
@@ -477,10 +477,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 1044
+    "liczba": 1045
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -731,46 +775,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 39
+    "liczba": 77
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 91
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 110
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 82
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 66
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 73
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 152
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 153
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 153
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 151
    }
   ],
-  "miejsce": 488,
+  "miejsce": 490,
   "miejsceWMarce": 28,
   "modeliWMarce": 61,
   "sredniRocznik": 2008.7
@@ -779,7 +823,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "600",
@@ -801,14 +845,14 @@
    "adres": "/marki/citroen/c1/"
   },
   {
-   "slug": "renault-clio",
-   "nazwa": "Renault Clio",
-   "adres": "/marki/renault/clio/"
-  },
-  {
    "slug": "suzuki-splash",
    "nazwa": "Suzuki Splash",
    "adres": "/marki/suzuki/splash/"
+  },
+  {
+   "slug": "renault-clio",
+   "nazwa": "Renault Clio",
+   "adres": "/marki/renault/clio/"
   }
  ]
 }

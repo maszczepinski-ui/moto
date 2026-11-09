@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 659 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL, SEAL).",
-  "liczbaWPolsce": 659,
-  "aktywne": 659,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 661 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL, SEAL).",
+  "liczbaWPolsce": 661,
+  "aktywne": 661,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 63
+    "liczba": 64
    },
    {
     "teryt": "06",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 67
+    "liczba": 68
    },
    {
     "teryt": "32",
@@ -96,13 +96,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 84
+    "liczba": 86
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 643
+    "liczba": 645
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -120,13 +120,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 643
+    "liczba": 645
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 582
+    "liczba": 584
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -144,7 +144,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 644
+    "liczba": 646
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -155,9 +155,9 @@
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 659,
+  "noweOdPaczki": 661,
   "hybrydy": 14,
-  "elektryczne": 643,
+  "elektryczne": 645,
   "pierwszeRejestracje": [
    {
     "rok": 2024,
@@ -169,10 +169,54 @@
    },
    {
     "rok": 2026,
-    "liczba": 254
+    "liczba": 256
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -423,46 +467,46 @@
    },
    {
     "miesiac": "2026-01",
-    "liczba": 13
+    "liczba": 19
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 23
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 30
    },
    {
     "miesiac": "2026-04",
-    "liczba": 0
+    "liczba": 31
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 20
    },
    {
     "miesiac": "2026-06",
-    "liczba": 0
+    "liczba": 25
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 27
    },
    {
     "miesiac": "2026-08",
-    "liczba": 0
+    "liczba": 17
    },
    {
     "miesiac": "2026-09",
-    "liczba": 0
+    "liczba": 29
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 45
    }
   ],
-  "miejsce": 887,
+  "miejsce": 893,
   "miejsceWMarce": 7,
   "modeliWMarce": 8,
   "sredniRocznik": 2024.7
@@ -471,7 +515,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "seal",

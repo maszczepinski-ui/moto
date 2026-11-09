@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Astro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 78 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASTRO, ASTRO 4.3 KAT, ASTRO VAN, ASTRO 4X4).",
-  "liczbaWPolsce": 257,
-  "aktywne": 119,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Astro – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 87 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ASTRO, ASTRO 4.3 KAT, ASTRO VAN, ASTRO 4X4).",
+  "liczbaWPolsce": 266,
+  "aktywne": 128,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 20
+    "liczba": 23
    },
    {
     "teryt": "04",
@@ -32,11 +32,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "10",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "12",
@@ -48,7 +48,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "18",
@@ -60,11 +60,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "24",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "26",
@@ -80,7 +80,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "bezWojewodztwa": 2,
@@ -119,23 +119,23 @@
    },
    {
     "rok": 1994,
-    "liczba": 22
-   },
-   {
-    "rok": 1995,
-    "liczba": 38
-   },
-   {
-    "rok": 1996,
-    "liczba": 33
-   },
-   {
-    "rok": 1997,
     "liczba": 23
    },
    {
+    "rok": 1995,
+    "liczba": 39
+   },
+   {
+    "rok": 1996,
+    "liczba": 36
+   },
+   {
+    "rok": 1997,
+    "liczba": 26
+   },
+   {
     "rok": 1998,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 1999,
@@ -169,11 +169,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 120
+    "liczba": 126
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 109
+    "liczba": 112
    },
    {
     "nazwa": "?+LPG",
@@ -187,11 +187,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,3 l",
-    "liczba": 238
+    "liczba": 246
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "nazwa": "Inne / brak danych",
@@ -201,11 +201,11 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 144
+    "liczba": 147
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 98
+    "liczba": 104
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -223,15 +223,15 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 136
+    "liczba": 142
    },
    {
     "nazwa": "Kombi",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 30
+    "liczba": 32
    },
    {
     "nazwa": "Sedan",
@@ -250,13 +250,17 @@
     "liczba": 35
    }
   ],
-  "noweOdPaczki": 78,
+  "noweOdPaczki": 87,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 3
+   },
+   {
     "rok": 2020,
-    "liczba": 5
+    "liczba": 11
    },
    {
     "rok": 2021,
@@ -284,6 +288,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 2
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -538,7 +586,7 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
@@ -558,7 +606,7 @@
    },
    {
     "miesiac": "2026-07",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-08",
@@ -573,7 +621,7 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1195,
+  "miejsce": 1184,
   "miejsceWMarce": 22,
   "modeliWMarce": 24,
   "sredniRocznik": 1995.0
@@ -582,7 +630,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "astro",

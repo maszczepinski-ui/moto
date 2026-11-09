@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-10-31",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault R4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 29 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 4, R 4 0.8, R 4 1.1, R4, R4 GTL).",
-  "liczbaWPolsce": 417,
-  "aktywne": 40,
+  "stanNa": "2026-11-02",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault R4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 33 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: R 4, R 4 0.8, R 4 1.1, R4, R4 GTL).",
+  "liczbaWPolsce": 421,
+  "aktywne": 44,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "04",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "14",
-    "liczba": 67
+    "liczba": 68
    },
    {
     "teryt": "16",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 77
+    "liczba": 78
    },
    {
     "teryt": "32",
@@ -202,11 +202,11 @@
    },
    {
     "rok": 1979,
-    "liczba": 20
+    "liczba": 21
    },
    {
     "rok": 1980,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 1981,
@@ -214,7 +214,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 42
+    "liczba": 43
    },
    {
     "rok": 1983,
@@ -246,7 +246,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 1991,
@@ -272,7 +272,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 129
+    "liczba": 133
    },
    {
     "nazwa": "?+LPG",
@@ -290,11 +290,11 @@
   "pojemnosci": [
    {
     "nazwa": "0,8 l",
-    "liczba": 228
+    "liczba": 230
    },
    {
     "nazwa": "1,1 l",
-    "liczba": 140
+    "liczba": 142
    },
    {
     "nazwa": "0,7 l",
@@ -316,7 +316,7 @@
   "pochodzenie": [
    {
     "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 264
+    "liczba": 265
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -324,7 +324,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 56
+    "liczba": 59
    },
    {
     "nazwa": "Inne / brak danych",
@@ -334,7 +334,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 74
+    "liczba": 78
    },
    {
     "nazwa": "Sedan",
@@ -349,13 +349,17 @@
     "liczba": 300
    }
   ],
-  "noweOdPaczki": 29,
+  "noweOdPaczki": 33,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
+    "rok": 2019,
+    "liczba": 2
+   },
+   {
     "rok": 2020,
-    "liczba": 1
+    "liczba": 3
    },
    {
     "rok": 2021,
@@ -383,6 +387,50 @@
    }
   ],
   "rejestracjeMiesiecznie": [
+   {
+    "miesiac": "2019-12",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-01",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-02",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-03",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-04",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-05",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-06",
+    "liczba": 1
+   },
+   {
+    "miesiac": "2020-07",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-08",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-09",
+    "liczba": 0
+   },
+   {
+    "miesiac": "2020-10",
+    "liczba": 0
+   },
    {
     "miesiac": "2020-11",
     "liczba": 0
@@ -637,11 +685,11 @@
    },
    {
     "miesiac": "2026-02",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-03",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-04",
@@ -649,7 +697,7 @@
    },
    {
     "miesiac": "2026-05",
-    "liczba": 0
+    "liczba": 1
    },
    {
     "miesiac": "2026-06",
@@ -669,19 +717,19 @@
    },
    {
     "miesiac": "2026-10",
-    "liczba": 0
+    "liczba": 1
    }
   ],
-  "miejsce": 1033,
+  "miejsce": 1037,
   "miejsceWMarce": 43,
   "modeliWMarce": 48,
-  "sredniRocznik": 1977.9
+  "sredniRocznik": 1978.0
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-08",
+ "dataAktualizacji": "2026-11-09",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "r4",
@@ -703,14 +751,14 @@
    "adres": "/marki/polski-fiat/127p/"
   },
   {
-   "slug": "fso-syrena",
-   "nazwa": "FSO Syrena",
-   "adres": "/marki/fso/syrena/"
-  },
-  {
    "slug": "zastava-1100",
    "nazwa": "Zastava 1100",
    "adres": "/marki/zastava/1100/"
+  },
+  {
+   "slug": "fso-syrena",
+   "nazwa": "FSO Syrena",
+   "adres": "/marki/fso/syrena/"
   }
  ]
 }
