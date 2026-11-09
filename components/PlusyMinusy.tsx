@@ -53,7 +53,7 @@ export default function PlusyMinusy({ oceny, m }: { oceny: OcenaGeneracji[]; m: 
     <div className="space-y-12">
       {oceny.map((o) => {
         const [pierwszy, ...reszta] = o.opis;
-        const naDrogach = liczbaOdRocznika(m, o.rokOd);
+        const naDrogach = liczbaOdRocznika(m, o.rokOd, o.rokDo);
         return (
           <section key={o.id} aria-labelledby={`ocena-${o.id}`} className="space-y-5">
             <div className="space-y-1">
@@ -87,7 +87,7 @@ export default function PlusyMinusy({ oceny, m }: { oceny: OcenaGeneracji[]; m: 
               <p className="text-slate-700 dark:text-slate-300 leading-relaxed">{o.werdykt}</p>
               {naDrogach > 0 && (
                 <p className="text-xs text-slate-500">
-                  W Polsce jest zarejestrowanych {fmt(naDrogach)} aut tego modelu z roczników {o.rokOd} i nowszych (CEPiK, stan na {new Date(m.cepik.stanNa).toLocaleDateString('pl-PL')}).
+                  W Polsce jest zarejestrowanych {fmt(naDrogach)} aut tego modelu z roczników {o.rokDo ? `${o.rokOd}–${o.rokDo}` : `${o.rokOd} i nowszych`} (CEPiK, stan na {new Date(m.cepik.stanNa).toLocaleDateString('pl-PL')}).
                 </p>
               )}
             </div>

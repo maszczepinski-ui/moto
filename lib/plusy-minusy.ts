@@ -9,6 +9,8 @@ export interface OcenaGeneracji {
   generacja: string;
   lata: string;
   rokOd: number;
+  /** ostatni rocznik generacji (gdy jest już następczyni) – do liczenia aut w CEPiK */
+  rokDo?: number;
   aktualizacja: string;
   opis: { naglowek: string; tekst: string }[];
   zalety: Punkt[];
@@ -28,8 +30,8 @@ export function ocenyKarty(m: CarModel): OcenaGeneracji[] {
 }
 
 /** Ile aut z roczników od `rokOd` jeździ w Polsce wg CEPiK (dla generacji po 2020 r.) */
-export function liczbaOdRocznika(m: CarModel, rokOd: number): number {
-  return (m.cepik.roczniki || []).filter((r) => r.rok >= rokOd).reduce((s, r) => s + r.liczba, 0);
+export function liczbaOdRocznika(m: CarModel, rokOd: number, rokDo?: number): number {
+  return (m.cepik.roczniki || []).filter((r) => r.rok >= rokOd && (!rokDo || r.rok <= rokDo)).reduce((s, r) => s + r.liczba, 0);
 }
 
 /** Pytanie do FAQ „Czy warto kupić …?” z werdyktu */
