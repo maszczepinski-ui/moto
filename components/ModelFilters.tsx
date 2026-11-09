@@ -1,31 +1,49 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import Link from 'next/link';
 import { ArrowRight, SlidersHorizontal, FlaskConical, Search } from 'lucide-react';
 import type { ModelSummary } from '@/lib/models';
 import { fmt, sztuk, NADWOZIE_NAZWY } from '@/lib/format';
 
 interface Props {
-  initialModels: ModelSummary[];
+  /** najpopularniejsze modele – widoczne od razu */
+  poczatkowe: ModelSummary[];
+  marki: string[];
+  nadwozia: ModelSummary['nadwozia'];
+  /** ile modeli jest w atlasie */
+  wszystkich: number;
 }
 
 const selectClass =
   'w-full bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-900 dark:text-white focus:ring-2 focus:ring-steel-500';
 
-export default function ModelFilters({ initialModels }: Props) {
+export default function ModelFilters({ poczatkowe, marki, nadwozia, wszystkich }: Props) {
   const [szukaj, setSzukaj] = useState('');
   const [marka, setMarka] = useState('all');
   const [nadwozie, setNadwozie] = useState('all');
   const [sortBy, setSortBy] = useState<'liczba' | 'nazwa' | 'rok'>('liczba');
   const [ile, setIle] = useState(24);
 
-  const marki = useMemo(() => Array.from(new Set(initialModels.map((m) => m.marka))).sort(), [initialModels]);
-  const nadwozia = useMemo(() => Array.from(new Set(initialModels.flatMap((m) => m.nadwozia))), [initialModels]);
+  // pełną listę (ok. 1300 modeli) pobieramy dopiero przy pierwszym użyciu wyszukiwarki
+  const [wszystkie, setWszystkie] = useState<ModelSummary[] | null>(null);
+  const [laduje, setLaduje] = useState(false);
+  const pobrano = useRef(false);
+  const doladuj = () => {
+    if (pobrano.current) return;
+    pobrano.current = true;
+    setLaduje(true);
+    fetch('/api/modele-lista/')
+      .then((r) => (r.ok ? r.json() : Promise.reject()))
+      .then((l: ModelSummary[]) => setWszystkie(l))
+      .catch(() => (pobrano.current = false))
+      .finally(() => setLaduje(false));
+  };
+  const zrodlo = wszystkie ?? poczatkowe;
 
   const lista = useMemo(() => {
     const q = szukaj.trim().toLowerCase();
-    return initialModels
+    return zrodlo
       .filter((m) => {
         if (q && !`${m.marka} ${m.model} ${m.generacja}`.toLowerCase().includes(q)) return false;
         if (marka !== 'all' && m.marka !== marka) return false;
@@ -37,11 +55,13 @@ export default function ModelFilters({ initialModels }: Props) {
         if (sortBy === 'rok') return parseInt(b.lataProdukcji) - parseInt(a.lataProdukcji);
         return b.cepik.liczbaWPolsce - a.cepik.liczbaWPolsce;
       });
-  }, [initialModels, szukaj, marka, nadwozie, sortBy]);
+  }, [zrodlo, szukaj, marka, nadwozie, sortBy]);
+  const filtry = szukaj.trim() !== '' || marka !== 'all' || nadwozie !== 'all' || sortBy !== 'liczba';
+  const pozostalo = wszystkie || filtry ? lista.length - ile : wszystkich - ile;
 
   return (
     <div>
-      <div className="bg-white dark:bg-slate-900 p-4 sm:p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm mb-8">
+      <div onFocusCapture={doladuj} onPointerDownCapture={doladuj} className="bg-white dark:bg-slate-900 p-4 sm:p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm mb-8">
         <div className="flex items-center gap-2 mb-4 text-slate-800 dark:text-slate-200 font-semibold text-sm">
           <SlidersHorizontal className="w-4 h-4 text-steel-600 dark:text-steel-400" aria-hidden="true" />
           Znajdź model
@@ -126,19 +146,24 @@ export default function ModelFilters({ initialModels }: Props) {
         ))}
       </div>
 
-      {lista.length > ile && (
+      {laduje && filtry && <p className="text-center text-sm text-slate-500 mt-4">Wczytuję wszystkie modele…</p>}
+
+      {pozostalo > 0 && (
         <div className="text-center mt-8">
           <button
             type="button"
-            onClick={() => setIle(ile + 48)}
+            onClick={() => {
+              doladuj();
+              setIle(ile + 48);
+            }}
             className="px-6 py-3 rounded-xl font-semibold bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 hover:border-steel-400 text-steel-700 dark:text-steel-300"
           >
-            Pokaż więcej ({fmt(lista.length - ile)} pozostało)
+            Pokaż więcej ({fmt(pozostalo)} pozostało)
           </button>
         </div>
       )}
 
-      {lista.length === 0 && (
+      {lista.length === 0 && !laduje && (
         <div className="text-center py-16 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800">
           <p className="text-slate-600 dark:text-slate-400">Nie ma jeszcze takiego modelu w atlasie.</p>
         </div>

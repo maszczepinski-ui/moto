@@ -336,7 +336,12 @@ export default function HomePage() {
             Skąd są dane? <ArrowRight className="w-3.5 h-3.5" aria-hidden="true" />
           </Link>
         </div>
-        <ModelFilters initialModels={models} />
+        <ModelFilters
+          poczatkowe={[...models].sort((a, b) => b.cepik.liczbaWPolsce - a.cepik.liczbaWPolsce).slice(0, 24)}
+          marki={[...new Set(models.map((m) => m.marka))].sort()}
+          nadwozia={[...new Set(models.flatMap((m) => m.nadwozia))]}
+          wszystkich={models.length}
+        />
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">

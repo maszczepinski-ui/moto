@@ -1,7 +1,8 @@
-// Pobieranie pakietu: sprawdzamy podpis i termin linku, potem przekierowujemy do pliku.
+// Pobieranie pakietu: sprawdzamy podpis i termin linku, potem serwer sam przesyła plik (adres pliku nie trafia do klienta).
 // Plik leży POZA repozytorium (repo jest publiczne) – jego adres zna tylko Vercel (zmienna PAKIET_URL).
 import { sklepAktywny, env, ADRES_SKLEPU } from '@/lib/sklep/konfiguracja';
 import { sprawdzLink } from '@/lib/sklep/link';
+import { plikSklepu } from '@/lib/sklep/plik-prywatny';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -18,5 +19,18 @@ export async function GET(req: Request) {
   const wynik = sprawdzLink(q.get('s'), q.get('w'), q.get('p'));
   if (wynik === 'wygasl') return strona('Link wygasł', 'Ten link do pobrania stracił ważność. Odpisz na maila z zamówieniem – wyślemy nowy.', 410);
   if (wynik !== 'ok') return strona('Niepoprawny link', 'Skopiuj link z maila w całości albo kliknij przycisk w mailu.', 400);
-  return new Response(null, { status: 302, headers: { Location: env('PAKIET_URL'), 'Cache-Control': 'no-store', 'Referrer-Policy': 'no-referrer' } });
+  const plik = await plikSklepu(env('PAKIET_URL')).catch((e) => {
+    console.error('[sklep] pobieranie pakietu', e);
+    return null;
+  });
+  if (!plik) return strona('Chwilowy problem z plikiem', 'Nie udało się pobrać pakietu. Spróbuj za kilka minut albo odpisz na maila z zamówieniem.', 502);
+  return new Response(plik.stream, {
+    headers: {
+      'Content-Type': 'application/zip',
+      'Content-Disposition': 'attachment; filename="niezbednik-bezpiecznego-zakupu-auta.zip"',
+      ...(plik.rozmiar ? { 'Content-Length': String(plik.rozmiar) } : {}),
+      'Cache-Control': 'private, no-store',
+      'X-Content-Type-Options': 'nosniff'
+    }
+  });
 }

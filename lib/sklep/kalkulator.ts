@@ -2,6 +2,7 @@
 // Logowanie bez hasła: e-mail z zamówienia → 6-cyfrowy kod mailem → ciasteczko na rok, maks. 3 urządzenia na zamówienie.
 // Dane kalkulatora (ceny, argumenty) NIE leżą w repozytorium (jest publiczne) – serwer pobiera je z adresu NIEZBEDNIK_DANE_URL.
 // Wymaga bazy Upstash Redis (te same zmienne co przypomnienia: KV_REST_API_URL/KV_REST_API_TOKEN albo UPSTASH_REDIS_REST_*).
+import { plikSklepu } from '@/lib/sklep/plik-prywatny';
 import crypto from 'crypto';
 import { redis } from '@/lib/magazyn';
 import { env, sklepAktywny } from './konfiguracja';
@@ -91,9 +92,9 @@ let pamiecDanych: { czas: number; dane: unknown } | null = null;
 /** Dane kalkulatora z prywatnego pliku (NIEZBEDNIK_DANE_URL), w pamięci przez 10 minut */
 export async function daneKalkulatora(): Promise<unknown> {
   if (pamiecDanych && Date.now() - pamiecDanych.czas < 600_000) return pamiecDanych.dane;
-  const r = await fetch(process.env.NIEZBEDNIK_DANE_URL!, { cache: 'no-store' });
-  if (!r.ok) throw new Error(`Dane kalkulatora: HTTP ${r.status}`);
-  pamiecDanych = { czas: Date.now(), dane: await r.json() };
+  const plik = await plikSklepu(process.env.NIEZBEDNIK_DANE_URL!);
+  if (!plik) throw new Error('Dane kalkulatora: brak pliku');
+  pamiecDanych = { czas: Date.now(), dane: await new Response(plik.stream).json() };
   return pamiecDanych.dane;
 }
 

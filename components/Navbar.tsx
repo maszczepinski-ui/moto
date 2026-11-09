@@ -18,10 +18,10 @@ export default function Navbar() {
             <>
               {/* Logo z panelu admina (zakładka „Logo i ikona”) */}
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={m.logo} alt={m.logoTryb === 'zamiast' ? site.name : ''} className={`h-8 w-auto max-w-[210px] object-contain flex-shrink-0 ${ciemne !== m.logo ? 'dark:hidden' : ''}`} />
+              <img src={m.logo} width={200} height={32} alt={m.logoTryb === 'zamiast' ? site.name : ''} className={`h-8 w-auto max-w-[210px] object-contain flex-shrink-0 ${ciemne !== m.logo ? 'dark:hidden' : ''}`} />
               {ciemne !== m.logo && (
                 // eslint-disable-next-line @next/next/no-img-element
-                <img src={ciemne} alt={m.logoTryb === 'zamiast' ? site.name : ''} className="hidden dark:block h-8 w-auto max-w-[210px] object-contain flex-shrink-0" />
+                <img src={ciemne} width={200} height={32} alt={m.logoTryb === 'zamiast' ? site.name : ''} className="hidden dark:block h-8 w-auto max-w-[210px] object-contain flex-shrink-0" />
               )}
             </>
           ) : (
