@@ -41,12 +41,16 @@ export function zapytanieTrasy(tryb: Tryb, a: { lat: number; lon: number }, b: {
 
 // --- ładowarki ---
 
+/** kolory znaczników – te same w legendzie mapy */
+export const KOLORY = { szybka: '#059669', zwykla: '#336699', nieznana: '#64748b', fotoradar: '#dc2626', odcinkowy: '#9333ea' };
+
 const ZLACZA: [RegExp, string][] = [
   [/^socket:type2_combo$/, 'CCS'],
   [/^socket:chademo$/, 'CHAdeMO'],
   [/^socket:type2$/, 'Typ 2'],
   [/^socket:type2_cable$/, 'Typ 2 (kabel)'],
   [/^socket:tesla_supercharger(_ccs)?$/, 'Tesla'],
+  [/^socket:nacs$/, 'Tesla'],
   [/^socket:schuko$/, 'Gniazdko'],
   [/^socket:type1$/, 'Typ 1']
 ];
@@ -71,7 +75,7 @@ export function ladowarka(e: ElementOsm): Obiekt | null {
   const lat = e.lat ?? e.center?.lat;
   const lon = e.lon ?? e.center?.lon;
   if (lat === undefined || lon === undefined) return null;
-  const zlacza = ZLACZA.filter(([re]) => Object.keys(t).some((k) => re.test(k) && t[k] !== 'no' && t[k] !== '0')).map(([, n]) => n);
+  const zlacza = [...new Set(ZLACZA.filter(([re]) => Object.keys(t).some((k) => re.test(k) && t[k] !== 'no' && t[k] !== '0')).map(([, n]) => n))];
   const kw = moc(t);
   const adres = [t['addr:street'] || t['addr:place'], t['addr:housenumber']].filter(Boolean).join(' ');
   const opis = [
@@ -91,7 +95,7 @@ export function ladowarka(e: ElementOsm): Obiekt | null {
     tytul: t.name || t.operator || t.brand || t.network || 'Stacja ładowania',
     opis,
     znaczniki: [...zlacza, ...(kw >= 50 ? ['szybka'] : [])],
-    kolor: kw >= 50 ? '#059669' : '#2563eb',
+    kolor: kw >= 50 ? KOLORY.szybka : kw ? KOLORY.zwykla : KOLORY.nieznana,
     moc: kw
   };
 }
@@ -108,7 +112,7 @@ export function fotoradar(e: ElementOsm): Obiekt | null {
       tytul: 'Fotoradar',
       opis: [t.maxspeed ? `Ograniczenie: ${t.maxspeed} km/h` : '', t.ref ? `Numer: ${t.ref}` : '', t.operator ? `Właściciel: ${t.operator}` : ''].filter(Boolean),
       znaczniki: ['fotoradar'],
-      kolor: '#dc2626'
+      kolor: KOLORY.fotoradar
     };
   }
   if (e.type === 'relation' && e.members?.length) {
@@ -125,7 +129,7 @@ export function fotoradar(e: ElementOsm): Obiekt | null {
       tytul: t.name ? `Odcinkowy pomiar: ${t.name}` : 'Odcinkowy pomiar prędkości',
       opis: [t.maxspeed ? `Ograniczenie: ${t.maxspeed} km/h` : '', doo ? 'Linia pokazuje początek i koniec odcinka' : ''].filter(Boolean),
       znaczniki: ['odcinkowy'],
-      kolor: '#9333ea',
+      kolor: KOLORY.odcinkowy,
       linia: od && doo ? [[od.lat!, od.lon!], [doo.lat!, doo.lon!]] : undefined
     };
   }

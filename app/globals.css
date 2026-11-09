@@ -55,3 +55,25 @@ body {
     --viz-5: #d55181;
   }
 }
+
+/* --- mapa ładowarek / fotoradarów: pinezki i grupy (components/MapaObiektow.tsx) --- */
+.mr-pin { filter: drop-shadow(0 2px 3px rgb(15 23 42 / 0.35)); transition: transform 0.15s; transform-origin: 50% 100%; }
+.mr-pin:hover { transform: scale(1.1); }
+.mr-pin-wybrany { filter: drop-shadow(0 4px 8px rgb(15 23 42 / 0.45)); }
+.mr-grupa {
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 9999px; background: #26517a; color: #fff;
+  font: 700 13px/1 Inter, system-ui, sans-serif;
+  box-shadow: 0 0 0 4px rgb(51 102 153 / 0.3), 0 2px 6px rgb(15 23 42 / 0.35);
+  border: 2px solid #fff;
+}
+.mr-grupa-szybka { box-shadow: 0 0 0 4px rgb(5 150 105 / 0.45), 0 2px 6px rgb(15 23 42 / 0.35); }
+.leaflet-container .leaflet-control-attribution { font-size: 10px; background: rgb(255 255 255 / 0.8); }
+.leaflet-container { font-family: inherit; background: #f4f6f8; }
+@media (prefers-color-scheme: dark) {
+  .leaflet-container { background: #0f172a; }
+  .leaflet-container .leaflet-control-attribution { background: rgb(15 23 42 / 0.8); color: #94a3b8; }
+  .leaflet-container .leaflet-control-attribution a { color: #97badb; }
+  .leaflet-container .leaflet-bar a { background: #1e293b; color: #e2e8f0; border-color: #334155; }
+  .mr-grupa { border-color: #0f172a; }
+}

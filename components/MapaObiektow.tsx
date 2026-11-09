@@ -1,7 +1,9 @@
 "use client";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { Map as LMapa, LayerGroup } from "leaflet";
+import type { Map as LMapa, LayerGroup, Marker } from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "leaflet.markercluster/dist/MarkerCluster.css";
+import "maplibre-gl/dist/maplibre-gl.css";
 import {
   Search,
   LocateFixed,
@@ -9,6 +11,7 @@ import {
   Loader2,
   AlertCircle,
   ArrowRight,
+  X,
 } from "lucide-react";
 import {
   znajdzMiejsce,
@@ -26,7 +29,9 @@ import {
   przetworz,
   Obiekt,
   Tryb,
+  KOLORY,
 } from "@/lib/obiekty-mapy";
+import { stylMapy, webglDziala, ATRYBUCJA_OFM } from "@/lib/styl-mapy";
 import { miasto, MIASTA } from "@/lib/miasta";
 import { sledz } from "@/lib/sledz";
 
@@ -54,6 +59,7 @@ const FILTRY: Record<Tryb, { id: string; nazwa: string }[]> = {
     { id: "CCS", nazwa: "CCS" },
     { id: "Typ 2", nazwa: "Typ 2" },
     { id: "CHAdeMO", nazwa: "CHAdeMO" },
+    { id: "Tesla", nazwa: "Tesla" },
   ],
   fotoradary: [
     { id: "", nazwa: "Wszystkie" },
@@ -70,32 +76,39 @@ function odmiana(n: number, [jeden, kilka, wiele]: [string, string, string]) {
   return r10 >= 2 && r10 <= 4 && (r100 < 12 || r100 > 14) ? kilka : wiele;
 }
 
-/** Treść dymka budujemy z elementów DOM (a nie z HTML), bo opisy w OpenStreetMap wpisują wolontariusze */
-function dymek(o: Obiekt): HTMLElement {
-  const d = document.createElement("div");
-  const h = document.createElement("strong");
-  h.textContent = o.tytul;
-  d.appendChild(h);
-  for (const l of o.opis) {
-    const p = document.createElement("div");
-    p.textContent = l;
-    p.style.fontSize = "12px";
-    d.appendChild(p);
-  }
-  const a = document.createElement("a");
-  a.href = nawigacja(o.lat, o.lon);
-  a.target = "_blank";
-  a.rel = "noopener noreferrer";
-  a.textContent = "Nawiguj →";
-  a.style.fontWeight = "700";
-  d.appendChild(a);
-  return d;
+// --- wygląd znaczników ---
+
+const SVG_IKONY = {
+  // błyskawica
+  ladowarka: '<path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" fill="#fff"/>',
+  // aparat
+  fotoradar: '<path d="M4 8h3l2-2.5h6L17 8h3v11H4z" fill="#fff"/><circle cx="12" cy="13.2" r="3.4" fill="currentColor"/>',
+  // dwie flagi – początek i koniec odcinka
+  odcinkowy: '<path d="M6 4v16M6 5h9l-2 3 2 3H6" stroke="#fff" stroke-width="2.2" fill="none" stroke-linejoin="round"/>',
+};
+
+function rodzajIkony(o: Obiekt): keyof typeof SVG_IKONY {
+  return o.znaczniki.includes("fotoradar") ? "fotoradar" : o.znaczniki.includes("odcinkowy") ? "odcinkowy" : "ladowarka";
 }
+
+/** Pinezka w kolorze obiektu z białą ikoną; wybrana jest większa i z obwódką */
+function htmlPinezki(o: Obiekt, wybrany: boolean) {
+  const s = wybrany ? 44 : 34;
+  return `<div class="mr-pin${wybrany ? " mr-pin-wybrany" : ""}" style="--k:${o.kolor};width:${s}px;height:${s * 1.22}px">
+    <svg viewBox="0 0 40 49" width="${s}" height="${s * 1.22}" aria-hidden="true">
+      <path d="M20 48c-1.2 0-16-16.3-16-28A16 16 0 0 1 36 20c0 11.7-14.8 28-16 28z" fill="${o.kolor}" stroke="#fff" stroke-width="2.5"/>
+      <g transform="translate(8 8)" color="${o.kolor}">${SVG_IKONY[rodzajIkony(o)]}</g>
+    </svg></div>`;
+}
+
+const MOC_Z_OPISU = /^(Złącza:|Moc do )/;
 
 export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
   const kontener = useRef<HTMLDivElement>(null);
   const mapa = useRef<LMapa | null>(null);
   const warstwa = useRef<LayerGroup | null>(null);
+  const grupa = useRef<LayerGroup | null>(null);
+  const znaczniki = useRef<Map<string, Marker>>(new Map());
   const L = useRef<typeof import("leaflet") | null>(null);
   const przerwij = useRef<AbortController | null>(null);
 
@@ -113,25 +126,90 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
   const [dokad, setDokad] = useState("");
   const [trasa, setTrasa] = useState<{ a: Punkt; b: Punkt } | null>(null);
   const [pas, setPas] = useState(5);
+  const [wybrany, setWybrany] = useState<Obiekt | null>(null);
 
   // mapa tworzy się dopiero w przeglądarce
   useEffect(() => {
     let zniszczona = false;
-    import("leaflet").then((mod) => {
+    let sprzatnij = () => {};
+    (async () => {
+      const mod = await import("leaflet");
+      // wtyczka grupowania znaczników szuka biblioteki pod globalną nazwą „L”
+      const Lb = ((mod as unknown as { default?: typeof mod }).default ?? mod) as typeof mod;
+      (window as unknown as { L: typeof mod }).L = Lb;
+      await import("leaflet.markercluster");
       if (zniszczona || !kontener.current || mapa.current) return;
-      L.current = mod;
-      const m = mod
-        .map(kontener.current, { scrollWheelZoom: false })
-        .setView([52.07, 19.48], 6);
-      mod
-        .tileLayer(KAFELKI_MAPY, { maxZoom: 19, attribution: ATRYBUCJA })
-        .addTo(m);
-      warstwa.current = mod.layerGroup().addTo(m);
+      L.current = Lb;
+      const m = Lb.map(kontener.current, { scrollWheelZoom: false, zoomControl: false, maxZoom: 19, minZoom: 5 }).setView([52.07, 19.48], 6);
+      Lb.control.zoom({ position: "topright" }).addTo(m);
+      m.attributionControl.setPrefix(false);
       mapa.current = m;
+      warstwa.current = Lb.layerGroup().addTo(m);
+      grupa.current = (Lb as unknown as { markerClusterGroup: (o: object) => LayerGroup })
+        .markerClusterGroup({
+          showCoverageOnHover: false,
+          maxClusterRadius: 50,
+          spiderfyOnMaxZoom: true,
+          disableClusteringAtZoom: 16,
+          iconCreateFunction: (c: { getChildCount: () => number; getAllChildMarkers: () => { options: { szybka?: boolean } }[] }) => {
+            const n = c.getChildCount();
+            const s = n < 10 ? 36 : n < 100 ? 44 : 52;
+            const szybkie = c.getAllChildMarkers().some((x) => x.options.szybka);
+            return Lb.divIcon({
+              html: `<div class="mr-grupa${szybkie ? " mr-grupa-szybka" : ""}" style="width:${s}px;height:${s}px">${n}</div>`,
+              className: "",
+              iconSize: [s, s],
+            });
+          },
+        })
+        .addTo(m);
+      m.on("click", () => setWybrany(null));
+
+      // podkład: przemalowana mapa OpenFreeMap (WebGL), a gdy się nie uda – zwykłe kafelki OpenStreetMap
+      const zapasowy = () => {
+        if (zniszczona || !mapa.current) return;
+        Lb.tileLayer(KAFELKI_MAPY, { maxZoom: 19, attribution: ATRYBUCJA }).addTo(m);
+      };
+      const ciemny = window.matchMedia("(prefers-color-scheme: dark)");
+      if (!webglDziala()) zapasowy();
+      else
+        try {
+          const [{ maplibreGL }, styl] = await Promise.all([import("@maplibre/maplibre-gl-leaflet"), stylMapy(ciemny.matches)]);
+          if (zniszczona) return;
+          const podklad = maplibreGL({
+            style: styl as never,
+            attributionControl: { customAttribution: ATRYBUCJA_OFM },
+          } as never).addTo(m);
+          const gl = podklad.getMaplibreMap();
+          // gdy kafelki nie wczytają się w 10 s – przełączamy na zwykłą mapę, żeby nie zostało puste tło
+          let wczytana = false;
+          gl.once("load", () => (wczytana = true));
+          const czas = window.setTimeout(() => {
+            if (!wczytana && !zniszczona) {
+              m.removeLayer(podklad);
+              zapasowy();
+            }
+          }, 10000);
+          const zmianaMotywu = async () => {
+            try {
+              gl.setStyle((await stylMapy(ciemny.matches)) as never);
+            } catch {
+              /* zostaje poprzedni wygląd */
+            }
+          };
+          ciemny.addEventListener("change", zmianaMotywu);
+          sprzatnij = () => {
+            window.clearTimeout(czas);
+            ciemny.removeEventListener("change", zmianaMotywu);
+          };
+        } catch {
+          zapasowy();
+        }
       setGotowa(true);
-    });
+    })();
     return () => {
       zniszczona = true;
+      sprzatnij();
       mapa.current?.remove();
       mapa.current = null;
     };
@@ -325,6 +403,9 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
           .bindTooltip(p.nazwa)
           .addTo(warstwa.current);
     }
+    const g = grupa.current;
+    g?.clearLayers();
+    znaczniki.current.clear();
     for (const o of widoczne) {
       if (o.linia)
         Lm.polyline(o.linia, {
@@ -332,22 +413,50 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
           weight: 4,
           dashArray: "8 6",
         }).addTo(warstwa.current);
-      Lm.circleMarker([o.lat, o.lon], {
-        radius: 8,
-        color: "#fff",
-        weight: 2,
-        fillColor: o.kolor,
-        fillOpacity: 1,
-      })
-        .bindPopup(() => dymek(o))
-        .addTo(warstwa.current);
+      const mk = Lm.marker([o.lat, o.lon], {
+        icon: Lm.divIcon({ html: htmlPinezki(o, false), className: "", iconSize: [34, 41], iconAnchor: [17, 41] }),
+        title: o.tytul,
+        keyboard: true,
+        szybka: (o.moc || 0) >= 50,
+      } as never).on("click", (ev) => {
+        Lm.DomEvent.stopPropagation(ev);
+        setWybrany(o);
+      });
+      znaczniki.current.set(o.id, mk);
+      g?.addLayer(mk);
     }
+    setWybrany((w) => (w && widoczne.some((o) => o.id === w.id) ? w : null));
   }, [widoczne, srodek, promien, trasa]);
 
+  // wybrana pinezka – większa; poprzednia wraca do zwykłej
+  useEffect(() => {
+    const Lm = L.current;
+    if (!Lm || !wybrany) return;
+    const mk = znaczniki.current.get(wybrany.id);
+    if (!mk) return;
+    mk.setIcon(Lm.divIcon({ html: htmlPinezki(wybrany, true), className: "", iconSize: [44, 54], iconAnchor: [22, 54] }));
+    mk.setZIndexOffset(1000);
+    return () => {
+      mk.setIcon(Lm.divIcon({ html: htmlPinezki(wybrany, false), className: "", iconSize: [34, 41], iconAnchor: [17, 41] }));
+      mk.setZIndexOffset(0);
+    };
+  }, [wybrany]);
+
   const pokazNaMapie = (o: Obiekt) => {
-    mapa.current?.setView([o.lat, o.lon], 16);
+    const mk = znaczniki.current.get(o.id);
+    const g = grupa.current as unknown as { zoomToShowLayer?: (m: Marker, cb: () => void) => void } | null;
+    mapa.current?.setView([o.lat, o.lon], Math.max(mapa.current.getZoom(), 16));
+    if (mk && g?.zoomToShowLayer) g.zoomToShowLayer(mk, () => setWybrany(o));
+    else setWybrany(o);
     kontener.current?.scrollIntoView({ behavior: "smooth", block: "center" });
   };
+
+  const odleglosc = (o: Obiekt) =>
+    trasa
+      ? `${Math.round(km(trasa.a, o))} km od startu`
+      : srodek
+        ? `${km(srodek, o).toLocaleString("pl-PL", { maximumFractionDigits: 1 })} km`
+        : "";
 
   const nazwa =
     tryb === "ladowarki" ? "ładowarek" : "fotoradarów i odcinkowych pomiarów";
@@ -543,6 +652,78 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
           ref={kontener}
           className="h-[420px] sm:h-[520px] rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 z-0 bg-slate-100 dark:bg-slate-800"
         />
+        {tryb === "ladowarki" && gotowa && (
+          <div className="absolute top-3 left-3 z-[450] hidden sm:flex flex-col gap-1 bg-white/95 dark:bg-slate-900/95 backdrop-blur rounded-xl shadow px-3 py-2 text-xs font-semibold text-slate-700 dark:text-slate-200 pointer-events-none">
+            {(
+              [
+                [KOLORY.szybka, "Szybka (50 kW i więcej)"],
+                [KOLORY.zwykla, "Zwykła"],
+                [KOLORY.nieznana, "Moc nieznana"],
+              ] as const
+            ).map(([k, n]) => (
+              <span key={n} className="inline-flex items-center gap-2">
+                <span className="w-3 h-3 rounded-full ring-2 ring-white dark:ring-slate-900" style={{ background: k }} aria-hidden="true" />
+                {n}
+              </span>
+            ))}
+          </div>
+        )}
+        {wybrany && (
+          <div
+            role="dialog"
+            aria-label={wybrany.tytul}
+            className="absolute z-[600] left-2 right-2 bottom-2 sm:left-3 sm:right-auto sm:bottom-3 sm:w-[360px] bg-white dark:bg-slate-900 rounded-2xl shadow-xl ring-1 ring-slate-200 dark:ring-slate-700 p-4 space-y-3"
+          >
+            <div className="flex items-start gap-3">
+              <span className="flex-shrink-0 w-10 h-10 rounded-xl flex items-center justify-center text-white" style={{ background: wybrany.kolor }} aria-hidden="true">
+                <svg viewBox="0 0 24 24" className="w-6 h-6" style={{ color: wybrany.kolor }} dangerouslySetInnerHTML={{ __html: SVG_IKONY[rodzajIkony(wybrany)] }} />
+              </span>
+              <div className="flex-1 min-w-0">
+                <p className="font-bold text-slate-900 dark:text-white leading-snug">{wybrany.tytul}</p>
+                <p className="text-xs text-slate-500">
+                  {[wybrany.moc ? `do ${wybrany.moc} kW` : tryb === "ladowarki" ? "moc nieznana" : "", odleglosc(wybrany)].filter(Boolean).join(" · ")}
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setWybrany(null)}
+                className="flex-shrink-0 -m-1 p-1.5 rounded-lg text-slate-500 hover:bg-slate-100 dark:hover:bg-slate-800"
+                aria-label="Zamknij"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+            {wybrany.znaczniki.filter((z) => z !== "szybka" && z !== "fotoradar" && z !== "odcinkowy").length > 0 && (
+              <div className="flex flex-wrap gap-1.5">
+                {wybrany.znaczniki
+                  .filter((z) => z !== "szybka" && z !== "fotoradar" && z !== "odcinkowy")
+                  .map((z) => (
+                    <span key={z} className="px-2 py-0.5 rounded-md text-xs font-bold bg-steel-50 text-steel-700 dark:bg-slate-800 dark:text-steel-300">
+                      {z}
+                    </span>
+                  ))}
+              </div>
+            )}
+            {wybrany.opis.filter((l) => !MOC_Z_OPISU.test(l)).length > 0 && (
+              <ul className="space-y-0.5 text-xs text-slate-600 dark:text-slate-400">
+                {wybrany.opis
+                  .filter((l) => !MOC_Z_OPISU.test(l))
+                  .map((l) => (
+                    <li key={l}>{l}</li>
+                  ))}
+              </ul>
+            )}
+            <a
+              href={nawigacja(wybrany.lat, wybrany.lon)}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => sledz("nawigacja_mapa", { tryb })}
+              className="flex items-center justify-center gap-2 w-full bg-rust-600 hover:bg-rust-700 text-white font-bold py-2.5 rounded-xl"
+            >
+              <Navigation className="w-4 h-4" aria-hidden="true" /> Prowadź (Google Maps)
+            </a>
+          </div>
+        )}
         {laduje && (
           <div className="absolute top-3 left-1/2 -translate-x-1/2 z-[500] inline-flex items-center gap-2 bg-white text-slate-900 shadow rounded-full px-4 py-2 text-sm font-semibold">
             <Loader2 className="w-4 h-4 animate-spin" aria-hidden="true" />{" "}
@@ -596,11 +777,7 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
                     >
                       {o.tytul}
                     </button>
-                    <span className="text-xs text-slate-500 whitespace-nowrap tabular-nums">
-                      {trasa
-                        ? `${Math.round(km(trasa.a, o))} km od startu`
-                        : `${km(srodek!, o).toLocaleString("pl-PL", { maximumFractionDigits: 1 })} km`}
-                    </span>
+                    <span className="text-xs text-slate-500 whitespace-nowrap tabular-nums">{odleglosc(o)}</span>
                   </div>
                   {o.opis.map((l) => (
                     <p
@@ -617,7 +794,7 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
                     className="inline-flex items-center gap-1 text-xs font-bold text-steel-700 dark:text-steel-300 hover:underline"
                   >
                     <Navigation className="w-3.5 h-3.5" aria-hidden="true" />{" "}
-                    Nawiguj
+                    Prowadź
                   </a>
                 </div>
               </li>
