@@ -47,7 +47,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin }: { akty
         <input type="email" required autoComplete="email" className={pole} value={email} onChange={(e) => setEmail(e.target.value)} disabled={!aktywny} />
       </label>
       <label className="flex items-center gap-2 text-sm cursor-pointer">
-        <input type="checkbox" checked={naFirme} onChange={(e) => setNaFirme(e.target.checked)} disabled={!aktywny} className="w-4 h-4 accent-slate-900" />
+        <input type="checkbox" checked={naFirme} onChange={(e) => setNaFirme(e.target.checked)} disabled={!aktywny} className="w-4 h-4 accent-emerald-600" />
         Chcę fakturę na firmę (z NIP)
       </label>
       {!naFirme ? (
@@ -81,7 +81,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin }: { akty
       )}
       <div className="space-y-3 text-sm border-t border-slate-100 dark:border-slate-800 pt-4">
         <label className="flex items-start gap-2.5 cursor-pointer">
-          <input type="checkbox" checked={zgodaRegulamin} onChange={(e) => setZgodaRegulamin(e.target.checked)} disabled={!aktywny} className="mt-0.5 w-4 h-4 flex-shrink-0 accent-slate-900" />
+          <input type="checkbox" checked={zgodaRegulamin} onChange={(e) => setZgodaRegulamin(e.target.checked)} disabled={!aktywny} className="mt-0.5 w-4 h-4 flex-shrink-0 accent-emerald-600" />
           <span>
             Akceptuję{' '}
             <a href={regulamin} target="_blank" className="underline font-semibold">
@@ -91,7 +91,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin }: { akty
           </span>
         </label>
         <label className="flex items-start gap-2.5 cursor-pointer">
-          <input type="checkbox" checked={zgodaTresci} onChange={(e) => setZgodaTresci(e.target.checked)} disabled={!aktywny} className="mt-0.5 w-4 h-4 flex-shrink-0 accent-slate-900" />
+          <input type="checkbox" checked={zgodaTresci} onChange={(e) => setZgodaTresci(e.target.checked)} disabled={!aktywny} className="mt-0.5 w-4 h-4 flex-shrink-0 accent-emerald-600" />
           <span>
             Żądam dostarczenia plików przed upływem 14 dni na odstąpienie od umowy i przyjmuję do wiadomości, że po ich dostarczeniu tracę prawo odstąpienia od umowy.{' '}
             <span className="text-rose-600">*</span>
@@ -106,11 +106,15 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin }: { akty
       <button
         type="submit"
         disabled={!gotowe}
-        className="w-full inline-flex items-center justify-center gap-2 rounded-xl bg-slate-900 hover:bg-slate-800 disabled:opacity-40 disabled:cursor-not-allowed text-white font-bold py-3.5"
+        className="w-full flex items-center justify-center gap-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 shadow-lg shadow-emerald-600/25 disabled:bg-emerald-600/45 disabled:shadow-none disabled:cursor-not-allowed text-white px-4 py-3 transition-colors"
       >
-        {praca ? <Loader2 className="w-5 h-5 animate-spin" aria-hidden="true" /> : <Lock className="w-4 h-4" aria-hidden="true" />}
-        {praca ? 'Przechodzę do płatności…' : `Zapłać ${cena} – BLIK, przelew lub karta`}
+        {praca ? <Loader2 className="w-5 h-5 flex-shrink-0 animate-spin" aria-hidden="true" /> : <Lock className="w-5 h-5 flex-shrink-0" aria-hidden="true" />}
+        <span className="flex flex-col items-start leading-tight text-left">
+          <span className="text-base font-extrabold whitespace-nowrap">{praca ? 'Przechodzę do płatności…' : `Zapłać ${cena}`}</span>
+          {!praca && <span className="text-xs font-medium text-emerald-50/90">BLIK · przelew · karta</span>}
+        </span>
       </button>
+      {aktywny && !gotowe && !praca && <p className="text-xs text-slate-500 text-center -mt-2">Uzupełnij dane i zaznacz obie zgody, aby przejść do płatności.</p>}
       <p className="text-xs text-slate-500 text-center">Płatność obsługuje Przelewy24. Pakiet dostaniesz od razu po zapłacie, a fakturę mailem.</p>
     </form>
   );
