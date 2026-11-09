@@ -153,7 +153,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-2-0-8v": {
    "nazwa": "VW 2.0 8V",
@@ -193,7 +193,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-3-2-vr6": {
    "nazwa": "VW 3.2 VR6",
@@ -260,7 +260,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-2-0-fsi": {
    "nazwa": "VW 2.0 FSI",
@@ -306,7 +306,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-4-tsi": {
    "nazwa": "VW 1.4 TSI (EA111)",
@@ -339,7 +339,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-9-sdi": {
    "nazwa": "VW 1.9 SDI",
@@ -358,7 +358,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-9-tdi-vp": {
    "nazwa": "VW 1.9 TDI (pompa VP37)",
@@ -388,7 +388,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-9-tdi-pd": {
    "nazwa": "VW 1.9 TDI PD",
@@ -404,6 +404,11 @@
     "BXJ"
    ],
    "kodyWgMocy": {
+    "90": [
+     "BRU",
+     "BXF",
+     "BXJ"
+    ],
     "100": [
      "ATD",
      "AXR"
@@ -421,11 +426,6 @@
     ],
     "150": [
      "ARL"
-    ],
-    "90": [
-     "BRU",
-     "BXF",
-     "BXJ"
     ]
    },
    "pojemnoscCm3": 1896,
@@ -440,7 +440,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-2-0-tdi-pd": {
    "nazwa": "VW 2.0 TDI PD",
@@ -459,7 +459,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-4-tdi": {
    "nazwa": "VW 1.4 TDI R3",
@@ -516,7 +516,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "opel-1-2-16v": {
    "nazwa": "Opel 1.2 16V (Family 0)",
@@ -544,7 +544,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "opel-1-4-16v": {
    "nazwa": "Opel 1.4 16V (Family 1)",
@@ -564,7 +564,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "opel-1-6-16v": {
    "nazwa": "Opel 1.6 16V (Family 1)",
@@ -584,7 +584,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "opel-1-8-16v": {
    "nazwa": "Opel 1.8 16V (Family 1)",
@@ -634,7 +634,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "ford-1-6-sigma": {
    "nazwa": "Ford 1.6 Zetec-SE / Duratec 16V (Sigma)",
@@ -651,7 +651,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "ford-1-6-tivct": {
    "nazwa": "Ford 1.6 Duratec Ti-VCT (Sigma)",
@@ -668,7 +668,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "ford-1-8-zetec": {
    "nazwa": "Ford 1.8 Zetec-E",
@@ -1032,7 +1032,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "ford-2-0-tdci-dw10": {
    "nazwa": "Ford/PSA 2.0 TDCi (DW10)",
@@ -1049,7 +1049,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "renault-k4j": {
    "nazwa": "Renault 1.4 16V (K4J)",
@@ -1068,7 +1068,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "renault-k4m": {
    "nazwa": "Renault 1.6 16V (K4M)",
@@ -1119,11 +1119,11 @@
     "Y17DTL"
    ],
    "kodyWgMocy": {
-    "75": [
-     "Y17DT"
-    ],
     "65": [
      "Y17DTL"
+    ],
+    "75": [
+     "Y17DT"
     ]
    },
    "pojemnoscCm3": 1686,
@@ -1346,7 +1346,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-9-td": {
    "nazwa": "VW 1.9 TD (AAZ)",
@@ -1365,7 +1365,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-9-tdi-vp-starszy": {
    "nazwa": "VW/Audi 1.9 TDI (pompa VP37, starsze kody)",
@@ -1397,7 +1397,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "audi-1-9-tdi-pd": {
    "nazwa": "Audi 1.9 TDI PD",
@@ -1427,7 +1427,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-2-0-tdi-pd-16v": {
    "nazwa": "VW 2.0 TDI PD 16V (Passat B6)",
@@ -1457,7 +1457,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-2-5-tdi-v6": {
    "nazwa": "VW/Audi 2.5 TDI V6",
@@ -1495,7 +1495,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "opel-1-6-8v-spi": {
    "nazwa": "Opel 1.6 8V (wtrysk jednopunktowy)",
@@ -1515,7 +1515,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "opel-x20xev": {
    "nazwa": "Opel 2.0 16V (X20XEV)",
@@ -1555,7 +1555,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "opel-2-0-dti": {
    "nazwa": "Opel 2.0 DI / DTI 16V (Ecotec Diesel)",
@@ -1568,12 +1568,12 @@
     "82": [
      "X20DTL"
     ],
-    "101": [
-     "X20DTH"
-    ],
     "100": [
      "X20DTH",
      "Y20DTH"
+    ],
+    "101": [
+     "X20DTH"
     ]
    },
    "pojemnoscCm3": 1995,
@@ -1588,7 +1588,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "opel-2-2-dti": {
    "nazwa": "Opel 2.2 DTI 16V (Y22DTR)",
@@ -1607,7 +1607,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-9-sdi-64": {
    "nazwa": "VW 1.9 SDI 64 KM (ASY)",
@@ -1648,7 +1648,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-2-0-sdi": {
    "nazwa": "VW 2.0 SDI (BDK)",
@@ -1667,7 +1667,7 @@
     }
    ],
    "doSprawdzenia": [],
-   "zatwierdzony": false
+   "zatwierdzony": true
   },
   "vw-1-8-tsi-ea888": {
    "nazwa": "VW 1.8 TSI (EA888)",
@@ -1689,7 +1689,7 @@
    "doSprawdzenia": [
     "kody"
    ],
-   "zatwierdzony": false
+   "zatwierdzony": true
   }
  }
 }
