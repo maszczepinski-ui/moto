@@ -14,6 +14,7 @@ import { JEZYKI_OBCE, PORADNIKI_ADRES } from '@/lib/jezyki';
 import { adresPoradnika, hreflang, poradnikiObce } from '@/lib/tlumaczenia';
 import { ADRESY_NARZEDZI } from '@/lib/tlumaczenia/narzedzia';
 import { sklepAktywny } from '@/lib/sklep/konfiguracja';
+import { ocenyKarty } from '@/lib/plusy-minusy';
 
 const LIMIT = 5000;
 interface Adres {
@@ -23,10 +24,16 @@ interface Adres {
   priority?: number;
 }
 
+/** Data ostatniej zmiany karty – uwzględnia też zatwierdzone „Plusy i minusy”, żeby Google szybciej odwiedził zmienione karty */
+function ostatniaZmiana(m: ReturnType<typeof getAllModels>[number]): string | undefined {
+  const daty = [m.dataAktualizacji, ...ocenyKarty(m).map((o) => o.aktualizacja)].filter(Boolean) as string[];
+  return daty.sort().pop();
+}
+
 function grupy(): Record<string, Adres[]> {
   const modele = getAllModels().sort((a, b) => b.cepik.liczbaWPolsce - a.cepik.liczbaWPolsce);
   const karty = (lista: typeof modele, priorytet: number) =>
-    lista.map((m) => ({ loc: m.adres, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: priorytet }));
+    lista.map((m) => ({ loc: m.adres, lastmod: ostatniaZmiana(m), changefreq: 'monthly', priority: priorytet }));
   const out: Record<string, Adres[]> = {
     strony: [
       { loc: '/', changefreq: 'weekly', priority: 1 },
