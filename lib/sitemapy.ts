@@ -136,3 +136,9 @@ export function indeksXml(): string {
     .join('\n');
   return `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${wpisy}\n</sitemapindex>\n`;
 }
+
+/** Do panelu: ile adresów jest w mapie strony i w ilu plikach */
+export function podsumowanieMap() {
+  const g = Object.entries(grupy()).filter(([, v]) => v.length > 0);
+  return { plikow: g.length, adresow: g.reduce((s, [, v]) => s + v.length, 0), pliki: g.map(([k, v]) => ({ plik: `${k}.xml`, adresow: v.length })) };
+}

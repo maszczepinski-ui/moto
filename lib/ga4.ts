@@ -6,6 +6,11 @@ import { createSign } from 'crypto';
 
 type Klucz = { client_email: string; private_key: string };
 
+/** Klucz konta technicznego Google jest wpisany (ten sam służy też do Search Console) */
+export function kluczGoogleJest() {
+  return !!process.env.GA4_KLUCZ_JSON;
+}
+
 export function ga4Skonfigurowane() {
   return !!(process.env.GA4_PROPERTY_ID && process.env.GA4_KLUCZ_JSON);
 }
@@ -18,16 +23,17 @@ function czytajKlucz(): Klucz {
 
 const b64url = (t: string | Buffer) => Buffer.from(t).toString('base64').replace(/=+$/, '').replace(/\+/g, '-').replace(/\//g, '_');
 
-let tokenPamiec: { token: string; wygasa: number } | null = null;
+const tokenPamiec: Record<string, { token: string; wygasa: number }> = {};
 
 /** Krótkotrwały klucz dostępu do Google (ważny godzinę, trzymany w pamięci serwera) */
-async function tokenGoogle(): Promise<string> {
-  if (tokenPamiec && tokenPamiec.wygasa > Date.now() + 60_000) return tokenPamiec.token;
+export async function tokenGoogle(zakres = 'https://www.googleapis.com/auth/analytics.readonly'): Promise<string> {
+  const p = tokenPamiec[zakres];
+  if (p && p.wygasa > Date.now() + 60_000) return p.token;
   const k = czytajKlucz();
   const teraz = Math.floor(Date.now() / 1000);
   const naglowek = b64url(JSON.stringify({ alg: 'RS256', typ: 'JWT' }));
   const tresc = b64url(
-    JSON.stringify({ iss: k.client_email, scope: 'https://www.googleapis.com/auth/analytics.readonly', aud: 'https://oauth2.googleapis.com/token', iat: teraz, exp: teraz + 3600 })
+    JSON.stringify({ iss: k.client_email, scope: zakres, aud: 'https://oauth2.googleapis.com/token', iat: teraz, exp: teraz + 3600 })
   );
   const podpis = b64url(createSign('RSA-SHA256').update(`${naglowek}.${tresc}`).sign(k.private_key));
   const r = await fetch('https://oauth2.googleapis.com/token', {
@@ -38,7 +44,7 @@ async function tokenGoogle(): Promise<string> {
   });
   if (!r.ok) throw new Error(`Google odrzucił klucz (${r.status}) – sprawdź GA4_KLUCZ_JSON`);
   const j = (await r.json()) as { access_token: string; expires_in: number };
-  tokenPamiec = { token: j.access_token, wygasa: Date.now() + j.expires_in * 1000 };
+  tokenPamiec[zakres] = { token: j.access_token, wygasa: Date.now() + j.expires_in * 1000 };
   return j.access_token;
 }
 

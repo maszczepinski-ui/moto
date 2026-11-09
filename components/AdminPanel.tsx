@@ -10,6 +10,7 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import Aktualizacje from '@/components/admin/Aktualizacje';
+import MapaStrony from '@/components/admin/MapaStrony';
 import Statystyki from '@/components/admin/Statystyki';
 import ChinskieAuta from '@/components/admin/ChinskieAuta';
 import Silniki from '@/components/admin/Silniki';
@@ -896,6 +897,8 @@ export default function AdminPanel({
                   użytkownika nie zapisuje ciasteczek. Mapa strony do zgłoszenia w Search Console: <code>{site.url}/sitemap.xml</code>
                 </p>
               </section>
+
+              <MapaStrony token={token} />
 
               <section className={karta}>
                 <Przelacznik label="Reklamy Google AdSense" wlaczony={dane.moduly.adsense.wlaczony} onChange={(v) => ustawModul('adsense', 'wlaczony', v)} />

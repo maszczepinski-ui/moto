@@ -34,6 +34,8 @@ const CSP_ADMIN = [
 ].join('; ');
 
 const nextConfig = {
+  // chwila zbudowania strony – automat porównuje ją z datą ostatniego zgłoszenia mapy strony w Google Search Console
+  env: { CZAS_BUDOWY: new Date().toISOString() },
   ...(statyczna ? { output: 'export' } : {}),
   images: {
     unoptimized: true
