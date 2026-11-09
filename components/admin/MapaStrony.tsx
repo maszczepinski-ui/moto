@@ -14,7 +14,7 @@ type Dane = {
 const data = (d?: string | null) => (d ? new Date(d).toLocaleString('pl-PL', { dateStyle: 'medium', timeStyle: 'short' }) : '—');
 
 /** Wyjaśnienia błędów prostym językiem – co trzeba kliknąć */
-function Problem({ kod }: { kod: string }) {
+export function Problem({ kod }: { kod: string }) {
   const tresc: Record<string, React.ReactNode> = {
     'brak-klucza': (
       <>

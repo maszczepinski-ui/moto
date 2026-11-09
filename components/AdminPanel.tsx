@@ -11,6 +11,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import Aktualizacje from '@/components/admin/Aktualizacje';
 import MapaStrony from '@/components/admin/MapaStrony';
+import RaportGoogle from '@/components/admin/RaportGoogle';
 import Statystyki from '@/components/admin/Statystyki';
 import ChinskieAuta from '@/components/admin/ChinskieAuta';
 import Silniki from '@/components/admin/Silniki';
@@ -899,6 +900,7 @@ export default function AdminPanel({
               </section>
 
               <MapaStrony token={token} />
+              <RaportGoogle token={token} />
 
               <section className={karta}>
                 <Przelacznik label="Reklamy Google AdSense" wlaczony={dane.moduly.adsense.wlaczony} onChange={(v) => ustawModul('adsense', 'wlaczony', v)} />
