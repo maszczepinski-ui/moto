@@ -24,6 +24,7 @@ import SekcjaPoradnikowGlowna from '@/components/SekcjaPoradnikowGlowna';
 import SekcjaOcGlowna from '@/components/SekcjaOcGlowna';
 import SekcjaNajnowszyPoradnik from '@/components/SekcjaNajnowszyPoradnik';
 import SekcjaAktualnosciGlowna from '@/components/SekcjaAktualnosciGlowna';
+import SekcjaNiezbednikaGlowna from '@/components/sklep/SekcjaNiezbednikaGlowna';
 import { NAZWY_KATEGORII } from '@/lib/wpisy';
 import { PlayCircle } from 'lucide-react';
 
@@ -195,6 +196,9 @@ export default function HomePage() {
             ))}
           </div>
         </section>
+
+        {/* Niezbędnik – widoczny dopiero, gdy sklep działa */}
+        <SekcjaNiezbednikaGlowna />
 
         {/* Opony */}
         <SekcjaOponGlowna />
