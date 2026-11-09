@@ -1,0 +1,38 @@
+# Jednorazowo (albo po zmianie zdjęć w config/zdjecia.ts): pobiera zdjęcia z Unsplash do public/zdjecia/,
+# żeby strona nie ładowała ich z cudzego serwera. Uruchamiasz ręcznie: Actions → Pobierz zdjęcia → Run workflow.
+name: Pobierz zdjęcia
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  pobierz:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pobierz zdjęcia (WebP, pełna szerokość i wersja na telefon)
+        run: |
+          set -e
+          mkdir -p public/zdjecia
+          # klucz:id zdjęcia Unsplash:szerokość
+          for wpis in \
+            glowne:photo-1551952237-954a0e68786c:2000 \
+            kupujesz:photo-1574023240744-64c47c8c0676:1600 \
+            trasa:photo-1516319915504-015b432d407c:1600 \
+            elektryki:photo-1593941707882-a5bba14938c7:1600 \
+            mandaty:photo-1603638725730-233a04d9dca4:1600 \
+            atlas:photo-1521706887145-1c0edacadb25:1600 \
+            filmy:photo-1568605117036-5fe5e7bab0b7:1600 \
+            opony:photo-1578844251758-2f71da64c96f:1600; do
+            IFS=':' read -r klucz id szer <<< "$wpis"
+            curl -fsSL "https://images.unsplash.com/${id}?fm=webp&fit=crop&w=${szer}&q=72" -o "public/zdjecia/${klucz}.webp"
+            curl -fsSL "https://images.unsplash.com/${id}?fm=webp&fit=crop&w=800&q=70" -o "public/zdjecia/${klucz}-800.webp"
+            echo "$klucz: $(du -h public/zdjecia/${klucz}.webp | cut -f1) / $(du -h public/zdjecia/${klucz}-800.webp | cut -f1)"
+          done
+      - name: Zapisz w repozytorium
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/zdjecia
+          git diff --cached --quiet && echo "Bez zmian" || git commit -m "Zdjęcia z Unsplash zapisane lokalnie w public/zdjecia"
+          git push
