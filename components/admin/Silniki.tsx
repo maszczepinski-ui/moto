@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { AlertTriangle, CheckCircle2, ExternalLink, RotateCcw, Save } from 'lucide-react';
 import type { ApiPelne } from './wspolne';
 import { input, karta, przyciskD, przyciskG, zapiszPlik, z64 } from './wspolne';
+import { PLIK_PLUSOW, type OcenaGeneracji } from '@/lib/plusy-minusy';
 import type { OcenaLpg, Pokrycie, SilnikTech } from '@/lib/silniki';
 
 const PLIK = 'data/techniczne/silniki.json';
@@ -92,6 +93,7 @@ export default function Silniki({
     <div className="space-y-4">
       <GdzieUzupelnic token={token} modele={modele} pokrycie={pokrycie} />
       <LokalizacjeVin api={api} branch={branch} nazwy={nazwy} />
+      <PlusyMinusyAdmin api={api} branch={branch} nazwy={nazwy} />
       <div className={karta}>
         <h2 className="text-lg font-bold text-slate-900 dark:text-white">Biblioteka silników</h2>
         <p className="text-sm text-slate-600 dark:text-slate-300">
@@ -174,6 +176,103 @@ export default function Silniki({
           </div>
         );
       })}
+    </div>
+  );
+}
+
+// ——— Plusy i minusy generacji po 2020 r. (data/opinie/plusy-minusy.json) – sekcja na karcie po zatwierdzeniu ———
+function PlusyMinusyAdmin({ api, branch, nazwy }: { api: ApiPelne; branch: string; nazwy: Map<string, string> }) {
+  const [dane, setDane] = useState<{ modele: Record<string, OcenaGeneracji[]> } | null>(null);
+  const [sha, setSha] = useState('');
+  const [oryginal, setOryginal] = useState('');
+  const [status, setStatus] = useState('');
+
+  useEffect(() => {
+    api(`/contents/${PLIK_PLUSOW}?ref=${branch}`)
+      .then((j) => {
+        const d = JSON.parse(z64(j.content));
+        setDane(d);
+        setOryginal(JSON.stringify(d));
+        setSha(j.sha);
+      })
+      .catch((e) => setStatus((e as Error).message));
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  async function zapisz() {
+    if (!dane) return;
+    setStatus('Zapisuję…');
+    try {
+      setSha(await zapiszPlik(api, PLIK_PLUSOW, JSON.stringify(dane, null, 1) + '\n', 'Panel admina: plusy i minusy (zatwierdzenia)', branch, sha));
+      setOryginal(JSON.stringify(dane));
+      setStatus('Zapisano. Sekcja pojawi się na karcie po przebudowie strony (kilka minut).');
+    } catch (e) {
+      setStatus((e as Error).message);
+    }
+  }
+
+  const przelacz = (slug: string, i: number, v: boolean) =>
+    dane && setDane({ ...dane, modele: { ...dane.modele, [slug]: dane.modele[slug].map((o, j) => (j === i ? { ...o, zatwierdzony: v } : o)) } });
+
+  if (!dane) return status ? <p className="text-sm text-rose-600">{status}</p> : null;
+  return (
+    <div className={karta}>
+      <div className="flex flex-wrap items-center gap-3">
+        <h2 className="flex-1 text-lg font-bold text-slate-900 dark:text-white">Plusy i minusy (auta po 2020 r.)</h2>
+        <button type="button" onClick={zapisz} disabled={JSON.stringify(dane) === oryginal} className={przyciskG}>
+          <Save className="w-4 h-4" /> Zapisz
+        </button>
+      </div>
+      <p className="text-sm text-slate-600 dark:text-slate-300">
+        Sekcja „Plusy i minusy” na karcie modelu oraz pytanie „Czy warto kupić…?” w FAQ. Zdania na żółto <b>nie są potwierdzone wprost</b> w źródłach – sprawdź je albo poproś o poprawkę przed
+        zatwierdzeniem.
+      </p>
+      {status && <p className="text-sm font-semibold text-slate-500">{status}</p>}
+      {Object.entries(dane.modele).flatMap(([slug, lista]) =>
+        lista.map((o, i) => (
+          <details key={`${slug}-${o.id}`} className={`border-t border-slate-100 dark:border-slate-800 pt-3 ${o.zatwierdzony ? '' : ''}`}>
+            <summary className="flex flex-wrap items-center gap-3 cursor-pointer">
+              <b className="flex-1 text-slate-900 dark:text-white">
+                {o.generacja} ({o.lata}) <span className="font-normal text-slate-500">· karta: {nazwy.get(slug) || slug}</span>
+              </b>
+              <label className="inline-flex items-center gap-2 text-sm font-semibold cursor-pointer" onClick={(e) => e.stopPropagation()}>
+                <input type="checkbox" checked={o.zatwierdzony} onChange={(e) => przelacz(slug, i, e.target.checked)} className="w-5 h-5 accent-emerald-600" />
+                {o.zatwierdzony ? <span className="text-emerald-600 inline-flex items-center gap-1"><CheckCircle2 className="w-4 h-4" /> Zatwierdzony</span> : 'Zatwierdzam'}
+              </label>
+            </summary>
+            <div className="mt-3 space-y-3 text-sm text-slate-700 dark:text-slate-300">
+              {o.opis.map((a) => (
+                <div key={a.naglowek}>
+                  <p className="font-bold text-slate-900 dark:text-white">{a.naglowek}</p>
+                  <p>{a.tekst.replace(/\*\*/g, '')}</p>
+                </div>
+              ))}
+              <div className="grid sm:grid-cols-2 gap-3">
+                <div className="rounded-lg border-2 border-emerald-500 p-3">
+                  <p className="font-bold mb-1">Zalety</p>
+                  <ul className="list-disc pl-5 space-y-1">{o.zalety.map((p) => <li key={p.tytul}><b>{p.tytul}:</b> {p.opis}</li>)}</ul>
+                </div>
+                <div className="rounded-lg border-2 border-rose-500 p-3">
+                  <p className="font-bold mb-1">Wady</p>
+                  <ul className="list-disc pl-5 space-y-1">{o.wady.map((p) => <li key={p.tytul}><b>{p.tytul}:</b> {p.opis}</li>)}</ul>
+                </div>
+              </div>
+              <p><b>Werdykt:</b> {o.werdykt}</p>
+              {o.doSprawdzenia.length > 0 && (
+                <ul className="rounded-lg bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-200 p-3 list-disc pl-8 space-y-1 text-xs">
+                  {o.doSprawdzenia.map((x) => <li key={x}>{x}</li>)}
+                </ul>
+              )}
+              <p className="text-xs text-slate-500">
+                {o.zrodla.map((z) => (
+                  <a key={z.url} href={z.url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 underline mr-3">
+                    {z.tytul} <ExternalLink className="w-3 h-3" />
+                  </a>
+                ))}
+              </p>
+            </div>
+          </details>
+        ))
+      )}
     </div>
   );
 }

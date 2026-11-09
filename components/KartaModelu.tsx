@@ -13,6 +13,8 @@ import BarList from '@/components/BarList';
 import YearChart from '@/components/YearChart';
 import EngineTable from '@/components/EngineTable';
 import { faqLpg, silnikiKarty } from '@/lib/silniki';
+import { ocenyKarty, faqOceny } from '@/lib/plusy-minusy';
+import PlusyMinusy from '@/components/PlusyMinusy';
 import YouTubeLazyEmbed from '@/components/YouTubeLazyEmbed';
 import InspectionChecklist from '@/components/InspectionChecklist';
 import Okruszki from '@/components/Okruszki';
@@ -137,7 +139,8 @@ export default function KartaModelu({ m }: { m: CarModel }) {
   // tabela silników z biblioteki technicznej (tylko silniki zatwierdzone w panelu) + pytanie o LPG
   const wierszeSilnikow = silnikiKarty(m);
   const lpg = faqLpg(wierszeSilnikow, `${m.marka} ${m.model}${m.generacja ? ` ${m.generacja}` : ''}`);
-  const pytania = [...faq(m, pokazModul('ubezpieczenia', k)), ...(sct ? [sct.faq] : []), ...(lpg ? [lpg] : [])];
+  const oceny = ocenyKarty(m);
+  const pytania = [...oceny.map(faqOceny), ...faq(m, pokazModul('ubezpieczenia', k)), ...(sct ? [sct.faq] : []), ...(lpg ? [lpg] : [])];
   const silnikiWspolne = tenSamSilnik(m);
   const kody = [m.slug, ...(m.generacjeLista || []).map((g) => g.slug)]
     .flatMap((s) => kodyDlaKarty(s, m.rodzic))
@@ -243,6 +246,9 @@ export default function KartaModelu({ m }: { m: CarModel }) {
     ...(m.usterki?.length
       ? [{ etykieta: 'Typowe usterki', wartosc: `${m.usterki.length} ${odmiana(m.usterki.length, 'opisana', 'opisane', 'opisanych')} – zobacz`, href: '#usterki' }]
       : []),
+    ...(oceny[0]
+      ? [{ etykieta: `Ocena: ${oceny[0].generacja}`, wartosc: `${oceny[0].zalety.length} zalet, ${oceny[0].wady.length} wad – zobacz`, href: '#plusy-minusy' }]
+      : []),
     ...(lpgDobrze.length
       ? [{ etykieta: 'Pod LPG', wartosc: `${lpgDobrze.length} ${odmiana(lpgDobrze.length, 'wersja dobrze znosi', 'wersje dobrze znoszą', 'wersji dobrze znosi')} gaz`, href: '#silniki', kolor: 'zielony' as const }]
       : []),
@@ -250,6 +256,7 @@ export default function KartaModelu({ m }: { m: CarModel }) {
   ];
   // przypięty spis treści – tylko sekcje, które na tej karcie są
   const spis: PozycjaSpisu[] = [
+    ...(oceny.length ? [{ id: 'plusy-minusy', nazwa: 'Plusy i minusy' }] : []),
     ...(opisAI || m.usterki?.length ? [{ id: 'usterki', nazwa: 'Usterki' }] : []),
     ...(m.silniki?.length ? [{ id: 'silniki', nazwa: 'Silniki' }] : []),
     ...(kody.length ? [{ id: 'kody', nazwa: 'Kody błędów' }] : []),
@@ -358,6 +365,10 @@ export default function KartaModelu({ m }: { m: CarModel }) {
       <SkrotNarzedzi k={k} adresZakupu={`${m.adres}zakup/`} />
 
       {reklamaGora && <AdSlot {...reklamaGora} className="hidden md:block" wysokosc={250} />}
+
+      <div id="plusy-minusy" className="scroll-mt-32 empty:hidden">
+        <PlusyMinusy oceny={oceny} m={m} />
+      </div>
 
       <div id="usterki" className="scroll-mt-32 empty:hidden">
       {/* Eksploatacja i usterki */}
