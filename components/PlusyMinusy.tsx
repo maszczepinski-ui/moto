@@ -57,12 +57,12 @@ export default function PlusyMinusy({ oceny, m }: { oceny: OcenaGeneracji[]; m: 
         return (
           <section key={o.id} aria-labelledby={`ocena-${o.id}`} className="space-y-5">
             <div className="space-y-1">
-              <h2 id={`ocena-${o.id}`} className="flex items-center gap-2 text-2xl font-bold text-slate-900 dark:text-white">
+              <h2 id={`ocena-${o.id}`} className="flex items-center gap-2 text-xl sm:text-2xl font-bold text-slate-900 dark:text-white">
                 <Scale className="w-6 h-6 text-steel-600 dark:text-steel-400" aria-hidden="true" />
                 Plusy i minusy: {o.generacja} ({o.lata})
               </h2>
               <p className="text-xs text-slate-500">
-                Ocena rzeczoznawcy moto-raport.pl na podstawie raportów ADAC, TÜV i akcji serwisowych · aktualizacja {new Date(o.aktualizacja).toLocaleDateString('pl-PL')}
+                Ocena redakcji moto-raport.pl na podstawie raportów ADAC, TÜV, akcji serwisowych i danych CEPiK · aktualizacja {new Date(o.aktualizacja).toLocaleDateString('pl-PL')}
               </p>
             </div>
 
