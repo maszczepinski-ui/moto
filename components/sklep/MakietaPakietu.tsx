@@ -56,7 +56,7 @@ export default function MakietaPakietu({ mala = false }: { mala?: boolean }) {
       </div>
       {/* znaczek z ceną/plikami */}
       <div className={`absolute -right-3 -bottom-3 rounded-full bg-amber-400 text-slate-900 font-black shadow-lg flex flex-col items-center justify-center leading-none ${mala ? 'w-16 h-16 text-xs' : 'w-20 h-20 text-sm'}`}>
-        <span className={mala ? 'text-lg' : 'text-2xl'}>6</span>
+        <span className={mala ? 'text-lg' : 'text-2xl'}>7</span>
         plików
       </div>
     </div>

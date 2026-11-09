@@ -8,6 +8,7 @@ import { odczytajNumer } from '@/lib/sklep/zamowienie';
 import { linkPobrania } from '@/lib/sklep/link';
 import { mailZakupu, wyslijMail } from '@/lib/sklep/mail';
 import { wystawFakture } from '@/lib/sklep/infakt';
+import { pierwszaObsluga, zapiszKupujacego, kalkulatorAktywny } from '@/lib/sklep/kalkulator';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -19,6 +20,9 @@ const obsluzone = new Set<string>();
 async function poOplaceniu(sessionId: string) {
   const numer = odczytajNumer(sessionId)!;
   const t = await znajdz(sessionId);
+  // gdy jest baza: zapamiętujemy obsłużone płatności – P24 może wysłać powiadomienie drugi raz (bez tego: podwójna faktura)
+  if (!(await pierwszaObsluga(sessionId))) return;
+  await zapiszKupujacego(t.clientEmail, sessionId).catch((e) => console.error('[sklep] zapis kupującego', e));
   const { url, wazneDo } = linkPobrania(sessionId);
   // najpierw mail z plikami – kupujący nie czeka na fakturę
   const m = mailZakupu({
@@ -29,7 +33,8 @@ async function poOplaceniu(sessionId: string) {
     wazneDo,
     czasZgod: numer.czasZgod,
     wersjaZgod: numer.wersjaZgod,
-    regulamin: `${ADRES_SKLEPU}regulamin/`
+    regulamin: `${ADRES_SKLEPU}regulamin/`,
+    kalkulator: kalkulatorAktywny() ? `${ADRES_SKLEPU}kalkulator/` : undefined
   });
   await wyslijMail(t.clientEmail, 'Twój Niezbędnik – link do pobrania', m.html, m.tekst);
   try {

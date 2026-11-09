@@ -3,8 +3,8 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
-  CheckCircle2, ClipboardCheck, FileSignature, FileText, Phone, Paintbrush, CalendarClock, ShieldCheck, Zap, Smartphone, Receipt,
-  ShoppingCart, Download, Car, XCircle, ArrowDown, AlertTriangle
+  CheckCircle2, ClipboardCheck, FileSignature, FileText, Phone, Paintbrush, CalendarClock, ShieldCheck, Users, Zap, Smartphone, Receipt,
+  ShoppingCart, Download, Car, XCircle, ArrowDown, AlertTriangle, Calculator
 } from 'lucide-react';
 import Okruszki from '@/components/Okruszki';
 import ZdjecieTla from '@/components/ZdjecieTla';
@@ -12,13 +12,14 @@ import FormularzZamowienia from '@/components/sklep/FormularzZamowienia';
 import MakietaPakietu from '@/components/sklep/MakietaPakietu';
 import { PRODUKT, sklepAktywny, zlotowki } from '@/lib/sklep/konfiguracja';
 import { udzialSprowadzonych } from '@/lib/infografiki';
+import { kalkulatorAktywny } from '@/lib/sklep/kalkulator';
 
 export const dynamic = 'force-dynamic';
 
 export function generateMetadata(): Metadata {
   return {
     title: 'Niezbędnik Bezpiecznego Zakupu Auta Używanego',
-    description: 'Komplet na oględziny używanego auta: check-lista na telefon, umowa kupna-sprzedaży z klauzulami dla kupującego, protokół odbioru i 15 pytań przez telefon. Pobierasz od razu po płatności.',
+    description: 'Komplet na oględziny używanego auta: check-lista na telefon, umowa kupna-sprzedaży z klauzulami dla kupującego, protokół odbioru, zgoda małżonka i 15 pytań przez telefon. Pobierasz od razu po płatności.',
     alternates: { canonical: '/niezbednik/' },
     robots: sklepAktywny() ? undefined : { index: false, follow: true }
   };
@@ -30,7 +31,8 @@ const ZAWARTOSC = [
   { ikona: Phone, tytul: '15 pytań przez telefon', opis: 'Co zapytać, zanim wyjedziesz z domu, i jakie odpowiedzi oznaczają handlarza albo problem.' },
   { ikona: FileText, tytul: 'Protokół zdawczo-odbiorczy', opis: 'Przebieg, klucze, opony, wyposażenie i uszkodzenia – podpisany przez obie strony.' },
   { ikona: Paintbrush, tytul: 'Ściąga: lakier i karoseria', opis: 'Jak mierzyć lakier i czytać różnice między elementami.' },
-  { ikona: CalendarClock, tytul: 'Formalności po zakupie', opis: 'Wszystkie terminy w jednym miejscu, z miejscem na daty.' }
+  { ikona: CalendarClock, tytul: 'Formalności po zakupie', opis: 'Wszystkie terminy w jednym miejscu, z miejscem na daty.' },
+  { ikona: Users, tytul: 'Zgoda małżonka lub oświadczenie o własności', opis: 'Załącznik do umowy na wypadek, gdy auto należy do majątku wspólnego – albo sprzedający twierdzi, że jest tylko jego.' }
 ];
 
 /** Porównanie: co jest za darmo na stronie, a co dodaje pakiet */
@@ -42,7 +44,8 @@ const POROWNANIE: [string, boolean, boolean][] = [
   ['Klauzula z karą umowną za zatajony wypadek lub cofnięty licznik', false, true],
   ['Protokół zdawczo-odbiorczy', false, true],
   ['15 pytań przez telefon z „dobrymi” i „złymi” odpowiedziami', false, true],
-  ['Ściąga: pomiar lakieru i terminy formalności', false, true]
+  ['Ściąga: pomiar lakieru i terminy formalności', false, true],
+  ['Zgoda małżonka / oświadczenie o wyłącznej własności auta', false, true]
 ];
 
 const STOPY = [
@@ -61,7 +64,15 @@ const PYTANIA = [
   { p: 'Czym to się różni od darmowej listy na stronie?', o: 'Darmowa lista to dobry start. Pakiet dodaje punkty STOP, umowę z oświadczeniami sprzedającego i klauzulą kary umownej, protokół odbioru oraz pytania do zadania przez telefon – czyli wszystko, co chroni Cię przy podpisaniu umowy.' }
 ];
 
+/** Dodatki pokazywane dopiero, gdy kalkulator jest uruchomiony (Upstash + dane w Vercelu) */
+const KALKULATOR = { ikona: Calculator, tytul: 'Bonus: kalkulator kosztów i negocjacji', opis: 'Na telefonie: ile wydasz po zakupie (podatek, rejestracja, serwis) i o ile zbić cenę za znalezione usterki – z gotową wiadomością do sprzedającego.' };
+const PYTANIE_KALK = { p: 'Jak działa kalkulator?', o: 'Po zakupie logujesz się na stronie kodem wysłanym na Twój e-mail. Kalkulator liczy koszty startowe (PCC, rejestracja, przegląd, serwis) i sugerowaną obniżkę ceny za usterki z oględzin. Działa na 3 urządzeniach i pamięta ostatnie dane, gdy stracisz zasięg.' };
+
 export default function NiezbednikPage() {
+  const kalk = kalkulatorAktywny();
+  const zawartosc = kalk ? [...ZAWARTOSC, KALKULATOR] : ZAWARTOSC;
+  const pytania = kalk ? [...PYTANIA, PYTANIE_KALK] : PYTANIA;
+  const porownanie: [string, boolean, boolean][] = kalk ? [...POROWNANIE, ['Kalkulator kosztów startowych i argumentów do negocjacji', false, true]] : POROWNANIE;
   const cena = zlotowki(PRODUKT.cenaGr);
   const aktywny = sklepAktywny();
   const sprowadzone = Math.round(udzialSprowadzonych() * 100);
@@ -127,7 +138,7 @@ export default function NiezbednikPage() {
             [`${sprowadzone}%`, 'aut w Polsce to auta sprowadzone jako używane (CEPiK)'],
             ['10 etapów', 'oględzin – od ogłoszenia po podpis umowy'],
             ['15 pytań', 'przez telefon, zanim stracisz dzień na dojazd'],
-            ['6 plików', 'PDF i Word – drukujesz albo wypełniasz na telefonie']
+            ['7 plików', 'PDF i Word – drukujesz albo wypełniasz na telefonie']
           ].map(([l, o]) => (
             <div key={l}>
               <p className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white">{l}</p>
@@ -143,7 +154,7 @@ export default function NiezbednikPage() {
           <section id="co-w-srodku" className="space-y-5 scroll-mt-24">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">Co dostajesz w pakiecie</h2>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {ZAWARTOSC.map((z, i) => (
+              {zawartosc.map((z, i) => (
                 <li key={z.tytul} className="relative bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 hover:shadow-md hover:border-steel-300 transition">
                   <span className="absolute top-4 right-4 text-xs font-black text-slate-300 dark:text-slate-700">0{i + 1}</span>
                   <span className="inline-flex w-11 h-11 items-center justify-center rounded-xl bg-steel-50 dark:bg-slate-800 text-steel-700 dark:text-steel-300">
@@ -203,7 +214,7 @@ export default function NiezbednikPage() {
                   </tr>
                 </thead>
                 <tbody>
-                  {POROWNANIE.map(([t, d, p]) => (
+                  {porownanie.map(([t, d, p]) => (
                     <tr key={t} className="border-t border-slate-100 dark:border-slate-800">
                       <td className="p-3 text-slate-800 dark:text-slate-200">{t}</td>
                       <td className="p-3 text-center">
@@ -250,7 +261,7 @@ export default function NiezbednikPage() {
           <section className="space-y-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">Najczęstsze pytania</h2>
             <div className="divide-y divide-slate-200 dark:divide-slate-800 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
-              {PYTANIA.map((q) => (
+              {pytania.map((q) => (
                 <details key={q.p} className="group p-4">
                   <summary className="flex justify-between gap-3 cursor-pointer list-none [&::-webkit-details-marker]:hidden font-semibold text-slate-900 dark:text-white">
                     {q.p}
@@ -284,7 +295,7 @@ export default function NiezbednikPage() {
       {/* pasek z przyciskiem na telefonie */}
       <div className="lg:hidden fixed inset-x-0 bottom-0 z-40 bg-white/95 dark:bg-slate-950/95 backdrop-blur border-t border-slate-200 dark:border-slate-800 px-4 py-3 flex items-center gap-3 print:hidden">
         <div className="flex-1 min-w-0">
-          <p className="text-xs text-slate-500 truncate">Niezbędnik · 6 plików</p>
+          <p className="text-xs text-slate-500 truncate">Niezbędnik · 7 plików</p>
           <p className="font-black text-slate-900 dark:text-white">{cena}</p>
         </div>
         <a href="#zamow" className="rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold px-5 py-3 text-sm">
