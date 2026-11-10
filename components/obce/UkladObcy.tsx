@@ -1,7 +1,8 @@
 // Wspólny układ stron /uk/ i /en/: własny <html lang>, nagłówek, stopka i baner cookies w danym języku.
 import type { Metadata, Viewport } from 'next';
 import Link from 'next/link';
-import { MapPinned, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
+import LogoMarka from '@/components/LogoMarka';
 import { site } from '@/config/site';
 import { marka } from '@/lib/panel';
 import { META, PORADNIKI_ADRES, SLOWNIK, type JezykObcy } from '@/lib/jezyki';
@@ -48,17 +49,19 @@ export default function UkladObcy({ j, children }: { j: JezykObcy; children: Rea
         </a>
         <header className="sticky top-0 z-50 bg-white/95 dark:bg-slate-900/95 backdrop-blur border-b border-slate-200 dark:border-slate-800">
           <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between gap-3">
-            <Link href={glowna} className="flex items-center gap-2 min-w-0" aria-label={`${site.name} – ${t.stronaGlowna}`}>
+            <Link href={glowna} className="flex items-center gap-2 min-w-0 group" aria-label={`${site.name} – ${t.stronaGlowna}`}>
               {m.logo ? (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={m.logo} alt="" className="h-8 sm:h-9 w-auto max-w-[150px] object-contain flex-shrink-0" />
+                <>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={m.logo} alt="" className="h-8 sm:h-9 w-auto max-w-[150px] object-contain flex-shrink-0" />
+                  <span className="flex flex-col min-w-0">
+                    <span className="font-bold text-slate-900 dark:text-white leading-tight">{site.name}</span>
+                    <span className="hidden md:block text-[11px] font-semibold text-rust-600 dark:text-rust-500 tracking-wide truncate">{t.hasloStrony}</span>
+                  </span>
+                </>
               ) : (
-                <MapPinned className="w-7 h-7 flex-shrink-0 text-steel-600 dark:text-steel-400" aria-hidden="true" />
+                <LogoMarka />
               )}
-              <span className="flex flex-col min-w-0">
-                <span className="font-bold text-slate-900 dark:text-white leading-tight">{site.name}</span>
-                <span className="hidden md:block text-[11px] font-semibold text-rust-600 dark:text-rust-500 tracking-wide truncate">{t.hasloStrony}</span>
-              </span>
             </Link>
             <div className="flex items-center gap-4">
               <nav aria-label={t.stronaGlowna} className="hidden sm:flex items-center gap-4 text-sm font-semibold text-slate-700 dark:text-slate-200">

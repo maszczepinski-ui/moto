@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import { MapPinned } from 'lucide-react';
 import { site } from '@/config/site';
 import { menuGlowne } from '@/lib/menu';
 import MenuGlowne from '@/components/MenuGlowne';
 import { marka } from '@/lib/panel';
+import LogoMarka from '@/components/LogoMarka';
 import PrzelacznikJezyka from '@/components/obce/PrzelacznikJezyka';
 import { wszystkieOdpowiedniki } from '@/lib/tlumaczenia';
 
@@ -25,12 +25,15 @@ export default function Navbar() {
               )}
             </>
           ) : (
-            <MapPinned className="w-7 h-7 flex-shrink-0 text-steel-600 dark:text-steel-400 group-hover:scale-105 transition-transform" aria-hidden="true" />
+            // Domyślne logo: ikona + napis „moto–raport” (components/LogoMarka.tsx)
+            <LogoMarka />
           )}
-          <div className={`flex flex-col min-w-0 ${m.logo ? (m.logoTryb === 'zamiast' ? 'sr-only' : 'max-sm:sr-only') : ''}`}>
-            <span className="font-bold text-slate-900 dark:text-white leading-tight">{site.name}</span>
-            <span className="hidden md:block xl:hidden text-[11px] font-semibold text-rust-600 dark:text-rust-500 tracking-wide truncate">{site.tagline}</span>
-          </div>
+          {m.logo && (
+            <div className={`flex flex-col min-w-0 ${m.logoTryb === 'zamiast' ? 'sr-only' : 'max-sm:sr-only'}`}>
+              <span className="font-bold text-slate-900 dark:text-white leading-tight">{site.name}</span>
+              <span className="hidden md:block xl:hidden text-[11px] font-semibold text-rust-600 dark:text-rust-500 tracking-wide truncate">{site.tagline}</span>
+            </div>
+          )}
         </Link>
         <div className="flex items-center gap-3">
           <div className="hidden sm:block">
