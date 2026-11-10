@@ -7,7 +7,7 @@ import { ApiPelne, input, etykieta, karta, przyciskG, przyciskD, czytajJson, zap
 type Pozycja = { marka: string; model: string; problem: string; zalecenie: string; produkcja?: string; kodAkcji?: string; poziom?: string; kraj?: string; link: string; karta?: string };
 type Wpis = {
   slug: string;
-  typ: 'akcje-serwisowe' | 'komunikaty' | 'premiery';
+  typ: 'akcje-serwisowe' | 'komunikaty' | 'premiery' | 'jakie-auto';
   tytul: string;
   lead: string;
   data: string;
@@ -27,8 +27,8 @@ type Plik = { wpis: Wpis; sha: string };
 type Raport = { data: string; ai: boolean; zrodla: { nazwa: string; ok: boolean; nowe: number; szkice: number; blad?: string }[] };
 
 const WORKFLOW = 'aktualnosci.yml';
-const NAZWY = { 'akcje-serwisowe': 'Akcja serwisowa', komunikaty: 'Komunikat', premiery: 'Premiera' } as const;
-const KOLORY = { 'akcje-serwisowe': 'bg-amber-100 text-amber-900', komunikaty: 'bg-sky-100 text-sky-900', premiery: 'bg-violet-100 text-violet-900' } as const;
+const NAZWY = { 'akcje-serwisowe': 'Akcja serwisowa', komunikaty: 'Komunikat', premiery: 'Premiera', 'jakie-auto': 'Poradnik zakupowy' } as const;
+const KOLORY = { 'akcje-serwisowe': 'bg-amber-100 text-amber-900', komunikaty: 'bg-sky-100 text-sky-900', premiery: 'bg-violet-100 text-violet-900', 'jakie-auto': 'bg-emerald-100 text-emerald-900' } as const;
 
 export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: string }) {
   const [pliki, setPliki] = useState<Plik[] | null>(null);

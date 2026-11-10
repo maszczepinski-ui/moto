@@ -11,6 +11,7 @@ import { ArtykulMarkdown, type AutoLink } from '@/lib/markdown';
 import { fmt, formatDate } from '@/lib/format';
 import { site } from '@/config/site';
 import { bezpiecznyJson, bezpiecznyUrl } from '@/lib/bezpieczenstwo';
+import TrescZakupowa, { jsonLdZakupowy } from '@/components/aktualnosci/PoradnikZakupowy';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -36,11 +37,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const a = aktualnoscPoSlugu(slug);
   if (!a) return { robots: { index: false } };
   return {
-    title: a.tytul,
+    title: a.seoTytul || a.tytul,
     description: a.lead,
     alternates: { canonical: `/aktualnosci/${a.slug}/` },
     robots: { index: true, follow: true, 'max-image-preview': 'large' },
-    openGraph: { type: 'article', url: `/aktualnosci/${a.slug}/`, title: a.tytul, description: a.lead, publishedTime: a.data, siteName: site.name, locale: 'pl_PL' }
+    openGraph: {
+      type: 'article',
+      url: `/aktualnosci/${a.slug}/`,
+      title: a.tytul,
+      description: a.lead,
+      publishedTime: a.data,
+      ...(a.zakupowy ? { modifiedTime: a.zakupowy.cenySprawdzone } : {}),
+      siteName: site.name,
+      locale: 'pl_PL'
+    }
   };
 }
 
@@ -150,11 +160,12 @@ function Wpis({ a }: { a: Aktualnosc }) {
   const adres = `${site.url}/aktualnosci/${a.slug}/`;
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'NewsArticle',
+    // poradnik zakupowy to stały artykuł (aktualizowany), a nie wiadomość
+    '@type': a.zakupowy ? 'Article' : 'NewsArticle',
     headline: a.tytul,
     description: a.lead,
     datePublished: a.data,
-    dateModified: a.data,
+    dateModified: a.zakupowy?.cenySprawdzone || a.data,
     inLanguage: 'pl-PL',
     mainEntityOfPage: adres,
     author: { '@type': 'Person', name: site.author, url: site.youtubeChannelUrl },
@@ -197,7 +208,11 @@ function Wpis({ a }: { a: Aktualnosc }) {
         </figure>
       )}
 
-      <ArtykulMarkdown tekst={a.tresc} linki={linki} />
+      {a.zakupowy ? (
+        <TrescZakupowa a={a} wstep={a.tresc.trim() ? <ArtykulMarkdown tekst={a.tresc} linki={linki} /> : null} />
+      ) : (
+        <ArtykulMarkdown tekst={a.tresc} linki={linki} />
+      )}
 
       <Pozycje a={a} />
 
@@ -232,7 +247,9 @@ function Wpis({ a }: { a: Aktualnosc }) {
           })}
         </ul>
         <p className="text-slate-500">
-          {a.typ === 'premiery'
+          {a.typ === 'jakie-auto'
+            ? 'Ocena redakcji MotoRaport. Ceny pochodzą z ogłoszeń i z czasem się zmieniają – przed zakupem sprawdź aktualne oferty. Spalanie: średnie zgłaszane przez kierowców.'
+            : a.typ === 'premiery'
             ? 'Tekst redakcyjny MotoRaport napisany na podstawie informacji prasowej producenta.'
             : a.typ === 'akcje-serwisowe'
               ? 'Dane: Komisja Europejska, system Safety Gate. Opracowanie i tłumaczenie: MotoRaport.'
@@ -253,6 +270,11 @@ function Wpis({ a }: { a: Aktualnosc }) {
         </section>
       )}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
+      {a.zakupowy &&
+        jsonLdZakupowy(a, adres, (s) => {
+          const m = getModelBySlug(s);
+          return m ? `${site.url}${m.adres}` : undefined;
+        }).map((j, i) => <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(j) }} />)}
     </article>
   );
 }

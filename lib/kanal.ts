@@ -20,6 +20,7 @@ export function kanalDla(karta: string): string {
   // wersje językowe: osobny kanał, żeby widzieć ruch z /uk/ i /en/ (np. „uk-sprawdz-vin”, „en-poradnik”)
   const obcy = karta.match(/^(uk|en)-(.+)$/);
   if (obcy) return `${obcy[1]}-${kanalDla(obcy[2])}`;
+  if (karta.startsWith('jakie-auto')) return 'poradnik-zakupowy';
   if (karta.startsWith('poradnik')) return 'poradnik';
   if (karta === 'linki') return 'linki';
   return 'karta-modelu';

@@ -16,7 +16,7 @@ export function generateStaticParams() {
   return [...(Object.keys(TYPY) as TypAktualnosci[]).map((t) => ({ slug: t })), ...opublikowaneAktualnosci().map((a) => ({ slug: a.slug }))];
 }
 
-const KOLOR: Record<TypAktualnosci, string> = { 'akcje-serwisowe': '#fbbf24', komunikaty: '#38bdf8', premiery: '#a78bfa' };
+const KOLOR: Record<TypAktualnosci, string> = { 'akcje-serwisowe': '#fbbf24', komunikaty: '#38bdf8', premiery: '#a78bfa', 'jakie-auto': '#34d399' };
 
 function zdjecieBase64(adres: string): string {
   try {

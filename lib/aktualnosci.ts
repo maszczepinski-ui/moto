@@ -4,7 +4,54 @@
 import fs from 'fs';
 import path from 'path';
 
-export type TypAktualnosci = 'akcje-serwisowe' | 'komunikaty' | 'premiery';
+export type TypAktualnosci = 'akcje-serwisowe' | 'komunikaty' | 'premiery' | 'jakie-auto';
+
+/** Jedno auto polecane w poradniku zakupowym („Sportowe auto do 20 000 zł” itd.) */
+export interface AutoZakupowe {
+  /** slug karty modelu w atlasie – z niej bierzemy link i liczbę aut w Polsce */
+  karta?: string;
+  /** np. „Mazda MX-5” */
+  nazwa: string;
+  /** np. „II (NB) i III (NC)” */
+  generacja: string;
+  /** roczniki, które realnie mieszczą się w budżecie, np. „1998–2008” */
+  roczniki: string;
+  /** widełki z ogłoszeń, np. „12 500–20 000 zł” */
+  cena: string;
+  /** typowy przebieg w ogłoszeniach, np. „125–230 tys. km” */
+  przebieg?: string;
+  /** ile ofert w budżecie było przy sprawdzaniu (Otomoto) */
+  ofert?: number;
+  /** mało ofert w całej Polsce – trudno znaleźć */
+  rzadki?: boolean;
+  /** 1–2 zdania: dla kogo to auto */
+  dlaKogo: string;
+  /** np. „8,5–9,0 l/100 km” – realne spalanie od kierowców */
+  spalanie: string;
+  spalanieZrodlo?: { nazwa: string; url: string };
+  silniki: { nazwa: string; ocena: 'polecany' | 'warunkowo' | 'omijaj'; opis: string }[];
+  plusy: string[];
+  minusy: string[];
+  /** link do wyszukiwania ogłoszeń (model + cena do budżetu) */
+  ogloszenia?: string;
+}
+
+/** Dodatkowe dane wpisu typu „jakie-auto” (poradnik zakupowy) */
+export interface PoradnikZakupowy {
+  /** główna fraza, pod którą piszemy wpis, np. „sportowe auto do 20 000 zł” */
+  fraza: string;
+  budzet: number;
+  /** kiedy sprawdzaliśmy ceny w ogłoszeniach (RRRR-MM-DD) */
+  cenySprawdzone: string;
+  /** 2–3 zdania – odpowiedź na start */
+  odpowiedz: string;
+  auta: AutoZakupowe[];
+  /** typowe pułapki w tym budżecie */
+  pulapki: string[];
+  faq: { pytanie: string; odpowiedz: string }[];
+  /** sąsiednie poradniki (inna kwota, inne nadwozie) */
+  powiazane?: { tytul: string; adres: string }[];
+}
 
 export interface PozycjaAkcji {
   marka: string;
@@ -59,6 +106,10 @@ export interface Aktualnosc {
   /** własne zdjęcie (wgrane w panelu) – pliki w public/aktualnosci/ */
   zdjecie?: ZdjecieAktualnosci;
   status: 'szkic' | 'opublikowany';
+  /** krótszy tytuł do Google (ok. 48 znaków) – gdy pełny tytuł jest dłuższy */
+  seoTytul?: string;
+  /** tylko poradniki zakupowe */
+  zakupowy?: PoradnikZakupowy;
   wygenerowano?: string;
   /** szkic bez tekstu od modelu językowego (brak klucza) – wymaga uzupełnienia */
   bezAI?: boolean;
@@ -85,6 +136,13 @@ export const TYPY: Record<TypAktualnosci, { nazwa: string; krotko: string; opis:
     opis: 'Nowe modele, wersje i ceny w Polsce – na podstawie materiałów prasowych producentów.',
     seoTytul: 'Premiery samochodów – nowe modele i ceny',
     seoOpis: 'Premiery samochodów i nowości na polskim rynku: nowe modele, wersje, ceny i wyposażenie – na podstawie informacji prasowych producentów.'
+  },
+  'jakie-auto': {
+    nazwa: 'Poradniki zakupowe',
+    krotko: 'Poradnik zakupowy',
+    opis: 'Jakie używane auto kupić za konkretną kwotę – modele sprawdzone w polskich ogłoszeniach, spalanie, polecane silniki, plusy i minusy.',
+    seoTytul: 'Jakie auto kupić? Poradniki zakupowe',
+    seoOpis: 'Jakie używane auto kupić za 10, 20 czy 30 tysięcy zł? Modele z realnymi cenami z polskich ogłoszeń, spalanie, polecane silniki oraz plusy i minusy.'
   }
 };
 

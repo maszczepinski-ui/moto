@@ -12,7 +12,7 @@ const nazwaAuta = (k: KontekstKarty) => `${k.marka} ${k.model} ${k.generacja || 
 /** Co zawiera raport carVertical – według opisu na carvertical.com/pl (listopad 2026) */
 const RAPORT_CARVERTICAL = ['historia przebiegu i cofnięte liczniki', 'historia uszkodzeń i koszty napraw', 'zdjęcia auta z przeszłości', 'cena rynkowa', 'specyfikacja i wyposażenie', 'oceny bezpieczeństwa'];
 
-function Vin({ k }: { k: KontekstKarty }) {
+export function Vin({ k, tytul }: { k: KontekstKarty; tytul?: string }) {
   const v = panelDane.moduly?.vin;
   const cv = v?.partner === 'carvertical';
   const auto = k.marka ? nazwaAuta(k) : '';
@@ -21,7 +21,7 @@ function Vin({ k }: { k: KontekstKarty }) {
       <FileSearch className="absolute -right-6 -bottom-6 w-40 h-40 text-white/5" aria-hidden="true" />
       <span className="self-start text-[11px] font-bold uppercase tracking-wider bg-white/15 rounded-full px-2.5 py-1">{cv ? 'Kompleksowe sprawdzenie auta' : 'Przed zakupem'}</span>
       <h2 className="flex items-start gap-2 text-xl sm:text-2xl font-extrabold">
-        <FileSearch className="w-6 h-6 flex-shrink-0 mt-0.5" aria-hidden="true" /> {cv ? `Raport carVertical${auto ? ` dla ${auto}` : ''}` : 'Sprawdź historię auta po VIN'}
+        <FileSearch className="w-6 h-6 flex-shrink-0 mt-0.5" aria-hidden="true" /> {tytul || (cv ? `Raport carVertical${auto ? ` dla ${auto}` : ''}` : 'Sprawdź historię auta po VIN')}
       </h2>
       {cv ? (
         <>
@@ -54,7 +54,7 @@ function Vin({ k }: { k: KontekstKarty }) {
   );
 }
 
-function Ubezpieczenia({ k }: { k: KontekstKarty }) {
+export function Ubezpieczenia({ k, tytul }: { k: KontekstKarty; tytul?: string }) {
   const przyciski = (
     [
       ['oc', 'Oblicz OC'],
@@ -70,7 +70,7 @@ function Ubezpieczenia({ k }: { k: KontekstKarty }) {
         Ubezpieczenie
       </span>
       <h2 className="flex items-start gap-2 text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">
-        <ShieldCheck className="w-6 h-6 flex-shrink-0 mt-0.5 text-sky-600" aria-hidden="true" /> Oblicz OC/AC dla {`${k.model} ${k.generacja || ''}`.trim()}
+        <ShieldCheck className="w-6 h-6 flex-shrink-0 mt-0.5 text-sky-600" aria-hidden="true" /> {tytul || `Oblicz OC/AC dla ${`${k.model} ${k.generacja || ''}`.trim()}`}
       </h2>
       <p className="text-sm text-slate-600 dark:text-slate-400">Ta sama polisa dla tego samego auta potrafi różnić się ceną o kilkaset złotych. Porównaj oferty wielu ubezpieczycieli naraz.</p>
       <ul className="text-sm text-slate-700 dark:text-slate-300 space-y-1">
