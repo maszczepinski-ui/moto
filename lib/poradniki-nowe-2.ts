@@ -414,6 +414,12 @@ export const NOWE_2: Poradnik[] = [
           },
           {
             typ: 'link',
+            t: 'Jak dobrać i naładować akumulator',
+            o: 'Ah i prąd rozruchowy, AGM czy EFB, pomiary multimetrem i ładowanie prostownikiem.',
+            href: '/poradniki/akumulator-samochodowy-jak-dobrac-i-naladowac/'
+          },
+          {
+            typ: 'link',
             t: 'Zima w samochodzie – co trzeba wiedzieć',
             o: 'Odśnieżanie, mandaty, płyn do spryskiwaczy i co wozić w bagażniku.',
             href: '/poradniki/zima-w-samochodzie/'
@@ -427,7 +433,7 @@ export const NOWE_2: Poradnik[] = [
       { q: 'Ile trzeba jeździć po odpaleniu z kabli?', a: 'Co najmniej 20–30 minut, najlepiej w trasie. Krótka jazda po mieście nie naładuje akumulatora.' },
       { q: 'Czy mogę odpalać z kabli auto hybrydowe lub elektryczne?', a: 'Tylko według instrukcji producenta. W wielu hybrydach jest specjalny punkt do podłączenia kabli, a niektóre auta nie mogą służyć jako dawca prądu.' }
     ],
-    powiazane: ['zima-w-samochodzie', 'kontrolki-w-samochodzie', 'awaria-na-autostradzie'],
+    powiazane: ['akumulator-samochodowy-jak-dobrac-i-naladowac', 'zima-w-samochodzie', 'kontrolki-w-samochodzie', 'awaria-na-autostradzie'],
     zrodla: [Z.kable]
   },
 
