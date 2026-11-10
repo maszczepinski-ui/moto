@@ -6,7 +6,7 @@ import Link from 'next/link';
 import {
   AlertTriangle, ArrowDown, CalendarClock, CheckCircle2, ClipboardCheck, FileSignature, FileText, Gavel, Lock, Mail, Scale, ShieldCheck, Smartphone, Table2, Zap
 } from 'lucide-react';
-import MakietaSzkody from '@/components/szkoda/MakietaSzkody';
+import TelefonSprawdzacza from '@/components/szkoda/TelefonSprawdzacza';
 import Okruszki from '@/components/Okruszki';
 import ZdjecieTla from '@/components/ZdjecieTla';
 import FormularzZamowienia from '@/components/sklep/FormularzZamowienia';
@@ -125,7 +125,7 @@ export default function PoSzkodziePage() {
             </ul>
           </div>
           <div className="py-6">
-            <MakietaSzkody />
+            <TelefonSprawdzacza />
           </div>
           </div>
         </div>
