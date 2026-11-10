@@ -2,7 +2,7 @@ import type React from 'react';
 import Link from 'next/link';
 import { ExternalLink, Fuel, Gauge, ThumbsUp, ThumbsDown, Car, Search, AlertTriangle, CircleCheck, CircleAlert, CircleX, ArrowRight } from 'lucide-react';
 import type { Aktualnosc, AutoZakupowe, PoradnikZakupowy } from '@/lib/aktualnosci';
-import { bezLamania } from '@/lib/aktualnosci';
+import { bezLamania, aktualnoscPoSlugu } from '@/lib/aktualnosci';
 import { getModelBySlug } from '@/lib/models';
 import { fmt, formatDate } from '@/lib/format';
 import { bezpiecznyUrl } from '@/lib/bezpieczenstwo';
@@ -15,7 +15,7 @@ import { Vin, Ubezpieczenia } from '@/components/Monetyzacja';
 
 /** id kotwicy dla modelu, np. „mazda-mx-5” */
 const kotwica = (a: AutoZakupowe) =>
-  a.nazwa
+  `${a.nazwa} ${a.generacja.split(' ')[0]}`
     .toLowerCase()
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
@@ -45,13 +45,13 @@ function TabelaWyboru({ z }: { z: PoradnikZakupowy }) {
           {z.auta.map((a) => {
             const polecany = a.silniki.find((s) => s.ocena === 'polecany') || a.silniki[0];
             return (
-              <tr key={a.nazwa} className="border-b border-slate-100 dark:border-slate-800/70 align-top">
+              <tr key={kotwica(a)} className="border-b border-slate-100 dark:border-slate-800/70 align-top">
                 <td className="py-3 pl-4 sm:pl-0 pr-3">
                   <a href={`#${kotwica(a)}`} className="font-bold text-slate-900 dark:text-white underline decoration-slate-300 underline-offset-2">
                     {a.nazwa}
                   </a>
                   <span className="block text-xs text-slate-500">
-                    {a.generacja} · {a.roczniki}
+                    {[a.generacja, a.roczniki].filter(Boolean).join(' · ')}
                   </span>
                 </td>
                 <td className="py-3 pr-3">{bezLamania(a.cena.replace(/\s*\(.*\)\s*$/, ''))}</td>
@@ -77,7 +77,7 @@ function BlokAuta({ a, nr, budzet }: { a: AutoZakupowe; nr: number; budzet: numb
           {nr}. {a.rzadki ? 'rzadki – trudno znaleźć' : `do ${fmt(budzet)} zł`}
         </span>
         <h3 id={`${kotwica(a)}-h`} className="text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white">
-          {a.nazwa} {a.generacja} ({a.roczniki})
+          {[a.nazwa, a.generacja].filter(Boolean).join(' ')} ({a.roczniki})
         </h3>
         <p className="text-slate-700 dark:text-slate-300">{a.dlaKogo}</p>
       </div>
@@ -175,6 +175,11 @@ export default function TrescZakupowa({ a, wstep }: { a: Aktualnosc; wstep?: Rea
   const k: KontekstKarty = { slug: `jakie-auto-${a.slug}`, marka: '', model: '' };
   const pokazOc = pokazModul('ubezpieczenia', k);
   const pokazVin = pokazModul('vin', k);
+  // linki do sąsiednich poradników – tylko do już opublikowanych (szkic dałby błąd 404)
+  const powiazane = (z.powiazane || []).filter((p) => {
+    const m = p.adres.match(/^\/aktualnosci\/([^/]+)\/$/);
+    return !m || !!aktualnoscPoSlugu(m[1]);
+  });
   return (
     <div className="space-y-8">
       <div className="rounded-3xl bg-emerald-50 dark:bg-emerald-950/30 ring-1 ring-emerald-200 dark:ring-emerald-900 p-5 space-y-2 text-emerald-950 dark:text-emerald-50">
@@ -199,7 +204,7 @@ export default function TrescZakupowa({ a, wstep }: { a: Aktualnosc; wstep?: Rea
           {bezLamania(`Polecane modele – ${z.fraza}`)}
         </h2>
         {z.auta.map((x, i) => (
-          <BlokAuta key={x.nazwa} a={x} nr={i + 1} budzet={z.budzet} />
+          <BlokAuta key={kotwica(x)} a={x} nr={i + 1} budzet={z.budzet} />
         ))}
       </section>
 
@@ -241,13 +246,13 @@ export default function TrescZakupowa({ a, wstep }: { a: Aktualnosc; wstep?: Rea
         </section>
       )}
 
-      {z.powiazane && z.powiazane.length > 0 && (
+      {powiazane.length > 0 && (
         <section aria-labelledby="powiazane" className="space-y-3">
           <h2 id="powiazane" className="text-xl font-extrabold text-slate-900 dark:text-white">
             Inny budżet albo inne auto?
           </h2>
           <ul className="flex flex-wrap gap-2">
-            {z.powiazane.map((p) => (
+            {powiazane.map((p) => (
               <li key={p.adres}>
                 <Link href={p.adres} className="inline-flex items-center gap-1 rounded-full ring-1 ring-slate-200 dark:ring-slate-800 px-4 py-2 text-sm font-bold text-slate-800 dark:text-slate-200 hover:ring-slate-400">
                   {p.tytul} <ArrowRight className="w-4 h-4" aria-hidden="true" />
@@ -272,7 +277,7 @@ export function jsonLdZakupowy(a: Aktualnosc, adres: string, adresKarty: (slug: 
       itemListElement: z.auta.map((x, i) => ({
         '@type': 'ListItem',
         position: i + 1,
-        name: `${x.nazwa} ${x.generacja}`,
+        name: [x.nazwa, x.generacja].filter(Boolean).join(' '),
         url: x.karta && adresKarty(x.karta) ? adresKarty(x.karta) : `${adres}#${kotwica(x)}`
       }))
     },
