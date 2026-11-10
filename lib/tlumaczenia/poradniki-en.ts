@@ -566,7 +566,7 @@ export const PORADNIKI_EN: Tlumaczenie[] = [
     seoTytul: 'Importing a car to Poland – excise, registration',
     seoOpis: 'How to import a car from Germany or the EU to Poland: excise 3.1% or 18.6% (declaration within 14 days), translations, inspection and registration within 30 days.',
     skrot: [
-      'Declare excise within 14 days of purchase: 3.1% for engines up to 2.0 l, 18.6% above, less for hybrids, 0% for EVs.',
+      'Declare excise within 14 days and pay it within 30 days of bringing the car into Poland: 3.1% for engines up to 2.0 l, 18.6% above, less for hybrids, 0% for EVs.',
       'To register you need sworn translations, proof of excise payment and a Polish roadworthiness test.',
       'You have 30 days from bringing the car into Poland to register it – being late costs 500 zł.'
     ],
@@ -620,7 +620,7 @@ export const PORADNIKI_EN: Tlumaczenie[] = [
           },
           {
             typ: 'p',
-            t: 'Excise is calculated on the car’s market value, converted into złoty at the average NBP exchange rate on the day of purchase. Hybrids from 2,001 to 3,500 cm³ pay 9.3%, and plug-in hybrids up to 2,000 cm³ are exempt until the end of 2029. You file the AKC-U/S declaration within 14 days of purchase – most easily via the PUESC portal – and pay the tax to the tax office. Proof of payment (with the VIN) is needed for registration.'
+            t: 'Excise is calculated on the price you paid (the tax office may use the market value if the price looks too low), converted into złoty at the average NBP exchange rate. Hybrids from 2,001 to 3,500 cm³ pay 9.3%, and plug-in hybrids up to 2,000 cm³ are exempt until the end of 2029. You file the AKC-U/S declaration within 14 days and pay the tax within 30 days – usually counted from the day the car entered Poland, and always no later than registration. The PUESC portal is the easiest way to file. Proof of payment (with the VIN) is needed for registration.'
           },
           {
             typ: 'uwaga',

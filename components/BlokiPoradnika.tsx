@@ -1,7 +1,8 @@
 // Bloki treści poradnika (akapit, lista, kroki, ramka, liczby, link) – wspólne dla wersji polskiej i tłumaczeń.
 import Link from 'next/link';
-import { ArrowRight, Info, TriangleAlert } from 'lucide-react';
-import type { Blok, KategoriaPoradnika } from '@/lib/poradniki';
+import { ArrowRight, Info, TriangleAlert, ExternalLink } from 'lucide-react';
+import type { Blok, KategoriaPoradnika, ProduktPolecany } from '@/lib/poradniki';
+import LinkPartnerski from '@/components/LinkPartnerski';
 import { AKCENT } from '@/lib/poradniki-wyglad';
 
 type Props = {
@@ -12,9 +13,13 @@ type Props = {
   etykiety: { uwaga: string; dobrzeWiedziec: string };
   /** dokąd prowadzi link wewnętrzny; null = nie pokazuj; dopisek = np. „(po polsku)” */
   link: (href: string) => { href: string; dopisek?: string } | null;
+  /** link partnerski dla polecanego produktu (tylko strona polska); brak = bez przycisków */
+  produkt?: (p: ProduktPolecany) => { url: string; partner: string } | null;
+  /** identyfikator strony do pomiaru kliknięć, np. poradnik-sprowadzenie-auta */
+  karta?: string;
 };
 
-export default function BlokiPoradnika({ bloki, kat, typo, etykiety, link }: Props) {
+export default function BlokiPoradnika({ bloki, kat, typo, etykiety, link, produkt, karta = 'poradnik' }: Props) {
   return (
     <>
       {bloki.map((b, i) => {
@@ -93,6 +98,89 @@ export default function BlokiPoradnika({ bloki, kat, typo, etykiety, link }: Pro
                   </div>
                 </div>
               ))}
+            </div>
+          );
+        if (b.typ === 'tabela')
+          return (
+            <figure key={i} className="not-prose">
+              {/* telefon: każdy wiersz jako karta */}
+              <div className="sm:hidden space-y-3">
+                {b.wiersze.map((w, n) => (
+                  <dl key={n} className="rounded-2xl bg-white dark:bg-slate-900 ring-1 ring-slate-200 dark:ring-slate-800 p-4 space-y-2">
+                    <dt className="sr-only">{typo(b.naglowki[0])}</dt>
+                    <dd className="font-extrabold text-slate-900 dark:text-white leading-snug">{typo(w[0])}</dd>
+                    {w.slice(1).map((c, j) => (
+                      <div key={j} className="text-[0.95rem] leading-6">
+                        <dt className="text-[11px] font-bold uppercase tracking-wider text-slate-500">{typo(b.naglowki[j + 1] || '')}</dt>
+                        <dd className="text-slate-700 dark:text-slate-300">{typo(c)}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                ))}
+              </div>
+              {/* komputer i tablet: zwykła tabela */}
+              <div className="hidden sm:block overflow-x-auto">
+                <table className="w-full text-sm text-left rounded-2xl overflow-hidden ring-1 ring-slate-200 dark:ring-slate-800 bg-white dark:bg-slate-900">
+                  <thead className="bg-slate-50 dark:bg-slate-800/60 text-xs uppercase tracking-wider text-slate-500">
+                    <tr>
+                      {b.naglowki.map((h) => (
+                        <th key={h} scope="col" className="px-4 py-3 font-bold">
+                          {typo(h)}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 dark:divide-slate-800">
+                    {b.wiersze.map((w, n) => (
+                      <tr key={n} className="align-top">
+                        {w.map((c, j) =>
+                          j === 0 ? (
+                            <th key={j} scope="row" className="px-4 py-3 font-bold text-slate-900 dark:text-white">
+                              {typo(c)}
+                            </th>
+                          ) : (
+                            <td key={j} className="px-4 py-3 text-slate-700 dark:text-slate-300">
+                              {typo(c)}
+                            </td>
+                          )
+                        )}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              {b.podpis && <figcaption className="mt-2 text-xs text-slate-500">{typo(b.podpis)}</figcaption>}
+            </figure>
+          );
+        if (b.typ === 'produkty')
+          return (
+            <div key={i} className="not-prose rounded-3xl ring-1 ring-slate-200 dark:ring-slate-800 bg-white dark:bg-slate-900 divide-y divide-slate-100 dark:divide-slate-800">
+              {b.elementy.map((e) => {
+                const l = produkt ? produkt(e) : null;
+                return (
+                  <div key={e.nazwa} className="flex flex-col sm:flex-row sm:items-center gap-3 p-5">
+                    <div className="flex-1">
+                      <div className="font-extrabold text-slate-900 dark:text-white">{typo(e.nazwa)}</div>
+                      <p className="mt-1 text-[0.95rem] leading-6 text-slate-600 dark:text-slate-300">{typo(e.o)}</p>
+                    </div>
+                    {l && (
+                      <div className="flex flex-col items-start sm:items-end gap-1 flex-shrink-0">
+                        <LinkPartnerski
+                          href={l.url}
+                          modul="poradnik-produkty"
+                          partner={l.partner}
+                          karta={karta}
+                          className="inline-flex items-center gap-2 rounded-xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 px-4 py-2 text-sm font-bold"
+                        >
+                          {e.partner === 'vin' ? 'Sprawdź raport' : e.partner === 'oc' ? 'Porównaj ceny OC' : 'Sprawdź cenę'}
+                          <ExternalLink className="w-4 h-4" aria-hidden="true" />
+                        </LinkPartnerski>
+                        <span className="text-[10px] uppercase tracking-wider text-slate-400">link partnerski</span>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </div>
           );
         return null;

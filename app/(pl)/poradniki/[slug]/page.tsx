@@ -25,7 +25,7 @@ import {
   nastepnyPoradnik,
   typo
 } from '@/lib/poradniki';
-import { pokazModul, linkUbezpieczenia } from '@/lib/panel';
+import { pokazModul, linkUbezpieczenia, linkProduktu } from '@/lib/panel';
 import { BoksVin } from '@/components/Monetyzacja';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import { site } from '@/config/site';
@@ -211,6 +211,8 @@ export default async function PoradnikPage({ params }: { params: Promise<{ slug:
                       const m = href.match(/^\/poradniki\/([^/]+)\/?/);
                       return m && !poradnik(m[1]) ? null : { href };
                     }}
+                    produkt={(pr) => linkProduktu(pr, K)}
+                    karta={K.slug}
                   />
                 </section>
               ))}

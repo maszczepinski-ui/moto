@@ -18,7 +18,27 @@ export type Blok =
   | { typ: 'uwaga'; t: string; ton?: 'info' | 'ostrzezenie' }
   | { typ: 'liczby'; elementy: { w: string; o: string }[] }
   /** Odnośnik do narzędzia lub strony w serwisie (tylko adresy wewnętrzne, np. /mandaty/) */
-  | { typ: 'link'; t: string; o: string; href: string };
+  | { typ: 'link'; t: string; o: string; href: string }
+  /** Tabela porównawcza – pierwszy wiersz to nagłówki */
+  | { typ: 'tabela'; naglowki: string[]; wiersze: string[][]; podpis?: string }
+  /**
+   * Polecane produkty i narzędzia. Link wybiera się sam:
+   * partner 'vin' → link carVertical z panelu, 'oc' → kalkulator OC z panelu,
+   * szukaj → wyszukiwanie w sklepie (Ceneo/Allegro z panelu, moduł „Części”), href → własny link partnerski.
+   * Bez żadnego linku produkt pokazuje się jako polecenie, bez przycisku.
+   */
+  | { typ: 'produkty'; elementy: ProduktPolecany[] };
+
+export interface ProduktPolecany {
+  nazwa: string;
+  /** dlaczego warto */
+  o: string;
+  partner?: 'vin' | 'oc';
+  /** fraza do wyszukiwania w sklepie, np. „miernik grubości lakieru” */
+  szukaj?: string;
+  /** LINK AFILIACYJNY – wklej tutaj, gdy będzie gotowy */
+  href?: string;
+}
 
 export interface Sekcja {
   id: string;
@@ -43,6 +63,8 @@ export interface Poradnik {
   zrodla: { n: string; url: string }[];
   /** Data publikacji (RRRR-MM-DD). Poradnik pojawi się na stronie dopiero tego dnia – patrz data/harmonogram-poradnikow.json */
   publikacja?: string;
+  /** Data ostatniej dużej aktualizacji tego poradnika (RRRR-MM-DD), gdy jest nowsza niż ogólna AKTUALIZACJA */
+  aktualizacja?: string;
 }
 
 export const KATEGORIE: Record<KategoriaPoradnika, { nazwa: string; opis: string }> = {
@@ -77,6 +99,15 @@ const Z = {
   akcyza: { n: 'Rankomat – akcyza za samochód sprowadzony (stawki, terminy)', url: 'https://rankomat.pl/samochod/akcyza-za-samochod' },
   importCuk: { n: 'CUK – auta z Niemiec: sprowadzenie, rejestracja, ubezpieczenie', url: 'https://cuk.pl/porady/auta-z-niemiec-jak-sprowadzic-zarejestrowac-i-ubezpieczyc-w-polsce' },
   rejestracja2026: { n: 'Otomoto – ile kosztuje rejestracja samochodu w 2026 r.', url: 'https://www.otomoto.pl/news/rejestracja-samochodu-2' },
+  akcyzaUstawa: { n: 'Ustawa o podatku akcyzowym – art. 101 (obowiązek podatkowy) i art. 106 (terminy: deklaracja 14 dni, zapłata 30 dni)', url: 'https://arslege.pl/ustawa-o-podatku-akcyzowym/k77/a18653/' },
+  importOtomoto: { n: 'Otomoto – sprowadzenie auta z Niemiec 2026: koszty, akcyza, rejestracja', url: 'https://www.otomoto.pl/news/sprowadzenie-auta-z-niemiec' },
+  rejestracjaNiemcy: { n: 'Rankomat – rejestracja samochodu z Niemiec: dokumenty, terminy, opłaty', url: 'https://rankomat.pl/samochod/rejestracja-samochodu-z-niemiec' },
+  tabliceAdac: { n: 'ADAC – tablice krótkoterminowe i wywozowe (Kurzzeit- i Ausfuhrkennzeichen)', url: 'https://www.adac.de/rund-ums-fahrzeug/auto-kaufen-verkaufen/kfz-zulassung/ueberfuehrungskennzeichen/' },
+  tabliceWywozowe: { n: 'Bußgeldkatalog.org – Ausfuhrkennzeichen: ważność, koszty, wymagania', url: 'https://www.bussgeldkatalog.org/ausfuhrkennzeichen/' },
+  kurzzeitWiesbaden: { n: 'Urząd miasta Wiesbaden (po polsku) – tablice krótkoterminowe, ważność do 5 dni', url: 'https://www.wiesbaden.de/pl/vv/produkte/34/Kurzzeitkennzeichen' },
+  czasoweCuk: { n: 'CUK – czerwone tablice (rejestracja czasowa) przy sprowadzaniu auta', url: 'https://cuk.pl/porady/co-oznaczaja-czerwone-tablice-rejestracyjne' },
+  badanieImport: { n: 'Cenauslug.pl – pierwsze badanie techniczne auta z zagranicy: 149 zł, LPG 96 zł', url: 'https://cenauslug.pl/motoryzacja/pierwsze-badanie-techniczne-pojazdu-z-zagranicy' },
+  carverticalNiemcy: { n: 'carVertical – indeks przejrzystości rynku: Niemcy (cofnięte liczniki, szkody)', url: 'https://www.carvertical.com/pl/transparency-index/germany' },
   darowizna: { n: 'Freenance – darowizna samochodu 2026: podatek, umowa, SD-Z2', url: 'https://freenance.io/podatki/darowizna-samochodu-2026-podatek-umowa-zgloszenie/' },
   darowiznaUlotka: { n: 'Ministerstwo Finansów (podatki.gov.pl) – zasady opodatkowania spadków i darowizn', url: 'https://www.podatki.gov.pl/media/5852/zasady_opodatk-_spadkow_i_darowizn_2019.pdf' },
   wyplataOc: { n: 'CUK – kiedy zostanie wypłacone odszkodowanie z OC sprawcy', url: 'https://cuk.pl/porady/kiedy-zostanie-wyplacone-odszkodowanie-z-oc-sprawcy' },
@@ -923,100 +954,326 @@ const STALE: Poradnik[] = [
     slug: 'sprowadzenie-auta-z-zagranicy',
     kategoria: 'kupno',
     ikona: 'import',
-    tytul: 'Sprowadzenie auta z Niemiec i UE – akcyza, rejestracja, koszty krok po kroku',
-    krotko: 'Sprowadzenie auta z zagranicy',
-    opis: 'Od umowy za granicą do polskich tablic: jak przewieźć auto, ile wynosi akcyza, jakie dokumenty przetłumaczyć i w jakich terminach się zmieścić.',
+    tytul: 'Auto z Niemiec krok po kroku – dokumenty, tablice, akcyza i rejestracja bez pułapek',
+    krotko: 'Sprowadzenie auta z Niemiec',
+    opis: 'Kompletny poradnik: jak sprawdzić Brief i historię auta, czym wrócić do Polski, ile zapłacisz akcyzy, jak przejść badanie i rejestrację w terminie – oraz jak nie kupić auta z cofniętym licznikiem.',
+    aktualizacja: '2026-11-10',
     liczby: [
-      { w: '14 dni', o: 'na deklarację akcyzową AKC-U/S' },
+      { w: '14 / 30 dni', o: 'akcyza: deklaracja / zapłata od wjazdu do Polski' },
       { w: '3,1% / 18,6%', o: 'akcyza: silnik do 2,0 l / powyżej' },
-      { w: '30 dni', o: 'na rejestrację od wjazdu do Polski' }
+      { w: '54 tys. km', o: 'średnio cofnięte w aucie z Niemiec z „kręconym” licznikiem' }
     ],
     sekcje: [
       {
-        id: 'zanim-kupisz',
-        t: 'Zanim kupisz',
+        id: 'czy-warto',
+        t: 'Czy auto z Niemiec nadal się opłaca?',
         bloki: [
+          {
+            typ: 'p',
+            t: 'Niemcy to od lat największe źródło używanych aut sprowadzanych do Polski. Wybór jest ogromny, ceny często niższe niż w polskich komisach, a niemieccy kierowcy słyną z regularnego serwisowania. To jednak tylko połowa prawdy. Według danych carVertical w Niemczech prawie co pięćdziesiąte sprawdzane auto ma cofnięty licznik, a średnio „znika” z niego ponad 54 tys. km. Ponad połowa sprawdzanych aut ma w historii zapis o szkodzie.'
+          },
+          {
+            typ: 'p',
+            t: 'Problem rzadko leży w samym imporcie. Kłopoty biorą się z trzech rzeczy: kupna auta bez sprawdzenia historii, powrotu na tablicach, które nie obowiązują poza Niemcami, oraz przegapienia terminów w Polsce. Każdy z tych błędów kosztuje – od kilkuset złotych kary po kilkanaście tysięcy za ukrytą szkodę.'
+          },
+          {
+            typ: 'p',
+            t: 'Ten poradnik prowadzi przez cały proces w kolejności, w jakiej go przechodzisz: od ogłoszenia, przez dokumenty i transport, aż po akcyzę, badanie techniczne i polskie tablice. Przy każdym kroku znajdziesz konkretne kwoty, terminy i rzeczy, na które trzeba uważać.'
+          },
+          {
+            typ: 'uwaga',
+            t: 'Auto z Niemiec opłaca się najbardziej wtedy, gdy różnica w cenie wobec podobnego auta w Polsce wynosi co najmniej 3–5 tys. zł. Tyle zwykle pochłaniają transport, akcyza, tłumaczenie, badanie i rejestracja przy aucie z silnikiem do 2,0 l.'
+          }
+        ]
+      },
+      {
+        id: 'w-skrocie',
+        t: 'Cała procedura w 9 krokach',
+        bloki: [
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Wybierz auto i sprawdź jego historię', o: 'Zanim pojedziesz, sprawdź numer VIN w raporcie historii pojazdu i poproś o zdjęcia dokumentów. To odsiewa większość „okazji” z cofniętym licznikiem lub po szkodzie.' },
+              { t: 'Obejrzyj auto i dokumenty na miejscu', o: 'Porównaj VIN na aucie i w dokumentach, sprawdź Brief, raport z przeglądu HU i książkę serwisową. Najlepiej zabierz miernik grubości lakieru i tester OBD.' },
+              { t: 'Podpisz umowę i odbierz komplet', o: 'Umowa najlepiej dwujęzyczna. Odbierz obie części dowodu rejestracyjnego, wszystkie kluczyki, raport HU i potwierdzenie wyrejestrowania.' },
+              { t: 'Przywieź auto do Polski', o: 'Na niemieckich tablicach wywozowych (z czerwonym paskiem), na lawecie albo na polskich tablicach czasowych. Żółte tablice krótkoterminowe obowiązują tylko w Niemczech.' },
+              { t: 'Złóż deklarację akcyzową (14 dni)', o: 'Deklarację AKC-U/S składasz w ciągu 14 dni od wjazdu auta do Polski, najprościej online przez portal PUESC.' },
+              { t: 'Zapłać akcyzę (30 dni)', o: 'Podatek płacisz w ciągu 30 dni od wjazdu auta do Polski – i zawsze przed rejestracją. Potwierdzenie zapłaty będzie potrzebne w urzędzie.' },
+              { t: 'Przetłumacz umowę', o: 'Umowę spisaną tylko po niemiecku przetłumacz u tłumacza przysięgłego. Dwujęzyczna umowa zwykle tego nie wymaga.' },
+              { t: 'Zrób badanie techniczne w Polsce', o: 'Przed pierwszą rejestracją auto musi przejść badanie w polskiej stacji kontroli pojazdów – nawet z ważnym niemieckim przeglądem.' },
+              { t: 'Kup OC i zarejestruj auto (30 dni)', o: 'Wniosek o rejestrację składasz w ciągu 30 dni od wjazdu do Polski. Polskie OC musisz mieć najpóźniej w dniu rejestracji.' }
+            ]
+          }
+        ]
+      },
+      {
+        id: 'ogloszenia',
+        t: 'Jak szukać auta i czytać niemieckie ogłoszenia',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Najwięcej ofert znajdziesz na niemieckich portalach mobile.de i AutoScout24. Filtruj po pierwszym właścicielu, historii serwisowej i ważnym przeglądzie. Zanim zadzwonisz, poproś o numer VIN – uczciwy sprzedawca poda go bez problemu. Odmowa to pierwszy sygnał ostrzegawczy.'
+          },
+          {
+            typ: 'tabela',
+            naglowki: ['Zwrot w ogłoszeniu', 'Co znaczy', 'Na co uważać'],
+            wiersze: [
+              ['Unfallfrei', 'bez wypadku', 'To tylko deklaracja sprzedawcy. Zawsze sprawdź raport VIN i grubość lakieru.'],
+              ['Scheckheftgepflegt', 'serwisowany według książki', 'Poproś o zdjęcia wpisów albo wydruk historii z autoryzowanego serwisu.'],
+              ['HU neu / TÜV neu', 'świeży przegląd techniczny', 'Dobra wiadomość – raport z przeglądu pokazuje też przebieg.'],
+              ['1. Hand / Erstbesitz', 'pierwszy właściciel', 'Liczbę poprzednich posiadaczy widać w Briefie.'],
+              ['Export / Gewerbe', 'sprzedaż tylko na eksport lub dla firm', 'Sprzedawca wyłącza odpowiedzialność za wady. Często auta z usterkami.'],
+              ['Bastlerfahrzeug', 'auto „dla majsterkowicza”', 'Auto z poważnymi usterkami, często bez przeglądu. Tylko dla znających się na mechanice.'],
+              ['Motorschaden / Getriebeschaden', 'uszkodzony silnik / skrzynia', 'Auto do naprawy – nie wróci do Polski na kołach.'],
+              ['Vorführwagen / Jahreswagen', 'auto demonstracyjne / roczne', 'Zwykle dobry wybór. Uwaga na VAT, jeśli auto ma mniej niż 6000 km lub 6 miesięcy.']
+            ],
+            podpis: 'Najczęstsze określenia w niemieckich ogłoszeniach samochodowych.'
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Cena wyraźnie niższa niż w podobnych ofertach to częściej powód do niepokoju niż okazja. Oszuści chętnie proszą o zaliczkę „za rezerwację” przed oględzinami. Nie wpłacaj pieniędzy, zanim zobaczysz auto i dokumenty na żywo.'
+          }
+        ]
+      },
+      {
+        id: 'dokumenty',
+        t: 'Brief, Fahrzeugschein i reszta papierów – co sprawdzić',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Niemiecki dowód rejestracyjny ma dwie części. Część I (Zulassungsbescheinigung Teil I, potocznie Fahrzeugschein) kierowca wozi w aucie. Część II (Zulassungsbescheinigung Teil II, potocznie Brief) zostaje w domu i jest najważniejszym dokumentem przy sprzedaży. W starszych autach (sprzed 2005 r.) zamiast nich spotkasz stary Fahrzeugbrief i Fahrzeugschein – działają tak samo.'
+          },
           {
             typ: 'lista',
             elementy: [
-              'sprawdź historię auta po numerze VIN – przebieg i szkody z zagranicy to najczęstsza pułapka przy imporcie,',
-              'umowa albo faktura musi zawierać VIN, dane obu stron i cenę – później posłuży do akcyzy i rejestracji,',
-              'zabierz oryginały dokumentów pojazdu (w Niemczech to dwie części dowodu rejestracyjnego) i wszystkie kluczyki,',
-              'policz akcyzę przed zakupem – przy silniku powyżej 2,0 l potrafi zmienić opłacalność całej transakcji.'
+              'numer VIN w obu częściach dowodu musi być identyczny jak na aucie: na tabliczce znamionowej, pod szybą i na nadwoziu,',
+              'osoba w Briefie (posiadacz) powinna zgadzać się z dowodem osobistym sprzedawcy – jeśli nie, poproś o umowę, na podstawie której on sam kupił auto,',
+              'brak Briefu to sygnał alarmowy: często oznacza, że auto jest na kredyt lub w leasingu i dokument trzyma bank,',
+              'w Briefie sprawdź liczbę poprzednich posiadaczy – pomaga ocenić, czy historia z ogłoszenia jest prawdziwa,',
+              'poproś o raport z ostatniego przeglądu technicznego (HU-Prüfbericht) – zawiera datę, wynik i stan licznika,',
+              'książka serwisowa lub wydruk historii z autoryzowanego serwisu powinny mieć daty i przebiegi, które rosną równomiernie,',
+              'auto powinno być wyrejestrowane (Außerbetriebsetzung) – sprzedawca dostaje wtedy pieczątkę w części I albo osobne zaświadczenie.'
             ]
+          },
+          {
+            typ: 'uwaga',
+            t: 'W Niemczech Brief nie jest formalnym dowodem własności – potwierdza tylko, kto był zarejestrowany jako posiadacz. Dlatego tak ważna jest umowa z poprawnymi danymi sprzedawcy i zgodność danych z jego dokumentem tożsamości.'
+          }
+        ]
+      },
+      {
+        id: 'licznik',
+        t: 'Cofnięty licznik i ukryte szkody – jak się nie dać',
+        bloki: [
+          {
+            typ: 'liczby',
+            elementy: [
+              { w: '1,93%', o: 'sprawdzanych aut z Niemiec ma cofnięty licznik' },
+              { w: '54 440 km', o: 'średnio cofnięte w takim aucie' },
+              { w: '50,95%', o: 'sprawdzanych aut ma zapis o szkodzie' },
+              { w: '4785 €', o: 'średnia wartość szkody' }
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Cofanie licznika jest przestępstwem i w Niemczech, i w Polsce (u nas grozi za to od 3 miesięcy do 5 lat więzienia). Mimo to proceder kwitnie, bo zmiana przebiegu podnosi wartość auta o tysiące złotych. Szczególnie narażone są auta z dieslem, które przejeżdżają rocznie dużo kilometrów, i auta klasy premium. Bardzo często licznik nie jest cofany w Niemczech, tylko już po przyjeździe do Polski, przez handlarza.'
+          },
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Raport historii po VIN', o: 'Pokazuje przebiegi zapisane w różnych bazach, szkody, kradzieże i zdjęcia z dawnych ogłoszeń. Jeśli przebieg w pewnym momencie spada, auto ma cofnięty licznik.' },
+              { t: 'Raport z przeglądu HU', o: 'Niemieckie stacje kontroli zapisują stan licznika przy każdym przeglądzie. Porównaj go z obecnym wskazaniem.' },
+              { t: 'Historia z autoryzowanego serwisu', o: 'Wiele serwisów marki wydaje historię napraw po numerze VIN. Ostatni wpis z przebiegiem powie więcej niż zapewnienia sprzedawcy.' },
+              { t: 'Zużycie wnętrza i diagnostyka', o: 'Wytarta kierownica, gałka zmiany biegów i fotel kierowcy przy niskim przebiegu nie pasują do siebie. Tester OBD potrafi też pokazać przebieg zapisany w innych sterownikach.' }
+            ]
+          },
+          {
+            typ: 'link',
+            t: 'Jak sprawdzić, czy licznik był cofany',
+            o: 'Szczegółowy poradnik: bazy, objawy i co zrobić, gdy wykryjesz oszustwo.',
+            href: '/poradniki/cofniety-licznik-jak-sprawdzic-przebieg/'
+          }
+        ]
+      },
+      {
+        id: 'umowa',
+        t: 'Umowa kupna i pułapka „umowy na Niemca”',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Najwygodniejsza jest umowa dwujęzyczna, polsko-niemiecka. Po pierwsze, sprzedawca rozumie, co podpisuje. Po drugie, w Polsce zwykle nie trzeba jej tłumaczyć. Przy zakupie od niemieckiego dealera dostaniesz fakturę (Rechnung) – sprawdź na niej numer VIN, cenę i swoje dane.'
+          },
+          {
+            typ: 'lista',
+            elementy: [
+              'dane obu stron z numerami dokumentów tożsamości,',
+              'marka, model, numer VIN, numer Briefu i przebieg w dniu sprzedaży,',
+              'cena i sposób zapłaty, data i godzina przekazania auta,',
+              'lista przekazanych rzeczy: kluczyki, Brief, część I dowodu, raport HU, książka serwisowa,',
+              'oświadczenie sprzedawcy o znanych wadach i o tym, że auto nie było powypadkowe – jeśli zgodzi się je podpisać.'
+            ]
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: '„Umowa na Niemca” to częsty trik polskich handlarzy: sprzedają auto już w Polsce, ale dają umowę z rzekomym niemieckim właścicielem i fałszywym podpisem. Unikają w ten sposób podatków i odpowiedzialności za wady. Kupując na takiej umowie, nie masz kogo pozwać, a w razie problemów z urzędem to Ty tłumaczysz się z dokumentu, który może być fałszywy. Kupuj tylko od osoby, która widnieje w dokumentach, albo od handlarza na jego własną fakturę lub umowę.'
           }
         ]
       },
       {
         id: 'transport',
-        t: 'Jak przywieźć auto do Polski',
+        t: 'Tablice wywozowe, laweta czy tablice czasowe – czym wrócić do Polski',
         bloki: [
           {
-            typ: 'kroki',
-            elementy: [
-              { t: 'Na kołach – z tablicami wywozowymi', o: 'Auto musi być sprawne, mieć tablice tymczasowe (wywozowe) i krótkoterminowe ubezpieczenie. Taka polisa zwykle obejmuje do 30 dni – do czasu rejestracji w Polsce.' },
-              { t: 'Na lawecie lub przyczepie', o: 'Gdy auto nie ma tablic albo nie jest sprawne. Weź od przewoźnika dokumenty przewozu – mogą się przydać przy rejestracji.' }
-            ]
+            typ: 'tabela',
+            naglowki: ['Sposób', 'Ważność', 'Koszt (orientacyjnie)', 'Dla kogo'],
+            wiersze: [
+              ['Niemieckie tablice wywozowe (Ausfuhrkennzeichen, czerwony pasek)', 'od kilku dni do 12 miesięcy, zwykle 15–30 dni', '150–250 € z ubezpieczeniem', 'sprawne auto z ważnym przeglądem HU na cały okres ważności tablic'],
+              ['Niemieckie tablice krótkoterminowe (Kurzzeitkennzeichen, żółty pasek)', 'do 5 dni', '60–180 € z ubezpieczeniem', 'tylko jazda po Niemczech – nie nadają się do powrotu do Polski'],
+              ['Laweta lub przyczepa', 'bez ograniczeń', 'ok. 1500–3000 zł', 'auto bez przeglądu, uszkodzone albo gdy nie chcesz załatwiać tablic'],
+              ['Polskie tablice czasowe (czerwone znaki)', 'do 30 dni', '61,50 zł + ubezpieczenie', 'gdy wcześniej zdobędziesz dokumenty auta i zapłacisz akcyzę – w praktyce rzadko wygodne']
+            ],
+            podpis: 'Ceny tablic i ubezpieczenia różnią się między niemieckimi urzędami i ubezpieczycielami.'
+          },
+          {
+            typ: 'p',
+            t: 'Tablice wywozowe wydaje niemiecki urząd rejestracyjny. Potrzebny jest dokument tożsamości, dokumenty auta, ważny przegląd HU i ubezpieczenie OC wykupione na czas ważności tablic. Urzędy zwykle wymagają adresu w Niemczech albo pełnomocnika z takim adresem, dlatego w praktyce tablice często załatwia sprzedawca lub wyspecjalizowana firma przy urzędzie. Przy okazji urząd wyrejestrowuje auto, jeśli było jeszcze zarejestrowane.'
           },
           {
             typ: 'uwaga',
-            t: 'Najpóźniej w dniu rejestracji musisz mieć polskie OC. Zagraniczna polisa przestaje działać po rejestracji auta w Polsce.'
+            ton: 'ostrzezenie',
+            t: 'Żółte tablice krótkoterminowe są przeznaczone do jazdy po Niemczech. Według ADAC poza Niemcami nie ma ogólnego prawa do jazdy na nich – honoruje je tylko kilka krajów, a Polski wśród nich nie ma. Jazda na nich przez Polskę może skończyć się mandatem i problemem z ubezpieczeniem przy kolizji.'
+          },
+          {
+            typ: 'p',
+            t: 'Jeśli przywozisz auto na lawecie i nie wyjeżdżasz nim na drogę, polskie OC nie jest jeszcze potrzebne. Musisz je wykupić najpóźniej w dniu rejestracji – zagraniczne ubezpieczenie wygasa, gdy auto dostaje polskie tablice.'
           }
         ]
       },
       {
         id: 'akcyza',
-        t: 'Akcyza – ile i do kiedy',
+        t: 'Akcyza – ile zapłacisz i do kiedy',
         bloki: [
           {
-            typ: 'liczby',
-            elementy: [
-              { w: '3,1%', o: 'silnik do 2000 cm³' },
-              { w: '18,6%', o: 'silnik powyżej 2000 cm³' },
-              { w: '1,55%', o: 'hybryda do 2000 cm³' },
-              { w: '0%', o: 'elektryk, hybryda plug-in do 2000 cm³' }
-            ]
+            typ: 'tabela',
+            naglowki: ['Rodzaj napędu', 'Silnik do 2000 cm³', 'Silnik 2001–3500 cm³', 'Powyżej 3500 cm³'],
+            wiersze: [
+              ['Benzyna, diesel, LPG', '3,1%', '18,6%', '18,6%'],
+              ['Hybryda (HEV)', '1,55%', '9,3%', '18,6%'],
+              ['Hybryda plug-in (PHEV)', '0% (do końca 2029 r.)', '9,3%', '18,6%'],
+              ['Elektryk (BEV), wodór (FCEV)', '0%', '0%', '0%']
+            ],
+            podpis: 'Stawki akcyzy na samochody osobowe, stan na listopad 2026 r. Liczysz je od wartości auta w złotych.'
           },
           {
             typ: 'p',
-            t: 'Akcyzę liczy się od wartości rynkowej auta przeliczonej na złote po średnim kursie NBP z dnia zakupu. Hybrydy od 2001 do 3500 cm³ płacą 9,3%, a hybrydy plug-in do 2000 cm³ są zwolnione do końca 2029 r. Deklarację AKC-U/S składasz w ciągu 14 dni od zakupu – najprościej przez portal PUESC – i płacisz podatek do urzędu skarbowego. Potwierdzenie zapłaty (z numerem VIN) jest potrzebne do rejestracji.'
+            t: 'Podstawą jest kwota, którą zapłaciłeś za auto, przeliczona na złote po średnim kursie NBP. Jeśli cena w umowie jest dużo niższa niż ceny podobnych aut, urząd skarbowy może ją zakwestionować i policzyć akcyzę od wartości rynkowej. Gdy auto jest tanie, bo ma usterki lub szkodę, zachowaj zdjęcia i opis – przydadzą się jako wyjaśnienie.'
           },
           {
-            typ: 'uwaga',
-            ton: 'ostrzezenie',
-            t: 'Zwolnienie z akcyzy (np. dla elektryka) też trzeba potwierdzić w urzędzie skarbowym – bez tego dokumentu wydział komunikacji nie zarejestruje auta.'
+            typ: 'p',
+            t: 'Terminy liczysz zwykle od dnia, w którym auto wjechało do Polski (jeśli kupiłeś je wcześniej). Deklarację AKC-U/S składasz w ciągu 14 dni, a akcyzę płacisz w ciągu 30 dni – w obu przypadkach najpóźniej w dniu rejestracji. Deklarację najszybciej złożysz online przez portal PUESC. Zwolnienie z akcyzy (np. dla auta elektrycznego) też trzeba potwierdzić w urzędzie skarbowym.'
           },
-          { typ: 'link', t: 'Kalkulator akcyzy i kosztów sprowadzenia', o: 'Wpisz cenę i pojemność – policzymy akcyzę, cło, VAT i opłaty rejestracyjne.', href: '/kalkulator-akcyzy/' }
+          {
+            typ: 'p',
+            t: 'Przykład: auto za 30 000 zł z silnikiem 1.6 to akcyza 930 zł. To samo auto z silnikiem 2.2 kosztowałoby już 5580 zł podatku. Dlatego pojemność silnika warto sprawdzić, zanim zaczniesz negocjować cenę.'
+          },
+          { typ: 'link', t: 'Kalkulator akcyzy i kosztów sprowadzenia', o: 'Wpisz cenę, walutę i pojemność – policzymy akcyzę i opłaty rejestracyjne.', href: '/kalkulator-akcyzy/' }
         ]
       },
       {
         id: 'rejestracja',
-        t: 'Rejestracja w Polsce',
+        t: 'Badanie techniczne i rejestracja w Polsce',
         bloki: [
           {
             typ: 'kroki',
             elementy: [
-              { t: 'VAT', o: 'Przy używanym aucie z Unii Europejskiej nie potrzebujesz zaświadczenia o VAT – VAT-25 zniesiono w 2015 r. Wyjątek to nowy samochód (do 6 miesięcy od pierwszego użycia albo do 6000 km): wtedy składasz w urzędzie skarbowym informację VAT-23 i płacisz VAT w Polsce w ciągu 14 dni.' },
-              { t: 'Tłumaczenia przysięgłe', o: 'Umowę lub fakturę i inne dokumenty w obcym języku przetłumacz u tłumacza przysięgłego. Jedna strona umowy to zwykle koszt rzędu 70–100 zł.' },
-              { t: 'Badanie techniczne w Polsce', o: 'Przed pierwszą rejestracją auto musi przejść badanie w polskiej stacji kontroli pojazdów – nawet jeśli ma ważny przegląd z zagranicy.' },
-              { t: 'Wniosek w wydziale komunikacji', o: 'Masz 30 dni od wprowadzenia auta do Polski. Zabierz: umowę z tłumaczeniem, dokumenty pojazdu (z tłumaczeniem), tablice albo oświadczenie o ich braku, potwierdzenie zapłaty akcyzy, badanie techniczne, dowód osobisty i polisę OC.' }
+              { t: 'Badanie techniczne – 149 zł', o: 'Każde auto sprowadzone z zagranicy przechodzi przed rejestracją badanie w polskiej stacji kontroli pojazdów. Diagnosta sprawdza też numer VIN i dane techniczne. Za instalację LPG dopłacasz 96 zł.' },
+              { t: 'Tłumaczenia – ok. 100–250 zł', o: 'Tłumaczysz umowę spisaną tylko po niemiecku i ewentualne dopiski w dowodzie. Dane w niemieckim dowodzie rejestracyjnym są zapisane unijnymi kodami, więc samego dowodu zwykle tłumaczyć nie trzeba.' },
+              { t: 'Polskie OC', o: 'Polisa musi działać najpóźniej od dnia rejestracji. Kup ją wcześniej i porównaj oferty – ceny dla tego samego auta potrafią różnić się o kilkaset złotych.' },
+              { t: 'Wniosek w wydziale komunikacji – 160 zł', o: 'Zabierz: wniosek, dowód osobisty, umowę (z tłumaczeniem, jeśli trzeba), obie części niemieckiego dowodu, potwierdzenie wyrejestrowania, niemieckie tablice (jeśli są), zaświadczenie z badania technicznego i potwierdzenie zapłaty akcyzy.' }
             ]
           },
           {
             typ: 'uwaga',
             ton: 'ostrzezenie',
-            t: 'Za brak wniosku o rejestrację w 30 dni grozi kara 500 zł, a po 180 dniach – 1000 zł. Przy kupnie od osoby prywatnej za granicą PCC zwykle nie płacisz.'
+            t: 'Na złożenie wniosku o rejestrację masz 30 dni od wjazdu auta do Polski. Za spóźnienie grozi kara 500 zł, a w niektórych przypadkach nawet 1000 zł. Przy zakupie od osoby prywatnej w Niemczech podatku PCC nie płacisz, a przy używanym aucie nie płacisz też VAT.'
+          },
+          {
+            typ: 'link',
+            t: 'Kupiłem auto – co dalej?',
+            o: 'Terminy, OC i rejestracja po zakupie auta – w jednym miejscu.',
+            href: '/poradniki/kupilem-auto-co-dalej/'
+          }
+        ]
+      },
+      {
+        id: 'koszty',
+        t: 'Ile kosztuje sprowadzenie auta z Niemiec – przykład',
+        bloki: [
+          {
+            typ: 'tabela',
+            naglowki: ['Pozycja', 'Auto 30 000 zł, silnik 1.6, powrót na tablicach', 'To samo auto na lawecie'],
+            wiersze: [
+              ['Raport historii po VIN', 'kilkadziesiąt zł', 'kilkadziesiąt zł'],
+              ['Tablice wywozowe z ubezpieczeniem', 'ok. 650–1100 zł (150–250 €)', '–'],
+              ['Paliwo i opłaty za drogi', 'zależnie od trasy', '–'],
+              ['Laweta', '–', 'ok. 1500–3000 zł'],
+              ['Akcyza 3,1%', '930 zł', '930 zł'],
+              ['Tłumaczenie umowy', '0–250 zł', '0–250 zł'],
+              ['Badanie techniczne', '149 zł', '149 zł'],
+              ['Rejestracja (tablice, dowód, nalepka)', '160 zł', '160 zł'],
+              ['Razem bez paliwa i OC', 'ok. 1900–2600 zł', 'ok. 2800–4500 zł']
+            ],
+            podpis: 'Orientacyjne koszty z listopada 2026 r. Do tego dochodzi pierwsza polisa OC i koszt dojazdu do Niemiec.'
+          }
+        ]
+      },
+      {
+        id: 'czego-unikac',
+        t: 'Czego unikać – najczęstsze błędy',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'jazda do Niemiec bez sprawdzenia VIN – to najczęstszy sposób na kupno auta z cofniętym licznikiem lub po szkodzie,',
+              'wpłata zaliczki przed obejrzeniem auta i dokumentów,',
+              'powrót na żółtych tablicach krótkoterminowych, które obowiązują tylko w Niemczech,',
+              'kupno auta bez Briefu albo od osoby, której nie ma w dokumentach,',
+              'zaniżanie ceny w umowie „żeby zapłacić mniej akcyzy” – urząd może to zakwestionować, a Ty tracisz dowód faktycznej ceny przy reklamacji,',
+              'liczenie terminu akcyzy od daty zakupu zamiast od wjazdu do Polski – albo odwrotnie: przegapienie 14 dni na deklarację,',
+              'kupno od polskiego handlarza na „umowę na Niemca”,',
+              'brak polskiego OC w dniu rejestracji.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'polecane',
+        t: 'Polecane produkty i narzędzia',
+        bloki: [
+          {
+            typ: 'produkty',
+            elementy: [
+              { nazwa: 'Raport historii pojazdu carVertical', o: 'Sprawdza przebiegi, szkody i kradzieże w bazach z wielu krajów, w tym z Niemiec. Z kodem motoraport taniej o 20%. Najlepiej zamówić go jeszcze przed wyjazdem.', partner: 'vin' },
+              { nazwa: 'Miernik grubości lakieru', o: 'Pokazuje, które elementy były szpachlowane lub lakierowane. Na oględzinach w Niemczech to najszybszy sposób, żeby sprawdzić deklarację „Unfallfrei”.', szukaj: 'miernik grubości lakieru' },
+              { nazwa: 'Interfejs diagnostyczny OBD2 (Bluetooth)', o: 'Odczytuje błędy silnika i skrzyni, także te skasowane tuż przed sprzedażą. Działa z darmowymi aplikacjami na telefon.', szukaj: 'interfejs OBD2 bluetooth' },
+              { nazwa: 'Porównywarka OC', o: 'Polisę musisz mieć najpóźniej w dniu rejestracji. Porównanie ofert przed wizytą w urzędzie zajmuje kilka minut i często oszczędza kilkaset złotych.', partner: 'oc' },
+              { nazwa: 'Latarka inspekcyjna', o: 'Przydaje się do oglądania podwozia, progów i komory silnika – szczególnie gdy oględziny przeciągną się do wieczora.', szukaj: 'latarka inspekcyjna warsztatowa' }
+            ]
           }
         ]
       }
     ],
     faq: [
-      { q: 'Ile wynosi akcyza na auto z Niemiec?', a: '3,1% wartości rynkowej przy silniku do 2000 cm³ i 18,6% powyżej. Hybrydy mają niższe stawki (1,55% i 9,3%), a auta elektryczne i hybrydy plug-in do 2000 cm³ są zwolnione.' },
-      { q: 'Ile mam czasu na zarejestrowanie auta sprowadzonego z zagranicy?', a: '30 dni od wprowadzenia auta do Polski. Spóźnienie kosztuje 500 zł, a po 180 dniach 1000 zł.' },
-      { q: 'Czy trzeba tłumaczyć dokumenty auta z Niemiec?', a: 'Tak – dokumenty w obcym języku, w tym umowę lub fakturę, trzeba przetłumaczyć u tłumacza przysięgłego.' }
+      { q: 'Ile kosztuje sprowadzenie auta z Niemiec?', a: 'Przy aucie za 30 000 zł z silnikiem do 2,0 l łączne koszty w Polsce i transportu to zwykle ok. 1900–2600 zł przy powrocie na tablicach wywozowych i ok. 2800–4500 zł przy lawecie. Największą pozycją jest akcyza (3,1% wartości auta) lub koszt lawety. Do tego dochodzi pierwsza polisa OC.' },
+      { q: 'Ile mam czasu na akcyzę i rejestrację auta z Niemiec?', a: 'Deklarację akcyzową AKC-U/S składasz w ciągu 14 dni, a podatek płacisz w ciągu 30 dni – zwykle licząc od dnia, w którym auto wjechało do Polski, i zawsze najpóźniej w dniu rejestracji. Wniosek o rejestrację składasz w ciągu 30 dni od wjazdu do Polski.' },
+      { q: 'Czy można wrócić z Niemiec na żółtych tablicach?', a: 'Nie powinno się. Żółte tablice krótkoterminowe (Kurzzeitkennzeichen) są ważne tylko na terenie Niemiec. Do wywozu auta za granicę służą tablice wywozowe z czerwonym paskiem (Ausfuhrkennzeichen) albo transport na lawecie.' },
+      { q: 'Czy trzeba tłumaczyć dokumenty auta z Niemiec?', a: 'Umowę spisaną tylko po niemiecku trzeba przetłumaczyć u tłumacza przysięgłego. Dwujęzycznej umowy zwykle nie. Niemiecki dowód rejestracyjny jest wystawiony według unijnego wzoru z kodami, więc najczęściej tłumaczy się tylko dodatkowe adnotacje.' },
+      { q: 'Jak sprawdzić, czy auto z Niemiec ma cofnięty licznik?', a: 'Zamów raport historii po numerze VIN, porównaj przebieg z raportem ostatniego przeglądu HU i z historią z autoryzowanego serwisu, a na oględzinach oceń zużycie kierownicy, pedałów i fotela kierowcy. Spadek przebiegu między kolejnymi zapisami oznacza cofnięty licznik.' }
     ],
-    powiazane: ['kupilem-auto-co-dalej', 'umowa-kupna-sprzedazy-samochodu', 'przeglad-techniczny-terminy-koszt'],
-    zrodla: [Z.akcyza, Z.importCuk, Z.rejestracja2026, Z.pcc]
+    powiazane: ['cofniety-licznik-jak-sprawdzic-przebieg', 'kupilem-auto-co-dalej', 'umowa-kupna-sprzedazy-samochodu', 'przeglad-techniczny-terminy-koszt', 'ogledziny-uzywanego-auta-lista'],
+    zrodla: [Z.akcyzaUstawa, Z.akcyza, Z.importOtomoto, Z.importCuk, Z.rejestracjaNiemcy, Z.tabliceAdac, Z.tabliceWywozowe, Z.kurzzeitWiesbaden, Z.czasoweCuk, Z.badanieImport, Z.carverticalNiemcy, Z.rejestracja2026]
   },
   {
     slug: 'darowizna-samochodu',
@@ -2110,7 +2367,8 @@ export function dataPublikacji(p: Poradnik): string {
   return p.publikacja || OPUBLIKOWANO;
 }
 export function dataAktualizacji(p: Poradnik): string {
-  return p.publikacja && p.publikacja > AKTUALIZACJA ? p.publikacja : AKTUALIZACJA;
+  const baza = p.aktualizacja && p.aktualizacja > AKTUALIZACJA ? p.aktualizacja : AKTUALIZACJA;
+  return p.publikacja && p.publikacja > baza ? p.publikacja : baza;
 }
 /** Najnowsze opublikowane poradniki (od najnowszego) */
 export function najnowszePoradniki(ile = 3): Poradnik[] {
@@ -2228,12 +2486,12 @@ const DODATKI: Record<string, { seoTytul: string; seoOpis: string; skrot: string
     ]
   },
   'sprowadzenie-auta-z-zagranicy': {
-    seoTytul: 'Auto z Niemiec – akcyza, rejestracja, koszty',
-    seoOpis: 'Jak sprowadzić auto z Niemiec i UE: akcyza 3,1% lub 18,6% (deklaracja w 14 dni), tłumaczenia, badanie i rejestracja w 30 dni. Koszty i terminy.',
+    seoTytul: 'Auto z Niemiec krok po kroku – koszty i akcyza',
+    seoOpis: 'Jak sprowadzić auto z Niemiec: Brief i historia VIN, tablice wywozowe, akcyza 3,1% (deklaracja 14 dni, zapłata 30 dni), badanie 149 zł i rejestracja.',
     skrot: [
-      'Akcyzę deklarujesz w 14 dni od zakupu: 3,1% przy silniku do 2,0 l, 18,6% powyżej, hybrydy mniej, elektryki 0%.',
-      'Do rejestracji potrzebujesz tłumaczeń przysięgłych, potwierdzenia zapłaty akcyzy i polskiego przeglądu.',
-      'Na rejestrację masz 30 dni od wjazdu do Polski – spóźnienie kosztuje 500 zł.'
+      'Przed wyjazdem sprawdź VIN – w Niemczech średnio cofa się licznik o 54 tys. km, a ponad połowa aut ma zapis o szkodzie.',
+      'Wracaj na tablicach wywozowych z czerwonym paskiem albo na lawecie – żółte tablice obowiązują tylko w Niemczech.',
+      'Akcyza: deklaracja w 14 dni, zapłata w 30 dni od wjazdu do Polski. Rejestracja też w 30 dni.'
     ]
   },
   'darowizna-samochodu': {

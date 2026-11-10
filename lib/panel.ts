@@ -222,3 +222,27 @@ export function partnerKancelaria(): { partner: string; url: string } | null {
   const k = panelDane.moduly?.kancelaria;
   return k?.wlaczony && k.url ? { partner: k.partner || 'kancelaria partnerska', url: k.url } : null;
 }
+
+/** Link dla polecanego produktu w poradniku (ramka „Polecane produkty i narzędzia”). Pusty = bez przycisku. */
+export function linkProduktu(
+  pr: { partner?: 'vin' | 'oc'; szukaj?: string; href?: string },
+  k: KontekstKarty
+): { url: string; partner: string } | null {
+  const m = panelDane.moduly || {};
+  if (pr.partner === 'vin') {
+    if (m.vin && !m.vin.wlaczony) return null;
+    const url = linkVinOgolny(k);
+    return url ? { url, partner: m.vin?.partner || 'vin' } : null;
+  }
+  if (pr.partner === 'oc') {
+    if (m.ubezpieczenia && !m.ubezpieczenia.wlaczony) return null;
+    const url = linkUbezpieczenia('oc', k);
+    return url ? { url, partner: 'ubezpieczenia' } : null;
+  }
+  if (pr.href) return { url: pr.href, partner: 'wlasny' };
+  if (pr.szukaj && m.czesci?.wlaczony) {
+    const url = wypelnij(m.czesci.ceneo || m.czesci.allegro || '', k, pr.szukaj);
+    return url ? { url, partner: m.czesci.ceneo ? 'ceneo' : 'allegro' } : null;
+  }
+  return null;
+}
