@@ -1,4 +1,4 @@
-// Logo strony: ikona licznika + napis „moto–raport” zrobiony tekstem (nie obrazkiem),
+// Logo strony: ikona licznika + napis „moto-raport.pl” zrobiony tekstem (nie obrazkiem),
 // dzięki temu jest ostry na każdym ekranie i sam zmienia kolory w ciemnym motywie.
 // Pokazuje się, gdy w panelu (zakładka „Logo i ikona”) nie wgrano własnego obrazka logo.
 export default function LogoMarka() {
@@ -11,11 +11,16 @@ export default function LogoMarka() {
         <path d="M41 21.5A18 18 0 0 1 48.6 45" fill="none" stroke="#ea580c" strokeWidth="6" strokeLinecap="round" />
         <line x1="32" y1="37" x2="42" y2="26" stroke="#fff" strokeWidth="6" strokeLinecap="round" />
       </svg>
-      {/* Napis: „moto” grubsze, „raport” cieńsze, między nimi cienki pomarańczowy myślnik */}
-      <span className="flex items-center text-[19px] sm:text-xl leading-none tracking-[-0.02em] whitespace-nowrap">
-        <span className="font-bold text-slate-900 dark:text-white">moto</span>
-        <span className="mx-[3px] h-[2px] w-[7px] rounded-full bg-rust-500/70 dark:bg-rust-400/80 translate-y-[1px]" aria-hidden="true" />
-        <span className="font-normal text-slate-600 dark:text-slate-400">raport</span>
+      {/* Napis w jednym ciągu: „moto” i „raport” tą samą grubą czcionką,
+          pomarańczowy myślnik dotyka obu słów, „.pl” w kolorze akcentu */}
+      <span className="text-[19px] sm:text-[21px] leading-none font-extrabold tracking-[-0.035em] whitespace-nowrap text-slate-900 dark:text-white">
+        moto
+        <span
+          className="inline-block align-[0.22em] h-[0.13em] w-[0.36em] mx-[0.01em] rounded-[1px] bg-rust-500 dark:bg-rust-400"
+          aria-hidden="true"
+        />
+        raport
+        <span className="text-rust-500 dark:text-rust-400">.pl</span>
       </span>
     </span>
   );
