@@ -4,8 +4,9 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import {
-  ArrowDown, CalendarClock, CheckCircle2, ClipboardCheck, FileSignature, FileText, Gavel, Lock, Mail, Scale, ShieldCheck, Smartphone, Table2, Zap
+  AlertTriangle, ArrowDown, CalendarClock, CheckCircle2, ClipboardCheck, FileSignature, FileText, Gavel, Lock, Mail, Scale, ShieldCheck, Smartphone, Table2, Zap
 } from 'lucide-react';
+import MakietaSzkody from '@/components/szkoda/MakietaSzkody';
 import Okruszki from '@/components/Okruszki';
 import ZdjecieTla from '@/components/ZdjecieTla';
 import FormularzZamowienia from '@/components/sklep/FormularzZamowienia';
@@ -36,6 +37,25 @@ const ZAWARTOSC = [
   { ikona: ClipboardCheck, tytul: 'Pierwsze 72 godziny po szkodzie', opis: 'Co zrobić od razu: zdjęcia, zgłoszenie, oględziny, auto zastępcze i czego nie podpisywać.' },
   { ikona: FileText, tytul: 'Jak czytać kosztorys', opis: 'Stawka, części Q i P, potrącenia, rabaty, VAT – na przykładzie, z zaznaczonymi miejscami, gdzie najczęściej jest zaniżenie.' },
   { ikona: Table2, tytul: 'Dziennik szkody', opis: 'Arkusz do zapisywania rozmów, pism i dat – sam liczy 30 i 90 dni.' }
+];
+
+/** Przykłady czerwonych flag (tak opisuje je Sprawdzacz) */
+const FLAGI = [
+  { t: 'Zamienniki zamiast oryginałów', o: 'Części z literą Q albo P są tańsze od oryginałów. To ubezpieczyciel powinien wykazać, że przywrócą auto do stanu sprzed szkody.', p: 'art. 361 i 363 k.c., uchwała SN III CZP 80/11' },
+  { t: 'Potrącenia za wiek auta', o: 'Odjęcie części ceny nowych części jest dopuszczalne tylko, gdy ubezpieczyciel udowodni, że naprawa podniosła wartość auta.', p: 'uchwała 7 sędziów SN III CZP 80/11' },
+  { t: 'Rabaty nie dla Ciebie', o: 'Rabaty warsztatów partnerskich ubezpieczyciela nie powinny obniżać wypłaty, gdy naruszają Twój uzasadniony interes.', p: 'uchwały SN III CZP 32/24 i III CZP 119/22' },
+  { t: 'Wypłata bez VAT', o: 'Jeśli nie odliczasz VAT i nie naprawiłeś auta bez faktury z VAT, podatek jest częścią kosztu naprawy.', p: 'uchwała SN III CZP 32/24' }
+];
+
+/** Co daje darmowy test, a co pakiet */
+const POROWNANIE: [string, boolean, boolean][] = [
+  ['Sygnały możliwego zaniżenia', true, true],
+  ['Kwota do odzyskania wyliczona z Twojego kosztorysu', false, true],
+  ['Reklamacja z Twoimi danymi i argumentami (Word, druk)', false, true],
+  ['Kalendarz terminów: 30 dni, 90 dni, art. 8', false, true],
+  ['Odpowiedź na odmowę i wezwanie do zapłaty', false, true],
+  ['Tekst wniosku do Rzecznika Finansowego', false, true],
+  ['Poradniki PDF, wzory pism i dziennik szkody', false, true]
 ];
 
 const PYTANIA = [
@@ -71,15 +91,16 @@ export default function PoSzkodziePage() {
           <div className="[&_*]:!text-slate-300 [&_a:hover]:!text-white mb-6">
             <Okruszki sciezka={[{ nazwa: 'Po szkodzie', adres: '/po-szkodzie/' }]} />
           </div>
-          <div className="max-w-3xl space-y-5">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          <div className="space-y-5">
             <p className="inline-flex items-center gap-2 rounded-full bg-amber-400/15 text-amber-300 ring-1 ring-amber-400/30 px-3 py-1 text-xs font-bold uppercase tracking-wider">
               <ShieldCheck className="w-4 h-4" aria-hidden="true" /> Szkoda z OC sprawcy
             </p>
             <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight">
-              Ubezpieczyciel wycenił szkodę za nisko?
+              Wycena szkody za niska?
               <span className="block text-amber-300">Sprawdź to w 10 minut.</span>
             </h1>
-            <p className="text-lg text-slate-300 max-w-2xl">Zrób darmowy test kosztorysu. Jeśli widać zaniżenie, Sprawdzacz policzy kwotę i przygotuje reklamację – bez oddawania części odszkodowania kancelarii.</p>
+            <p className="text-lg text-slate-300 max-w-xl">Zrób darmowy test kosztorysu. Jeśli widać zaniżenie, Sprawdzacz policzy kwotę i przygotuje reklamację – bez oddawania części odszkodowania kancelarii.</p>
             <div className="flex flex-wrap items-center gap-4">
               <a href="#test" className={`${przycisk} bg-amber-400 hover:bg-amber-300 text-slate-900 shadow-lg shadow-amber-400/20`}>
                 Zrób darmowy test <ArrowDown className="w-5 h-5" aria-hidden="true" />
@@ -102,6 +123,10 @@ export default function PoSzkodziePage() {
                 );
               })}
             </ul>
+          </div>
+          <div className="py-6">
+            <MakietaSzkody />
+          </div>
           </div>
         </div>
       </section>
@@ -144,6 +169,63 @@ export default function PoSzkodziePage() {
                 </li>
               ))}
             </ul>
+          </section>
+
+          {/* ===== Zajrzyj do środka ===== */}
+          <section className="space-y-5">
+            <div>
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">Zajrzyj do środka</h2>
+              <p className="text-slate-600 dark:text-slate-300 mt-1">Tak Sprawdzacz opisuje znalezione problemy – prostym językiem i z podstawą prawną w piśmie.</p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {FLAGI.map((f) => (
+                <div key={f.t} className="rounded-2xl border-2 border-amber-200 dark:border-amber-900/60 bg-amber-50/60 dark:bg-amber-950/20 p-5">
+                  <p className="flex items-center gap-2 font-bold text-slate-900 dark:text-white">
+                    <span className="rounded bg-amber-400 text-slate-900 px-1.5 py-0.5 text-[11px] font-black uppercase">Flaga</span> {f.t}
+                  </p>
+                  <p className="text-sm text-slate-700 dark:text-slate-300 mt-2">{f.o}</p>
+                  <p className="text-xs text-slate-500 mt-2">Podstawa: {f.p}</p>
+                </div>
+              ))}
+            </div>
+            <div className="rounded-2xl bg-slate-900 text-slate-100 p-5 sm:p-6">
+              <p className="flex items-center gap-2 font-bold">
+                <FileSignature className="w-5 h-5 text-amber-300" aria-hidden="true" /> Fragment reklamacji: niska stawka za roboczogodzinę
+              </p>
+              <p className="mt-3 text-sm text-slate-300 leading-relaxed border-l-2 border-amber-400/60 pl-4">
+                „…Wnoszę o przeliczenie kalkulacji według stawki rynkowej w mojej okolicy albo o wskazanie z nazwy i adresu warsztatu w mojej okolicy, który wykona naprawę zgodnie z technologią producenta po stawce przyjętej w kalkulacji.”
+              </p>
+              <p className="mt-3 text-xs text-slate-400">Nie musisz udowadniać „średniej rynkowej” – to ubezpieczyciel ma wskazać warsztat, który naprawi auto po jego stawce.</p>
+            </div>
+          </section>
+
+          {/* ===== Darmowy test vs pakiet ===== */}
+          <section className="space-y-5">
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">Darmowy test czy pakiet?</h2>
+            <div className="overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800">
+              <table className="w-full text-sm">
+                <thead className="bg-slate-50 dark:bg-slate-900">
+                  <tr>
+                    <th className="text-left p-3 font-semibold text-slate-600 dark:text-slate-300">&nbsp;</th>
+                    <th className="p-3 font-semibold text-slate-600 dark:text-slate-300 w-24 sm:w-32">Test</th>
+                    <th className="p-3 font-bold text-slate-900 dark:text-white w-24 sm:w-32 bg-amber-100/70 dark:bg-amber-900/30">Pakiet</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {POROWNANIE.map(([t, d, pk]) => (
+                    <tr key={t} className="border-t border-slate-100 dark:border-slate-800">
+                      <td className="p-3 text-slate-800 dark:text-slate-200">{t}</td>
+                      <td className="p-3 text-center">
+                        {d ? <CheckCircle2 className="w-5 h-5 text-emerald-600 inline" aria-label="tak" /> : <span className="text-slate-300" aria-label="nie">—</span>}
+                      </td>
+                      <td className="p-3 text-center bg-amber-50/70 dark:bg-amber-900/20">
+                        {pk ? <CheckCircle2 className="w-5 h-5 text-emerald-600 inline" aria-label="tak" /> : <span className="text-slate-300">—</span>}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </section>
 
           {/* ===== Jak to działa ===== */}

@@ -23,23 +23,31 @@ export default function SzybkiTest({ sprzedaz, cena }: { sprzedaz: boolean; cena
 
   return (
     <div className="rounded-3xl ring-1 ring-slate-200 dark:ring-slate-800 bg-white dark:bg-slate-900 shadow-[0_12px_32px_-22px_rgba(15,23,42,0.35)] p-5 sm:p-7 space-y-5">
-      <div className="flex items-baseline justify-between gap-3">
-        <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white">Szybki test kosztorysu</h2>
-        <span className="text-sm font-semibold text-slate-500 tabular-nums" aria-live="polite">
+      <div className="flex items-start justify-between gap-3">
+        <div>
+          <p className="inline-flex items-center rounded-full bg-amber-100 dark:bg-amber-900/40 text-amber-800 dark:text-amber-200 px-2.5 py-0.5 text-[11px] font-bold uppercase tracking-wider">Za darmo · 1 minuta</p>
+          <h2 className="mt-2 text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">Szybki test kosztorysu</h2>
+          <p className="text-sm text-slate-600 dark:text-slate-300 mt-1">Weź do ręki decyzję i kosztorys od ubezpieczyciela. Test działa w Twojej przeglądarce – nic nie wysyłamy.</p>
+        </div>
+        <span className="flex-shrink-0 text-sm font-bold text-slate-500 tabular-nums" aria-live="polite">
           {ile}/{PYTANIA_TESTU.length}
         </span>
       </div>
-      <p className="text-sm text-slate-600 dark:text-slate-300 -mt-3">Weź do ręki decyzję i kosztorys od ubezpieczyciela. Test działa w Twojej przeglądarce – nic nie wysyłamy.</p>
+      <div className="h-1.5 rounded-full bg-slate-100 dark:bg-slate-800 overflow-hidden" aria-hidden="true">
+        <div className="h-full rounded-full bg-amber-400 transition-all duration-300" style={{ width: `${(ile / PYTANIA_TESTU.length) * 100}%` }} />
+      </div>
 
       <ol className="space-y-3">
         {PYTANIA_TESTU.map((p, i) => (
-          <li key={p.id} className="rounded-2xl border border-slate-200 dark:border-slate-800 p-4">
-            <p className="font-semibold text-slate-900 dark:text-white">
-              <span className="text-slate-400 tabular-nums mr-1.5">{i + 1}.</span>
-              {p.pytanie}
-            </p>
-            <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">{p.podpowiedz}</p>
-            <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-2 mt-3" role="radiogroup" aria-label={p.pytanie}>
+          <li key={p.id} className={`rounded-2xl border p-4 transition-colors ${odp[p.id] === 'tak' ? 'border-amber-300 dark:border-amber-800 bg-amber-50/50 dark:bg-amber-950/20' : 'border-slate-200 dark:border-slate-800'}`}>
+            <div className="flex gap-3">
+              <span className={`w-7 h-7 rounded-full text-sm font-black flex items-center justify-center flex-shrink-0 ${odp[p.id] ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900' : 'bg-slate-100 text-slate-500 dark:bg-slate-800 dark:text-slate-400'}`}>{i + 1}</span>
+              <div className="min-w-0">
+                <p className="font-semibold text-slate-900 dark:text-white">{p.pytanie}</p>
+                <p className="text-sm text-slate-500 dark:text-slate-400 mt-0.5">{p.podpowiedz}</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-3 sm:flex sm:flex-wrap gap-2 mt-3 sm:pl-10" role="radiogroup" aria-label={p.pytanie}>
               {OPCJE.map(([v, t]) => (
                 <button
                   key={v}
@@ -50,7 +58,7 @@ export default function SzybkiTest({ sprzedaz, cena }: { sprzedaz: boolean; cena
                   className={`sm:min-w-[5.5rem] rounded-xl px-3 sm:px-4 py-2 text-sm font-semibold border transition-colors ${
                     odp[p.id] === v
                       ? v === 'tak'
-                        ? 'bg-amber-500 border-amber-500 text-white'
+                        ? 'bg-amber-400 border-amber-400 text-slate-900'
                         : 'bg-slate-900 border-slate-900 text-white dark:bg-white dark:border-white dark:text-slate-900'
                       : 'border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:border-slate-500'
                   }`}
@@ -93,7 +101,7 @@ export default function SzybkiTest({ sprzedaz, cena }: { sprzedaz: boolean; cena
                   <HelpCircle className="w-4 h-4 mt-0.5 flex-shrink-0" aria-hidden="true" /> Przy {pytaniach(wynik.niepewne)} zaznaczyłeś „nie wiem” – Sprawdzacz pokaże, gdzie tego szukać w kosztorysie.
                 </p>
               )}
-              <a href="#zamow" className="inline-flex items-center justify-center rounded-xl bg-slate-900 hover:bg-slate-800 dark:bg-white dark:hover:bg-slate-200 text-white dark:text-slate-900 font-bold px-5 py-3">
+              <a href="#zamow" className="inline-flex items-center justify-center rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold px-5 py-3 shadow-lg shadow-amber-400/20">
                 {sprzedaz ? `Policz kwotę i przygotuj pismo · ${cena}` : 'Zobacz, co będzie w pakiecie'}
               </a>
             </>
