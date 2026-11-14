@@ -16,12 +16,24 @@ export function generateStaticParams() {
   return wszystkieTrasy().map((t) => ({ trasa: t.id }));
 }
 
+// Płatne odcinki autostrad, którymi najpewniej prowadzi trasa (te same, które strona pokazuje w ramce pod tabelą)
+const oplatyTrasy = (a: string, b: string) => ODCINKI.filter((o) => sugestieOdcinkow(a, b).includes(o.id));
+const kwota = (n: number) => n.toLocaleString('pl-PL', { minimumFractionDigits: Number.isInteger(n) ? 0 : 2 }) + ' zł';
+
 export async function generateMetadata({ params }: { params: Promise<{ trasa: string }> }): Promise<Metadata> {
   const t = trasa((await params).trasa);
   if (!t) return {};
+  const oplaty = oplatyTrasy(t.a.slug, t.b.slug);
+  // Tytuł odpowiada na to, o co ludzie pytają w Google: „ile km”, „ile kosztuje autostrada”, „ile za paliwo”.
+  const title = oplaty.length
+    ? `${t.a.nazwa} – ${t.b.nazwa}: ${t.km} km, autostrada i koszt paliwa`
+    : `${t.a.nazwa} – ${t.b.nazwa}: ${t.km} km, ile kosztuje paliwo?`;
+  const autostrada = oplaty.length
+    ? ` Płatna autostrada: ${oplaty.map((o) => `${o.nazwa.split(' ')[0]} – ${kwota(o.cena)}`).join(', ')} za osobówkę.`
+    : '';
   return {
-    title: `Koszt przejazdu ${t.a.nazwa} – ${t.b.nazwa}: ile za paliwo? (ok. ${t.km} km)`,
-    description: `Ile kosztuje paliwo na trasie ${t.a.nazwa} – ${t.b.nazwa}? Ok. ${t.km} km – policz koszt dla benzyny, diesla, LPG i auta elektrycznego, także na osobę.`,
+    title,
+    description: `Trasa ${t.a.nazwa} – ${t.b.nazwa} to ok. ${t.km} km.${autostrada} Policz koszt paliwa dla benzyny, diesla, LPG i elektryka, także na osobę.`,
     alternates: { canonical: `/koszt-trasy/${t.id}/` }
   };
 }
@@ -32,7 +44,7 @@ export default async function TrasaPage({ params }: { params: Promise<{ trasa: s
   const t = trasa((await params).trasa);
   if (!t) notFound();
   const ceny = cenyPaliw();
-  const oplaty = ODCINKI.filter((o) => sugestieOdcinkow(t.a.slug, t.b.slug).includes(o.id));
+  const oplaty = oplatyTrasy(t.a.slug, t.b.slug);
   // przykłady dla typowych aut
   const przyklady = [
     { n: 'Benzyna 1.4, kompakt', z: spalanieWTrasie('benzyna', domyslneSpalanie('benzyna', 1.4)), c: ceny.pb95, j: 'l' },
@@ -56,6 +68,7 @@ export default async function TrasaPage({ params }: { params: Promise<{ trasa: s
       <div className="space-y-3">
         <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
           Koszt przejazdu {t.a.nazwa} – {t.b.nazwa}
+          {oplaty.length > 0 && <span className="block text-xl sm:text-2xl font-bold text-slate-500 dark:text-slate-400 mt-1">paliwo i opłaty za autostradę</span>}
         </h1>
         <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
           Trasa {t.a.nazwa} – {t.b.nazwa} to ok. <strong>{t.km} km</strong> drogą (szacunek – dokładny dystans zależy od wybranej trasy). Poniżej koszt paliwa dla typowych

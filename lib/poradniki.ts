@@ -1864,7 +1864,7 @@ const STALE: Poradnik[] = [
     slug: 'zima-w-samochodzie',
     kategoria: 'bezpieczenstwo',
     ikona: 'zima',
-    tytul: 'Zima w samochodzie – odśnieżanie, akumulator, odpalanie z kabli',
+    tytul: 'Zima w samochodzie – mandat za nieodśnieżone auto, akumulator, kable',
     krotko: 'Zima w aucie',
     opis: 'Mandat za nieodśnieżone auto, rozładowany akumulator i zamarznięte zamki – jak przygotować auto do zimy i co zrobić, gdy rano nie chce odpalić.',
     liczby: [
@@ -2558,8 +2558,8 @@ const DODATKI: Record<string, { seoTytul: string; seoOpis: string; skrot: string
     ]
   },
   'zima-w-samochodzie': {
-    seoTytul: 'Zima w aucie – odśnieżanie, mandat, kable',
-    seoOpis: 'Mandat za nieodśnieżone auto (nawet 3000 zł), jak bezpiecznie odpalić auto z kabli krok po kroku i co wozić zimą w samochodzie. Porady na mroźny poranek.',
+    seoTytul: 'Mandat za nieodśnieżone auto – zima w aucie',
+    seoOpis: 'Jaki mandat za nieodśnieżony samochód (nawet 3000 zł i punkty karne), co trzeba odśnieżyć, jak odpalić auto z kabli i co wozić zimą w bagażniku.',
     skrot: [
       'Odśnieżasz szyby, dach, światła i tablice – za nieodśnieżone auto grozi nawet 3000 zł.',
       'Kable: czerwony plus–plus, czarny minus–masa. Odłączasz w odwrotnej kolejności.',

@@ -7,8 +7,8 @@ import { formatDate } from '@/lib/format';
 import KodStrony from '@/components/KodStrony';
 
 export const metadata: Metadata = {
-  title: 'Rankingi aut w Polsce – najpopularniejsze, najczęściej sprowadzane, z LPG',
-  description: 'Rankingi modeli aut na podstawie danych CEPiK: najpopularniejsze, najczęściej sprowadzane, najczęściej z LPG, najstarsze i najbardziej regionalne.',
+  title: `Rankingi aut w Polsce ${new Date().getFullYear()} – dane CEPiK`,
+  description: 'Najpopularniejsze auta w Polsce, najczęściej sprowadzane, z LPG, elektryczne i chińskie – rankingi modeli liczone z danych CEPiK o zarejestrowanych autach.',
   alternates: { canonical: '/rankingi/' }
 };
 

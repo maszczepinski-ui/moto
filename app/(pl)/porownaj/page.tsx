@@ -4,11 +4,14 @@ import { nazwaKarty } from '@/lib/opis';
 import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
 
-export const metadata: Metadata = {
-  title: 'Porównania aut – który model wybrać?',
-  description: 'Porównania popularnych aut „A czy B” na podstawie danych CEPiK: liczba aut w Polsce, roczniki, paliwa, pochodzenie, wymiary i silniki.',
-  alternates: { canonical: '/porownaj/' }
-};
+export function generateMetadata(): Metadata {
+  const ile = wszystkiePary().length;
+  return {
+    title: 'Porównywarka samochodów – który model wybrać?',
+    description: `Porównaj dwa auta obok siebie: ile ich jeździ w Polsce, roczniki, paliwa, pochodzenie, wymiary i silniki. ${ile} gotowych porównań „A czy B” wg danych CEPiK.`,
+    alternates: { canonical: '/porownaj/' }
+  };
+}
 
 export default function PorownaniaPage() {
   const pary = [...wszystkiePary()].sort((x, y) => y.a.cepik.liczbaWPolsce + y.b.cepik.liczbaWPolsce - (x.a.cepik.liczbaWPolsce + x.b.cepik.liczbaWPolsce));

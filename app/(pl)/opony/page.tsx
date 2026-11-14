@@ -17,7 +17,7 @@ import { site } from '@/config/site';
 const AKTUALIZACJA_OPON = '2026-11-03';
 
 export const metadata: Metadata = {
-  title: 'Opony zimowe – kiedy zmienić, bieżnik, ciśnienie',
+  title: 'Kiedy zmienić opony na zimowe? Bieżnik i ciśnienie',
   description:
     'Kiedy zmienić opony na zimowe (zasada 7°C), ile mm bieżnika, jak odczytać wiek i oznaczenia opony oraz jakie ciśnienie – gdzie w aucie szukać tabliczki.',
   alternates: { canonical: '/opony/' },

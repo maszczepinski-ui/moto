@@ -45,16 +45,38 @@ const PALIWO_SCHEMA: Record<string, string> = {
 };
 
 /** Tytuł i opis pod wyszukiwania typu „ile jest X w Polsce”, „X dane techniczne” */
+// polska odmiana: 1 wersja, 2 wersje, 5 wersji
+const odmianaLiczby = (n: number, j: string, d: string, w: string) => (n === 1 ? j : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? d : w);
+
 export function metadaneKarty(m: CarModel): Metadata {
   const name = nazwaKarty(m);
   const c = m.cepik;
   const silniki = m.silniki?.length ? `, silniki ${[...new Set(m.silniki.map((s) => s.nazwa))].slice(0, 4).join(', ')}` : '';
   const pal = c.paliwa.find((p) => p.nazwa !== 'Inne / brak danych');
+  // Tytuł dobieramy do tego, co karta naprawdę pokazuje – nie obiecujemy w Google specyfikacji, której na stronie nie ma.
+  const wersjeSilnikow = [...new Set((m.silniki || []).map((s) => `${s.nazwa}|${s.mocKm}`))].length;
+  const pierwszyRok = Number((m.lataProdukcji || '').slice(0, 4)) || 0;
+  const nowyModel = pierwszyRok >= new Date().getFullYear() - 2; // np. Chery Tiggo 9 – ludzie sprawdzają, ile ich już jeździ
+  const rokTeraz = c.pierwszeRejestracje?.at(-1);
+  const pojemnosc = c.pojemnosci?.find((p) => p.nazwa !== 'Inne / brak danych');
+  let title = `${name} – dane techniczne, rejestracje w Polsce, opinie`;
+  let description = `${name}${m.lataProdukcji ? ` (${m.lataProdukcji})` : ''}: ${fmt(c.liczbaWPolsce)} ${sztuk(c.liczbaWPolsce)} zarejestrowanych w Polsce wg CEPiK${
+    pal ? `, najczęściej ${pal.nazwa.toLowerCase()}` : ''
+  }${silniki}. Mapa województw, roczniki, wymiary.`;
+  if (wersjeSilnikow > 0) {
+    title = `${name} – specyfikacja, dane techniczne, wersje`;
+    description = `Specyfikacja ${name}${m.lataProdukcji ? ` (${m.lataProdukcji})` : ''}: ${wersjeSilnikow} ${odmianaLiczby(wersjeSilnikow, 'wersja silnikowa', 'wersje silnikowe', 'wersji silnikowych')}${silniki.replace(', silniki', ' –')}${
+      m.wymiary ? ', wymiary' : ''
+    }, co sprawdzić przy zakupie. ${fmt(c.liczbaWPolsce)} ${sztuk(c.liczbaWPolsce)} w Polsce wg CEPiK.`;
+  } else if (nowyModel) {
+    title = `${name} w Polsce – ile zarejestrowano, napęd, silnik`;
+    description = `${name} w Polsce: ${fmt(c.liczbaWPolsce)} ${sztuk(c.liczbaWPolsce)} zarejestrowanych wg CEPiK${
+      rokTeraz ? ` (${fmt(rokTeraz.liczba)} w ${rokTeraz.rok} r.)` : ''
+    }${pal ? `, najczęściej ${pal.nazwa.toLowerCase()}` : ''}${pojemnosc ? ` ${pojemnosc.nazwa}` : ''}. Rejestracje miesiąc po miesiącu i województwa.`;
+  }
   return {
-    title: `${name} – dane techniczne, rejestracje w Polsce, opinie`,
-    description: `${name}${m.lataProdukcji ? ` (${m.lataProdukcji})` : ''}: ${fmt(c.liczbaWPolsce)} ${sztuk(c.liczbaWPolsce)} zarejestrowanych w Polsce wg CEPiK${
-      pal ? `, najczęściej ${pal.nazwa.toLowerCase()}` : ''
-    }${silniki}. Mapa województw, roczniki, wymiary.`,
+    title,
+    description,
     alternates: { canonical: m.adres },
     openGraph: {
       title: `${name} – ile ich jeździ w Polsce i gdzie`,
