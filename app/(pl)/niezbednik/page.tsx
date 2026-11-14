@@ -113,7 +113,7 @@ export default function NiezbednikPage() {
                   [Zap, 'Pobierasz od razu'],
                   [Smartphone, 'PDF na telefon + Word'],
                   [Receipt, 'Faktura mailem'],
-                  [ShieldCheck, 'Płatność BLIK przez Przelewy24']
+                  [ShieldCheck, 'Płatność BLIK przez PayU']
                 ].map(([I, t]) => {
                   const Ikona = I as typeof Zap;
                   return (
@@ -238,7 +238,7 @@ export default function NiezbednikPage() {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white">Jak to działa</h2>
             <ol className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {[
-                [ShoppingCart, 'Zamawiasz', `Wpisujesz e-mail i płacisz ${cena} BLIK-iem lub przelewem przez Przelewy24.`],
+                [ShoppingCart, 'Zamawiasz', `Wpisujesz e-mail i płacisz ${cena} BLIK-iem, przelewem lub kartą przez PayU.`],
                 [Download, 'Pobierasz', 'Link do pobrania pojawia się od razu na stronie i przychodzi mailem razem z fakturą.'],
                 [Car, 'Jedziesz na oględziny', 'Check-lista na telefonie, wydrukowana umowa i protokół w teczce. Odhaczasz punkt po punkcie.']
               ].map(([I, t, o], i) => {

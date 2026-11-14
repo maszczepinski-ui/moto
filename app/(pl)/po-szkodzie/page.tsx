@@ -306,7 +306,7 @@ export default function PoSzkodziePage() {
 
         {/* ===== Zamówienie ===== */}
         <aside id="zamow" className="lg:sticky lg:top-20 space-y-4 scroll-mt-24">
-          <FormularzZamowienia aktywny={aktywny} cena={cena} regulamin="/niezbednik/regulamin/" produkt="szkoda" dopisek="Płatność obsługuje Przelewy24. Dostęp do Sprawdzacza i pliki dostaniesz od razu po zapłacie, a fakturę mailem." />
+          <FormularzZamowienia aktywny={aktywny} cena={cena} regulamin="/niezbednik/regulamin/" produkt="szkoda" dopisek="Płatność obsługuje PayU. Dostęp do Sprawdzacza i pliki dostaniesz od razu po zapłacie, a fakturę mailem." />
           <ul className="space-y-1.5 text-sm text-slate-700 dark:text-slate-300 px-1">
             {['Sprawdzacz kosztorysu na rok, na 3 urządzeniach', 'Pisma etapu 1 i 2 – Word, druk albo tekst', 'Poradniki PDF i dziennik szkody', 'Jednorazowa płatność, bez prowizji od odszkodowania'].map((x) => (
               <li key={x} className="flex gap-2">

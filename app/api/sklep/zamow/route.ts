@@ -1,9 +1,10 @@
-// Krok 1: formularz ze strony produktu (/niezbednik/, /po-szkodzie/) → rejestracja płatności w Przelewy24 → adres bramki płatności.
+// Krok 1: formularz ze strony produktu (/niezbednik/, /po-szkodzie/) → zamówienie w PayU → adres bramki płatności.
+// Numer zamówienia PayU zapisujemy w ciasteczku – po nim strona „Dziękujemy” sprawdza, czy płatność przeszła.
 import { site } from '@/config/site';
 import { produktAktywny } from '@/lib/sklep/konfiguracja';
 import { PRODUKTY, type IdProduktu } from '@/lib/sklep/produkty';
-import { zarejestruj } from '@/lib/sklep/p24';
-import { nowyNumer, poprawnyNip } from '@/lib/sklep/zamowienie';
+import { CIASTKO_ZAMOWIENIA, zarejestruj } from '@/lib/sklep/payu';
+import { nowyNumer, poprawnyNip, zapiszDaneKlienta } from '@/lib/sklep/zamowienie';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -42,22 +43,29 @@ export async function POST(req: Request) {
     if (!adres || !/^\d{2}-\d{3}$/.test(kod) || !miasto) return json({ blad: 'Uzupełnij adres firmy (ulica, kod w formacie 00-000, miasto).' }, 400);
   }
   const sessionId = nowyNumer(nip, id);
+  // PayU wymaga adresu IP kupującego
+  const ip = (req.headers.get('x-forwarded-for') || '').split(',')[0].trim() || req.headers.get('x-real-ip') || '127.0.0.1';
   try {
-    const url = await zarejestruj({
-      sessionId,
+    await zapiszDaneKlienta(sessionId, { klient, adres, kod, miasto });
+    const { url, orderId } = await zarejestruj({
+      numer: sessionId,
       kwotaGr: produkt.cenaGr,
       opis: produkt.nazwa,
       email,
       klient,
+      naFirme,
       adres,
       kod,
       miasto,
+      ipKlienta: ip,
       urlPowrotu: `${site.url}${produkt.sciezka}dziekujemy/?s=${encodeURIComponent(sessionId)}`,
-      urlStatusu: `${site.url}/api/sklep/p24/`
+      urlPowiadomien: `${site.url}/api/sklep/payu/`
     });
-    return json({ url });
+    const odp = json({ url });
+    odp.headers.append('Set-Cookie', `${CIASTKO_ZAMOWIENIA}=${encodeURIComponent(`${sessionId}~${orderId}`)}; Path=/; Max-Age=86400; HttpOnly; Secure; SameSite=Lax`);
+    return odp;
   } catch (e) {
-    console.error('[sklep] rejestracja P24', e);
-    return json({ blad: 'Nie udało się połączyć z Przelewy24. Spróbuj za chwilę.' }, 502);
+    console.error('[sklep] rejestracja PayU', e);
+    return json({ blad: 'Nie udało się połączyć z PayU. Spróbuj za chwilę.' }, 502);
   }
 }

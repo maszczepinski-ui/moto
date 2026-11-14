@@ -17,7 +17,7 @@ export const ADRES_SKLEPU = `${site.url}/niezbednik/`;
 export const WAZNOSC_LINKU_S = 7 * 24 * 3600;
 
 /** Klucze wspólne dla całego sklepu (bez plików konkretnych produktów) */
-const WSPOLNE = ['P24_MERCHANT_ID', 'P24_POS_ID', 'P24_API_KEY', 'P24_CRC', 'INFAKT_API_KEY', 'RESEND_API_KEY', 'MAIL_OD', 'SKLEP_SEKRET'] as const;
+const WSPOLNE = ['PAYU_POS_ID', 'PAYU_CLIENT_SECRET', 'PAYU_DRUGI_KLUCZ', 'INFAKT_API_KEY', 'RESEND_API_KEY', 'MAIL_OD', 'SKLEP_SEKRET'] as const;
 const WYMAGANE = [...WSPOLNE, 'PAKIET_URL'] as const;
 type Klucz = (typeof WYMAGANE)[number] | 'PAKIET_SZKODA_URL' | 'SZKODA_DANE_URL' | 'NIEZBEDNIK_DANE_URL';
 
@@ -45,8 +45,8 @@ export const env = (k: Klucz) => {
   return v;
 };
 
-/** „tak” w P24_SANDBOX / INFAKT_SANDBOX = środowisko testowe (bez prawdziwych pieniędzy i faktur) */
-export const testowyP24 = () => process.env.P24_SANDBOX === 'tak';
+/** „tak” w PAYU_SANDBOX / INFAKT_SANDBOX = środowisko testowe (bez prawdziwych pieniędzy i faktur) */
+export const testowyPayu = () => process.env.PAYU_SANDBOX === 'tak';
 export const testowyInfakt = () => process.env.INFAKT_SANDBOX === 'tak';
 
 export const zlotowki = (gr: number) => (gr / 100).toLocaleString('pl-PL', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' zł';

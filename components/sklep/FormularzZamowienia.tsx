@@ -1,5 +1,5 @@
 'use client';
-// Formularz zamówienia (Niezbędnik, pakiet po szkodzie): e-mail, dane do faktury, dwie obowiązkowe zgody → przekierowanie do Przelewy24.
+// Formularz zamówienia (Niezbędnik, pakiet po szkodzie): e-mail, dane do faktury, dwie obowiązkowe zgody → przekierowanie do PayU.
 import { useState } from 'react';
 import { Loader2, Lock } from 'lucide-react';
 
@@ -115,7 +115,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt 
         </span>
       </button>
       {aktywny && !gotowe && !praca && <p className="text-xs text-slate-500 text-center -mt-2">Uzupełnij dane i zaznacz obie zgody, aby przejść do płatności.</p>}
-      <p className="text-xs text-slate-500 text-center">{dopisek || 'Płatność obsługuje Przelewy24. Pakiet dostaniesz od razu po zapłacie, a fakturę mailem.'}</p>
+      <p className="text-xs text-slate-500 text-center">{dopisek || 'Płatność obsługuje PayU. Pakiet dostaniesz od razu po zapłacie, a fakturę mailem.'}</p>
     </form>
   );
 }

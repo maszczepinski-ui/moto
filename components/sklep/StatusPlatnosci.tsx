@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { CheckCircle2, Download, Loader2 } from 'lucide-react';
 
 export default function StatusPlatnosci({ sessionId }: { sessionId: string }) {
-  const [stan, setStan] = useState<'czeka' | 'oplacone' | 'nieznane'>('czeka');
+  const [stan, setStan] = useState<'czeka' | 'oplacone' | 'nieznane' | 'anulowane'>('czeka');
   const [link, setLink] = useState('');
   const [proby, setProby] = useState(0);
 
@@ -18,7 +18,7 @@ export default function StatusPlatnosci({ sessionId }: { sessionId: string }) {
         if (j.stan === 'oplacone') {
           setLink(j.link);
           setStan('oplacone');
-        } else if (j.stan === 'nieznane') setStan('nieznane');
+        } else if (j.stan === 'nieznane' || j.stan === 'anulowane') setStan(j.stan);
       } catch {
         /* spróbujemy jeszcze raz */
       }
@@ -39,6 +39,7 @@ export default function StatusPlatnosci({ sessionId }: { sessionId: string }) {
         <p className="text-sm text-slate-600 dark:text-slate-300">Ten sam link wysłaliśmy mailem. Fakturę dostaniesz osobnym mailem z systemu inFakt.</p>
       </div>
     );
+  if (stan === 'anulowane') return <p className="text-slate-700 dark:text-slate-300">Płatność została anulowana albo minął czas na zapłatę. Pieniądze nie zostały pobrane – możesz wrócić i złożyć zamówienie jeszcze raz.</p>;
   if (stan === 'nieznane') return <p className="text-slate-700 dark:text-slate-300">Nie znaleźliśmy tego zamówienia. Jeśli płatność przeszła, link do pobrania jest w mailu.</p>;
   return (
     <div className="space-y-2">

@@ -39,7 +39,7 @@ export default function RegulaminPage() {
     [
       'Zamówienie, płatność i dostarczenie',
       [
-        'Umowa zostaje zawarta z chwilą opłacenia zamówienia. Płatności obsługuje PayPro S.A. (Przelewy24): BLIK, szybki przelew lub karta.',
+        'Umowa zostaje zawarta z chwilą opłacenia zamówienia. Płatności obsługuje PayU S.A. z siedzibą w Poznaniu: BLIK, szybki przelew lub karta.',
         `Po zaksięgowaniu płatności kupujący otrzymuje link do pobrania plików na stronie i mailem. Link jest ważny 7 dni.${szkoda ? ' Dostęp do narzędzia na stronie działa od razu po płatności.' : ''}`,
         'Potwierdzenie zawarcia umowy, wraz z treścią złożonych oświadczeń, kupujący otrzymuje mailem.'
       ]

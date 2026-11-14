@@ -1,5 +1,5 @@
 // Produkty sklepu. Każdy produkt ma własną cenę, plik ZIP i (opcjonalnie) narzędzie dla kupujących.
-// Wspólne dla wszystkich: płatności (Przelewy24), faktury (inFakt), maile (Resend), regulamin.
+// Wspólne dla wszystkich: płatności (PayU), faktury (inFakt), maile (Resend), regulamin.
 // Klucze i adresy plików są TYLKO w zmiennych Vercela (repozytorium jest publiczne).
 import ustawienia from '@/data/sklep/produkty.json';
 
@@ -7,7 +7,7 @@ export type IdProduktu = 'niezbednik' | 'szkoda';
 
 export interface Produkt {
   id: IdProduktu;
-  /** początek numeru zamówienia (sessionId w Przelewy24) – po nim rozpoznajemy produkt */
+  /** początek numeru zamówienia (extOrderId w PayU) – po nim rozpoznajemy produkt */
   prefiks: 'NB' | 'NS';
   nazwa: string;
   /** krótka nazwa do maili i przycisków */

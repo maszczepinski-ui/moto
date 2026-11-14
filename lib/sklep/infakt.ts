@@ -42,7 +42,7 @@ export function trescFaktury(d: DaneFaktury) {
     invoice_date: dzisWarszawa(),
     sale_date: d.dataSprzedazy,
     payment_method: 'transfer',
-    notes: `Zamówienie ${d.numerZamowienia}, opłacone przez Przelewy24.`,
+    notes: `Zamówienie ${d.numerZamowienia}, opłacone przez PayU.`,
     ...(firma
       ? { client_business_activity_kind: 'other_business', client_company_name: d.klient, client_tax_code: d.nip }
       : { client_business_activity_kind: 'private_person', client_first_name: imie, client_last_name: reszta.join(' ') || imie }),
