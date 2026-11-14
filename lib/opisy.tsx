@@ -12,6 +12,10 @@ export interface OpisModelu {
   eksploatacja: string;
   koszty: string;
   podsumowanie: string;
+  /** dłuższe wprowadzenie: generacje, silniki, który wybrać (sekcja „O modelu” na karcie) */
+  wstep?: string;
+  /** źródła faktów z opisu – pokazywane pod kartą jako linki */
+  zrodla?: { nazwa: string; url: string }[];
 }
 
 const KATALOG = path.join(process.cwd(), 'data/opisy');

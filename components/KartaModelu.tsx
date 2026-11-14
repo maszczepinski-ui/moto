@@ -279,6 +279,7 @@ export default function KartaModelu({ m }: { m: CarModel }) {
   // przypięty spis treści – tylko sekcje, które na tej karcie są
   const spis: PozycjaSpisu[] = [
     ...(oceny.length ? [{ id: 'plusy-minusy', nazwa: 'Plusy i minusy' }] : []),
+    ...(opisAI?.wstep ? [{ id: 'o-modelu', nazwa: 'O modelu' }] : []),
     ...(opisAI || m.usterki?.length ? [{ id: 'usterki', nazwa: 'Usterki' }] : []),
     ...(m.silniki?.length ? [{ id: 'silniki', nazwa: 'Silniki' }] : []),
     ...(kody.length ? [{ id: 'kody', nazwa: 'Kody błędów' }] : []),
@@ -391,6 +392,14 @@ export default function KartaModelu({ m }: { m: CarModel }) {
       <div id="plusy-minusy" className="scroll-mt-32 empty:hidden">
         <PlusyMinusy oceny={oceny} m={m} />
       </div>
+
+      {/* O modelu – dłuższy opis redakcji (generacje, silniki, który wybrać) */}
+      {opisAI?.wstep && (
+        <section id="o-modelu" className="scroll-mt-32 space-y-4">
+          <Naglowek ikona={<Info className="w-6 h-6 text-steel-600" aria-hidden="true" />}>{nazwaKarty(m)} – generacje, silniki, który wybrać</Naglowek>
+          <Markdown tekst={opisAI.wstep} />
+        </section>
+      )}
 
       <div id="usterki" className="scroll-mt-32 empty:hidden">
       {/* Eksploatacja i usterki */}
@@ -659,6 +668,13 @@ export default function KartaModelu({ m }: { m: CarModel }) {
               <li key={i}>{z}</li>
             ))}
             {opisAI && <li>Opis eksploatacji: redakcja {site.name} na podstawie danych technicznych i CEPiK ({formatDate(opisAI.wygenerowano)})</li>}
+            {opisAI?.zrodla?.map((z) => (
+              <li key={z.url}>
+                <a href={z.url} target="_blank" rel="noopener noreferrer" className="underline hover:text-steel-700">
+                  {z.nazwa}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </footer>

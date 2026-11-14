@@ -63,7 +63,7 @@ type Dane = {
 };
 type ModelOpcja = { slug: string; nazwa: string; liczba: number; adres: string };
 type StronaOpcja = { sciezka: string; nazwa: string };
-type Szkic = { slug: string; nazwa: string; adres: string; eksploatacja: string; koszty: string; podsumowanie: string; wygenerowano: string };
+type Szkic = { slug: string; nazwa: string; adres: string; eksploatacja: string; koszty: string; podsumowanie: string; wygenerowano: string; wstep?: string; zrodla?: { nazwa: string; url: string }[] };
 
 const PLIK = 'data/panel.json';
 const K_TOKEN = 'atlas-admin-token';
@@ -1141,6 +1141,12 @@ export default function AdminPanel({
                       </div>
                       {otwartySzkic === s.slug && (
                         <div className="text-sm space-y-3 bg-slate-50 dark:bg-slate-800/50 rounded-xl p-4 whitespace-pre-line">
+                          {s.wstep && (
+                            <div>
+                              <strong>O modelu (generacje, silniki)</strong>
+                              <div>{s.wstep}</div>
+                            </div>
+                          )}
                           <div>
                             <strong>Eksploatacja i newralgiczne punkty</strong>
                             <div>{s.eksploatacja}</div>
@@ -1153,6 +1159,20 @@ export default function AdminPanel({
                             <strong>Podsumowanie rynkowe</strong>
                             <div>{s.podsumowanie}</div>
                           </div>
+                          {s.zrodla && s.zrodla.length > 0 && (
+                            <div>
+                              <strong>Źródła</strong>
+                              <ul className="list-disc pl-5">
+                                {s.zrodla.map((z) => (
+                                  <li key={z.url}>
+                                    <a href={z.url} target="_blank" rel="noopener noreferrer" className="underline">
+                                      {z.nazwa}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
                         </div>
                       )}
                     </li>
