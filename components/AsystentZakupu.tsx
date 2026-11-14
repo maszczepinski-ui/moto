@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { CarModel } from '@/types/car-model';
+import { zakupWGoogle, BEZ_INDEKSU } from '@/lib/indeksowanie';
 import { getModelBySlug } from '@/lib/models';
 import { nazwaKarty } from '@/lib/opis';
 import { opisZatwierdzony, Markdown } from '@/lib/opisy';
@@ -27,7 +28,9 @@ export function metadaneZakupu(m: CarModel): Metadata {
       m.cepik.liczbaWPolsce
     )} w Polsce wg CEPiK.`,
     alternates: { canonical: adresZakupu(m) },
-    openGraph: { title: `Kupujesz ${name}? Sprawdź, zanim zapłacisz`, type: 'article', url: adresZakupu(m) }
+    openGraph: { title: `Kupujesz ${name}? Sprawdź, zanim zapłacisz`, type: 'article', url: adresZakupu(m) },
+    // lista na oględziny bez treści dla konkretnego modelu jest prawie taka sama na każdej karcie – Google jej nie indeksuje
+    ...(zakupWGoogle(m) ? {} : { robots: BEZ_INDEKSU })
   };
 }
 

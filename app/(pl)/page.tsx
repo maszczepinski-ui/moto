@@ -342,6 +342,27 @@ export default function HomePage() {
           nadwozia={[...new Set(models.flatMap((m) => m.nadwozia))]}
           wszystkich={models.length}
         />
+        {/* Zwykłe linki do kolejnych popularnych modeli – Google szybciej odwiedza karty, do których prowadzi link ze strony głównej */}
+        <nav aria-label="Kolejne popularne modele" className="mt-8">
+          <h3 className="text-sm font-bold uppercase tracking-wider text-slate-500 mb-3">Kolejne popularne modele</h3>
+          <ul className="flex flex-wrap gap-2">
+            {[...models]
+              .sort((a, b) => b.cepik.liczbaWPolsce - a.cepik.liczbaWPolsce)
+              .slice(24)
+              .filter((m) => m.wszystkieGeneracje)
+              .slice(0, 100)
+              .map((m) => (
+                <li key={m.slug}>
+                  <Link
+                    href={m.adres}
+                    className="inline-block text-sm bg-white dark:bg-slate-900 ring-1 ring-slate-200 dark:ring-slate-800 hover:ring-rust-400 rounded-full px-3 py-1.5 text-slate-700 dark:text-slate-300"
+                  >
+                    {m.marka} {m.model}
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </nav>
       </section>
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6">

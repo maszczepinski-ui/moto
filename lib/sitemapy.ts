@@ -15,6 +15,7 @@ import { adresPoradnika, hreflang, poradnikiObce } from '@/lib/tlumaczenia';
 import { ADRESY_NARZEDZI } from '@/lib/tlumaczenia/narzedzia';
 import { sklepAktywny } from '@/lib/sklep/konfiguracja';
 import { ocenyKarty } from '@/lib/plusy-minusy';
+import { porownanieWGoogle, zakupWGoogle } from '@/lib/indeksowanie';
 
 const LIMIT = 5000;
 interface Adres {
@@ -64,7 +65,7 @@ function grupy(): Record<string, Adres[]> {
       ...(sklepAktywny() ? [{ loc: '/niezbednik/', changefreq: 'monthly', priority: 0.8 }] : []),
       // darmowy test kosztorysu działa zawsze, więc strona po szkodzie jest w mapie od razu
       { loc: '/po-szkodzie/', changefreq: 'monthly', priority: 0.8 },
-      ...modele.map((m) => ({ loc: `${m.adres}zakup/`, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: 0.6 }))
+      ...modele.filter(zakupWGoogle).map((m) => ({ loc: `${m.adres}zakup/`, lastmod: m.dataAktualizacji, changefreq: 'monthly', priority: 0.6 }))
     ],
     kierowca: [
       { loc: '/koszt-trasy/', changefreq: 'weekly', priority: 0.8 },
@@ -100,7 +101,7 @@ function grupy(): Record<string, Adres[]> {
     ...Object.values(ADRESY_NARZEDZI).map((a) => ({ loc: a[j], changefreq: 'monthly', priority: 0.8 })),
     ...poradnikiObce(j).map((p) => ({ loc: adresPoradnika(j, p.slug), lastmod: p.aktualizacja, changefreq: 'monthly', priority: 0.7 }))
   ]);
-  const pary = wszystkiePary().map((p) => ({ loc: `/porownaj/${p.id}/`, changefreq: 'monthly', priority: 0.5 }));
+  const pary = wszystkiePary().filter((p) => porownanieWGoogle(p.id)).map((p) => ({ loc: `/porownaj/${p.id}/`, changefreq: 'monthly', priority: 0.5 }));
   for (let i = 0; i * LIMIT < pary.length; i++) out[`porownania-${i + 1}`] = pary.slice(i * LIMIT, (i + 1) * LIMIT);
   const rodzinne = karty(modele.filter((m) => m.wszystkieGeneracje), 0.7);
   for (let i = 0; i * LIMIT < rodzinne.length || i === 0; i++) out[`modele-${i + 1}`] = rodzinne.slice(i * LIMIT, (i + 1) * LIMIT);

@@ -1,3 +1,4 @@
+import { porownanieWGoogle, BEZ_INDEKSU } from '@/lib/indeksowanie';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { wszystkiePary, paraPoId } from '@/lib/porownania';
@@ -32,7 +33,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${a} czy ${b}? Porównanie – rejestracje w Polsce, silniki, wymiary`,
     description: `${a} czy ${b}: w Polsce jest ${fmt(p.a.cepik.liczbaWPolsce)} vs ${fmt(p.b.cepik.liczbaWPolsce)} zarejestrowanych aut. Porównanie roczników, paliw, pochodzenia, wymiarów i silników na podstawie danych CEPiK.`,
-    alternates: { canonical: `/porownaj/${p.id}/` }
+    alternates: { canonical: `/porownaj/${p.id}/` },
+    // mniej popularne porównania: dla ludzi tak, dla Google nie (patrz lib/indeksowanie.ts)
+    ...(porownanieWGoogle(p.id) ? {} : { robots: BEZ_INDEKSU })
   };
 }
 
