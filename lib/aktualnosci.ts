@@ -4,7 +4,7 @@
 import fs from 'fs';
 import path from 'path';
 
-export type TypAktualnosci = 'akcje-serwisowe' | 'komunikaty' | 'premiery' | 'jakie-auto';
+export type TypAktualnosci = 'wiadomosci' | 'akcje-serwisowe' | 'komunikaty' | 'premiery' | 'jakie-auto';
 
 /** Jedno auto polecane w poradniku zakupowym („Sportowe auto do 20 000 zł” itd.) */
 export interface AutoZakupowe {
@@ -116,6 +116,13 @@ export interface Aktualnosc {
 }
 
 export const TYPY: Record<TypAktualnosci, { nazwa: string; krotko: string; opis: string; seoTytul: string; seoOpis: string }> = {
+  wiadomosci: {
+    nazwa: 'Z rynku',
+    krotko: 'Z rynku',
+    opis: 'Najważniejsze wiadomości motoryzacyjne z Polski i ze świata – krótko, własnymi słowami i z komentarzem, co to znaczy dla kierowcy.',
+    seoTytul: 'Wiadomości motoryzacyjne – z rynku i z dróg',
+    seoOpis: 'Wiadomości motoryzacyjne z Polski i ze świata omówione prostym językiem: zmiany na rynku aut, ceny, przepisy i co z tego wynika dla kierowcy.'
+  },
   'akcje-serwisowe': {
     nazwa: 'Akcje serwisowe',
     krotko: 'Akcje serwisowe',

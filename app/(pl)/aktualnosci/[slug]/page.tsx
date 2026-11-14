@@ -249,6 +249,8 @@ function Wpis({ a }: { a: Aktualnosc }) {
         <p className="text-slate-500">
           {a.typ === 'jakie-auto'
             ? 'Ocena redakcji MotoRaport. Ceny pochodzą z ogłoszeń i z czasem się zmieniają – przed zakupem sprawdź aktualne oferty. Spalanie: średnie zgłaszane przez kierowców.'
+            : a.typ === 'wiadomosci'
+            ? 'Tekst redakcyjny MotoRaport. Fakty sprawdziliśmy w źródłach podanych wyżej – komentarz i wnioski są nasze.'
             : a.typ === 'premiery'
             ? 'Tekst redakcyjny MotoRaport napisany na podstawie informacji prasowej producenta.'
             : a.typ === 'akcje-serwisowe'

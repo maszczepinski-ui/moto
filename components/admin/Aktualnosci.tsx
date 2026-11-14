@@ -1,13 +1,14 @@
 'use client';
 // Zakładka „Aktualności”: szkice z automatu (akcje serwisowe, komunikaty, premiery) – czytasz, poprawiasz i publikujesz.
 import { useEffect, useState } from 'react';
-import { RefreshCw, Play, Save, Send, Trash2, X, ExternalLink, Newspaper, Undo2, CircleCheck, CircleAlert } from 'lucide-react';
-import { ApiPelne, input, etykieta, karta, przyciskG, przyciskD, czytajJson, zapiszPlik } from '@/components/admin/wspolne';
+import { RefreshCw, Play, Save, Send, Trash2, X, ExternalLink, Newspaper, Undo2, CircleCheck, CircleAlert, FilePlus2, Plus, Copy } from 'lucide-react';
+import { ApiPelne, input, etykieta, karta, przyciskG, przyciskD, czytajJson, zapiszPlik, slugify } from '@/components/admin/wspolne';
+import Inspiracje, { polecenieDlaClaude, type WpisRss } from '@/components/admin/Inspiracje';
 
 type Pozycja = { marka: string; model: string; problem: string; zalecenie: string; produkcja?: string; kodAkcji?: string; poziom?: string; kraj?: string; link: string; karta?: string };
 type Wpis = {
   slug: string;
-  typ: 'akcje-serwisowe' | 'komunikaty' | 'premiery' | 'jakie-auto';
+  typ: 'wiadomosci' | 'akcje-serwisowe' | 'komunikaty' | 'premiery' | 'jakie-auto';
   tytul: string;
   lead: string;
   data: string;
@@ -27,16 +28,34 @@ type Plik = { wpis: Wpis; sha: string };
 type Raport = { data: string; ai: boolean; zrodla: { nazwa: string; ok: boolean; nowe: number; szkice: number; blad?: string }[] };
 
 const WORKFLOW = 'aktualnosci.yml';
-const NAZWY = { 'akcje-serwisowe': 'Akcja serwisowa', komunikaty: 'Komunikat', premiery: 'Premiera', 'jakie-auto': 'Poradnik zakupowy' } as const;
-const KOLORY = { 'akcje-serwisowe': 'bg-amber-100 text-amber-900', komunikaty: 'bg-sky-100 text-sky-900', premiery: 'bg-violet-100 text-violet-900', 'jakie-auto': 'bg-emerald-100 text-emerald-900' } as const;
+const NAZWY = { wiadomosci: 'Z rynku', 'akcje-serwisowe': 'Akcja serwisowa', komunikaty: 'Komunikat', premiery: 'Premiera', 'jakie-auto': 'Poradnik zakupowy' } as const;
+const KOLORY = { wiadomosci: 'bg-rose-100 text-rose-900', 'akcje-serwisowe': 'bg-amber-100 text-amber-900', komunikaty: 'bg-sky-100 text-sky-900', premiery: 'bg-violet-100 text-violet-900', 'jakie-auto': 'bg-emerald-100 text-emerald-900' } as const;
 
-export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: string }) {
+/** Znacznik nowego wpisu, który nie ma jeszcze pliku w repozytorium */
+const NOWY = '__nowy__';
+/** Plan tekstu dla nowego wpisu – napis „Do uzupełnienia” blokuje publikację, dopóki go nie zastąpisz własnym tekstem */
+const SZABLON = `## Co się stało
+
+Do uzupełnienia: 2–3 zdania własnymi słowami – kto, co, kiedy, ile kosztuje. Fakty sprawdź w źródle.
+
+## Co to znaczy dla kierowcy w Polsce
+
+Do uzupełnienia: kogo to dotyczy, od kiedy, co trzeba zrobić albo na co uważać. Jeśli chodzi o konkretny model – dodaj, ile takich aut jeździ w Polsce (karta modelu na stronie).
+
+## Nasze zdanie
+
+Do uzupełnienia: krótki komentarz od Ciebie – to odróżnia wpis od setki takich samych w internecie.
+`;
+const dzis = () => new Date().toLocaleDateString('sv-SE');
+
+export default function Aktualnosci({ api, branch, token }: { api: ApiPelne; branch: string; token: string }) {
   const [pliki, setPliki] = useState<Plik[] | null>(null);
   const [raport, setRaport] = useState<Raport | null>(null);
   const [otwarty, setOtwarty] = useState('');
   const [w, setW] = useState<Wpis | null>(null);
   const [kom, setKom] = useState<{ ok: boolean; tekst: string } | null>(null);
   const [praca, setPraca] = useState(false);
+  const [inspiracja, setInspiracja] = useState<WpisRss | null>(null);
 
   async function wczytaj() {
     try {
@@ -64,6 +83,37 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
     setOtwarty(p.wpis.slug);
     setW(JSON.parse(JSON.stringify(p.wpis)));
     setKom(null);
+    pokazEdytor();
+  }
+
+  const pokazEdytor = () => setTimeout(() => document.getElementById('edytor-aktualnosci')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
+
+  /** Nowy wpis – pusty albo na podstawie nagłówka z „Inspiracji” */
+  function nowyWpis(r?: WpisRss) {
+    setOtwarty(NOWY);
+    setInspiracja(r || null);
+    setW({
+      slug: '',
+      typ: 'wiadomosci',
+      tytul: '',
+      lead: '',
+      data: dzis(),
+      tresc: SZABLON,
+      zrodla: r ? [{ nazwa: `${r.zrodlo} – ${r.tytul}`, url: r.link }] : [],
+      status: 'szkic'
+    });
+    setKom(null);
+    pokazEdytor();
+  }
+
+  /** Nazwa pliku z tytułu; gdy taka już jest – dopisujemy datę */
+  function nowySlug(tytul: string, data: string) {
+    const baza = slugify(tytul) || `wpis-${data}`;
+    const zajete = new Set((pliki || []).map((p) => p.wpis.slug));
+    if (!zajete.has(baza)) return baza;
+    let s = `${baza}-${data}`.slice(0, 80);
+    for (let i = 2; zajete.has(s); i++) s = `${baza}-${i}`;
+    return s;
   }
 
   async function usunPlik(sciezka: string, opis: string) {
@@ -104,6 +154,11 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
     if (!w || !pliki) return;
     const p = pliki.find((x) => x.wpis.slug === otwarty);
     const nowy: Wpis = { ...w, ...(status ? { status } : {}) };
+    nowy.zrodla = nowy.zrodla.filter((z) => z.url.trim()).map((z) => ({ nazwa: z.nazwa.trim() || z.url.trim(), url: z.url.trim() }));
+    if (otwarty === NOWY) {
+      if (!nowy.tytul.trim()) return setKom({ ok: false, tekst: 'Wpisz tytuł – z niego powstanie adres wpisu.' });
+      nowy.slug = nowySlug(nowy.tytul, nowy.data);
+    }
     if (nowy.status === 'opublikowany') {
       if (!nowy.tytul.trim() || !nowy.lead.trim() || !nowy.tresc.trim()) return setKom({ ok: false, tekst: 'Przed publikacją uzupełnij tytuł, wstęp i treść.' });
       // Blokujemy tylko, gdy w treści został automatyczny napis „Do uzupełnienia”.
@@ -114,8 +169,9 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
     setPraca(true);
     try {
       const sha = await zapiszPlik(api, `data/aktualnosci/${nowy.slug}.json`, JSON.stringify(nowy, null, 2) + '\n', `Panel: aktualność „${nowy.tytul}”${status === 'opublikowany' ? ' – publikacja' : ''}`, branch, p?.sha);
-      setPliki(pliki.map((x) => (x.wpis.slug === nowy.slug ? { wpis: nowy, sha } : x)));
+      setPliki(p ? pliki.map((x) => (x.wpis.slug === nowy.slug ? { wpis: nowy, sha } : x)) : [{ wpis: nowy, sha }, ...pliki]);
       setW(nowy);
+      setOtwarty(nowy.slug);
       setKom({ ok: true, tekst: nowy.status === 'opublikowany' ? 'Opublikowano. Wpis pojawi się na stronie po przebudowie (kilka minut).' : 'Zapisano szkic – na stronie go nie widać.' });
     } catch (e) {
       setKom({ ok: false, tekst: `Nie udało się zapisać: ${(e as Error).message}` });
@@ -127,6 +183,11 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
   async function usun() {
     if (!w || !pliki) return;
     const p = pliki.find((x) => x.wpis.slug === otwarty);
+    if (otwarty === NOWY) {
+      setOtwarty('');
+      setW(null);
+      return;
+    }
     if (!p || !window.confirm(`Usunąć „${p.wpis.tytul}”? Automat nie utworzy go ponownie.`)) return;
     setPraca(true);
     try {
@@ -162,6 +223,8 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
 
   return (
     <div className="space-y-4">
+      <Inspiracje api={api} branch={branch} token={token} onNapisz={nowyWpis} />
+
       {kom && <div role="status" className={`rounded-xl px-4 py-3 text-sm ${kom.ok ? 'bg-emerald-50 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200' : 'bg-rose-50 text-rose-900 dark:bg-rose-950 dark:text-rose-200'}`}>{kom.tekst}</div>}
 
       <section className={karta}>
@@ -178,6 +241,9 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
           </button>
           <button type="button" onClick={wczytaj} disabled={praca} className={przyciskD}>
             <RefreshCw className="w-4 h-4" aria-hidden="true" /> Odśwież listę
+          </button>
+          <button type="button" onClick={() => nowyWpis()} disabled={praca} className={przyciskD}>
+            <FilePlus2 className="w-4 h-4" aria-hidden="true" /> Nowy wpis
           </button>
         </div>
 
@@ -226,7 +292,31 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
       </section>
 
       {w && (
-        <section className={karta}>
+        <section id="edytor-aktualnosci" className={`${karta} scroll-mt-20`}>
+          {otwarty === NOWY && (
+            <div className="rounded-xl bg-sky-50 dark:bg-sky-950/40 px-4 py-3 text-sm text-sky-950 dark:text-sky-100 space-y-2">
+              <p className="font-bold">Nowy wpis{inspiracja ? ` – temat: „${inspiracja.tytul}”` : ''}</p>
+              <p>
+                Plan tekstu jest już w treści. Zastąp każde „Do uzupełnienia” własnymi zdaniami – dopóki choć jedno zostanie, wpisu nie da się opublikować. Fakty sprawdź w źródle
+                (link niżej), najlepiej też u producenta albo w urzędzie.
+              </p>
+              {inspiracja && (
+                <button type="button" className={przyciskD} onClick={() => navigator.clipboard?.writeText(polecenieDlaClaude(inspiracja)).then(() => setKom({ ok: true, tekst: 'Skopiowano polecenie – wklej je w czacie z Claude.' }))}>
+                  <Copy className="w-4 h-4" aria-hidden="true" /> Kopiuj polecenie dla Claude
+                </button>
+              )}
+            </div>
+          )}
+          {(otwarty === NOWY || w.typ === 'wiadomosci') && (
+            <div>
+              <label className={etykieta} htmlFor="a-typ">Dział</label>
+              <select id="a-typ" className={`${input} max-w-xs`} value={w.typ} onChange={(e) => ustaw({ typ: e.target.value as Wpis['typ'] })}>
+                <option value="wiadomosci">Z rynku (wiadomości)</option>
+                <option value="komunikaty">Komunikaty dla kierowców (przepisy, urzędy)</option>
+                <option value="premiery">Premiery i nowości</option>
+              </select>
+            </div>
+          )}
           <div className="flex flex-wrap items-center gap-2 text-xs">
             <span className={`rounded-full px-2 py-0.5 font-semibold ${KOLORY[w.typ]}`}>{NAZWY[w.typ]}</span>
             {w.zrodla.map((z) => (
@@ -302,6 +392,22 @@ export default function Aktualnosci({ api, branch }: { api: ApiPelne; branch: st
               ))}
             </div>
           )}
+
+          <div className="space-y-2">
+            <span className={etykieta}>Źródła (pokażą się pod wpisem)</span>
+            {w.zrodla.map((z, i) => (
+              <div key={i} className="grid gap-2 sm:grid-cols-[1fr_1.4fr_auto] items-center">
+                <input className={input} aria-label="Nazwa źródła" placeholder="np. Ministerstwo Infrastruktury" value={z.nazwa} onChange={(e) => ustaw({ zrodla: w.zrodla.map((x, j) => (j === i ? { ...x, nazwa: e.target.value } : x)) })} />
+                <input className={input} aria-label="Adres źródła" placeholder="https://…" value={z.url} onChange={(e) => ustaw({ zrodla: w.zrodla.map((x, j) => (j === i ? { ...x, url: e.target.value } : x)) })} />
+                <button type="button" aria-label="Usuń źródło" className="text-rose-700 justify-self-start" onClick={() => ustaw({ zrodla: w.zrodla.filter((_, j) => j !== i) })}>
+                  <X className="w-4 h-4" aria-hidden="true" />
+                </button>
+              </div>
+            ))}
+            <button type="button" className={przyciskD} onClick={() => ustaw({ zrodla: [...w.zrodla, { nazwa: '', url: '' }] })}>
+              <Plus className="w-4 h-4" aria-hidden="true" /> Dodaj źródło
+            </button>
+          </div>
 
           <p className="text-xs text-slate-500">
             Zanim opublikujesz: porównaj tekst ze źródłem (link wyżej), popraw błędy i usuń to, czego nie jesteś pewien. Wpis idzie pod Twoim nazwiskiem.

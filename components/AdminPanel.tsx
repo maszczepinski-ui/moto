@@ -426,7 +426,7 @@ export default function AdminPanel({
     {
       nazwa: 'Treści',
       pozycje: [
-        { k: 'aktualnosci', nazwa: 'Aktualności', ikona: <Newspaper className={ik} />, opis: 'Szkice z automatu – przejrzyj, popraw i opublikuj.' },
+        { k: 'aktualnosci', nazwa: 'Aktualności', ikona: <Newspaper className={ik} />, opis: 'Inspiracje z RSS, własne wpisy i szkice z automatu – napisz, popraw i opublikuj.' },
         { k: 'artykuly', nazwa: 'Artykuły z filmów', ikona: <Clapperboard className={ik} />, opis: 'Wpisy na stronie powstające z Twoich filmów na YouTube.' },
         { k: 'filmy', nazwa: 'Filmy na kartach', ikona: <Film className={ik} />, opis: 'Przypnij film z YouTube do karty modelu i przygotuj opis pod film.' },
         { k: 'opisy', nazwa: 'Opisy modeli', ikona: <FileText className={ik} />, opis: 'Szkice opisów kart modeli czekające na Twoje zatwierdzenie.', licznik: szkice.length }
@@ -1099,7 +1099,7 @@ export default function AdminPanel({
           {zakladka === 'statystyki' && <Statystyki token={token} />}
           {zakladka === 'aktualizacje' && <Aktualizacje api={api} branch={branch} stanDanych={stanDanych} />}
           {zakladka === 'artykuly' && <ArtykulyFilmow api={api} branch={branch} modele={modele} />}
-          {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} />}
+          {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} token={token} />}
           {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
           {zakladka === 'chinskie' && <ChinskieAuta api={api} branch={branch} nazwy={nazwyModeli} />}
           {zakladka === 'silniki' && <Silniki api={api} branch={branch} nazwy={nazwyModeli} uzycia={uzyciaSilnikow()} token={token} modele={modele} pokrycie={pokrycie} />}

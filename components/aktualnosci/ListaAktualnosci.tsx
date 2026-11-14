@@ -1,9 +1,10 @@
 import Link from 'next/link';
-import { ArrowRight, Wrench, Landmark, Sparkles, CarFront } from 'lucide-react';
+import { ArrowRight, Wrench, Landmark, Sparkles, CarFront, Newspaper } from 'lucide-react';
 import { TYPY, bezLamania, type Aktualnosc, type TypAktualnosci } from '@/lib/aktualnosci';
 import { formatDate } from '@/lib/format';
 
 export const STYL_TYPU: Record<TypAktualnosci, { ikona: typeof Wrench; chip: string; pasek: string }> = {
+  wiadomosci: { ikona: Newspaper, chip: 'bg-rose-50 text-rose-800 dark:bg-rose-950/50 dark:text-rose-300', pasek: 'bg-rose-500' },
   'akcje-serwisowe': { ikona: Wrench, chip: 'bg-amber-50 text-amber-800 dark:bg-amber-950/50 dark:text-amber-300', pasek: 'bg-amber-500' },
   komunikaty: { ikona: Landmark, chip: 'bg-sky-50 text-sky-800 dark:bg-sky-950/50 dark:text-sky-300', pasek: 'bg-sky-500' },
   premiery: { ikona: Sparkles, chip: 'bg-violet-50 text-violet-800 dark:bg-violet-950/50 dark:text-violet-300', pasek: 'bg-violet-500' },
