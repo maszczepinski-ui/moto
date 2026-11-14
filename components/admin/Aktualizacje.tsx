@@ -9,10 +9,7 @@ export type Api = (sciezka: string, metoda?: 'GET' | 'POST' | 'PUT', body?: obje
 
 const WORKFLOW = 'aktualizuj-dane.yml';
 const PLIK_RYNEK = 'data/rynek-nowych.json';
-const input =
-  'w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-900 dark:text-white focus:ring-2 focus:ring-steel-500 focus:outline-none';
-const etykieta = 'block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1';
-const karta = 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 space-y-4';
+import { input, etykieta, karta } from './wspolne';
 
 type Przebieg = { id: number; status: string; conclusion: string | null; created_at: string; html_url: string; event: string };
 type Okres = { id: string; tytul: string; razem: number; zmianaRdR: number; marki: [string, number][]; modele: [string, number][]; chinskie: [string, number][]; udzialChinskich: string; zrodlo: string; url: string };

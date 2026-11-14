@@ -29,7 +29,10 @@ import {
   Palette,
   BarChart3,
   Trophy,
-  Cog
+  Cog,
+  ExternalLink,
+  LayoutDashboard,
+  X
 } from 'lucide-react';
 
 type Linki = { vin: string; oc: string; ac: string; nnw: string };
@@ -65,12 +68,10 @@ type Szkic = { slug: string; nazwa: string; adres: string; eksploatacja: string;
 const PLIK = 'data/panel.json';
 const K_TOKEN = 'atlas-admin-token';
 const K_REPO = 'atlas-admin-repo';
+const K_ZAKLADKA = 'atlas-admin-zakladka';
 
-const input =
-  'w-full bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-lg px-3 py-2 text-sm text-slate-900 dark:text-white focus:ring-2 focus:ring-steel-500 focus:outline-none';
+import { input, karta, etykieta } from '@/components/admin/wspolne';
 const kodInput = `${input} font-mono text-xs min-h-[120px]`;
-const karta = 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 space-y-4';
-const etykieta = 'block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1';
 
 const NAZWY_MODULOW: Record<ModulId, string> = { vin: 'Raport VIN', ubezpieczenia: 'Ubezpieczenia OC/AC/NNW', czesci: 'Części i eksploatacja', adsense: 'Reklamy AdSense', ogledziny: 'Oględziny przed zakupem', finansowanie: 'Kredyt / leasing' };
 const NAZWY_REGUL: Record<Regula['typ'], string> = {
@@ -232,7 +233,28 @@ export default function AdminPanel({
     setToken(pamiec.get(K_TOKEN));
     setZapamietaj(pamiec.trwaly(K_TOKEN));
     setRepo(pamiec.get(K_REPO) || repoDomyslne);
+    try {
+      const z = localStorage.getItem(K_ZAKLADKA) as Zakladka | null;
+      if (z) setZakladka(z);
+    } catch {
+      /* brak pamięci przeglądarki */
+    }
   }, [repoDomyslne]);
+
+  // ostrzeżenie przed zamknięciem karty, gdy zmiany nie są zapisane
+  useEffect(() => {
+    if (!zmiany) return;
+    const ostrzez = (e: BeforeUnloadEvent) => e.preventDefault();
+    window.addEventListener('beforeunload', ostrzez);
+    return () => window.removeEventListener('beforeunload', ostrzez);
+  }, [zmiany]);
+
+  // komunikaty o sukcesie same znikają po kilku sekundach
+  useEffect(() => {
+    if (status?.typ !== 'ok') return;
+    const t = setTimeout(() => setStatus(null), 5000);
+    return () => clearTimeout(t);
+  }, [status]);
 
   /** Dowolne zapytanie do API GitHuba dla tego repozytorium (np. uruchomienie aktualizacji danych) */
   async function api(sciezka: string, metoda: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE' = 'GET', body?: object) {
@@ -394,100 +416,227 @@ export default function AdminPanel({
     setStatus({ typ: 'info', tekst: 'Token usunięty z tej przeglądarki.' });
   }
 
-  const zakladki: [Zakladka, string, React.ReactNode][] = [
-    ['statystyki', 'Statystyki', <BarChart3 key="i" className="w-4 h-4" />],
-    ['chinskie', 'Chińskie auta', <Trophy key="i" className="w-4 h-4" />],
-    ['silniki', 'Dane techniczne', <Cog key="i" className="w-4 h-4" />],
-    ['linki', 'Linki i moduły', <Link2 key="i" className="w-4 h-4" />],
-    ['filmy', 'Filmy na kartach', <Film key="i" className="w-4 h-4" />],
-    ['artykuly', 'Artykuły z filmów', <Clapperboard key="i" className="w-4 h-4" />],
-    ['aktualnosci', 'Aktualności', <Newspaper key="i" className="w-4 h-4" />],
-    ['produkty', 'Produkty i rankingi', <Package key="i" className="w-4 h-4" />],
-    ['kody', 'Kody', <Code2 key="i" className="w-4 h-4" />],
-    ['seo', 'SEO, reklamy i ceny', <Megaphone key="i" className="w-4 h-4" />],
-    ['opisy', `Opisy (${szkice.length})`, <FileText key="i" className="w-4 h-4" />],
-    ['aktualizacje', 'Aktualizacje danych', <Database key="i" className="w-4 h-4" />],
-    ['wyglad', 'Logo i ikona', <Palette key="i" className="w-4 h-4" />]
+  // Menu panelu podzielone na grupy – łatwiej znaleźć to, czego szukasz
+  const ik = 'w-4 h-4 flex-shrink-0';
+  const grupy: { nazwa: string; pozycje: { k: Zakladka; nazwa: string; ikona: React.ReactNode; opis: string; licznik?: number }[] }[] = [
+    {
+      nazwa: 'Przegląd',
+      pozycje: [{ k: 'statystyki', nazwa: 'Statystyki', ikona: <BarChart3 className={ik} />, opis: 'Ruch na stronie z Google Analytics i raport wyszukiwania Google.' }]
+    },
+    {
+      nazwa: 'Treści',
+      pozycje: [
+        { k: 'aktualnosci', nazwa: 'Aktualności', ikona: <Newspaper className={ik} />, opis: 'Szkice z automatu – przejrzyj, popraw i opublikuj.' },
+        { k: 'artykuly', nazwa: 'Artykuły z filmów', ikona: <Clapperboard className={ik} />, opis: 'Wpisy na stronie powstające z Twoich filmów na YouTube.' },
+        { k: 'filmy', nazwa: 'Filmy na kartach', ikona: <Film className={ik} />, opis: 'Przypnij film z YouTube do karty modelu i przygotuj opis pod film.' },
+        { k: 'opisy', nazwa: 'Opisy modeli', ikona: <FileText className={ik} />, opis: 'Szkice opisów kart modeli czekające na Twoje zatwierdzenie.', licznik: szkice.length }
+      ]
+    },
+    {
+      nazwa: 'Dane',
+      pozycje: [
+        { k: 'silniki', nazwa: 'Dane techniczne', ikona: <Cog className={ik} />, opis: 'Silniki, plusy i minusy, miejsca numeru VIN – do sprawdzenia i zatwierdzenia.' },
+        { k: 'chinskie', nazwa: 'Chińskie auta', ikona: <Trophy className={ik} />, opis: 'Zdjęcia, ceny i widoczność aut w rankingu chińskich marek.' },
+        { k: 'produkty', nazwa: 'Produkty i rankingi', ikona: <Package className={ik} />, opis: 'Polecane produkty i rankingi z linkami partnerskimi.' },
+        { k: 'aktualizacje', nazwa: 'Aktualizacje danych', ikona: <Database className={ik} />, opis: `Odświeżanie danych CEPiK i statystyk rynku. Dane na stronie: ${stanDanych}.` }
+      ]
+    },
+    {
+      nazwa: 'Ustawienia',
+      pozycje: [
+        { k: 'linki', nazwa: 'Linki i moduły', ikona: <Link2 className={ik} />, opis: 'Linki partnerskie i moduły widoczne na kartach modeli.' },
+        { k: 'seo', nazwa: 'SEO, reklamy i ceny', ikona: <Megaphone className={ik} />, opis: 'Google Search Console, Analytics, reklamy i ceny paliw.' },
+        { k: 'kody', nazwa: 'Kody na stronie', ikona: <Code2 className={ik} />, opis: 'Własne kody (np. weryfikacyjne) wklejane na całej stronie albo jednej podstronie.' },
+        { k: 'wyglad', nazwa: 'Logo i ikona', ikona: <Palette className={ik} />, opis: 'Logo w nagłówku i ikona strony w przeglądarce oraz w telefonie.' }
+      ]
+    }
   ];
+  const wszystkie = grupy.flatMap((g) => g.pozycje.map((p) => ({ ...p, grupa: g.nazwa })));
+  const aktywna = wszystkie.find((p) => p.k === zakladka) || wszystkie[0];
+  const wybierz = (k: Zakladka) => {
+    setZakladka(k);
+    try {
+      localStorage.setItem(K_ZAKLADKA, k);
+    } catch {
+      /* bez pamięci przeglądarki – po prostu nie zapamiętamy */
+    }
+    if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
-  return (
-    <div className="max-w-3xl mx-auto px-4 py-10 space-y-6">
-      <header>
-        <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white">Panel admina</h1>
-        <p className="text-sm text-slate-500 mt-1">Linki partnerskie, moduły, kody, filmy i opisy. Zmiany pojawiają się na stronie po kilku minutach.</p>
-      </header>
+  // komunikat o stanie (sukces / błąd / informacja)
+  const komunikat = status && (
+    <div
+      role="status"
+      className={`flex items-start gap-3 rounded-xl px-4 py-3 text-sm ring-1 ${
+        status.typ === 'ok'
+          ? 'bg-emerald-50 text-emerald-900 ring-emerald-200 dark:bg-emerald-950/60 dark:text-emerald-200 dark:ring-emerald-900'
+          : status.typ === 'blad'
+          ? 'bg-rose-50 text-rose-900 ring-rose-200 dark:bg-rose-950/60 dark:text-rose-200 dark:ring-rose-900'
+          : 'bg-steel-50 text-steel-900 ring-steel-200 dark:bg-slate-800 dark:text-slate-200 dark:ring-slate-700'
+      }`}
+    >
+      {status.typ === 'ok' ? <CheckCircle2 className="w-5 h-5 flex-shrink-0" /> : status.typ === 'blad' ? <AlertTriangle className="w-5 h-5 flex-shrink-0" /> : <RefreshCw className={`w-5 h-5 flex-shrink-0 ${praca ? 'animate-spin' : ''}`} />}
+      <span className="flex-1">{status.tekst}</span>
+      <button type="button" onClick={() => setStatus(null)} className="-m-1 p-1 rounded-md opacity-60 hover:opacity-100" aria-label="Zamknij komunikat">
+        <X className="w-4 h-4" />
+      </button>
+    </div>
+  );
 
-      {status && (
-        <div
-          role="status"
-          className={`flex items-start gap-2 rounded-xl px-4 py-3 text-sm ${
-            status.typ === 'ok'
-              ? 'bg-emerald-50 text-emerald-900 dark:bg-emerald-950 dark:text-emerald-200'
-              : status.typ === 'blad'
-              ? 'bg-rose-50 text-rose-900 dark:bg-rose-950 dark:text-rose-200'
-              : 'bg-steel-50 text-steel-900 dark:bg-slate-800 dark:text-slate-200'
-          }`}
-        >
-          {status.typ === 'ok' ? <CheckCircle2 className="w-5 h-5 flex-shrink-0" /> : status.typ === 'blad' ? <AlertTriangle className="w-5 h-5 flex-shrink-0" /> : <RefreshCw className="w-5 h-5 flex-shrink-0" />}
-          <span>{status.tekst}</span>
-        </div>
-      )}
-
-      {/* Logowanie */}
-      <section className={karta}>
-        <h2 className="flex items-center gap-2 text-lg font-bold text-slate-900 dark:text-white">
-          <KeyRound className="w-5 h-5 text-steel-600" aria-hidden="true" /> Dostęp
-        </h2>
-        <div>
-          <label htmlFor="a-token" className={etykieta}>
-            Token GitHub (instrukcja w pliku README)
-          </label>
-          <input id="a-token" type="password" autoComplete="off" value={token} onChange={(e) => setToken(e.target.value)} className={input} placeholder="github_pat_…" />
-        </div>
-        <label className="flex items-start gap-2 text-sm text-slate-700 dark:text-slate-300">
-          <input type="checkbox" checked={zapamietaj} onChange={(e) => setZapamietaj(e.target.checked)} className="mt-0.5" />
-          <span>
-            Zapamiętaj token na tym komputerze
-            <span className="block text-xs text-slate-500">Zaznacz tylko na własnym komputerze. Bez zaznaczenia token zniknie po zamknięciu karty przeglądarki.</span>
-          </span>
-        </label>
-        <Pole id="a-repo" label="Repozytorium (login/nazwa)" value={repo} onChange={setRepo} />
-        <div className="flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={wczytaj}
-            disabled={!token.trim() || praca}
-            className="inline-flex items-center gap-2 bg-steel-600 hover:bg-steel-700 disabled:opacity-50 text-white font-semibold px-4 py-2 rounded-lg"
-          >
-            <RefreshCw className="w-4 h-4" aria-hidden="true" /> {dane ? 'Wczytaj ponownie' : 'Połącz'}
-          </button>
-          {token && (
-            <button type="button" onClick={wyloguj} className="inline-flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-slate-700 dark:text-slate-200 bg-slate-100 dark:bg-slate-800">
-              <LogOut className="w-4 h-4" aria-hidden="true" /> Usuń token z tej przeglądarki
+  // ===================== EKRAN LOGOWANIA =====================
+  if (!dane) {
+    return (
+      <div className="min-h-[70vh] flex items-center justify-center px-4 py-12">
+        <div className="w-full max-w-md space-y-5">
+          <div className="text-center">
+            <span className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-steel-600 text-white shadow-lg shadow-steel-600/20">
+              <LayoutDashboard className="w-6 h-6" aria-hidden="true" />
+            </span>
+            <h1 className="mt-4 text-2xl font-extrabold tracking-tight text-slate-900 dark:text-white">Panel {site.name}</h1>
+            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Zaloguj się kluczem z GitHuba, żeby zarządzać stroną.</p>
+          </div>
+          {komunikat}
+          <section className={karta}>
+            <div>
+              <label htmlFor="a-token" className={etykieta}>
+                Token GitHub
+              </label>
+              <div className="relative">
+                <KeyRound className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" aria-hidden="true" />
+                <input
+                  id="a-token"
+                  type="password"
+                  autoComplete="off"
+                  value={token}
+                  onChange={(e) => setToken(e.target.value)}
+                  onKeyDown={(e) => e.key === 'Enter' && token.trim() && !praca && wczytaj()}
+                  className={`${input} pl-9`}
+                  placeholder="github_pat_…"
+                />
+              </div>
+              <p className="mt-1.5 text-xs text-slate-500">Jak go zdobyć – instrukcja w pliku README repozytorium.</p>
+            </div>
+            <label className="flex items-start gap-2.5 text-sm text-slate-700 dark:text-slate-300 cursor-pointer">
+              <input type="checkbox" checked={zapamietaj} onChange={(e) => setZapamietaj(e.target.checked)} className="mt-0.5 w-4 h-4 rounded accent-steel-600" />
+              <span>
+                Zapamiętaj na tym urządzeniu
+                <span className="block text-xs text-slate-500">Tylko na własnym komputerze lub telefonie. Bez zaznaczenia token zniknie po zamknięciu karty.</span>
+              </span>
+            </label>
+            <details className="group text-sm">
+              <summary className="cursor-pointer select-none text-xs font-semibold text-slate-500 hover:text-slate-700 dark:hover:text-slate-300">Ustawienia zaawansowane</summary>
+              <div className="mt-3">
+                <Pole id="a-repo" label="Repozytorium (login/nazwa)" value={repo} onChange={setRepo} />
+              </div>
+            </details>
+            <button
+              type="button"
+              onClick={wczytaj}
+              disabled={!token.trim() || praca}
+              className="w-full inline-flex items-center justify-center gap-2 bg-steel-600 hover:bg-steel-700 disabled:opacity-50 text-white font-semibold px-4 py-2.5 rounded-xl shadow-sm transition"
+            >
+              <RefreshCw className={`w-4 h-4 ${praca ? 'animate-spin' : ''}`} aria-hidden="true" /> {praca ? 'Łączę…' : 'Zaloguj'}
             </button>
-          )}
-        </div>
-      </section>
-
-      {dane && (
-        <>
-          <nav className="flex flex-wrap gap-2" aria-label="Zakładki panelu">
-            {zakladki.map(([k, nazwa, ikona]) => (
-              <button
-                key={k}
-                type="button"
-                onClick={() => setZakladka(k)}
-                aria-pressed={zakladka === k}
-                className={`inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-semibold border ${
-                  zakladka === k
-                    ? 'bg-steel-700 text-white border-steel-700'
-                    : 'bg-white dark:bg-slate-900 text-slate-700 dark:text-slate-200 border-slate-200 dark:border-slate-800'
-                }`}
-              >
-                {ikona} {nazwa}
+            {token && (
+              <button type="button" onClick={wyloguj} className="w-full text-xs font-semibold text-slate-500 hover:text-rose-600">
+                Usuń zapisany token z tej przeglądarki
               </button>
+            )}
+          </section>
+        </div>
+      </div>
+    );
+  }
+
+  // ===================== PANEL PO ZALOGOWANIU =====================
+  return (
+    <div className="bg-slate-50 dark:bg-slate-950 min-h-[80vh]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-6 lg:py-8 lg:grid lg:grid-cols-[15.5rem_minmax(0,1fr)] lg:gap-8">
+        {/* ----- menu boczne (na telefonie: przewijany pasek u góry) ----- */}
+        <aside className="lg:sticky lg:top-20 lg:self-start lg:max-h-[calc(100vh-6rem)] lg:overflow-y-auto">
+          <div className="hidden lg:flex items-center gap-3 px-2 pb-5">
+            <span className="inline-flex items-center justify-center w-9 h-9 rounded-xl bg-steel-600 text-white">
+              <LayoutDashboard className="w-5 h-5" aria-hidden="true" />
+            </span>
+            <div className="min-w-0">
+              <p className="font-extrabold text-slate-900 dark:text-white leading-tight">Panel admina</p>
+              <p className="flex items-center gap-1.5 text-xs text-slate-500 truncate">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" aria-hidden="true" /> Połączono
+              </p>
+            </div>
+          </div>
+
+          <nav aria-label="Zakładki panelu" className="-mx-4 px-4 lg:mx-0 lg:px-0 flex lg:block gap-2 overflow-x-auto pb-3 lg:pb-0 lg:space-y-5 [scrollbar-width:none]">
+            {grupy.map((g) => (
+              <div key={g.nazwa} className="contents lg:block">
+                <p className="hidden lg:block px-3 mb-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400">{g.nazwa}</p>
+                <ul className="contents lg:block lg:space-y-0.5">
+                  {g.pozycje.map((p) => {
+                    const wl = zakladka === p.k;
+                    return (
+                      <li key={p.k} className="flex-shrink-0">
+                        <button
+                          type="button"
+                          onClick={() => wybierz(p.k)}
+                          aria-current={wl ? 'page' : undefined}
+                          className={`w-full flex items-center gap-2.5 whitespace-nowrap rounded-xl px-3 py-2 text-sm font-semibold transition ${
+                            wl
+                              ? 'bg-steel-600 text-white shadow-sm lg:bg-white lg:text-steel-700 lg:ring-1 lg:ring-slate-200 dark:lg:bg-slate-900 dark:lg:text-white dark:lg:ring-slate-800'
+                              : 'bg-white ring-1 ring-slate-200 text-slate-600 lg:bg-transparent lg:ring-0 hover:text-slate-900 lg:hover:bg-white dark:bg-slate-900 dark:ring-slate-800 dark:text-slate-300 dark:lg:bg-transparent dark:hover:text-white dark:lg:hover:bg-slate-900'
+                          }`}
+                        >
+                          <span className={wl ? 'lg:text-steel-600 dark:lg:text-steel-400' : 'text-slate-400'}>{p.ikona}</span>
+                          <span className="flex-1 text-left">{p.nazwa}</span>
+                          {!!p.licznik && (
+                            <span className={`ml-1 min-w-[1.25rem] rounded-full px-1.5 py-0.5 text-center text-[11px] font-bold ${wl ? 'bg-white/20 lg:bg-amber-100 lg:text-amber-800' : 'bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-200'}`}>
+                              {p.licznik}
+                            </span>
+                          )}
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
             ))}
           </nav>
+
+          <div className="hidden lg:block mt-6 pt-5 border-t border-slate-200 dark:border-slate-800 space-y-1">
+            <p className="px-3 pb-2 text-xs text-slate-500 truncate" title={repo}>
+              {repo}
+            </p>
+            <a href="/" target="_blank" rel="noopener" className="flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-semibold text-slate-600 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-900">
+              <ExternalLink className="w-4 h-4 text-slate-400" aria-hidden="true" /> Otwórz stronę
+            </a>
+            <button type="button" onClick={wczytaj} disabled={praca} className="w-full flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-semibold text-slate-600 dark:text-slate-300 hover:bg-white dark:hover:bg-slate-900 disabled:opacity-50">
+              <RefreshCw className={`w-4 h-4 text-slate-400 ${praca ? 'animate-spin' : ''}`} aria-hidden="true" /> Wczytaj ponownie
+            </button>
+            <button type="button" onClick={wyloguj} className="w-full flex items-center gap-2.5 rounded-xl px-3 py-2 text-sm font-semibold text-slate-600 dark:text-slate-300 hover:bg-rose-50 hover:text-rose-700 dark:hover:bg-rose-950/50 dark:hover:text-rose-300">
+              <LogOut className="w-4 h-4" aria-hidden="true" /> Wyloguj
+            </button>
+          </div>
+        </aside>
+
+        {/* ----- treść zakładki ----- */}
+        <main className="min-w-0 max-w-4xl space-y-6 pt-2 lg:pt-0">
+          <header className="flex items-start justify-between gap-3">
+            <div className="min-w-0">
+              <p className="text-xs font-bold uppercase tracking-wider text-steel-600 dark:text-steel-400">{aktywna.grupa}</p>
+              <h1 className="mt-1 text-2xl sm:text-3xl font-extrabold tracking-tight text-slate-900 dark:text-white">{aktywna.nazwa}</h1>
+              <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{aktywna.opis}</p>
+            </div>
+            {/* na telefonie: szybkie akcje zamiast menu bocznego */}
+            <div className="flex gap-2 lg:hidden">
+              <button type="button" onClick={wczytaj} disabled={praca} className="p-2 rounded-xl bg-white dark:bg-slate-900 ring-1 ring-slate-200 dark:ring-slate-800 text-slate-600 dark:text-slate-300" aria-label="Wczytaj ponownie">
+                <RefreshCw className={`w-4 h-4 ${praca ? 'animate-spin' : ''}`} />
+              </button>
+              <button type="button" onClick={wyloguj} className="p-2 rounded-xl bg-white dark:bg-slate-900 ring-1 ring-slate-200 dark:ring-slate-800 text-slate-600 dark:text-slate-300" aria-label="Wyloguj">
+                <LogOut className="w-4 h-4" />
+              </button>
+            </div>
+          </header>
+
+          {komunikat}
 
           {/* ===================== LINKI I MODUŁY ===================== */}
           {zakladka === 'linki' && (
@@ -1013,19 +1162,26 @@ export default function AdminPanel({
             </section>
           )}
 
-          {/* przycisk zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje) mają własne przyciski */}
-          <div className={`sticky bottom-4 flex justify-end ${['artykuly', 'aktualnosci', 'produkty', 'aktualizacje', 'wyglad', 'statystyki', 'chinskie', 'silniki'].includes(zakladka) ? 'hidden' : ''}`}>
-            <button
-              type="button"
-              onClick={zapisz}
-              disabled={!zmiany || praca}
-              className="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 disabled:opacity-40 text-white font-bold px-6 py-3 rounded-xl shadow-lg"
-            >
-              <Save className="w-5 h-5" aria-hidden="true" /> {zmiany ? 'Zapisz zmiany' : 'Brak zmian do zapisania'}
-            </button>
-          </div>
-        </>
-      )}
+          {/* pasek zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje…) mają własne przyciski */}
+          {zmiany && !['artykuly', 'aktualnosci', 'produkty', 'aktualizacje', 'wyglad', 'statystyki', 'chinskie', 'silniki'].includes(zakladka) && (
+            <div className="sticky bottom-4 z-10">
+              <div className="flex items-center justify-between gap-3 rounded-2xl pl-4 pr-2 py-2 bg-slate-900/95 text-white ring-1 ring-slate-900 shadow-xl backdrop-blur dark:bg-slate-800/95 dark:ring-slate-700">
+                <span className="flex items-center gap-2 text-sm font-medium">
+                  <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" aria-hidden="true" /> Niezapisane zmiany
+                </span>
+                <button
+                  type="button"
+                  onClick={zapisz}
+                  disabled={praca}
+                  className="inline-flex items-center gap-2 whitespace-nowrap bg-emerald-500 hover:bg-emerald-600 disabled:opacity-40 text-white text-sm font-bold px-4 py-2 rounded-xl transition"
+                >
+                  <Save className="w-4 h-4" aria-hidden="true" /> Zapisz zmiany
+                </button>
+              </div>
+            </div>
+          )}
+        </main>
+      </div>
     </div>
   );
 }

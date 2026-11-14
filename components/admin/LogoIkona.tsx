@@ -10,8 +10,7 @@ import { ImageUp, Save, RotateCcw, Trash2, Smartphone, Globe, Moon, Sun, Info } 
 export type ApiPelne = (sciezka: string, metoda?: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE', body?: object) => Promise<any>;
 export type Marka = { logo: string; logoCiemne: string; logoTryb: 'obok' | 'zamiast'; ikonaWersja: string };
 
-const karta = 'bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 space-y-4';
-const etykieta = 'block text-xs font-semibold text-slate-600 dark:text-slate-400 mb-1';
+import { karta, etykieta } from './wspolne';
 const PLIK_PANEL = 'data/panel.json';
 const MAKS_MB = 3;
 
