@@ -9,7 +9,7 @@ export const STAN_PORADNIKOW = 'listopad 2026';
 
 export type KategoriaPoradnika = 'kupno' | 'sprawdzenie' | 'ubezpieczenie' | 'kolizja' | 'bezpieczenstwo' | 'codzienne' | 'eksploatacja';
 export type Generator = 'umowa' | 'oswiadczenie' | 'wypowiedzenie' | 'darowizna' | 'dziura';
-export type IkonaPoradnika = 'umowa' | 'kluczyk' | 'sprzedaz' | 'oc' | 'kolizja' | 'ranni' | 'ucieczka' | 'zwierze' | 'korytarz' | 'odstep' | 'fotelik' | 'awaria' | 'mgla' | 'import' | 'darowizna' | 'szkoda' | 'dziura' | 'przeglad' | 'dokumenty' | 'kontrola' | 'granica' | 'zima' | 'kradziez' | 'vin' | 'licznik' | 'oszustwo' | 'cena' | 'cenaOc' | 'mlody' | 'znizka' | 'ac' | 'calkowita' | 'kontrolka' | 'lista' | 'powodz' | 'jazda' | 'punkty' | 'fotoradar' | 'opona' | 'akumulator' | 'pierwsze' | 'kredyt' | 'paliwo' | 'strefa' | 'elektryk';
+export type IkonaPoradnika = 'umowa' | 'kluczyk' | 'sprzedaz' | 'oc' | 'kolizja' | 'ranni' | 'ucieczka' | 'zwierze' | 'korytarz' | 'odstep' | 'fotelik' | 'awaria' | 'mgla' | 'import' | 'darowizna' | 'szkoda' | 'dziura' | 'przeglad' | 'dokumenty' | 'kontrola' | 'granica' | 'zima' | 'kradziez' | 'vin' | 'licznik' | 'oszustwo' | 'cena' | 'cenaOc' | 'mlody' | 'znizka' | 'ac' | 'calkowita' | 'kontrolka' | 'lista' | 'powodz' | 'jazda' | 'punkty' | 'fotoradar' | 'opona' | 'akumulator' | 'pierwsze' | 'kredyt' | 'paliwo' | 'strefa' | 'elektryk' | 'olej';
 
 export type Blok =
   | { typ: 'p'; t: string }

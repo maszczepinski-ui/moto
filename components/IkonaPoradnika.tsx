@@ -1,4 +1,4 @@
-import { FileText, KeyRound, HandCoins, ShieldX, CarFront, HeartPulse, UserX, PawPrint, Siren, MoveHorizontal, Baby, TriangleAlert, CloudFog, Ship, Gift, Wrench, Construction, ClipboardCheck, FileSearch, BadgeCheck, Earth, Snowflake, ShieldAlert, ScanLine, Gauge, OctagonAlert, Banknote, Calculator, GraduationCap, BadgePercent, ShieldPlus, CircleSlash, Lightbulb, ClipboardList, Waves, Navigation, CircleMinus, Camera, CircleDot, BatteryLow, Sparkles, Landmark, Fuel, Leaf, PlugZap } from 'lucide-react';
+import { FileText, KeyRound, HandCoins, ShieldX, CarFront, HeartPulse, UserX, PawPrint, Siren, MoveHorizontal, Baby, TriangleAlert, CloudFog, Ship, Gift, Wrench, Construction, ClipboardCheck, FileSearch, BadgeCheck, Earth, Snowflake, ShieldAlert, ScanLine, Gauge, OctagonAlert, Banknote, Calculator, GraduationCap, BadgePercent, ShieldPlus, CircleSlash, Lightbulb, ClipboardList, Waves, Navigation, CircleMinus, Camera, CircleDot, BatteryLow, Sparkles, Landmark, Fuel, Leaf, PlugZap, Droplet } from 'lucide-react';
 import type { IkonaPoradnika as Ikona } from '@/lib/poradniki';
 
 const IKONY = {
@@ -46,7 +46,8 @@ const IKONY = {
   kredyt: Landmark,
   paliwo: Fuel,
   strefa: Leaf,
-  elektryk: PlugZap
+  elektryk: PlugZap,
+  olej: Droplet
 } satisfies Record<Ikona, typeof FileText>;
 
 export default function IkonaPoradnika({ ikona, className = 'w-5 h-5' }: { ikona: Ikona; className?: string }) {
