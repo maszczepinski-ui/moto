@@ -59,7 +59,7 @@ export default function OpisMarki({ opis, marka, slug }: { opis: Opis; marka: st
                 </div>
                 <div className="text-sm text-slate-600 dark:text-slate-400">{x.typ}</div>
                 <div className="text-sm text-slate-600 dark:text-slate-400">{x.naped}</div>
-                <div className="text-sm font-semibold text-slate-900 dark:text-white">{x.cena}</div>
+                <div className="text-sm font-semibold text-slate-900 dark:text-white">{x.cena || 'cena w salonie'}</div>
               </li>
             ))}
           </ul>
@@ -88,7 +88,7 @@ export default function OpisMarki({ opis, marka, slug }: { opis: Opis; marka: st
                     </td>
                     <td className="px-4 py-3 text-slate-700 dark:text-slate-300">{x.typ}</td>
                     <td className="px-4 py-3 text-slate-700 dark:text-slate-300">{x.naped}</td>
-                    <td className="px-4 py-3 text-slate-900 dark:text-white">{x.cena}</td>
+                    <td className="px-4 py-3 text-slate-900 dark:text-white">{x.cena || '–'}</td>
                   </tr>
                 ))}
               </tbody>

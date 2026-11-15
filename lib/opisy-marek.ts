@@ -1,3 +1,4 @@
+import { OPISY_CHINSKIE } from '@/lib/opisy-marek-chinskie';
 // Ręcznie pisane opisy marek (SEO) pokazywane na /marki/[marka]/.
 // Liczby z CEPiK strona dolicza sama – tutaj tylko treść, ceny z cenników i źródła.
 
@@ -7,7 +8,7 @@ export interface ModelWOfercie {
   adres?: string;
   typ: string;
   naped: string;
-  cena: string;
+  cena?: string;
 }
 
 export interface OpisMarki {
@@ -133,5 +134,5 @@ const OPISY: Record<string, OpisMarki> = {
 };
 
 export function opisMarki(slug: string): OpisMarki | null {
-  return OPISY[slug] ?? null;
+  return OPISY[slug] ?? OPISY_CHINSKIE[slug] ?? null;
 }

@@ -10,6 +10,7 @@ import MiniMapa from '@/components/MiniMapa';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import { opisMarki } from '@/lib/opisy-marek';
 import OpisMarki from '@/components/OpisMarki';
+import { tekstMarki } from '@/lib/marka-tekst';
 
 interface Props {
   params: Promise<{ marka: string }>;
@@ -42,6 +43,8 @@ export default async function MarkaPage({ params }: Props) {
   const m = markaPoSlugu(marka);
   if (!m) notFound();
   const opis = opisMarki(m.slug);
+  const auto = tekstMarki(m);
+  const pytania = opis ? opis.faq : auto?.faq || [];
   const miejsce = marki.findIndex((x) => x.slug === m.slug) + 1;
   const suma = m.wojewodztwa.reduce((s, w) => s + w.liczba, 0) || 1;
   const indeksy = m.wojewodztwa
@@ -141,6 +144,44 @@ export default async function MarkaPage({ params }: Props) {
         </ol>
       </section>
 
+      {auto && (
+        <article className="space-y-8">
+          {opis && <h2 className="text-2xl font-bold text-slate-900 dark:text-white">{m.nazwa} w liczbach CEPiK</h2>}
+          {auto.sekcje.map((x) => (
+            <section key={x.h2} className="space-y-3">
+              {opis ? (
+                <h3 className="text-xl font-bold text-slate-900 dark:text-white">{x.h2}</h3>
+              ) : (
+                <h2 className="text-2xl font-bold text-slate-900 dark:text-white">{x.h2}</h2>
+              )}
+              {x.akapity.map((t, i) => (
+                <p key={i} className="text-base text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl">
+                  {t}
+                </p>
+              ))}
+            </section>
+          ))}
+          {!opis && (
+            <section className="space-y-3">
+              <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Najczęstsze pytania o {m.nazwa}</h2>
+              <div className="divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800">
+                {auto.faq.map((f) => (
+                  <details key={f.q} className="group py-3">
+                    <summary className="cursor-pointer font-semibold text-slate-900 dark:text-white list-none flex justify-between gap-4">
+                      {f.q}
+                      <span className="text-slate-400 group-open:rotate-45 transition-transform" aria-hidden="true">
+                        +
+                      </span>
+                    </summary>
+                    <p className="mt-2 text-slate-700 dark:text-slate-300 leading-relaxed">{f.a}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          )}
+        </article>
+      )}
+
       <section className="space-y-2">
         <h2 className="text-lg font-bold text-slate-900 dark:text-white">Województwa</h2>
         <ul className="flex flex-wrap gap-2 text-sm">
@@ -157,14 +198,14 @@ export default async function MarkaPage({ params }: Props) {
       <p className="text-xs text-slate-500">Dane: CEPiK, stan na {formatDate(tlo.stanNa)}. Liczymy modele, które mają w atlasie własną kartę (co najmniej 200 aut).</p>
       <KodStrony sciezka={`/marki/${m.slug}/`} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
-      {opis && (
+      {pytania.length > 0 && (
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: bezpiecznyJson({
               '@context': 'https://schema.org',
               '@type': 'FAQPage',
-              mainEntity: opis.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+              mainEntity: pytania.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
             })
           }}
         />
