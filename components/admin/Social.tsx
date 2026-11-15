@@ -488,7 +488,24 @@ function Edytor({
             <button className={przyciskD} onClick={() => pobierz(true, 'pion')} title="Przezroczysty PNG 1080×1920 do położenia na film w programie do montażu">
               <Film className="w-4 h-4" /> Nakładka 9:16
             </button>
+            <button className={przyciskD} onClick={() => pobierz(true, 'post')} title="Przezroczysty PNG 1080×1350 – do filmu w formacie posta 4:5">
+              <Film className="w-4 h-4" /> Nakładka 4:5
+            </button>
+            <button
+              className={przyciskD}
+              title="Plik tekstowy z opisem posta i hashtagami – do wklejenia przy publikacji filmu"
+              onClick={() => {
+                const t = `${p.tytul}\n\n${p.opis}\n\n${p.hashtagi}\n`;
+                const a = document.createElement('a');
+                a.href = URL.createObjectURL(new Blob([t], { type: 'text/plain;charset=utf-8' }));
+                a.download = `motoformat-${p.nr ? String(p.nr).padStart(3, '0') : p.id}-opis.txt`;
+                a.click();
+              }}
+            >
+              <Download className="w-4 h-4" /> Opis (.txt)
+            </button>
           </div>
+          <p className="text-xs text-slate-500">Nakładki mają przezroczyste tło – połóż je na najwyższej ścieżce nad filmem w programie do montażu. Tekst na nakładce zmienisz w polach „Tytuł” i „Krótki tekst” obok.</p>
         </div>
 
         {/* pola */}
