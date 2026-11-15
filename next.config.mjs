@@ -23,7 +23,7 @@ const CSP_ADMIN = [
   "default-src 'self'",
   `script-src 'self' 'unsafe-inline'${dev ? " 'unsafe-eval'" : ''}`,
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data:",
+  "img-src 'self' data: blob: https://raw.githubusercontent.com",
   "font-src 'self' data:",
   `connect-src 'self' https://api.github.com${dev ? ' ws:' : ''}`,
   "frame-src 'none'",

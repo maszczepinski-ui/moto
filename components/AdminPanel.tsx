@@ -19,12 +19,13 @@ import { uzyciaSilnikow, type Pokrycie } from '@/lib/silniki';
 import { oznaczPrzyPierwszymWejsciu } from '@/lib/admin-urzadzenie';
 import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
 import AktualnosciAdmin from '@/components/admin/Aktualnosci';
+import Social from '@/components/admin/Social';
 import ProduktyRankingi from '@/components/admin/ProduktyRankingi';
 import OpisFilmu from '@/components/admin/OpisFilmu';
 import LogoIkona, { type Marka } from '@/components/admin/LogoIkona';
 import { site } from '@/config/site';
 import {
-  KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard, Newspaper,
+  KeyRound, Link2, Film, Save, Trash2, Plus, RefreshCw, CheckCircle2, AlertTriangle, LogOut, Code2, Megaphone, Search, FileText, ArrowUp, ArrowDown, Ban, Database, Package, Clapperboard, Newspaper, Share2,
   Fuel,
   Palette,
   BarChart3,
@@ -178,7 +179,7 @@ function Przelacznik({ wlaczony, onChange, label }: { wlaczony: boolean; onChang
   );
 }
 
-type Zakladka = 'statystyki' | 'chinskie' | 'silniki' | 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
+type Zakladka = 'statystyki' | 'chinskie' | 'silniki' | 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'social' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
 
 export default function AdminPanel({
   modele,
@@ -427,6 +428,7 @@ export default function AdminPanel({
       nazwa: 'Treści',
       pozycje: [
         { k: 'aktualnosci', nazwa: 'Aktualności', ikona: <Newspaper className={ik} />, opis: 'Inspiracje z RSS, własne wpisy i szkice z automatu – napisz, popraw i opublikuj.' },
+        { k: 'social', nazwa: 'Social – posty', ikona: <Share2 className={ik} />, opis: 'Posty MotoFormat na Instagram, TikTok i Facebook – nakładki, zdjęcia, rolki i planowanie w Metricool.' },
         { k: 'artykuly', nazwa: 'Artykuły z filmów', ikona: <Clapperboard className={ik} />, opis: 'Wpisy na stronie powstające z Twoich filmów na YouTube.' },
         { k: 'filmy', nazwa: 'Filmy na kartach', ikona: <Film className={ik} />, opis: 'Przypnij film z YouTube do karty modelu i przygotuj opis pod film.' },
         { k: 'opisy', nazwa: 'Opisy modeli', ikona: <FileText className={ik} />, opis: 'Szkice opisów kart modeli czekające na Twoje zatwierdzenie.', licznik: szkice.length }
@@ -1100,6 +1102,7 @@ export default function AdminPanel({
           {zakladka === 'aktualizacje' && <Aktualizacje api={api} branch={branch} stanDanych={stanDanych} />}
           {zakladka === 'artykuly' && <ArtykulyFilmow api={api} branch={branch} modele={modele} />}
           {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} token={token} />}
+          {zakladka === 'social' && <Social api={api} repo={repo} />}
           {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
           {zakladka === 'chinskie' && <ChinskieAuta api={api} branch={branch} nazwy={nazwyModeli} />}
           {zakladka === 'silniki' && <Silniki api={api} branch={branch} nazwy={nazwyModeli} uzycia={uzyciaSilnikow()} token={token} modele={modele} pokrycie={pokrycie} />}
@@ -1183,7 +1186,7 @@ export default function AdminPanel({
           )}
 
           {/* pasek zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje…) mają własne przyciski */}
-          {zmiany && !['artykuly', 'aktualnosci', 'produkty', 'aktualizacje', 'wyglad', 'statystyki', 'chinskie', 'silniki'].includes(zakladka) && (
+          {zmiany && !['artykuly', 'aktualnosci', 'social', 'produkty', 'aktualizacje', 'wyglad', 'statystyki', 'chinskie', 'silniki'].includes(zakladka) && (
             <div className="sticky bottom-4 z-10">
               <div className="flex items-center justify-between gap-3 rounded-2xl pl-4 pr-2 py-2 bg-slate-900/95 text-white ring-1 ring-slate-900 shadow-xl backdrop-blur dark:bg-slate-800/95 dark:ring-slate-700">
                 <span className="flex items-center gap-2 text-sm font-medium">

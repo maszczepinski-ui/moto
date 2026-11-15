@@ -1,5 +1,5 @@
 // Wspólne drobiazgi zakładek panelu admina
-export type ApiPelne = (sciezka: string, metoda?: 'GET' | 'POST' | 'PUT' | 'DELETE', body?: object) => Promise<any>; // eslint-disable-line @typescript-eslint/no-explicit-any
+export type ApiPelne = (sciezka: string, metoda?: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE', body?: object) => Promise<any>; // eslint-disable-line @typescript-eslint/no-explicit-any
 
 export function b64(t: string) {
   const b = new TextEncoder().encode(t);
