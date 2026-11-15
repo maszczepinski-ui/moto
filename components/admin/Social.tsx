@@ -317,6 +317,8 @@ function Edytor({
   const [p, setP] = useState<PostSocial>(post);
   const [zdjecie, setZdjecie] = useState<HTMLImageElement | null>(null);
   const [kadr, setKadr] = useState<Kadr>(KADR_DOMYSLNY);
+  const [zdjecie2, setZdjecie2] = useState<HTMLImageElement | null>(null);
+  const [kadr2, setKadr2] = useState<Kadr>(KADR_DOMYSLNY);
   const [film, setFilm] = useState<File | null>(null);
   const [praca, setPraca] = useState('');
   const [kom, setKom] = useState<{ ok: boolean; tekst: string } | null>(null);
@@ -329,18 +331,24 @@ function Edytor({
   };
 
   useEffect(() => {
-    if (plotno.current) rysujPost(plotno.current, p, { zdjecie: zdjecie || undefined, kadr, tloPodgladu: !zdjecie }).catch((e) => setKom({ ok: false, tekst: e.message }));
-  }, [p, zdjecie, kadr]);
+    if (plotno.current) rysujPost(plotno.current, p, { zdjecie: zdjecie || undefined, kadr, zdjecie2: (zdjecie && zdjecie2) || undefined, kadr2, tloPodgladu: !zdjecie }).catch((e) => setKom({ ok: false, tekst: e.message }));
+  }, [p, zdjecie, kadr, zdjecie2, kadr2]);
 
   const brakuje = braki(p);
 
-  function wczytajZdjecie(f?: File) {
+  function wczytajZdjecie(f?: File, drugie = false) {
     if (!f) return;
     const url = URL.createObjectURL(f);
     const i = new Image();
     i.onload = () => {
-      setZdjecie(i);
-      setKadr(KADR_DOMYSLNY);
+      if (drugie) {
+        setZdjecie2(i);
+        setKadr2(KADR_DOMYSLNY);
+        if (!['srodek'].includes(p.uklad)) ust({ uklad: 'srodek' });
+      } else {
+        setZdjecie(i);
+        setKadr(KADR_DOMYSLNY);
+      }
     };
     i.src = url;
   }
@@ -359,7 +367,7 @@ function Edytor({
   async function pobierz(przezroczyste: boolean, format?: Format) {
     const c = document.createElement('canvas');
     const q = { ...p, format: format || p.format };
-    await rysujPost(c, q, przezroczyste ? {} : { zdjecie: zdjecie || undefined, kadr, tloPodgladu: !zdjecie });
+    await rysujPost(c, q, przezroczyste ? {} : { zdjecie: zdjecie || undefined, kadr, zdjecie2: (zdjecie && zdjecie2) || undefined, kadr2, tloPodgladu: !zdjecie });
     const b = await doPliku(c, przezroczyste ? 'image/png' : 'image/jpeg');
     const a = document.createElement('a');
     a.href = URL.createObjectURL(b);
@@ -388,7 +396,7 @@ function Edytor({
       } else if (zdjecie) {
         setPraca('grafika');
         const c = document.createElement('canvas');
-        await rysujPost(c, q, { zdjecie, kadr });
+        await rysujPost(c, q, { zdjecie, kadr, zdjecie2: zdjecie2 || undefined, kadr2 });
         const b = await doPliku(c, 'image/jpeg', 0.9);
         const sc = `${FOLDER_MEDIOW}/${p.id}-${znacznik}.jpg`;
         const url = await wyslij(sc, await base64ZPliku(b), `Social: grafika do ${p.tytul.slice(0, 50)}`);
@@ -468,7 +476,38 @@ function Edytor({
             <input type="file" accept="image/*" className="hidden" onChange={(e) => wczytajZdjecie(e.target.files?.[0])} />
           </label>
           {zdjecie && (
+            <label className={`${przyciskD} cursor-pointer w-full justify-center`} title="Post podzielony: pierwsze zdjęcie na górze, drugie na dole">
+              <ImagePlus className="w-4 h-4" /> {zdjecie2 ? 'Zmień drugie zdjęcie (dół)' : 'Dodaj drugie zdjęcie (dół)'}
+              <input type="file" accept="image/*" className="hidden" onChange={(e) => wczytajZdjecie(e.target.files?.[0], true)} />
+            </label>
+          )}
+          {zdjecie2 && (
+            <div className="space-y-2 rounded-lg bg-slate-50 dark:bg-slate-800/50 p-2">
+              <div className="flex justify-between items-center text-xs font-semibold text-slate-600 dark:text-slate-300">
+                Drugie zdjęcie (dół)
+                <button className="underline font-normal" onClick={() => setZdjecie2(null)}>usuń</button>
+              </div>
+              {(['x', 'y'] as const).map((k) => (
+                <label key={k} className="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-300">
+                  <span className="w-28">{k === 'x' ? 'Przesuń w bok' : 'Przesuń w pionie'}</span>
+                  <input type="range" min={0} max={100} value={kadr2[k]} onChange={(e) => setKadr2({ ...kadr2, [k]: +e.target.value })} className="flex-1" />
+                </label>
+              ))}
+              <label className="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-300">
+                <span className="w-28">Powiększ</span>
+                <input type="range" min={100} max={300} value={kadr2.zoom * 100} onChange={(e) => setKadr2({ ...kadr2, zoom: +e.target.value / 100 })} className="flex-1" />
+              </label>
+            </div>
+          )}
+          {(p.uklad === 'srodek' || zdjecie2) && (
+            <label className="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-300">
+              <span className="w-28">{zdjecie2 ? 'Granica zdjęć i pasek' : 'Wysokość paska'}</span>
+              <input type="range" min={25} max={75} value={p.pozycja ?? 50} onChange={(e) => ust({ pozycja: +e.target.value })} className="flex-1" />
+            </label>
+          )}
+          {zdjecie && (
             <div className="space-y-2">
+              {zdjecie2 && <div className="text-xs font-semibold text-slate-600 dark:text-slate-300">Pierwsze zdjęcie (góra)</div>}
               {(['x', 'y'] as const).map((k) => (
                 <label key={k} className="flex items-center gap-3 text-xs text-slate-600 dark:text-slate-300">
                   <span className="w-28">{k === 'x' ? 'Przesuń w bok' : 'Przesuń w pionie'}</span>

@@ -7,7 +7,7 @@ export const PLIK_KOLEJKI = 'social/kolejka.json';
 export const FOLDER_MEDIOW = 'social/media';
 
 export type TypPostu = 'ciekawostka' | 'news' | 'pilne';
-export type Uklad = 'dol' | 'gora' | 'liczba' | 'karta' | 'kartaGora' | 'tytul' | 'pasek' | 'news' | 'pilne';
+export type Uklad = 'dol' | 'gora' | 'srodek' | 'liczba' | 'karta' | 'kartaGora' | 'tytul' | 'pasek' | 'news' | 'pilne';
 export type Format = 'post' | 'pion';
 export type StatusPostu = 'szkic' | 'gotowy' | 'zaplanowany' | 'opublikowany';
 export type Siec = 'instagram' | 'tiktok' | 'facebook' | 'youtube';
@@ -43,6 +43,8 @@ export interface PostSocial {
   sieci: Siec[];
   media?: Media;
   status: StatusPostu;
+  /** położenie paska w układzie „Pasek na środku” i granicy dwóch zdjęć, 25–75 (% wysokości) */
+  pozycja?: number;
   /** opublikuj jak najszybciej (news „na już”) */
   pilne?: boolean;
   /** zaplanowana data publikacji (ISO) – wpisuje Claude po zaplanowaniu w Metricool */
@@ -68,6 +70,7 @@ export interface Kolejka {
 export const NAZWY_UKLADOW: Record<Uklad, string> = {
   dol: 'Tekst na dole',
   gora: 'Tekst na górze (dół zdjęcia odsłonięty)',
+  srodek: 'Pasek na środku (do dwóch zdjęć: góra + dół)',
   liczba: 'Wielka liczba',
   karta: 'Czarna karta z ramką',
   kartaGora: 'Czarna karta u góry (dół odsłonięty)',
@@ -77,8 +80,8 @@ export const NAZWY_UKLADOW: Record<Uklad, string> = {
   pilne: 'Na już (pilne)'
 };
 export const UKLADY_TYPU: Record<TypPostu, Uklad[]> = {
-  ciekawostka: ['dol', 'gora', 'liczba', 'kartaGora', 'karta', 'tytul', 'pasek'],
-  news: ['news', 'gora', 'karta', 'pasek', 'dol'],
+  ciekawostka: ['dol', 'gora', 'liczba', 'kartaGora', 'karta', 'tytul', 'pasek', 'srodek'],
+  news: ['news', 'gora', 'karta', 'pasek', 'dol', 'srodek'],
   pilne: ['pilne', 'pasek', 'news']
 };
 export const ROZMIAR: Record<Format, { w: number; h: number; nazwa: string }> = {
@@ -212,6 +215,9 @@ export interface OpcjeRysowania {
   /** zdjęcie albo klatka filmu pod nakładką; brak = przezroczyste tło (nakładka do montażu) */
   zdjecie?: CanvasImageSource & { width: number; height: number };
   kadr?: Kadr;
+  /** drugie zdjęcie – na dole (post „góra + dół”) */
+  zdjecie2?: CanvasImageSource & { width: number; height: number };
+  kadr2?: Kadr;
   /** szare tło w paski zamiast zdjęcia (podgląd w panelu) */
   tloPodgladu?: boolean;
   /** data do układu „news” */
@@ -229,14 +235,26 @@ export async function rysujPost(canvas: HTMLCanvasElement, p: PostSocial, o: Opc
   c.textBaseline = 'alphabetic';
 
   // tło: zdjęcie (wykadrowane) albo podgląd
-  if (o.zdjecie) {
-    const k = o.kadr || KADR_DOMYSLNY;
-    const iw = (o.zdjecie as HTMLVideoElement).videoWidth || o.zdjecie.width;
-    const ih = (o.zdjecie as HTMLVideoElement).videoHeight || o.zdjecie.height;
-    const s = Math.max(W / iw, H / ih) * k.zoom;
+  const granica = Math.round((H * Math.min(75, Math.max(25, p.pozycja ?? 50))) / 100);
+  const wstaw = (img: NonNullable<OpcjeRysowania['zdjecie']>, k: Kadr, x: number, y: number, w: number, h: number) => {
+    const iw = (img as HTMLVideoElement).videoWidth || img.width;
+    const ih = (img as HTMLVideoElement).videoHeight || img.height;
+    const s = Math.max(w / iw, h / ih) * k.zoom;
     const dw = iw * s;
     const dh = ih * s;
-    c.drawImage(o.zdjecie, ((W - dw) * k.x) / 100, ((H - dh) * k.y) / 100, dw, dh);
+    c.save();
+    c.beginPath();
+    c.rect(x, y, w, h);
+    c.clip();
+    c.drawImage(img, x + ((w - dw) * k.x) / 100, y + ((h - dh) * k.y) / 100, dw, dh);
+    c.restore();
+  };
+  if (o.zdjecie && o.zdjecie2) {
+    // dwa zdjęcia: pierwsze na górze, drugie na dole
+    wstaw(o.zdjecie, o.kadr || KADR_DOMYSLNY, 0, 0, W, granica);
+    wstaw(o.zdjecie2, o.kadr2 || KADR_DOMYSLNY, 0, granica, W, H - granica);
+  } else if (o.zdjecie) {
+    wstaw(o.zdjecie, o.kadr || KADR_DOMYSLNY, 0, 0, W, H);
   } else if (o.tloPodgladu) {
     c.fillStyle = '#2a2a2a';
     c.fillRect(0, 0, W, H);
@@ -507,6 +525,42 @@ export async function rysujPost(canvas: HTMLCanvasElement, p: PostSocial, o: Opc
     font(c, 400, 30);
     c.fillStyle = '#333';
     wt.forEach((l, i) => c.fillText(l, pad, y + i * lhT));
+  }
+
+  if (p.uklad === 'srodek') {
+    gradient(c, 0, 220 + gora - 72, [[0, 0.5], [1, 0]], W);
+    cien(c, true);
+    logo(c, logoBiale, M, gora, 250);
+    if (nr) {
+      c.fillStyle = '#fff';
+      font(c, 500, 24);
+      rozstrzel(c, nr, W - M, gora + 28, 24 * 0.24, true);
+    }
+    cien(c, false);
+    const { r, w } = dopasujTytul(c, tytul, szer, [64, 58, 52, 46], 3);
+    font(c, 400, 30);
+    const wt = tekst ? zawijaj(c, tekst, szer).slice(0, 2) : [];
+    const lhT = 30 * 1.4;
+    const lh = r * 1.04;
+    const wys = 44 + 24 + 30 + r * 0.9 + (w.length - 1) * lh + (wt.length ? 26 + 30 * 0.9 + (wt.length - 1) * lhT : 0) + 44;
+    const ky = Math.max(gora + 60, Math.min(H - wys - 40, granica - wys / 2));
+    c.fillStyle = 'rgba(10,10,10,.94)';
+    c.fillRect(0, ky, W, wys);
+    c.fillStyle = '#fff';
+    c.fillRect(0, ky, W, 2);
+    c.fillRect(0, ky + wys - 2, W, 2);
+    let y = ky + 44 + 18;
+    font(c, 500, 24);
+    c.fillStyle = '#CFCFC9';
+    if (kat) rozstrzel(c, kat, M, y, 24 * 0.32);
+    y += 30 + r * 0.9;
+    font(c, 700, r);
+    c.fillStyle = '#fff';
+    w.forEach((l, i) => c.fillText(l, M, y + i * lh));
+    y += (w.length - 1) * lh + 26 + 30 * 0.9;
+    font(c, 400, 30);
+    c.fillStyle = '#DCDCD6';
+    wt.forEach((l, i) => c.fillText(l, M, y + i * lhT));
   }
 
   if (p.uklad === 'pilne') {
