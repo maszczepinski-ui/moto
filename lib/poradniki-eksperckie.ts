@@ -18,6 +18,12 @@ const Z = {
   totalGesty: { n: 'TotalEnergies – silniki z dużym przebiegiem a gęstszy olej', url: 'https://baltics.totalenergies.com/en/engines-higher-mileage-and-thicker-oil' },
   otomotoOznaczenia: { n: 'Otomoto News – oznaczenia oleju silnikowego i klasyfikacje', url: 'https://www.otomoto.pl/news/oznaczenia-oleju-silnikowego-klasyfikacja-olejow' },
   saeJ300: { n: 'Wikipedia – SAE J300 (klasyfikacja lepkości olejów silnikowych)', url: 'https://en.wikipedia.org/wiki/SAE_J300' },
+  acKlimaCena: { n: 'AutoCentrum – ile kosztuje nabicie klimatyzacji (R134a i R1234yf, czerwiec 2026)', url: 'https://www.autocentrum.pl/newsy/ile-kosztuje-nabicie-klimatyzacji-kierowcy-moga-sie-zdziwic/' },
+  otomotoOdgrzybianie: { n: 'Otomoto News – odgrzybianie klimatyzacji: metody, ceny, częstotliwość (2026)', url: 'https://www.otomoto.pl/news/odgrzybianie-klimatyzacji-ile-kosztuje-jakie-sa-metody-czemu-ma-sluzyc' },
+  asKlimaAwarie: { n: 'Auto Świat – klimatyzacja: jak działa, serwis, typowe awarie (ubytek ok. 10% czynnika rocznie)', url: 'https://www.auto-swiat.pl/porady/eksploatacja/klimatyzacja-jak-dziala-serwis-typowe-awarie-klimatyzacji/8f8s0gg' },
+  asFgazy: { n: 'Auto Świat – koniec z nabijaniem nieszczelnych klimatyzacji (ustawa o F-gazach)', url: 'https://www.auto-swiat.pl/porady/eksploatacja/koniec-z-nabijaniem-nieszczelnych-klimatyzacji-nowe-przepisy-dla-serwisow/7sjhv7j' },
+  acFiltrKabinowy: { n: 'AutoCentrum – filtr kabinowy: rodzaje i jak często go wymieniać', url: 'https://www.autocentrum.pl/publikacje/porady/filtr-kabinowy-co-to-jest-do-czego-sluzy-jak-czesto-i-kiedy-warto-go-wymienic/' },
+  asPrzedSezonem: { n: 'Auto Świat – co sprawdzić w klimatyzacji przed sezonem, objawy usterek', url: 'https://www.auto-swiat.pl/porady/eksploatacja/co-trzeba-sprawdzic-w-klimatyzacji-przed-sezonem-objawy-i-naprawa-usterek/ky57q7v' },
   asStartStop: { n: 'Auto Świat – jak wymienić akumulator w aucie z układem start-stop (AGM, EFB, rejestracja)', url: 'https://www.auto-swiat.pl/porady/auto-z-ukladem-start-stop-jak-wymienic-akumulator/48rpets' }
 };
 
@@ -536,6 +542,240 @@ export const NOWE_4: Poradnik[] = [
     ],
     powiazane: ['kontrolki-w-samochodzie', 'benzyna-diesel-lpg-czy-hybryda', 'zima-w-samochodzie'],
     zrodla: [Z.acOleje, Z.acLepkosc, Z.asLongLife, Z.asDpf, Z.totalGesty, Z.otomotoOznaczenia, Z.saeJ300]
+  },
+  {
+    slug: 'klimatyzacja-samochodowa-serwis-odgrzybianie',
+    kategoria: 'eksploatacja',
+    ikona: 'klima',
+    aktualizacja: '2026-11-15',
+    tytul: 'Klimatyzacja w samochodzie – jak działa, objawy nieszczelności, odgrzybianie (ozon czy ultradźwięki) i filtr kabinowy',
+    krotko: 'Klimatyzacja: serwis i odgrzybianie',
+    opis: 'Jak działa klimatyzacja w aucie, po czym poznać nieszczelność, ile kosztuje serwis z czynnikiem R134a i R1234yf, czym różni się ozonowanie od ultradźwięków, jak wyczyścić parownik i kiedy wymienić filtr kabinowy.',
+    liczby: [
+      { w: 'ok. 10%', o: 'tyle czynnika ucieka rocznie nawet ze sprawnego układu' },
+      { w: 'raz w roku', o: 'serwis, odgrzybianie i wymiana filtra kabinowego' },
+      { w: '500–700 zł', o: 'pełny serwis z czynnikiem R1234yf (auta od ok. 2017 r.)' }
+    ],
+    sekcje: [
+      {
+        id: 'wstep',
+        t: 'Klimatyzacja to nie tylko chłód latem',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Pierwszy upalny dzień, wsiadasz do auta, włączasz klimatyzację – a z nawiewów leci ciepłe powietrze o zapachu piwnicy. To jeden z najczęstszych powodów wizyt w warsztatach na wiosnę. Kłopot w tym, że wielu kierowców myśli o klimatyzacji dopiero wtedy, gdy przestaje działać, a wtedy naprawa bywa już droga.'
+          },
+          {
+            typ: 'p',
+            t: 'Klimatyzacja ubywa po cichu: nawet szczelny układ traci co roku część czynnika chłodniczego, a razem z nim olej, który smaruje sprężarkę – najdroższy element całego układu. Wilgotny parownik schowany pod deską rozdzielczą jest z kolei idealnym miejscem dla grzybów i bakterii, którymi oddychasz w czasie jazdy.'
+          },
+          {
+            typ: 'p',
+            t: 'Dobra wiadomość: kilka prostych nawyków i jeden serwis w roku wystarczą, żeby klimatyzacja działała sprawnie i nie śmierdziała. W tym poradniku wyjaśniamy, jak działa układ, po czym poznać nieszczelność, ile kosztuje serwis, którą metodę odgrzybiania wybrać i kiedy wymienić filtr kabinowy.'
+          },
+          {
+            typ: 'uwaga',
+            ton: 'info',
+            t: 'Najkrótsza wersja: włączaj klimatyzację regularnie, także zimą. Raz w roku – najlepiej wiosną – zrób serwis z kontrolą szczelności, odgrzybianie i wymianę filtra kabinowego. Jeśli klimatyzacja słabo chłodzi, nie „dobijaj” czynnika bez szukania przyczyny.'
+          }
+        ]
+      },
+      {
+        id: 'jak-dziala',
+        t: 'Jak działa klimatyzacja w samochodzie',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Klimatyzacja nie „produkuje zimna”. Przenosi ciepło z wnętrza auta na zewnątrz – tak jak lodówka. Robi to czynnik chłodniczy, który krąży w zamkniętym obiegu i na zmianę paruje (zabiera ciepło) i skrapla się (oddaje ciepło).'
+          },
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Sprężarka', o: 'Napędzana przez silnik (w hybrydach i elektrykach – elektrycznie). Spręża gazowy czynnik, który przy tym mocno się nagrzewa. To najdroższy element układu – smaruje ją olej krążący razem z czynnikiem.' },
+              { t: 'Skraplacz', o: 'Chłodnica klimatyzacji z przodu auta, zwykle przed chłodnicą silnika. Tu gorący czynnik oddaje ciepło do otoczenia i zamienia się w ciecz.' },
+              { t: 'Osuszacz (filtr osuszacz)', o: 'Wyłapuje wilgoć i zanieczyszczenia z czynnika. Wilgoć w układzie powoduje korozję i obniża wydajność, dlatego osuszacz wymienia się po rozszczelnieniu układu.' },
+              { t: 'Zawór rozprężny', o: 'Gwałtownie obniża ciśnienie ciekłego czynnika. Czynnik się rozpręża i mocno ochładza.' },
+              { t: 'Parownik', o: 'Mała chłodnica schowana pod deską rozdzielczą. Zimny czynnik paruje w niej i odbiera ciepło z powietrza, które dmuchawa wpycha do kabiny. Na zimnym parowniku skrapla się wilgoć – dlatego pod autem z włączoną klimatyzacją kapie woda, a parownik jest stale wilgotny.' }
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Dzięki temu, że na parowniku skrapla się para wodna, klimatyzacja nie tylko chłodzi, ale też osusza powietrze. To bardzo przydatne jesienią i zimą: z włączoną klimatyzacją szyby odparowują znacznie szybciej.'
+          }
+        ]
+      },
+      {
+        id: 'czynnik',
+        t: 'R134a czy R1234yf – jaki czynnik masz w aucie i ile kosztuje serwis',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Starsze auta mają czynnik R134a. Nowsze – produkowane mniej więcej od 2017 roku – nowszy czynnik R1234yf, mniej szkodliwy dla klimatu, ale wyraźnie droższy. Jaki czynnik jest w Twoim aucie, sprawdzisz na naklejce pod maską (zwykle na pasie przednim) – podana jest tam też ilość czynnika w gramach.'
+          },
+          {
+            typ: 'tabela',
+            naglowki: ['', 'R134a', 'R1234yf'],
+            wiersze: [
+              ['W jakich autach', 'Starsze auta, zwykle sprzed 2017 r.', 'Nowsze auta, zwykle od 2017 r.'],
+              ['Pierwsze 100 g czynnika', 'ok. 120–150 zł', 'ok. 250 zł'],
+              ['Każde kolejne 100 g', 'ok. 40 zł', 'ok. 80 zł'],
+              ['Pełny serwis', 'ok. 250–400 zł', 'ok. 500–700 zł'],
+              ['Serwis z odgrzybianiem i filtrem', 'ok. 350–500 zł', 'ok. 600–800 zł']
+            ],
+            podpis: 'Orientacyjne ceny serwisu klimatyzacji w Polsce (2026). W dużych miastach zwykle o 10–15% drożej.'
+          },
+          {
+            typ: 'p',
+            t: 'Dobry serwis to nie samo „nabicie”. Warsztat powinien odessać stary czynnik, sprawdzić szczelność układu próbą próżni, wpompować właściwą ilość czynnika i oleju, a na koniec zmierzyć temperaturę powietrza z nawiewów. Zgodnie z przepisami o tzw. F-gazach serwis nie powinien uzupełniać czynnika w układzie, który ma wyraźny ubytek, bez wcześniejszego znalezienia i naprawienia nieszczelności.'
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Hybrydy i auta elektryczne mają sprężarkę elektryczną i wymagają specjalnego oleju, który nie przewodzi prądu. Serwis klimatyzacji w takim aucie zlecaj tylko warsztatowi, który ma do tego odpowiedni sprzęt – pomyłka może zniszczyć sprężarkę.'
+          }
+        ]
+      },
+      {
+        id: 'nieszczelnosc',
+        t: 'Objawy nieszczelności i usterek klimatyzacji',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Nawet całkiem sprawny układ traci rocznie ok. 10% czynnika przez uszczelki i węże. Po 2–3 latach bez serwisu klimatyzacja wyraźnie słabiej chłodzi, a sprężarka pracuje z niedoborem oleju. Gdy ubytek jest szybszy – czynnik ucieka w ciągu kilku tygodni – układ jest nieszczelny.'
+          },
+          {
+            typ: 'tabela',
+            naglowki: ['Objaw', 'Najczęstsza przyczyna', 'Co zrobić'],
+            wiersze: [
+              ['Słabe chłodzenie', 'Za mało czynnika, brudny skraplacz lub zapchany filtr kabinowy', 'Serwis z kontrolą ilości czynnika, wymiana filtra'],
+              ['Chłodzi tylko chwilami', 'Wilgoć lub zanieczyszczenia w układzie, kłopot z zaworem', 'Diagnostyka w warsztacie, często wymiana osuszacza'],
+              ['Wcale nie chłodzi', 'Brak czynnika, awaria sprężarki lub jej sprzęgła, zawory', 'Nie dobijaj czynnika na ślepo – najpierw test szczelności'],
+              ['Szybko ubywa czynnika po serwisie', 'Nieszczelność: węże, uszczelki, skraplacz, parownik', 'Szukanie wycieku barwnikiem UV lub azotem, naprawa'],
+              ['Hałas po włączeniu klimatyzacji', 'Ślizgający się pasek, zużyte sprzęgło lub łożysko sprężarki', 'Pilnie do warsztatu – zatarta sprężarka to koszt kilku tysięcy zł'],
+              ['Nieprzyjemny zapach z nawiewów', 'Grzyby i bakterie na parowniku', 'Odgrzybianie i wymiana filtra kabinowego']
+            ],
+            podpis: 'Typowe objawy usterek klimatyzacji samochodowej.'
+          },
+          {
+            typ: 'p',
+            t: 'Nieszczelność warsztat szuka zwykle na trzy sposoby: próbą próżni (czy układ utrzymuje podciśnienie), barwnikiem UV dodanym do czynnika (wyciek świeci w świetle lampy UV) albo napełniając układ azotem pod ciśnieniem. Czasem nieszczelność widać gołym okiem – jako oleisty nalot na złączkach lub na skraplaczu.'
+          }
+        ]
+      },
+      {
+        id: 'odgrzybianie',
+        t: 'Odgrzybianie: ozon, ultradźwięki czy pianka?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Parownik jest stale wilgotny i ciemny – idealne miejsce dla grzybów i bakterii. Objaw to stęchły zapach z nawiewów, zwłaszcza zaraz po włączeniu dmuchawy. Odgrzybianie warto robić raz w roku, najlepiej wiosną. Metody różnią się tym, czy działają tylko w kabinie, czy docierają do parownika.'
+          },
+          {
+            typ: 'tabela',
+            naglowki: ['Metoda', 'Jak działa', 'Plusy i minusy', 'Cena'],
+            wiersze: [
+              ['Ozonowanie', 'Ozonator w zamkniętym aucie wytwarza ozon, który przy pracującej dmuchawie krąży po kabinie i kanałach nawiewu.', 'Dobrze usuwa zapachy i drobnoustroje w kabinie. Słabiej czyści sam parownik. Po zabiegu auto trzeba dokładnie przewietrzyć.', 'ok. 100–300 zł'],
+              ['Ultradźwięki', 'Urządzenie zamienia płyn dezynfekujący w bardzo drobną mgiełkę, którą dmuchawa wciąga do układu.', 'Mgiełka dociera do parownika i kanałów. Uważana za najskuteczniejszą z popularnych metod.', 'ok. 150–350 zł'],
+              ['Pianka lub spray', 'Preparat wtryskiwany przez kratkę nawiewu, otwór odpływu skroplin albo bezpośrednio na parownik.', 'Tania i do zrobienia samemu. Skuteczność zależy od tego, czy preparat dotrze do parownika. Zapach może utrzymywać się kilka dni.', 'kilkadziesiąt zł'],
+              ['Ciśnieniowe mycie parownika', 'Warsztat wprowadza sondę do parownika i myje go preparatem pod ciśnieniem.', 'Najlepiej czyści mocno zabrudzony parownik. Droższa i nie każdy warsztat ją oferuje.', 'zależnie od warsztatu']
+            ],
+            podpis: 'Popularne metody odgrzybiania klimatyzacji samochodowej (orientacyjne ceny 2026).'
+          },
+          {
+            typ: 'p',
+            t: 'W praktyce najlepiej sprawdza się połączenie: czyszczenie parownika (pianką, ultradźwiękami albo ciśnieniowo), wymiana filtra kabinowego i dopiero na koniec ozonowanie, które usuwa resztki zapachów z kabiny. Samo ozonowanie przy brudnym parowniku i starym filtrze daje efekt tylko na chwilę.'
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Ozon w dużym stężeniu jest szkodliwy dla ludzi i zwierząt. W czasie ozonowania nikt nie może przebywać w aucie, a po zabiegu trzeba je dokładnie przewietrzyć. Nie ozonuj też auta zbyt często i zbyt długo – ozon przyspiesza starzenie się gumy i niektórych tworzyw.'
+          }
+        ]
+      },
+      {
+        id: 'filtr',
+        t: 'Filtr kabinowy – mała część, duża różnica',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Filtr kabinowy oczyszcza powietrze, które wpada do wnętrza auta: z kurzu, pyłków i spalin. Zapchany filtr ogranicza przepływ powietrza, przez co klimatyzacja słabiej chłodzi, szyby dłużej parują, a z nawiewów może brzydko pachnieć. Wymieniaj go co najmniej raz w roku albo co ok. 15–20 tys. km – częściej, jeśli jeździsz po szutrowych drogach, w dużym mieście lub masz alergię.'
+          },
+          {
+            typ: 'tabela',
+            naglowki: ['Rodzaj filtra', 'Co zatrzymuje', 'Dla kogo'],
+            wiersze: [
+              ['Zwykły (przeciwpyłkowy)', 'Kurz, pyłki, zarodniki', 'Najtańszy, wystarczy przy jeździe poza dużymi miastami'],
+              ['Z węglem aktywnym', 'Dodatkowo zapachy i część szkodliwych gazów ze spalin', 'Jazda w mieście i w korkach – najczęściej polecany'],
+              ['Antysmogowy / antyalergiczny', 'Bardzo drobne cząstki pyłu (np. PM2,5), alergeny, często z warstwą antybakteryjną', 'Alergicy i osoby jeżdżące w smogu']
+            ],
+            podpis: 'Rodzaje filtrów kabinowych.'
+          },
+          {
+            typ: 'p',
+            t: 'W wielu autach filtr kabinowy wymienisz sam w kilka minut – zwykle jest za schowkiem pasażera albo pod podszybiem przed szybą. Zamiennik dobrej firmy kosztuje zwykle kilkadziesiąt do ok. 100 zł. Najlepiej wymieniać go wiosną, przed sezonem pylenia, a jeśli dwa razy w roku – to drugi raz jesienią.'
+          }
+        ]
+      },
+      {
+        id: 'nawyki',
+        t: 'Jak korzystać z klimatyzacji, żeby działała latami',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'Włączaj klimatyzację regularnie przez cały rok, także zimą – przynajmniej raz w tygodniu na kilkanaście minut. Długi postój szkodzi sprężarce i uszczelkom.',
+              'Kilka minut przed końcem jazdy wyłącz klimatyzację, ale zostaw dmuchawę. Parownik przeschnie i grzyby będą miały gorsze warunki do rozwoju.',
+              'W upał najpierw przewietrz nagrzane auto (otwórz okna na chwilę), a dopiero potem zamknij je i włącz klimatyzację.',
+              'Nie ustawiaj bardzo niskiej temperatury. Duża różnica między wnętrzem a otoczeniem sprzyja przeziębieniom – rozsądnie jest chłodzić o kilka stopni, a nie do 16°C.',
+              'Nie kieruj zimnego nawiewu prosto na twarz i szyję – lepiej na szybę i w stronę sufitu.',
+              'Jesienią i zimą używaj klimatyzacji do osuszania powietrza – szyby szybciej odparują.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'czego-unikac',
+        t: 'Czego unikać',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'Samego „dobijania” czynnika bez sprawdzenia szczelności – za kilka tygodni klimatyzacja znów przestanie chłodzić, a pieniądze ulecą razem z czynnikiem.',
+              'Jazdy z hałasującą sprężarką – zatarcie może rozsypać opiłki po całym układzie, a naprawa kosztuje wtedy kilka tysięcy zł.',
+              'Wyłączania klimatyzacji na całą zimę i jesień.',
+              'Ozonowania jako jedynego sposobu na zapach – bez czyszczenia parownika i nowego filtra efekt będzie krótkotrwały.',
+              'Przebywania w aucie w czasie ozonowania i jazdy bez przewietrzenia kabiny po zabiegu.',
+              'Puszek z czynnikiem „do samodzielnego nabicia” – łatwo przeładować układ albo wprowadzić wilgoć, a w hybrydzie można uszkodzić sprężarkę.',
+              'Zostawiania starego, zapchanego filtra kabinowego na kolejne lata.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'produkty',
+        t: 'Polecane produkty i narzędzia',
+        bloki: [
+          {
+            typ: 'produkty',
+            elementy: [
+              { nazwa: 'Filtr kabinowy z węglem aktywnym', o: 'Zatrzymuje pył, pyłki i zapachy spalin. Dobierz go do modelu auta (po numerze katalogowym lub VIN) i wymieniaj co najmniej raz w roku.', szukaj: 'filtr kabinowy węglowy' },
+              { nazwa: 'Pianka do czyszczenia klimatyzacji z sondą', o: 'Preparat z długą rurką, którą wprowadzasz do parownika (przez odpływ skroplin lub otwór przy dmuchawie). Wystarczy raz w roku, razem z wymianą filtra.', szukaj: 'pianka do czyszczenia klimatyzacji z sondą' },
+              { nazwa: 'Termometr do nawiewów', o: 'Mały termometr szpilkowy pozwala sprawdzić, jak zimne powietrze leci z nawiewów. Sprawna klimatyzacja daje zwykle kilka stopni Celsjusza na środkowym nawiewie przy pełnej mocy.', szukaj: 'termometr szpilkowy do klimatyzacji' },
+              { nazwa: 'Raport historii auta przed zakupem', o: 'Kupując używane auto, sprawdź po numerze VIN jego historię – auta po powodzi i poważnych stłuczkach przodu często mają uszkodzony skraplacz i problemy z klimatyzacją.', partner: 'vin' }
+            ]
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Jak często serwisować klimatyzację w samochodzie?', a: 'Raz w roku, najlepiej wiosną przed sezonem upałów. Nawet sprawny układ traci ok. 10% czynnika rocznie, a razem z nim olej smarujący sprężarkę.' },
+      { q: 'Ile kosztuje nabicie klimatyzacji?', a: 'W 2026 roku pełny serwis z czynnikiem R134a (starsze auta) kosztuje ok. 250–400 zł, a z czynnikiem R1234yf (auta mniej więcej od 2017 roku) ok. 500–700 zł. Z odgrzybianiem i wymianą filtra – odpowiednio ok. 350–500 zł i 600–800 zł.' },
+      { q: 'Co jest lepsze: ozonowanie czy ultradźwięki?', a: 'Ultradźwięki uchodzą za skuteczniejsze, bo mgiełka z płynem dezynfekującym dociera do parownika i kanałów nawiewu. Ozonowanie dobrze usuwa zapachy i drobnoustroje w kabinie, ale słabiej czyści sam parownik. Najlepszy efekt daje czyszczenie parownika, nowy filtr kabinowy i dopiero potem ozonowanie.' },
+      { q: 'Dlaczego klimatyzacja śmierdzi?', a: 'Najczęściej z powodu grzybów i bakterii na wilgotnym parowniku pod deską rozdzielczą oraz starego filtra kabinowego. Pomaga odgrzybianie i wymiana filtra, a na co dzień – wyłączanie klimatyzacji kilka minut przed końcem jazdy przy włączonej dmuchawie.' },
+      { q: 'Czy włączać klimatyzację zimą?', a: 'Tak. Regularna praca chroni sprężarkę i uszczelki przed skutkami długiego postoju, a klimatyzacja osusza powietrze, dzięki czemu szyby szybciej odparowują.' }
+    ],
+    powiazane: ['olej-silnikowy-jak-dobrac', 'zima-w-samochodzie', 'kontrolki-w-samochodzie'],
+    zrodla: [Z.acKlimaCena, Z.otomotoOdgrzybianie, Z.asKlimaAwarie, Z.asFgazy, Z.acFiltrKabinowy, Z.asPrzedSezonem]
   }
 ];
 
@@ -556,6 +796,15 @@ export const DODATKI_4: Record<string, DodatekSeo> = {
       'Najpierw norma producenta auta (np. VW 507.00, MB 229.51), potem lepkość, na końcu marka i cena.',
       'Auto z filtrem DPF lub GPF wymaga oleju z normą ACEA C.',
       'Rozsądny interwał to ok. 15 tys. km lub raz w roku, przy mieście, turbo i LPG – ok. 10 tys. km.'
+    ]
+  },
+  'klimatyzacja-samochodowa-serwis-odgrzybianie': {
+    seoTytul: 'Klimatyzacja w aucie – serwis i odgrzybianie',
+    seoOpis: 'Jak działa klimatyzacja w aucie, objawy nieszczelności, ceny serwisu R134a i R1234yf, ozonowanie czy ultradźwięki, czyszczenie parownika i wymiana filtra kabinowego.',
+    skrot: [
+      'Serwis, odgrzybianie i wymiana filtra kabinowego – raz w roku, najlepiej wiosną.',
+      'Nie dobijaj czynnika bez testu szczelności – sprawny układ traci ok. 10% rocznie, szybszy ubytek to nieszczelność.',
+      'Ultradźwięki docierają do parownika, ozon głównie odświeża kabinę – najlepiej łączyć je z czyszczeniem parownika.'
     ]
   }
 };
