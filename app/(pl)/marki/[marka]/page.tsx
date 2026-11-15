@@ -8,6 +8,8 @@ import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
 import MiniMapa from '@/components/MiniMapa';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
+import { opisMarki } from '@/lib/opisy-marek';
+import OpisMarki from '@/components/OpisMarki';
 
 interface Props {
   params: Promise<{ marka: string }>;
@@ -24,6 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const m = markaPoSlugu(marka);
   if (!m) return {};
   const top = m.modele.slice(0, 3).map((x) => x.nazwa).join(', ');
+  const o = opisMarki(m.slug);
+  if (o) return { title: o.seoTytul, description: o.seoOpis, alternates: { canonical: `/marki/${m.slug}/` } };
   return {
     title: `${m.nazwa} w Polsce – ${fmt(m.auta)} aut, modele i generacje`,
     description: `Ile aut ${m.nazwa} jest zarejestrowanych w Polsce: ${fmt(m.auta)} ${sztuk(m.auta)} według CEPiK. Najpopularniejsze modele: ${top}. Ranking modeli, generacje, województwa.`,
@@ -37,6 +41,7 @@ export default async function MarkaPage({ params }: Props) {
   const { marka } = await params;
   const m = markaPoSlugu(marka);
   if (!m) notFound();
+  const opis = opisMarki(m.slug);
   const miejsce = marki.findIndex((x) => x.slug === m.slug) + 1;
   const suma = m.wojewodztwa.reduce((s, w) => s + w.liczba, 0) || 1;
   const indeksy = m.wojewodztwa
@@ -75,7 +80,8 @@ export default async function MarkaPage({ params }: Props) {
       <Okruszki sciezka={[{ nazwa: 'Marki', adres: '/marki/' }, { nazwa: m.nazwa, adres: `/marki/${m.slug}/` }]} />
       <header className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
         <div className="lg:col-span-2 space-y-3">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 dark:text-white">{m.nazwa} w Polsce</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 dark:text-white">{opis ? opis.h1 : `${m.nazwa} w Polsce`}</h1>
+          {opis && <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">{opis.lead}</p>}
           <p className="text-base text-slate-700 dark:text-slate-300 leading-relaxed">{zdania.join(' ')}</p>
           <dl className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
@@ -98,6 +104,8 @@ export default async function MarkaPage({ params }: Props) {
           </figcaption>
         </figure>
       </header>
+
+      {opis && <OpisMarki opis={opis} marka={m.nazwa} slug={m.slug} />}
 
       <section className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6">
         <h2 className="text-xl font-bold text-slate-900 dark:text-white mb-4">Ranking modeli {m.nazwa}</h2>
@@ -149,6 +157,18 @@ export default async function MarkaPage({ params }: Props) {
       <p className="text-xs text-slate-500">Dane: CEPiK, stan na {formatDate(tlo.stanNa)}. Liczymy modele, które mają w atlasie własną kartę (co najmniej 200 aut).</p>
       <KodStrony sciezka={`/marki/${m.slug}/`} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: bezpiecznyJson(jsonLd) }} />
+      {opis && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: bezpiecznyJson({
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: opis.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+            })
+          }}
+        />
+      )}
     </div>
   );
 }
