@@ -2,7 +2,7 @@
 // zamiast powtarzalnego szablonu: zdania zależą od liczby aut, pochodzenia, paliwa, wieku i regionu.
 import { CarModel, Udzial } from '@/types/car-model';
 import { fmt, sztuk } from '@/lib/format';
-import { nazwaWojewodztwa } from '@/lib/wojewodztwa';
+import { nazwaWojewodztwa, wWoj } from '@/lib/wojewodztwa';
 import tlo from '@/data/cepik/tlo.json';
 
 const tloWoj = tlo.wojewodztwa as Record<string, number>;
@@ -116,7 +116,7 @@ export function zajawkaRynkowa(m: CarModel): string[] {
   const z = zaglebie(m);
   if (z && z.najczesciej.indeks >= 1.25)
     zd.push(
-      `Model jest wyraźnie popularniejszy w województwie ${nazwaWojewodztwa(z.najczesciej.teryt).toLowerCase()} – tam występuje ${przecinek(z.najczesciej.indeks)}× częściej niż średnio w kraju.`
+      `Model jest wyraźnie popularniejszy ${wWoj(z.najczesciej.teryt)} – tam występuje ${przecinek(z.najczesciej.indeks)}× częściej niż średnio w kraju.`
     );
 
   // 6. trend nowych rejestracji
@@ -171,9 +171,9 @@ export function faq(m: CarModel, maUbezpieczenia: boolean): Pytanie[] {
   if (top)
     lista.push({
       pytanie: `W którym województwie jest najwięcej ${nazwa}?`,
-      odpowiedz: `Najwięcej egzemplarzy jest zarejestrowanych w województwie ${nazwaWojewodztwa(top.teryt).toLowerCase()} (${fmt(top.liczba)}).${
+      odpowiedz: `Najwięcej egzemplarzy jest zarejestrowanych ${wWoj(top.teryt)} (${fmt(top.liczba)}).${
         z && z.najczesciej.teryt !== top.teryt && z.najczesciej.indeks >= 1.2
-          ? ` Względem liczby wszystkich aut najpopularniejszy jest jednak w województwie ${nazwaWojewodztwa(z.najczesciej.teryt).toLowerCase()}.`
+          ? ` Względem liczby wszystkich aut najpopularniejszy jest jednak ${wWoj(z.najczesciej.teryt)}.`
           : ''
       }`
     });

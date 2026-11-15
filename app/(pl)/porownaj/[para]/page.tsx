@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { wszystkiePary, paraPoId } from '@/lib/porownania';
 import { nazwaKarty, zaglebie, najwiecej } from '@/lib/opis';
 import { opisZatwierdzony, Markdown } from '@/lib/opisy';
-import { CarModel, Udzial } from '@/types/car-model';
+import { CarModel } from '@/types/car-model';
 import { fmt, formatDate, NADWOZIE_NAZWY } from '@/lib/format';
 import { nazwaWojewodztwa } from '@/lib/wojewodztwa';
 import { site } from '@/config/site';
@@ -13,7 +13,13 @@ import KodStrony from '@/components/KodStrony';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import PorownanieKosztow from '@/components/PorownanieKosztow';
 import { profilNapedu } from '@/components/KartaModelu';
-import { cenyPaliw } from '@/lib/panel';
+import { cenyPaliw, pokazModul } from '@/lib/panel';
+import { tekstPorownania, udzial, proc } from '@/lib/porownanie-tekst';
+import { Vin } from '@/components/Monetyzacja';
+import teksty from '@/data/porownania-teksty.json';
+
+type TekstReczny = { wstep: string[]; werdykt?: string; zrodla?: { tytul: string; url: string }[] };
+const RECZNE = (teksty as unknown as { pary: Record<string, TekstReczny> }).pary;
 
 interface Props {
   params: Promise<{ para: string }>;
@@ -31,20 +37,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!p) return {};
   const a = nazwaKarty(p.a), b = nazwaKarty(p.b);
   return {
-    title: `${a} czy ${b}? Porównanie – rejestracje w Polsce, silniki, wymiary`,
-    description: `${a} czy ${b}: w Polsce jest ${fmt(p.a.cepik.liczbaWPolsce)} vs ${fmt(p.b.cepik.liczbaWPolsce)} zarejestrowanych aut. Porównanie roczników, paliw, pochodzenia, wymiarów i silników na podstawie danych CEPiK.`,
+    title: `${a} czy ${b}? Porównanie – który wybrać`,
+    description: `${a} czy ${b}? Porównanie na danych CEPiK: ${fmt(p.a.cepik.liczbaWPolsce)} vs ${fmt(p.b.cepik.liczbaWPolsce)} aut w Polsce, silniki, paliwa, wiek, koszty tankowania i dla kogo który.`,
     alternates: { canonical: `/porownaj/${p.id}/` },
     // mniej popularne porównania: dla ludzi tak, dla Google nie (patrz lib/indeksowanie.ts)
     ...(porownanieWGoogle(p.id) ? {} : { robots: BEZ_INDEKSU })
   };
 }
-
-const udzial = (l: Udzial[], ...n: string[]) => {
-  const znane = l.filter((u) => u.nazwa !== 'Inne / brak danych');
-  const s = znane.reduce((x, u) => x + u.liczba, 0) || 1;
-  return znane.filter((u) => n.some((k) => u.nazwa.startsWith(k))).reduce((x, u) => x + u.liczba, 0) / s;
-};
-const proc = (x: number) => `${Math.round(x * 100)}%`;
 
 function wiersze(m: CarModel) {
   const c = m.cepik;
@@ -98,6 +97,9 @@ export default async function PorownaniePage({ params }: Props) {
   const wa = wiersze(a), wb = wiersze(b);
   const opisA = opisZatwierdzony(a.slug), opisB = opisZatwierdzony(b.slug);
   const zdania = werdykt(a, b);
+  const tekst = tekstPorownania(a, b);
+  const reczny = RECZNE[p.id];
+  const K = { slug: `porownanie-${p.id}`, marka: a.marka, model: a.model };
   const adres = `/porownaj/${p.id}/`;
   const jsonLd = [
     {
@@ -113,10 +115,7 @@ export default async function PorownaniePage({ params }: Props) {
     {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      mainEntity: [
-        { '@type': 'Question', name: `${A} czy ${B} – który jest popularniejszy w Polsce?`, acceptedAnswer: { '@type': 'Answer', text: zdania[0] } },
-        ...(zdania.length > 1 ? [{ '@type': 'Question', name: `Czym różnią się ${A} i ${B}?`, acceptedAnswer: { '@type': 'Answer', text: zdania.slice(1).join(' ') } }] : [])
-      ]
+      mainEntity: tekst.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
     }
   ];
 
@@ -127,7 +126,15 @@ export default async function PorownaniePage({ params }: Props) {
         <h1 className="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white">
           {A} czy {B}?
         </h1>
-        <p className="text-base text-slate-700 dark:text-slate-300 leading-relaxed">{zdania.join(' ')}</p>
+        {reczny?.wstep.map((t, i) => (
+          <p key={i} className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
+            {t}
+          </p>
+        ))}
+        <div className="rounded-2xl border border-steel-200 dark:border-steel-800 bg-steel-50/60 dark:bg-steel-900/30 p-4 sm:p-5">
+          <p className="text-xs font-bold uppercase tracking-wide text-steel-700 dark:text-steel-300 mb-1">W skrócie</p>
+          <p className="text-base text-slate-800 dark:text-slate-200 leading-relaxed">{reczny?.werdykt || zdania.join(' ')}</p>
+        </div>
       </header>
 
       <section className="overflow-x-auto bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl">
@@ -150,7 +157,7 @@ export default async function PorownaniePage({ params }: Props) {
             </tr>
           </thead>
           <tbody>
-            {Object.keys(wa).map((k) => (
+            {Object.keys(wa).filter((k) => wa[k] !== '—' || wb[k] !== '—').map((k) => (
               <tr key={k} className="border-t border-slate-100 dark:border-slate-800">
                 <th scope="row" className="text-left font-normal text-slate-500 px-3 py-2">
                   {k}
@@ -161,6 +168,46 @@ export default async function PorownaniePage({ params }: Props) {
             ))}
           </tbody>
         </table>
+      </section>
+
+      <article className="space-y-8">
+        {tekst.sekcje.map((x) => (
+          <section key={x.h2} className="space-y-3">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">{x.h2}</h2>
+            {x.akapity.map((t, i) => (
+              <p key={i} className="text-base text-slate-700 dark:text-slate-300 leading-relaxed">
+                {t}
+              </p>
+            ))}
+          </section>
+        ))}
+      </article>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-white">
+          {A} czy {B} – dla kogo który?
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {tekst.dlaKogo.map((d) => (
+            <div key={d.auto} className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5">
+              <h3 className="font-bold text-slate-900 dark:text-white mb-2">
+                Wybierz{' '}
+                <a href={d.adres} className="text-steel-600 dark:text-steel-400 hover:underline">
+                  {d.auto}
+                </a>
+                , jeśli:
+              </h3>
+              <ul className="space-y-1.5 text-slate-700 dark:text-slate-300">
+                {d.punkty.map((x) => (
+                  <li key={x} className="flex gap-2">
+                    <span aria-hidden="true" className="text-steel-500">✓</span>
+                    <span>{x}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </section>
 
       <PorownanieKosztow a={{ nazwa: A, ...profilNapedu(a) }} b={{ nazwa: B, ...profilNapedu(b) }} ceny={cenyPaliw()} />
@@ -180,6 +227,40 @@ export default async function PorownaniePage({ params }: Props) {
           )}
         </section>
       )}
+
+      {pokazModul('vin', K) && <Vin k={K} tytul="Kupujesz używane auto? Sprawdź jego historię po VIN" />}
+
+      <section className="space-y-3">
+        <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Najczęstsze pytania</h2>
+        <div className="divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800">
+          {tekst.faq.map((f) => (
+            <details key={f.q} className="group py-3">
+              <summary className="cursor-pointer font-semibold text-slate-900 dark:text-white list-none flex justify-between gap-4">
+                {f.q}
+                <span className="text-slate-400 group-open:rotate-45 transition-transform" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p className="mt-2 text-slate-700 dark:text-slate-300 leading-relaxed">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      {reczny?.zrodla?.length ? (
+        <section className="space-y-1 text-sm">
+          <h2 className="text-sm font-semibold text-slate-500 uppercase tracking-wide">Źródła</h2>
+          <ul className="space-y-1">
+            {reczny.zrodla.map((z) => (
+              <li key={z.url}>
+                <a href={z.url} target="_blank" rel="noopener" className="text-steel-600 dark:text-steel-400 hover:underline">
+                  {z.tytul}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       <section className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         {[a, b].map((m) => (

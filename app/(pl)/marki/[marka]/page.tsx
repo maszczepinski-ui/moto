@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { marki, markaPoSlugu, tlo, uwagaUzupelnianie } from '@/lib/dane';
 import { fmt, formatDate, sztuk } from '@/lib/format';
-import { nazwaWojewodztwa, slugWojewodztwa } from '@/lib/wojewodztwa';
+import { nazwaWojewodztwa, slugWojewodztwa, wWoj } from '@/lib/wojewodztwa';
 import { site } from '@/config/site';
 import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
@@ -65,7 +65,7 @@ export default async function MarkaPage({ params }: Props) {
     m.nowe ? `Od listopada 2019 r. w Polsce zarejestrowano po raz pierwszy ${fmt(m.nowe)} aut tej marki – nowych z salonów i sprowadzonych.${uwagaUzupelnianie() ? ' ' + uwagaUzupelnianie() : ''}` : '',
     m.hybrydy >= m.auta * 0.05 ? `Hybrydy to ${Math.round((m.hybrydy / m.auta) * 100)}% zarejestrowanych egzemplarzy.` : '',
     lider && lider.indeks >= 1.2
-      ? `Marka jest najpopularniejsza w województwie ${nazwaWojewodztwa(lider.teryt).toLowerCase()} – ${lider.indeks.toFixed(1).replace('.', ',')}× częściej niż średnio w kraju.`
+      ? `Marka jest najpopularniejsza ${wWoj(lider.teryt)} – ${lider.indeks.toFixed(1).replace('.', ',')}× częściej niż średnio w kraju.`
       : ''
   ].filter(Boolean);
   const jsonLd = {

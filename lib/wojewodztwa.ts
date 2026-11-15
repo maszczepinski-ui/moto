@@ -20,3 +20,6 @@ export const WOJEWODZTWA = [
 
 export const slugWojewodztwa = (teryt: string) => WOJEWODZTWA.find((w) => w.teryt === teryt)?.slug ?? teryt;
 export const nazwaWojewodztwa = (teryt: string) => WOJEWODZTWA.find((w) => w.teryt === teryt)?.nazwa ?? teryt;
+
+/** „w województwie mazowieckim” – nazwa w poprawnej formie po „w województwie” */
+export const wWoj = (teryt: string) => `w województwie ${nazwaWojewodztwa(teryt).toLowerCase().replace(/kie$/, 'kim')}`;
