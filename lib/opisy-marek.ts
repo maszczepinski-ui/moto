@@ -1,4 +1,6 @@
 import { OPISY_CHINSKIE } from '@/lib/opisy-marek-chinskie';
+import { OPISY_DUZE } from '@/lib/opisy-marek-duze';
+import { OPISY_DUZE_2 } from '@/lib/opisy-marek-duze-2';
 // Ręcznie pisane opisy marek (SEO) pokazywane na /marki/[marka]/.
 // Liczby z CEPiK strona dolicza sama – tutaj tylko treść, ceny z cenników i źródła.
 
@@ -20,7 +22,16 @@ export interface OpisMarki {
   zdjecie?: { src: string; alt: string; podpis: string; szer: number; wys: number };
   /** sekcje: nagłówek H2 + akapity (prosty tekst) */
   sekcje: { h2: string; akapity: string[]; lista?: string[] }[];
-  oferta?: { h2: string; wstep: string; modele: ModelWOfercie[]; uwaga: string };
+  oferta?: {
+    h2: string;
+    wstep: string;
+    modele: ModelWOfercie[];
+    uwaga: string;
+    /** nagłówki kolumn tabeli (domyślnie: Model, Rodzaj auta, Silnik i skrzynia, Cena) */
+    kolumny?: [string, string, string, string];
+  };
+  /** silniki polecane / z zastrzeżeniami / do omijania (dla marek z dużym rynkiem używanych) */
+  silniki?: { wstep: string; lista: { nazwa: string; ocena: 'polecany' | 'warunkowo' | 'omijaj'; opis: string }[] };
   plusy?: string[];
   minusy?: string[];
   faq: { q: string; a: string }[];
@@ -134,5 +145,5 @@ const OPISY: Record<string, OpisMarki> = {
 };
 
 export function opisMarki(slug: string): OpisMarki | null {
-  return OPISY[slug] ?? OPISY_CHINSKIE[slug] ?? null;
+  return OPISY[slug] ?? OPISY_CHINSKIE[slug] ?? OPISY_DUZE[slug] ?? OPISY_DUZE_2[slug] ?? null;
 }

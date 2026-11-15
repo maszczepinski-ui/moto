@@ -68,10 +68,11 @@ export default function OpisMarki({ opis, marka, slug }: { opis: Opis; marka: st
             <table className="w-full text-sm">
               <thead className="bg-slate-50 dark:bg-slate-800/60 text-left text-slate-600 dark:text-slate-300">
                 <tr>
-                  <th className="px-4 py-3 font-semibold">Model</th>
-                  <th className="px-4 py-3 font-semibold">Rodzaj auta</th>
-                  <th className="px-4 py-3 font-semibold">Silnik i skrzynia</th>
-                  <th className="px-4 py-3 font-semibold">Cena</th>
+                  {(opis.oferta.kolumny || ['Model', 'Rodzaj auta', 'Silnik i skrzynia', 'Cena']).map((k) => (
+                    <th key={k} className="px-4 py-3 font-semibold">
+                      {k}
+                    </th>
+                  ))}
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100 dark:divide-slate-800 bg-white dark:bg-slate-900">
@@ -95,8 +96,36 @@ export default function OpisMarki({ opis, marka, slug }: { opis: Opis; marka: st
             </table>
           </div>
           <p className="text-sm text-slate-500">
-            {opis.oferta.uwaga} Ceny sprawdzone {formatDate(opis.sprawdzono)}.
+            {opis.oferta.uwaga} Informacje sprawdzone {formatDate(opis.sprawdzono)}.
           </p>
+        </section>
+      )}
+
+      {opis.silniki && (
+        <section className="space-y-4">
+          <h2 className={h2}>Silniki {marka}: które wybrać, a których unikać</h2>
+          <p className={p}>{opis.silniki.wstep}</p>
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {opis.silniki.lista.map((x) => (
+              <li key={x.nazwa} className="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-4 space-y-1.5">
+                <div className="flex items-center justify-between gap-3">
+                  <span className="font-bold text-slate-900 dark:text-white">{x.nazwa}</span>
+                  <span
+                    className={`text-xs font-semibold px-2 py-0.5 rounded-full whitespace-nowrap ${
+                      x.ocena === 'polecany'
+                        ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-200'
+                        : x.ocena === 'warunkowo'
+                          ? 'bg-amber-100 text-amber-800 dark:bg-amber-900/50 dark:text-amber-200'
+                          : 'bg-rust-100 text-rust-800 dark:bg-rust-900/50 dark:text-rust-200'
+                    }`}
+                  >
+                    {x.ocena === 'polecany' ? 'Polecany' : x.ocena === 'warunkowo' ? 'Z zastrzeżeniami' : 'Lepiej omijać'}
+                  </span>
+                </div>
+                <p className="text-sm text-slate-700 dark:text-slate-300 leading-relaxed">{x.opis}</p>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 
