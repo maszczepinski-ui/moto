@@ -730,7 +730,7 @@ function Kalendarz({ kolejka, onOtworz, onUstaw }: { kolejka: Kolejka; onOtworz:
           );
         })}
       </div>
-      <p className="text-xs text-slate-500">Zielony – dzień obsadzony, żółty – brakuje posta, szary – wolne. Kalendarz odświeża się po każdym planowaniu (codziennie o 20:41).</p>
+      <p className="text-xs text-slate-500">Zielony – dzień obsadzony, żółty – brakuje posta, szary – wolne. Kalendarz odświeża się po każdym planowaniu (codziennie o 12:41 i 20:41).</p>
       {otwarte && (
         <div className="rounded-xl ring-1 ring-slate-200 dark:ring-slate-700 p-4 space-y-3">
           <label className="flex items-center gap-3 text-sm">
