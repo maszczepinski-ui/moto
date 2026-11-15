@@ -7,7 +7,7 @@ export const PLIK_KOLEJKI = 'social/kolejka.json';
 export const FOLDER_MEDIOW = 'social/media';
 
 export type TypPostu = 'ciekawostka' | 'news' | 'pilne';
-export type Uklad = 'dol' | 'liczba' | 'karta' | 'news' | 'pilne';
+export type Uklad = 'dol' | 'gora' | 'liczba' | 'karta' | 'kartaGora' | 'tytul' | 'pasek' | 'news' | 'pilne';
 export type Format = 'post' | 'pion';
 export type StatusPostu = 'szkic' | 'gotowy' | 'zaplanowany' | 'opublikowany';
 export type Siec = 'instagram' | 'tiktok' | 'facebook' | 'youtube';
@@ -67,15 +67,19 @@ export interface Kolejka {
 
 export const NAZWY_UKLADOW: Record<Uklad, string> = {
   dol: 'Tekst na dole',
+  gora: 'Tekst na górze (dół zdjęcia odsłonięty)',
   liczba: 'Wielka liczba',
   karta: 'Czarna karta z ramką',
+  kartaGora: 'Czarna karta u góry (dół odsłonięty)',
+  tytul: 'Sam tytuł u góry (dół odsłonięty)',
+  pasek: 'Biały pasek u góry (dół odsłonięty)',
   news: 'Z rynku (news)',
   pilne: 'Na już (pilne)'
 };
 export const UKLADY_TYPU: Record<TypPostu, Uklad[]> = {
-  ciekawostka: ['dol', 'liczba', 'karta'],
-  news: ['news', 'karta', 'dol'],
-  pilne: ['pilne', 'news']
+  ciekawostka: ['dol', 'gora', 'liczba', 'kartaGora', 'karta', 'tytul', 'pasek'],
+  news: ['news', 'gora', 'karta', 'pasek', 'dol'],
+  pilne: ['pilne', 'pasek', 'news']
 };
 export const ROZMIAR: Record<Format, { w: number; h: number; nazwa: string }> = {
   post: { w: 1080, h: 1350, nazwa: 'Post 4:5 (1080×1350)' },
@@ -405,6 +409,104 @@ export async function rysujPost(canvas: HTMLCanvasElement, p: PostSocial, o: Opc
     c.fillStyle = '#fff';
     font(c, 500, 24);
     rozstrzel(c, 'MOTO-RAPORT.PL', M, H - dol, 24 * 0.24);
+  }
+
+  // ——— układy z odsłoniętym dołem zdjęcia ———
+  if (p.uklad === 'gora') {
+    gradient(c, 0, H * 0.62, [[0, 0.92], [0.5, 0.72], [1, 0]], W);
+    naglowek();
+    let y = gora + 120;
+    font(c, 500, 24);
+    c.fillStyle = '#CFCFC9';
+    if (kat) rozstrzel(c, kat, M, y, 24 * 0.32);
+    y += 34;
+    c.fillStyle = '#fff';
+    const { r, w } = dopasujTytul(c, tytul, szer, [76, 68, 60, 54, 48], 4);
+    const lh = r * 1.04;
+    y += r * 0.82;
+    w.forEach((l, i) => c.fillText(l, M, y + i * lh));
+    y += (w.length - 1) * lh + 36;
+    c.fillRect(M, y, 70, 2);
+    y += 28 + 33;
+    font(c, 400, 33);
+    c.fillStyle = '#DCDCD6';
+    zawijaj(c, tekst, szer).slice(0, 4).forEach((l, i) => c.fillText(l, M, y + i * 33 * 1.38));
+  }
+
+  if (p.uklad === 'kartaGora') {
+    gradient(c, 0, 220 + gora - 72, [[0, 0.5], [1, 0]], W);
+    cien(c, true);
+    logo(c, logoBiale, M, gora, 250);
+    cien(c, false);
+    const pad = 56;
+    const kx = 36;
+    const ks = W - 36 - 120;
+    const ws = ks - 2 * pad;
+    const { r, w } = dopasujTytul(c, tytul, ws, [62, 56, 50, 46], 4);
+    font(c, 400, 31);
+    const wt = tekst ? zawijaj(c, tekst, ws).slice(0, 4) : [];
+    const lhT = 31 * 1.4;
+    const lh = r * 1.06;
+    const wys = pad + 24 + 30 + (w.length - 1) * lh + r * 0.9 + (wt.length ? 30 + 31 * 0.9 + (wt.length - 1) * lhT : 0) + pad;
+    const ky = gora + 70;
+    c.fillStyle = 'rgba(10,10,10,.92)';
+    c.fillRect(kx, ky, ks, wys);
+    let y = ky + pad + 18;
+    font(c, 500, 24);
+    c.fillStyle = '#CFCFC9';
+    if (kat) rozstrzel(c, kat, kx + pad, y, 24 * 0.32);
+    if (nr) rozstrzel(c, nr, kx + ks - pad, y, 24 * 0.24, true);
+    y += 30 + r * 0.9;
+    font(c, 700, r);
+    c.fillStyle = '#fff';
+    w.forEach((l, i) => c.fillText(l, kx + pad, y + i * lh));
+    y += (w.length - 1) * lh + 30 + 31 * 0.9;
+    font(c, 400, 31);
+    c.fillStyle = '#DCDCD6';
+    wt.forEach((l, i) => c.fillText(l, kx + pad, y + i * lhT));
+  }
+
+  if (p.uklad === 'tytul') {
+    gradient(c, 0, H * 0.42, [[0, 0.85], [0.55, 0.55], [1, 0]], W);
+    naglowek();
+    let y = gora + 110;
+    font(c, 500, 24);
+    c.fillStyle = '#CFCFC9';
+    if (kat) rozstrzel(c, kat, M, y, 24 * 0.32);
+    y += 30;
+    c.fillStyle = '#fff';
+    cien(c, true);
+    const { r, w } = dopasujTytul(c, tytul, szer * 0.9, [64, 58, 52, 46], 3);
+    const lh = r * 1.04;
+    y += r * 0.82;
+    w.forEach((l, i) => c.fillText(l, M, y + i * lh));
+    cien(c, false);
+  }
+
+  if (p.uklad === 'pasek') {
+    const pad = M;
+    const { r, w } = dopasujTytul(c, tytul, szer, [64, 58, 52, 46], 3);
+    font(c, 400, 30);
+    const wt = tekst ? zawijaj(c, tekst, szer).slice(0, 3) : [];
+    const lhT = 30 * 1.4;
+    const lh = r * 1.04;
+    const start = gora - 72;
+    const wys = start + 72 + 24 + 34 + r * 0.9 + (w.length - 1) * lh + (wt.length ? 28 + 30 * 0.9 + (wt.length - 1) * lhT : 0) + 52;
+    c.fillStyle = '#fff';
+    c.fillRect(0, 0, W, wys);
+    let y = start + 72 + 18;
+    c.fillStyle = '#0a0a0a';
+    logo(c, logoCzarne, pad, y - 22, 200);
+    font(c, 500, 24);
+    const etykieta = [kat.toUpperCase(), nr].filter(Boolean).join('  ·  ');
+    if (etykieta) rozstrzel(c, etykieta, W - pad, y, 24 * 0.28, true);
+    y += 34 + r * 0.9;
+    font(c, 700, r);
+    w.forEach((l, i) => c.fillText(l, pad, y + i * lh));
+    y += (w.length - 1) * lh + 28 + 30 * 0.9;
+    font(c, 400, 30);
+    c.fillStyle = '#333';
+    wt.forEach((l, i) => c.fillText(l, pad, y + i * lhT));
   }
 
   if (p.uklad === 'pilne') {
