@@ -8,6 +8,7 @@ import Okruszki from '@/components/Okruszki';
 import KodStrony from '@/components/KodStrony';
 import LinkPartnerski from '@/components/LinkPartnerski';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
+import { tekstKodu } from '@/lib/kod-tekst';
 
 interface Props {
   params: Promise<{ kod: string }>;
@@ -59,14 +60,11 @@ export default async function KodPage({ params }: Props) {
   const sklep = czesci?.wlaczony ? czesci.allegro || czesci.ceneo : '';
   const ctx = { slug: k.kod.toLowerCase(), marka: '', model: '' };
   const podobne = KODY.filter((x) => x.kod !== k.kod && x.kod.slice(0, 3) === k.kod.slice(0, 3)).slice(0, 8);
+  const tekst = tekstKodu(k);
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: [
-      { '@type': 'Question', name: `Co oznacza kod błędu ${k.kod}?`, acceptedAnswer: { '@type': 'Answer', text: `${k.nazwa}. ${k.opis}` } },
-      { '@type': 'Question', name: `Jakie są objawy błędu ${k.kod}?`, acceptedAnswer: { '@type': 'Answer', text: k.objawy.join('. ') + '.' } },
-      { '@type': 'Question', name: `Co powoduje błąd ${k.kod}?`, acceptedAnswer: { '@type': 'Answer', text: k.przyczyny.join('. ') + '.' } }
-    ]
+    mainEntity: tekst.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
   };
   return (
     <article className="max-w-3xl mx-auto px-4 py-8 space-y-8">
@@ -81,6 +79,24 @@ export default async function KodPage({ params }: Props) {
       <Lista tytul="Objawy" el={k.objawy} />
       <Lista tytul="Najczęstsze przyczyny" el={k.przyczyny} />
       <Lista tytul="Co sprawdzić" el={k.coSprawdzic} />
+
+      {tekst.sekcje.map((x) => (
+        <section key={x.h2} className="space-y-2">
+          <h2 className="text-xl font-bold text-slate-900 dark:text-white">{x.h2}</h2>
+          {x.akapity.map((t, i) => (
+            <p key={i} className="text-slate-700 dark:text-slate-300 leading-relaxed">
+              {t}
+            </p>
+          ))}
+          {x.kroki && (
+            <ol className="list-decimal pl-5 space-y-1 text-slate-700 dark:text-slate-300">
+              {x.kroki.map((t) => (
+                <li key={t}>{t}</li>
+              ))}
+            </ol>
+          )}
+        </section>
+      ))}
 
       {auta.length > 0 && (
         <section className="space-y-2">
@@ -114,6 +130,23 @@ export default async function KodPage({ params }: Props) {
           <span className="text-[11px] text-slate-500">linki partnerskie</span>
         </section>
       )}
+
+      <section className="space-y-3">
+        <h2 className="text-xl font-bold text-slate-900 dark:text-white">Najczęstsze pytania</h2>
+        <div className="divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800">
+          {tekst.faq.map((f) => (
+            <details key={f.q} className="group py-3">
+              <summary className="cursor-pointer font-semibold text-slate-900 dark:text-white list-none flex justify-between gap-4">
+                {f.q}
+                <span className="text-slate-400 group-open:rotate-45 transition-transform" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p className="mt-2 text-slate-700 dark:text-slate-300 leading-relaxed">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
 
       {podobne.length > 0 && (
         <section>

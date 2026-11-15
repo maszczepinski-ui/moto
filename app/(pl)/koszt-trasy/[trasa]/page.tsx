@@ -9,6 +9,8 @@ import { trasa, wszystkieTrasy } from '@/lib/miasta';
 import { domyslneSpalanie, spalanieWTrasie } from '@/lib/paliwa';
 import { SlupkiPoziome } from '@/components/Infografiki';
 import { ODCINKI, sugestieOdcinkow } from '@/lib/autostrady';
+import { tekstTrasy } from '@/lib/trasa-tekst';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 export const dynamicParams = false;
 
@@ -53,6 +55,7 @@ export default async function TrasaPage({ params }: { params: Promise<{ trasa: s
     { n: 'Hybryda 1.8', z: spalanieWTrasie('hybryda', domyslneSpalanie('hybryda', 1.8)), c: ceny.pb95, j: 'l' },
     { n: 'Elektryczny', z: spalanieWTrasie('elektryczny', domyslneSpalanie('elektryczny', 0)), c: ceny.prad, j: 'kWh' }
   ];
+  const tekst = tekstTrasy(t, oplaty, przyklady);
   const inne = wszystkieTrasy()
     .filter((x) => x.id !== t.id && (x.a.slug === t.a.slug || x.b.slug === t.a.slug || x.a.slug === t.b.slug || x.b.slug === t.b.slug))
     .slice(0, 12);
@@ -125,6 +128,46 @@ export default async function TrasaPage({ params }: { params: Promise<{ trasa: s
 
       <KalkulatorTrasy ceny={ceny} skad={t.a.nazwa} dokad={t.b.nazwa} />
 
+      <article className="space-y-8">
+        {tekst.sekcje.map((x) => (
+          <section key={x.h2} className="space-y-3">
+            <h2 className="text-2xl font-bold text-slate-900 dark:text-white">{x.h2}</h2>
+            {x.akapity.map((a, i) => (
+              <p key={i} className="text-base text-slate-700 dark:text-slate-300 leading-relaxed">
+                {a}
+              </p>
+            ))}
+            {x.linki && (
+              <ul className="flex flex-wrap gap-2">
+                {x.linki.map((l) => (
+                  <li key={l.adres}>
+                    <Link href={l.adres} className="inline-block px-3 py-1.5 rounded-lg text-sm font-medium bg-steel-50 dark:bg-steel-900/40 text-steel-700 dark:text-steel-300 hover:underline">
+                      {l.tekst} →
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        ))}
+        <section className="space-y-3">
+          <h2 className="text-2xl font-bold text-slate-900 dark:text-white">Najczęstsze pytania</h2>
+          <div className="divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800">
+            {tekst.faq.map((f) => (
+              <details key={f.q} className="group py-3">
+                <summary className="cursor-pointer font-semibold text-slate-900 dark:text-white list-none flex justify-between gap-4">
+                  {f.q}
+                  <span className="text-slate-400 group-open:rotate-45 transition-transform" aria-hidden="true">
+                    +
+                  </span>
+                </summary>
+                <p className="mt-2 text-slate-700 dark:text-slate-300 leading-relaxed">{f.a}</p>
+              </details>
+            ))}
+          </div>
+        </section>
+      </article>
+
       {inne.length > 0 && (
         <section className="space-y-3">
           <h2 className="text-xl font-bold text-slate-900 dark:text-white">Inne trasy</h2>
@@ -138,6 +181,16 @@ export default async function TrasaPage({ params }: { params: Promise<{ trasa: s
         </section>
       )}
       <KodStrony sciezka={`/koszt-trasy/${t.id}/`} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: bezpiecznyJson({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: tekst.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+          })
+        }}
+      />
     </div>
   );
 }

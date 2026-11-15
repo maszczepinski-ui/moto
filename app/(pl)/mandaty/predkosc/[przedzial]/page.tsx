@@ -6,6 +6,8 @@ import KodStrony from '@/components/KodStrony';
 import { KalkulatorPredkosci } from '@/components/KalkulatorMandatu';
 import { TabelaPredkosci, ZrodlaMandatow } from '@/components/TabelaMandatow';
 import { PREDKOSC, opisPrzedzialu, STAN_PRZEPISOW } from '@/lib/mandaty';
+import { tekstMandatu } from '@/lib/mandat-tekst';
+import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 
 export const dynamicParams = false;
 
@@ -32,6 +34,7 @@ export default async function PrzedzialPage({ params }: { params: Promise<{ prze
   const p = PREDKOSC.find((x) => x.slug === przedzial);
   if (!p) notFound();
   const nazwa = opisPrzedzialu(p);
+  const tekst = tekstMandatu(p);
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
       <Okruszki
@@ -67,6 +70,60 @@ export default async function PrzedzialPage({ params }: { params: Promise<{ prze
 
       <KalkulatorPredkosci start={p.do ?? p.od} />
 
+      {tekst.sekcje.map((x) => (
+        <section key={x.h2} className="space-y-3">
+          <h2 className="text-xl font-bold text-slate-900 dark:text-white">{x.h2}</h2>
+          {x.akapity.map((t, i) => (
+            <p key={i} className="text-slate-700 dark:text-slate-300 leading-relaxed">
+              {t}
+            </p>
+          ))}
+          {x.tabela && (
+            <div className="overflow-x-auto rounded-xl border border-slate-200 dark:border-slate-800">
+              <table className="w-full text-sm bg-white dark:bg-slate-900">
+                <thead className="bg-slate-50 dark:bg-slate-800 text-left">
+                  <tr>
+                    {x.tabela.naglowki.map((h) => (
+                      <th key={h} className="px-3 py-2 font-semibold">
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {x.tabela.wiersze.map((w) => (
+                    <tr key={w[0]} className="border-t border-slate-100 dark:border-slate-800">
+                      {w.map((c, i) => (
+                        <td key={i} className={`px-3 py-2 ${i === 2 ? 'font-semibold tabular-nums' : ''}`}>
+                          {c}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </section>
+      ))}
+
+      <section className="space-y-3">
+        <h2 className="text-xl font-bold text-slate-900 dark:text-white">Najczęstsze pytania</h2>
+        <div className="divide-y divide-slate-200 dark:divide-slate-800 border-y border-slate-200 dark:border-slate-800">
+          {tekst.faq.map((f) => (
+            <details key={f.q} className="group py-3">
+              <summary className="cursor-pointer font-semibold text-slate-900 dark:text-white list-none flex justify-between gap-4">
+                {f.q}
+                <span className="text-slate-400 group-open:rotate-45 transition-transform" aria-hidden="true">
+                  +
+                </span>
+              </summary>
+              <p className="mt-2 text-slate-700 dark:text-slate-300 leading-relaxed">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
       <section className="space-y-3">
         <h2 className="text-xl font-bold text-slate-900 dark:text-white">Cały taryfikator za prędkość</h2>
         <TabelaPredkosci zaznacz={p.slug} />
@@ -78,6 +135,16 @@ export default async function PrzedzialPage({ params }: { params: Promise<{ prze
       </p>
       <ZrodlaMandatow />
       <KodStrony sciezka={`/mandaty/predkosc/${p.slug}/`} />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: bezpiecznyJson({
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: tekst.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }))
+          })
+        }}
+      />
     </div>
   );
 }
