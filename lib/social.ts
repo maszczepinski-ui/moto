@@ -97,7 +97,9 @@ export function liczbaZTekstu(...teksty: string[]): string {
 
 /** Polska typografia: bez sierotek i bez łamania liczb */
 export function typo(t: string) {
-  return t
+  // dwa przebiegi – żeby złapać też sąsiednie krótkie słowa („a z nim”)
+  const sierotki = (x: string) => x.replace(/(^|[\s(])([wzioauWZIOAU]|do|na|po|od|za|we|ze|to) /g, '$1$2\u00a0');
+  return sierotki(sierotki(t))
     .replace(/(\d) (?=\d)/g, '$1 ')
     .replace(/(^|[\s(])([wzioauWZIOAU]|do|na|po|od|za|we|ze|to) /g, '$1$2 ')
     .replace(/(\d) (?=(km|tys|mln|r\.|zł|KM|cm|m |A\b))/g, '$1 ');
