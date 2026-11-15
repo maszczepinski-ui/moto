@@ -2,7 +2,7 @@
 // Zakładka „Social”: kolejka postów MotoFormat (Instagram, TikTok, Facebook).
 // Dodajesz zdjęcie albo gotowy film, wybierasz nakładkę, a Claude planuje gotowe posty w Metricool.
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { RefreshCw, Save, Trash2, X, Plus, Download, Upload, ImagePlus, Film, Zap, CircleCheck, CircleAlert, Newspaper, Lightbulb, Shuffle, Copy } from 'lucide-react';
+import { CalendarDays, RefreshCw, Save, Trash2, X, Plus, Download, Upload, ImagePlus, Film, Zap, CircleCheck, CircleAlert, Newspaper, Lightbulb, Shuffle, Copy } from 'lucide-react';
 import { ApiPelne, input, etykieta, karta, przyciskG, przyciskD, czytajJson, zapiszPlik } from '@/components/admin/wspolne';
 import {
   GALAZ_SOCIAL, PLIK_KOLEJKI, FOLDER_MEDIOW, NAZWY_UKLADOW, UKLADY_TYPU, ROZMIAR, KADR_DOMYSLNY,
@@ -238,6 +238,15 @@ export default function Social({ api, repo }: { api: ApiPelne; repo: string }) {
           </div>
         )}
       </div>
+
+      {kolejka && <Kalendarz kolejka={kolejka} onOtworz={setOtwarty} onUstaw={async (z) => {
+        try {
+          await zapiszKolejke({ ...kolejka, ...z }, 'Social: ustawienia planowania');
+          setKom({ ok: true, tekst: 'Zapisano ustawienia planowania.' });
+        } catch (e) {
+          setKom({ ok: false, tekst: (e as Error).message });
+        }
+      }} />}
 
       {blad && <div className="rounded-xl bg-rose-50 text-rose-900 px-4 py-3 text-sm">{blad}</div>}
       {!kolejka && !blad && <p className="text-sm text-slate-500">Wczytuję kolejkę…</p>}
@@ -642,6 +651,114 @@ function Edytor({
           </div>
         </div>
       </div>
+    </div>
+  );
+}
+
+// ——— kalendarz: na które dni są już zaplanowane posty na Instagramie ———
+const DNI = ['nd', 'pn', 'wt', 'śr', 'cz', 'pt', 'sb'];
+const dzienKlucz = (d: Date) => d.toLocaleDateString('sv-SE', { timeZone: 'Europe/Warsaw' });
+
+function Kalendarz({ kolejka, onOtworz, onUstaw }: { kolejka: Kolejka; onOtworz: (p: PostSocial) => void; onUstaw: (z: Partial<Kolejka>) => Promise<void> }) {
+  const u = kolejka.ustawienia || {};
+  const [dziennie, setDziennie] = useState(u.dziennie || 1);
+  const [szybko, setSzybko] = useState(u.szybciej?.dziennie || 2);
+  const [szybkoDo, setSzybkoDo] = useState(u.szybciej?.do || '');
+  const [auto, setAuto] = useState(!!kolejka.autoPublikacja);
+  const [otwarte, setOtwarte] = useState(false);
+
+  const wgDnia = useMemo(() => {
+    const m = new Map<string, PostSocial[]>();
+    kolejka.posty
+      .filter((p) => p.plan && (p.status === 'zaplanowany' || p.status === 'opublikowany') && p.sieci.includes('instagram'))
+      .forEach((p) => {
+        const k = dzienKlucz(new Date(p.plan!));
+        m.set(k, [...(m.get(k) || []), p]);
+      });
+    m.forEach((l) => l.sort((a, b) => (a.plan || '').localeCompare(b.plan || '')));
+    return m;
+  }, [kolejka]);
+
+  const celNaDzien = (k: string) => (u.szybciej && k <= u.szybciej.do ? u.szybciej.dziennie : u.dziennie || 1);
+  const dni = Array.from({ length: 14 }, (_, i) => {
+    const d = new Date();
+    d.setDate(d.getDate() + i);
+    return d;
+  });
+  const gotowe = kolejka.posty.filter((p) => p.status === 'gotowy' && !p.pilne).length;
+  const zaplanowane = kolejka.posty.filter((p) => p.status === 'zaplanowany').length;
+  const ostatni = [...wgDnia.keys()].filter((k) => k >= dzienKlucz(new Date())).sort().pop();
+
+  return (
+    <div className={karta}>
+      <div className="flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <h3 className="font-bold text-slate-900 dark:text-white flex items-center gap-2">
+            <CalendarDays className="w-4 h-4" /> Zaplanowane na Instagramie
+          </h3>
+          <p className="text-sm text-slate-500 mt-1">
+            {zaplanowane ? <>Posty zaplanowane do <b>{ostatni ? new Date(ostatni).toLocaleDateString('pl-PL', { day: 'numeric', month: 'long' }) : '—'}</b>. </> : 'Nic jeszcze nie jest zaplanowane. '}
+            Gotowych do zaplanowania: <b>{gotowe}</b>
+            {gotowe < 3 && ' – dodaj zdjęcia do kolejnych postów'}. {kolejka.autoPublikacja ? 'Posty idą od razu do publikacji.' : 'Posty czekają w Metricool na Twoje zatwierdzenie.'}
+          </p>
+        </div>
+        <button className={przyciskD} onClick={() => setOtwarte(!otwarte)}>
+          Tempo publikacji
+        </button>
+      </div>
+      <div className="grid grid-cols-7 gap-1.5">
+        {dni.map((d) => {
+          const k = dzienKlucz(d);
+          const posty = wgDnia.get(k) || [];
+          const cel = celNaDzien(k);
+          const dzis = k === dzienKlucz(new Date());
+          const kolor = posty.length >= cel ? 'bg-emerald-50 ring-emerald-200 dark:bg-emerald-950/40 dark:ring-emerald-900' : posty.length ? 'bg-amber-50 ring-amber-200 dark:bg-amber-950/40 dark:ring-amber-900' : 'bg-slate-50 ring-slate-200 dark:bg-slate-800/50 dark:ring-slate-700';
+          return (
+            <div key={k} className={`rounded-xl ring-1 p-2 min-h-[86px] ${kolor} ${dzis ? 'outline outline-2 outline-slate-900 dark:outline-white' : ''}`}>
+              <div className="flex justify-between text-[11px] font-semibold text-slate-500">
+                <span>{DNI[d.getDay()]}</span>
+                <span>{d.getDate()}.{String(d.getMonth() + 1).padStart(2, '0')}</span>
+              </div>
+              {posty.map((p) => (
+                <button key={p.id} onClick={() => onOtworz(p)} title={p.tytul} className="block w-full text-left text-[11px] leading-tight mt-1 text-slate-800 dark:text-slate-100 hover:underline">
+                  <b>{new Date(p.plan!).toLocaleTimeString('pl-PL', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Warsaw' })}</b> {p.tytul.slice(0, 34)}
+                  {p.tytul.length > 34 ? '…' : ''}
+                </button>
+              ))}
+              {posty.length < cel && <div className="text-[11px] mt-1 text-slate-400">{posty.length ? `brak ${cel - posty.length}` : 'wolne'}</div>}
+            </div>
+          );
+        })}
+      </div>
+      <p className="text-xs text-slate-500">Zielony – dzień obsadzony, żółty – brakuje posta, szary – wolne. Kalendarz odświeża się po każdym planowaniu (codziennie o 20:41).</p>
+      {otwarte && (
+        <div className="rounded-xl ring-1 ring-slate-200 dark:ring-slate-700 p-4 space-y-3">
+          <label className="flex items-center gap-3 text-sm">
+            <span className="w-48">Postów dziennie (zwykle)</span>
+            <input type="number" min={1} max={3} className={`${input} w-20`} value={dziennie} onChange={(e) => setDziennie(Math.max(1, Math.min(3, +e.target.value || 1)))} />
+          </label>
+          <label className="flex flex-wrap items-center gap-3 text-sm">
+            <span className="w-48">Czasowo szybciej</span>
+            <input type="number" min={1} max={3} className={`${input} w-20`} value={szybko} onChange={(e) => setSzybko(Math.max(1, Math.min(3, +e.target.value || 2)))} />
+            <span>postów dziennie do dnia</span>
+            <input type="date" className={`${input} w-44`} value={szybkoDo} onChange={(e) => setSzybkoDo(e.target.value)} />
+            {szybkoDo && (
+              <button className="text-xs underline" onClick={() => setSzybkoDo('')}>
+                wyłącz
+              </button>
+            )}
+          </label>
+          <label className="flex items-center gap-2 text-sm">
+            <input type="checkbox" checked={auto} onChange={(e) => setAuto(e.target.checked)} /> Publikuj bez zatwierdzania (pełny automat)
+          </label>
+          <button
+            className={przyciskG}
+            onClick={() => onUstaw({ autoPublikacja: auto, ustawienia: { dziennie, szybciej: szybkoDo ? { dziennie: szybko, do: szybkoDo } : null } })}
+          >
+            <Save className="w-4 h-4" /> Zapisz tempo
+          </button>
+        </div>
+      )}
     </div>
   );
 }

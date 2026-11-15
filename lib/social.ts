@@ -51,8 +51,18 @@ export interface PostSocial {
   utworzono: string;
 }
 
+export interface UstawieniaSocial {
+  /** ile postów dziennie planuje Claude (domyślnie 1) */
+  dziennie?: number;
+  /** czasowo szybciej, np. przed premierą: { dziennie: 2, do: '2026-11-20' } (do – włącznie) */
+  szybciej?: { dziennie: number; do: string } | null;
+}
+
 export interface Kolejka {
   posty: PostSocial[];
+  /** true = Claude planuje posty od razu do publikacji; brak/false = jako szkice do zatwierdzenia w Metricool */
+  autoPublikacja?: boolean;
+  ustawienia?: UstawieniaSocial;
 }
 
 export const NAZWY_UKLADOW: Record<Uklad, string> = {
