@@ -1102,7 +1102,7 @@ export default function AdminPanel({
           {zakladka === 'aktualizacje' && <Aktualizacje api={api} branch={branch} stanDanych={stanDanych} />}
           {zakladka === 'artykuly' && <ArtykulyFilmow api={api} branch={branch} modele={modele} />}
           {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} token={token} />}
-          {zakladka === 'social' && <Social api={api} repo={repo} />}
+          {zakladka === 'social' && <Social api={api} repo={repo} token={token} />}
           {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
           {zakladka === 'chinskie' && <ChinskieAuta api={api} branch={branch} nazwy={nazwyModeli} />}
           {zakladka === 'silniki' && <Silniki api={api} branch={branch} nazwy={nazwyModeli} uzycia={uzyciaSilnikow()} token={token} modele={modele} pokrycie={pokrycie} />}

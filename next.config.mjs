@@ -25,6 +25,8 @@ const CSP_ADMIN = [
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob: https://raw.githubusercontent.com",
   "font-src 'self' data:",
+  // odsłuch lektora z ElevenLabs w zakładce Social (nagranie przychodzi jako data:)
+  "media-src 'self' data: blob:",
   `connect-src 'self' https://api.github.com${dev ? ' ws:' : ''}`,
   "frame-src 'none'",
   "frame-ancestors 'none'",

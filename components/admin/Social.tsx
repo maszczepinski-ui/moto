@@ -3,6 +3,7 @@
 // Dodajesz zdjęcie albo gotowy film, wybierasz nakładkę, a Claude planuje gotowe posty w Metricool.
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { CalendarDays, RefreshCw, Save, Trash2, X, Plus, Download, Upload, ImagePlus, Film, Zap, CircleCheck, CircleAlert, Newspaper, Lightbulb, Shuffle, Copy } from 'lucide-react';
+import Lektor from '@/components/admin/Lektor';
 import { ApiPelne, input, etykieta, karta, przyciskG, przyciskD, czytajJson, zapiszPlik } from '@/components/admin/wspolne';
 import {
   GALAZ_SOCIAL, PLIK_KOLEJKI, FOLDER_MEDIOW, NAZWY_UKLADOW, UKLADY_TYPU, ROZMIAR, KADR_DOMYSLNY,
@@ -42,7 +43,7 @@ function braki(p: PostSocial): string[] {
   return b;
 }
 
-export default function Social({ api, repo }: { api: ApiPelne; repo: string }) {
+export default function Social({ api, repo, token = '' }: { api: ApiPelne; repo: string; token?: string }) {
   const [kolejka, setKolejka] = useState<Kolejka | null>(null);
   const [sha, setSha] = useState('');
   const [blad, setBlad] = useState('');
@@ -163,6 +164,7 @@ export default function Social({ api, repo }: { api: ApiPelne; repo: string }) {
         post={otwarty}
         api={api}
         repo={repo}
+        token={token}
         onZamknij={() => setOtwarty(null)}
         onZapisz={async (p, opis) => {
           await zapiszPost(p, opis);
@@ -305,11 +307,12 @@ export default function Social({ api, repo }: { api: ApiPelne; repo: string }) {
 
 // ——— edytor jednego posta ———
 function Edytor({
-  post, api, repo, onZamknij, onZapisz, onUsun
+  post, api, repo, token, onZamknij, onZapisz, onUsun
 }: {
   post: PostSocial;
   api: ApiPelne;
   repo: string;
+  token: string;
   onZamknij: () => void;
   onZapisz: (p: PostSocial, opis: string) => Promise<void>;
   onUsun?: () => void;
@@ -668,6 +671,7 @@ function Edytor({
               </div>
               {p.sieci.includes('facebook') && <p className="text-xs text-amber-700 mt-1">Facebook trzeba najpierw podpiąć w Metricool (marka moto_format).</p>}
             </div>
+            <Lektor token={token} tekst={p.lektor || ''} onTekst={(t) => ust({ lektor: t })} nazwa={`motoformat-${p.nr ? String(p.nr).padStart(3, '0') : p.id}`} />
             <div>
               <span className={etykieta}>Rolka – gotowy film</span>
               <p className="text-xs text-slate-500 mb-2">

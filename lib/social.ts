@@ -35,6 +35,8 @@ export interface PostSocial {
   /** opis pod postem */
   opis: string;
   hashtagi: string;
+  /** tekst lektora do rolki – czyta go Twój głos z ElevenLabs (zakładka Social → Lektor) */
+  lektor?: string;
   /** podpowiedź, jakie zdjęcie dodać */
   wskazowka?: string;
   zrodlo?: string;
