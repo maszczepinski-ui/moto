@@ -5,14 +5,14 @@ import { PRODUKT, zlotowki } from '@/lib/sklep/konfiguracja';
 import { PRODUKTY, sprzedazWlaczona } from '@/lib/sklep/produkty';
 import { site } from '@/config/site';
 
-export const metadata: Metadata = { title: 'Regulamin sklepu – Niezbędniki MotoRaport', robots: { index: false, follow: true }, alternates: { canonical: '/niezbednik/regulamin/' } };
+export const metadata: Metadata = { title: 'Regulamin sklepu – Niezbędniki MotoRaport', robots: { index: false, follow: true }, description: 'Regulamin sprzedaży produktów cyfrowych w sklepie moto-raport.pl: sprzedawca, ceny, płatność Przelewy24, dostarczenie, odstąpienie od umowy i reklamacje.', alternates: { canonical: '/niezbednik/regulamin/' } };
 
 export default function RegulaminPage() {
   // Postanowienia o pakiecie po szkodzie wchodzą do regulaminu dopiero razem z jego sprzedażą (po akceptacji prawnika).
   // Do tego czasu kupujący Niezbędnik widzą dotychczasową treść (wersja 1).
   const szkoda = sprzedazWlaczona('szkoda');
   const sekcje: [string, string[]][] = [
-    ['Sprzedawca', [`Sprzedawcą jest ${FIRMA.nazwa}, ${FIRMA.adres}, NIP ${FIRMA.nip}${FIRMA.regon ? `, REGON ${FIRMA.regon}` : ''}, e-mail: ${FIRMA.email}.`, szkoda ? `Sklep działa pod adresami ${site.url}/niezbednik/ i ${site.url}/po-szkodzie/.` : `Sklep działa pod adresem ${site.url}/niezbednik/.`]],
+    ['Sprzedawca', [`Sprzedawcą jest ${FIRMA.nazwa}, ${FIRMA.adres}, NIP ${FIRMA.nip}${FIRMA.regon ? `, REGON ${FIRMA.regon}` : ''}, e-mail: ${FIRMA.email}${FIRMA.telefon ? `, tel. ${FIRMA.telefon}` : ''}.`, szkoda ? `Sklep działa pod adresami ${site.url}/niezbednik/ i ${site.url}/po-szkodzie/.` : `Sklep działa pod adresem ${site.url}/niezbednik/.`]],
     szkoda ? [
       'Produkty i ceny',
       [
@@ -39,7 +39,9 @@ export default function RegulaminPage() {
     [
       'Zamówienie, płatność i dostarczenie',
       [
-        'Umowa zostaje zawarta z chwilą opłacenia zamówienia. Płatności obsługuje PayPro S.A. (Przelewy24): BLIK, szybki przelew lub karta.',
+        'Aby złożyć zamówienie, kupujący na stronie produktu podaje e-mail i dane do faktury, akceptuje regulamin, składa oświadczenie o rozpoczęciu dostarczania treści cyfrowej i wybiera przycisk „Zapłać”. Następnie zostaje przekierowany do serwisu Przelewy24.',
+        'Umowa zostaje zawarta z chwilą opłacenia zamówienia. Płatności obsługuje PayPro S.A. z siedzibą w Poznaniu (Przelewy24): BLIK, szybki przelew lub karta płatnicza. Na płatność jest 15 minut; nieopłacone zamówienie wygasa.',
+        'Ceny podane w sklepie są cenami końcowymi brutto w złotych. Produkty są dostarczane elektronicznie, więc nie ma kosztów dostawy ani innych dodatkowych opłat.',
         `Po zaksięgowaniu płatności kupujący otrzymuje link do pobrania plików na stronie i mailem. Link jest ważny 7 dni.${szkoda ? ' Dostęp do narzędzia na stronie działa od razu po płatności.' : ''}`,
         'Potwierdzenie zawarcia umowy, wraz z treścią złożonych oświadczeń, kupujący otrzymuje mailem.'
       ]

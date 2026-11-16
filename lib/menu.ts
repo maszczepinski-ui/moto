@@ -90,6 +90,7 @@ export function menuGlowne(): GrupaMenu[] {
         { nazwa: 'Kalkulator akcyzy', opis: 'Auto z zagranicy: akcyza, cło, opłaty', adres: '/kalkulator-akcyzy/', ikona: 'kalkulator', nowe: true },
         { nazwa: 'Porównaj OC i AC', opis: 'Kalkulator cen ubezpieczenia auta', adres: '/ubezpieczenie-oc/', ikona: 'ubezpieczenie', nowe: true },
         { nazwa: 'Opony', opis: 'Kiedy wymienić, bieżnik, wiek opony', adres: '/opony/', ikona: 'opony', nowe: true },
+        { nazwa: 'Sklep – Niezbędniki', opis: 'Płatne pakiety plików: oferta i cennik', adres: '/sklep/', ikona: 'shopping', nowe: true },
         { nazwa: 'Przypomnienie o OC i oponach', opis: 'E-mail przed końcem polisy, przeglądu i sezonem', adres: '/przypomnienia/', ikona: 'bell', nowe: true },
         ...(polecane ? [{ nazwa: 'Polecane produkty', opis: 'Sprawdzone akcesoria i chemia', adres: '/polecane/', ikona: 'shopping' as const }] : [])
       ]

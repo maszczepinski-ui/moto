@@ -5,7 +5,7 @@ import { Loader2, Lock } from 'lucide-react';
 
 const pole = 'w-full rounded-lg border border-slate-300 dark:border-slate-700 bg-white dark:bg-slate-900 px-3 py-2.5 text-sm';
 
-export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt = 'niezbednik', dopisek }: { aktywny: boolean; cena: string; regulamin: string; produkt?: 'niezbednik' | 'szkoda'; dopisek?: string }) {
+export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt = 'niezbednik', dopisek, nazwa = '', wkrotce = false }: { aktywny: boolean; wkrotce?: boolean; cena: string; regulamin: string; produkt?: 'niezbednik' | 'szkoda'; dopisek?: string; nazwa?: string }) {
   const [email, setEmail] = useState('');
   const [imieNazwisko, setImieNazwisko] = useState('');
   const [naFirme, setNaFirme] = useState(false);
@@ -14,10 +14,17 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt 
   const [zgodaTresci, setZgodaTresci] = useState(false);
   const [praca, setPraca] = useState(false);
   const [blad, setBlad] = useState('');
+  /** sklep jeszcze bez kluczy płatności: zamiast przekierowania do Przelewy24 pokazujemy podsumowanie (cały proces da się przejść, nic nie jest pobierane) */
+  const [podsumowanie, setPodsumowanie] = useState(false);
 
   async function zamow(e: React.FormEvent) {
     e.preventDefault();
     setBlad('');
+    if (!aktywny) {
+      if (naFirme && !/^\d{10}$/.test(firma.nip.replace(/[^\d]/g, ''))) return setBlad('Sprawdź NIP – powinien mieć 10 cyfr.');
+      if (naFirme && !/^\d{2}-\d{3}$/.test(firma.kod.trim())) return setBlad('Wpisz kod pocztowy w formacie 00-000.');
+      return setPodsumowanie(true);
+    }
     setPraca(true);
     try {
       const r = await fetch('/api/sklep/zamow/', {
@@ -34,26 +41,53 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt 
     }
   }
 
-  const gotowe = aktywny && zgodaRegulamin && zgodaTresci && !praca;
+  const gotowe = !wkrotce && zgodaRegulamin && zgodaTresci && !praca;
+  if (podsumowanie)
+    return (
+      <div className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 space-y-4">
+        <h2 className="text-lg font-bold text-slate-900 dark:text-white">Podsumowanie zamówienia</h2>
+        <dl className="text-sm divide-y divide-slate-100 dark:divide-slate-800">
+          {[
+            ['Produkt', nazwa],
+            ['Cena (brutto, bez kosztów dostawy)', cena],
+            ['Dostawa', 'elektronicznie – link do pobrania na stronie i e-mailem, od razu po płatności'],
+            ['E-mail', email],
+            ['Dane do faktury', naFirme ? `${firma.firma}, NIP ${firma.nip}, ${firma.adres}, ${firma.kod} ${firma.miasto}` : imieNazwisko],
+            ['Płatność', 'Przelewy24: BLIK, szybki przelew lub karta']
+          ].map(([k, v]) => (
+            <div key={k} className="flex flex-col gap-0.5 py-2">
+              <dt className="text-slate-500">{k}</dt>
+              <dd className="font-semibold text-slate-900 dark:text-white">{v}</dd>
+            </div>
+          ))}
+        </dl>
+        <p role="status" className="rounded-lg bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-200 text-sm px-3 py-2">
+          Płatności online są właśnie uruchamiane. Zamówienie nie zostało złożone i nic nie zostało pobrane – wróć za kilka dni albo napisz do nas, a wyślemy link do płatności.
+        </p>
+        <button type="button" onClick={() => setPodsumowanie(false)} className="w-full rounded-xl border border-slate-300 dark:border-slate-700 px-4 py-2.5 text-sm font-semibold">
+          Wróć do formularza
+        </button>
+      </div>
+    );
   return (
     <form onSubmit={zamow} className="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 sm:p-6 space-y-4">
       <div className="flex items-baseline justify-between gap-3">
         <h2 className="text-lg font-bold text-slate-900 dark:text-white">Zamówienie</h2>
         <p className="text-2xl font-black text-slate-900 dark:text-white">{cena}</p>
       </div>
-      {!aktywny && <p className="rounded-lg bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-200 text-sm px-3 py-2">Sprzedaż ruszy wkrótce.</p>}
+      {wkrotce && <p className="rounded-lg bg-amber-50 dark:bg-amber-950/40 text-amber-900 dark:text-amber-200 text-sm px-3 py-2">Sprzedaż ruszy wkrótce.</p>}
       <label className="block text-sm">
         <span className="block font-semibold mb-1">E-mail – na niego wyślemy pakiet</span>
-        <input type="email" required autoComplete="email" className={pole} value={email} onChange={(e) => setEmail(e.target.value)} disabled={!aktywny} />
+        <input type="email" required autoComplete="email" className={pole} value={email} onChange={(e) => setEmail(e.target.value)} />
       </label>
       <label className="flex items-center gap-2 text-sm cursor-pointer">
-        <input type="checkbox" checked={naFirme} onChange={(e) => setNaFirme(e.target.checked)} disabled={!aktywny} className="w-4 h-4 accent-emerald-600" />
+        <input type="checkbox" checked={naFirme} onChange={(e) => setNaFirme(e.target.checked)} className="w-4 h-4 accent-emerald-600" />
         Chcę fakturę na firmę (z NIP)
       </label>
       {!naFirme ? (
         <label className="block text-sm">
           <span className="block font-semibold mb-1">Imię i nazwisko (do faktury)</span>
-          <input required autoComplete="name" className={pole} value={imieNazwisko} onChange={(e) => setImieNazwisko(e.target.value)} disabled={!aktywny} />
+          <input required autoComplete="name" className={pole} value={imieNazwisko} onChange={(e) => setImieNazwisko(e.target.value)} />
         </label>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
@@ -81,7 +115,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt 
       )}
       <div className="space-y-3 text-sm border-t border-slate-100 dark:border-slate-800 pt-4">
         <label className="flex items-start gap-2.5 cursor-pointer">
-          <input type="checkbox" checked={zgodaRegulamin} onChange={(e) => setZgodaRegulamin(e.target.checked)} disabled={!aktywny} className="mt-0.5 w-4 h-4 flex-shrink-0 accent-emerald-600" />
+          <input type="checkbox" checked={zgodaRegulamin} onChange={(e) => setZgodaRegulamin(e.target.checked)} className="mt-0.5 w-4 h-4 flex-shrink-0 accent-emerald-600" />
           <span>
             Akceptuję{' '}
             <a href={regulamin} target="_blank" className="underline font-semibold">
@@ -91,7 +125,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt 
           </span>
         </label>
         <label className="flex items-start gap-2.5 cursor-pointer">
-          <input type="checkbox" checked={zgodaTresci} onChange={(e) => setZgodaTresci(e.target.checked)} disabled={!aktywny} className="mt-0.5 w-4 h-4 flex-shrink-0 accent-emerald-600" />
+          <input type="checkbox" checked={zgodaTresci} onChange={(e) => setZgodaTresci(e.target.checked)} className="mt-0.5 w-4 h-4 flex-shrink-0 accent-emerald-600" />
           <span>
             Żądam dostarczenia plików przed upływem 14 dni na odstąpienie od umowy i przyjmuję do wiadomości, że po ich dostarczeniu tracę prawo odstąpienia od umowy.{' '}
             <span className="text-rose-600">*</span>
@@ -114,7 +148,7 @@ export default function FormularzZamowienia({ aktywny, cena, regulamin, produkt 
           {!praca && <span className="text-xs font-medium text-emerald-50/90">BLIK · przelew · karta</span>}
         </span>
       </button>
-      {aktywny && !gotowe && !praca && <p className="text-xs text-slate-500 text-center -mt-2">Uzupełnij dane i zaznacz obie zgody, aby przejść do płatności.</p>}
+      {!wkrotce && !gotowe && !praca && <p className="text-xs text-slate-500 text-center -mt-2">Uzupełnij dane i zaznacz obie zgody, aby przejść do płatności.</p>}
       <p className="text-xs text-slate-500 text-center">{dopisek || 'Płatność obsługuje Przelewy24. Pakiet dostaniesz od razu po zapłacie, a fakturę mailem.'}</p>
     </form>
   );

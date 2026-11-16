@@ -102,7 +102,7 @@ export default function NiezbednikPage() {
               <div className="flex flex-wrap items-center gap-4">
                 <a href="#zamow" className={`${przycisk} bg-amber-400 hover:bg-amber-300 text-slate-900 shadow-lg shadow-amber-400/20`}>
                   <ShoppingCart className="w-5 h-5" aria-hidden="true" />
-                  {aktywny ? `Kupuję za ${cena}` : `Zobacz pakiet · ${cena}`}
+                  {`Kupuję za ${cena}`}
                 </a>
                 <a href="#co-w-srodku" className="inline-flex items-center gap-1.5 font-semibold text-slate-200 hover:text-white">
                   Co jest w środku? <ArrowDown className="w-4 h-4" aria-hidden="true" />
@@ -276,7 +276,7 @@ export default function NiezbednikPage() {
 
         {/* ===== Zamówienie ===== */}
         <aside id="zamow" className="lg:sticky lg:top-20 space-y-4 scroll-mt-24">
-          <FormularzZamowienia aktywny={aktywny} cena={cena} regulamin="/niezbednik/regulamin/" />
+          <FormularzZamowienia aktywny={aktywny} cena={cena} regulamin="/niezbednik/regulamin/" nazwa={PRODUKT.nazwa} />
           <ul className="space-y-1.5 text-sm text-slate-700 dark:text-slate-300 px-1">
             {['Pliki PDF i DOCX – drukujesz albo wypełniasz na telefonie', 'Link do pobrania od razu na stronie i w mailu', 'Faktura bez VAT (zwolnienie podmiotowe) mailem', 'Jednorazowa płatność, bez abonamentu'].map((x) => (
               <li key={x} className="flex gap-2">
@@ -299,7 +299,7 @@ export default function NiezbednikPage() {
           <p className="font-black text-slate-900 dark:text-white">{cena}</p>
         </div>
         <a href="#zamow" className="rounded-xl bg-amber-400 hover:bg-amber-300 text-slate-900 font-bold px-5 py-3 text-sm">
-          {aktywny ? 'Kupuję' : 'Zamówienie'}
+          Kupuję
         </a>
       </div>
     </div>

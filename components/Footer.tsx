@@ -6,6 +6,7 @@ import { wlasnyBanerZgod } from '@/components/SkryptyGlobalne';
 import ZainstalujAplikacje from '@/components/ZainstalujAplikacje';
 import PrzelacznikJezyka from '@/components/obce/PrzelacznikJezyka';
 import { wszystkieOdpowiedniki } from '@/lib/tlumaczenia';
+import { telefonLink } from '@/lib/sklep/firma';
 
 const link = 'hover:text-steel-600 dark:hover:text-steel-300 transition-colors';
 
@@ -53,8 +54,18 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/sklep/" className={link}>
+                  Sklep i cennik
+                </Link>
+              </li>
+              <li>
+                <Link href="/niezbednik/regulamin/" className={link}>
+                  Regulamin sklepu
+                </Link>
+              </li>
+              <li>
                 <Link href="/regulamin/" className={link}>
-                  Regulamin
+                  Regulamin serwisu
                 </Link>
               </li>
               {wlasnyBanerZgod && (
@@ -71,13 +82,25 @@ export default function Footer() {
         </div>
         <div className="border-t border-slate-200 dark:border-slate-800 pt-6 space-y-1 text-center md:text-left">
           <p>
-            © {new Date().getFullYear()} {site.name}. Wydawca: <strong className="text-slate-800 dark:text-slate-200">{site.publisher}</strong>
+            © {new Date().getFullYear()} {site.name}. Wydawca i sprzedawca: <strong className="text-slate-800 dark:text-slate-200">{site.publisher}</strong>
             {site.publisherAddress ? `, ${site.publisherAddress}` : `, ${site.publisherCity}`}
-            {site.publisherNip ? `, NIP ${site.publisherNip}` : ''}.
+            {site.publisherNip ? `, NIP ${site.publisherNip}` : ''}
+            {site.publisherRegon ? `, REGON ${site.publisherRegon}` : ''}. Firma wpisana do CEIDG.
+          </p>
+          <p>
+            Kontakt:{' '}
+            {site.contactPhone && (
+              <>
+                tel.{' '}
+                <a href={telefonLink(site.contactPhone)} className={link}>
+                  {site.contactPhone}
+                </a>
+                {site.contactEmail ? ', ' : ''}
+              </>
+            )}
             {site.contactEmail && (
               <>
-                {' '}
-                Kontakt:{' '}
+                e-mail:{' '}
                 <a href={`mailto:${site.contactEmail}`} className={link}>
                   {site.contactEmail}
                 </a>

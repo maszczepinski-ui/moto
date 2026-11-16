@@ -78,6 +78,7 @@ function grupy(): Record<string, Adres[]> {
       { loc: '/kalkulator-akcyzy/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/chinskie-samochody/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/regulamin/', changefreq: 'yearly', priority: 0.2 },
+      { loc: '/sklep/', changefreq: 'monthly', priority: 0.5 },
       { loc: '/poradniki/', changefreq: 'monthly', priority: 0.8 },
       ...PORADNIKI.map((p) => ({ loc: `/poradniki/${p.slug}/`, lastmod: dataAktualizacji(p), changefreq: 'monthly', priority: 0.7 })),
       ...PREDKOSC.map((p) => ({ loc: `/mandaty/predkosc/${p.slug}/`, changefreq: 'yearly', priority: 0.6 })),

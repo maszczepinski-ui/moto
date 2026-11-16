@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/regulamin/' }
 };
 
-const OBOWIAZUJE_OD = '2 listopada 2026';
+const OBOWIAZUJE_OD = '16 listopada 2026';
 
 export default function RegulaminPage() {
   const domena = site.url.replace('https://', '');
@@ -42,7 +42,9 @@ export default function RegulaminPage() {
           <p>
             Serwis {domena} (dalej: Serwis) prowadzi <strong>{site.publisher}</strong>
             {site.publisherAddress ? `, ${site.publisherAddress}` : `, ${site.publisherCity}`}
-            {site.publisherNip ? `, NIP ${site.publisherNip}` : ''} (dalej: Usługodawca). Kontakt: {kontakt}. Ten adres jest też punktem kontaktowym dla użytkowników i organów w
+            {site.publisherNip ? `, NIP ${site.publisherNip}` : ''}
+            {site.publisherRegon ? `, REGON ${site.publisherRegon}` : ''} (dalej: Usługodawca). Kontakt: {kontakt}
+            {site.contactPhone ? `, tel. ${site.contactPhone}` : ''}. Ten adres jest też punktem kontaktowym dla użytkowników i organów w
             rozumieniu Aktu o usługach cyfrowych (DSA); piszemy po polsku i angielsku.
           </p>
         </R>
@@ -56,7 +58,18 @@ export default function RegulaminPage() {
             <li>informacje o oponach i narzędzia do sprawdzenia rozmiaru, wieku i bieżnika opony,</li>
             <li>poradniki i wzory dokumentów (umowa kupna-sprzedaży, oświadczenie sprawcy kolizji, wypowiedzenie OC) wypełniane w przeglądarce – wpisane dane nie są wysyłane do Serwisu.</li>
           </ul>
-          <p>Wszystkie usługi są bezpłatne. Korzystanie z Serwisu nie wymaga zakładania konta.</p>
+          <p>Wymienione wyżej usługi są bezpłatne. Korzystanie z nich nie wymaga zakładania konta.</p>
+          <p>
+            W Serwisie działa też <strong>sklep z płatnymi produktami cyfrowymi</strong> (pakiety plików do pobrania). Ofertę z cenami znajdziesz na stronie{' '}
+            <Link href="/sklep/" className="underline">
+              Sklep i cennik
+            </Link>
+            , a zasady zakupu, płatności, dostarczenia, odstąpienia od umowy i reklamacji opisuje{' '}
+            <Link href="/niezbednik/regulamin/" className="underline">
+              Regulamin sklepu
+            </Link>
+            .
+          </p>
         </R>
         <R n={3} t="Wymagania techniczne">
           <p>
