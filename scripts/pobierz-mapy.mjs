@@ -27,7 +27,7 @@ const POTRZEBNE = /^(name|operator|network|brand|access|capacity|opening_hours|f
 
 const czekaj = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function overpass(q) {
+async function overpass(q, minimum) {
   let blad;
   for (let proba = 0; proba < 3; proba++) {
     for (const s of SERWERY) {
@@ -41,6 +41,9 @@ async function overpass(q) {
         if (!r.ok) throw new Error(`${s}: ${r.status}`);
         const d = await r.json();
         if (!Array.isArray(d.elements)) throw new Error(`${s}: brak danych`);
+        // przeciążony serwer potrafi odpowiedzieć „OK” z pustą listą – wtedy próbujemy następnego
+        if (d.elements.length < minimum)
+          throw new Error(`${s}: podejrzanie mało danych (${d.elements.length})${d.remark ? ' – ' + d.remark : ''}`);
         console.log(`  ✓ ${s}: ${d.elements.length} obiektów`);
         return d.elements;
       } catch (e) {
@@ -77,8 +80,9 @@ async function main() {
   for (const [tryb, q] of Object.entries(ZAPYTANIA)) {
     if (tylko && tylko !== tryb) continue;
     console.log(`Pobieram: ${tryb}`);
-    const el = (await overpass(q)).map(odchudz);
-    if (el.length < (tryb === 'ladowarki' ? 500 : 100)) throw new Error(`Podejrzanie mało danych (${el.length}) – nie nadpisuję`);
+    const minimum = tryb === 'ladowarki' ? 500 : 100;
+    const el = (await overpass(q, minimum)).map(odchudz);
+    if (el.length < minimum) throw new Error(`Podejrzanie mało danych (${el.length}) – nie nadpisuję`);
     const kratki = {};
     for (const o of el) {
       const p = punkt(o);
