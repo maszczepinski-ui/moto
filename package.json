@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "node scripts/kopiuj-worker-mapy.mjs",
     "dev": "next dev",
     "build": "next build",
     "build:statyczna": "node scripts/buduj-statyczna.mjs"
@@ -11,12 +12,12 @@
     "@fontsource-variable/inter": "^5.3.0",
     "@maplibre/maplibre-gl-leaflet": "^0.1.4",
     "@vercel/analytics": "^2.0.1",
-    "@vercel/blob": "2.8.2",
+    "@vercel/blob": "2.9.0",
     "docx": "^9.15.3",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "lucide-react": "^1.61.0",
-    "maplibre-gl": "^5.24.0",
+    "maplibre-gl": "^6.18.0",
     "next": "^16.4.6",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
@@ -31,5 +32,8 @@
     "postcss": "^8.5.0",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.8.0"
+  },
+  "overrides": {
+    "zod": "^4.6.6"
   }
 }

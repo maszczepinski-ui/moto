@@ -174,7 +174,9 @@ export default function MapaObiektow({ tryb }: { tryb: Tryb }) {
       if (!webglDziala()) zapasowy();
       else
         try {
-          const [{ maplibreGL }, styl] = await Promise.all([import("@maplibre/maplibre-gl-leaflet"), stylMapy(ciemny.matches)]);
+          const [{ maplibreGL }, { setWorkerUrl, getVersion }, styl] = await Promise.all([import("@maplibre/maplibre-gl-leaflet"), import("maplibre-gl"), stylMapy(ciemny.matches)]);
+          // pracownik mapy leży w public/maplibre/ (kopiuje go scripts/kopiuj-worker-mapy.mjs) – sam bundler by go nie znalazł
+          setWorkerUrl(`/maplibre/maplibre-gl-worker.mjs?v=${getVersion()}`);
           if (zniszczona) return;
           const podklad = maplibreGL({
             style: styl as never,
