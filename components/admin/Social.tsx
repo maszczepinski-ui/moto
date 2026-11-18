@@ -669,7 +669,6 @@ function Edytor({
                   </label>
                 ))}
               </div>
-              {p.sieci.includes('facebook') && <p className="text-xs text-amber-700 mt-1">Facebook trzeba najpierw podpiąć w Metricool (marka moto_format).</p>}
             </div>
             <Lektor token={token} tekst={p.lektor || ''} onTekst={(t) => ust({ lektor: t })} nazwa={`motoformat-${p.nr ? String(p.nr).padStart(3, '0') : p.id}`} />
             <div>
