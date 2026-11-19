@@ -8,6 +8,18 @@ export const runtime = 'nodejs';
 
 const json = (d: unknown, status = 200) => new Response(JSON.stringify(d), { status, headers: { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
 
+/** Stan przypomnień sprawdzany na bieżąco (strona jest budowana z góry, a ustawienia mogą się zmienić później).
+ *  Podaje tylko nazwy brakujących ustawień – nigdy ich wartości. */
+export async function GET() {
+  const brakuje = [
+    !process.env.RESEND_API_KEY && 'RESEND_API_KEY',
+    !process.env.PRZYPOMNIENIA_NADAWCA && 'PRZYPOMNIENIA_NADAWCA',
+    !(process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL) && 'baza Upstash (KV_REST_API_URL)',
+    !(process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN) && 'baza Upstash (KV_REST_API_TOKEN)'
+  ].filter(Boolean);
+  return json({ wlaczone: przypomnieniaWlaczone(), brakuje });
+}
+
 export async function POST(req: Request) {
   if (!przypomnieniaWlaczone()) return json({ blad: 'Przypomnienia nie są jeszcze włączone' }, 503);
   if (Number(req.headers.get('content-length') || 0) > 1000) return json({ blad: 'Za dużo danych' }, 413);

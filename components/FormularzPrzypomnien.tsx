@@ -20,11 +20,18 @@ export default function FormularzPrzypomnien({ wlaczone, kompaktowy = false }: {
   const [stan, setStan] = useState<'' | 'wysylanie' | 'ok'>('');
   const [blad, setBlad] = useState('');
   const start = useRef(0);
+  // Strona jest budowana z góry – jeśli wtedy przypomnienia były wyłączone, sprawdzamy na bieżąco, czy już działają.
+  const [aktywne, setAktywne] = useState(wlaczone);
   useEffect(() => {
     start.current = Date.now();
-  }, []);
+    if (wlaczone) return;
+    fetch('/api/przypomnienia/', { cache: 'no-store' })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d) => d?.wlaczone && setAktywne(true))
+      .catch(() => {});
+  }, [wlaczone]);
 
-  if (!wlaczone)
+  if (!aktywne)
     return (
       <div className="rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 p-5 text-sm text-slate-600 dark:text-slate-400">
         Przypomnienia e-mail o końcu OC i przeglądzie uruchomimy wkrótce.
