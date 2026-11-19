@@ -1,4 +1,4 @@
-// Poradniki eksperckie (seria z listopada 2026): akumulator, oleje, klimatyzacja, pielęgnacja lakieru.
+// Poradniki eksperckie (seria z listopada 2026): akumulator, oleje, klimatyzacja, mycie i pielęgnacja lakieru.
 // Data publikacji każdego poradnika – w data/harmonogram-poradnikow.json (jak w pozostałych nowych poradnikach).
 import type { Poradnik } from '@/lib/poradniki';
 import type { DodatekSeo } from '@/lib/poradniki-nowe';
@@ -24,6 +24,14 @@ const Z = {
   asFgazy: { n: 'Auto Świat – koniec z nabijaniem nieszczelnych klimatyzacji (ustawa o F-gazach)', url: 'https://www.auto-swiat.pl/porady/eksploatacja/koniec-z-nabijaniem-nieszczelnych-klimatyzacji-nowe-przepisy-dla-serwisow/7sjhv7j' },
   acFiltrKabinowy: { n: 'AutoCentrum – filtr kabinowy: rodzaje i jak często go wymieniać', url: 'https://www.autocentrum.pl/publikacje/porady/filtr-kabinowy-co-to-jest-do-czego-sluzy-jak-czesto-i-kiedy-warto-go-wymienic/' },
   asPrzedSezonem: { n: 'Auto Świat – co sprawdzić w klimatyzacji przed sezonem, objawy usterek', url: 'https://www.auto-swiat.pl/porady/eksploatacja/co-trzeba-sprawdzic-w-klimatyzacji-przed-sezonem-objawy-i-naprawa-usterek/ky57q7v' },
+  otomotoMyjnie: { n: 'Otomoto News – gdzie najlepiej umyć samochód (myjnia szczotkowa, bezdotykowa, mycie ręczne)', url: 'https://www.otomoto.pl/news/gdzie-najlepiej-umyc-samochod' },
+  asMyjniaAutomatyczna: { n: 'Auto Świat – czy myjnia automatyczna niszczy lakier, szczotki czy lanca', url: 'https://www.auto-swiat.pl/porady/eksploatacja/czy-myjnia-automatyczna-niszczy-lakier-lepiej-pojechac-na-szczoty-czy-na-lance/2fjz941' },
+  asOdchody: { n: 'Auto Świat – jak usunąć z lakieru ptasie odchody i szczątki owadów', url: 'https://www.auto-swiat.pl/porady/eksploatacja/jak-usunac-z-lakieru-szczatki-owadow/dl8f1ty' },
+  asZabezpieczenie: { n: 'Auto Świat – wosk płynny, wosk twardy, sealant czy powłoka ceramiczna', url: 'https://www.auto-swiat.pl/porady/eksploatacja/wosk-plynny-wosk-twardy-powloka-ceramiczna-co-wybrac-zeby-chronic-lakier-auta/7j0gpwj' },
+  asCeramika: { n: 'Auto Świat – powłoka ceramiczna krok po kroku i jej rzeczywista trwałość', url: 'https://www.auto-swiat.pl/porady/eksploatacja/powloka-ceramiczna-krok-po-roku/rlf1x7s' },
+  acCzyszczenie: { n: 'AutoCentrum – jak bezpiecznie czyścić samochód (mycie ciśnieniowe, dwa wiadra)', url: 'https://www.autocentrum.pl/publikacje/porady/jak-bezpiecznie-i-profesjonalnie-czyscic-samochod/' },
+  otomotoPosesja: { n: 'Otomoto News – mycie samochodu na własnej posesji a regulamin gminy', url: 'https://www.otomoto.pl/news/mycie-samochodu-na-wlasnej-posesji' },
+  asPosesjaMiasta: { n: 'Auto Świat – czy można myć auto na posesji, przepisy w największych miastach', url: 'https://www.auto-swiat.pl/dobry-warsztat/porady-dla-kierowcow/czy-mozna-myc-auto-na-wlasnej-posesji-przepisy-w-najwiekszych-miastach/0d9wsy1' },
   asStartStop: { n: 'Auto Świat – jak wymienić akumulator w aucie z układem start-stop (AGM, EFB, rejestracja)', url: 'https://www.auto-swiat.pl/porady/auto-z-ukladem-start-stop-jak-wymienic-akumulator/48rpets' }
 };
 
@@ -776,10 +784,259 @@ export const NOWE_4: Poradnik[] = [
     ],
     powiazane: ['olej-silnikowy-jak-dobrac', 'zima-w-samochodzie', 'kontrolki-w-samochodzie'],
     zrodla: [Z.acKlimaCena, Z.otomotoOdgrzybianie, Z.asKlimaAwarie, Z.asFgazy, Z.acFiltrKabinowy, Z.asPrzedSezonem]
+  },
+  {
+    slug: 'mycie-auta-pielegnacja-lakieru',
+    kategoria: 'eksploatacja',
+    ikona: 'lakier',
+    aktualizacja: '2026-11-19',
+    tytul: 'Jak myć auto, żeby nie rysować lakieru – metoda dwóch wiader, myjnia bezdotykowa czy szczotkowa, wosk czy ceramika',
+    krotko: 'Mycie auta i pielęgnacja lakieru',
+    opis: 'Jak bezpiecznie umyć samochód krok po kroku, metoda dwóch wiader, myjnia bezdotykowa czy szczotkowa, jak usunąć ptasie odchody i żywicę, czym zabezpieczyć lakier (wosk, sealant, powłoka ceramiczna) i czy wolno myć auto pod domem.',
+    liczby: [
+      { w: '2 wiadra', o: 'jedno z szamponem, drugie z czystą wodą do płukania rękawicy' },
+      { w: 'kilka miesięcy', o: 'tyle zwykle chroni lakier sealant (spray polimerowy)' },
+      { w: 'do 500 zł', o: 'mandat za mycie auta wbrew regulaminowi gminy' }
+    ],
+    sekcje: [
+      {
+        id: 'wstep',
+        t: 'Najwięcej rys robimy sami – w czasie mycia',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Wyjedź umytym autem w słoneczny dzień i spójrz na lakier pod kątem. Jeśli widzisz pajęczynę drobnych, okrągłych rysek, to najpewniej nie jest to „zużycie” ani wina lakieru. To ślady mycia: piasku przesuwanego gąbką, brudnych szczotek na myjni albo ściereczki, którą wycierano zakurzone auto.'
+          },
+          {
+            typ: 'p',
+            t: 'Lakier w nowoczesnych samochodach jest cienki, a jego zewnętrzna, przezroczysta warstwa (lakier bezbarwny) łatwo się rysuje. Głębokich rys nie da się „zmyć” – usuwa się je polerowaniem, czyli ścieraniem cienkiej warstwy lakieru. Dlatego dużo taniej jest po prostu nie robić ich w trakcie mycia.'
+          },
+          {
+            typ: 'p',
+            t: 'Dobra wiadomość: bezpieczne mycie nie wymaga drogiego sprzętu ani wiedzy detailera. Wystarczy kilka zasad – spłukać piasek, zanim dotkniesz lakieru, płukać rękawicę w osobnym wiadrze, nie myć w pełnym słońcu i raz na jakiś czas zabezpieczyć lakier woskiem lub sealantem. W tym poradniku wyjaśniamy wszystko krok po kroku.'
+          },
+          {
+            typ: 'uwaga',
+            ton: 'info',
+            t: 'Najkrótsza wersja: najpierw dokładnie spłucz auto, myj od góry do dołu rękawicą z mikrofibry i szamponem samochodowym, płucz rękawicę w drugim wiadrze z czystą wodą, osusz ręcznikiem z mikrofibry. Ptasie odchody usuwaj od razu, a lakier zabezpieczaj co kilka miesięcy.'
+          }
+        ]
+      },
+      {
+        id: 'gdzie-myc',
+        t: 'Myjnia szczotkowa, bezdotykowa czy mycie ręczne?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Każdy sposób ma swoje miejsce. Najważniejsze to wiedzieć, co który robi z lakierem, i dobrać go do sytuacji – zimą chodzi głównie o spłukanie soli, latem o połysk i usunięcie owadów.'
+          },
+          {
+            typ: 'tabela',
+            naglowki: ['Sposób', 'Dla lakieru', 'Skuteczność', 'Kiedy wybrać'],
+            wiersze: [
+              ['Myjnia automatyczna (szczotkowa)', 'Najbardziej ryzykowna – szczotki zbierają piasek z wcześniejszych aut i zostawiają mikrorysy, zwłaszcza na ciemnych lakierach', 'Szybka i wygodna, ale nie domywa zakamarków i felg', 'Gdy liczy się czas i auto nie jest mocno zapiaszczone; lepiej tam, gdzie pracownik najpierw spłukuje auto lancą'],
+              ['Myjnia bezdotykowa (samoobsługowa)', 'Bezpieczniejsza, bo nic nie trze lakieru – ale mocna chemia może z czasem zmywać wosk i powłoki', 'Spłukuje piasek, sól i błoto, ale cienkiego „filmu” brudu nie zdejmie bez dotyku', 'Zimą do spłukania soli, przed myciem ręcznym, w podróży'],
+              ['Mycie ręczne (dwa wiadra)', 'Najbezpieczniejsze, jeśli najpierw spłuczesz piasek i używasz czystej rękawicy', 'Najdokładniejsze', 'Gdy chcesz dobrze domyć auto i nie robić rys; przed woskowaniem'],
+              ['Ręczna myjnia z obsługą', 'Zależy od staranności pracowników – zapytaj, czy myją na dwa wiadra i czystymi rękawicami', 'Zwykle dobra', 'Gdy nie masz gdzie myć auta sam']
+            ],
+            podpis: 'Porównanie sposobów mycia samochodu pod kątem bezpieczeństwa lakieru.'
+          },
+          {
+            typ: 'p',
+            t: 'Rozsądny kompromis, który stosuje wielu kierowców: myjnia bezdotykowa do spłukania piasku i soli, a potem mycie rękawicą metodą dwóch wiader. Niektóre myjnie samoobsługowe mają stanowiska, na których wolno myć auto własnym wiadrem i rękawicą – warto zapytać.'
+          },
+          {
+            typ: 'uwaga',
+            ton: 'ostrzezenie',
+            t: 'Na myjni bezdotykowej omijaj program ze szczotką. Szczotka wisi na stanowisku cały dzień i zbiera piasek z kół i progów kolejnych aut – a potem trze nim Twój lakier.'
+          }
+        ]
+      },
+      {
+        id: 'krok-po-kroku',
+        t: 'Mycie ręczne krok po kroku (metoda dwóch wiader)',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Metoda dwóch wiader polega na tym, że brud z rękawicy nie wraca do wody z szamponem. W jednym wiadrze masz wodę z szamponem, w drugim czystą wodę do płukania rękawicy. Najlepiej, żeby wiadra miały różne kolory, a na dnie każdego leżał separator – plastikowa kratka, pod którą opada piasek.'
+          },
+          {
+            typ: 'kroki',
+            elementy: [
+              { t: 'Ustaw auto w cieniu', o: 'Lakier powinien być chłodny. W pełnym słońcu szampon i woda zasychają, zostawiając plamy i zacieki, które potem trudno usunąć.' },
+              { t: 'Zacznij od kół', o: 'Felgi i opony są najbrudniejsze. Myj je osobną szczotką i osobnym wiadrem lub gąbką – nigdy tą samą rękawicą, którą później dotkniesz lakieru.' },
+              { t: 'Dokładnie spłucz całe auto', o: 'Wodą z węża albo myjką ciśnieniową, od góry do dołu. Celem jest zmycie jak największej ilości piasku, zanim cokolwiek dotknie lakieru. Jeśli masz pianownicę lub jesteś na myjni – nałóż aktywną pianę na kilka minut (nie dopuść, by zaschła) i spłucz.' },
+              { t: 'Myj od góry do dołu', o: 'Zanurz rękawicę w wiadrze z szamponem i myj dach, szyby, maskę i klapę, potem boki, a na końcu najbrudniejsze dolne partie: progi i zderzaki. Prowadź rękawicę prostymi ruchami, bez mocnego dociskania.' },
+              { t: 'Płucz rękawicę po każdym elemencie', o: 'Po umyciu jednego fragmentu (np. połowy maski) wypłucz rękawicę w wiadrze z czystą wodą, potrzyj nią o separator, odciśnij i dopiero wtedy zanurz w szamponie.' },
+              { t: 'Spłucz szampon na bieżąco', o: 'Nie pozwól, żeby piana zaschła – w ciepły dzień spłukuj kolejne fragmenty od razu. Ostatnie płukanie zrób delikatnym strumieniem, wtedy woda spływa całymi płatami.' },
+              { t: 'Osusz auto', o: 'Dużym, chłonnym ręcznikiem z mikrofibry – przykładaj go i lekko przeciągaj, zamiast trzeć. Zostawiona woda wysycha w plamy z kamienia, zwłaszcza przy twardej wodzie.' }
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Do mycia używaj szamponu samochodowego o neutralnym pH. Jest śliski, więc rękawica łatwiej przesuwa się po lakierze, a przy tym nie zmywa wosku. Płyn do naczyń to zły pomysł: zostawia zacieki, a używany regularnie zmywa zabezpieczenie i może przyspieszać szarzenie gumy i plastików.'
+          }
+        ]
+      },
+      {
+        id: 'zabrudzenia',
+        t: 'Ptasie odchody, owady, żywica i smoła – jak je usunąć',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Niektóre zabrudzenia nie mogą czekać na weekendowe mycie. Najgroźniejsze są ptasie odchody – są żrące, a w słońcu potrafią w kilka dni zostawić na lakierze matowy, wżarty ślad, którego nie usunie się już samym myciem.'
+          },
+          {
+            typ: 'tabela',
+            naglowki: ['Zabrudzenie', 'Dlaczego szkodzi', 'Jak usunąć'],
+            wiersze: [
+              ['Ptasie odchody', 'Żrące, w upale szybko wżerają się w lakier', 'Jak najszybciej. Zaschnięte najpierw namocz (mokry ręcznik na kilka minut, woda z szamponem lub preparat do owadów), potem zdejmij bez tarcia'],
+              ['Owady', 'Zasychają i są coraz trudniejsze do zmycia', 'Preparat do usuwania owadów przed myciem, odczekać chwilę i spłukać. Nie skrob na sucho'],
+              ['Żywica z drzew', 'Twardnieje i trzyma się lakieru', 'Specjalny zmywacz do żywicy lub smoły na miękkiej ściereczce, potem umyć to miejsce szamponem'],
+              ['Smoła i asfalt', 'Czarne kropki na progach i za kołami', 'Zmywacz do smoły, delikatnie, bez szorowania'],
+              ['Rdzawe kropki (opiłki z hamulców)', 'Drobiny metalu wbijają się w lakier, zwłaszcza na jasnych autach', 'Deironizer (preparat do usuwania zanieczyszczeń metalicznych) – zmienia kolor na fioletowy, gdy działa'],
+              ['Sól drogowa', 'Przyspiesza korozję podwozia, progów i nadkoli', 'Zimą regularnie spłukuj auto, także od spodu – myjnia bezdotykowa dobrze się do tego nadaje']
+            ],
+            podpis: 'Najczęstsze uporczywe zabrudzenia lakieru i bezpieczne sposoby ich usuwania.'
+          },
+          {
+            typ: 'p',
+            t: 'Zasada ogólna: zaschnięty brud najpierw zmiękcz, potem zdejmij. Siła i paznokieć robią więcej szkody niż sam brud. Nie przykładaj też dyszy myjki ciśnieniowej tuż do zaschniętego zabrudzenia – strumień pod wysokim ciśnieniem z bliska może uszkodzić lakier, a na krawędziach odpryśniętego lakieru potrafi go podważyć.'
+          }
+        ]
+      },
+      {
+        id: 'zabezpieczenie',
+        t: 'Wosk, sealant czy powłoka ceramiczna?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'Umyty lakier warto co jakiś czas zabezpieczyć. Warstwa ochronna sprawia, że woda spływa kropelkami, brud gorzej się trzyma, a kolejne mycie jest łatwiejsze i wymaga mniej tarcia. Trzeba tylko wiedzieć, czego się po niej spodziewać: żaden preparat nie usuwa rys i żaden nie chroni przed odpryskami od kamieni.'
+          },
+          {
+            typ: 'tabela',
+            naglowki: ['Preparat', 'Trwałość', 'Praca', 'Dla kogo'],
+            wiersze: [
+              ['Szampon z woskiem / szybki wosk w sprayu', 'Kilka dni do kilku tygodni', 'Minimalna – przy okazji mycia', 'Odświeżenie połysku między „prawdziwym” zabezpieczeniem'],
+              ['Wosk naturalny (twardy, np. carnauba)', 'Zwykle do kilku miesięcy', 'Duża – nakładanie ręczne, najlepiej po glinkowaniu', 'Dla lubiących dłubać przy aucie; daje ładny, głęboki połysk'],
+              ['Sealant (spray polimerowy)', 'Zwykle kilka miesięcy', 'Mała – ok. pół godziny na całe auto', 'Najlepszy stosunek pracy do efektu dla większości kierowców'],
+              ['Powłoka ceramiczna', 'W praktyce zwykle 12–24 miesiące, mniej przy częstym myciu na myjniach', 'Bardzo duża – wymaga wcześniejszego polerowania i starannej aplikacji', 'Nowe lub świeżo wypolerowane auta; u detailera zwykle od ok. 1000 zł wzwyż']
+            ],
+            podpis: 'Porównanie popularnych zabezpieczeń lakieru (trwałość orientacyjna – zależy od mycia, garażowania i pogody).'
+          },
+          {
+            typ: 'p',
+            t: 'Producenci ceramiki często obiecują ochronę na 3–5 lat, ale w normalnym użytkowaniu to zwykle przesada. Powłokę skraca przede wszystkim mycie mocną, zasadową chemią na myjniach bezdotykowych oraz myjnie szczotkowe. Ceramika nie maskuje też rys – „konserwuje” lakier w takim stanie, w jakim był w dniu aplikacji. Dlatego przed jej nałożeniem robi się korektę lakieru (polerowanie), co stanowi dużą część ceny.'
+          },
+          {
+            typ: 'p',
+            t: 'Dla większości kierowców, którzy jeżdżą autem na co dzień i myją je na zmianę ręcznie i na myjni, najrozsądniejszy jest sealant nakładany 2–3 razy w roku – np. wiosną po zimie i jesienią przed sezonem soli. Kto chce więcej, może raz w roku zrobić glinkowanie (usunięcie wbitych zanieczyszczeń specjalną glinką) i nałożyć wosk.'
+          }
+        ]
+      },
+      {
+        id: 'pod-domem',
+        t: 'Czy można myć auto pod domem lub blokiem?',
+        bloki: [
+          {
+            typ: 'p',
+            t: 'W Polsce nie ma jednego ogólnokrajowego przepisu o myciu aut poza myjnią. Zasady ustala każda gmina w „Regulaminie utrzymania czystości i porządku na terenie gminy” – wynika to z art. 4 ustawy o utrzymaniu czystości i porządku w gminach z 1996 r.'
+          },
+          {
+            typ: 'lista',
+            elementy: [
+              'W wielu gminach mycie auta jest dozwolone na własnej posesji, ale pod warunkami – najczęściej na utwardzonym podłożu, a brudna woda nie może spływać do ziemi, rowu ani kanalizacji deszczowej.',
+              'Część gmin pozwala myć tylko nadwozie, wymaga środków biodegradowalnych albo zakazuje używania detergentów.',
+              'Na parkingach osiedlowych i ulicach mycie jest zwykle zakazane.',
+              'Za złamanie regulaminu straż miejska lub policja może wystawić mandat do 500 zł.'
+            ]
+          },
+          {
+            typ: 'p',
+            t: 'Regulamin swojej gminy znajdziesz w Biuletynie Informacji Publicznej (BIP) urzędu – wpisz w wyszukiwarkę „BIP”, nazwę gminy i „regulamin utrzymania czystości i porządku”, a w dokumencie poszukaj fragmentu o myciu i naprawach pojazdów. Jeśli nie masz gdzie myć zgodnie z przepisami, użyj myjni samoobsługowej, która pozwala na mycie własną rękawicą.'
+          }
+        ]
+      },
+      {
+        id: 'nawyki',
+        t: 'Proste nawyki, które chronią lakier na co dzień',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'Myj auto regularnie – zimą częściej (sól), latem przynajmniej co 2–3 tygodnie. Gruba warstwa brudu to więcej piasku pod rękawicą.',
+              'Nie wycieraj kurzu z suchego lakieru ręką, rękawem ani ściereczką – to jak papier ścierny.',
+              'Nie parkuj pod drzewami, z których kapie żywica, i tam, gdzie siadają ptaki.',
+              'Trzymaj w bagażniku czystą ściereczkę z mikrofibry i preparat do szybkiego usuwania ptasich odchodów.',
+              'Rękawice i ręczniki z mikrofibry pierz osobno, bez płynu do zmiękczania – płyn zatyka włókna.',
+              'Odpryski od kamieni zabezpiecz zaprawką lakierniczą, zanim pojawi się rdza.',
+              'Zimą nie zdrapuj śniegu i lodu z lakieru skrobaczką – zmiataj śnieg miękką szczotką.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'czego-unikac',
+        t: 'Czego unikać',
+        bloki: [
+          {
+            typ: 'lista',
+            elementy: [
+              'Mycia na sucho lub na zakurzonym lakierze – zawsze najpierw spłucz piasek.',
+              'Jednego wiadra, w którym płuczesz brudną gąbkę i nabierasz szampon.',
+              'Mycia w pełnym słońcu i na gorącym lakierze – zasychający szampon zostawia plamy.',
+              'Płynu do naczyń, proszków i „domowej chemii” zamiast szamponu samochodowego.',
+              'Tej samej rękawicy do felg i do lakieru.',
+              'Rękawicy, która spadła na ziemię – bez dokładnego wypłukania nie dotykaj nią auta.',
+              'Szczotki na myjni bezdotykowej i częstych wizyt na myjni szczotkowej, zwłaszcza przy ciemnym lakierze.',
+              'Przykładania dyszy myjki ciśnieniowej tuż do lakieru, uszczelek, naklejek i odprysków.',
+              'Zostawiania ptasich odchodów „do weekendu”.',
+              'Nakładania powłoki ceramicznej na porysowany lakier bez wcześniejszego polerowania.'
+            ]
+          }
+        ]
+      },
+      {
+        id: 'produkty',
+        t: 'Polecane produkty i narzędzia',
+        bloki: [
+          {
+            typ: 'produkty',
+            elementy: [
+              { nazwa: 'Dwa wiadra z separatorami brudu', o: 'Podstawa bezpiecznego mycia. Wybierz dwa wiadra w różnych kolorach (szampon i płukanie) z kratką na dnie, pod którą opada piasek.', szukaj: 'wiadro z separatorem do mycia auta' },
+              { nazwa: 'Szampon samochodowy o neutralnym pH', o: 'Śliski, dobrze się pieni i nie zmywa wosku ani sealantu. Koncentrat starcza na wiele myć.', szukaj: 'szampon samochodowy ph neutralne' },
+              { nazwa: 'Rękawica i ręcznik do osuszania z mikrofibry', o: 'Rękawica z długim włosiem wciąga brud do środka, zamiast przesuwać go po lakierze. Duży, gruby ręcznik osuszy auto bez tarcia.', szukaj: 'rękawica mikrofibra ręcznik do osuszania auta' },
+              { nazwa: 'Sealant (wosk syntetyczny w sprayu)', o: 'Najprostsze zabezpieczenie lakieru na kilka miesięcy – nakładasz na umyte i suche auto, rozcierasz i polerujesz ściereczką.', szukaj: 'sealant do lakieru spray' },
+              { nazwa: 'Preparat do owadów i ptasich odchodów', o: 'Zmiękcza zaschnięty brud, dzięki czemu zdejmiesz go bez szorowania. Przydaje się zwłaszcza latem.', szukaj: 'preparat do usuwania owadów z lakieru' },
+              { nazwa: 'Raport historii auta przed zakupem', o: 'Lśniący lakier w ogłoszeniu nie zawsze znaczy „bezwypadkowy”. Przed zakupem sprawdź po numerze VIN historię szkód i przebiegu.', partner: 'vin' }
+            ]
+          }
+        ]
+      }
+    ],
+    faq: [
+      { q: 'Czy myjnia automatyczna niszczy lakier?', a: 'Może. Szczotki zbierają piasek z wcześniej mytych aut i zostawiają na lakierze mikrorysy, najbardziej widoczne na ciemnych kolorach w słońcu. Jeśli korzystasz z myjni szczotkowej, wybieraj taką, gdzie auto jest najpierw spłukiwane lancą, i nie wjeżdżaj na nią mocno zapiaszczonym autem.' },
+      { q: 'Na czym polega mycie na dwa wiadra?', a: 'W jednym wiadrze jest woda z szamponem, w drugim czysta woda. Po umyciu każdego fragmentu auta płuczesz rękawicę w czystej wodzie, dzięki czemu piasek nie wraca do szamponu i na lakier. Najlepiej, gdy na dnie wiader leżą separatory brudu.' },
+      { q: 'Czy można myć auto płynem do naczyń?', a: 'Nie warto. Płyn do naczyń zostawia zacieki, zmywa wosk i inne zabezpieczenia, a używany regularnie może przyspieszać szarzenie gumy i plastików. Szampon samochodowy kosztuje niewiele i starcza na wiele myć.' },
+      { q: 'Co jest lepsze: wosk czy powłoka ceramiczna?', a: 'Powłoka ceramiczna jest trwalsza – w praktyce zwykle 12–24 miesiące – ale wymaga wcześniejszego polerowania i jest droga. Wosk i sealant chronią krócej (zwykle kilka miesięcy), za to nałożysz je sam w krótkim czasie. Dla większości kierowców sealant 2–3 razy w roku to najrozsądniejszy wybór.' },
+      { q: 'Czy za mycie auta pod domem grozi mandat?', a: 'Zależy od regulaminu utrzymania czystości i porządku w Twojej gminie. Wiele gmin pozwala myć auto na własnej posesji pod warunkiem, że brudna woda nie trafia do ziemi ani kanalizacji deszczowej. Za złamanie regulaminu grozi mandat do 500 zł.' },
+      { q: 'Jak usunąć zaschnięte ptasie odchody z lakieru?', a: 'Nie zdrapuj ich na sucho. Połóż na nich mokry ręcznik lub psiknij preparatem do owadów i odczekaj kilka minut, aż zmiękną, a potem zdejmij delikatnie miękką ściereczką i spłucz. Jeśli po usunięciu został matowy ślad, lakier jest już nadtrawiony i może pomóc tylko polerowanie.' }
+    ],
+    powiazane: ['zima-w-samochodzie', 'ile-jest-warte-uzywane-auto', 'klimatyzacja-samochodowa-serwis-odgrzybianie'],
+    zrodla: [Z.otomotoMyjnie, Z.asMyjniaAutomatyczna, Z.asOdchody, Z.asZabezpieczenie, Z.asCeramika, Z.acCzyszczenie, Z.otomotoPosesja, Z.asPosesjaMiasta]
   }
 ];
 
 export const DODATKI_4: Record<string, DodatekSeo> = {
+  'mycie-auta-pielegnacja-lakieru': {
+    seoTytul: 'Jak myć auto, żeby nie rysować lakieru',
+    seoOpis: 'Mycie auta krok po kroku metodą dwóch wiader, myjnia bezdotykowa czy szczotkowa, ptasie odchody i żywica, wosk, sealant czy ceramika oraz mycie pod domem.',
+    skrot: [
+      'Najpierw spłucz piasek, potem myj od góry rękawicą z mikrofibry i płucz ją w drugim wiadrze.',
+      'Myjnia szczotkowa najbardziej rysuje lakier, bezdotykowa jest bezpieczniejsza, ale nie domywa do końca.',
+      'Sealant 2–3 razy w roku to najprostsze zabezpieczenie, ceramika w praktyce trzyma zwykle 1–2 lata.'
+    ]
+  },
   'akumulator-samochodowy-jak-dobrac-i-naladowac': {
     seoTytul: 'Akumulator – jak dobrać Ah i A, AGM czy EFB',
     seoOpis: 'Jak dobrać akumulator samochodowy (Ah, prąd rozruchowy, bieguny), AGM czy EFB, jak sprawdzić go multimetrem i naładować prostownikiem. Napięcia i błędy.',
