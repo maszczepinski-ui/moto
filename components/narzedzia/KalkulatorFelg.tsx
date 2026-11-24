@@ -141,123 +141,158 @@ function Panel({ id, tytul, nowe, k, ustaw, akcja }: { id: string; tytul: string
 function Przekroj({ s, n }: { s: Pelne; n: Pelne }) {
   const c = porownaj(s, n);
   const { a, b } = c;
-  const W = 520;
-  const H = 400;
-  // stałe elementy auta – położone względem koła seryjnego (umownie: 18 mm luzu do amortyzatora, rant błotnika 12 mm za oponą)
+  const W = 540;
+  const H = 540;
+  // stałe elementy auta – umownie względem koła seryjnego: 18 mm do amortyzatora, rant błotnika 12 mm za oponą
   const strutX = a.wew - 18;
   const blotX = a.zew + 12;
-  const blotGora = a.R + 34;
-  // zakres widoku w mm
-  const minX = Math.min(strutX - 22, b.wew) - 8;
-  const maxX = Math.max(blotX + 6, b.zew) + 70;
-  const rDol = Math.min(a.rFelgi, b.rFelgi) - 38;
-  const rGora = Math.max(blotGora, b.R) + 16;
-  const k = Math.min((W - 40) / (maxX - minX), (H - 70) / (rGora - rDol));
-  const X = (x: number) => 20 + (x - minX) * k;
-  const Y = (r: number) => 40 + (rGora - r) * k;
+  const blotGora = a.R + 30;
+  // zakres widoku (mm): poziomo od amortyzatora do strzałki wysokości, pionowo całe koło
+  const minX = Math.min(strutX - 30, b.wew) - 6;
+  const maxX = Math.max(blotX + 4, b.zew) + 60;
+  const rMax = Math.max(blotGora, b.R) + 10;
+  const k = Math.min((W - 40) / (maxX - minX), (H - 90) / (2 * rMax));
+  const szerRys = (maxX - minX) * k;
+  const X = (x: number) => (W - szerRys) / 2 + (x - minX) * k;
+  const cy = 52 + rMax * k;
+  const Y = (r: number) => cy - r * k;
 
-  /** obrys opony (przekrój) + felgi dla jednego koła */
-  const kolo = (g: ReturnType<typeof geometria>, dystans: number, nowe: boolean) => {
-    const kol = nowe ? POMARANCZ : SZARY;
-    const kreska = nowe ? undefined : '5 4';
+  /** przekrój opony nad felgą; znak = 1 górna część, −1 dolna */
+  const opona = (g: ReturnType<typeof geometria>, znak: 1 | -1) => {
     const flansz = 15;
     const xl = g.xc - g.felgaMm / 2;
     const xr = g.xc + g.felgaMm / 2;
-    const yb = g.rFelgi + flansz * 0.6; // stopka opony na rancie
+    const yb = g.rFelgi + flansz * 0.6;
     const bok = g.R - yb;
     const pol = Math.max(g.przekroj / 2, g.felgaMm / 2);
     const t = g.bieznik / 2;
-    const zaokr = Math.min(10, bok * 0.25);
-    const opona = [
-      `M ${X(xl)} ${Y(yb)}`,
-      `C ${X(g.xc - pol)} ${Y(yb + bok * 0.35)} ${X(g.xc - pol)} ${Y(yb + bok * 0.78)} ${X(g.xc - t)} ${Y(g.R - zaokr)}`,
-      `Q ${X(g.xc - t)} ${Y(g.R)} ${X(g.xc - t + zaokr)} ${Y(g.R)}`,
-      `L ${X(g.xc + t - zaokr)} ${Y(g.R)}`,
-      `Q ${X(g.xc + t)} ${Y(g.R)} ${X(g.xc + t)} ${Y(g.R - zaokr)}`,
-      `C ${X(g.xc + pol)} ${Y(yb + bok * 0.78)} ${X(g.xc + pol)} ${Y(yb + bok * 0.35)} ${X(xr)} ${Y(yb)}`
+    const z = Math.min(10, bok * 0.25);
+    const y = (r: number) => Y(znak * r);
+    return [
+      `M ${X(xl)} ${y(yb)}`,
+      `C ${X(g.xc - pol)} ${y(yb + bok * 0.35)} ${X(g.xc - pol)} ${y(yb + bok * 0.78)} ${X(g.xc - t)} ${y(g.R - z)}`,
+      `Q ${X(g.xc - t)} ${y(g.R)} ${X(g.xc - t + z)} ${y(g.R)}`,
+      `L ${X(g.xc + t - z)} ${y(g.R)}`,
+      `Q ${X(g.xc + t)} ${y(g.R)} ${X(g.xc + t)} ${y(g.R - z)}`,
+      `C ${X(g.xc + pol)} ${y(yb + bok * 0.78)} ${X(g.xc + pol)} ${y(yb + bok * 0.35)} ${X(xr)} ${y(yb)}`
     ].join(' ');
-    // felga: ranty, bęben i tarcza przylegająca do piasty (przesunięta o dystans)
-    const felga = [
-      `M ${X(xl - 3)} ${Y(g.rFelgi + flansz)}`,
-      `L ${X(xl)} ${Y(g.rFelgi)}`,
-      `L ${X(xl)} ${Y(g.rFelgi - 18)}`,
-      `L ${X(xr)} ${Y(g.rFelgi - 18)}`,
-      `L ${X(xr)} ${Y(g.rFelgi)}`,
-      `L ${X(xr + 3)} ${Y(g.rFelgi + flansz)}`
-    ].join(' ');
-    const tarcza = `M ${X(dystans)} ${Y(g.rFelgi - 18)} L ${X(dystans)} ${Y(rDol)}`;
-    return (
-      <g>
-        {nowe && <path d={`${opona} Z`} fill={POMARANCZ} fillOpacity={0.1} stroke="none" />}
-        <path d={opona} fill="none" stroke={kol} strokeWidth={nowe ? 1.8 : 1.4} strokeDasharray={kreska} strokeLinejoin="round" />
-        <path d={felga} fill="none" stroke={kol} strokeWidth={nowe ? 1.6 : 1.2} strokeDasharray={kreska} strokeLinejoin="round" />
-        <path d={tarcza} fill="none" stroke={kol} strokeWidth={nowe ? 2.4 : 1.6} strokeDasharray={kreska} />
-        {dystans > 0.3 && <rect x={X(0)} y={Y(rDol + 42)} width={Math.max(0, X(dystans) - X(0))} height={Y(rDol) - Y(rDol + 42)} fill={kol} fillOpacity={nowe ? 0.35 : 0.15} />}
-      </g>
-    );
+  };
+
+  /** sylwetka felgi (widok z przodu, jak na rysunkach technicznych): ranty, półki, wklęsły „rowek” i rowki po stronie zewnętrznej */
+  const fx = (g: ReturnType<typeof geometria>, u: number) => X(g.xc - g.felgaMm / 2 + u * g.felgaMm);
+  const obrysFelgi = (g: ReturnType<typeof geometria>) => {
+    const r = g.rFelgi;
+    // [udział szerokości, promień] – górna połowa od strony auta do strony zewnętrznej
+    const gora: [number, number][] = [
+      [0, r + 12], [0.012, r + 15], [0.04, r + 15], [0.048, r + 3], [0.14, r + 3], [0.165, r],
+      [0.23, r - 22], [0.5, r - 22], [0.6, r], [0.952, r + 3], [0.96, r + 15], [0.988, r + 15], [1, r + 12]
+    ];
+    const pkt = (u: number, rr: number) => `${fx(g, u)} ${Y(rr)}`;
+    const top = gora.map(([u, rr], i) => `${i === 0 ? 'M' : 'L'} ${pkt(u, rr)}`).join(' ');
+    const dol = [...gora].reverse().map(([u, rr]) => `L ${pkt(u, -rr)}`).join(' ');
+    return `${top} ${dol} Z`;
+  };
+  /** pionowe kreski na krawędziach półek i rowkach (cieniowanie jak na rysunku) */
+  const kreskiFelgi = (g: ReturnType<typeof geometria>) => {
+    const r = g.rFelgi;
+    const linie: [number, number][] = [[0.048, r + 3], [0.14, r + 3], [0.23, r - 22], [0.5, r - 22], [0.6, r], [0.68, r + 0.6], [0.76, r + 1.3], [0.84, r + 2], [0.9, r + 2.6]];
+    return linie.map(([u, rr]) => `M ${fx(g, u)} ${Y(rr)} L ${fx(g, u)} ${Y(-rr)}`).join(' ');
   };
 
   const kolorZmiany = (mm: number, prog: number) => (mm > prog ? '#f43f5e' : mm > 2 ? '#fbbf24' : '#34d399');
-  const yWew = Y(Math.min(a.rFelgi, b.rFelgi) + Math.min(a.bok, b.bok) * 0.45);
-  const yZew = Y(Math.max(a.R, b.R) - Math.min(a.bok, b.bok) * 0.25);
-  const xWys = maxX - 30;
+  const yWew = Y(Math.min(a.rFelgi, b.rFelgi) + Math.min(a.bok, b.bok) * 0.5);
+  const yZew = Y(Math.max(a.R, b.R) - Math.min(a.bok, b.bok) * 0.28);
+  const xWys = maxX - 26;
   const wymiar = (x1: number, y1: number, x2: number, y2: number, kolor: string) =>
     Math.hypot(x2 - x1, y2 - y1) < 1.5 ? (
       <circle cx={x1} cy={y1} r={2.5} fill={kolor} />
     ) : (
-      <line x1={x1} y1={y1} x2={x2} y2={y2} stroke={kolor} strokeWidth={1.5} markerStart="url(#grot)" markerEnd="url(#grot)" style={{ color: kolor }} />
+      <line x1={x1} y1={y1} x2={x2} y2={y2} stroke={kolor} strokeWidth={1.6} markerStart="url(#grot)" markerEnd="url(#grot)" style={{ color: kolor }} />
     );
+  const yEt = Y(-b.rFelgi * 0.55);
+  const etE = etEfektywne(n);
 
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={`Przekrój od czoła auta: od strony zawieszenia ${zeZnakiem(-c.doSrodka)} mm luzu, na zewnątrz ${zeZnakiem(c.naZewnatrz)} mm, wysokość ${zeZnakiem(c.przeswit)} mm`}>
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={`Przekrój koła od czoła auta. Nowa felga ET ${pl(etE, 0)}. Od strony zawieszenia ${zeZnakiem(-c.doSrodka)} mm, na zewnątrz ${zeZnakiem(c.naZewnatrz)} mm, wysokość ${zeZnakiem(c.przeswit)} mm`}>
       <defs>
         <marker id="grot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
           <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor" />
         </marker>
+        {/* felga jak na rysunku technicznym: jasny metal, ciemniejsze ranty */}
+        <linearGradient id="metal" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor="#94a3b8" />
+          <stop offset="0.08" stopColor="#cbd5e1" />
+          <stop offset="0.3" stopColor="#f1f5f9" />
+          <stop offset="0.5" stopColor="#e2e8f0" />
+          <stop offset="0.75" stopColor="#cbd5e1" />
+          <stop offset="0.95" stopColor="#94a3b8" />
+          <stop offset="1" stopColor="#64748b" />
+        </linearGradient>
+        <linearGradient id="guma" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor="#1e293b" />
+          <stop offset="0.5" stopColor="#334155" />
+          <stop offset="1" stopColor="#1e293b" />
+        </linearGradient>
       </defs>
-      <text x={20} y={22} className="fill-slate-400" style={{ fontSize: 13, fontWeight: 600 }}>
+      <text x={20} y={24} className="fill-slate-400" style={{ fontSize: 13, fontWeight: 600 }}>
         PRZEKRÓJ – WIDOK OD CZOŁA AUTA
       </text>
-      {/* amortyzator */}
-      <line x1={X(strutX)} y1={Y(rDol)} x2={X(strutX)} y2={Y(blotGora - 8)} stroke="#475569" strokeWidth={1.4} />
-      <line x1={X(strutX - 14)} y1={Y(rDol)} x2={X(strutX - 14)} y2={Y(blotGora - 8)} stroke="#475569" strokeWidth={1.4} />
-      <text x={X(strutX - 7)} y={Y(rDol) + 16} textAnchor="middle" className="fill-slate-500" style={{ fontSize: 13 }}>
+
+      {/* amortyzator i nadkole z rantem błotnika (górna część) */}
+      <rect x={X(strutX) - 14 * k} y={Y(blotGora - 10)} width={14 * k} height={Y(-a.rFelgi * 0.2) - Y(blotGora - 10)} rx={4} fill="none" stroke="#475569" strokeWidth={1.4} />
+      <text x={X(strutX - 7)} y={Y(a.rFelgi * 0.2)} textAnchor="middle" dominantBaseline="middle" transform={`rotate(-90 ${X(strutX - 7)} ${Y(a.rFelgi * 0.2)})`} className="fill-slate-500" style={{ fontSize: 11 }}>
         amortyzator
       </text>
-      {/* nadkole i rant błotnika */}
-      <path d={`M ${X(strutX - 7)} ${Y(blotGora - 8)} Q ${X(strutX - 7)} ${Y(blotGora)} ${X(strutX + 20)} ${Y(blotGora)} L ${X(blotX - 22)} ${Y(blotGora)} Q ${X(blotX)} ${Y(blotGora)} ${X(blotX)} ${Y(blotGora - 22)} L ${X(blotX)} ${Y(a.R - a.bok * 0.35)}`} fill="none" stroke="#475569" strokeWidth={1.4} />
-      <text x={X(blotX) + 6} y={Y(blotGora - 10)} className="fill-slate-500" style={{ fontSize: 13 }}>
-        rant błotnika
-      </text>
-      {/* piasta – punkt odniesienia */}
-      <line x1={X(0)} y1={Y(rDol)} x2={X(0)} y2={Y(rGora - 6)} stroke="#94a3b8" strokeWidth={1} strokeDasharray="2 4" />
-      <text x={X(0) + 4} y={Y(rDol) - 6} className="fill-slate-500" style={{ fontSize: 13 }}>
-        piasta
+      <path d={`M ${X(strutX - 7)} ${Y(blotGora - 10)} Q ${X(strutX - 7)} ${Y(blotGora)} ${X(strutX + 20)} ${Y(blotGora)} L ${X(blotX - 20)} ${Y(blotGora)} Q ${X(blotX)} ${Y(blotGora)} ${X(blotX)} ${Y(blotGora - 20)} L ${X(blotX)} ${Y(a.R - a.bok * 0.4)}`} fill="none" stroke="#475569" strokeWidth={1.4} />
+      <text x={X(blotX) + 6} y={Y(blotGora - 6)} className="fill-slate-500" style={{ fontSize: 12 }}>
+        błotnik
       </text>
 
-      {kolo(a, s.dystans, false)}
-      {kolo(b, n.dystans, true)}
 
-      {/* wymiary */}
+      {/* nowe koło: guma i metalowa felga */}
+      <path d={`${opona(b, 1)} Z`} fill="url(#guma)" stroke={POMARANCZ} strokeWidth={1.8} strokeLinejoin="round" />
+      <path d={`${opona(b, -1)} Z`} fill="url(#guma)" stroke={POMARANCZ} strokeWidth={1.8} strokeLinejoin="round" />
+      <path d={obrysFelgi(b)} fill="url(#metal)" stroke={POMARANCZ} strokeWidth={1.4} strokeLinejoin="round" />
+      <path d={kreskiFelgi(b)} fill="none" stroke="#64748b" strokeWidth={0.8} strokeOpacity={0.7} />
+
+      {/* obecne koło – sam przerywany obrys */}
+      <path d={opona(a, 1)} fill="none" stroke={SZARY} strokeWidth={1.4} strokeDasharray="5 4" strokeLinejoin="round" />
+      <path d={opona(a, -1)} fill="none" stroke={SZARY} strokeWidth={1.4} strokeDasharray="5 4" strokeLinejoin="round" />
+      <path d={obrysFelgi(a)} fill="none" stroke={SZARY} strokeWidth={1.2} strokeDasharray="5 4" strokeLinejoin="round" />
+
+      {/* linia środkowa felgi (czerwona) i przylga do piasty (niebieska) */}
+      <line x1={X(b.xc)} y1={Y(b.R + 8)} x2={X(b.xc)} y2={Y(-b.R - 8)} stroke="#ef4444" strokeWidth={1.4} strokeDasharray="6 4" />
+      <line x1={X(n.dystans)} y1={Y(b.R + 8)} x2={X(n.dystans)} y2={Y(-b.R - 8)} stroke="#3b82f6" strokeWidth={1.4} strokeDasharray="6 4" />
+      {/* ET: odległość między linią środkową a przylgą */}
+      {Math.abs(etE) > 1 && (
+        <line x1={X(b.xc)} y1={yEt} x2={X(n.dystans)} y2={yEt} stroke="#60a5fa" strokeWidth={1.6} markerStart="url(#grot)" markerEnd="url(#grot)" style={{ color: '#60a5fa' }} />
+      )}
+      <text x={X(n.dystans) + (b.xc <= n.dystans ? 8 : -8)} textAnchor={b.xc <= n.dystans ? 'start' : 'end'} y={Y(-b.R - 8) + 22} fill="#60a5fa" style={{ fontSize: 15, fontWeight: 700 }}>
+        ET {pl(etE, 0)}
+        {n.dystans > 0 ? ` (z dystansem ${n.dystans} mm)` : ''}
+      </text>
+      <text x={X(b.xc) + (b.xc <= n.dystans ? -8 : 8)} y={Y(-b.R - 8) + 22} textAnchor={b.xc <= n.dystans ? 'end' : 'start'} fill="#f87171" style={{ fontSize: 13, fontWeight: 600 }}>
+        linia środkowa
+      </text>
+
+      {/* trzy strzałki wymiarowe */}
       {wymiar(X(a.wew), yWew, X(b.wew), yWew, kolorZmiany(c.doSrodka, 5))}
-      <text x={X(Math.min(a.wew, b.wew)) - 4} y={yWew - 8} textAnchor="end" fill={kolorZmiany(c.doSrodka, 5)} style={{ fontSize: 15, fontWeight: 700 }}>
+      <text x={X(Math.min(a.wew, b.wew)) - 6} y={yWew - 10} textAnchor="end" fill={kolorZmiany(c.doSrodka, 5)} style={{ fontSize: 15, fontWeight: 700 }}>
         {zeZnakiem(-c.doSrodka)} mm
       </text>
       {wymiar(X(a.zew), yZew, X(b.zew), yZew, kolorZmiany(c.naZewnatrz, 10))}
-      <text x={X(Math.max(a.zew, b.zew)) + 6} y={yZew + 16} fill={kolorZmiany(c.naZewnatrz, 10)} style={{ fontSize: 15, fontWeight: 700 }}>
+      <text x={X(Math.max(a.zew, b.zew)) + 8} y={yZew + 18} fill={kolorZmiany(c.naZewnatrz, 10)} style={{ fontSize: 15, fontWeight: 700 }}>
         {zeZnakiem(c.naZewnatrz)} mm
       </text>
       {wymiar(X(xWys), Y(a.R), X(xWys), Y(b.R), '#38bdf8')}
       <line x1={X(a.zew)} y1={Y(a.R)} x2={X(xWys + 6)} y2={Y(a.R)} stroke={SZARY} strokeWidth={0.8} strokeDasharray="2 3" />
       <line x1={X(b.zew)} y1={Y(b.R)} x2={X(xWys + 6)} y2={Y(b.R)} stroke={POMARANCZ} strokeWidth={0.8} strokeDasharray="2 3" />
-      <text x={X(xWys) + 8} y={(Y(a.R) + Y(b.R)) / 2 + 4} fill="#38bdf8" style={{ fontSize: 15, fontWeight: 700 }}>
+      <text x={X(xWys) + 8} y={(Y(a.R) + Y(b.R)) / 2 + 5} fill="#38bdf8" style={{ fontSize: 15, fontWeight: 700 }}>
         {zeZnakiem(c.przeswit)} mm
       </text>
-      <text x={20} y={H - 10} className="fill-slate-600" style={{ fontSize: 13 }}>
-        ← środek auta
-      </text>
-      <text x={W - 20} y={H - 10} textAnchor="end" className="fill-slate-600" style={{ fontSize: 13 }}>
-        na zewnątrz →
+
+      <text x={W - 20} y={24} textAnchor="end" className="fill-slate-500" style={{ fontSize: 12 }}>
+        ← środek auta · na zewnątrz →
       </text>
     </svg>
   );
