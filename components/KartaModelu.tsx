@@ -32,6 +32,7 @@ import { Calendar, Film, FlaskConical, MapPin, Gauge, Ruler, Info, Wrench, Users
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
 import SctModelu, { PlakietkaSct } from '@/components/SctModelu';
 import BoksNiezbednika from '@/components/sklep/BoksNiezbednika';
+import KalkulatoryKarty from '@/components/narzedzia/KalkulatoryKarty';
 import { WSkrocie, SpisKarty, type Fakt, type PozycjaSpisu } from '@/components/KartaNawigacja';
 import { sctModelu } from '@/lib/sct-modelu';
 
@@ -464,6 +465,9 @@ export default function KartaModelu({ m }: { m: CarModel }) {
 
       {/* Płatny Niezbędnik – widoczny dopiero po włączeniu sklepu */}
       <BoksNiezbednika miejsce="karta" model={`${m.marka} ${m.model}${m.generacja ? ` ${m.generacja}` : ''}`} />
+
+      {/* Kalkulatory dopasowane do modelu (przebieg, LPG) i ogólne dla kupujących */}
+      <KalkulatoryKarty m={m} />
 
       {/* Narzędzia partnerskie: VIN, OC/AC, części (kolejność i widoczność z panelu admina) */}
       <Monetyzacja k={k} silniki={[...new Set((m.silniki || []).map((x) => x.nazwa))]} />

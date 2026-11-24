@@ -16,6 +16,7 @@ import { ADRESY_NARZEDZI } from '@/lib/tlumaczenia/narzedzia';
 import { sklepAktywny } from '@/lib/sklep/konfiguracja';
 import { ocenyKarty } from '@/lib/plusy-minusy';
 import { porownanieWGoogle, zakupWGoogle } from '@/lib/indeksowanie';
+import { adresyNarzedzi } from '@/lib/narzedzia/mapa';
 
 const LIMIT = 5000;
 interface Adres {
@@ -93,6 +94,8 @@ function grupy(): Record<string, Adres[]> {
           ...opublikowaneAktualnosci().map((a) => ({ loc: `/aktualnosci/${a.slug}/`, lastmod: a.data, changefreq: 'monthly', priority: 0.6 }))
         ]
       : [],
+    // kalkulatory z działu /kalkulatory/ i ich podstrony (lib/narzedzia/mapa.ts)
+    kalkulatory: adresyNarzedzi().map((a) => ({ loc: a.loc, changefreq: 'monthly', priority: a.priority })),
     'kody-bledow': [{ loc: '/kody-bledow/', changefreq: 'monthly', priority: 0.6 }, ...KODY.map((k) => ({ loc: `/kody-bledow/${k.kod.toLowerCase()}/`, changefreq: 'yearly', priority: 0.5 }))]
   };
   // wersje językowe /uk/ i /en/ (tylko przetłumaczone strony)

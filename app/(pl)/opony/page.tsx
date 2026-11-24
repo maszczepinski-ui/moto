@@ -240,6 +240,16 @@ export default function OponyPage() {
       <section className="space-y-5">
         {naglowek('03', 'Sprawdź swoje opony', 'Trzy szybkie testy – potrzebujesz tylko opony przed sobą i telefonu w ręku.')}
         <NarzedziaOpon />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <a href="/kalkulator-felg/" className="rounded-2xl bg-white dark:bg-slate-900 ring-1 ring-slate-200 dark:ring-slate-800 p-5 hover:ring-rust-400">
+            <span className="block font-extrabold text-slate-900 dark:text-white">Kalkulator felg i ET →</span>
+            <span className="block text-sm text-slate-600 dark:text-slate-400 mt-1">Czy szersza opona albo felga z innym ET zmieści się w nadkolu – z rysunkiem przekroju.</span>
+          </a>
+          <a href="/zamiennik-opon/" className="rounded-2xl bg-white dark:bg-slate-900 ring-1 ring-slate-200 dark:ring-slate-800 p-5 hover:ring-rust-400">
+            <span className="block font-extrabold text-slate-900 dark:text-white">Zamienniki rozmiaru opon →</span>
+            <span className="block text-sm text-slate-600 dark:text-slate-400 mt-1">Jakie inne rozmiary mają prawie tę samą średnicę koła i co pokaże licznik.</span>
+          </a>
+        </div>
       </section>
 
       <section id="cisnienie" className="space-y-5 scroll-mt-24">

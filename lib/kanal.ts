@@ -23,5 +23,7 @@ export function kanalDla(karta: string): string {
   if (karta.startsWith('jakie-auto')) return 'poradnik-zakupowy';
   if (karta.startsWith('poradnik')) return 'poradnik';
   if (karta === 'linki') return 'linki';
+  // kalkulatory z działu /kalkulatory/ – każdy ma własny kanał, np. „narzedzie-przebieg”
+  if (karta.startsWith('narzedzie-')) return karta.slice(0, 40);
   return 'karta-modelu';
 }
