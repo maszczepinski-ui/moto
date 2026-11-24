@@ -1,252 +1,461 @@
 'use client';
-import { useState } from 'react';
-import { ArrowLeftRight } from 'lucide-react';
-import { nazwaOpony, ocenSrednice, porownajKola, srednicaKola, typowaFelga, wysokoscBoku, type Kolo, type Ocena } from '@/lib/narzedzia/felgi';
-import { KARTA_NARZEDZIA, Liczba, Werdykt } from '@/components/narzedzia/Pola';
+import { useEffect, useRef, useState } from 'react';
+import { ArrowLeftRight, Copy, Minus, Plus, RotateCcw } from 'lucide-react';
+import { ZAKRES_SREDNICY, dopasowanie, etEfektywne, nazwaOpony, srednicaKola, szerokoscBieznika, szerokoscNaFeldze, wysokoscBoku, type Kolo } from '@/lib/narzedzia/felgi';
 
-const mm = (n: number, znak = false) => `${znak && n > 0 ? '+' : ''}${n.toLocaleString('pl-PL', { maximumFractionDigits: 1 })} mm`;
-const POLE = 'w-full h-11 bg-slate-50 dark:bg-slate-800 rounded-xl px-3 text-slate-900 dark:text-white ring-1 ring-slate-200 dark:ring-slate-700 focus:ring-2 focus:ring-rust-500 focus:outline-none tabular-nums';
+// Kalkulator felg, opon i ET: dwa koła (seryjne i nowe), suwaki z przyciskami +/−,
+// dwa schematy SVG (przekrój od czoła auta i widok z boku) oraz karty wyników.
+// Wszystko liczone na bieżąco; rysunek „dojeżdża” do nowych wartości płynną animacją (requestAnimationFrame).
 
-/** Luzy zmierzone przy obecnych kołach (mm) */
-interface Luzy {
-  /** od wewnętrznego boku opony do amortyzatora / sprężyny */
-  zawieszenie: number;
-  /** o ile zewnętrzny bok opony jest schowany pod krawędzią błotnika (+) */
-  blotnik: number;
-  /** od bieżnika do nadkola (w górę) */
-  gora: number;
+type Pelne = Required<Kolo>;
+
+const SERYJNE: Pelne = { szer: 205, profil: 55, felga: 16, j: 6.5, et: 46, dystans: 0 };
+const NOWE: Pelne = { szer: 225, profil: 45, felga: 17, j: 7.5, et: 40, dystans: 0 };
+
+const POMARANCZ = '#f97316';
+const SZARY = '#64748b';
+
+const pl = (n: number, m = 1) => n.toLocaleString('pl-PL', { minimumFractionDigits: m, maximumFractionDigits: m });
+const zeZnakiem = (n: number, m = 1) => `${n > 0.05 ? '+' : n < -0.05 ? '−' : ''}${pl(Math.abs(n), m)}`;
+
+/* ───────────── animacja ───────────── */
+
+/** Płynnie podąża za wartościami docelowymi (ok. 250 ms, wygaszanie) */
+function usePlynnie(cel: number[]): number[] {
+  const [stan, setStan] = useState(cel);
+  const biezace = useRef(cel);
+  const klucz = cel.join('|');
+  useEffect(() => {
+    const start = [...biezace.current];
+    const t0 = performance.now();
+    let id = 0;
+    const krok = (t: number) => {
+      const p = Math.min(1, (t - t0) / 250);
+      const e = 1 - Math.pow(1 - p, 3);
+      const nowe = cel.map((c, i) => (start[i] ?? c) + (c - (start[i] ?? c)) * e);
+      biezace.current = nowe;
+      setStan(nowe);
+      if (p < 1) id = requestAnimationFrame(krok);
+    };
+    id = requestAnimationFrame(krok);
+    return () => cancelAnimationFrame(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [klucz]);
+  return stan;
 }
 
-function PoleMm({ id, etykieta, wartosc, ustaw, krok = 1, jedn = 'mm' }: { id: string; etykieta: string; wartosc: number; ustaw: (n: number) => void; krok?: number; jedn?: string }) {
+const doTablicy = (k: Pelne) => [k.szer, k.profil, k.felga, k.j, k.et, k.dystans];
+const zTablicy = (t: number[]): Pelne => ({ szer: t[0], profil: t[1], felga: t[2], j: t[3], et: t[4], dystans: t[5] });
+
+/* ───────────── geometria ───────────── */
+
+/** Wymiary jednego koła w mm. Oś x od powierzchni piasty (+ na zewnątrz auta), r = promień od osi koła. */
+function geometria(k: Pelne) {
+  const etE = etEfektywne(k);
+  const xc = -etE; // środek felgi
+  const felgaMm = k.j * 25.4;
+  const przekroj = szerokoscNaFeldze(k.szer, k.j);
+  const bieznik = szerokoscBieznika(k.szer);
+  const rFelgi = (k.felga * 25.4) / 2;
+  const R = srednicaKola(k) / 2;
+  return { etE, xc, felgaMm, przekroj, bieznik, rFelgi, R, bok: wysokoscBoku(k), wew: xc - przekroj / 2, zew: xc + przekroj / 2 };
+}
+
+function porownaj(s: Pelne, n: Pelne) {
+  const a = geometria(s);
+  const b = geometria(n);
+  return {
+    a,
+    b,
+    /** + = nowa opona bliżej amortyzatora */
+    doSrodka: a.wew - b.wew,
+    /** + = nowa opona dalej na zewnątrz */
+    naZewnatrz: b.zew - a.zew,
+    srednicaMm: (b.R - a.R) * 2,
+    srednicaProc: ((b.R - a.R) / a.R) * 100,
+    przeswit: b.R - a.R,
+    stosunek: b.R / a.R
+  };
+}
+
+/* ───────────── sterowanie ───────────── */
+
+function Suwak({ id, etykieta, wartosc, min, max, krok, jedn, miejsca = 0, ustaw }: { id: string; etykieta: string; wartosc: number; min: number; max: number; krok: number; jedn: string; miejsca?: number; ustaw: (v: number) => void }) {
+  const zmien = (v: number) => ustaw(Math.min(max, Math.max(min, Math.round(v / krok) * krok)));
+  const przycisk = 'w-9 h-9 rounded-lg bg-slate-800 hover:bg-slate-700 active:bg-slate-600 text-slate-200 flex items-center justify-center flex-shrink-0 disabled:opacity-30 transition';
   return (
-    <label className="block space-y-1" htmlFor={id}>
-      <span className="block text-xs font-bold text-slate-600 dark:text-slate-300">{etykieta}</span>
-      <span className="relative block">
-        <input id={id} type="number" inputMode="decimal" step={krok} value={wartosc} onChange={(e) => ustaw(Number(e.target.value) || 0)} className={`${POLE} pr-9`} />
-        <span className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 pointer-events-none">{jedn}</span>
-      </span>
-    </label>
+    <div className="space-y-1.5">
+      <div className="flex items-baseline justify-between gap-2">
+        <label htmlFor={id} className="text-xs font-semibold text-slate-400">
+          {etykieta}
+        </label>
+        <span className="text-sm font-bold tabular-nums text-white">
+          {pl(wartosc, miejsca)} <span className="text-slate-500 font-normal">{jedn}</span>
+        </span>
+      </div>
+      <div className="flex items-center gap-2">
+        <button type="button" className={przycisk} onClick={() => zmien(wartosc - krok)} disabled={wartosc <= min} aria-label={`${etykieta}: mniej`}>
+          <Minus className="w-4 h-4" aria-hidden="true" />
+        </button>
+        <input id={id} type="range" min={min} max={max} step={krok} value={wartosc} onChange={(e) => zmien(Number(e.target.value))} className="flex-1 h-2 accent-orange-500 cursor-pointer" />
+        <button type="button" className={przycisk} onClick={() => zmien(wartosc + krok)} disabled={wartosc >= max} aria-label={`${etykieta}: więcej`}>
+          <Plus className="w-4 h-4" aria-hidden="true" />
+        </button>
+      </div>
+    </div>
   );
 }
 
-function PolaKola({ tytul, k, ustaw, id }: { tytul: string; k: Kolo; ustaw: (k: Kolo) => void; id: string }) {
-  const p = (klucz: keyof Kolo, etykieta: string, krok: number, jedn: string) => <PoleMm id={`${id}-${klucz}`} etykieta={etykieta} wartosc={k[klucz]} ustaw={(v) => ustaw({ ...k, [klucz]: v })} krok={krok} jedn={jedn} />;
+function Panel({ id, tytul, nowe, k, ustaw, akcja }: { id: string; tytul: string; nowe: boolean; k: Pelne; ustaw: (k: Pelne) => void; akcja?: React.ReactNode }) {
+  const u = (klucz: keyof Pelne) => (v: number) => ustaw({ ...k, [klucz]: v });
   return (
-    <fieldset className="rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 ring-1 ring-slate-200 dark:ring-slate-800 p-4 space-y-3">
-      <legend className="px-1 text-sm font-extrabold text-slate-900 dark:text-white">{tytul}</legend>
-      <div className="grid grid-cols-3 gap-2">
-        {p('szer', 'Szerokość opony', 10, 'mm')}
-        {p('profil', 'Profil', 5, '%')}
-        {p('felga', 'Średnica', 1, '″')}
+    <fieldset className="rounded-2xl bg-slate-900 ring-1 ring-slate-800 p-4 sm:p-5 space-y-4">
+      <legend className="sr-only">{tytul}</legend>
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <svg width="26" height="6" aria-hidden="true">
+            <line x1="0" y1="3" x2="26" y2="3" stroke={nowe ? POMARANCZ : SZARY} strokeWidth="2" strokeDasharray={nowe ? undefined : '5 4'} />
+          </svg>
+          <h3 className="text-sm font-extrabold text-white">{tytul}</h3>
+        </div>
+        {akcja}
       </div>
-      <div className="grid grid-cols-2 gap-2">
-        {p('j', 'Szerokość felgi', 0.5, 'J')}
-        {p('et', 'ET (odsadzenie)', 1, 'mm')}
-      </div>
-      <p className="text-xs text-slate-500">
-        {nazwaOpony(k)} na {k.j}J ET{k.et} · koło {Math.round(srednicaKola(k))} mm · typowa felga {typowaFelga(k.szer)}J
+      <p className="text-xs text-slate-400 tabular-nums">
+        {nazwaOpony(k)} · {pl(k.j, 1)}J ET{k.et}
+        {k.dystans ? ` + dystans ${k.dystans} mm` : ''}
       </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4">
+        <Suwak id={`${id}-j`} etykieta="Szerokość felgi" wartosc={k.j} min={5.5} max={12} krok={0.5} jedn="″" miejsca={1} ustaw={u('j')} />
+        <Suwak id={`${id}-f`} etykieta="Średnica felgi" wartosc={k.felga} min={14} max={22} krok={1} jedn="″" ustaw={u('felga')} />
+        <Suwak id={`${id}-et`} etykieta="Osadzenie ET" wartosc={k.et} min={-20} max={65} krok={1} jedn="mm" ustaw={u('et')} />
+        <Suwak id={`${id}-d`} etykieta="Dystans" wartosc={k.dystans} min={0} max={50} krok={1} jedn="mm" ustaw={u('dystans')} />
+        <Suwak id={`${id}-s`} etykieta="Szerokość opony" wartosc={k.szer} min={155} max={335} krok={10} jedn="mm" ustaw={u('szer')} />
+        <Suwak id={`${id}-p`} etykieta="Profil opony" wartosc={k.profil} min={25} max={80} krok={5} jedn="%" ustaw={u('profil')} />
+      </div>
     </fieldset>
   );
 }
 
-export interface WynikLuzow {
-  zawieszenie: number;
-  blotnik: number;
-  gora: number;
-}
+/* ───────────── schemat 1: przekrój od czoła auta ───────────── */
 
-export function noweLuzy(s: Kolo, n: Kolo, l: Luzy): WynikLuzow {
-  const p = porownajKola(s, n);
-  return { zawieszenie: l.zawieszenie - p.wewnatrz, blotnik: l.blotnik - p.zewnatrz, gora: l.gora - p.przeswit };
-}
+function Przekroj({ s, n }: { s: Pelne; n: Pelne }) {
+  const c = porownaj(s, n);
+  const { a, b } = c;
+  const W = 520;
+  const H = 400;
+  // stałe elementy auta – położone względem koła seryjnego (umownie: 18 mm luzu do amortyzatora, rant błotnika 12 mm za oponą)
+  const strutX = a.wew - 18;
+  const blotX = a.zew + 12;
+  const blotGora = a.R + 34;
+  // zakres widoku w mm
+  const minX = Math.min(strutX - 22, b.wew) - 8;
+  const maxX = Math.max(blotX + 6, b.zew) + 70;
+  const rDol = Math.min(a.rFelgi, b.rFelgi) - 38;
+  const rGora = Math.max(blotGora, b.R) + 16;
+  const k = Math.min((W - 40) / (maxX - minX), (H - 70) / (rGora - rDol));
+  const X = (x: number) => 20 + (x - minX) * k;
+  const Y = (r: number) => 40 + (rGora - r) * k;
 
-const ocenLuz = (mmLuzu: number, ostrzegaj: number): Ocena => (mmLuzu < 0 ? 'czerwony' : mmLuzu < ostrzegaj ? 'zolty' : 'zielony');
-const KOLOR: Record<Ocena, string> = { zielony: '#059669', zolty: '#d97706', czerwony: '#e11d48' };
-
-/**
- * Widok od przodu auta na GÓRNĄ część koła w nadkolu (prawe przednie koło).
- * Wszystko w jednej skali. Po lewej amortyzator (środek auta), po prawej krawędź błotnika, u góry nadkole.
- */
-function Przekroj({ s, n, l }: { s: Kolo; n: Kolo; l: Luzy }) {
-  const p = porownajKola(s, n);
-  const w = noweLuzy(s, n, l);
-  const W = 800;
-  const H = 470;
-
-  // położenia w mm: oś x od powierzchni piasty (+ na zewnątrz auta), oś y od góry starego bieżnika (+ w dół)
-  const wewS = -(s.et + p.szerStara / 2);
-  const zewS = -s.et + p.szerStara / 2;
-  const wewN = -(n.et + p.szerNowa / 2);
-  const zewN = -n.et + p.szerNowa / 2;
-  const strut = wewS - l.zawieszenie;
-  const blot = zewS + l.blotnik;
-  const minX = Math.min(strut - 30, wewN) - 10;
-  const maxX = Math.max(blot + 10, zewN) + 10;
-  const k = Math.min(2.2, 470 / (maxX - minX)); // px na mm
-  const ox = 165 - minX * k; // tak, żeby rysunek zaczynał się ok. 165 px od lewej
-  const X = (x: number) => ox + x * k;
-  const topY = 125; // góra starego bieżnika w px
-  const Y = (y: number) => topY + y * k;
-  const bokS = wysokoscBoku(s);
-  const bokN = wysokoscBoku(n);
-  const dyN = -p.przeswit; // nowy bieżnik wyżej o połowę różnicy średnic
-  const dol = Math.max(bokS, bokN + dyN) + 55; // ile mm koła pokazujemy w dół
-
-  const kolo = (wew: number, zew: number, bok: number, dy: number, felgaMm: number, et: number, nowe: boolean) => {
-    const xc = -et;
-    const x1 = X(wew);
-    const x2 = X(zew);
-    const y1 = Y(dy);
-    const yFelgi = Y(dy + bok);
-    const r = Math.min(14, (x2 - x1) / 4);
-    const fx1 = X(xc - felgaMm / 2);
-    const fx2 = X(xc + felgaMm / 2);
-    const yDol = Y(dol);
+  /** obrys opony (przekrój) + felgi dla jednego koła */
+  const kolo = (g: ReturnType<typeof geometria>, dystans: number, nowe: boolean) => {
+    const kol = nowe ? POMARANCZ : SZARY;
+    const kreska = nowe ? undefined : '5 4';
+    const flansz = 15;
+    const xl = g.xc - g.felgaMm / 2;
+    const xr = g.xc + g.felgaMm / 2;
+    const yb = g.rFelgi + flansz * 0.6; // stopka opony na rancie
+    const bok = g.R - yb;
+    const pol = Math.max(g.przekroj / 2, g.felgaMm / 2);
+    const t = g.bieznik / 2;
+    const zaokr = Math.min(10, bok * 0.25);
+    const opona = [
+      `M ${X(xl)} ${Y(yb)}`,
+      `C ${X(g.xc - pol)} ${Y(yb + bok * 0.35)} ${X(g.xc - pol)} ${Y(yb + bok * 0.78)} ${X(g.xc - t)} ${Y(g.R - zaokr)}`,
+      `Q ${X(g.xc - t)} ${Y(g.R)} ${X(g.xc - t + zaokr)} ${Y(g.R)}`,
+      `L ${X(g.xc + t - zaokr)} ${Y(g.R)}`,
+      `Q ${X(g.xc + t)} ${Y(g.R)} ${X(g.xc + t)} ${Y(g.R - zaokr)}`,
+      `C ${X(g.xc + pol)} ${Y(yb + bok * 0.78)} ${X(g.xc + pol)} ${Y(yb + bok * 0.35)} ${X(xr)} ${Y(yb)}`
+    ].join(' ');
+    // felga: ranty, bęben i tarcza przylegająca do piasty (przesunięta o dystans)
+    const felga = [
+      `M ${X(xl - 3)} ${Y(g.rFelgi + flansz)}`,
+      `L ${X(xl)} ${Y(g.rFelgi)}`,
+      `L ${X(xl)} ${Y(g.rFelgi - 18)}`,
+      `L ${X(xr)} ${Y(g.rFelgi - 18)}`,
+      `L ${X(xr)} ${Y(g.rFelgi)}`,
+      `L ${X(xr + 3)} ${Y(g.rFelgi + flansz)}`
+    ].join(' ');
+    const tarcza = `M ${X(dystans)} ${Y(g.rFelgi - 18)} L ${X(dystans)} ${Y(rDol)}`;
     return (
       <g>
-        {/* opona */}
-        <path
-          d={`M ${x1} ${yDol} L ${x1} ${y1 + r} Q ${x1} ${y1} ${x1 + r} ${y1} L ${x2 - r} ${y1} Q ${x2} ${y1} ${x2} ${y1 + r} L ${x2} ${yDol}`}
-          fill={nowe ? 'rgba(30,41,59,0.85)' : 'none'}
-          stroke={nowe ? '#0f172a' : '#ea580c'}
-          strokeWidth={nowe ? 2 : 3}
-          strokeDasharray={nowe ? undefined : '8 6'}
-        />
-        {/* felga: rant po obu stronach + bęben */}
-        {nowe ? (
-          <path d={`M ${fx1} ${yDol} L ${fx1} ${yFelgi - 10} L ${fx1 + 6} ${yFelgi - 10} L ${fx1 + 6} ${yFelgi} L ${fx2 - 6} ${yFelgi} L ${fx2 - 6} ${yFelgi - 10} L ${fx2} ${yFelgi - 10} L ${fx2} ${yDol} Z`} fill="#cbd5e1" stroke="#64748b" strokeWidth={1.5} />
-        ) : (
-          <path d={`M ${fx1} ${yDol} L ${fx1} ${yFelgi - 10} M ${fx2} ${yFelgi - 10} L ${fx2} ${yDol} M ${fx1} ${yFelgi} L ${fx2} ${yFelgi}`} fill="none" stroke="#ea580c" strokeWidth={2} strokeDasharray="6 5" />
-        )}
+        {nowe && <path d={`${opona} Z`} fill={POMARANCZ} fillOpacity={0.1} stroke="none" />}
+        <path d={opona} fill="none" stroke={kol} strokeWidth={nowe ? 1.8 : 1.4} strokeDasharray={kreska} strokeLinejoin="round" />
+        <path d={felga} fill="none" stroke={kol} strokeWidth={nowe ? 1.6 : 1.2} strokeDasharray={kreska} strokeLinejoin="round" />
+        <path d={tarcza} fill="none" stroke={kol} strokeWidth={nowe ? 2.4 : 1.6} strokeDasharray={kreska} />
+        {dystans > 0.3 && <rect x={X(0)} y={Y(rDol + 42)} width={Math.max(0, X(dystans) - X(0))} height={Y(rDol) - Y(rDol + 42)} fill={kol} fillOpacity={nowe ? 0.35 : 0.15} />}
       </g>
     );
   };
 
-  const yStrzZaw = Y(Math.max(bokS, bokN + dyN) * 0.45);
-  const yStrzBlot = Y(Math.max(bokS, bokN + dyN) * 0.2);
-  const kZaw = KOLOR[ocenLuz(w.zawieszenie, 8)];
-  const kBlot = KOLOR[ocenLuz(w.blotnik, 3)];
-  const kGora = KOLOR[ocenLuz(w.gora, 15)];
-  const etykieta = (x: number, y: number, tekst: string[], kolor: string, anchor: 'start' | 'end' | 'middle') => (
-    <text x={x} y={y} textAnchor={anchor} fill={kolor} className="font-bold" style={{ fontSize: 17 }}>
-      {tekst.map((t, i) => (
-        <tspan key={i} x={x} dy={i === 0 ? 0 : 21} style={i > 0 ? { fontSize: 14, fontWeight: 600 } : undefined}>
-          {t}
-        </tspan>
-      ))}
-    </text>
-  );
+  const kolorZmiany = (mm: number, prog: number) => (mm > prog ? '#f43f5e' : mm > 2 ? '#fbbf24' : '#34d399');
+  const yWew = Y(Math.min(a.rFelgi, b.rFelgi) + Math.min(a.bok, b.bok) * 0.45);
+  const yZew = Y(Math.max(a.R, b.R) - Math.min(a.bok, b.bok) * 0.25);
+  const xWys = maxX - 30;
+  const wymiar = (x1: number, y1: number, x2: number, y2: number, kolor: string) =>
+    Math.hypot(x2 - x1, y2 - y1) < 1.5 ? (
+      <circle cx={x1} cy={y1} r={2.5} fill={kolor} />
+    ) : (
+      <line x1={x1} y1={y1} x2={x2} y2={y2} stroke={kolor} strokeWidth={1.5} markerStart="url(#grot)" markerEnd="url(#grot)" style={{ color: kolor }} />
+    );
 
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto select-none" role="img" aria-label={`Luz do zawieszenia ${mm(w.zawieszenie)}, pod błotnikiem ${mm(w.blotnik)}, do nadkola ${mm(w.gora)}`}>
-      <rect x={0} y={0} width={W} height={H} rx={18} className="fill-white dark:fill-slate-900" />
-      {/* nadkole */}
-      <path d={`M ${X(strut) - 20} ${Y(-l.gora)} L ${X(blot)} ${Y(-l.gora)} L ${X(blot)} ${Y(Math.min(bokS, 40))}`} fill="none" stroke="#94a3b8" strokeWidth={10} strokeLinecap="round" strokeLinejoin="round" />
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={`Przekrój od czoła auta: od strony zawieszenia ${zeZnakiem(-c.doSrodka)} mm luzu, na zewnątrz ${zeZnakiem(c.naZewnatrz)} mm, wysokość ${zeZnakiem(c.przeswit)} mm`}>
+      <defs>
+        <marker id="grot" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M 0 1 L 9 5 L 0 9 z" fill="currentColor" />
+        </marker>
+      </defs>
+      <text x={20} y={22} className="fill-slate-400" style={{ fontSize: 13, fontWeight: 600 }}>
+        PRZEKRÓJ – WIDOK OD CZOŁA AUTA
+      </text>
       {/* amortyzator */}
-      <rect x={X(strut) - 34} y={Y(-l.gora) + 12} width={34} height={Y(dol) - Y(-l.gora) - 12} rx={8} fill="#94a3b8" />
-      {/* koła: najpierw nowe (pełne), na wierzchu obrys starego */}
-      {kolo(wewN, zewN, bokN, dyN, n.j * 25.4, n.et, true)}
-      {kolo(wewS, zewS, bokS, 0, s.j * 25.4, s.et, false)}
-      {/* luz do zawieszenia */}
-      <line x1={X(strut)} y1={yStrzZaw} x2={X(wewN)} y2={yStrzZaw} stroke={kZaw} strokeWidth={5} strokeLinecap="round" />
-      {/* luz pod błotnikiem */}
-      <line x1={X(blot)} y1={yStrzBlot} x2={X(zewN)} y2={yStrzBlot} stroke={kBlot} strokeWidth={5} strokeLinecap="round" />
-      {/* luz do nadkola */}
-      <line x1={X((wewN + zewN) / 2)} y1={Y(-l.gora) + 5} x2={X((wewN + zewN) / 2)} y2={Y(dyN)} stroke={kGora} strokeWidth={5} strokeLinecap="round" />
-
-      {/* opisy na marginesach */}
-      {etykieta(X(strut) - 46, yStrzZaw + 6, [`${mm(w.zawieszenie)}`, 'do zawieszenia'], kZaw, 'end')}
-      {etykieta(X(blot) + 18, yStrzBlot + 6, [`${mm(w.blotnik)}`, w.blotnik < 0 ? 'wystaje poza błotnik' : 'pod błotnikiem'], kBlot, 'start')}
-      {etykieta(X(blot) + 18, Y(-l.gora) + 6, [`${mm(w.gora)}`, 'do nadkola'], kGora, 'start')}
-      <text x={X(strut) - 17} y={Y(dol) + 22} textAnchor="middle" className="fill-slate-500" style={{ fontSize: 13 }}>
+      <line x1={X(strutX)} y1={Y(rDol)} x2={X(strutX)} y2={Y(blotGora - 8)} stroke="#475569" strokeWidth={1.4} />
+      <line x1={X(strutX - 14)} y1={Y(rDol)} x2={X(strutX - 14)} y2={Y(blotGora - 8)} stroke="#475569" strokeWidth={1.4} />
+      <text x={X(strutX - 7)} y={Y(rDol) + 16} textAnchor="middle" className="fill-slate-500" style={{ fontSize: 13 }}>
         amortyzator
       </text>
-      {/* legenda i kierunki */}
-      <g style={{ fontSize: 14 }}>
-        <line x1={24} y1={30} x2={56} y2={30} stroke="#ea580c" strokeWidth={3} strokeDasharray="8 6" />
-        <text x={64} y={35} className="fill-slate-700 dark:fill-slate-200">obecne koło</text>
-        <rect x={180} y={21} width={30} height={18} rx={4} fill="rgba(30,41,59,0.85)" />
-        <text x={218} y={35} className="fill-slate-700 dark:fill-slate-200">nowe koło</text>
-        <text x={24} y={H - 18} className="fill-slate-400">← środek auta</text>
-        <text x={W - 24} y={H - 18} textAnchor="end" className="fill-slate-400">na zewnątrz →</text>
-        <text x={W - 24} y={35} textAnchor="end" className="fill-slate-400">widok od przodu, górna część koła</text>
-      </g>
+      {/* nadkole i rant błotnika */}
+      <path d={`M ${X(strutX - 7)} ${Y(blotGora - 8)} Q ${X(strutX - 7)} ${Y(blotGora)} ${X(strutX + 20)} ${Y(blotGora)} L ${X(blotX - 22)} ${Y(blotGora)} Q ${X(blotX)} ${Y(blotGora)} ${X(blotX)} ${Y(blotGora - 22)} L ${X(blotX)} ${Y(a.R - a.bok * 0.35)}`} fill="none" stroke="#475569" strokeWidth={1.4} />
+      <text x={X(blotX) + 6} y={Y(blotGora - 10)} className="fill-slate-500" style={{ fontSize: 13 }}>
+        rant błotnika
+      </text>
+      {/* piasta – punkt odniesienia */}
+      <line x1={X(0)} y1={Y(rDol)} x2={X(0)} y2={Y(rGora - 6)} stroke="#94a3b8" strokeWidth={1} strokeDasharray="2 4" />
+      <text x={X(0) + 4} y={Y(rDol) - 6} className="fill-slate-500" style={{ fontSize: 13 }}>
+        piasta
+      </text>
+
+      {kolo(a, s.dystans, false)}
+      {kolo(b, n.dystans, true)}
+
+      {/* wymiary */}
+      {wymiar(X(a.wew), yWew, X(b.wew), yWew, kolorZmiany(c.doSrodka, 5))}
+      <text x={X(Math.min(a.wew, b.wew)) - 4} y={yWew - 8} textAnchor="end" fill={kolorZmiany(c.doSrodka, 5)} style={{ fontSize: 15, fontWeight: 700 }}>
+        {zeZnakiem(-c.doSrodka)} mm
+      </text>
+      {wymiar(X(a.zew), yZew, X(b.zew), yZew, kolorZmiany(c.naZewnatrz, 10))}
+      <text x={X(Math.max(a.zew, b.zew)) + 6} y={yZew + 16} fill={kolorZmiany(c.naZewnatrz, 10)} style={{ fontSize: 15, fontWeight: 700 }}>
+        {zeZnakiem(c.naZewnatrz)} mm
+      </text>
+      {wymiar(X(xWys), Y(a.R), X(xWys), Y(b.R), '#38bdf8')}
+      <line x1={X(a.zew)} y1={Y(a.R)} x2={X(xWys + 6)} y2={Y(a.R)} stroke={SZARY} strokeWidth={0.8} strokeDasharray="2 3" />
+      <line x1={X(b.zew)} y1={Y(b.R)} x2={X(xWys + 6)} y2={Y(b.R)} stroke={POMARANCZ} strokeWidth={0.8} strokeDasharray="2 3" />
+      <text x={X(xWys) + 8} y={(Y(a.R) + Y(b.R)) / 2 + 4} fill="#38bdf8" style={{ fontSize: 15, fontWeight: 700 }}>
+        {zeZnakiem(c.przeswit)} mm
+      </text>
+      <text x={20} y={H - 10} className="fill-slate-600" style={{ fontSize: 13 }}>
+        ← środek auta
+      </text>
+      <text x={W - 20} y={H - 10} textAnchor="end" className="fill-slate-600" style={{ fontSize: 13 }}>
+        na zewnątrz →
+      </text>
     </svg>
   );
 }
 
-const OPIS_FELGI = { ok: 'pasuje do opony', 'za-waska': 'za wąska dla tej opony', 'za-szeroka': 'za szeroka dla tej opony' };
+/* ───────────── schemat 2: widok z boku ───────────── */
+
+function WidokZBoku({ s, n }: { s: Pelne; n: Pelne }) {
+  const c = porownaj(s, n);
+  const W = 340;
+  const H = 400;
+  const cx = W / 2;
+  const cy = 190;
+  const k = 140 / Math.max(c.a.R, c.b.R);
+  const okrag = (r: number, kolor: string, kreska?: string, grubosc = 1.4) => <circle cx={cx} cy={cy} r={r * k} fill="none" stroke={kolor} strokeWidth={grubosc} strokeDasharray={kreska} />;
+  const szprychy = Array.from({ length: 5 }, (_, i) => {
+    const kat = (i * 72 - 90) * (Math.PI / 180);
+    const r1 = 22;
+    const r2 = c.b.rFelgi * k - 6;
+    return <line key={i} x1={cx + Math.cos(kat) * r1} y1={cy + Math.sin(kat) * r1} x2={cx + Math.cos(kat) * r2} y2={cy + Math.sin(kat) * r2} stroke={POMARANCZ} strokeOpacity={0.35} strokeWidth={6} strokeLinecap="round" />;
+  });
+  const rb = c.b.R * k;
+  const rf = c.b.rFelgi * k;
+  const zA = cy + c.a.R * k;
+  const zB = cy + rb;
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full h-auto" role="img" aria-label={`Widok z boku: średnica koła ${zeZnakiem(c.srednicaMm)} mm (${zeZnakiem(c.srednicaProc, 2)}%), prześwit ${zeZnakiem(c.przeswit)} mm`}>
+      <text x={16} y={22} className="fill-slate-400" style={{ fontSize: 12, fontWeight: 600 }}>
+        WIDOK Z BOKU
+      </text>
+      {/* guma nowego koła – pierścień między obrysem opony a felgą */}
+      <path d={`M ${cx - rb} ${cy} a ${rb} ${rb} 0 1 0 ${2 * rb} 0 a ${rb} ${rb} 0 1 0 ${-2 * rb} 0 M ${cx - rf} ${cy} a ${rf} ${rf} 0 1 1 ${2 * rf} 0 a ${rf} ${rf} 0 1 1 ${-2 * rf} 0`} fill={POMARANCZ} fillOpacity={0.12} fillRule="evenodd" />
+      {szprychy}
+      <circle cx={cx} cy={cy} r={14} fill="#1e293b" stroke={POMARANCZ} strokeWidth={1.2} />
+      {okrag(c.a.R, SZARY, '5 4')}
+      {okrag(c.a.rFelgi, SZARY, '5 4')}
+      {okrag(c.b.R, POMARANCZ, undefined, 1.8)}
+      {okrag(c.b.rFelgi, POMARANCZ, undefined, 1.6)}
+      {/* jezdnia dla obu kół – widać zmianę prześwitu */}
+      <line x1={24} y1={zA} x2={W - 24} y2={zA} stroke={SZARY} strokeWidth={1} strokeDasharray="5 4" />
+      <line x1={24} y1={zB} x2={W - 24} y2={zB} stroke={POMARANCZ} strokeWidth={1.2} />
+      <text x={W - 24} y={Math.max(zA, zB) + 16} textAnchor="end" className="fill-slate-500" style={{ fontSize: 10.5 }}>
+        jezdnia
+      </text>
+      <text x={cx} y={H - 38} textAnchor="middle" className="fill-white" style={{ fontSize: 14, fontWeight: 700 }}>
+        Średnica: {zeZnakiem(c.srednicaMm)} mm ({zeZnakiem(c.srednicaProc, 2)}%)
+      </text>
+      <text x={cx} y={H - 16} textAnchor="middle" className="fill-slate-400" style={{ fontSize: 12 }}>
+        Prześwit: {zeZnakiem(c.przeswit)} mm · bok opony {Math.round(c.a.bok)} → {Math.round(c.b.bok)} mm
+      </text>
+    </svg>
+  );
+}
+
+/* ───────────── wyniki ───────────── */
+
+type Ton = 'zielony' | 'zolty' | 'czerwony';
+const TONY: Record<Ton, string> = {
+  zielony: 'ring-emerald-500/30 bg-emerald-500/5',
+  zolty: 'ring-amber-500/40 bg-amber-500/5',
+  czerwony: 'ring-rose-500/50 bg-rose-500/10'
+};
+const KROPKA: Record<Ton, string> = { zielony: 'bg-emerald-400', zolty: 'bg-amber-400', czerwony: 'bg-rose-500' };
+
+function Karta({ ton, etykieta, wartosc, opis, children }: { ton: Ton; etykieta: string; wartosc: string; opis: string; children?: React.ReactNode }) {
+  return (
+    <div className={`rounded-2xl ring-1 p-4 ${TONY[ton]}`}>
+      <div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-slate-400">
+        <span className={`w-2 h-2 rounded-full ${KROPKA[ton]}`} aria-hidden="true" /> {etykieta}
+      </div>
+      <div className="text-xl sm:text-2xl font-black text-white mt-1.5 tabular-nums">{wartosc}</div>
+      <div className="text-sm text-slate-300 mt-1">{opis}</div>
+      {children}
+    </div>
+  );
+}
+
+function Wyniki({ s, n }: { s: Pelne; n: Pelne }) {
+  const c = porownaj(s, n);
+  const luz = -c.doSrodka;
+  const tWew: Ton = c.doSrodka > 5 ? 'czerwony' : c.doSrodka > 2 ? 'zolty' : 'zielony';
+  const tZew: Ton = c.naZewnatrz > 10 ? 'czerwony' : c.naZewnatrz > 3 ? 'zolty' : 'zielony';
+  const pozaZakresem = c.srednicaProc < ZAKRES_SREDNICY.od || c.srednicaProc > ZAKRES_SREDNICY.do;
+  const tSr: Ton = pozaZakresem ? (Math.abs(c.srednicaProc) > 3 ? 'czerwony' : 'zolty') : 'zielony';
+  const d = dopasowanie(n.szer, n.j);
+  const dS = dopasowanie(s.szer, s.j);
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3" aria-live="polite">
+      <Karta ton={tWew} etykieta="Od wewnątrz (zawieszenie)" wartosc={`${zeZnakiem(luz)} mm`} opis={Math.abs(luz) < 0.05 ? 'bez zmian względem seryjnego koła' : luz < 0 ? `${pl(Math.abs(luz))} mm bliżej amortyzatora` : `${pl(luz)} mm więcej miejsca przy zawieszeniu`} />
+      <Karta ton={tZew} etykieta="Od zewnątrz (błotnik)" wartosc={`${zeZnakiem(c.naZewnatrz)} mm`} opis={Math.abs(c.naZewnatrz) < 0.05 ? 'bez zmian względem seryjnego koła' : c.naZewnatrz > 0 ? `${pl(c.naZewnatrz)} mm bardziej wysunięte na zewnątrz` : `${pl(-c.naZewnatrz)} mm głębiej schowane w nadkolu`} />
+      <Karta ton={tSr} etykieta="Średnica całkowita koła" wartosc={`${zeZnakiem(c.srednicaMm)} mm (${zeZnakiem(c.srednicaProc, 2)}%)`} opis={pozaZakresem ? `Uwaga: poza bezpiecznym zakresem zamienników (od ${pl(ZAKRES_SREDNICY.od, 0)}% do +${pl(ZAKRES_SREDNICY.do)}%).` : `W bezpiecznym zakresie zamienników (od ${pl(ZAKRES_SREDNICY.od, 0)}% do +${pl(ZAKRES_SREDNICY.do)}%).`}>
+        <div className="text-xs text-slate-400 mt-1 tabular-nums">
+          {Math.round(srednicaKola(s))} → {Math.round(srednicaKola(n))} mm · prześwit {zeZnakiem(c.przeswit)} mm
+        </div>
+      </Karta>
+      <Karta ton={Math.abs(c.srednicaProc) > 3 ? 'czerwony' : Math.abs(c.srednicaProc) > 1.5 ? 'zolty' : 'zielony'} etykieta="Przekłamanie licznika" wartosc={`${zeZnakiem(c.srednicaProc, 1)}%`} opis={c.stosunek > 1.0005 ? 'Jedziesz szybciej, niż pokazuje licznik.' : c.stosunek < 0.9995 ? 'Jedziesz wolniej, niż pokazuje licznik.' : 'Licznik pokazuje tak samo jak na seryjnych kołach.'}>
+        <table className="w-full mt-2 text-sm tabular-nums">
+          <thead>
+            <tr className="text-[11px] uppercase tracking-wider text-slate-500">
+              <th className="text-left font-semibold py-1">Licznik</th>
+              <th className="text-right font-semibold py-1">Realnie (GPS)</th>
+            </tr>
+          </thead>
+          <tbody className="text-slate-200">
+            {[50, 100, 140].map((v) => (
+              <tr key={v} className="border-t border-slate-800">
+                <td className="py-1">{v} km/h</td>
+                <td className="py-1 text-right font-bold">{pl(v * c.stosunek)} km/h</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </Karta>
+      <Karta ton={d.ocena} etykieta="Opona do felgi (nowe koło)" wartosc={d.nazwa} opis={d.opis}>
+        <div className="text-xs text-slate-400 mt-1 tabular-nums">
+          {n.szer} mm na {pl(n.j, 1)}J ({Math.round(n.j * 25.4)} mm) · seryjnie: {dS.nazwa.toLowerCase()}
+        </div>
+      </Karta>
+      <Karta ton={n.dystans > 25 ? 'zolty' : 'zielony'} etykieta="ET z dystansem" wartosc={`ET ${pl(etEfektywne(s), 0)} → ET ${pl(etEfektywne(n), 0)}`} opis="Dystans działa jak mniejsze ET – każdy milimetr dystansu wysuwa koło o milimetr.">
+        <div className="text-xs text-slate-400 mt-1">Środek felgi przesuwa się o {zeZnakiem(c.b.xc - c.a.xc)} mm. Przy grubych dystansach potrzebne są dłuższe śruby lub dystanse z własnymi szpilkami.</div>
+      </Karta>
+    </div>
+  );
+}
+
+/* ───────────── całość ───────────── */
 
 export default function KalkulatorFelg({ start }: { start?: Kolo }) {
-  const domyslne: Kolo = start ?? { szer: 205, profil: 55, felga: 16, j: 6.5, et: 46 };
-  const [s, setS] = useState<Kolo>(domyslne);
-  const [n, setN] = useState<Kolo>(start ? { ...domyslne, szer: domyslne.szer + 20, et: domyslne.et - 5, j: domyslne.j + 0.5 } : { szer: 215, profil: 45, felga: 17, j: 7, et: 43 });
-  const [l, setL] = useState<Luzy>({ zawieszenie: 15, blotnik: 10, gora: 30 });
-  const p = porownajKola(s, n);
-  const w = noweLuzy(s, n, l);
-  const oZaw = ocenLuz(w.zawieszenie, 8);
-  const oBlot = ocenLuz(w.blotnik, 3);
-  const oGora = ocenLuz(w.gora, 15);
-  const oS = ocenSrednice(p.roznicaProc);
-  const oceny: Ocena[] = [oZaw, oBlot, oGora, oS, p.felgaNowa === 'ok' ? 'zielony' : 'zolty'];
-  const najgorsza: Ocena = oceny.includes('czerwony') ? 'czerwony' : oceny.includes('zolty') ? 'zolty' : 'zielony';
-  const tytul = najgorsza === 'zielony' ? 'Nowe koła powinny się zmieścić' : najgorsza === 'zolty' ? 'Na granicy – przymierz koło przed zakupem kompletu' : 'Nowe koła prawdopodobnie nie zmieszczą się bez przeróbek';
+  const seryjne: Pelne = start ? { dystans: 0, ...start } : SERYJNE;
+  const [s, setS] = useState<Pelne>(seryjne);
+  const [n, setN] = useState<Pelne>(start ? { ...seryjne, szer: Math.min(335, seryjne.szer + 20), j: Math.min(12, seryjne.j + 0.5), et: seryjne.et - 5 } : NOWE);
+  const animacja = usePlynnie([...doTablicy(s), ...doTablicy(n)]);
+  const sA = zTablicy(animacja.slice(0, 6));
+  const nA = zTablicy(animacja.slice(6, 12));
+  const maly = 'inline-flex items-center gap-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold px-2.5 py-1.5 transition';
   return (
-    <section className={`${KARTA_NARZEDZIA} space-y-6`} aria-label="Kalkulator felg, opon i ET">
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr] gap-4 items-center">
-        <PolaKola id="st" tytul="Obecne koła" k={s} ustaw={setS} />
-        <button type="button" onClick={() => { setS(n); setN(s); }} className="mx-auto w-11 h-11 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center hover:bg-slate-200" aria-label="Zamień obecne i nowe koła">
-          <ArrowLeftRight className="w-5 h-5 text-slate-600 dark:text-slate-300" aria-hidden="true" />
-        </button>
-        <PolaKola id="nw" tytul="Nowe koła" k={n} ustaw={setN} />
+    <section className="rounded-3xl bg-slate-950 ring-1 ring-slate-800 p-3 sm:p-6 space-y-5 text-slate-200" aria-label="Kalkulator felg, opon i ET">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-3">
+        <Panel
+          id="ks"
+          tytul="Koło obecne (seryjne)"
+          nowe={false}
+          k={s}
+          ustaw={setS}
+          akcja={
+            <button type="button" className={maly} onClick={() => setS(seryjne)}>
+              <RotateCcw className="w-3.5 h-3.5" aria-hidden="true" /> Domyślne
+            </button>
+          }
+        />
+        <Panel
+          id="kn"
+          tytul="Koło nowe"
+          nowe
+          k={n}
+          ustaw={setN}
+          akcja={
+            <span className="flex gap-1.5">
+              <button type="button" className={maly} onClick={() => setN(s)}>
+                <Copy className="w-3.5 h-3.5" aria-hidden="true" /> Jak seryjne
+              </button>
+              <button type="button" className={maly} onClick={() => { setS(n); setN(s); }} aria-label="Zamień koła miejscami">
+                <ArrowLeftRight className="w-3.5 h-3.5" aria-hidden="true" />
+              </button>
+            </span>
+          }
+        />
       </div>
-      <fieldset className="rounded-2xl bg-slate-50/60 dark:bg-slate-800/40 ring-1 ring-slate-200 dark:ring-slate-800 p-4 space-y-3">
-        <legend className="px-1 text-sm font-extrabold text-slate-900 dark:text-white">Luzy przy obecnych kołach</legend>
-        <p className="text-xs text-slate-500">Zmierz linijką przy kole skręconym na wprost. Jeśli nie mierzysz, zostaw wartości przykładowe – wynik pokaże wtedy tylko kierunek zmian.</p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
-          <PoleMm id="lz-z" etykieta="Opona ↔ amortyzator" wartosc={l.zawieszenie} ustaw={(v) => setL({ ...l, zawieszenie: v })} />
-          <PoleMm id="lz-b" etykieta="Opona schowana pod błotnikiem" wartosc={l.blotnik} ustaw={(v) => setL({ ...l, blotnik: v })} />
-          <PoleMm id="lz-g" etykieta="Bieżnik ↔ nadkole (w górę)" wartosc={l.gora} ustaw={(v) => setL({ ...l, gora: v })} />
+
+      <div className="grid grid-cols-1 lg:grid-cols-[3fr_2fr] gap-3">
+        <div className="rounded-2xl bg-slate-900/60 ring-1 ring-slate-800 p-2 sm:p-3">
+          <Przekroj s={sA} n={nA} />
         </div>
-      </fieldset>
-
-      <div className="rounded-2xl ring-1 ring-slate-200 dark:ring-slate-800 overflow-hidden">
-        <Przekroj s={s} n={n} l={l} />
+        <div className="rounded-2xl bg-slate-900/60 ring-1 ring-slate-800 p-2 sm:p-3">
+          <WidokZBoku s={sA} n={nA} />
+        </div>
+      </div>
+      <div className="flex flex-wrap items-center gap-x-5 gap-y-1 text-xs text-slate-400 px-1">
+        <span className="flex items-center gap-2">
+          <svg width="26" height="6" aria-hidden="true">
+            <line x1="0" y1="3" x2="26" y2="3" stroke={SZARY} strokeWidth="2" strokeDasharray="5 4" />
+          </svg>
+          koło obecne
+        </span>
+        <span className="flex items-center gap-2">
+          <svg width="26" height="6" aria-hidden="true">
+            <line x1="0" y1="3" x2="26" y2="3" stroke={POMARANCZ} strokeWidth="2" />
+          </svg>
+          koło nowe
+        </span>
+        <span>Amortyzator i błotnik narysowane umownie względem koła seryjnego.</span>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
-        {[
-          { o: oZaw, t: 'Do zawieszenia', z: l.zawieszenie, na: w.zawieszenie, opis: 'od wewnętrznego boku opony' },
-          { o: oBlot, t: 'Pod błotnikiem', z: l.blotnik, na: w.blotnik, opis: w.blotnik < 0 ? 'opona wystaje poza błotnik' : 'ile opona jest schowana' },
-          { o: oGora, t: 'Do nadkola', z: l.gora, na: w.gora, opis: 'nad bieżnikiem, bez ugięcia' }
-        ].map((x) => (
-          <div key={x.t} className={`rounded-2xl p-4 ring-1 ${x.o === 'zielony' ? 'bg-emerald-50 ring-emerald-200 dark:bg-emerald-950/40 dark:ring-emerald-900' : x.o === 'zolty' ? 'bg-amber-50 ring-amber-200 dark:bg-amber-950/40 dark:ring-amber-900' : 'bg-rose-50 ring-rose-200 dark:bg-rose-950/40 dark:ring-rose-900'}`}>
-            <div className="text-[11px] font-bold uppercase tracking-wider text-slate-500">{x.t}</div>
-            <div className="text-2xl font-black text-slate-900 dark:text-white mt-1">
-              {mm(x.z)} → {mm(x.na)}
-            </div>
-            <div className="text-xs text-slate-600 dark:text-slate-300 mt-1">{x.opis}</div>
-          </div>
-        ))}
-      </div>
+      <Wyniki s={s} n={n} />
 
-      <Werdykt ton={najgorsza} tytul={tytul}>
-        {oBlot === 'czerwony' && <p>Opona wyjdzie {mm(-w.blotnik)} poza krawędź błotnika – to problem na badaniu technicznym i ryzyko ocierania.</p>}
-        {oZaw !== 'zielony' && <p>Do amortyzatora zostanie tylko {mm(w.zawieszenie)}{oZaw === 'czerwony' ? ' – opona będzie ocierać' : ' – przy skręcie i ugięciu może ocierać'}.</p>}
-        {oGora !== 'zielony' && <p>Nad bieżnikiem zostanie {mm(w.gora)} – przy dobiciu zawieszenia opona może trzeć o nadkole.</p>}
-        {oS !== 'zielony' && <p>Średnica koła zmienia się o {p.roznicaProc.toLocaleString('pl-PL', { maximumFractionDigits: 1 })}% – licznik i systemy (ABS, ESP) będą liczyć prędkość inaczej.</p>}
-        {p.felgaNowa !== 'ok' && <p>Felga {n.j}J jest {OPIS_FELGI[p.felgaNowa]} {n.szer} mm.</p>}
-        {najgorsza === 'zielony' && <p>Sprawdź jeszcze rozstaw śrub (PCD), otwór centralny i indeksy nośności oraz prędkości opony.</p>}
-      </Werdykt>
-
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-        <Liczba etykieta="Średnica koła" wartosc={`${p.roznicaProc > 0 ? '+' : ''}${p.roznicaProc.toLocaleString('pl-PL', { maximumFractionDigits: 2 })}%`} opis={`${Math.round(p.srednicaStara)} → ${Math.round(p.srednicaNowa)} mm`} mocna />
-        <Liczba etykieta="Licznik pokazuje 100 km/h" wartosc={`${p.przy100.toLocaleString('pl-PL', { maximumFractionDigits: 1 })} km/h`} opis="tyle naprawdę jedziesz" />
-        <Liczba etykieta="Opona na zewnątrz" wartosc={mm(p.zewnatrz, true)} opis="przesunięcie zewnętrznego boku" />
-        <Liczba etykieta="Opona do środka" wartosc={mm(p.wewnatrz, true)} opis="przesunięcie wewnętrznego boku" />
-      </div>
-      <p className="text-xs text-slate-500">Rysunek jest w jednej skali i pokazuje górną część koła tak, jak widać ją z przodu auta. Rzeczywista szerokość opony zależy od jej modelu i szerokości felgi (±5 mm), a luzy zmieniają się przy skręcie i ugięciu zawieszenia.</p>
+      <p className="text-xs text-slate-500 px-1">
+        Wyniki są orientacyjne. Rzeczywista szerokość opony zależy od jej modelu (±5 mm), a luz w nadkolu – od konkretnego auta, skrętu kół i ugięcia zawieszenia. Przed zakupem kompletu przymierz koło i sprawdź rozstaw śrub (PCD), otwór centralny oraz indeksy nośności i prędkości.
+      </p>
     </section>
   );
 }

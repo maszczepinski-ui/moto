@@ -17,6 +17,8 @@ export interface Kolo extends Opona {
   /** szerokość felgi w calach (J) */
   j: number;
   et: number;
+  /** dystans (spacer) w mm – wypycha koło na zewnątrz, działa jak mniejsze ET */
+  dystans?: number;
 }
 
 export const srednicaKola = (o: Opona) => o.felga * 25.4 + (2 * o.szer * o.profil) / 100;
@@ -143,3 +145,24 @@ export function zamienniki(o: Opona, tolerancja = 2.5, limit = 30): Zamiennik[] 
 export function typowaFelga(szer: number): number {
   return Math.round(((szer * 0.8) / 25.4) * 2) / 2;
 }
+
+/** Efektywne ET z dystansem: dystans 10 mm = ET mniejsze o 10 mm */
+export const etEfektywne = (k: Kolo) => k.et - (k.dystans ?? 0);
+
+/** Szerokość bieżnika (płaskiej części opony) – zależy głównie od opony, ok. 78% szerokości nominalnej */
+export const szerokoscBieznika = (szer: number) => szer * 0.78;
+
+export type Dopasowanie = 'za-waska-felga' | 'balon' | 'optymalna' | 'lekki-naciag' | 'mocny-naciag';
+
+/** Ocena dopasowania opony do felgi: stosunek szerokości felgi (mm) do szerokości opony */
+export function dopasowanie(szer: number, j: number): { typ: Dopasowanie; nazwa: string; opis: string; ocena: 'zielony' | 'zolty' | 'czerwony' } {
+  const r = (j * 25.4) / szer;
+  if (r < 0.65) return { typ: 'za-waska-felga', nazwa: 'Felga za wąska', opis: 'Opona jest dużo szersza od felgi – „balon”, pływanie w zakrętach i ryzyko zsunięcia z felgi.', ocena: 'czerwony' };
+  if (r < 0.72) return { typ: 'balon', nazwa: 'Opona za szeroka (lekki balon)', opis: 'Bok opony wybrzusza się poza rant felgi. Da się jeździć, ale prowadzenie jest mniej precyzyjne.', ocena: 'zolty' };
+  if (r <= 0.88) return { typ: 'optymalna', nazwa: 'Dopasowanie optymalne', opis: 'Szerokość felgi mieści się w typowym zakresie dla tej opony.', ocena: 'zielony' };
+  if (r <= 0.95) return { typ: 'lekki-naciag', nazwa: 'Lekki naciąg', opis: 'Felga jest szeroka względem opony, bok jest naciągnięty. Rant felgi jest słabiej chroniony przed krawężnikiem.', ocena: 'zolty' };
+  return { typ: 'mocny-naciag', nazwa: 'Mocny naciąg', opis: 'Opona jest wyraźnie węższa od felgi – poza zakresem producentów. Ryzyko zsunięcia opony z felgi i problem na przeglądzie.', ocena: 'czerwony' };
+}
+
+/** Bezpieczny zakres zmiany średnicy koła przy zamiennikach: od −2% do +1,5% */
+export const ZAKRES_SREDNICY = { od: -2, do: 1.5 };
