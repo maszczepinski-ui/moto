@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Leganza – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEGANZA, LEGANZA 2.0, LEGANZA 2.0 KAT, LEGANZA 2.0KAT, LEGANZA 2,0 KAT).",
-  "liczbaWPolsce": 1906,
-  "aktywne": 205,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Daewoo Leganza – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEGANZA, LEGANZA 2.0, LEGANZA 2.0 KAT, LEGANZA 2.0KAT, LEGANZA 2,0 KAT).",
+  "liczbaWPolsce": 1907,
+  "aktywne": 206,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -54,7 +54,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "22",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1999,
-    "liczba": 264
+    "liczba": 265
    },
    {
     "rok": 2000,
@@ -115,7 +115,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1333
+    "liczba": 1334
    },
    {
     "nazwa": "Benzyna",
@@ -129,7 +129,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1821
+    "liczba": 1822
    },
    {
     "nazwa": "2,2 l",
@@ -147,7 +147,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 246
+    "liczba": 247
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -161,7 +161,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1603
+    "liczba": 1604
    },
    {
     "nazwa": "Hatchback",
@@ -172,7 +172,7 @@
     "liczba": 201
    }
   ],
-  "noweOdPaczki": 4,
+  "noweOdPaczki": 5,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -186,6 +186,10 @@
    },
    {
     "rok": 2024,
+    "liczba": 1
+   },
+   {
+    "rok": 2026,
     "liczba": 1
    }
   ],
@@ -532,7 +536,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "daewoo",
  "modelSlug": "leganza",

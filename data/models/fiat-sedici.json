@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Sedici – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 924 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEDICI, SEDICI 1.9 JTD, FIAT SEDICI, SEDICI 1,6 4WD, SEDICI 1 6 4WD).",
-  "liczbaWPolsce": 12390,
-  "aktywne": 7854,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Sedici – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 940 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEDICI, SEDICI 1.9 JTD, FIAT SEDICI, SEDICI 1,6 4WD, SEDICI 1 6 4WD).",
+  "liczbaWPolsce": 12406,
+  "aktywne": 7870,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 465
+    "liczba": 466
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 536
+    "liczba": 537
    },
    {
     "teryt": "08",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 3431
+    "liczba": 3436
    },
    {
     "teryt": "14",
-    "liczba": 864
+    "liczba": 865
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 1759
+    "liczba": 1764
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 468
+    "liczba": 469
    },
    {
     "teryt": "24",
-    "liczba": 1818
+    "liczba": 1820
    },
    {
     "teryt": "26",
@@ -85,31 +85,31 @@
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 1073
+    "liczba": 1075
    },
    {
     "rok": 2007,
-    "liczba": 2566
+    "liczba": 2568
    },
    {
     "rok": 2008,
-    "liczba": 2141
+    "liczba": 2143
    },
    {
     "rok": 2009,
-    "liczba": 1891
+    "liczba": 1893
    },
    {
     "rok": 2010,
-    "liczba": 1346
+    "liczba": 1347
    },
    {
     "rok": 2011,
-    "liczba": 1178
+    "liczba": 1182
    },
    {
     "rok": 2012,
-    "liczba": 1012
+    "liczba": 1014
    },
    {
     "rok": 2013,
@@ -117,21 +117,21 @@
    },
    {
     "rok": 2014,
-    "liczba": 407
+    "liczba": 408
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 7348
+    "liczba": 7361
    },
    {
     "nazwa": "Diesel",
-    "liczba": 3354
+    "liczba": 3356
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 1668
+    "liczba": 1669
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,11 +141,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 9010
+    "liczba": 9024
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 2597
+    "liczba": 2599
    },
    {
     "nazwa": "2,0 l",
@@ -159,7 +159,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 6529
+    "liczba": 6545
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -177,11 +177,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 11283
+    "liczba": 11298
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 389
+    "liczba": 390
    },
    {
     "nazwa": "Kombi",
@@ -192,7 +192,7 @@
     "liczba": 380
    }
   ],
-  "noweOdPaczki": 4924,
+  "noweOdPaczki": 4940,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -226,7 +226,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 452
+    "liczba": 468
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -572,7 +572,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "sedici",

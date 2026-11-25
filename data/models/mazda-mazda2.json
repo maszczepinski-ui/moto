@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 372 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA2 HYBRID, MAZDA2).",
-  "liczbaWPolsce": 1831,
-  "aktywne": 1820,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 377 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA2 HYBRID, MAZDA2).",
+  "liczbaWPolsce": 1836,
+  "aktywne": 1825,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 81
+    "liczba": 83
    },
    {
     "teryt": "06",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 299
+    "liczba": 301
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 166
+    "liczba": 167
    },
    {
     "teryt": "32",
@@ -84,11 +84,11 @@
   "roczniki": [
    {
     "rok": 2015,
-    "liczba": 17
+    "liczba": 18
    },
    {
     "rok": 2016,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2017,
@@ -112,7 +112,7 @@
    },
    {
     "rok": 2022,
-    "liczba": 363
+    "liczba": 365
    },
    {
     "rok": 2023,
@@ -128,17 +128,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 77
+    "liczba": 78
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1185
+    "liczba": 1187
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 639
+    "liczba": 642
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,7 +148,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1822
+    "liczba": 1827
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,7 +158,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1213
+    "liczba": 1214
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -166,7 +166,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 160
+    "liczba": 164
    },
    {
     "nazwa": "Inne / brak danych",
@@ -176,15 +176,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1828
+    "liczba": 1833
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 1372,
-  "hybrydy": 1185,
+  "noweOdPaczki": 1377,
+  "hybrydy": 1187,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -217,7 +217,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 203
+    "liczba": 208
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -554,7 +554,7 @@
     "liczba": 29
    }
   ],
-  "miejsce": 646,
+  "miejsce": 645,
   "miejsceWMarce": 20,
   "modeliWMarce": 33,
   "sredniRocznik": 2021.5
@@ -563,7 +563,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "mazda2",

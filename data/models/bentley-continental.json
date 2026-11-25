@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bentley Continental – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 841 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CONTINENTAL GT, CONTINENTAL, CONTINENTAL GT SPEED, CONTINENTAL GT V8, CONTINENTAL GTC).",
-  "liczbaWPolsce": 948,
-  "aktywne": 914,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bentley Continental – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 846 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CONTINENTAL GT, CONTINENTAL, CONTINENTAL GT SPEED, CONTINENTAL GT V8, CONTINENTAL GTC).",
+  "liczbaWPolsce": 953,
+  "aktywne": 919,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -59,15 +59,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "24",
-    "liczba": 110
+    "liczba": 111
    },
    {
     "teryt": "26",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "28",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 116
+    "liczba": 117
    },
    {
     "teryt": "32",
@@ -98,7 +98,7 @@
    },
    {
     "rok": 2007,
-    "liczba": 53
+    "liczba": 55
    },
    {
     "rok": 2008,
@@ -142,7 +142,7 @@
    },
    {
     "rok": 2018,
-    "liczba": 31
+    "liczba": 32
    },
    {
     "rok": 2019,
@@ -170,21 +170,21 @@
    },
    {
     "rok": 2025,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 2026,
-    "liczba": 30
+    "liczba": 31
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 864
+    "liczba": 867
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 79
+    "liczba": 81
    },
    {
     "nazwa": "Inne / brak danych",
@@ -194,11 +194,11 @@
   "pojemnosci": [
    {
     "nazwa": "6,0 l",
-    "liczba": 551
+    "liczba": 554
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 386
+    "liczba": 388
    },
    {
     "nazwa": "Inne / brak danych",
@@ -208,7 +208,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 420
+    "liczba": 424
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -216,7 +216,7 @@
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 214
+    "liczba": 215
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -230,15 +230,15 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 634
+    "liczba": 636
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 192
+    "liczba": 193
    },
    {
     "nazwa": "Sedan",
-    "liczba": 87
+    "liczba": 88
    },
    {
     "nazwa": "Hatchback",
@@ -246,11 +246,11 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 21
+    "liczba": 22
    }
   ],
-  "noweOdPaczki": 841,
-  "hybrydy": 79,
+  "noweOdPaczki": 846,
+  "hybrydy": 81,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
@@ -283,7 +283,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 180
+    "liczba": 185
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -620,7 +620,7 @@
     "liczba": 18
    }
   ],
-  "miejsce": 805,
+  "miejsce": 804,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 2016.0
@@ -629,7 +629,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bentley",
  "modelSlug": "continental",

@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAC Aion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 366 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AION V, AION UT, AION Y PLUS).",
-  "liczbaWPolsce": 366,
-  "aktywne": 366,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe GAC Aion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 379 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AION V, AION UT, AION Y PLUS).",
+  "liczbaWPolsce": 379,
+  "aktywne": 379,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -30,11 +30,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "10",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 129
+    "liczba": 134
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 52
+    "liczba": 54
    },
    {
     "teryt": "24",
-    "liczba": 24
+    "liczba": 26
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 32
+    "liczba": 34
    },
    {
     "teryt": "32",
@@ -85,29 +85,29 @@
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 203
+    "liczba": 204
    },
    {
     "rok": 2026,
-    "liczba": 163
+    "liczba": 175
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 366
+    "liczba": 379
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 366
+    "liczba": 379
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 328
+    "liczba": 341
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -121,16 +121,16 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 318
+    "liczba": 328
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 48
+    "liczba": 51
    }
   ],
-  "noweOdPaczki": 366,
+  "noweOdPaczki": 379,
   "hybrydy": 0,
-  "elektryczne": 366,
+  "elektryczne": 379,
   "pierwszeRejestracje": [
    {
     "rok": 2025,
@@ -138,7 +138,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 280
+    "liczba": 293
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -475,16 +475,16 @@
     "liczba": 25
    }
   ],
-  "miejsce": 1087,
+  "miejsce": 1078,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
-  "sredniRocznik": 2025.4
+  "sredniRocznik": 2025.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "gac",
  "modelSlug": "aion",

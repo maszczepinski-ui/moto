@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 209 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 5, R 5, R 5 1.1, R 5 1.4, 5 E-TECH ELECTRIC).",
-  "liczbaWPolsce": 9320,
-  "aktywne": 1274,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 218 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 5, R 5, R 5 1.1, R 5 1.4, 5 E-TECH ELECTRIC).",
+  "liczbaWPolsce": 9329,
+  "aktywne": 1283,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 896
+    "liczba": 897
    },
    {
     "teryt": "04",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 696
+    "liczba": 697
    },
    {
     "teryt": "14",
-    "liczba": 1693
+    "liczba": 1696
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 190
+    "liczba": 191
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 789
+    "liczba": 790
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1022
+    "liczba": 1024
    },
    {
     "teryt": "32",
@@ -121,7 +121,7 @@
    },
    {
     "rok": 1982,
-    "liczba": 460
+    "liczba": 461
    },
    {
     "rok": 1983,
@@ -153,7 +153,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 679
+    "liczba": 680
    },
    {
     "rok": 1991,
@@ -293,21 +293,21 @@
    },
    {
     "rok": 2025,
-    "liczba": 863
+    "liczba": 864
    },
    {
     "rok": 2026,
-    "liczba": 228
+    "liczba": 234
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3077
+    "liczba": 3079
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 1101
+    "liczba": 1108
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -329,11 +329,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 3152
+    "liczba": 3153
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1963
+    "liczba": 1964
    },
    {
     "nazwa": "1,3 l",
@@ -361,7 +361,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1346
+    "liczba": 1353
    }
   ],
   "pochodzenie": [
@@ -371,11 +371,11 @@
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2101
+    "liczba": 2107
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 741
+    "liczba": 744
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -389,7 +389,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3694
+    "liczba": 3702
    },
    {
     "nazwa": "Sedan",
@@ -397,12 +397,12 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4789
+    "liczba": 4790
    }
   ],
-  "noweOdPaczki": 1209,
+  "noweOdPaczki": 1218,
   "hybrydy": 0,
-  "elektryczne": 1100,
+  "elektryczne": 1107,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -434,7 +434,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 376
+    "liczba": 385
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -771,16 +771,16 @@
     "liczba": 41
    }
   ],
-  "miejsce": 337,
+  "miejsce": 338,
   "miejsceWMarce": 16,
   "modeliWMarce": 48,
-  "sredniRocznik": 1990.5
+  "sredniRocznik": 1990.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "5",
@@ -797,11 +797,6 @@
    "adres": "/marki/lada/samara/"
   },
   {
-   "slug": "fso-polonez",
-   "nazwa": "FSO Polonez",
-   "adres": "/marki/fso/polonez/"
-  },
-  {
    "slug": "citroen-ax11",
    "nazwa": "Citroen AX11",
    "adres": "/marki/citroen/ax11/"
@@ -810,6 +805,11 @@
    "slug": "toyota-starlet",
    "nazwa": "Toyota Starlet",
    "adres": "/marki/toyota/starlet/"
+  },
+  {
+   "slug": "fso-polonez",
+   "nazwa": "FSO Polonez",
+   "adres": "/marki/fso/polonez/"
   }
  ]
 }

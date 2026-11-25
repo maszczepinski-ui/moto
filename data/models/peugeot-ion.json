@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Ion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 327 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ION).",
-  "liczbaWPolsce": 327,
-  "aktywne": 327,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Ion – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 328 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ION).",
+  "liczbaWPolsce": 328,
+  "aktywne": 328,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 8
+    "liczba": 9
    }
   ],
   "bezWojewodztwa": 0,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 2017,
-    "liczba": 24
+    "liczba": 25
    },
    {
     "rok": 2018,
@@ -131,19 +131,19 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 327
+    "liczba": 328
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 327
+    "liczba": 328
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 179
+    "liczba": 180
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -157,16 +157,16 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 327,
+  "noweOdPaczki": 328,
   "hybrydy": 0,
-  "elektryczne": 327,
+  "elektryczne": 328,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -198,7 +198,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 28
+    "liczba": 29
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -535,7 +535,7 @@
     "liczba": 7
    }
   ],
-  "miejsce": 1125,
+  "miejsce": 1124,
   "miejsceWMarce": 44,
   "modeliWMarce": 45,
   "sredniRocznik": 2014.0
@@ -544,7 +544,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "ion",
@@ -566,14 +566,14 @@
    "adres": "/marki/toyota/aygo/"
   },
   {
-   "slug": "fiat-500",
-   "nazwa": "Fiat 500",
-   "adres": "/marki/fiat/500/"
-  },
-  {
    "slug": "hyundai-i10",
    "nazwa": "Hyundai i10",
    "adres": "/marki/hyundai/i10/"
+  },
+  {
+   "slug": "fiat-500",
+   "nazwa": "Fiat 500",
+   "adres": "/marki/fiat/500/"
   }
  ]
 }

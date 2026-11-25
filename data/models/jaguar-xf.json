@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar XF – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 073 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XF, XF SPORTBRAKE, JAGUAR XF, XF 3.0L, XF 3.0 D).",
-  "liczbaWPolsce": 4406,
-  "aktywne": 3911,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar XF – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 085 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: XF, XF SPORTBRAKE, JAGUAR XF, XF 3.0L, XF 3.0 D).",
+  "liczbaWPolsce": 4418,
+  "aktywne": 3923,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 206
+    "liczba": 208
    },
    {
     "teryt": "06",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 98
+    "liczba": 99
    },
    {
     "teryt": "10",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 343
+    "liczba": 344
    },
    {
     "teryt": "14",
-    "liczba": 925
+    "liczba": 928
    },
    {
     "teryt": "16",
@@ -50,15 +50,15 @@
    },
    {
     "teryt": "18",
-    "liczba": 205
+    "liczba": 206
    },
    {
     "teryt": "20",
-    "liczba": 112
+    "liczba": 113
    },
    {
     "teryt": "22",
-    "liczba": 229
+    "liczba": 231
    },
    {
     "teryt": "24",
@@ -78,14 +78,14 @@
    },
    {
     "teryt": "32",
-    "liczba": 129
+    "liczba": 130
    }
   ],
   "bezWojewodztwa": 33,
   "roczniki": [
    {
     "rok": 2008,
-    "liczba": 516
+    "liczba": 518
    },
    {
     "rok": 2009,
@@ -93,7 +93,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 408
+    "liczba": 409
    },
    {
     "rok": 2011,
@@ -101,19 +101,19 @@
    },
    {
     "rok": 2012,
-    "liczba": 397
+    "liczba": 398
    },
    {
     "rok": 2013,
-    "liczba": 492
+    "liczba": 493
    },
    {
     "rok": 2014,
-    "liczba": 270
+    "liczba": 271
    },
    {
     "rok": 2015,
-    "liczba": 289
+    "liczba": 292
    },
    {
     "rok": 2016,
@@ -125,7 +125,7 @@
    },
    {
     "rok": 2018,
-    "liczba": 255
+    "liczba": 258
    },
    {
     "rok": 2019,
@@ -155,11 +155,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 3187
+    "liczba": 3197
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1080
+    "liczba": 1082
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -173,19 +173,19 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 1707
+    "liczba": 1713
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1165
+    "liczba": 1167
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 746
+    "liczba": 748
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 485
+    "liczba": 487
    },
    {
     "nazwa": "4,2 l",
@@ -203,7 +203,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2325
+    "liczba": 2337
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -221,11 +221,11 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3785
+    "liczba": 3793
    },
    {
     "nazwa": "Kombi",
-    "liczba": 455
+    "liczba": 459
    },
    {
     "nazwa": "Hatchback",
@@ -236,7 +236,7 @@
     "liczba": 82
    }
   ],
-  "noweOdPaczki": 3073,
+  "noweOdPaczki": 3085,
   "hybrydy": 33,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -270,7 +270,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 368
+    "liczba": 380
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -616,7 +616,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "xf",

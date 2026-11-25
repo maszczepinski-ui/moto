@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 288 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV2).",
-  "liczbaWPolsce": 288,
-  "aktywne": 288,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 319 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV2).",
+  "liczbaWPolsce": 319,
+  "aktywne": 319,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 25
+    "liczba": 27
    },
    {
     "teryt": "04",
-    "liczba": 11
+    "liczba": 14
    },
    {
     "teryt": "06",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 26
+    "liczba": 30
    },
    {
     "teryt": "12",
-    "liczba": 33
+    "liczba": 36
    },
    {
     "teryt": "14",
-    "liczba": 56
+    "liczba": 66
    },
    {
     "teryt": "16",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 22
+    "liczba": 24
    },
    {
     "teryt": "24",
-    "liczba": 29
+    "liczba": 33
    },
    {
     "teryt": "26",
@@ -73,36 +73,36 @@
    },
    {
     "teryt": "30",
-    "liczba": 27
+    "liczba": 29
    },
    {
     "teryt": "32",
-    "liczba": 6
+    "liczba": 7
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2026,
-    "liczba": 288
+    "liczba": 319
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 288
+    "liczba": 319
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 288
+    "liczba": 319
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 257
+    "liczba": 287
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -110,22 +110,22 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 288
+    "liczba": 319
    }
   ],
-  "noweOdPaczki": 288,
+  "noweOdPaczki": 319,
   "hybrydy": 0,
-  "elektryczne": 288,
+  "elektryczne": 319,
   "pierwszeRejestracje": [
    {
     "rok": 2026,
-    "liczba": 288
+    "liczba": 319
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -462,7 +462,7 @@
     "liczba": 93
    }
   ],
-  "miejsce": 1158,
+  "miejsce": 1130,
   "miejsceWMarce": 30,
   "modeliWMarce": 33,
   "sredniRocznik": 2026.0
@@ -471,9 +471,36 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "ev2",
- "adres": "/marki/kia/ev2/"
+ "adres": "/marki/kia/ev2/",
+ "konkurenci": [
+  {
+   "slug": "byd-sealion-7",
+   "nazwa": "BYD Sealion 7",
+   "adres": "/marki/byd/sealion-7/"
+  },
+  {
+   "slug": "tesla-model-y",
+   "nazwa": "Tesla Model Y",
+   "adres": "/marki/tesla/model-y/"
+  },
+  {
+   "slug": "hyundai-inster",
+   "nazwa": "Hyundai Inster",
+   "adres": "/marki/hyundai/inster/"
+  },
+  {
+   "slug": "hyundai-ioniq5",
+   "nazwa": "Hyundai IONIQ5",
+   "adres": "/marki/hyundai/ioniq5/"
+  },
+  {
+   "slug": "skoda-elroq",
+   "nazwa": "Skoda Elroq",
+   "adres": "/marki/skoda/elroq/"
+  }
+ ]
 }

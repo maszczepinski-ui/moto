@@ -11,18 +11,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Talisman – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 339 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TALISMAN).",
-  "liczbaWPolsce": 8033,
-  "aktywne": 7511,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Talisman – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 374 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TALISMAN).",
+  "liczbaWPolsce": 8068,
+  "aktywne": 7546,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 555
+    "liczba": 557
    },
    {
     "teryt": "04",
-    "liczba": 367
+    "liczba": 369
    },
    {
     "teryt": "06",
@@ -30,19 +30,19 @@
    },
    {
     "teryt": "08",
-    "liczba": 185
+    "liczba": 187
    },
    {
     "teryt": "10",
-    "liczba": 433
+    "liczba": 435
    },
    {
     "teryt": "12",
-    "liczba": 581
+    "liczba": 582
    },
    {
     "teryt": "14",
-    "liczba": 2081
+    "liczba": 2082
    },
    {
     "teryt": "16",
@@ -50,35 +50,35 @@
    },
    {
     "teryt": "18",
-    "liczba": 342
+    "liczba": 343
    },
    {
     "teryt": "20",
-    "liczba": 109
+    "liczba": 110
    },
    {
     "teryt": "22",
-    "liczba": 399
+    "liczba": 400
    },
    {
     "teryt": "24",
-    "liczba": 908
+    "liczba": 911
    },
    {
     "teryt": "26",
-    "liczba": 185
+    "liczba": 188
    },
    {
     "teryt": "28",
-    "liczba": 195
+    "liczba": 198
    },
    {
     "teryt": "30",
-    "liczba": 1008
+    "liczba": 1019
    },
    {
     "teryt": "32",
-    "liczba": 250
+    "liczba": 252
    }
   ],
   "bezWojewodztwa": 12,
@@ -89,41 +89,41 @@
    },
    {
     "rok": 2016,
-    "liczba": 2551
+    "liczba": 2561
    },
    {
     "rok": 2017,
-    "liczba": 1816
+    "liczba": 1825
    },
    {
     "rok": 2018,
-    "liczba": 1117
+    "liczba": 1123
    },
    {
     "rok": 2019,
-    "liczba": 1228
+    "liczba": 1230
    },
    {
     "rok": 2020,
-    "liczba": 570
+    "liczba": 573
    },
    {
     "rok": 2021,
-    "liczba": 283
+    "liczba": 286
    },
    {
     "rok": 2022,
-    "liczba": 89
+    "liczba": 91
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 5361
+    "liczba": 5386
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2649
+    "liczba": 2659
    },
    {
     "nazwa": "Inne / brak danych",
@@ -133,27 +133,27 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 5031
+    "liczba": 5054
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 854
+    "liczba": 860
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 610
+    "liczba": 612
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 598
+    "liczba": 599
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 551
+    "liczba": 553
    },
    {
     "nazwa": "1,7 l",
-    "liczba": 388
+    "liczba": 389
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,7 +167,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2696
+    "liczba": 2731
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -181,18 +181,18 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 4085
+    "liczba": 4112
    },
    {
     "nazwa": "Sedan",
-    "liczba": 3861
+    "liczba": 3869
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 87
    }
   ],
-  "noweOdPaczki": 5339,
+  "noweOdPaczki": 5374,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -226,7 +226,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 599
+    "liczba": 634
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -572,7 +572,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "talisman",

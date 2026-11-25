@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS DS7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 339 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS7, DS7 CROSSBACK).",
-  "liczbaWPolsce": 1339,
-  "aktywne": 1339,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS DS7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 346 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS7, DS7 CROSSBACK).",
+  "liczbaWPolsce": 1346,
+  "aktywne": 1346,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 81
+    "liczba": 84
    },
    {
     "teryt": "04",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "10",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 484
+    "liczba": 486
    },
    {
     "teryt": "16",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 115
+    "liczba": 116
    },
    {
     "teryt": "32",
@@ -89,11 +89,11 @@
    },
    {
     "rok": 2018,
-    "liczba": 90
+    "liczba": 92
    },
    {
     "rok": 2019,
-    "liczba": 106
+    "liczba": 107
    },
    {
     "rok": 2020,
@@ -105,11 +105,11 @@
    },
    {
     "rok": 2022,
-    "liczba": 51
+    "liczba": 52
    },
    {
     "rok": 2023,
-    "liczba": 206
+    "liczba": 207
    },
    {
     "rok": 2024,
@@ -121,21 +121,21 @@
    },
    {
     "rok": 2026,
-    "liczba": 258
+    "liczba": 260
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1060
+    "liczba": 1063
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 173
+    "liczba": 175
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 104
+    "liczba": 106
    },
    {
     "nazwa": "Inne / brak danych",
@@ -145,29 +145,29 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 920
+    "liczba": 922
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 276
+    "liczba": 279
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 140
+    "liczba": 141
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 582
+    "liczba": 583
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 425
+    "liczba": 430
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -175,13 +175,13 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 29
+    "liczba": 30
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1242
+    "liczba": 1249
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -196,8 +196,8 @@
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 1339,
-  "hybrydy": 174,
+  "noweOdPaczki": 1346,
+  "hybrydy": 176,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -218,7 +218,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 500
+    "liczba": 507
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -555,7 +555,7 @@
     "liczba": 47
    }
   ],
-  "miejsce": 723,
+  "miejsce": 722,
   "miejsceWMarce": 3,
   "modeliWMarce": 7,
   "sredniRocznik": 2023.1
@@ -564,7 +564,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "ds",
  "modelSlug": "ds7",

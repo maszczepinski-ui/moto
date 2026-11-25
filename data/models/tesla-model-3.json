@@ -11,58 +11,58 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 593 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL 3, MODEL 3 LONG RANGE, MODEL 3 PERFORMANCE, MODEL 3 DUAL MOTOR).",
-  "liczbaWPolsce": 11593,
-  "aktywne": 11593,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 719 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL 3, MODEL 3 LONG RANGE, MODEL 3 PERFORMANCE, MODEL 3 DUAL MOTOR).",
+  "liczbaWPolsce": 11719,
+  "aktywne": 11719,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 768
+    "liczba": 777
    },
    {
     "teryt": "04",
-    "liczba": 270
+    "liczba": 273
    },
    {
     "teryt": "06",
-    "liczba": 359
+    "liczba": 363
    },
    {
     "teryt": "08",
-    "liczba": 117
+    "liczba": 118
    },
    {
     "teryt": "10",
-    "liczba": 466
+    "liczba": 468
    },
    {
     "teryt": "12",
-    "liczba": 1062
+    "liczba": 1075
    },
    {
     "teryt": "14",
-    "liczba": 4280
+    "liczba": 4306
    },
    {
     "teryt": "16",
-    "liczba": 132
+    "liczba": 133
    },
    {
     "teryt": "18",
-    "liczba": 343
+    "liczba": 350
    },
    {
     "teryt": "20",
-    "liczba": 218
+    "liczba": 222
    },
    {
     "teryt": "22",
-    "liczba": 586
+    "liczba": 598
    },
    {
     "teryt": "24",
-    "liczba": 1385
+    "liczba": 1406
    },
    {
     "teryt": "26",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "teryt": "30",
-    "liczba": 1054
+    "liczba": 1075
    },
    {
     "teryt": "32",
-    "liczba": 270
+    "liczba": 271
    }
   ],
   "bezWojewodztwa": 0,
@@ -89,57 +89,57 @@
    },
    {
     "rok": 2019,
-    "liczba": 761
+    "liczba": 770
    },
    {
     "rok": 2020,
-    "liczba": 644
+    "liczba": 647
    },
    {
     "rok": 2021,
-    "liczba": 1480
+    "liczba": 1486
    },
    {
     "rok": 2022,
-    "liczba": 1606
+    "liczba": 1613
    },
    {
     "rok": 2023,
-    "liczba": 2130
+    "liczba": 2135
    },
    {
     "rok": 2024,
-    "liczba": 1949
+    "liczba": 1958
    },
    {
     "rok": 2025,
-    "liczba": 1806
+    "liczba": 1807
    },
    {
     "rok": 2026,
-    "liczba": 1089
+    "liczba": 1175
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 11592
+    "liczba": 11717
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11593
+    "liczba": 11719
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 7260
+    "liczba": 7337
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -147,11 +147,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1883
+    "liczba": 1925
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 106
+    "liczba": 113
    },
    {
     "nazwa": "Inne / brak danych",
@@ -161,20 +161,20 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 11088
+    "liczba": 11204
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 383
+    "liczba": 390
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 122
+    "liczba": 125
    }
   ],
-  "noweOdPaczki": 11593,
+  "noweOdPaczki": 11719,
   "hybrydy": 0,
-  "elektryczne": 11592,
+  "elektryczne": 11717,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -206,7 +206,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 2003
+    "liczba": 2129
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -552,7 +552,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "tesla",
  "modelSlug": "model-3",
@@ -574,14 +574,14 @@
    "adres": "/marki/kia/ev6/"
   },
   {
-   "slug": "dacia-spring",
-   "nazwa": "Dacia Spring",
-   "adres": "/marki/dacia/spring/"
-  },
-  {
    "slug": "volkswagen-id-3",
    "nazwa": "Volkswagen ID.3",
    "adres": "/marki/volkswagen/id-3/"
+  },
+  {
+   "slug": "dacia-spring",
+   "nazwa": "Dacia Spring",
+   "adres": "/marki/dacia/spring/"
   }
  ]
 }

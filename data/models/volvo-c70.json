@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo C70 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 387 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C70, C70 T5).",
-  "liczbaWPolsce": 2562,
-  "aktywne": 1900,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo C70 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 388 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: C70, C70 T5).",
+  "liczbaWPolsce": 2563,
+  "aktywne": 1901,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 174
+    "liczba": 175
    },
    {
     "teryt": "04",
@@ -129,7 +129,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 281
+    "liczba": 282
    },
    {
     "rok": 2009,
@@ -155,7 +155,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1127
+    "liczba": 1128
    },
    {
     "nazwa": "Diesel",
@@ -177,7 +177,7 @@
    },
    {
     "nazwa": "2,4 l",
-    "liczba": 846
+    "liczba": 847
    },
    {
     "nazwa": "2,5 l",
@@ -195,7 +195,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1356
+    "liczba": 1357
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -213,7 +213,7 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 1801
+    "liczba": 1802
    },
    {
     "nazwa": "Coupe",
@@ -232,7 +232,7 @@
     "liczba": 42
    }
   ],
-  "noweOdPaczki": 1387,
+  "noweOdPaczki": 1388,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -266,7 +266,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 203
+    "liczba": 204
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -603,7 +603,7 @@
     "liczba": 16
    }
   ],
-  "miejsce": 565,
+  "miejsce": 568,
   "miejsceWMarce": 19,
   "modeliWMarce": 34,
   "sredniRocznik": 2005.8
@@ -612,7 +612,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "c70",
@@ -624,6 +624,11 @@
    "adres": "/marki/volkswagen/eos/"
   },
   {
+   "slug": "bmw-seria-5",
+   "nazwa": "BMW Seria 5",
+   "adres": "/marki/bmw/seria-5/"
+  },
+  {
    "slug": "suzuki-grand-vitara",
    "nazwa": "Suzuki Grand Vitara",
    "adres": "/marki/suzuki/grand-vitara/"
@@ -632,11 +637,6 @@
    "slug": "renault-espace",
    "nazwa": "Renault Espace",
    "adres": "/marki/renault/espace/"
-  },
-  {
-   "slug": "bmw-seria-5",
-   "nazwa": "BMW Seria 5",
-   "adres": "/marki/bmw/seria-5/"
   },
   {
    "slug": "subaru-legacy",

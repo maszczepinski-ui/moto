@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Cle – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 949 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLE 300 4MATIC, CLE 200 4MATIC, CLE 200, CLE 220D, CLE 450 4MATIC).",
-  "liczbaWPolsce": 1949,
-  "aktywne": 1949,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Cle – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 964 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLE 300 4MATIC, CLE 200 4MATIC, CLE 200, CLE 220D, CLE 450 4MATIC).",
+  "liczbaWPolsce": 1964,
+  "aktywne": 1964,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 64
+    "liczba": 66
    },
    {
     "teryt": "06",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 87
+    "liczba": 88
    },
    {
     "teryt": "12",
-    "liczba": 156
+    "liczba": 158
    },
    {
     "teryt": "14",
-    "liczba": 582
+    "liczba": 585
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 155
+    "liczba": 157
    },
    {
     "teryt": "24",
-    "liczba": 178
+    "liczba": 179
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 233
+    "liczba": 236
    },
    {
     "teryt": "32",
-    "liczba": 96
+    "liczba": 97
    }
   ],
   "bezWojewodztwa": 0,
@@ -89,39 +89,39 @@
    },
    {
     "rok": 2024,
-    "liczba": 838
+    "liczba": 842
    },
    {
     "rok": 2025,
-    "liczba": 646
+    "liczba": 649
    },
    {
     "rok": 2026,
-    "liczba": 264
+    "liczba": 272
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1057
+    "liczba": 1060
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 729
+    "liczba": 736
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 108
+    "liczba": 111
    },
    {
     "nazwa": "Diesel",
-    "liczba": 55
+    "liczba": 57
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1836
+    "liczba": 1850
    },
    {
     "nazwa": "3,0 l",
@@ -129,13 +129,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1306
+    "liczba": 1313
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -143,7 +143,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 254
+    "liczba": 262
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -157,19 +157,19 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1662
+    "liczba": 1671
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 279
+    "liczba": 284
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 9
    }
   ],
-  "noweOdPaczki": 1949,
-  "hybrydy": 1165,
+  "noweOdPaczki": 1964,
+  "hybrydy": 1171,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -186,7 +186,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 558
+    "liczba": 573
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -532,7 +532,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "cle",

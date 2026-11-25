@@ -10,22 +10,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus UX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 12 957 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: UX250H, LEXUS UX300H, UX200, UX300H, LEXUS UX200).",
-  "liczbaWPolsce": 13454,
-  "aktywne": 13454,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus UX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 045 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: UX250H, LEXUS UX300H, UX200, UX300H, LEXUS UX200).",
+  "liczbaWPolsce": 13542,
+  "aktywne": 13542,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 980
+    "liczba": 987
    },
    {
     "teryt": "04",
-    "liczba": 403
+    "liczba": 409
    },
    {
     "teryt": "06",
-    "liczba": 538
+    "liczba": 546
    },
    {
     "teryt": "08",
@@ -33,51 +33,51 @@
    },
    {
     "teryt": "10",
-    "liczba": 597
+    "liczba": 601
    },
    {
     "teryt": "12",
-    "liczba": 1523
+    "liczba": 1534
    },
    {
     "teryt": "14",
-    "liczba": 3468
+    "liczba": 3489
    },
    {
     "teryt": "16",
-    "liczba": 145
+    "liczba": 146
    },
    {
     "teryt": "18",
-    "liczba": 627
+    "liczba": 630
    },
    {
     "teryt": "20",
-    "liczba": 308
+    "liczba": 310
    },
    {
     "teryt": "22",
-    "liczba": 758
+    "liczba": 761
    },
    {
     "teryt": "24",
-    "liczba": 1393
+    "liczba": 1397
    },
    {
     "teryt": "26",
-    "liczba": 399
+    "liczba": 402
    },
    {
     "teryt": "28",
-    "liczba": 381
+    "liczba": 385
    },
    {
     "teryt": "30",
-    "liczba": 1162
+    "liczba": 1172
    },
    {
     "teryt": "32",
-    "liczba": 579
+    "liczba": 580
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,19 +88,19 @@
    },
    {
     "rok": 2020,
-    "liczba": 868
+    "liczba": 870
    },
    {
     "rok": 2021,
-    "liczba": 1793
+    "liczba": 1795
    },
    {
     "rok": 2022,
-    "liczba": 2176
+    "liczba": 2178
    },
    {
     "rok": 2023,
-    "liczba": 2809
+    "liczba": 2810
    },
    {
     "rok": 2024,
@@ -108,31 +108,31 @@
    },
    {
     "rok": 2025,
-    "liczba": 2289
+    "liczba": 2293
    },
    {
     "rok": 2026,
-    "liczba": 250
+    "liczba": 327
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 10384
+    "liczba": 10468
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 3000
+    "liczba": 3003
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 70
+    "liczba": 71
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 13392
+    "liczba": 13480
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,7 +142,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 8586
+    "liczba": 8664
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -150,30 +150,30 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 892
+    "liczba": 901
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 42
+    "liczba": 43
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 13167
+    "liczba": 13254
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 143
+    "liczba": 144
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 144
    }
   ],
-  "noweOdPaczki": 12957,
-  "hybrydy": 10373,
-  "elektryczne": 58,
+  "noweOdPaczki": 13045,
+  "hybrydy": 10457,
+  "elektryczne": 59,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -205,7 +205,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1558
+    "liczba": 1646
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -551,7 +551,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "ux",
@@ -573,14 +573,14 @@
    "adres": "/marki/volkswagen/arteon/"
   },
   {
-   "slug": "kia-xceed",
-   "nazwa": "Kia XCeed",
-   "adres": "/marki/kia/xceed/"
-  },
-  {
    "slug": "bmw-m1",
    "nazwa": "BMW M1",
    "adres": "/marki/bmw/m1/"
+  },
+  {
+   "slug": "kia-xceed",
+   "nazwa": "Kia XCeed",
+   "adres": "/marki/kia/xceed/"
   }
  ]
 }

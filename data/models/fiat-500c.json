@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 500C – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 338 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 500C, 500C ABARTH).",
-  "liczbaWPolsce": 338,
-  "aktywne": 338,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 500C – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 342 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 500C, 500C ABARTH).",
+  "liczbaWPolsce": 342,
+  "aktywne": 342,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "08",
@@ -46,11 +46,11 @@
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "18",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "20",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "32",
@@ -325,7 +325,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 47
+    "liczba": 48
    },
    {
     "rok": 2012,
@@ -341,11 +341,11 @@
    },
    {
     "rok": 2015,
-    "liczba": 21
+    "liczba": 22
    },
    {
     "rok": 2016,
-    "liczba": 34
+    "liczba": 35
    },
    {
     "rok": 2017,
@@ -361,7 +361,7 @@
    },
    {
     "rok": 2020,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 2021,
@@ -375,7 +375,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 321
+    "liczba": 325
    },
    {
     "nazwa": "Diesel",
@@ -393,7 +393,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 207
+    "liczba": 208
    },
    {
     "nazwa": "1,4 l",
@@ -401,7 +401,7 @@
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 52
+    "liczba": 54
    },
    {
     "nazwa": "0,6 l",
@@ -409,13 +409,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 196
+    "liczba": 200
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -429,11 +429,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 168
+    "liczba": 170
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 152
+    "liczba": 154
    },
    {
     "nazwa": "Coupe",
@@ -448,7 +448,7 @@
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 338,
+  "noweOdPaczki": 342,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -482,7 +482,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 44
+    "liczba": 48
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -819,8 +819,8 @@
     "liczba": 5
    }
   ],
-  "miejsce": 1110,
-  "miejsceWMarce": 54,
+  "miejsce": 1107,
+  "miejsceWMarce": 53,
   "modeliWMarce": 61,
   "sredniRocznik": 2011.8
  },
@@ -828,7 +828,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "500c",

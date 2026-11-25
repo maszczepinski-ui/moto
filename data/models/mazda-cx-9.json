@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 697 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-9).",
-  "liczbaWPolsce": 1436,
-  "aktywne": 1119,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 698 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-9).",
+  "liczbaWPolsce": 1437,
+  "aktywne": 1120,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -40,7 +40,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 117
+    "liczba": 118
    },
    {
     "teryt": "14",
@@ -147,7 +147,7 @@
    },
    {
     "rok": 2022,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 2023,
@@ -157,7 +157,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 741
+    "liczba": 742
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -175,7 +175,7 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 456
+    "liczba": 457
    },
    {
     "nazwa": "3,5 l",
@@ -193,7 +193,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 590
+    "liczba": 591
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -207,7 +207,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 563
+    "liczba": 564
    },
    {
     "nazwa": "Kombi",
@@ -230,7 +230,7 @@
     "liczba": 45
    }
   ],
-  "noweOdPaczki": 697,
+  "noweOdPaczki": 698,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -264,7 +264,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 65
+    "liczba": 66
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -610,7 +610,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "cx-9",
@@ -637,9 +637,9 @@
    "adres": "/marki/honda/odyssey/"
   },
   {
-   "slug": "ford-explorer",
-   "nazwa": "Ford Explorer",
-   "adres": "/marki/ford/explorer/"
+   "slug": "dodge-journey",
+   "nazwa": "Dodge Journey",
+   "adres": "/marki/dodge/journey/"
   }
  ]
 }

@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Allroad – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 147 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALLROAD, ALLROAD 2.5 TDI, ALLROAD QUATTRO).",
-  "liczbaWPolsce": 667,
-  "aktywne": 343,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Allroad – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 149 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ALLROAD, ALLROAD 2.5 TDI, ALLROAD QUATTRO).",
+  "liczbaWPolsce": 669,
+  "aktywne": 345,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "12",
@@ -45,7 +45,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "18",
@@ -96,7 +96,7 @@
    },
    {
     "rok": 2003,
-    "liczba": 132
+    "liczba": 133
    },
    {
     "rok": 2004,
@@ -104,7 +104,7 @@
    },
    {
     "rok": 2005,
-    "liczba": 41
+    "liczba": 42
    },
    {
     "rok": 2006,
@@ -170,7 +170,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 368
+    "liczba": 369
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -178,7 +178,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 144
+    "liczba": 145
    },
    {
     "nazwa": "Inne / brak danych",
@@ -188,7 +188,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 305
+    "liczba": 306
    },
    {
     "nazwa": "2,7 l",
@@ -204,7 +204,7 @@
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
@@ -218,7 +218,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 298
+    "liczba": 300
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -232,7 +232,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 619
+    "liczba": 621
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -247,7 +247,7 @@
     "liczba": 27
    }
   ],
-  "noweOdPaczki": 147,
+  "noweOdPaczki": 149,
   "hybrydy": 2,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -281,7 +281,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 9
+    "liczba": 11
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -618,7 +618,7 @@
     "liczba": 2
    }
   ],
-  "miejsce": 890,
+  "miejsce": 892,
   "miejsceWMarce": 41,
   "modeliWMarce": 54,
   "sredniRocznik": 2003.6
@@ -627,7 +627,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "allroad",
@@ -649,9 +649,9 @@
    "adres": "/marki/renault/laguna/"
   },
   {
-   "slug": "opel-vectra-c",
-   "nazwa": "Opel Vectra C",
-   "adres": "/marki/opel/vectra/c/"
+   "slug": "hyundai-terracan",
+   "nazwa": "Hyundai Terracan",
+   "adres": "/marki/hyundai/terracan/"
   },
   {
    "slug": "mitsubishi-pajero",

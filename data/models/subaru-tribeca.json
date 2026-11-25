@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Tribeca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 106 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRIBECA).",
-  "liczbaWPolsce": 553,
-  "aktywne": 273,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Tribeca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 107 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TRIBECA).",
+  "liczbaWPolsce": 554,
+  "aktywne": 274,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "08",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 2006,
-    "liczba": 125
+    "liczba": 126
    },
    {
     "rok": 2007,
@@ -128,7 +128,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 277
+    "liczba": 278
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -146,7 +146,7 @@
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 217
+    "liczba": 218
    },
    {
     "nazwa": "Inne / brak danych",
@@ -160,7 +160,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 158
+    "liczba": 159
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -194,7 +194,7 @@
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "Furgon",
@@ -205,7 +205,7 @@
     "liczba": 21
    }
   ],
-  "noweOdPaczki": 106,
+  "noweOdPaczki": 107,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -239,7 +239,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -576,30 +576,30 @@
     "liczba": 0
    }
   ],
-  "miejsce": 941,
+  "miejsce": 940,
   "miejsceWMarce": 10,
   "modeliWMarce": 13,
-  "sredniRocznik": 2007.5
+  "sredniRocznik": 2007.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "tribeca",
  "adres": "/marki/subaru/tribeca/",
  "konkurenci": [
   {
-   "slug": "nissan-murano",
-   "nazwa": "Nissan Murano",
-   "adres": "/marki/nissan/murano/"
-  },
-  {
    "slug": "jeep-liberty",
    "nazwa": "Jeep Liberty",
    "adres": "/marki/jeep/liberty/"
+  },
+  {
+   "slug": "nissan-murano",
+   "nazwa": "Nissan Murano",
+   "adres": "/marki/nissan/murano/"
   },
   {
    "slug": "jeep-cherokee",

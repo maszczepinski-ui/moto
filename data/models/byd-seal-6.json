@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal 6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 664 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEAL 6 DM-I TOURING, SEAL 6 DM-I).",
-  "liczbaWPolsce": 664,
-  "aktywne": 664,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal 6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 670 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEAL 6 DM-I TOURING, SEAL 6 DM-I).",
+  "liczbaWPolsce": 670,
+  "aktywne": 670,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "08",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "14",
-    "liczba": 313
+    "liczba": 316
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 53
+    "liczba": 54
    },
    {
     "teryt": "26",
@@ -93,13 +93,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 192
+    "liczba": 198
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 656
+    "liczba": 662
    },
    {
     "nazwa": "Benzyna",
@@ -109,13 +109,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 664
+    "liczba": 670
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 613
+    "liczba": 619
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -133,19 +133,19 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 477
+    "liczba": 481
    },
    {
     "nazwa": "Sedan",
-    "liczba": 185
+    "liczba": 187
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 664,
-  "hybrydy": 655,
+  "noweOdPaczki": 670,
+  "hybrydy": 661,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -154,7 +154,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 500
+    "liczba": 506
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -491,8 +491,8 @@
     "liczba": 83
    }
   ],
-  "miejsce": 892,
-  "miejsceWMarce": 6,
+  "miejsce": 891,
+  "miejsceWMarce": 7,
   "modeliWMarce": 8,
   "sredniRocznik": 2025.3
  },
@@ -500,7 +500,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "seal-6",
@@ -512,14 +512,14 @@
    "adres": "/marki/mg/hs/"
   },
   {
-   "slug": "chery-tiggo-7",
-   "nazwa": "Chery Tiggo 7",
-   "adres": "/marki/chery/tiggo-7/"
-  },
-  {
    "slug": "chery-tiggo-4",
    "nazwa": "Chery Tiggo 4",
    "adres": "/marki/chery/tiggo-4/"
+  },
+  {
+   "slug": "chery-tiggo-7",
+   "nazwa": "Chery Tiggo 7",
+   "adres": "/marki/chery/tiggo-7/"
   },
   {
    "slug": "mg-zs",

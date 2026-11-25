@@ -11,22 +11,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Rapid – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 016 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RAPID, RAPID 136, RAPID 1.3, RAPID 1.6 TDI).",
-  "liczbaWPolsce": 35295,
-  "aktywne": 22498,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Rapid – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 034 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RAPID, RAPID 136, RAPID 1.3, RAPID 1.6 TDI).",
+  "liczbaWPolsce": 35313,
+  "aktywne": 22516,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 3228
+    "liczba": 3232
    },
    {
     "teryt": "04",
-    "liczba": 1480
+    "liczba": 1481
    },
    {
     "teryt": "06",
-    "liczba": 987
+    "liczba": 988
    },
    {
     "teryt": "08",
@@ -38,15 +38,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 3142
+    "liczba": 3144
    },
    {
     "teryt": "14",
-    "liczba": 7368
+    "liczba": 7369
    },
    {
     "teryt": "16",
-    "liczba": 1148
+    "liczba": 1150
    },
    {
     "teryt": "18",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 2551
+    "liczba": 2554
    },
    {
     "teryt": "24",
-    "liczba": 5232
+    "liczba": 5233
    },
    {
     "teryt": "26",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 903
+    "liczba": 904
    },
    {
     "teryt": "30",
-    "liczba": 2869
+    "liczba": 2870
    },
    {
     "teryt": "32",
-    "liczba": 1104
+    "liczba": 1105
    }
   ],
   "bezWojewodztwa": 27,
@@ -181,27 +181,27 @@
    },
    {
     "rok": 2013,
-    "liczba": 3490
+    "liczba": 3491
    },
    {
     "rok": 2014,
-    "liczba": 5723
+    "liczba": 5727
    },
    {
     "rok": 2015,
-    "liczba": 5845
+    "liczba": 5850
    },
    {
     "rok": 2016,
-    "liczba": 4872
+    "liczba": 4873
    },
    {
     "rok": 2017,
-    "liczba": 5086
+    "liczba": 5089
    },
    {
     "rok": 2018,
-    "liczba": 6054
+    "liczba": 6058
    },
    {
     "rok": 2019,
@@ -211,11 +211,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 26247
+    "liczba": 26260
    },
    {
     "nazwa": "Diesel",
-    "liczba": 7351
+    "liczba": 7356
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -229,19 +229,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 16093
+    "liczba": 16100
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 10399
+    "liczba": 10403
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 5745
+    "liczba": 5749
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 2719
+    "liczba": 2722
    },
    {
     "nazwa": "Inne / brak danych",
@@ -259,7 +259,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2548
+    "liczba": 2566
    },
    {
     "nazwa": "Inne / brak danych",
@@ -269,18 +269,18 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 17968
+    "liczba": 17970
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 16632
+    "liczba": 16646
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 695
+    "liczba": 697
    }
   ],
-  "noweOdPaczki": 3016,
+  "noweOdPaczki": 3034,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -314,7 +314,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 519
+    "liczba": 537
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -660,7 +660,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "rapid",

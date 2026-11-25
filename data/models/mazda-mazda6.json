@@ -11,18 +11,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 370 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA6).",
-  "liczbaWPolsce": 3083,
-  "aktywne": 2969,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda MAZDA6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 375 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA6).",
+  "liczbaWPolsce": 3088,
+  "aktywne": 2974,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 323
+    "liczba": 324
    },
    {
     "teryt": "04",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "teryt": "06",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 208
+    "liczba": 209
    },
    {
     "teryt": "14",
-    "liczba": 840
+    "liczba": 841
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 413
+    "liczba": 414
    },
    {
     "teryt": "26",
@@ -121,11 +121,11 @@
    },
    {
     "rok": 2017,
-    "liczba": 306
+    "liczba": 308
    },
    {
     "rok": 2018,
-    "liczba": 167
+    "liczba": 168
    },
    {
     "rok": 2019,
@@ -137,7 +137,7 @@
    },
    {
     "rok": 2021,
-    "liczba": 634
+    "liczba": 635
    },
    {
     "rok": 2022,
@@ -145,13 +145,13 @@
    },
    {
     "rok": 2023,
-    "liczba": 383
+    "liczba": 384
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2919
+    "liczba": 2924
    },
    {
     "nazwa": "Diesel",
@@ -165,7 +165,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 2303
+    "liczba": 2308
    },
    {
     "nazwa": "2,5 l",
@@ -191,7 +191,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 191
+    "liczba": 196
    },
    {
     "nazwa": "Inne / brak danych",
@@ -201,18 +201,18 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1630
+    "liczba": 1634
    },
    {
     "nazwa": "Sedan",
-    "liczba": 1432
+    "liczba": 1433
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 21
    }
   ],
-  "noweOdPaczki": 2370,
+  "noweOdPaczki": 2375,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -246,7 +246,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 86
+    "liczba": 91
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -583,7 +583,7 @@
     "liczba": 8
    }
   ],
-  "miejsce": 526,
+  "miejsce": 527,
   "miejsceWMarce": 16,
   "modeliWMarce": 33,
   "sredniRocznik": 2019.8
@@ -592,7 +592,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "mazda6",
@@ -614,14 +614,14 @@
    "adres": "/marki/porsche/macan/"
   },
   {
-   "slug": "audi-q3",
-   "nazwa": "Audi Q3",
-   "adres": "/marki/audi/q3/"
-  },
-  {
    "slug": "ford-edge",
    "nazwa": "Ford Edge",
    "adres": "/marki/ford/edge/"
+  },
+  {
+   "slug": "audi-q3",
+   "nazwa": "Audi Q3",
+   "adres": "/marki/audi/q3/"
   }
  ]
 }

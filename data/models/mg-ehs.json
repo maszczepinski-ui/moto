@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG EHS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 455 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EHS PLUG-IN HYBRID, MG EHS PLUG-IN HYBRID, EHS, EHS PHEV, MG EHS).",
-  "liczbaWPolsce": 455,
-  "aktywne": 455,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG EHS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 456 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EHS PLUG-IN HYBRID, MG EHS PLUG-IN HYBRID, EHS, EHS PHEV, MG EHS).",
+  "liczbaWPolsce": 456,
+  "aktywne": 456,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "08",
@@ -94,7 +94,7 @@
    },
    {
     "rok": 2022,
-    "liczba": 302
+    "liczba": 303
    },
    {
     "rok": 2023,
@@ -108,7 +108,7 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 445
+    "liczba": 446
    },
    {
     "nazwa": "Benzyna",
@@ -118,13 +118,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 455
+    "liczba": 456
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 363
+    "liczba": 364
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -134,7 +134,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 376
+    "liczba": 377
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -149,8 +149,8 @@
     "liczba": 3
    }
   ],
-  "noweOdPaczki": 455,
-  "hybrydy": 445,
+  "noweOdPaczki": 456,
+  "hybrydy": 446,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -167,7 +167,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 119
+    "liczba": 120
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -504,7 +504,7 @@
     "liczba": 5
    }
   ],
-  "miejsce": 1008,
+  "miejsce": 1007,
   "miejsceWMarce": 6,
   "modeliWMarce": 8,
   "sredniRocznik": 2021.8
@@ -513,7 +513,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "ehs",

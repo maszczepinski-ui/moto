@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai I – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 876 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I 30N, I 30, I 20, I 10, I 40).",
-  "liczbaWPolsce": 2468,
-  "aktywne": 1550,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai I – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 886 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I 30N, I 30, I 20, I 10, I 40).",
+  "liczbaWPolsce": 2478,
+  "aktywne": 1560,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "teryt": "08",
@@ -35,19 +35,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 179
+    "liczba": 180
    },
    {
     "teryt": "12",
-    "liczba": 262
+    "liczba": 263
    },
    {
     "teryt": "14",
-    "liczba": 360
+    "liczba": 364
    },
    {
     "teryt": "16",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "teryt": "18",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 148
+    "liczba": 149
    },
    {
     "teryt": "24",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 231
+    "liczba": 232
    },
    {
     "teryt": "32",
@@ -106,7 +106,7 @@
    },
    {
     "rok": 2012,
-    "liczba": 196
+    "liczba": 198
    },
    {
     "rok": 2013,
@@ -114,11 +114,11 @@
    },
    {
     "rok": 2014,
-    "liczba": 282
+    "liczba": 283
    },
    {
     "rok": 2015,
-    "liczba": 262
+    "liczba": 263
    },
    {
     "rok": 2016,
@@ -126,19 +126,19 @@
    },
    {
     "rok": 2017,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 2018,
-    "liczba": 107
+    "liczba": 108
    },
    {
     "rok": 2019,
-    "liczba": 89
+    "liczba": 90
    },
    {
     "rok": 2020,
-    "liczba": 22
+    "liczba": 23
    },
    {
     "rok": 2021,
@@ -152,11 +152,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1439
+    "liczba": 1447
    },
    {
     "nazwa": "Diesel",
-    "liczba": 831
+    "liczba": 833
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -170,15 +170,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 1046
+    "liczba": 1047
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 869
+    "liczba": 875
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 202
+    "liczba": 204
    },
    {
     "nazwa": "1,2 l",
@@ -194,7 +194,7 @@
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
@@ -204,11 +204,11 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1555
+    "liczba": 1563
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 496
+    "liczba": 498
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -222,11 +222,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1575
+    "liczba": 1582
    },
    {
     "nazwa": "Kombi",
-    "liczba": 586
+    "liczba": 589
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -241,7 +241,7 @@
     "liczba": 13
    }
   ],
-  "noweOdPaczki": 876,
+  "noweOdPaczki": 886,
   "hybrydy": 7,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -275,7 +275,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 94
+    "liczba": 104
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -612,7 +612,7 @@
     "liczba": 14
    }
   ],
-  "miejsce": 576,
+  "miejsce": 575,
   "miejsceWMarce": 21,
   "modeliWMarce": 36,
   "sredniRocznik": 2012.4
@@ -621,7 +621,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "i",

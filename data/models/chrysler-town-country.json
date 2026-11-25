@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Town & Country – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 535 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOWN AND COUNTRY, TOWN COUNTRY, TOWN & COUNTRY, TOWN COUNTRY 3.6 V6, TOWN&COUNTRY).",
-  "liczbaWPolsce": 7275,
-  "aktywne": 5364,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Town & Country – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 543 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TOWN AND COUNTRY, TOWN COUNTRY, TOWN & COUNTRY, TOWN COUNTRY 3.6 V6, TOWN&COUNTRY).",
+  "liczbaWPolsce": 7283,
+  "aktywne": 5372,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 424
+    "liczba": 425
    },
    {
     "teryt": "04",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 491
+    "liczba": 492
    },
    {
     "teryt": "12",
-    "liczba": 437
+    "liczba": 438
    },
    {
     "teryt": "14",
-    "liczba": 1817
+    "liczba": 1818
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 237
+    "liczba": 239
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 592
+    "liczba": 593
    },
    {
     "teryt": "26",
@@ -78,7 +78,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 333
+    "liczba": 334
    }
   ],
   "bezWojewodztwa": 55,
@@ -145,7 +145,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 280
+    "liczba": 281
    },
    {
     "rok": 2012,
@@ -153,29 +153,29 @@
    },
    {
     "rok": 2013,
-    "liczba": 711
+    "liczba": 712
    },
    {
     "rok": 2014,
-    "liczba": 1261
+    "liczba": 1262
    },
    {
     "rok": 2015,
-    "liczba": 1075
+    "liczba": 1077
    },
    {
     "rok": 2016,
-    "liczba": 969
+    "liczba": 972
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 5082
+    "liczba": 5085
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 2146
+    "liczba": 2151
    },
    {
     "nazwa": "Inne / brak danych",
@@ -185,7 +185,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 4863
+    "liczba": 4871
    },
    {
     "nazwa": "3,8 l",
@@ -211,7 +211,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3074
+    "liczba": 3082
    },
    {
     "nazwa": "Inne / brak danych",
@@ -221,26 +221,26 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 4540
+    "liczba": 4542
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1347
+    "liczba": 1349
    },
    {
     "nazwa": "Kombi",
-    "liczba": 931
+    "liczba": 932
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 337
+    "liczba": 339
    }
   ],
-  "noweOdPaczki": 3535,
+  "noweOdPaczki": 3543,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -274,7 +274,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 145
+    "liczba": 153
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -620,7 +620,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "town-country",

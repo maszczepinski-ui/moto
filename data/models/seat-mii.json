@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Mii – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 796 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MII).",
-  "liczbaWPolsce": 2784,
-  "aktywne": 2401,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Mii – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 806 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MII).",
+  "liczbaWPolsce": 2794,
+  "aktywne": 2411,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 132
+    "liczba": 133
    },
    {
     "teryt": "06",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 260
+    "liczba": 262
    },
    {
     "teryt": "14",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 86
+    "liczba": 87
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 197
+    "liczba": 198
    },
    {
     "teryt": "24",
-    "liczba": 493
+    "liczba": 494
    },
    {
     "teryt": "26",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 391
+    "liczba": 394
    },
    {
     "teryt": "32",
-    "liczba": 108
+    "liczba": 109
    }
   ],
   "bezWojewodztwa": 15,
@@ -88,23 +88,23 @@
    },
    {
     "rok": 2012,
-    "liczba": 465
+    "liczba": 466
    },
    {
     "rok": 2013,
-    "liczba": 513
+    "liczba": 516
    },
    {
     "rok": 2014,
-    "liczba": 527
+    "liczba": 530
    },
    {
     "rok": 2015,
-    "liczba": 418
+    "liczba": 420
    },
    {
     "rok": 2016,
-    "liczba": 317
+    "liczba": 318
    },
    {
     "rok": 2017,
@@ -130,7 +130,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2537
+    "liczba": 2547
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -148,7 +148,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 2736
+    "liczba": 2746
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,7 +158,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1612
+    "liczba": 1622
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -176,14 +176,14 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2745
+    "liczba": 2755
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 39
    }
   ],
-  "noweOdPaczki": 1796,
+  "noweOdPaczki": 1806,
   "hybrydy": 0,
   "elektryczne": 32,
   "pierwszeRejestracje": [
@@ -217,7 +217,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 261
+    "liczba": 271
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -554,7 +554,7 @@
     "liczba": 25
    }
   ],
-  "miejsce": 547,
+  "miejsce": 546,
   "miejsceWMarce": 11,
   "modeliWMarce": 19,
   "sredniRocznik": 2014.5
@@ -563,7 +563,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "mii",

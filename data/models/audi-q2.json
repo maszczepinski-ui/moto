@@ -11,22 +11,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 151 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q2, Q2 2.0 TDI QUATTRO).",
-  "liczbaWPolsce": 6472,
-  "aktywne": 6367,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi Q2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 170 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: Q2, Q2 2.0 TDI QUATTRO).",
+  "liczbaWPolsce": 6491,
+  "aktywne": 6386,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 493
+    "liczba": 494
    },
    {
     "teryt": "04",
-    "liczba": 230
+    "liczba": 231
    },
    {
     "teryt": "06",
-    "liczba": 172
+    "liczba": 174
    },
    {
     "teryt": "08",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 287
+    "liczba": 290
    },
    {
     "teryt": "12",
-    "liczba": 612
+    "liczba": 613
    },
    {
     "teryt": "14",
-    "liczba": 1202
+    "liczba": 1204
    },
    {
     "teryt": "16",
@@ -54,27 +54,27 @@
    },
    {
     "teryt": "20",
-    "liczba": 153
+    "liczba": 154
    },
    {
     "teryt": "22",
-    "liczba": 548
+    "liczba": 550
    },
    {
     "teryt": "24",
-    "liczba": 873
+    "liczba": 875
    },
    {
     "teryt": "26",
-    "liczba": 157
+    "liczba": 158
    },
    {
     "teryt": "28",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "teryt": "30",
-    "liczba": 903
+    "liczba": 905
    },
    {
     "teryt": "32",
@@ -89,15 +89,15 @@
    },
    {
     "rok": 2017,
-    "liczba": 1229
+    "liczba": 1238
    },
    {
     "rok": 2018,
-    "liczba": 661
+    "liczba": 662
    },
    {
     "rok": 2019,
-    "liczba": 733
+    "liczba": 734
    },
    {
     "rok": 2020,
@@ -109,19 +109,19 @@
    },
    {
     "rok": 2022,
-    "liczba": 502
+    "liczba": 503
    },
    {
     "rok": 2023,
-    "liczba": 561
+    "liczba": 564
    },
    {
     "rok": 2024,
-    "liczba": 891
+    "liczba": 894
    },
    {
     "rok": 2025,
-    "liczba": 297
+    "liczba": 298
    },
    {
     "rok": 2026,
@@ -131,11 +131,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5518
+    "liczba": 5532
    },
    {
     "nazwa": "Diesel",
-    "liczba": 943
+    "liczba": 948
    },
    {
     "nazwa": "Inne / brak danych",
@@ -145,23 +145,23 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 3161
+    "liczba": 3167
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 1031
+    "liczba": 1036
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 1004
+    "liczba": 1006
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 730
+    "liczba": 731
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 544
+    "liczba": 549
    },
    {
     "nazwa": "Inne / brak danych",
@@ -179,7 +179,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1402
+    "liczba": 1421
    },
    {
     "nazwa": "Inne / brak danych",
@@ -189,11 +189,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 6034
+    "liczba": 6052
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 281
+    "liczba": 282
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -204,7 +204,7 @@
     "liczba": 39
    }
   ],
-  "noweOdPaczki": 5151,
+  "noweOdPaczki": 5170,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -238,7 +238,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 671
+    "liczba": 690
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -584,7 +584,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "q2",

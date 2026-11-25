@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Expert – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 350 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EXPERT, EXPERT TRAVELLER, EXPERT 2.0 HDI, EXPERT 1.9 TD).",
-  "liczbaWPolsce": 4703,
-  "aktywne": 3690,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Expert – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 360 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EXPERT, EXPERT TRAVELLER, EXPERT 2.0 HDI, EXPERT 1.9 TD).",
+  "liczbaWPolsce": 4713,
+  "aktywne": 3700,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 170
+    "liczba": 171
    },
    {
     "teryt": "06",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 205
+    "liczba": 207
    },
    {
     "teryt": "12",
-    "liczba": 440
+    "liczba": 442
    },
    {
     "teryt": "14",
-    "liczba": 842
+    "liczba": 844
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 307
+    "liczba": 308
    },
    {
     "teryt": "20",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 693
+    "liczba": 695
    },
    {
     "teryt": "32",
@@ -129,7 +129,7 @@
    },
    {
     "rok": 2007,
-    "liczba": 319
+    "liczba": 320
    },
    {
     "rok": 2008,
@@ -157,7 +157,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 152
+    "liczba": 155
    },
    {
     "rok": 2015,
@@ -165,7 +165,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 91
+    "liczba": 93
    },
    {
     "rok": 2017,
@@ -173,7 +173,7 @@
    },
    {
     "rok": 2018,
-    "liczba": 543
+    "liczba": 546
    },
    {
     "rok": 2019,
@@ -181,7 +181,7 @@
    },
    {
     "rok": 2020,
-    "liczba": 263
+    "liczba": 264
    },
    {
     "rok": 2021,
@@ -207,7 +207,7 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 4551
+    "liczba": 4561
    },
    {
     "nazwa": "Elektryczny",
@@ -221,11 +221,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 3661
+    "liczba": 3670
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 536
+    "liczba": 537
    },
    {
     "nazwa": "1,9 l",
@@ -243,7 +243,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1901
+    "liczba": 1911
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -261,7 +261,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2901
+    "liczba": 2909
    },
    {
     "nazwa": "Van",
@@ -269,14 +269,14 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 704
+    "liczba": 706
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 156
    }
   ],
-  "noweOdPaczki": 2350,
+  "noweOdPaczki": 2360,
   "hybrydy": 0,
   "elektryczne": 65,
   "pierwszeRejestracje": [
@@ -310,7 +310,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 270
+    "liczba": 280
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -647,7 +647,7 @@
     "liczba": 31
    }
   ],
-  "miejsce": 458,
+  "miejsce": 459,
   "miejsceWMarce": 24,
   "modeliWMarce": 45,
   "sredniRocznik": 2012.7
@@ -656,7 +656,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "expert",

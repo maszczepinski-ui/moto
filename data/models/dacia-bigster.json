@@ -10,58 +10,58 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dacia Bigster – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 941 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BIGSTER).",
-  "liczbaWPolsce": 7941,
-  "aktywne": 7941,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dacia Bigster – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 061 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BIGSTER).",
+  "liczbaWPolsce": 8061,
+  "aktywne": 8061,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 580
+    "liczba": 588
    },
    {
     "teryt": "04",
-    "liczba": 273
+    "liczba": 278
    },
    {
     "teryt": "06",
-    "liczba": 233
+    "liczba": 237
    },
    {
     "teryt": "08",
-    "liczba": 160
+    "liczba": 163
    },
    {
     "teryt": "10",
-    "liczba": 350
+    "liczba": 360
    },
    {
     "teryt": "12",
-    "liczba": 661
+    "liczba": 670
    },
    {
     "teryt": "14",
-    "liczba": 2583
+    "liczba": 2619
    },
    {
     "teryt": "16",
-    "liczba": 102
+    "liczba": 104
    },
    {
     "teryt": "18",
-    "liczba": 154
+    "liczba": 159
    },
    {
     "teryt": "20",
-    "liczba": 120
+    "liczba": 122
    },
    {
     "teryt": "22",
-    "liczba": 602
+    "liczba": 613
    },
    {
     "teryt": "24",
-    "liczba": 925
+    "liczba": 935
    },
    {
     "teryt": "26",
@@ -69,50 +69,50 @@
    },
    {
     "teryt": "28",
-    "liczba": 292
+    "liczba": 297
    },
    {
     "teryt": "30",
-    "liczba": 563
+    "liczba": 567
    },
    {
     "teryt": "32",
-    "liczba": 274
+    "liczba": 280
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 4864
+    "liczba": 4869
    },
    {
     "rok": 2026,
-    "liczba": 3074
+    "liczba": 3189
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 3602
+    "liczba": 3640
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 3403
+    "liczba": 3484
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 936
+    "liczba": 937
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 4624
+    "liczba": 4706
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 3316
+    "liczba": 3354
    },
    {
     "nazwa": "Inne / brak danych",
@@ -122,7 +122,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 7613
+    "liczba": 7732
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -134,21 +134,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 7939
+    "liczba": 8059
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 7941,
-  "hybrydy": 3602,
+  "noweOdPaczki": 8061,
+  "hybrydy": 3640,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -157,7 +157,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 4398
+    "liczba": 4518
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -503,7 +503,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "dacia",
  "modelSlug": "bigster",
@@ -525,14 +525,14 @@
    "adres": "/marki/chery/tiggo-7/"
   },
   {
-   "slug": "geely-starray",
-   "nazwa": "Geely Starray",
-   "adres": "/marki/geely/starray/"
-  },
-  {
    "slug": "chery-tiggo-4",
    "nazwa": "Chery Tiggo 4",
    "adres": "/marki/chery/tiggo-4/"
+  },
+  {
+   "slug": "geely-starray",
+   "nazwa": "Geely Starray",
+   "adres": "/marki/geely/starray/"
   }
  ]
 }

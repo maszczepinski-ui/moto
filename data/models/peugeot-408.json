@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 408 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 147 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 408).",
-  "liczbaWPolsce": 7147,
-  "aktywne": 7147,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 408 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 225 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 408).",
+  "liczbaWPolsce": 7225,
+  "aktywne": 7225,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 425
+    "liczba": 427
    },
    {
     "teryt": "04",
-    "liczba": 154
+    "liczba": 157
    },
    {
     "teryt": "06",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 112
+    "liczba": 113
    },
    {
     "teryt": "10",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 375
+    "liczba": 380
    },
    {
     "teryt": "14",
-    "liczba": 3677
+    "liczba": 3731
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 131
+    "liczba": 132
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 296
+    "liczba": 298
    },
    {
     "teryt": "24",
-    "liczba": 668
+    "liczba": 673
    },
    {
     "teryt": "26",
@@ -73,44 +73,44 @@
    },
    {
     "teryt": "30",
-    "liczba": 580
+    "liczba": 583
    },
    {
     "teryt": "32",
-    "liczba": 206
+    "liczba": 208
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 65
+    "liczba": 66
    },
    {
     "rok": 2023,
-    "liczba": 967
+    "liczba": 970
    },
    {
     "rok": 2024,
-    "liczba": 1921
+    "liczba": 1922
    },
    {
     "rok": 2025,
-    "liczba": 2092
+    "liczba": 2096
    },
    {
     "rok": 2026,
-    "liczba": 2099
+    "liczba": 2168
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4548
+    "liczba": 4588
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 2590
+    "liczba": 2628
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,11 +120,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 6498
+    "liczba": 6571
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 643
+    "liczba": 648
    },
    {
     "nazwa": "Inne / brak danych",
@@ -134,7 +134,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5775
+    "liczba": 5842
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -142,11 +142,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 164
+    "liczba": 166
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 129
+    "liczba": 138
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,15 +156,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 7141
+    "liczba": 7219
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 7147,
-  "hybrydy": 2590,
+  "noweOdPaczki": 7225,
+  "hybrydy": 2628,
   "elektryczne": 6,
   "pierwszeRejestracje": [
    {
@@ -185,7 +185,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 2524
+    "liczba": 2602
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -531,7 +531,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "408",
@@ -558,9 +558,9 @@
    "adres": "/marki/mg/zs/"
   },
   {
-   "slug": "mg-hs",
-   "nazwa": "MG HS",
-   "adres": "/marki/mg/hs/"
+   "slug": "suzuki-s-cross",
+   "nazwa": "Suzuki S-Cross",
+   "adres": "/marki/suzuki/s-cross/"
   }
  ]
 }

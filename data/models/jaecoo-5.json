@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaecoo 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 178 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JAECOO5, JAECOO5 HYBRID, JAECOO5 EV, JAECOO5 HEV).",
-  "liczbaWPolsce": 2178,
-  "aktywne": 2178,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaecoo 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 196 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JAECOO5, JAECOO5 HYBRID, JAECOO5 EV, JAECOO5 HEV).",
+  "liczbaWPolsce": 2196,
+  "aktywne": 2196,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 215
+    "liczba": 218
    },
    {
     "teryt": "04",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "teryt": "06",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 105
+    "liczba": 106
    },
    {
     "teryt": "10",
@@ -37,19 +37,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 138
+    "liczba": 139
    },
    {
     "teryt": "14",
-    "liczba": 307
+    "liczba": 308
    },
    {
     "teryt": "16",
-    "liczba": 55
+    "liczba": 56
    },
    {
     "teryt": "18",
-    "liczba": 79
+    "liczba": 80
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 174
+    "liczba": 176
    },
    {
     "teryt": "24",
-    "liczba": 280
+    "liczba": 281
    },
    {
     "teryt": "26",
@@ -69,15 +69,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 85
+    "liczba": 88
    },
    {
     "teryt": "30",
-    "liczba": 255
+    "liczba": 257
    },
    {
     "teryt": "32",
-    "liczba": 89
+    "liczba": 90
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 440
+    "liczba": 458
    }
   ],
   "paliwa": [
@@ -98,7 +98,7 @@
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 434
+    "liczba": 452
    },
    {
     "nazwa": "Elektryczny",
@@ -116,7 +116,7 @@
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 437
+    "liczba": 455
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,7 +126,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1896
+    "liczba": 1913
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -134,17 +134,17 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 17
+    "liczba": 18
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2178
+    "liczba": 2196
    }
   ],
-  "noweOdPaczki": 2178,
-  "hybrydy": 434,
+  "noweOdPaczki": 2196,
+  "hybrydy": 452,
   "elektryczne": 129,
   "pierwszeRejestracje": [
    {
@@ -153,7 +153,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1966
+    "liczba": 1984
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -490,7 +490,7 @@
     "liczba": 127
    }
   ],
-  "miejsce": 598,
+  "miejsce": 596,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
   "sredniRocznik": 2025.2
@@ -499,7 +499,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "jaecoo",
  "modelSlug": "5",
@@ -511,6 +511,11 @@
    "adres": "/marki/omoda/5/"
   },
   {
+   "slug": "renault-symbioz",
+   "nazwa": "Renault Symbioz",
+   "adres": "/marki/renault/symbioz/"
+  },
+  {
    "slug": "mg-hs",
    "nazwa": "MG HS",
    "adres": "/marki/mg/hs/"
@@ -519,11 +524,6 @@
    "slug": "chery-tiggo-7",
    "nazwa": "Chery Tiggo 7",
    "adres": "/marki/chery/tiggo-7/"
-  },
-  {
-   "slug": "renault-symbioz",
-   "nazwa": "Renault Symbioz",
-   "adres": "/marki/renault/symbioz/"
   },
   {
    "slug": "kia-k4",

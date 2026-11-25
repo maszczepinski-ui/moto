@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 661 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL, SEAL).",
-  "liczbaWPolsce": 661,
-  "aktywne": 661,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 670 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL, SEAL).",
+  "liczbaWPolsce": 670,
+  "aktywne": 670,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 59
+    "liczba": 62
    },
    {
     "teryt": "04",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "14",
-    "liczba": 183
+    "liczba": 184
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 47
+    "liczba": 49
    },
    {
     "teryt": "24",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 68
+    "liczba": 69
    },
    {
     "teryt": "32",
-    "liczba": 23
+    "liczba": 24
    }
   ],
   "bezWojewodztwa": 0,
@@ -96,13 +96,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 86
+    "liczba": 95
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 645
+    "liczba": 654
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -120,13 +120,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 645
+    "liczba": 654
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 584
+    "liczba": 592
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -138,13 +138,13 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 646
+    "liczba": 655
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -155,9 +155,9 @@
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 661,
+  "noweOdPaczki": 670,
   "hybrydy": 14,
-  "elektryczne": 645,
+  "elektryczne": 654,
   "pierwszeRejestracje": [
    {
     "rok": 2024,
@@ -169,7 +169,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 256
+    "liczba": 265
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -506,8 +506,8 @@
     "liczba": 45
    }
   ],
-  "miejsce": 893,
-  "miejsceWMarce": 7,
+  "miejsce": 890,
+  "miejsceWMarce": 6,
   "modeliWMarce": 8,
   "sredniRocznik": 2024.7
  },
@@ -515,7 +515,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "seal",

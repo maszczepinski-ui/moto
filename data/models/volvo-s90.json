@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo S90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 938 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S90, S90 T8 TWIN ENGINE).",
-  "liczbaWPolsce": 4940,
-  "aktywne": 4798,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo S90 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 951 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S90, S90 T8 TWIN ENGINE).",
+  "liczbaWPolsce": 4953,
+  "aktywne": 4811,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 405
+    "liczba": 406
    },
    {
     "teryt": "04",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 272
+    "liczba": 273
    },
    {
     "teryt": "08",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 1264
+    "liczba": 1267
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 188
+    "liczba": 192
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 330
+    "liczba": 331
    },
    {
     "teryt": "24",
-    "liczba": 454
+    "liczba": 456
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 425
+    "liczba": 426
    },
    {
     "teryt": "32",
@@ -164,19 +164,19 @@
    },
    {
     "rok": 2017,
-    "liczba": 1084
+    "liczba": 1087
    },
    {
     "rok": 2018,
-    "liczba": 913
+    "liczba": 919
    },
    {
     "rok": 2019,
-    "liczba": 478
+    "liczba": 479
    },
    {
     "rok": 2020,
-    "liczba": 554
+    "liczba": 555
    },
    {
     "rok": 2021,
@@ -188,25 +188,25 @@
    },
    {
     "rok": 2023,
-    "liczba": 334
+    "liczba": 335
    },
    {
     "rok": 2024,
-    "liczba": 355
+    "liczba": 356
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 2109
+    "liczba": 2113
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1626
+    "liczba": 1634
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 770
+    "liczba": 771
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
@@ -224,7 +224,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 4825
+    "liczba": 4836
    },
    {
     "nazwa": "2,9 l",
@@ -232,7 +232,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 17
+    "liczba": 19
    }
   ],
   "pochodzenie": [
@@ -246,7 +246,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1385
+    "liczba": 1398
    },
    {
     "nazwa": "Inne / brak danych",
@@ -256,19 +256,19 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 4804
+    "liczba": 4813
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 52
+    "liczba": 54
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 84
+    "liczba": 86
    }
   ],
-  "noweOdPaczki": 3938,
-  "hybrydy": 1132,
+  "noweOdPaczki": 3951,
+  "hybrydy": 1133,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -301,7 +301,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 257
+    "liczba": 270
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -638,7 +638,7 @@
     "liczba": 26
    }
   ],
-  "miejsce": 445,
+  "miejsce": 446,
   "miejsceWMarce": 15,
   "modeliWMarce": 34,
   "sredniRocznik": 2018.9
@@ -647,7 +647,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "s90",

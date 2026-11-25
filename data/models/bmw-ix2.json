@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW IX2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 170 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX2 EDRIVE20, IX2 XDRIVE30).",
-  "liczbaWPolsce": 2170,
-  "aktywne": 2170,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW IX2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 177 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX2 EDRIVE20, IX2 XDRIVE30).",
+  "liczbaWPolsce": 2177,
+  "aktywne": 2177,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "teryt": "04",
-    "liczba": 74
+    "liczba": 75
    },
    {
     "teryt": "06",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 253
+    "liczba": 254
    },
    {
     "teryt": "14",
-    "liczba": 492
+    "liczba": 495
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 99
+    "liczba": 100
    },
    {
     "teryt": "24",
@@ -88,33 +88,33 @@
    },
    {
     "rok": 2024,
-    "liczba": 128
+    "liczba": 129
    },
    {
     "rok": 2025,
-    "liczba": 1259
+    "liczba": 1260
    },
    {
     "rok": 2026,
-    "liczba": 772
+    "liczba": 777
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2170
+    "liczba": 2177
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2170
+    "liczba": 2177
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2095
+    "liczba": 2100
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -122,22 +122,22 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 15
+    "liczba": 17
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2166
+    "liczba": 2173
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 2170,
+  "noweOdPaczki": 2177,
   "hybrydy": 0,
-  "elektryczne": 2168,
+  "elektryczne": 2175,
   "pierwszeRejestracje": [
    {
     "rok": 2024,
@@ -149,7 +149,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 812
+    "liczba": 819
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -495,7 +495,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "ix2",

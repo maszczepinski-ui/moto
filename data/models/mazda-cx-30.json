@@ -10,143 +10,143 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-30 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 764 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-30, MAZDA CX-30).",
-  "liczbaWPolsce": 20950,
-  "aktywne": 20950,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-30 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 877 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CX-30, MAZDA CX-30).",
+  "liczbaWPolsce": 21063,
+  "aktywne": 21063,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1643
+    "liczba": 1646
    },
    {
     "teryt": "04",
-    "liczba": 922
+    "liczba": 926
    },
    {
     "teryt": "06",
-    "liczba": 733
+    "liczba": 737
    },
    {
     "teryt": "08",
-    "liczba": 519
+    "liczba": 526
    },
    {
     "teryt": "10",
-    "liczba": 1222
+    "liczba": 1228
    },
    {
     "teryt": "12",
-    "liczba": 1838
+    "liczba": 1853
    },
    {
     "teryt": "14",
-    "liczba": 3888
+    "liczba": 3902
    },
    {
     "teryt": "16",
-    "liczba": 445
+    "liczba": 449
    },
    {
     "teryt": "18",
-    "liczba": 965
+    "liczba": 972
    },
    {
     "teryt": "20",
-    "liczba": 503
+    "liczba": 509
    },
    {
     "teryt": "22",
-    "liczba": 1233
+    "liczba": 1240
    },
    {
     "teryt": "24",
-    "liczba": 3588
+    "liczba": 3605
    },
    {
     "teryt": "26",
-    "liczba": 518
+    "liczba": 521
    },
    {
     "teryt": "28",
-    "liczba": 438
+    "liczba": 440
    },
    {
     "teryt": "30",
-    "liczba": 1697
+    "liczba": 1709
    },
    {
     "teryt": "32",
-    "liczba": 798
+    "liczba": 800
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 2424
+    "liczba": 2430
    },
    {
     "rok": 2020,
-    "liczba": 2535
+    "liczba": 2543
    },
    {
     "rok": 2021,
-    "liczba": 4162
+    "liczba": 4174
    },
    {
     "rok": 2022,
-    "liczba": 2438
+    "liczba": 2450
    },
    {
     "rok": 2023,
-    "liczba": 2464
+    "liczba": 2467
    },
    {
     "rok": 2024,
-    "liczba": 3215
+    "liczba": 3222
    },
    {
     "rok": 2025,
-    "liczba": 2110
+    "liczba": 2111
    },
    {
     "rok": 2026,
-    "liczba": 1453
+    "liczba": 1516
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 13217
+    "liczba": 13291
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 7565
+    "liczba": 7603
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 168
+    "liczba": 169
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 19642
+    "liczba": 19714
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 1215
+    "liczba": 1253
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 93
+    "liczba": 96
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 12225
+    "liczba": 12287
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -154,33 +154,33 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2596
+    "liczba": 2646
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 67
+    "liczba": 68
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 19754
+    "liczba": 19855
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 573
+    "liczba": 577
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 519
+    "liczba": 525
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 104
+    "liczba": 106
    }
   ],
-  "noweOdPaczki": 20764,
-  "hybrydy": 7535,
+  "noweOdPaczki": 20877,
+  "hybrydy": 7573,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -213,7 +213,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 3127
+    "liczba": 3240
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -559,7 +559,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "cx-30",

@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Leapmotor B10 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 170 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B10).",
-  "liczbaWPolsce": 1170,
-  "aktywne": 1170,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Leapmotor B10 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 208 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B10).",
+  "liczbaWPolsce": 1208,
+  "aktywne": 1208,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 66
+    "liczba": 71
    },
    {
     "teryt": "04",
-    "liczba": 49
+    "liczba": 52
    },
    {
     "teryt": "06",
@@ -33,23 +33,23 @@
    },
    {
     "teryt": "10",
-    "liczba": 82
+    "liczba": 84
    },
    {
     "teryt": "12",
-    "liczba": 98
+    "liczba": 103
    },
    {
     "teryt": "14",
-    "liczba": 194
+    "liczba": 198
    },
    {
     "teryt": "16",
-    "liczba": 13
+    "liczba": 14
    },
    {
     "teryt": "18",
-    "liczba": 62
+    "liczba": 66
    },
    {
     "teryt": "20",
@@ -57,15 +57,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 57
+    "liczba": 59
    },
    {
     "teryt": "24",
-    "liczba": 177
+    "liczba": 182
    },
    {
     "teryt": "26",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "teryt": "28",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 167
+    "liczba": 169
    },
    {
     "teryt": "32",
-    "liczba": 60
+    "liczba": 64
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,17 +88,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 606
+    "liczba": 644
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1032
+    "liczba": 1066
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 130
+    "liczba": 134
    },
    {
     "nazwa": "Inne / brak danych",
@@ -108,21 +108,21 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 230
+    "liczba": 240
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 940
+    "liczba": 968
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1085
+    "liczba": 1118
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 61
+    "liczba": 66
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -136,16 +136,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1165
+    "liczba": 1203
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 1170,
-  "hybrydy": 130,
-  "elektryczne": 1032,
+  "noweOdPaczki": 1208,
+  "hybrydy": 134,
+  "elektryczne": 1066,
   "pierwszeRejestracje": [
    {
     "rok": 2022,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 837
+    "liczba": 875
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -498,16 +498,16 @@
     "liczba": 131
    }
   ],
-  "miejsce": 758,
+  "miejsce": 748,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
-  "sredniRocznik": 2025.4
+  "sredniRocznik": 2025.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "leapmotor",
  "modelSlug": "b10",
@@ -534,9 +534,9 @@
    "adres": "/marki/citroen/e-c3/"
   },
   {
-   "slug": "bmw-ix1",
-   "nazwa": "BMW IX1",
-   "adres": "/marki/bmw/ix1/"
+   "slug": "dacia-spring",
+   "nazwa": "Dacia Spring",
+   "adres": "/marki/dacia/spring/"
   }
  ]
 }

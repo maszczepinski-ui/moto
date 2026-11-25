@@ -11,38 +11,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model S – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 116 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL S, MODEL S 85, MODEL S 90D, MODEL S 75D, MODEL S 70).",
-  "liczbaWPolsce": 2116,
-  "aktywne": 2116,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model S – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 146 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL S, MODEL S 85, MODEL S 90D, MODEL S 75D, MODEL S 85 D P).",
+  "liczbaWPolsce": 2146,
+  "aktywne": 2146,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 111
+    "liczba": 113
    },
    {
     "teryt": "04",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "06",
-    "liczba": 150
+    "liczba": 151
    },
    {
     "teryt": "08",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "10",
-    "liczba": 76
+    "liczba": 79
    },
    {
     "teryt": "12",
-    "liczba": 259
+    "liczba": 262
    },
    {
     "teryt": "14",
-    "liczba": 558
+    "liczba": 569
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 100
+    "liczba": 102
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 111
+    "liczba": 112
    },
    {
     "teryt": "24",
-    "liczba": 218
+    "liczba": 220
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 220
+    "liczba": 223
    },
    {
     "teryt": "32",
@@ -85,31 +85,31 @@
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 113
+    "liczba": 116
    },
    {
     "rok": 2014,
-    "liczba": 226
+    "liczba": 228
    },
    {
     "rok": 2015,
-    "liczba": 323
+    "liczba": 330
    },
    {
     "rok": 2016,
-    "liczba": 314
+    "liczba": 317
    },
    {
     "rok": 2017,
-    "liczba": 292
+    "liczba": 299
    },
    {
     "rok": 2018,
-    "liczba": 262
+    "liczba": 266
    },
    {
     "rok": 2019,
-    "liczba": 100
+    "liczba": 101
    },
    {
     "rok": 2020,
@@ -117,15 +117,15 @@
    },
    {
     "rok": 2021,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 2022,
-    "liczba": 98
+    "liczba": 99
    },
    {
     "rok": 2023,
-    "liczba": 196
+    "liczba": 197
    },
    {
     "rok": 2024,
@@ -143,19 +143,19 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2116
+    "liczba": 2146
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2116
+    "liczba": 2146
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1234
+    "liczba": 1264
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -173,11 +173,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1526
+    "liczba": 1549
    },
    {
     "nazwa": "Sedan",
-    "liczba": 465
+    "liczba": 472
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -192,9 +192,9 @@
     "liczba": 26
    }
   ],
-  "noweOdPaczki": 2116,
+  "noweOdPaczki": 2146,
   "hybrydy": 0,
-  "elektryczne": 2116,
+  "elektryczne": 2146,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -226,7 +226,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 465
+    "liczba": 495
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -563,7 +563,7 @@
     "liczba": 54
    }
   ],
-  "miejsce": 610,
+  "miejsce": 604,
   "miejsceWMarce": 3,
   "modeliWMarce": 4,
   "sredniRocznik": 2017.4
@@ -572,7 +572,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "tesla",
  "modelSlug": "model-s",

@@ -10,58 +10,58 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chery Tiggo 7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 000 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIGGO7, TIGGO7 HYBRID, TIGGO 7, TIGGO7 PHEV, TIGGO7 HYBIRD).",
-  "liczbaWPolsce": 4000,
-  "aktywne": 4000,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chery Tiggo 7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 107 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIGGO7, TIGGO7 HYBRID, TIGGO 7, TIGGO7 PHEV, TIGGO7 HYBIRD).",
+  "liczbaWPolsce": 4107,
+  "aktywne": 4107,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 332
+    "liczba": 341
    },
    {
     "teryt": "04",
-    "liczba": 246
+    "liczba": 251
    },
    {
     "teryt": "06",
-    "liczba": 210
+    "liczba": 215
    },
    {
     "teryt": "08",
-    "liczba": 114
+    "liczba": 125
    },
    {
     "teryt": "10",
-    "liczba": 248
+    "liczba": 256
    },
    {
     "teryt": "12",
-    "liczba": 360
+    "liczba": 361
    },
    {
     "teryt": "14",
-    "liczba": 587
+    "liczba": 602
    },
    {
     "teryt": "16",
-    "liczba": 119
+    "liczba": 122
    },
    {
     "teryt": "18",
-    "liczba": 255
+    "liczba": 261
    },
    {
     "teryt": "20",
-    "liczba": 106
+    "liczba": 111
    },
    {
     "teryt": "22",
-    "liczba": 246
+    "liczba": 255
    },
    {
     "teryt": "24",
-    "liczba": 451
+    "liczba": 467
    },
    {
     "teryt": "26",
@@ -69,36 +69,36 @@
    },
    {
     "teryt": "28",
-    "liczba": 79
+    "liczba": 81
    },
    {
     "teryt": "30",
-    "liczba": 315
+    "liczba": 321
    },
    {
     "teryt": "32",
-    "liczba": 258
+    "liczba": 264
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 2601
+    "liczba": 2602
    },
    {
     "rok": 2026,
-    "liczba": 1397
+    "liczba": 1502
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 3127
+    "liczba": 3228
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 871
+    "liczba": 877
    },
    {
     "nazwa": "Inne / brak danych",
@@ -108,17 +108,17 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 3178
+    "liczba": 3281
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 822
+    "liczba": 826
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 3598
+    "liczba": 3703
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -126,21 +126,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 26
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3996
+    "liczba": 4102
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 5
    }
   ],
-  "noweOdPaczki": 4000,
-  "hybrydy": 3127,
+  "noweOdPaczki": 4107,
+  "hybrydy": 3228,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -149,7 +149,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 3103
+    "liczba": 3210
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -486,16 +486,16 @@
     "liczba": 509
    }
   ],
-  "miejsce": 488,
+  "miejsce": 484,
   "miejsceWMarce": 1,
   "modeliWMarce": 4,
-  "sredniRocznik": 2025.3
+  "sredniRocznik": 2025.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "chery",
  "modelSlug": "tiggo-7",
@@ -507,24 +507,24 @@
    "adres": "/marki/mg/hs/"
   },
   {
-   "slug": "jaecoo-7",
-   "nazwa": "Jaecoo 7",
-   "adres": "/marki/jaecoo/7/"
-  },
-  {
-   "slug": "mg-zs",
-   "nazwa": "MG ZS",
-   "adres": "/marki/mg/zs/"
-  },
-  {
    "slug": "dacia-bigster",
    "nazwa": "Dacia Bigster",
    "adres": "/marki/dacia/bigster/"
   },
   {
+   "slug": "jaecoo-7",
+   "nazwa": "Jaecoo 7",
+   "adres": "/marki/jaecoo/7/"
+  },
+  {
    "slug": "geely-starray",
    "nazwa": "Geely Starray",
    "adres": "/marki/geely/starray/"
+  },
+  {
+   "slug": "mg-zs",
+   "nazwa": "MG ZS",
+   "adres": "/marki/mg/zs/"
   }
  ]
 }

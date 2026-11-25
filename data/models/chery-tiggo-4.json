@@ -10,58 +10,58 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chery Tiggo 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 816 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIGGO 4 HYBRID).",
-  "liczbaWPolsce": 2816,
-  "aktywne": 2816,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chery Tiggo 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 863 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TIGGO 4 HYBRID).",
+  "liczbaWPolsce": 2863,
+  "aktywne": 2863,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 202
+    "liczba": 206
    },
    {
     "teryt": "04",
-    "liczba": 191
+    "liczba": 192
    },
    {
     "teryt": "06",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "08",
-    "liczba": 70
+    "liczba": 72
    },
    {
     "teryt": "10",
-    "liczba": 188
+    "liczba": 193
    },
    {
     "teryt": "12",
-    "liczba": 273
+    "liczba": 279
    },
    {
     "teryt": "14",
-    "liczba": 426
+    "liczba": 429
    },
    {
     "teryt": "16",
-    "liczba": 87
+    "liczba": 89
    },
    {
     "teryt": "18",
-    "liczba": 138
+    "liczba": 143
    },
    {
     "teryt": "20",
-    "liczba": 61
+    "liczba": 63
    },
    {
     "teryt": "22",
-    "liczba": 166
+    "liczba": 171
    },
    {
     "teryt": "24",
-    "liczba": 366
+    "liczba": 370
    },
    {
     "teryt": "26",
@@ -69,36 +69,36 @@
    },
    {
     "teryt": "28",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "30",
-    "liczba": 269
+    "liczba": 272
    },
    {
     "teryt": "32",
-    "liczba": 157
+    "liczba": 160
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 2394
+    "liczba": 2395
    },
    {
     "rok": 2026,
-    "liczba": 421
+    "liczba": 467
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 2740
+    "liczba": 2784
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 74
+    "liczba": 77
    },
    {
     "nazwa": "Inne / brak danych",
@@ -108,13 +108,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 2816
+    "liczba": 2863
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2569
+    "liczba": 2615
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -126,17 +126,17 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2816
+    "liczba": 2863
    }
   ],
-  "noweOdPaczki": 2816,
-  "hybrydy": 2740,
+  "noweOdPaczki": 2863,
+  "hybrydy": 2784,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -145,7 +145,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 2378
+    "liczba": 2425
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -482,16 +482,16 @@
     "liczba": 209
    }
   ],
-  "miejsce": 543,
+  "miejsce": 539,
   "miejsceWMarce": 3,
   "modeliWMarce": 4,
-  "sredniRocznik": 2025.1
+  "sredniRocznik": 2025.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "chery",
  "modelSlug": "tiggo-4",
@@ -508,9 +508,9 @@
    "adres": "/marki/mg/zs/"
   },
   {
-   "slug": "jaecoo-7",
-   "nazwa": "Jaecoo 7",
-   "adres": "/marki/jaecoo/7/"
+   "slug": "dacia-bigster",
+   "nazwa": "Dacia Bigster",
+   "adres": "/marki/dacia/bigster/"
   },
   {
    "slug": "mg-3",
@@ -518,9 +518,9 @@
    "adres": "/marki/mg/3/"
   },
   {
-   "slug": "dacia-bigster",
-   "nazwa": "Dacia Bigster",
-   "adres": "/marki/dacia/bigster/"
+   "slug": "geely-starray",
+   "nazwa": "Geely Starray",
+   "adres": "/marki/geely/starray/"
   }
  ]
 }

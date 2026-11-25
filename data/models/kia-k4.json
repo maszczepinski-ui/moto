@@ -11,38 +11,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia K4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 940 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: K4, K4 SPORTSWAGON).",
-  "liczbaWPolsce": 2940,
-  "aktywne": 2940,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia K4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 122 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: K4, K4 SPORTSWAGON).",
+  "liczbaWPolsce": 3122,
+  "aktywne": 3122,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 124
+    "liczba": 131
    },
    {
     "teryt": "04",
-    "liczba": 86
+    "liczba": 89
    },
    {
     "teryt": "06",
-    "liczba": 54
+    "liczba": 56
    },
    {
     "teryt": "08",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "10",
-    "liczba": 198
+    "liczba": 223
    },
    {
     "teryt": "12",
-    "liczba": 164
+    "liczba": 171
    },
    {
     "teryt": "14",
-    "liczba": 1291
+    "liczba": 1401
    },
    {
     "teryt": "16",
@@ -50,11 +50,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 50
+    "liczba": 53
    },
    {
     "teryt": "20",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "22",
@@ -62,19 +62,19 @@
    },
    {
     "teryt": "24",
-    "liczba": 282
+    "liczba": 289
    },
    {
     "teryt": "26",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "teryt": "28",
-    "liczba": 48
+    "liczba": 52
    },
    {
     "teryt": "30",
-    "liczba": 281
+    "liczba": 292
    },
    {
     "teryt": "32",
@@ -85,23 +85,23 @@
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 809
+    "liczba": 810
    },
    {
     "rok": 2026,
-    "liczba": 2130
+    "liczba": 2311
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2940
+    "liczba": 3122
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 2930
+    "liczba": 3112
    },
    {
     "nazwa": "Inne / brak danych",
@@ -111,7 +111,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2855
+    "liczba": 3036
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -119,24 +119,24 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 24
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1581
+    "liczba": 1655
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1358
+    "liczba": 1466
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 2940,
+  "noweOdPaczki": 3122,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -146,7 +146,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 2746
+    "liczba": 2928
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -483,7 +483,7 @@
     "liczba": 406
    }
   ],
-  "miejsce": 535,
+  "miejsce": 525,
   "miejsceWMarce": 16,
   "modeliWMarce": 33,
   "sredniRocznik": 2025.7
@@ -492,21 +492,21 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "k4",
  "adres": "/marki/kia/k4/",
  "konkurenci": [
   {
-   "slug": "jaecoo-7",
-   "nazwa": "Jaecoo 7",
-   "adres": "/marki/jaecoo/7/"
-  },
-  {
    "slug": "renault-symbioz",
    "nazwa": "Renault Symbioz",
    "adres": "/marki/renault/symbioz/"
+  },
+  {
+   "slug": "jaecoo-7",
+   "nazwa": "Jaecoo 7",
+   "adres": "/marki/jaecoo/7/"
   },
   {
    "slug": "chery-tiggo-7",

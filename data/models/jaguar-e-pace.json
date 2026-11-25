@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar E-Pace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 307 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: E-PACE).",
-  "liczbaWPolsce": 1735,
-  "aktywne": 1735,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaguar E-Pace – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 321 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: E-PACE).",
+  "liczbaWPolsce": 1749,
+  "aktywne": 1749,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -26,23 +26,23 @@
    },
    {
     "teryt": "06",
-    "liczba": 41
+    "liczba": 43
    },
    {
     "teryt": "08",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "10",
-    "liczba": 103
+    "liczba": 104
    },
    {
     "teryt": "12",
-    "liczba": 152
+    "liczba": 153
    },
    {
     "teryt": "14",
-    "liczba": 416
+    "liczba": 419
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 65
+    "liczba": 68
    },
    {
     "teryt": "20",
@@ -62,11 +62,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 222
+    "liczba": 224
    },
    {
     "teryt": "26",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "28",
@@ -89,41 +89,41 @@
    },
    {
     "rok": 2018,
-    "liczba": 406
+    "liczba": 409
    },
    {
     "rok": 2019,
-    "liczba": 651
+    "liczba": 653
    },
    {
     "rok": 2020,
-    "liczba": 254
+    "liczba": 258
    },
    {
     "rok": 2021,
-    "liczba": 198
+    "liczba": 199
    },
    {
     "rok": 2022,
-    "liczba": 106
+    "liczba": 107
    },
    {
     "rok": 2023,
-    "liczba": 35
+    "liczba": 37
    },
    {
     "rok": 2024,
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 816
+    "liczba": 822
    },
    {
     "nazwa": "Diesel",
-    "liczba": 730
+    "liczba": 735
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -131,7 +131,7 @@
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 49
+    "liczba": 52
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,11 +141,15 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1621
+    "liczba": 1634
    },
    {
     "nazwa": "1,5 l",
     "liczba": 114
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pochodzenie": [
@@ -159,7 +163,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 547
+    "liczba": 561
    },
    {
     "nazwa": "Inne / brak danych",
@@ -169,11 +173,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1510
+    "liczba": 1521
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 118
+    "liczba": 120
    },
    {
     "nazwa": "Hatchback",
@@ -181,15 +185,15 @@
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 40
    }
   ],
-  "noweOdPaczki": 1307,
-  "hybrydy": 179,
+  "noweOdPaczki": 1321,
+  "hybrydy": 182,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -222,7 +226,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 185
+    "liczba": 199
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -559,7 +563,7 @@
     "liczba": 28
    }
   ],
-  "miejsce": 662,
+  "miejsce": 661,
   "miejsceWMarce": 7,
   "modeliWMarce": 18,
   "sredniRocznik": 2019.4
@@ -568,7 +572,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "jaguar",
  "modelSlug": "e-pace",

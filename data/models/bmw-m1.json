@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 100 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M135I XDRIVE, M135 XDRIVE, M135I, M140I XDRIVE, M140I).",
-  "liczbaWPolsce": 1100,
-  "aktywne": 1100,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M1 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 106 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M135I XDRIVE, M135 XDRIVE, M135I, M140I XDRIVE, M140I).",
+  "liczbaWPolsce": 1106,
+  "aktywne": 1106,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 103
+    "liczba": 106
    },
    {
     "teryt": "04",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 239
+    "liczba": 240
    },
    {
     "teryt": "16",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "24",
-    "liczba": 153
+    "liczba": 154
    },
    {
     "teryt": "26",
@@ -137,21 +137,21 @@
    },
    {
     "rok": 2024,
-    "liczba": 122
+    "liczba": 123
    },
    {
     "rok": 2025,
-    "liczba": 120
+    "liczba": 122
    },
    {
     "rok": 2026,
-    "liczba": 42
+    "liczba": 45
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1092
+    "liczba": 1098
    },
    {
     "nazwa": "Inne / brak danych",
@@ -161,7 +161,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 913
+    "liczba": 919
    },
    {
     "nazwa": "3,0 l",
@@ -179,11 +179,11 @@
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 370
+    "liczba": 372
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 221
+    "liczba": 225
    },
    {
     "nazwa": "Inne / brak danych",
@@ -193,7 +193,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1014
+    "liczba": 1020
    },
    {
     "nazwa": "Kombi",
@@ -204,7 +204,7 @@
     "liczba": 18
    }
   ],
-  "noweOdPaczki": 1100,
+  "noweOdPaczki": 1106,
   "hybrydy": 3,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -238,7 +238,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 135
+    "liczba": 141
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -575,7 +575,7 @@
     "liczba": 10
    }
   ],
-  "miejsce": 771,
+  "miejsce": 770,
   "miejsceWMarce": 28,
   "modeliWMarce": 43,
   "sredniRocznik": 2020.9
@@ -584,7 +584,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "m1",

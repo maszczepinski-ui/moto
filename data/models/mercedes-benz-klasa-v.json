@@ -11,38 +11,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 296 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V-KLASSE, V 220 CDI, V 230, V 220, V 250).",
-  "liczbaWPolsce": 12685,
-  "aktywne": 11857,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa V – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 10 342 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: V-KLASSE, V 220 CDI, V 230, V 220, V 250).",
+  "liczbaWPolsce": 12731,
+  "aktywne": 11903,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1060
+    "liczba": 1064
    },
    {
     "teryt": "04",
-    "liczba": 516
+    "liczba": 519
    },
    {
     "teryt": "06",
-    "liczba": 405
+    "liczba": 406
    },
    {
     "teryt": "08",
-    "liczba": 390
+    "liczba": 392
    },
    {
     "teryt": "10",
-    "liczba": 615
+    "liczba": 620
    },
    {
     "teryt": "12",
-    "liczba": 1098
+    "liczba": 1103
    },
    {
     "teryt": "14",
-    "liczba": 2836
+    "liczba": 2843
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 535
+    "liczba": 539
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 844
+    "liczba": 848
    },
    {
     "teryt": "24",
-    "liczba": 1173
+    "liczba": 1178
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1752
+    "liczba": 1758
    },
    {
     "teryt": "32",
@@ -161,11 +161,11 @@
    },
    {
     "rok": 2015,
-    "liczba": 322
+    "liczba": 323
    },
    {
     "rok": 2016,
-    "liczba": 425
+    "liczba": 426
    },
    {
     "rok": 2017,
@@ -177,19 +177,19 @@
    },
    {
     "rok": 2019,
-    "liczba": 1003
+    "liczba": 1004
    },
    {
     "rok": 2020,
-    "liczba": 832
+    "liczba": 833
    },
    {
     "rok": 2021,
-    "liczba": 1056
+    "liczba": 1057
    },
    {
     "rok": 2022,
-    "liczba": 1346
+    "liczba": 1348
    },
    {
     "rok": 2023,
@@ -197,21 +197,21 @@
    },
    {
     "rok": 2024,
-    "liczba": 1641
+    "liczba": 1642
    },
    {
     "rok": 2025,
-    "liczba": 1541
+    "liczba": 1542
    },
    {
     "rok": 2026,
-    "liczba": 748
+    "liczba": 785
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 12376
+    "liczba": 12422
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -225,11 +225,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 9390
+    "liczba": 9433
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 2655
+    "liczba": 2658
    },
    {
     "nazwa": "2,3 l",
@@ -247,7 +247,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6394
+    "liczba": 6431
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -255,7 +255,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1898
+    "liczba": 1907
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -269,22 +269,22 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 8894
+    "liczba": 8932
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2618
+    "liczba": 2624
    },
    {
     "nazwa": "Van",
-    "liczba": 1024
+    "liczba": 1026
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 149
    }
   ],
-  "noweOdPaczki": 10296,
+  "noweOdPaczki": 10342,
   "hybrydy": 23,
   "elektryczne": 4,
   "pierwszeRejestracje": [
@@ -318,7 +318,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1415
+    "liczba": 1461
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -664,7 +664,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "klasa-v",

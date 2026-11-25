@@ -12,18 +12,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Aveo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 100 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AVEO, AVEO KLAS, AVEO 1.2 KAT, AVEO 1.2, AVEO 1.4 KAT).",
-  "liczbaWPolsce": 26220,
-  "aktywne": 10789,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Aveo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 115 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AVEO, AVEO KLAS, AVEO 1.2 KAT, AVEO 1.2, AVEO 1.4 KAT).",
+  "liczbaWPolsce": 26235,
+  "aktywne": 10804,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1332
+    "liczba": 1333
    },
    {
     "teryt": "04",
-    "liczba": 1388
+    "liczba": 1389
    },
    {
     "teryt": "06",
@@ -35,15 +35,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 2119
+    "liczba": 2121
    },
    {
     "teryt": "12",
-    "liczba": 2562
+    "liczba": 2566
    },
    {
     "teryt": "14",
-    "liczba": 3826
+    "liczba": 3827
    },
    {
     "teryt": "16",
@@ -51,19 +51,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 1733
+    "liczba": 1735
    },
    {
     "teryt": "20",
-    "liczba": 871
+    "liczba": 872
    },
    {
     "teryt": "22",
-    "liczba": 1088
+    "liczba": 1089
    },
    {
     "teryt": "24",
-    "liczba": 5327
+    "liczba": 5328
    },
    {
     "teryt": "26",
@@ -71,7 +71,7 @@
    },
    {
     "teryt": "28",
-    "liczba": 694
+    "liczba": 695
    },
    {
     "teryt": "30",
@@ -106,7 +106,7 @@
    },
    {
     "rok": 2009,
-    "liczba": 3651
+    "liczba": 3655
    },
    {
     "rok": 2010,
@@ -114,21 +114,21 @@
    },
    {
     "rok": 2011,
-    "liczba": 5191
+    "liczba": 5196
    },
    {
     "rok": 2012,
-    "liczba": 3386
+    "liczba": 3390
    },
    {
     "rok": 2013,
-    "liczba": 1063
+    "liczba": 1065
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 20189
+    "liczba": 20204
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -146,15 +146,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 20937
+    "liczba": 20944
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 4626
+    "liczba": 4632
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 615
+    "liczba": 617
    },
    {
     "nazwa": "Inne / brak danych",
@@ -172,7 +172,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 6863
+    "liczba": 6878
    },
    {
     "nazwa": "Inne / brak danych",
@@ -182,7 +182,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 14584
+    "liczba": 14598
    },
    {
     "nazwa": "Sedan",
@@ -190,14 +190,14 @@
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3788
+    "liczba": 3789
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 327
    }
   ],
-  "noweOdPaczki": 5100,
+  "noweOdPaczki": 5115,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -231,7 +231,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 389
+    "liczba": 404
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -577,7 +577,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "aveo",

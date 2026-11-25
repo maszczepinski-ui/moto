@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Fleetwood – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 83 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FLEETWOOD, FLEETWOOD BROUGHAM, FLEETWOOD 60 SPECIAL, FLEETWOOD 75).",
-  "liczbaWPolsce": 260,
-  "aktywne": 106,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Fleetwood – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 85 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FLEETWOOD, FLEETWOOD BROUGHAM, FLEETWOOD 60 SPECIAL, FLEETWOOD 75).",
+  "liczbaWPolsce": 262,
+  "aktywne": 108,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "04",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "24",
@@ -204,7 +204,7 @@
    },
    {
     "rok": 1980,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1981,
@@ -244,7 +244,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 6
+    "liczba": 7
    },
    {
     "rok": 1991,
@@ -274,11 +274,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 205
+    "liczba": 206
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "Diesel",
@@ -316,7 +316,7 @@
    },
    {
     "nazwa": "6,0 l",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "5,0 l",
@@ -324,7 +324,7 @@
    },
    {
     "nazwa": "4,5 l",
-    "liczba": 12
+    "liczba": 13
    },
    {
     "nazwa": "Inne / brak danych",
@@ -334,7 +334,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 139
+    "liczba": 141
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -356,14 +356,14 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 203
-   },
-   {
-    "nazwa": "Kabriolet",
-    "liczba": 4
+    "liczba": 204
    },
    {
     "nazwa": "Coupe",
+    "liczba": 5
+   },
+   {
+    "nazwa": "Kabriolet",
     "liczba": 4
    },
    {
@@ -371,7 +371,7 @@
     "liczba": 49
    }
   ],
-  "noweOdPaczki": 83,
+  "noweOdPaczki": 85,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -405,7 +405,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 14
+    "liczba": 16
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -751,7 +751,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "cadillac",
  "modelSlug": "fleetwood",

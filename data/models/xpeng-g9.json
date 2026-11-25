@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe XPeng G9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 302 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: G9).",
-  "liczbaWPolsce": 302,
-  "aktywne": 302,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe XPeng G9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 313 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: G9).",
+  "liczbaWPolsce": 313,
+  "aktywne": 313,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 110
+    "liczba": 111
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 23
+    "liczba": 26
    },
    {
     "teryt": "28",
@@ -69,7 +69,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 40
+    "liczba": 47
    },
    {
     "teryt": "32",
@@ -92,29 +92,29 @@
    },
    {
     "rok": 2026,
-    "liczba": 113
+    "liczba": 124
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 302
+    "liczba": 313
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 302
+    "liczba": 313
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 275
+    "liczba": 283
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 10
+    "liczba": 13
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -128,16 +128,16 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 300
+    "liczba": 311
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 302,
+  "noweOdPaczki": 313,
   "hybrydy": 0,
-  "elektryczne": 302,
+  "elektryczne": 313,
   "pierwszeRejestracje": [
    {
     "rok": 2025,
@@ -145,7 +145,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 262
+    "liczba": 273
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -482,16 +482,16 @@
     "liczba": 32
    }
   ],
-  "miejsce": 1143,
+  "miejsce": 1135,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
-  "sredniRocznik": 2025.3
+  "sredniRocznik": 2025.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "xpeng",
  "modelSlug": "g9",

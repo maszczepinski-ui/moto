@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 730 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.5 PRO 150 KW, ID.5 PRO 210KW, ID.5 PURE 125KW, ID.5 PRO 128 KW, ID.5 GTX 220 KW).",
-  "liczbaWPolsce": 730,
-  "aktywne": 730,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 744 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.5 PRO 150 KW, ID.5 PRO 210KW, ID.5 PURE 125KW, ID.5 PRO 128 KW, ID.5 GTX 220 KW).",
+  "liczbaWPolsce": 744,
+  "aktywne": 744,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 211
+    "liczba": 219
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 54
+    "liczba": 58
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 112
+    "liczba": 114
    },
    {
     "teryt": "32",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 220
+    "liczba": 221
    },
    {
     "rok": 2024,
@@ -100,25 +100,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 69
+    "liczba": 82
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 730
+    "liczba": 744
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 730
+    "liczba": 744
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 576
+    "liczba": 589
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -126,7 +126,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,16 +136,16 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 725
+    "liczba": 739
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 730,
+  "noweOdPaczki": 744,
   "hybrydy": 0,
-  "elektryczne": 730,
+  "elektryczne": 744,
   "pierwszeRejestracje": [
    {
     "rok": 2022,
@@ -165,7 +165,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 113
+    "liczba": 127
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -502,7 +502,7 @@
     "liczba": 30
    }
   ],
-  "miejsce": 869,
+  "miejsce": 863,
   "miejsceWMarce": 45,
   "modeliWMarce": 61,
   "sredniRocznik": 2023.4
@@ -511,7 +511,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "id-5",

@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 903 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX3, IX3 50 XDRIVE, IX3 40).",
-  "liczbaWPolsce": 903,
-  "aktywne": 903,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 916 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX3, IX3 50 XDRIVE, IX3 40).",
+  "liczbaWPolsce": 916,
+  "aktywne": 916,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 31
+    "liczba": 33
    },
    {
     "teryt": "06",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "10",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 70
+    "liczba": 72
    },
    {
     "teryt": "14",
-    "liczba": 291
+    "liczba": 294
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 91
+    "liczba": 92
    },
    {
     "teryt": "26",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 90
+    "liczba": 93
    },
    {
     "teryt": "32",
-    "liczba": 36
+    "liczba": 37
    }
   ],
   "bezWojewodztwa": 0,
@@ -108,25 +108,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 277
+    "liczba": 290
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 903
+    "liczba": 916
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 903
+    "liczba": 916
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 599
+    "liczba": 612
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -144,16 +144,16 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 892
+    "liczba": 905
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 11
    }
   ],
-  "noweOdPaczki": 903,
+  "noweOdPaczki": 916,
   "hybrydy": 0,
-  "elektryczne": 903,
+  "elektryczne": 916,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -177,7 +177,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 300
+    "liczba": 313
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -514,7 +514,7 @@
     "liczba": 37
    }
   ],
-  "miejsce": 813,
+  "miejsce": 812,
   "miejsceWMarce": 31,
   "modeliWMarce": 43,
   "sredniRocznik": 2023.3
@@ -523,7 +523,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "ix3",

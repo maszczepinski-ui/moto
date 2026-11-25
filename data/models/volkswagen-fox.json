@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Fox – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 409 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FOX, FOX 1.2, FOX 1.2 KAT, FOX 1.4 TDI, FOX 1,2 KAT).",
-  "liczbaWPolsce": 14871,
-  "aktywne": 10548,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen Fox – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 422 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FOX, FOX 1.2, FOX 1.2 KAT, FOX 1.4 TDI, FOX 1,2 KAT).",
+  "liczbaWPolsce": 14884,
+  "aktywne": 10561,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1295
+    "liczba": 1298
    },
    {
     "teryt": "04",
@@ -25,11 +25,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 613
+    "liczba": 615
    },
    {
     "teryt": "08",
-    "liczba": 579
+    "liczba": 580
    },
    {
     "teryt": "10",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 1145
+    "liczba": 1146
    },
    {
     "teryt": "16",
-    "liczba": 629
+    "liczba": 630
    },
    {
     "teryt": "18",
@@ -53,11 +53,11 @@
    },
    {
     "teryt": "20",
-    "liczba": 464
+    "liczba": 465
    },
    {
     "teryt": "22",
-    "liczba": 1250
+    "liczba": 1251
    },
    {
     "teryt": "24",
@@ -69,15 +69,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 567
+    "liczba": 568
    },
    {
     "teryt": "30",
-    "liczba": 1751
+    "liczba": 1752
    },
    {
     "teryt": "32",
-    "liczba": 834
+    "liczba": 835
    }
   ],
   "bezWojewodztwa": 88,
@@ -152,19 +152,19 @@
    },
    {
     "rok": 2005,
-    "liczba": 4272
+    "liczba": 4273
    },
    {
     "rok": 2006,
-    "liczba": 3911
+    "liczba": 3916
    },
    {
     "rok": 2007,
-    "liczba": 2425
+    "liczba": 2427
    },
    {
     "rok": 2008,
-    "liczba": 1379
+    "liczba": 1380
    },
    {
     "rok": 2009,
@@ -172,21 +172,21 @@
    },
    {
     "rok": 2010,
-    "liczba": 852
+    "liczba": 855
    },
    {
     "rok": 2011,
-    "liczba": 363
+    "liczba": 364
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 12571
+    "liczba": 12583
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1374
+    "liczba": 1375
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -200,11 +200,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 11963
+    "liczba": 11974
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 2752
+    "liczba": 2754
    },
    {
     "nazwa": "Inne / brak danych",
@@ -214,7 +214,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 11330
+    "liczba": 11343
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -232,14 +232,14 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 14426
+    "liczba": 14439
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 445
    }
   ],
-  "noweOdPaczki": 6409,
+  "noweOdPaczki": 6422,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -273,7 +273,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 322
+    "liczba": 335
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -619,7 +619,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "fox",

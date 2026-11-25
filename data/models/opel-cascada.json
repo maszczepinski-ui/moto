@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Cascada – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 388 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CASCADA).",
-  "liczbaWPolsce": 388,
-  "aktywne": 388,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Cascada – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 392 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CASCADA).",
+  "liczbaWPolsce": 392,
+  "aktywne": 392,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 38
+    "liczba": 39
    },
    {
     "teryt": "12",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "24",
@@ -73,18 +73,18 @@
    },
    {
     "teryt": "30",
-    "liczba": 59
+    "liczba": 60
    },
    {
     "teryt": "32",
-    "liczba": 11
+    "liczba": 12
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2013,
-    "liczba": 141
+    "liczba": 142
    },
    {
     "rok": 2014,
@@ -92,11 +92,11 @@
    },
    {
     "rok": 2015,
-    "liczba": 63
+    "liczba": 64
    },
    {
     "rok": 2016,
-    "liczba": 43
+    "liczba": 44
    },
    {
     "rok": 2017,
@@ -108,17 +108,17 @@
    },
    {
     "rok": 2019,
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 234
+    "liczba": 237
    },
    {
     "nazwa": "Diesel",
-    "liczba": 142
+    "liczba": 143
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -128,15 +128,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 146
+    "liczba": 147
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 141
+    "liczba": 142
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 100
+    "liczba": 102
    },
    {
     "nazwa": "Inne / brak danych",
@@ -146,7 +146,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 226
+    "liczba": 230
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -156,14 +156,14 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 383
+    "liczba": 386
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 5
+    "liczba": 6
    }
   ],
-  "noweOdPaczki": 388,
+  "noweOdPaczki": 392,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -197,7 +197,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 98
+    "liczba": 102
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -534,16 +534,16 @@
     "liczba": 12
    }
   ],
-  "miejsce": 1069,
+  "miejsce": 1066,
   "miejsceWMarce": 32,
   "modeliWMarce": 33,
-  "sredniRocznik": 2014.4
+  "sredniRocznik": 2014.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "cascada",
@@ -555,24 +555,24 @@
    "adres": "/marki/mitsubishi/asx/"
   },
   {
-   "slug": "toyota-corolla",
-   "nazwa": "Toyota Corolla",
-   "adres": "/marki/toyota/corolla/"
-  },
-  {
    "slug": "nissan-qashqai",
    "nazwa": "Nissan Qashqai",
    "adres": "/marki/nissan/qashqai/"
   },
   {
-   "slug": "skoda-octavia",
-   "nazwa": "Skoda Octavia",
-   "adres": "/marki/skoda/octavia/"
+   "slug": "toyota-corolla",
+   "nazwa": "Toyota Corolla",
+   "adres": "/marki/toyota/corolla/"
   },
   {
    "slug": "kia-ceed",
    "nazwa": "Kia Ceed",
    "adres": "/marki/kia/ceed/"
+  },
+  {
+   "slug": "skoda-octavia",
+   "nazwa": "Skoda Octavia",
+   "adres": "/marki/skoda/octavia/"
   }
  ]
 }

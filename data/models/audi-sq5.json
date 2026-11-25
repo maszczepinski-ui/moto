@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi SQ5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 555 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SQ5, SQ5 SPORTBACK, SQ5 TDI, SQ5 SB, AUDI SQ5).",
-  "liczbaWPolsce": 2752,
-  "aktywne": 2710,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi SQ5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 568 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SQ5, SQ5 SPORTBACK, SQ5 TDI, SQ5 SB, AUDI SQ5).",
+  "liczbaWPolsce": 2765,
+  "aktywne": 2723,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 207
+    "liczba": 208
    },
    {
     "teryt": "04",
@@ -35,19 +35,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 149
+    "liczba": 150
    },
    {
     "teryt": "12",
-    "liczba": 283
+    "liczba": 284
    },
    {
     "teryt": "14",
-    "liczba": 551
+    "liczba": 556
    },
    {
     "teryt": "16",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "18",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 186
+    "liczba": 187
    },
    {
     "teryt": "24",
-    "liczba": 235
+    "liczba": 237
    },
    {
     "teryt": "26",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 340
+    "liczba": 341
    },
    {
     "teryt": "32",
@@ -90,15 +90,15 @@
    },
    {
     "rok": 2014,
-    "liczba": 261
+    "liczba": 264
    },
    {
     "rok": 2015,
-    "liczba": 233
+    "liczba": 235
    },
    {
     "rok": 2016,
-    "liczba": 182
+    "liczba": 183
    },
    {
     "rok": 2017,
@@ -106,7 +106,7 @@
    },
    {
     "rok": 2018,
-    "liczba": 315
+    "liczba": 316
    },
    {
     "rok": 2019,
@@ -114,7 +114,7 @@
    },
    {
     "rok": 2020,
-    "liczba": 139
+    "liczba": 140
    },
    {
     "rok": 2021,
@@ -126,11 +126,11 @@
    },
    {
     "rok": 2023,
-    "liczba": 127
+    "liczba": 128
    },
    {
     "rok": 2024,
-    "liczba": 159
+    "liczba": 160
    },
    {
     "rok": 2025,
@@ -138,25 +138,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 83
+    "liczba": 86
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1246
+    "liczba": 1253
    },
    {
     "nazwa": "Diesel",
-    "liczba": 882
+    "liczba": 885
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 391
+    "liczba": 392
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 219
+    "liczba": 221
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,17 +166,17 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 2728
+    "liczba": 2740
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 24
+    "liczba": 25
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1181
+    "liczba": 1191
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -184,7 +184,7 @@
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 678
+    "liczba": 681
    },
    {
     "nazwa": "Inne / brak danych",
@@ -194,15 +194,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1483
+    "liczba": 1490
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 643
+    "liczba": 644
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 461
+    "liczba": 464
    },
    {
     "nazwa": "Terenowy",
@@ -214,11 +214,11 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 51
+    "liczba": 53
    }
   ],
-  "noweOdPaczki": 2555,
-  "hybrydy": 605,
+  "noweOdPaczki": 2568,
+  "hybrydy": 608,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -251,7 +251,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 479
+    "liczba": 492
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -597,7 +597,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "sq5",

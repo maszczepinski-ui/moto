@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 317 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL 5 DM, SEAL 5 DM, BYD SEAL 5 DM-I).",
-  "liczbaWPolsce": 1317,
-  "aktywne": 1317,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal 5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 344 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL 5 DM, SEAL 5 DM, BYD SEAL 5 DM-I).",
+  "liczbaWPolsce": 1344,
+  "aktywne": 1344,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 131
+    "liczba": 137
    },
    {
     "teryt": "04",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 18
+    "liczba": 25
    },
    {
     "teryt": "10",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 469
+    "liczba": 482
    },
    {
     "teryt": "16",
@@ -77,24 +77,24 @@
    },
    {
     "teryt": "32",
-    "liczba": 37
+    "liczba": 38
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 1266
+    "liczba": 1274
    },
    {
     "rok": 2026,
-    "liczba": 51
+    "liczba": 70
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1285
+    "liczba": 1312
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -108,13 +108,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1317
+    "liczba": 1344
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1184
+    "liczba": 1211
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -132,15 +132,15 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1316
+    "liczba": 1343
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 1317,
-  "hybrydy": 1285,
+  "noweOdPaczki": 1344,
+  "hybrydy": 1312,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -149,7 +149,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 942
+    "liczba": 969
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -489,13 +489,13 @@
   "miejsce": 724,
   "miejsceWMarce": 4,
   "modeliWMarce": 8,
-  "sredniRocznik": 2025.0
+  "sredniRocznik": 2025.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "seal-5",
@@ -517,14 +517,14 @@
    "adres": "/marki/baic/x55/"
   },
   {
-   "slug": "baic-beijing-3",
-   "nazwa": "BAIC Beijing 3",
-   "adres": "/marki/baic/beijing-3/"
-  },
-  {
    "slug": "mg-zs",
    "nazwa": "MG ZS",
    "adres": "/marki/mg/zs/"
+  },
+  {
+   "slug": "baic-beijing-3",
+   "nazwa": "BAIC Beijing 3",
+   "adres": "/marki/baic/beijing-3/"
   }
  ]
 }

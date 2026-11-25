@@ -13,18 +13,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 307 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 559 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 307, 307 SW, 307 2.0 HDI, 307 1.6 HDI, 307 CC).",
-  "liczbaWPolsce": 85870,
-  "aktywne": 38445,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 307 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 572 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 307, 307 SW, 307 2.0 HDI, 307 1.6 HDI, 307 CC).",
+  "liczbaWPolsce": 85883,
+  "aktywne": 38458,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 5381
+    "liczba": 5383
    },
    {
     "teryt": "04",
-    "liczba": 4513
+    "liczba": 4514
    },
    {
     "teryt": "06",
@@ -32,15 +32,15 @@
    },
    {
     "teryt": "08",
-    "liczba": 2534
+    "liczba": 2535
    },
    {
     "teryt": "10",
-    "liczba": 6192
+    "liczba": 6194
    },
    {
     "teryt": "12",
-    "liczba": 7475
+    "liczba": 7476
    },
    {
     "teryt": "14",
@@ -48,11 +48,11 @@
    },
    {
     "teryt": "16",
-    "liczba": 1384
+    "liczba": 1385
    },
    {
     "teryt": "18",
-    "liczba": 6059
+    "liczba": 6061
    },
    {
     "teryt": "20",
@@ -60,7 +60,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 3741
+    "liczba": 3742
    },
    {
     "teryt": "24",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 13526
+    "liczba": 13528
    },
    {
     "teryt": "32",
@@ -91,45 +91,45 @@
    },
    {
     "rok": 2002,
-    "liczba": 12563
+    "liczba": 12564
    },
    {
     "rok": 2003,
-    "liczba": 15940
+    "liczba": 15941
    },
    {
     "rok": 2004,
-    "liczba": 14682
+    "liczba": 14686
    },
    {
     "rok": 2005,
-    "liczba": 13959
+    "liczba": 13960
    },
    {
     "rok": 2006,
-    "liczba": 11099
+    "liczba": 11101
    },
    {
     "rok": 2007,
-    "liczba": 8818
+    "liczba": 8821
    },
    {
     "rok": 2008,
-    "liczba": 1754
+    "liczba": 1755
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 44033
+    "liczba": 44035
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 30036
+    "liczba": 30046
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 11437
+    "liczba": 11438
    },
    {
     "nazwa": "Inne / brak danych",
@@ -139,15 +139,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 44951
+    "liczba": 44957
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 33493
+    "liczba": 33499
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 7276
+    "liczba": 7277
    },
    {
     "nazwa": "Inne / brak danych",
@@ -157,7 +157,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 47571
+    "liczba": 47584
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -175,19 +175,19 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 40993
+    "liczba": 41000
    },
    {
     "nazwa": "Kombi",
-    "liczba": 33813
+    "liczba": 33816
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 4223
+    "liczba": 4225
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 3093
+    "liczba": 3094
    },
    {
     "nazwa": "Sedan",
@@ -198,7 +198,7 @@
     "liczba": 2649
    }
   ],
-  "noweOdPaczki": 13559,
+  "noweOdPaczki": 13572,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -232,7 +232,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 466
+    "liczba": 479
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -578,7 +578,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "307",

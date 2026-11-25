@@ -12,34 +12,34 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford B-Max – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 580 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B-MAX).",
-  "liczbaWPolsce": 9404,
-  "aktywne": 6929,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Ford B-Max – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 601 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: B-MAX).",
+  "liczbaWPolsce": 9425,
+  "aktywne": 6950,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 695
+    "liczba": 698
    },
    {
     "teryt": "04",
-    "liczba": 409
+    "liczba": 411
    },
    {
     "teryt": "06",
-    "liczba": 363
+    "liczba": 364
    },
    {
     "teryt": "08",
-    "liczba": 303
+    "liczba": 305
    },
    {
     "teryt": "10",
-    "liczba": 452
+    "liczba": 453
    },
    {
     "teryt": "12",
-    "liczba": 878
+    "liczba": 879
    },
    {
     "teryt": "14",
@@ -47,7 +47,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 288
+    "liczba": 289
    },
    {
     "teryt": "18",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 736
+    "liczba": 739
    },
    {
     "teryt": "24",
-    "liczba": 1606
+    "liczba": 1607
    },
    {
     "teryt": "26",
@@ -75,48 +75,48 @@
    },
    {
     "teryt": "30",
-    "liczba": 1392
+    "liczba": 1396
    },
    {
     "teryt": "32",
-    "liczba": 356
+    "liczba": 358
    }
   ],
   "bezWojewodztwa": 24,
   "roczniki": [
    {
     "rok": 2012,
-    "liczba": 1043
+    "liczba": 1044
    },
    {
     "rok": 2013,
-    "liczba": 2818
+    "liczba": 2822
    },
    {
     "rok": 2014,
-    "liczba": 1752
+    "liczba": 1756
    },
    {
     "rok": 2015,
-    "liczba": 1477
+    "liczba": 1480
    },
    {
     "rok": 2016,
-    "liczba": 1352
+    "liczba": 1355
    },
    {
     "rok": 2017,
-    "liczba": 869
+    "liczba": 875
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 7402
+    "liczba": 7421
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1789
+    "liczba": 1791
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -130,19 +130,19 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 6040
+    "liczba": 6052
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1675
+    "liczba": 1682
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 941
+    "liczba": 942
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 736
+    "liczba": 737
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,7 +152,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 4799
+    "liczba": 4820
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -170,11 +170,11 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 7098
+    "liczba": 7117
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1454
+    "liczba": 1456
    },
    {
     "nazwa": "Kombi",
@@ -189,7 +189,7 @@
     "liczba": 45
    }
   ],
-  "noweOdPaczki": 5580,
+  "noweOdPaczki": 5601,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -223,7 +223,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 771
+    "liczba": 792
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -560,7 +560,7 @@
     "liczba": 89
    }
   ],
-  "miejsce": 333,
+  "miejsce": 332,
   "miejsceWMarce": 23,
   "modeliWMarce": 47,
   "sredniRocznik": 2014.2
@@ -569,7 +569,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "ford",
  "modelSlug": "b-max",

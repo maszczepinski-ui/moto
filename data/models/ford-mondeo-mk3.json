@@ -12,10 +12,10 @@
  "opisModelu": "Trzecia generacja Mondeo: sedan, liftback i kombi. Dużo przestronniejsza od poprzedniczki, solidnie zbudowana i dobrze się prowadząca. W Polsce popularna jako auto flotowe – najczęściej z benzynowym 2.0 lub dieslem 2.0 TDCi.",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
+  "stanNa": "2026-11-18",
   "jakLiczone": "Fordy Mondeo ze wszystkich nadwozi z roczników 2001–2006 – w tych latach produkowano tylko Mondeo Mk3. Pominęliśmy roczniki, w których ta generacja mieszała się z poprzednią lub następną, więc to liczba minimalna – prawdziwa jest nieco wyższa.",
-  "liczbaWPolsce": 59126,
-  "aktywne": 19401,
+  "liczbaWPolsce": 59132,
+  "aktywne": 19407,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 3269
+    "liczba": 3270
    },
    {
     "teryt": "06",
@@ -31,7 +31,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 2328
+    "liczba": 2329
    },
    {
     "teryt": "10",
@@ -39,7 +39,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 3759
+    "liczba": 3760
    },
    {
     "teryt": "14",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 3336
+    "liczba": 3337
    },
    {
     "teryt": "24",
@@ -79,14 +79,14 @@
    },
    {
     "teryt": "32",
-    "liczba": 3367
+    "liczba": 3369
    }
   ],
   "bezWojewodztwa": 114,
   "roczniki": [
    {
     "rok": 2001,
-    "liczba": 14524
+    "liczba": 14525
    },
    {
     "rok": 2002,
@@ -98,25 +98,25 @@
    },
    {
     "rok": 2004,
-    "liczba": 8699
+    "liczba": 8700
    },
    {
     "rok": 2005,
-    "liczba": 7660
+    "liczba": 7662
    },
    {
     "rok": 2006,
-    "liczba": 6213
+    "liczba": 6215
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 36952
+    "liczba": 36953
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 13474
+    "liczba": 13479
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -130,11 +130,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 42263
+    "liczba": 42265
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 13833
+    "liczba": 13835
    },
    {
     "nazwa": "2,2 l",
@@ -142,11 +142,11 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 1047
+    "liczba": 1048
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 764
+    "liczba": 765
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,7 +156,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 29412
+    "liczba": 29418
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -174,11 +174,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 30598
+    "liczba": 30599
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 17766
+    "liczba": 17771
    },
    {
     "nazwa": "Sedan",
@@ -189,7 +189,7 @@
     "liczba": 935
    }
   ],
-  "noweOdPaczki": 4829,
+  "noweOdPaczki": 4835,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -223,7 +223,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 176
+    "liczba": 182
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -567,7 +567,7 @@
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)",
   "Wymiary i wersje silnikowe: Wikipedia"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wymiary": {
   "dlugoscMm": 4731,
   "szerokoscMm": 1812,
@@ -666,14 +666,14 @@
    "adres": "/marki/audi/a4/b6/"
   },
   {
-   "slug": "renault-laguna",
-   "nazwa": "Renault Laguna",
-   "adres": "/marki/renault/laguna/"
-  },
-  {
    "slug": "volkswagen-passat",
    "nazwa": "Volkswagen Passat",
    "adres": "/marki/volkswagen/passat/"
+  },
+  {
+   "slug": "renault-laguna",
+   "nazwa": "Renault Laguna",
+   "adres": "/marki/renault/laguna/"
   },
   {
    "slug": "land-rover-freelander",

@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi S4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 404 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S4, S4 AVANT, S4 AVANT QUATTRO, S4 QUATRO, S4 LIMOUSINE).",
-  "liczbaWPolsce": 2131,
-  "aktywne": 1769,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi S4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 408 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: S4, S4 AVANT, S4 AVANT QUATTRO, S4 QUATRO, S4 LIMOUSINE).",
+  "liczbaWPolsce": 2135,
+  "aktywne": 1773,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 171
+    "liczba": 172
    },
    {
     "teryt": "04",
@@ -35,11 +35,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 112
+    "liczba": 113
    },
    {
     "teryt": "12",
-    "liczba": 228
+    "liczba": 229
    },
    {
     "teryt": "14",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 73
+    "liczba": 74
    }
   ],
   "bezWojewodztwa": 15,
@@ -154,7 +154,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2009,
@@ -178,7 +178,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 90
+    "liczba": 91
    },
    {
     "rok": 2015,
@@ -186,7 +186,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 2017,
@@ -214,7 +214,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 26
+    "liczba": 27
    },
    {
     "rok": 2024,
@@ -224,7 +224,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1747
+    "liczba": 1750
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -236,7 +236,7 @@
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 70
+    "liczba": 71
    },
    {
     "nazwa": "Inne / brak danych",
@@ -246,11 +246,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 1149
+    "liczba": 1151
    },
    {
     "nazwa": "4,2 l",
-    "liczba": 509
+    "liczba": 510
    },
    {
     "nazwa": "2,7 l",
@@ -266,13 +266,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 61
+    "liczba": 62
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1194
+    "liczba": 1198
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -294,11 +294,11 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 930
+    "liczba": 932
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 68
+    "liczba": 69
    },
    {
     "nazwa": "Hatchback",
@@ -306,11 +306,11 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 67
+    "liczba": 68
    }
   ],
-  "noweOdPaczki": 1404,
-  "hybrydy": 71,
+  "noweOdPaczki": 1408,
+  "hybrydy": 72,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -343,7 +343,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 160
+    "liczba": 164
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -680,7 +680,7 @@
     "liczba": 16
    }
   ],
-  "miejsce": 605,
+  "miejsce": 606,
   "miejsceWMarce": 24,
   "modeliWMarce": 54,
   "sredniRocznik": 2009.0
@@ -689,7 +689,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "s4",
@@ -701,14 +701,14 @@
    "adres": "/marki/lexus/gs/"
   },
   {
-   "slug": "mercedes-benz-klasa-s",
-   "nazwa": "Mercedes-Benz Klasa S",
-   "adres": "/marki/mercedes-benz/klasa-s/"
-  },
-  {
    "slug": "lexus-is",
    "nazwa": "Lexus IS",
    "adres": "/marki/lexus/is/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-s",
+   "nazwa": "Mercedes-Benz Klasa S",
+   "adres": "/marki/mercedes-benz/klasa-s/"
   },
   {
    "slug": "mercedes-benz-klasa-cls",

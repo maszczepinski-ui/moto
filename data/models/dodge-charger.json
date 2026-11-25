@@ -7,23 +7,24 @@
  "nadwozia": [
   "sedan",
   "van",
-  "coupe"
+  "coupe",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Charger – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 415 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CHARGER, CHARGER RT, CHARGER SXT, CHARGER 5.7, CHARGER 3.6 KAT).",
-  "liczbaWPolsce": 4680,
-  "aktywne": 4563,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Charger – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 456 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CHARGER, CHARGER RT, CHARGER SXT, CHARGER 5.7, CHARGER GT).",
+  "liczbaWPolsce": 4721,
+  "aktywne": 4604,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 290
+    "liczba": 291
    },
    {
     "teryt": "04",
-    "liczba": 266
+    "liczba": 269
    },
    {
     "teryt": "06",
@@ -35,15 +36,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 323
+    "liczba": 325
    },
    {
     "teryt": "12",
-    "liczba": 350
+    "liczba": 353
    },
    {
     "teryt": "14",
-    "liczba": 817
+    "liczba": 825
    },
    {
     "teryt": "16",
@@ -51,11 +52,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 272
+    "liczba": 275
    },
    {
     "teryt": "20",
-    "liczba": 177
+    "liczba": 179
    },
    {
     "teryt": "22",
@@ -63,19 +64,19 @@
    },
    {
     "teryt": "24",
-    "liczba": 536
+    "liczba": 546
    },
    {
     "teryt": "26",
-    "liczba": 136
+    "liczba": 138
    },
    {
     "teryt": "28",
-    "liczba": 140
+    "liczba": 141
    },
    {
     "teryt": "30",
-    "liczba": 443
+    "liczba": 449
    },
    {
     "teryt": "32",
@@ -266,7 +267,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 67
+    "liczba": 68
    },
    {
     "rok": 2012,
@@ -282,45 +283,45 @@
    },
    {
     "rok": 2015,
-    "liczba": 465
+    "liczba": 469
    },
    {
     "rok": 2016,
-    "liczba": 514
+    "liczba": 515
    },
    {
     "rok": 2017,
-    "liczba": 525
+    "liczba": 529
    },
    {
     "rok": 2018,
-    "liczba": 528
+    "liczba": 531
    },
    {
     "rok": 2019,
-    "liczba": 519
+    "liczba": 525
    },
    {
     "rok": 2020,
-    "liczba": 370
+    "liczba": 374
    },
    {
     "rok": 2021,
-    "liczba": 378
+    "liczba": 381
    },
    {
     "rok": 2022,
-    "liczba": 247
+    "liczba": 257
    },
    {
     "rok": 2023,
-    "liczba": 195
+    "liczba": 200
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3228
+    "liczba": 3269
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -334,15 +335,15 @@
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 1992
+    "liczba": 2012
    },
    {
     "nazwa": "5,7 l",
-    "liczba": 1609
+    "liczba": 1621
    },
    {
     "nazwa": "6,4 l",
-    "liczba": 666
+    "liczba": 671
    },
    {
     "nazwa": "6,2 l",
@@ -358,13 +359,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 215
+    "liczba": 219
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2950
+    "liczba": 2991
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -378,26 +379,26 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 3839
+    "liczba": 3871
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 286
+    "liczba": 288
    },
    {
     "nazwa": "Coupe",
-    "liczba": 257
+    "liczba": 258
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 139
+    "liczba": 144
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 159
+    "liczba": 160
    }
   ],
-  "noweOdPaczki": 4415,
+  "noweOdPaczki": 4456,
   "hybrydy": 0,
   "elektryczne": 3,
   "pierwszeRejestracje": [
@@ -431,7 +432,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 969
+    "liczba": 1010
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -768,7 +769,7 @@
     "liczba": 107
    }
   ],
-  "miejsce": 460,
+  "miejsce": 458,
   "miejsceWMarce": 5,
   "modeliWMarce": 12,
   "sredniRocznik": 2015.6
@@ -777,7 +778,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "dodge",
  "modelSlug": "charger",

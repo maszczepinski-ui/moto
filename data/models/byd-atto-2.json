@@ -11,18 +11,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Atto 2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 499 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD ATTO 2 DM-I, BYD ATTO 2, ATTO 2 DM-I).",
-  "liczbaWPolsce": 2499,
-  "aktywne": 2499,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Atto 2 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 590 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD ATTO 2 DM-I, BYD ATTO 2, ATTO 2 DM-I).",
+  "liczbaWPolsce": 2590,
+  "aktywne": 2590,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 207
+    "liczba": 209
    },
    {
     "teryt": "04",
-    "liczba": 88
+    "liczba": 94
    },
    {
     "teryt": "06",
@@ -30,43 +30,43 @@
    },
    {
     "teryt": "08",
-    "liczba": 74
+    "liczba": 79
    },
    {
     "teryt": "10",
-    "liczba": 125
+    "liczba": 134
    },
    {
     "teryt": "12",
-    "liczba": 257
+    "liczba": 261
    },
    {
     "teryt": "14",
-    "liczba": 525
+    "liczba": 543
    },
    {
     "teryt": "16",
-    "liczba": 37
+    "liczba": 40
    },
    {
     "teryt": "18",
-    "liczba": 86
+    "liczba": 90
    },
    {
     "teryt": "20",
-    "liczba": 37
+    "liczba": 43
    },
    {
     "teryt": "22",
-    "liczba": 196
+    "liczba": 204
    },
    {
     "teryt": "24",
-    "liczba": 369
+    "liczba": 382
    },
    {
     "teryt": "26",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "teryt": "28",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 254
+    "liczba": 264
    },
    {
     "teryt": "32",
-    "liczba": 106
+    "liczba": 108
    }
   ],
   "bezWojewodztwa": 0,
@@ -89,17 +89,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 1532
+    "liczba": 1623
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1505
+    "liczba": 1578
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 988
+    "liczba": 1006
    },
    {
     "nazwa": "Inne / brak danych",
@@ -109,17 +109,17 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 1511
+    "liczba": 1584
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 988
+    "liczba": 1006
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2338
+    "liczba": 2428
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -127,7 +127,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
@@ -137,16 +137,16 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1691
+    "liczba": 1782
    },
    {
     "nazwa": "Hatchback",
     "liczba": 808
    }
   ],
-  "noweOdPaczki": 2499,
-  "hybrydy": 1505,
-  "elektryczne": 988,
+  "noweOdPaczki": 2590,
+  "hybrydy": 1578,
+  "elektryczne": 1006,
   "pierwszeRejestracje": [
    {
     "rok": 2025,
@@ -154,7 +154,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1888
+    "liczba": 1979
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -491,7 +491,7 @@
     "liczba": 236
    }
   ],
-  "miejsce": 574,
+  "miejsce": 564,
   "miejsceWMarce": 3,
   "modeliWMarce": 8,
   "sredniRocznik": 2025.6
@@ -500,7 +500,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "atto-2",

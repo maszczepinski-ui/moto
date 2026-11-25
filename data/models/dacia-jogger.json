@@ -10,38 +10,38 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dacia Jogger – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 109 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JOGGER).",
-  "liczbaWPolsce": 14109,
-  "aktywne": 14109,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dacia Jogger – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 14 182 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JOGGER).",
+  "liczbaWPolsce": 14182,
+  "aktywne": 14182,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 905
+    "liczba": 911
    },
    {
     "teryt": "04",
-    "liczba": 496
+    "liczba": 502
    },
    {
     "teryt": "06",
-    "liczba": 309
+    "liczba": 314
    },
    {
     "teryt": "08",
-    "liczba": 207
+    "liczba": 209
    },
    {
     "teryt": "10",
-    "liczba": 544
+    "liczba": 549
    },
    {
     "teryt": "12",
-    "liczba": 1367
+    "liczba": 1376
    },
    {
     "teryt": "14",
-    "liczba": 4733
+    "liczba": 4754
    },
    {
     "teryt": "16",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 1096
+    "liczba": 1099
    },
    {
     "teryt": "24",
-    "liczba": 1848
+    "liczba": 1857
    },
    {
     "teryt": "26",
@@ -69,62 +69,62 @@
    },
    {
     "teryt": "28",
-    "liczba": 355
+    "liczba": 357
    },
    {
     "teryt": "30",
-    "liczba": 1034
+    "liczba": 1036
    },
    {
     "teryt": "32",
-    "liczba": 371
+    "liczba": 374
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 2500
+    "liczba": 2502
    },
    {
     "rok": 2023,
-    "liczba": 3571
+    "liczba": 3572
    },
    {
     "rok": 2024,
-    "liczba": 4002
+    "liczba": 4003
    },
    {
     "rok": 2025,
-    "liczba": 2647
+    "liczba": 2649
    },
    {
     "rok": 2026,
-    "liczba": 1387
+    "liczba": 1454
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 11210
+    "liczba": 11265
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1462
+    "liczba": 1473
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1437
+    "liczba": 1444
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 11498
+    "liczba": 11510
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 1085
+    "liczba": 1135
    },
    {
     "nazwa": "1,6 l",
@@ -132,7 +132,7 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 521
+    "liczba": 532
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,7 +142,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 11606
+    "liczba": 11673
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -150,7 +150,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 235
+    "liczba": 241
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -164,15 +164,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 14084
+    "liczba": 14157
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 25
    }
   ],
-  "noweOdPaczki": 14109,
-  "hybrydy": 1462,
+  "noweOdPaczki": 14182,
+  "hybrydy": 1473,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -193,7 +193,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 2221
+    "liczba": 2294
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -539,7 +539,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "dacia",
  "modelSlug": "jogger",

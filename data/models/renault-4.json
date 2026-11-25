@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 255 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 4, 4 E-TECH ELECTRIC, 4 GTL).",
-  "liczbaWPolsce": 495,
-  "aktywne": 269,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 258 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 4, 4 E-TECH ELECTRIC, 4 GTL).",
+  "liczbaWPolsce": 498,
+  "aktywne": 272,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "14",
-    "liczba": 205
+    "liczba": 207
    },
    {
     "teryt": "16",
@@ -377,13 +377,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 33
+    "liczba": 36
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 224
+    "liczba": 227
    },
    {
     "nazwa": "Benzyna",
@@ -417,13 +417,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 236
+    "liczba": 239
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 249
+    "liczba": 252
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -441,7 +441,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 295
+    "liczba": 298
    },
    {
     "nazwa": "Sedan",
@@ -456,9 +456,9 @@
     "liczba": 154
    }
   ],
-  "noweOdPaczki": 255,
+  "noweOdPaczki": 258,
   "hybrydy": 0,
-  "elektryczne": 224,
+  "elektryczne": 227,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -490,7 +490,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 116
+    "liczba": 119
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -827,16 +827,16 @@
     "liczba": 11
    }
   ],
-  "miejsce": 983,
+  "miejsce": 979,
   "miejsceWMarce": 40,
   "modeliWMarce": 48,
-  "sredniRocznik": 1999.0
+  "sredniRocznik": 1999.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "4",

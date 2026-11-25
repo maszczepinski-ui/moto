@@ -5,15 +5,16 @@
  "generacja": "",
  "lataProdukcji": "2012–2023",
  "nadwozia": [
-  "coupe"
+  "coupe",
+  "hatchback"
  ],
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Brz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 586 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRZ).",
-  "liczbaWPolsce": 718,
-  "aktywne": 678,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Brz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 589 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BRZ).",
+  "liczbaWPolsce": 721,
+  "aktywne": 681,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 150
+    "liczba": 152
    },
    {
     "teryt": "16",
@@ -61,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 76
+    "liczba": 77
    },
    {
     "teryt": "26",
@@ -88,7 +89,7 @@
    },
    {
     "rok": 2013,
-    "liczba": 123
+    "liczba": 125
    },
    {
     "rok": 2014,
@@ -100,7 +101,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 54
+    "liczba": 55
    },
    {
     "rok": 2017,
@@ -142,7 +143,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 716
+    "liczba": 719
    },
    {
     "nazwa": "Inne / brak danych",
@@ -152,7 +153,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 563
+    "liczba": 566
    },
    {
     "nazwa": "2,4 l",
@@ -166,7 +167,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 366
+    "liczba": 369
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -188,11 +189,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 664
+    "liczba": 666
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -207,7 +208,7 @@
     "liczba": 8
    }
   ],
-  "noweOdPaczki": 586,
+  "noweOdPaczki": 589,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -241,7 +242,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 110
+    "liczba": 113
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -578,30 +579,30 @@
     "liczba": 17
    }
   ],
-  "miejsce": 871,
+  "miejsce": 870,
   "miejsceWMarce": 9,
   "modeliWMarce": 13,
-  "sredniRocznik": 2017.4
+  "sredniRocznik": 2017.3
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "brz",
  "adres": "/marki/subaru/brz/",
  "konkurenci": [
   {
-   "slug": "audi-s3",
-   "nazwa": "Audi S3",
-   "adres": "/marki/audi/s3/"
-  },
-  {
    "slug": "mazda-cx-3",
    "nazwa": "Mazda CX-3",
    "adres": "/marki/mazda/cx-3/"
+  },
+  {
+   "slug": "audi-s3",
+   "nazwa": "Audi S3",
+   "adres": "/marki/audi/s3/"
   },
   {
    "slug": "ford-escape",

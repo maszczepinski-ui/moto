@@ -11,22 +11,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Seltos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 385 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SELTOS).",
-  "liczbaWPolsce": 385,
-  "aktywne": 385,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Seltos – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 416 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SELTOS).",
+  "liczbaWPolsce": 416,
+  "aktywne": 416,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 33
+    "liczba": 35
    },
    {
     "teryt": "04",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "06",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "08",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 31
+    "liczba": 38
    },
    {
     "teryt": "12",
@@ -42,19 +42,19 @@
    },
    {
     "teryt": "14",
-    "liczba": 65
+    "liczba": 71
    },
    {
     "teryt": "16",
-    "liczba": 10
+    "liczba": 12
    },
    {
     "teryt": "18",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "22",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 50
+    "liczba": 53
    },
    {
     "teryt": "26",
@@ -70,15 +70,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "teryt": "30",
-    "liczba": 39
+    "liczba": 43
    },
    {
     "teryt": "32",
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "bezWojewodztwa": 0,
@@ -109,17 +109,17 @@
    },
    {
     "rok": 2025,
-    "liczba": 3
+    "liczba": 4
    },
    {
     "rok": 2026,
-    "liczba": 344
+    "liczba": 374
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 383
+    "liczba": 414
    },
    {
     "nazwa": "Inne / brak danych",
@@ -129,11 +129,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 357
+    "liczba": 387
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,11 +143,11 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 336
+    "liczba": 366
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -161,11 +161,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 355
+    "liczba": 385
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Hatchback",
@@ -176,7 +176,7 @@
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 385,
+  "noweOdPaczki": 416,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -202,7 +202,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 357
+    "liczba": 388
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -539,16 +539,16 @@
     "liczba": 89
    }
   ],
-  "miejsce": 1072,
+  "miejsce": 1041,
   "miejsceWMarce": 27,
   "modeliWMarce": 33,
-  "sredniRocznik": 2025.5
+  "sredniRocznik": 2025.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "seltos",
@@ -565,6 +565,11 @@
    "adres": "/marki/cupra/leon/"
   },
   {
+   "slug": "baic-beijing-3",
+   "nazwa": "BAIC Beijing 3",
+   "adres": "/marki/baic/beijing-3/"
+  },
+  {
    "slug": "cupra-formentor",
    "nazwa": "Cupra Formentor",
    "adres": "/marki/cupra/formentor/"
@@ -573,11 +578,6 @@
    "slug": "cupra-terramar",
    "nazwa": "Cupra Terramar",
    "adres": "/marki/cupra/terramar/"
-  },
-  {
-   "slug": "baic-beijing-3",
-   "nazwa": "BAIC Beijing 3",
-   "adres": "/marki/baic/beijing-3/"
   }
  ]
 }

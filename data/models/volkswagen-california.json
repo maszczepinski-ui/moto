@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen California – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 828 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CALIFORNIA BEACH, CALIFORNIA).",
-  "liczbaWPolsce": 2121,
-  "aktywne": 2088,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen California – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 834 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CALIFORNIA BEACH, CALIFORNIA).",
+  "liczbaWPolsce": 2127,
+  "aktywne": 2094,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 368
+    "liczba": 373
    },
    {
     "teryt": "16",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 247
+    "liczba": 248
    },
    {
     "teryt": "32",
@@ -83,6 +83,34 @@
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
+   {
+    "rok": 1992,
+    "liczba": 5
+   },
+   {
+    "rok": 1993,
+    "liczba": 3
+   },
+   {
+    "rok": 1994,
+    "liczba": 1
+   },
+   {
+    "rok": 1995,
+    "liczba": 2
+   },
+   {
+    "rok": 1996,
+    "liczba": 1
+   },
+   {
+    "rok": 1997,
+    "liczba": 3
+   },
+   {
+    "rok": 1998,
+    "liczba": 1
+   },
    {
     "rok": 1999,
     "liczba": 6
@@ -193,17 +221,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 162
+    "liczba": 167
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1988
+    "liczba": 1992
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 77
+    "liczba": 79
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -217,7 +245,7 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1993
+    "liczba": 1998
    },
    {
     "nazwa": "1,5 l",
@@ -225,7 +253,7 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "nazwa": "Inne / brak danych",
@@ -235,7 +263,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1474
+    "liczba": 1479
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -243,7 +271,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 219
+    "liczba": 220
    },
    {
     "nazwa": "Inne / brak danych",
@@ -253,11 +281,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1537
+    "liczba": 1538
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 517
+    "liczba": 522
    },
    {
     "nazwa": "Van",
@@ -268,7 +296,7 @@
     "liczba": 16
    }
   ],
-  "noweOdPaczki": 1828,
+  "noweOdPaczki": 1834,
   "hybrydy": 54,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -302,7 +330,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 265
+    "liczba": 271
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -648,7 +676,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "california",

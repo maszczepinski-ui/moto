@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQA – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 873 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQA 250, EQA 300 4MATIC, EQA 350 4MATIC).",
-  "liczbaWPolsce": 2873,
-  "aktywne": 2873,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz EQA – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 874 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQA 250, EQA 300 4MATIC, EQA 350 4MATIC).",
+  "liczbaWPolsce": 2874,
+  "aktywne": 2874,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 855
+    "liczba": 856
    },
    {
     "teryt": "16",
@@ -92,7 +92,7 @@
    },
    {
     "rok": 2022,
-    "liczba": 251
+    "liczba": 252
    },
    {
     "rok": 2023,
@@ -115,12 +115,16 @@
    {
     "nazwa": "Elektryczny",
     "liczba": 2873
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2873
+    "liczba": 2874
    }
   ],
   "pochodzenie": [
@@ -134,7 +138,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -144,14 +148,14 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2861
+    "liczba": 2862
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 12
    }
   ],
-  "noweOdPaczki": 2873,
+  "noweOdPaczki": 2874,
   "hybrydy": 0,
   "elektryczne": 2873,
   "pierwszeRejestracje": [
@@ -177,7 +181,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 688
+    "liczba": 689
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -523,7 +527,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "eqa",

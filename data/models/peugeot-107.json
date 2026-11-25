@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 107 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 217 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 107, 107 1.0 KAT, 107 1.0 I, 107 1,0 KAT, 107 1.0).",
-  "liczbaWPolsce": 13252,
-  "aktywne": 7411,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 107 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 224 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 107, 107 1.0 KAT, 107 1.0 I, 107 1,0 KAT, 107 1.0).",
+  "liczbaWPolsce": 13259,
+  "aktywne": 7418,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 863
+    "liczba": 865
    },
    {
     "teryt": "04",
@@ -25,15 +25,15 @@
    },
    {
     "teryt": "06",
-    "liczba": 373
+    "liczba": 374
    },
    {
     "teryt": "08",
-    "liczba": 333
+    "liczba": 334
    },
    {
     "teryt": "10",
-    "liczba": 899
+    "liczba": 900
    },
    {
     "teryt": "12",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 584
+    "liczba": 585
    },
    {
     "teryt": "24",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 1861
+    "liczba": 1862
    },
    {
     "teryt": "32",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2006,
-    "liczba": 2779
+    "liczba": 2780
    },
    {
     "rok": 2007,
@@ -96,11 +96,11 @@
    },
    {
     "rok": 2008,
-    "liczba": 2042
+    "liczba": 2045
    },
    {
     "rok": 2009,
-    "liczba": 1773
+    "liczba": 1774
    },
    {
     "rok": 2010,
@@ -108,7 +108,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 862
+    "liczba": 864
    },
    {
     "rok": 2012,
@@ -126,11 +126,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 12463
+    "liczba": 12469
    },
    {
     "nazwa": "Diesel",
-    "liczba": 532
+    "liczba": 533
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -144,11 +144,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 12710
+    "liczba": 12716
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 528
+    "liczba": 529
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,7 +158,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 6300
+    "liczba": 6307
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -176,14 +176,14 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 13074
+    "liczba": 13080
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 178
+    "liczba": 179
    }
   ],
-  "noweOdPaczki": 4217,
+  "noweOdPaczki": 4224,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -217,7 +217,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 304
+    "liczba": 311
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -563,7 +563,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "107",

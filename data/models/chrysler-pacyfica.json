@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Pacyfica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 253 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PACYFICA, PACYFICA 3.6).",
-  "liczbaWPolsce": 253,
-  "aktywne": 253,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Pacyfica – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 264 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PACYFICA, PACYFICA 3.6).",
+  "liczbaWPolsce": 264,
+  "aktywne": 264,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 8
+    "liczba": 10
    },
    {
     "teryt": "04",
@@ -30,11 +30,11 @@
    },
    {
     "teryt": "08",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "10",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 67
+    "liczba": 71
    },
    {
     "teryt": "16",
@@ -50,11 +50,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "20",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "22",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "teryt": "32",
@@ -133,11 +133,11 @@
    },
    {
     "rok": 2017,
-    "liczba": 39
+    "liczba": 40
    },
    {
     "rok": 2018,
-    "liczba": 34
+    "liczba": 36
    },
    {
     "rok": 2019,
@@ -145,23 +145,23 @@
    },
    {
     "rok": 2020,
-    "liczba": 31
-   },
-   {
-    "rok": 2021,
-    "liczba": 34
-   },
-   {
-    "rok": 2022,
     "liczba": 33
    },
    {
+    "rok": 2021,
+    "liczba": 36
+   },
+   {
+    "rok": 2022,
+    "liczba": 34
+   },
+   {
     "rok": 2023,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 2024,
-    "liczba": 5
+    "liczba": 7
    },
    {
     "rok": 2025,
@@ -175,7 +175,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 177
+    "liczba": 187
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -183,7 +183,7 @@
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 22
+    "liczba": 23
    },
    {
     "nazwa": "Inne / brak danych",
@@ -193,7 +193,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,6 l",
-    "liczba": 245
+    "liczba": 254
    },
    {
     "nazwa": "3,5 l",
@@ -201,13 +201,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4
+    "liczba": 6
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 215
+    "liczba": 226
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -217,15 +217,15 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 94
+    "liczba": 99
    },
    {
     "nazwa": "Van",
-    "liczba": 87
+    "liczba": 91
    },
    {
     "nazwa": "Kombi",
-    "liczba": 60
+    "liczba": 61
    },
    {
     "nazwa": "Hatchback",
@@ -233,11 +233,11 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 9
    }
   ],
-  "noweOdPaczki": 253,
-  "hybrydy": 23,
+  "noweOdPaczki": 264,
+  "hybrydy": 24,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -254,7 +254,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 246
+    "liczba": 257
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -591,16 +591,16 @@
     "liczba": 40
    }
   ],
-  "miejsce": 1212,
+  "miejsce": 1194,
   "miejsceWMarce": 20,
   "modeliWMarce": 21,
-  "sredniRocznik": 2019.8
+  "sredniRocznik": 2019.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "pacyfica",

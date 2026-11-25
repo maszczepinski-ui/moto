@@ -10,74 +10,74 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus ES – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 391 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ES300H, LEXUS ES300H, ES 300H, ES 350, ES).",
-  "liczbaWPolsce": 8824,
-  "aktywne": 8633,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus ES – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 517 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ES300H, LEXUS ES300H, ES 300H, ES 350, ES).",
+  "liczbaWPolsce": 8950,
+  "aktywne": 8759,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 775
+    "liczba": 779
    },
    {
     "teryt": "04",
-    "liczba": 246
+    "liczba": 248
    },
    {
     "teryt": "06",
-    "liczba": 295
+    "liczba": 299
    },
    {
     "teryt": "08",
-    "liczba": 95
+    "liczba": 97
    },
    {
     "teryt": "10",
-    "liczba": 350
+    "liczba": 357
    },
    {
     "teryt": "12",
-    "liczba": 688
+    "liczba": 700
    },
    {
     "teryt": "14",
-    "liczba": 3147
+    "liczba": 3181
    },
    {
     "teryt": "16",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "teryt": "18",
-    "liczba": 253
+    "liczba": 255
    },
    {
     "teryt": "20",
-    "liczba": 209
+    "liczba": 212
    },
    {
     "teryt": "22",
-    "liczba": 489
+    "liczba": 501
    },
    {
     "teryt": "24",
-    "liczba": 715
+    "liczba": 741
    },
    {
     "teryt": "26",
-    "liczba": 214
+    "liczba": 217
    },
    {
     "teryt": "28",
-    "liczba": 195
+    "liczba": 199
    },
    {
     "teryt": "30",
-    "liczba": 725
+    "liczba": 733
    },
    {
     "teryt": "32",
-    "liczba": 308
+    "liczba": 310
    }
   ],
   "bezWojewodztwa": 1,
@@ -160,7 +160,7 @@
    },
    {
     "rok": 2021,
-    "liczba": 889
+    "liczba": 890
    },
    {
     "rok": 2022,
@@ -168,7 +168,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 1440
+    "liczba": 1441
    },
    {
     "rok": 2024,
@@ -176,21 +176,21 @@
    },
    {
     "rok": 2025,
-    "liczba": 1792
+    "liczba": 1819
    },
    {
     "rok": 2026,
-    "liczba": 627
+    "liczba": 724
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 7565
+    "liczba": 7619
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 999
+    "liczba": 1064
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -198,13 +198,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 80
+    "liczba": 87
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 8364
+    "liczba": 8483
    },
    {
     "nazwa": "3,5 l",
@@ -212,13 +212,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 243
+    "liczba": 250
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 5920
+    "liczba": 6042
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -226,11 +226,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 549
+    "liczba": 551
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 45
+    "liczba": 47
    },
    {
     "nazwa": "Inne / brak danych",
@@ -240,16 +240,16 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 8776
+    "liczba": 8902
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 48
    }
   ],
-  "noweOdPaczki": 8391,
-  "hybrydy": 7548,
-  "elektryczne": 77,
+  "noweOdPaczki": 8517,
+  "hybrydy": 7602,
+  "elektryczne": 84,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -281,7 +281,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1720
+    "liczba": 1846
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -618,7 +618,7 @@
     "liczba": 433
    }
   ],
-  "miejsce": 342,
+  "miejsce": 341,
   "miejsceWMarce": 4,
   "modeliWMarce": 13,
   "sredniRocznik": 2022.4
@@ -627,7 +627,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "es",

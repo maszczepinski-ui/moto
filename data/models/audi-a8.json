@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi A8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 486 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: A8, A8 L, A8 QUATTRO, A8 4.2 QUATTRO, A8 QUATRO).",
-  "liczbaWPolsce": 16372,
-  "aktywne": 10407,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi A8 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 6 499 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: A8, A8 L, A8 QUATTRO, A8 4.2 QUATTRO, A8 QUATRO).",
+  "liczbaWPolsce": 16385,
+  "aktywne": 10420,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1586
+    "liczba": 1589
    },
    {
     "teryt": "04",
-    "liczba": 868
+    "liczba": 869
    },
    {
     "teryt": "06",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 1073
+    "liczba": 1074
    },
    {
     "teryt": "14",
-    "liczba": 2484
+    "liczba": 2489
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 658
+    "liczba": 659
    },
    {
     "teryt": "20",
@@ -69,11 +69,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 660
+    "liczba": 661
    },
    {
     "teryt": "30",
-    "liczba": 1356
+    "liczba": 1357
    },
    {
     "teryt": "32",
@@ -136,11 +136,11 @@
    },
    {
     "rok": 2007,
-    "liczba": 695
+    "liczba": 697
    },
    {
     "rok": 2008,
-    "liczba": 632
+    "liczba": 633
    },
    {
     "rok": 2009,
@@ -156,11 +156,11 @@
    },
    {
     "rok": 2012,
-    "liczba": 399
+    "liczba": 401
    },
    {
     "rok": 2013,
-    "liczba": 373
+    "liczba": 374
    },
    {
     "rok": 2014,
@@ -172,11 +172,11 @@
    },
    {
     "rok": 2016,
-    "liczba": 279
+    "liczba": 280
    },
    {
     "rok": 2017,
-    "liczba": 196
+    "liczba": 197
    },
    {
     "rok": 2018,
@@ -184,7 +184,7 @@
    },
    {
     "rok": 2019,
-    "liczba": 410
+    "liczba": 411
    },
    {
     "rok": 2020,
@@ -192,11 +192,11 @@
    },
    {
     "rok": 2021,
-    "liczba": 287
+    "liczba": 288
    },
    {
     "rok": 2022,
-    "liczba": 242
+    "liczba": 243
    },
    {
     "rok": 2023,
@@ -204,7 +204,7 @@
    },
    {
     "rok": 2024,
-    "liczba": 277
+    "liczba": 278
    },
    {
     "rok": 2025,
@@ -212,17 +212,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 34
+    "liczba": 35
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 6931
+    "liczba": 6936
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 4263
+    "liczba": 4268
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -230,7 +230,7 @@
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 1156
+    "liczba": 1159
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -244,7 +244,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 4989
+    "liczba": 5001
    },
    {
     "nazwa": "4,2 l",
@@ -276,7 +276,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 902
+    "liczba": 903
    }
   ],
   "pochodzenie": [
@@ -286,7 +286,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 7482
+    "liczba": 7495
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -300,7 +300,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 15735
+    "liczba": 15748
    },
    {
     "nazwa": "Hatchback",
@@ -311,8 +311,8 @@
     "liczba": 427
    }
   ],
-  "noweOdPaczki": 6486,
-  "hybrydy": 1815,
+  "noweOdPaczki": 6499,
+  "hybrydy": 1818,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -345,7 +345,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 621
+    "liczba": 634
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -691,7 +691,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "a8",

@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 173 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 4, DS 4 CROSSBACK).",
-  "liczbaWPolsce": 1359,
-  "aktywne": 1310,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe DS 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 178 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DS 4, DS 4 CROSSBACK).",
+  "liczbaWPolsce": 1364,
+  "aktywne": 1315,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 82
+    "liczba": 84
    },
    {
     "teryt": "04",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "10",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 89
+    "liczba": 90
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 146
+    "liczba": 147
    },
    {
     "teryt": "26",
@@ -89,11 +89,11 @@
    },
    {
     "rok": 2016,
-    "liczba": 412
+    "liczba": 414
    },
    {
     "rok": 2017,
-    "liczba": 179
+    "liczba": 180
    },
    {
     "rok": 2018,
@@ -113,7 +113,7 @@
    },
    {
     "rok": 2022,
-    "liczba": 445
+    "liczba": 447
    },
    {
     "rok": 2023,
@@ -131,15 +131,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 651
+    "liczba": 654
    },
    {
     "nazwa": "Diesel",
-    "liczba": 576
+    "liczba": 577
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 125
+    "liczba": 126
    },
    {
     "nazwa": "Inne / brak danych",
@@ -149,15 +149,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 797
+    "liczba": 799
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 328
+    "liczba": 330
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 115
+    "liczba": 116
    },
    {
     "nazwa": "2,0 l",
@@ -171,7 +171,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 605
+    "liczba": 610
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -193,19 +193,19 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 844
+    "liczba": 848
    },
    {
     "nazwa": "Kombi",
-    "liczba": 492
+    "liczba": 493
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 23
    }
   ],
-  "noweOdPaczki": 1173,
-  "hybrydy": 129,
+  "noweOdPaczki": 1178,
+  "hybrydy": 130,
   "elektryczne": 2,
   "pierwszeRejestracje": [
    {
@@ -238,7 +238,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 206
+    "liczba": 211
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -584,7 +584,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "ds",
  "modelSlug": "4",

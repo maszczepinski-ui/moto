@@ -13,22 +13,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 207 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 171 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 207, 207 SW, 207 1.6 HDI, 207 CC, 207 1.4 HDI).",
-  "liczbaWPolsce": 64408,
-  "aktywne": 42697,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot 207 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 25 216 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 207, 207 SW, 207 1.6 HDI, 207 CC, 207 1.4 HDI).",
+  "liczbaWPolsce": 64453,
+  "aktywne": 42742,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 4827
+    "liczba": 4831
    },
    {
     "teryt": "04",
-    "liczba": 3191
+    "liczba": 3194
    },
    {
     "teryt": "06",
-    "liczba": 3264
+    "liczba": 3266
    },
    {
     "teryt": "08",
@@ -36,19 +36,19 @@
    },
    {
     "teryt": "10",
-    "liczba": 4188
+    "liczba": 4191
    },
    {
     "teryt": "12",
-    "liczba": 6657
+    "liczba": 6659
    },
    {
     "teryt": "14",
-    "liczba": 7027
+    "liczba": 7040
    },
    {
     "teryt": "16",
-    "liczba": 1125
+    "liczba": 1126
    },
    {
     "teryt": "18",
@@ -56,15 +56,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 1049
+    "liczba": 1051
    },
    {
     "teryt": "22",
-    "liczba": 2617
+    "liczba": 2618
    },
    {
     "teryt": "24",
-    "liczba": 7478
+    "liczba": 7482
    },
    {
     "teryt": "26",
@@ -72,46 +72,46 @@
    },
    {
     "teryt": "28",
-    "liczba": 1292
+    "liczba": 1295
    },
    {
     "teryt": "30",
-    "liczba": 10772
+    "liczba": 10778
    },
    {
     "teryt": "32",
-    "liczba": 2252
+    "liczba": 2253
    }
   ],
   "bezWojewodztwa": 427,
   "roczniki": [
    {
     "rok": 2006,
-    "liczba": 7698
+    "liczba": 7700
    },
    {
     "rok": 2007,
-    "liczba": 14681
+    "liczba": 14692
    },
    {
     "rok": 2008,
-    "liczba": 14507
+    "liczba": 14519
    },
    {
     "rok": 2009,
-    "liczba": 11923
+    "liczba": 11934
    },
    {
     "rok": 2010,
-    "liczba": 7061
+    "liczba": 7062
    },
    {
     "rok": 2011,
-    "liczba": 4812
+    "liczba": 4816
    },
    {
     "rok": 2012,
-    "liczba": 1689
+    "liczba": 1693
    },
    {
     "rok": 2013,
@@ -121,15 +121,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 38517
+    "liczba": 38557
    },
    {
     "nazwa": "Diesel",
-    "liczba": 21032
+    "liczba": 21036
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 4745
+    "liczba": 4746
    },
    {
     "nazwa": "Inne / brak danych",
@@ -139,11 +139,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 40584
+    "liczba": 40610
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 23693
+    "liczba": 23712
    },
    {
     "nazwa": "Inne / brak danych",
@@ -153,7 +153,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 38144
+    "liczba": 38189
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -171,26 +171,26 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 46357
+    "liczba": 46379
    },
    {
     "nazwa": "Kombi",
-    "liczba": 10649
+    "liczba": 10660
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 3886
+    "liczba": 3897
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2633
+    "liczba": 2634
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 883
    }
   ],
-  "noweOdPaczki": 25171,
+  "noweOdPaczki": 25216,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -224,7 +224,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1426
+    "liczba": 1471
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -570,7 +570,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "207",

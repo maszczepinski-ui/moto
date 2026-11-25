@@ -10,22 +10,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Tarraco – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 283 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TARRACO).",
-  "liczbaWPolsce": 2622,
-  "aktywne": 2622,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Tarraco – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 300 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TARRACO).",
+  "liczbaWPolsce": 2639,
+  "aktywne": 2639,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 234
+    "liczba": 235
    },
    {
     "teryt": "04",
-    "liczba": 118
+    "liczba": 119
    },
    {
     "teryt": "06",
-    "liczba": 43
+    "liczba": 45
    },
    {
     "teryt": "08",
@@ -33,11 +33,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 125
+    "liczba": 127
    },
    {
     "teryt": "12",
-    "liczba": 269
+    "liczba": 274
    },
    {
     "teryt": "14",
@@ -45,7 +45,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 100
+    "liczba": 101
    },
    {
     "teryt": "18",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 250
+    "liczba": 253
    },
    {
     "teryt": "24",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 307
+    "liczba": 308
    },
    {
     "teryt": "32",
-    "liczba": 134
+    "liczba": 135
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,23 +88,23 @@
    },
    {
     "rok": 2019,
-    "liczba": 847
+    "liczba": 855
    },
    {
     "rok": 2020,
-    "liczba": 416
+    "liczba": 417
    },
    {
     "rok": 2021,
-    "liczba": 518
+    "liczba": 522
    },
    {
     "rok": 2022,
-    "liczba": 270
+    "liczba": 271
    },
    {
     "rok": 2023,
-    "liczba": 375
+    "liczba": 378
    },
    {
     "rok": 2024,
@@ -114,11 +114,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1405
+    "liczba": 1407
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1169
+    "liczba": 1184
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -132,11 +132,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1934
+    "liczba": 1950
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 648
+    "liczba": 649
    },
    {
     "nazwa": "1,4 l",
@@ -154,7 +154,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 581
+    "liczba": 598
    },
    {
     "nazwa": "Inne / brak danych",
@@ -164,7 +164,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2531
+    "liczba": 2548
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -175,7 +175,7 @@
     "liczba": 37
    }
   ],
-  "noweOdPaczki": 2283,
+  "noweOdPaczki": 2300,
   "hybrydy": 40,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -209,7 +209,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 210
+    "liczba": 227
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -546,7 +546,7 @@
     "liczba": 29
    }
   ],
-  "miejsce": 559,
+  "miejsce": 557,
   "miejsceWMarce": 12,
   "modeliWMarce": 19,
   "sredniRocznik": 2020.7
@@ -555,7 +555,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "tarraco",

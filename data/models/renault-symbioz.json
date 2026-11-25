@@ -10,26 +10,26 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Symbioz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 848 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SYMBIOZ).",
-  "liczbaWPolsce": 3848,
-  "aktywne": 3848,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Symbioz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 877 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SYMBIOZ).",
+  "liczbaWPolsce": 3877,
+  "aktywne": 3877,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 323
+    "liczba": 326
    },
    {
     "teryt": "04",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "teryt": "06",
-    "liczba": 96
+    "liczba": 97
    },
    {
     "teryt": "08",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "10",
@@ -37,19 +37,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 327
+    "liczba": 330
    },
    {
     "teryt": "14",
-    "liczba": 1466
+    "liczba": 1473
    },
    {
     "teryt": "16",
-    "liczba": 39
+    "liczba": 41
    },
    {
     "teryt": "18",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 252
+    "liczba": 256
    },
    {
     "teryt": "24",
-    "liczba": 410
+    "liczba": 413
    },
    {
     "teryt": "26",
@@ -69,11 +69,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 71
+    "liczba": 72
    },
    {
     "teryt": "30",
-    "liczba": 331
+    "liczba": 333
    },
    {
     "teryt": "32",
@@ -92,27 +92,27 @@
    },
    {
     "rok": 2026,
-    "liczba": 1381
+    "liczba": 1410
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 3249
+    "liczba": 3263
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 416
+    "liczba": 418
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 183
+    "liczba": 196
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 1775
+    "liczba": 1790
    },
    {
     "nazwa": "1,6 l",
@@ -120,17 +120,17 @@
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 389
+    "liczba": 390
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 182
+    "liczba": 195
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 3333
+    "liczba": 3362
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -148,15 +148,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3843
+    "liczba": 3872
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 3848,
-  "hybrydy": 3249,
+  "noweOdPaczki": 3877,
+  "hybrydy": 3263,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -169,7 +169,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1737
+    "liczba": 1766
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -509,13 +509,13 @@
   "miejsce": 492,
   "miejsceWMarce": 23,
   "modeliWMarce": 48,
-  "sredniRocznik": 2025.1
+  "sredniRocznik": 2025.2
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "symbioz",
@@ -527,14 +527,14 @@
    "adres": "/marki/jaecoo/7/"
   },
   {
-   "slug": "omoda-5",
-   "nazwa": "Omoda 5",
-   "adres": "/marki/omoda/5/"
-  },
-  {
    "slug": "kia-k4",
    "nazwa": "Kia K4",
    "adres": "/marki/kia/k4/"
+  },
+  {
+   "slug": "omoda-5",
+   "nazwa": "Omoda 5",
+   "adres": "/marki/omoda/5/"
   },
   {
    "slug": "mg-hs",

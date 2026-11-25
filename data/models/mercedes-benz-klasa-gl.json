@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GL – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 824 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GL 450, GL 350 BLUETEC 4MATIC, GL 350, GL 550, GL 420 CDI 4MATIC).",
-  "liczbaWPolsce": 3150,
-  "aktywne": 2505,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Klasa GL – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 830 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GL 450, GL 350 BLUETEC 4MATIC, GL 350, GL 550, GL 420 CDI 4MATIC).",
+  "liczbaWPolsce": 3156,
+  "aktywne": 2511,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 174
+    "liczba": 175
    },
    {
     "teryt": "12",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 696
+    "liczba": 697
    },
    {
     "teryt": "16",
@@ -51,11 +51,11 @@
    },
    {
     "teryt": "18",
-    "liczba": 129
+    "liczba": 130
    },
    {
     "teryt": "20",
-    "liczba": 170
+    "liczba": 171
    },
    {
     "teryt": "22",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 255
+    "liczba": 256
    },
    {
     "teryt": "26",
@@ -79,7 +79,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 127
+    "liczba": 128
    }
   ],
   "bezWojewodztwa": 16,
@@ -102,7 +102,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 211
+    "liczba": 213
    },
    {
     "rok": 2011,
@@ -110,7 +110,7 @@
    },
    {
     "rok": 2012,
-    "liczba": 294
+    "liczba": 295
    },
    {
     "rok": 2013,
@@ -118,7 +118,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 360
+    "liczba": 362
    },
    {
     "rok": 2015,
@@ -126,17 +126,17 @@
    },
    {
     "rok": 2016,
-    "liczba": 80
+    "liczba": 81
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1566
+    "liczba": 1567
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1199
+    "liczba": 1204
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -150,11 +150,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 1290
+    "liczba": 1291
    },
    {
     "nazwa": "4,7 l",
-    "liczba": 1047
+    "liczba": 1048
    },
    {
     "nazwa": "4,0 l",
@@ -162,7 +162,7 @@
    },
    {
     "nazwa": "5,5 l",
-    "liczba": 364
+    "liczba": 368
    },
    {
     "nazwa": "Inne / brak danych",
@@ -176,7 +176,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1490
+    "liczba": 1496
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -190,11 +190,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1422
+    "liczba": 1425
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 909
+    "liczba": 912
    },
    {
     "nazwa": "Terenowy",
@@ -217,7 +217,7 @@
     "liczba": 100
    }
   ],
-  "noweOdPaczki": 1824,
+  "noweOdPaczki": 1830,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -251,7 +251,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 225
+    "liczba": 231
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -597,7 +597,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "klasa-gl",

@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Citigo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 326 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITIGO).",
-  "liczbaWPolsce": 18701,
-  "aktywne": 11972,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Citigo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 337 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CITIGO).",
+  "liczbaWPolsce": 18712,
+  "aktywne": 11983,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1436
+    "liczba": 1438
    },
    {
     "teryt": "04",
-    "liczba": 710
+    "liczba": 711
    },
    {
     "teryt": "06",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 1066
+    "liczba": 1069
    },
    {
     "teryt": "12",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 1228
+    "liczba": 1229
    },
    {
     "teryt": "24",
-    "liczba": 3537
+    "liczba": 3541
    },
    {
     "teryt": "26",
@@ -88,11 +88,11 @@
    },
    {
     "rok": 2013,
-    "liczba": 3027
+    "liczba": 3029
    },
    {
     "rok": 2014,
-    "liczba": 2007
+    "liczba": 2009
    },
    {
     "rok": 2015,
@@ -100,11 +100,11 @@
    },
    {
     "rok": 2016,
-    "liczba": 2135
+    "liczba": 2137
    },
    {
     "rok": 2017,
-    "liczba": 2455
+    "liczba": 2458
    },
    {
     "rok": 2018,
@@ -112,7 +112,7 @@
    },
    {
     "rok": 2019,
-    "liczba": 1511
+    "liczba": 1512
    },
    {
     "rok": 2020,
@@ -122,7 +122,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 16254
+    "liczba": 16264
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -130,7 +130,7 @@
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 489
+    "liczba": 490
    },
    {
     "nazwa": "Inne / brak danych",
@@ -140,11 +140,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 18180
+    "liczba": 18190
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 521
+    "liczba": 522
    }
   ],
   "pochodzenie": [
@@ -158,7 +158,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2615
+    "liczba": 2626
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,16 +168,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 18582
+    "liczba": 18593
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 119
    }
   ],
-  "noweOdPaczki": 3326,
+  "noweOdPaczki": 3337,
   "hybrydy": 0,
-  "elektryczne": 489,
+  "elektryczne": 490,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -209,7 +209,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 378
+    "liczba": 389
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -555,7 +555,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "citigo",

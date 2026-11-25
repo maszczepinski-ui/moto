@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Modus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 771 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODUS, MODUS 1.5 DCI, MODUS 1,5 DCI, MODUS 1.2 16V, MODUS 1.2 KAT).",
-  "liczbaWPolsce": 21880,
-  "aktywne": 14781,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Renault Modus – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 8 784 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODUS, MODUS 1.5 DCI, MODUS 1,5 DCI, MODUS 1.2 16V, MODUS 1.2 KAT).",
+  "liczbaWPolsce": 21893,
+  "aktywne": 14794,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1376
+    "liczba": 1377
    },
    {
     "teryt": "04",
@@ -26,15 +26,15 @@
    },
    {
     "teryt": "06",
-    "liczba": 1239
+    "liczba": 1240
    },
    {
     "teryt": "08",
-    "liczba": 843
+    "liczba": 844
    },
    {
     "teryt": "10",
-    "liczba": 1769
+    "liczba": 1770
    },
    {
     "teryt": "12",
@@ -46,11 +46,11 @@
    },
    {
     "teryt": "16",
-    "liczba": 424
+    "liczba": 425
    },
    {
     "teryt": "18",
-    "liczba": 1759
+    "liczba": 1762
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 857
+    "liczba": 858
    },
    {
     "teryt": "24",
-    "liczba": 2281
+    "liczba": 2282
    },
    {
     "teryt": "26",
@@ -74,22 +74,22 @@
    },
    {
     "teryt": "30",
-    "liczba": 3815
+    "liczba": 3817
    },
    {
     "teryt": "32",
-    "liczba": 726
+    "liczba": 727
    }
   ],
   "bezWojewodztwa": 141,
   "roczniki": [
    {
     "rok": 2004,
-    "liczba": 3223
+    "liczba": 3225
    },
    {
     "rok": 2005,
-    "liczba": 6889
+    "liczba": 6891
    },
    {
     "rok": 2006,
@@ -97,23 +97,23 @@
    },
    {
     "rok": 2007,
-    "liczba": 2163
+    "liczba": 2164
    },
    {
     "rok": 2008,
-    "liczba": 2424
+    "liczba": 2426
    },
    {
     "rok": 2009,
-    "liczba": 1548
+    "liczba": 1550
    },
    {
     "rok": 2010,
-    "liczba": 731
+    "liczba": 732
    },
    {
     "rok": 2011,
-    "liczba": 714
+    "liczba": 717
    },
    {
     "rok": 2012,
@@ -123,7 +123,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 16190
+    "liczba": 16203
    },
    {
     "nazwa": "Diesel",
@@ -141,11 +141,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,1 l",
-    "liczba": 11592
+    "liczba": 11602
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 5015
+    "liczba": 5018
    },
    {
     "nazwa": "1,5 l",
@@ -163,7 +163,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 16016
+    "liczba": 16029
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -181,15 +181,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 13857
+    "liczba": 13860
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 6051
+    "liczba": 6060
    },
    {
     "nazwa": "Van",
-    "liczba": 1164
+    "liczba": 1165
    },
    {
     "nazwa": "Kombi",
@@ -200,7 +200,7 @@
     "liczba": 375
    }
   ],
-  "noweOdPaczki": 8771,
+  "noweOdPaczki": 8784,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -234,7 +234,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 464
+    "liczba": 477
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -580,7 +580,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "renault",
  "modelSlug": "modus",

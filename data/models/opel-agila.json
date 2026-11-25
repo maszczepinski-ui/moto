@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Agila – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 787 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AGILA, AGILA 1.2 KAT, AGILA 1.0 KAT, AGILA 1.2, AGILA 1.0).",
-  "liczbaWPolsce": 17204,
-  "aktywne": 9259,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Agila – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 804 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: AGILA, AGILA 1.2 KAT, AGILA 1.0 KAT, AGILA 1.2, AGILA 1.0).",
+  "liczbaWPolsce": 17221,
+  "aktywne": 9276,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1052
+    "liczba": 1053
    },
    {
     "teryt": "04",
@@ -27,11 +27,11 @@
    },
    {
     "teryt": "06",
-    "liczba": 939
+    "liczba": 940
    },
    {
     "teryt": "08",
-    "liczba": 372
+    "liczba": 373
    },
    {
     "teryt": "10",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 1582
+    "liczba": 1583
    },
    {
     "teryt": "14",
-    "liczba": 2166
+    "liczba": 2167
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 1374
+    "liczba": 1375
    },
    {
     "teryt": "20",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 2110
+    "liczba": 2112
    },
    {
     "teryt": "26",
@@ -71,26 +71,26 @@
    },
    {
     "teryt": "28",
-    "liczba": 449
+    "liczba": 452
    },
    {
     "teryt": "30",
-    "liczba": 1811
+    "liczba": 1814
    },
    {
     "teryt": "32",
-    "liczba": 689
+    "liczba": 692
    }
   ],
   "bezWojewodztwa": 135,
   "roczniki": [
    {
     "rok": 2000,
-    "liczba": 1831
+    "liczba": 1832
    },
    {
     "rok": 2001,
-    "liczba": 1941
+    "liczba": 1942
    },
    {
     "rok": 2002,
@@ -110,7 +110,7 @@
    },
    {
     "rok": 2006,
-    "liczba": 538
+    "liczba": 539
    },
    {
     "rok": 2007,
@@ -118,23 +118,23 @@
    },
    {
     "rok": 2008,
-    "liczba": 2518
+    "liczba": 2521
    },
    {
     "rok": 2009,
-    "liczba": 1785
+    "liczba": 1788
    },
    {
     "rok": 2010,
-    "liczba": 786
+    "liczba": 788
    },
    {
     "rok": 2011,
-    "liczba": 372
+    "liczba": 377
    },
    {
     "rok": 2012,
-    "liczba": 252
+    "liczba": 253
    },
    {
     "rok": 2013,
@@ -148,7 +148,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 14992
+    "liczba": 15009
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -166,11 +166,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 10916
+    "liczba": 10924
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 6250
+    "liczba": 6259
    },
    {
     "nazwa": "Inne / brak danych",
@@ -180,7 +180,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 9323
+    "liczba": 9340
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -198,11 +198,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 9735
+    "liczba": 9740
    },
    {
     "nazwa": "Kombi",
-    "liczba": 3256
+    "liczba": 3268
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -221,7 +221,7 @@
     "liczba": 593
    }
   ],
-  "noweOdPaczki": 4787,
+  "noweOdPaczki": 4804,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -255,7 +255,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 337
+    "liczba": 354
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -601,7 +601,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "agila",

@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Dolphin – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 049 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD DOLPHIN SURF, DOLPHIN G, DOLPHIN SURF, BYD DOLPHIN, BYD DOLPHIN G).",
-  "liczbaWPolsce": 3049,
-  "aktywne": 3049,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Dolphin – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 074 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD DOLPHIN SURF, DOLPHIN G, DOLPHIN SURF, BYD DOLPHIN, BYD DOLPHIN G).",
+  "liczbaWPolsce": 3074,
+  "aktywne": 3074,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 126
+    "liczba": 129
    },
    {
     "teryt": "06",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 56
+    "liczba": 57
    },
    {
     "teryt": "10",
@@ -37,19 +37,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 339
+    "liczba": 341
    },
    {
     "teryt": "14",
-    "liczba": 621
+    "liczba": 627
    },
    {
     "teryt": "16",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "18",
-    "liczba": 113
+    "liczba": 114
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 244
+    "liczba": 247
    },
    {
     "teryt": "24",
-    "liczba": 445
+    "liczba": 448
    },
    {
     "teryt": "26",
@@ -69,15 +69,15 @@
    },
    {
     "teryt": "28",
-    "liczba": 29
+    "liczba": 32
    },
    {
     "teryt": "30",
-    "liczba": 326
+    "liczba": 327
    },
    {
     "teryt": "32",
-    "liczba": 99
+    "liczba": 100
    }
   ],
   "bezWojewodztwa": 0,
@@ -92,37 +92,37 @@
    },
    {
     "rok": 2025,
-    "liczba": 2725
+    "liczba": 2729
    },
    {
     "rok": 2026,
-    "liczba": 269
+    "liczba": 290
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2834
+    "liczba": 2838
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 215
+    "liczba": 236
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 215
+    "liczba": 236
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2834
+    "liczba": 2838
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2952
+    "liczba": 2977
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -140,16 +140,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3048
+    "liczba": 3073
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 3049,
-  "hybrydy": 215,
-  "elektryczne": 2834,
+  "noweOdPaczki": 3074,
+  "hybrydy": 236,
+  "elektryczne": 2838,
   "pierwszeRejestracje": [
    {
     "rok": 2024,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 996
+    "liczba": 1021
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -498,7 +498,7 @@
     "liczba": 101
    }
   ],
-  "miejsce": 528,
+  "miejsce": 529,
   "miejsceWMarce": 2,
   "modeliWMarce": 8,
   "sredniRocznik": 2025.1
@@ -507,7 +507,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "dolphin",

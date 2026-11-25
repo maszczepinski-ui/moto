@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dongfeng Mage – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 331 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAGE, MAGE HEV).",
-  "liczbaWPolsce": 331,
-  "aktywne": 331,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dongfeng Mage – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 335 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAGE, MAGE HEV).",
+  "liczbaWPolsce": 335,
+  "aktywne": 335,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "12",
@@ -65,11 +65,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "30",
-    "liczba": 68
+    "liczba": 70
    },
    {
     "teryt": "32",
@@ -84,7 +84,7 @@
    },
    {
     "rok": 2025,
-    "liczba": 314
+    "liczba": 318
    },
    {
     "rok": 2026,
@@ -94,7 +94,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 291
+    "liczba": 295
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -108,13 +108,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 331
+    "liczba": 335
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 311
+    "liczba": 315
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -128,10 +128,10 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 331
+    "liczba": 335
    }
   ],
-  "noweOdPaczki": 331,
+  "noweOdPaczki": 335,
   "hybrydy": 39,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -141,7 +141,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 275
+    "liczba": 279
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -478,7 +478,7 @@
     "liczba": 24
    }
   ],
-  "miejsce": 1118,
+  "miejsce": 1116,
   "miejsceWMarce": 1,
   "modeliWMarce": 1,
   "sredniRocznik": 2025.0
@@ -487,7 +487,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "dongfeng",
  "modelSlug": "mage",

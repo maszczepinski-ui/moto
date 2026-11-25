@@ -10,74 +10,74 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal U – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 757 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL U DM-I, SEAL U DM-I, BYD SEAL U, SEAL U).",
-  "liczbaWPolsce": 7757,
-  "aktywne": 7757,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BYD Seal U – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 923 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: BYD SEAL U DM-I, SEAL U DM-I, BYD SEAL U, SEAL U).",
+  "liczbaWPolsce": 7923,
+  "aktywne": 7923,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 814
+    "liczba": 823
    },
    {
     "teryt": "04",
-    "liczba": 344
+    "liczba": 351
    },
    {
     "teryt": "06",
-    "liczba": 149
+    "liczba": 151
    },
    {
     "teryt": "08",
-    "liczba": 249
+    "liczba": 253
    },
    {
     "teryt": "10",
-    "liczba": 327
+    "liczba": 333
    },
    {
     "teryt": "12",
-    "liczba": 574
+    "liczba": 581
    },
    {
     "teryt": "14",
-    "liczba": 1986
+    "liczba": 2016
    },
    {
     "teryt": "16",
-    "liczba": 95
+    "liczba": 98
    },
    {
     "teryt": "18",
-    "liczba": 209
+    "liczba": 211
    },
    {
     "teryt": "20",
-    "liczba": 134
+    "liczba": 139
    },
    {
     "teryt": "22",
-    "liczba": 758
+    "liczba": 774
    },
    {
     "teryt": "24",
-    "liczba": 952
+    "liczba": 997
    },
    {
     "teryt": "26",
-    "liczba": 119
+    "liczba": 125
    },
    {
     "teryt": "28",
-    "liczba": 113
+    "liczba": 116
    },
    {
     "teryt": "30",
-    "liczba": 622
+    "liczba": 637
    },
    {
     "teryt": "32",
-    "liczba": 312
+    "liczba": 318
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,17 +88,17 @@
    },
    {
     "rok": 2025,
-    "liczba": 3680
+    "liczba": 3683
    },
    {
     "rok": 2026,
-    "liczba": 3363
+    "liczba": 3526
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 7604
+    "liczba": 7769
    },
    {
     "nazwa": "Elektryczny",
@@ -106,13 +106,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 48
+    "liczba": 49
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 7652
+    "liczba": 7818
    },
    {
     "nazwa": "Inne / brak danych",
@@ -122,7 +122,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6641
+    "liczba": 6803
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -130,7 +130,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 176
+    "liczba": 180
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -144,15 +144,15 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 7746
+    "liczba": 7912
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 11
    }
   ],
-  "noweOdPaczki": 7757,
-  "hybrydy": 7604,
+  "noweOdPaczki": 7923,
+  "hybrydy": 7769,
   "elektryczne": 105,
   "pierwszeRejestracje": [
    {
@@ -165,7 +165,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 4643
+    "liczba": 4809
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -502,16 +502,16 @@
     "liczba": 614
    }
   ],
-  "miejsce": 369,
+  "miejsce": 365,
   "miejsceWMarce": 1,
   "modeliWMarce": 8,
-  "sredniRocznik": 2025.3
+  "sredniRocznik": 2025.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "byd",
  "modelSlug": "seal-u",

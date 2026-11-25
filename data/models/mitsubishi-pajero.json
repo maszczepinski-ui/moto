@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Pajero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 322 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PAJERO, PAJERO PININ, PAJERO 2.5 TD, PAJERO SPORT, PAJERO 2.8 TD).",
-  "liczbaWPolsce": 15592,
-  "aktywne": 6813,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mitsubishi Pajero – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 331 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PAJERO, PAJERO PININ, PAJERO 2.5 TD, PAJERO SPORT, PAJERO 2.8 TD).",
+  "liczbaWPolsce": 15601,
+  "aktywne": 6822,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -40,11 +40,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 2236
+    "liczba": 2238
    },
    {
     "teryt": "14",
-    "liczba": 1644
+    "liczba": 1646
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 1080
+    "liczba": 1082
    },
    {
     "teryt": "20",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 1255
+    "liczba": 1256
    },
    {
     "teryt": "32",
-    "liczba": 923
+    "liczba": 925
    }
   ],
   "bezWojewodztwa": 73,
@@ -131,7 +131,7 @@
    },
    {
     "rok": 1996,
-    "liczba": 627
+    "liczba": 628
    },
    {
     "rok": 1997,
@@ -163,19 +163,19 @@
    },
    {
     "rok": 2004,
-    "liczba": 757
+    "liczba": 758
    },
    {
     "rok": 2005,
-    "liczba": 682
+    "liczba": 684
    },
    {
     "rok": 2006,
-    "liczba": 456
+    "liczba": 457
    },
    {
     "rok": 2007,
-    "liczba": 507
+    "liczba": 508
    },
    {
     "rok": 2008,
@@ -203,11 +203,11 @@
    },
    {
     "rok": 2014,
-    "liczba": 192
+    "liczba": 193
    },
    {
     "rok": 2015,
-    "liczba": 83
+    "liczba": 84
    },
    {
     "rok": 2016,
@@ -225,11 +225,11 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 10898
+    "liczba": 10902
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 3289
+    "liczba": 3294
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -243,11 +243,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,5 l",
-    "liczba": 4912
+    "liczba": 4913
    },
    {
     "nazwa": "3,2 l",
-    "liczba": 4600
+    "liczba": 4603
    },
    {
     "nazwa": "1,8 l",
@@ -263,11 +263,11 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 817
+    "liczba": 819
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 405
+    "liczba": 406
    },
    {
     "nazwa": "2,3 l",
@@ -275,7 +275,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 465
+    "liczba": 467
    }
   ],
   "pochodzenie": [
@@ -285,7 +285,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 6875
+    "liczba": 6884
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -299,15 +299,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 6394
+    "liczba": 6400
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 2880
+    "liczba": 2882
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 2656
+    "liczba": 2657
    },
    {
     "nazwa": "Van",
@@ -326,7 +326,7 @@
     "liczba": 1239
    }
   ],
-  "noweOdPaczki": 3322,
+  "noweOdPaczki": 3331,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -360,7 +360,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 214
+    "liczba": 223
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -706,7 +706,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mitsubishi",
  "modelSlug": "pajero",

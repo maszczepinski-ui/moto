@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 977 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M5, M5 COMPETITION, M550I XDRIVE, M550D XDRIVE, M550I).",
-  "liczbaWPolsce": 2532,
-  "aktywne": 2182,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 983 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M5, M5 COMPETITION, M550I XDRIVE, M550D XDRIVE, M550I).",
+  "liczbaWPolsce": 2538,
+  "aktywne": 2188,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 192
+    "liczba": 193
    },
    {
     "teryt": "04",
@@ -58,15 +58,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 162
+    "liczba": 163
    },
    {
     "teryt": "24",
-    "liczba": 239
+    "liczba": 242
    },
    {
     "teryt": "26",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "28",
@@ -101,7 +101,7 @@
    },
    {
     "rok": 1991,
-    "liczba": 32
+    "liczba": 33
    },
    {
     "rok": 1992,
@@ -169,7 +169,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 69
+    "liczba": 70
    },
    {
     "rok": 2009,
@@ -209,7 +209,7 @@
    },
    {
     "rok": 2018,
-    "liczba": 185
+    "liczba": 186
    },
    {
     "rok": 2019,
@@ -221,7 +221,7 @@
    },
    {
     "rok": 2021,
-    "liczba": 178
+    "liczba": 179
    },
    {
     "rok": 2022,
@@ -241,17 +241,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 98
+    "liczba": 100
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1891
+    "liczba": 1895
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 483
+    "liczba": 485
    },
    {
     "nazwa": "Diesel",
@@ -265,11 +265,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,4 l",
-    "liczba": 1561
+    "liczba": 1564
    },
    {
     "nazwa": "5,0 l",
-    "liczba": 416
+    "liczba": 417
    },
    {
     "nazwa": "4,9 l",
@@ -281,7 +281,7 @@
    },
    {
     "nazwa": "3,5 l",
-    "liczba": 111
+    "liczba": 112
    },
    {
     "nazwa": "3,8 l",
@@ -289,7 +289,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "pochodzenie": [
@@ -299,11 +299,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 876
+    "liczba": 880
    },
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 682
+    "liczba": 684
    },
    {
     "nazwa": "Inne / brak danych",
@@ -313,7 +313,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 2191
+    "liczba": 2197
    },
    {
     "nazwa": "Kombi",
@@ -324,8 +324,8 @@
     "liczba": 101
    }
   ],
-  "noweOdPaczki": 1977,
-  "hybrydy": 483,
+  "noweOdPaczki": 1983,
+  "hybrydy": 485,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -358,7 +358,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 279
+    "liczba": 285
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -695,7 +695,7 @@
     "liczba": 34
    }
   ],
-  "miejsce": 570,
+  "miejsce": 571,
   "miejsceWMarce": 22,
   "modeliWMarce": 43,
   "sredniRocznik": 2014.3
@@ -704,7 +704,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "m5",

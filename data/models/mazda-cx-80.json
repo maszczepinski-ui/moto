@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-80 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 301 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA CX-80, CX-80).",
-  "liczbaWPolsce": 1301,
-  "aktywne": 1301,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mazda CX-80 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 318 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MAZDA CX-80, CX-80).",
+  "liczbaWPolsce": 1318,
+  "aktywne": 1318,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 156
+    "liczba": 158
    },
    {
     "teryt": "04",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 367
+    "liczba": 371
    },
    {
     "teryt": "16",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "18",
@@ -61,11 +61,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 155
+    "liczba": 161
    },
    {
     "teryt": "26",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "28",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 85
+    "liczba": 88
    },
    {
     "teryt": "32",
@@ -84,29 +84,29 @@
   "roczniki": [
    {
     "rok": 2024,
-    "liczba": 582
+    "liczba": 583
    },
    {
     "rok": 2025,
-    "liczba": 336
+    "liczba": 337
    },
    {
     "rok": 2026,
-    "liczba": 383
+    "liczba": 398
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 594
+    "liczba": 602
    },
    {
     "nazwa": "Diesel",
-    "liczba": 521
+    "liczba": 528
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 183
+    "liczba": 185
    },
    {
     "nazwa": "Inne / brak danych",
@@ -116,17 +116,17 @@
   "pojemnosci": [
    {
     "nazwa": "3,3 l",
-    "liczba": 1116
+    "liczba": 1131
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 185
+    "liczba": 187
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1115
+    "liczba": 1131
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -134,7 +134,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -144,15 +144,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1299
+    "liczba": 1316
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 1301,
-  "hybrydy": 777,
+  "noweOdPaczki": 1318,
+  "hybrydy": 787,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
@@ -165,7 +165,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 491
+    "liczba": 508
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -502,16 +502,16 @@
     "liczba": 50
    }
   ],
-  "miejsce": 730,
+  "miejsce": 726,
   "miejsceWMarce": 25,
   "modeliWMarce": 33,
-  "sredniRocznik": 2024.8
+  "sredniRocznik": 2024.9
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mazda",
  "modelSlug": "cx-80",

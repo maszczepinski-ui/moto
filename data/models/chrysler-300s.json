@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 300S – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 351 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 300S).",
-  "liczbaWPolsce": 351,
-  "aktywne": 351,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler 300S – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 352 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 300S).",
+  "liczbaWPolsce": 352,
+  "aktywne": 352,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -54,7 +54,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 24
+    "liczba": 25
    },
    {
     "teryt": "22",
@@ -121,7 +121,7 @@
    },
    {
     "rok": 2019,
-    "liczba": 51
+    "liczba": 52
    },
    {
     "rok": 2020,
@@ -143,7 +143,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 207
+    "liczba": 208
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -157,7 +157,7 @@
    },
    {
     "nazwa": "5,7 l",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "nazwa": "Inne / brak danych",
@@ -167,7 +167,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 192
+    "liczba": 193
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -177,7 +177,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 322
+    "liczba": 323
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -192,7 +192,7 @@
     "liczba": 13
    }
   ],
-  "noweOdPaczki": 351,
+  "noweOdPaczki": 352,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -226,7 +226,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 43
+    "liczba": 44
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -572,7 +572,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "300s",
@@ -589,14 +589,14 @@
    "adres": "/marki/bmw/m5/"
   },
   {
-   "slug": "maserati-ghibli",
-   "nazwa": "Maserati Ghibli",
-   "adres": "/marki/maserati/ghibli/"
-  },
-  {
    "slug": "dodge-charger",
    "nazwa": "Dodge Charger",
    "adres": "/marki/dodge/charger/"
+  },
+  {
+   "slug": "maserati-ghibli",
+   "nazwa": "Maserati Ghibli",
+   "adres": "/marki/maserati/ghibli/"
   },
   {
    "slug": "toyota-camry",

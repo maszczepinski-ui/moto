@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Cupra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 423 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA ATECA, CUPRA FORMENTOR, CUPRA LEON SPORTSTOURER, CUPRA LEON).",
-  "liczbaWPolsce": 423,
-  "aktywne": 423,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Seat Cupra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 427 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA ATECA, CUPRA FORMENTOR, CUPRA LEON SPORTSTOURER, CUPRA LEON).",
+  "liczbaWPolsce": 427,
+  "aktywne": 427,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 63
+    "liczba": 65
    },
    {
     "teryt": "16",
@@ -59,7 +59,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "24",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "teryt": "32",
@@ -94,7 +94,7 @@
    },
    {
     "rok": 2020,
-    "liczba": 193
+    "liczba": 194
    },
    {
     "rok": 2021,
@@ -102,11 +102,11 @@
    },
    {
     "rok": 2022,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 2023,
-    "liczba": 35
+    "liczba": 37
    },
    {
     "rok": 2024,
@@ -124,15 +124,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 345
+    "liczba": 347
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "nazwa": "Diesel",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Inne / brak danych",
@@ -142,11 +142,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 305
+    "liczba": 308
    },
    {
     "nazwa": "1,4 l",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "nazwa": "1,5 l",
@@ -156,7 +156,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 203
+    "liczba": 207
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -170,7 +170,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 375
+    "liczba": 379
    },
    {
     "nazwa": "Hatchback",
@@ -185,8 +185,8 @@
     "liczba": 5
    }
   ],
-  "noweOdPaczki": 423,
-  "hybrydy": 66,
+  "noweOdPaczki": 427,
+  "hybrydy": 67,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
@@ -219,7 +219,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 78
+    "liczba": 82
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -556,7 +556,7 @@
     "liczba": 12
    }
   ],
-  "miejsce": 1035,
+  "miejsce": 1032,
   "miejsceWMarce": 16,
   "modeliWMarce": 19,
   "sredniRocznik": 2020.4
@@ -565,7 +565,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "seat",
  "modelSlug": "cupra",

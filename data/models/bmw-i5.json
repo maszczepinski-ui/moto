@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW I5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 758 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I5 EDRIVE40, I5 M60 XDRIVE, I5 XDRIVE40).",
-  "liczbaWPolsce": 758,
-  "aktywne": 758,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW I5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 765 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I5 EDRIVE40, I5 M60 XDRIVE, I5 XDRIVE40).",
+  "liczbaWPolsce": 765,
+  "aktywne": 765,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "04",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 67
+    "liczba": 68
    },
    {
     "teryt": "14",
-    "liczba": 306
+    "liczba": 309
    },
    {
     "teryt": "16",
@@ -54,7 +54,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "22",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 73
+    "liczba": 74
    },
    {
     "teryt": "32",
@@ -89,33 +89,33 @@
    },
    {
     "rok": 2024,
-    "liczba": 136
+    "liczba": 137
    },
    {
     "rok": 2025,
-    "liczba": 426
+    "liczba": 427
    },
    {
     "rok": 2026,
-    "liczba": 117
+    "liczba": 122
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 758
+    "liczba": 765
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 758
+    "liczba": 765
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 658
+    "liczba": 663
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -123,7 +123,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 20
+    "liczba": 22
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -133,16 +133,16 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 586
+    "liczba": 592
    },
    {
     "nazwa": "Kombi",
-    "liczba": 172
+    "liczba": 173
    }
   ],
-  "noweOdPaczki": 758,
+  "noweOdPaczki": 765,
   "hybrydy": 0,
-  "elektryczne": 758,
+  "elektryczne": 765,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
@@ -158,7 +158,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 178
+    "liczba": 185
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -495,7 +495,7 @@
     "liczba": 12
    }
   ],
-  "miejsce": 856,
+  "miejsce": 854,
   "miejsceWMarce": 32,
   "modeliWMarce": 43,
   "sredniRocznik": 2024.8
@@ -504,7 +504,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "i5",

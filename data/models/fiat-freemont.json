@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Freemont – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 272 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FREEMONT, FREEMONT 3.6 AWD, FREEMONT 2.0 AWD, FREEMONT 2.0 MJ).",
-  "liczbaWPolsce": 11576,
-  "aktywne": 10850,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat Freemont – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 9 310 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: FREEMONT, FREEMONT 3.6 AWD, FREEMONT 2.0 AWD, FREEMONT 2.0 MJ).",
+  "liczbaWPolsce": 11614,
+  "aktywne": 10888,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 960
+    "liczba": 963
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 589
+    "liczba": 593
    },
    {
     "teryt": "08",
@@ -34,84 +34,84 @@
    },
    {
     "teryt": "10",
-    "liczba": 537
+    "liczba": 538
    },
    {
     "teryt": "12",
-    "liczba": 1477
+    "liczba": 1480
    },
    {
     "teryt": "14",
-    "liczba": 1292
+    "liczba": 1295
    },
    {
     "teryt": "16",
-    "liczba": 355
+    "liczba": 356
    },
    {
     "teryt": "18",
-    "liczba": 845
+    "liczba": 848
    },
    {
     "teryt": "20",
-    "liczba": 239
+    "liczba": 241
    },
    {
     "teryt": "22",
-    "liczba": 759
+    "liczba": 760
    },
    {
     "teryt": "24",
-    "liczba": 1795
+    "liczba": 1804
    },
    {
     "teryt": "26",
-    "liczba": 340
+    "liczba": 343
    },
    {
     "teryt": "28",
-    "liczba": 365
+    "liczba": 367
    },
    {
     "teryt": "30",
-    "liczba": 886
+    "liczba": 888
    },
    {
     "teryt": "32",
-    "liczba": 376
+    "liczba": 377
    }
   ],
   "bezWojewodztwa": 37,
   "roczniki": [
    {
     "rok": 2011,
-    "liczba": 1350
+    "liczba": 1353
    },
    {
     "rok": 2012,
-    "liczba": 3179
+    "liczba": 3186
    },
    {
     "rok": 2013,
-    "liczba": 2341
+    "liczba": 2348
    },
    {
     "rok": 2014,
-    "liczba": 2575
+    "liczba": 2583
    },
    {
     "rok": 2015,
-    "liczba": 1848
+    "liczba": 1860
    },
    {
     "rok": 2016,
-    "liczba": 157
+    "liczba": 158
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 11007
+    "liczba": 11044
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -119,7 +119,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 264
+    "liczba": 265
    },
    {
     "nazwa": "Inne / brak danych",
@@ -129,11 +129,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 11043
+    "liczba": 11080
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 473
+    "liczba": 474
    },
    {
     "nazwa": "Inne / brak danych",
@@ -143,7 +143,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 7401
+    "liczba": 7439
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -161,15 +161,15 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 8502
+    "liczba": 8533
    },
    {
     "nazwa": "Kombi",
-    "liczba": 1724
+    "liczba": 1730
    },
    {
     "nazwa": "Van",
-    "liczba": 873
+    "liczba": 874
    },
    {
     "nazwa": "Hatchback",
@@ -184,7 +184,7 @@
     "liczba": 74
    }
   ],
-  "noweOdPaczki": 9272,
+  "noweOdPaczki": 9310,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -218,7 +218,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1350
+    "liczba": 1388
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -555,7 +555,7 @@
     "liczba": 109
    }
   ],
-  "miejsce": 308,
+  "miejsce": 307,
   "miejsceWMarce": 14,
   "modeliWMarce": 61,
   "sredniRocznik": 2013.1
@@ -564,7 +564,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "freemont",

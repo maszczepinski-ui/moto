@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo EX30 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 132 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EX30, EX30 CROSS COUNTRY).",
-  "liczbaWPolsce": 2132,
-  "aktywne": 2132,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volvo EX30 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 138 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EX30, EX30 CROSS COUNTRY).",
+  "liczbaWPolsce": 2138,
+  "aktywne": 2138,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 564
+    "liczba": 569
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 141
+    "liczba": 142
    },
    {
     "teryt": "24",
@@ -88,33 +88,33 @@
    },
    {
     "rok": 2024,
-    "liczba": 1165
+    "liczba": 1166
    },
    {
     "rok": 2025,
-    "liczba": 80
+    "liczba": 84
    },
    {
     "rok": 2026,
-    "liczba": 418
+    "liczba": 419
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2132
+    "liczba": 2138
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2132
+    "liczba": 2138
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1783
+    "liczba": 1784
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -122,7 +122,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 64
+    "liczba": 69
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -132,16 +132,16 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2117
+    "liczba": 2121
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 15
+    "liczba": 17
    }
   ],
-  "noweOdPaczki": 2132,
+  "noweOdPaczki": 2138,
   "hybrydy": 0,
-  "elektryczne": 2132,
+  "elektryczne": 2138,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
@@ -157,7 +157,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 475
+    "liczba": 481
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -494,7 +494,7 @@
     "liczba": 36
    }
   ],
-  "miejsce": 604,
+  "miejsce": 605,
   "miejsceWMarce": 21,
   "modeliWMarce": 34,
   "sredniRocznik": 2024.2
@@ -503,7 +503,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "volvo",
  "modelSlug": "ex30",
@@ -525,14 +525,14 @@
    "adres": "/marki/audi/q4/"
   },
   {
-   "slug": "toyota-bz4x",
-   "nazwa": "Toyota bZ4X",
-   "adres": "/marki/toyota/bz4x/"
-  },
-  {
    "slug": "volkswagen-id-4",
    "nazwa": "Volkswagen ID.4",
    "adres": "/marki/volkswagen/id-4/"
+  },
+  {
+   "slug": "toyota-bz4x",
+   "nazwa": "Toyota bZ4X",
+   "adres": "/marki/toyota/bz4x/"
   }
  ]
 }

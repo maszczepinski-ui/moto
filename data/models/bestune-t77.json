@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bestune T77 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 862 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T77).",
-  "liczbaWPolsce": 862,
-  "aktywne": 862,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Bestune T77 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 888 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T77).",
+  "liczbaWPolsce": 888,
+  "aktywne": 888,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "04",
-    "liczba": 41
+    "liczba": 44
    },
    {
     "teryt": "06",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 46
+    "liczba": 47
    },
    {
     "teryt": "14",
-    "liczba": 153
+    "liczba": 156
    },
    {
     "teryt": "16",
@@ -49,19 +49,19 @@
    },
    {
     "teryt": "18",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "20",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "22",
-    "liczba": 47
+    "liczba": 52
    },
    {
     "teryt": "24",
-    "liczba": 162
+    "liczba": 167
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 81
+    "liczba": 87
    },
    {
     "teryt": "32",
@@ -96,21 +96,21 @@
    },
    {
     "rok": 2025,
-    "liczba": 853
+    "liczba": 878
    },
    {
     "rok": 2026,
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 583
+    "liczba": 608
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 278
+    "liczba": 279
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,13 +120,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 862
+    "liczba": 888
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 805
+    "liczba": 831
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -144,14 +144,14 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 861
+    "liczba": 887
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 862,
+  "noweOdPaczki": 888,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -165,7 +165,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 735
+    "liczba": 761
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -502,7 +502,7 @@
     "liczba": 104
    }
   ],
-  "miejsce": 821,
+  "miejsce": 818,
   "miejsceWMarce": 1,
   "modeliWMarce": 2,
   "sredniRocznik": 2025.0
@@ -511,7 +511,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bestune",
  "modelSlug": "t77",

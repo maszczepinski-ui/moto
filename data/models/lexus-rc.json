@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus RC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 259 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RC300H, RC350, RC 350, RC300, RC 200T).",
-  "liczbaWPolsce": 259,
-  "aktywne": 259,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus RC – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 264 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RC300H, RC350, RC 350, RC300, RC 200T).",
+  "liczbaWPolsce": 264,
+  "aktywne": 264,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 10
+    "liczba": 11
    },
    {
     "teryt": "06",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 62
+    "liczba": 63
    },
    {
     "teryt": "16",
@@ -51,7 +51,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "teryt": "20",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 18
+    "liczba": 19
    },
    {
     "teryt": "26",
@@ -122,11 +122,11 @@
    },
    {
     "rok": 2014,
-    "liczba": 5
+    "liczba": 6
    },
    {
     "rok": 2015,
-    "liczba": 52
+    "liczba": 53
    },
    {
     "rok": 2016,
@@ -138,7 +138,7 @@
    },
    {
     "rok": 2018,
-    "liczba": 25
+    "liczba": 26
    },
    {
     "rok": 2019,
@@ -150,7 +150,7 @@
    },
    {
     "rok": 2021,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2022,
@@ -158,13 +158,13 @@
    },
    {
     "rok": 2023,
-    "liczba": 3
+    "liczba": 4
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 193
+    "liczba": 198
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -178,7 +178,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 144
+    "liczba": 149
    },
    {
     "nazwa": "2,5 l",
@@ -200,7 +200,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 145
+    "liczba": 150
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -214,11 +214,11 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 228
+    "liczba": 232
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "nazwa": "Hatchback",
@@ -237,7 +237,7 @@
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 259,
+  "noweOdPaczki": 264,
   "hybrydy": 59,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -271,7 +271,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 56
+    "liczba": 61
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -608,16 +608,16 @@
     "liczba": 9
    }
   ],
-  "miejsce": 1200,
+  "miejsce": 1195,
   "miejsceWMarce": 13,
   "modeliWMarce": 13,
-  "sredniRocznik": 2017.4
+  "sredniRocznik": 2017.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "rc",

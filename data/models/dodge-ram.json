@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Ram – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 103 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RAM 1500, RAM, RAM VAN, RAM 1500 LARAMIE, RAM 2500).",
-  "liczbaWPolsce": 2406,
-  "aktywne": 2207,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Dodge Ram – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 114 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RAM 1500, RAM, RAM VAN, RAM 1500 LARAMIE, RAM 2500).",
+  "liczbaWPolsce": 2417,
+  "aktywne": 2218,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 165
+    "liczba": 166
    },
    {
     "teryt": "04",
@@ -43,11 +43,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 358
+    "liczba": 359
    },
    {
     "teryt": "16",
-    "liczba": 72
+    "liczba": 73
    },
    {
     "teryt": "18",
@@ -55,31 +55,31 @@
    },
    {
     "teryt": "20",
-    "liczba": 127
+    "liczba": 128
    },
    {
     "teryt": "22",
-    "liczba": 193
+    "liczba": 194
    },
    {
     "teryt": "24",
-    "liczba": 211
+    "liczba": 212
    },
    {
     "teryt": "26",
-    "liczba": 65
+    "liczba": 66
    },
    {
     "teryt": "28",
-    "liczba": 103
+    "liczba": 104
    },
    {
     "teryt": "30",
-    "liczba": 230
+    "liczba": 232
    },
    {
     "teryt": "32",
-    "liczba": 104
+    "liczba": 105
    }
   ],
   "bezWojewodztwa": 12,
@@ -178,11 +178,11 @@
    },
    {
     "rok": 2008,
-    "liczba": 23
+    "liczba": 24
    },
    {
     "rok": 2009,
-    "liczba": 35
+    "liczba": 36
    },
    {
     "rok": 2010,
@@ -206,11 +206,11 @@
    },
    {
     "rok": 2015,
-    "liczba": 123
+    "liczba": 124
    },
    {
     "rok": 2016,
-    "liczba": 187
+    "liczba": 188
    },
    {
     "rok": 2017,
@@ -222,11 +222,11 @@
    },
    {
     "rok": 2019,
-    "liczba": 273
+    "liczba": 275
    },
    {
     "rok": 2020,
-    "liczba": 188
+    "liczba": 191
    },
    {
     "rok": 2021,
@@ -234,11 +234,11 @@
    },
    {
     "rok": 2022,
-    "liczba": 130
+    "liczba": 131
    },
    {
     "rok": 2023,
-    "liczba": 70
+    "liczba": 71
    },
    {
     "rok": 2024,
@@ -256,7 +256,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1004
+    "liczba": 1015
    },
    {
     "nazwa": "Diesel",
@@ -270,7 +270,7 @@
   "pojemnosci": [
    {
     "nazwa": "5,7 l",
-    "liczba": 1864
+    "liczba": 1872
    },
    {
     "nazwa": "2,5 l",
@@ -298,13 +298,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 120
+    "liczba": 123
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1384
+    "liczba": 1395
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -318,7 +318,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1183
+    "liczba": 1189
    },
    {
     "nazwa": "Terenowy",
@@ -334,7 +334,7 @@
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Sedan",
@@ -342,10 +342,10 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 259
+    "liczba": 263
    }
   ],
-  "noweOdPaczki": 2103,
+  "noweOdPaczki": 2114,
   "hybrydy": 2,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -379,7 +379,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 306
+    "liczba": 317
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -719,13 +719,13 @@
   "miejsce": 579,
   "miejsceWMarce": 7,
   "modeliWMarce": 12,
-  "sredniRocznik": 2014.3
+  "sredniRocznik": 2014.4
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "dodge",
  "modelSlug": "ram",

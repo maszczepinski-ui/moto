@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Sentra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 110 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SENTRA, SENTRA 1.6, SENTRA 1.6 KAT, SENTRA 1.8 SV).",
-  "liczbaWPolsce": 736,
-  "aktywne": 175,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Nissan Sentra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 111 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SENTRA, SENTRA 1.6, SENTRA 1.6 KAT, SENTRA 1.8 SV).",
+  "liczbaWPolsce": 737,
+  "aktywne": 176,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 90
+    "liczba": 91
    },
    {
     "teryt": "20",
@@ -201,7 +201,7 @@
    },
    {
     "rok": 2013,
-    "liczba": 12
+    "liczba": 13
    },
    {
     "rok": 2014,
@@ -255,7 +255,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 466
+    "liczba": 467
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -277,7 +277,7 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 214
+    "liczba": 215
    },
    {
     "nazwa": "2,0 l",
@@ -299,7 +299,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 331
+    "liczba": 332
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -321,7 +321,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 520
+    "liczba": 521
    },
    {
     "nazwa": "Hatchback",
@@ -336,7 +336,7 @@
     "liczba": 166
    }
   ],
-  "noweOdPaczki": 110,
+  "noweOdPaczki": 111,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -370,7 +370,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 12
+    "liczba": 13
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -710,13 +710,13 @@
   "miejsce": 866,
   "miejsceWMarce": 29,
   "modeliWMarce": 47,
-  "sredniRocznik": 2000.4
+  "sredniRocznik": 2000.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "nissan",
  "modelSlug": "sentra",
@@ -738,14 +738,14 @@
    "adres": "/marki/daewoo/lanos/"
   },
   {
+   "slug": "volkswagen-bora",
+   "nazwa": "Volkswagen Bora",
+   "adres": "/marki/volkswagen/bora/"
+  },
+  {
    "slug": "opel-vectra",
    "nazwa": "Opel Vectra",
    "adres": "/marki/opel/vectra/"
-  },
-  {
-   "slug": "seat-toledo",
-   "nazwa": "Seat Toledo",
-   "adres": "/marki/seat/toledo/"
   }
  ]
 }

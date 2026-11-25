@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus LS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 221 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LS460, LS500H, LS 400, LS430, LS400).",
-  "liczbaWPolsce": 1785,
-  "aktywne": 1444,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus LS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 225 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LS460, LS500H, LS 400, LS430, LS400).",
+  "liczbaWPolsce": 1789,
+  "aktywne": 1448,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 73
+    "liczba": 74
    },
    {
     "teryt": "06",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 101
+    "liczba": 102
    },
    {
     "teryt": "14",
-    "liczba": 463
+    "liczba": 464
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 130
+    "liczba": 131
    },
    {
     "teryt": "26",
@@ -120,7 +120,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 50
+    "liczba": 51
    },
    {
     "rok": 1999,
@@ -164,7 +164,7 @@
    },
    {
     "rok": 2009,
-    "liczba": 56
+    "liczba": 57
    },
    {
     "rok": 2010,
@@ -188,7 +188,7 @@
    },
    {
     "rok": 2015,
-    "liczba": 27
+    "liczba": 28
    },
    {
     "rok": 2016,
@@ -200,7 +200,7 @@
    },
    {
     "rok": 2018,
-    "liczba": 29
+    "liczba": 30
    },
    {
     "rok": 2019,
@@ -234,7 +234,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1214
+    "liczba": 1218
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
@@ -252,11 +252,11 @@
   "pojemnosci": [
    {
     "nazwa": "4,6 l",
-    "liczba": 526
+    "liczba": 528
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 417
+    "liczba": 418
    },
    {
     "nazwa": "4,3 l",
@@ -272,7 +272,7 @@
    },
    {
     "nazwa": "3,4 l",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "nazwa": "Inne / brak danych",
@@ -282,7 +282,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 858
+    "liczba": 862
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -300,14 +300,14 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1701
-   },
-   {
-    "nazwa": "Hatchback",
-    "liczba": 25
+    "liczba": 1703
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
+    "liczba": 27
+   },
+   {
+    "nazwa": "Hatchback",
     "liczba": 25
    },
    {
@@ -315,7 +315,7 @@
     "liczba": 34
    }
   ],
-  "noweOdPaczki": 1221,
+  "noweOdPaczki": 1225,
   "hybrydy": 349,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -349,7 +349,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 135
+    "liczba": 139
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -686,16 +686,16 @@
     "liczba": 14
    }
   ],
-  "miejsce": 655,
+  "miejsce": 656,
   "miejsceWMarce": 9,
   "modeliWMarce": 13,
-  "sredniRocznik": 2006.6
+  "sredniRocznik": 2006.7
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "ls",

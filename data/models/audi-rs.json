@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 917 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS Q8, RS Q3 SPORTBACK, RS E-TRON GT, RS Q3, RS E-TRON GT PERFORMANCE).",
-  "liczbaWPolsce": 1917,
-  "aktywne": 1917,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi RS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 923 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RS Q8, RS Q3 SPORTBACK, RS E-TRON GT, RS Q3, RS E-TRON GT PERFORMANCE).",
+  "liczbaWPolsce": 1923,
+  "aktywne": 1923,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 178
+    "liczba": 179
    },
    {
     "teryt": "04",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "10",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 546
+    "liczba": 547
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "20",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 219
+    "liczba": 221
    },
    {
     "teryt": "32",
@@ -113,7 +113,7 @@
    },
    {
     "rok": 2021,
-    "liczba": 347
+    "liczba": 348
    },
    {
     "rok": 2022,
@@ -125,7 +125,7 @@
    },
    {
     "rok": 2024,
-    "liczba": 268
+    "liczba": 269
    },
    {
     "rok": 2025,
@@ -133,21 +133,21 @@
    },
    {
     "rok": 2026,
-    "liczba": 82
+    "liczba": 86
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1277
+    "liczba": 1278
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 440
+    "liczba": 444
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 200
+    "liczba": 201
    }
   ],
   "pojemnosci": [
@@ -157,17 +157,17 @@
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 774
+    "liczba": 779
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 205
+    "liczba": 206
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 960
+    "liczba": 964
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -175,7 +175,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 147
+    "liczba": 149
    },
    {
     "nazwa": "Inne / brak danych",
@@ -185,7 +185,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 1670
+    "liczba": 1676
    },
    {
     "nazwa": "Kombi",
@@ -200,9 +200,9 @@
     "liczba": 31
    }
   ],
-  "noweOdPaczki": 1917,
-  "hybrydy": 440,
-  "elektryczne": 200,
+  "noweOdPaczki": 1923,
+  "hybrydy": 444,
+  "elektryczne": 201,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -234,7 +234,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 186
+    "liczba": 192
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -580,7 +580,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "rs",

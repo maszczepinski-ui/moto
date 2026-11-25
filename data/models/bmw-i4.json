@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW i4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 468 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I4 M50, I4 EDRIVE40, I4 EDRIVE35, I4 XDRIVE40, I4 M60 XDRIVE).",
-  "liczbaWPolsce": 1468,
-  "aktywne": 1468,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW i4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 476 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I4 M50, I4 EDRIVE40, I4 EDRIVE35, I4 XDRIVE40, I4 M60 XDRIVE).",
+  "liczbaWPolsce": 1476,
+  "aktywne": 1476,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,11 +37,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 148
+    "liczba": 149
    },
    {
     "teryt": "14",
-    "liczba": 439
+    "liczba": 443
    },
    {
     "teryt": "16",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 103
+    "liczba": 104
    },
    {
     "teryt": "24",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 183
+    "liczba": 184
    },
    {
     "teryt": "32",
-    "liczba": 51
+    "liczba": 52
    }
   ],
   "bezWojewodztwa": 0,
@@ -92,21 +92,21 @@
    },
    {
     "rok": 2024,
-    "liczba": 319
+    "liczba": 320
    },
    {
     "rok": 2025,
-    "liczba": 203
+    "liczba": 206
    },
    {
     "rok": 2026,
-    "liczba": 65
+    "liczba": 69
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1467
+    "liczba": 1475
    },
    {
     "nazwa": "Inne / brak danych",
@@ -116,13 +116,13 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1468
+    "liczba": 1476
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 972
+    "liczba": 976
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -130,7 +130,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 157
+    "liczba": 161
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -140,7 +140,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 1421
+    "liczba": 1428
    },
    {
     "nazwa": "Hatchback",
@@ -148,16 +148,16 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 12
    }
   ],
-  "noweOdPaczki": 1468,
+  "noweOdPaczki": 1476,
   "hybrydy": 0,
-  "elektryczne": 1467,
+  "elektryczne": 1475,
   "pierwszeRejestracje": [
    {
     "rok": 2022,
@@ -177,7 +177,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 184
+    "liczba": 192
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -514,16 +514,16 @@
     "liczba": 33
    }
   ],
-  "miejsce": 700,
+  "miejsce": 698,
   "miejsceWMarce": 25,
   "modeliWMarce": 43,
-  "sredniRocznik": 2023.4
+  "sredniRocznik": 2023.5
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "i4",

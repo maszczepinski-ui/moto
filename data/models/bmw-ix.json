@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 975 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX XDRIVE40, IX XDRIVE50, IX M60, IX XDRIVE60, IX XDRIVE45).",
-  "liczbaWPolsce": 975,
-  "aktywne": 975,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW iX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 978 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: IX XDRIVE40, IX XDRIVE50, IX M60, IX XDRIVE60, IX XDRIVE45).",
+  "liczbaWPolsce": 978,
+  "aktywne": 978,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 311
+    "liczba": 312
    },
    {
     "teryt": "16",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 110
+    "liczba": 111
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 97
+    "liczba": 98
    },
    {
     "teryt": "32",
@@ -100,23 +100,23 @@
    },
    {
     "rok": 2025,
-    "liczba": 134
+    "liczba": 136
    },
    {
     "rok": 2026,
-    "liczba": 40
+    "liczba": 41
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 975
+    "liczba": 978
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 975
+    "liczba": 978
    }
   ],
   "pochodzenie": [
@@ -130,7 +130,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 95
+    "liczba": 98
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -140,20 +140,24 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 946
+    "liczba": 948
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
     "liczba": 17
    },
    {
+    "nazwa": "Hatchback",
+    "liczba": 10
+   },
+   {
     "nazwa": "Inne / brak danych",
-    "liczba": 12
+    "liczba": 3
    }
   ],
-  "noweOdPaczki": 975,
+  "noweOdPaczki": 978,
   "hybrydy": 0,
-  "elektryczne": 975,
+  "elektryczne": 978,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -177,7 +181,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 91
+    "liczba": 94
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -514,7 +518,7 @@
     "liczba": 12
    }
   ],
-  "miejsce": 800,
+  "miejsce": 801,
   "miejsceWMarce": 30,
   "modeliWMarce": 43,
   "sredniRocznik": 2023.1
@@ -523,7 +527,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "ix",

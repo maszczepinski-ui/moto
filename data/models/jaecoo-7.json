@@ -10,62 +10,62 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaecoo 7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 050 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JAECOO7, JAECOO7 PHEV, JAECOO7 HYBRID).",
-  "liczbaWPolsce": 11050,
-  "aktywne": 11050,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jaecoo 7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 156 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JAECOO7, JAECOO7 PHEV, JAECOO7 HYBRID).",
+  "liczbaWPolsce": 11156,
+  "aktywne": 11156,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1015
+    "liczba": 1019
    },
    {
     "teryt": "04",
-    "liczba": 590
+    "liczba": 592
    },
    {
     "teryt": "06",
-    "liczba": 323
+    "liczba": 325
    },
    {
     "teryt": "08",
-    "liczba": 407
+    "liczba": 415
    },
    {
     "teryt": "10",
-    "liczba": 782
-   },
-   {
-    "teryt": "12",
     "liczba": 785
    },
    {
+    "teryt": "12",
+    "liczba": 789
+   },
+   {
     "teryt": "14",
-    "liczba": 1722
+    "liczba": 1735
    },
    {
     "teryt": "16",
-    "liczba": 286
+    "liczba": 289
    },
    {
     "teryt": "18",
-    "liczba": 282
+    "liczba": 285
    },
    {
     "teryt": "20",
-    "liczba": 206
+    "liczba": 210
    },
    {
     "teryt": "22",
-    "liczba": 964
+    "liczba": 970
    },
    {
     "teryt": "24",
-    "liczba": 1518
+    "liczba": 1551
    },
    {
     "teryt": "26",
-    "liczba": 191
+    "liczba": 195
    },
    {
     "teryt": "28",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 1184
+    "liczba": 1198
    },
    {
     "teryt": "32",
-    "liczba": 432
+    "liczba": 435
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,21 +88,21 @@
    },
    {
     "rok": 2025,
-    "liczba": 6328
+    "liczba": 6331
    },
    {
     "rok": 2026,
-    "liczba": 1202
+    "liczba": 1305
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5687
+    "liczba": 5706
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 5356
+    "liczba": 5443
    },
    {
     "nazwa": "Inne / brak danych",
@@ -112,17 +112,17 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 5604
+    "liczba": 5622
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 5446
+    "liczba": 5534
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 9452
+    "liczba": 9556
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -134,21 +134,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 23
+    "liczba": 25
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 11044
+    "liczba": 11150
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 11050,
-  "hybrydy": 5356,
+  "noweOdPaczki": 11156,
+  "hybrydy": 5443,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -161,7 +161,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 3347
+    "liczba": 3453
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -498,7 +498,7 @@
     "liczba": 392
    }
   ],
-  "miejsce": 315,
+  "miejsce": 313,
   "miejsceWMarce": 1,
   "modeliWMarce": 3,
   "sredniRocznik": 2024.8
@@ -507,7 +507,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "jaecoo",
  "modelSlug": "7",

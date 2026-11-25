@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart EQ-Fortwo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 450 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQ FORTWO COUPE, EQ FORTWO CABRIO).",
-  "liczbaWPolsce": 450,
-  "aktywne": 450,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Smart EQ-Fortwo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 452 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EQ FORTWO COUPE, EQ FORTWO CABRIO).",
+  "liczbaWPolsce": 452,
+  "aktywne": 452,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "04",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "32",
@@ -165,7 +165,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 39
+    "liczba": 41
    },
    {
     "rok": 2024,
@@ -175,7 +175,7 @@
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 443
+    "liczba": 445
    },
    {
     "nazwa": "Benzyna",
@@ -185,13 +185,13 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 450
+    "liczba": 452
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 218
+    "liczba": 220
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -209,7 +209,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 343
+    "liczba": 345
    },
    {
     "nazwa": "Kabriolet",
@@ -224,9 +224,9 @@
     "liczba": 2
    }
   ],
-  "noweOdPaczki": 450,
+  "noweOdPaczki": 452,
   "hybrydy": 0,
-  "elektryczne": 443,
+  "elektryczne": 445,
   "pierwszeRejestracje": [
    {
     "rok": 2019,
@@ -258,7 +258,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 53
+    "liczba": 55
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -595,7 +595,7 @@
     "liczba": 8
    }
   ],
-  "miejsce": 1013,
+  "miejsce": 1012,
   "miejsceWMarce": 5,
   "modeliWMarce": 9,
   "sredniRocznik": 2020.4
@@ -604,7 +604,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "smart",
  "modelSlug": "eq-fortwo",
@@ -621,14 +621,14 @@
    "adres": "/marki/kia/ev6/"
   },
   {
-   "slug": "dacia-spring",
-   "nazwa": "Dacia Spring",
-   "adres": "/marki/dacia/spring/"
-  },
-  {
    "slug": "volkswagen-id-3",
    "nazwa": "Volkswagen ID.3",
    "adres": "/marki/volkswagen/id-3/"
+  },
+  {
+   "slug": "dacia-spring",
+   "nazwa": "Dacia Spring",
+   "adres": "/marki/dacia/spring/"
   },
   {
    "slug": "skoda-enyaq",

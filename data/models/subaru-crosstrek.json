@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Crosstrek – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 888 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSTREK).",
-  "liczbaWPolsce": 1888,
-  "aktywne": 1888,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Subaru Crosstrek – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 905 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CROSSTREK).",
+  "liczbaWPolsce": 1905,
+  "aktywne": 1905,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,11 +23,11 @@
    },
    {
     "teryt": "04",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "06",
-    "liczba": 122
+    "liczba": 124
    },
    {
     "teryt": "08",
@@ -39,15 +39,15 @@
    },
    {
     "teryt": "12",
-    "liczba": 451
+    "liczba": 455
    },
    {
     "teryt": "14",
-    "liczba": 245
+    "liczba": 248
    },
    {
     "teryt": "16",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "teryt": "18",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 121
+    "liczba": 122
    },
    {
     "teryt": "22",
@@ -63,11 +63,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 162
+    "liczba": 163
    },
    {
     "teryt": "26",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "teryt": "28",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 52
+    "liczba": 55
    },
    {
     "teryt": "32",
@@ -90,7 +90,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 14
+    "liczba": 15
    },
    {
     "rok": 2015,
@@ -118,7 +118,7 @@
    },
    {
     "rok": 2021,
-    "liczba": 75
+    "liczba": 76
    },
    {
     "rok": 2022,
@@ -130,25 +130,25 @@
    },
    {
     "rok": 2024,
-    "liczba": 524
+    "liczba": 527
    },
    {
     "rok": 2025,
-    "liczba": 502
+    "liczba": 504
    },
    {
     "rok": 2026,
-    "liczba": 236
+    "liczba": 246
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1158
+    "liczba": 1166
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 667
+    "liczba": 676
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -162,11 +162,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 1765
+    "liczba": 1779
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 121
+    "liczba": 124
    },
    {
     "nazwa": "Inne / brak danych",
@@ -176,11 +176,11 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 803
+    "liczba": 813
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 554
+    "liczba": 561
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -194,15 +194,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1358
+    "liczba": 1371
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 243
+    "liczba": 244
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 209
+    "liczba": 212
    },
    {
     "nazwa": "Terenowy",
@@ -217,8 +217,8 @@
     "liczba": 28
    }
   ],
-  "noweOdPaczki": 1888,
-  "hybrydy": 667,
+  "noweOdPaczki": 1905,
+  "hybrydy": 676,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -251,7 +251,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 509
+    "liczba": 526
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -588,7 +588,7 @@
     "liczba": 33
    }
   ],
-  "miejsce": 638,
+  "miejsce": 636,
   "miejsceWMarce": 7,
   "modeliWMarce": 13,
   "sredniRocznik": 2023.0
@@ -597,7 +597,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "subaru",
  "modelSlug": "crosstrek",

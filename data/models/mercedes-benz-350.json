@@ -15,10 +15,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 350 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 235 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 350, 350 SL, 350 SLC, 350 TD, 350 SE).",
-  "liczbaWPolsce": 485,
-  "aktywne": 284,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 350 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 237 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 350, 350 SL, 350 SLC, 350 TD, 350 SDL).",
+  "liczbaWPolsce": 487,
+  "aktywne": 286,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "08",
@@ -82,7 +82,7 @@
    },
    {
     "teryt": "32",
-    "liczba": 20
+    "liczba": 21
    }
   ],
   "bezWojewodztwa": 0,
@@ -93,7 +93,7 @@
    },
    {
     "rok": 1972,
-    "liczba": 30
+    "liczba": 31
    },
    {
     "rok": 1973,
@@ -165,7 +165,7 @@
    },
    {
     "rok": 1990,
-    "liczba": 16
+    "liczba": 17
    },
    {
     "rok": 1991,
@@ -311,7 +311,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 170
+    "liczba": 172
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -329,11 +329,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 240
+    "liczba": 241
    },
    {
     "nazwa": "3,4 l",
-    "liczba": 134
+    "liczba": 135
    },
    {
     "nazwa": "3,0 l",
@@ -363,7 +363,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 226
+    "liczba": 228
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -377,7 +377,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 241
+    "liczba": 242
    },
    {
     "nazwa": "Kombi",
@@ -385,7 +385,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "nazwa": "Kabriolet",
@@ -404,7 +404,7 @@
     "liczba": 70
    }
   ],
-  "noweOdPaczki": 235,
+  "noweOdPaczki": 237,
   "hybrydy": 7,
   "elektryczne": 1,
   "pierwszeRejestracje": [
@@ -438,7 +438,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 29
+    "liczba": 31
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -784,7 +784,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "350",

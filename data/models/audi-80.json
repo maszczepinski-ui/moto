@@ -11,18 +11,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 80 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 982 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 80, 80 1.6, 80 1.8, 80 2.0 KAT, 80 1.8 KAT).",
-  "liczbaWPolsce": 125577,
-  "aktywne": 10255,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Audi 80 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 993 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 80, 80 1.6, 80 1.8, 80 2.0 KAT, 80 1.8 KAT).",
+  "liczbaWPolsce": 125588,
+  "aktywne": 10266,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 10699
+    "liczba": 10700
    },
    {
     "teryt": "04",
-    "liczba": 7555
+    "liczba": 7556
    },
    {
     "teryt": "06",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 7797
+    "liczba": 7798
    },
    {
     "teryt": "14",
-    "liczba": 12756
+    "liczba": 12760
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 6952
+    "liczba": 6953
    },
    {
     "teryt": "20",
@@ -58,11 +58,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 9875
+    "liczba": 9876
    },
    {
     "teryt": "24",
-    "liczba": 8207
+    "liczba": 8208
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 7745
+    "liczba": 7746
    },
    {
     "teryt": "32",
@@ -145,11 +145,11 @@
    },
    {
     "rok": 1988,
-    "liczba": 5508
+    "liczba": 5510
    },
    {
     "rok": 1989,
-    "liczba": 5810
+    "liczba": 5811
    },
    {
     "rok": 1990,
@@ -157,19 +157,19 @@
    },
    {
     "rok": 1991,
-    "liczba": 11046
+    "liczba": 11048
    },
    {
     "rok": 1992,
-    "liczba": 15594
+    "liczba": 15597
    },
    {
     "rok": 1993,
-    "liczba": 15226
+    "liczba": 15227
    },
    {
     "rok": 1994,
-    "liczba": 17790
+    "liczba": 17791
    },
    {
     "rok": 1995,
@@ -181,7 +181,7 @@
    },
    {
     "rok": 1997,
-    "liczba": 3445
+    "liczba": 3446
    }
   ],
   "paliwa": [
@@ -195,7 +195,7 @@
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 29546
+    "liczba": 29557
    },
    {
     "nazwa": "?+LPG",
@@ -213,11 +213,11 @@
    },
    {
     "nazwa": "1,8 l",
-    "liczba": 29151
+    "liczba": 29156
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 28578
+    "liczba": 28581
    },
    {
     "nazwa": "1,9 l",
@@ -229,11 +229,11 @@
    },
    {
     "nazwa": "2,3 l",
-    "liczba": 2066
+    "liczba": 2068
    },
    {
     "nazwa": "2,6 l",
-    "liczba": 1291
+    "liczba": 1292
    },
    {
     "nazwa": "Inne / brak danych",
@@ -247,7 +247,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 34456
+    "liczba": 34467
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -261,7 +261,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 74715
+    "liczba": 74723
    },
    {
     "nazwa": "Kombi",
@@ -273,14 +273,14 @@
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 1306
+    "liczba": 1309
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 35139
    }
   ],
-  "noweOdPaczki": 1982,
+  "noweOdPaczki": 1993,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -314,7 +314,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 243
+    "liczba": 254
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -660,7 +660,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "audi",
  "modelSlug": "80",

@@ -10,62 +10,62 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Scala – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 739 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCALA, SCALA VAN).",
-  "liczbaWPolsce": 36304,
-  "aktywne": 36304,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Scala – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 34 973 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SCALA, SCALA VAN).",
+  "liczbaWPolsce": 36538,
+  "aktywne": 36538,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 3005
+    "liczba": 3022
    },
    {
     "teryt": "04",
-    "liczba": 1671
+    "liczba": 1681
    },
    {
     "teryt": "06",
-    "liczba": 824
+    "liczba": 825
    },
    {
     "teryt": "08",
-    "liczba": 459
+    "liczba": 461
    },
    {
     "teryt": "10",
-    "liczba": 1751
+    "liczba": 1752
    },
    {
     "teryt": "12",
-    "liczba": 2441
+    "liczba": 2466
    },
    {
     "teryt": "14",
-    "liczba": 11723
+    "liczba": 11825
    },
    {
     "teryt": "16",
-    "liczba": 690
+    "liczba": 695
    },
    {
     "teryt": "18",
-    "liczba": 1008
+    "liczba": 1011
    },
    {
     "teryt": "20",
-    "liczba": 313
+    "liczba": 314
    },
    {
     "teryt": "22",
-    "liczba": 2633
+    "liczba": 2647
    },
    {
     "teryt": "24",
-    "liczba": 4163
+    "liczba": 4185
    },
    {
     "teryt": "26",
-    "liczba": 487
+    "liczba": 497
    },
    {
     "teryt": "28",
@@ -73,22 +73,22 @@
    },
    {
     "teryt": "30",
-    "liczba": 3780
+    "liczba": 3799
    },
    {
     "teryt": "32",
-    "liczba": 726
+    "liczba": 728
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2019,
-    "liczba": 3697
+    "liczba": 3699
    },
    {
     "rok": 2020,
-    "liczba": 4131
+    "liczba": 4133
    },
    {
     "rok": 2021,
@@ -96,11 +96,11 @@
    },
    {
     "rok": 2022,
-    "liczba": 3668
+    "liczba": 3672
    },
    {
     "rok": 2023,
-    "liczba": 4822
+    "liczba": 4823
    },
    {
     "rok": 2024,
@@ -108,25 +108,25 @@
    },
    {
     "rok": 2025,
-    "liczba": 5523
+    "liczba": 5524
    },
    {
     "rok": 2026,
-    "liczba": 4620
+    "liczba": 4844
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 34198
+    "liczba": 34429
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1512
+    "liczba": 1514
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 583
+    "liczba": 584
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,21 +136,21 @@
   "pojemnosci": [
    {
     "nazwa": "1,0 l",
-    "liczba": 24433
+    "liczba": 24605
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 10356
+    "liczba": 10416
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 1515
+    "liczba": 1517
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 26166
+    "liczba": 26390
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -158,7 +158,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 503
+    "liczba": 513
    },
    {
     "nazwa": "Inne / brak danych",
@@ -168,14 +168,14 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 36217
+    "liczba": 36451
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 87
    }
   ],
-  "noweOdPaczki": 34739,
+  "noweOdPaczki": 34973,
   "hybrydy": 9,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -209,7 +209,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 5454
+    "liczba": 5688
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -546,7 +546,7 @@
     "liczba": 652
    }
   ],
-  "miejsce": 143,
+  "miejsce": 141,
   "miejsceWMarce": 10,
   "modeliWMarce": 27,
   "sredniRocznik": 2022.8
@@ -555,7 +555,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "scala",

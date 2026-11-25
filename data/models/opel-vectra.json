@@ -12,14 +12,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Vectra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 867 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VECTRA, VECTRA-C, VECTRA 1.6 KAT, VECTRA 1.8 KAT, VECTRA STATION WAGON).",
-  "liczbaWPolsce": 228792,
-  "aktywne": 48943,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Vectra – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 13 879 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VECTRA, VECTRA-C, VECTRA 1.6 KAT, VECTRA 1.8 KAT, VECTRA STATION WAGON).",
+  "liczbaWPolsce": 228804,
+  "aktywne": 48955,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 16377
+    "liczba": 16378
    },
    {
     "teryt": "04",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 15617
+    "liczba": 15619
    },
    {
     "teryt": "08",
@@ -35,11 +35,11 @@
    },
    {
     "teryt": "10",
-    "liczba": 17094
+    "liczba": 17095
    },
    {
     "teryt": "12",
-    "liczba": 12832
+    "liczba": 12834
    },
    {
     "teryt": "14",
@@ -67,19 +67,19 @@
    },
    {
     "teryt": "26",
-    "liczba": 8193
+    "liczba": 8194
    },
    {
     "teryt": "28",
-    "liczba": 10617
+    "liczba": 10619
    },
    {
     "teryt": "30",
-    "liczba": 21269
+    "liczba": 21271
    },
    {
     "teryt": "32",
-    "liczba": 11819
+    "liczba": 11820
    }
   ],
   "bezWojewodztwa": 593,
@@ -146,7 +146,7 @@
    },
    {
     "rok": 2003,
-    "liczba": 12689
+    "liczba": 12690
    },
    {
     "rok": 2004,
@@ -154,29 +154,29 @@
    },
    {
     "rok": 2005,
-    "liczba": 12449
+    "liczba": 12451
    },
    {
     "rok": 2006,
-    "liczba": 12729
+    "liczba": 12730
    },
    {
     "rok": 2007,
-    "liczba": 10471
+    "liczba": 10476
    },
    {
     "rok": 2008,
-    "liczba": 8010
+    "liczba": 8012
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 75377
+    "liczba": 75378
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 72801
+    "liczba": 72812
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -194,7 +194,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 60609
+    "liczba": 60617
    },
    {
     "nazwa": "1,6 l",
@@ -206,11 +206,11 @@
    },
    {
     "nazwa": "1,9 l",
-    "liczba": 35539
+    "liczba": 35540
    },
    {
     "nazwa": "2,2 l",
-    "liczba": 13630
+    "liczba": 13632
    },
    {
     "nazwa": "1,7 l",
@@ -218,7 +218,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 4345
+    "liczba": 4346
    }
   ],
   "pochodzenie": [
@@ -228,7 +228,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 97221
+    "liczba": 97233
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -242,22 +242,22 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 99524
+    "liczba": 99525
    },
    {
     "nazwa": "Kombi",
-    "liczba": 56825
+    "liczba": 56830
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 51982
+    "liczba": 51988
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 20461
    }
   ],
-  "noweOdPaczki": 13867,
+  "noweOdPaczki": 13879,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -291,7 +291,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 448
+    "liczba": 460
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -637,7 +637,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "vectra",

@@ -10,74 +10,74 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG HS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 629 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG HS, MG HS HYBRID, HS, HS HYBRID, MG HS PLUG-IN HYBRID).",
-  "liczbaWPolsce": 20629,
-  "aktywne": 20629,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG HS – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 20 803 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG HS, MG HS HYBRID, HS, HS HYBRID, MG HS PLUG-IN HYBRID).",
+  "liczbaWPolsce": 20803,
+  "aktywne": 20803,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 1300
+    "liczba": 1314
    },
    {
     "teryt": "04",
-    "liczba": 1009
+    "liczba": 1022
    },
    {
     "teryt": "06",
-    "liczba": 733
+    "liczba": 737
    },
    {
     "teryt": "08",
-    "liczba": 535
+    "liczba": 540
    },
    {
     "teryt": "10",
-    "liczba": 950
+    "liczba": 959
    },
    {
     "teryt": "12",
-    "liczba": 1091
+    "liczba": 1104
    },
    {
     "teryt": "14",
-    "liczba": 3926
+    "liczba": 3950
    },
    {
     "teryt": "16",
-    "liczba": 336
+    "liczba": 340
    },
    {
     "teryt": "18",
-    "liczba": 829
+    "liczba": 836
    },
    {
     "teryt": "20",
-    "liczba": 714
+    "liczba": 718
    },
    {
     "teryt": "22",
-    "liczba": 1640
+    "liczba": 1649
    },
    {
     "teryt": "24",
-    "liczba": 2330
+    "liczba": 2354
    },
    {
     "teryt": "26",
-    "liczba": 432
+    "liczba": 435
    },
    {
     "teryt": "28",
-    "liczba": 1073
+    "liczba": 1086
    },
    {
     "teryt": "30",
-    "liczba": 2215
+    "liczba": 2236
    },
    {
     "teryt": "32",
-    "liczba": 1516
+    "liczba": 1523
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 1381
+    "liczba": 1382
    },
    {
     "rok": 2024,
@@ -96,21 +96,21 @@
    },
    {
     "rok": 2025,
-    "liczba": 7903
+    "liczba": 7904
    },
    {
     "rok": 2026,
-    "liczba": 4279
+    "liczba": 4450
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 10959
+    "liczba": 10964
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 9614
+    "liczba": 9783
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,13 +120,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 20629
+    "liczba": 20803
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 18835
+    "liczba": 19007
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -134,7 +134,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 174
+    "liczba": 176
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,15 +144,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 20597
+    "liczba": 20770
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 32
+    "liczba": 33
    }
   ],
-  "noweOdPaczki": 20629,
-  "hybrydy": 9614,
+  "noweOdPaczki": 20803,
+  "hybrydy": 9783,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -169,7 +169,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 7217
+    "liczba": 7391
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -506,7 +506,7 @@
     "liczba": 626
    }
   ],
-  "miejsce": 213,
+  "miejsce": 211,
   "miejsceWMarce": 1,
   "modeliWMarce": 8,
   "sredniRocznik": 2024.7
@@ -515,7 +515,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "hs",

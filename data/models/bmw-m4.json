@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 866 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M440I XDRIVE, M4 COMPETITION M XDRIVE, M4, M440D XDRIVE, M4 COMPETITION).",
-  "liczbaWPolsce": 4009,
-  "aktywne": 3985,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW M4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 887 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: M440I XDRIVE, M4 COMPETITION M XDRIVE, M4, M440D XDRIVE, M4 COMPETITION).",
+  "liczbaWPolsce": 4030,
+  "aktywne": 4006,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,27 +27,27 @@
    },
    {
     "teryt": "06",
-    "liczba": 146
+    "liczba": 147
    },
    {
     "teryt": "08",
-    "liczba": 76
+    "liczba": 78
    },
    {
     "teryt": "10",
-    "liczba": 185
+    "liczba": 187
    },
    {
     "teryt": "12",
-    "liczba": 528
+    "liczba": 530
    },
    {
     "teryt": "14",
-    "liczba": 934
+    "liczba": 940
    },
    {
     "teryt": "16",
-    "liczba": 68
+    "liczba": 69
    },
    {
     "teryt": "18",
@@ -63,7 +63,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 485
+    "liczba": 489
    },
    {
     "teryt": "26",
@@ -75,22 +75,22 @@
    },
    {
     "teryt": "30",
-    "liczba": 473
+    "liczba": 475
    },
    {
     "teryt": "32",
-    "liczba": 126
+    "liczba": 127
    }
   ],
   "bezWojewodztwa": 4,
   "roczniki": [
    {
     "rok": 2014,
-    "liczba": 66
+    "liczba": 67
    },
    {
     "rok": 2015,
-    "liczba": 179
+    "liczba": 180
    },
    {
     "rok": 2016,
@@ -110,19 +110,19 @@
    },
    {
     "rok": 2020,
-    "liczba": 137
+    "liczba": 138
    },
    {
     "rok": 2021,
-    "liczba": 435
+    "liczba": 436
    },
    {
     "rok": 2022,
-    "liczba": 750
+    "liczba": 752
    },
    {
     "rok": 2023,
-    "liczba": 604
+    "liczba": 606
    },
    {
     "rok": 2024,
@@ -130,21 +130,21 @@
    },
    {
     "rok": 2025,
-    "liczba": 559
+    "liczba": 560
    },
    {
     "rok": 2026,
-    "liczba": 335
+    "liczba": 347
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2965
+    "liczba": 2980
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 879
+    "liczba": 885
    },
    {
     "nazwa": "Diesel",
@@ -162,17 +162,17 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 3995
+    "liczba": 4012
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 14
+    "liczba": 18
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1982
+    "liczba": 1993
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -180,7 +180,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 725
+    "liczba": 735
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -194,23 +194,23 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 2562
+    "liczba": 2575
    },
    {
     "nazwa": "Sedan",
-    "liczba": 835
+    "liczba": 838
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 540
+    "liczba": 544
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 72
+    "liczba": 73
    }
   ],
-  "noweOdPaczki": 3866,
-  "hybrydy": 954,
+  "noweOdPaczki": 3887,
+  "hybrydy": 960,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -243,7 +243,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 725
+    "liczba": 746
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -580,7 +580,7 @@
     "liczba": 68
    }
   ],
-  "miejsce": 487,
+  "miejsce": 488,
   "miejsceWMarce": 16,
   "modeliWMarce": 43,
   "sredniRocznik": 2022.1
@@ -589,7 +589,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "m4",

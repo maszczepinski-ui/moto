@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Enyaq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 143 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ENYAQ 80, ENYAQ 85, ENYAQ 80X, ENYAQ RS, ENYAQ 60).",
-  "liczbaWPolsce": 2143,
-  "aktywne": 2143,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Enyaq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 152 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ENYAQ 80, ENYAQ 85, ENYAQ 80X, ENYAQ RS, ENYAQ 60).",
+  "liczbaWPolsce": 2152,
+  "aktywne": 2152,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,7 +22,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 64
+    "liczba": 65
    },
    {
     "teryt": "06",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 679
+    "liczba": 682
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "teryt": "20",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 202
+    "liczba": 204
    },
    {
     "teryt": "24",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 222
+    "liczba": 224
    },
    {
     "teryt": "32",
@@ -85,11 +85,11 @@
   "roczniki": [
    {
     "rok": 2021,
-    "liczba": 449
+    "liczba": 452
    },
    {
     "rok": 2022,
-    "liczba": 518
+    "liczba": 520
    },
    {
     "rok": 2023,
@@ -97,7 +97,7 @@
    },
    {
     "rok": 2024,
-    "liczba": 88
+    "liczba": 89
    },
    {
     "rok": 2025,
@@ -105,25 +105,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 250
+    "liczba": 253
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2143
+    "liczba": 2152
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2143
+    "liczba": 2152
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1692
+    "liczba": 1695
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -131,7 +131,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 102
+    "liczba": 108
    },
    {
     "nazwa": "Inne / brak danych",
@@ -141,20 +141,20 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 1718
+    "liczba": 1725
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 414
+    "liczba": 416
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 11
    }
   ],
-  "noweOdPaczki": 2143,
+  "noweOdPaczki": 2152,
   "hybrydy": 0,
-  "elektryczne": 2143,
+  "elektryczne": 2152,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -178,7 +178,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 319
+    "liczba": 328
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -524,7 +524,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "enyaq",

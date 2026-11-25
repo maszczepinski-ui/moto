@@ -10,46 +10,46 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Omoda 9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 362 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OMODA 9, OMODA 9 PHEV).",
-  "liczbaWPolsce": 5362,
-  "aktywne": 5362,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Omoda 9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 413 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OMODA 9, OMODA 9 PHEV).",
+  "liczbaWPolsce": 5413,
+  "aktywne": 5413,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 436
+    "liczba": 438
    },
    {
     "teryt": "04",
-    "liczba": 273
+    "liczba": 275
    },
    {
     "teryt": "06",
-    "liczba": 179
+    "liczba": 180
    },
    {
     "teryt": "08",
-    "liczba": 202
+    "liczba": 205
    },
    {
     "teryt": "10",
-    "liczba": 344
+    "liczba": 346
    },
    {
     "teryt": "12",
-    "liczba": 405
+    "liczba": 409
    },
    {
     "teryt": "14",
-    "liczba": 944
+    "liczba": 956
    },
    {
     "teryt": "16",
-    "liczba": 124
+    "liczba": 125
    },
    {
     "teryt": "18",
-    "liczba": 187
+    "liczba": 188
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 525
+    "liczba": 535
    },
    {
     "teryt": "24",
-    "liczba": 739
+    "liczba": 743
    },
    {
     "teryt": "26",
@@ -73,28 +73,28 @@
    },
    {
     "teryt": "30",
-    "liczba": 483
+    "liczba": 488
    },
    {
     "teryt": "32",
-    "liczba": 215
+    "liczba": 219
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 4639
+    "liczba": 4640
    },
    {
     "rok": 2026,
-    "liczba": 722
+    "liczba": 772
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 5318
+    "liczba": 5369
    },
    {
     "nazwa": "Inne / brak danych",
@@ -104,13 +104,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 5362
+    "liczba": 5413
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 4664
+    "liczba": 4714
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -118,7 +118,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "nazwa": "Inne / brak danych",
@@ -128,11 +128,11 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5362
+    "liczba": 5413
    }
   ],
-  "noweOdPaczki": 5362,
-  "hybrydy": 5318,
+  "noweOdPaczki": 5413,
+  "hybrydy": 5369,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -141,7 +141,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 3383
+    "liczba": 3434
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -478,7 +478,7 @@
     "liczba": 284
    }
   ],
-  "miejsce": 428,
+  "miejsce": 427,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
   "sredniRocznik": 2025.1
@@ -487,7 +487,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "omoda",
  "modelSlug": "9",

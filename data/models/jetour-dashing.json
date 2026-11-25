@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jetour Dashing – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 499 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DASHING).",
-  "liczbaWPolsce": 499,
-  "aktywne": 499,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Jetour Dashing – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 515 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DASHING).",
+  "liczbaWPolsce": 515,
+  "aktywne": 515,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -33,27 +33,27 @@
    },
    {
     "teryt": "10",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "12",
-    "liczba": 81
+    "liczba": 83
    },
    {
     "teryt": "14",
-    "liczba": 135
+    "liczba": 139
    },
    {
     "teryt": "16",
-    "liczba": 17
+    "liczba": 19
    },
    {
     "teryt": "18",
-    "liczba": 31
+    "liczba": 32
    },
    {
     "teryt": "20",
-    "liczba": 3
+    "liczba": 4
    },
    {
     "teryt": "22",
@@ -61,15 +61,15 @@
    },
    {
     "teryt": "24",
-    "liczba": 73
+    "liczba": 76
    },
    {
     "teryt": "26",
-    "liczba": 30
+    "liczba": 31
    },
    {
     "teryt": "28",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "30",
@@ -83,26 +83,18 @@
   "bezWojewodztwa": 0,
   "roczniki": [
    {
-    "rok": 2023,
-    "liczba": 1
-   },
-   {
-    "rok": 2024,
-    "liczba": 0
-   },
-   {
     "rok": 2025,
-    "liczba": 474
+    "liczba": 488
    },
    {
     "rok": 2026,
-    "liczba": 24
+    "liczba": 26
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 439
+    "liczba": 455
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -116,21 +108,21 @@
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 304
+    "liczba": 315
    },
    {
     "nazwa": "1,5 l",
-    "liczba": 195
+    "liczba": 200
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 443
+    "liczba": 457
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 48
+    "liczba": 50
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -140,10 +132,10 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 499
+    "liczba": 515
    }
   ],
-  "noweOdPaczki": 499,
+  "noweOdPaczki": 515,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -153,7 +145,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 470
+    "liczba": 486
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -490,7 +482,7 @@
     "liczba": 61
    }
   ],
-  "miejsce": 977,
+  "miejsce": 971,
   "miejsceWMarce": 2,
   "modeliWMarce": 3,
   "sredniRocznik": 2025.0
@@ -499,7 +491,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "jetour",
  "modelSlug": "dashing",

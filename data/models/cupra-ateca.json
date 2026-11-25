@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Ateca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 101 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA ATECA).",
-  "liczbaWPolsce": 2101,
-  "aktywne": 2101,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cupra Ateca – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 106 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CUPRA ATECA).",
+  "liczbaWPolsce": 2106,
+  "aktywne": 2106,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 57
+    "liczba": 58
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 242
+    "liczba": 244
    },
    {
     "teryt": "24",
-    "liczba": 271
+    "liczba": 272
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 206
+    "liczba": 207
    },
    {
     "teryt": "32",
@@ -84,11 +84,11 @@
   "roczniki": [
    {
     "rok": 2022,
-    "liczba": 105
+    "liczba": 106
    },
    {
     "rok": 2023,
-    "liczba": 218
+    "liczba": 222
    },
    {
     "rok": 2024,
@@ -106,7 +106,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2099
+    "liczba": 2104
    },
    {
     "nazwa": "Inne / brak danych",
@@ -120,7 +120,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 682
+    "liczba": 687
    }
   ],
   "pochodzenie": [
@@ -134,7 +134,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 93
+    "liczba": 98
    },
    {
     "nazwa": "Inne / brak danych",
@@ -144,10 +144,14 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2101
+    "liczba": 2105
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
-  "noweOdPaczki": 2101,
+  "noweOdPaczki": 2106,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -169,7 +173,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 213
+    "liczba": 218
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -506,7 +510,7 @@
     "liczba": 15
    }
   ],
-  "miejsce": 614,
+  "miejsce": 615,
   "miejsceWMarce": 4,
   "modeliWMarce": 6,
   "sredniRocznik": 2024.0
@@ -515,7 +519,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "cupra",
  "modelSlug": "ateca",
@@ -537,14 +541,14 @@
    "adres": "/marki/ssangyong-kgm/torres/"
   },
   {
-   "slug": "baic-x55",
-   "nazwa": "BAIC X55",
-   "adres": "/marki/baic/x55/"
-  },
-  {
    "slug": "skoda-karoq",
    "nazwa": "Skoda Karoq",
    "adres": "/marki/skoda/karoq/"
+  },
+  {
+   "slug": "baic-x55",
+   "nazwa": "BAIC X55",
+   "adres": "/marki/baic/x55/"
   }
  ]
 }

@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Adam – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 846 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ADAM, ADAM 1.2 I).",
-  "liczbaWPolsce": 5434,
-  "aktywne": 4690,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Opel Adam – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 872 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ADAM, ADAM 1.2 I).",
+  "liczbaWPolsce": 5460,
+  "aktywne": 4716,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 373
+    "liczba": 377
    },
    {
     "teryt": "04",
@@ -29,7 +29,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 138
+    "liczba": 140
    },
    {
     "teryt": "10",
@@ -37,19 +37,19 @@
    },
    {
     "teryt": "12",
-    "liczba": 677
+    "liczba": 680
    },
    {
     "teryt": "14",
-    "liczba": 604
+    "liczba": 605
    },
    {
     "teryt": "16",
-    "liczba": 161
+    "liczba": 162
    },
    {
     "teryt": "18",
-    "liczba": 236
+    "liczba": 239
    },
    {
     "teryt": "20",
@@ -61,11 +61,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 1248
+    "liczba": 1256
    },
    {
     "teryt": "26",
-    "liczba": 87
+    "liczba": 88
    },
    {
     "teryt": "28",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 660
+    "liczba": 662
    },
    {
     "teryt": "32",
-    "liczba": 169
+    "liczba": 170
    }
   ],
   "bezWojewodztwa": 13,
@@ -88,23 +88,23 @@
    },
    {
     "rok": 2013,
-    "liczba": 1473
+    "liczba": 1481
    },
    {
     "rok": 2014,
-    "liczba": 1188
+    "liczba": 1190
    },
    {
     "rok": 2015,
-    "liczba": 928
+    "liczba": 937
    },
    {
     "rok": 2016,
-    "liczba": 714
+    "liczba": 717
    },
    {
     "rok": 2017,
-    "liczba": 510
+    "liczba": 512
    },
    {
     "rok": 2018,
@@ -112,17 +112,17 @@
    },
    {
     "rok": 2019,
-    "liczba": 174
+    "liczba": 176
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5221
+    "liczba": 5246
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 204
+    "liczba": 205
    },
    {
     "nazwa": "Inne / brak danych",
@@ -132,15 +132,15 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 3693
+    "liczba": 3712
    },
    {
     "nazwa": "1,2 l",
-    "liczba": 1398
+    "liczba": 1404
    },
    {
     "nazwa": "1,0 l",
-    "liczba": 328
+    "liczba": 329
    },
    {
     "nazwa": "Inne / brak danych",
@@ -150,7 +150,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 3012
+    "liczba": 3038
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -168,14 +168,14 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 5323
+    "liczba": 5349
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 111
    }
   ],
-  "noweOdPaczki": 3846,
+  "noweOdPaczki": 3872,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -209,7 +209,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 818
+    "liczba": 844
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -546,7 +546,7 @@
     "liczba": 96
    }
   ],
-  "miejsce": 424,
+  "miejsce": 422,
   "miejsceWMarce": 22,
   "modeliWMarce": 33,
   "sredniRocznik": 2014.8
@@ -555,7 +555,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "opel",
  "modelSlug": "adam",

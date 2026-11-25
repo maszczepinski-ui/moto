@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Staria – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 384 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STARIA, STARIA PREMIUM).",
-  "liczbaWPolsce": 384,
-  "aktywne": 384,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Hyundai Staria – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 388 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: STARIA, STARIA PREMIUM).",
+  "liczbaWPolsce": 388,
+  "aktywne": 388,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 21
+    "liczba": 24
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 128
+    "liczba": 129
    },
    {
     "teryt": "16",
@@ -101,17 +101,17 @@
    },
    {
     "rok": 2025,
-    "liczba": 188
+    "liczba": 191
    },
    {
     "rok": 2026,
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 179
+    "liczba": 182
    },
    {
     "nazwa": "Benzyna",
@@ -123,13 +123,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,6 l",
-    "liczba": 350
+    "liczba": 353
    },
    {
     "nazwa": "2,2 l",
@@ -137,13 +137,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 256
+    "liczba": 260
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -161,7 +161,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 358
+    "liczba": 361
    },
    {
     "nazwa": "Sedan",
@@ -169,7 +169,7 @@
    },
    {
     "nazwa": "Van",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "nazwa": "Kombi",
@@ -180,9 +180,9 @@
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 384,
-  "hybrydy": 179,
-  "elektryczne": 1,
+  "noweOdPaczki": 388,
+  "hybrydy": 182,
+  "elektryczne": 2,
   "pierwszeRejestracje": [
    {
     "rok": 2022,
@@ -202,7 +202,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 77
+    "liczba": 81
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -539,7 +539,7 @@
     "liczba": 4
    }
   ],
-  "miejsce": 1073,
+  "miejsce": 1072,
   "miejsceWMarce": 33,
   "modeliWMarce": 36,
   "sredniRocznik": 2024.4
@@ -548,7 +548,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "hyundai",
  "modelSlug": "staria",
@@ -570,14 +570,14 @@
    "adres": "/marki/omoda/9/"
   },
   {
-   "slug": "byd-seal-u",
-   "nazwa": "BYD Seal U",
-   "adres": "/marki/byd/seal-u/"
-  },
-  {
    "slug": "alfa-romeo-tonale",
    "nazwa": "Alfa Romeo Tonale",
    "adres": "/marki/alfa-romeo/tonale/"
+  },
+  {
+   "slug": "byd-seal-u",
+   "nazwa": "BYD Seal U",
+   "adres": "/marki/byd/seal-u/"
   }
  ]
 }

@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Elroq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 422 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ELROQ 60, ELROQ 50, ELROQ 85, ELROQ RS, ELROQ 85X).",
-  "liczbaWPolsce": 2422,
-  "aktywne": 2422,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Skoda Elroq – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 431 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ELROQ 60, ELROQ 50, ELROQ 85, ELROQ RS, ELROQ 85X).",
+  "liczbaWPolsce": 2431,
+  "aktywne": 2431,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 155
+    "liczba": 156
    },
    {
     "teryt": "04",
@@ -33,7 +33,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 165
+    "liczba": 167
    },
    {
     "teryt": "12",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 600
+    "liczba": 603
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "teryt": "20",
@@ -57,7 +57,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 463
+    "liczba": 464
    },
    {
     "teryt": "24",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 197
+    "liczba": 198
    },
    {
     "teryt": "32",
@@ -84,29 +84,29 @@
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 1385
+    "liczba": 1387
    },
    {
     "rok": 2026,
-    "liczba": 1037
+    "liczba": 1044
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2422
+    "liczba": 2431
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2422
+    "liczba": 2431
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2381
+    "liczba": 2388
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -118,18 +118,18 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 9
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 2422
+    "liczba": 2431
    }
   ],
-  "noweOdPaczki": 2422,
+  "noweOdPaczki": 2431,
   "hybrydy": 0,
-  "elektryczne": 2422,
+  "elektryczne": 2431,
   "pierwszeRejestracje": [
    {
     "rok": 2025,
@@ -137,7 +137,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1098
+    "liczba": 1107
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -483,7 +483,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "skoda",
  "modelSlug": "elroq",

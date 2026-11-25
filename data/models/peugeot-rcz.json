@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Rcz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 075 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RCZ, RCZ GT HDI).",
-  "liczbaWPolsce": 1659,
-  "aktywne": 1434,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Peugeot Rcz – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 078 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: RCZ, RCZ GT HDI).",
+  "liczbaWPolsce": 1662,
+  "aktywne": 1437,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 228
+    "liczba": 230
    },
    {
     "teryt": "16",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 238
+    "liczba": 239
    },
    {
     "teryt": "32",
@@ -116,7 +116,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 467
+    "liczba": 469
    },
    {
     "rok": 2012,
@@ -128,7 +128,7 @@
    },
    {
     "rok": 2014,
-    "liczba": 129
+    "liczba": 130
    },
    {
     "rok": 2015,
@@ -142,7 +142,7 @@
    },
    {
     "nazwa": "Diesel",
-    "liczba": 737
+    "liczba": 740
    },
    {
     "nazwa": "Inne / brak danych",
@@ -156,7 +156,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 726
+    "liczba": 729
    },
    {
     "nazwa": "Inne / brak danych",
@@ -166,7 +166,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 839
+    "liczba": 842
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -184,7 +184,7 @@
   "nadwozia": [
    {
     "nazwa": "Coupe",
-    "liczba": 1582
+    "liczba": 1585
    },
    {
     "nazwa": "Hatchback",
@@ -195,7 +195,7 @@
     "liczba": 44
    }
   ],
-  "noweOdPaczki": 1075,
+  "noweOdPaczki": 1078,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -229,7 +229,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 138
+    "liczba": 141
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -575,7 +575,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "peugeot",
  "modelSlug": "rcz",
@@ -602,9 +602,9 @@
    "adres": "/marki/chevrolet/cruze/"
   },
   {
-   "slug": "toyota-verso",
-   "nazwa": "Toyota Verso",
-   "adres": "/marki/toyota/verso/"
+   "slug": "skoda-octavia",
+   "nazwa": "Skoda Octavia",
+   "adres": "/marki/skoda/octavia/"
   }
  ]
 }

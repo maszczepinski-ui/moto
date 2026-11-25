@@ -10,58 +10,58 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG S9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 578 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG S9 PHEV, S9 PHEV).",
-  "liczbaWPolsce": 578,
-  "aktywne": 578,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG S9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 632 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG S9 PHEV, S9 PHEV).",
+  "liczbaWPolsce": 632,
+  "aktywne": 632,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 34
+    "liczba": 38
    },
    {
     "teryt": "04",
-    "liczba": 35
+    "liczba": 40
    },
    {
     "teryt": "06",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "08",
-    "liczba": 17
+    "liczba": 18
    },
    {
     "teryt": "10",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "12",
-    "liczba": 32
+    "liczba": 35
    },
    {
     "teryt": "14",
-    "liczba": 108
+    "liczba": 116
    },
    {
     "teryt": "16",
-    "liczba": 9
+    "liczba": 10
    },
    {
     "teryt": "18",
-    "liczba": 19
+    "liczba": 22
    },
    {
     "teryt": "20",
-    "liczba": 17
+    "liczba": 20
    },
    {
     "teryt": "22",
-    "liczba": 49
+    "liczba": 58
    },
    {
     "teryt": "24",
-    "liczba": 75
+    "liczba": 82
    },
    {
     "teryt": "26",
@@ -69,44 +69,44 @@
    },
    {
     "teryt": "28",
-    "liczba": 49
+    "liczba": 51
    },
    {
     "teryt": "30",
-    "liczba": 47
+    "liczba": 52
    },
    {
     "teryt": "32",
-    "liczba": 47
+    "liczba": 48
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 11
+    "liczba": 13
    },
    {
     "rok": 2026,
-    "liczba": 567
+    "liczba": 619
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 578
+    "liczba": 632
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 578
+    "liczba": 632
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 572
+    "liczba": 626
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -116,16 +116,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 578
+    "liczba": 632
    }
   ],
-  "noweOdPaczki": 578,
-  "hybrydy": 578,
+  "noweOdPaczki": 632,
+  "hybrydy": 632,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
     "rok": 2026,
-    "liczba": 578
+    "liczba": 632
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -462,7 +462,7 @@
     "liczba": 122
    }
   ],
-  "miejsce": 927,
+  "miejsce": 909,
   "miejsceWMarce": 5,
   "modeliWMarce": 8,
   "sredniRocznik": 2026.0
@@ -471,31 +471,31 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "s9",
  "adres": "/marki/mg/s9/",
  "konkurenci": [
   {
-   "slug": "dacia-bigster",
-   "nazwa": "Dacia Bigster",
-   "adres": "/marki/dacia/bigster/"
-  },
-  {
    "slug": "chery-tiggo-7",
    "nazwa": "Chery Tiggo 7",
    "adres": "/marki/chery/tiggo-7/"
   },
   {
-   "slug": "geely-starray",
-   "nazwa": "Geely Starray",
-   "adres": "/marki/geely/starray/"
+   "slug": "dacia-bigster",
+   "nazwa": "Dacia Bigster",
+   "adres": "/marki/dacia/bigster/"
   },
   {
    "slug": "chery-tiggo-4",
    "nazwa": "Chery Tiggo 4",
    "adres": "/marki/chery/tiggo-4/"
+  },
+  {
+   "slug": "geely-starray",
+   "nazwa": "Geely Starray",
+   "adres": "/marki/geely/starray/"
   },
   {
    "slug": "jaecoo-7",

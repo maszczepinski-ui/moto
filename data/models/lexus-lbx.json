@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus LBX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 078 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS LBX, LBX).",
-  "liczbaWPolsce": 7078,
-  "aktywne": 7078,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus LBX – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 7 165 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: LEXUS LBX, LBX).",
+  "liczbaWPolsce": 7165,
+  "aktywne": 7165,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 526
+    "liczba": 535
    },
    {
     "teryt": "04",
@@ -25,59 +25,59 @@
    },
    {
     "teryt": "06",
-    "liczba": 226
+    "liczba": 228
    },
    {
     "teryt": "08",
-    "liczba": 54
+    "liczba": 55
    },
    {
     "teryt": "10",
-    "liczba": 307
+    "liczba": 311
    },
    {
     "teryt": "12",
-    "liczba": 900
+    "liczba": 912
    },
    {
     "teryt": "14",
-    "liczba": 1682
+    "liczba": 1696
    },
    {
     "teryt": "16",
-    "liczba": 120
+    "liczba": 122
    },
    {
     "teryt": "18",
-    "liczba": 267
+    "liczba": 270
    },
    {
     "teryt": "20",
-    "liczba": 91
+    "liczba": 93
    },
    {
     "teryt": "22",
-    "liczba": 462
+    "liczba": 468
    },
    {
     "teryt": "24",
-    "liczba": 750
+    "liczba": 757
    },
    {
     "teryt": "26",
-    "liczba": 247
+    "liczba": 251
    },
    {
     "teryt": "28",
-    "liczba": 216
+    "liczba": 219
    },
    {
     "teryt": "30",
-    "liczba": 796
+    "liczba": 809
    },
    {
     "teryt": "32",
-    "liczba": 224
+    "liczba": 229
    }
   ],
   "bezWojewodztwa": 0,
@@ -88,25 +88,25 @@
    },
    {
     "rok": 2024,
-    "liczba": 3399
+    "liczba": 3401
    },
    {
     "rok": 2025,
-    "liczba": 2864
+    "liczba": 2868
    },
    {
     "rok": 2026,
-    "liczba": 735
+    "liczba": 816
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 6748
+    "liczba": 6834
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 329
+    "liczba": 330
    },
    {
     "nazwa": "Inne / brak danych",
@@ -116,13 +116,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 7078
+    "liczba": 7165
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 6441
+    "liczba": 6519
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -130,25 +130,25 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 45
+    "liczba": 49
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 38
+    "liczba": 43
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 7069
+    "liczba": 7156
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 9
    }
   ],
-  "noweOdPaczki": 7078,
-  "hybrydy": 6748,
+  "noweOdPaczki": 7165,
+  "hybrydy": 6834,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -161,7 +161,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1840
+    "liczba": 1927
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -507,7 +507,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "lbx",

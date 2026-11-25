@@ -11,22 +11,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Giulia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 646 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GIULIA, GIULIA QUADRIFOGLIO, GIULIA QUADRIFOGLIO VERDE, GIULIA 1300, GIULIA Q4).",
-  "liczbaWPolsce": 6350,
-  "aktywne": 6201,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Giulia – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 5 685 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: GIULIA, GIULIA QUADRIFOGLIO, GIULIA QUADRIFOGLIO VERDE, GIULIA 1300, GIULIA Q4).",
+  "liczbaWPolsce": 6389,
+  "aktywne": 6240,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 412
+    "liczba": 416
    },
    {
     "teryt": "04",
-    "liczba": 171
+    "liczba": 172
    },
    {
     "teryt": "06",
-    "liczba": 277
+    "liczba": 280
    },
    {
     "teryt": "08",
@@ -34,35 +34,35 @@
    },
    {
     "teryt": "10",
-    "liczba": 356
+    "liczba": 358
    },
    {
     "teryt": "12",
-    "liczba": 860
+    "liczba": 866
    },
    {
     "teryt": "14",
-    "liczba": 1481
+    "liczba": 1486
    },
    {
     "teryt": "16",
-    "liczba": 109
+    "liczba": 110
    },
    {
     "teryt": "18",
-    "liczba": 331
+    "liczba": 334
    },
    {
     "teryt": "20",
-    "liczba": 114
+    "liczba": 116
    },
    {
     "teryt": "22",
-    "liczba": 359
+    "liczba": 361
    },
    {
     "teryt": "24",
-    "liczba": 796
+    "liczba": 799
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 98
+    "liczba": 100
    },
    {
     "teryt": "30",
-    "liczba": 592
+    "liczba": 597
    },
    {
     "teryt": "32",
@@ -89,15 +89,15 @@
    },
    {
     "rok": 2017,
-    "liczba": 1233
+    "liczba": 1245
    },
    {
     "rok": 2018,
-    "liczba": 859
+    "liczba": 865
    },
    {
     "rok": 2019,
-    "liczba": 740
+    "liczba": 751
    },
    {
     "rok": 2020,
@@ -105,15 +105,15 @@
    },
    {
     "rok": 2021,
-    "liczba": 686
+    "liczba": 688
    },
    {
     "rok": 2022,
-    "liczba": 456
+    "liczba": 460
    },
    {
     "rok": 2023,
-    "liczba": 390
+    "liczba": 394
    },
    {
     "rok": 2024,
@@ -131,29 +131,29 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 5803
+    "liczba": 5839
    },
    {
     "nazwa": "Diesel",
-    "liczba": 420
+    "liczba": 422
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 127
+    "liczba": 128
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 5375
+    "liczba": 5403
    },
    {
     "nazwa": "2,1 l",
-    "liczba": 408
+    "liczba": 410
    },
    {
     "nazwa": "2,9 l",
-    "liczba": 402
+    "liczba": 403
    },
    {
     "nazwa": "1,3 l",
@@ -161,7 +161,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 73
+    "liczba": 81
    }
   ],
   "pochodzenie": [
@@ -171,7 +171,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2076
+    "liczba": 2115
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -189,22 +189,22 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 5829
+    "liczba": 5855
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 229
+    "liczba": 239
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 106
+    "liczba": 107
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 186
+    "liczba": 188
    }
   ],
-  "noweOdPaczki": 5646,
+  "noweOdPaczki": 5685,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -238,7 +238,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 974
+    "liczba": 1013
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -584,7 +584,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "giulia",

@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW I7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 253 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I7 XDRIVE60, I7 M70 XDRIVE, I7 EDRIVE50, I7 60 XDRIVE, I7).",
-  "liczbaWPolsce": 253,
-  "aktywne": 253,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe BMW I7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 258 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: I7 XDRIVE60, I7 M70 XDRIVE, I7 EDRIVE50, I7 60 XDRIVE, I7 50 XDRIVE).",
+  "liczbaWPolsce": 258,
+  "aktywne": 258,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 100
+    "liczba": 102
    },
    {
     "teryt": "16",
@@ -61,15 +61,19 @@
    },
    {
     "teryt": "24",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "26",
     "liczba": 1
    },
    {
+    "teryt": "28",
+    "liczba": 1
+   },
+   {
     "teryt": "30",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "32",
@@ -84,7 +88,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 83
+    "liczba": 84
    },
    {
     "rok": 2024,
@@ -96,25 +100,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 18
+    "liczba": 22
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 253
+    "liczba": 258
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 253
+    "liczba": 258
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 122
+    "liczba": 126
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -122,7 +126,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -132,12 +136,12 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 253
+    "liczba": 258
    }
   ],
-  "noweOdPaczki": 253,
+  "noweOdPaczki": 258,
   "hybrydy": 0,
-  "elektryczne": 253,
+  "elektryczne": 258,
   "pierwszeRejestracje": [
    {
     "rok": 2022,
@@ -157,7 +161,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 36
+    "liczba": 41
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -494,7 +498,7 @@
     "liczba": 4
    }
   ],
-  "miejsce": 1213,
+  "miejsce": 1205,
   "miejsceWMarce": 40,
   "modeliWMarce": 43,
   "sredniRocznik": 2023.6
@@ -503,7 +507,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "bmw",
  "modelSlug": "i7",

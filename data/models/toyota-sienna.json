@@ -11,10 +11,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Sienna – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 512 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIENNA, SIENNA XLE, SIENNA 3.3 KAT, SIENNA LE, SIENNA 3.5 V6).",
-  "liczbaWPolsce": 2559,
-  "aktywne": 2040,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Toyota Sienna – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 531 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SIENNA, SIENNA XLE, SIENNA 3.3 KAT, SIENNA LE, SIENNA 3.5 V6).",
+  "liczbaWPolsce": 2578,
+  "aktywne": 2059,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -22,11 +22,11 @@
    },
    {
     "teryt": "04",
-    "liczba": 37
+    "liczba": 38
    },
    {
     "teryt": "06",
-    "liczba": 152
+    "liczba": 154
    },
    {
     "teryt": "08",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 295
+    "liczba": 298
    },
    {
     "teryt": "14",
-    "liczba": 924
+    "liczba": 931
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 171
+    "liczba": 172
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 138
+    "liczba": 140
    },
    {
     "teryt": "26",
@@ -74,11 +74,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "32",
-    "liczba": 41
+    "liczba": 43
    }
   ],
   "bezWojewodztwa": 16,
@@ -121,11 +121,11 @@
    },
    {
     "rok": 2007,
-    "liczba": 103
+    "liczba": 104
    },
    {
     "rok": 2008,
-    "liczba": 60
+    "liczba": 61
    },
    {
     "rok": 2009,
@@ -153,7 +153,7 @@
    },
    {
     "rok": 2015,
-    "liczba": 286
+    "liczba": 288
    },
    {
     "rok": 2016,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 2017,
-    "liczba": 197
+    "liczba": 198
    },
    {
     "rok": 2018,
@@ -177,37 +177,41 @@
    },
    {
     "rok": 2021,
-    "liczba": 215
+    "liczba": 218
    },
    {
     "rok": 2022,
-    "liczba": 127
+    "liczba": 129
    },
    {
     "rok": 2023,
-    "liczba": 99
+    "liczba": 102
    },
    {
     "rok": 2024,
-    "liczba": 72
+    "liczba": 74
    },
    {
     "rok": 2025,
-    "liczba": 54
+    "liczba": 56
+   },
+   {
+    "rok": 2026,
+    "liczba": 6
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 1187
+    "liczba": 1196
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 883
+    "liczba": 884
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 480
+    "liczba": 489
    },
    {
     "nazwa": "Inne / brak danych",
@@ -217,11 +221,11 @@
   "pojemnosci": [
    {
     "nazwa": "3,5 l",
-    "liczba": 1572
+    "liczba": 1576
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 581
+    "liczba": 595
    },
    {
     "nazwa": "3,3 l",
@@ -233,13 +237,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 27
+    "liczba": 28
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1471
+    "liczba": 1490
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -253,15 +257,15 @@
   "nadwozia": [
    {
     "nazwa": "Van",
-    "liczba": 1455
+    "liczba": 1463
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 559
+    "liczba": 564
    },
    {
     "nazwa": "Kombi",
-    "liczba": 366
+    "liczba": 369
    },
    {
     "nazwa": "Hatchback",
@@ -269,15 +273,15 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 71
+    "liczba": 73
    }
   ],
-  "noweOdPaczki": 1512,
-  "hybrydy": 480,
+  "noweOdPaczki": 1531,
+  "hybrydy": 489,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -310,7 +314,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 250
+    "liczba": 269
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -647,16 +651,16 @@
     "liczba": 44
    }
   ],
-  "miejsce": 567,
+  "miejsce": 566,
   "miejsceWMarce": 19,
-  "modeliWMarce": 43,
+  "modeliWMarce": 44,
   "sredniRocznik": 2014.6
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "toyota",
  "modelSlug": "sienna",
@@ -678,14 +682,14 @@
    "adres": "/marki/dodge/grand-caravan/"
   },
   {
-   "slug": "honda-odyssey",
-   "nazwa": "Honda Odyssey",
-   "adres": "/marki/honda/odyssey/"
-  },
-  {
    "slug": "ford-explorer",
    "nazwa": "Ford Explorer",
    "adres": "/marki/ford/explorer/"
+  },
+  {
+   "slug": "honda-odyssey",
+   "nazwa": "Honda Odyssey",
+   "adres": "/marki/honda/odyssey/"
   }
  ]
 }

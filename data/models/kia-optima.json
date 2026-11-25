@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Optima – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 298 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OPTIMA, OPTIMA HYBRID, OPTIMA GT, OPTIMA SX).",
-  "liczbaWPolsce": 8529,
-  "aktywne": 7845,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia Optima – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 312 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: OPTIMA, OPTIMA HYBRID, OPTIMA GT, OPTIMA SX).",
+  "liczbaWPolsce": 8543,
+  "aktywne": 7859,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 543
+    "liczba": 544
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 339
+    "liczba": 342
    },
    {
     "teryt": "08",
@@ -34,7 +34,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 647
+    "liczba": 649
    },
    {
     "teryt": "12",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 2255
+    "liczba": 2260
    },
    {
     "teryt": "16",
@@ -58,7 +58,7 @@
    },
    {
     "teryt": "22",
-    "liczba": 598
+    "liczba": 599
    },
    {
     "teryt": "24",
@@ -66,11 +66,11 @@
    },
    {
     "teryt": "26",
-    "liczba": 208
+    "liczba": 209
    },
    {
     "teryt": "28",
-    "liczba": 218
+    "liczba": 219
    },
    {
     "teryt": "30",
@@ -93,7 +93,7 @@
    },
    {
     "rok": 2013,
-    "liczba": 480
+    "liczba": 483
    },
    {
     "rok": 2014,
@@ -101,23 +101,23 @@
    },
    {
     "rok": 2015,
-    "liczba": 570
+    "liczba": 573
    },
    {
     "rok": 2016,
-    "liczba": 1022
+    "liczba": 1023
    },
    {
     "rok": 2017,
-    "liczba": 1329
+    "liczba": 1333
    },
    {
     "rok": 2018,
-    "liczba": 1199
+    "liczba": 1200
    },
    {
     "rok": 2019,
-    "liczba": 1993
+    "liczba": 1995
    },
    {
     "rok": 2020,
@@ -127,15 +127,15 @@
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 4562
+    "liczba": 4569
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 3118
+    "liczba": 3120
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 596
+    "liczba": 601
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -149,7 +149,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,7 l",
-    "liczba": 3947
+    "liczba": 3954
    },
    {
     "nazwa": "1,6 l",
@@ -157,7 +157,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 1976
+    "liczba": 1982
    },
    {
     "nazwa": "2,4 l",
@@ -165,7 +165,7 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 15
+    "liczba": 16
    }
   ],
   "pochodzenie": [
@@ -179,7 +179,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2418
+    "liczba": 2432
    },
    {
     "nazwa": "Inne / brak danych",
@@ -189,19 +189,19 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 5343
+    "liczba": 5351
    },
    {
     "nazwa": "Kombi",
-    "liczba": 3024
+    "liczba": 3030
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 162
    }
   ],
-  "noweOdPaczki": 4298,
-  "hybrydy": 516,
+  "noweOdPaczki": 4312,
+  "hybrydy": 521,
   "elektryczne": 2,
   "pierwszeRejestracje": [
    {
@@ -234,7 +234,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 508
+    "liczba": 522
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -580,7 +580,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "optima",

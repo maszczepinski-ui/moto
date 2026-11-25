@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus CT – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 702 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CT200H, CT).",
-  "liczbaWPolsce": 5063,
-  "aktywne": 4563,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Lexus CT – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 713 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CT200H, CT).",
+  "liczbaWPolsce": 5074,
+  "aktywne": 4574,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,7 +21,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 101
+    "liczba": 102
    },
    {
     "teryt": "06",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 192
+    "liczba": 193
    },
    {
     "teryt": "12",
-    "liczba": 509
+    "liczba": 510
    },
    {
     "teryt": "14",
-    "liczba": 1669
+    "liczba": 1671
    },
    {
     "teryt": "16",
@@ -49,7 +49,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 187
+    "liczba": 188
    },
    {
     "teryt": "20",
@@ -57,15 +57,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 269
+    "liczba": 270
    },
    {
     "teryt": "24",
-    "liczba": 403
+    "liczba": 405
    },
    {
     "teryt": "26",
-    "liczba": 125
+    "liczba": 126
    },
    {
     "teryt": "28",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 379
+    "liczba": 380
    },
    {
     "teryt": "32",
@@ -84,15 +84,15 @@
   "roczniki": [
    {
     "rok": 2011,
-    "liczba": 990
+    "liczba": 992
    },
    {
     "rok": 2012,
-    "liczba": 671
+    "liczba": 673
    },
    {
     "rok": 2013,
-    "liczba": 286
+    "liczba": 287
    },
    {
     "rok": 2014,
@@ -100,19 +100,19 @@
    },
    {
     "rok": 2015,
-    "liczba": 336
+    "liczba": 338
    },
    {
     "rok": 2016,
-    "liczba": 274
+    "liczba": 275
    },
    {
     "rok": 2017,
-    "liczba": 245
+    "liczba": 246
    },
    {
     "rok": 2018,
-    "liczba": 280
+    "liczba": 282
    },
    {
     "rok": 2019,
@@ -126,11 +126,11 @@
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 3552
+    "liczba": 3562
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 964
+    "liczba": 965
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -144,7 +144,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 5061
+    "liczba": 5072
    },
    {
     "nazwa": "Inne / brak danych",
@@ -158,7 +158,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1532
+    "liczba": 1543
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -172,15 +172,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 4955
+    "liczba": 4966
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 108
    }
   ],
-  "noweOdPaczki": 3702,
-  "hybrydy": 3526,
+  "noweOdPaczki": 3713,
+  "hybrydy": 3536,
   "elektryczne": 4,
   "pierwszeRejestracje": [
    {
@@ -213,7 +213,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 365
+    "liczba": 376
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -550,7 +550,7 @@
     "liczba": 39
    }
   ],
-  "miejsce": 439,
+  "miejsce": 440,
   "miejsceWMarce": 7,
   "modeliWMarce": 13,
   "sredniRocznik": 2015.4
@@ -559,7 +559,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "lexus",
  "modelSlug": "ct",
@@ -576,14 +576,14 @@
    "adres": "/marki/hyundai/i30/"
   },
   {
-   "slug": "audi-s3",
-   "nazwa": "Audi S3",
-   "adres": "/marki/audi/s3/"
-  },
-  {
    "slug": "mazda-3",
    "nazwa": "Mazda 3",
    "adres": "/marki/mazda/3/"
+  },
+  {
+   "slug": "audi-s3",
+   "nazwa": "Audi S3",
+   "adres": "/marki/audi/s3/"
   },
   {
    "slug": "toyota-prius",

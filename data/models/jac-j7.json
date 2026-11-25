@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe JAC J7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 343 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: J7 PLUS).",
-  "liczbaWPolsce": 343,
-  "aktywne": 343,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe JAC J7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 344 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: J7 PLUS).",
+  "liczbaWPolsce": 344,
+  "aktywne": 344,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "16",
@@ -92,13 +92,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 84
+    "liczba": 85
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 342
+    "liczba": 343
    },
    {
     "nazwa": "Inne / brak danych",
@@ -108,7 +108,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 343
+    "liczba": 344
    }
   ],
   "pochodzenie": [
@@ -122,16 +122,16 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 5
+    "liczba": 6
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 343
+    "liczba": 344
    }
   ],
-  "noweOdPaczki": 343,
+  "noweOdPaczki": 344,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -141,7 +141,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 285
+    "liczba": 286
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -487,7 +487,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "jac",
  "modelSlug": "j7",
@@ -504,19 +504,19 @@
    "adres": "/marki/mg/hs/"
   },
   {
-   "slug": "byd-seal-u",
-   "nazwa": "BYD Seal U",
-   "adres": "/marki/byd/seal-u/"
-  },
-  {
    "slug": "omoda-9",
    "nazwa": "Omoda 9",
    "adres": "/marki/omoda/9/"
   },
   {
-   "slug": "baic-x55",
-   "nazwa": "BAIC X55",
-   "adres": "/marki/baic/x55/"
+   "slug": "byd-seal-u",
+   "nazwa": "BYD Seal U",
+   "adres": "/marki/byd/seal-u/"
+  },
+  {
+   "slug": "chery-tiggo-4",
+   "nazwa": "Chery Tiggo 4",
+   "adres": "/marki/chery/tiggo-4/"
   }
  ]
 }

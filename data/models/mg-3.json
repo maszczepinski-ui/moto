@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 054 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG3 HYBRID, MG3).",
-  "liczbaWPolsce": 3054,
-  "aktywne": 3054,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG 3 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 121 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG3 HYBRID, MG3).",
+  "liczbaWPolsce": 3121,
+  "aktywne": 3121,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 196
+    "liczba": 200
    },
    {
     "teryt": "04",
-    "liczba": 150
+    "liczba": 156
    },
    {
     "teryt": "06",
@@ -29,27 +29,27 @@
    },
    {
     "teryt": "08",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "teryt": "10",
-    "liczba": 109
+    "liczba": 111
    },
    {
     "teryt": "12",
-    "liczba": 212
+    "liczba": 215
    },
    {
     "teryt": "14",
-    "liczba": 559
+    "liczba": 568
    },
    {
     "teryt": "16",
-    "liczba": 56
+    "liczba": 57
    },
    {
     "teryt": "18",
-    "liczba": 115
+    "liczba": 120
    },
    {
     "teryt": "20",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 250
+    "liczba": 258
    },
    {
     "teryt": "24",
-    "liczba": 477
+    "liczba": 489
    },
    {
     "teryt": "26",
@@ -69,40 +69,40 @@
    },
    {
     "teryt": "28",
-    "liczba": 142
+    "liczba": 147
    },
    {
     "teryt": "30",
-    "liczba": 280
+    "liczba": 287
    },
    {
     "teryt": "32",
-    "liczba": 168
+    "liczba": 171
    }
   ],
   "bezWojewodztwa": 0,
   "roczniki": [
    {
     "rok": 2024,
-    "liczba": 1727
+    "liczba": 1728
    },
    {
     "rok": 2025,
-    "liczba": 402
+    "liczba": 403
    },
    {
     "rok": 2026,
-    "liczba": 925
+    "liczba": 990
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1886
+    "liczba": 1935
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 1137
+    "liczba": 1155
    },
    {
     "nazwa": "Inne / brak danych",
@@ -112,13 +112,13 @@
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 3054
+    "liczba": 3121
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2498
+    "liczba": 2563
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -126,7 +126,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 61
+    "liczba": 63
    },
    {
     "nazwa": "Inne / brak danych",
@@ -136,11 +136,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 3054
+    "liczba": 3121
    }
   ],
-  "noweOdPaczki": 3054,
-  "hybrydy": 1886,
+  "noweOdPaczki": 3121,
+  "hybrydy": 1935,
   "elektryczne": 1,
   "pierwszeRejestracje": [
    {
@@ -153,7 +153,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 1277
+    "liczba": 1344
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -490,16 +490,16 @@
     "liczba": 240
    }
   ],
-  "miejsce": 527,
+  "miejsce": 526,
   "miejsceWMarce": 3,
   "modeliWMarce": 8,
-  "sredniRocznik": 2024.7
+  "sredniRocznik": 2024.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "3",

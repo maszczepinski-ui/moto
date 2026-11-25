@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 972 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG4 ELECTRIC).",
-  "liczbaWPolsce": 972,
-  "aktywne": 972,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG 4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 979 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG4 ELECTRIC).",
+  "liczbaWPolsce": 979,
+  "aktywne": 979,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -21,15 +21,15 @@
    },
    {
     "teryt": "04",
-    "liczba": 29
+    "liczba": 30
    },
    {
     "teryt": "06",
-    "liczba": 42
+    "liczba": 43
    },
    {
     "teryt": "08",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "teryt": "10",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 114
+    "liczba": 115
    },
    {
     "teryt": "14",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 119
+    "liczba": 120
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 112
+    "liczba": 114
    },
    {
     "teryt": "32",
@@ -88,41 +88,41 @@
    },
    {
     "rok": 2023,
-    "liczba": 383
+    "liczba": 385
    },
    {
     "rok": 2024,
-    "liczba": 435
+    "liczba": 437
    },
    {
     "rok": 2025,
-    "liczba": 131
+    "liczba": 134
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 972
+    "liczba": 979
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 972
+    "liczba": 979
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 685
+    "liczba": 688
+   },
+   {
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 142
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
     "liczba": 141
-   },
-   {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 138
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -132,16 +132,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 966
+    "liczba": 973
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 972,
+  "noweOdPaczki": 979,
   "hybrydy": 0,
-  "elektryczne": 971,
+  "elektryczne": 978,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
@@ -157,7 +157,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 251
+    "liczba": 258
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -494,7 +494,7 @@
     "liczba": 19
    }
   ],
-  "miejsce": 801,
+  "miejsce": 800,
   "miejsceWMarce": 4,
   "modeliWMarce": 8,
   "sredniRocznik": 2023.7
@@ -503,7 +503,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "4",

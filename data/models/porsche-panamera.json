@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Panamera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 273 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PANAMERA, PANAMERA GTS, PANAMERA 4 E-HYBRID, PANAMERA 4, PANAMERA 4S E-HYBRID).",
-  "liczbaWPolsce": 5289,
-  "aktywne": 4982,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Panamera – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 4 297 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: PANAMERA, PANAMERA GTS, PANAMERA 4 E-HYBRID, PANAMERA 4, PANAMERA 4S E-HYBRID).",
+  "liczbaWPolsce": 5313,
+  "aktywne": 5006,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 451
+    "liczba": 454
    },
    {
     "teryt": "04",
@@ -32,23 +32,23 @@
    },
    {
     "teryt": "08",
-    "liczba": 122
+    "liczba": 123
    },
    {
     "teryt": "10",
-    "liczba": 347
+    "liczba": 351
    },
    {
     "teryt": "12",
-    "liczba": 506
+    "liczba": 507
    },
    {
     "teryt": "14",
-    "liczba": 1202
+    "liczba": 1206
    },
    {
     "teryt": "16",
-    "liczba": 90
+    "liczba": 93
    },
    {
     "teryt": "18",
@@ -56,15 +56,15 @@
    },
    {
     "teryt": "20",
-    "liczba": 109
+    "liczba": 110
    },
    {
     "teryt": "22",
-    "liczba": 384
+    "liczba": 387
    },
    {
     "teryt": "24",
-    "liczba": 577
+    "liczba": 578
    },
    {
     "teryt": "26",
@@ -76,11 +76,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 598
+    "liczba": 600
    },
    {
     "teryt": "32",
-    "liczba": 171
+    "liczba": 172
    }
   ],
   "bezWojewodztwa": 16,
@@ -95,7 +95,7 @@
    },
    {
     "rok": 2011,
-    "liczba": 268
+    "liczba": 269
    },
    {
     "rok": 2012,
@@ -103,11 +103,11 @@
    },
    {
     "rok": 2013,
-    "liczba": 204
+    "liczba": 206
    },
    {
     "rok": 2014,
-    "liczba": 229
+    "liczba": 231
    },
    {
     "rok": 2015,
@@ -115,7 +115,7 @@
    },
    {
     "rok": 2016,
-    "liczba": 121
+    "liczba": 123
    },
    {
     "rok": 2017,
@@ -143,7 +143,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 369
+    "liczba": 370
    },
    {
     "rok": 2024,
@@ -151,21 +151,21 @@
    },
    {
     "rok": 2025,
-    "liczba": 656
+    "liczba": 661
    },
    {
     "rok": 2026,
-    "liczba": 198
+    "liczba": 209
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 3248
+    "liczba": 3260
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 1773
+    "liczba": 1785
    },
    {
     "nazwa": "Diesel",
@@ -179,33 +179,33 @@
   "pojemnosci": [
    {
     "nazwa": "2,9 l",
-    "liczba": 2134
+    "liczba": 2146
    },
    {
     "nazwa": "4,0 l",
-    "liczba": 1369
+    "liczba": 1374
    },
    {
     "nazwa": "4,8 l",
-    "liczba": 792
+    "liczba": 795
    },
    {
     "nazwa": "3,0 l",
-    "liczba": 565
+    "liczba": 566
    },
    {
     "nazwa": "3,6 l",
-    "liczba": 419
+    "liczba": 421
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 10
+    "liczba": 11
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 2000
+    "liczba": 2014
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -213,7 +213,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1380
+    "liczba": 1390
    },
    {
     "nazwa": "Inne / brak danych",
@@ -223,7 +223,7 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 4017
+    "liczba": 4036
    },
    {
     "nazwa": "Kombi",
@@ -231,23 +231,23 @@
    },
    {
     "nazwa": "Sedan",
-    "liczba": 300
+    "liczba": 301
    },
    {
     "nazwa": "Coupe",
-    "liczba": 255
+    "liczba": 256
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 98
+    "liczba": 100
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 67
+    "liczba": 68
    }
   ],
-  "noweOdPaczki": 4273,
-  "hybrydy": 1771,
+  "noweOdPaczki": 4297,
+  "hybrydy": 1783,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -280,7 +280,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 704
+    "liczba": 728
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -617,7 +617,7 @@
     "liczba": 91
    }
   ],
-  "miejsce": 432,
+  "miejsce": 431,
   "miejsceWMarce": 4,
   "modeliWMarce": 12,
   "sredniRocznik": 2019.0
@@ -626,7 +626,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "porsche",
  "modelSlug": "panamera",

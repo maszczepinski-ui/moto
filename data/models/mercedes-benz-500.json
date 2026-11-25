@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 038 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 500 SL, 500 SEC, 500 SE, 500, 500 SEL).",
-  "liczbaWPolsce": 2362,
-  "aktywne": 1448,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz 500 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 043 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 500 SL, 500 SEC, 500 SE, 500, 500 SEL).",
+  "liczbaWPolsce": 2367,
+  "aktywne": 1453,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -23,7 +23,7 @@
    },
    {
     "teryt": "04",
-    "liczba": 103
+    "liczba": 104
    },
    {
     "teryt": "06",
@@ -35,7 +35,7 @@
    },
    {
     "teryt": "10",
-    "liczba": 162
+    "liczba": 163
    },
    {
     "teryt": "12",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 285
+    "liczba": 287
    },
    {
     "teryt": "32",
-    "liczba": 83
+    "liczba": 84
    }
   ],
   "bezWojewodztwa": 20,
@@ -98,15 +98,15 @@
    },
    {
     "rok": 1983,
-    "liczba": 104
+    "liczba": 105
    },
    {
     "rok": 1984,
-    "liczba": 156
+    "liczba": 157
    },
    {
     "rok": 1985,
-    "liczba": 180
+    "liczba": 181
    },
    {
     "rok": 1986,
@@ -118,7 +118,7 @@
    },
    {
     "rok": 1988,
-    "liczba": 72
+    "liczba": 73
    },
    {
     "rok": 1989,
@@ -182,7 +182,7 @@
    },
    {
     "rok": 2004,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2005,
@@ -192,7 +192,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 2028
+    "liczba": 2033
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -210,7 +210,7 @@
   "pojemnosci": [
    {
     "nazwa": "5,0 l",
-    "liczba": 1995
+    "liczba": 1998
    },
    {
     "nazwa": "4,9 l",
@@ -222,13 +222,13 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 78
+    "liczba": 80
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 1394
+    "liczba": 1399
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -246,7 +246,7 @@
   "nadwozia": [
    {
     "nazwa": "Kabriolet",
-    "liczba": 779
+    "liczba": 781
    },
    {
     "nazwa": "Sedan",
@@ -254,7 +254,7 @@
    },
    {
     "nazwa": "Coupe",
-    "liczba": 592
+    "liczba": 593
    },
    {
     "nazwa": "Hatchback",
@@ -262,10 +262,10 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 195
+    "liczba": 197
    }
   ],
-  "noweOdPaczki": 1038,
+  "noweOdPaczki": 1043,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -299,7 +299,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 123
+    "liczba": 128
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -636,7 +636,7 @@
     "liczba": 9
    }
   ],
-  "miejsce": 582,
+  "miejsce": 581,
   "miejsceWMarce": 30,
   "modeliWMarce": 58,
   "sredniRocznik": 1990.0
@@ -645,7 +645,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "500",

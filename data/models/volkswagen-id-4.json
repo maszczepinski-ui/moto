@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 304 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.4 PURE 125KW, ID.4 PRO 150 KW, ID.4 PRO 210KW, ID.4 PRO 150KW, ID.4 PRO 128 KW).",
-  "liczbaWPolsce": 2304,
-  "aktywne": 2304,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.4 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 351 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.4 PURE 125KW, ID.4 PRO 150 KW, ID.4 PRO 210KW, ID.4 PRO 150KW, ID.4 PRO 128 KW).",
+  "liczbaWPolsce": 2351,
+  "aktywne": 2351,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 123
+    "liczba": 125
    },
    {
     "teryt": "04",
-    "liczba": 78
+    "liczba": 79
    },
    {
     "teryt": "06",
@@ -33,15 +33,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 87
+    "liczba": 88
    },
    {
     "teryt": "12",
-    "liczba": 174
+    "liczba": 180
    },
    {
     "teryt": "14",
-    "liczba": 881
+    "liczba": 913
    },
    {
     "teryt": "16",
@@ -53,7 +53,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 40
+    "liczba": 42
    },
    {
     "teryt": "22",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 173
+    "liczba": 174
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 330
+    "liczba": 332
    },
    {
     "teryt": "32",
@@ -88,7 +88,7 @@
    },
    {
     "rok": 2021,
-    "liczba": 291
+    "liczba": 294
    },
    {
     "rok": 2022,
@@ -96,11 +96,11 @@
    },
    {
     "rok": 2023,
-    "liczba": 618
+    "liczba": 621
    },
    {
     "rok": 2024,
-    "liczba": 195
+    "liczba": 196
    },
    {
     "rok": 2025,
@@ -108,13 +108,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 339
+    "liczba": 379
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 2303
+    "liczba": 2350
    },
    {
     "nazwa": "Inne / brak danych",
@@ -124,13 +124,13 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 2304
+    "liczba": 2351
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1861
+    "liczba": 1900
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -138,7 +138,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 187
+    "liczba": 195
    },
    {
     "nazwa": "Inne / brak danych",
@@ -148,11 +148,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2230
+    "liczba": 2275
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 34
+    "liczba": 35
    },
    {
     "nazwa": "Hatchback",
@@ -160,12 +160,12 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 9
+    "liczba": 10
    }
   ],
-  "noweOdPaczki": 2304,
+  "noweOdPaczki": 2351,
   "hybrydy": 0,
-  "elektryczne": 2303,
+  "elektryczne": 2350,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -189,7 +189,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 550
+    "liczba": 597
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -526,7 +526,7 @@
     "liczba": 40
    }
   ],
-  "miejsce": 588,
+  "miejsce": 585,
   "miejsceWMarce": 33,
   "modeliWMarce": 61,
   "sredniRocznik": 2023.6
@@ -535,7 +535,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "id-4",

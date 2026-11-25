@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Taycan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 461 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAYCAN 4S, TAYCAN, TAYCAN TURBO, TAYCAN GTS, TAYCAN 4).",
-  "liczbaWPolsce": 1461,
-  "aktywne": 1461,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Porsche Taycan – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 473 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: TAYCAN 4S, TAYCAN, TAYCAN TURBO, TAYCAN GTS, TAYCAN 4).",
+  "liczbaWPolsce": 1473,
+  "aktywne": 1473,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -27,7 +27,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 36
+    "liczba": 37
    },
    {
     "teryt": "08",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 202
+    "liczba": 203
    },
    {
     "teryt": "14",
-    "liczba": 397
+    "liczba": 399
    },
    {
     "teryt": "16",
@@ -59,15 +59,15 @@
    },
    {
     "teryt": "22",
-    "liczba": 102
+    "liczba": 103
    },
    {
     "teryt": "24",
-    "liczba": 150
+    "liczba": 151
    },
    {
     "teryt": "26",
-    "liczba": 21
+    "liczba": 22
    },
    {
     "teryt": "28",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 164
+    "liczba": 167
    },
    {
     "teryt": "32",
-    "liczba": 45
+    "liczba": 47
    }
   ],
   "bezWojewodztwa": 0,
@@ -94,7 +94,7 @@
    },
    {
     "rok": 2022,
-    "liczba": 366
+    "liczba": 368
    },
    {
     "rok": 2023,
@@ -102,21 +102,21 @@
    },
    {
     "rok": 2024,
-    "liczba": 206
+    "liczba": 210
    },
    {
     "rok": 2025,
-    "liczba": 90
+    "liczba": 94
    },
    {
     "rok": 2026,
-    "liczba": 30
+    "liczba": 32
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 1460
+    "liczba": 1472
    },
    {
     "nazwa": "Inne / brak danych",
@@ -126,13 +126,13 @@
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1461
+    "liczba": 1473
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 611
+    "liczba": 614
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -140,7 +140,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 335
+    "liczba": 344
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -154,15 +154,15 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 804
+    "liczba": 808
    },
    {
     "nazwa": "Kombi",
-    "liczba": 547
+    "liczba": 553
    },
    {
     "nazwa": "Sedan",
-    "liczba": 79
+    "liczba": 81
    },
    {
     "nazwa": "Coupe",
@@ -173,9 +173,9 @@
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 1461,
+  "noweOdPaczki": 1473,
   "hybrydy": 0,
-  "elektryczne": 1460,
+  "elektryczne": 1472,
   "pierwszeRejestracje": [
    {
     "rok": 2020,
@@ -203,7 +203,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 226
+    "liczba": 238
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -540,7 +540,7 @@
     "liczba": 36
    }
   ],
-  "miejsce": 706,
+  "miejsce": 700,
   "miejsceWMarce": 5,
   "modeliWMarce": 12,
   "sredniRocznik": 2022.3
@@ -549,7 +549,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "porsche",
  "modelSlug": "taycan",

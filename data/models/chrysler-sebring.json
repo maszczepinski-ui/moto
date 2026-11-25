@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Sebring – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 497 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEBRING, SEBRING 2.7).",
-  "liczbaWPolsce": 1681,
-  "aktywne": 868,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chrysler Sebring – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 499 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEBRING, SEBRING 2.7).",
+  "liczbaWPolsce": 1683,
+  "aktywne": 870,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -63,11 +63,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 138
+    "liczba": 139
    },
    {
     "teryt": "26",
-    "liczba": 39
+    "liczba": 40
    },
    {
     "teryt": "28",
@@ -130,7 +130,7 @@
    },
    {
     "rok": 2006,
-    "liczba": 73
+    "liczba": 74
    },
    {
     "rok": 2007,
@@ -138,7 +138,7 @@
    },
    {
     "rok": 2008,
-    "liczba": 268
+    "liczba": 269
    },
    {
     "rok": 2009,
@@ -152,11 +152,11 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 827
+    "liczba": 828
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 448
+    "liczba": 449
    },
    {
     "nazwa": "Diesel",
@@ -170,11 +170,11 @@
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 815
+    "liczba": 816
    },
    {
     "nazwa": "2,7 l",
-    "liczba": 561
+    "liczba": 562
    },
    {
     "nazwa": "2,4 l",
@@ -200,7 +200,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 802
+    "liczba": 804
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -214,7 +214,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 903
+    "liczba": 905
    },
    {
     "nazwa": "Kabriolet",
@@ -233,7 +233,7 @@
     "liczba": 53
    }
   ],
-  "noweOdPaczki": 497,
+  "noweOdPaczki": 499,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -267,7 +267,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 34
+    "liczba": 36
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -604,7 +604,7 @@
     "liczba": 3
    }
   ],
-  "miejsce": 668,
+  "miejsce": 669,
   "miejsceWMarce": 6,
   "modeliWMarce": 21,
   "sredniRocznik": 2004.6
@@ -613,7 +613,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "chrysler",
  "modelSlug": "sebring",
@@ -625,14 +625,14 @@
    "adres": "/marki/jaguar/x-type/"
   },
   {
-   "slug": "bmw-seria-5",
-   "nazwa": "BMW Seria 5",
-   "adres": "/marki/bmw/seria-5/"
-  },
-  {
    "slug": "saab-9-5",
    "nazwa": "Saab 9-5",
    "adres": "/marki/saab/9-5/"
+  },
+  {
+   "slug": "bmw-seria-5",
+   "nazwa": "BMW Seria 5",
+   "adres": "/marki/bmw/seria-5/"
   },
   {
    "slug": "volvo-s80",

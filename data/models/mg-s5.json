@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG S5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 287 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG S5 EV, MGS5 EV).",
-  "liczbaWPolsce": 287,
-  "aktywne": 287,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe MG S5 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 289 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MG S5 EV, MGS5 EV).",
+  "liczbaWPolsce": 289,
+  "aktywne": 289,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -53,11 +53,11 @@
    },
    {
     "teryt": "20",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "22",
-    "liczba": 28
+    "liczba": 29
    },
    {
     "teryt": "24",
@@ -84,29 +84,29 @@
   "roczniki": [
    {
     "rok": 2025,
-    "liczba": 252
+    "liczba": 253
    },
    {
     "rok": 2026,
-    "liczba": 35
+    "liczba": 36
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 287
+    "liczba": 289
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 287
+    "liczba": 289
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 265
+    "liczba": 267
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -116,16 +116,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 281
+    "liczba": 283
    },
    {
     "nazwa": "Kombi",
     "liczba": 6
    }
   ],
-  "noweOdPaczki": 287,
+  "noweOdPaczki": 289,
   "hybrydy": 0,
-  "elektryczne": 287,
+  "elektryczne": 289,
   "pierwszeRejestracje": [
    {
     "rok": 2025,
@@ -133,7 +133,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 174
+    "liczba": 176
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -470,7 +470,7 @@
     "liczba": 26
    }
   ],
-  "miejsce": 1161,
+  "miejsce": 1159,
   "miejsceWMarce": 7,
   "modeliWMarce": 8,
   "sredniRocznik": 2025.1
@@ -479,7 +479,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mg",
  "modelSlug": "s5",

@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Clc – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 824 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLC 180 KOMPRESSOR, CLC 200 KOMPRESSOR, CLC 220 CDI, CLC 200 CDI, CLC 200).",
-  "liczbaWPolsce": 1176,
-  "aktywne": 1012,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Clc – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 832 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: CLC 180 KOMPRESSOR, CLC 200 KOMPRESSOR, CLC 220 CDI, CLC 200 CDI, CLC 200).",
+  "liczbaWPolsce": 1184,
+  "aktywne": 1020,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 117
+    "liczba": 118
    },
    {
     "teryt": "04",
@@ -30,7 +30,7 @@
    },
    {
     "teryt": "08",
-    "liczba": 50
+    "liczba": 51
    },
    {
     "teryt": "10",
@@ -42,7 +42,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 159
+    "liczba": 160
    },
    {
     "teryt": "16",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 128
+    "liczba": 130
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 154
+    "liczba": 157
    },
    {
     "teryt": "32",
@@ -133,15 +133,15 @@
    },
    {
     "rok": 2008,
-    "liczba": 464
+    "liczba": 468
    },
    {
     "rok": 2009,
-    "liczba": 442
+    "liczba": 445
    },
    {
     "rok": 2010,
-    "liczba": 167
+    "liczba": 168
    },
    {
     "rok": 2011,
@@ -179,7 +179,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 770
+    "liczba": 778
    },
    {
     "nazwa": "Diesel",
@@ -197,7 +197,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,8 l",
-    "liczba": 828
+    "liczba": 835
    },
    {
     "nazwa": "2,1 l",
@@ -209,7 +209,7 @@
    },
    {
     "nazwa": "2,5 l",
-    "liczba": 20
+    "liczba": 21
    },
    {
     "nazwa": "Inne / brak danych",
@@ -219,7 +219,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 707
+    "liczba": 715
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -237,11 +237,11 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 652
+    "liczba": 659
    },
    {
     "nazwa": "Coupe",
-    "liczba": 475
+    "liczba": 476
    },
    {
     "nazwa": "Sedan",
@@ -252,7 +252,7 @@
     "liczba": 17
    }
   ],
-  "noweOdPaczki": 824,
+  "noweOdPaczki": 832,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -286,7 +286,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 118
+    "liczba": 126
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -623,7 +623,7 @@
     "liczba": 14
    }
   ],
-  "miejsce": 754,
+  "miejsce": 753,
   "miejsceWMarce": 38,
   "modeliWMarce": 58,
   "sredniRocznik": 2008.4
@@ -632,7 +632,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "clc",

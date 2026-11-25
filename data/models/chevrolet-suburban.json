@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Suburban – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 298 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SUBURBAN).",
-  "liczbaWPolsce": 298,
-  "aktywne": 298,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Chevrolet Suburban – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 303 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SUBURBAN).",
+  "liczbaWPolsce": 303,
+  "aktywne": 303,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -40,7 +40,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 25
+    "liczba": 26
    },
    {
     "teryt": "14",
@@ -64,7 +64,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 38
+    "liczba": 41
    },
    {
     "teryt": "26",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 27
+    "liczba": 28
    },
    {
     "teryt": "32",
@@ -223,7 +223,7 @@
    },
    {
     "rok": 2010,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2011,
@@ -251,11 +251,11 @@
    },
    {
     "rok": 2017,
-    "liczba": 11
+    "liczba": 12
    },
    {
     "rok": 2018,
-    "liczba": 9
+    "liczba": 10
    },
    {
     "rok": 2019,
@@ -275,7 +275,7 @@
    },
    {
     "rok": 2023,
-    "liczba": 13
+    "liczba": 14
    },
    {
     "rok": 2024,
@@ -287,13 +287,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 2
+    "liczba": 3
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 190
+    "liczba": 195
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -307,7 +307,7 @@
   "pojemnosci": [
    {
     "nazwa": "5,3 l",
-    "liczba": 180
+    "liczba": 184
    },
    {
     "nazwa": "5,7 l",
@@ -330,22 +330,14 @@
     "liczba": 5
    },
    {
-    "nazwa": "8,1 l",
-    "liczba": 3
-   },
-   {
-    "nazwa": "3,0 l",
-    "liczba": 3
-   },
-   {
     "nazwa": "Inne / brak danych",
-    "liczba": 8
+    "liczba": 15
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 202
+    "liczba": 207
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -363,15 +355,15 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 116
+    "liczba": 117
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 95
+    "liczba": 96
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 34
+    "liczba": 36
    },
    {
     "nazwa": "Van",
@@ -387,10 +379,10 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11
+    "liczba": 12
    }
   ],
-  "noweOdPaczki": 298,
+  "noweOdPaczki": 303,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -424,7 +416,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 45
+    "liczba": 50
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -761,18 +753,45 @@
     "liczba": 6
    }
   ],
-  "miejsce": 1150,
+  "miejsce": 1146,
   "miejsceWMarce": 21,
   "modeliWMarce": 24,
-  "sredniRocznik": 2009.0
+  "sredniRocznik": 2009.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "chevrolet",
  "modelSlug": "suburban",
- "adres": "/marki/chevrolet/suburban/"
+ "adres": "/marki/chevrolet/suburban/",
+ "konkurenci": [
+  {
+   "slug": "nissan-murano",
+   "nazwa": "Nissan Murano",
+   "adres": "/marki/nissan/murano/"
+  },
+  {
+   "slug": "jeep-grand-cherokee",
+   "nazwa": "Jeep Grand Cherokee",
+   "adres": "/marki/jeep/grand-cherokee/"
+  },
+  {
+   "slug": "mercedes-benz-klasa-gl",
+   "nazwa": "Mercedes-Benz Klasa GL",
+   "adres": "/marki/mercedes-benz/klasa-gl/"
+  },
+  {
+   "slug": "jeep-liberty",
+   "nazwa": "Jeep Liberty",
+   "adres": "/marki/jeep/liberty/"
+  },
+  {
+   "slug": "audi-s8",
+   "nazwa": "Audi S8",
+   "adres": "/marki/audi/s8/"
+  }
+ ]
 }

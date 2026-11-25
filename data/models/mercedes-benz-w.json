@@ -13,14 +13,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz W – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 101 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: W 123, W 115, W 108).",
-  "liczbaWPolsce": 412,
-  "aktywne": 137,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz W – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 102 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: W 123, W 115, W 108).",
+  "liczbaWPolsce": 413,
+  "aktywne": 138,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 26
+    "liczba": 27
    },
    {
     "teryt": "04",
@@ -344,12 +344,16 @@
    {
     "rok": 2016,
     "liczba": 1
+   },
+   {
+    "rok": 2017,
+    "liczba": 1
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 201
+    "liczba": 202
    },
    {
     "nazwa": "Benzyna",
@@ -386,11 +390,11 @@
     "liczba": 25
    },
    {
-    "nazwa": "2,4 l",
-    "liczba": 19
+    "nazwa": "2,1 l",
+    "liczba": 20
    },
    {
-    "nazwa": "2,1 l",
+    "nazwa": "2,4 l",
     "liczba": 19
    },
    {
@@ -405,7 +409,7 @@
   "pochodzenie": [
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 228
+    "liczba": 229
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -427,7 +431,7 @@
    },
    {
     "nazwa": "Kombi",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "nazwa": "Coupe",
@@ -446,7 +450,7 @@
     "liczba": 35
    }
   ],
-  "noweOdPaczki": 101,
+  "noweOdPaczki": 102,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -468,7 +472,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 20
+    "liczba": 21
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -808,13 +812,13 @@
   "miejsce": 1042,
   "miejsceWMarce": 51,
   "modeliWMarce": 58,
-  "sredniRocznik": 1987.7
+  "sredniRocznik": 1987.8
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "w",

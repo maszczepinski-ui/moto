@@ -12,10 +12,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mini Jcw – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 959 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JCW, JCW COUNTRYMAN ALL4, JCW E, JCW ACEMAN E).",
-  "liczbaWPolsce": 959,
-  "aktywne": 959,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mini Jcw – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 965 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JCW, JCW COUNTRYMAN ALL4, JCW E, JCW ACEMAN E).",
+  "liczbaWPolsce": 965,
+  "aktywne": 965,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -39,11 +39,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 123
+    "liczba": 124
    },
    {
     "teryt": "14",
-    "liczba": 354
+    "liczba": 356
    },
    {
     "teryt": "16",
@@ -55,7 +55,7 @@
    },
    {
     "teryt": "20",
-    "liczba": 12
+    "liczba": 14
    },
    {
     "teryt": "22",
@@ -75,7 +75,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 76
+    "liczba": 77
    },
    {
     "teryt": "32",
@@ -138,33 +138,33 @@
    },
    {
     "rok": 2026,
-    "liczba": 243
+    "liczba": 249
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 832
+    "liczba": 837
    },
    {
     "nazwa": "Elektryczny",
-    "liczba": 127
+    "liczba": 128
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "2,0 l",
-    "liczba": 830
+    "liczba": 835
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 129
+    "liczba": 130
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 817
+    "liczba": 822
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -172,7 +172,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 16
+    "liczba": 17
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -182,20 +182,20 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 444
+    "liczba": 446
    },
    {
     "nazwa": "Kombi",
-    "liczba": 394
+    "liczba": 397
    },
    {
     "nazwa": "Kabriolet",
-    "liczba": 121
+    "liczba": 122
    }
   ],
-  "noweOdPaczki": 959,
+  "noweOdPaczki": 965,
   "hybrydy": 0,
-  "elektryczne": 127,
+  "elektryczne": 128,
   "pierwszeRejestracje": [
    {
     "rok": 2024,
@@ -207,7 +207,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 355
+    "liczba": 361
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -553,7 +553,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mini",
  "modelSlug": "jcw",

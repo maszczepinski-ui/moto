@@ -10,18 +10,18 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Junior – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 720 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JUNIOR, ALFA ROMEO JUNIOR).",
-  "liczbaWPolsce": 1720,
-  "aktywne": 1720,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Alfa Romeo Junior – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 1 736 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JUNIOR, ALFA ROMEO JUNIOR).",
+  "liczbaWPolsce": 1736,
+  "aktywne": 1736,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 99
+    "liczba": 101
    },
    {
     "teryt": "04",
-    "liczba": 23
+    "liczba": 24
    },
    {
     "teryt": "06",
@@ -41,7 +41,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 682
+    "liczba": 691
    },
    {
     "teryt": "16",
@@ -57,11 +57,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 100
+    "liczba": 102
    },
    {
     "teryt": "24",
-    "liczba": 220
+    "liczba": 221
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 121
+    "liczba": 122
    },
    {
     "teryt": "32",
@@ -84,7 +84,7 @@
   "roczniki": [
    {
     "rok": 2024,
-    "liczba": 220
+    "liczba": 221
    },
    {
     "rok": 2025,
@@ -92,17 +92,17 @@
    },
    {
     "rok": 2026,
-    "liczba": 498
+    "liczba": 513
    }
   ],
   "paliwa": [
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 782
+    "liczba": 789
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 654
+    "liczba": 663
    },
    {
     "nazwa": "Elektryczny",
@@ -112,7 +112,7 @@
   "pojemnosci": [
    {
     "nazwa": "1,2 l",
-    "liczba": 1436
+    "liczba": 1452
    },
    {
     "nazwa": "Inne / brak danych",
@@ -122,7 +122,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1570
+    "liczba": 1585
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -134,17 +134,21 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 7
+    "liczba": 8
    }
   ],
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 1720
+    "liczba": 1735
+   },
+   {
+    "nazwa": "Inne / brak danych",
+    "liczba": 1
    }
   ],
-  "noweOdPaczki": 1720,
-  "hybrydy": 782,
+  "noweOdPaczki": 1736,
+  "hybrydy": 789,
   "elektryczne": 284,
   "pierwszeRejestracje": [
    {
@@ -157,7 +161,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 719
+    "liczba": 735
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -503,7 +507,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "alfa-romeo",
  "modelSlug": "junior",

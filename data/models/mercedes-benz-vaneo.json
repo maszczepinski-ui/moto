@@ -12,7 +12,7 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
+  "stanNa": "2026-11-18",
   "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz Vaneo – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 512 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: VANEO, VANEO 1.7 CDI, VANEO 1,7 CDI, VANEO 1.9, VANEO 1.6).",
   "liczbaWPolsce": 2445,
   "aktywne": 1185,
@@ -569,7 +569,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "vaneo",
@@ -591,14 +591,14 @@
    "adres": "/marki/volkswagen/sharan/"
   },
   {
+   "slug": "volkswagen-passat",
+   "nazwa": "Volkswagen Passat",
+   "adres": "/marki/volkswagen/passat/"
+  },
+  {
    "slug": "hyundai-trajet",
    "nazwa": "Hyundai Trajet",
    "adres": "/marki/hyundai/trajet/"
-  },
-  {
-   "slug": "opel-zafira",
-   "nazwa": "Opel Zafira",
-   "adres": "/marki/opel/zafira/"
   }
  ]
 }

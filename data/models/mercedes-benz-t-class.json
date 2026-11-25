@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz T-Class – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 484 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T-CLASS, T-CLASS TRIPOD).",
-  "liczbaWPolsce": 484,
-  "aktywne": 484,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Mercedes-Benz T-Class – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 487 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: T-CLASS, T-CLASS TRIPOD).",
+  "liczbaWPolsce": 487,
+  "aktywne": 487,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -37,7 +37,7 @@
    },
    {
     "teryt": "12",
-    "liczba": 40
+    "liczba": 41
    },
    {
     "teryt": "14",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 44
+    "liczba": 45
    },
    {
     "teryt": "26",
@@ -73,7 +73,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "32",
@@ -84,7 +84,7 @@
   "roczniki": [
    {
     "rok": 2023,
-    "liczba": 147
+    "liczba": 148
    },
    {
     "rok": 2024,
@@ -92,37 +92,37 @@
    },
    {
     "rok": 2025,
-    "liczba": 101
+    "liczba": 102
    },
    {
     "rok": 2026,
-    "liczba": 28
+    "liczba": 29
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 300
+    "liczba": 301
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 184
+    "liczba": 186
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 301
+    "liczba": 302
    },
    {
     "nazwa": "1,3 l",
-    "liczba": 183
+    "liczba": 185
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 345
+    "liczba": 346
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -130,7 +130,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 14
+    "liczba": 16
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
@@ -140,14 +140,14 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 480
+    "liczba": 483
    },
    {
     "nazwa": "Inne / brak danych",
     "liczba": 4
    }
   ],
-  "noweOdPaczki": 484,
+  "noweOdPaczki": 487,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -165,7 +165,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 57
+    "liczba": 60
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -502,7 +502,7 @@
     "liczba": 6
    }
   ],
-  "miejsce": 992,
+  "miejsce": 991,
   "miejsceWMarce": 49,
   "modeliWMarce": 58,
   "sredniRocznik": 2024.0
@@ -511,7 +511,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "mercedes-benz",
  "modelSlug": "t-class",
@@ -533,14 +533,14 @@
    "adres": "/marki/omoda/9/"
   },
   {
-   "slug": "byd-seal-u",
-   "nazwa": "BYD Seal U",
-   "adres": "/marki/byd/seal-u/"
-  },
-  {
    "slug": "toyota-proace",
    "nazwa": "Toyota Proace",
    "adres": "/marki/toyota/proace/"
+  },
+  {
+   "slug": "opel-grandland",
+   "nazwa": "Opel Grandland",
+   "adres": "/marki/opel/grandland/"
   }
  ]
 }

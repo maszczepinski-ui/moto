@@ -11,26 +11,26 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 349 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL Y).",
-  "liczbaWPolsce": 11349,
-  "aktywne": 11349,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Tesla Model Y – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 11 467 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: MODEL Y).",
+  "liczbaWPolsce": 11467,
+  "aktywne": 11467,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 802
+    "liczba": 812
    },
    {
     "teryt": "04",
-    "liczba": 224
+    "liczba": 226
    },
    {
     "teryt": "06",
-    "liczba": 255
+    "liczba": 260
    },
    {
     "teryt": "08",
-    "liczba": 98
+    "liczba": 99
    },
    {
     "teryt": "10",
@@ -38,31 +38,31 @@
    },
    {
     "teryt": "12",
-    "liczba": 951
+    "liczba": 972
    },
    {
     "teryt": "14",
-    "liczba": 4192
+    "liczba": 4227
    },
    {
     "teryt": "16",
-    "liczba": 122
+    "liczba": 124
    },
    {
     "teryt": "18",
-    "liczba": 332
+    "liczba": 339
    },
    {
     "teryt": "20",
-    "liczba": 207
+    "liczba": 209
    },
    {
     "teryt": "22",
-    "liczba": 679
+    "liczba": 683
    },
    {
     "teryt": "24",
-    "liczba": 1467
+    "liczba": 1490
    },
    {
     "teryt": "26",
@@ -70,11 +70,11 @@
    },
    {
     "teryt": "28",
-    "liczba": 120
+    "liczba": 121
    },
    {
     "teryt": "30",
-    "liczba": 1158
+    "liczba": 1163
    },
    {
     "teryt": "32",
@@ -89,49 +89,49 @@
    },
    {
     "rok": 2021,
-    "liczba": 233
+    "liczba": 239
    },
    {
     "rok": 2022,
-    "liczba": 798
+    "liczba": 811
    },
    {
     "rok": 2023,
-    "liczba": 3023
+    "liczba": 3034
    },
    {
     "rok": 2024,
-    "liczba": 2217
+    "liczba": 2220
    },
    {
     "rok": 2025,
-    "liczba": 3153
+    "liczba": 3156
    },
    {
     "rok": 2026,
-    "liczba": 1897
+    "liczba": 1979
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 11348
+    "liczba": 11465
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 1
+    "liczba": 2
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 11349
+    "liczba": 11467
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 9009
+    "liczba": 9080
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -139,11 +139,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 852
+    "liczba": 888
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 166
+    "liczba": 177
    },
    {
     "nazwa": "Inne / brak danych",
@@ -153,20 +153,20 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 10858
+    "liczba": 10963
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 365
+    "liczba": 372
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 126
+    "liczba": 132
    }
   ],
-  "noweOdPaczki": 11349,
+  "noweOdPaczki": 11467,
   "hybrydy": 0,
-  "elektryczne": 11346,
+  "elektryczne": 11463,
   "pierwszeRejestracje": [
    {
     "rok": 2021,
@@ -190,7 +190,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 2447
+    "liczba": 2565
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -527,7 +527,7 @@
     "liczba": 129
    }
   ],
-  "miejsce": 310,
+  "miejsce": 309,
   "miejsceWMarce": 2,
   "modeliWMarce": 4,
   "sredniRocznik": 2024.1
@@ -536,7 +536,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "tesla",
  "modelSlug": "model-y",

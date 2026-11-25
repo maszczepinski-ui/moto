@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Seville – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 143 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEVILLE, SEVILLE STS, SEVILLE 4.6 STS).",
-  "liczbaWPolsce": 336,
-  "aktywne": 184,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Cadillac Seville – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 145 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: SEVILLE, SEVILLE STS, SEVILLE 4.6 STS).",
+  "liczbaWPolsce": 338,
+  "aktywne": 186,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -41,11 +41,11 @@
    },
    {
     "teryt": "14",
-    "liczba": 66
+    "liczba": 67
    },
    {
     "teryt": "16",
-    "liczba": 11
+    "liczba": 12
    },
    {
     "teryt": "18",
@@ -116,7 +116,7 @@
    },
    {
     "rok": 1978,
-    "liczba": 2
+    "liczba": 3
    },
    {
     "rok": 1979,
@@ -196,7 +196,7 @@
    },
    {
     "rok": 1998,
-    "liczba": 29
+    "liczba": 30
    },
    {
     "rok": 1999,
@@ -254,7 +254,7 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 254
+    "liczba": 256
    },
    {
     "nazwa": "Benzyna + LPG",
@@ -272,7 +272,7 @@
   "pojemnosci": [
    {
     "nazwa": "4,6 l",
-    "liczba": 191
+    "liczba": 192
    },
    {
     "nazwa": "4,9 l",
@@ -292,7 +292,7 @@
    },
    {
     "nazwa": "5,7 l",
-    "liczba": 14
+    "liczba": 15
    },
    {
     "nazwa": "3,6 l",
@@ -305,12 +305,12 @@
   ],
   "pochodzenie": [
    {
-    "nazwa": "Kupiony w Polsce jako używany",
-    "liczba": 163
+    "nazwa": "Sprowadzony z zagranicy (używany)",
+    "liczba": 164
    },
    {
-    "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 162
+    "nazwa": "Kupiony w Polsce jako używany",
+    "liczba": 163
    },
    {
     "nazwa": "Nowy z polskiego salonu",
@@ -324,7 +324,7 @@
   "nadwozia": [
    {
     "nazwa": "Sedan",
-    "liczba": 294
+    "liczba": 295
    },
    {
     "nazwa": "Hatchback",
@@ -332,10 +332,10 @@
    },
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 38
+    "liczba": 39
    }
   ],
-  "noweOdPaczki": 143,
+  "noweOdPaczki": 145,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -369,7 +369,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 10
+    "liczba": 12
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -706,16 +706,16 @@
     "liczba": 1
    }
   ],
-  "miejsce": 1113,
+  "miejsce": 1111,
   "miejsceWMarce": 5,
   "modeliWMarce": 8,
-  "sredniRocznik": 1994.2
+  "sredniRocznik": 1994.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "cadillac",
  "modelSlug": "seville",
@@ -732,14 +732,14 @@
    "adres": "/marki/ford/taurus/"
   },
   {
-   "slug": "opel-omega",
-   "nazwa": "Opel Omega",
-   "adres": "/marki/opel/omega/"
-  },
-  {
    "slug": "mercedes-benz-500",
    "nazwa": "Mercedes-Benz 500",
    "adres": "/marki/mercedes-benz/500/"
+  },
+  {
+   "slug": "opel-omega",
+   "nazwa": "Opel Omega",
+   "adres": "/marki/opel/omega/"
   },
   {
    "slug": "honda-legend",

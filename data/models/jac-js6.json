@@ -10,14 +10,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe JAC JS6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 224 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JS6).",
-  "liczbaWPolsce": 224,
-  "aktywne": 224,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe JAC JS6 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 230 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: JS6).",
+  "liczbaWPolsce": 230,
+  "aktywne": 230,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 2
+    "liczba": 3
    },
    {
     "teryt": "04",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 8
+    "liczba": 9
    },
    {
     "teryt": "08",
@@ -45,7 +45,7 @@
    },
    {
     "teryt": "16",
-    "liczba": 7
+    "liczba": 8
    },
    {
     "teryt": "18",
@@ -61,7 +61,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 19
+    "liczba": 20
    },
    {
     "teryt": "26",
@@ -73,11 +73,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 56
+    "liczba": 57
    },
    {
     "teryt": "32",
-    "liczba": 29
+    "liczba": 30
    }
   ],
   "bezWojewodztwa": 0,
@@ -128,25 +128,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 222
+    "liczba": 228
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 224
+    "liczba": 230
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 224
+    "liczba": 230
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 222
+    "liczba": 228
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -156,10 +156,10 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 224
+    "liczba": 230
    }
   ],
-  "noweOdPaczki": 224,
+  "noweOdPaczki": 230,
   "hybrydy": 0,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -169,7 +169,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 223
+    "liczba": 229
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -506,7 +506,7 @@
     "liczba": 34
    }
   ],
-  "miejsce": 1246,
+  "miejsce": 1238,
   "miejsceWMarce": 3,
   "modeliWMarce": 3,
   "sredniRocznik": 2025.9
@@ -515,7 +515,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "jac",
  "modelSlug": "js6",

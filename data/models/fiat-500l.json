@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 500L – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 566 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 500L, FIAT 500L, 500L 110F).",
-  "liczbaWPolsce": 6639,
-  "aktywne": 5346,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Fiat 500L – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 3 583 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: 500L, FIAT 500L, 500L 110F).",
+  "liczbaWPolsce": 6656,
+  "aktywne": 5363,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 521
+    "liczba": 522
    },
    {
     "teryt": "04",
@@ -26,7 +26,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 203
+    "liczba": 204
    },
    {
     "teryt": "08",
@@ -34,15 +34,15 @@
    },
    {
     "teryt": "10",
-    "liczba": 427
+    "liczba": 429
    },
    {
     "teryt": "12",
-    "liczba": 673
+    "liczba": 675
    },
    {
     "teryt": "14",
-    "liczba": 748
+    "liczba": 751
    },
    {
     "teryt": "16",
@@ -50,15 +50,15 @@
    },
    {
     "teryt": "18",
-    "liczba": 548
+    "liczba": 551
    },
    {
     "teryt": "20",
-    "liczba": 150
+    "liczba": 152
    },
    {
     "teryt": "22",
-    "liczba": 397
+    "liczba": 398
    },
    {
     "teryt": "24",
@@ -66,7 +66,7 @@
    },
    {
     "teryt": "26",
-    "liczba": 184
+    "liczba": 186
    },
    {
     "teryt": "28",
@@ -257,19 +257,19 @@
    },
    {
     "rok": 2012,
-    "liczba": 187
+    "liczba": 188
    },
    {
     "rok": 2013,
-    "liczba": 1080
+    "liczba": 1084
    },
    {
     "rok": 2014,
-    "liczba": 1123
+    "liczba": 1129
    },
    {
     "rok": 2015,
-    "liczba": 705
+    "liczba": 706
    },
    {
     "rok": 2016,
@@ -277,11 +277,11 @@
    },
    {
     "rok": 2017,
-    "liczba": 824
+    "liczba": 828
    },
    {
     "rok": 2018,
-    "liczba": 567
+    "liczba": 568
    },
    {
     "rok": 2019,
@@ -303,15 +303,15 @@
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 4611
+    "liczba": 4623
    },
    {
     "nazwa": "Diesel",
-    "liczba": 1359
+    "liczba": 1362
    },
    {
     "nazwa": "Benzyna + LPG",
-    "liczba": 654
+    "liczba": 656
    },
    {
     "nazwa": "Inne / brak danych",
@@ -321,11 +321,11 @@
   "pojemnosci": [
    {
     "nazwa": "1,4 l",
-    "liczba": 4723
+    "liczba": 4735
    },
    {
     "nazwa": "1,6 l",
-    "liczba": 761
+    "liczba": 764
    },
    {
     "nazwa": "1,2 l",
@@ -333,7 +333,7 @@
    },
    {
     "nazwa": "0,9 l",
-    "liczba": 407
+    "liczba": 409
    },
    {
     "nazwa": "0,5 l",
@@ -351,7 +351,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 2319
+    "liczba": 2336
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -365,11 +365,11 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 5310
+    "liczba": 5323
    },
    {
     "nazwa": "Hatchback",
-    "liczba": 1013
+    "liczba": 1017
    },
    {
     "nazwa": "Kombi",
@@ -380,7 +380,7 @@
     "liczba": 138
    }
   ],
-  "noweOdPaczki": 3566,
+  "noweOdPaczki": 3583,
   "hybrydy": 1,
   "elektryczne": 0,
   "pierwszeRejestracje": [
@@ -414,7 +414,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 514
+    "liczba": 531
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -751,8 +751,8 @@
     "liczba": 45
    }
   ],
-  "miejsce": 392,
-  "miejsceWMarce": 19,
+  "miejsce": 391,
+  "miejsceWMarce": 18,
   "modeliWMarce": 61,
   "sredniRocznik": 2015.1
  },
@@ -760,7 +760,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "fiat",
  "modelSlug": "500l",

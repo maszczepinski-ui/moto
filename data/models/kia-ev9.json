@@ -10,10 +10,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 336 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV9).",
-  "liczbaWPolsce": 336,
-  "aktywne": 336,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Kia EV9 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 337 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: EV9).",
+  "liczbaWPolsce": 337,
+  "aktywne": 337,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -25,7 +25,7 @@
    },
    {
     "teryt": "06",
-    "liczba": 6
+    "liczba": 7
    },
    {
     "teryt": "08",
@@ -96,19 +96,19 @@
    },
    {
     "rok": 2026,
-    "liczba": 4
+    "liczba": 5
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 336
+    "liczba": 337
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 336
+    "liczba": 337
    }
   ],
   "pochodzenie": [
@@ -122,7 +122,7 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 15
+    "liczba": 16
    },
    {
     "nazwa": "Inne / brak danych",
@@ -132,7 +132,7 @@
   "nadwozia": [
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
-    "liczba": 330
+    "liczba": 331
    },
    {
     "nazwa": "Kombi",
@@ -143,9 +143,9 @@
     "liczba": 1
    }
   ],
-  "noweOdPaczki": 336,
+  "noweOdPaczki": 337,
   "hybrydy": 0,
-  "elektryczne": 336,
+  "elektryczne": 337,
   "pierwszeRejestracje": [
    {
     "rok": 2023,
@@ -161,7 +161,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 29
+    "liczba": 30
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -498,8 +498,8 @@
     "liczba": 0
    }
   ],
-  "miejsce": 1114,
-  "miejsceWMarce": 29,
+  "miejsce": 1113,
+  "miejsceWMarce": 28,
   "modeliWMarce": 33,
   "sredniRocznik": 2023.3
  },
@@ -507,7 +507,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "kia",
  "modelSlug": "ev9",

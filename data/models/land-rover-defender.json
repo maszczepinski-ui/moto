@@ -12,22 +12,22 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Land Rover Defender – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 820 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEFENDER, DEFENDER 110, DEFENDER 110 2.5 TDI, DEFENDER 90).",
-  "liczbaWPolsce": 3546,
-  "aktywne": 2986,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Land Rover Defender – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 2 837 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: DEFENDER, DEFENDER 110, DEFENDER 110 2.5 TDI, DEFENDER 90).",
+  "liczbaWPolsce": 3563,
+  "aktywne": 3003,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 438
+    "liczba": 442
    },
    {
     "teryt": "04",
-    "liczba": 127
+    "liczba": 129
    },
    {
     "teryt": "06",
-    "liczba": 70
+    "liczba": 71
    },
    {
     "teryt": "08",
@@ -43,7 +43,7 @@
    },
    {
     "teryt": "14",
-    "liczba": 941
+    "liczba": 945
    },
    {
     "teryt": "16",
@@ -59,11 +59,11 @@
    },
    {
     "teryt": "22",
-    "liczba": 242
+    "liczba": 243
    },
    {
     "teryt": "24",
-    "liczba": 302
+    "liczba": 303
    },
    {
     "teryt": "26",
@@ -75,11 +75,11 @@
    },
    {
     "teryt": "30",
-    "liczba": 375
+    "liczba": 377
    },
    {
     "teryt": "32",
-    "liczba": 164
+    "liczba": 166
    }
   ],
   "bezWojewodztwa": 3,
@@ -214,7 +214,7 @@
    },
    {
     "rok": 2020,
-    "liczba": 109
+    "liczba": 110
    },
    {
     "rok": 2021,
@@ -238,25 +238,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 492
+    "liczba": 508
    }
   ],
   "paliwa": [
    {
     "nazwa": "Diesel",
-    "liczba": 1893
+    "liczba": 1900
    },
    {
     "nazwa": "Hybryda (diesel + elektryczny)",
-    "liczba": 944
+    "liczba": 951
    },
    {
     "nazwa": "Benzyna",
-    "liczba": 456
+    "liczba": 458
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 241
+    "liczba": 242
    },
    {
     "nazwa": "Inne / brak danych",
@@ -266,7 +266,7 @@
   "pojemnosci": [
    {
     "nazwa": "3,0 l",
-    "liczba": 2115
+    "liczba": 2129
    },
    {
     "nazwa": "2,5 l",
@@ -274,7 +274,7 @@
    },
    {
     "nazwa": "2,0 l",
-    "liczba": 247
+    "liczba": 248
    },
    {
     "nazwa": "2,4 l",
@@ -286,7 +286,7 @@
    },
    {
     "nazwa": "4,4 l",
-    "liczba": 82
+    "liczba": 84
    },
    {
     "nazwa": "Inne / brak danych",
@@ -296,7 +296,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 1704
+    "liczba": 1719
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -304,11 +304,11 @@
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
-    "liczba": 508
+    "liczba": 509
    },
    {
     "nazwa": "Sprowadzony z zagranicy jako nowy",
-    "liczba": 85
+    "liczba": 86
    },
    {
     "nazwa": "Inne / brak danych",
@@ -318,11 +318,11 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 2971
+    "liczba": 2987
    },
    {
     "nazwa": "Terenowy",
-    "liczba": 236
+    "liczba": 237
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -337,8 +337,8 @@
     "liczba": 103
    }
   ],
-  "noweOdPaczki": 2820,
-  "hybrydy": 1185,
+  "noweOdPaczki": 2837,
+  "hybrydy": 1193,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -371,7 +371,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 768
+    "liczba": 785
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -717,7 +717,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "land-rover",
  "modelSlug": "defender",

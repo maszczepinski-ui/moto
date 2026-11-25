@@ -13,10 +13,10 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Actyon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 584 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ACTYON, ACTYON SPORTS, ACTYON HEV).",
-  "liczbaWPolsce": 761,
-  "aktywne": 653,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe SsangYong (KGM) Actyon – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 609 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ACTYON, ACTYON SPORTS, ACTYON HEV).",
+  "liczbaWPolsce": 786,
+  "aktywne": 678,
   "wojewodztwa": [
    {
     "teryt": "02",
@@ -24,27 +24,27 @@
    },
    {
     "teryt": "04",
-    "liczba": 18
+    "liczba": 20
    },
    {
     "teryt": "06",
-    "liczba": 53
+    "liczba": 56
    },
    {
     "teryt": "08",
-    "liczba": 31
+    "liczba": 34
    },
    {
     "teryt": "10",
-    "liczba": 38
+    "liczba": 41
    },
    {
     "teryt": "12",
-    "liczba": 58
+    "liczba": 60
    },
    {
     "teryt": "14",
-    "liczba": 116
+    "liczba": 118
    },
    {
     "teryt": "16",
@@ -52,7 +52,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 43
+    "liczba": 44
    },
    {
     "teryt": "20",
@@ -64,11 +64,11 @@
    },
    {
     "teryt": "24",
-    "liczba": 114
+    "liczba": 119
    },
    {
     "teryt": "26",
-    "liczba": 32
+    "liczba": 33
    },
    {
     "teryt": "28",
@@ -76,7 +76,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 66
+    "liczba": 69
    },
    {
     "teryt": "32",
@@ -167,13 +167,13 @@
    },
    {
     "rok": 2026,
-    "liczba": 129
+    "liczba": 154
    }
   ],
   "paliwa": [
    {
     "nazwa": "Benzyna",
-    "liczba": 287
+    "liczba": 307
    },
    {
     "nazwa": "Diesel",
@@ -185,13 +185,13 @@
    },
    {
     "nazwa": "Hybryda (benzyna + elektryczny)",
-    "liczba": 29
+    "liczba": 34
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "1,5 l",
-    "liczba": 490
+    "liczba": 515
    },
    {
     "nazwa": "2,0 l",
@@ -205,7 +205,7 @@
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 450
+    "liczba": 475
    },
    {
     "nazwa": "Sprowadzony z zagranicy (używany)",
@@ -227,7 +227,7 @@
   "nadwozia": [
    {
     "nazwa": "Kombi",
-    "liczba": 617
+    "liczba": 642
    },
    {
     "nazwa": "Wielozadaniowy (SUV, minivan)",
@@ -250,8 +250,8 @@
     "liczba": 7
    }
   ],
-  "noweOdPaczki": 584,
-  "hybrydy": 29,
+  "noweOdPaczki": 609,
+  "hybrydy": 34,
   "elektryczne": 0,
   "pierwszeRejestracje": [
    {
@@ -284,7 +284,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 285
+    "liczba": 310
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -621,16 +621,16 @@
     "liczba": 37
    }
   ],
-  "miejsce": 853,
+  "miejsce": 845,
   "miejsceWMarce": 6,
   "modeliWMarce": 10,
-  "sredniRocznik": 2018.9
+  "sredniRocznik": 2019.1
  },
  "youtubeId": "",
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "ssangyong-kgm",
  "modelSlug": "actyon",
@@ -642,11 +642,6 @@
    "adres": "/marki/audi/q3/"
   },
   {
-   "slug": "mini-clubman",
-   "nazwa": "Mini Clubman",
-   "adres": "/marki/mini/clubman/"
-  },
-  {
    "slug": "mercedes-benz-klasa-gla",
    "nazwa": "Mercedes-Benz Klasa GLA",
    "adres": "/marki/mercedes-benz/klasa-gla/"
@@ -655,6 +650,11 @@
    "slug": "ds-7",
    "nazwa": "DS 7",
    "adres": "/marki/ds/7/"
+  },
+  {
+   "slug": "mini-clubman",
+   "nazwa": "Mini Clubman",
+   "adres": "/marki/mini/clubman/"
   },
   {
    "slug": "bmw-seria-2",

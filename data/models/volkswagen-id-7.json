@@ -11,14 +11,14 @@
  "opisModelu": "",
  "daneTestowe": false,
  "cepik": {
-  "stanNa": "2026-11-02",
-  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 882 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.7 TOURER PRO S, ID.7 PRO, ID.7 PRO 210KW, ID.7 TOURER PRO, ID.7 PRO S).",
-  "liczbaWPolsce": 882,
-  "aktywne": 882,
+  "stanNa": "2026-11-18",
+  "jakLiczone": "Wszystkie zarejestrowane samochody osobowe Volkswagen ID.7 – wszystkie generacje razem. To suma aut z paczek CEPiK (stan na listopad 2019) i 896 aut zarejestrowanych w Polsce po raz pierwszy później (API CEPiK). W CEPiK nazwy wpisywane są ręcznie, więc łączymy różne zapisy (najczęstsze: ID.7 TOURER PRO S, ID.7 PRO, ID.7 TOURER PRO, ID.7 PRO 210KW, ID.7 PRO S).",
+  "liczbaWPolsce": 896,
+  "aktywne": 896,
   "wojewodztwa": [
    {
     "teryt": "02",
-    "liczba": 48
+    "liczba": 49
    },
    {
     "teryt": "04",
@@ -38,11 +38,11 @@
    },
    {
     "teryt": "12",
-    "liczba": 52
+    "liczba": 53
    },
    {
     "teryt": "14",
-    "liczba": 402
+    "liczba": 407
    },
    {
     "teryt": "16",
@@ -50,7 +50,7 @@
    },
    {
     "teryt": "18",
-    "liczba": 9
+    "liczba": 11
    },
    {
     "teryt": "20",
@@ -62,7 +62,7 @@
    },
    {
     "teryt": "24",
-    "liczba": 75
+    "liczba": 76
    },
    {
     "teryt": "26",
@@ -74,7 +74,7 @@
    },
    {
     "teryt": "30",
-    "liczba": 119
+    "liczba": 123
    },
    {
     "teryt": "32",
@@ -93,25 +93,25 @@
    },
    {
     "rok": 2026,
-    "liczba": 261
+    "liczba": 275
    }
   ],
   "paliwa": [
    {
     "nazwa": "Elektryczny",
-    "liczba": 882
+    "liczba": 896
    }
   ],
   "pojemnosci": [
    {
     "nazwa": "Inne / brak danych",
-    "liczba": 882
+    "liczba": 896
    }
   ],
   "pochodzenie": [
    {
     "nazwa": "Nowy z polskiego salonu",
-    "liczba": 845
+    "liczba": 859
    },
    {
     "nazwa": "Kupiony w Polsce jako używany",
@@ -129,16 +129,16 @@
   "nadwozia": [
    {
     "nazwa": "Hatchback",
-    "liczba": 454
+    "liczba": 459
    },
    {
     "nazwa": "Kombi",
-    "liczba": 428
+    "liczba": 437
    }
   ],
-  "noweOdPaczki": 882,
+  "noweOdPaczki": 896,
   "hybrydy": 0,
-  "elektryczne": 882,
+  "elektryczne": 896,
   "pierwszeRejestracje": [
    {
     "rok": 2024,
@@ -150,7 +150,7 @@
    },
    {
     "rok": 2026,
-    "liczba": 324
+    "liczba": 338
    }
   ],
   "rejestracjeMiesiecznie": [
@@ -487,7 +487,7 @@
     "liczba": 37
    }
   ],
-  "miejsce": 818,
+  "miejsce": 815,
   "miejsceWMarce": 43,
   "modeliWMarce": 61,
   "sredniRocznik": 2025.0
@@ -496,7 +496,7 @@
  "zrodla": [
   "Liczby: CEPiK, Ministerstwo Cyfryzacji – paczki danych o pojazdach (stan do listopada 2019) oraz API CEPiK (auta zarejestrowane po raz pierwszy w Polsce później)"
  ],
- "dataAktualizacji": "2026-11-14",
+ "dataAktualizacji": "2026-11-25",
  "wszystkieGeneracje": true,
  "markaSlug": "volkswagen",
  "modelSlug": "id-7",
