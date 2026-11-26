@@ -83,9 +83,26 @@ const KAFLE: { zdjecie: KluczZdjecia; nadtytul: string; tytul: string; opis: str
 
 const K_GLOWNA = { slug: 'strona-glowna', marka: '', model: '' };
 
+// Tytuł i opis strony głównej dla Google (ustawione tylko tutaj – podstrony mają własne).
+// „absolute” = bez dopisku „ | MotoRaport”, bo nazwa jest już w tytule.
+const TYTUL_GLOWNEJ = 'MotoRaport.pl – Poradniki, Raporty i Wiedza Motoryzacyjna';
+const OPIS_GLOWNEJ =
+  'Kupujesz samochód? Sprawdź porady motoryzacyjne, raporty, informacje o modelach i silnikach oraz praktyczne narzędzia dla kierowców. Podejmuj świadome decyzje z MotoRaport.pl!';
+
 // Strona główna ma wersje /uk/ i /en/ – informujemy o nich Google (hreflang)
 export const metadata: Metadata = {
-  alternates: { canonical: '/', languages: hreflang('/') }
+  title: { absolute: TYTUL_GLOWNEJ },
+  description: OPIS_GLOWNEJ,
+  alternates: { canonical: '/', languages: hreflang('/') },
+  // Ten sam tytuł i opis przy udostępnianiu linku (Facebook, Messenger itp.)
+  openGraph: {
+    siteName: site.name,
+    title: TYTUL_GLOWNEJ,
+    description: OPIS_GLOWNEJ,
+    url: '/',
+    locale: 'pl_PL',
+    type: 'website'
+  }
 };
 
 export default function HomePage() {
