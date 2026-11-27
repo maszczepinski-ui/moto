@@ -10,10 +10,10 @@ export interface Produkt {
   jakWybrac: string[];
   /** najczęstszy błąd przy zakupie lub używaniu */
   unikaj: string;
-  /** fraza do wyszukiwania na Ceneo */
+  /** co wyszukać na Ceneo, żeby wygenerować link w panelu partnera (podpowiedź dla redakcji) */
   szukaj: string;
-  /** opcjonalnie: adres konkretnej kategorii Ceneo zamiast wyszukiwania */
-  ceneoAdres?: string;
+  /** gotowy link partnerski skopiowany z panelu Ceneo (bez zmian!) – pusty = przycisk się nie pokazuje */
+  ceneoLink?: string;
   /** „Musisz mieć” / „Warto mieć” / „Na wyjazd w góry” */
   grupa: 'podstawa' | 'warto' | 'gory';
   /** link do naszego poradnika lub narzędzia przy produkcie */

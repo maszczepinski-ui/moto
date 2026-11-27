@@ -4,7 +4,7 @@ import LinkPartnerski from '@/components/LinkPartnerski';
 import { H2, KARTA } from '@/components/narzedzia/StronaNarzedzia';
 import { PytaniaOpony } from '@/components/opony/Wspolne';
 import { PORADNIKI, typo } from '@/lib/poradniki';
-import { linkCeneo, linkCeneoStrona } from '@/lib/ceneo';
+import { linkCeneoZPanelu } from '@/lib/ceneo';
 import type { Dzial, Produkt } from '@/lib/akcesoria';
 import { site } from '@/config/site';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
@@ -21,7 +21,7 @@ const GRUPY: { id: Produkt['grupa']; nazwa: string; opis: string }[] = [
 const dataPl = (d: string) => d.split('-').reverse().join('.');
 
 function KartaProduktu({ p, dzial }: { p: Produkt; dzial: string }) {
-  const href = (p.ceneoAdres && linkCeneoStrona(p.ceneoAdres)) || linkCeneo(p.szukaj);
+  const href = linkCeneoZPanelu(p.ceneoLink);
   return (
     <li id={p.id} className={`${KARTA} p-5 sm:p-6 flex flex-col gap-4 scroll-mt-24`}>
       <div>
@@ -43,19 +43,23 @@ function KartaProduktu({ p, dzial }: { p: Produkt; dzial: string }) {
         <TriangleAlert className="w-4 h-4 mt-0.5 flex-none" aria-hidden="true" />
         <span>{typo(p.unikaj)}</span>
       </p>
-      <div className="mt-auto space-y-2">
-        <LinkPartnerski href={href} modul="ceneo" partner="ceneo" karta={`akcesoria-${dzial}-${p.id}`} className="flex items-center justify-center gap-2 min-h-[46px] rounded-xl bg-rust-600 hover:bg-rust-700 text-white font-bold text-[15px]">
-          Porównaj ceny na Ceneo <ArrowRight className="w-4 h-4" aria-hidden="true" />
-        </LinkPartnerski>
-        <div className="flex flex-wrap justify-between gap-2 text-[11px] text-slate-500">
-          <span>Link partnerski · ceneo.pl</span>
-          {p.powiazany && (
-            <a href={p.powiazany.adres} className="font-semibold text-rust-700 dark:text-rust-400 hover:underline">
-              {p.powiazany.nazwa} →
-            </a>
+      {(href || p.powiazany) && (
+        <div className="mt-auto space-y-2">
+          {href && (
+            <LinkPartnerski href={href} modul="ceneo" partner="ceneo" karta={`akcesoria-${dzial}-${p.id}`} className="flex items-center justify-center gap-2 min-h-[46px] rounded-xl bg-rust-600 hover:bg-rust-700 text-white font-bold text-[15px]">
+              Porównaj ceny na Ceneo <ArrowRight className="w-4 h-4" aria-hidden="true" />
+            </LinkPartnerski>
           )}
+          <div className="flex flex-wrap justify-between gap-2 text-[11px] text-slate-500">
+            {href && <span>Link partnerski · ceneo.pl</span>}
+            {p.powiazany && (
+              <a href={p.powiazany.adres} className="font-semibold text-rust-700 dark:text-rust-400 hover:underline">
+                {p.powiazany.nazwa} →
+              </a>
+            )}
+          </div>
         </div>
-      </div>
+      )}
     </li>
   );
 }
