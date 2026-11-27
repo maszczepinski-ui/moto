@@ -21,6 +21,7 @@ import ArtykulyFilmow from '@/components/admin/ArtykulyFilmow';
 import AktualnosciAdmin from '@/components/admin/Aktualnosci';
 import Social from '@/components/admin/Social';
 import ProduktyRankingi from '@/components/admin/ProduktyRankingi';
+import LinkiCeneo from '@/components/admin/LinkiCeneo';
 import OpisFilmu from '@/components/admin/OpisFilmu';
 import LogoIkona, { type Marka } from '@/components/admin/LogoIkona';
 import { site } from '@/config/site';
@@ -179,7 +180,7 @@ function Przelacznik({ wlaczony, onChange, label }: { wlaczony: boolean; onChang
   );
 }
 
-type Zakladka = 'statystyki' | 'chinskie' | 'silniki' | 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'social' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
+type Zakladka = 'statystyki' | 'ceneo' | 'chinskie' | 'silniki' | 'linki' | 'filmy' | 'artykuly' | 'aktualnosci' | 'social' | 'produkty' | 'kody' | 'seo' | 'opisy' | 'aktualizacje' | 'wyglad';
 
 export default function AdminPanel({
   modele,
@@ -440,6 +441,7 @@ export default function AdminPanel({
         { k: 'silniki', nazwa: 'Dane techniczne', ikona: <Cog className={ik} />, opis: 'Silniki, plusy i minusy, miejsca numeru VIN – do sprawdzenia i zatwierdzenia.' },
         { k: 'chinskie', nazwa: 'Chińskie auta', ikona: <Trophy className={ik} />, opis: 'Zdjęcia, ceny i widoczność aut w rankingu chińskich marek.' },
         { k: 'produkty', nazwa: 'Produkty i rankingi', ikona: <Package className={ik} />, opis: 'Polecane produkty i rankingi z linkami partnerskimi.' },
+        { k: 'ceneo', nazwa: 'Linki Ceneo', ikona: <Package className={ik} />, opis: 'Linki partnerskie Ceneo do produktów w dziale akcesoriów (zimowe, boostery, prostowniki).' },
         { k: 'aktualizacje', nazwa: 'Aktualizacje danych', ikona: <Database className={ik} />, opis: `Odświeżanie danych CEPiK i statystyk rynku. Dane na stronie: ${stanDanych}.` }
       ]
     },
@@ -1104,6 +1106,7 @@ export default function AdminPanel({
           {zakladka === 'aktualnosci' && <AktualnosciAdmin api={api} branch={branch} token={token} />}
           {zakladka === 'social' && <Social api={api} repo={repo} token={token} />}
           {zakladka === 'produkty' && <ProduktyRankingi api={api} branch={branch} />}
+          {zakladka === 'ceneo' && <LinkiCeneo api={api} branch={branch} />}
           {zakladka === 'chinskie' && <ChinskieAuta api={api} branch={branch} nazwy={nazwyModeli} />}
           {zakladka === 'silniki' && <Silniki api={api} branch={branch} nazwy={nazwyModeli} uzycia={uzyciaSilnikow()} token={token} modele={modele} pokrycie={pokrycie} />}
           {zakladka === 'wyglad' && <LogoIkona api={api} branch={branch} marka={dane.marka} zmiany={zmiany} onZapisano={wczytaj} />}
@@ -1186,7 +1189,7 @@ export default function AdminPanel({
           )}
 
           {/* pasek zapisu ustawień panelu – zakładki z własnymi plikami (artykuły, produkty, aktualizacje…) mają własne przyciski */}
-          {zmiany && !['artykuly', 'aktualnosci', 'social', 'produkty', 'aktualizacje', 'wyglad', 'statystyki', 'chinskie', 'silniki'].includes(zakladka) && (
+          {zmiany && !['artykuly', 'aktualnosci', 'social', 'produkty', 'ceneo', 'aktualizacje', 'wyglad', 'statystyki', 'chinskie', 'silniki'].includes(zakladka) && (
             <div className="sticky bottom-4 z-10">
               <div className="flex items-center justify-between gap-3 rounded-2xl pl-4 pr-2 py-2 bg-slate-900/95 text-white ring-1 ring-slate-900 shadow-xl backdrop-blur dark:bg-slate-800/95 dark:ring-slate-700">
                 <span className="flex items-center gap-2 text-sm font-medium">

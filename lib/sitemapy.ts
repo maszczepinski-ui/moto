@@ -1,4 +1,4 @@
-import { DZIALY } from '@/lib/akcesoria';
+import { DZIALY, STRONY_PRODUKTOW } from '@/lib/akcesoria';
 import { MIN_OFERT_GOOGLE, indeksOpon, liczbaOfert, wszystkieRozmiary } from '@/lib/opony-dobor';
 import { PORADNIKI, dataAktualizacji } from '@/lib/poradniki';
 import { opublikowaneAktualnosci, aktualnosciTypu, TYPY, type TypAktualnosci } from '@/lib/aktualnosci';
@@ -78,6 +78,7 @@ function grupy(): Record<string, Adres[]> {
       { loc: '/przypomnienia/', changefreq: 'monthly', priority: 0.6 },
       { loc: '/opony/', changefreq: 'monthly', priority: 0.8 },
       ...DZIALY.map((d) => ({ loc: `/akcesoria/${d.slug}/`, lastmod: d.aktualizacja, changefreq: 'monthly', priority: 0.7 })),
+      ...STRONY_PRODUKTOW.map((x) => ({ loc: `/akcesoria/${x.dzial}/${x.slug}/`, lastmod: x.aktualizacja, changefreq: 'monthly', priority: 0.6 })),
       { loc: '/dobor-opon/', lastmod: indeksOpon().aktualizacja || undefined, changefreq: 'daily', priority: 0.8 },
       ...wszystkieRozmiary()
         .filter((x) => liczbaOfert(x.info) >= MIN_OFERT_GOOGLE)

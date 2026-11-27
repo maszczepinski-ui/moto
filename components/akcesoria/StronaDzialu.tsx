@@ -4,7 +4,8 @@ import LinkPartnerski from '@/components/LinkPartnerski';
 import { H2, KARTA } from '@/components/narzedzia/StronaNarzedzia';
 import { PytaniaOpony } from '@/components/opony/Wspolne';
 import { PORADNIKI, typo } from '@/lib/poradniki';
-import { linkCeneoZPanelu } from '@/lib/ceneo';
+import { linkProduktuCeneo } from '@/lib/akcesoria/linki';
+import { podstronaDla } from '@/lib/akcesoria';
 import type { Dzial, Produkt } from '@/lib/akcesoria';
 import { site } from '@/config/site';
 import { bezpiecznyJson } from '@/lib/bezpieczenstwo';
@@ -21,7 +22,8 @@ const GRUPY: { id: Produkt['grupa']; nazwa: string; opis: string }[] = [
 const dataPl = (d: string) => d.split('-').reverse().join('.');
 
 function KartaProduktu({ p, dzial }: { p: Produkt; dzial: string }) {
-  const href = linkCeneoZPanelu(p.ceneoLink);
+  const href = linkProduktuCeneo(`${dzial}-${p.id}`);
+  const pod = podstronaDla(dzial, p.id);
   return (
     <li id={p.id} className={`${KARTA} p-5 sm:p-6 flex flex-col gap-4 scroll-mt-24`}>
       <div>
@@ -43,8 +45,13 @@ function KartaProduktu({ p, dzial }: { p: Produkt; dzial: string }) {
         <TriangleAlert className="w-4 h-4 mt-0.5 flex-none" aria-hidden="true" />
         <span>{typo(p.unikaj)}</span>
       </p>
-      {(href || p.powiazany) && (
+      {(href || p.powiazany || pod) && (
         <div className="mt-auto space-y-2">
+          {pod && (
+            <a href={`/akcesoria/${dzial}/${pod.slug}/`} className="flex items-center justify-center gap-2 min-h-[46px] rounded-xl bg-slate-900 hover:bg-slate-800 dark:bg-white dark:text-slate-900 text-white font-bold text-[15px]">
+              Porównaj modele <ArrowRight className="w-4 h-4" aria-hidden="true" />
+            </a>
+          )}
           {href && (
             <LinkPartnerski href={href} modul="ceneo" partner="ceneo" karta={`akcesoria-${dzial}-${p.id}`} className="flex items-center justify-center gap-2 min-h-[46px] rounded-xl bg-rust-600 hover:bg-rust-700 text-white font-bold text-[15px]">
               Porównaj ceny na Ceneo <ArrowRight className="w-4 h-4" aria-hidden="true" />
