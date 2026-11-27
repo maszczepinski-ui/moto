@@ -24,6 +24,8 @@ import SekcjaPoradnikowGlowna from '@/components/SekcjaPoradnikowGlowna';
 import SekcjaOcGlowna from '@/components/SekcjaOcGlowna';
 import SekcjaNajnowszyPoradnik from '@/components/SekcjaNajnowszyPoradnik';
 import SekcjaAktualnosciGlowna from '@/components/SekcjaAktualnosciGlowna';
+import HeroPoradniki from '@/components/HeroPoradniki';
+import { PORADNIKI } from '@/lib/poradniki';
 import SekcjaNiezbednikaGlowna from '@/components/sklep/SekcjaNiezbednikaGlowna';
 import { NAZWY_KATEGORII } from '@/lib/wpisy';
 import { PlayCircle } from 'lucide-react';
@@ -125,54 +127,52 @@ export default function HomePage() {
 
   return (
     <div className="space-y-16 pb-4">
-      {/* Nagłówek ze zdjęciem */}
-      <section className="relative overflow-hidden bg-slate-900 text-white">
-        <ZdjecieTla klucz="glowne" priorytet className="opacity-75" />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-900/55 to-transparent" aria-hidden="true" />
-        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-slate-950/60 to-transparent" aria-hidden="true" />
-        <div className="relative max-w-6xl mx-auto px-4 py-16 sm:py-24 lg:py-28">
-          <div className="max-w-2xl space-y-5">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur text-xs font-semibold">
-              <Database className="w-4 h-4" aria-hidden="true" />
-              Dane z państwowej bazy CEPiK
+      {/* Nagłówek ze zdjęciem: po lewej hasło i przyciski, po prawej kafelki z najważniejszymi poradnikami */}
+      <section className="relative overflow-hidden bg-slate-950 text-white">
+        <ZdjecieTla klucz="glowne" priorytet className="opacity-30" />
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-slate-950/80 to-slate-900/50" aria-hidden="true" />
+        <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-950 to-transparent" aria-hidden="true" />
+        <div className="absolute -top-32 -left-24 w-[32rem] h-[32rem] rounded-full bg-rust-600/25 blur-3xl" aria-hidden="true" />
+        <div className="absolute -bottom-40 right-0 w-[36rem] h-[28rem] rounded-full bg-sky-500/15 blur-3xl" aria-hidden="true" />
+        <div className="relative max-w-6xl mx-auto px-4 pt-12 pb-24 sm:pt-16 sm:pb-28 lg:pt-20 lg:pb-32 grid grid-cols-1 lg:grid-cols-[1.1fr_1fr] gap-10 lg:gap-14 items-center">
+          <div className="space-y-6">
+            <div className="inline-flex items-center gap-2 pl-1.5 pr-3 py-1 rounded-full bg-white/[0.07] ring-1 ring-white/15 text-xs font-semibold text-white/90">
+              <span className="w-6 h-6 rounded-full bg-rust-600 flex items-center justify-center">
+                <Database className="w-3.5 h-3.5" aria-hidden="true" />
+              </span>
+              Dane z&nbsp;państwowej bazy CEPiK
             </div>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-[1.05]">
-              Poradniki, raporty i&nbsp;wiedza o&nbsp;autach <span className="text-rust-400">w&nbsp;jednym miejscu</span>
+            <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold tracking-tight leading-[1.04] text-balance">
+              Poradniki, raporty i&nbsp;wiedza o&nbsp;autach{' '}
+              <span className="bg-gradient-to-r from-rust-400 to-amber-300 bg-clip-text text-transparent">w&nbsp;jednym miejscu</span>
             </h1>
-            <p className="text-lg text-slate-200 leading-relaxed">
-              Ile jeździ danego modelu i gdzie, na co uważać przy zakupie, ile kosztuje trasa, gdzie są ładowarki i fotoradary – bez szukania po dziesięciu stronach.
+            <p className="text-lg text-slate-300 leading-relaxed max-w-xl">
+              Na co uważać przy zakupie, ile jeździ danego modelu, ile kosztuje trasa i&nbsp;co zrobić po kolizji – bez szukania po dziesięciu stronach.
             </p>
-            <div className="flex flex-wrap gap-3 pt-1">
-              <a href="#modele" className="inline-flex items-center gap-2 bg-rust-600 hover:bg-rust-700 text-white font-bold px-5 py-3 rounded-xl">
+            <div className="flex flex-wrap gap-3">
+              <a href="#modele" className="inline-flex items-center gap-2 bg-white text-slate-900 hover:bg-slate-100 font-bold px-4 sm:px-5 py-3 rounded-xl shadow-lg shadow-black/20">
                 <Search className="w-4 h-4" aria-hidden="true" /> Znajdź swój model
               </a>
-              <Link href="/asystent-zakupu/" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur border border-white/30 font-bold px-5 py-3 rounded-xl">
+              <Link href="/asystent-zakupu/" className="inline-flex items-center gap-2 bg-white/[0.07] hover:bg-white/15 ring-1 ring-white/25 font-bold px-4 sm:px-5 py-3 rounded-xl">
                 Kupujesz auto? <ArrowRight className="w-4 h-4" aria-hidden="true" />
               </Link>
             </div>
-            <dl className="flex flex-wrap gap-x-8 gap-y-2 pt-3 text-sm text-slate-300">
-              <div>
-                <dt className="sr-only">Modele w atlasie</dt>
-                <dd>
-                  <strong className="text-white text-xl tabular-nums">{models.length.toLocaleString('pl-PL')}</strong> kart modeli
-                </dd>
+            <dl className="grid grid-cols-3 max-w-lg divide-x divide-white/10 rounded-2xl bg-white/[0.04] ring-1 ring-white/10">
+              <div className="px-3 sm:px-4 py-3 flex flex-col-reverse justify-end gap-0.5">
+                <dt className="text-[11px] text-slate-400 leading-tight">kart modeli</dt>
+                <dd className="text-lg sm:text-2xl font-extrabold tabular-nums whitespace-nowrap">{models.length.toLocaleString('pl-PL')}</dd>
               </div>
-              {lacznie > 0 && (
-                <div>
-                  <dt className="sr-only">Zarejestrowane auta</dt>
-                  <dd>
-                    <strong className="text-white text-xl tabular-nums">{(lacznie / 1e6).toLocaleString('pl-PL', { maximumFractionDigits: 1 })} mln</strong> rejestracji w bazie CEPiK
-                  </dd>
-                </div>
-              )}
-              <div>
-                <dt className="sr-only">Województwa</dt>
-                <dd>
-                  <strong className="text-white text-xl">16</strong> województw na mapie
-                </dd>
+              <div className="px-3 sm:px-4 py-3 flex flex-col-reverse justify-end gap-0.5">
+                <dt className="text-[11px] text-slate-400 leading-tight">rejestracji w&nbsp;CEPiK</dt>
+                <dd className="text-lg sm:text-2xl font-extrabold tabular-nums whitespace-nowrap">{lacznie > 0 ? `${(lacznie / 1e6).toLocaleString('pl-PL', { maximumFractionDigits: 1 })} mln` : '—'}</dd>
+              </div>
+              <div className="px-3 sm:px-4 py-3 flex flex-col-reverse justify-end gap-0.5">
+                <dt className="text-[11px] text-slate-400 leading-tight">poradników</dt>
+                <dd className="text-lg sm:text-2xl font-extrabold tabular-nums whitespace-nowrap">{PORADNIKI.length}</dd>
               </div>
             </dl>
           </div>
+          <HeroPoradniki />
         </div>
       </section>
 
