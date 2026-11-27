@@ -1929,7 +1929,8 @@ const STALE: Poradnik[] = [
           {
             typ: 'p',
             t: 'Zamarzniętych drzwi i szyb nie polewaj gorącą wodą – szyba może pęknąć od różnicy temperatur. Lepiej użyć odmrażacza albo poczekać, aż nawiew rozgrzeje szybę od środka.'
-          }
+          },
+          { typ: 'link', t: 'Akcesoria zimowe – co kupić i na co uważać', o: 'Skrobaczka, booster, prostownik, łańcuchy – na co patrzeć przy zakupie i gdzie porównać ceny.', href: '/akcesoria/zimowe/' }
         ]
       }
     ],
