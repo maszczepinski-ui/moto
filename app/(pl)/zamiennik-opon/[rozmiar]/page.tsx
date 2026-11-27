@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { Ruler } from 'lucide-react';
+import { Ruler, Tag } from 'lucide-react';
+import { infoRozmiaru } from '@/lib/opony-dobor';
 import StronaNarzedzia, { H2, Tabela, type Pytanie, type Sekcja } from '@/components/narzedzia/StronaNarzedzia';
 import KalkulatorZamiennikow from '@/components/narzedzia/KalkulatorZamiennikow';
 import KalkulatorFelg from '@/components/narzedzia/KalkulatorFelg';
@@ -87,6 +88,9 @@ export default async function RozmiarPage({ params }: { params: Promise<{ rozmia
       narzedzie={<KalkulatorZamiennikow start={o} />}
       przedTrescia={
         <SiatkaCta>
+          {infoRozmiaru(slugOpony(o)) && (
+            <Odnosnik href={`/dobor-opon/${slugOpony(o)}/`} ikona={Tag} tytul={`Ceny opon ${nazwa}`} tekst="Porównaj opony zimowe, letnie i całoroczne w tym rozmiarze." />
+          )}
           <CtaOpony karta="narzedzie-zamienniki" rozmiar={nazwa} />
           <Odnosnik href="/kalkulator-felg/" ikona={Ruler} tytul="Kalkulator felg i ET" tekst="Szersza opona? Sprawdź na rysunku, czy zmieści się w nadkolu." />
         </SiatkaCta>

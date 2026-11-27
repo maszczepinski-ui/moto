@@ -1,3 +1,4 @@
+import { MIN_OFERT_GOOGLE, indeksOpon, liczbaOfert, wszystkieRozmiary } from '@/lib/opony-dobor';
 import { PORADNIKI, dataAktualizacji } from '@/lib/poradniki';
 import { opublikowaneAktualnosci, aktualnosciTypu, TYPY, type TypAktualnosci } from '@/lib/aktualnosci';
 // Mapy strony dla Google: indeks (/sitemap.xml) + mapy tematyczne (/sitemaps/*.xml), max 5000 adresów w pliku
@@ -75,6 +76,10 @@ function grupy(): Record<string, Adres[]> {
       { loc: '/mandaty/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/przypomnienia/', changefreq: 'monthly', priority: 0.6 },
       { loc: '/opony/', changefreq: 'monthly', priority: 0.8 },
+      { loc: '/dobor-opon/', lastmod: indeksOpon().aktualizacja || undefined, changefreq: 'daily', priority: 0.8 },
+      ...wszystkieRozmiary()
+        .filter((x) => liczbaOfert(x.info) >= MIN_OFERT_GOOGLE)
+        .map((x) => ({ loc: `/dobor-opon/${x.slug}/`, lastmod: indeksOpon().aktualizacja || undefined, changefreq: 'daily', priority: 0.6 })),
       { loc: '/strefy-czystego-transportu/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/kalkulator-akcyzy/', changefreq: 'monthly', priority: 0.8 },
       { loc: '/chinskie-samochody/', changefreq: 'monthly', priority: 0.8 },

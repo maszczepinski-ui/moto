@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { CircleDot, Ruler } from 'lucide-react';
+import { CircleDot, Ruler, Tag } from 'lucide-react';
 import StronaNarzedzia, { H2 } from '@/components/narzedzia/StronaNarzedzia';
 import KalkulatorFelg from '@/components/narzedzia/KalkulatorFelg';
 import { CtaOpony, Odnosnik, SiatkaCta } from '@/components/narzedzia/Cta';
@@ -32,6 +32,7 @@ export default function FelgiPage() {
       przedTrescia={
         <SiatkaCta>
           <CtaOpony karta="narzedzie-felgi" />
+          <Odnosnik href="/dobor-opon/" ikona={Tag} tytul="Dobór opon i ceny" tekst="Opony w Twoim rozmiarze – porównaj marki i ceny." />
           <Odnosnik href="/zamiennik-opon/" ikona={Ruler} tytul="Zamienniki rozmiaru opon" tekst="Jakie rozmiary mają prawie tę samą średnicę koła." />
           <Odnosnik href="/opony/" ikona={CircleDot} tytul="Co znaczy rozmiar, DOT i bieżnik" tekst="Odczytaj oznaczenia z boku opony i sprawdź jej wiek." />
         </SiatkaCta>

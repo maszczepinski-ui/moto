@@ -138,6 +138,9 @@ export default function OponyPage() {
                     {n}
                   </a>
                 ))}
+                <a href="/dobor-opon/" className="rounded-full bg-rust-600 hover:bg-rust-700 px-4 py-2 transition">
+                  Dobór opon i ceny →
+                </a>
               </nav>
             </div>
             {/* termometr 7°C */}

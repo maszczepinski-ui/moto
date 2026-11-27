@@ -91,6 +91,7 @@ export function menuGlowne(): GrupaMenu[] {
         { nazwa: 'Kalkulator akcyzy', opis: 'Auto z zagranicy: akcyza, cło, opłaty', adres: '/kalkulator-akcyzy/', ikona: 'kalkulator', nowe: true },
         { nazwa: 'Porównaj OC i AC', opis: 'Kalkulator cen ubezpieczenia auta', adres: '/ubezpieczenie-oc/', ikona: 'ubezpieczenie', nowe: true },
         { nazwa: 'Opony', opis: 'Kiedy wymienić, bieżnik, wiek opony', adres: '/opony/', ikona: 'opony', nowe: true },
+        { nazwa: 'Dobór opon i ceny', opis: 'Opony w Twoim rozmiarze – porównaj ceny', adres: '/dobor-opon/', ikona: 'opony', nowe: true },
         { nazwa: 'Kalkulator felg i ET', opis: 'Czy nowe koła zmieszczą się w nadkolu', adres: '/kalkulator-felg/', ikona: 'opony', nowe: true },
         { nazwa: 'Sklep – Niezbędniki', opis: 'Płatne pakiety plików: oferta i cennik', adres: '/sklep/', ikona: 'shopping', nowe: true },
         { nazwa: 'Przypomnienie o OC i oponach', opis: 'E-mail przed końcem polisy, przeglądu i sezonem', adres: '/przypomnienia/', ikona: 'bell', nowe: true },

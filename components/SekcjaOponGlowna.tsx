@@ -80,6 +80,9 @@ export default function SekcjaOponGlowna() {
           <Link href="/opony/" className="inline-flex items-center gap-2 bg-white text-slate-900 font-extrabold px-5 py-3 rounded-xl hover:bg-sky-50">
             Sprawdź opony <ArrowRight className="w-4 h-4" aria-hidden="true" />
           </Link>
+          <Link href="/dobor-opon/" className="inline-flex items-center gap-2 bg-rust-600 hover:bg-rust-700 text-white font-extrabold px-5 py-3 rounded-xl">
+            Dobór opon i ceny <ArrowRight className="w-4 h-4" aria-hidden="true" />
+          </Link>
           {sklep && (
             <LinkPartnerski href={sklep.url} partner={sklep.nazwa.toLowerCase()} modul="opony" karta="strona-glowna" className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 ring-1 ring-white/30 font-bold px-5 py-3 rounded-xl">
               Opony w {sklep.nazwa} <ExternalLink className="w-4 h-4" aria-hidden="true" />
